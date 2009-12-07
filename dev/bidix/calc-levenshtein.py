@@ -56,5 +56,7 @@ for line in sys.stdin.read().split('\n'): #{
 
 	# we multiply the probability by the levenshtein distance to downweight
 	# unlikely (read non-cognate) translations
-	print str(prob * lev) + ' ' + row[1] + ' ' + row[2];
+	if str(prob * lev).count('-') < 1: #{
+		print str(prob * lev) + ' ' + row[1] + ' ' + row[2];
+	#}
 #}

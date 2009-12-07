@@ -7,16 +7,13 @@
 1.0000000 vanhurskkis<A*><Adv> oikein<Part>/oikein<Adv>/oikea<A>
 1.0000000 suoli<Adv> salaisesti<Adv>/sala<N>/salainen<A>
 1.0000000 sierra<Adv> erillään<Adv>/erä<N>
-1.0000000 roahkkat<A*><Adv>/roahkkat<A> jotenkin<Part>/jotenkin<Adv>
 1.0000000 ovddal#gihtii<Adv> edeltäkäsin<Adv>
 1.0000000 ovdda#bealde<Adv> edessäpäin<Adv>
 1.0000000 ollu<Adv> inhimillisesti<Adv>/inhimillinen<A>
 1.0000000 olgguldasat<Adv> ulkonainen<A>/ulko<Pref>+nainen<N>/ulkonaisesti<Adv>
 1.0000000 olggul<Adv> ulkoa<Adv>
 1.0000000 njuolgga<Adv> suora<N>/suora<A>/suoraan<Adv>
-1.0000000 nannosit<Adv>/nanus<A> vahvasti<Adv>/vahva<A>
 1.0000000 mo<CS>/mo<Adv> mihinkä<Adv>
-1.0000000 maninge<Adv>/manin<Adv> tuntea<V>
 1.0000000 máŋget<V><TV>/máŋgii<Adv> paljon<Adv>/paljo<A>
 1.0000000 lahka<Adv> parras<N>/par<N>+taka<N>/partaalle<Adv>
 1.0000000 lagabus<Adv> lähempänä<Adv>/lähempi<A>
@@ -46,12 +43,10 @@
 1.0000000 boaššolabbui<Adv> ylempi<A>/ylemmäksi<Adv>
 1.0000000 báhtarussii<Adv> karkuun<Adv>
 1.0000000 bahča<A>/bahča<A*><Adv> katkera<A>/katkerasti<Adv>
-1.0000000 almmus<A*><Adv>/almmus<A> julki<Adv>
 1.0000000 álkit<Adv> helposti<Adv>/helppo<A>
 1.0000000 álelassii<Adv> aina<Part>/aina<Adv>/Aina<N><Prop>
 1.0000000 agi#beaivái<Adv> ikä<N>/iäksi<Adv>
 0.8888889 fáhkkestaga<Adv> yhtäkkiä<Adv>
-0.8571429 árrat<Adv>/árrat<A> varhain<Adv>
 0.8235294 sullii<Adv> tuo<Pron>/noin<Part>/noki<N>/noin<Adv>
 0.8106061 duođaid<Adv> totisesti<Adv>/totinen<A>/toti<N>
 0.8000000 golbmii<Adv> kolmesti<Adv>/kolme<Num>
@@ -76,7 +71,6 @@
 0.6571429 olggos<Adv> ulos<Adv>
 0.6470588 álo<Adv> aina<Part>/aina<Adv>
 0.6333333 mo<Adv> kuinka<Adv>
-0.6250000 vuostái<Adv>/vuostá<N>/vuosti<N> vasta<N>/vastaan<Po>/vastata<V>/vastaan<Adv>
 0.6250000 álo<Adv> aina<Part>/aina<Adv>
 0.6000000 suoli<Adv> salata<V>/sala<N>/salaa<Adv>
 0.6000000 ikte<Adv> eilen<Adv>
@@ -112,7 +106,6 @@
 0.5000000 seammás<Adv> taaksepäin<Adv>
 0.5000000 seammás<Adv> samassa<Adv>/sama<Pron>
 0.5000000 seahkalagaid<Adv> mukana<Adv>
-0.5000000 ovttas<Adv>/okta<Num> yhde<N>/yksi<Num>/yks<Pron>/yhteen<Adv>/yksi<Pron>
 0.5000000 oppanassii<Adv> tarkoin<Adv>/tarkka<A>
 0.5000000 olgun<Adv> eteen<Po>/eteen<Adv>
 0.5000000 olgguldasat<Adv> ulkonainen<A>/ulko<Pref>+nainen<N>/ulkonaisesti<Adv>
@@ -120,22 +113,17 @@
 0.5000000 okto<Adv> yksinään<Adv>/yksi<Num>
 0.5000000 oaivválassii<Adv> alkaa<V>/alas<Adv>
 0.5000000 nu<Adv> ovela<A>/ovelasti<Adv>
-0.5000000 nannosit<Adv>/nanus<A> vahvasti<Adv>/vahva<A>
 0.5000000 mielde<Adv> tuhatmäärin<Adv>/tuhat<N>+määrä<N>
-0.5000000 maninge<Adv>/mii<Pron><Rel>/manin<Adv> halpa<A>+suku<N>/halpa<A>+sukuinen<A>
 0.5000000 máŋgii<Adv> muinoin<Adv>/muu<A>+oka<N>
 0.5000000 máŋgii<Adv> monesti<Adv>
 0.5000000 loahppa<N>/loahpas<Adv> vihtoa<V>/vihdoin<Part>/vihta<N>/vihdoin<Adv>
 0.5000000 loahpas<Adv> viimeiseksi<Adv>/viimeinen<A>
 0.5000000 liikká<Adv> kaikkialta<Adv>
 0.5000000 liiggás<Adv> liikaa<Adv>/liika<N>
-0.5000000 lagamuš<A*><Adv>/lagamuš<N> mukaan<Adv>/mukaan<Po>
 0.5000000 lagabuidda<Adv> tarkemmin<Adv>
 0.5000000 lagabuidda<Adv> lähemmäksi<Adv>/lähempi<A>
 0.5000000 johtil<A*><Adv> edellä<Adv>/edeltää<V>
 0.5000000 jitnoseabbot<Adv> enemmän<Adv>/enempi<A>
-0.5000000 jierbmi<N*><A*><Adv>/jierbmi<N*><A> kohtuullinen<A>/kohtuullisesti<Adv>/kohtuu<N>
-0.5000000 jierbmi<N*><A*><Adv>/jierbmi<N*><A> kohtuullinen<A>/kohtuullisesti<Adv>/kohtuu<N>
 0.5000000 jaska<Adv> se<Pron>/niin<Adv>/niin<Part>
 0.5000000 jaska<Adv> hiljaa<Adv>
 0.5000000 illá<Adv> vaivoin<Adv>/vaiva<N>
@@ -154,7 +142,6 @@
 0.5000000 gitta<Adv> kiinni<Adv>
 0.5000000 gitta<Adv> ahkera<A>/ahkerasti<Adv>
 0.5000000 gierdavaš<A*><Adv> kärsivällinen<A>/kärsivällisesti<Adv>/kärsiä<V>
-0.5000000 gárremiidda<Adv>/gárret<V*><TV><N> juovuksiin<Adv>
 0.5000000 gal<Adv> mahdollisesti<Adv>/mahdollinen<A>
 0.5000000 fastt#ain<Adv> toistamiseen<Adv>/toistaa<V>
 0.5000000 eret<Adv> kauas<Adv>
@@ -169,7 +156,6 @@
 0.5000000 danne<Adv> kuulumattomiin<Adv>/kuulua<V>/kuulumaton<A>
 0.5000000 dallánaga<Adv> kohta<N>/kohta<Adv>
 0.5000000 čoahkkái<Adv> koolle<Adv>/koko<N>
-0.5000000 čielggas<A*><Adv>/čielggas<A> toteen<Adv>/tosi<A>
 0.5000000 čakčat<Adv> kahdesti<Adv>/kaksi<Num>
 0.5000000 bures<Adv> nuhteettomasti<Adv>/nuhteeton<A>
 0.5000000 bálddalagaid<Adv> yksi<Num>/yksi<Pron>/yhdessä<Adv>
@@ -209,7 +195,6 @@
 0.4191617 doppe<Adv> siellä<Adv>/se<Pron>
 0.4154303 eret<Adv> pois<Adv>
 0.4100000 bajás<Adv> ylös<Adv>
-0.4035088 maid<Adv>/mii<Pron><Rel> mikä<Pron>/mitä<Adv>
 0.4000000 vuollin<Adv> alhaalla<Adv>
 0.4000000 valljugasat<Adv> yltäkyllin<Adv>
 0.4000000 ovtta#mielalaččat<Adv> yksimielisesti<Adv>/yksimielinen<A>
@@ -217,7 +202,6 @@
 0.4000000 nuvttá<Adv> ilma<N>/ilmainen<A>/ilmaiseksi<Adv>
 0.4000000 nuvttá<Adv> ilma<N>/ilmainen<A>/ilmaiseksi<Adv>
 0.4000000 maŋŋil<Adv> jäljestäpäin<Adv>
-0.4000000 maŋŋelaš<Adv>/maŋŋelaš<A> perä<N>/perästä<Po>/perästä<Adv>
 0.4000000 hánis<A*><Adv> niukasti<Adv>/niukka<A>
 0.4000000 guhkkelii<Adv> edempi<A>/edemmäksi<Adv>
 0.4000000 eret<Adv> loitto<N>/loitolla<Adv>
@@ -258,16 +242,12 @@
 0.3333333 oktan<Adv> mukana<Adv>
 0.3333333 ohpit<Adv> se<Pron>/niin<Adv>/niin<Part>
 0.3333333 ohpit<Adv> paljon<Adv>/paljo<A>
-0.3333333 oanehaš<A*><Adv>/oanehaš<A> lyhyt<A>/lyhyesti<Adv>
 0.3333333 njulgestaga<Adv> suora<N>/suora<A>/suoraan<Adv>
 0.3333333 njulgestaga<Adv> suora<N>/suora<A>/suoraan<Adv>
 0.3333333 ná<Adv> itsekseen<Adv>
 0.3333333 milloseabbot<Adv> mieluummin<Adv>
 0.3333333 mearri<N*><A*><Adv> siveä<A>/siveästi<Adv>
-0.3333333 mealgadii<Adv>/mealgat<A> loitommaksi<Adv>
 0.3333333 maninge<Adv>/mii<Pron><Rel>/manin<Adv> mikä<Pron>/mikään<Pron>/mihinkään<Adv>
-0.3333333 maninge<Adv>/mii<Pron><Rel>/manin<Adv> kelvata<V>
-0.3333333 maninge<Adv>/mii<Pron><Rel>/manin<Adv> halpa<A>+suku<N>/halpa<A>+sukuinen<A>
 0.3333333 manin<Adv> mihin<Adv>/mikä<Pron>
 0.3333333 maŋŋil<Adv> vastedes<Adv>
 0.3333333 maŋŋelaš<Adv> jälkeen<Po>/jälkeen<Adv>/jälki<N>
@@ -276,7 +256,6 @@
 0.3333333 maŋá#bealde<Adv> taka<N>/taata<V>/takaa<Adv>
 0.3333333 maŋá#bealde<Adv> takana<Adv>/taka<N>
 0.3333333 maŋá#bealde<Adv> taampana<Adv>
-0.3333333 maid<Adv>/mii<Pron><Rel>/mii<Pron><Interr> mikä<Pron>/mitä<Adv>
 0.3333333 loahppa<N>/loahpas<Adv> vihtoa<V>/vihdoin<Part>/vihta<N>/vihdoin<Adv>
 0.3333333 loahpas<Adv> vihtoa<V>/vihdoin<Part>/vihta<N>/vihdoin<Adv>
 0.3333333 loahpas<Adv> lopuksi<Adv>/loppu<N>
@@ -294,10 +273,8 @@
 0.3333333 gudni<N*><A*><Adv> säädyllinen<A>/sääty<N>/säädyllisesti<Adv>
 0.3333333 gos<Adv> maa<N>/maitse<Adv>
 0.3333333 goasse<Adv> milloinkaan<Adv>
-0.3333333 gárremiidda<Adv>/gárret<V*><TV><N> juovuksiin<Adv>
 0.3333333 gal<Adv> yksistään<Adv>/yksi<Num>
 0.3333333 fávlelii<Adv> syvä<A>/syvälle<Adv>
-0.3333333 fárus<Adv>/fárru<N> kiinteästi<Adv>/kiinteä<A>
 0.3333333 fámolaččat<Adv> voimallinen<A>/voimallisesti<Adv>/voi<N>+malli<N>/voida<V>/voi<N>+mallinen<A>/voima<N>
 0.3333333 fámolaččat<Adv> voimallinen<A>/voimallisesti<Adv>/voi<N>+malli<N>/voida<V>/voi<N>+mallinen<A>/voima<N>
 0.3333333 fámolaččat<Adv> mukaan<Adv>/mukaan<Po>
@@ -314,7 +291,6 @@
 0.3333333 dassážii<Adv> ylempi<A>/ylempänä<Adv>
 0.3333333 dassážii<Adv> innokas<A>/innokkaasti<Adv>
 0.3333333 dárkil<A*><Adv> tarkoin<Adv>/tarkka<A>
-0.3333333 dainna<Adv>/dat<Pron><Pers> näin<Part>/tämä<Pron>/nähdä<V>/näin<Adv>
 0.3333333 dađe<Adv> pikemmin<Adv>/pikemmin<Part>
 0.3333333 dá<Adv> tuo<Pron>/tuossa<Adv>
 0.3333333 čorpma#dievva<Adv> keskeltä<Adv>/keskeltä<Po>
@@ -324,7 +300,6 @@
 0.3333333 buorebut<Adv> enemmän<Adv>/enempi<A>
 0.3333333 boastut<Adv> pahasti<Adv>/paha<A>
 0.3333333 boarka<A*><Adv> kohta<N>/kohdata<V>/kohtaan<Adv>
-0.3333333 áŋgir<A*><Adv>/áŋgir<A> innokas<A>/innokkaasti<Adv>
 0.3333333 almmus<A*><Adv> vapaa<A>/vapaasti<Adv>
 0.3333333 almmus<A*><Adv> julkinen<A>/julkisesti<Adv>
 0.3333333 almmá<Adv> olla<V>/ollenkaan<Adv>
@@ -335,7 +310,6 @@
 0.3225806 duššás<Adv> turha<A>/turhaan<Adv>
 0.3214286 ruovtto#luotta<Adv> takainen<A>/takaisin<Adv>/taka<N>/taata<V>/taka<Pref>+isä<N>/taka<Pref>+isi<N>/taka<N>+isi<N>/taka<N>+isä<N>
 0.3200000 baicca<Adv> ennemmin<Adv>
-0.3157895 árrat<Adv>/árrat<A> varhain<Adv>
 0.3148148 dakka#viđe<Adv> heti<Adv>
 0.3076923 ovddal#gihtii<Adv> edeltä<Adv>/edeltä<Po>
 0.3076923 dás<Adv> tästedes<Adv>
@@ -385,7 +359,6 @@
 0.2500000 mieldálagaid<Adv> sisälle<Adv>
 0.2500000 menddo<Adv> liikaa<Adv>/liika<N>
 0.2500000 mearri<N*><A*><Adv> siveä<A>/siveästi<Adv>
-0.2500000 mealgadii<Adv>/mealgat<A> loitommaksi<Adv>
 0.2500000 maŋimustá<Adv> viimeiseksi<Adv>/viimeinen<A>
 0.2500000 máŋgii<Adv> monesti<Adv>
 0.2500000 liiggás<Adv> liikaa<Adv>/liika<N>
@@ -397,14 +370,9 @@
 0.2500000 guhkkelis<Adv> taampana<Adv>
 0.2500000 guhká<Adv> jälkeenpäin<Adv>
 0.2500000 goasii<Adv> miltei<Adv>
-0.2500000 giitevaš<A*><Adv>/giitevaš<A> siten<Adv>/siten<Part>
-0.2500000 gievra<A*><Adv>/gievra<A> kaiketi<Part>/kaiketi<Adv>
 0.2500000 gierdavaš<A>/gierdavaš<A*><Adv> kohta<N>/kohdata<V>/kohtaan<Adv>
 0.2500000 geardde<Adv> viisi<Num>/viidesti<Adv>
-0.2500000 gaskka<Adv>/gaska<N>/gaskka<N> taampana<Adv>
-0.2500000 gaskka<Adv>/gaska<N>/gaskka<N> siellä<Adv>/se<Pron>
 0.2500000 fuolakeahttá<Adv> ilman<Po>/ilma<N>/ilman<Adv>
-0.2500000 fárus<Adv>/fárru<N> kiinteästi<Adv>/kiinteä<A>
 0.2500000 fargga<Adv> pitkälle<Adv>/pitkä<A>
 0.2500000 fargga<Adv> äkisti<Adv>
 0.2500000 eatnat<Adv> mukaan<Adv>/mukaan<Po>
@@ -469,17 +437,8 @@
 0.2000000 valljugas<A*><Adv> verto<N>/verroin<Adv>
 0.2000000 suoli<Adv> salaisesti<Adv>/sala<N>/salainen<A>
 0.2000000 seammás<Adv> heti<Adv>
-0.2000000 roahkkat<A*><Adv>/roahkkat<A> uusi<A>/uudestaan<Adv>
-0.2000000 roahkkat<A*><Adv>/roahkkat<A> rohkea<A>/rohkeasti<Adv>
-0.2000000 roahkkat<A*><Adv>/roahkkat<A> paikko<N>/paikka<N>/paikoin<Adv>/pai<N>+koi<N>
-0.2000000 roahkkat<A*><Adv>/roahkkat<A> paikko<N>/paikka<N>/paikoin<Adv>/pai<N>+koi<N>
-0.2000000 roahkkat<A*><Adv>/roahkkat<A> jotenkin<Part>/jotenkin<Adv>
 0.2000000 ollásit<Adv> loppu<N>/loppuun<Adv>
 0.2000000 olgguldas<N>/olgguldasat<Adv> luonnos<N>/luonnos<N>+taka<N>/luonnostaan<Adv>/luonto<N>
-0.2000000 oanehaš<A*><Adv>/oanehaš<A> lyhyt<A>/lyhyesti<Adv>
-0.2000000 oanehaš<A*><Adv>/oanehaš<A> edellä<Adv>/edeltää<V>
-0.2000000 nu<Adv><Qst>/nugo<CS> se<Pron>/niin<Adv>/niin<Part>
-0.2000000 nu<Adv><Qst> eilen<Adv>
 0.2000000 nie<Adv> se<Pron>/niin<Adv>/niin<Part>
 0.2000000 láse#ráigge<Adv> valta<N>/vallassa<Adv>
 0.2000000 jámas<Adv> rikki<Adv>/rikki<N>
@@ -493,7 +452,6 @@
 0.2000000 goitge<Adv> jossakin<Adv>/jokin<Pron>/joka<Pron>
 0.2000000 goitge<Adv> jossakin<Adv>/jokin<Pron>/joka<Pron>
 0.2000000 gitta<Adv> taampana<Adv>
-0.2000000 giitevaš<A*><Adv>/giitevaš<A> siten<Adv>/siten<Part>
 0.2000000 gierdavaš<A*><Adv> kärsivällinen<A>/kärsivällisesti<Adv>/kärsiä<V>
 0.2000000 geardde<Adv> kerralla<Adv>/kerta<N>
 0.2000000 garas<A*><Adv> enemmän<Adv>/enempi<A>
@@ -512,7 +470,6 @@
 0.2000000 dál<Adv> tarkkaan<Adv>/tarkata<V>/tarkka<A>
 0.2000000 dađistaga<Adv> enemmän<Adv>/enempi<A>
 0.2000000 badjin<Adv> ylhäällä<Adv>
-0.2000000 áŋgir<A*><Adv>/áŋgir<A> innokas<A>/innokkaasti<Adv>
 0.2000000 albmosii<Adv> julki<Adv>
 0.2000000 aivve<Adv> silta<N>/silloin<Part>/silloin<Adv>/silla<N>
 0.2000000 ain<Adv> koto<N>/kotoa<Adv>
@@ -541,8 +498,6 @@
 0.1739130 olggo#bealde<Adv> ulkona<Adv>
 0.1739130 maŋŋil<Adv> jälkeen<Po>/jälkeen<Adv>/jälki<N>
 0.1682692 dalle<Adv> silta<N>/silloin<Part>/silloin<Adv>/silla<N>
-0.1666667 vuolibuš<Adv>/vuolibuš<N> alle<Po>/alle<Adv>
-0.1666667 vuolibuš<Adv>/vuolibuš<N> alla<Adv>/alla<Po>
 0.1666667 veagal<Adv> vasta<N>/vastaan<Po>/vastata<V>/vastaan<Adv>
 0.1666667 veagal<Adv> väki<N>/väkisin<Adv>/väkinen<Suff>
 0.1666667 valljugasat<Adv> yltäkyllin<Adv>
@@ -620,7 +575,6 @@
 0.1428571 oktanaga<Adv> taka<N>/taata<V>/takaa<Adv>
 0.1428571 ođđasis<Adv> ylhäältä<Adv>
 0.1428571 ođđasis<Adv> pystyyn<Adv>/pysty<A>
-0.1428571 nu<Adv><Qst> eksyksissä<Adv>
 0.1428571 nu<Adv> kyllin<Part>/kyllin<Adv>
 0.1428571 mielde<Adv> noja<N>/nojalla<Adv>
 0.1428571 mielde<Adv> enempää<Adv>/enempi<A>
@@ -641,7 +595,6 @@
 0.1428571 fáhkka<Adv> nopea<A>/nopeasti<Adv>
 0.1428571 eret<Adv> eksyksissä<Adv>
 0.1428571 eambbo<Adv> mikä<Pron>/mikään<Pron>/mihinkään<Adv>
-0.1428571 eakto#dáhtolaččat<Adv>/eakto#dáhtolaš<A> yli<Po>/yli<Part>/yli<Adv>
 0.1428571 dohkálaččat<Adv> se<Pron>/niin<Adv>/niin<Part>
 0.1428571 dohkálaččat<Adv> säädyllinen<A>/sääty<N>/säädyllisesti<Adv>
 0.1428571 dohkálaččat<Adv> mieliksi<Adv>/mieli<N>
@@ -674,7 +627,6 @@
 0.1250000 riekta<A>/riekta<Adv> oikein<Part>/oikein<Adv>/oikea<A>
 0.1250000 ovdan<Adv> esille<Adv>
 0.1250000 ovdan<Adv> esiin<Adv>
-0.1250000 nu<Adv><Qst> mielellään<Adv>/mieli<N>
 0.1250000 njuolga<Adv> kiinteästi<Adv>/kiinteä<A>
 0.1250000 njuolga<Adv> heti<Adv>
 0.1250000 njuolga<Adv> edeltäpäin<Adv>
@@ -706,7 +658,6 @@
 0.1250000 áibbas<Adv> koko<N>/kokonaan<Adv>
 0.1200000 seammás<Adv> samassa<Adv>/sama<Pron>
 0.1176471 maŋŋil<Adv> perä<N>/perästä<Po>/perästä<Adv>
-0.1176471 maŋŋelaš<Adv>/maŋŋelaš<A> perä<N>/perästä<Po>/perästä<Adv>
 0.1176471 dárkil<A*><Adv> tarkoin<Adv>/tarkka<A>
 0.1176471 álelassii<Adv> aina<Part>/aina<Adv>
 0.1176471 albmosii<Adv> julki<Adv>
@@ -717,14 +668,12 @@
 0.1111111 vissis<A*><Adv> kaiketi<Part>/kaiketi<Adv>
 0.1111111 vissis<A*><Adv> ennemmin<Adv>
 0.1111111 siste<Adv> sisältä<Po>/sisältä<Adv>
-0.1111111 seammá<Adv>/seammá<Pron><Indef> se<Pron>/niin<Adv>/niin<Part>
 0.1111111 šat<Adv> milloinkaan<Adv>
 0.1111111 ovtta<Adv> yksi<Num>/yksi<Pron>/yhdessä<Adv>
 0.1111111 ovtta<Adv> millään<Adv>/mikään<Pron>
 0.1111111 ovddas<Adv> edellä<Adv>/edeltää<V>
 0.1111111 oktanaga<Adv> taka<N>/taata<V>/takaa<Adv>
 0.1111111 ođđasis<Adv> naida<V>/naimisiin<Adv>
-0.1111111 oanehaš<A*><Adv>/oanehaš<A> edellä<Adv>/edeltää<V>
 0.1111111 mii<Pron><Rel>/man<Adv> mikä<Pron>/mitä<Adv>
 0.1111111 johtil<A*><Adv> edellä<Adv>/edeltää<V>
 0.1111111 iehčanassii<Adv> yksi<Num>/yksikseen<Adv>
@@ -768,7 +717,6 @@
 0.1000000 guhkkin<Adv> taampana<Adv>
 0.1000000 guhkkelis<Adv> taampana<Adv>
 0.1000000 gierdavaš<A*><Adv> näin<Part>/tämä<Pron>/nähdä<V>/näin<Adv>
-0.1000000 gaskka<Adv>/gaska<N>/gaskka<N> taampana<Adv>
 0.1000000 fas<Adv> vasen<A>/vasemmalle<Adv>
 0.1000000 dušše<Adv> nimittäin<Part>/nimittäin<Adv>
 0.1000000 duođaid<Adv> valta<N>/vallalla<Adv>
@@ -858,7 +806,6 @@
 0.0769231 buorebut<Adv> tarkemmin<Adv>
 0.0769231 báhtarussii<Adv> pakoon<Adv>/pako<N>
 0.0769231 árvvas<A*><Adv> ylenpalttinen<A>/ylenpalttisesti<Adv>
-0.0769231 albmosii<Adv>/almmus<A> ilmi<Adv>
 0.0769231 áibbas<Adv> suunniltaan<Adv>/suunta<N>
 0.0769231 áibbas<Adv> koko<N>/kokonaan<Adv>
 0.0759494 eambbo<Adv> enemmän<Adv>/enempi<A>
@@ -866,7 +813,6 @@
 0.0750000 muđuid<Adv> muutto<N>/muutoin<Part>/muutoin<Adv>
 0.0747664 ovddimustá<Adv> ennen<Adv>/ennen<Po>
 0.0745614 man<Adv> kuinka<Adv>
-0.0727273 nu<Adv><Qst> se<Pron>/niin<Adv>/niin<Part>
 0.0714286 sakka<Adv> valta<N>/vallata<V>/valtaan<Adv>
 0.0714286 sadji<N>/sajis<Adv> ympäri<Adv>
 0.0714286 ruovtto#luotta<Adv> jälleen<Adv>
@@ -889,8 +835,6 @@
 0.0675676 nappo<Adv> se<Pron>/niin<Adv>/niin<Part>
 0.0666667 veahá<Adv> uusi<A>/uudestaan<Adv>
 0.0666667 sierranassii<Adv> lähelle<Po>/lähelle<Adv>
-0.0666667 roahkkat<A*><Adv>/roahkkat<A> uusi<A>/uudestaan<Adv>
-0.0666667 roahkkat<A*><Adv>/roahkkat<A> rohkea<A>/rohkeasti<Adv>
 0.0666667 roahkkat<A*><Adv> mikä<Pron>/mitä<Adv>
 0.0666667 ovddimustá<Adv> ensiksi<Adv>
 0.0666667 ovdal<Adv> uusi<A>/uudestaan<Adv>
@@ -919,7 +863,6 @@
 0.0645161 dás<Adv> tästä<Adv>/tämä<Pron>
 0.0634921 ruoktot<Adv> koti<N>/kota<N>/kotiin<Adv>
 0.0625000 rumašlaš<A*><Adv> mukaisesti<Adv>/mukainen<A>
-0.0625000 maninge<Adv>/mii<Pron><Rel>/manin<Adv> kelvata<V>
 0.0625000 erenoamážit<Adv> enemmän<Adv>/enempi<A>
 0.0625000 de<Adv> koko<N>/koolla<Adv>
 0.0625000 áinnas<Adv> irti<Po>/irti<Adv>
@@ -933,7 +876,6 @@
 0.0588235 dárkil<A*><Adv> tarkemmin<Adv>
 0.0588235 dárkil<A*><Adv> kohta<N>/kohta<Adv>
 0.0588235 dalle<Adv> koko<N>/kokoon<Adv>
-0.0588235 almmus<A*><Adv>/almmus<A> julki<Adv>
 0.0588235 aivve#fal<Adv> yksi<Num>/yksi<Pron>/yksin<Part>/yksin<Adv>
 0.0588235 áinnas<Adv> vasta<N>/vastaan<Po>/vastata<V>/vastaan<Adv>
 0.0588235 áinnas<Adv> kärsivällinen<A>/kärsivällisesti<Adv>/kärsiä<V>
@@ -990,7 +932,6 @@
 0.0480769 fas<Adv> takainen<A>/takaisin<Adv>/taka<N>/taata<V>/taka<Pref>+isä<N>/taka<Pref>+isi<N>/taka<N>+isi<N>/taka<N>+isä<N>
 0.0476190 vuolás<Adv> sinne<Adv>
 0.0476190 sisa<Adv> sinne<Adv>
-0.0476190 ovttas<Adv>/okta<Num> yhde<N>/yksi<Num>/yks<Pron>/yhteen<Adv>/yksi<Pron>
 0.0476190 ovdalis<Adv> kylään<Adv>/kylä<N>
 0.0476190 nu<Adv> kaukana<Adv>
 0.0476190 mielde<Adv> yhde<N>/yksi<Num>/yks<Pron>/yhteen<Adv>/yksi<Pron>
@@ -1005,7 +946,6 @@
 0.0476190 čoahkis<Adv> tässä<Adv>/tämä<Pron>
 0.0468750 gosa<Adv> jonne<Adv>
 0.0464716 manne<Adv> mikä<Pron>/mitä<Adv>
-0.0454545 vuolibuš<Adv>/vuolibuš<N> alla<Adv>/alla<Po>
 0.0454545 juo<Adv> alla<Adv>/alla<Po>
 0.0454545 čađat<Adv> usein<Adv>/usea<Pron>
 0.0454545 álelassii<Adv> usein<Adv>/usea<Pron>
@@ -1038,13 +978,10 @@
 0.0400000 manin<Adv> ilmi<Adv>
 0.0400000 dušše<Adv> vähän<Adv>/vähä<A>/vähän<Part>
 0.0400000 albmosii<Adv> ilmi<Adv>
-0.0400000 albmosii<Adv>/almmus<A> ilmi<Adv>
-0.0395869 maid<Adv>/mii<Pron><Rel> mikä<Pron>/mitä<Adv>
 0.0394737 gitta<Adv> loppu<N>/loppuun<Adv>
 0.0392157 ollu<Adv> verran<Adv>
 0.0384615 okto<Adv> erä<N>/erikseen<Adv>
 0.0384615 mielde<Adv> mieliksi<Adv>/mieli<N>
-0.0384615 eakto#dáhtolaččat<Adv>/eakto#dáhtolaš<A> yli<Po>/yli<Part>/yli<Adv>
 0.0384615 dohkálaččat<Adv> mieliksi<Adv>/mieli<N>
 0.0384615 dobbelis<Adv> maihin<Adv>/maa<N>
 0.0384615 dál<Adv> tästedes<Adv>
@@ -1073,13 +1010,11 @@
 0.0357143 álelassii<Adv> usein<Adv>/usea<Pron>
 0.0357143 álelassii<Adv> aina<Part>/aina<Adv>/Aina<N><Prop>
 0.0344828 vuolli<N>/vuollái<Adv> alle<Po>/alle<Adv>
-0.0344828 vuolibuš<Adv>/vuolibuš<N> alle<Po>/alle<Adv>
 0.0344828 jogo<Adv> keskenään<Adv>
 0.0333333 vissis<A*><Adv> kaiketi<Part>/kaiketi<Adv>
 0.0333333 muđuid<Adv> täällä<Adv>
 0.0333333 mo<Adv> miten<Adv>
 0.0333333 mo<Adv> mikä<Pron>/miksi<Adv>
-0.0333333 gievra<A*><Adv>/gievra<A> kaiketi<Part>/kaiketi<Adv>
 0.0333333 de<Adv> kaiketi<Part>/kaiketi<Adv>
 0.0333333 dalle<Adv> kaiketi<Part>/kaiketi<Adv>
 0.0333333 dá<Adv> tuo<Pron>/tuossa<Adv>
@@ -1186,7 +1121,6 @@
 0.0209790 manne<Adv> sitten<Part>/sitten<Adv>
 0.0208333 goitge<Adv> toteen<Adv>/tosi<A>
 0.0208333 dás<Adv> jälkeen<Po>/jälkeen<Adv>/jälki<N>
-0.0208333 čielggas<A*><Adv>/čielggas<A> toteen<Adv>/tosi<A>
 0.0208333 boastut<Adv> toteen<Adv>/tosi<A>
 0.0207715 eret<Adv> ulos<Adv>
 0.0207715 eret<Adv> kaukana<Adv>
@@ -1204,7 +1138,6 @@
 0.0200000 seammás<Adv> nopea<A>/nopeasti<Adv>
 0.0200000 seammás<Adv> itsessään<Adv>
 0.0200000 oanehassii<Adv> vähän<Adv>/vähä<A>/vähän<Part>
-0.0199203 vuostái<Adv>/vuostá<N>/vuosti<N> vasta<N>/vastaan<Po>/vastata<V>/vastaan<Adv>
 0.0199203 vuostái<Adv> vasta<N>/vastaan<Po>/vastata<V>/vastaan<Adv>
 0.0197368 gitta<Adv> käsiksi<Adv>/käsi<N>
 0.0196078 ollu<Adv> liikaa<Adv>/liika<N>
@@ -1223,7 +1156,6 @@
 0.0186916 ovddal#gihtii<Adv> ennen<Adv>/ennen<Po>
 0.0185185 sakka<Adv> valta<N>/vallata<V>/valtaan<Adv>
 0.0185185 sakka<Adv> hämmästyksissään<Adv>/hämmästys<N>
-0.0185185 nu<Adv><Qst> ilman<Po>/ilma<N>/ilman<Adv>
 0.0185185 njuolga<Adv> heti<Adv>
 0.0185185 haga<Adv> ilman<Po>/ilma<N>/ilman<Adv>
 0.0185185 fuolakeahttá<Adv> ilman<Po>/ilma<N>/ilman<Adv>
@@ -1231,11 +1163,6 @@
 0.0185185 dasto<Adv> ilman<Po>/ilma<N>/ilman<Adv>
 0.0185185 dalle<Adv> ilman<Po>/ilma<N>/ilman<Adv>
 0.0185185 dállánaga<Adv> heti<Adv>
-0.0181818 nu<Adv><Qst> siellä<Adv>/se<Pron>
-0.0181818 nu<Adv><Qst> mielellään<Adv>/mieli<N>
-0.0181818 nu<Adv><Qst> ilman<Po>/ilma<N>/ilman<Adv>
-0.0181818 nu<Adv><Qst> eksyksissä<Adv>
-0.0181818 nu<Adv><Qst> eilen<Adv>
 0.0181818 dás<Adv> tähän<Adv>/tämä<Pron>
 0.0178571 mieldálagaid<Adv> sisälle<Adv>
 0.0178571 dievva<Adv> täyteen<Adv>/täysi<A>
@@ -1246,7 +1173,6 @@
 0.0178571 baicca<Adv> yksi<Num>/yksi<Pron>/yhdessä<Adv>
 0.0178571 baicca<Adv> mieluummin<Adv>
 0.0175439 man<Adv> käsin<Part>/käsi<N>/käsin<Adv>
-0.0175439 maid<Adv>/mii<Pron><Rel> kuinka<Adv>
 0.0174419 juo<Adv> kerran<Adv>/kerta<N>
 0.0174419 juo<Adv> ennen<Adv>/ennen<Po>
 0.0172414 valjit<Adv> täynnä<Adv>
@@ -1409,12 +1335,9 @@
 0.0064103 olggos<Adv> esiin<Adv>
 0.0062370 nu<Adv> mukaisesti<Adv>/mukainen<A>
 0.0059880 šat<Adv> siellä<Adv>/se<Pron>
-0.0059880 nu<Adv><Qst> siellä<Adv>/se<Pron>
-0.0059880 maninge<Adv>/manin<Adv> tuntea<V>
 0.0059880 gos<Adv> mihin<Adv>/mikä<Pron>
 0.0059880 gos<Adv> maa<N>/maitse<Adv>
 0.0059880 gos<Adv> kylään<Adv>/kylä<N>
-0.0059880 gaskka<Adv>/gaska<N>/gaskka<N> siellä<Adv>/se<Pron>
 0.0059880 eapmi<N>/eamis<Adv> siellä<Adv>/se<Pron>
 0.0059880 de<Adv> siellä<Adv>/se<Pron>
 0.0059347 eret<Adv> loitto<N>/loitolla<Adv>
@@ -1430,7 +1353,6 @@
 0.0054945 dušše<Adv> puoli<N>/puolesta<Adv>/puolesta<Po>
 0.0054945 dušše<Adv> nimittäin<Part>/nimittäin<Adv>
 0.0054945 dušše<Adv> julkea<A>/julkeasti<Adv>
-0.0054645 lagamuš<A*><Adv>/lagamuš<N> mukaan<Adv>/mukaan<Po>
 0.0054645 fámolaččat<Adv> mukaan<Adv>/mukaan<Po>
 0.0054645 eatnat<Adv> mukaan<Adv>/mukaan<Po>
 0.0054348 jogo<Adv> sitten<Part>/sitten<Adv>
@@ -1444,7 +1366,6 @@
 0.0053191 doppe<Adv> kauemmin<Adv>/kauempi<A>
 0.0051546 nie<Adv> näin<Part>/tämä<Pron>/nähdä<V>/näin<Adv>
 0.0051546 gierdavaš<A*><Adv> näin<Part>/tämä<Pron>/nähdä<V>/näin<Adv>
-0.0051546 dainna<Adv>/dat<Pron><Pers> näin<Part>/tämä<Pron>/nähdä<V>/näin<Adv>
 0.0051546 árvvas<A*><Adv> näin<Part>/tämä<Pron>/nähdä<V>/näin<Adv>
 0.0048077 fas<Adv> ympäri<Adv>
 0.0048077 fas<Adv> vasen<A>/vasemmalle<Adv>
@@ -1460,7 +1381,6 @@
 0.0048077 dalle<Adv> pystyssä<Adv>/pysty<A>
 0.0048077 dalle<Adv> näin<Part>/tämä<Pron>/nähdä<V>/näin<Adv>
 0.0048077 dalle<Adv> enemmän<Adv>/enempi<A>
-0.0043860 maid<Adv>/mii<Pron><Rel> kuinka<Adv>
 0.0043860 hui<Adv> kuinka<Adv>
 0.0043860 gullu<N*><A*><Adv> kuinka<Adv>
 0.0041580 nu<Adv> ylenpalttinen<A>/ylenpalttisesti<Adv>
@@ -1479,7 +1399,6 @@
 0.0036630 johtilit<Adv> pois<Adv>
 0.0036630 dáppe<Adv> pois<Adv>
 0.0035971 maiddái<Adv> ennen<Adv>/ennen<Po>
-0.0034423 maid<Adv>/mii<Pron><Rel>/mii<Pron><Interr> mikä<Pron>/mitä<Adv>
 0.0033356 nappo<Adv> se<Pron>/niin<Adv>/niin<Part>
 0.0033113 danne<Adv> ylhäältä<Adv>
 0.0033113 danne<Adv> syytön<A>/syyttömästi<Adv>
@@ -1498,7 +1417,6 @@
 0.0029674 eret<Adv> kauas<Adv>
 0.0029674 eret<Adv> etäällä<Adv>
 0.0029674 eret<Adv> eksyksissä<Adv>
-0.0026684 nu<Adv><Qst> se<Pron>/niin<Adv>/niin<Part>
 0.0026385 dál<Adv> ulos<Adv>
 0.0026385 dál<Adv> tästedes<Adv>
 0.0026385 dál<Adv> tässä<Adv>/tämä<Pron>
@@ -1530,7 +1448,6 @@
 0.0020790 nu<Adv> jälkeenpäin<Adv>
 0.0020790 nu<Adv> hyvin<Part>/hyvä<A>/hyvin<Adv>
 0.0020013 ovdalis<Adv> se<Pron>/niin<Adv>/niin<Part>
-0.0020013 nu<Adv><Qst>/nugo<CS> se<Pron>/niin<Adv>/niin<Part>
 0.0020013 nie<Adv> se<Pron>/niin<Adv>/niin<Part>
 0.0020013 muđuid<Adv> se<Pron>/niin<Adv>/niin<Part>
 0.0020013 dasto<Adv> se<Pron>/niin<Adv>/niin<Part>
@@ -1548,7 +1465,6 @@
 0.0017212 ieš#alcceseaset<Adv> mikä<Pron>/mitä<Adv>
 0.0013342 mahkáš<Adv> se<Pron>/niin<Adv>/niin<Part>
 0.0013342 dallánaga<Adv> se<Pron>/niin<Adv>/niin<Part>
-0.0006671 seammá<Adv>/seammá<Pron><Indef> se<Pron>/niin<Adv>/niin<Part>
 0.0006671 ohpit<Adv> se<Pron>/niin<Adv>/niin<Part>
 0.0006671 nuppádassii<Adv> se<Pron>/niin<Adv>/niin<Part>
 0.0006671 ná<Adv> se<Pron>/niin<Adv>/niin<Part>
