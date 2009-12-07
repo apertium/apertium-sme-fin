@@ -2,10 +2,19 @@
   <alphabet/>
   <sdefs>
     <sdef n="N"        c="Noun"/>
+    <sdef n="A"        c="Adjective"/>
+    <sdef n="V"        c="Verb"/>
     <sdef n="CC"       c="Co-ordinating conjunction"/>
     <sdef n="CS"       c="Sub-ordinating conjunction"/>
+    <sdef n="Adv"      c="Adverb"/>
+
+    <sdef n="TV"        c="Transitive"/>
+    <sdef n="IV"        c="Intransitive"/>
   </sdefs>
   <section id="main" type="standard">
+    <!-- Post-positions -->
+
+
     <!-- Conjunctions -->
     <e><p><l>ja<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
     <e><p><l>vai<s n="CC"/></l><r>vai<s n="CC"/></r></p></e>
@@ -484,7 +493,7 @@
     <e><p><l>riika<s n="N"/></l><r>valtakunta<s n="N"/></r></p></e>
     <e><p><l>rikkis<s n="N"/></l><r>rikka<s n="N"/></r></p></e>
     <e><p><l>rišša<s n="N"/></l><r>tulikivi<s n="N"/></r></p></e>
-    <e><p><l>risse#látna<s n="N"/></l><r>risu<s n="N"/></r></p></e>
+    <e><p><l>risse<s n="N"/></l><r>risu<s n="N"/></r></p></e>
     <e><p><l>roakči<s n="N"/></l><r>ryppy<s n="N"/></r></p></e>
     <e><p><l>rohkadallat<s n="N"/></l><r>rukoilija<s n="N"/></r></p></e>
     <e><p><l>rohkosboddu<s n="N"/></l><r>rukoushetki<s n="N"/></r></p></e>
@@ -602,6 +611,22 @@
     <e><p><l>vuostebiegga<s n="N"/></l><r>vasta<s n="N"/></r></p></e>
     <e><p><l>vuosteháhku<s n="N"/></l><r>vastustus<s n="N"/></r></p></e>
     <e><p><l>vuovssanas<s n="N"/></l><r>oksennus<s n="N"/></r></p></e>
+
+    <!-- Adjectives -->
+
+    <e><p><l>vanhurskkis<s n="A"/></l><r>vanhurskas<s n="A"/></r></p></e>
+    <e><p><l>bahá<s n="A"/></l><r>paha<s n="A"/></r></p></e>
+
+    <!-- Adverbs -->
+
+    <e><p><l>veaháš<s n="Adv"/></l><r>vähän<s n="Adv"/></r></p></e>
+
+    <!-- Verbs -->
+
+    <e><p><l>ii<s n="V"/><s n="IV"/></l><r>ei<s n="V"/></r></p></e>
+
+    <e><p><l>vuoidat<s n="V"/><s n="TV"/></l><r>voidella<s n="V"/></r></p></e>
+    <e><p><l>njoallut<s n="V"/><s n="TV"/></l><r>nuolla<s n="V"/></r></p></e>
 
   </section>
 </dictionary>
