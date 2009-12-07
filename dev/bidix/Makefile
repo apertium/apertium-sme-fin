@@ -6,6 +6,7 @@ all:
 	cat Po.lex.orig | python calc-levenshtein.py | sort -ugr > Po.lex
 	cat Pron.lex.orig | python calc-levenshtein.py | sort -ugr > Pron.lex
 	cat V.lex.orig | python calc-levenshtein.py | sort -ugr > V.lex
+	cat Conj.lex.orig | python calc-levenshtein.py | sort -ugr > Conj.lex
 
 clean:
 	rm *.lex;

@@ -1,6 +1,7 @@
 * text=auto !eol
 dev/bidix/A.lex.orig -text
 dev/bidix/Adv.lex.orig -text
+dev/bidix/Conj.lex.orig -text
 dev/bidix/Makefile -text
 dev/bidix/N.Prop.lex.orig -text
 dev/bidix/N.lex.orig -text
