@@ -1,0 +1,22 @@
+<dictionary>
+  <alphabet/>
+  <sdefs>
+    <sdef n="CC"/>
+    <sdef n="CS"/>
+  </sdefs>
+  <section id="main" type="standard">
+    <!-- Conjunctions -->
+    <e><p><l>ja<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
+    <e><p><l>vai<s n="CC"/></l><r>vai<s n="CC"/></r></p></e>
+    <e><p><l>muhto<s n="CC"/></l><r>mutta<s n="CC"/></r></p></e>
+    <e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
+    <e><p><l>sihke<s n="CC"/></l><r>sekä<s n="CC"/></r></p></e>
+
+    <e><p><l>jos<s n="CS"/></l><r>jos<s n="CS"/></r></p></e>
+    <e><p><l>vaikko<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
+    <e><p><l>go<s n="CS"/></l><r>kun<s n="CS"/></r></p></e>
+    <e><p><l>dasgo<s n="CS"/></l><r>sillä<s n="CS"/></r></p></e>
+    <e><p><l>ahte<s n="CS"/></l><r>että<s n="CS"/></r></p></e>
+
+  </section>
+</dictionary>

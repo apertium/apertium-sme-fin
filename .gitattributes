@@ -1,4 +1,5 @@
 * text=auto !eol
+/apertium-sme-fin.sme-fin.dix -text
 dev/bidix/A.lex -text
 dev/bidix/A.lex.orig -text
 dev/bidix/Adv.lex -text
