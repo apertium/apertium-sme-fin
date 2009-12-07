@@ -1,11 +1,19 @@
 * text=auto !eol
+dev/bidix/A.lex -text
 dev/bidix/A.lex.orig -text
+dev/bidix/Adv.lex -text
 dev/bidix/Adv.lex.orig -text
+dev/bidix/Conj.lex -text
 dev/bidix/Conj.lex.orig -text
 dev/bidix/Makefile -text
+dev/bidix/N.Prop.lex -text
 dev/bidix/N.Prop.lex.orig -text
+dev/bidix/N.lex -text
 dev/bidix/N.lex.orig -text
+dev/bidix/Po.lex -text
 dev/bidix/Po.lex.orig -text
+dev/bidix/Pron.lex -text
 dev/bidix/Pron.lex.orig -text
+dev/bidix/V.lex -text
 dev/bidix/V.lex.orig -text
 dev/bidix/calc-levenshtein.py -text
