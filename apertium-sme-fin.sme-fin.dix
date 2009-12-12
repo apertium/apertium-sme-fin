@@ -4,16 +4,25 @@
     <sdef n="N"        c="Noun"/>
     <sdef n="A"        c="Adjective"/>
     <sdef n="V"        c="Verb"/>
+    <sdef n="Po"       c="Post-position"/>
     <sdef n="CC"       c="Co-ordinating conjunction"/>
     <sdef n="CS"       c="Sub-ordinating conjunction"/>
     <sdef n="Adv"      c="Adverb"/>
+    <sdef n="Pcle"     c="Particle"/>
 
     <sdef n="TV"        c="Transitive"/>
     <sdef n="IV"        c="Intransitive"/>
   </sdefs>
   <section id="main" type="standard">
+    <!-- Particles -->
+    
+    <e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
+    <e><p><l>gal<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
+
     <!-- Post-positions -->
 
+    <e><p><l>badjel<s n="Po"/></l><r>yli<s n="Po"/></r></p></e>
+    
 
     <!-- Conjunctions -->
     <e><p><l>ja<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
@@ -21,11 +30,20 @@
     <e><p><l>muhto<s n="CC"/></l><r>mutta<s n="CC"/></r></p></e>
     <e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
     <e><p><l>sihke<s n="CC"/></l><r>sekä<s n="CC"/></r></p></e>
+    <e><p><l>ele<s n="CC"/></l><r>eli<s n="CC"/></r></p></e>
 
-    <e><p><l>jos<s n="CS"/></l><r>jos<s n="CS"/></r></p></e>
-    <e><p><l>vaikko<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
-    <e><p><l>go<s n="CS"/></l><r>kun<s n="CS"/></r></p></e>
     <e><p><l>ahte<s n="CS"/></l><r>että<s n="CS"/></r></p></e>
+    <e><p><l>aht<s n="CS"/></l><r>et<s n="CS"/></r></p></e>
+    <e><p><l>danin<s n="CS"/></l><r>koska<s n="CS"/></r></p></e>
+    <e><p><l>dego<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
+    <e><p><l>go<s n="CS"/></l><r>kun<s n="CS"/></r></p></e>
+    <e><p><l>jus<s n="CS"/></l><r>jos<s n="CS"/></r></p></e>
+    <e><p><l>muhte<s n="CS"/></l><r>mutta<s n="CS"/></r></p></e>
+    <e><p><l>nugo<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
+    <e><p><l>vai<s n="CS"/></l><r>vai<s n="CS"/></r></p></e>
+    <e><p><l>vaikko<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
+    <e><p><l>vaikke<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
+    <e><p><l>ovdal<b/>go<s n="CS"/></l><r>ennen<b/>kuin<s n="CS"/></r></p></e>
 
     <!-- Nouns -->
     <e><p><l>jaspis<s n="N"/></l><r>jaspis<s n="N"/></r></p></e>
@@ -612,19 +630,28 @@
     <e><p><l>vuosteháhku<s n="N"/></l><r>vastustus<s n="N"/></r></p></e>
     <e><p><l>vuovssanas<s n="N"/></l><r>oksennus<s n="N"/></r></p></e>
 
+    <e><p><l>muorra<s n="N"/></l><r>puu<s n="N"/></r></p></e>
+    <e><p><l>biila<s n="N"/></l><r>auto<s n="N"/></r></p></e>
+
     <!-- Adjectives -->
 
     <e><p><l>vanhurskkis<s n="A"/></l><r>vanhurskas<s n="A"/></r></p></e>
     <e><p><l>bahá<s n="A"/></l><r>paha<s n="A"/></r></p></e>
+    <e><p><l>nuorra<s n="A"/></l><r>nuori<s n="A"/></r></p></e>
+    <e><p><l>bastil<s n="A"/></l><r>terävä<s n="A"/></r></p></e>
 
     <!-- Adverbs -->
 
     <e><p><l>veaháš<s n="Adv"/></l><r>vähän<s n="Adv"/></r></p></e>
+    <e><p><l>aktii<s n="Adv"/></l><r>yksin<s n="Adv"/></r></p></e>
 
     <!-- Verbs -->
 
     <e><p><l>ii<s n="V"/><s n="IV"/></l><r>ei<s n="V"/></r></p></e>
+    <e><p><l>leat<s n="V"/><s n="IV"/></l><r>olla<s n="V"/></r></p></e>
 
+    <e><p><l>bassat<s n="V"/><s n="TV"/></l><r>pestä<s n="V"/></r></p></e>
+    <e><p><l>dupliseret<s n="V"/><s n="TV"/></l><r>kaksinkertaistaa<s n="V"/></r></p></e>
     <e><p><l>vuoidat<s n="V"/><s n="TV"/></l><r>voidella<s n="V"/></r></p></e>
     <e><p><l>njoallut<s n="V"/><s n="TV"/></l><r>nuolla<s n="V"/></r></p></e>
 
