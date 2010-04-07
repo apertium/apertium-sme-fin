@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
-  <alphabet/>
+  <alphabet>AÁBCČDĐEFGHIJKLMNŊOPRSŠTŦUVWYZŽaábcčdđefghijklmnŋoprsštŧuvwyzž</alphabet>
   <sdefs>
     <sdef n="N"        c="Noun"/>
     <sdef n="A"        c="Adjective"/>
@@ -12,7 +13,29 @@
 
     <sdef n="TV"        c="Transitive"/>
     <sdef n="IV"        c="Intransitive"/>
+
+    <!-- Ryan learning things -->
+    <sdef n="sg"       c="singular"/>
+    <sdef n="pl"       c="plural"/>
+    <sdef n="n"        c="noun"/>
   </sdefs>
+<!-- From what I've gathered the paradigms contained in pardef will actually be handled with HFST, but for 
+    learning purposes I'm making a couple paradigms here -->
+  <pardef n="viessu__n">
+   <e>
+     <p>
+       <l/>
+       <r><s n="n"/><s n="sg"/></r>
+     </p>
+   </e>
+   <e>
+     <p>
+       <l>t</l>
+       <r><s n="n"/><s n="pl"/></r>
+     </p>
+   </e>
+  </pardef>
+
   <section id="main" type="standard">
     <!-- Particles -->
     
@@ -540,7 +563,7 @@
     <e><p><l>sátni<s n="N"/></l><r>sana<s n="N"/></r></p></e>
     <e><p><l>sávdnji<s n="N"/></l><r>sauma<s n="N"/></r></p></e>
     <e><p><l>sávza<s n="N"/></l><r>lammas<s n="N"/></r></p></e>
-    <e><p><l>seaguhus<s n="N"/></l><r>seostaa<V></r></p></e>
+    <e><p><l>seaguhus<s n="N"/></l><r>seostaa</r></p></e>
     <e><p><l>seaidni<s n="N"/></l><r>seinä<s n="N"/></r></p></e>
     <e><p><l>seaila<s n="N"/></l><r>sinetti<s n="N"/></r></p></e>
     <e><p><l>sealgi<s n="N"/></l><r>selkä<s n="N"/></r></p></e>
@@ -655,5 +678,9 @@
     <e><p><l>vuoidat<s n="V"/><s n="TV"/></l><r>voidella<s n="V"/></r></p></e>
     <e><p><l>njoallut<s n="V"/><s n="TV"/></l><r>nuolla<s n="V"/></r></p></e>
 
+    <!-- Ryan learning things -->
+    
+    <e lm="viessu"><i>viessu</i><par n="viessu__n"/></e>
+    <e><p><l>viessu<s n="n"/></l><r>talo<s n="n"/></r></p></e>
   </section>
 </dictionary>
