@@ -19,9 +19,24 @@
     <sdef n="pl"       c="plural"/>
     <sdef n="n"        c="noun"/>
   </sdefs>
+<!-- From what I've gathered the paradigms contained in pardef will actually be handled with HFST, but for 
+    learning purposes I'm making a couple paradigms here -->
+  <pardef n="talo__n">
+   <e>
+     <p>
+       <l/>
+       <r><s n="n"/><s n="sg"/></r>
+     </p>
+   </e>
+   <e>
+     <p>
+       <l>t</l>
+       <r><s n="n"/><s n="pl"/></r>
+     </p>
+   </e>
+  </pardef>
 
   <section id="main" type="standard">
-    <e><p><l>viessu<s n="n"/></l><r>talo<s n="n"/></r></p></e>
-
+    <e lm="talo"><i>talo</i><par n="talo__n"/></e>
   </section>
 </dictionary>
