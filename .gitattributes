@@ -21,6 +21,7 @@ dev/bidix/V.lex -text
 dev/bidix/V.lex.orig -text
 dev/bidix/calc-levenshtein.py -text
 /script.sh -text
+/sme-nob.prob -text
 /tutorial-sme-fin.fin.dix -text
 /tutorial-sme-fin.sme-fin.dix -text
 /tutorial-sme-fin.sme-fin.t1x -text
