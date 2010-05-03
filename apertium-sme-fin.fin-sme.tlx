@@ -14,9 +14,22 @@
       <attr-item tags="N"/>
       <attr-item tags="N.Prop"/>
     </def-attr>
-    <def-attr n="n_case">
+    <def-attr n="a_case">
 	  <attr-item tags="Nom" />
-	  <attr-item tags="Ine" />
+      <attr-item tags="Gen" />
+      <attr-item tags="Acc" />
+      <attr-item tags="Par" />
+      <attr-item tags="Abl" />
+      <attr-item tags="Ade" />
+      <attr-item tags="All" />
+      <attr-item tags="Ela" />
+      <attr-item tags="Ill" />
+      <attr-item tags="Ine" />
+      <attr-item tags="Ess" />
+      <attr-item tags="Tra" />
+      <attr-item tags="Abe" />
+      <attr-item tags="Cmt" />
+      <attr-item tags="Ins" />
 	</def-attr>
   </section-def-attrs>
   <section-def-vars>
