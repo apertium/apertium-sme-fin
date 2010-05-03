@@ -47,7 +47,7 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="t1" part="n_case" />
+            <clip pos="1" side="tl" part="n_case" />
           </lu>
         </out>
       </action>
