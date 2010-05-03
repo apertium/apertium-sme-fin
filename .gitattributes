@@ -1,6 +1,7 @@
 * text=auto !eol
 /Makefile -text
 /README -text
+/apertium-sme-fin.fin-sme.t1x -text
 /apertium-sme-fin.sme-fin.dix -text
 dev/bidix/A.lex -text
 dev/bidix/A.lex.orig -text
