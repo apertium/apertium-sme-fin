@@ -14,9 +14,14 @@
       <attr-item tags="N"/>
       <attr-item tags="N.Prop"/>
     </def-attr>
+    <def-attr n="n_case">
+	  <attr-item tags="Nom" />
+	  <attr-item tags="Ine" />
+	</def-attr>
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
+    <def-var n="case"/>
   </section-def-vars>
   <section-rules>
     <rule>
@@ -29,6 +34,7 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="t1" part="n_case" />
           </lu>
         </out>
       </action>
