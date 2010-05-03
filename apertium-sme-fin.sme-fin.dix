@@ -253,6 +253,7 @@
     <e><p><l>duššadit<s n="N"/></l><r>hävitys<s n="N"/></r></p></e>
     <e><p><l>duššisáhka<s n="N"/></l><r>turhapuhuja<s n="N"/></r></p></e>
     <e><p><l>dutkan<s n="N"/></l><r>tutkinto<s n="N"/></r></p></e>
+    <e><p><l>dállu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
     <e><p><l>eadni<s n="N"/></l><r>äiti<s n="N"/></r></p></e>
     <e><p><l>eahket<s n="N"/></l><r>ehtoo<s n="N"/></r></p></e>
     <e><p><l>eaiggát<s n="N"/></l><r>omistaja<s n="N"/></r></p></e>
@@ -637,6 +638,7 @@
 
     <e><p><l>vanhurskkis<s n="A"/></l><r>vanhurskas<s n="A"/></r></p></e>
     <e><p><l>bahá<s n="A"/></l><r>paha<s n="A"/></r></p></e>
+    <e><p><l>boaris<s n="A"/></l><r>vanha<s n="A"/></r></p></e>
     <e><p><l>nuorra<s n="A"/></l><r>nuori<s n="A"/></r></p></e>
     <e><p><l>bastil<s n="A"/></l><r>terävä<s n="A"/></r></p></e>
     <e><p><l>mahtosaš<s n="A"/></l><r>kokoinen<s n="A"/></r></p></e>
@@ -645,6 +647,7 @@
 
     <e><p><l>veaháš<s n="Adv"/></l><r>vähän<s n="Adv"/></r></p></e>
     <e><p><l>aktii<s n="Adv"/></l><r>yksin<s n="Adv"/></r></p></e>
+    <e><p><l>eambbo<s n="Adv"/></l><r>enemmän<s n="Adv"/></r></p></e>
 
     <!-- Verbs -->
 
@@ -652,6 +655,7 @@
     <e><p><l>leat<s n="V"/><s n="IV"/></l><r>olla<s n="V"/></r></p></e>
 
     <e><p><l>bassat<s n="V"/><s n="TV"/></l><r>pestä<s n="V"/></r></p></e>
+    <e><p><l>beassat<s n="V"/><s n="TV"/></l><r>päästä<s n="V"/></r></p></e>
     <e><p><l>dupliseret<s n="V"/><s n="TV"/></l><r>kaksinkertaistaa<s n="V"/></r></p></e>
     <e><p><l>geavat<s n="V"/><s n="TV"/></l><r>käydä<s n="V"/></r></p></e>
     <e><p><l>geavahit<s n="V"/><s n="TV"/></l><r>käyttää<s n="V"/></r></p></e>
