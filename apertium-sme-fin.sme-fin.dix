@@ -11,6 +11,8 @@
     <sdef n="Adv"      c="Adverb"/>
     <sdef n="Pcle"     c="Particle"/>
 
+    <sdef n="Prop"     c="Proper noun"/>
+
     <sdef n="TV"        c="Transitive"/>
     <sdef n="IV"        c="Intransitive"/>
   </sdefs>
@@ -633,6 +635,10 @@
 
     <e><p><l>muorra<s n="N"/></l><r>puu<s n="N"/></r></p></e>
     <e><p><l>biila<s n="N"/></l><r>auto<s n="N"/></r></p></e>
+
+    <!-- Proper nouns -->
+
+    <e><p><l>Tommi<s n="N"/><s n="Prop"/></l><r>Tommi<s n="N"/><s n="Prop"/></r></p></e>
 
     <!-- Adjectives -->
 

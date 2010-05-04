@@ -4,7 +4,7 @@
 /apertium-sme-fin.fin-sme.t1x -text
 /apertium-sme-fin.sme-fin.dix -text
 /apertium-sme-fin.sme.lexc -text
-/apertium-sme-nob.sme.twol -text
+/apertium-sme-fin.sme.twol -text
 dev/bidix/A.lex -text
 dev/bidix/A.lex.orig -text
 dev/bidix/Adv.lex -text
