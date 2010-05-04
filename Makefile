@@ -4,3 +4,5 @@ all:
 
 	apertium-validate-transfer apertium-sme-fin.fin-sme.t1x
 	apertium-preprocess-transfer apertium-sme-fin.fin-sme.t1x fin-sme.t1x.bin
+	
+	hfst-lexc apertium-sme-fin.sme.lexc -o sme-fin.gen.hfst

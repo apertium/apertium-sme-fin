@@ -3,6 +3,8 @@
 /README -text
 /apertium-sme-fin.fin-sme.t1x -text
 /apertium-sme-fin.sme-fin.dix -text
+/apertium-sme-fin.sme.lexc -text
+/apertium-sme-nob.sme.twol -text
 dev/bidix/A.lex -text
 dev/bidix/A.lex.orig -text
 dev/bidix/Adv.lex -text
@@ -21,6 +23,7 @@ dev/bidix/Pron.lex.orig -text
 dev/bidix/V.lex -text
 dev/bidix/V.lex.orig -text
 dev/bidix/calc-levenshtein.py -text
+dev/update-lexc.sh -text
 dev/xfst2apertium.relabel -text
 /fin-sme.prob -text
 /script.sh -text
