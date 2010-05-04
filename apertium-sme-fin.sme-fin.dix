@@ -25,7 +25,38 @@
     <!-- Post-positions -->
 
     <e><p><l>badjel<s n="Po"/></l><r>yli<s n="Po"/></r></p></e>
+    <e><p><l>vuolde<s n="Po"/></l><r>alla<s n="Po"/></r></p></e>
+    <e><p><l>alde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>
+    <e><p><l>ovddas<s n="Po"/></l><r>edessä<s n="Po"/></r></p></e>
+    <e><p><l>gaskkas<s n="Po"/></l><r>välissä<s n="Po"/></r></p></e>
+    <e><p><l>guvlui<s n="Po"/></l><r>kohti<s n="Po"/></r></p></e> <!-- ? -->
+    <e><p><l>vuostá<s n="Po"/></l><r>vastaan<s n="Po"/></r></p></e>
     
+
+    <e><p><l>ovdal<s n="Po"/></l><r>ennen<s n="Po"/></r></p></e> <!-- Also a preopostion in Fin... -->
+    <e><p><l>maŋŋá<s n="Po"/></l><r>jälkeen<s n="Po"/></r></p></e>
+    <e><p><l>áigge<s n="Po"/></l><r>aikana<s n="Po"/></r></p></e>
+    
+    <e><p><l>mielde<s n="Po"/></l><r>kanssa<s n="Po"/></r></p></e>
+    
+    <e><p><l>rájes<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siitä asti -->
+    <e srl="1"><p><l>rádjái<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siihen asti -->
+        
+    <!-- Some more postpositions to add:
+
+    aikana    ali    alle    edelle
+    edessä    lisäksi    luo    luokse
+    luona    luota    läpi    mennessä
+    mukaan    poikitse    päästä    takana 
+    tykö    verran    vieressä    vuoksi
+
+
+    maŋŋil 	jälkeen
+    mielde  kanssa
+    mielde? myötä
+    sadjái  sijaan
+    
+    -->
 
     <!-- Conjunctions -->
     <e><p><l>ja<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
@@ -612,6 +643,7 @@
     <e><p><l>viellja<s n="N"/></l><r>veli<s n="N"/></r></p></e>
     <e slr="1"><p><l>viellja<s n="N"/></l><r>harrastapa<s n="N"/></r></p></e>
     <e><p><l>viessut<s n="N"/></l><r>huone<s n="N"/></r></p></e>
+    <e srl="1"><p><l>viessu</l><r>talo<s n="N"></s></r></p>    
     <e><p><l>viidni<s n="N"/></l><r>viinimalja<s n="N"/></r></p></e>
     <e><p><l>viidu<s n="N"/></l><r>leveys<s n="N"/></r></p></e>
     <e><p><l>viisodat<s n="N"/></l><r>viisaus<s n="N"/></r></p></e>

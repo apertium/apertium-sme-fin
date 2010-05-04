@@ -1,5 +1,5 @@
-OMORFI=/home/tapirine/src/omorfi
-FINCG=/home/tapirine/src/divvun-trunk/kt/fin/src/fin-dis.bin
+OMORFI=$GTHOME/kt/fin/omorfi
+FINCG=$GTHOME/kt/fin/src/fin-dis.bin
 
 sed 's/\W/\n&\n/g' | grep -v '^ $' |\
 hfst-lookup -f apertium $OMORFI/src/mor-omorfi.apertium.hfst |\
