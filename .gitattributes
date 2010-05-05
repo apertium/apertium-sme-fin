@@ -26,6 +26,7 @@ dev/bidix/calc-levenshtein.py -text
 dev/update-lexc.sh -text
 dev/xfst2apertium.relabel -text
 /fin-sme.prob -text
+/lexchoicebil.xsl -text
 /script.sh -text
 /tutorial-sme-fin.fin.dix -text
 /tutorial-sme-fin.sme-fin.dix -text
