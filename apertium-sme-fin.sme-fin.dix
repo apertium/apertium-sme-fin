@@ -676,7 +676,40 @@
 
     <!-- Proper nouns -->
 
+    <e><p><l>Albánia<s n="N"/><s n="Prop"/></l><r>Albania<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Duiska<s n="N"/><s n="Prop"/></l><r>Saksa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Dánmárku<s n="N"/><s n="Prop"/></l><r>Tanska<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Egypta<s n="N"/><s n="Prop"/></l><r>Egypti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Estlánda<s n="N"/><s n="Prop"/></l><r>Viro<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Fráŋkriika<s n="N"/><s n="Prop"/></l><r>Ranska<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Greika<s n="N"/><s n="Prop"/></l><r>Kreikka<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Irlándda<s n="N"/><s n="Prop"/></l><r>Irlanti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Islánda<s n="N"/><s n="Prop"/></l><r>Islanti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Itália<s n="N"/><s n="Prop"/></l><r>Italia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Japána<s n="N"/><s n="Prop"/></l><r>Japani<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Kanáda<s n="N"/><s n="Prop"/></l><r>Kanada<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lietuva<s n="N"/><s n="Prop"/></l><r>Liettua<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Látvia<s n="N"/><s n="Prop"/></l><r>Latvia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Meksiko<s n="N"/><s n="Prop"/></l><r>Meksiko<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Nicaragua<s n="N"/><s n="Prop"/></l><r>Nicaragua<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Nigeria<s n="N"/><s n="Prop"/></l><r>Nigeria<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Norga<s n="N"/><s n="Prop"/></l><r>Norja<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Polen<s n="N"/><s n="Prop"/></l><r>Puola<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ruošša<s n="N"/><s n="Prop"/></l><r>Venäjä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ruoŧŧa<s n="N"/><s n="Prop"/></l><r>Ruotsi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Spánia<s n="N"/><s n="Prop"/></l><r>Espanja<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Suopma<s n="N"/><s n="Prop"/></l><r>Suomi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Thaieana<s n="N"/><s n="Prop"/></l><r>Thaimaa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Tibet<s n="N"/><s n="Prop"/></l><r>Tiibet<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ukraina<s n="N"/><s n="Prop"/></l><r>Ukraina<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Vilges-Ruošša<s n="N"/><s n="Prop"/></l><r>Valko-Venäjä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Šveica<s n="N"/><s n="Prop"/></l><r>Sveitsi<s n="N"/><s n="Prop"/></r></p></e>
+
+    <e><p><l>Ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Amerihká<b/>ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Amerikan<b/>yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
+
     <e><p><l>Tommi<s n="N"/><s n="Prop"/></l><r>Tommi<s n="N"/><s n="Prop"/></r></p></e>
+
 
     <!-- Adjectives -->
 
