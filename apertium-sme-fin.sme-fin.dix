@@ -3,32 +3,66 @@
   <alphabet/>
   <sdefs>
     <sdef n="N"        c="Noun"/>
+    <sdef n="Num"      c="Numeral"/>
     <sdef n="A"        c="Adjective"/>
     <sdef n="V"        c="Verb"/>
+    <sdef n="Act"      c="Active voice"/>
     <sdef n="Pron"     c="Pronoun"/>
     <sdef n="Po"       c="Post-position"/>
+    <sdef n="Adp"      c="Adposition"/>
+    <sdef n="Conj"     c="Conjunction"/>
+    <sdef n="Coord"    c="Co-ordinator"/>
     <sdef n="CC"       c="Co-ordinating conjunction"/>
     <sdef n="CS"       c="Sub-ordinating conjunction"/>
     <sdef n="Adv"      c="Adverb"/>
     <sdef n="Pcle"     c="Particle"/>
+    <sdef n="Plc"      c="Toponym"/>
+    <sdef n="Mal"      c="?"/>
+
+    <sdef n="Sg"       c="Singular"/>
+    <sdef n="Pl"       c="Plural"/>
+    <sdef n="Sg1"      c="First-person singular"/>
+    <sdef n="Sg2"      c="Second-person singular"/>
+    <sdef n="Sg3"      c="Third-person singular"/>
+    <sdef n="Pl1"      c="First-person plural"/>
+    <sdef n="Pl2"      c="Second-person plural"/>
+    <sdef n="Pl3"      c="Third-person plural"/>
 
     <sdef n="Prop"     c="Proper noun"/>
     <sdef n="Pers"     c="Personal"/>
+    <sdef n="Pos"      c="Positive"/>
+    <sdef n="Rel"      c="Relative"/>
+    <sdef n="Dem"      c="Demonstrative"/>
+    <sdef n="Interr"   c="Interrogative"/>
 
-    <sdef n="TV"        c="Transitive"/>
-    <sdef n="IV"        c="Intransitive"/>
+    <sdef n="Fem"      c="Feminine"/>
+    <sdef n="Masc"     c="Masculine"/>
+
+    <sdef n="TV"       c="Transitive"/>
+    <sdef n="IV"       c="Intransitive"/>
   </sdefs>
+  <pardefs>
+    <pardef n="A_A">
+      <e><p><l></l><r><s n="Pos"/></r></p></e>
+      <e><p><l></l><r></r></p></e>
+    </pardef>
+    <pardef n="V_V">
+      <e><p><l></l><r><s n="Act"/></r></p></e>
+      <e><p><l></l><r></r></p></e>
+    </pardef>
+  </pardefs>
   <section id="main" type="standard">
     <!-- Particles -->
     
     <e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
     <e><p><l>gal<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
+    <e><p><l>go<s n="Pcle"/></l><r>kun<s n="Pcle"/></r></p></e>
 
     <!-- Post-positions -->
 
     <e><p><l>badjel<s n="Po"/></l><r>yli<s n="Po"/></r></p></e>
     <e><p><l>vuolde<s n="Po"/></l><r>alla<s n="Po"/></r></p></e>
-    <e><p><l>alde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>
+    <e><p><l>alde<s n="Po"/></l><r>päällä<s n="Adp"/></r></p></e>
     <e><p><l>ovddas<s n="Po"/></l><r>edessä<s n="Po"/></r></p></e>
     <e><p><l>gaskkas<s n="Po"/></l><r>välissä<s n="Po"/></r></p></e>
     <e><p><l>guvlui<s n="Po"/></l><r>kohti<s n="Po"/></r></p></e> <!-- ? -->
@@ -61,7 +95,7 @@
     -->
 
     <!-- Conjunctions -->
-    <e><p><l>ja<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
+    <e><p><l>ja<s n="CC"/></l><r>ja<s n="Conj"/><s n="Coord"/></r></p></e>
     <e><p><l>vai<s n="CC"/></l><r>vai<s n="CC"/></r></p></e>
     <e><p><l>muhto<s n="CC"/></l><r>mutta<s n="CC"/></r></p></e>
     <e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
@@ -72,7 +106,7 @@
     <e><p><l>aht<s n="CS"/></l><r>et<s n="CS"/></r></p></e>
     <e><p><l>danin<s n="CS"/></l><r>koska<s n="CS"/></r></p></e>
     <e><p><l>dego<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
-    <e><p><l>go<s n="CS"/></l><r>kun<s n="CS"/></r></p></e>
+    <e><p><l>go<s n="CS"/></l><r>kun<s n="Conj"/></r></p></e>
     <e><p><l>jus<s n="CS"/></l><r>jos<s n="CS"/></r></p></e>
     <e><p><l>muhte<s n="CS"/></l><r>mutta<s n="CS"/></r></p></e>
     <e><p><l>nugo<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
@@ -83,7 +117,18 @@
 
     <!-- Pronouns -->
 
-    <e><p><l>son<s n="Pron"/><s n="Pers"/></l><r>hän<s n="Pron"/><s n="Pers"/></r></p></e>
+    <e><p><l>mun<s n="Pron"/><s n="Pers"/><s n="Sg1"/></l><r>minä<s n="Pron"/><s n="Pers"/><s n="Sg"/></r></p></e>
+    <e><p><l>don<s n="Pron"/><s n="Pers"/><s n="Sg2"/></l><r>sinä<s n="Pron"/><s n="Pers"/><s n="Sg"/></r></p></e>
+    <e><p><l>son<s n="Pron"/><s n="Pers"/><s n="Sg3"/></l><r>hän<s n="Pron"/><s n="Pers"/><s n="Sg"/></r></p></e>
+    <e><p><l>son<s n="Pron"/><s n="Pers"/><s n="Pl3"/></l><r>hän<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e>
+
+    <e><p><l>dot<s n="Pron"/><s n="Dem"/></l><r>se<s n="Pron"/><s n="Dem"/></r></p></e>
+    <e><p><l>dát<s n="Pron"/><s n="Dem"/></l><r>tämä<s n="Pron"/><s n="Dem"/></r></p></e>
+    <e><p><l>gii<s n="Pron"/><s n="Rel"/></l><r>joka<s n="Pron"/><s n="Rel"/></r></p></e>
+
+    <e><p><l>mii<s n="Pron"/><s n="Interr"/></l><r>mikä<s n="Pron"/><s n="Interr"/></r></p></e>
+
+    <!-- Numerals -->
 
     <!-- Nouns -->
     <e><p><l>jaspis<s n="N"/></l><r>jaspis<s n="N"/></r></p></e>
@@ -676,10 +721,11 @@
 
     <!-- Proper nouns -->
 
+    <e><p><l>Israel<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Israel<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Albánia<s n="N"/><s n="Prop"/></l><r>Albania<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Duiska<s n="N"/><s n="Prop"/></l><r>Saksa<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Dánmárku<s n="N"/><s n="Prop"/></l><r>Tanska<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Egypta<s n="N"/><s n="Prop"/></l><r>Egypti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Egypta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Egypti<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Estlánda<s n="N"/><s n="Prop"/></l><r>Viro<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Fráŋkriika<s n="N"/><s n="Prop"/></l><r>Ranska<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Greika<s n="N"/><s n="Prop"/></l><r>Kreikka<s n="N"/><s n="Prop"/></r></p></e>
@@ -708,7 +754,11 @@
     <e><p><l>Ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Amerihká<b/>ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Amerikan<b/>yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
 
+    <e><p><l>Ipmil<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Jumala<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Jesus<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Jeesus<s n="N"/><s n="Prop"/></r></p></e>
+
     <e><p><l>Tommi<s n="N"/><s n="Prop"/></l><r>Tommi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Márjá<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Maria<s n="N"/><s n="Prop"/></r></p></e>
 
 
     <!-- Adjectives -->
@@ -719,28 +769,42 @@
     <e><p><l>nuorra<s n="A"/></l><r>nuori<s n="A"/></r></p></e>
     <e><p><l>bastil<s n="A"/></l><r>terävä<s n="A"/></r></p></e>
     <e><p><l>mahtosaš<s n="A"/></l><r>kokoinen<s n="A"/></r></p></e>
+    <e><p><l>ávdin<s n="A"/></l><r>autio<s n="A"/></r></p><par n="A_A"/></e>
+    <e><p><l>ráhkis<s n="A"/></l><r>rakas<s n="A"/></r></p><par n="A_A"/></e>
 
     <!-- Adverbs -->
 
     <e><p><l>veaháš<s n="Adv"/></l><r>vähän<s n="Adv"/></r></p></e>
     <e><p><l>aktii<s n="Adv"/></l><r>yksin<s n="Adv"/></r></p></e>
     <e><p><l>eambbo<s n="Adv"/></l><r>enemmän<s n="Adv"/></r></p></e>
+    <e><p><l>jaska<s n="Adv"/></l><r>niin<s n="Adv"/></r></p></e>
 
     <!-- Verbs -->
 
-    <e><p><l>ii<s n="V"/><s n="IV"/></l><r>ei<s n="V"/></r></p></e>
-    <e><p><l>leat<s n="V"/><s n="IV"/></l><r>olla<s n="V"/></r></p></e>
+    <e><p><l>ii<s n="V"/><s n="IV"/></l><r>ei<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>leat<s n="V"/><s n="IV"/></l><r>olla<s n="V"/></r></p><par n="V_V"/></e>
 
-    <e><p><l>bassat<s n="V"/><s n="TV"/></l><r>pestä<s n="V"/></r></p></e>
-    <e><p><l>beassat<s n="V"/><s n="TV"/></l><r>päästä<s n="V"/></r></p></e>
-    <e><p><l>dupliseret<s n="V"/><s n="TV"/></l><r>kaksinkertaistaa<s n="V"/></r></p></e>
-    <e><p><l>geavat<s n="V"/><s n="TV"/></l><r>käydä<s n="V"/></r></p></e>
-    <e><p><l>geavahit<s n="V"/><s n="TV"/></l><r>käyttää<s n="V"/></r></p></e>
-    <e><p><l>háliidit<s n="V"/><s n="TV"/></l><r>haluta<s n="V"/></r></p></e>
-    <e><p><l>jearrat<s n="V"/><s n="TV"/></l><r>kysyä<s n="V"/></r></p></e>
-    <e><p><l>lohkat<s n="V"/><s n="TV"/></l><r>lukea<s n="V"/></r></p></e>
-    <e><p><l>njoallut<s n="V"/><s n="TV"/></l><r>nuolla<s n="V"/></r></p></e>
-    <e><p><l>vuoidat<s n="V"/><s n="TV"/></l><r>voidella<s n="V"/></r></p></e>
+    <e><p><l>bassat<s n="V"/><s n="TV"/></l><r>pestä<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>beassat<s n="V"/><s n="TV"/></l><r>päästä<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>dupliseret<s n="V"/><s n="TV"/></l><r>kaksinkertaistaa<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>geavat<s n="V"/><s n="TV"/></l><r>käydä<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>geavahit<s n="V"/><s n="TV"/></l><r>käyttää<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>háliidit<s n="V"/><s n="TV"/></l><r>haluta<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>jearrat<s n="V"/><s n="TV"/></l><r>kysyä<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>lohkat<s n="V"/><s n="TV"/></l><r>lukea<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>njoallut<s n="V"/><s n="TV"/></l><r>nuolla<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>vuoidat<s n="V"/><s n="TV"/></l><r>voidella<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>lihkadit<s n="V"/><s n="IV"/></l><r>liikkua<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>mannat<s n="V"/><s n="IV"/></l><r>mennä<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>gullat<s n="V"/><s n="TV"/></l><r>kuulua<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>luohttit<s n="V"/><s n="IV"/></l><r>luottaa<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>oaidnit<s n="V"/><s n="IV"/></l><r>nähdä<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>gullat<s n="V"/><s n="IV"/></l><r>kuulla<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>deattuhit<s n="V"/><s n="IV"/></l><r>todistaa<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>sárdnut<s n="V"/><s n="IV"/></l><r>sanoa<s n="V"/></r></p><par n="V_V"/></e>
 
+    <!-- Punctuation -->
+
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="Num"/></l><r><s n="Num"/></r></p></e>
   </section>
 </dictionary>

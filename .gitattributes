@@ -25,9 +25,11 @@ dev/bidix/V.lex.orig -text
 dev/bidix/calc-levenshtein.py -text
 dev/countries.txt -text
 dev/update-lexc.sh -text
+dev/uppercase-first.twol -text
 dev/xfst2apertium.relabel -text
 /fin-sme.prob -text
 /lexchoicebil.xsl -text
+/modes.xml -text
 /script.sh -text
 /tutorial-sme-fin.fin.dix -text
 /tutorial-sme-fin.sme-fin.dix -text

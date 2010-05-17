@@ -33,7 +33,7 @@ function grepextract {
     # global $OUTFILE
     cat $LEXC | sed 's/0//g' | sed 's/\^//g' | sed 's/#//g' > $TMP;
     for lema in `cat $EXP | sed 's/ /_/g' | grep "$GREP" | cut -f1 -d'<' | sort | uniq`; do
-	lineno=`grep -nH -e "^ \?$lema+" -e "^ \?$lema:" -e "^ \?$lema " $TMP | cut -f2 -d':'`;
+	lineno=`grep -nH -e "^ \?$lema+" -e "^ \?$lema:" -e "^ \?$lema " -e "^ $lema" $TMP | cut -f2 -d':'`;
 	# for i in $lineno, since we may have several entries per lema
 	if [ "$lineno" != "" ]; then
             for ret in $lineno; do	
@@ -178,6 +178,8 @@ echo -n '+++ Abbreviations... ';
 ABBRLEXC=$SRC/abbr-$LANG1-lex.txt
 
 cat $ABBRLEXC >> $OUTFILE;
+
+echo 'done.';
 
 ### Add punctuation
 echo -n '+++ Punctuation... ';
