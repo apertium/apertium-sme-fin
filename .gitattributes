@@ -1,10 +1,12 @@
 * text=auto !eol
-/Makefile -text
+/Makefile.am -text
 /README -text
 /apertium-sme-fin.fin-sme.t1x -text
 /apertium-sme-fin.sme-fin.dix -text
 /apertium-sme-fin.sme.lexc -text
 /apertium-sme-fin.sme.twol -text
+/autogen.sh -text
+/configure.ac -text
 dev/bidix/A.lex -text
 dev/bidix/A.lex.orig -text
 dev/bidix/Adv.lex -text
@@ -26,7 +28,9 @@ dev/bidix/calc-levenshtein.py -text
 dev/countries.txt -text
 dev/update-lexc.sh -text
 dev/uppercase-first.twol -text
+dev/xfst2apertium.hashtags.twol -text
 dev/xfst2apertium.relabel -text
+dev/xfst2apertium.useless.twol -text
 /fin-sme.prob -text
 /lexchoicebil.xsl -text
 /modes.xml -text

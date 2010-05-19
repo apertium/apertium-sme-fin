@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="fin-sme">
+  <mode name="fin-sme" install="yes">
     <pipeline>
       <program name="hfst-proc">
         <file name="fin-sme.automorf.hfst"/>
