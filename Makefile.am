@@ -27,8 +27,11 @@ $(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol
 $(LANG1).lexc.hfst: $(BASENAME).$(LANG1).lexc
 	hfst-lexc $(BASENAME).$(LANG1).lexc -o $@
 
-$(PREFIX2).autogen.hfst: $(LANG1).twol.hfst $(LANG1).lexc.hfst .deps/uppercase-first.twol.hfst
-	hfst-compose-intersect -l $(LANG1).lexc.hfst $(LANG1).twol.hfst -o $@.tmp
+$(PREFIX2).autogen.hfst: $(LANG1).twol.hfst $(LANG1).lexc.hfst .deps/uppercase-first.twol.hfst dev/xfst2apertium.relabel .deps/xfst2apertium.useless.twol.hfst .deps/xfst2apertium.hashtags.twol.hfst 
+	hfst-compose-intersect -l $(LANG1).lexc.hfst $(LANG1).twol.hfst -o $@.1.tmp
+#	hfst-compose-intersect -l .deps/xfst2apertium.uppercase-first.twol.hfst $@.1.tmp -o $@.1b.tmp
+	hfst-compose-intersect -l .deps/xfst2apertium.useless.twol.hfst $@.1.tmp -o $@.2.tmp
+	hfst-compose-intersect -l .deps/xfst2apertium.hashtags.twol.hfst $@.2.tmp -o $@.3.tmp
 	hfst-substitute -F dev/xfst2apertium.relabel -i $@.tmp -o $@
 
 .deps/uppercase-first.twol.hfst: dev/uppercase-first.twol
@@ -44,11 +47,8 @@ $(PREFIX2).autogen.hfst: $(LANG1).twol.hfst $(LANG1).lexc.hfst .deps/uppercase-f
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-twolc -r -i dev/xfst2apertium.hashtags.twol -o $@
 
-$(PREFIX1).automorf.hfst: $(PREFIX2).autogen.hfst dev/xfst2apertium.relabel .deps/xfst2apertium.useless.twol.hfst .deps/xfst2apertium.hashtags.twol.hfst
+$(PREFIX1).automorf.hfst: $(PREFIX2).autogen.hfst
 	hfst-invert $(PREFIX2).autogen.hfst -o $@.1.tmp
-	hfst-compose-intersect -l $@.1.tmp .deps/xfst2apertium.useless.twol.hfst -o $@.2.tmp
-	hfst-compose-intersect -l $@.2.tmp .deps/xfst2apertium.hashtags.twol.hfst -o $@.3.tmp
-	hfst-substitute -F dev/xfst2apertium.relabel -i $@.3.tmp -o $@
 
 #	@rm $@.1.tmp $@.2.tmp $@.3.tmp
 
