@@ -682,7 +682,7 @@
     <e><p><l>várri<s n="N"/></l><r>vuori<s n="N"/></r></p></e>
     <e><p><l>vársá<s n="N"/></l><r>varsa<s n="N"/></r></p></e>
     <e><p><l>vašálaš<s n="N"/></l><r>vihamies<s n="N"/></r></p></e>
-    <e slr="1"><p><l>vašálaš<s n="N"/></l><r>vihollisuus<s n="N"/></r></p></e>
+    <e><p><l>vašálašvuohta<s n="N"/></l><r>vihollisuus<s n="N"/></r></p></e>
     <e><p><l>vástádus<s n="N"/></l><r>vastaus<s n="N"/></r></p></e>
     <e><p><l>veahkki<s n="N"/></l><r>apumies<s n="N"/></r></p></e>
     <e><p><l>veaiki<s n="N"/></l><r>vaski<s n="N"/></r></p></e>
@@ -692,7 +692,6 @@
     <e><p><l>vearru<s n="N"/></l><r>vero<s n="N"/></r></p></e>
     <e><p><l>vesá<s n="N"/></l><r>vesa<s n="N"/></r></p></e>
     <e><p><l>viellja<s n="N"/></l><r>veli<s n="N"/></r></p></e>
-    <e slr="1"><p><l>viellja<s n="N"/></l><r>harrastapa<s n="N"/></r></p></e>
     <e><p><l>viessut<s n="N"/></l><r>huone<s n="N"/></r></p></e>
     <e srl="1"><p><l>viessu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
     <e><p><l>viidni<s n="N"/></l><r>viinimalja<s n="N"/></r></p></e>
