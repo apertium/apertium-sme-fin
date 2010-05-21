@@ -30,7 +30,7 @@ $(LANG1).lexc.hfst: $(BASENAME).$(LANG1).lexc
 # TODO: For sme-generation, this should change the analysis, not
 # surface-form, so it should probably be applied to the analyser, but
 # needs some changes first...
-.deps/uppercase-first.twol.hfst: dev/uppercase-first.twol
+.deps/xfst2apertium.uppercase-first.twol.hfst: dev/uppercase-first.twol
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-twolc -r -i dev/uppercase-first.twol -o $@
 
@@ -71,7 +71,7 @@ $(PREFIX2).autobil.bin: .deps/$(BASENAME).$(PREFIX1).dix
 	lt-comp rl .deps/$(BASENAME).$(PREFIX1).dix $@
 
 ##
-##	PRE-TAGGING
+##	PRE-TAGGING: CONSTRAINT GRAMMAR(S)
 ##
 
 $(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
@@ -85,9 +85,9 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $(BASENAME).$(PREFIX2).t1x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t1x $@
 
-#
-#	MODE FILE(S)
-#
+##
+##	MODE FILE(S)
+##
 
 $(PREFIX2).mode: modes.xml
 	apertium-validate-modes modes.xml
@@ -95,7 +95,7 @@ $(PREFIX2).mode: modes.xml
 	cp *.mode modes/
 
 ## 
-##	FILES WHICH AREN'T BUILD BUT ARE DISTRIBUTED
+##	FILES WHICH AREN'T BUILT BUT ARE DISTRIBUTED
 ## 
 
 EXTRA_DIST=\
