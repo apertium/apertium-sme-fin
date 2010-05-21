@@ -4,6 +4,9 @@
     <def-cat n="nom">
       <cat-item tags="N.*"/>
     </def-cat>
+    <def-cat n="pron">
+      <cat-item tags="Pron.*"/>
+    </def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="gen">
@@ -37,6 +40,13 @@
       <attr-item tags="Cmt" />
       <attr-item tags="Ins" />
 	</def-attr>
+	<def-attr n="a_poss">
+	  <attr-item tags="Sg1" />
+      <attr-item tags="Sg2" />
+      <attr-item tags="Pl1" />
+      <attr-item tags="Pl2" />
+      <attr-item tags="Poss3" /> <!-- Hmm, is this inconsistency a problem? -->
+	</def-attr>
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
@@ -53,6 +63,22 @@
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="gen"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="a_case" />
+			<clip pos="1" side="tl" part="a_poss" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+   <rule>
+      <pattern>
+        <pattern-item n="pron"/>
+      </pattern>
+      <action>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="a_case" />
           </lu>

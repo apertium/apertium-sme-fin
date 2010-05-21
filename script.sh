@@ -1,4 +1,3 @@
-GTHOME=/home/fran/source/giellatekno/trunk
 OMORFI=$GTHOME/kt/fin/omorfi
 FINCG=$GTHOME/kt/fin/src/fin-dis.bin
 

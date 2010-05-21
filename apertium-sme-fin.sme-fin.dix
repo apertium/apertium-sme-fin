@@ -52,6 +52,22 @@
     </pardef>
   </pardefs>
   <section id="main" type="standard">
+	<!-- Pronouns -->
+
+    <e><p><l>mun<s n="Pron"/></l><r>minä<s n="Pron"/></r></p></e>
+    <e><p><l>don<s n="Pron"/></l><r>sinä<s n="Pron"/></r></p></e>
+    <e><p><l>son<s n="Pron"/></l><r>hän<s n="Pron"/></r></p></e>
+
+    <e><p><l>mii<s n="Pron"/></l><r>me<s n="Pron"/></r></p></e>
+    <e><p><l>dii<s n="Pron"/></l><r>te<s n="Pron"/></r></p></e>
+    <e><p><l>sii<s n="Pron"/></l><r>he<s n="Pron"/></r></p></e>
+
+	<!-- Duals -->
+    <e srl="1"><p><l>moai<s n="Pron"/></l><r>me<s n="Pron"/></r></p></e>
+    <e srl="1"><p><l>doai<s n="Pron"/></l><r>te<s n="Pron"/></r></p></e>
+    <e srl="1"><p><l>soai<s n="Pron"/></l><r>he<s n="Pron"/></r></p></e>
+
+	
     <!-- Particles -->
     
     <e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
