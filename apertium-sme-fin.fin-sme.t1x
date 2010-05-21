@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer>
   <section-def-cats>
+  <def-cat n="verb">
+    <cat-item tags="V.*"/>
+  </def-cat>
     <def-cat n="nom">
       <cat-item tags="N.*"/>
     </def-cat>
@@ -47,12 +50,46 @@
       <attr-item tags="Pl2" />
       <attr-item tags="Poss3" /> <!-- Hmm, is this inconsistency a problem? -->
 	</def-attr>
+	<def-attr n="a_voice">
+		<attr-item tags="Act"/>
+		<attr-item tags="Pass"/>
+	</def-attr>
+	<def-attr n="a_tense">
+		<attr-item tags="Prs"/>
+		<attr-item tags="Prt"/>
+	</def-attr>
+	<def-attr n="a_person">
+		<attr-item tags="Sg1"/>
+		<attr-item tags="Sg2"/>
+		<attr-item tags="Sg3"/>
+		<attr-item tags="Pl1"/>
+		<attr-item tags="Pl2"/>
+		<attr-item tags="Pl3"/>
+		<attr-item tags="Pe4"/>
+	</def-attr>
+	
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="case"/>
   </section-def-vars>
   <section-rules>
+	<rule>
+		<pattern>
+			<pattern-item n="verb" />
+		</pattern>
+		<action>
+			<out>
+				<lu>
+					<clip pos="1" side="tl" part="lem" />
+					<clip pos="1" side="tl" part="a_voice" />
+					<clip pos="1" side="tl" part="a_tense" />
+					<clip pos="1" side="tl" part="a_person" />
+				</lu>
+			</out>
+		</action>
+	</rule>
+	
     <rule>
       <pattern>
         <pattern-item n="nom"/>
@@ -62,7 +99,7 @@
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen"/>
+            <!-- <clip pos="1" side="tl" part="gen"/> -->
             <clip pos="1" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="a_case" />
 			<clip pos="1" side="tl" part="a_poss" />
