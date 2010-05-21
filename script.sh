@@ -1,3 +1,5 @@
+#!/bin/sh
+
 if [[ !$GTHOME ]]; then
 	GTHOME=/home/fran/source/giellatekno/trunk
 fi
