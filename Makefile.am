@@ -38,6 +38,7 @@ $(LANG1).lexc.hfst: $(BASENAME).$(LANG1).lexc
 # directly on the generator? They change the analysis, not
 # surface-form, though, so probably not.
 .deps/$(PREFIX2).autogen.orig.hfst: $(LANG1).lexc.hfst $(LANG1).twol.hfst
+	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-compose-intersect -l $(LANG1).lexc.hfst $(LANG1).twol.hfst -o $@
 
 .deps/xfst2apertium.useless.twol.hfst: dev/xfst2apertium.useless.twol
