@@ -146,6 +146,14 @@
 
     <!-- Numerals -->
 
+
+    <e><p><l>okta<s n="Num"/><s n="Sg"/></l><r>yksi<s n="Num"/><s n="Sg"/></r></p></e>
+    <e><p><l>guokte<s n="Num"/><s n="Sg"/></l><r>kaksi<s n="Num"/><s n="Sg"/></r></p></e>
+    <e><p><l>golbma<s n="Num"/><s n="Sg"/></l><r>kolme<s n="Num"/><s n="Sg"/></r></p></e>
+    <e><p><l>njeallje<s n="Num"/><s n="Sg"/></l><r>neljä<s n="Num"/><s n="Sg"/></r></p></e>
+    <e><re>[0-9]*</re><p><l><s n="Num"/><s n="Sg"/></l><r><s n="Num"/><s n="Sg"/></r></p></e>
+
+
     <!-- Nouns -->
     <e><p><l>jaspis<s n="N"/></l><r>jaspis<s n="N"/></r></p></e>
     <e><p><l>farao<s n="N"/></l><r>farao<s n="N"/></r></p></e>
@@ -173,7 +181,6 @@
     <e><p><l>rabbat<s n="N"/></l><r>rabbi<s n="N"/></r></p></e>
     <e><p><l>purpur<s n="N"/></l><r>purppura<s n="N"/></r></p></e>
     <e><p><l>olju<s n="N"/></l><r>öljy<s n="N"/></r></p></e>
-    <e><p><l>niski<s n="N"/></l><r>niskuri<s n="N"/></r></p></e>
     <e><p><l>myrra<s n="N"/></l><r>mirha<s n="N"/></r></p></e>
     <e><p><l>miehkki<s n="N"/></l><r>miekka<s n="N"/></r></p></e>
     <e><p><l>leopárda<s n="N"/></l><r>leopardi<s n="N"/></r></p></e>
@@ -189,7 +196,6 @@
     <e><p><l>siellu<s n="N"/></l><r>sielu<s n="N"/></r></p></e>
     <e><p><l>profehta<s n="N"/></l><r>profeetta<s n="N"/></r></p></e>
     <e><p><l>evangelium<s n="N"/></l><r>evankeliumi<s n="N"/></r></p></e>
-    <e><p><l>vuoitu<s n="N"/></l><r>ota<s n="N"/></r></p></e>
     <e><p><l>skuvla<s n="N"/></l><r>koulu<s n="N"/></r></p></e>
     <e><p><l>sálti<s n="N"/></l><r>soula<s n="N"/></r></p></e>
     <e><p><l>ráhkká<s n="N"/></l><r>rakka<s n="N"/></r></p></e>
@@ -205,9 +211,7 @@
 
     <e><p><l>ađa<s n="N"/></l><r>ydin<s n="N"/></r></p></e>
     <e><p><l>addi<s n="N"/></l><r>antaja<s n="N"/></r></p></e>
-    <e><p><l>áhčáš<s n="N"/></l><r>isä<s n="N"/></r></p></e>
     <e><p><l>áhčči<s n="N"/></l><r>isä<s n="N"/></r></p></e>
-    <e><p><l>áhci<s n="N"/></l><r>isä<s n="N"/></r></p></e>
     <e><p><l>áhkká<s n="N"/></l><r>vaimo<s n="N"/></r></p></e>
     <e><p><l>áhkku<s n="N"/></l><r>isoäiti<s n="N"/></r></p></e>
     <e><p><l>áhpi<s n="N"/></l><r>meri<s n="N"/></r></p></e>
@@ -221,18 +225,14 @@
     <e><p><l>allatvuohta<s n="N"/></l><r>majesteetti<s n="N"/></r></p></e>
     <e><p><l>almmuhus<s n="N"/></l><r>ilmoitus<s n="N"/></r></p></e>
     <e><p><l>almmustus<s n="N"/></l><r>ilmestys<s n="N"/></r></p></e>
-    <e><p><l>almmustuvvat<s n="N"/></l><r>ilmestys<s n="N"/></r></p></e>
     <e><p><l>aloe<s n="N"/></l><r>seos<s n="N"/></r></p></e>
     <e><p><l>áltár<s n="N"/></l><r>alttari<s n="N"/></r></p></e>
     <e><p><l>ámadadju<s n="N"/></l><r>kasvo<s n="N"/></r></p></e>
     <e><p><l>ametysta<s n="N"/></l><r>ametisti<s n="N"/></r></p></e>
     <e><p><l>áŋkorbáddi<s n="N"/></l><r>ankkuriköysi<s n="N"/></r></p></e>
     <e><p><l>áŋkor<s n="N"/></l><r>ankkuri<s n="N"/></r></p></e>
-    <e><p><l>anistuvvat<s n="N"/></l><r>ahneus<s n="N"/></r></p></e>
-    <e><p><l>ánssášit<s n="N"/></l><r>ansio<s n="N"/></r></p></e>
     <e><p><l>antikristus<s n="N"/></l><r>antikristus<s n="N"/></r></p></e>
     <e><p><l>apoastal<s n="N"/></l><r>apostoli<s n="N"/></r></p></e>
-    <e><p><l>apoasttal<s n="N"/></l><r>apostoli<s n="N"/></r></p></e>
     <e><p><l>árbeeanan<s n="N"/></l><r>perintö<s n="N"/></r></p></e>
     <e><p><l>árbeoassi<s n="N"/></l><r>perintöosa<s n="N"/></r></p></e>
     <e><p><l>árbmu<s n="N"/></l><r>armo<s n="N"/></r></p></e>
@@ -262,13 +262,11 @@
     <e><p><l>bálká<s n="N"/></l><r>palkka<s n="N"/></r></p></e>
     <e><p><l>bálvaleaddji<s n="N"/></l><r>palvelusmies<s n="N"/></r></p></e>
     <e><p><l>bálvalus<s n="N"/></l><r>huoneväki<s n="N"/></r></p></e>
-    <e><p><l>bálvalus<s n="N"/></l><r>seurakuntavirka<s n="N"/></r></p></e>
     <e><p><l>balva<s n="N"/></l><r>pilvi<s n="N"/></r></p></e>
     <e><p><l>bánis<s n="N"/></l><r>hammas<s n="N"/></r></p></e>
     <e><p><l>barbára<s n="N"/></l><r>barbaari<s n="N"/></r></p></e>
     <e><p><l>bárdni<s n="N"/></l><r>poika<s n="N"/></r></p></e>
     <e><p><l>bargi<s n="N"/></l><r>työntekijä<s n="N"/></r></p></e>
-    <e><p><l>bargu<s n="N"/></l><r>huonehallitus<s n="N"/></r></p></e>
     <e><p><l>bárgut<s n="N"/></l><r>parku<s n="N"/></r></p></e>
     <e><p><l>bártnáš<s n="N"/></l><r>poika<s n="N"/></r></p></e>
     <e><p><l>bávkkas<s n="N"/></l><r>jylinä<s n="N"/></r></p></e>
@@ -280,11 +278,13 @@
     <e><p><l>bealuštus<s n="N"/></l><r>puolustus<s n="N"/></r></p></e>
     <e><p><l>beana<s n="N"/></l><r>koira<s n="N"/></r></p></e>
     <e><p><l>beaŋka<s n="N"/></l><r>istuin<s n="N"/></r></p></e>
+    <e><p><l>beaŋka<s n="N"/></l><r>penkki<s n="N"/></r></p></e>
     <e><p><l>bearal<s n="N"/></l><r>helmi<s n="N"/></r></p></e>
     <e><p><l>beargalat<s n="N"/></l><r>perkele<s n="N"/></r></p></e>
     <e><p><l>beassi<s n="N"/></l><r>pesä<s n="N"/></r></p></e>
     <e><p><l>beasti<s n="N"/></l><r>vapahtaja<s n="N"/></r></p></e>
     <e><p><l>beavdi<s n="N"/></l><r>pöytä<s n="N"/></r></p></e>
+    <e><p><l>bellodat<s n="N"/></l><r>puolue<s n="N"/></r></p></e>
     <e><p><l>bellodat<s n="N"/></l><r>lahko<s n="N"/></r></p></e>
     <e><p><l>bestojupmi<s n="N"/></l><r>pelastus<s n="N"/></r></p></e>
     <e><p><l>biegga<s n="N"/></l><r>tuuli<s n="N"/></r></p></e>
@@ -375,12 +375,11 @@
     <e><p><l>evangelista<s n="N"/></l><r>evankelista<s n="N"/></r></p></e>
     <e><p><l>evangelium<s n="N"/></l><r>evankeliumi<s n="N"/></r></p></e>
     <e><p><l>fákta<s n="N"/></l><r>vartijaväki<s n="N"/></r></p></e>
-    <e><p><l>fáktet<s n="N"/></l><r>vartija<s n="N"/></r></p></e>
-    <e><p><l>fanas<s n="N"/></l><r>venhe<s n="N"/></r></p></e>
+    <e><p><l>fanas<s n="N"/></l><r>vene<s n="N"/></r></p></e>
     <e><p><l>fáŋga<s n="N"/></l><r>vanki<s n="N"/></r></p></e>
     <e><p><l>fápmu<s n="N"/></l><r>valta<s n="N"/></r></p></e>
     <e><p><l>fápmu<s n="N"/></l><r>voima<s n="N"/></r></p></e>
-    <e><p><l>farisealaš<s n="N"/></l><r>fariseus<s n="N"/></r></p></e>
+    <e><p><l>farisealaš<s n="N"/></l><r>farisealainen<s n="N"/></r></p></e>
     <e><p><l>fastivuohta<s n="N"/></l><r>kauhistus<s n="N"/></r></p></e>
     <e><p><l>fástobeaivi<s n="N"/></l><r>paastonaika<s n="N"/></r></p></e>
     <e><p><l>fávru<s n="N"/></l><r>kalleus<s n="N"/></r></p></e>
@@ -392,9 +391,9 @@
     <e><p><l>fuolki<s n="N"/></l><r>sukulainen<s n="N"/></r></p></e>
     <e><p><l>fuolki<s n="N"/></l><r>suku<s n="N"/></r></p></e>
     <e><p><l>fuorrá<s n="N"/></l><r>portto<s n="N"/></r></p></e>
+    <e><p><l>fuorrá<s n="N"/></l><r>huora<s n="N"/></r></p></e>
     <e><p><l>gáica<s n="N"/></l><r>vuohi<s n="N"/></r></p></e>
     <e><p><l>gáivo<s n="N"/></l><r>kaivo<s n="N"/></r></p></e>
-    <e><p><l>gáivvo<s n="N"/></l><r>kaivo<s n="N"/></r></p></e>
     <e><p><l>galba<s n="N"/></l><r>kilpi<s n="N"/></r></p></e>
     <e><p><l>gállu<s n="N"/></l><r>otsa<s n="N"/></r></p></e>
     <e><p><l>gámmir<s n="N"/></l><r>kammio<s n="N"/></r></p></e>
@@ -708,7 +707,6 @@
     <e><p><l>vearru<s n="N"/></l><r>vero<s n="N"/></r></p></e>
     <e><p><l>vesá<s n="N"/></l><r>vesa<s n="N"/></r></p></e>
     <e><p><l>viellja<s n="N"/></l><r>veli<s n="N"/></r></p></e>
-    <e><p><l>viessut<s n="N"/></l><r>huone<s n="N"/></r></p></e>
     <e srl="1"><p><l>viessu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
     <e><p><l>viidni<s n="N"/></l><r>viinimalja<s n="N"/></r></p></e>
     <e><p><l>viidu<s n="N"/></l><r>leveys<s n="N"/></r></p></e>
