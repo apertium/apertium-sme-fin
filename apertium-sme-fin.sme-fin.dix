@@ -55,20 +55,6 @@
     </pardef>
   </pardefs>
   <section id="main" type="standard">
-	<!-- Pronouns -->
-
-    <e><p><l>mun<s n="Pron"/><s n="Pers" /><s n="Sg1" /></l><r>minä<s n="Pron"/></r></p></e>
-    <e><p><l>don<s n="Pron"/><s n="Pers" /><s n="Sg2" /></l><r>sinä<s n="Pron"/></r></p></e>
-    <e><p><l>son<s n="Pron"/><s n="Pers" /><s n="Sg3" /></l><r>hän<s n="Pron"/></r></p></e>
-
-    <e><p><l>mun<s n="Pron"/><s n="Pers" /><s n="Pl1" /></l><r>minä<s n="Pron"/><s n="Pl" /></r></p></e> <!-- This is how omorfi and giellatekno analyze plurals it-->
-    <e><p><l>don<s n="Pron"/><s n="Pers" /><s n="Pl2" /></l><r>sinä<s n="Pron"/><s n="Pl" /></r></p></e>
-    <e><p><l>son<s n="Pron"/><s n="Pers" /><s n="Pl3" /></l><r>hän<s n="Pron"/><s n="Pl" /></r></p></e>
-
-	<!-- Duals -->
-    <!-- <e srl="1"><p><l>moai<s n="Pron"/><s n="Pers" /><s n="Du1" /></l><r>me<s n="Pron"/></r></p></e>
-    <e srl="1"><p><l>doai<s n="Pron"/><s n="Pers" /><s n="Du2" /></l><r>te<s n="Pron"/></r></p></e>
-    <e srl="1"><p><l>soai<s n="Pron"/><s n="Pers" /><s n="Du3" /></l><r>he<s n="Pron"/></r></p></e> -->
 
 	
     <!-- Particles -->
@@ -135,17 +121,27 @@
     <e><p><l>ovdal<b/>go<s n="CS"/></l><r>ennen<b/>kuin<s n="CS"/></r></p></e>
 
     <!-- Pronouns -->
+	<!-- Pronouns -->
 
-    <e><p><l>mun<s n="Pron"/><s n="Pers"/><s n="Sg1"/></l><r>minä<s n="Pron"/><s n="Pers"/><s n="Sg"/></r></p></e>
-    <e><p><l>don<s n="Pron"/><s n="Pers"/><s n="Sg2"/></l><r>sinä<s n="Pron"/><s n="Pers"/><s n="Sg"/></r></p></e>
-    <e><p><l>son<s n="Pron"/><s n="Pers"/><s n="Sg3"/></l><r>hän<s n="Pron"/><s n="Pers"/><s n="Sg"/></r></p></e>
-    <e><p><l>son<s n="Pron"/><s n="Pers"/><s n="Pl3"/></l><r>hän<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e>
+    <e><p><l>mun<s n="Pron"/><s n="Pers" /><s n="Sg1" /></l><r>minä<s n="Pron"/></r></p></e>
+    <e><p><l>don<s n="Pron"/><s n="Pers" /><s n="Sg2" /></l><r>sinä<s n="Pron"/></r></p></e>
+    <e><p><l>son<s n="Pron"/><s n="Pers" /><s n="Sg3" /></l><r>hän<s n="Pron"/></r></p></e>
 
-    <e><p><l>dot<s n="Pron"/><s n="Dem"/></l><r>se<s n="Pron"/><s n="Dem"/></r></p></e>
+    <e><p><l>mun<s n="Pron"/><s n="Pers" /><s n="Pl1" /></l><r>minä<s n="Pron"/><s n="Pl" /></r></p></e> <!-- This is how omorfi and giellatekno analyze plurals it-->
+    <e><p><l>don<s n="Pron"/><s n="Pers" /><s n="Pl2" /></l><r>sinä<s n="Pron"/><s n="Pl" /></r></p></e>
+    <e><p><l>son<s n="Pron"/><s n="Pers" /><s n="Pl3" /></l><r>hän<s n="Pron"/><s n="Pl" /></r></p></e>
+
+    <e><p><l>dat<s n="Pron"/><s n="Dem"/></l><r>se<s n="Pron"/><s n="Sg"/></r></p></e>
     <e><p><l>dát<s n="Pron"/><s n="Dem"/></l><r>tämä<s n="Pron"/><s n="Dem"/></r></p></e>
     <e><p><l>gii<s n="Pron"/><s n="Rel"/></l><r>joka<s n="Pron"/><s n="Rel"/></r></p></e>
 
     <e><p><l>mii<s n="Pron"/><s n="Interr"/></l><r>mikä<s n="Pron"/><s n="Interr"/></r></p></e>
+
+
+	<!-- Duals -->
+    <!-- <e srl="1"><p><l>moai<s n="Pron"/><s n="Pers" /><s n="Du1" /></l><r>me<s n="Pron"/></r></p></e>
+    <e srl="1"><p><l>doai<s n="Pron"/><s n="Pers" /><s n="Du2" /></l><r>te<s n="Pron"/></r></p></e>
+    <e srl="1"><p><l>soai<s n="Pron"/><s n="Pers" /><s n="Du3" /></l><r>he<s n="Pron"/></r></p></e> -->
 
     <!-- Numerals -->
 
