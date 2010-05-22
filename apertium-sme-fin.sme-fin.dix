@@ -27,6 +27,9 @@
     <sdef n="Pl1"      c="First-person plural"/>
     <sdef n="Pl2"      c="Second-person plural"/>
     <sdef n="Pl3"      c="Third-person plural"/>
+    <sdef n="Du1"      c="First-person dual"/>
+    <sdef n="Du2"      c="Second-person dual"/>
+    <sdef n="Du3"      c="Third-person dual"/>
 
     <sdef n="Prop"     c="Proper noun"/>
     <sdef n="Pers"     c="Personal"/>
@@ -54,18 +57,18 @@
   <section id="main" type="standard">
 	<!-- Pronouns -->
 
-    <e><p><l>mun<s n="Pron"/></l><r>minä<s n="Pron"/></r></p></e>
-    <e><p><l>don<s n="Pron"/></l><r>sinä<s n="Pron"/></r></p></e>
-    <e><p><l>son<s n="Pron"/></l><r>hän<s n="Pron"/></r></p></e>
+    <e><p><l>mun<s n="Pron"/><s n="Pers" /><s n="Sg1" /></l><r>minä<s n="Pron"/></r></p></e>
+    <e><p><l>don<s n="Pron"/><s n="Pers" /><s n="Sg2" /></l><r>sinä<s n="Pron"/></r></p></e>
+    <e><p><l>son<s n="Pron"/><s n="Pers" /><s n="Sg3" /></l><r>hän<s n="Pron"/></r></p></e>
 
-    <e><p><l>mii<s n="Pron"/></l><r>me<s n="Pron"/></r></p></e>
-    <e><p><l>dii<s n="Pron"/></l><r>te<s n="Pron"/></r></p></e>
-    <e><p><l>sii<s n="Pron"/></l><r>he<s n="Pron"/></r></p></e>
+    <e><p><l>mun<s n="Pron"/><s n="Pers" /><s n="Pl1" /></l><r>minä<s n="Pron"/><s n="Pl" /></r></p></e> <!-- This is how omorfi and giellatekno analyze plurals it-->
+    <e><p><l>don<s n="Pron"/><s n="Pers" /><s n="Pl2" /></l><r>sinä<s n="Pron"/><s n="Pl" /></r></p></e>
+    <e><p><l>son<s n="Pron"/><s n="Pers" /><s n="Pl3" /></l><r>hän<s n="Pron"/><s n="Pl" /></r></p></e>
 
 	<!-- Duals -->
-    <e srl="1"><p><l>moai<s n="Pron"/></l><r>me<s n="Pron"/></r></p></e>
-    <e srl="1"><p><l>doai<s n="Pron"/></l><r>te<s n="Pron"/></r></p></e>
-    <e srl="1"><p><l>soai<s n="Pron"/></l><r>he<s n="Pron"/></r></p></e>
+    <!-- <e srl="1"><p><l>moai<s n="Pron"/><s n="Pers" /><s n="Du1" /></l><r>me<s n="Pron"/></r></p></e>
+    <e srl="1"><p><l>doai<s n="Pron"/><s n="Pers" /><s n="Du2" /></l><r>te<s n="Pron"/></r></p></e>
+    <e srl="1"><p><l>soai<s n="Pron"/><s n="Pers" /><s n="Du3" /></l><r>he<s n="Pron"/></r></p></e> -->
 
 	
     <!-- Particles -->

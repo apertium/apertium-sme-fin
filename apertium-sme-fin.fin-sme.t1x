@@ -7,8 +7,8 @@
     <def-cat n="nom">
       <cat-item tags="N.*"/>
     </def-cat>
-    <def-cat n="pron">
-      <cat-item tags="Pron.*"/>
+    <def-cat n="pronpers">
+	  <cat-item tags="Pron.*"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -20,6 +20,15 @@
       <attr-item tags="Sg"/>
       <attr-item tags="Pl"/>
     </def-attr>
+	<def-attr n="a_verb">
+		<attr-item tags="V"/>
+		<attr-item tags="V.IV"/>
+		<attr-item tags="V.TV"/>
+	</def-attr>
+	<def-attr n="a_pron">
+		<attr-item tags="Pron"/>
+		<attr-item tags="Pron.Pers"/>
+	</def-attr>
     <def-attr n="a_nom">
       <attr-item tags="N"/>
       <attr-item tags="N.Prop"/>
@@ -54,6 +63,14 @@
 	<def-attr n="a_voice">
 		<attr-item tags="Act"/>
 		<attr-item tags="Pass"/>
+	</def-attr>
+	<def-attr n="a_trans">
+		<attr-item tags="IV"/>
+		<attr-item tags="TV"/>
+	</def-attr>
+	<def-attr n="a_realis">
+		<attr-item tags="Ind"/>
+		<attr-item tags="Imp"/>
 	</def-attr>
 	<def-attr n="a_tense">
 		<attr-item tags="Prs"/>
@@ -93,7 +110,41 @@
 			</when>
 			</choose>
 		</def-macro>
+
+		<def-macro n="set_ade_loc" npar="1" c="arg.1: pronoun. Change Ade into Loc">
+			<choose>
+				<when>
+				<test>
+					<equal>
+						<clip pos="1" side="sl" part="a_case"/><lit-tag v="Ade"/>
+					</equal>
+				</test>
+				<let><clip pos="1" side="tl" part="a_case"/><lit-tag v="Loc"/></let>
+			</when>
+			</choose>
+		</def-macro>
+		
+		<def-macro n="strip_nbr" npar="1" c="Strip the nbr tag from personal pronouns">
+			<choose>
+				<when>
+					<test>
+						<or>
+							<equal>
+								<clip pos="1" side="sl" part="nbr"/><lit-tag v="Pl"/>
+							</equal>
+							<equal>
+								<clip pos="1" side="sl" part="nbr"/><lit-tag v="Sg"/>								
+							</equal>
+						</or>
+					</test>
+					<let>
+						<clip pos="1" side="tl" part="nbr"/><lit v=""/>
+					</let>
+				</when>
+			</choose>
+		</def-macro>
 	</section-def-macros>
+	
 
   <section-rules>
 	<rule>
@@ -104,6 +155,9 @@
 			<out>
 				<lu>
 					<clip pos="1" side="tl" part="lem" />
+					<clip pos="1" side="tl" part="a_verb" /> 
+					<!-- <clip pos="1" side="tl" part="a_trans" /> --> <!-- specified in a_verb -->
+					<clip pos="1" side="tl" part="a_realis" />
 					<clip pos="1" side="tl" part="a_voice" />
 					<clip pos="1" side="tl" part="a_tense" />
 					<clip pos="1" side="tl" part="a_person" />
@@ -134,16 +188,23 @@
     </rule>
    <rule>
       <pattern>
-        <pattern-item n="pron"/>
+        <pattern-item n="pronpers"/>
       </pattern>
       <action>
+		<call-macro n="set_ade_loc">
+			<with-param pos="1"/>
+		</call-macro>
+		<call-macro n="strip_nbr">
+			<with-param pos="1"/>
+		</call-macro>
         <out>
-          <lu>
-            <clip pos="1" side="tl" part="lem"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="a_case" />
-          </lu>
+			<lu>
+				<clip pos="1" side="tl" part="lem"/>
+				<clip pos="1" side="tl" part="a_pron"/>
+				<clip pos="1" side="tl" part="nbr"/>
+				<clip pos="1" side="tl" part="a_person"/>
+				<clip pos="1" side="tl" part="a_case" />
+			</lu>
         </out>
       </action>
     </rule>
