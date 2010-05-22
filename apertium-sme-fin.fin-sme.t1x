@@ -42,6 +42,7 @@
       <attr-item tags="Abe" />
       <attr-item tags="Cmt" />
       <attr-item tags="Ins" />
+      <attr-item tags="Loc" />
 	</def-attr>
 	<def-attr n="a_poss">
 	  <attr-item tags="Sg1" />
@@ -73,6 +74,27 @@
     <def-var n="number"/>
     <def-var n="case"/>
   </section-def-vars>
+
+	<section-def-macros>
+		<def-macro n="set_ine_loc" npar="1" c="arg.1: noun. Change Ine into Loc">
+			<choose>
+				<when>
+				<test>
+					<and>
+						<begins-with>
+							<clip pos="1" side="sl" part="a_nom"/><lit-tag v="N"/>
+						</begins-with>
+						<equal>
+							<clip pos="1" side="sl" part="a_case"/><lit-tag v="Ine"/>
+						</equal>
+					</and>
+				</test>
+				<let><clip pos="1" side="tl" part="a_case"/><lit-tag v="Loc"/></let>
+			</when>
+			</choose>
+		</def-macro>
+	</section-def-macros>
+
   <section-rules>
 	<rule>
 		<pattern>
@@ -92,9 +114,12 @@
 	
     <rule>
       <pattern>
-        <pattern-item n="nom"/>
+        	<pattern-item n="nom"/>
       </pattern>
       <action>
+		<call-macro n="set_ine_loc">
+			<with-param pos="1"/>
+		</call-macro>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lem"/>

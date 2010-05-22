@@ -156,6 +156,7 @@
 
     <!-- Nouns -->
     <e><p><l>jaspis<s n="N"/></l><r>jaspis<s n="N"/></r></p></e>
+    <e><p><l>bussa<s n="N"/></l><r>bussi<s n="N"/></r></p></e>
     <e><p><l>farao<s n="N"/></l><r>farao<s n="N"/></r></p></e>
     <e><p><l>silki<s n="N"/></l><r>silkki<s n="N"/></r></p></e>
     <e><p><l>ruosta<s n="N"/></l><r>ruoste<s n="N"/></r></p></e>
@@ -790,6 +791,8 @@
     <e><p><l>veaháš<s n="Adv"/></l><r>vähän<s n="Adv"/></r></p></e>
     <e><p><l>aktii<s n="Adv"/></l><r>yksin<s n="Adv"/></r></p></e>
     <e><p><l>eambbo<s n="Adv"/></l><r>enemmän<s n="Adv"/></r></p></e>
+    <e><p><l>fargga<s n="Adv"/></l><r>kohta<s n="Adv"/></r></p></e>
+    <e slr="1"><p><l>fargga<s n="Adv"/></l><r>pian<s n="Adv"/></r></p></e>
     <e><p><l>jaska<s n="Adv"/></l><r>niin<s n="Adv"/></r></p></e>
 
     <!-- Verbs -->
@@ -817,6 +820,7 @@
     <e><p><l>deattuhit<s n="V"/><s n="IV"/></l><r>todistaa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>sárdnut<s n="V"/><s n="IV"/></l><r>sanoa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>sivdnidit<s n="V"/><s n="TV"/></l><r>luoda<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>boahtit<s n="V"/><s n="IV"/></l><r>tulla<s n="V"/></r></p><par n="V_V"/></e>
 
     <!-- Punctuation -->
 
