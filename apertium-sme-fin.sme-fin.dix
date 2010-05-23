@@ -451,23 +451,19 @@
     <e><p><l>hellodagat<s n="N"/></l><r>helluntai<s n="N"/></r></p></e>
     <e><p><l>hellodatbeaivi<s n="N"/></l><r>helluntaipäivä<s n="N"/></r></p></e>
     <e><p><l>helvet<s n="N"/></l><r>helvetti<s n="N"/></r></p></e>
-    <e><p><l>hoahppu<s n="N"/></l><r>pikaviha<s n="N"/></r></p></e>
     <e><p><l>honnet<s n="N"/></l><r>hunaja<s n="N"/></r></p></e>
     <e><p><l>hovdejeaddji<s n="N"/></l><r>holhooja<s n="N"/></r></p></e>
     <e><p><l>iđit<s n="N"/></l><r>aamu<s n="N"/></r></p></e>
     <e><p><l>idja<s n="N"/></l><r>yö<s n="N"/></r></p></e>
-    <e><p><l>illu<s n="N"/></l><r>iloöljy<s n="N"/></r></p></e>
     <e><p><l>illu<s n="N"/></l><r>ilo<s n="N"/></r></p></e>
     <e><p><l>ipmil<s n="N"/></l><r>jumala<s n="N"/></r></p></e>
     <e><p><l>isit<s n="N"/></l><r>isäntä<s n="N"/></r></p></e>
-    <e><p><l>jábmi<s n="N"/></l><r>kuollut<s n="N"/></r></p></e>
+    <e><p><l>jábmi<s n="N"/></l><r>vainaaja<s n="N"/></r></p></e>
     <e><p><l>jáffu<s n="N"/></l><r>jauho<s n="N"/></r></p></e>
     <e><p><l>jahki<s n="N"/></l><r>vuosi<s n="N"/></r></p></e>
-    <e><p><l>jahki<s n="N"/></l><r>vuo<s n="N"/></r></p></e>
     <e><p><l>jápmin<s n="N"/></l><r>kuolema<s n="N"/></r></p></e>
     <e><p><l>jávri<s n="N"/></l><r>järvi<s n="N"/></r></p></e>
     <e><p><l>jietna<s n="N"/></l><r>ääni<s n="N"/></r></p></e>
-    <e><p><l>jietna<s n="N"/></l><r>kohina<s n="N"/></r></p></e>
     <e><p><l>johka<s n="N"/></l><r>virta<s n="N"/></r></p></e>
     <e><p><l>johtu<s n="N"/></l><r>matka<s n="N"/></r></p></e>
     <e><p><l>juolgi<s n="N"/></l><r>jalka<s n="N"/></r></p></e>
@@ -477,7 +473,6 @@
     <e><p><l>kanela<s n="N"/></l><r>kaneli<s n="N"/></r></p></e>
     <e><p><l>keaissir<s n="N"/></l><r>keisari<s n="N"/></r></p></e>
     <e><p><l>kristálla<s n="N"/></l><r>kristalli<s n="N"/></r></p></e>
-    <e><p><l>kruvdno<s n="N"/></l><r>kruunu<s n="N"/></r></p></e>
     <e><p><l>kruvdnu<s n="N"/></l><r>kruunu<s n="N"/></r></p></e>
     <e><p><l>lađas<s n="N"/></l><r>nivel<s n="N"/></r></p></e>
     <e><p><l>láđđi<s n="N"/></l><r>lempi<s n="N"/></r></p></e>
@@ -495,15 +490,14 @@
     <e><p><l>láse<s n="N"/></l><r>lasi<s n="N"/></r></p></e>
     <e><p><l>lasta<s n="N"/></l><r>lehti<s n="N"/></r></p></e>
     <e><p><l>latiidna<s n="N"/></l><r>latina<s n="N"/></r></p></e>
-    <e><p><l>lávki<s n="N"/></l><r>jalka<s n="N"/></r></p></e>
+    <e><p><l>lávki<s n="N"/></l><r>askel<s n="N"/></r></p></e>
     <e><p><l>lávlla<s n="N"/></l><r>laulaja<s n="N"/></r></p></e>
     <e><p><l>lávlla<s n="N"/></l><r>laulu<s n="N"/></r></p></e>
-    <e><p><l>lávlu<s n="N"/></l><r>laulaja<s n="N"/></r></p></e>
     <e><p><l>leaska<s n="N"/></l><r>leski<s n="N"/></r></p></e>
     <e><p><l>leopárda<s n="N"/></l><r>leopardi<s n="N"/></r></p></e>
     <e><p><l>lihttu<s n="N"/></l><r>liitto<s n="N"/></r></p></e>
     <e><p><l>liika<s n="N"/></l><r>ruumis<s n="N"/></r></p></e>
-    <e><p><l>lilljá<s n="N"/></l><r>kukka<s n="N"/></r></p></e>
+    <e><p><l>lilljá<s n="N"/></l><r>lilja<s n="N"/></r></p></e>
     <e><p><l>loahppa<s n="N"/></l><r>loppu<s n="N"/></r></p></e>
     <e><p><l>loddi<s n="N"/></l><r>lintu<s n="N"/></r></p></e>
     <e><p><l>lohku<s n="N"/></l><r>luku<s n="N"/></r></p></e>
@@ -523,18 +517,16 @@
     <e><p><l>mannji<s n="N"/></l><r>miniä<s n="N"/></r></p></e>
     <e><p><l>mánnováddu<s n="N"/></l><r>kuunvaihetautinen<s n="N"/></r></p></e>
     <e><p><l>mánnu<s n="N"/></l><r>kuu<s n="N"/></r></p></e>
-    <e><p><l>mánus<s n="N"/></l><r>kuusi<s n="N"/></r></p></e>
+    <e><p><l>mánnu<s n="N"/></l><r>kuusi<s n="N"/></r></p></e>
     <e><p><l>márkanšillju<s n="N"/></l><r>markkinahuone<s n="N"/></r></p></e>
-    <e><p><l>marmorduodji<s n="N"/></l><r>marmori<s n="N"/></r></p></e>
-    <e><p><l>mátki<s n="N"/></l><r>taival<s n="N"/></r></p></e>
-    <e><p><l>máttar<s n="N"/></l><r>isi<s n="N"/></r></p></e>
-    <e><p><l>mávssahit<s n="N"/></l><r>kosto<s n="N"/></r></p></e>
+    <e><p><l>marmora<s n="N"/></l><r>marmori<s n="N"/></r></p></e>
+    <e><p><l>mátki<s n="N"/></l><r>matka<s n="N"/></r></p></e>
+    <e><p><l>mávssahus<s n="N"/></l><r>kosto<s n="N"/></r></p></e>
     <e><p><l>meahcci<s n="N"/></l><r>erämaa<s n="N"/></r></p></e>
     <e><p><l>mearka<s n="N"/></l><r>arpi<s n="N"/></r></p></e>
     <e><p><l>mearka<s n="N"/></l><r>merkki<s n="N"/></r></p></e>
     <e><p><l>mearra<s n="N"/></l><r>meri<s n="N"/></r></p></e>
     <e><p><l>miehkki<s n="N"/></l><r>miekka<s n="N"/></r></p></e>
-    <e><p><l>miella<s n="N"/></l><r>verho<s n="N"/></r></p></e>
     <e><p><l>millu<s n="N"/></l><r>käsikivi<s n="N"/></r></p></e>
     <e><p><l>millu<s n="N"/></l><r>mylly<s n="N"/></r></p></e>
     <e><p><l>minta<s n="N"/></l><r>minttu<s n="N"/></r></p></e>
@@ -548,7 +540,7 @@
     <e><p><l>muorra<s n="N"/></l><r>puu<s n="N"/></r></p></e>
     <e><p><l>muvra<s n="N"/></l><r>muuri<s n="N"/></r></p></e>
     <e><p><l>namma<s n="N"/></l><r>nimi<s n="N"/></r></p></e>
-    <e slr="1"><p><l>namma<s n="N"/></l><r>asianajaja<s n="N"/></r></p></e>
+    <e><p><l>advokáhta<s n="N"/></l><r>asianajaja<s n="N"/></r></p></e>
     <e><p><l>násti<s n="N"/></l><r>tähti<s n="N"/></r></p></e>
     <e><p><l>neahpi<s n="N"/></l><r>sisarpoika<s n="N"/></r></p></e>
     <e><p><l>nealgi<s n="N"/></l><r>nälänhätä<s n="N"/></r></p></e>
@@ -577,14 +569,12 @@
     <e><p><l>oljomuorra<s n="N"/></l><r>öljypuu<s n="N"/></r></p></e>
     <e><p><l>oljooaksi<s n="N"/></l><r>metsäöljypuu<s n="N"/></r></p></e>
     <e><p><l>olju<s n="N"/></l><r>öljy<s n="N"/></r></p></e>
-    <e><p><l>olmmoš<s n="N"/></l><r>ihmissuku<s n="N"/></r></p></e>
     <e><p><l>oskkoldat<s n="N"/></l><r>uskonasia<s n="N"/></r></p></e>
     <e><p><l>osku<s n="N"/></l><r>usko<s n="N"/></r></p></e>
-    <e><p><l>oskut<s n="N"/></l><r>usko<s n="N"/></r></p></e>
     <e><p><l>ovdagovva<s n="N"/></l><r>kaava<s n="N"/></r></p></e>
     <e><p><l>ovdamunni<s n="N"/></l><r>etuus<s n="N"/></r></p></e>
     <e><p><l>ovdáneapmi<s n="N"/></l><r>menestys<s n="N"/></r></p></e>
-    <e><p><l>pálbmaoaksi<s n="N"/></l><r>palmu<s n="N"/></r></p></e>
+    <e><p><l>pálbma<s n="N"/></l><r>palmu<s n="N"/></r></p></e>
     <e><p><l>paradiás<s n="N"/></l><r>paratiisi<s n="N"/></r></p></e>
     <e><p><l>peanna<s n="N"/></l><r>kynä<s n="N"/></r></p></e>
     <e><p><l>poarta<s n="N"/></l><r>portti<s n="N"/></r></p></e>
@@ -645,11 +635,11 @@
     <e><p><l>seaidni<s n="N"/></l><r>seinä<s n="N"/></r></p></e>
     <e><p><l>seaila<s n="N"/></l><r>sinetti<s n="N"/></r></p></e>
     <e><p><l>sealgi<s n="N"/></l><r>selkä<s n="N"/></r></p></e>
-    <e><p><l>seaŋga<s n="N"/></l><r>vuosi<s n="N"/></r></p></e>
+    <e><p><l>seaŋga<s n="N"/></l><r>vuode<s n="N"/></r></p></e>
     <e><p><l>silba<s n="N"/></l><r>hopea<s n="N"/></r></p></e>
     <e><p><l>silki<s n="N"/></l><r>silkki<s n="N"/></r></p></e>
     <e><p><l>sirpe<s n="N"/></l><r>sirppi<s n="N"/></r></p></e>
-    <e><p><l>siseanan<s n="N"/></l><r>ylämaakunta<s n="N"/></r></p></e>
+    <e><p><l>siseanan<s n="N"/></l><r>sisämaa<s n="N"/></r></p></e>
     <e><p><l>siskiluš<s n="N"/></l><r>sisälmykset<s n="N"/></r></p></e>
     <e><p><l>siski<s n="N"/></l><r>kammio<s n="N"/></r></p></e>
     <e><p><l>skiipa<s n="N"/></l><r>laiva<s n="N"/></r></p></e>
@@ -713,7 +703,7 @@
     <e><p><l>viisodat<s n="N"/></l><r>viisaus<s n="N"/></r></p></e>
     <e slr="1"><p><l>viisodat<s n="N"/></l><r>järkeisoppi<s n="N"/></r></p></e>
     <e><p><l>virgeolmmái<s n="N"/></l><r>virkamies<s n="N"/></r></p></e>
-    <e><p><l>vissis<s n="N"/></l><r>varmuus<s n="N"/></r></p></e>
+    <e><p><l>vissisvuohta<s n="N"/></l><r>varmuus<s n="N"/></r></p></e>
     <e><p><l>vovdna<s n="N"/></l><r>vaunu<s n="N"/></r></p></e>
     <e><p><l>vuoiddas<s n="N"/></l><r>voide<s n="N"/></r></p></e>
     <e><p><l>vuoigŋa<s n="N"/></l><r>henki<s n="N"/></r></p></e>
@@ -725,7 +715,7 @@
     <e><p><l>vuoni<s n="N"/></l><r>anoppi<s n="N"/></r></p></e>
     <e><p><l>vuorru<s n="N"/></l><r>vuoro<s n="N"/></r></p></e>
     <e><p><l>vuostá<s n="N"/></l><r>vasta<s n="N"/></r></p></e>
-    <e><p><l>vuostebiegga<s n="N"/></l><r>vasta<s n="N"/></r></p></e>
+    <e><p><l>vuostebiegga<s n="N"/></l><r>vastatuuli<s n="N"/></r></p></e>
     <e><p><l>vuosteháhku<s n="N"/></l><r>vastustus<s n="N"/></r></p></e>
     <e><p><l>vuovssanas<s n="N"/></l><r>oksennus<s n="N"/></r></p></e>
 
@@ -734,45 +724,380 @@
 
     <!-- Proper nouns -->
 
-    <e><p><l>Israel<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Israel<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Albánia<s n="N"/><s n="Prop"/></l><r>Albania<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Duiska<s n="N"/><s n="Prop"/></l><r>Saksa<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Dánmárku<s n="N"/><s n="Prop"/></l><r>Tanska<s n="N"/><s n="Prop"/></r></p></e>
+
+    <e><p><l>Afrihká<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Afrika<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Albánia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Albania<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Amerihká<b/>ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Amerikan<b/>yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Amerihká<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Amerika<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Anár<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Inari<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Anárjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Inarijoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Anárjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Inarijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Atlánta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Atlantti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Austrália<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Australia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Avvil<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ivalo<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Avvir<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Imandra<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ađevuopmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Idivuoma<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Badje-Jalvi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ylä-Jalve<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Badjegeavŋŋis<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Yläköngäs<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Basejárvi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pyhäjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Beahcán<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Petsamo<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bealdoduottar<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Peltotunturi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bealdojávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Peltojärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bealdovuopmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Peltovuoma<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bealljeduottar<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Korvatunturi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Beattet<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pättikkä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Beazet<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Petsikko<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Belgia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Belgia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Besjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Piesjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Besseš<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pessinki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Biesjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Piesjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bievrrašjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pöyrisjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bievrrašjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pöyrisjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bihtegáddi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pihtiranta<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Biŧon<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Piitime<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Boarebáiki<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Poarispaikka<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Buksal<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Puksala<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bulgária<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Bulgaria<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Buollanguoika<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Palokoski<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Buollángoađesavu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Palosuvanto<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Buođggát<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pykeija<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Buođđobohki<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Patoniva<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Burdnomohkki<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Purnumukka<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Báhčaveaijohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Paatsjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Báišduottar<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Paistunturi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bálojohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Palojoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bálojotnjálbmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Palojoensuu<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bálojávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Palojärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bárttet<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Partakko<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bárši<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Reisti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Bátnduottar<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Hammastunturi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Báđoš<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Paadus<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Báđár<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Paadarjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Cieskuljohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tsieskuljoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Darji<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Turja<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Davvebađaeana<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pohjois-Pohjanmaa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Davvemearra<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pohjanmeri<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Davvemearrabahta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pohjanlahti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Davvi-Amerihká<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pohjois-Amerikka<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Davvikalohtta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pohjoiskalotti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Davvimearra<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pohjanmeri<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Davviriikkat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pohjoismaat<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Deanuleahki<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tenonlaakso<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Deanuvuotna<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tenovuono<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Deargget<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Täräntö<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Deatnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Teno<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Divttasvuotna<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tiitisvuono<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Doallángieddi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tuulomankenttä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Doallánjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tuulomajoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Doareseatnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Toriseno<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Duiska<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Saksa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Duortnosjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tornionjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Duortnus<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tornio<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Dállogilli<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Korppilompolo<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Dánmárku<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tanska<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Dánsejohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tanssijoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Dárvvatjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tarvantojoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Eanodat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Enontekiö<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Egypta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Egypti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Englánda<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Englanti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Enodat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Enontekiö<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Espánnja<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Espanja<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Estlánda<s n="N"/><s n="Prop"/></l><r>Viro<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Estteeana<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Viro<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Eurohpá<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Eurooppa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Finnmárku<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ruija<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Fráŋkriika<s n="N"/><s n="Prop"/></l><r>Ranska<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Greika<s n="N"/><s n="Prop"/></l><r>Kreikka<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Irlándda<s n="N"/><s n="Prop"/></l><r>Irlanti<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Islánda<s n="N"/><s n="Prop"/></l><r>Islanti<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Itália<s n="N"/><s n="Prop"/></l><r>Italia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Fášku<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vaskojoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gabná<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Rautasvuoma<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Galbmagáldu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kalmakaltio<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gamiljohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kamiljoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ganešjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kenesjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Garitguoika<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kirakkakoski<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Garitjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kirakkajärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gaskamearra<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Välimeri<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Geaggánvuopmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Könkämävuoma<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Geahkkil<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Käkkälöjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Geaidnovuohppi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Keinovuopio<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Geavojávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kevojärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Geavvu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kevojoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Geađgejávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kivijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Geađgeluoppal<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kivilompolo<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Geađgenjárga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kiviniemi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gelotjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kelottijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Genešjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kenesjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Giehkirnjárga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kalastajasaarento<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Giehtaruohtas<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Käsivarsi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Giellá<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kiellajoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Giemajohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kemijoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Giemajávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kemijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Giepma<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kemi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gihttel<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kittilä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gilbbesjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kilpisjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gillan<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Killingi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Girkonjárga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kirkkoniemi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Giron<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kiiruna<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Goahppil<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Koppelo<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Goatneljohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kostejoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Goatneljávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kostejärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gobmevuohppi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kummavuopio<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Golddabákti<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kolttapahta<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Golddaluokta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kolttalahti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gorrehatája<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Korretoja<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gotlánda<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Gotlanti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Goškanjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kuivajärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Greika<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kreikka<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Guhttás<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kuttainen<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Guhtur<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kuttura<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gulddan<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kultima<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Guohppenjavvi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kuoppaniva<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Guoldná<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kuolna<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Guoládat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kuola<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Guossán<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kuusamo<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Guovdageaidnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Koutokeino<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gáddeluokta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kantalahti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gáiddus-Nuorti<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaukoitä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gáivojohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaivojoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gálaniitu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Galanito<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gálggojávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kalkujärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gáláseatnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kainuunjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gámas<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaamanen<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gámasjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaamasjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gámasmohkki<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaamasmukka<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gápmas<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaamanen<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gárasavvon<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaaresuvanto<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gáregasnjárga, (Utsjoki)<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Karigasniemi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gárjil<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Karjala<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Gávva<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaava<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Heahttá<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Enontekiö<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Heahttá<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Hetta<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Helsset<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Helsinki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Hollánda<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Hollanti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Háldi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Halti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Iijávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Iijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Iitu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Iitto<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ipmil<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Jumala<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Irlánda<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Irlanti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Islánda<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Islanti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Israel<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Israel<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Itália<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Italia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ivgu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Jyykeä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ivgu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Yykeä<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Japána<s n="N"/><s n="Prop"/></l><r>Japani<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Japána<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Japani<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Jesus<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Jeesus<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Jiekŋamearra<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Jäämeri<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Jiekŋaáhpi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Jäämeri<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Joganjálbmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Joensuu<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Jugoslávia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Jugoslavia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Jumbál<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Rassiniva<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Juntejohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Junttijoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Juvdujohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Juutua<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Juŋka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Parkalompolo<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Jáhton<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Jatuni<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Jávrresduottar<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Jauristunturi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Kanáda<s n="N"/><s n="Prop"/></l><r>Kanada<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Lietuva<s n="N"/><s n="Prop"/></l><r>Liettua<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Látvia<s n="N"/><s n="Prop"/></l><r>Latvia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Karlsøy<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Gálsa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Kiinná<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kiina<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Kolttapahta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Golddabákti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Kárášjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaarasjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Leahttáseatnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lätäseno<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Leaibejohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Leppälä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Leaibejávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Leppäjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Leammi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lemmenjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Leavdnja<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lemmivuono<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Leaváš<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaalasvuoma<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lietuva<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Liettua<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lihttomuorvárri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Litmurivaara<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lismá<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lisma<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lohttu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lutto<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>London<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lontoo<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Luhkkárbáiki<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Aittijoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Luiru<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Luiro<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lujávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lovosero<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lujávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Luujärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Luossagoatnil<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lohikoste<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Láhtteluokta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lattilahti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Láibmoluokta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Laimolahti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Láttevárri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lannanvaara<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Láttevárri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lannavaara<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Látvia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Latvia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lávnnjiteatnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lainiojoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lávnnjitvuopmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lainiovuoma<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Marastat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Marasto<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Marastat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Marastotunturit<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Mearrabahta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Perämeri<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Mearrabađaluokta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pohjanlahti<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Meksiko<s n="N"/><s n="Prop"/></l><r>Meksiko<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Menešjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Menesjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Mierašjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Mierasjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Mierašluoppal<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Mieraslompola<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Mihkaljávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Mihkalijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Mohkkejávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Mukkajärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Muotkejávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Muotkajärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Muotki<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Muotka<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Muotkkeduottar<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Muotkatunturit<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Muttošjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Muddusjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Máhtegeavŋŋis<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Inarinköngäs<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Márjá<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Maria<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Márkan<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Markkina<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Másealgi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Maaselkä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Máttajávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Mantojärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Máttavuotna<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Maattivuono<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Mávdna<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Mauno<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Neahčiljohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Näkkäläjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Neakkel<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Näkkälä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Neakkeljávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Näkkäläjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>New<b/>Zealand<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Uusi-Seelanti<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Nicaragua<s n="N"/><s n="Prop"/></l><r>Nicaragua<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Nigeria<s n="N"/><s n="Prop"/></l><r>Nigeria<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Niitovuohppi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Niittyvuopio<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Njavejohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Nivajoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Njearrejávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Närrijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Njiljohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Nilijoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Njižžejávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Nitsijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Njunnás<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Nunnanen<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Njuohttejávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Nuortijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Njáimmet<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Naimakka<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Njárbesjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Närpistöjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Njávdán<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Näätämö<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Norga<s n="N"/><s n="Prop"/></l><r>Norja<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Norga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Norja<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Nuorbenjárga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Nuorpiniemi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Nuortabađaeana<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pohjanmaa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Nuortamearra<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Itämeri<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Nuortariika<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Itävalta<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Náldejávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Naltijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Návuotna<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Naavuono<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ohcejohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Utsjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ovnnesjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ounasjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ovnnesjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ounasjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ođđa<b/>Zealánda<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Uusi-Seelanti<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Polen<s n="N"/><s n="Prop"/></l><r>Puola<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Ruošša<s n="N"/><s n="Prop"/></l><r>Venäjä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Polska<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Puola<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Reamáguoika<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Hakokönkäs<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Reamáguoika<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Männikkökoski<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Riebanjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Repojoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Roabijávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ropijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Roabičoalbmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ropinsalmi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Roahpi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ropi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Roavenjárga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Rovaniemi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Roavesavu (Utsjoki)<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Rovisuvanto<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Roavvenjárga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Rovaniemi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Románia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Romania<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ruksesmearra<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Punainenmeri<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ruonáeana<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Gröönlanti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ruošša<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Venäjä<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Ruoŧŧa<s n="N"/><s n="Prop"/></l><r>Ruotsi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ruoŧŧa<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ruotsi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Rádjeeatnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Könkämäeno<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Rájijovsset<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Rajajooseppi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Rántel<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ranttila<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Rássegáldu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Raaskaltiojärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Rávdoduottar<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Raututunturit<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sarvvesjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Hirvasjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sarvvesčoalbmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Hirvassalmi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Seavzejávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Säytsjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Seidejohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Seitajoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sibirjá<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Siperia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sikkávuotna<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sikovuono<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Silisjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Siilasjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sisilia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sisilia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Skandinávia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Skandinavia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Skiehččanjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kietsimäjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Skipagurra<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Skiippagurra<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Skotlánda<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Skotlanti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Soabbat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sompio<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Soahtejohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sotajoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Soađegilli<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sodankylä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sohppar<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Soppero<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sompio<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Soabbat<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Spánia<s n="N"/><s n="Prop"/></l><r>Espanja<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Suopma<s n="N"/><s n="Prop"/></l><r>Suomi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Stuorgoahtin<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tuorkottajajärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Stuorra<b/>Anárjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Inarijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Stuorra<b/>Británnia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Iso-Britannia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Stuorrajávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Muddusjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Suohpajávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Suoppajärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Suoločielgi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Saariselkä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Suomaluokta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Suomenlahti<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Suomanjárga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Käsivarsi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Suopma<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Suomi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Suovdit<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Suonttajärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Suovvaguoika<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Savukoski<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sáksi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Saksa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sállevárri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sallivaara<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sápmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lappi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sárevuopmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Saarivuoma<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Thaieana<s n="N"/><s n="Prop"/></l><r>Thaimaa<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Tibet<s n="N"/><s n="Prop"/></l><r>Tiibet<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Ukraina<s n="N"/><s n="Prop"/></l><r>Ukraina<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Vilges-Ruošša<s n="N"/><s n="Prop"/></l><r>Valko-Venäjä<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Šveica<s n="N"/><s n="Prop"/></l><r>Sveitsi<s n="N"/><s n="Prop"/></r></p></e>
-
-    <e><p><l>Ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Amerihká<b/>ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Amerikan<b/>yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
-
-    <e><p><l>Ipmil<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Jumala<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Jesus<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Jeesus<s n="N"/><s n="Prop"/></r></p></e>
-
     <e><p><l>Tommi<s n="N"/><s n="Prop"/></l><r>Tommi<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Márjá<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Maria<s n="N"/><s n="Prop"/></r></p></e>
-
+    <e><p><l>Troms<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tromsa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Tromsø<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tromsa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Turkiija<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Turkki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Turkki<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Turkiija<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ubmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Uumaja<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ukraina<s n="N"/><s n="Prop"/></l><r>Ukraina<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Uløya<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ulli<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Uvllásavu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Uulasuvanto<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Vazáš<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vittangi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Vazáš<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vittanki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Veahčajohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vetsijoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Veahčajávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vetsijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Veahčat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vetsikko<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Veahčatguoika<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vetsikoski<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Veaikevuohppi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pirttivuopio<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Veaikevárri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Svappavaara<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Viesttarbađaeana<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Länsipohja<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Viibosduottar<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Viipustunturit<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Vilges-Ruošša<s n="N"/><s n="Prop"/></l><r>Valko-Venäjä<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Vilgesmearra<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vienanmeri<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Viššat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Saarikoski<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Vuohčču<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vuotso<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Vuolle-Jalvi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ala-Jalve<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Vuollegeavŋŋis<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Alaköngäs<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Vuottesjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vuontisjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Vuovdaguoika<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Outakoski<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Váhčir<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Jällivaara<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Váhčir<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vätsäri<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Váidnoduottar<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sotatunturi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Várggát<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vuoreija<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ábeskovvu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Abisko<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áddjá<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ukko<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áddjá<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ukonsaari<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ádjagorsa<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Aatsakorsa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áhguoika<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Akukoski<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áhkkil<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Akkala<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áhkojávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Akujärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áhkovárri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Akuvaara<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áhppesduottar<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Appistunturit<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áibmejohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Âimäjoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áilegas<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ailikas<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áiligas<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ailikas<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áinnáidsullot<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Heinäsaaret<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áitejohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Aittijoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ákšojávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Aksujärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Álahadju<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Alattio<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Álaheadju<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Alattio<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Álaheadju<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Alta<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Álesbáiki<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pihtioja<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Álletnjárga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Allikkaniemi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ásia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Aasia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ávjovárri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Aviovaara<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Áŋŋel<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Angeli<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ålánda<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ahvenanmaa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Østerbotten<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pohjanmaa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Čeavetjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sevettijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Čivttajohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Siuttajoki<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Čoalbmejávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Salmijärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Čoavččesjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Syysjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Čohkkeras<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Jukkasjärvi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Čunusavvon<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Junosuvanto<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Čuovžavuohppi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Siikavuopio<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Čuvgesávži<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Suukisautsi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Čáhcesuolu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vesisaari<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Čáhppesmearra<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Mustameri<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Čálku<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lisma<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Šveica<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sveitsi<s n="N"/><s n="Prop"/></r></p></e>
 
     <!-- Adjectives -->
 
