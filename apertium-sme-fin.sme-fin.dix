@@ -10,8 +10,6 @@
     <sdef n="Pron"     c="Pronoun"/>
     <sdef n="Po"       c="Post-position"/>
     <sdef n="Adp"      c="Adposition"/>
-    <sdef n="Conj"     c="Conjunction"/>
-    <sdef n="Coord"    c="Co-ordinator"/>
     <sdef n="CC"       c="Co-ordinating conjunction"/>
     <sdef n="CS"       c="Sub-ordinating conjunction"/>
     <sdef n="Adv"      c="Adverb"/>
@@ -100,7 +98,7 @@
     -->
 
     <!-- Conjunctions -->
-    <e><p><l>ja<s n="CC"/></l><r>ja<s n="Conj"/><s n="Coord"/></r></p></e>
+    <e><p><l>ja<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
     <e><p><l>vai<s n="CC"/></l><r>vai<s n="CC"/></r></p></e>
     <e><p><l>muhto<s n="CC"/></l><r>mutta<s n="CC"/></r></p></e>
     <e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
@@ -111,7 +109,7 @@
     <e><p><l>aht<s n="CS"/></l><r>et<s n="CS"/></r></p></e>
     <e><p><l>danin<s n="CS"/></l><r>koska<s n="CS"/></r></p></e>
     <e><p><l>dego<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
-    <e><p><l>go<s n="CS"/></l><r>kun<s n="Conj"/></r></p></e>
+    <e><p><l>go<s n="CS"/></l><r>kun<s n="CS"/></r></p></e>
     <e><p><l>jus<s n="CS"/></l><r>jos<s n="CS"/></r></p></e>
     <e><p><l>muhte<s n="CS"/></l><r>mutta<s n="CS"/></r></p></e>
     <e><p><l>nugo<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
