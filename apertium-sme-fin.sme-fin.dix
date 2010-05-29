@@ -719,7 +719,158 @@
 
     <e><p><l>muorra<s n="N"/></l><r>puu<s n="N"/></r></p></e>
     <e><p><l>biila<s n="N"/></l><r>auto<s n="N"/></r></p></e>
-
+	<!-- *** plants --> 
+    <e><p><l>beahci<s n="N"/></l><r>mänty<s n="N"/></r></p></e>
+    <e><p><l>reatká<s n="N"/></l><r>kataja<s n="N"/></r></p></e>
+    <e><p><l>hádjagáiski<s n="N"/></l><r>tuoksualvejuuri<s n="N"/></r></p></e>
+    <e><p><l>juovvagáiski<s n="N"/></l><r>kivikkoalvejuuri<s n="N"/></r></p></e>
+	<e><p><l>vuovdegáiski<s n="N"/></l><r>metsäalvejuuri<s n="N"/></r></p></e>
+<!-- 
+	# vuolgodolgi - kotkansiipi
+	# alitgáiski - korpi-imarre
+	# jeaggehoašša - suokorte
+	# čuotnjárássi/guossarássi - metsäkorte
+	# idni - katinlieko
+	# gáiccabáinna/várregieldá - tunturilieko
+	# sohterássi/sođđerássi - riidenlieko
+	# njuovvelávki - ruoholaukka
+	# dierbmámuorji - sudenmarja
+	# suoidini - ruoho
+	# aláš háissuodini/njálggaháissuoidni - tunturimaarianheinä
+	# vilgesoairássi/ullorássi/gieganjuolla - tupasvilla
+	# gieddeullu/upmolsuoidni - luhtavilla
+	# gámasuoidni/ájalukti - vesisara
+	# suoidnelukti/suoidneguodja - keltasara
+	# ráneslukti - jokapaikansara
+	# rukseslukti - pullosara
+	# ruovdelukti - viiltosara
+	# miektarássi - tupassara
+	# jeaggelukti - aapasara
+	# miehtaguodja - kiiltosara 
+	# rievdnelukti/čáhcelukti - luhtasara
+	# noaiddelieđđi - maariankämmekkä
+	# suhpi - haapa
+	# gironlasta - vaivaispaju
+	# ránessieđga/várresieđga - tunturipaju
+	# sieđgaskierri - pohjanpaju
+	# fierbmegironlasata - verkkolehtipaju
+	# ruksessieđga - kiiltopaju
+	# vilgessieđga - villapaju
+	# leaibi - harmaaleppä
+	# soahki - koivu
+	# skierri - vaivaiskoivu
+	# lageš - tunturikoivu
+	# gáskálas - nokkonen
+	# ruovdegáskálas - rautanokkonen
+	# šilljojuopmu - nurmitatar
+	# guolbbajuopmu - ahosuolaheinä
+	# juopmu - niittysuolaheinä
+	# eavru - hapro
+	# miesttalivdnju - pensaskanerva
+	# várresáhpánrássi - tunturihärkki
+	# rohtohilsku - lehtotähtimö
+	# hilsksu - pihatähtimö
+	# bealdoseakkalasta - peltohatikka
+	# duottarhilsku - tunturikohokki
+	# ruksesrássi/guppaslieđđi - puna-ailakki
+	# ruoksesoaivi - pikkutervakko
+	# riessanellet - pulskaneilikka
+	# básdiehpáš - keminängelmä
+	# gollerássi - rentukka
+	# boallorássi - kullero
+	# heasttaseaibi/guossarássi - vesikuusi
+	# giđđanuorsá - kevätleinikki
+	# fiskesrássi - niittyleinikki
+	# ráneslasta - tunturipitkäpalko
+	# suorbmagoahti - luhtalitukka
+	# gálbberássi/hádjaurttas/njálggaháiruohtas - ruusujuuri
+	# nástenárti - tähtirikko
+	# báktenárti - pahtarikko
+	# ájanárti - purorikko
+	# gollenárti - kultarikko
+	# alitnárti/giđđaboallu - sinirikko
+	# miektanárti - mätäsrikko
+	# beaivečalbmi - vilukko
+	# jieret - punaherukka
+	# skáhpi - pihlaja
+	# ávža - tuomi
+	# miehtaskážir - mesiangervo
+	# niitobiellorássi - ojakellukka
+	# nuorsá/golka - lapinvuokko
+	# alášbađverássi/sáigovuolpu - tunturipoimulehti
+	# moninvuolpu - poimulehti
+	# fiskesjuopmu - suikerohanhikki
+	# suotnjoruški - kurjenjalka
+	# veaddemuorji/lávžžamuorji - lillukka
+	# váđot/miehtamuorji/geađgeluomi - mesimarja
+	# luomi/láttat - hilla/lakka/muurain
+	# ruksesluovvar - puna-apila
+	# vilgesluovvar - valkoapila
+	# duottarsáhpal - tunturikurjenherne
+	# alásgožot - tunturikeulankärki
+	# niitosáhpal - niittynätkelmä
+	# sáhpal/fierbmerássi - hiirenvirna
+	# gottesáhpal - peuranvirna
+	# boaresgállarássi/alitrássi - metsäkurjenpolvi
+	# šođbačurolasta - pitkälehtikihokki
+	# jorbačurolasta - pyöreälehtikihokki
+	# jeaggeviola - suo-orvokki
+	# vuovdeviola - metsäorvokki
+	# fiskesviola - lapinorvokki 
+	# rohtohorbmá - pohjanhorsma
+	# horbmá/gieganjuolla - maitohorsma 
+	# beatnatmuorji - ruohokanukka
+	# olbmoborranrássi/boska - väinönputki
+	# dierpmárássi/beatnatboska - koiranputki
+	# duottarčikŋa/daŋasruvso - lapinalppiruusu
+	# váravárpá/várredaŋas - kurjenkanerva
+	# ruvdorássi - liekovarpio
+	# alásrássi - suokukka
+	# heaŋggolieđga - nuokkutalvikki
+	# smávvalieđga - pikkutalvikki
+	# guohcarássi - suopursu
+	# duolbadaŋas/deaškedaŋas - sielikkö
+	# sámilruvdorássi - sammalvarpio
+	# rievssatmuorji/guovžžamuorji - riekonmarja
+	# gáranasmuorji - sianpuolukka 
+	# sarrit - mustikka
+	# jokŋa - puolukka
+	# ehtemas/juogut - juolukka
+	# livdnju/heavušdaŋas - kanerva
+	# čáhppesmuorji - variksenmarja
+	# muorji - marja
+	# lieđđedaŋas - uuvana
+	# guolbbanásti/nástelieđđi - metsätähti
+	# alitnásti/muohtacivzza - tunturikatkero
+	# muoskkáš/njuohcu - raate
+	# suorbmagoahti - kellosinilatva
+	# rohtovajálgeahtesnásti - lapinlemmikki
+	# deanutimjan - kangasajuruoho
+	# gáddevitku/suotnabáidni - rantatädyke
+	# gieddesáhpal - kangasmaitikka
+	# vuovdesáhpal - metsámaitkikka 
+	# suoidneruhtarássi - isolaukku
+	# ruhtarássi - pikkulaukku
+	# gádderuosta - punakko
+	# gonagasčoalci - kaarlenvaltikka
+	# alit vuodjalasta - siniyökönlehti
+	# vilgesvuodjalasta - valkoyökönlehti
+	# gieddemáđir/vilgesmáđir - ahomatara
+	# jeaggemáđir - luhtamatara
+	# vándádivga - vanamo
+	# biellorássi/divgarrássi - kissankello
+	# beatnatsuoidni - kultapiisku
+	# beatnatnásti - karvaskallioinen
+	# duottarbusságeahpil - tunturikissankäpälä
+	# biehtárássi/biehtárguhkká - siankärsämö
+	# báhpačehporas/jámešbánit - saunakukka/peltosaunio
+	# heasttagazzarássi/gálla - leskenlehti
+	# alitdiehpperássi - huopaohdake
+	# njálanjuovčča - lääte 
+	# čakčarássi - sŧŧsmaitiainen
+	# uvlorássi/vuodjarássi - voikukka
+	# jearjá/jeađja/jearja - pohjansinivalvatti
+--> 
     <!-- Proper nouns -->
 
 
