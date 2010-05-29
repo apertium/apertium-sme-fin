@@ -1,0 +1,283 @@
+#!/usr/bin/perl
+use strict;
+use Getopt::Long;
+
+use utf8;
+
+# lookup2cg
+# Perl-script for converting lookup-output to CG-2 input.
+# - Rates and removes compound analyses according to 
+#   the number of word boundaries.
+# - Reformats compound analyses and base forms, removes duplicates
+#
+# Input: 
+# Dan     dat+Pron+Dem+Sg+Acc
+# Dan     dat+Pron+Dem+Sg+Gen
+#
+# Output:
+# "<Dan>"
+#        "dat" Pron Dem Sg Acc
+#        "dat" Pron Dem Sg Gen
+#
+# $Id: lookup2cg 25596 2009-04-28 10:25:11Z sjur $
+
+my @Analyses;
+my %forms;
+my %rated;
+my $word;
+my $tmp;
+my $compound = 0;
+my $comp_rate = 0;
+my $max_comp_rate = 0;
+my $der=0;
+
+my $dict=0;
+my $der=0;
+my $help;
+
+Getopt::Long::Configure ("bundling");
+GetOptions ("der|r" => \$der,
+			"dict|d" => \$dict,
+			"help" => \$help);
+
+if ($help) {
+	&print_help;
+	exit 1;
+}
+
+
+$/ = "";
+
+# Read while not eol
+while(<>) {	
+    if(/\t/) {s/ /_/g;} # Shall not be placed here, but in wordformmaking
+	my @Analyses;
+	my %forms;
+	my %rated;
+	
+	my $word;
+	my $tmp;
+	my $compound = 0;
+	my $comp_rate = 0;
+	my $max_comp_rate = 0;
+
+
+	my @lines = split(/\n/, $_);
+	for my $line (@lines) {
+		next if ($line =~ /^\s*$/);
+
+		# store word to a scalar and
+		# analysis (=base form and tags) to an array
+		my $analysis;
+		($word, $analysis) = split(/\t/, $line, 2);
+		next if ! $analysis;
+		$analysis =~ tr/\t//d;
+		push @Analyses, $analysis;
+		$comp_rate = ($line =~ tr/\#//);
+		if ($comp_rate > $max_comp_rate) { 
+			$max_comp_rate = $comp_rate; 
+		}
+	}
+	# format the output and print
+	if ($max_comp_rate > 0) { 
+		while (@Analyses) {
+			my $line = pop @Analyses;
+			$rated{$line} = 1;
+		}
+		pop @Analyses;
+		rate_compounds(\%rated); 
+		# If dictionary use, try to prefer lexicalized compounds
+		if ( $dict ) { select_lexicalized(\%rated); }
+		for my $key (keys %rated) {
+			push @Analyses, $key;
+		}
+	}
+
+	# Format each analysis
+	for my $line (@Analyses) {
+		# Separate the base form from the analysis
+		my $base;
+		my $line2;
+		my $plus;
+		my $comp_rate = ($line =~ tr/\#//);
+		if ( $comp_rate > 0) {
+			$line =~ s/\#\+Der\d\+Der\//\#/g;
+			$line =~ /^(.*\#.*?)\+(.*)$/;
+			$base = $1;
+			$line2 = $2;
+		}
+		else { 
+			if ($line =~ s/^\+//) { $plus = "+"; }
+			($base, $line2) = split(/\+/, $line, 2);
+		}
+		$line2 =~ tr/+/ /;
+		$base =~ tr/+//;
+		$line2 =~ s/=/ = /g; # relevant to kal XXX
+#		$base =~ s/=/ = /g;  # relevant to kal 
+		if ($plus) { $base = $plus . $base; }
+
+		# If line contains a compound
+		if ( $comp_rate > 0 && ! $der && ! $dict) {
+			format_compound(\$base, \$line2, \$word); 
+		}
+		# Mark derivational tags
+		1 while $line2 =~ s/\b(V|N|Adv|A)(\ |\ .*?\ )(V|N|Adv|A)\b/$1\*$2$3/g;
+
+        # Mark IV with star when there is later TV
+        # (causative derivation)
+		1 while $line2 =~ s/\b(IV)(\ |\ .*?\ )(TV)\b/$1\*$2$3/g;
+            
+            #Format output
+            $line =  "\t" . " \"$base\" " . $line2 . "\n";
+ 			
+			# Store the analysis to a hash
+			if ($base) { $forms{$line} = 1; }
+        }
+		
+		# Print output
+        if (@Analyses) {
+		print "\"<$word>\"\n";
+		for my $line (keys %forms) 
+                 { 
+                 $line =~ s/("[^"]+?)\s+([^"]+?")/$1_$2/g;
+                 print "$line"; }
+		}
+	} # end of while
+
+
+sub rate_compounds {
+	my $href = shift @_;
+	
+	# Rate compounds and remove extra readings.
+	my $min_boundary_count=5;
+	my $boundary_count=0;
+	my $der_count=0;
+	for (keys %$href) {
+		$boundary_count = tr/\#//;
+		$der_count = () = $_ =~ /Der\//g;
+
+		$boundary_count += $der_count;
+		# The derivation is not preferred.
+		#if (/Der\d\+Der/) { $boundary_count++; }
+		if ( $boundary_count < $min_boundary_count )
+		{ $min_boundary_count = $boundary_count; }
+	}
+	my $i=0;
+	for (keys %$href) {
+		$boundary_count = 0;
+		$der_count = 0;
+		if ($der) {
+			next if /\b(V|N|Adv|A)(\ |\ .*?\ )(V|N|Adv|A)\b/;
+		}
+		$boundary_count = tr/\#//;
+		$der_count = () = $_ =~ /Der\//g;
+		$boundary_count += $der_count;
+		if ( $boundary_count > $min_boundary_count )
+		{ delete($$href{$_}); }
+	}
+}
+
+sub select_lexicalized {
+	my $href = shift @_;
+
+	my %lexicalized;
+
+	# Select the forms which do not have any compound tags
+	for (keys %$href) { 
+		next if (m/\+.*\#/);
+		$lexicalized{$_} = 1;
+	}
+	# If there were lexicalized compounds, delete others from output
+	if (%lexicalized) {
+		for my $k (keys %$href) {
+			if (! $lexicalized{$k}) { delete($$href{$k}); }
+		}
+	}
+}
+
+sub format_compound {
+	my ($refbase, $refline, $refword) = @_;
+
+	my $boundary_count = ($$refbase =~ tr/\#//);
+
+	# Take only the analysis of the last part of the compound
+	$$refbase =~ /^(.*)\#([^\#]+)$/;
+	my $last_word = $2;
+	if(! $last_word) { return; }
+
+	my $second_last_word;
+	my $third_last_word;
+	my $fourth_last_word;
+	if ($boundary_count > 1) {
+		if ( $$refbase =~ /^.*\#(.*?)\#.*$/ ) {
+			$second_last_word = $1;
+		}
+		if ( $$refbase =~ /^.*\#(.*?)\#.*\#.*$/ ) {
+			$third_last_word = $1;
+		}
+		if ( $$refbase =~ /^.*\#(.*?)\#.*\#.*\#.*$/ ) {
+			$fourth_last_word = $1;
+		}
+	}
+	my $i=4;
+	my $substring = substr($last_word,0,$i);
+	
+	while ($i > 1) {
+	    if ($$refword =~ m/.*(\Q$substring\E)/) {
+		my $pos = rindex $$refword,$substring,;
+		#exit the search only when the substring is not in the beginning of the word.
+		if ($pos > 1) { last; }
+	    }
+	    $i--;
+	    $substring = substr($last_word,0,$i);
+	}
+
+	if ($$refword =~ m/.*\Q$substring\E/) {
+		# If the compound boundary is found, 
+		# replace the last word by its base form, and insert a # mark in front of
+		# it, in order to mark the result as a compound.
+		my $orig = $$refbase;
+		$$refbase = $$refword;
+		$$refbase =~ s/(^.*)\Q$substring\E.*$/$1\#$last_word/;
+		if ($orig =~ m/^\p{isLower}/) {
+			$$refbase = lcfirst($$refbase);
+		}
+	}
+	if ($second_last_word) {
+		my $i=4;
+		my $substring = substr($second_last_word,0,$i);
+		while ($$refbase !~ /.*\Q$substring\E.*\#/ && $i>1 ) {
+			$i--;
+			$substring = substr($second_last_word,0,$i);
+		}
+		# If the compound boundary is found, mark it with #
+		if ($$refbase =~ /.*\Q$substring\E/) {
+			$$refbase =~ s/(\Q$substring\E.*\#)/\#$1/;
+		}
+	}
+	if ($third_last_word) {
+		my $i=4;
+		my $substring = substr($third_last_word,0,$i);
+		while ($$refbase !~ /.*\Q$substring\E.*\#.*\#/ && $i>1 ) {
+			$i--;
+			$substring = substr($third_last_word,0,$i);
+		}
+		# If the compound boundary is found, mark it with #
+		if ($$refbase =~ /.*\Q$substring\E/) {
+			$$refbase =~ s/(.*)(\Q$substring\E.*\#.*\#)/$1\#$2/;
+		}
+	}
+	if ($fourth_last_word) {
+		my $i=4;
+		my $substring = substr($fourth_last_word,0,$i);
+		print "$substring\n";
+		while ($$refbase !~ /.*\Q$substring\E.*\#.*\#.*\#/ && $i>1 ) {
+			$i--;
+			$substring = substr($fourth_last_word,0,$i);
+		}
+		# If the compound boundary is found, mark it with #
+		if ($$refbase =~ /.*\Q$substring\E/) {
+			$$refbase =~ s/(\Q$substring\E.*\#.*\#.*\#)/\#$1/;
+		}
+	}
+}

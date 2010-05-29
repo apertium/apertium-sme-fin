@@ -10,6 +10,9 @@
 /apertium-sme-fin.sme.twol -text
 /autogen.sh -text
 /configure.ac -text
+corp/processed.txt -text
+corp/sentences -text
+corp/teakstta.txt -text
 dev/bidix/A.lex -text
 dev/bidix/A.lex.orig -text
 dev/bidix/Adv.lex -text
@@ -38,6 +41,8 @@ dev/xfst2apertium.useless.twol -text
 /lexchoicebil.xsl -text
 /modes.xml -text
 /script.sh -text
+tools/debug.py -text
+tools/lookup2cg -text
 /tutorial-sme-fin.fin.dix -text
 /tutorial-sme-fin.sme-fin.dix -text
 /tutorial-sme-fin.sme-fin.t1x -text

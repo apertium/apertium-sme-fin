@@ -735,104 +735,135 @@
 	
 <!-- 
 some of these are likely not that common... need to fix slashed entries and duplicates before uncommenting
+	
+	
+	none of these have been marked for directionality and duplicate lemmas yet
 	<e><p><l>alit vuodjalasta<s n="N" /></l><r>siniyökönlehti<s n="N"/></r></p></e>
 	<e><p><l>alitdiehpperássi<s n="N" /></l><r>huopaohdake<s n="N"/></r></p></e>
 	<e><p><l>alitgáiski<s n="N" /></l><r>korpi-imarre<s n="N"/></r></p></e>
-	<e><p><l>alitnárti/giđđaboallu<s n="N" /></l><r>sinirikko<s n="N"/></r></p></e>
-	<e><p><l>alitnásti/muohtacivzza<s n="N" /></l><r>tunturikatkero<s n="N"/></r></p></e>
+	<e><p><l>alitnárti<s n="N" /></l><r>sinirikko<s n="N"/></r></p></e>
+	<e><p><l>alitnásti<s n="N" /></l><r>tunturikatkero<s n="N"/></r></p></e>
+	<e><p><l>alitrássi<s n="N" /></l><r>metsäkurjenpolvi<s n="N"/></r></p></e>
 	<e><p><l>alásgožot<s n="N" /></l><r>tunturikeulankärki<s n="N"/></r></p></e>
 	<e><p><l>alásrássi<s n="N" /></l><r>suokukka<s n="N"/></r></p></e>
-	<e><p><l>aláš háissuodini/njálggaháissuoidni<s n="N" /></l><r>tunturimaarianheinä<s n="N"/></r></p></e>
-	<e><p><l>alášbađverássi/sáigovuolpu<s n="N" /></l><r>tunturipoimulehti<s n="N"/></r></p></e>
+	<e><p><l>aláš háissuodini<s n="N" /></l><r>tunturimaarianheinä<s n="N"/></r></p></e>
+	<e><p><l>alášbađverássi<s n="N" /></l><r>tunturipoimulehti<s n="N"/></r></p></e>
 	<e><p><l>beaivečalbmi<s n="N" /></l><r>vilukko<s n="N"/></r></p></e>
 	<e><p><l>bealdoseakkalasta<s n="N" /></l><r>peltohatikka<s n="N"/></r></p></e>
+	<e><p><l>beatnatboska<s n="N" /></l><r>koiranputki<s n="N"/></r></p></e>
 	<e><p><l>beatnatmuorji<s n="N" /></l><r>ruohokanukka<s n="N"/></r></p></e>
 	<e><p><l>beatnatnásti<s n="N" /></l><r>karvaskallioinen<s n="N"/></r></p></e>
 	<e><p><l>beatnatsuoidni<s n="N" /></l><r>kultapiisku<s n="N"/></r></p></e>
-	<e><p><l>biehtárássi/biehtárguhkká<s n="N" /></l><r>siankärsämö<s n="N"/></r></p></e>
-	<e><p><l>biellorássi/divgarrássi<s n="N" /></l><r>kissankello<s n="N"/></r></p></e>
+	<e><p><l>biehtárguhkká<s n="N" /></l><r>siankärsämö<s n="N"/></r></p></e>
+	<e><p><l>biehtárássi<s n="N" /></l><r>siankärsämö<s n="N"/></r></p></e>
+	<e><p><l>biellorássi<s n="N" /></l><r>kissankello<s n="N"/></r></p></e>
 	<e><p><l>boallorássi<s n="N" /></l><r>kullero (? kullervo)<s n="N"/></r></p></e>
-	<e><p><l>boaresgállarássi/alitrássi<s n="N" /></l><r>metsäkurjenpolvi<s n="N"/></r></p></e>
-	<e><p><l>báhpačehporas/jámešbánit<s n="N" /></l><r>saunakukka/peltosaunio<s n="N"/></r></p></e>
+	<e><p><l>boaresgállarássi<s n="N" /></l><r>metsäkurjenpolvi<s n="N"/></r></p></e>
+	<e><p><l>boska<s n="N" /></l><r>väinönputki<s n="N"/></r></p></e>
 	<e><p><l>báktenárti<s n="N" /></l><r>pahtarikko<s n="N"/></r></p></e>
 	<e><p><l>básdiehpáš<s n="N" /></l><r>keminängelmä<s n="N"/></r></p></e>
+	<e><p><l>daŋasruvso<s n="N" /></l><r>lapinalppiruusu<s n="N"/></r></p></e>
 	<e><p><l>deanutimjan<s n="N" /></l><r>kangasajuruoho<s n="N"/></r></p></e>
+	<e><p><l>deaškedaŋas<s n="N" /></l><r>sielikkö<s n="N"/></r></p></e>
 	<e><p><l>dierbmámuorji<s n="N" /></l><r>sudenmarja<s n="N"/></r></p></e>
-	<e><p><l>dierpmárássi/beatnatboska<s n="N" /></l><r>koiranputki<s n="N"/></r></p></e>
-	<e><p><l>duolbadaŋas/deaškedaŋas<s n="N" /></l><r>sielikkö<s n="N"/></r></p></e>
+	<e><p><l>dierpmárássi<s n="N" /></l><r>koiranputki<s n="N"/></r></p></e>
+	<e><p><l>divgarrássi<s n="N" /></l><r>kissankello<s n="N"/></r></p></e>
+	<e><p><l>duolbadaŋas<s n="N" /></l><r>sielikkö<s n="N"/></r></p></e>
 	<e><p><l>duottarbusságeahpil<s n="N" /></l><r>tunturikissankäpälä<s n="N"/></r></p></e>
 	<e><p><l>duottarhilsku<s n="N" /></l><r>tunturikohokki<s n="N"/></r></p></e>
 	<e><p><l>duottarsáhpal<s n="N" /></l><r>tunturikurjenherne<s n="N"/></r></p></e>
-	<e><p><l>duottarčikŋa/daŋasruvso<s n="N" /></l><r>lapinalppiruusu<s n="N"/></r></p></e>
+	<e><p><l>duottarčikŋa<s n="N" /></l><r>lapinalppiruusu<s n="N"/></r></p></e>
 	<e><p><l>eavru<s n="N" /></l><r>hapro<s n="N"/></r></p></e>
-	<e><p><l>ehtemas/juogut<s n="N" /></l><r>juolukka<s n="N"/></r></p></e>
+	<e><p><l>ehtemas<s n="N" /></l><r>juolukka<s n="N"/></r></p></e>
 	<e><p><l>fierbmegironlasata<s n="N" /></l><r>verkkolehtipaju<s n="N"/></r></p></e>
+	<e><p><l>fierbmerássi<s n="N" /></l><r>hiirenvirna<s n="N"/></r></p></e>
 	<e><p><l>fiskesjuopmu<s n="N" /></l><r>suikerohanhikki<s n="N"/></r></p></e>
 	<e><p><l>fiskesrássi<s n="N" /></l><r>niittyleinikki<s n="N"/></r></p></e>
 	<e><p><l>fiskesviola<s n="N" /></l><r>lapinorvokki <s n="N"/></r></p></e>
-	<e><p><l>gieddemáđir/vilgesmáđir<s n="N" /></l><r>ahomatara<s n="N"/></r></p></e>
+	<e><p><l>geađgeluomi<s n="N" /></l><r>mesimarja<s n="N"/></r></p></e>
+	<e><p><l>gieddemáđir<s n="N" /></l><r>ahomatara<s n="N"/></r></p></e>
 	<e><p><l>gieddesáhpal<s n="N" /></l><r>kangasmaitikka<s n="N"/></r></p></e>
-	<e><p><l>gieddeullu/upmolsuoidni<s n="N" /></l><r>luhtavilla<s n="N"/></r></p></e>
+	<e><p><l>gieddeullu<s n="N" /></l><r>luhtavilla<s n="N"/></r></p></e>
+	<e><p><l>gieganjuolla<s n="N" /></l><r>maitohorsma <s n="N"/></r></p></e>
+	<e><p><l>gieganjuolla<s n="N" /></l><r>tupasvilla<s n="N"/></r></p></e>
 	<e><p><l>gironlasta<s n="N" /></l><r>vaivaispaju<s n="N"/></r></p></e>
+	<e><p><l>giđđaboallu<s n="N" /></l><r>sinirikko<s n="N"/></r></p></e>
 	<e><p><l>giđđanuorsá<s n="N" /></l><r>kevätleinikki<s n="N"/></r></p></e>
+	<e><p><l>golka<s n="N" /></l><r>lapinvuokko<s n="N"/></r></p></e>
 	<e><p><l>gollenárti<s n="N" /></l><r>kultarikko<s n="N"/></r></p></e>
 	<e><p><l>gollerássi<s n="N" /></l><r>rentukka<s n="N"/></r></p></e>
 	<e><p><l>gonagasčoalci<s n="N" /></l><r>kaarlenvaltikka<s n="N"/></r></p></e>
 	<e><p><l>gottesáhpal<s n="N" /></l><r>peuranvirna<s n="N"/></r></p></e>
 	<e><p><l>guohcarássi<s n="N" /></l><r>suopursu<s n="N"/></r></p></e>
 	<e><p><l>guolbbajuopmu<s n="N" /></l><r>ahosuolaheinä<s n="N"/></r></p></e>
-	<e><p><l>guolbbanásti/nástelieđđi<s n="N" /></l><r>metsätähti<s n="N"/></r></p></e>
+	<e><p><l>guolbbanásti<s n="N" /></l><r>metsätähti<s n="N"/></r></p></e>
+	<e><p><l>guossarássi<s n="N" /></l><r>metsäkorte<s n="N"/></r></p></e>
+	<e><p><l>guossarássi<s n="N" /></l><r>vesikuusi<s n="N"/></r></p></e>
+	<e><p><l>guovžžamuorji<s n="N" /></l><r>riekonmarja<s n="N"/></r></p></e>
+	<e><p><l>guppaslieđđi<s n="N" /></l><r>puna-ailakki<s n="N"/></r></p></e>
 	<e><p><l>gádderuosta<s n="N" /></l><r>punakko<s n="N"/></r></p></e>
-	<e><p><l>gáddevitku/suotnabáidni<s n="N" /></l><r>rantatädyke<s n="N"/></r></p></e>
-	<e><p><l>gáiccabáinna/várregieldá<s n="N" /></l><r>tunturilieko<s n="N"/></r></p></e>
-	<e><p><l>gálbberássi/hádjaurttas/njálggaháiruohtas<s n="N" /></l><r>ruusujuuri<s n="N"/></r></p></e>
-	<e><p><l>gámasuoidni/ájalukti<s n="N" /></l><r>vesisara<s n="N"/></r></p></e>
+	<e><p><l>gáddevitku<s n="N" /></l><r>rantatädyke<s n="N"/></r></p></e>
+	<e><p><l>gáiccabáinna<s n="N" /></l><r>tunturilieko<s n="N"/></r></p></e>
+	<e><p><l>gálbberássi<s n="N" /></l><r>ruusujuuri<s n="N"/></r></p></e>
+	<e><p><l>gálla<s n="N" /></l><r>leskenlehti<s n="N"/></r></p></e>
+	<e><p><l>gámasuoidni<s n="N" /></l><r>vesisara<s n="N"/></r></p></e>
 	<e><p><l>gáranasmuorji<s n="N" /></l><r>sianpuolukka <s n="N"/></r></p></e>
 	<e><p><l>gáskálas<s n="N" /></l><r>nokkonen<s n="N"/></r></p></e>
-	<e><p><l>heasttagazzarássi/gálla<s n="N" /></l><r>leskenlehti<s n="N"/></r></p></e>
-	<e><p><l>heasttaseaibi/guossarássi<s n="N" /></l><r>vesikuusi<s n="N"/></r></p></e>
+	<e><p><l>heasttagazzarássi<s n="N" /></l><r>leskenlehti<s n="N"/></r></p></e>
+	<e><p><l>heasttaseaibi<s n="N" /></l><r>vesikuusi<s n="N"/></r></p></e>
+	<e><p><l>heavušdaŋas<s n="N" /></l><r>kanerva<s n="N"/></r></p></e>
 	<e><p><l>heaŋggolieđga<s n="N" /></l><r>nuokkutalvikki<s n="N"/></r></p></e>
 	<e><p><l>hilsksu<s n="N" /></l><r>pihatähtimö<s n="N"/></r></p></e>
-	<e><p><l>horbmá/gieganjuolla<s n="N" /></l><r>maitohorsma <s n="N"/></r></p></e>
+	<e><p><l>horbmá<s n="N" /></l><r>maitohorsma <s n="N"/></r></p></e>
+	<e><p><l>hádjaurttas<s n="N" /></l><r>ruusujuuri<s n="N"/></r></p></e>
 	<e><p><l>idni<s n="N" /></l><r>katinlieko<s n="N"/></r></p></e>
 	<e><p><l>jeaggehoašša<s n="N" /></l><r>suokorte<s n="N"/></r></p></e>
 	<e><p><l>jeaggelukti<s n="N" /></l><r>aapasara<s n="N"/></r></p></e>
 	<e><p><l>jeaggemáđir<s n="N" /></l><r>luhtamatara<s n="N"/></r></p></e>
 	<e><p><l>jeaggeviola<s n="N" /></l><r>suo-orvokki<s n="N"/></r></p></e>
-	<e><p><l>jearjá/jeađja/jearja<s n="N" /></l><r>pohjansinivalvatti<s n="N"/></r></p></e>
+	<e><p><l>jearja<s n="N" /></l><r>pohjansinivalvatti<s n="N"/></r></p></e>
+	<e><p><l>jearjá<s n="N" /></l><r>pohjansinivalvatti<s n="N"/></r></p></e>
+	<e><p><l>jeađja<s n="N" /></l><r>pohjansinivalvatti<s n="N"/></r></p></e>
 	<e><p><l>jieret<s n="N" /></l><r>punaherukka<s n="N"/></r></p></e>
 	<e><p><l>jorbačurolasta<s n="N" /></l><r>pyöreälehtikihokki<s n="N"/></r></p></e>
+	<e><p><l>juogut<s n="N" /></l><r>juolukka<s n="N"/></r></p></e>
 	<e><p><l>juopmu<s n="N" /></l><r>niittysuolaheinä<s n="N"/></r></p></e>
 	<e><p><l>lageš<s n="N" /></l><r>tunturikoivu<s n="N"/></r></p></e>
 	<e><p><l>leaibi<s n="N" /></l><r>harmaaleppä<s n="N"/></r></p></e>
 	<e><p><l>lieđđedaŋas<s n="N" /></l><r>uuvana<s n="N"/></r></p></e>
-	<e><p><l>livdnju/heavušdaŋas<s n="N" /></l><r>kanerva<s n="N"/></r></p></e>
-	<e><p><l>luomi/láttat<s n="N" /></l><r>hilla/lakka/muurain<s n="N"/></r></p></e>
+	<e><p><l>livdnju<s n="N" /></l><r>kanerva<s n="N"/></r></p></e>
+	<e><p><l>lávžžamuorji<s n="N" /></l><r>lillukka<s n="N"/></r></p></e>
 	<e><p><l>miehtaguodja<s n="N" /></l><r>kiiltosara <s n="N"/></r></p></e>
+	<e><p><l>miehtamuorji<s n="N" /></l><r>mesimarja<s n="N"/></r></p></e>
 	<e><p><l>miehtaskážir<s n="N" /></l><r>mesiangervo<s n="N"/></r></p></e>
 	<e><p><l>miektanárti<s n="N" /></l><r>mätäsrikko<s n="N"/></r></p></e>
 	<e><p><l>miektarássi<s n="N" /></l><r>tupassara<s n="N"/></r></p></e>
 	<e><p><l>miesttalivdnju<s n="N" /></l><r>pensaskanerva<s n="N"/></r></p></e>
 	<e><p><l>moninvuolpu<s n="N" /></l><r>poimulehti<s n="N"/></r></p></e>
-	<e><p><l>muoskkáš/njuohcu<s n="N" /></l><r>raate<s n="N"/></r></p></e>
+	<e><p><l>muohtacivzza<s n="N" /></l><r>tunturikatkero<s n="N"/></r></p></e>
+	<e><p><l>muoskkáš<s n="N" /></l><r>raate<s n="N"/></r></p></e>
 	<e><p><l>niitobiellorássi<s n="N" /></l><r>ojakellukka<s n="N"/></r></p></e>
 	<e><p><l>niitosáhpal<s n="N" /></l><r>niittynätkelmä<s n="N"/></r></p></e>
+	<e><p><l>njuohcu<s n="N" /></l><r>raate<s n="N"/></r></p></e>
 	<e><p><l>njuovvelávki<s n="N" /></l><r>ruoholaukka<s n="N"/></r></p></e>
 	<e><p><l>njálanjuovčča<s n="N" /></l><r>lääte <s n="N"/></r></p></e>
+	<e><p><l>njálggaháiruohtas<s n="N" /></l><r>ruusujuuri<s n="N"/></r></p></e>
+	<e><p><l>njálggaháissuoidni<s n="N" /></l><r>tunturimaarianheinä<s n="N"/></r></p></e>
 	<e><p><l>noaiddelieđđi<s n="N" /></l><r>maariankämmekkä<s n="N"/></r></p></e>
-	<e><p><l>nuorsá/golka<s n="N" /></l><r>lapinvuokko<s n="N"/></r></p></e>
+	<e><p><l>nuorsá<s n="N" /></l><r>lapinvuokko<s n="N"/></r></p></e>
+	<e><p><l>nástelieđđi<s n="N" /></l><r>metsätähti<s n="N"/></r></p></e>
 	<e><p><l>nástenárti<s n="N" /></l><r>tähtirikko<s n="N"/></r></p></e>
-	<e><p><l>olbmoborranrássi/boska<s n="N" /></l><r>väinönputki<s n="N"/></r></p></e>
+	<e><p><l>olbmoborranrássi<s n="N" /></l><r>väinönputki<s n="N"/></r></p></e>
 	<e><p><l>riessanellet<s n="N" /></l><r>pulskaneilikka<s n="N"/></r></p></e>
-	<e><p><l>rievdnelukti/čáhcelukti<s n="N" /></l><r>luhtasara<s n="N"/></r></p></e>
-	<e><p><l>rievssatmuorji/guovžžamuorji<s n="N" /></l><r>riekonmarja<s n="N"/></r></p></e>
+	<e><p><l>rievdnelukti<s n="N" /></l><r>luhtasara<s n="N"/></r></p></e>
+	<e><p><l>rievssatmuorji<s n="N" /></l><r>riekonmarja<s n="N"/></r></p></e>
 	<e><p><l>rohtohilsku<s n="N" /></l><r>lehtotähtimö<s n="N"/></r></p></e>
 	<e><p><l>rohtohorbmá<s n="N" /></l><r>pohjanhorsma<s n="N"/></r></p></e>
 	<e><p><l>rohtovajálgeahtesnásti<s n="N" /></l><r>lapinlemmikki<s n="N"/></r></p></e>
 	<e><p><l>ruhtarássi<s n="N" /></l><r>pikkulaukku<s n="N"/></r></p></e>
 	<e><p><l>rukseslukti<s n="N" /></l><r>pullosara<s n="N"/></r></p></e>
 	<e><p><l>ruksesluovvar<s n="N" /></l><r>puna-apila<s n="N"/></r></p></e>
-	<e><p><l>ruksesrássi/guppaslieđđi<s n="N" /></l><r>puna-ailakki<s n="N"/></r></p></e>
+	<e><p><l>ruksesrássi<s n="N" /></l><r>puna-ailakki<s n="N"/></r></p></e>
 	<e><p><l>ruksessieđga<s n="N" /></l><r>kiiltopaju<s n="N"/></r></p></e>
 	<e><p><l>ruoksesoaivi<s n="N" /></l><r>pikkutervakko<s n="N"/></r></p></e>
 	<e><p><l>ruovdegáskálas<s n="N" /></l><r>rautanokkonen<s n="N"/></r></p></e>
@@ -840,38 +871,58 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>ruvdorássi<s n="N" /></l><r>liekovarpio<s n="N"/></r></p></e>
 	<e><p><l>ráneslasta<s n="N" /></l><r>tunturipitkäpalko<s n="N"/></r></p></e>
 	<e><p><l>ráneslukti<s n="N" /></l><r>jokapaikansara<s n="N"/></r></p></e>
-	<e><p><l>ránessieđga/várresieđga<s n="N" /></l><r>tunturipaju<s n="N"/></r></p></e>
+	<e><p><l>ránessieđga<s n="N" /></l><r>tunturipaju<s n="N"/></r></p></e>
 	<e><p><l>sieđgaskierri<s n="N" /></l><r>pohjanpaju<s n="N"/></r></p></e>
 	<e><p><l>skierri<s n="N" /></l><r>vaivaiskoivu<s n="N"/></r></p></e>
 	<e><p><l>smávvalieđga<s n="N" /></l><r>pikkutalvikki<s n="N"/></r></p></e>
-	<e><p><l>sohterássi/sođđerássi<s n="N" /></l><r>riidenlieko<s n="N"/></r></p></e>
-	<e><p><l>suoidnelukti/suoidneguodja<s n="N" /></l><r>keltasara<s n="N"/></r></p></e>
+	<e><p><l>sohterássi<s n="N" /></l><r>riidenlieko<s n="N"/></r></p></e>
+	<e><p><l>sođđerássi<s n="N" /></l><r>riidenlieko<s n="N"/></r></p></e>
+	<e><p><l>suoidneguodja<s n="N" /></l><r>keltasara<s n="N"/></r></p></e>
+	<e><p><l>suoidnelukti<s n="N" /></l><r>keltasara<s n="N"/></r></p></e>
 	<e><p><l>suoidneruhtarássi<s n="N" /></l><r>isolaukku<s n="N"/></r></p></e>
 	<e><p><l>suorbmagoahti<s n="N" /></l><r>kellosinilatva<s n="N"/></r></p></e>
 	<e><p><l>suorbmagoahti<s n="N" /></l><r>luhtalitukka<s n="N"/></r></p></e>
+	<e><p><l>suotnabáidni<s n="N" /></l><r>rantatädyke<s n="N"/></r></p></e>
 	<e><p><l>suotnjoruški<s n="N" /></l><r>kurjenjalka<s n="N"/></r></p></e>
-	<e><p><l>sáhpal/fierbmerássi<s n="N" /></l><r>hiirenvirna<s n="N"/></r></p></e>
+	<e><p><l>sáhpal<s n="N" /></l><r>hiirenvirna<s n="N"/></r></p></e>
+	<e><p><l>sáigovuolpu<s n="N" /></l><r>tunturipoimulehti<s n="N"/></r></p></e>
 	<e><p><l>sámilruvdorássi<s n="N" /></l><r>sammalvarpio<s n="N"/></r></p></e>
-	<e><p><l>uvlorássi/vuodjarássi<s n="N" /></l><r>voikukka<s n="N"/></r></p></e>
-	<e><p><l>veaddemuorji/lávžžamuorji<s n="N" /></l><r>lillukka<s n="N"/></r></p></e>
+	<e><p><l>ullorássi<s n="N" /></l><r>tupasvilla<s n="N"/></r></p></e>
+	<e><p><l>upmolsuoidni<s n="N" /></l><r>luhtavilla<s n="N"/></r></p></e>
+	<e><p><l>uvlorássi<s n="N" /></l><r>voikukka<s n="N"/></r></p></e>
+	<e><p><l>veaddemuorji<s n="N" /></l><r>lillukka<s n="N"/></r></p></e>
 	<e><p><l>vilgesluovvar<s n="N" /></l><r>valkoapila<s n="N"/></r></p></e>
-	<e><p><l>vilgesoairássi/ullorássi/gieganjuolla<s n="N" /></l><r>tupasvilla<s n="N"/></r></p></e>
+	<e><p><l>vilgesmáđir<s n="N" /></l><r>ahomatara<s n="N"/></r></p></e>
+	<e><p><l>vilgesoairássi<s n="N" /></l><r>tupasvilla<s n="N"/></r></p></e>
 	<e><p><l>vilgessieđga<s n="N" /></l><r>villapaju<s n="N"/></r></p></e>
 	<e><p><l>vilgesvuodjalasta<s n="N" /></l><r>valkoyökönlehti<s n="N"/></r></p></e>
+	<e><p><l>vuodjarássi<s n="N" /></l><r>voikukka<s n="N"/></r></p></e>
 	<e><p><l>vuolgodolgi<s n="N" /></l><r>kotkansiipi<s n="N"/></r></p></e>
 	<e><p><l>vuovdesáhpal<s n="N" /></l><r>metsámaitkikka <s n="N"/></r></p></e>
 	<e><p><l>vuovdeviola<s n="N" /></l><r>metsäorvokki<s n="N"/></r></p></e>
 	<e><p><l>vándádivga<s n="N" /></l><r>vanamo<s n="N"/></r></p></e>
-	<e><p><l>váravárpá/várredaŋas<s n="N" /></l><r>kurjenkanerva<s n="N"/></r></p></e>
+	<e><p><l>váravárpá<s n="N" /></l><r>kurjenkanerva<s n="N"/></r></p></e>
+	<e><p><l>várredaŋas<s n="N" /></l><r>kurjenkanerva<s n="N"/></r></p></e>
+	<e><p><l>várregieldá<s n="N" /></l><r>tunturilieko<s n="N"/></r></p></e>
+	<e><p><l>várresieđga<s n="N" /></l><r>tunturipaju<s n="N"/></r></p></e>
 	<e><p><l>várresáhpánrássi<s n="N" /></l><r>tunturihärkki<s n="N"/></r></p></e>
-	<e><p><l>váđot/miehtamuorji/geađgeluomi<s n="N" /></l><r>mesimarja<s n="N"/></r></p></e>
+	<e><p><l>váđot<s n="N" /></l><r>mesimarja<s n="N"/></r></p></e>
+	<e><p><l>ájalukti<s n="N" /></l><r>vesisara<s n="N"/></r></p></e>
 	<e><p><l>ájanárti<s n="N" /></l><r>purorikko<s n="N"/></r></p></e>
 	<e><p><l>ávža<s n="N" /></l><r>tuomi<s n="N"/></r></p></e>
 	<e><p><l>čakčarássi<s n="N" /></l><r>syysmaitiainen<s n="N"/></r></p></e>
 	<e><p><l>šilljojuopmu<s n="N" /></l><r>nurmitatar<s n="N"/></r></p></e>
 	<e><p><l>šođbačurolasta<s n="N" /></l><r>pitkälehtikihokki<s n="N"/></r></p></e>
-	<e><p><l>čuotnjárássi/guossarássi<s n="N" /></l><r>metsäkorte<s n="N"/></r></p></e>
+	<e><p><l>čuotnjárássi<s n="N" /></l><r>metsäkorte<s n="N"/></r></p></e>
+	<e><p><l>čáhcelukti<s n="N" /></l><r>luhtasara<s n="N"/></r></p></e>
 	<e><p><l>čáhppesmuorji<s n="N" /></l><r>variksenmarja<s n="N"/></r></p></e>
+
+	finnish duplicates
+	<e><p><l>báhpačehporas<s n="N" /></l><r>saunakukka/peltosaunio<s n="N"/></r></p></e>
+	<e><p><l>jámešbánit<s n="N" /></l><r>saunakukka/peltosaunio<s n="N"/></r></p></e>
+	<e><p><l>luomi<s n="N" /></l><r>hilla/lakka/muurain<s n="N"/></r></p></e>
+	<e><p><l>láttat<s n="N" /></l><r>hilla/lakka/muurain<s n="N"/></r></p></e>
+
 --> 
 
     <!-- Proper nouns -->
@@ -1275,8 +1326,9 @@ some of these are likely not that common... need to fix slashed entries and dupl
 
     <e><p><l>ii<s n="V"/><s n="IV"/></l><r>ei<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>leat<s n="V"/><s n="IV"/></l><r>olla<s n="V"/></r></p><par n="V_V"/></e>
-
-    <e><p><l>bassat<s n="V"/><s n="TV"/></l><r>pestä<s n="V"/></r></p><par n="V_V"/></e>
+	
+    <e><p><l>borgat<s n="V"/><s n="IV"/></l><r>pyryttää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>bassat<s n="V"/><s n="TV"/></l><r>pestä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>beassat<s n="V"/><s n="TV"/></l><r>päästä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>čohkkát<s n="V"/><s n="IV"/></l><r>istua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>dupliseret<s n="V"/><s n="TV"/></l><r>kaksinkertaistaa<s n="V"/></r></p><par n="V_V"/></e>
