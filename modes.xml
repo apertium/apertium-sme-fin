@@ -31,6 +31,18 @@
     </pipeline>
   </mode>
 
+  <mode name="fin-sme-tagger">
+    <pipeline>
+      <program name="hfst-proc">
+        <file name="fin-sme.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="fin-sme.rlx.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <mode name="fin-sme-chunker">
     <pipeline>
       <program name="hfst-proc">

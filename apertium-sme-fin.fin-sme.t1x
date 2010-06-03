@@ -71,6 +71,7 @@
 	<def-attr n="a_realis">
 		<attr-item tags="Ind"/>
 		<attr-item tags="Imp"/>
+		<attr-item tags="Cond"/>
 	</def-attr>
 	<def-attr n="a_tense">
 		<attr-item tags="Prs"/>
