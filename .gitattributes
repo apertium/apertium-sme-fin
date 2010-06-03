@@ -40,6 +40,7 @@ dev/xfst2apertium.useless.twol -text
 /fin-sme.prob -text
 /lexchoicebil.xsl -text
 /modes.xml -text
+/pending-tests.sh -text
 /script.sh -text
 tools/debug.py -text
 tools/lookup2cg -text
