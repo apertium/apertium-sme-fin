@@ -161,6 +161,8 @@
     <e slr="1"><p><l>šaddu<s n="N"/></l><r>istutus<s n="N"/></r></p></e>
     <e slr="2"><p><l>rábát<s n="N"/></l><r>tahdas<s n="N"/></r></p></e>
     <e srl="1"><p><l>viessu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
+
+    <!-- PROPER NAMES ??? -->
     <e><p><l>Anár<s n="N"/></l><r>Inari<s n="N"/></r></p></e>
     <e><p><l>Avvil<s n="N"/></l><r>Ivalo<s n="N"/></r></p></e>
     <e><p><l>Bissojohka<s n="N"/></l><r>Pyssyjoki<s n="N"/></r></p></e>
@@ -199,6 +201,7 @@
     <e><p><l>Unjárga<s n="N"/></l><r>Uuniemi<s n="N"/></r></p></e>
     <e><p><l>Várggát<s n="N"/></l><r>Varanki<s n="N"/></r></p></e>
     <e><p><l>Várjjat<s n="N"/></l><r>Varanki<s n="N"/></r></p></e>
+
     <e><p><l>addi<s n="N"/></l><r>antaja<s n="N"/></r></p></e>
     <e><p><l>adreassa<s n="N"/></l><r>osoite<s n="N"/></r></p></e>
     <e><p><l>advokáhta<s n="N"/></l><r>asianajaja<s n="N"/></r></p></e>
@@ -1285,6 +1288,7 @@
     <e><p><l>poastamearka<s n="N"/></l><r>postimerkki<s n="N"/></r></p></e>
     <e><p><l>poliisa<s n="N"/></l><r>poliisi<s n="N"/></r></p></e>
     <e><p><l>politiija<s n="N"/></l><r>poliisi<s n="N"/></r></p></e>
+    <e><p><l>politiijastašuvnna<s n="N"/></l><r>poliisiasema<s n="N"/></r></p></e>
     <e><p><l>profehta<s n="N"/></l><r>profeetta<s n="N"/></r></p></e>
     <e><p><l>profetiija<s n="N"/></l><r>profetia<s n="N"/></r></p></e>
     <e><p><l>prošeaktajođiheaddji<s n="N"/></l><r>projektijohtaja<s n="N"/></r></p></e>
