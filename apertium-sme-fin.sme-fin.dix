@@ -121,13 +121,14 @@
     <!-- Pronouns -->
 	<!-- Pronouns -->
 
-    <e><p><l>mun<s n="Pron"/><s n="Pers" /><s n="Sg1" /></l><r>minä<s n="Pron"/></r></p></e>
-    <e><p><l>don<s n="Pron"/><s n="Pers" /><s n="Sg2" /></l><r>sinä<s n="Pron"/></r></p></e>
-    <e><p><l>son<s n="Pron"/><s n="Pers" /><s n="Sg3" /></l><r>hän<s n="Pron"/></r></p></e>
+    <e><p><l>mun<s n="Pron"/><s n="Pers"/><s n="Sg1"/></l><r>minä<s n="Pron"/><s n="Pers"/></r></p></e>
+    <e><p><l>don<s n="Pron"/><s n="Pers"/><s n="Sg2"/></l><r>sinä<s n="Pron"/><s n="Pers"/></r></p></e>
+    <e><p><l>son<s n="Pron"/><s n="Pers"/><s n="Sg3"/></l><r>hän<s n="Pron"/><s n="Pers"/></r></p></e>
 
-    <e><p><l>mun<s n="Pron"/><s n="Pers" /><s n="Pl1" /></l><r>minä<s n="Pron"/><s n="Pl" /></r></p></e> <!-- This is how omorfi and giellatekno analyze plurals it-->
-    <e><p><l>don<s n="Pron"/><s n="Pers" /><s n="Pl2" /></l><r>sinä<s n="Pron"/><s n="Pl" /></r></p></e>
-    <e><p><l>son<s n="Pron"/><s n="Pers" /><s n="Pl3" /></l><r>hän<s n="Pron"/><s n="Pl" /></r></p></e>
+    <!-- This is how omorfi and giellatekno analyze plurals it-->
+    <e><p><l>mun<s n="Pron"/><s n="Pers"/><s n="Pl1"/></l><r>minä<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e> 
+    <e><p><l>don<s n="Pron"/><s n="Pers"/><s n="Pl2"/></l><r>sinä<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e>
+    <e><p><l>son<s n="Pron"/><s n="Pers"/><s n="Pl3"/></l><r>hän<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e>
 
     <e><p><l>dat<s n="Pron"/><s n="Dem"/></l><r>se<s n="Pron"/><s n="Sg"/></r></p></e>
     <e><p><l>dát<s n="Pron"/><s n="Dem"/></l><r>tämä<s n="Pron"/><s n="Dem"/></r></p></e>
@@ -3310,6 +3311,8 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>jorgalit<s n="V"/><s n="TV"/></l><r>kääntää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>jorgalit<s n="V"/><s n="TV"/></l><r>kääntää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>leat<s n="V"/><s n="IV"/></l><r>olla<s n="V"/></r></p><par n="V_V"/></e>
+
+    <e><p><l>guođđit<s n="V"/><s n="TV"/></l><r>jättää<s n="V"/></r></p><par n="V_V"/></e>
     
     <!-- Punctuation -->
 
