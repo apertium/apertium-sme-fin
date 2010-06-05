@@ -33,7 +33,7 @@ def split_output(text=False):
 	outputs = []
 	input = text.replace('\n','')
 	
-	kwargs = {'shell': False, 'stdout': P, 'stdin':P}
+	kwargs = {'shell': True, 'stdout': P, 'stdin':P}
 	for step in steps:
 		output = sp.Popen(step, **kwargs).communicate(input + '\n')
 		input = output[0].replace('\n','')
@@ -107,10 +107,12 @@ def main(argv=None):
 			if option in ("-h", "--help"):
 				print help_message
 			if option in ("-c", "--clean"):
-				sp.Popen(["make", "clean"])
+				p = sp.Popen(["make", "clean"])
+				p.wait()
 				os.system("cd %ssrc/ && make -f Makefile clean" % FIN)
 			if option in ("-r", "--remake"):
-				sp.Popen(["make"])
+				p = sp.Popen(["make"])
+				p.wait()
 				os.system("cd %ssrc/ && make -f Makefile" % FIN)
 			if option in ("-i", "--in"):
 				split_output()
