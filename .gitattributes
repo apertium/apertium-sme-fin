@@ -32,6 +32,7 @@ dev/bidix/V.lex -text
 dev/bidix/V.lex.orig -text
 dev/bidix/calc-levenshtein.py -text
 dev/countries.txt -text
+dev/scripts/debug.py -text
 dev/update-lexc.sh -text
 dev/uppercase-first.twol -text
 dev/xfst2apertium.hashtags.twol -text
@@ -42,7 +43,6 @@ dev/xfst2apertium.useless.twol -text
 /modes.xml -text
 /pending-tests.sh -text
 /script.sh -text
-tools/debug.py -text
 tools/lookup2cg -text
 /tutorial-sme-fin.fin.dix -text
 /tutorial-sme-fin.sme-fin.dix -text
