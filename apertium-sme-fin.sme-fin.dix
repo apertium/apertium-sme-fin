@@ -17,6 +17,7 @@
     <sdef n="Plc"      c="Toponym"/>
     <sdef n="Mal"      c="?"/>
 
+    <sdef n="Card"     c="Cardinal"/>
     <sdef n="Sg"       c="Singular"/>
     <sdef n="Pl"       c="Plural"/>
     <sdef n="Sg1"      c="First-person singular"/>
@@ -146,7 +147,7 @@
 
 
     <e><p><l>okta<s n="Num"/><s n="Sg"/></l><r>yksi<s n="Num"/><s n="Sg"/></r></p></e>
-    <e><p><l>guokte<s n="Num"/><s n="Sg"/></l><r>kaksi<s n="Num"/><s n="Sg"/></r></p></e>
+    <e><p><l>guokte<s n="Num"/><s n="Sg"/></l><r>kaksi<s n="Num"/><s n="Card"/><s n="Sg"/></r></p></e>
     <e><p><l>golbma<s n="Num"/><s n="Sg"/></l><r>kolme<s n="Num"/><s n="Sg"/></r></p></e>
     <e><p><l>njeallje<s n="Num"/><s n="Sg"/></l><r>neljä<s n="Num"/><s n="Sg"/></r></p></e>
     <e><re>[0-9]*</re><p><l><s n="Num"/><s n="Sg"/></l><r><s n="Num"/><s n="Sg"/></r></p></e>
@@ -2914,7 +2915,6 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>mannat<s n="V"/><s n="IV"/></l><r>mennä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>gullat<s n="V"/><s n="TV"/></l><r>kuulua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>luohttit<s n="V"/><s n="IV"/></l><r>luottaa<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>oaidnit<s n="V"/><s n="IV"/></l><r>nähdä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>gullat<s n="V"/><s n="IV"/></l><r>kuulla<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>deattuhit<s n="V"/><s n="IV"/></l><r>todistaa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>sárdnut<s n="V"/><s n="IV"/></l><r>sanoa<s n="V"/></r></p><par n="V_V"/></e>
