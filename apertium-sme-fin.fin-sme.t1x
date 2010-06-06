@@ -125,6 +125,19 @@
 			</choose>
 		</def-macro>
 		
+		<def-macro n="set_par_gen" npar="1" c="arg.1: pronoun. Change Par into Gen">
+			<choose>
+				<when>
+				<test>
+					<equal>
+						<clip pos="1" side="sl" part="a_case"/><lit-tag v="Par"/>
+					</equal>
+				</test>
+				<let><clip pos="1" side="tl" part="a_case"/><lit-tag v="Gen"/></let>
+			</when>
+			</choose>
+		</def-macro>
+		
 		<def-macro n="strip_nbr" npar="1" c="Strip the nbr tag from personal pronouns">
 			<choose>
 				<when>
