@@ -1,5 +1,16 @@
-!Distributed under the terms of the GNU General Public License version 2
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ========================================================================== !
 !                     North Sámi morphological analyser                      !
@@ -6531,8 +6542,19 @@ LEXICON ENDLEX
  @D.NeedNoun.ON@ # ;
 ! @D.Need3Part.ON@ # ; !3part
 ! This ENDLEX business in order to remove illegal compounds.
-!Distributed under the terms of the GNU General Public License version 2 
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ===== !
 ! Verbs !
@@ -7083,6 +7105,8 @@ válddahit:válddah MUITAL ;
 vál0dit:vál'di DIEHTI ;
 vázzit:vázzi BOAHTI ;
 vead0jit:vead'ji BOAHTI ;
+veahkehit:veahke7h MUITAL ;
+veahkehit:veahkeh MUITAL ;
 vieh0kat:vieh'ka DIEVVA ;
 viežžat:viežža BORRA ;
 vizardit:vizard ALIST ;
@@ -7096,9 +7120,21 @@ vuor0dit:vuor'di DIEHTI ;
 vuosehit:vuose7h MUITAL ;
 vuoš0šat:vuoš'ša DIEHTALADDA ;
 vuov0dit:vuov'di DIEHTI ;
-!Distributed under the terms of the GNU General Public License version 2
-! or any later version.
- ! ========================================================================== !
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
+
+! ========================================================================== !
 !                     North Sámi noun lexicon                                !
 ! ========================================================================== !
 
@@ -10946,8 +10982,19 @@ vuotta:vuoddag8 SEAMU ;
  vuovdin+SgCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft:vuovdim BOAHTIN ; !
 vuovssanas:vuovssanass JOHTOLAT ;
 vuovssanas#dáv0da:vuovssanas#dáv'da GOAHTI ;
-!Distributed under the terms of the GNU General Public License version 2 
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ========================================================================== !
 !                     North Sámi adjective lexicon                           !
@@ -11403,8 +11450,19 @@ viiddis:vij'd VIISSIS ;
  vis0sis+SgNomCmp+SgGenCmp+PlGenCmp:vis'sis GAPPUS ; !
  vuo0gas+SgNomCmp+SgGenCmp+PlGenCmp:vuoh'kas VUOGAS ; !
  vuollegaš+SgNomCmp+SgGenCmp+PlGenCmp:vuolleg ASEHAS ; !
-!Distributed under the terms of the GNU General Public License version 2
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ============ !
 ! Proper nouns !
@@ -13456,8 +13514,19 @@ LEXICON NENPLACELASH
 
 
 
-!Distributed under the terms of the GNU General Public License version 2
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! The lexica
 ! ==========
@@ -13806,8 +13875,19 @@ Vilges-Ruošša:Vilges-Ruoš'ša MARJA-plc ;
 Vuolle-Jal0vi:Vuolle-Jal'vi MARJA-plc ;
  Vuottes^jáv0ri:Vuottes^jáv'ri MARJA-plc ; !FIN
  Vuovda^guoi0ka:Vuovda^guoj'ka MARJA-plc ; !FIN
-!Distributed under the terms of the GNU General Public License version 2 
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ################################## !
 !This file contains the Conjunctions !
@@ -13904,8 +13984,19 @@ LEXICON SUPADVmusj
 
  
 
-!Distributed under the terms of the GNU General Public License version 2 
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 LEXICON Adverb
 aktii adv ;
@@ -13914,8 +14005,19 @@ fargga adv ;
 fargga adv ;
 jaska adv ;
 veaháš adv ;
-!Distributed under the terms of the GNU General Public License version 2 
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ################################## !
 !This file contains the Subjunctions !
@@ -14018,8 +14120,19 @@ LEXICON Cs
 
 
 
-!Distributed under the terms of the GNU General Public License version 2 
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ############################## !
 !This file contains the Pronouns !
@@ -15271,8 +15384,19 @@ LEXICON OVTTAHAT
 
 
 
-!Distributed under the terms of the GNU General Public License version 2 
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ############################### !
 !This file contains the Particles !
@@ -15335,8 +15459,19 @@ LEXICON pcle
 ! permits gege, goge, etc., though, and we thus leave
 ! things as they are.
 
-!Distributed under the terms of the GNU General Public License version 2 
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! Adposition lexicon
 ! ===================
@@ -15654,8 +15789,19 @@ vuolá#beallai Pp ;
 vuolá#beallái Pp ;
 vuostá Pp ;
 vuostái Pp ;
-!Distributed under the terms of the GNU General Public License version 2 
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ############################## !
 !This file contains the numerals !
@@ -21127,8 +21273,19 @@ LEXICON ISOLATED-NUMEXP                        !^C^
  ³+Num+Use/Circ:³ # ;                                 !
  ¼+Num+Use/Circ:¼ # ;                                 !
 ¾+Num:¾ # ;
-!Distributed under the terms of the GNU General Public License version 2 
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 ! ============================= !
 ! File containing abbreviations !
@@ -22168,8 +22325,19 @@ Vsá ab-dot-noun ;
  Č+Use/Circ:Č ab-noun; !
  Š+Use/Circ:Š ab-noun; !
 
-!Distributed under the terms of the GNU General Public License version 2 
-! or any later version.
+! Divvun & Giellatekno - open source grammars for Sámi and other languages
+! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
+! http://giellatekno.uit.no & http://divvun.no
+!
+! This program is free software; you can redistribute and/or modify
+! this file under the terms of the GNU General Public License as published by
+! the Free Software Foundation, either version 3 of the License, or
+! (at your option) any later version. The GNU General Public License
+! is found at http://www.gnu.org/licenses/gpl.html. It is
+! also available in the file $GTHOME/LICENSE.txt.
+!
+! Other licensing options are available upon request, please contact
+! giellatekno@hum.uit.no or divvun@samediggi.no
 
 LEXICON Punctuation
 
