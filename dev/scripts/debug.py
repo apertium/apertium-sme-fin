@@ -41,7 +41,9 @@ def split_output(text=False):
 			
 	print '\n'.join(outputs)
 
-FINCGT = "preprocess | hfst-lookup /opt/local/share/omorfi/mor-omorfi.giellatekno.hfst | /Users/pyry/apertium/apertium-sme-fin/tools/lookup2cg | vislcg3 -g /Users/pyry/apertium/apertium-sme-fin/src/fin-dis.rle --trace"
+
+CWD = os.curdir
+FINCGT = "preprocess | hfst-lookup /opt/local/share/omorfi/mor-omorfi.giellatekno.hfst | /Users/pyry/apertium/apertium-sme-fin/tools/lookup2cg | vislcg3 -g /Users/pyry/apertium/apertium-sme-fin/dev/gtsvn/kt/fin/src/fin-dis.rle --trace"
 
 
 def watch(dir_to_watch, command):
