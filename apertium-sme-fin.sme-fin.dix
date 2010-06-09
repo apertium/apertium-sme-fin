@@ -4,6 +4,8 @@
   <sdefs>
     <sdef n="N"        c="Noun"/>
     <sdef n="Num"      c="Numeral"/>
+    <sdef n="Punct"    c="Punctuation"/>
+    <sdef n="CLB"      c="Clause boundary"/>
     <sdef n="A"        c="Adjective"/>
     <sdef n="V"        c="Verb"/>
     <sdef n="Act"      c="Active voice"/>
@@ -3449,5 +3451,7 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <!-- Punctuation -->
 
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="Num"/></l><r><s n="Num"/></r></p></e>
+    <e><re>[.\?;:!]</re><p><l><s n="CLB"/></l><r><s n="Punct"/><s n="CLB"/></r></p></e>
+
   </section>
 </dictionary>
