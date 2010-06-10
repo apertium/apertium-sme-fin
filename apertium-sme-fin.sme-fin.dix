@@ -119,6 +119,7 @@
     <e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
     <e><p><l>sihke<s n="CC"/></l><r>sekä<s n="CC"/></r></p></e>
     <e><p><l>ele<s n="CC"/></l><r>eli<s n="CC"/></r></p></e>
+    <e r="RL"><p><l>vai<s n="CC"/></l><r>että<s n="CC"/></r></p></e>
 
     <e><p><l>ahte<s n="CS"/></l><r>että<s n="CS"/></r></p></e>
     <e><p><l>aht<s n="CS"/></l><r>et<s n="CS"/></r></p></e>
@@ -145,7 +146,7 @@
     <e><p><l>don<s n="Pron"/><s n="Pers"/><s n="Pl2"/></l><r>sinä<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e>
     <e><p><l>son<s n="Pron"/><s n="Pers"/><s n="Pl3"/></l><r>hän<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e>
 
-    <e><p><l>dat<s n="Pron"/><s n="Dem"/></l><r>se<s n="Pron"/><s n="Sg"/></r></p></e>
+    <e><p><l>dat<s n="Pron"/><s n="Dem"/></l><r>se<s n="Pron"/><s n="Dem"/></r></p></e>
     <e><p><l>dát<s n="Pron"/><s n="Dem"/></l><r>tämä<s n="Pron"/><s n="Dem"/></r></p></e>
     <e><p><l>gii<s n="Pron"/><s n="Rel"/></l><r>joka<s n="Pron"/><s n="Rel"/></r></p></e>
 

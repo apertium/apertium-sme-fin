@@ -8,7 +8,7 @@
       <cat-item tags="N.*"/>
     </def-cat>
     <def-cat n="pronpers">
-	  <cat-item tags="Pron.*"/>
+	  <cat-item tags="Pron.Pers.*"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -28,6 +28,7 @@
 	<def-attr n="a_pron">
 		<attr-item tags="Pron"/>
 		<attr-item tags="Pron.Pers"/>
+		<attr-item tags="Pron.Dem"/>
 	</def-attr>
     <def-attr n="a_nom">
       <attr-item tags="N"/>
