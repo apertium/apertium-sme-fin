@@ -20,6 +20,7 @@
     <sdef n="Mal"      c="?"/>
 
     <sdef n="Card"     c="Cardinal"/>
+    <sdef n="Ord"      c="Ordinal"/>
     <sdef n="Sg"       c="Singular"/>
     <sdef n="Pl"       c="Plural"/>
     <sdef n="Sg1"      c="First-person singular"/>
@@ -183,6 +184,23 @@
     <e><p><l>gávcci<s n="Num"/></l><r>kahdeksan<s n="Num"/><s n="Card"/></r></p></e>
     <e><p><l>ovcci<s n="Num"/></l><r>yhdeksän<s n="Num"/><s n="Card"/></r></p></e>
     <e><p><l>logi<s n="Num"/></l><r>kymmenen<s n="Num"/><s n="Card"/></r></p></e>
+
+<!--
+    <e><p><l>@<s n="Num"/></l><r>kahdes<s n="Num"/><s n="Ord"/></r></p></e>
+    <e><p><l>@<s n="Num"/></l><r>yhdes<s n="Num"/><s n="Ord"/></r></p></e>
+-->
+
+    <e><p><l>vuosttaš<s n="Num"/></l><r>ensimmäinen<s n="Num"/><s n="Ord"/></r></p></e>
+    <e><p><l>nubbi<s n="Num"/></l><r>toinen<s n="Num"/><s n="Ord"/></r></p></e>
+    <e><p><l>goalmmát<s n="Num"/></l><r>kolmas<s n="Num"/><s n="Ord"/></r></p></e>
+    <e><p><l>njealját<s n="Num"/></l><r>neljäs<s n="Num"/><s n="Ord"/></r></p></e>
+    <e><p><l>viđat<s n="Num"/></l><r>viides<s n="Num"/><s n="Ord"/></r></p></e>
+    <e><p><l>guđát<s n="Num"/></l><r>kuudes<s n="Num"/><s n="Ord"/></r></p></e>
+    <e><p><l>čihččet<s n="Num"/></l><r>seitsemäs<s n="Num"/><s n="Ord"/></r></p></e>
+    <e><p><l>gávccát<s n="Num"/></l><r>kahdeksas<s n="Num"/><s n="Ord"/></r></p></e>
+    <e><p><l>ovccát<s n="Num"/></l><r>yhdeksäs<s n="Num"/><s n="Ord"/></r></p></e>
+    <e><p><l>logát<s n="Num"/></l><r>kymmenes<s n="Num"/><s n="Ord"/></r></p></e>
+
 
     
     <e><re>[0-9]*</re><p><l><s n="Num"/><s n="Sg"/></l><r><s n="Num"/><s n="Sg"/></r></p></e>
