@@ -2,7 +2,7 @@
 <modes>
   <mode name="fin-sme" install="yes">
     <pipeline>
-      <program name="hfst-proc -p">
+      <program name="hfst-proc">
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -w -s 3">
@@ -18,7 +18,7 @@
         <file name="fin-sme.autobil.bin"/>
       </program>
       <program name="hfst-proc $1">
-        <file name="fin-sme.autogen.hfst.ol"/>
+        <file name="fin-sme.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>

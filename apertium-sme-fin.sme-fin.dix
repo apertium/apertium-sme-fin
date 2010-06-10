@@ -166,11 +166,18 @@
     <!-- Numerals -->
 
 
-    <e><p><l>okta<s n="Num"/><s n="Sg"/></l><r>yksi<s n="Num"/><s n="Sg"/></r></p></e>
-    <e><p><l>guokte<s n="Num"/><s n="Sg"/></l><r>kaksi<s n="Num"/><s n="Card"/><s n="Sg"/></r></p></e>
-    <e><p><l>golbma<s n="Num"/><s n="Sg"/></l><r>kolme<s n="Num"/><s n="Sg"/></r></p></e>
-    <e><p><l>njeallje<s n="Num"/><s n="Sg"/></l><r>neljä<s n="Num"/><s n="Sg"/></r></p></e>
-    <e><p><l>logi<s n="Num"/><s n="Sg"/></l><r>kymmenen<s n="Num"/><s n="Sg"/></r></p></e>
+
+    <e><p><l>okta<s n="Num"/></l><r>yksi<s n="Num"/><s n="Card"/></r></p></e>
+    <e><p><l>guokte<s n="Num"/></l><r>kaksi<s n="Num"/><s n="Card"/></r></p></e>
+    <e><p><l>golbma<s n="Num"/></l><r>kolme<s n="Num"/><s n="Card"/></r></p></e>
+    <e><p><l>njeallje<s n="Num"/></l><r>neljä<s n="Num"/><s n="Card"/></r></p></e>
+    <e><p><l>vihtta<s n="Num"/></l><r>viisi<s n="Num"/><s n="Card"/></r></p></e>
+    <e><p><l>guhtta<s n="Num"/></l><r>kuusi<s n="Num"/><s n="Card"/></r></p></e>
+    <e><p><l>čieža<s n="Num"/></l><r>seitsemän<s n="Num"/><s n="Card"/></r></p></e>
+    <e><p><l>gávcci<s n="Num"/></l><r>kahdeksan<s n="Num"/><s n="Card"/></r></p></e>
+    <e><p><l>ovcci<s n="Num"/></l><r>yhdeksän<s n="Num"/><s n="Card"/></r></p></e>
+    <e><p><l>logi<s n="Num"/></l><r>kymmenen<s n="Num"/><s n="Card"/></r></p></e>
+
     
     <e><re>[0-9]*</re><p><l><s n="Num"/><s n="Sg"/></l><r><s n="Num"/><s n="Sg"/></r></p></e>
     
