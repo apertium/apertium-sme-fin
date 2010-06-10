@@ -10,7 +10,7 @@
     <sdef n="V"        c="Verb"/>
     <sdef n="Act"      c="Active voice"/>
     <sdef n="Pron"     c="Pronoun"/>
-    <sdef n="Po"       c="Post-position"/>
+	<sdef n="Po"       c="Post-position"/>
     <sdef n="Adp"      c="Adposition"/>
     <sdef n="CC"       c="Co-ordinating conjunction"/>
     <sdef n="CS"       c="Sub-ordinating conjunction"/>
@@ -38,6 +38,8 @@
     <sdef n="Rel"      c="Relative"/>
     <sdef n="Dem"      c="Demonstrative"/>
     <sdef n="Interr"   c="Interrogative"/>
+    <sdef n="Recipr"     c="Reciprocal"/>
+	<sdef n="Refl"		c="Reflexive" />
 
     <sdef n="Fem"      c="Feminine"/>
     <sdef n="Masc"     c="Masculine"/>
@@ -135,7 +137,6 @@
     <e><p><l>ovdal<b/>go<s n="CS"/></l><r>ennen<b/>kuin<s n="CS"/></r></p></e>
 
     <!-- Pronouns -->
-	<!-- Pronouns -->
 
     <e><p><l>mun<s n="Pron"/><s n="Pers"/><s n="Sg1"/></l><r>minä<s n="Pron"/><s n="Pers"/></r></p></e>
     <e><p><l>don<s n="Pron"/><s n="Pers"/><s n="Sg2"/></l><r>sinä<s n="Pron"/><s n="Pers"/></r></p></e>
@@ -148,6 +149,7 @@
 
     <e><p><l>dat<s n="Pron"/><s n="Dem"/></l><r>se<s n="Pron"/><s n="Dem"/></r></p></e>
     <e><p><l>dát<s n="Pron"/><s n="Dem"/></l><r>tämä<s n="Pron"/><s n="Dem"/></r></p></e>
+    <e><p><l>duot<s n="Pron"/><s n="Dem"/></l><r>tuo<s n="Pron"/><s n="Dem"/></r></p></e>
     <e><p><l>gii<s n="Pron"/><s n="Rel"/></l><r>joka<s n="Pron"/><s n="Rel"/></r></p></e>
 
     <e><p><l>mii<s n="Pron"/><s n="Interr"/></l><r>mikä<s n="Pron"/><s n="Interr"/></r></p></e>
@@ -156,7 +158,10 @@
     <e><p><l>buot<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>kaikki<s n="Pron"/><s n="Sg"/></r></p></e>
     <e><p><l>mihkkege<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>mikään<s n="Pron"/><s n="Qnt"/></r></p></e>
     <e><p><l>dákkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>tällainen<s n="Pron"/><s n="Sg"/></r></p></e>
+    <e><p><l>dakkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>semmoinen<s n="Pron"/><s n="Sg"/></r></p></e>
     
+    <e><p><l>nubbi<s n="Pron"/><s n="Recipr"/><s n="Sg"/></l><r>toinen<s n="Pron"/><s n="Recipr"/><s n="Sg" /></r></p></e>
+	<e><p><l>ieš<s n="Pron"/><s n="Refl"/><s n="Sg"/></l><r>itse<s n="Pron"/><s n="Refl"/><s n="Sg" /></r></p></e>
 
 
 	<!-- Duals -->
@@ -3013,6 +3018,15 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>álo<s n="Adv"/></l><r>aina<s n="Adv"/></r></p></e>
 	<e><p><l>rievttuid<s n="Adv"/></l><r>oikein<s n="Adv"/></r></p></e>
 	<e><p><l>dohko<s n="Adv"/></l><r>sinne<s n="Adv"/></r></p></e>
+	<e><p><l>goas<s n="Adv"/></l><r>milloin<s n="Adv"/></r></p></e>
+	<e><p><l>ovdal<s n="Adv"/></l><r>ennen<s n="Adv"/></r></p></e>
+	<e><p><l>gitta<s n="Adv"/></l><r>kiinni<s n="Adv"/></r></p></e>
+	<e><p><l>ollu<s n="Adv"/></l><r>paljon<s n="Adv"/></r></p></e>
+	<e><p><l>ovdii<s n="Adv"/></l><r>eteen<s n="Adv"/></r></p></e>
+	<e><p><l>ruovttoluotta<s n="Adv"/></l><r>takaisin<s n="Adv"/></r></p></e>
+	<e><p><l>bures<s n="Adv"/></l><r>hyvin<s n="Adv"/></r></p></e>
+	<e><p><l>eret<s n="Adv"/></l><r>pois<s n="Adv"/></r></p></e>
+	<e><p><l>mot<s n="Adv"/></l><r>kuinka<s n="Adv"/></r></p></e>
 
 
     <!-- Verbs -->
