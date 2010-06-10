@@ -17,7 +17,7 @@ steps = [a.split(' ') for a in
 	[
 		"hfst-proc %s/mor-omorfi.apertium.hfst" % OMORFI,
 		# "cg-proc -w %s" % FINCG,
-		"preprocess | hfst-lookup /opt/local/share/omorfi/mor-omorfi.giellatekno.hfst | /Users/pyry/apertium/apertium-sme-fin/tools/lookup2cg | vislcg3 -g /Users/pyry/apertium/apertium-sme-fin/src/fin-dis.rle",
+		"preprocess | hfst-lookup /opt/local/share/omorfi/mor-omorfi.cg.hfst | /Users/pyry/apertium/apertium-sme-fin/tools/lookup2cg | vislcg3 -g /Users/pyry/apertium/apertium-sme-fin/src/fin-dis.rle",
 		"./switch-label.py"
 		"apertium-tagger -g fin-sme.prob",
 		"apertium-transfer apertium-sme-fin.fin-sme.t1x fin-sme.t1x.bin fin-sme.autobil.bin",
@@ -43,7 +43,7 @@ def split_output(text=False):
 
 
 CWD = os.curdir
-FINCGT = "preprocess | hfst-lookup /opt/local/share/omorfi/mor-omorfi.giellatekno.hfst | /Users/pyry/apertium/apertium-sme-fin/tools/lookup2cg | vislcg3 -g /Users/pyry/apertium/apertium-sme-fin/dev/gtsvn/kt/fin/src/fin-dis.rle --trace"
+FINCGT = "preprocess | hfst-lookup /opt/local/share/omorfi/mor-omorfi.cg.hfst | /Users/pyry/apertium/apertium-sme-fin/tools/lookup2cg | vislcg3 -g /Users/pyry/apertium/apertium-sme-fin/dev/gtsvn/kt/fin/src/fin-dis.rle --trace"
 
 
 def watch(dir_to_watch, command):
