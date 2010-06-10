@@ -7882,6 +7882,11 @@ dáhkádus:dáhkáduss JOHTOLAT ;
 dáhpáhus:dáhpáhuss JOHTOLAT ;
 dáhttu ALBMILONG ;
  dáhttu+SgNomCmp+SgGenCmp+PlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft:dáhttu¤ ACTOR ; !
+ dáidda#doaibma#goddi+SgNomCmp+DefSgGenCmp+PlGenCmp:dáidda#doaibma#goddi AIGI; !
+ dáidda#musea+SgNomCmp+SgGenCmp+PlGenCmp:dáidda#muse ESSAYA ; !
+ dáidda#skuv0la+SgNomCmp+DefSgGenCmp+PlGenCmp:dáidda#skuv'la GOAHTI ; !
+ dáidda#čeahppi+SgNomCmp+SgGenCmp+PlGenCmp:dáidda#čeahppi ALBMILONG; !
+dáidda:dáj'dag8 SEAMU ;
  dáiddár+SgNomCmp+SgGenCmp+PlGenCmp:dáiddár GAHPIRLONG; !
  dáiddár#organisašuvdna+SgNomCmp+DefSgGenCmp+PlGenCmp:dáiddar#organisašu TELEFON ; !
 dái0du:dáj'du ALBMI ;
