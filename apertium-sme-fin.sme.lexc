@@ -352,7 +352,6 @@ LEXICON Rmiddle
 
 LEXICON Rnoun
  Rreal ;
- +N+Attr+Use/Sub: # ;   !Kárášjot !
 ! Intermediate solution. Words pointing here come from
 ! the upper part of the NounRoot lexicon. They differ
 ! from inter in that they need a POS tag.
@@ -2154,7 +2153,6 @@ LEXICON BUORRE ! For this adj only
 LEXICON BUOROT !SUB, Southern dialect
 
  +A+Comp+Sg+Acc+Use/Sub:%>buorot K ; !
- +A+Comp+Attr+Use/Sub:%>buorot K ;   !
 
 
 LEXICON ALKI ! Bisyll V-Adj, -es-Attr, no WeG.
@@ -2534,7 +2532,6 @@ LEXICON GAPPUS ! -bbo- Trisyll
 
 LEXICON VATTIS ! Trisyll CG, -es/-is Attr
  +A+Attr:%>W1 ATTR ;
- +A+Attr+Use/Sub:%>X4 ATTR ; !
  +A:%>X2 EABBO/EAMOS ;
  +A:%>X2 GAPPUS- ;
  +A:%>X4 GAPPUS0 ;
@@ -2561,7 +2558,6 @@ LEXICON GUOROS
 LEXICON NUOLUS ! ,-u8llo-(#nuolo9s)
  +A+Attr:%>W1 ATTR ;
 ! GAPPUS ; renders in attr nuolus, norm is nuolos
- +A+Attr+Use/Sub:%>X4 ATTR ; ! nuolus
  +A:%>X2 EABBO/EAMOS ;
  +A:%>X2 GAPPUS- ;
  +A:%>X4 GAPPUS0 ;
@@ -5188,7 +5184,6 @@ LEXICON COASKKITCnj
  +V+IV+VAbess:%>#keahttá K ; 
  +V+IV+VAbess:%>#keahttájin K ; 
  +V+IV+A+Attr:%>#keahtes K ;
- +V+IV+A+Attr+Use/Sub:%>#ha K ; !
  +V+IV+Sup:%>eažžat K ; ! Rare form !!!
 
 
@@ -5295,7 +5290,6 @@ LEXICON HURAICnj !Substems for Consonantal Verb Stems
  +VAbess:d%>#keahttá K ;  
  +VAbess:d%>#keahttájin K ; 
  +VAbess+A+Attr:d%>#keahtes K ; !XXX Why # here? because of final-cons, (TO)
- +VAbess+A+Attr+Use/Sub:d%>#ha K ; !
  +VGen:%> K ;
  +PrsPrc+Use/Sub:d%>eaddji@C.NeedNoun@ K ; !
  +Use/Sub: PRSPRCTOADJ ; !
@@ -5764,10 +5758,8 @@ LEXICON NominalFormsV2
  +VAbess:keahttá K ; 
  +VAbess:keahttájin K ; 
  +VAbess+A+Attr:keahtes K ;
- +VAbess+A+Attr+Use/Sub:ha K ; !
  +VGen: K ;
 
- +VAbess+A+Attr+Use/Sub:ha K ; !
 
 LEXICON NominalFormsV4
  +PrfPrc:n K ;
@@ -5784,14 +5776,12 @@ LEXICON NominalFormsV7
  +VAbess:keahttá K ;
  +VAbess:keahttájin K ;
  +VAbess+A+Attr:keahtes K ;
- +VAbess+A+Attr+Use/Sub:ha K ; !
 
 LEXICON NominalFormsV8
  +Ger:dettiin K ;
  +VAbess:keahttá K ;
  +VAbess:keahttájin K ;
  +VAbess+A+Attr:keahtes K ;
- +VAbess+A+Attr+Use/Sub:ha K ; !
 
 LEXICON NominalFormsV9
  +Sup:žit K ; ! Rare form !!!
@@ -5819,7 +5809,6 @@ LEXICON NominalFormsC1
  +VAbess:#keahttá K ;  
  +VAbess:#keahttájin K ; 
  +VAbess+A+Attr:#keahtes K ; !XXX Why # here? because of final-cons, (TO)
- +VAbess+A+Attr+Use/Sub:#ha K ; !
  +VGen: K ;
 
 LEXICON NominalFormsC2 !SUB
@@ -5832,8 +5821,6 @@ LEXICON NominalFormsC2 !SUB
 ! Derivation !
 ! ---------- !
 
-LEXICON PRSPRCTOADJ !SUB ! This is for PrsPrc as Adj.
- +A+Attr+Use/Sub:%>eaddji # ; !     !Can only be Attr.
 
 !LEXICON DeverbalNounsV !nothing directed here right now
 ! DeverbalNounsBOAHTI ;
