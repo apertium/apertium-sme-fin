@@ -954,7 +954,6 @@ LEXICON LUONDU !this word (+vuohta) because of behavior in compounds
  +N+Sg+Loc:%>X4s K ;
  +N+Sg+Loc+Use/Ped:%>X4st%> PxC ; !
  +N+Pl+Nom:%>X4t K ;
- +N+Pl+Nom+Use/Sub:%>X4k K ; ! !Skániid dialect
  +N+Sg+Com:%>X5jn K ;
  +N+Sg+Com+Use/Ped:%>X5jn%> PxC ; !
  +N+Pl+Nom+Use/Ped:%>X5jd%> Px1C ; !
@@ -989,7 +988,6 @@ LEXICON RUOKTU !only this word because of its behavior in compounds
  +N+Sg+Loc:%>X4s K ;
  +N+Sg+Loc+Use/Ped:%>X4st%> PxC ; !
  +N+Pl+Nom:%>X4t K ;
- +N+Pl+Nom+Use/Sub:%>X4k K ; ! !Skániid dialect
  +N+Sg+Com:%>X5jn K ;
  +N+Sg+Com+Use/Ped:%>X5jn%> PxC ; !
  +N+Pl+Nom+Use/Ped:%>X5jd%> Px1C ; !
@@ -1010,7 +1008,6 @@ LEXICON RUOKTU !only this word because of its behavior in compounds
 
 LEXICON MADII  !Another peculiar word that deserves its own lex.
 !commented out everything but SgNom and SgAcc, SgGen, follošing Pekkas comments
- +N+Sg+Nom+Use/Sub:%> K ; !
  +N+Sg+Nom:%>j K ;
 !! +N+Sg+Nom:%> Px3V ; !^P^ !don't know if it is in use
 ! +N+Ess:%>jn K ;
@@ -1051,7 +1048,6 @@ LEXICON MADII  !Another peculiar word that deserves its own lex.
 LEXICON GENTLEMAN ! cns-final bisyllabic loanwords (stem mana-)
  +N:%> GOAHTICMP ;
  +N+Sg+Nom:%> K ;           ! Nom is bare form
- +N+Sg+Nom+Use/Sub+Use/Ped:a Px3V ; ! !       ! Stem vowel a
  +N+Use/Sub:a%> EssV ;             ! ! Stem vowel a
  +N+Use/Sub:a%> STAHTACASE ;     !   ! No CG
  +N+Use/Sub:a%> GOAHTAI ;        !   ! No ill i > á
@@ -1239,7 +1235,6 @@ LEXICON DAIVVAS !Tris. Gradating C-Nouns, The Troms declension: dáivvaš:dáiva
  +N+Sg+Acc+Use/Sub:h%>X2 K ; !
  +N+Sg+Acc+Use/Ped:h%>X2 PxC ; !
  +N+Pl+Nom:h%>X2at K ;
- +N+Pl+Nom+Use/Sub:h%>X2ak K ; !
  +N+Sg+Ill+Use/Ped:h%>X2asa%> PxV ; !
  +N+Pl+Nom+Use/Ped:h%>X2ijddá%> Px1V ; !
  +N:h%>X2i MALLASI-/NUORABU- ;
@@ -1719,7 +1714,6 @@ LEXICON MUODUT !Like BASSI, but plural only
 ! +N: DenominalAdjsV2 ; not very plausible
  +N+Der1+Der/Dimin+N+Ess:»X6žin K ;
  +N+Der1+Der/Dimin+N+Pl+Nom:»X6žat K ;
- +N+Der1+Der/Dimin+N+Pl+Nom+Use/Sub:»X6žak K ; !
  +N+Der1+Der/Dimin+N+Pl+Nom+Use/Ped:»X6žijddá%> Px1V ; !
  +N+Der1+Der/Dimin+N+Pl+Gen:»X6žijd K ;
  +N+Der1+Der/Dimin+N+PlGenCmp:»X6žijd R ;
@@ -1754,7 +1748,6 @@ LEXICON DEAHKIT !like AIGI but plural only
 ! +N: DenominalAdjsV2 ; not very plausible
  +N+Der1+Der/Dimin+N+Ess:»X6žin K ;
  +N+Der1+Der/Dimin+N+Pl+Nom:»X6žat K ;
- +N+Der1+Der/Dimin+N+Pl+Nom+Use/Sub:»X6žak K ; !
  +N+Der1+Der/Dimin+N+Pl+Nom+Use/Ped:»X6žijddá%> Px1V ; !
  +N+Der1+Der/Dimin+N+Pl+Gen:»X6žijd K ;
  +N+Der1+Der/Dimin+N+PlGenCmp:»X6žijd R ;
@@ -1773,7 +1766,6 @@ LEXICON DIEDUT !like ALBMI but plural only
  +N:%> GOAHTICMP ;
  +N:%> EssV ;
  +N+Pl+Nom:%>X4t K ;
- +N+Pl+Nom+Use/Sub:%>X4k K ; !
  +N:%>X5 GODII- ; ! weak gr dipth simpl
  +N+Pl+Nom+Use/Ped:%>X5jd%> Px1C ; !
  +N+Pl+Gen:%>X5jd9 K ;
@@ -1791,7 +1783,6 @@ LEXICON DIEDUT !like ALBMI but plural only
 ! +N: DenominalAdjsV2 ; not very plausible
  +N+Der1+Der/Dimin+N+Ess:»X6žin K ;
  +N+Der1+Der/Dimin+N+Pl+Nom:»X6žat K ;
- +N+Der1+Der/Dimin+N+Pl+Nom+Use/Sub:»X6žak K ; !
  +N+Der1+Der/Dimin+N+Pl+Nom+Use/Ped:»X6žijddá%> Px1V ; !
  +N+Der1+Der/Dimin+N+Pl+Gen:»X6žijd K ;
  +N+Der1+Der/Dimin+N+PlGenCmp:»X6žijd R ;
@@ -2162,7 +2153,6 @@ LEXICON BUORRE ! For this adj only
 
 LEXICON BUOROT !SUB, Southern dialect
 
- +A+Comp+Sg+Nom+Use/Sub:%>buorot K ; !
  +A+Comp+Sg+Acc+Use/Sub:%>buorot K ; !
  +A+Comp+Attr+Use/Sub:%>buorot K ;   !
 
@@ -2267,7 +2257,6 @@ LEXICON UHCC
 
 LEXICON JEAGOHEAPMI
  +A+Attr:%>is ATTR ;
- +A+Sg+Nom+Use/Sub:%>in K ; !
  +A+Pl+Nom:%>eame%>t K ; ! parallel form, -it also poss.
  +A+Comp+Sg+Nom:%>at K ;   ! parallel form
  +A:%>eapmi%> HEAPMI ;
@@ -2347,7 +2336,6 @@ LEXICON IPMAHA !Tris. Gradating C-adj:s, The Troms declension: imaš:ipmaha, gá
  +A+Sg+Acc+Use/Sub:h%>X2 K ; !
  +A+Sg+Acc+Use/Ped:h%>X2 PxC ; !
  +A+Pl+Nom:h%>X2at K ;
- +A+Pl+Nom+Use/Sub:h%>X2ak K ; !
  +A+Sg+Ill+Use/Ped:h%>X2asa%> PxV ; !
  +A+Pl+Nom+Use/Ped:h%>X2ijddá%> Px1V ; !
  +A:h%>X2i MALLASI-/NUORABU- ;
@@ -2872,7 +2860,6 @@ LEXICON GOADI-
  +Sg+Loc:s K ;
  +Sg+Loc+Use/Ped:st%> PxC ; !
  +Pl+Nom:t K ;
- +Pl+Nom+Use/Sub:k K ; !
 
 LEXICON GODII-
  +Sg+Com:jn K ;
@@ -2935,7 +2922,6 @@ LEXICON MALLAS-
  +Sg+Acc+Use/Sub: K ; !
  +Sg+Acc+Use/Ped: PxC ; !
  +Pl+Nom:at K ;
- +Pl+Nom+Use/Sub:ak K ; !
  +Sg+Ill+Use/Ped:asa%> PxV ; !
  +Pl+Nom+Use/Ped:ijddá%> Px1V ; !
  :i MALLASI-/NUORABU- ;
@@ -2972,7 +2958,6 @@ LEXICON EAMOSH  ! Deverbal nouns
  +Sg+Acc:X2a K ;
  +Sg+Acc:X2 K ;
  +Pl+Nom:X2at K ;
- +Pl+Nom+Use/Sub:X2ak K ; ! !Skániid dialect
  +Sg+Ill:X2ij K ;
  +Sg+Loc:X2is K ;
  +Sg+Com:X2ijn K ;
@@ -3008,7 +2993,6 @@ LEXICON AMOSH
  +N+Sg+Acc: K ;
  +N+Sg+Acc+Use/Ped: PxC ; !
  +N+Pl+Nom:at K ;
- +N+Pl+Nom+Use/Sub:ak K ; ! !Skániid dialect
  +N+Sg+Ill+Use/Ped:asa%> PxV ; !
  +N+Pl+Nom+Use/Ped:ijddá%> Px1V ; !
  +N+Sg+Ill:ij K ;
@@ -3051,7 +3035,6 @@ LEXICON BOAHTINLONGSHORT  ! Deverbal nouns
 !+Sg+Acc:%> K ; ! We suspect the Acc is never short
  +N+Sg+Acc+Use/Ped:%> PxC ; !
  +N+Pl+Nom:%>at K ;
- +N+Pl+Nom+Use/Sub:%>ak K ; ! !Skániid dialect
  +N+Pl+Nom+Use/Ped:%>ijddá%> Px1V ; !
  +N+Sg+Ill:%>ij K ;
  +N+Sg+Ill+Use/Ped:%>asa%> PxV ; !
@@ -3086,7 +3069,6 @@ LEXICON BOAHTIN  ! Long compound-forms
  +N+Sg+Acc:%>a K ;
 !+Sg+Acc:%> K ; ! We suspect the Acc is never short
  +N+Pl+Nom:%>at K ;
- +N+Pl+Nom+Use/Sub:%>ak K ; ! !Skániid dialect
  +N+Sg+Ill:%>ij K ;
  +N+Sg+Loc:%>is K ;
  +N+Sg+Com:%>ijn K ;
@@ -3124,7 +3106,6 @@ LEXICON BOAHTINSHORT  ! Short compound-forms
  +N+Sg+Acc:%>a K ;
 !+Sg+Acc:%> K ; ! We suspect the Acc is never short
  +N+Pl+Nom:%>at K ;
- +N+Pl+Nom+Use/Sub:%>ak K ; ! !Skániid dialect
  +N+Sg+Ill:%>ij K ;
  +N+Sg+Loc:%>is K ;
  +N+Sg+Com:%>ijn K ;
@@ -3205,7 +3186,6 @@ LEXICON BOAHTINLONGSHORTTV   !+SgCmp +DefSgGenCmp +DefPlGenCmp +SgLeft +SgNomLef
 !+Sg+Acc:%> K ; ! We suspect the Acc is never short
  +N+Sg+Acc+SgCmp+DefSgGenCmp+DefPlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft+Use/Ped:%> PxC ; !
  +N+Pl+Nom:%>at K ;
- +N+Pl+Nom+SgCmp+DefSgGenCmp+DefPlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft+Use/Sub:%>ak K ; ! !Skániid dialect
  +N+Pl+Nom+SgCmp+DefSgGenCmp+DefPlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft+Use/Ped:%>ijddá%> Px1V ; !
  +N+Sg+Ill:%>ij K ;
  +N+Sg+Ill+SgCmp+DefSgGenCmp+DefPlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft+Use/Ped:%>asa%> PxV ; !
@@ -3240,7 +3220,6 @@ LEXICON BOAHTINTV   !+SgCmp +DefSgGenCmp +DefPlGenCmp +SgLeft +SgNomLeft +SgGenL
  +N+Sg+Acc:%>a K ;
 !+Sg+Acc:%> K ; ! We suspect the Acc is never short
  +N+Pl+Nom:%>at K ;
- +N+Pl+Nom+SgCmp+DefSgGenCmp+DefPlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft+Use/Sub:%>ak K ; ! !Skániid dialect
  +N+Sg+Ill:%>ij K ;
  +N+Sg+Loc:%>is K ;
  +N+Sg+Com:%>ijn K ;
@@ -3278,7 +3257,6 @@ LEXICON BOAHTINSHORTTV   !+SgCmp +DefSgGenCmp +DefPlGenCmp +SgLeft +SgNomLeft +S
  +N+Sg+Acc:%>a K ;
 !+Sg+Acc:%> K ; ! We suspect the Acc is never short
  +N+Pl+Nom:%>at K ;
- +N+Pl+Nom+SgCmp+DefSgGenCmp+DefPlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft+Use/Sub:%>ak K ; ! !Skániid dialect
  +N+Sg+Ill:%>ij K ;
  +N+Sg+Loc:%>is K ;
  +N+Sg+Com:%>ijn K ;
@@ -3411,7 +3389,6 @@ LEXICON BOHCCO
  +Sg+Loc:s K ;
  +Sg+Loc+Use/Ped:st%> PxC ; !
  +Pl+Nom:t K ;
- +Pl+Nom+Use/Sub:k K ; ! !Skániid dialect
 
 LEXICON BOHCCU
  +Sg+Ill:j K ;
@@ -3517,7 +3494,6 @@ LEXICON JOHTOLAHKA-
  +Sg+Loc:X4s K ;
  +Sg+Loc+Use/Ped:X4st%> PxC ; !
  +Pl+Nom:X4t K ;
- +Pl+Nom+Use/Sub:X4k K ; !
  :X5 GODII- ; ! weak gr dipth simpl
  :X6 GOADA- ; ! AG Px
  +Use/Sub:X8 GOADE- ; !  ! Ditto (?)
@@ -3636,7 +3612,6 @@ LEXICON EABBUCASE2
  +Sg+Com:X5jn K ;
  +Sg+Com+Use/Marg+Use/Ped:X5jn%> PxC ; ! !
  +Pl+Nom:X4t K ;
- +Pl+Nom+Use/Sub:X4k K ; ! !Skániid dialect
  +Pl+Nom+Use/Marg+Use/Ped:X5jd%> Px1C ; ! !
  +Pl+Gen:X5jd K ;
 ! +PlGenCmp:X5jd R ;	!NOT PLAUSIBLE
@@ -4238,7 +4213,6 @@ LEXICON DIMINV
 
 LEXICON HEAPMI
 ! +Der1+Der/Dimin+N:»X6ž DIMINC ; !no diminutives for these i think
- +Sg+Nom+Use/Sub:X1 K ; !
  +Sg+Nom:X7 K ;
 ! +Sg+Nom:X1 Px3V ; !^P^ ! tent. reintro
 ! +Sg+Nom:X7 Px3V ; !^P^ ! tent. reintro
@@ -4341,7 +4315,6 @@ LEXICON DenominalAdjsV1
  +Der1+Der2+Der/heapmi+A+Ess:»W4heapmi%>X1n K ;
  +Der1+Der2+Der/heapmi+A+Ess+Use/Ped:»W4heapmi%>X1n%> PxC ; !
  +Der1+Der2+Der/heapmi+A+Ess+Use/Ped:»W4heapmi%>X7n%> PxC ; !
- +Der1+Der2+Der/heapmi+A+Sg+Nom+Use/Sub:»W4hin K ;		!
  +Der1+Der2+Der/heapmi+A+Attr:»W4his%> ATTR ;
 ! +Der1+Der2+Der/heapmi+A:»W4his VUOHTA ; !moved to LEXICON VUOHTA
  +Der1+Der2+Der/heapmi+A:»W4h EABBO/EAMOS_CONT ;
@@ -4354,7 +4327,6 @@ LEXICON DenominalAdjsV1Long
  +Der1+Der2+Der/heapmi+A+Ess+Use/Sub:»X4heapmi%>X7n K ; !
  +Der1+Der2+Der/heapmi+A+Ess+Use/Ped:»X4heapmi%>X1n%> PxC ; !
  +Der1+Der2+Der/heapmi+A+Ess+Use/Ped:»X4heapmi%>X7n%> PxC ; !
- +Der1+Der2+Der/heapmi+A+Sg+Nom+Use/Sub:»X4hin K ;		!
  +Der1+Der2+Der/heapmi+A+Attr:»X4his%> ATTR ;
 ! +Der1+Der2+Der/heapmi+A:»X4his VUOHTA ; !moved to LEXICON VUOHTA
  +Der1+Der2+Der/heapmi+A:»X4h EABBO/EAMOS_CONT ;
@@ -4367,7 +4339,6 @@ LEXICON DenominalAdjsV1Short
  +Der1+Der2+Der/heapmi+A+Ess+Use/Sub:»X8heapmi%>X7n K ; !
  +Der1+Der2+Der/heapmi+A+Ess+Use/Ped:»X8heapmi%>X1n%> PxC ; !
  +Der1+Der2+Der/heapmi+A+Ess+Use/Ped:»X8heapmi%>X7n%> PxC ; !
- +Der1+Der2+Der/heapmi+A+Sg+Nom+Use/Sub:»X8hin K ;		!
  +Der1+Der2+Der/heapmi+A+Attr:»X8his%> ATTR ;
 ! +Der1+Der2+Der/heapmi+A:»X8his VUOHTA ; !moved to LEXICON VUOHTA
  +Der1+Der2+Der/heapmi+A:»X8h EABBO/EAMOS_CONT ;
@@ -4477,7 +4448,6 @@ LEXICON LASJOBL
  +Sg+Com:X5jn K ;
  +Sg+Com+Use/Ped:X5jn%> PxC ; !
  +Pl+Nom:X4t K ;
- +Pl+Nom+Use/Sub:X4k K ; ! !Skániid dialect
  +Pl+Nom+Use/Ped:X5jd%> Px1C ; !
  +Pl+Gen:X5jd K ;
  +PlGenCmp:X5jd R ;
@@ -4916,7 +4886,6 @@ LEXICON ARVICnj
  +V+IV+Imprt+Sg3:Q3s # ; !Prs
  +V+IV+PrfPrc:X2n K ;
  +V+IV+Inf:t K ;
- +V+IV+Actio+Nom+Use/Sub:n K ; !
  +V+IV+Actio+Acc+Use/Sub:n K ; ! ! (Re?)introducing?
  +V+IV+Actio+Acc+Use/Sub:ma K ; !
  +V+IV+Actio+Ess+Use/Sub:me K ; !
@@ -4991,7 +4960,6 @@ LEXICON OT-PASSIVE-BASSO
  :%>Y5 NominalFormsV2 ;
  :%>Y5 NominalFormsV4 ;
  +Inf:%>Y5t K ;
- +Actio+Nom+Use/Sub:%>Y5n K ; !
  +Actio+Acc+Use/Sub:%>Y5n K ; ! ! (Re?)introducing?
  +Actio+Acc+Use/Sub:%>Y5ma K ; !
  +Actio+Ess+Use/Sub:%>Y5me K ; !
@@ -5040,7 +5008,6 @@ LEXICON OT-PASSIVE
  :%>Y5 NominalFormsV2 ;
  :%>Y5 NominalFormsV4 ;
  +Inf:%>Y5t K ;
- +Actio+Nom+Use/Sub:%>Y5n K ; !
  +Actio+Acc+Use/Sub:%>Y5n K ; ! ! (Re?)introducing?
  +Actio+Acc+Use/Sub:%>Y5ma K ; !
  +Actio+Ess+Use/Sub:%>Y5me K ; !
@@ -5206,9 +5173,6 @@ LEXICON COASKKITCnj
  +V+IV+Der2+Der/eapmi+Ess:»eame%>n K ;
  +V+IV+Der2+Der/eapmi+Sg+Loc:»eame%>s K ;
  +V+IV+Der2+Der/eapmi+Sg+Com:»emi%>jn K ;
- +Actio+Nom+Use/Sub:%>eapmi%> K ; !
- +Actio+Nom+Use/Sub:%>eapme%> K ; !
- +Actio+Nom+Use/Sub:%>an K ; ! ! shortened (reintro)
  +Actio+Acc+Use/Sub:%>eami%> K ; !
  +Actio+Acc+Use/Sub:%>eame%> K ; !
  +Actio+Acc+Use/Sub:%>an K ; ! ! shortened (reintro?)
@@ -5312,7 +5276,6 @@ LEXICON HURAICnj !Substems for Consonantal Verb Stems
  +Inf:d%>it K ;
  +Sup:d%>eažžat K ; ! Rare form !!!
  +Actio+Nom:d%>eapmi%> K ;
- +Actio+Nom+Use/Sub:d%>eapme%> K ; !
  +Actio+Nom:d%>an K ; ! shortened (reintro)
  +Actio+Gen:d%>eami%> K ;
  +Actio+Gen:d%>an K ; ! shortened (reintro?)
@@ -5431,7 +5394,6 @@ LEXICON SG3PASSinfl
  +Actio+Ess+Use/Sub:»Y5men K ; !
  +Actio+Ess+Use/Sub:»Y5min K ; !
  +Actio+Loc+Use/Sub:»Y5mis K ; !
- +Actio+Nom+Use/Sub:»Y5n K ;   !
  +Cond+Prs+ConNeg:%>Y5še K ;
  +Cond+Prs+Sg3:%>Y5šij K ;
  +Der3+Der/n+N+Ess:»Y5me K ;
@@ -5484,7 +5446,6 @@ LEXICON ContrImpersonal
  +Der3+Der/n+N+Sg+Ill:»mij K ;
  +Der3+Der/n+N+Sg+Loc:»mis K ;
  +Der3+Der/n+N+Sg+Com:»mijn K ;
- +Actio+Nom+Use/Sub:n K ; !
  +Actio+Acc+Use/Sub:n K ; ! ! (Re?)introducing?
  +Actio+Acc+Use/Sub:ma K ; !
  +Actio+Ess+Use/Sub:me K ; !
@@ -5521,7 +5482,6 @@ LEXICON PASSIVE
  +Der2+Der/PassL+V+Der3+Der/n+N+SgCmp:»uvvo»m@C.NeedNoun@ R ;
  +Der2+Der/PassL+V+Der3+Der/n+N+Der/viđá+Adv:»uvvo»m»@C.NeedNoun@#viđá K ;
 ! +Der2+Der/PassL+V+Der3+Der/n+N+Der/viđi+Adv:»uvvo»m»@C.NeedNoun@#viđi K ;
- +Der2+Der/PassL+V+Actio+Nom+Use/Sub:%>n K ; !
  +Der2+Der/PassL+V+Actio+Acc+Use/Sub:%>n K ; ! ! (Re?)introducing?
  +Der2+Der/PassL+V+Actio+Acc+Use/Sub:%>ma K ; !
  +Der2+Der/PassL+V+Actio+Ess+Use/Sub:%>me K ; !
@@ -5538,7 +5498,6 @@ LEXICON PASSIVE
  +Der2+Der/PassL+V+Der3+Der/n+N+Sg+Acc:»uvvo»m@C.NeedNoun@a K ;
 !+Der2+Der/PassL+V+Der3+Der/n+N+Sg+Acc:»uvvo»m@C.NeedNoun@ K ; ! We suspect the Acc is never short
  +Der2+Der/PassL+V+Der3+Der/n+N+Pl+Nom:»uvvo»m@C.NeedNoun@at K ;
- +Der2+Der/PassL+V+Der3+Der/n+N+Pl+Nom+Use/Sub:»uvvo»m@C.NeedNoun@ak K ; ! !Skániid dialect
  +Der2+Der/PassL+V+Der3+Der/n+N+Sg+Ill:»uvvo»m@C.NeedNoun@ij K ;
  +Der2+Der/PassL+V+Der3+Der/n+N+Sg+Loc:»uvvo»m@C.NeedNoun@is K ;
  +Der2+Der/PassL+V+Der3+Der/n+N+Sg+Com:»uvvo»m@C.NeedNoun@ijn K ;
@@ -5841,7 +5800,6 @@ LEXICON NominalFormsC1
  +Inf:it K ;
  +Sup:eažžat K ; ! Rare form !!!
  +Actio+Nom:eapmi%> K ;
- +Actio+Nom+Use/Sub:eapme%> K ; !
  +Actio+Nom:an K ; ! shortened (reintro)
  +Actio+Gen:eami%> K ;
  +Actio+Gen:an K ; ! shortened (reintro?)
@@ -11131,7 +11089,6 @@ dárbbašlaš:dárbbašl DABALAS ;
  dearvvašlaš+SgNomCmp+SgGenCmp+PlGenCmp:dearvvašl DABALAS ; !
  dearvvaš+SgNomCmp+SgGenCmp+PlGenCmp:dear'vaš GAPPUS ; !
 deaŧalaš:deaŧal DABALAS ;
-dehálaš:dehál DABALAS ;
 die0vas:dievvas GAPPUS ;
 divrras:div'ras GAPPUS ;
  dološ#áigásaš+SgNomCmp+SgGenCmp+PlGenCmp:dološ#áigás AHKASAS ; !
