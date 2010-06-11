@@ -51,7 +51,7 @@ lt-expand $DEV/../$BASENAME.$PREFIX1.dix  | grep -v REGEX | cut -f1-2 -d'>' > $E
 ### Extract head 
 
 #cat $SRC/$LANG1-lex.txt > $OUTFILE
-cat $SRC/$LANG1-lex.txt | grep -v '+Use\/NG' | grep -v '!^NG^' > $OUTFILE
+cat $SRC/$LANG1-lex.txt | grep -v '+Use\/NG' | grep -v '!^NG^' | grep -v '; !SUB' | grep -v '! !SOUTH' | grep -v '+Gen.*+Use\/Sub' > $OUTFILE
 
 
 
