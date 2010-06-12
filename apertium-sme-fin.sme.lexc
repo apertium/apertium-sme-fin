@@ -7607,6 +7607,7 @@ cealkka:ceal'kag8 SEAMU ;
  čieža#čuo00đis+CmpN/None:čieža#čuoh'tis MALIS ; !
  cii0ku+CmpN/SgN+CmpN/SgG+CmpN/PlG:cij'ku ALBMI ; !
  čikŋa+CmpN/SgN+CmpN/SgG+CmpN/PlG:čikŋa GOAHTI; !
+čikŋodat:čikŋodah'k JOHTOLAT ;
 čilgehus:čilgehuss JOHTOLAT ;
  čivgan#loddi+CmpN/SgN+CmpN/SgG+CmpN/PlG:čivgan#loddi AIGI; !
  čiv0ga+CmpN/SgN+CmpN/SgG+CmpN/PlG:čiv'ga GOAHTI ; !
@@ -7680,6 +7681,7 @@ cum0má:cum'má ALBMILONG ;
  čuovganeapmi+CmpN/Sg:čuovgan EAPMI ; !
  čuovgatvuoh0ta+CmpN/SgG+CmpN/DefPlGen:čuovgatvuoh'ta LUONDU ; !
 čuovga#govva GOAHTI ;
+čuovggas:čuov'gas MALIS ;
  čuov0ža+CmpN/SgN+CmpN/SgG+CmpN/PlG:čuov'ža GOAHTI ; !
 čur0ti:čur'ti GOAHTI ;
 čuv0la:čuv'la GOAHTI ;
@@ -10222,6 +10224,8 @@ seaŋ0ga:seaŋ'ga GOAHTI ;
  sear0vi+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:sear'vi GOAHTI ; !
  searvi#goddi+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:searvi#goddi AIGI; !
  searvivuoh0ta+CmpN/SgG+CmpN/DefPlGen:searvivuoh'ta LUONDU ; !
+ seavdnjadas#beaive#loddi+CmpN/SgN+CmpN/SgG+CmpN/PlG:seavdnjadas#beaive#loddi AIGI; !
+seavdnjadas:seavdnjadass JOHTOLAT ;
 servodat#oahppu AIGI ;
 sev0sa:sev'sa GOAHTI ;
  šibit#dikšun+CmpN/Sg:šibit#dikšum BOAHTIN ; !
@@ -10269,6 +10273,7 @@ sis#eanan+N+CmpN/SgN:sis#eanan%> R ;
 sis0ki:sis'ki GADDI ;
 siskiluš:siskilušš LEXMUSH ;
 sis0ti:sis'ti GOAHTI ;
+sivdnádus:sivdnáduss JOHTOLAT ;
 sivva GOAHTI ;
 skábe GOAHTI ;
  skábma+CmpN/SgN+CmpN/SgG+CmpN/PlG:skábma GOAHTI; !
@@ -10351,6 +10356,9 @@ skuvla#gir0ji:skuvla#gir'ji GOAHTI ;
  skuvla#latnja+CmpN/SgN+CmpN/SgG+CmpN/PlG:skuvla#latnja GOAHTI; !
  skuvla#mánná+CmpN/SgN+CmpN/SgG+CmpN/PlG:skuvla#mánná ALBMILONG; !
 skuvla#šillju AIGI ;
+ šládja#iskkadeapmi+CmpN/Sg:šládja#iskkad EAPMI ; !
+ šládja#dohkkeheapmi+CmpN/Sg:šládja#dohkkeh EAPMI ; !
+šlád0ja:šlád'ja GOAHTI ;
  šlávva+CmpN/SgN+CmpN/SgG+CmpN/PlG:šlávva GOAHTI; !
  šlávvavuoh0ta+CmpN/SgG+CmpN/DefPlGen:šlávvavuoh'ta LUONDU ; !
  šloahtta+CmpN/SgN+CmpN/SgG+CmpN/PlG:šloahtta GOAHTI; !
@@ -11058,8 +11066,6 @@ ceakkus:ceaggus BOAKKAS ;
 čuovgat:čuovg VIELG ;
 dábálaš:dábál DABALAS "usual A" ;
  dábálaš#oahpaheaddji+CmpN/SgN+CmpN/SgG+CmpN/PlG:dábálaš#oahpaheaddji¤ HAHTTI ; !
- dálsái+CmpN/SgN+CmpN/SgG+CmpN/PlG:dálsá JIEDNAI ; !
- dáluhas+CmpN/SgN+CmpN/SgG+CmpN/PlG:dáluh ISSORAS ; !
 dárbbašlaš:dárbbašl DABALAS ;
  dárkil+CmpN/SgN+CmpN/SgG+CmpN/PlG:dárkil JOHTIL; !
  dárkilmeahttun+CmpN/SgN+CmpN/SgG+CmpN/PlG:dárkilmeahttu MEAHTTUS ; !
@@ -11108,14 +11114,8 @@ eambbo At ;
  falli+CmpN/SgN+CmpN/SgG+CmpN/PlG:falli LAIKI; !
 fámolaš:fámol DABALAS ;
  fas0ti+CmpN/SgN+CmpN/SgG+CmpN/PlG:fas'ti LAIKI ; !
- faskár+CmpN/SgN+CmpN/SgG+CmpN/PlG:faskár JOHTIL; !
- fas0ti+CmpN/SgN+CmpN/SgG+CmpN/PlG:fas'ti LAIKI ; !
 fiinnis:fijdn FIINNIS "fine A" ;
 fiskat:fisk VIELG ;
- galenalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:galenal AHKASAS ; !
- galmmas+CmpN/SgN+CmpN/SgG+CmpN/PlG:galbma GARAS ; !
- galljosaš+CmpN/SgN+CmpN/SgGenLeft+CmpN/PlGenLeft:galljos AHKASAS ; !
- galljes+Use/Sub:galljes LEXATTR; ! !This is the Attr. used for gallji
 gallji LAIKI ;
  galmmas+CmpN/SgN+CmpN/SgG+CmpN/PlG:galbma GARAS ; !
 ga0ras:garra GARAS "hard A" ;
@@ -11199,7 +11199,6 @@ njálmmálaš:njálmmál DABALAS ;
 njuolgat:njuolg CAVGAT ;
 njuoskkas:njuos'ka GARAS ;
  nubbin#gielat+CmpN/SgN+CmpN/SgG+CmpN/PlG:nubbin#gielag AGAdj ; !
- nu#gohčoduvvon+Use/Sub:nu#gohčoduvvon At; !
  nuorra+CmpN/SgN+CmpN/SgG+CmpN/PlG:nuorra NUORRA ; !
  oadjebas+CmpN/SgN+CmpN/SgG+CmpN/PlG:oadjebass DEARVVASLAS ; !
  oah0pis+CmpN/SgN+CmpN/SgG+CmpN/PlG:oahppi BOARIS ; !
@@ -11210,7 +11209,6 @@ ođđa#áigásaš:ođđa#áigás ETNOLOGALAS ;
  oktasaš+CmpN/SgN+CmpN/PlGenLeft:oktas AHKASAS ; !
 ollislaš:ollisl DABALAS ;
 ol0lu:ol'lu BOREALA ;
-oppa At ;
  rabas#mielalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:rabas#mielal ETNOLOGALAS ; !
  ra00bas+CmpN/SgN+CmpN/SgG+CmpN/PlG:rah'pas GAPPUS ; !
  ráhkislaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:ráhkisl DABALAS ; !
@@ -13838,49 +13836,31 @@ LEXICON SUPADVmusj
 ! giellatekno@hum.uit.no or divvun@samediggi.no
 
 LEXICON Adverb
-áibbas adv ;
 aktii adv ;
 álo adv ;
  áloládje+Use/Sub:áloládje adv; !
-beare adv ;
  bures#láhkai+Use/Sub:bures#láhkai adv; !
  bures#ládje+Use/Sub:bures#ládje adv; !
 bures adv ;
-dál adv ;
 dalle adv ;
-datte adv ;
 dávjá adv ;
 de adv ;
-dieđusge adv ;
 dohko adv ;
 dohko adv ;
-dušše adv ;
 eambbo adv ;
 eret adv ;
 fargga adv ;
 fargga adv ;
-fas adv ;
- fast#ain+Use/Sub:fast9#ain adv ; !
- fast#in+Use/Sub:fast9#in adv ; !
- fasten+Use/Sub:fasten adv; !
- fastin+Use/Sub:fastin adv; !
-gal adv ;
- galle#ládje+Use/Sub:galle#ládje adv; !
 gitta adv ;
  goas#nu+Use/Sub:goas#nu adv; !
 goas adv ;
-goitge CSadv ;
 jaska adv ;
-mahká adv ;
 maŋá#bealde adv ;
 maŋos adv ;
  maŋos#guvlui+Use/Sub:maŋos#guvlui adv; !
-minddar adv ;
 mot adv ;
-nappo adv ;
 ođđasis adv ;
 ollu adv ;
-oppa adv ;
  ovdal#gihtii+Use/Sub:ovdal#gihtii adv; !
 ovdal adv ;
 rievttuid:rievttujd9 adv ;
