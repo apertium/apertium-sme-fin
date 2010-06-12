@@ -100,9 +100,14 @@
 				<when>
 				<test>
 					<and>
-						<begins-with>
-							<clip pos="1" side="sl" part="a_nom"/><lit-tag v="N"/>
-						</begins-with>
+						<or>
+							<begins-with>
+								<clip pos="1" side="sl" part="a_nom"/><lit-tag v="N"/>
+							</begins-with>
+							<begins-with>
+								<clip pos="1" side="sl" part="a_pron"/><lit-tag v="Pron"/>
+							</begins-with>
+						</or>
 						<or>
 							<equal>
 								<clip pos="1" side="sl" part="a_case"/><lit-tag v="Ela"/>

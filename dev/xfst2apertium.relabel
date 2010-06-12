@@ -103,6 +103,15 @@
 +PlNomCmp	<Pl><Nom><Cmp>
 +PlNomLeft	<Pl><Nom>
 +PlGenCmp	<Pl><Gen><Cmp>
++CmpN/SgN	@0@
++CmpN/SgG	@0@
++CmpN/PlG	@0@
++CmpN/DefSgGen	@0@
++CmpN/DefPlGen	@0@
++CmpN/SgLeft	@0@
++CmpN/SgNomLeft	@0@
++CmpN/SgGenLeft	@0@
++CmpN/PlGenLeft	@0@
 +PlGenLeft	<Pl><Gen>
 +DefPlGenCmp	<Def><Pl><Gen><Cmp>
 +Qst	<Qst>
