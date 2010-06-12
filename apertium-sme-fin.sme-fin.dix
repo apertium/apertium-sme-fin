@@ -50,6 +50,9 @@
 
     <sdef n="TV"       c="Transitive"/>
     <sdef n="IV"       c="Intransitive"/>
+	
+	<sdef n="Interj"	c="Interjection" />
+
   </sdefs>
   <pardefs>
     <pardef n="A_A">
@@ -66,6 +69,23 @@
 	
     <!-- Particles -->
     
+	<e><p><l>almma<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
+	<e><p><l>almmat<s n="Pcle"/></l><r>toki<s n="Pcle"/></r></p></e>
+	<e><p><l>beare<s n="Pcle"/></l><r>tahansa<s n="Pcle"/></r></p></e>
+	<e><p><l>datte<s n="Pcle"/></l><r>silti<s n="Pcle"/></r></p></e>
+	<e><p><l>dál<s n="Pcle"/></l><r>juo<s n="Pcle"/></r></p></e>
+	<e><p><l>eará<s n="Pcle"/></l><r>eri<s n="Pcle"/></r></p></e>
+	<e><p><l>galego<s n="Pcle"/></l><r>tokko<s n="Pcle"/></r></p></e>
+	<e><p><l>goitge<s n="Pcle"/></l><r>kuitenkaan<s n="Pcle"/></r></p></e>
+	<e><p><l>goitge<s n="Pcle"/></l><r>kuitenkin<s n="Pcle"/></r></p></e>
+	<e><p><l>juo<s n="Pcle"/></l><r>jo<s n="Pcle"/></r></p></e>
+	<e><p><l>juoidá<s n="Pcle"/></l><r>jotain<s n="Pcle"/></r></p></e> 
+	<e><p><l>mahká<s n="Pcle"/></l><r>muka<s n="Pcle"/></r></p></e>
+	<e><p><l>nappo<s n="Pcle"/></l><r>siis<s n="Pcle"/></r></p></e>
+	<e><p><l>oppa<s n="Pcle"/></l><r>edes<s n="Pcle"/></r></p></e>
+	<e><p><l>taas<s n="Pcle"/></l><r>fas<s n="Pcle"/></r></p></e>
+	<e><p><l>áibbas<s n="Pcle"/></l><r>aivan<s n="Pcle"/></r></p></e>
+	<e><p><l>áibbas<s n="Pcle"/></l><r>ihan<s n="Pcle"/></r></p></e>
     <e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
     <e><p><l>dieđusge<s n="Pcle"/></l><r>tietenkin<s n="Pcle"/></r></p></e>
     <e><p><l>dušše<s n="Pcle"/></l><r>vain<s n="Pcle"/></r></p></e>
@@ -75,6 +95,35 @@
     <e><p><l>minddar<s n="Pcle"/></l><r>muutoin<s n="Pcle"/></r></p></e>
     <e><p><l>nugo<s n="Pcle"/></l><r>kuten<s n="Pcle"/></r></p></e>
 
+	<e><p><l>almma<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
+	<e><p><l>almmat<s n="Pcle"/></l><r>toki<s n="Pcle"/></r></p></e>
+	<e><p><l>beare<s n="Adv"/></l><r>tahansa<s n="Pcle"/></r></p></e>
+	<e><p><l>datte<s n="Adv"/></l><r>silti<s n="Pcle"/></r></p></e>
+	<e><p><l>dál<s n="Adv"/></l><r>juo<s n="Pcle"/></r></p></e>
+	<e><p><l>galego<s n="Adv"/></l><r>tokko<s n="Pcle"/></r></p></e>
+	<e><p><l>goitge<s n="Adv"/></l><r>kuitenkaan<s n="Pcle"/></r></p></e>
+	<e><p><l>goitge<s n="Adv"/></l><r>kuitenkin<s n="Pcle"/></r></p></e>
+	<e><p><l>juo<s n="Interj"/></l><r>jo<s n="Pcle"/></r></p></e>
+	<e><p><l>mahká<s n="Adv"/></l><r>muka<s n="Pcle"/></r></p></e>
+	<e><p><l>nappo<s n="Adv"/></l><r>siis<s n="Pcle"/></r></p></e>
+	<e><p><l>oppa<s n="Adv"/></l><r>edes<s n="Pcle"/></r></p></e>
+	<e><p><l>fas<s n="Adv"/></l><r>taas<s n="Pcle"/></r></p></e>
+	<e><p><l>áibbas<s n="Adv"/></l><r>aivan<s n="Pcle"/></r></p></e>
+	<e><p><l>áibbas<s n="Adv"/></l><r>ihan<s n="Pcle"/></r></p></e>
+	<e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
+	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkin<s n="Pcle"/></r></p></e>
+	<e><p><l>dušše<s n="Adv"/></l><r>vain<s n="Pcle"/></r></p></e>
+	<e><p><l>gal<s n="Adv"/></l><r>kai<s n="Pcle"/></r></p></e>
+	<e><p><l>gal<s n="Adv"/></l><r>kyllä<s n="Pcle"/></r></p></e>
+	<e><p><l>go<s n="Pcle"/></l><r>kun<s n="Pcle"/></r></p></e>
+	<e><p><l>minddar<s n="Adv"/></l><r>muutoin<s n="Pcle"/></r></p></e>
+	<e><p><l>nugo<s n="Adv"/></l><r>kuten<s n="Pcle"/></r></p></e>
+
+
+	<!-- 
+	<e><p><l>eará<s n="Pron+Indef+Attr"/></l><r>eri<s n="Pcle"/></r></p></e>
+	<e><p><l>juoidá<s n="Pron+Indef+Sg+Acc"/></l><r>jotain<s n="Pcle "/></r></p></e>
+	 -->
 
     <!-- Post-positions -->
 
@@ -98,6 +147,37 @@
     
     <e><p><l>rájes<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siitä asti -->
     <e srl="1"><p><l>rádjái<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siihen asti -->
+
+	<e><p><l>badjel<s n="Po"/></l><r>yli<s n="Adp"/></r></p></e>
+	<e><p><l>bealis<s n="Po"/></l><r>puolessa<s n="Adp"/></r></p></e>
+	<e><p><l>beallái<s n="Po"/></l><r>puoleen<s n="Adp"/></r></p></e>
+	<e><p><l>botnis<s n="Po"/></l><r>pohjalla<s n="Adp"/></r></p></e>
+	<e><p><l>báldda<s n="Po"/></l><r>sivuitse<s n="Adp"/></r></p></e>
+	<e><p><l>eret<s n="Po"/></l><r>irti<s n="Adp"/></r></p></e>
+	<e><p><l>gaskan<s n="Po"/></l><r>kesken<s n="Adp"/></r></p></e>
+	<e><p><l>geažes<s n="Po"/></l><r>kuluttua<s n="Adp"/></r></p></e>
+	<e><p><l>haga<s n="Po"/></l><r>ilman<s n="Adp"/></r></p></e>
+	<e><p><l>hárrái<s n="Po"/></l><r>suhteen<s n="Adp"/></r></p></e>
+	<e><p><l>lahka<s n="Po"/></l><r>likelle<s n="Adp"/></r></p></e>
+	<e><p><l>lusa<s n="Po"/></l><r>luo<s n="Adp"/></r></p></e>
+	<e><p><l>lusa<s n="Po"/></l><r>luokse<s n="Adp"/></r></p></e>
+	<e><p><l>maŋos<s n="Adv"/></l><r>taakse<s n="Adp"/></r></p></e>
+	<e><p><l>maŋábealde<s n="Adv"/></l><r>taitse<s n="Adp"/></r></p></e>
+	<e><p><l>meaddil<s n="Po"/></l><r>ohitse<s n="Adp"/></r></p></e>
+	<e><p><l>miehtá<s n="Po"/></l><r>pitkin<s n="Adp"/></r></p></e>
+	<e><p><l>mielde<s n="Po"/></l><r>kanssa<s n="Adp"/></r></p></e>
+	<e><p><l>njeaigga<s n="Po"/></l><r>vasten<s n="Adp"/></r></p></e>
+	<e><p><l>ovdal<s n="Po"/></l><r>ennen<s n="Adp"/></r></p></e>
+	<e><p><l>ovdii<s n="Po"/></l><r>eteen<s n="Adp"/></r></p></e>
+	<e><p><l>rastá<s n="Po"/></l><r>ylitse<s n="Adp"/></r></p></e>
+	<e><p><l>rádjái<s n="Po"/></l><r>asti<s n="Adp"/></r></p></e>
+	<e><p><l>rádjái<s n="Po"/></l><r>saakka<s n="Adp"/></r></p></e>
+	<e><p><l>veagas<s n="Po"/></l><r>varassa<s n="Adp"/></r></p></e>
+	<e><p><l>vuolde<s n="Po"/></l><r>alta<s n="Adp"/></r></p></e>
+	<e><p><l>vuostá<s n="Po"/></l><r>vastaan<s n="Adp"/></r></p></e>
+	<e><p><l>váile<s n="Adv"/></l><r>vailla<s n="Adp"/></r></p></e>
+	<e><p><l>várás<s n="Po"/></l><r>varalle<s n="Adp"/></r></p></e>
+	<e><p><l>várás<s n="Po"/></l><r>varten<s n="Adp"/></r></p></e>
         
     <!-- Some more postpositions to add:
 
@@ -112,8 +192,43 @@
     mielde  kanssa
     mielde? myötä
     sadjái  sijaan
+
+sme : POS : fin : POS
+
+: : aikaan       : Adp
+: : jaloista     : Adp
+: : katsoen      : Adp
+: : kuluessa     : Adp
+: : laidalla     : Adp
+: : laidalle     : Adp
+: : laidasta     : Adp
+: : laitaan      : Adp
+: : lomasta      : Adp
+: : pohjasta     : Adp
+: : puheille     : Adp
+: : suuhun       : Adp
+: : suussa       : Adp
+: : suusta       : Adp
+: : varteen      : Adp
     
     -->
+
+	<!--  Some questions
+	
+	TODO: Some of these have analyses in sme that are more complex. Do we tag these here like this and have more transfer rules, or do we change the analysis in the morphology?
+
+	ráigge : : kautta       : Adp // dákko, dokko, gokko, etc
+	juoidá : Pron+Indef+Sg+Acc : jotain : Pcle
+
+	<e><p><l>vuođđu<s n="N+Sg+Nom"/></l><r>pohjaan<s n="Adp"/></r></p></e>
+	<e><p><l>dásis<s n="N+Sg+Loc"/></l><r>tasalla<s n="Adp"/></r></p></e>
+	<e><p><l>dássái<s n="N+Sg+Ill"/></l><r>tasalle<s n="Adp"/></r></p></e>
+	<e><p><l>guvlui<s n="N+Sg+Ill"/></l><r>kohti<s n="Adp"/></r></p></e>
+	<e><p><l>háldui<s n="N+Sg+Ill"/></l><r>haltuun<s n="Adp"/></r></p></e>
+	<e><p><l>vuolái<s n="-"/></l><r>alle<s n="Adp"/></r></p></e>
+	
+	
+	-->
 
     <!-- Conjunctions -->
     <e><p><l>ja<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
