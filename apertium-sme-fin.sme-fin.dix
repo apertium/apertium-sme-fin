@@ -87,17 +87,20 @@
 	<e><p><l>taas<s n="Pcle"/></l><r>fas<s n="Pcle"/></r></p></e>
 	<e><p><l>áibbas<s n="Pcle"/></l><r>aivan<s n="Pcle"/></r></p></e>
 	<e><p><l>áibbas<s n="Pcle"/></l><r>ihan<s n="Pcle"/></r></p></e>
-    <e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
     <e><p><l>dieđusge<s n="Pcle"/></l><r>tietenkin<s n="Pcle"/></r></p></e>
     <e><p><l>dušše<s n="Pcle"/></l><r>vain<s n="Pcle"/></r></p></e>
     <e><p><l>gal<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
     <e><p><l>gal<s n="Pcle"/></l><r>kyllä<s n="Pcle"/></r></p></e>
-    <e><p><l>go<s n="Pcle"/></l><r>kun<s n="Pcle"/></r></p></e>
     <e><p><l>minddar<s n="Pcle"/></l><r>muutoin<s n="Pcle"/></r></p></e>
     <e><p><l>nugo<s n="Pcle"/></l><r>kuten<s n="Pcle"/></r></p></e>
 
 	<e><p><l>almma<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
 	<e><p><l>almmat<s n="Pcle"/></l><r>toki<s n="Pcle"/></r></p></e>
+	<e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
+	<e><p><l>go<s n="Pcle"/></l><r>kun<s n="Pcle"/></r></p></e>
+
+<!-- TODO: Are these really Pcle in fin and Adv in sme ?-->
+<!-- 
 	<e><p><l>beare<s n="Adv"/></l><r>tahansa<s n="Pcle"/></r></p></e>
 	<e><p><l>datte<s n="Adv"/></l><r>silti<s n="Pcle"/></r></p></e>
 	<e><p><l>dál<s n="Adv"/></l><r>juo<s n="Pcle"/></r></p></e>
@@ -111,15 +114,13 @@
 	<e><p><l>fas<s n="Adv"/></l><r>taas<s n="Pcle"/></r></p></e>
 	<e><p><l>áibbas<s n="Adv"/></l><r>aivan<s n="Pcle"/></r></p></e>
 	<e><p><l>áibbas<s n="Adv"/></l><r>ihan<s n="Pcle"/></r></p></e>
-	<e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
 	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkin<s n="Pcle"/></r></p></e>
 	<e><p><l>dušše<s n="Adv"/></l><r>vain<s n="Pcle"/></r></p></e>
 	<e><p><l>gal<s n="Adv"/></l><r>kai<s n="Pcle"/></r></p></e>
 	<e><p><l>gal<s n="Adv"/></l><r>kyllä<s n="Pcle"/></r></p></e>
-	<e><p><l>go<s n="Pcle"/></l><r>kun<s n="Pcle"/></r></p></e>
 	<e><p><l>minddar<s n="Adv"/></l><r>muutoin<s n="Pcle"/></r></p></e>
 	<e><p><l>nugo<s n="Adv"/></l><r>kuten<s n="Pcle"/></r></p></e>
-
+-->
 
 	<!-- 
 		TODO: see following TODO.
@@ -181,6 +182,7 @@
 	<e><p><l>váile<s n="Adv"/></l><r>vailla<s n="Adp"/></r></p></e>
 	<e><p><l>várás<s n="Po"/></l><r>varalle<s n="Adp"/></r></p></e>
 	<e><p><l>várás<s n="Po"/></l><r>varten<s n="Adp"/></r></p></e>
+	<e><p><l>dihtii<s n="Po"/></l><r>vuoksi<s n="Adp"/></r></p></e> <!-- TODO: CHECK-->
         
     <!-- 
 
