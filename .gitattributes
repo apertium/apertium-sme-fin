@@ -46,7 +46,3 @@ dev/xfst2apertium.useless.twol -text
 /pending-tests.sh -text
 /script.sh -text
 tools/lookup2cg -text
-/tutorial-sme-fin.fin.dix -text
-/tutorial-sme-fin.sme-fin.dix -text
-/tutorial-sme-fin.sme-fin.t1x -text
-/tutorial-sme-fin.sme.dix -text

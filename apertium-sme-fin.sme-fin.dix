@@ -121,6 +121,8 @@
 
 
 	<!-- 
+		TODO: see following TODO.
+	
 	<e><p><l>eará<s n="Pron+Indef+Attr"/></l><r>eri<s n="Pcle"/></r></p></e>
 	<e><p><l>juoidá<s n="Pron+Indef+Sg+Acc"/></l><r>jotain<s n="Pcle "/></r></p></e>
 	 -->
@@ -179,7 +181,9 @@
 	<e><p><l>várás<s n="Po"/></l><r>varalle<s n="Adp"/></r></p></e>
 	<e><p><l>várás<s n="Po"/></l><r>varten<s n="Adp"/></r></p></e>
         
-    <!-- Some more postpositions to add:
+    <!-- 
+
+	TODO: Some more postpositions to add:
 
     aikana    ali    alle    edelle
     edessä    lisäksi    luo    luokse
@@ -193,23 +197,23 @@
     mielde? myötä
     sadjái  sijaan
 
-sme : POS : fin : POS
+	sme : POS : fin : POS
 
-: : aikaan       : Adp
-: : jaloista     : Adp
-: : katsoen      : Adp
-: : kuluessa     : Adp
-: : laidalla     : Adp
-: : laidalle     : Adp
-: : laidasta     : Adp
-: : laitaan      : Adp
-: : lomasta      : Adp
-: : pohjasta     : Adp
-: : puheille     : Adp
-: : suuhun       : Adp
-: : suussa       : Adp
-: : suusta       : Adp
-: : varteen      : Adp
+	: : aikaan       : Adp
+	: : jaloista     : Adp
+	: : katsoen      : Adp
+	: : kuluessa     : Adp
+	: : laidalla     : Adp
+	: : laidalle     : Adp
+	: : laidasta     : Adp
+	: : laitaan      : Adp
+	: : lomasta      : Adp
+	: : pohjasta     : Adp
+	: : puheille     : Adp
+	: : suuhun       : Adp
+	: : suussa       : Adp
+	: : suusta       : Adp
+	: : varteen      : Adp
     
     -->
 
@@ -218,6 +222,7 @@ sme : POS : fin : POS
 	TODO: Some of these have analyses in sme that are more complex. Do we tag these here like this and have more transfer rules, or do we change the analysis in the morphology?
 
 	ráigge : : kautta       : Adp // dákko, dokko, gokko, etc
+	
 	juoidá : Pron+Indef+Sg+Acc : jotain : Pcle
 
 	<e><p><l>vuođđu<s n="N+Sg+Nom"/></l><r>pohjaan<s n="Adp"/></r></p></e>
@@ -278,6 +283,7 @@ sme : POS : fin : POS
     <e><p><l>dakkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>semmoinen<s n="Pron"/><s n="Sg"/></r></p></e>
     <e><p><l>dakkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>sellainen<s n="Pron"/><s n="Sg"/></r></p></e>
     <e><p><l>duokkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>tuommoinen<s n="Pron"/><s n="Sg"/></r></p></e>
+	<e><p><l>muhtin<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>muutama<s n="Pron"/><s n="Sg"/></r></p></e>
 	<!-- diekkár - semmoinen, sellainen? -->
     
     <e><p><l>nubbi<s n="Pron"/><s n="Recipr"/><s n="Sg"/></l><r>toinen<s n="Pron"/><s n="Recipr"/><s n="Sg" /></r></p></e>
@@ -1040,6 +1046,7 @@ sme : POS : fin : POS
     <e><p><l>hávvi<s n="N"/></l><r>haava<s n="N"/></r></p></e>
     <e><p><l>idja<s n="N"/></l><r>yö<s n="N"/></r></p></e>
     <e><p><l>idjabivttas<s n="N"/></l><r>yöpuku<s n="N"/></r></p></e>
+ 	<e><p><l>iehčanasvuohta<s n="N"/></l><r>itsenäisyys<s n="N"/></r></p></e>
     <e><p><l>ildu<s n="N"/></l><r>hylly<s n="N"/></r></p></e>
     <e><p><l>illu<s n="N"/></l><r>ilo<s n="N"/></r></p></e>
     <e><p><l>interneahtta<s n="N"/></l><r>internetti<s n="N"/></r></p></e>
@@ -2339,6 +2346,8 @@ sme : POS : fin : POS
     <e><p><l>šloahtta<s n="N"/></l><r>linna<s n="N"/></r></p></e>
     <e><p><l>čájálmas<s n="N"/></l><r>näytelmä<s n="N"/></r></p></e>
     <e><p><l>čáláldat<s n="N"/></l><r>käsiala<s n="N"/></r></p></e>
+    <e><p><l>sivva<s n="N"/></l><r>syy<s n="N"/></r></p></e>
+
 
 
     
@@ -2911,6 +2920,10 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>Čálku<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lisma<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Šveica<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sveitsi<s n="N"/><s n="Prop"/></r></p></e>
 
+
+    <e><p><l>ávvudeapmi<s n="N"/></l><r>juhliminen<s n="N"/></r></p></e>
+
+
     <!-- Adjectives -->
     <e><p><l>amerihkálaš<s n="A"/></l><r>amerikkalainen<s n="A"/></r></p><par n="A_A"/></e>
     <e><p><l>bulgarialaš<s n="A"/></l><r>bulgarialainen<s n="A"/></r></p><par n="A_A"/></e>
@@ -3202,6 +3215,7 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>sárdnut<s n="V"/><s n="IV"/></l><r>sanoa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>sivdnidit<s n="V"/><s n="TV"/></l><r>luoda<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>boahtit<s n="V"/><s n="IV"/></l><r>tulla<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>guoskat<s n="V"/><s n="IV"/></l><r>koskea<s n="V"/></r></p><par n="V_V"/></e>
 
 
     <e><p><l>searvat<s n="V"/><s n="IV"/></l><r>osallistua<s n="V"/></r></p><par n="V_V"/></e>
