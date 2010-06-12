@@ -20,6 +20,7 @@
     <sdef n="Mal"      c="?"/>
 
     <sdef n="Card"     c="Cardinal"/>
+    <sdef n="Real"     c="Real number"/>
     <sdef n="Ord"      c="Ordinal"/>
     <sdef n="Sg"       c="Singular"/>
     <sdef n="Pl"       c="Plural"/>
@@ -332,7 +333,8 @@
     <e><p><l>ovccát<s n="A"/><s n="Ord"/></l><r>yhdeksäs<s n="Num"/><s n="Ord"/></r></p></e>
     <e><p><l>logát<s n="A"/><s n="Ord"/></l><r>kymmenes<s n="Num"/><s n="Ord"/></r></p></e>
     
-    <e><re>[0-9]*</re><p><l><s n="Num"/><s n="Sg"/></l><r><s n="Num"/><s n="Sg"/></r></p></e>
+    <e><re>[0-9]+</re><p><l><s n="Num"/></l><r><s n="Num"/><s n="Card"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="Num"/></l><r><s n="Num"/><s n="Real"/></r></p></e>
     
 
 

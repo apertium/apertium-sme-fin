@@ -71,7 +71,7 @@
 	</def-attr>
 	<def-attr n="a_realis">
 		<attr-item tags="Ind"/>
-		<attr-item tags="Imp"/>
+		<attr-item tags="Imprt"/>
 		<attr-item tags="Cond"/>
 	</def-attr>
 	<def-attr n="a_tense">
@@ -95,7 +95,7 @@
   </section-def-vars>
 
 	<section-def-macros>
-		<def-macro n="set_ine_loc" npar="1" c="arg.1: noun. Change Ine into Loc">
+		<def-macro n="set_loc_loc1" npar="1" c="arg.1: noun. Change Ela/Ade/Ine into Loc">
 			<choose>
 				<when>
 				<test>
@@ -103,9 +103,17 @@
 						<begins-with>
 							<clip pos="1" side="sl" part="a_nom"/><lit-tag v="N"/>
 						</begins-with>
-						<equal>
-							<clip pos="1" side="sl" part="a_case"/><lit-tag v="Ine"/>
-						</equal>
+						<or>
+							<equal>
+								<clip pos="1" side="sl" part="a_case"/><lit-tag v="Ela"/>
+							</equal>
+							<equal>
+								<clip pos="1" side="sl" part="a_case"/><lit-tag v="Ade"/>
+							</equal>
+							<equal>
+								<clip pos="1" side="sl" part="a_case"/><lit-tag v="Ine"/>
+							</equal>
+						</or>
 					</and>
 				</test>
 				<let><clip pos="1" side="tl" part="a_case"/><lit-tag v="Loc"/></let>
@@ -113,19 +121,6 @@
 			</choose>
 		</def-macro>
 
-		<def-macro n="set_ade_loc" npar="1" c="arg.1: pronoun. Change Ade into Loc">
-			<choose>
-				<when>
-				<test>
-					<equal>
-						<clip pos="1" side="sl" part="a_case"/><lit-tag v="Ade"/>
-					</equal>
-				</test>
-				<let><clip pos="1" side="tl" part="a_case"/><lit-tag v="Loc"/></let>
-			</when>
-			</choose>
-		</def-macro>
-		
 		<def-macro n="set_par_gen" npar="1" c="arg.1: pronoun. Change Par into Gen">
 			<choose>
 				<when>
@@ -186,7 +181,7 @@
         	<pattern-item n="nom"/>
       </pattern>
       <action>
-		<call-macro n="set_ine_loc">
+		<call-macro n="set_loc_loc1">
 			<with-param pos="1"/>
 		</call-macro>
 		<call-macro n="set_par_gen">
@@ -209,7 +204,7 @@
         <pattern-item n="pronpers"/>
       </pattern>
       <action>
-		<call-macro n="set_ade_loc">
+		<call-macro n="set_loc_loc1">
 			<with-param pos="1"/>
 		</call-macro>
 		<call-macro n="strip_nbr">
