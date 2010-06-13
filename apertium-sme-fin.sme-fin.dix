@@ -99,8 +99,10 @@
 	<e><p><l>almmat<s n="Pcle"/></l><r>toki<s n="Pcle"/></r></p></e>
 	<e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
 	<e><p><l>go<s n="Pcle"/></l><r>kun<s n="Pcle"/></r></p></e>
+	
+	<e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Pcle"/></r></p></e>
+	
 
-	<e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Pcle"/></r></p></e> <!-- TODO: CHECK-->
 <!-- TODO: Are these really Pcle in fin and Adv in sme ?-->
 <!-- 
 	<e><p><l>beare<s n="Adv"/></l><r>tahansa<s n="Pcle"/></r></p></e>
@@ -133,7 +135,6 @@
 
     <!-- Post-positions -->
 
-    <e><p><l>alde<s n="Po"/></l><r>päälle<s n="Adp"/></r></p></e> <!-- TODO: CHECK -->
     <e><p><l>alde<s n="Po"/></l><r>päällä<s n="Adp"/></r></p></e>
     <e><p><l>badjel<s n="Po"/></l><r>yli<s n="Po"/></r></p></e>
     <e><p><l>gaskkas<s n="Po"/></l><r>välissä<s n="Po"/></r></p></e>
@@ -189,7 +190,6 @@
 	<e><p><l>várás<s n="Po"/></l><r>varalle<s n="Adp"/></r></p></e>
 	<e><p><l>várás<s n="Po"/></l><r>varten<s n="Adp"/></r></p></e>
 	<e><p><l>dihtii<s n="Po"/></l><r>vuoksi<s n="Adp"/></r></p></e> <!-- TODO: CHECK-->
-	<e><p><l>mielde<s n="Po"/></l><r>mukaan<s n="Adp"/></r></p></e> <!-- TODO: CHECK-->
         
     <!-- 
 
@@ -2374,8 +2374,9 @@
     <e><p><l>čikŋodat<s n="N"/></l><r>syvyys<s n="N"/></r></p></e> 
     <e><p><l>gievravuohta<s n="N"/></l><r>vahvuus<s n="N"/></r></p></e> 
     <e><p><l>boahtimuš<s n="N"/></l><r>perustus<s n="N"/></r></p></e> 
-    <e><p><l>šibit<s n="N"/></l><r>karja<s n="N"/></r></p></e> 
+	<e><p><l>eallu<s n="N"/></l><r>karja<s n="N"/></r></p></e>
     <e><p><l>čálus<s n="N"/></l><r>kirjoitus<s n="N"/></r></p></e> 
+	<e><p><l>ahki<s n="N"/></l><r>ikä<s n="N"/></r></p></e>
 
     
 <!-- 
@@ -3188,6 +3189,19 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>stuoris<s n="A"/></l><r>suuri<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>iehčanas<s n="A"/></l><r>itsenäinen<s n="A"/></r></p><par n="A_A"/></e> 
 
+	<e><p><l>stuoris<s n="A"/></l><r>suuri<s n="A"/></r></p></e>
+	<e><p><l>ruonas<s n="A"/><s n="Attr"/>/></l><r>vihanta<s n="A"/></r></p></e>
+	<e><p><l>soajálaš<s n="A"/><s n="Attr"/>/></l><r>siivekäs<s n="A"/></r></p></e>
+	<e><p><l>seavdnjat<s n="A"/></l><r>pimeä<s n="A"/></r></p></e>
+	<e><p><l>olles<s n="A"/><s n="Attr"/>/></l><r>koko<s n="Pron"/></r></p></e>
+	<e><p><l>láhkásaš<s n="A"/><s n="Attr"/>/></l><r>kaltainen<s n="A"/></r></p></e>
+
+	<!-- ! Adv - A -->
+	<e><p><l>vuolibuš<s n="Adv"/><s n="Comp"/>/></l><r>alamainen<s n="A"/></r></p></e>
+	<e><p><l>ealli<s n="V"/><s n="IV"/>/></l><r>elävä<s n="A"/></r></p></e>
+	
+	
+
     <!-- Adverbs -->
 
     <e><p><l>veaháš<s n="Adv"/></l><r>vähän<s n="Adv"/></r></p></e>
@@ -3217,8 +3231,7 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	
 	<!-- oba <Adv> oppa <Adv> / koko <Pcle> <Pron> -->
 
-	<e><p><l>gaskii<s n="Adv"/></l><r>välille<s n="Adv"/></r></p></e> <!-- TODO: CHECK -->
-	<e><p><l>maid<s n="Adv"/></l><r>mitä<s n="Adv"/></r></p></e> <!-- TODO: CHECK -->
+	<e><p><l>gaskii<s n="Adv"/></l><r>välille<s n="Adv"/></r></p></e>
 
 
     <!-- Verbs -->
@@ -3672,6 +3685,15 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>guođđit<s n="V"/><s n="TV"/></l><r>jättää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>veahkehit<s n="V"/><s n="TV"/></l><r>auttaa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>earuhit<s n="V"/><s n="TV"/></l><r>erottaa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>lihkadit<s n="V"/><s n="IV"/>/></l><r>madella<s n="V"/></r></p></e>
+	<e><p><l>lassánit<s n="V"/><s n="IV"/>/></l><r>lisääntyä<s n="V"/></r></p></e>
+	<e><p><l>ráđđet<s n="V"/><s n="TV"/>/></l><r>hallita<s n="V"/></r></p></e>
+	<e><p><l>vileštit<s n="V"/><s n="IV"/>/></l><r>vilistä<s n="V"/></r></p></e>
+	<e><p><l>ráđđet<s n="V"/><s n="TV"/>/></l><r>vallita<s n="V"/></r></p></e>
+	<e><p><l>šaddat<s n="V"/><s n="IV"/>/></l><r>tuottaa<s n="V"/></r></p></e>
+	<e><p><l>bures#sivdnidit<s n="V"/><s n="TV"/>/></l><r>siunata<s n="V"/></r></p></e>
+	<e><p><l>ihtit<s n="V"/><s n="IV"/>/></l><r>näkyä<s n="V"/></r></p></e>
+	<e><p><l>goiket<s n="V"/><s n="TV"/>/></l><r>kuivaa<s n="V"/></r></p></e>
 
     
     <!-- Punctuation -->
