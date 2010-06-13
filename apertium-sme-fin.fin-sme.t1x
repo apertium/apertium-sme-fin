@@ -266,7 +266,7 @@
       </action>
     </rule>
 
-    <rule>
+    <rule comment="regla: nom">
       <pattern>
         	<pattern-item n="nom"/>
       </pattern>
@@ -280,6 +280,19 @@
 		<call-macro n="set_par_gen">
 			<with-param pos="1"/>
 		</call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+	    <call-macro n="strip_nbr">
+		<with-param pos="1"/>
+	    </call-macro>
+          </when>
+        </choose>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
@@ -293,7 +306,7 @@
       </action>
     </rule>
 
-   <rule> <!-- indefinite pronouns have no number/case in sámi -->
+   <rule comment="regla: pron.indef"> <!-- indefinite pronouns 'juohke' have no number/case in sámi -->
       <pattern>
         <pattern-item n="pronindef"/>
       </pattern>
