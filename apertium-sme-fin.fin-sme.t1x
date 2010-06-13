@@ -134,6 +134,7 @@
 			<choose>
 				<when>
 				<test>
+<!--
 					<and>
 						<or>
 							<begins-with>
@@ -142,7 +143,7 @@
 							<begins-with>
 								<clip pos="1" side="sl" part="a_pron"/><lit-tag v="Pron"/>
 							</begins-with>
-						</or>
+						</or>-->
 						<or>
 							<equal>
 								<clip pos="1" side="sl" part="a_case"/><lit-tag v="All"/>
@@ -157,7 +158,7 @@
 								<clip pos="1" side="sl" part="a_case"/><lit-tag v="Ine"/>
 							</equal>
 						</or>
-					</and>
+<!--					</and>-->
 				</test>
 				<let><clip pos="1" side="tl" part="a_case"/><lit-tag v="Loc"/></let>
 			</when>
