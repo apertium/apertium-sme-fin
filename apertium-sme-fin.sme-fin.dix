@@ -291,8 +291,8 @@
     <e><p><l>juohke<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/><s n="Indef"/></r></p></e>
 	<!-- diekkár - semmoinen, sellainen? -->
     
-    <e><p><l>nubbi<s n="Pron"/><s n="Recipr"/><s n="Sg"/></l><r>toinen<s n="Pron"/><s n="Recipr"/><s n="Sg" /></r></p></e>
-	<e><p><l>ieš<s n="Pron"/><s n="Refl"/><s n="Sg"/></l><r>itse<s n="Pron"/><s n="Refl"/><s n="Sg" /></r></p></e>
+    <e><p><l>nubbi<s n="Pron"/><s n="Recipr"/></l><r>toinen<s n="Pron"/><s n="Recipr"/></r></p></e>
+	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>itse<s n="Pron"/><s n="Refl"/></r></p></e>
 
 	 <!-- echo "joku" | ofin
 	joku	joku+Pron+Sg+Nom

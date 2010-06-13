@@ -39,7 +39,7 @@
 		<attr-item tags="Pron.Pers"/>
 		<attr-item tags="Pron.Dem"/>
 		<attr-item tags="Pron.Rel"/>
-		<attr-item tags="Pron.Recip"/>
+		<attr-item tags="Pron.Recipr"/>
 		<attr-item tags="Pron.Refl"/>
 		<attr-item tags="Pron.Interr"/>
 		<attr-item tags="Pron.Qnt"/>
