@@ -16,6 +16,7 @@
     <sdef n="CS"       c="Sub-ordinating conjunction"/>
     <sdef n="Adv"      c="Adverb"/>
     <sdef n="Pcle"     c="Particle"/>
+    <sdef n="Actor"    c="Actor"/>
     <sdef n="Plc"      c="Toponym"/>
     <sdef n="Mal"      c="?"/>
 
@@ -286,7 +287,8 @@
     <e><p><l>dakkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>semmoinen<s n="Pron"/><s n="Sg"/></r></p></e>
     <e><p><l>dakkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>sellainen<s n="Pron"/><s n="Sg"/></r></p></e>
     <e><p><l>duokkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>tuommoinen<s n="Pron"/><s n="Sg"/></r></p></e>
-	<e><p><l>muhtin<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>muutama<s n="Pron"/><s n="Sg"/></r></p></e>
+    <e><p><l>muhtin<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>muutama<s n="Pron"/><s n="Sg"/></r></p></e>
+    <e><p><l>juohke<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/><s n="Indef"/></r></p></e>
 	<!-- diekkár - semmoinen, sellainen? -->
     
     <e><p><l>nubbi<s n="Pron"/><s n="Recipr"/><s n="Sg"/></l><r>toinen<s n="Pron"/><s n="Recipr"/><s n="Sg" /></r></p></e>
@@ -1388,7 +1390,7 @@
     <e><p><l>njavvi<s n="N"/></l><r>niva<s n="N"/></r></p></e>
     <e><p><l>njelješ<s n="N"/></l><r>nelonen<s n="N"/></r></p></e>
     <e><p><l>njoammil<s n="N"/></l><r>jänis<s n="N"/></r></p></e>
-    <e><p><l>njoammu<s n="N"/></l><r>merieläin<s n="N"/></r></p></e>
+    <e><p><l>njoammu<s n="N"/><s n="Actor"/></l><r>merieläin<s n="N"/></r></p></e>
     <e><p><l>njukča<s n="N"/></l><r>joutsen<s n="N"/></r></p></e>
     <e><p><l>njukčamánnu<s n="N"/></l><r>maaliskuu<s n="N"/></r></p></e>
     <e><p><l>njunni<s n="N"/></l><r>nenä<s n="N"/></r></p></e>
@@ -3171,6 +3173,7 @@ some of these are likely not that common... need to fix slashed entries and dupl
 
     <e><p><l>lágalaš<s n="A"/></l><r>laillinen<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>vuoras<s n="A"/></l><r>vanhin<s n="A"/></r></p><par n="A_A"/></e> 
+    <e><p><l>stuoris<s n="A"/></l><r>suuri<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>iehčanas<s n="A"/></l><r>itsenäinen<s n="A"/></r></p><par n="A_A"/></e> 
 
     <!-- Adverbs -->

@@ -10,6 +10,9 @@
     <def-cat n="nom">
       <cat-item tags="N.*"/>
     </def-cat>
+    <def-cat n="pronindef">
+	  <cat-item tags="Pron.Indef.*"/>
+    </def-cat>
     <def-cat n="pronpers">
 	  <cat-item tags="Pron.Pers.*"/>
     </def-cat>
@@ -40,9 +43,11 @@
 		<attr-item tags="Pron.Refl"/>
 		<attr-item tags="Pron.Interr"/>
 		<attr-item tags="Pron.Qnt"/>
+		<attr-item tags="Pron.Indef"/>
 	</def-attr>
     <def-attr n="a_nom">
       <attr-item tags="N"/>
+      <attr-item tags="N.Actor"/>
       <attr-item tags="N.Prop"/>
       <attr-item tags="N.Prop.Plc"/>
       <attr-item tags="N.Prop.Mal"/>
@@ -275,6 +280,20 @@
             <clip pos="1" side="tl" part="a_case" />
 			<clip pos="1" side="tl" part="a_poss" />
           </lu>
+        </out>
+      </action>
+    </rule>
+
+   <rule> <!-- indefinite pronouns have no number/case in sámi -->
+      <pattern>
+        <pattern-item n="pronindef"/>
+      </pattern>
+      <action>
+        <out>
+			<lu>
+				<clip pos="1" side="tl" part="lem"/>
+				<clip pos="1" side="tl" part="a_pron"/>
+			</lu>
         </out>
       </action>
     </rule>
