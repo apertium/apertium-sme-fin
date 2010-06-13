@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer>
   <section-def-cats>
-  <def-cat n="adj">
-    <cat-item tags="A.*"/>
-  </def-cat>
   <def-cat n="verb">
     <cat-item tags="V.*"/>
   </def-cat>
@@ -18,6 +15,9 @@
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="N.*"/>
+    </def-cat>
+    <def-cat n="adj">
+        <cat-item tags="A.*"/>
     </def-cat>
     <def-cat n="pronindef">
 	  <cat-item tags="Pron.Indef.*"/>
@@ -306,10 +306,53 @@
         </out>
       </action>
     </rule>
-
-    <rule comment="regla: nom">
+    
+        <rule> <!-- we need to look at how compound words are translated / generated. e.g. just next to each other, or with + or something -->
       <pattern>
+        	<pattern-item n="nom_cmpnd"/>
         	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+		<call-macro n="set_loc_loc1">
+			<with-param pos="1"/>
+		</call-macro>
+		<call-macro n="set_tra_ill1">
+			<with-param pos="1"/>
+		</call-macro>
+		<call-macro n="set_par_gen">
+			<with-param pos="1"/>
+		</call-macro>
+		<call-macro n="set_loc_loc1">
+			<with-param pos="2"/>
+		</call-macro>
+		<call-macro n="set_tra_ill1">
+			<with-param pos="2"/>
+		</call-macro>
+		<call-macro n="set_par_gen">
+			<with-param pos="2"/>
+		</call-macro>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="a_case" />
+          </lu>
+          <lu>
+            <clip pos="2" side="tl" part="lemh"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="nbr"/>
+            <clip pos="2" side="tl" part="a_case" />
+	    <clip pos="2" side="tl" part="a_poss" />
+            <clip pos="2" side="tl" part="lemq"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: adj">
+      <pattern>
+        	<pattern-item n="adj"/>
       </pattern>
       <action>
 		<call-macro n="set_loc_loc1">

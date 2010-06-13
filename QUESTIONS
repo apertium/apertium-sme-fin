@@ -1,0 +1,29 @@
+
+... markdown syntax.
+
+# Morphology or CG or what?
+
+	9 Ja Jumala sanoi: "Kokoontukoot vedet, jotka ovat taivaan alla, yhteen paikkaan, niin että kuiva tulee näkyviin". Ja tapahtui niin.
+	9 Ipmil celkkii: «Čoahkkanehkoset čázit almmi vuolde ovtta sadjái, ja ihtos goikeeanan!» Ja nu šattai.
+
+
+kuiva - adjective, goike#eanan - noun
+kuiva potentially nominal, but 
+
+
+
+# Mihin - rel?
+
+
+$ echo "johon" | ofin
+johon	joka+Pron+Rel+Sg+Ill
+
+$ echo "mihin" | ofin
+mihin	mikä+Pron+Interr+Sg+Ill
+mihin	mihin+Adv
+
+> Adv?
+
+mihin works as a compl:
+
+paikka, mihin vedet olivat kokontuneet
