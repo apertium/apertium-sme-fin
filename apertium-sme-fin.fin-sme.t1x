@@ -4,6 +4,11 @@
   <def-cat n="verb">
     <cat-item tags="V.*"/>
   </def-cat>
+  <def-cat n="inf">
+    <cat-item tags="V.*.Inf1.*"/>
+    <cat-item tags="V.*.Inf2.*"/>
+    <cat-item tags="V.*.Inf3.*"/>
+  </def-cat>
     <def-cat n="nom_cmpnd">
       <cat-item tags="N.*.*.Cmpnd"/> 
     </def-cat>
@@ -89,6 +94,10 @@
 		<attr-item tags="Ind"/>
 		<attr-item tags="Imprt"/>
 		<attr-item tags="Cond"/>
+		<attr-item tags="Inf1"/>
+		<attr-item tags="Inf2"/>
+		<attr-item tags="Inf3"/>
+		<attr-item tags="Inf"/>
 	</def-attr>
 	<def-attr n="a_tense">
 		<attr-item tags="Prs"/>
@@ -200,6 +209,22 @@
 				</when>
 			</choose>
 		</def-macro>
+		
+		<def-macro n="set_infs_inf" npar="1" c="Change all Inf1, Inf2, Inf3, etc., to Inf">
+		  <choose>
+		      <when>
+		          <test>
+		              <begins-with>
+		                  <clip pos="1" side="sl" part="a_realis"/><lit-tag v="Inf3"/>
+		              </begins-with>
+		          </test>
+		          <let>
+		              <clip pos="1" side="tl" part="a_realis"/><lit v="Inf"/>
+		          </let>
+		      </when>
+		  </choose>
+		</def-macro>
+		
 	</section-def-macros>
 	
 
@@ -207,8 +232,12 @@
 	<rule>
 		<pattern>
 			<pattern-item n="verb" />
+			<pattern-item n="inf" />
 		</pattern>
 		<action>
+		<call-macro n="set_infs_inf">
+		  <with-param pos="1"/>
+        </call-macro>
 			<out>
 				<lu>
 					<clip pos="1" side="tl" part="lem" />
