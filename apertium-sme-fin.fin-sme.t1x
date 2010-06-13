@@ -282,6 +282,20 @@
 		<call-macro n="set_par_gen">
 			<with-param pos="1"/>
 		</call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit v=""/>
+            </let>
+          </when>
+        </choose>
         <out>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
