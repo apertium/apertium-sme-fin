@@ -280,14 +280,14 @@
     <e><p><l>mii<s n="Pron"/><s n="Interr"/></l><r>mikä<s n="Pron"/><s n="Interr"/></r></p></e>
     <e><p><l>gii<s n="Pron"/><s n="Interr"/></l><r>kuka<s n="Pron"/><s n="Interr"/></r></p></e>
     
-    <e><p><l>juoga<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>jokin<s n="Pron"/><s n="Sg"/></r></p></e>
-    <e><p><l>buot<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>kaikki<s n="Pron"/><s n="Sg"/></r></p></e>
-    <e><p><l>mihkkege<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>mikään<s n="Pron"/><s n="Qnt"/></r></p></e>
-    <e><p><l>dákkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>tällainen<s n="Pron"/><s n="Sg"/></r></p></e>
-    <e><p><l>dakkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>semmoinen<s n="Pron"/><s n="Sg"/></r></p></e>
-    <e><p><l>dakkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>sellainen<s n="Pron"/><s n="Sg"/></r></p></e>
-    <e><p><l>duokkár<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>tuommoinen<s n="Pron"/><s n="Sg"/></r></p></e>
-    <e><p><l>muhtin<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>muutama<s n="Pron"/><s n="Sg"/></r></p></e>
+    <e><p><l>juoga<s n="Pron"/><s n="Indef"/></l><r>jokin<s n="Pron"/></r></p></e>
+    <e><p><l>buot<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/><s n="Indef"/></r></p></e>
+    <e><p><l>mihkkege<s n="Pron"/><s n="Indef"/></l><r>mikään<s n="Pron"/><s n="Qnt"/></r></p></e>
+    <e><p><l>dákkár<s n="Pron"/><s n="Indef"/></l><r>tällainen<s n="Pron"/></r></p></e>
+    <e><p><l>dakkár<s n="Pron"/><s n="Indef"/></l><r>semmoinen<s n="Pron"/></r></p></e>
+    <e><p><l>dakkár<s n="Pron"/><s n="Indef"/></l><r>sellainen<s n="Pron"/></r></p></e>
+    <e><p><l>duokkár<s n="Pron"/><s n="Indef"/></l><r>tuommoinen<s n="Pron"/></r></p></e>
+    <e><p><l>muhtin<s n="Pron"/><s n="Indef"/></l><r>muutama<s n="Pron"/></r></p></e>
     <e><p><l>juohke<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/><s n="Indef"/></r></p></e>
 	<!-- diekkár - semmoinen, sellainen? -->
     
