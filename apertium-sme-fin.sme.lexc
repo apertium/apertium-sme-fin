@@ -10171,11 +10171,40 @@ sál0ti:sál'ti AIGI ;
 sáme#giel#gur0sa:sáme#giel#gur'sa GOAHTI ; 
 sáme#giel#kur0sa:sáme#giel#kur'sa GOAHTI ; 
 sáme#giella GOAHTI ;
+ sámi:sámi%>%- Rreal_nonhyph ;
+ sá0mil+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:sámmil MALIS ; !
+ sámi#digge#vál0ga+Use/Sub:sámi#digge#vál'ga GOAHTI ; !
+ sámi#diggi+Use/Sub:sámi#diggi AIGI; !
+ sámi#ea0na+CmpN/SgN+CmpN/SgG+CmpN/PlG:sámi#eatnam8 SEAMU ; !
+ sámi#fál0di+Use/Sub:sámi#fál'di AIGI ; !
+ sámi#gelbbolašvuoh0ta+CmpN/SgG+CmpN/DefPlGen+Use/Sub:sámi#gelbbolašvuoh'ta LUONDU ; ! !
+ sámi#giella+Use/Sub:sámi#giella GOAHTI; !
+ sámi#gilli+CmpN/SgN+CmpN/SgG+CmpN/PlG+Use/Sub:sámi#gilli ALBMILONG; ! !
+ sámi#guovllo#plakáhta+Use/Sub:sámi#guovllo#plakáhta STAHTA; !
+ sámi#guovllo#plakáhta+Use/Sub:sámi#guovllo#plakáhtta STAHTA ; !
+ sámi#guovllu#plakáhta+Use/Sub:sámi#guovllu#plakáhta STAHTA; !
+ sámi#guovllu#plakáhta+Use/Sub:sámi#guovllu#plakáhtta STAHTA ; !
+ sámi#konferean0sa+Use/Sub:sámi#konferean'sa GOAHTI ; !
+ sámi#konferán0sa+Use/Sub:sámi#konferán'sa GOAHTI ; !
+ sámi#kultuvra+Use/Sub:sámi#kultu KULTUR ; !
+ sámi#leav0ga+Use/Sub:sámi#leav'ga GOAHTI ; !
+ sámi#láh0ka+Use/Sub:sámi#láh'ka GOAHTI ; !
+ sámi#lávde#goddi+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG+Use/Sub:sámi#lávde#goddi AIGI; ! !
+ sámi#musea+Use/Sub:sámi#musea GOAHTI; !
+ sámi#nuorra+Use/Sub:sámi#nuorra GOAHTI; !
+ sámi#radio+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:sámi#radio GARGIA;  !
+ sámi#rádio+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:sámi#rádio GARGIA;  !
+ sámi#sii0da+CmpN/SgN+CmpN/SgG+CmpN/PlG:sámi#sij'da GOAHTI ;  !
+ sámi#soh0ka+CmpN/SgN+CmpN/SgG+CmpN/PlG:sámi#soh'ka GOAHTI ; !
+ sámi#vearro#ea0na+CmpN/SgN+CmpN/SgG+CmpN/PlG+Use/Sub:sámi#vearro#eatnam8 SEAMU ; ! !
+ sámi#vuoigatvuođa#lávde#goddi+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG+Use/Sub:sámi#vuoigatvuođa#lávde#goddi AIGI; ! !
+ sámi#vuotna+Use/Sub:sámi#vuotna GOAHTI; !
+ sámi#válga#stiv0ra+Use/Sub:sámi#válga#stiv'ra GOAHTI ; !
+ sámi#vánddis+CmpN/SgN+CmpN/SgG+CmpN/PlG:sámi#ván'dis FALIS ; !
+ sámivuoh0ta+CmpN/SgG+CmpN/DefPlGen:sámivuoh'ta LUONDU ; !
 šámpu GOAHTI ;
  sápmelaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:sápmelažž JOHTOLAT "Saami N" ; !
  sápmelašvuoh0ta+CmpN/SgG+CmpN/DefPlGen:sápmelašvuoh'ta LUONDU ; !
- sápmi+CmpN/SgG+Use/Sub:sápmi GOAHTI "Saami(land) N"; ! !
- sápmi+CmpN/SgG+CmpN/PlG:sápmi AIGI; !
 sárdni GOAHTI ;
  sárdnideaddji+CmpN/SgN+CmpN/SgG+CmpN/PlG:sárdnideaddji¤ ACTOR ; !
 sárggus:sár'gus MALISLONG ;

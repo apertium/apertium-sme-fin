@@ -4,6 +4,9 @@
   <def-cat n="verb">
     <cat-item tags="V.*"/>
   </def-cat>
+    <def-cat n="nom_cmpnd">
+      <cat-item tags="N.*.*.Cmpnd"/> 
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="N.*"/>
     </def-cat>
@@ -214,6 +217,43 @@
 	
     <rule>
       <pattern>
+        	<pattern-item n="nom_cmpnd"/>
+        	<pattern-item n="nom"/>
+      </pattern>
+      <action>
+		<call-macro n="set_loc_loc1">
+			<with-param pos="2"/>
+		</call-macro>
+		<call-macro n="set_tra_ill1">
+			<with-param pos="2"/>
+		</call-macro>
+		<call-macro n="set_par_gen">
+			<with-param pos="2"/>
+		</call-macro>
+        <out>
+        <mlu>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+<!-- Don't know if the first part of compound nouns requires tags or not -FMT
+            <clip pos="1" side="tl" part="a_nom"/>
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="a_case" />
+-->
+          </lu>
+          <lu>
+            <clip pos="2" side="tl" part="lemh"/>
+            <clip pos="2" side="tl" part="a_nom"/>
+            <clip pos="2" side="tl" part="nbr"/>
+            <clip pos="2" side="tl" part="a_case" />
+	    <clip pos="2" side="tl" part="a_poss" />
+            <clip pos="2" side="tl" part="lemq"/>
+          </lu>
+        </mlu>
+        </out>
+      </action>
+    </rule>
+    <rule>
+      <pattern>
         	<pattern-item n="nom"/>
       </pattern>
       <action>
@@ -238,6 +278,7 @@
         </out>
       </action>
     </rule>
+
    <rule>
       <pattern>
         <pattern-item n="pronpers"/>
