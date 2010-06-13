@@ -3260,7 +3260,8 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>luohttit<s n="V"/><s n="IV"/></l><r>luottaa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>gullat<s n="V"/><s n="IV"/></l><r>kuulla<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>deattuhit<s n="V"/><s n="IV"/></l><r>todistaa<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>sárdnut<s n="V"/><s n="IV"/></l><r>sanoa<s n="V"/></r></p><par n="V_V"/></e>
+    <!--<e><p><l>sárdnut<s n="V"/><s n="IV"/></l><r>sanoa<s n="V"/></r></p><par n="V_V"/></e>-->
+    <e><p><l>dadjat<s n="V"/><s n="TV"/></l><r>sanoa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>sivdnidit<s n="V"/><s n="TV"/></l><r>luoda<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>boahtit<s n="V"/><s n="IV"/></l><r>tulla<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>guoskat<s n="V"/><s n="IV"/></l><r>koskea<s n="V"/></r></p><par n="V_V"/></e>
@@ -3312,7 +3313,6 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>čierastallat<s n="V"/><s n="IV"/></l><r>lasketella<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>čuohppat<s n="V"/><s n="TV"/></l><r>leikata<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>čuoigat<s n="V"/><s n="IV"/></l><r>hiihtää<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>dadjat<s n="V"/><s n="TV"/></l><r>sanoa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>dahkat<s n="V"/><s n="TV"/></l><r>tehdä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>heaŋgát<s n="V"/><s n="IV"/></l><r>riippua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>hervet<s n="V"/><s n="TV"/></l><r>koristaa<s n="V"/></r></p><par n="V_V"/></e>
