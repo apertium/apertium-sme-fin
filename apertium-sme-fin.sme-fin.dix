@@ -2361,6 +2361,7 @@
     <e><p><l>biebmu<s n="N"/></l><r>ravinto<s n="N"/></r></p></e> 
     <e><p><l>čikŋodat<s n="N"/></l><r>syvyys<s n="N"/></r></p></e> 
     <e><p><l>gievravuohta<s n="N"/></l><r>vahvuus<s n="N"/></r></p></e> 
+    <e><p><l>boahtimuš<s n="N"/></l><r>perustus<s n="N"/></r></p></e> 
 
     
 <!-- 
@@ -2804,7 +2805,7 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>Ohcejohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Utsjoki<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Ovnnesjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ounasjoki<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Ovnnesjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ounasjärvi<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Yhdysvalta<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Ođđa<b/>Zealánda<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Uusi-Seelanti<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Polen<s n="N"/><s n="Prop"/></l><r>Puola<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Polska<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Puola<s n="N"/><s n="Prop"/></r></p></e>
@@ -3167,6 +3168,10 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>čáhppat<s n="A"/></l><r>musta<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>čálalaš<s n="A"/></l><r>kirjallinen<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>čáppat<s n="A"/></l><r>kaunis<s n="A"/></r></p><par n="A_A"/></e> 
+
+    <e><p><l>lágalaš<s n="A"/></l><r>laillinen<s n="A"/></r></p><par n="A_A"/></e> 
+    <e><p><l>vuoras<s n="A"/></l><r>vanhin<s n="A"/></r></p><par n="A_A"/></e> 
+    <e><p><l>iehčanas<s n="A"/></l><r>itsenäinen<s n="A"/></r></p><par n="A_A"/></e> 
 
     <!-- Adverbs -->
 

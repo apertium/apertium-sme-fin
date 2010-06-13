@@ -7446,6 +7446,7 @@ boa00gán:boah'kán MALIS "belt N" ;
  boagán#oai0vi+N+CmpN/Sg+CmpN/Sg+Use/Sub:boagán#oai%> Rreal ; !
  boagán#oai0vi+Use/Sub:boagán#oaj'vi AIGI ; !
 boagán+N+CmpN/SgN:boagan%> R ;
+boahtimuš:boahti7mušš LEXMUSH ;
 boaldámuš:boaldámušš LEXMUSH ;
 boallu GOAHTI ;
  boan0da+CmpN/SgN+CmpN/SgG+CmpN/PlG:boan'da GOAHTI ; !
@@ -11181,6 +11182,7 @@ heivvolaš:heivvol DABALAS ;
  hi00đis+CmpN/SgN+CmpN/SgG+CmpN/PlG:hih'tis GAPPUS ; !
  hilbat+CmpN/SgN+CmpN/SgG+CmpN/PlG:hilb VIELG ; !
  hutkái+CmpN/SgN+CmpN/SgG+CmpN/PlG:hutká JIEDNAI ; !
+iehčanas LEXATTR ;
  i0maš+CmpN/SgN+CmpN/SgG+CmpN/PlG:ipmaš GAPPUS ; !
  imaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:ipma IPMAHA ; !
 issoras:issor ISSORAS "terrible A" ;
@@ -11195,6 +11197,7 @@ jaskat:jask VIELG ;
  jorbbas+CmpN/SgN+CmpN/SgG+CmpN/PlG:jor'ba GARAS ; !
  juolggeheapme+CmpN/SgN+CmpN/SgG+CmpN/PlG:juolggeh JEAGOHEAPMI ; !
  kristtalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:kristtal ETNOLOGALAS ; !
+lágalaš:lágal DABALAS ;
  lahka#oaidnil+CmpN/SgN+CmpN/SgG+CmpN/PlG:lahka#oaidnil JOHTIL; !
  lahkanmeahttun+CmpN/SgN+CmpN/SgG+CmpN/PlG:lahkanmeahttu MEAHTTUS ; !
  lái0ki+CmpN/SgN+CmpN/SgG+CmpN/PlG:láj'ki LAIKI ; !
@@ -11314,6 +11317,7 @@ viiddis:vij'd VIISSIS ;
  vis0sis+CmpN/SgN+CmpN/SgG+CmpN/PlG:vis'sis GAPPUS ; !
  vuo0gas+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuoh'kas VUOGAS ; !
  vuollegaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuolleg ASEHAS ; !
+ vuo0ras+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuorras GAPPUS ; !
  vuostá#čuožžomeahttun+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuostá#čuožžo7meahttu MEAHTTUS ; !
  vuosttaš#luohkkálaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuosttaš#luohkkál AHKASAS ; !
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
