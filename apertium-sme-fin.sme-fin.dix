@@ -151,6 +151,9 @@
     <e><p><l>áigge<s n="Po"/></l><r>aikana<s n="Po"/></r></p></e>
     
     <e><p><l>mielde<s n="Po"/></l><r>kanssa<s n="Po"/></r></p></e>
+	<e><p><l>mielde<s n="Po"/></l><r>mukaan<s n="Adp"/></r></p></e>
+	<e><p><l>ala<s n="Po"/></l><r>päälle<s n="Adp"/></r></p></e>
+
     
     <e><p><l>rájes<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siitä asti -->
     <e srl="1"><p><l>rádjái<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siihen asti -->
@@ -284,7 +287,7 @@
     <e><p><l>gii<s n="Pron"/><s n="Interr"/></l><r>kuka<s n="Pron"/><s n="Interr"/></r></p></e>
     
     <e><p><l>juoga<s n="Pron"/><s n="Indef"/></l><r>jokin<s n="Pron"/></r></p></e>
-    <e><p><l>buot<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/><s n="Indef"/></r></p></e>
+    <e><p><l>buot<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/></r></p></e>
     <e><p><l>mihkkege<s n="Pron"/><s n="Indef"/></l><r>mikään<s n="Pron"/><s n="Qnt"/></r></p></e>
     <e><p><l>dákkár<s n="Pron"/><s n="Indef"/></l><r>tällainen<s n="Pron"/></r></p></e>
     <e><p><l>dakkár<s n="Pron"/><s n="Indef"/></l><r>semmoinen<s n="Pron"/></r></p></e>
@@ -296,6 +299,10 @@
     
     <e><p><l>nubbi<s n="Pron"/><s n="Recipr"/></l><r>toinen<s n="Pron"/><s n="Recipr"/></r></p></e>
 	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>itse<s n="Pron"/><s n="Refl"/></r></p></e>
+
+	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/>/></l><r>kukin<s n="Pron"/></r></p></e>
+	<e><p><l>ieš<s n="Pron"/><s n="Refl"/>/></l><r>oma<s n="A"/></r></p></e>
+	
 
 	 <!-- echo "joku" | ofin
 	joku	joku+Pron+Sg+Nom
