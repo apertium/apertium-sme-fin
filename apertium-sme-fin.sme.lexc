@@ -8569,6 +8569,7 @@ gievkkan GAHPIR ;
  gievkkan#hoav0da+CmpN/SgN+CmpN/SgG+CmpN/PlG:gievkkan#hoav'da GOAHTI ; !
  gievkkan#rusttegat+CmpN/SgN+CmpN/DefPlGen:gievkkan#rustteg ALIMAT ;  !
  gievkkan#rusttegat+CmpN/SgN+CmpN/DefPlGen:gievkkan#rustteg ALIMAT ;  !
+ gievravuoh0ta+CmpN/SgG+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft:gievravuoh'ta LUONDU ; !
  gihcci+CmpN/SgN+CmpN/SgG+CmpN/PlG:gihcci GOAHTI; !
 gih0pa:gihppag8 SEAMU ;
 gihppu GOAHTI ;
@@ -13851,6 +13852,7 @@ eambbo adv ;
 eret adv ;
 fargga adv ;
 fargga adv ;
+gaskii adv ;
 gitta adv ;
  goas#nu+Use/Sub:goas#nu adv; !
 goas adv ;

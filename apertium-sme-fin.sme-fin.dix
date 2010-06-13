@@ -2359,6 +2359,7 @@
     <e><p><l>sivdnádus<s n="N"/></l><r>olento<s n="N"/></r></p></e> 
     <e><p><l>biebmu<s n="N"/></l><r>ravinto<s n="N"/></r></p></e> 
     <e><p><l>čikŋodat<s n="N"/></l><r>syvyys<s n="N"/></r></p></e> 
+    <e><p><l>gievravuohta<s n="N"/></l><r>vahvuus<s n="N"/></r></p></e> 
 
     
 <!-- 
@@ -3194,6 +3195,8 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>mot<s n="Adv"/></l><r>kuinka<s n="Adv"/></r></p></e>
 	
 	<!-- oba <Adv> oppa <Adv> / koko <Pcle> <Pron> -->
+
+	<e><p><l>gaskii<s n="Adv"/></l><r>välille<s n="Adv"/></r></p></e>
 
 
     <!-- Verbs -->
