@@ -7777,45 +7777,6 @@ eallu GOAHTI ;
  eana#giera#eaiggát+SgNomCmp+SgGenCmp+PlGenCmp:eana#giera#eaiggád GAHPIRLONG ; !
  eana#opmodat+SgNomCmp+SgGenCmp+PlGenCmp:eana#opmodah'k JOHTOLAT ; !
  eana#doalli+SgNomCmp+SgGenCmp+PlGenCmp:eana#doalli¤ ACTOR ; !
- ea0nan+SgNomCmp+SgGenCmp+PlGenCmp:eatnam MALIS ;  !
- eana#niehtti+SgNomCmp+SgGenCmp+DefPlGenCmp:eana#niehtti AIGI; !
- eanan#bargi+SgNomCmp+SgGenCmp+PlGenCmp:eanan#bargi¤ ACTOR ; !
- eanan#buollin+SgCmp:eanan#buollim BOAHTIN ; !
- eanan#doalli+SgNomCmp+SgGenCmp+PlGenCmp:eanan#doalli¤ ACTOR ; !
- eanan#doallo#are^ála+SgNomCmp+SgGenCmp+PlGenCmp:eanan#doallo#are^ál SOSIAL ; !
- eanan#doallo#departemean0ta+SgNomCmp+DefSgGenCmp+PlGenCmp+Use/Sub:eanan#doallo#departemean'ta GOAHTI ; ! !
- eanan#doallo#ea0na+SgNomCmp+SgGenCmp+PlGenCmp:eanan#doallo#eatnam8 SEAMU ; !
- eanan#doallo#eise#vál0di+SgNomCmp+DefSgGenCmp+PlGenCmp:eanan#doallo#eise#vál'di VALDI ; !
- eanan#doallo#gilli+SgNomCmp+SgGenCmp+PlGenCmp:eanan#doallo#gilli ALBMILONG; !
- eanan#doallo#kantuvra+SgNomCmp+DefSgGenCmp+PlGenCmp:eanan#doallo#k KANTUR ; !
- eanan#doallo#lávde#goddi+SgNomCmp+DefSgGenCmp+PlGenCmp:eanan#doallo#lávde#goddi AIGI; !
- eanan#geavaheapmi+SgCmp:eanan#geavah EAPMI ; !
- eanan#gilvi+SgNomCmp+SgGenCmp+PlGenCmp:eanan#gilvi¤ ACTOR ; !
- eanan#goddi+SgNomCmp+SgGenCmp+PlGenCmp:eanan#goddi AIGI; !
- eanan#guoppar+SgNomCmp+SgGenCmp+DefPlGenCmp:eanan#guobbar MALIS ; !
- eanan#hear0rá+SgNomCmp+SgGenCmp+PlGenCmp:eanan#hear'rá ALBMILONG ; !
- eanan#hálddašan#orgána+SgNomCmp+DefSgGenCmp+PlGenCmp:eanan#hálddašan#orgána GOAHTI; !
- eanan#hálddašeapmi+SgCmp:eanan#hálddaš EAPMI ; !
- eanan#juohkin#diggi+Use/Sub:eanan#juohkin#diggi AIGI; !
- eanan#loddi+SgNomCmp+SgGenCmp+PlGenCmp:eanan#loddi AIGI; !
- eanan#mihtideapmi+SgCmp:eanan#mihtid EAPMI ; !
- eanan#muolddat+SgNomCmp+SgGenCmp+PlGenCmp:eanan#muolddah GAHPIR ; !
- eanan#muor0ji+SgNomCmp+SgGenCmp+DefPlGenCmp:eanan#muor'ji GOAHTI ; !
- eanan#niehtti+SgNomCmp+SgGenCmp+DefPlGenCmp:eanan#niehtti AIGI; !
- eanan#oamasteaddji+SgNomCmp+SgGenCmp+PlGenCmp:eanan#oamasteaddji¤ ACTOR ; !
- eanan#prohtokol0la+Use/Sub:eanan#prohtokol'la GOAHTI ; !^LOAN !
- eanan#protokol0la:eanan#protokol'la GOAHTI ; !^LOAN
- eanan#vuoigatvuoh0ta+SgGenCmp+DefPlGenCmp:eanan#vuoigatvuoh'ta LUONDU ; !
- eanan#vuovdin#kantuvra+SgNomCmp+DefSgGenCmp+PlGenCmp:eanan#vuovdin#k KANTUR ; !
- eanan#vuovdin#stiv0ra+SgNomCmp+DefSgGenCmp+PlGenCmp:eanan#vuovdin#stiv'ra GOAHTI ; !
- eanan#vuođđu+SgNomCmp+DefSgGenCmp:eanan#vuođđu GOAHTI; !
- eanan#šir0rá+SgNomCmp+SgGenCmp+PlGenCmp:eanan#šir'rá ALBMILONG ; !
-eanan+N+Ess:eanam%>in K ;
- eanan+N+Sg+Nom:eanan%> K ; !XXX eana
-eanan+N+SgNomCmp:eanan%> R ;
- eanandat+SgNomCmp+SgGenCmp+PlGenCmp:eanandah'k JOHTOLAT ; !
- eanan#vuovdin#kantov0ra+Use/Sub:eanan#vuovdin#kantov'ra GOAHTI ; !
- eanan#vuovdin#kantuv0ra+SgNomCmp+DefSgGenCmp+PlGenCmp:eanan#vuovdin#k KANTUR ; !
  eanan#doalli+SgNomCmp+SgGenCmp+PlGenCmp:eanan#doalli¤ ACTOR ; !
 eanan#doallu GOAHTI ;
  eanan#muor0ji+SgNomCmp+SgGenCmp+DefPlGenCmp:eanan#muor'ji GOAHTI ; !
@@ -7825,19 +7786,6 @@ eanan#roggi AIGI ;
 eappir:eabbir MALIS ;
 earri GOAHTI ;
 earán GAHPIRLONG ;
- eatnan#muor0ji+SgNomCmp+SgGenCmp+DefPlGenCmp:eatnan#muor'ji GOAHTI ; !
- eatnan#eaiggát+SgNomCmp+SgGenCmp+PlGenCmp:eatnan#eaiggád GAHPIRLONG ; !
- eatnan#goddi+SgNomCmp+SgGenCmp+PlGenCmp:eatnan#goddi AIGI; !
- eatnan#golgolaš+SgNomCmp+SgGenCmp+PlGenCmp:eatnan#golgolažž JOHTOLAT ; !
- eatnan#gotte#ávii0sa+SgNomCmp+DefSgGenCmp+PlGenCmp:eatnan#gotte#ávij'sa GOAHTI ; !
- eatnan#hear0rá+SgNomCmp+SgGenCmp+PlGenCmp:eatnan#hear'rá ALBMILONG ; !
- eatnan#oamasteaddji+SgNomCmp+SgGenCmp+PlGenCmp:eatnan#oamasteaddji¤ ACTOR ; !
- eatnan#vuloš+SgNomCmp+SgGenCmp+PlGenCmp:eatnan#vulož LEXDIMINC ; !
- eatnan#vuoláš+SgNomCmp+SgGenCmp+PlGenCmp:eatnan#vuoláž LEXDIMINC ; !
- eatnan#čiel0gi+SgNomCmp+SgGenCmp+PlGenCmp:eatnan#čiel'gi AIGI ; !
- eatnan#šaddu+SgNomCmp+SgGenCmp+PlGenCmp:eatnan#šaddu GOAHTI; !
-eatnan:eatnam GAHPIR ;
- eatnan#vuol#orustan#sad0ji+SgNomCmp+SgGenCmp+PlGenCmp:eatnan#vuol#orustan#sad'ji ALBMI ; !
 eatnan#doallu GOAHTI ;
  eatnan#muor0ji+SgNomCmp+SgGenCmp+DefPlGenCmp:eatnan#muor'ji GOAHTI ; !
 eatni#giella GOAHTI ;
@@ -10605,6 +10553,7 @@ váđđu GOAHTI ;
  ášši#jođiheaddji+SgNomCmp+SgGenCmp+PlGenCmp:ášši#jođiheaddji¤ ACTOR ; !
  ášši#prosa#teak0sta+Use/Sub:ášši#prosa#teak'sta GOAHTI ; !
  ášši#suor0gi+Use/Sub:ášši#suor'gi GOAHTI ; !
+ šaddo#muorra+SgNomCmp+SgGenCmp+PlGenCmp:šaddo#muorra GOAHTI; !
  šaddu+SgNomCmp+SgGenCmp+PlGenCmp:šaddu GOAHTI; !
  čakča#guohtun+SgCmp:čakča#guohtum BOAHTINLONGSHORT ; !
  čak0ča+SgNomCmp+SgGenCmp+DefPlGenCmp:čak'ča GOAHTI ; !
