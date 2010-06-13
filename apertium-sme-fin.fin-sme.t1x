@@ -208,36 +208,31 @@
 					</let>
 				</when>
 			</choose>
-		</def-macro>
-		
-		<def-macro n="set_infs_inf" npar="1" c="Change all Inf1, Inf2, Inf3, etc., to Inf">
-		  <choose>
-		      <when>
-		          <test>
-		              <begins-with>
-		                  <clip pos="1" side="sl" part="a_realis"/><lit-tag v="Inf3"/>
-		              </begins-with>
-		          </test>
-		          <let>
-		              <clip pos="1" side="tl" part="a_realis"/><lit v="Inf"/>
-		          </let>
-		      </when>
-		  </choose>
-		</def-macro>
-		
+		</def-macro>		
 	</section-def-macros>
 	
 
   <section-rules>
-	<rule>
+  <rule>
 		<pattern>
-			<pattern-item n="verb" />
 			<pattern-item n="inf" />
 		</pattern>
 		<action>
-		<call-macro n="set_infs_inf">
-		  <with-param pos="1"/>
-        </call-macro>
+			<out>
+				<lu>
+					<clip pos="1" side="tl" part="lem" />
+					<clip pos="1" side="tl" part="a_verb" /> 
+					<!-- <clip pos="1" side="tl" part="a_trans" /> --> <!-- specified in a_verb -->
+					<lit-tag v="Inf" />
+				</lu>
+			</out>
+		</action>
+    </rule>
+	<rule>
+		<pattern>
+			<pattern-item n="verb" />
+		</pattern>
+		<action>
 			<out>
 				<lu>
 					<clip pos="1" side="tl" part="lem" />
