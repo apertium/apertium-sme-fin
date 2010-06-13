@@ -100,6 +100,7 @@
 	<e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
 	<e><p><l>go<s n="Pcle"/></l><r>kun<s n="Pcle"/></r></p></e>
 
+	<e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Pcle"/></r></p></e> <!-- TODO: CHECK-->
 <!-- TODO: Are these really Pcle in fin and Adv in sme ?-->
 <!-- 
 	<e><p><l>beare<s n="Adv"/></l><r>tahansa<s n="Pcle"/></r></p></e>
@@ -184,6 +185,7 @@
 	<e><p><l>várás<s n="Po"/></l><r>varalle<s n="Adp"/></r></p></e>
 	<e><p><l>várás<s n="Po"/></l><r>varten<s n="Adp"/></r></p></e>
 	<e><p><l>dihtii<s n="Po"/></l><r>vuoksi<s n="Adp"/></r></p></e> <!-- TODO: CHECK-->
+	<e><p><l>mielde<s n="Po"/></l><r>mukaan<s n="Adp"/></r></p></e> <!-- TODO: CHECK-->
         
     <!-- 
 
@@ -3207,7 +3209,8 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	
 	<!-- oba <Adv> oppa <Adv> / koko <Pcle> <Pron> -->
 
-	<e><p><l>gaskii<s n="Adv"/></l><r>välille<s n="Adv"/></r></p></e>
+	<e><p><l>gaskii<s n="Adv"/></l><r>välille<s n="Adv"/></r></p></e> <!-- TODO: CHECK -->
+	<e><p><l>maid<s n="Adv"/></l><r>mitä<s n="Adv"/></r></p></e> <!-- TODO: CHECK -->
 
 
     <!-- Verbs -->
