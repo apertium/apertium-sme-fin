@@ -747,9 +747,7 @@
     <e><p><l>eallu<s n="N"/></l><r>lauma<s n="N"/></r></p></e>
     <e><p><l>eamit<s n="N"/></l><r>vaimo<s n="N"/></r></p></e>
     <e><p><l>eammi<s n="N"/></l><r>vaimo<s n="N"/></r></p></e>
-    <e><p><l>eana<s n="N"/></l><r>maa<s n="N"/></r></p></e>
     <e><p><l>eanadoalli<s n="N"/></l><r>maanviljelijä<s n="N"/></r></p></e>
-    <e><p><l>eanan<s n="N"/></l><r>maa<s n="N"/></r></p></e>
     <e><p><l>eanandoalli<s n="N"/></l><r>maanviljelijä<s n="N"/></r></p></e>
     <e><p><l>eananmuorji<s n="N"/></l><r>mansikka<s n="N"/></r></p></e>
     <e><p><l>eananroggi<s n="N"/></l><r>maakuoppa<s n="N"/></r></p></e>
@@ -757,7 +755,10 @@
     <e><p><l>eapmi<s n="N"/></l><r>vaimo<s n="N"/></r></p></e>
     <e><p><l>earri<s n="N"/></l><r>kiintiö<s n="N"/></r></p></e>
     <e><p><l>earrogirji<s n="N"/></l><r>erokirja<s n="N"/></r></p></e>
-    <e><p><l>eatnan<s n="N"/></l><r>maa<s n="N"/></r></p></e>
+    <e><p><l>eana<s n="N"/></l><r>maa<s n="N"/></r></p></e>
+    <!--<e><p><l>eanan<s n="N"/></l><r>maa<s n="N"/></r></p></e>-->
+    <!--<e><p><l>eatnan<s n="N"/></l><r>maa<s n="N"/></r></p></e>-->
+    <!--<e><p><l>riika<s n="N"/></l><r>maa<s n="N"/></r></p></e>-->
     <e><p><l>eatnandoalli<s n="N"/></l><r>maanviljelijä<s n="N"/></r></p></e>
     <e><p><l>eatnanmuorji<s n="N"/></l><r>mansikka<s n="N"/></r></p></e>
     <e><p><l>eatnigiella<s n="N"/></l><r>äidinkieli<s n="N"/></r></p></e>
@@ -2280,7 +2281,6 @@
     <e><p><l>seahkka<s n="N"/></l><r>reppu<s n="N"/></r></p></e>
     <e><p><l>eappir<s n="N"/></l><r>ämpäri<s n="N"/></r></p></e>
     <e><p><l>bárbmu<s n="N"/></l><r>etelä<s n="N"/></r></p></e>
-    <e><p><l>riika<s n="N"/></l><r>maa<s n="N"/></r></p></e>
     <e><p><l>riikkarádji<s n="N"/></l><r>valtionraja<s n="N"/></r></p></e>
     <e><p><l>riikkarádjá<s n="N"/></l><r>valtionraja<s n="N"/></r></p></e>
     <e><p><l>ráđđeaddi<s n="N"/></l><r>neuvonantaja<s n="N"/></r></p></e>
