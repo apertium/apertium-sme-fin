@@ -300,8 +300,8 @@
     <e><p><l>nubbi<s n="Pron"/><s n="Recipr"/></l><r>toinen<s n="Pron"/><s n="Recipr"/></r></p></e>
 	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>itse<s n="Pron"/><s n="Refl"/></r></p></e>
 
-	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/>/></l><r>kukin<s n="Pron"/></r></p></e>
-	<e><p><l>ieš<s n="Pron"/><s n="Refl"/>/></l><r>oma<s n="A"/></r></p></e>
+	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/></r></p></e>
+	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>oma<s n="A"/></r></p></e>
 	
 
 	 <!-- echo "joku" | ofin
@@ -3190,10 +3190,10 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>stuoris<s n="A"/></l><r>suuri<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>iehčanas<s n="A"/></l><r>itsenäinen<s n="A"/></r></p><par n="A_A"/></e> 
 
-	<e><p><l>stuoris<s n="A"/></l><r>suuri<s n="A"/></r></p></e>
+	<e><p><l>stuoris<s n="A"/></l><r><s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>ruonas<s n="A"/></l><r>vihanta<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>soajálaš<s n="A"/></l><r>siivekäs<s n="A"/></r></p><par n="A_A"/></e>
-	<e><p><l>seavdnjat<s n="A"/></l><r>pimeä<s n="A"/></r></p></e>
+	<e><p><l>seavdnjat<s n="A"/></l><r><s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>láhkásaš<s n="A"/></l><r>kaltainen<s n="A"/></r></p><par n="A_A"/></e>
 
 	<!-- ! Adv - A, etc ???  -->
@@ -3663,38 +3663,38 @@ some of these are likely not that common... need to fix slashed entries and dupl
 
 
 
-	<e><p><l>baldit<s n="V"/><s n="TV"/></l><r>pelottaa<s n="V"/></r></p></e>
-	<e><p><l>bieđđat<s n="V"/><s n="IV"/></l><r>riehua<s n="V"/></r></p></e>
-	<e><p><l>borggihit<s n="V"/><s n="TV"/></l><r>pöllähtää<s n="V"/></r></p></e>
-	<e><p><l>deattuhit<s n="V"/><s n="TV"/></l><r>korostaa<s n="V"/></r></p></e>
-	<e><p><l>gártat<s n="V"/><s n="IV"/></l><r>joutua<s n="V"/></r></p></e>
-	<e><p><l>gávdnot<s n="V"/><s n="IV"/></l><r>löytyä<s n="V"/></r></p></e>
-	<e><p><l>gávnnahit<s n="V"/><s n="TV"/></l><r>todeta<s n="V"/></r></p></e>
-	<e><p><l>illosit<s n="V"/><s n="IV"/></l><r>riemastua<s n="V"/></r></p></e>
-	<e><p><l>láhppot<s n="V"/><s n="IV"/></l><r>eksyä<s n="V"/></r></p></e>
-	<e><p><l>movttiidahttit<s n="V"/><s n="TV"/></l><r>innostaa<s n="V"/></r></p></e>
-	<e><p><l>muitalit<s n="V"/><s n="TV"/></l><r>kertoa<s n="V"/></r></p></e>
-	<e><p><l>ovddidit<s n="V"/><s n="TV"/></l><r>esittää<s n="V"/></r></p></e>
-	<e><p><l>riepmat<s n="V"/><s n="IV"/></l><r>ryhtyä<s n="V"/></r></p></e>
-	<e><p><l>ráhkadit<s n="V"/><s n="TV"/></l><r>rakentaa<s n="V"/></r></p></e>
-	<e><p><l>ráhkestit<s n="V"/><s n="TV"/></l><r>rakastaa<s n="V"/></r></p></e>
-	<e><p><l>smiehttat<s n="V"/><s n="IV"/></l><r>miettiä<s n="V"/></r></p></e>
-	<e><p><l>vásihit<s n="V"/><s n="TV"/></l><r>kokea<s n="V"/></r></p></e>
-	<e><p><l>ávnnastit<s n="V"/><s n="TV"/></l><r>työstää<s n="V"/></r></p></e>
-	<e><p><l>čájáhallat<s n="V"/><s n="IV"/></l><r>näytellä<s n="V"/></r></p></e>
+	<e><p><l>baldit<s n="V"/><s n="TV"/></l><r>pelottaa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>bieđđat<s n="V"/><s n="IV"/></l><r>riehua<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>borggihit<s n="V"/><s n="TV"/></l><r>pöllähtää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>deattuhit<s n="V"/><s n="TV"/></l><r>korostaa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>gártat<s n="V"/><s n="IV"/></l><r>joutua<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>gávdnot<s n="V"/><s n="IV"/></l><r>löytyä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>gávnnahit<s n="V"/><s n="TV"/></l><r>todeta<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>illosit<s n="V"/><s n="IV"/></l><r>riemastua<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>láhppot<s n="V"/><s n="IV"/></l><r>eksyä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>movttiidahttit<s n="V"/><s n="TV"/></l><r>innostaa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>muitalit<s n="V"/><s n="TV"/></l><r>kertoa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>ovddidit<s n="V"/><s n="TV"/></l><r>esittää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>riepmat<s n="V"/><s n="IV"/></l><r>ryhtyä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>ráhkadit<s n="V"/><s n="TV"/></l><r>rakentaa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>ráhkestit<s n="V"/><s n="TV"/></l><r>rakastaa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>smiehttat<s n="V"/><s n="IV"/></l><r>miettiä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>vásihit<s n="V"/><s n="TV"/></l><r>kokea<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>ávnnastit<s n="V"/><s n="TV"/></l><r>työstää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>čájáhallat<s n="V"/><s n="IV"/></l><r>näytellä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>cummestit<s n="V"/><s n="IV"/></l><r>suudella<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>guođđit<s n="V"/><s n="TV"/></l><r>jättää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>veahkehit<s n="V"/><s n="TV"/></l><r>auttaa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>earuhit<s n="V"/><s n="TV"/></l><r>erottaa<s n="V"/></r></p><par n="V_V"/></e>
-	<e><p><l>lihkadit<s n="V"/><s n="IV"/>/></l><r>madella<s n="V"/></r></p></e>
-	<e><p><l>lassánit<s n="V"/><s n="IV"/>/></l><r>lisääntyä<s n="V"/></r></p></e>
-	<e><p><l>ráđđet<s n="V"/><s n="TV"/>/></l><r>hallita<s n="V"/></r></p></e>
-	<e><p><l>vileštit<s n="V"/><s n="IV"/>/></l><r>vilistä<s n="V"/></r></p></e>
-	<e><p><l>ráđđet<s n="V"/><s n="TV"/>/></l><r>vallita<s n="V"/></r></p></e>
-	<e><p><l>šaddat<s n="V"/><s n="IV"/>/></l><r>tuottaa<s n="V"/></r></p></e>
-	<e><p><l>bures#sivdnidit<s n="V"/><s n="TV"/>/></l><r>siunata<s n="V"/></r></p></e>
-	<e><p><l>ihtit<s n="V"/><s n="IV"/>/></l><r>näkyä<s n="V"/></r></p></e>
-	<e><p><l>goiket<s n="V"/><s n="TV"/>/></l><r>kuivaa<s n="V"/></r></p></e>
+	<e><p><l>lihkadit<s n="V"/><s n="IV"/></l><r>madella<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>lassánit<s n="V"/><s n="IV"/></l><r>lisääntyä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>ráđđet<s n="V"/><s n="TV"/></l><r>hallita<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>vileštit<s n="V"/><s n="IV"/></l><r>vilistä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>ráđđet<s n="V"/><s n="TV"/></l><r>vallita<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>šaddadit<s n="V"/><s n="TV"/></l><r>tuottaa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>buressivdnidit<s n="V"/><s n="TV"/></l><r>siunata<s n="V"/></r></p><par n="V_V"/></e> <!-- buressivdnidit -->
+	<e><p><l>ihtit<s n="V"/><s n="IV"/></l><r>näkyä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>goiket<s n="V"/><s n="TV"/></l><r>kuivaa<s n="V"/></r></p><par n="V_V"/></e>
 
     
     <!-- Punctuation -->
