@@ -55,6 +55,8 @@
 	
 	<sdef n="Interj"	c="Interjection" />
 
+	<sdef n="Der2"	c="Derivation / 2" />
+	<sdef n="Der_ja"	c="Derivation / ja" />
   </sdefs>
   <pardefs>
     <pardef n="A_A">
@@ -63,6 +65,7 @@
     </pardef>
     <pardef n="V_V">
       <e><p><l></l><r><s n="Act"/></r></p></e>
+      <e><p><l><s n="Der2"/><s n="Actor"/></l><r><s n="Der_ja"/></r></p></e>
       <e><p><l></l><r></r></p></e>
     </pardef>
   </pardefs>
@@ -3196,6 +3199,8 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>seavdnjat<s n="A"/></l><r><s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>láhkásaš<s n="A"/></l><r>kaltainen<s n="A"/></r></p><par n="A_A"/></e>
 
+	<e><p><l>seavdnjat<s n="A"/></l><r>pimeä<s n="A"/></r></p><par n="A_A"/></e> <!-- TODO:CHECK -->
+
 	<!-- ! Adv - A, etc ???  -->
 	<e><p><l>vuolibuš<s n="Adv"/></l><r>alamainen<s n="A"/></r></p></e>
 	<e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e>
@@ -3233,6 +3238,7 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<!-- oba <Adv> oppa <Adv> / koko <Pcle> <Pron> -->
 
 	<e><p><l>gaskii<s n="Adv"/></l><r>välille<s n="Adv"/></r></p></e>
+	<e><p><l>ovtta<s n="Adv"/></l><r>näkyviin<s n="Adv"/></r></p></e> <!-- TODO: CHECK -->
 	
 	<e><p><l>juohke<b/>bealde<s n="Po"/></l><r>kaikkialla<s n="Adv"/></r></p></e>
 
