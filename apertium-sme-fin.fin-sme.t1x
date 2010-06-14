@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transfer>
   <section-def-cats>
-  <def-cat n="verb">
+  <def-cat n="verb"> 
     <cat-item tags="V.*"/>
   </def-cat>
   <def-cat n="inf">
@@ -9,6 +9,9 @@
     <cat-item tags="V.*.Inf2.*"/>
     <cat-item tags="V.*.Inf3.*"/>
     <cat-item tags="V.*.PrfPrc.*"/>
+  </def-cat>
+  <def-cat n="v_actor">
+    <cat-item tags="V.Der_ja.*"/>
   </def-cat>
     <def-cat n="nom_cmpnd">
       <cat-item tags="N.*.*.Cmpnd"/> 
@@ -90,6 +93,11 @@
       <attr-item tags="Pl1" />
       <attr-item tags="Pl2" />
       <attr-item tags="Poss3" /> <!-- Hmm, is this inconsistency a problem? -->
+	</def-attr>
+	<def-attr n="a_der">
+	  <attr-item tags="Def_ja" />
+      <attr-item tags="Der2" />
+	
 	</def-attr>
 	<def-attr n="a_voice">
 		<attr-item tags="Act"/>
@@ -254,6 +262,49 @@
 			</out>
 		</action>
     </rule>
+    
+        <rule comment="regla: v_actor">
+      <pattern>
+        	<pattern-item n="v_actor"/>
+      </pattern>
+      <action>
+		<call-macro n="set_loc_loc1">
+			<with-param pos="1"/>
+		</call-macro>
+		<call-macro n="set_tra_ill1">
+			<with-param pos="1"/>
+		</call-macro>
+		<call-macro n="set_par_gen">
+			<with-param pos="1"/>
+		</call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+	    <call-macro n="strip_nbr">
+		<with-param pos="1"/>
+	    </call-macro>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="lem"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <lit-tag v="Der2.Actor.N"/>
+            <!-- <clip pos="1" side="tl" part="gen"/> -->
+            <clip pos="1" side="tl" part="nbr"/>
+            <clip pos="1" side="tl" part="a_case" />
+			<clip pos="1" side="tl" part="a_poss" />
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    
 	<rule>
 		<pattern>
 			<pattern-item n="verb" />
@@ -273,6 +324,8 @@
 			</out>
 		</action>
 	</rule>
+	
+	
         <rule> <!-- we need to look at how compound words are translated / generated. e.g. just next to each other, or with + or something -->
       <pattern>
         	<pattern-item n="nom"/>
@@ -307,7 +360,7 @@
             <clip pos="1" side="tl" part="a_nom"/>
             <clip pos="1" side="tl" part="nbr"/>
             <clip pos="1" side="tl" part="a_case" />
-	    <clip pos="1" side="tl" part="a_poss" />
+	        <clip pos="1" side="tl" part="a_poss" />
             <clip pos="1" side="tl" part="lemq"/>
           </lu>
         </out>
@@ -354,6 +407,10 @@
         </out>
       </action>
     </rule>
+    
+    
+
+    
     
     
 
