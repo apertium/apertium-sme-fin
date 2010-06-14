@@ -48,3 +48,11 @@ $ echo "viheriät" |apertium -d . fin-sme-morph
 
 What can we do with this ? Just add it as lexicalised in Omorfi ?
 
+
+# elävä - ealli (adjective, verb)
+
+^elävät/elävä<A><Pos><Pl><Nom>$
+
+        <e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e>
+
+Can we somehow add elävä as a verb, or ealli as an adjective ?
