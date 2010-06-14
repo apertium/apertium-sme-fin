@@ -36,6 +36,7 @@ dev/bidix/V.lex.orig -text
 dev/bidix/calc-levenshtein.py -text
 dev/countries.txt -text
 dev/scripts/debug.py -text
+dev/update-lexc.py -text
 dev/update-lexc.sh -text
 dev/uppercase-first.twol -text
 dev/xfst2apertium.hashtags.twol -text
