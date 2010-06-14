@@ -27,3 +27,24 @@ mihin	mihin+Adv
 mihin works as a compl:
 
 paikka, mihin vedet olivat kokontuneet
+
+#  yks - pron? 
+
+ @yks<Pron><Sg><Ill> 
+
+$ echo yhteen | ofin
+yhteen	yksi+Num+Card+Sg+Ill
+yhteen	yksi+Pron+Sg+Ill
+yhteen	yks+Pron+Sg+Ill
+yhteen	yhteen+Adv
+yhteen	yhde+N+Sg+Gen
+
+can we just remove the pronoun reading when there is a number reading ? 
+
+# prefixes ?
+
+$ echo "viheriät" |apertium -d . fin-sme-morph
+^viheriät/viher<Pfx><Cmpnd>+ikä<N><Pl><Nom>/viher<Pfx><Cmpnd>+ikä<N><Pl><Nom>$
+
+What can we do with this ? Just add it as lexicalised in Omorfi ?
+
