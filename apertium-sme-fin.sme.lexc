@@ -10416,6 +10416,7 @@ váhnen#čoahkkin:váhnen#čoahkkim GAHPIRLONG ;
 váibmu:vájbmu AIGI ;
 vái0vi:váj'vi GOAHTI ;
  váldo#doaimmaheaddji+SgNomCmp+SgGenCmp+PlGenCmp:váldo#doaimmaheaddji¤ ACTOR ; !
+váldo#rol0la:váldo#rol'la GOAHTI ;
 váldo#áš0ši:váldo#áš'ši GOAHTI ;
 válli ALBMI ;
  vánddardeaddji+SgNomCmp+SgGenCmp+PlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft:vánddardeaddji¤ ACTOR ; !
@@ -11114,6 +11115,26 @@ njálmmálaš:njálmmál DABALAS ;
  olles#ahkásaš+SgNomCmp+SgGenCmp+PlGenCmp:olles#ahkás AHKASAS ; !
 ollislaš:ollisl DABALAS ;
 ol0lu:ol'lu BOREALA ;
+ ovtta-ahkáhaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta-ahkáh AHKASAS ; !
+ ovtta#gielalaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#gielal AHKASAS ; !
+ ovtta#mielalaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#mielal ETNOLOGALAS ; !
+ ovtta#jienalaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#jienal ETNOLOGALAS ; !
+ ovtta#ráđálaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#ráđál DABALAS ; !
+ ovttaskas+SgNomCmp+SgGenCmp+PlGenCmp:ovttask ISSORAS ; !
+ ovtta#nammasaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#nammas AHKASAS ; !
+ ovttaskas#lundosaš+SgNomCmp+SgGenCmp+PlGenCmp:ovttaskas#lundos AHKASAS ; !
+ ovtta#allosaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#allos AHKASAS ; !
+ ovtta#guvlosaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#guvlos AHKASAS ; !
+ ovtta#sturrosaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#sturros AHKASAS ; !
+ ovtta#ahkásaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#ahkás AHKASAS ; !
+ ovtta#ahkásaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#ahkás AHKASAS ; !
+ ovtta-ahkásaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta-ahkás AHKASAS ; !
+ ovtta#jahkásaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#jahkás AHKASAS ; !
+ ovtta#láhkásaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#láhkás AHKASAS ; !
+ ovtta#hápmásaš+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#hápmás AHKASAS ; !
+ ovtta#gielat+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#gielag AGAdj ; !
+ ovtta#muottat+SgNomCmp+SgGenCmp+PlGenCmp:ovtta#muottag AGAdj ; !
+ ovtta#bealát+Use/Sub:ovtta#bealáh AGAdj ; !
  ođastan#hálolaš+SgNomCmp+SgGenCmp+PlGenCmp:ođastan#hálol ETNOLOGALAS ; !
 o0đas:ođđa GARAS ;
 ođđa#áigásaš:ođđa#áigás ETNOLOGALAS ;
@@ -13750,6 +13771,15 @@ mot adv ;
 ollu adv ;
  ovdal#gihtii+Use/Sub:ovdal#gihtii adv; !
 ovdal adv ;
+ovtta adv ;
+ ovttaid#ovttaid+Use/Sub:ovttaid9#ovttajd9 adv ; !
+ ovtta#fáru+Use/Sub:ovtta#fáru adv; !
+ ovtta#ládje+Use/Sub:ovtta#ládje adv; !
+ ovtta#láhkai+Use/Sub:ovtta#láhkai adv; !
+ ovtta#láhkái+Use/Sub:ovtta#láhkái adv; !
+ ovtta#mielas+Use/Sub:ovtta#mielas adv; !
+ ovttat#ládje+Use/Sub:ovttat#ládje adv; !
+ ovttat#láhkái+Use/Sub:ovttat#láhkái adv; !
 ođđasis adv ;
 rievttuid:rievttujd9 adv ;
 ruovtto#luotta adv ;
