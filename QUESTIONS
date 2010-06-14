@@ -1,32 +1,36 @@
-
-... markdown syntax.
+markdown syntax.
 
 # Morphology or CG or what?
 
-	9 Ja Jumala sanoi: "Kokoontukoot vedet, jotka ovat taivaan alla, yhteen paikkaan, niin että kuiva tulee näkyviin". Ja tapahtui niin.
-	9 Ipmil celkkii: «Čoahkkanehkoset čázit almmi vuolde ovtta sadjái, ja ihtos goikeeanan!» Ja nu šattai.
+> 9 Ja Jumala sanoi: "Kokoontukoot vedet, jotka ovat taivaan alla, yhteen paikkaan, niin että kuiva tulee näkyviin". Ja tapahtui niin.
+>
+> 9 Ipmil celkkii: «Čoahkkanehkoset čázit almmi vuolde ovtta sadjái, ja ihtos goikeeanan!» Ja nu šattai.
 
 
 kuiva - adjective, goike#eanan - noun
-kuiva potentially nominal, but 
+kuiva potentially nominal, but adj in the morphology.
+
+Change in morph, or elsewhere?
+
+# Account on bug tracker
+
+http://giellatekno.uit.no/bugzilla/buglist.cgi?cmdtype=runnamed&namedcmd=mtbugs
 
 
+# Mihin - Pron+Rel?
 
-# Mihin - rel?
+> paikka, mihin vedet olivat kokontuneet
 
+	$ echo "johon" | ofin
+	johon	joka+Pron+Rel+Sg+Ill
 
-$ echo "johon" | ofin
-johon	joka+Pron+Rel+Sg+Ill
+	$ echo "mihin" | ofin
+	mihin	mikä+Pron+Interr+Sg+Ill
+	mihin	mihin+Adv
 
-$ echo "mihin" | ofin
-mihin	mikä+Pron+Interr+Sg+Ill
-mihin	mihin+Adv
+Adv?
 
-> Adv?
-
-mihin works as a compl:
-
-paikka, mihin vedet olivat kokontuneet
+mihin works as a comp. Change in morphology or what?
 
 #  yks - pron? 
 
@@ -41,6 +45,31 @@ yhteen	yhde+N+Sg+Gen
 
 can we just remove the pronoun reading when there is a number reading ? 
 
+# Comparative adverbs
+
+> hitaammin ~ njoazibut
+
+	$ echo "hitaammin" | ofin
+	hitaammin	hidas+A+Comp+Pl+Ins
+	hitaammin	hidas+A+Der/sti+Adv+Comp
+
+	$ echo "njoazibut" | sme
+	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Sg+Nom+Use/Marg+Use/Ped+PxSg2
+	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Sg+Gen+Use/Marg+Use/Ped+PxSg2
+	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Sg+Acc+Use/Marg+Use/Ped+PxSg2
+	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Pl+Nom
+	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Der2+Der/at+Adv
+
+	$ echo "nopeammin" | ofin
+	nopeammin	nopea+A+Comp+Pl+Ins
+	nopeammin	nopea+A+Der/sti+Adv+Comp
+
+
+	$ echo "hoahpubut" | sme
+	hoahpubut	hoahpubut+Adv+Comp
+
+
+
 # prefixes ?
 
 $ echo "viheriät" |apertium -d . fin-sme-morph
@@ -51,8 +80,40 @@ What can we do with this ? Just add it as lexicalised in Omorfi ?
 
 # elävä - ealli (adjective, verb)
 
-^elävät/elävä<A><Pos><Pl><Nom>$
+> elävä ~ ealli
 
-        <e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e>
+	^elävät/elävä<A><Pos><Pl><Nom>$
 
-Can we somehow add elävä as a verb, or ealli as an adjective ?
+	<e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e>
+
+Can we somehow add elävä as a verb, or ealli as an adjective ? 	Is there a real grammatical reason for this, or would it be alright to add an Adj reading?
+
+
+	$ echo "elävä" | ofin
+	elävä	elävä+A+Pos+Sg+Nom
+	elävä	elää+V+Act+PrsPcp+Pos+Sg+Nom
+
+	$ echo "ealli" | sme
+	ealli	ealli+SgNomCmp+SgGenCmp+PlGenCmp+N+Actor+Sg+Nom
+	ealli	ealli+SgNomCmp+SgGenCmp+PlGenCmp+N+Actor+Sg+Gen
+	ealli	ealli+SgNomCmp+SgGenCmp+PlGenCmp+N+Actor+Sg+Acc
+	ealli	eallit+V+IV+Use/Sub+PrsPrc+Use/Sub
+	ealli	eallit+V+IV+Imprt+Du2
+	ealli	eallit+V+IV+Der2+Actor+N+Sg+Nom
+	ealli	eallit+V+IV+Der2+Actor+N+Sg+Gen
+	ealli	eallit+V+IV+Der2+Actor+N+Sg+Acc
+	
+
+
+
+# lexicon modifications
+
+> soajálaš ~ siivekäs
+
+
+# change in POS: Adv -> Po
+
+> kaikkialla ~ juohke bealde
+
+omorfi - Adv
+gt sme - bealde +Po
