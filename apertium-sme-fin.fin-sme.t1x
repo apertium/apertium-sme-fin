@@ -22,6 +22,9 @@
     <def-cat n="adj">
         <cat-item tags="A.*"/>
     </def-cat>
+	<def-cat n="pronrefl">
+		<cat-item tags="Pron.Refl.*"/>
+	</def-cat>
     <def-cat n="pronindef">
 	  <cat-item tags="Pron.Indef.*"/>
     </def-cat>
@@ -132,6 +135,14 @@
 		<attr-item tags="Pl2"/>
 		<attr-item tags="Pl3"/>
 		<attr-item tags="Pe4"/>
+	</def-attr>
+	<def-attr n="a_pxprs">
+		<attr-item tags="PxSg1"/>
+		<attr-item tags="PxSg2"/>
+		<attr-item tags="PxSg3"/>
+		<attr-item tags="PxPl1"/>
+		<attr-item tags="PxPl2"/>
+		<attr-item tags="PxPl3"/>
 	</def-attr>
 	
   </section-def-attrs>
@@ -325,8 +336,33 @@
 		</action>
 	</rule>
 	
+	<rule>
+		<pattern>
+			<pattern-item n="pronrefl"/>
+		</pattern>
+		<action>
+			<call-macro n="set_loc_loc1">
+				<with-param pos="1"/>
+			</call-macro>
+			<call-macro n="set_tra_ill1">
+				<with-param pos="1"/>
+			</call-macro>
+			<call-macro n="set_par_gen">
+				<with-param pos="1"/>
+			</call-macro>
+			<out>
+				<lu>
+					<clip pos="1" side="tl" part="lemh"/>
+					<clip pos="1" side="tl" part="a_pron"/>
+					<clip pos="1" side="tl" part="a_case" />
+					<clip pos="1" side="tl" part="a_pxprs" />
+					<clip pos="1" side="tl" part="lemq"/>
+				</lu>
+			</out>
+		</action>
+	</rule>
 	
-        <rule> <!-- we need to look at how compound words are translated / generated. e.g. just next to each other, or with + or something -->
+    <rule> <!-- we need to look at how compound words are translated / generated. e.g. just next to each other, or with + or something -->
       <pattern>
         	<pattern-item n="nom"/>
       </pattern>
