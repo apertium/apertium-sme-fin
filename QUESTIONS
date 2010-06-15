@@ -128,3 +128,15 @@ Transferring an adjective to a reflexive pronoun.
 <Flammie> spectie: I just talked with a Finnish major about reflexive oma 
 constructions, turns out it has its own section in official grammar so it's 
 quite specific construct <http://scripta.kotus.fi/visk/sisallys.php?p=1456>
+
+# Multiple analyses for reflexives
+
+> alddádet/alddáneattet/alddiineattet/alddesteattet
+
+	$ echo "ieš+Pron+Refl+Loc+PxPl2" | smegen
+	ieš+Pron+Refl+Loc+PxPl2	alddiineattet
+	ieš+Pron+Refl+Loc+PxPl2	alddesteattet
+	ieš+Pron+Refl+Loc+PxPl2	alddáneattet
+	ieš+Pron+Refl+Loc+PxPl2	alddádet
+	
+What do we do?
