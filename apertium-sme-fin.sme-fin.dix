@@ -2381,6 +2381,7 @@
 	<e><p><l>eallu<s n="N"/></l><r>karja<s n="N"/></r></p></e>
     <e><p><l>čálus<s n="N"/></l><r>kirjoitus<s n="N"/></r></p></e> 
 	<e><p><l>ahki<s n="N"/></l><r>ikä<s n="N"/></r></p></e>
+	<e><p><l>eden<s n="N"/></l><r>eeden<s n="N"/></r></p></e> <!-- 'an Eden' / 'a paradise' -->
 
     
 <!-- 
@@ -2578,6 +2579,7 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <!-- Proper nouns -->
 
 
+    <e><p><l>Eden<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Eeden<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Afrihká<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Afrika<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Albánia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Albania<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Amerihká<b/>ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Amerikan<b/>yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
