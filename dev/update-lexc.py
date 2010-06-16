@@ -215,8 +215,8 @@ def make_lexc(TL=TARGET_LANGUAGE, SL=SOURCE_LANGUAGE, proc_lang=PRODUCE_LEXC_FOR
 				head, trim = extract(lt_expand_data, **step)
 				data = head + trim
 			except IOError, e:
-				print "... File %s does not exist." % step['fname']
-				return 2
+				print "*** File %s does not exist. Skipping. ***" % step['fname']
+				pass
 		elif type(step) == str:
 			try:
 				with open(step, 'r') as F:
@@ -224,8 +224,8 @@ def make_lexc(TL=TARGET_LANGUAGE, SL=SOURCE_LANGUAGE, proc_lang=PRODUCE_LEXC_FOR
 				print "... Reading all of %s" % step
 				data = cat_file(step, str, exclude=False)
 			except IOError, e:
-				print "... File %s does not exist." % step
-				return 2
+				print "*** File %s does not exist. Skipping. ***" % step
+				pass
 		output_app(data)
 	
 	# TODO:
@@ -266,6 +266,13 @@ DEFAULT VALUES IN FILE:
 '''
 
 help_message += default_values
+
+help_message += """
+Currently which -lex.txt files are processed is specified in a somewhat complicated way, however
+if one file is missing, then the file skips and processing should continue anyway.  It is likely
+that something else  will be needed for this,  since the .lexc files programmed in  are specific
+to sme. 
+"""
 
 class Usage(Exception):
 	def __init__(self, msg):
