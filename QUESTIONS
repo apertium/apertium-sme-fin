@@ -140,3 +140,20 @@ quite specific construct <http://scripta.kotus.fi/visk/sisallys.php?p=1456>
 	ieš+Pron+Refl+Loc+PxPl2	alddádet
 	
 What do we do?
+
+> ožžon/ožžon/ožžon/ožžon ??
+
+	$ echo "se on saanut klassikon maineen" | fin-sme
+	dat lea ožžon/ožžon/ožžon/ožžon klassihkkara #eana
+	
+	$ echo "se on saanut klassikon maineen" | fin-sme-tagger
+	^se/se<Pron><Dem><Sg><Nom>$ ^on/olla<V><Act><Ind><Prs><Sg3>$ ^saanut/saada<V><Act><PrfPrc><Pos><Sg><Nom>$ ^klassikon/klassikko<N><Sg><Gen>$ ^maineen/maa<N><Cmt><PxPl3>/maa<N><Cmt><PxSg3>/Maine<N><Prop><Sg><Ill>/maine<N><Sg><Gen>$^./.<Punct><CLB>$
+	
+	$ echo "se on saanut klassikon maineen" | fin-sme-chunker
+	^dat<Pron><Dem><Sg><Nom>$ ^leat<V><IV><Ind><Prs><Sg3>$ ^oažžut<V><TV><PrfPrc>$ ^klassihkar<N><Sg><Gen>$ ^eana<N><Cmt>$^.<CLB>$
+
+Whence these extra analyses?
+
+# Viime aikoina ~ maŋimus áiggiid
+
+How to handle this? It's not somthing that can be done with a transfer rule, I believe.

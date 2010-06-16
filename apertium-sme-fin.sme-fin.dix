@@ -2081,7 +2081,8 @@
     <e><p><l>čeahci<s n="N"/></l><r>setä<s n="N"/></r></p></e>
     <e><p><l>šillju<s n="N"/></l><r>piha<s n="N"/></r></p></e>
 
-
+	<e><p><l>niehku<s n="N"/></l><r>unelma<s n="N"/></r></p></e>
+	<e><p><l>publihkka<s n="N"/></l><r>yleisö<s n="N"/></r></p></e>
     <e><p><l>festivála<s n="N"/></l><r>festivaali<s n="N"/></r></p></e>
     <e><p><l>suopman<s n="N"/></l><r>murre<s n="N"/></r></p></e>
     <e><p><l>nissonolmmoš<s n="N"/></l><r>nainen<s n="N"/></r></p></e>
@@ -2343,6 +2344,8 @@
     <e><p><l>doavttirskuvla<s n="N"/></l><r>lääketieteellinen<b/>tiedekunta<s n="N"/></r></p></e>
     
     <e><p><l>kanála<s n="N"/></l><r>kanava<s n="N"/></r></p></e>
+	<e><p><l>duohki<s n="N"/></l><r>taka<s n="N"/></r></p></e>
+	<e><p><l>seksualašvuohta<s n="N"/></l><r>seksuaalisuus<s n="N"/></r></p></e>
 	
     <e><p><l>lahttomáksu<s n="N"/></l><r>jäsenmaksu<s n="N"/></r></p></e>
     
@@ -2956,6 +2959,9 @@ some of these are likely not that common... need to fix slashed entries and dupl
 
 
     <e><p><l>ávvudeapmi<s n="N"/></l><r>juhliminen<s n="N"/></r></p></e>
+	
+	<e><p><l>beaggin<s n="N"/></l><r>maine<s n="N"/></r></p></e>
+	
 
 
     <!-- Adjectives -->
@@ -3200,8 +3206,10 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>soajálaš<s n="A"/></l><r>siivekäs<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>seavdnjat<s n="A"/></l><r><s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>láhkásaš<s n="A"/></l><r>kaltainen<s n="A"/></r></p><par n="A_A"/></e>
+	<e><p><l>čiekŋaliimanni<s n="A"/></l><r> syvällinen<s n="A"/></r></p><par n="A_A"/></e>
 
 	<e><p><l>seavdnjat<s n="A"/></l><r>pimeä<s n="A"/></r></p><par n="A_A"/></e> <!-- TODO:CHECK -->
+	<e><p><l>vigiheapmi<s n="A"/></l><r>viaton<s n="A"/></r></p><par n="A_A"/></e>
 
 	<!-- ! Adv - A, etc ???  -->
 	<e><p><l>vuolibuš<s n="Adv"/></l><r>alamainen<s n="A"/></r></p></e>
@@ -3217,7 +3225,7 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>eambbo<s n="Adv"/></l><r>enemmän<s n="Adv"/></r></p></e>
     <e><p><l>fargga<s n="Adv"/></l><r>kohta<s n="Adv"/></r></p></e>
     <e slr="1"><p><l>fargga<s n="Adv"/></l><r>pian<s n="Adv"/></r></p></e>
-    <e><p><l>jaska<s n="Adv"/></l><r>niin<s n="Adv"/></r></p></e>
+    <e><p><l>nu<s n="Adv"/></l><r>niin<s n="Adv"/></r></p></e>
     <e><p><l>dávjá<s n="Adv"/></l><r>usein<s n="Adv"/></r></p></e>
     <e><p><l>ođđasis<s n="Adv"/></l><r>taas<s n="Adv"/></r></p></e>
     <e><p><l>virggálaččat<s n="Adv"/></l><r>virallisesti<s n="Adv"/></r></p></e>
@@ -3236,13 +3244,28 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>bures<s n="Adv"/></l><r>hyvin<s n="Adv"/></r></p></e>
 	<e><p><l>eret<s n="Adv"/></l><r>pois<s n="Adv"/></r></p></e>
 	<e><p><l>mot<s n="Adv"/></l><r>kuinka<s n="Adv"/></r></p></e>
+	<e><p><l>uhcánaččaid<s n="Adv"/></l><r>vähitellen<s n="Adv"/></r></p></e>
+	
 	
 	<!-- oba <Adv> oppa <Adv> / koko <Pcle> <Pron> -->
 
 	<e><p><l>gaskii<s n="Adv"/></l><r>välille<s n="Adv"/></r></p></e>
 	<e><p><l>ovtta<s n="Adv"/></l><r>näkyviin<s n="Adv"/></r></p></e> <!-- TODO: CHECK -->
+	<e><p><l>seammás<s n="Adv"/></l><r>samalla<s n="Adv"/></r></p></e>
+	
+	<!-- <e><p><l>maŋimus<b/>áiggiid</l><r>viime<b/>aikoina</r></p></e> -->
+
+	<e><p><l>maŋimus<s n="Adv"/></l><r>viime<s n="Pcle"/></r></p></e>
 	
 	<e><p><l>juohke<b/>bealde<s n="Po"/></l><r>kaikkialla<s n="Adv"/></r></p></e>
+	
+	<e><p><l>veardde<s n="Po"/></l><r>verran<s n="Adv"/></r></p></e>
+	
+	
+	<!-- Are these relative markers? should they be tagged as such? -->
+	<e><p><l>maid<s n="Adv"/></l><r>mitä<s n="Adv"/></r></p></e>
+	<e><p><l>dás<s n="Adv"/></l><r>tässä<s n="Adv"/></r></p></e>
+	
 
 
     <!-- Verbs -->
