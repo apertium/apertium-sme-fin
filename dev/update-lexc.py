@@ -1,11 +1,20 @@
 #!/usr/bin/python
 
-import os, sys
+import os, sys, getopt
 import subprocess as sp
 import re
 
 # Some global stuff
 PIPE = sp.PIPE
+
+# Set these here, or use commandline to pass in arguments
+TARGET_LANGUAGE = "sme"
+SOURCE_LANGUAGE = "fin"
+GTHOME = os.environ.get("GTHOME")
+PRODUCE_LEXC_FOR = "sme"
+OUTPUT_DIR = os.getcwd() + '/../'
+GTPFX = 'gt'
+
 
 # 	Regexp to exclude lines we don't want
 lex_excludes = [
@@ -142,7 +151,7 @@ def extract(data, fname, pos_filter, split, no_header=False, no_trim=False, debu
 		return head, trim
 
 
-def make_lexc(TL="sme", SL="fin", proc_lang="sme", GTHOME=os.environ.get("GTHOME")):
+def make_lexc(TL=TARGET_LANGUAGE, SL=SOURCE_LANGUAGE, proc_lang=PRODUCE_LEXC_FOR, gthome=GTHOME, gtpfx=GTPFX, out_dir=OUTPUT_DIR):
 	"""
 		This does everything.
 		
@@ -161,7 +170,7 @@ def make_lexc(TL="sme", SL="fin", proc_lang="sme", GTHOME=os.environ.get("GTHOME
 	# 		print "$GTHOME not set."
 	# 		sys.exit() # TODO: exit with error
 	
-	SRC = "%s/gt/%s/src" % (GTHOME, proc_lang)
+	SRC = "%s/%s/%s/src" % (gthome, gtpfx, proc_lang)
 	
 	DEV = os.getcwd()
 	OUTFILE = "%s.%s.lexc" % (BASENAME, proc_lang) # TODO: change to prod location.
@@ -220,6 +229,7 @@ def make_lexc(TL="sme", SL="fin", proc_lang="sme", GTHOME=os.environ.get("GTHOME
 	# head -n $punct_point $PUNCTLEXC >> $OUTFILE;
 	
 	out_ = '\n'.join([a for a in output_])
+	OUTFILE = out_dir + OUTFILE
 	with open(OUTFILE, 'w') as F:
 		F.write(out_)
 	
@@ -228,4 +238,89 @@ def make_lexc(TL="sme", SL="fin", proc_lang="sme", GTHOME=os.environ.get("GTHOME
 	return True
 
 
-make_lexc()
+### Begin command-line and input handling
+
+default_values = '\n'
+default_values += "\t--target-lang:   %s\n" % TARGET_LANGUAGE
+default_values += "\t--source-lang:   %s\n" % SOURCE_LANGUAGE
+default_values += "\t--proc-lang:     %s\n" % PRODUCE_LEXC_FOR
+default_values += "\t--gthome:        %s\n" % GTHOME
+default_values += "\t--gt-prefix:     %s\n" % GTPFX
+default_values += "\t--output-dir:    %s\n" % OUTPUT_DIR
+
+
+help_message = '''\n\nOPTIONS:
+	-t/--target-lang	
+	-s/--source-lang	
+	-p/--proc-lang	Language to process lexc files for
+	-g/--gthome	Giellatekno source repository
+	-x/--gt-prefix	Giellatekno subdirectory, e.g., gt, kt.
+	-o/--output-dir	Location to output to. Default is one up from /dev/
+	
+DEFAULT VALUES IN FILE:
+'''
+
+help_message += default_values
+
+class Usage(Exception):
+	def __init__(self, msg):
+		self.msg = msg
+
+# make_lexc(TL=TARGET_LANGUAGE, SL=SOURCE_LANGUAGE, proc_lang=PRODUCE_LEXC_FOR, gthome=GTHOME, gtpfx=GTPFX, out_dir=OUTPUT_DIR):
+
+def main(argv=None):
+	
+	# Set commandline defaults
+	cmd_tl            = TARGET_LANGUAGE
+	cmd_sl            = SOURCE_LANGUAGE
+	cmd_proc_lang     = PRODUCE_LEXC_FOR
+	cmd_gthome        = GTHOME
+	cmd_gtpfx         = GTPFX
+	cmd_outdir        = OUTPUT_DIR
+	
+	if argv is None:
+		argv = sys.argv
+	try:
+		try:
+			opts, args = getopt.getopt(argv[1:], "tspgxho:v", ["help", "target-lang=", "source-lang=", "proc-lang=", "gthome=", "gt-prefix=", "output-dir="])
+		except getopt.error, msg:
+			raise Usage(msg)
+
+		# option processing
+		if len(opts) == 0:
+			print "\nUsing default values specified in file."
+			print "See --help for more information. \n"
+			
+		for option, value in opts:
+			if option == "-v":
+				verbose = True
+			if option in ("-h", "--help"):
+				raise Usage(help_message)
+			if option in ("-t", "--target-lang"):
+				cmd_tl = value
+			if option in ("-s", "--source-lang"):
+				cmd_sl = value
+			if option in ("-p", "--proc-lang"):
+				cmd_proc_lang = value
+			if option in ("-g", "--gthome"):
+				cmd_gthome = value
+			if option in ("-x", "--gt-prefix"):
+				cmd_gtpfx = value
+			if option in ("-o", "--output-dir"):
+				cmd_outdir = value
+		
+		make_lexc(TL=cmd_tl, SL=cmd_sl, proc_lang=cmd_proc_lang, gtpfx=cmd_gtpfx, out_dir=cmd_outdir)
+
+
+	except Usage, err:
+		print >> sys.stderr, sys.argv[0].split("/")[-1] + ": " + str(err.msg)
+		print >> sys.stderr, "For help use --help.\n"
+		return 2
+
+
+if __name__ == "__main__":
+	# make_lexc()
+	sys.exit(main())
+
+
+
