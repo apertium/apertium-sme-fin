@@ -4,10 +4,14 @@ import os, sys, getopt
 import subprocess as sp
 import re
 
-# Some global stuff
 PIPE = sp.PIPE
 
-# Set these here, or use commandline to pass in arguments
+#########
+# 
+#  Set these options here for default behavior, or use commandline to pass in arguments. See --help.
+#
+#########
+
 TARGET_LANGUAGE = "sme"
 SOURCE_LANGUAGE = "fin"
 GTHOME = os.environ.get("GTHOME")
@@ -247,6 +251,7 @@ default_values += "\t--proc-lang:     %s\n" % PRODUCE_LEXC_FOR
 default_values += "\t--gthome:        %s\n" % GTHOME
 default_values += "\t--gt-prefix:     %s\n" % GTPFX
 default_values += "\t--output-dir:    %s\n" % OUTPUT_DIR
+default_values += "\n\tDefault proc dir: %s\n" % "%s%s/%s/src/" % (GTHOME, GTPFX, PRODUCE_LEXC_FOR)
 
 
 help_message = '''\n\nOPTIONS:
