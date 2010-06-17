@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2.6
 
 import os, sys, getopt
 import subprocess as sp
@@ -6,18 +6,135 @@ import re
 
 PIPE = sp.PIPE
 
+class Config(object):
+	def __init__(self):
+		self.set_defaults()
+		
+	def set_defaults(self):
+		"""
+			Set default options. Don't change them here if you're editing the file. Change below.
+		"""
+		self.TARGET_LANGUAGE = "sme"
+		self.SOURCE_LANGUAGE = "fin"
+		self.GTHOME = os.environ.get("GTHOME")
+		self.PRODUCE_LEXC_FOR = "sme"
+		self.OUTPUT_DIR = '.'
+		self.GTPFX = 'gt'
+		
+		self.SRC = '/omg/'
+		
+		proc_lang = self.PRODUCE_LEXC_FOR
+
+		self.HEADER = "sme-lex.txt"
+		
+		# List of lists, first item is filename, second item is action 'clip' or 'cat', third is dictionary of options.
+		self.files = [
+			["verb-sme-lex.txt", 	'clip', 	{'pos_filter': 'V', 'split': 'VerbRoot\n'}],
+			["punct-sme-lex.txt", 			'cat']
+		]
+		
+		return True
+	
+	def return_dict(self):
+		D = {
+			"TARGET_LANGUAGE": self.TARGET_LANGUAGE,
+			"SOURCE_LANGUAGE": self.SOURCE_LANGUAGE,
+			"GTHOME": self.GTHOME,
+			"GTPFX": self.GTPFX,
+			"OUTPUT_DIR": self.OUTPUT_DIR,
+			"PRODUCE_LEXC_FOR": self.PRODUCE_LEXC_FOR,
+			"files": self.files
+		}
+		return D
+	
+	def read_from_dict(self, D):
+		# convert all arguments to str, json module is a little funny
+		for k, v in D.items():
+			if type(k) == unicode:
+				a = str(k)
+			if type(v) == unicode:
+				b = str(v)
+			self.__setattr__(a, b)
+			if a == 'files':
+				print a
+				print b
+		
+		self.files = D['files']
+		self.SRC = SRC = self.GTHOME + '/' + self.GTPFX + '/' + self.PRODUCE_LEXC_FOR + '/src/'
+
+class Configs(object):
+	def __init__(self):
+		self.langs = [Config()]
+
 #########
 # 
 #  Set these options here for default behavior, or use commandline to pass in arguments. See --help.
 #
 #########
 
-TARGET_LANGUAGE = "sme"
-SOURCE_LANGUAGE = "fin"
-GTHOME = os.environ.get("GTHOME")
-PRODUCE_LEXC_FOR = "sme"
-OUTPUT_DIR = os.getcwd() + '/../'
-GTPFX = 'gt'
+CONF = Configs()
+
+CONF.langs[0].TARGET_LANGUAGE = "sme"
+CONF.langs[0].SOURCE_LANGUAGE = "fin"
+CONF.langs[0].GTHOME = os.environ.get("GTHOME")
+CONF.langs[0].PRODUCE_LEXC_FOR = "sme"
+CONF.langs[0].OUTPUT_DIR = os.getcwd() + '/../'
+CONF.langs[0].GTPFX = 'gt'
+CONF.langs[0].HEADER = "sme-lex.txt"
+CONF.langs[0].SRC = CONF.langs[0].GTHOME + '/' + CONF.langs[0].GTPFX + '/' + CONF.langs[0].PRODUCE_LEXC_FOR + '/src/'
+
+CONF.langs[0].files = [
+	["verb-sme-lex.txt", 	'clip', 	{'pos_filter': 'V', 'split': 'VerbRoot\n'}],
+	["noun-sme-lex.txt", 	'clip', 	{'pos_filter': 'N', 'split': 'NounRoot\n'}],
+	["adj-sme-lex.txt", 		'clip', 	{'pos_filter': 'A', 'split': 'AdjectiveRoot\n'}],
+	["propernoun-sme-morph.txt", 	'cat'],
+	["propernoun-sme-lex.txt", 'clip', 	{'pos_filter': 'N><Prop', 'split': 'ProperNoun\n'}],
+	["conjunction-sme-lex.txt", 	'cat'],
+	["adv-sme-lex.txt", 		'clip', 	{'pos_filter': 'Adv', 'split': 'Adverb'}],
+	["adv-sme-lex.txt", 		'clip', 	{'pos_filter': 'Adv', 'split': 'gadv ! adv that can form compounds', 'no_header': True, 'no_trim': True}],
+	["subjunction-sme-lex.txt", 	'cat'],
+	["pronoun-sme-lex.txt", 		'cat'],
+	["particle-sme-lex.txt", 		'cat'],
+	["pp-sme-lex.txt", 			'cat'],
+	["numeral-sme-lex.txt", 		'cat'],
+	["abbr-sme-lex.txt", 			'cat'],
+	["punct-sme-lex.txt", 			'cat']
+]
+
+try:
+	import json
+except ImportError:
+	print "json module not installed. Only command line options or options in this file will be possible."
+
+if json:
+	try:
+		with open('langs.cfg', 'r') as F:
+			exists = True
+			try:
+				D = json.load(F)
+			except Exception, e:
+				print e
+			CONF = Configs()
+			if len(D) == 1:
+				new = Config()
+				new.read_from_dict(D[0])
+				CONF.langs = [new]
+			elif len(D) > 1:
+				CONF.langs = []
+				for item in D:
+					new = Config()
+					new.read_from_dict(item)
+					CONF.langs.append(new)
+			print CONF.langs		
+			print "Loaded config from %s" % F.name
+			
+	except IOError:
+		print "Config file does not exist. Creating default file."
+		with open('langs.cfg', 'w') as F:
+			json.dump([CONF.langs[0].return_dict()], F, ensure_ascii=True)
+			print "Defaults saved to %s" % F.name
+else:
+	json == False
 
 
 # 	Regexp to exclude lines we don't want
@@ -155,12 +272,14 @@ def extract(data, fname, pos_filter, split, no_header=False, no_trim=False, debu
 		return head, trim
 
 
-def make_lexc(TL=TARGET_LANGUAGE, SL=SOURCE_LANGUAGE, proc_lang=PRODUCE_LEXC_FOR, gthome=GTHOME, gtpfx=GTPFX, out_dir=OUTPUT_DIR):
+def make_lexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
 	"""
 		This does everything.
 		
 		TODO: SRC dir should be moved out of here, passed in instead for easier switching of languages? /gt/ ~ /kt/ stuff will confuse things.
 		TODO: error handling if files don't exist.
+		
+		COBJ = Config object
 	"""
 	
 	# Prefix direction
@@ -174,66 +293,58 @@ def make_lexc(TL=TARGET_LANGUAGE, SL=SOURCE_LANGUAGE, proc_lang=PRODUCE_LEXC_FOR
 	# 		print "$GTHOME not set."
 	# 		sys.exit() # TODO: exit with error
 	
-	SRC = "%s/%s/%s/src" % (gthome, gtpfx, proc_lang)
+	# SRC = "%s/%s/%s/src" % (gthome, gtpfx, proc_lang)
+	SRC = COBJ.SRC
 	
 	DEV = os.getcwd()
 	OUTFILE = "%s.%s.lexc" % (BASENAME, proc_lang) # TODO: change to prod location.
 	
 	# Get data from lt_expand
 	lt_expand_data = lt_exp(fname="%s/../%s.%s.dix" % (DEV, BASENAME, PREFIX1))
-	main_header = cat_file('%s/%s-lex.txt' % (SRC, proc_lang), list, exclude=True)
+	main_header = cat_file(COBJ.SRC + "/" + COBJ.HEADER, list, exclude=True)
 	
 	# Use dicts to go through files and trim
 	# strings for just reading a filename with no action taken
 	
-	STEPS = [
-		{'fname': "%s/%s-%s-lex.txt" % (SRC, 'verb', proc_lang), 'pos_filter': 'V', 'split': 'VerbRoot\n'},
-		{'fname': "%s/%s-%s-lex.txt" % (SRC, 'noun', proc_lang), 'pos_filter': 'N', 'split': 'NounRoot\n'},
-		{'fname': "%s/%s-%s-lex.txt" % (SRC, 'adj', proc_lang), 'pos_filter': 'A', 'split': 'AdjectiveRoot\n'},
-		"%s/propernoun-%s-morph.txt" % ((SRC, proc_lang)),
-		{'fname': "%s/%s-%s-lex.txt" % (SRC, 'propernoun', proc_lang), 'pos_filter': 'N><Prop', 'split': 'ProperNoun\n'},
-		"%s/conjunction-%s-lex.txt" % (SRC, proc_lang),
-		{'fname': "%s/%s-%s-lex.txt" % (SRC, 'adv', proc_lang), 'pos_filter': 'Adv', 'split': 'Adverb'},
-		{'fname': "%s/%s-%s-lex.txt" % (SRC, 'adv', proc_lang), 'pos_filter': 'Adv', 'split': 'gadv ! adv that can form compounds', 'no_header': True, 'no_trim': True},
-		"%s/subjunction-%s-lex.txt" % (SRC, proc_lang),
-		"%s/pronoun-%s-lex.txt" % (SRC, proc_lang),
-		"%s/particle-%s-lex.txt" % (SRC, proc_lang),
-		"%s/pp-%s-lex.txt" % (SRC, proc_lang),
-		"%s/numeral-%s-lex.txt" % (SRC, proc_lang),
-		"%s/abbr-%s-lex.txt" % (SRC, proc_lang),
-		"%s/punct-%s-lex.txt" % (SRC, proc_lang)
-	]
+	# Add SRC dir to STEPS
+	STEPS = COBJ.files
 	
 	output_ = [''.join(main_header)]
 	output_app = output_.append			# Faster this way
-	for step in STEPS:
-		if type(step) == dict:
-			try:
-				with open(step['fname'], 'r') as F:
-					exists = True			
-				print "... Fetching words from %s" % step['fname']
-				head, trim = extract(lt_expand_data, **step)
-				data = head + trim
-			except IOError, e:
-				print "*** File %s does not exist. Skipping. ***" % step['fname']
-				pass
-		elif type(step) == str:
-			try:
-				with open(step, 'r') as F:
-					exists = True
-				print "... Reading all of %s" % step
-				data = cat_file(step, str, exclude=False)
-			except IOError, e:
-				print "*** File %s does not exist. Skipping. ***" % step
-				pass
-		output_app(data)
 	
+	for step in STEPS:
+		fname, action = SRC + step[0], step[1]
+		
+		if len(step) == 3:		opts = dict([(str(a), str(b)) for a, b in step[2].items()])
+		else:					opts = None
+				
+		try:
+			with open(fname, 'r') as F:
+				exists = True			
+		except IOError, e:
+			print "*** File %s does not exist. Skipping. ***" % fname
+			continue
+	
+		if action == 'clip':
+			print "... Fetching words from %s" % fname
+			if opts:
+				head, trim = extract(lt_expand_data, fname, **opts)
+			else:
+				head, trim = extract(lt_expand_data, fname)
+			data = head + trim
+		elif action == 'cat':
+			print "... Reading all of %s" % fname
+			data = cat_file(fname, str, exclude=False)
+		
+		output_app(data)
+		
 	# TODO:
 	# punct_point=`grep -nH ' real pilcrow' $PUNCTLEXC | cut -f2 -d':'`;
 	# head -n $punct_point $PUNCTLEXC >> $OUTFILE;
 	
 	out_ = '\n'.join([a for a in output_])
 	OUTFILE = out_dir + OUTFILE
+	
 	with open(OUTFILE, 'w') as F:
 		F.write(out_)
 	
@@ -245,13 +356,13 @@ def make_lexc(TL=TARGET_LANGUAGE, SL=SOURCE_LANGUAGE, proc_lang=PRODUCE_LEXC_FOR
 ### Begin command-line and input handling
 
 default_values = '\n'
-default_values += "\t--target-lang:   %s\n" % TARGET_LANGUAGE
-default_values += "\t--source-lang:   %s\n" % SOURCE_LANGUAGE
-default_values += "\t--proc-lang:     %s\n" % PRODUCE_LEXC_FOR
-default_values += "\t--gthome:        %s\n" % GTHOME
-default_values += "\t--gt-prefix:     %s\n" % GTPFX
-default_values += "\t--output-dir:    %s\n" % OUTPUT_DIR
-default_values += "\n\tDefault proc dir: %s\n" % "%s%s/%s/src/" % (GTHOME, GTPFX, PRODUCE_LEXC_FOR)
+default_values += "\t--target-lang:   %s\n" % CONF.langs[0].TARGET_LANGUAGE
+default_values += "\t--source-lang:   %s\n" % CONF.langs[0].SOURCE_LANGUAGE
+default_values += "\t--proc-lang:     %s\n" % CONF.langs[0].PRODUCE_LEXC_FOR
+default_values += "\t--gthome:        %s\n" % CONF.langs[0].GTHOME
+default_values += "\t--gt-prefix:     %s\n" % CONF.langs[0].GTPFX
+default_values += "\t--output-dir:    %s\n" % CONF.langs[0].OUTPUT_DIR
+default_values += "\n\tDefault proc dir: %s\n" % "%s%s/%s/src/" % (CONF.langs[0].GTHOME, CONF.langs[0].GTPFX, CONF.langs[0].PRODUCE_LEXC_FOR)
 
 
 help_message = '''\n\nOPTIONS:
@@ -283,12 +394,12 @@ class Usage(Exception):
 def main(argv=None):
 	
 	# Set commandline defaults
-	cmd_tl            = TARGET_LANGUAGE
-	cmd_sl            = SOURCE_LANGUAGE
-	cmd_proc_lang     = PRODUCE_LEXC_FOR
-	cmd_gthome        = GTHOME
-	cmd_gtpfx         = GTPFX
-	cmd_outdir        = OUTPUT_DIR
+	cmd_tl            = CONF.langs[0].TARGET_LANGUAGE
+	cmd_sl            = CONF.langs[0].SOURCE_LANGUAGE
+	cmd_proc_lang     = CONF.langs[0].PRODUCE_LEXC_FOR
+	cmd_gthome        = CONF.langs[0].GTHOME
+	cmd_gtpfx         = CONF.langs[0].GTPFX
+	cmd_outdir        = CONF.langs[0].OUTPUT_DIR
 	
 	if argv is None:
 		argv = sys.argv
@@ -300,28 +411,63 @@ def main(argv=None):
 
 		# option processing
 		if len(opts) == 0:
-			print "\nUsing default values specified in file."
+			print "\nNo options, using defaults in file, or langs.cfg."
 			print "See --help for more information. \n"
-			
-		for option, value in opts:
-			if option == "-v":
-				verbose = True
-			if option in ("-h", "--help"):
-				raise Usage(help_message)
-			if option in ("-t", "--target-lang"):
-				cmd_tl = value
-			if option in ("-s", "--source-lang"):
-				cmd_sl = value
-			if option in ("-p", "--proc-lang"):
-				cmd_proc_lang = value
-			if option in ("-g", "--gthome"):
-				cmd_gthome = value
-			if option in ("-x", "--gt-prefix"):
-				cmd_gtpfx = value
-			if option in ("-o", "--output-dir"):
-				cmd_outdir = value
+			for lang in CONF.langs:
+				make_lexc(
+					lang.TARGET_LANGUAGE, 
+					lang.SOURCE_LANGUAGE, 
+					lang.PRODUCE_LEXC_FOR,
+					lang.GTPFX,
+					lang.GTHOME,
+					lang.OUTPUT_DIR,
+					lang
+				)
 		
-		make_lexc(TL=cmd_tl, SL=cmd_sl, proc_lang=cmd_proc_lang, gtpfx=cmd_gtpfx, out_dir=cmd_outdir)
+			# if len(CONF.langs) == 1:
+			# 	lang = CONF.langs[0]
+			# 	make_lexc(
+			# 		lang.TARGET_LANGUAGE, 
+			# 		lang.SOURCE_LANGUAGE, 
+			# 		lang.PRODUCE_LEXC_FOR,
+			# 		lang.GTPFX,
+			# 		lang.GTHOME,
+			# 		lang.OUTPUT_DIR,
+			# 		lang
+			# 	)
+			# elif len(CONF.langs) > 1:
+			# 	for lang in CONF.langs:
+			# 		make_lexc(
+			# 			lang.TARGET_LANGUAGE, 
+			# 			lang.SOURCE_LANGUAGE, 
+			# 			lang.PRODUCE_LEXC_FOR,
+			# 			lang.GTPFX,
+			# 			lang.GTHOME,
+			# 			lang.OUTPUT_DIR,
+			# 			lang
+			# 		)
+			
+							
+		elif len(opts) > 0:			
+			for option, value in opts:
+				if option == "-v":
+					verbose = True
+				if option in ("-h", "--help"):
+					raise Usage(help_message)
+				if option in ("-t", "--target-lang"):
+					cmd_tl = value
+				if option in ("-s", "--source-lang"):
+					cmd_sl = value
+				if option in ("-p", "--proc-lang"):
+					cmd_proc_lang = value
+				if option in ("-g", "--gthome"):
+					cmd_gthome = value
+				if option in ("-x", "--gt-prefix"):
+					cmd_gtpfx = value
+				if option in ("-o", "--output-dir"):
+					cmd_outdir = value
+		
+			make_lexc(cmd_tl, cmd_sl, cmd_proc_lang, cmd_gtpfx, cmd_gthome, cmd_outdir)
 
 
 	except Usage, err:
