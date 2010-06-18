@@ -11,6 +11,7 @@
     <sdef n="Act"      c="Active voice"/>
     <sdef n="Pron"     c="Pronoun"/>
 	<sdef n="Po"       c="Post-position"/>
+	<sdef n="Pr"       c="Preposition"/>
     <sdef n="Adp"      c="Adposition"/>
     <sdef n="CC"       c="Co-ordinating conjunction"/>
     <sdef n="CS"       c="Sub-ordinating conjunction"/>
@@ -194,6 +195,10 @@
 	<e><p><l>várás<s n="Po"/></l><r>varten<s n="Adp"/></r></p></e>
 	<e><p><l>dihtii<s n="Po"/></l><r>vuoksi<s n="Adp"/></r></p></e> <!-- TODO: CHECK-->
         
+	<e><p><l>sisa<s n="Po"/></l><r>keskelle<s n="Adp"/></r></p></e>
+	<e><p><l>ovddabeale<s n="Po"/></l><r>editse<s n="Adp"/></r></p></e>
+	
+
     <!-- 
 
 	TODO: Some more postpositions to add:
@@ -252,6 +257,7 @@
     <e><p><l>ja<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
     <e><p><l>vai<s n="CC"/></l><r>vai<s n="CC"/></r></p></e>
     <e><p><l>muhto<s n="CC"/></l><r>mutta<s n="CC"/></r></p></e>
+	<e><p><l>muhto<s n="CC"/></l><r>vaan<s n="CC"/></r></p></e>
     <e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
     <e><p><l>sihke<s n="CC"/></l><r>sekä<s n="CC"/></r></p></e>
     <e><p><l>ele<s n="CC"/></l><r>eli<s n="CC"/></r></p></e>
@@ -269,6 +275,10 @@
     <e><p><l>vaikko<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
     <e><p><l>vaikke<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
     <e><p><l>ovdal<b/>go<s n="CS"/></l><r>ennen<b/>kuin<s n="CS"/></r></p></e>
+
+	<!-- CS : Pcle -->
+	<e><p><l>nugo<s n="CS"/></l><r>niinkuin<s n="Pcle"/></r></p></e>
+	
 
     <!-- Pronouns -->
 
@@ -305,6 +315,12 @@
 
 	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/></r></p></e>
 	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>oma<s n="A"/></r></p></e>
+	
+	<!-- !! Num and Pron -->
+	<e><p><l>okta<s n="Num"/></l><r>yksi<s n="Pron"/></r></p></e>
+	
+	<!-- Pron : N -->
+	<e><p><l>goappašat<s n="Pron"/><s n="Indef"/></l><r>molempi<s n="N"/></r></p></e>
 	
 
 	 <!-- echo "joku" | ofin
@@ -2386,6 +2402,17 @@
 	<e><p><l>ahki<s n="N"/></l><r>ikä<s n="N"/></r></p></e>
 	<e><p><l>eden<s n="N"/></l><r>eeden<s n="N"/></r></p></e> <!-- 'an Eden' / 'a paradise' -->
 
+	<e><p><l>golli<s n="N"/></l><r>kulta<s n="N"/></r></p></e>
+	<e><p><l>suorgi<s n="N"/></l><r>haara<s n="N"/></r></p></e>
+	
+	<e><p><l>miestta<s n="N"/></l><r>pensas<s n="N"/></r></p></e>
+	<e><p><l>nuorta<s n="N"/></l><r>itä<s n="N"/></r></p></e>
+	<e><p><l>joavku<s n="N"/></l><r>joukko<s n="N"/></r></p></e>
+	<e><p><l>riegádeapmi<s n="N"/></l><r>synty<s n="N"/></r></p></e>
+	<e><p><l>erttet<b/>dákti<s n="N"/></l><r>kylkiluu<s n="N"/></r></p></e>
+	
+	
+	<!-- Nouns end -->
     
 <!-- 
 some of these are likely not that common... need to fix slashed entries and duplicates before uncommenting
@@ -3211,13 +3238,19 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>seavdnjat<s n="A"/></l><r>pimeä<s n="A"/></r></p><par n="A_A"/></e> <!-- TODO:CHECK -->
 	<e><p><l>vigiheapmi<s n="A"/></l><r>viaton<s n="A"/></r></p><par n="A_A"/></e>
 
+	<e><p><l>juohkelágán<s n="A"/></l><r>kaikkinainen<s n="A"/></r></p><par n="A_A"/></e>
+	<e><p><l>hearvás<s n="A"/></l><r>ihana<s n="A"/></r></p><par n="A_A"/></e>
+	<e><p><l>vuosttaš<s n="A"/></l><r>ensimmäinen<s n="A"/></r></p><par n="A_A"/></e>
+	
+
 	<!-- ! Adv - A, etc ???  -->
 	<e><p><l>vuolibuš<s n="Adv"/></l><r>alamainen<s n="A"/></r></p></e>
 	<e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e>
 	
 	<e><p><l>olles<s n="A"/></l><r>koko<s n="Pron"/></r></p></e>
 	
-
+	<!-- Adjectives end -->
+	
     <!-- Adverbs -->
 
     <e><p><l>veaháš<s n="Adv"/></l><r>vähän<s n="Adv"/></r></p></e>
@@ -3253,13 +3286,20 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>ovtta<s n="Adv"/></l><r>näkyviin<s n="Adv"/></r></p></e> <!-- TODO: CHECK -->
 	<e><p><l>seammás<s n="Adv"/></l><r>samalla<s n="Adv"/></r></p></e>
 	
+	<e><p><l>álás<s n="Adv"/></l><r>alasti<s n="Adv"/></r></p></e>
+	<e><p><l>friddja<s n="Adv"/></l><r>vapaasti<s n="Adv"/></r></p></e>
+	<e><p><l>vel<s n="Adv"/></l><r>vielä<s n="Adv"/></r></p></e>
+	
+	
 	<!-- <e><p><l>maŋimus<b/>áiggiid</l><r>viime<b/>aikoina</r></p></e> -->
 
 	<e><p><l>maŋimus<s n="Adv"/></l><r>viime<s n="Pcle"/></r></p></e>
+	<e><p><l>maid<s n="Adv"/></l><r>myös<s n="Pcle"/></r></p></e>
+	<e><p><l>dál<s n="Adv"/></l><r>nyt<s n="Pcle"/></r></p></e>
 	
 	<e><p><l>juohke<b/>bealde<s n="Po"/></l><r>kaikkialla<s n="Adv"/></r></p></e>
-	
 	<e><p><l>veardde<s n="Po"/></l><r>verran<s n="Adv"/></r></p></e>
+	<e><p><l>gasku<s n="Pr"/></l><r>keskellä<s n="Adv"/></r></p></e>
 	
 	
 	<!-- Are these relative markers? should they be tagged as such? -->
@@ -3729,6 +3769,29 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>ihtit<s n="V"/><s n="IV"/></l><r>näkyä<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>goiket<s n="V"/><s n="TV"/></l><r>kuivaa<s n="V"/></r></p><par n="V_V"/></e>
 
+	<e><p><l>vuovdit<s n="V"/><s n="TV"/></l><r>myydä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>mohkastit<s n="V"/><s n="IV"/></l><r>kiertää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>golgit<s n="V"/><s n="IV"/></l><r>kiertää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>njuoskadit<s n="V"/><s n="TV"/></l><r>kastella<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>vuoiŋŋastit<s n="V"/><s n="IV"/></l><r>levätä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>várjalit<s n="V"/><s n="TV"/></l><r>varjella<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>šaddadit<s n="V"/><s n="TV"/></l><r>viljellä<s n="V"/></r></p><par n="V_V"/></e>
+	<!-- <e><p><l>bargat<g><b/>eatnama</g><s n="V"/><s n="TV"/></l><r>viljellä<s n="V"/></r></p><par n="V_V"/></e> -->
+	<e><p><l>namahit<s n="V"/><s n="TV"/></l><r>nimittää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>ásahit<s n="V"/><s n="TV"/></l><r>asettaa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>heahpanit<s n="V"/><s n="IV"/></l><r>hävetä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>čohkkáhit<s n="V"/><s n="TV"/></l><r>istuttaa<s n="V"/></r></p><par n="V_V"/></e>
+	
+	<e><p><l>juohkašuvvat<s n="V"/><s n="IV"/></l><r>jakaantua<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>gohččut<s n="V"/><s n="TV"/></l><r>käskeä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>šaddadit<s n="V"/><s n="TV"/></l><r>kasvattaa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>searvat<s n="V"/><s n="IV"/></l><r>liittyä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>luohpat<s n="V"/><s n="TV"/></l><r>luopua<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>basuhit<s n="V"/><s n="TV"/></l><r>pyhittää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>mearridit<s n="V"/><s n="TV"/></l><r>päättää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>heivet<s n="V"/><s n="IV"/></l><r>sopia<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>buktit<s n="V"/><s n="TV"/></l><r>tuoda<s n="V"/></r></p><par n="V_V"/></e>
+	
     
     <!-- Punctuation -->
 
