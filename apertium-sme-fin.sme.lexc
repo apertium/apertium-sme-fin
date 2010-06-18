@@ -6399,6 +6399,7 @@ basadit:basad BALAT ;
 bassaladdat:bassaladda DIEHTALADDA ;
 bassat:bassa BORRA ;
 bassit:bassi DIEHTILONGSHORT ;
+basuhit:basuh MUITAL ;
 batnit:batni DIEHTI ;
 beal0kit:beal'ki DIEHTI ;
 bearrái#geahččat:bearrái#geahčča BORRA ;
@@ -6544,6 +6545,7 @@ goarrut:goarru BORRA ;
 goddit:goddi DIEHTI ;
 goh0cit:goh'ci DIEHTI ;
 gohčodit:gohčod BONJAT ;
+gohččut:gohčču DAHTU ;
 goi0kat:goj'ka DIEVVA ;
 goiket:gojke DOHPPE ;
 gok0čat:gok'ča BORRA ;
@@ -6574,11 +6576,13 @@ gávnnahit:gávnnah MUITAL ;
 gávppahit:gávppah MUITTASJ ;
 gávppašit:gávppaš MUITTASJ ;
 hak0sit:hak'si DIEHTI ;
+heahpanit:heahpan LASSAN ;
 heai0tit:heaj'ti DIEHTI ;
 heavahit:heavah MUITAL ;
 heavvanit:heavvan LASSAN ;
 heaŋgát:heaŋgá CIRRO ;
 heivehit:heiveh MUITAL ;
+heivet:heive GILLE ;
 hervet:herve DOHPPE ;
 hoavrristit:hoavrrist ALIST ;
 hoi0gat:hoj'ga BORRA ;
@@ -6616,6 +6620,7 @@ jorrat:jorra DIEVVA ;
 jođašit:jođaš BEAGASJ ;
 juh0kat:juh'ka DEAKCU ;
 juoh0kit:juoh'ki DIEHTI ;
+juohkašuvvat:juohkaš UVVA ;
 juoi0gat:juoj'ga DIEVVA ;
 juoiggastit:juojggast ALIST ;
 jurddahit:jurddah ALIST ;
@@ -6635,6 +6640,7 @@ loahpahit:loahpah MUITAL ;
 logadit:logad BONJAT ;
 loh0kat:loh'ka BORRA ;
 lohpidit:lohpid MUITAL ;
+luoh0pat:luoh'pa BORRA ;
 luohttit:luohtti BOAHTI ;
 luoi0kat:luoj'ka BORRA ;
 luoikkahit:luojkkah MUITAL ;
@@ -6647,6 +6653,8 @@ láv0lut:láv'lu BOLTU ;
 lávlestit:lávlest MUITAL ;
 mannat:manna DIEVVA ;
 mearkkašit:mearkkaš MUITTASJ ;
+mearridit:mearrid MUITAL ;
+mohkastit:mohkast MUITAL ;
 mojohallat:mojohalla BOAHTALADDA ;
 molssodit:molssod BONJAT ;
 movttiidahttit:movttiidahtti HAHTTIT ;
@@ -6657,12 +6665,14 @@ máhccut:máhccu BOLTU ;
 máhttit:máhtti MAHTALADDA ;
 mák0sit:mák'si DIEHTI ;
 már0fut:már'fu DAHTU ;
+namahit:namah MUITAL ;
 nannet:nanne DOHPPE ;
 njied0jat:njied'ja DIEVVA ;
 njoal0lut:njoal'lu BORRA ;
 njoarostit:njoaro7st MUITAL ;
 njoarrat:njoarra BORRA ;
 njuos0kat:njuos'ka DIEVVA ;
+njuoskadit:njuoskad MUITAL ;
 njuovvat:njuovva BORRA ;
 njurggodit:njurggod BONJAT ;
 njuv0dit:njuv'di DIEHTI ;
@@ -6746,6 +6756,7 @@ vuod0jat:vuod'ja DIEVVA ;
 vuod0jit:vuod'ji DIEHTILONGSHORT ;
 vuoi0dat:vuoj'da BORRA ;
 vuoi0tit:vuoj'ti DIEHTI ;
+vuoiŋŋastit:vuojŋŋast ALIST ;
 vuojašit:vuojaš BEAGASJ ;
 vuol0git:vuol'gi BOAHTI ;
 vuor0dit:vuor'di DIEHTI ;
@@ -6756,6 +6767,7 @@ váccašit:váccaš BEAGASJ ;
 vái0bat:váj'ba DIEVVA ;
 vál0dit:vál'di DIEHTI ;
 válddahit:válddah MUITAL ;
+várjalit:várjal VUORDIL ;
 vásihit:vásih MUITAL ;
 vázzit:vázzi BOAHTI ;
 ái0gut:áj'gu DAHTU ;
@@ -6763,6 +6775,7 @@ vázzit:vázzi BOAHTI ;
 ál0git:ál'gi BOAHTI ;
 álggahit:álggah MUITAL ;
 árvidit:árvid MUITAL ;
+ásahit:ásah MUITAL ;
 ássat:ássa DIEVVA ;
 ávnnastit:ávnnast MUITAL ;
 áŧestuvvat:áŧest UVVA ;
@@ -6782,6 +6795,7 @@ vázzit:vázzi BOAHTI ;
 čoaggit:čoaggi DIEHTI ;
 čoas0kut:čoas'ku DIEVVA ;
 čohkkedit:čohkked ALIST ;
+čohkkáhit:čohkkáh MUITAL ;
 čohkkát:čohkká GILLE ;
 čohkohallat:čohkohalla BOAHTALADDA ;
 čujuhit:čujuh MUITAL ;
@@ -7761,6 +7775,7 @@ miella+N+Sg+Gen:miela Rmiddle ;
  mier0ká+SgNomCmp+SgGenCmp+PlGenCmp:mier'ká ALBMILONG ; !
  miesse#mánnu+SgNomCmp+SgGenCmp+DefPlGenCmp:miesse#mánnu AIGI; !
  miessi+SgNomCmp+SgGenCmp+PlGenCmp:miessi AIGI; !
+ miestta+SgNomCmp+SgGenCmp+DefPlGenCmp:mies'tag8 SEAMU ; !
  mihcamárat+SgNomCmp+PlGenCmp:mihcamárra BUVSSAT ; !
  mihcamárat+N+SgCmp+SgCmp:mihcamár%> R ; !
  mihcamárat+N+SgCmp+SgCmp:mihcamar%> R ; !
@@ -7880,6 +7895,7 @@ njálggus:njál'gus MALISLONG ;
  njár0ga+SgNomCmp+SgGenCmp+PlGenCmp:njár'ga GOAHTI ; !
 bargo#bierggas:bargo#bier'gas MALIS ;
 biila#čoavdda:biila#čoav'dag8 SEAMU ;
+ nuor0ta:nuor'ta OARJI ; ! since it has comparative
 nuor0vu:nuor'vu GOAHTI ;
 nuorvvu:nuor'vu SUOLU ;
  nuor0vu+Use/Sub:nuor'vu SUOLU ; !
@@ -7992,6 +8008,7 @@ rieban#gol0li:rieban#gol'li GOAHTI ;
 ried0ja:ried'ja GOAHTI ;
  riegádan#beai0vi+SgNomCmp+SgGenCmp+PlGenCmp:riegádan#beaj'vi GOAHTI ; !
  riegádan#beai0vi+N+SgCmp+SgCmp:riegádan#beai%> Rreal ; !
+ riegádeapmi+SgCmp:riegád EAPMI ; !
 riek0ti:riek'ti ALBMI ;
 riekkis:rieggis LASIS ;
  nieida#čiv0ga+SgNomCmp+SgGenCmp+PlGenCmp:nieida#čiv'ga GOAHTI ; !
@@ -8177,6 +8194,7 @@ suohkat:suohkad GAHPIR ;
  suoidne#mánnu+SgNomCmp+SgGenCmp+DefPlGenCmp:suoidne#mánnu AIGI; !
  suoidni+SgNomCmp+SgGenCmp+DefPlGenCmp:suojdni GOAHTI ; !
  suolavuoh0ta+SgGenCmp+DefPlGenCmp:suolavuoh'ta LUONDU ; !
+suor0gi:suor'gi GOAHTI ;
 suorpmat:suorpmah GAHPIR ;
 sihkkun#gum0me:sihkkun#gum'me GOAHTI ;
 suovas#bier0gu:suovas#bier'gu GOAHTI ;
@@ -8689,6 +8707,7 @@ bah0ča:bahččag8 GUOHCA ;
  nuorra+SgNomCmp+SgGenCmp+PlGenCmp:nuorra NUORRA ; !
 ruoná+A+Ess:ruoná%>jin K ;
  čiekŋalii#manni+SgNomCmp+SgGenCmp+PlGenCmp:čiekŋalii#manna¤ HAHTTI ; !
+frid0dja:frid'dja AKTIIVA ;
  duis0ka+SgNomCmp+SgGenCmp+PlGenCmp:dujs'ka BOREALA ; !
  uhcci+SgNomCmp+SgGenCmp+PlGenCmp:uhcc UHCC ; !
  seaggi+SgNomCmp+SgGenCmp+PlGenCmp:seagg UHCC ; !
@@ -8744,8 +8763,11 @@ lobiheapme:lobih JEAGOHEAPMI ;
 váivi+A+Sg+Gen+veara+A+Sg+Nom:váivvi»#veara%> K ;
 váivi+A+Sg+Gen+veara+A+Attr:váivvi»#veara%> K ;
 váivi+A+Sg+Gen+veara+A+Sg+Ess:váivvi»#veara%>n K ;
+hearvás+A+Ess:hearvás%>in K ;
+hearvás+A+Comp:hearvás%>eabbo K ;
 eambbo+A+Comp+Sg+Acc:eambbo%> K ;
 eambbo+A+Comp+Sg+Nom:eambbo%> K ;
+hearvás+A+Comp:hearvás%>et K ;
 eambbo+A+Comp+Pl+Nom:eambbo%>t K ;
  geargat+SgNomCmp+SgGenCmp+PlGenCmp:gearg CAHKK ; !
 seavdnjat:seavdnj CAHKK ;
@@ -11186,6 +11208,7 @@ LEXICON Adverb
 maid:majd9 adv ;
 rievttuid:rievttujd9 adv ;
 uhcánaččaid:uhcánaččajd9 adv ;
+ álás+Use/Sub:álás adv; !
 
 LEXICON gadv ! adv that can form compounds
 

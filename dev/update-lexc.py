@@ -55,10 +55,7 @@ class Config(object):
 			if type(v) == unicode:
 				b = str(v)
 			self.__setattr__(a, b)
-			if a == 'files':
-				print a
-				print b
-		
+				
 		self.files = D['files']
 		self.SRC = SRC = self.GTHOME + '/' + self.GTPFX + '/' + self.PRODUCE_LEXC_FOR + '/src/'
 
@@ -125,7 +122,7 @@ if json:
 					new = Config()
 					new.read_from_dict(item)
 					CONF.langs.append(new)
-			print CONF.langs		
+			# print CONF.langs		
 			print "Loaded config from %s" % F.name
 			
 	except IOError:
