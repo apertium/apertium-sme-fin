@@ -7,6 +7,10 @@
     <cat-item tags="CC.*"/>
     <cat-item tags="CS.*"/>
   </def-cat>
+  <def-cat n="adv"> 
+    <cat-item tags="Adv"/>
+    <cat-item tags="Adv.*"/>
+  </def-cat>
   <def-cat n="pcle"> 
     <cat-item tags="Pcle"/>
     <cat-item tags="Pcle.*"/>
@@ -75,6 +79,9 @@
 	</def-attr>
     <def-attr n="a_num">
       <attr-item tags="Num"/>
+    </def-attr>
+    <def-attr n="a_adv">
+      <attr-item tags="Adv"/>
     </def-attr>
     <def-attr n="a_pcle">
       <attr-item tags="Pcle"/>
@@ -627,6 +634,22 @@
         </out>
       </action>
     </rule>
+
+   <rule>
+      <pattern>
+        <pattern-item n="adv"/>
+      </pattern>
+      <action>
+        <out>
+			<lu>
+				<clip pos="1" side="tl" part="lemh"/>
+				<clip pos="1" side="tl" part="a_adv"/>
+				<clip pos="1" side="tl" part="lemq"/>
+			</lu>
+        </out>
+      </action>
+    </rule>
+
 
    <rule>
       <pattern>
