@@ -5,7 +5,7 @@
       <program name="hfst-proc">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w -s 3">
+      <program name="cg-proc -w">
         <file name="fin-sme.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
@@ -36,7 +36,7 @@
       <program name="hfst-proc">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w -s 3">
+      <program name="cg-proc -w">
         <file name="fin-sme.rlx.bin"/>
       </program>
     </pipeline>
@@ -48,7 +48,7 @@
       <program name="hfst-proc">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc -w -s 3">
+      <program name="cg-proc -w">
         <file name="fin-sme.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
