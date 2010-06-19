@@ -124,6 +124,14 @@
       <attr-item tags="N.Prop.Plc"/>
       <attr-item tags="N.Prop.Mal"/>
     </def-attr>
+    <def-attr n="a_attr">
+      <attr-item tags="N"/>
+      <attr-item tags="N.Actor"/>
+      <attr-item tags="N.Prop"/>
+      <attr-item tags="N.Prop.Plc"/>
+      <attr-item tags="N.Prop.Mal"/>
+      <attr-item tags="Pron.Dem"/>
+    </def-attr>
     <def-attr n="a_case">
       <attr-item tags="Nom"/>
       <attr-item tags="Gen"/>
@@ -174,6 +182,10 @@
     </def-attr>
     <def-attr n="a_neg">
       <attr-item tags="ConNeg"/>
+    </def-attr>
+    <def-attr n="a_qst">
+      <attr-item tags="Qst"/>
+      <attr-item tags="Qst_ko"/>
     </def-attr>
     <def-attr n="a_tense">
       <attr-item tags="Prs"/>
@@ -626,6 +638,20 @@
             </let>
           </when>
         </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="sl" part="a_qst"/>
+                <lit-tag v="Qst_ko"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_qst"/>
+              <lit-tag v="Qst"/>
+            </let>
+          </when>
+        </choose>
 
         <out>
           <chunk name="verb" case="caseFirstWord">
@@ -644,6 +670,7 @@
               <!--<clip pos="1" side="tl" part="a_tense" />-->
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_neg"/>
+              <clip pos="1" side="tl" part="a_qst"/>
             </lu>
           </chunk>
         </out>
@@ -775,7 +802,7 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_nom"/>
+              <clip pos="1" side="tl" part="a_attr"/>
               <!-- <clip pos="1" side="tl" part="gen"/> -->
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
