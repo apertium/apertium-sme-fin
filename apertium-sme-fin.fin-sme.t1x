@@ -647,8 +647,13 @@
             </lu>
           </chunk>
         </out>
+        <let>
+          <var n="cur_verb_mood"/>
+          <lit v=""/>
+        </let>
       </action>
     </rule>
+
     <rule comment="regla: verb">
       <pattern>
         <pattern-item n="verb"/>
@@ -661,7 +666,7 @@
               <tag><clip pos="1" side="sl" part="syntag"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_verb"/>
               <!-- <clip pos="1" side="tl" part="a_trans" /> -->
               <!-- specified in a_verb -->
@@ -670,9 +675,14 @@
               <clip pos="1" side="tl" part="a_tense"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_neg"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
+        <let>
+          <var n="cur_verb_mood"/>
+          <lit v=""/>
+        </let>
       </action>
     </rule>
     <!-- end verb rules -->
