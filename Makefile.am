@@ -16,6 +16,8 @@ TARGETS_COMMON = \
 	$(PREFIX2).rlx.bin \
 	$(PREFIX2).autobil.bin \
 	$(PREFIX2).t1x.bin \
+	$(PREFIX2).t2x.bin \
+	$(PREFIX2).t3x.bin \
 	$(PREFIX2).mode
 
 ##
@@ -91,6 +93,16 @@ $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $(BASENAME).$(PREFIX2).t1x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t1x $@
 
+$(PREFIX2).t2x.bin: $(BASENAME).$(PREFIX2).t2x
+	apertium-validate-interchunk $(BASENAME).$(PREFIX2).t2x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t2x $@
+
+$(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
+	apertium-validate-postchunk $(BASENAME).$(PREFIX2).t3x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t3x $@
+
+
+
 ##
 ##	MODE FILE(S)
 ##
@@ -112,6 +124,8 @@ EXTRA_DIST=\
 	$(BASENAME).$(LANG2).twol \
 	$(BASENAME).$(LANG2).lexc \
 	$(BASENAME).$(PREFIX2).t1x \
+	$(BASENAME).$(PREFIX2).t2x \
+	$(BASENAME).$(PREFIX2).t3x \
 	modes.xml 
 
 

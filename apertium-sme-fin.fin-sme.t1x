@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<transfer>
+<transfer default="chunk">
   <section-def-cats>
   <def-cat n="conj"> 
     <cat-item tags="CC"/>
@@ -318,7 +318,8 @@
 	
 
   <section-rules>
-  <rule>
+
+   <rule>
 		<pattern>
 			<pattern-item n="inf" />
 		</pattern>
@@ -633,6 +634,13 @@
           </when>
         </choose>
         <out>
+         <chunk name="adj" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="A"/></tag>
+             <tag><clip pos="1" side="sl" part="syntag"/></tag>
+             <tag><clip pos="1" side="sl" part="nbr"/></tag>
+             <tag><clip pos="1" side="sl" part="a_case"/></tag>
+           </tags>
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_adj"/>
@@ -641,6 +649,7 @@
             <clip pos="1" side="tl" part="a_case" />
 			<clip pos="1" side="tl" part="a_poss" />
           </lu>
+          </chunk>
         </out>
       </action>
     </rule>
@@ -652,10 +661,16 @@
       </pattern>
       <action>
         <out>
+         <chunk name="pron" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="PRN.INDEF"/></tag>
+             <tag><clip pos="1" side="sl" part="syntag"/></tag>
+           </tags>
 			<lu>
 				<clip pos="1" side="tl" part="lem"/>
 				<clip pos="1" side="tl" part="a_pron"/>
 			</lu>
+          </chunk>
         </out>
       </action>
     </rule>
@@ -675,6 +690,14 @@
 			<with-param pos="1"/>
 		</call-macro>
         <out>
+         <chunk name="pron" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="PRN"/></tag>
+             <tag><clip pos="1" side="sl" part="syntag"/></tag>
+             <tag><clip pos="1" side="sl" part="nbr"/></tag>
+             <tag><clip pos="1" side="sl" part="a_person"/></tag>
+             <tag><clip pos="1" side="sl" part="a_case"/></tag>
+           </tags>
 			<lu>
 				<clip pos="1" side="tl" part="lem"/>
 				<clip pos="1" side="tl" part="a_pron"/>
@@ -682,6 +705,7 @@
 				<clip pos="1" side="tl" part="a_person"/>
 				<clip pos="1" side="tl" part="a_case" />
 			</lu>
+          </chunk>
         </out>
       </action>
     </rule>
@@ -715,6 +739,14 @@
 
         </choose>
         <out>
+         <chunk name="pron" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="PRN"/></tag>
+             <tag><clip pos="1" side="sl" part="syntag"/></tag>
+             <tag><clip pos="1" side="sl" part="nbr"/></tag>
+             <tag><clip pos="1" side="sl" part="a_person"/></tag>
+             <tag><clip pos="1" side="sl" part="a_case"/></tag>
+           </tags>
 			<lu>
 				<clip pos="1" side="tl" part="lem"/>
 				<clip pos="1" side="tl" part="a_pron"/>
@@ -722,94 +754,131 @@
 				<clip pos="1" side="tl" part="a_person"/>
 				<clip pos="1" side="tl" part="a_case" />
 			</lu>
+          </chunk>
         </out>
       </action>
     </rule>
 
-   <rule>
-      <pattern>
-        <pattern-item n="ord"/>
-      </pattern>
-      <action>
-		<call-macro n="set_par_gen">
-			<with-param pos="1"/>
-		</call-macro>
-        <out>
-			<lu>
-				<clip pos="1" side="tl" part="lemh"/>
-				<clip pos="1" side="tl" part="a_ord"/>
-				<clip pos="1" side="tl" part="nbr"/>
-				<clip pos="1" side="tl" part="a_case"/>
-				<clip pos="1" side="tl" part="lemq"/>
-			</lu>
-        </out>
-      </action>
-    </rule>
-
-   <rule>
-      <pattern>
-        <pattern-item n="num"/>
-      </pattern>
-      <action>
-        <out>
-			<lu>
-				<clip pos="1" side="tl" part="lemh"/>
-				<clip pos="1" side="tl" part="a_num"/>
-				<clip pos="1" side="tl" part="nbr"/>
-				<clip pos="1" side="tl" part="a_case"/>
-				<clip pos="1" side="tl" part="lemq"/>
-			</lu>
-        </out>
-      </action>
-    </rule>
+  <rule comment="REGLA: ORD">
+     <pattern>
+       <pattern-item n="ord"/>
+     </pattern>
+     <action>
+       <call-macro n="set_par_gen">
+         <with-param pos="1"/>
+       </call-macro>
+       <out>
+         <chunk name="adj" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="A.ORD"/></tag>
+             <tag><clip pos="1" side="sl" part="syntag"/></tag>
+             <tag><clip pos="1" side="sl" part="nbr"/></tag>
+             <tag><clip pos="1" side="sl" part="a_case"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_ord"/>
+             <clip pos="1" side="tl" part="nbr"/>
+             <clip pos="1" side="tl" part="a_case"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
 
 
-
-   <rule>
-      <pattern>
-        <pattern-item n="conj"/>
-      </pattern>
-      <action>
-        <out>
-			<lu>
-				<clip pos="1" side="tl" part="lemh"/>
-				<clip pos="1" side="tl" part="a_conj"/>
-				<clip pos="1" side="tl" part="lemq"/>
-			</lu>
-        </out>
-      </action>
-    </rule>
-
-   <rule>
-      <pattern>
-        <pattern-item n="adv"/>
-      </pattern>
-      <action>
-        <out>
-			<lu>
-				<clip pos="1" side="tl" part="lemh"/>
-				<clip pos="1" side="tl" part="a_adv"/>
-				<clip pos="1" side="tl" part="lemq"/>
-			</lu>
-        </out>
-      </action>
-    </rule>
+  <rule comment="REGLA: NUMERAL">
+     <pattern>
+       <pattern-item n="num"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="num" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="NUM"/></tag>
+             <tag><clip pos="1" side="sl" part="syntag"/></tag>
+             <tag><clip pos="1" side="sl" part="nbr"/></tag>
+             <tag><clip pos="1" side="sl" part="a_case"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_num"/>
+             <clip pos="1" side="tl" part="nbr"/>
+             <clip pos="1" side="tl" part="a_case"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
 
 
-   <rule>
-      <pattern>
-        <pattern-item n="pcle"/>
-      </pattern>
-      <action>
-        <out>
-			<lu>
-				<clip pos="1" side="tl" part="lemh"/>
-				<clip pos="1" side="tl" part="a_pcle"/>
-				<clip pos="1" side="tl" part="lemq"/>
-			</lu>
-        </out>
-      </action>
-    </rule>
+  <rule comment="REGLA: CONJUNCTION">
+     <pattern>
+       <pattern-item n="conj"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="conj" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="CONJ"/></tag>
+             <tag><clip pos="1" side="sl" part="syntag"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_conj"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
+  <rule comment="REGLA: ADVERB">
+     <pattern>
+       <pattern-item n="adv"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="adv" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="ADV"/></tag>
+             <tag><clip pos="1" side="sl" part="syntag"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_adv"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
+
+
+  <rule comment="REGLA: PARTICLE">
+     <pattern>
+       <pattern-item n="pcle"/>
+     </pattern>
+     <action>
+       <out>
+         <chunk name="pcle" case="caseFirstWord">
+           <tags>
+             <tag><lit-tag v="PCLE"/></tag>
+             <tag><clip pos="1" side="sl" part="syntag"/></tag>
+           </tags>
+           <lu>
+             <clip pos="1" side="tl" part="lemh"/>
+             <clip pos="1" side="tl" part="a_pcle"/>
+             <clip pos="1" side="tl" part="lemq"/>
+           </lu>
+         </chunk>
+       </out>
+     </action>
+  </rule>
+
 
 
   </section-rules>
