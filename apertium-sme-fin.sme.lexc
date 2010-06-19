@@ -6514,6 +6514,7 @@ faláštallat:faláštalla BOAHTALADDA ;
 ferdnet:ferdne DOHPPE ;
 fir0restit:fir'rest MUITAL ;
 fitnat:fitna DIEVVA ;
+fuobmát:fuobmá DOHPPE ;
 fál0lat:fálla BORRA ;
 gahččat:gahčča DIEVVA ;
 gal0gat:gal'ga GALGA ;
@@ -6946,6 +6947,7 @@ LEXICON NounRoot
  eise#váldi+N+Pl+Acc+Use/Sub:eiseváldiid9 K ; !
  sámi:sámi%> RAbbr ;
  beroštupmi+Use/Sub:beroštupmi Rreal ; !
+ ii+Use/Sub:ij Rreal ; ! !XXX evaluate this
  a0đa+Last:ađđam8 SEAMU "marrow N" ; !
  addi+SgNomCmp+SgGenCmp+PlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft:addi¤ ACTOR "giver N" ; !
 a^dreas0sa:a^dreas'sa GOAHTI "address N" ;

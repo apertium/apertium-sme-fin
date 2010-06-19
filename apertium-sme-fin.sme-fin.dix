@@ -2411,6 +2411,7 @@
 	<e><p><l>joavku<s n="N"/></l><r>joukko<s n="N"/></r></p></e>
 	<e><p><l>riegádeapmi<s n="N"/></l><r>synty<s n="N"/></r></p></e>
 	<e><p><l>erttet<b/>dákti<s n="N"/></l><r>kylkiluu<s n="N"/></r></p></e>
+	<e><p><l>várrepresideanta<s n="N"/></l><r>varapresidentti<s n="N"/></r></p></e>
 	
 	
 	<!-- Nouns end -->
@@ -3793,7 +3794,10 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>mearridit<s n="V"/><s n="TV"/></l><r>päättää<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>heivet<s n="V"/><s n="IV"/></l><r>sopia<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>buktit<s n="V"/><s n="TV"/></l><r>tuoda<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>fuobmát<s n="V"/><s n="TV"/></l><r>huomata<s n="V"/></r></p><par n="V_V"/></e>
 	
+	
+	<!-- Verbs end -->
     
     <!-- Punctuation -->
 
