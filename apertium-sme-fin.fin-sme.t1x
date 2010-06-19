@@ -405,7 +405,7 @@
     </rule>
 
     
-	<rule comment="regla: neg verb>
+	<rule comment="regla: neg verb">
 		<pattern>
 			<pattern-item n="neg_verb" />
 		</pattern>
@@ -460,7 +460,7 @@
 		</action>
 	</rule>
 	
-	<rule comment="regla: pron.refl>
+	<rule comment="regla: pron.refl">
 		<pattern>
 			<pattern-item n="pronrefl"/>
 		</pattern>
@@ -521,6 +521,14 @@
           </when>
         </choose>
         <out>
+		  	<chunk name="nom" case="caseFirstWord">
+			  <tags>
+				 <tag><lit-tag v="SN"/></tag>
+	             <tag><var n="current_syntag"/></tag>
+	             <tag><clip pos="1" side="tl" part="nbr"/></tag>
+	             <tag><clip pos="1" side="tl" part="case"/></tag>
+			  </tags>
+
           <lu>
             <clip pos="1" side="tl" part="lem"/>
             <clip pos="1" side="tl" part="a_nom"/>
@@ -529,6 +537,7 @@
             <clip pos="1" side="tl" part="a_case" />
 			<clip pos="1" side="tl" part="a_poss" />
           </lu>
+ </chunk>
         </out>
       </action>
     </rule>
