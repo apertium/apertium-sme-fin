@@ -12,7 +12,7 @@ BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON = \
 	$(PREFIX2).autogen.hfst \
-	$(PREFIX2).automorf.hfst \
+	$(PREFIX1).automorf.hfst \
 	$(PREFIX2).rlx.bin \
 	$(PREFIX2).autobil.bin \
 	$(PREFIX2).t1x.bin \
@@ -62,9 +62,9 @@ $(PREFIX2).autogen.hfst: .deps/$(BASENAME).$(LANG1).hfst .deps/xfst2apertium.use
 	hfst-lookup-optimize .deps/$(PREFIX2).autogen.hfst -o $@
 	rm .deps/$@.1.tmp .deps/$@.2.tmp
 
-$(PREFIX1).automorf.hfst: $(PREFIX2).autogen.hfst
+$(PREFIX1).automorf.hfst: .deps/$(PREFIX2).autogen.hfst
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-invert $(PREFIX2).autogen.hfst -o .deps/$(PREFIX1).automorf.hfst
+	hfst-invert .deps/$(PREFIX2).autogen.hfst -o .deps/$(PREFIX1).automorf.hfst
 	hfst-lookup-optimize .deps/$(PREFIX1).automorf.hfst -o $@
 
 

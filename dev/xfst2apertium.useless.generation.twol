@@ -56,8 +56,8 @@ Useless =
 !%+Dial/%-GG
 Uselesspaths = 
 %+Use/NG
+%+Use/Ped	
 %+Use/Sub
-%+Use/NG
 %+Dial/%-KJ
 %+Dial/%-GS
 ;
@@ -67,7 +67,7 @@ Rules
 "Try again"
 Uselesspaths:0 /<= _ ;
 
-"Delete Use-tags etc. that we don't use"
-Useless:0 <=> _ ; 
+!"Delete Use-tags etc. that we don't use"
+!Useless:0 <=> _ ; 
 ! Removing tags with hfst-substitute will give duplicate analyses, so
 ! we do it here instead
