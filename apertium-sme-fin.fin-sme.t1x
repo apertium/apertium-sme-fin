@@ -189,6 +189,39 @@
       <attr-item tags="PxPl2"/>
       <attr-item tags="PxPl3"/>
     </def-attr>
+    <def-attr n="syntag">
+      <attr-item tags="@X"/>
+      <attr-item tags="@HNOUN"/>
+      <attr-item tags="@CNP"/>
+      <attr-item tags="@CVP"/>
+      <attr-item tags="@→N"/>
+      <attr-item tags="@←OBJ"/>
+      <attr-item tags="@OBJ"/>
+      <attr-item tags="@-F←OBJ"/>
+      <attr-item tags="@SUBJ→"/>
+      <attr-item tags="@←SUBJ"/>
+      <attr-item tags="@SPRED→"/>
+      <attr-item tags="@←SPRED"/>
+      <attr-item tags="@\+FMAINV"/>
+      <attr-item tags="@-FMAINV"/>
+      <attr-item tags="@\+FAUXV"/>
+      <attr-item tags="@ADVL"/>
+      <attr-item tags="@←ADVL"/>
+      <attr-item tags="@ADVL→"/>
+      <attr-item tags="@HAB"/>
+      <attr-item tags="@Num←"/>
+      <attr-item tags="@→Num"/>
+      <attr-item tags="@INTERJ"/>
+      <attr-item tags="@PCLE"/>
+      <attr-item tags="@OPRED→"/>
+      <attr-item tags="@←OPRED"/>
+      <attr-item tags="@→P"/>
+      <attr-item tags="@P←"/>
+      <attr-item tags="@-FSUBJ→"/>
+      <attr-item tags="@-FOBJ→"/>
+      <attr-item tags="@-F←OBJ"/>
+    </def-attr>
+
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
