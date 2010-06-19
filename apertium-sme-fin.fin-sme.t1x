@@ -33,6 +33,9 @@
     <def-cat n="nom_cmpnd">
       <cat-item tags="N.*.*.Cmpnd"/> 
     </def-cat>
+    <def-cat n="ord">
+      <cat-item tags="Num.Ord.*"/>
+    </def-cat>
     <def-cat n="num">
       <cat-item tags="Num.*"/>
     </def-cat>
@@ -81,6 +84,10 @@
 		<attr-item tags="Pron.Qnt"/>
 		<attr-item tags="Pron.Indef"/>
 	</def-attr>
+    <def-attr n="a_ord">
+      <attr-item tags="Num.Ord"/>
+      <attr-item tags="A.Ord"/>
+    </def-attr>
     <def-attr n="a_num">
       <attr-item tags="Num"/>
     </def-attr>
@@ -621,6 +628,26 @@
 				<clip pos="1" side="tl" part="nbr"/>
 				<clip pos="1" side="tl" part="a_person"/>
 				<clip pos="1" side="tl" part="a_case" />
+			</lu>
+        </out>
+      </action>
+    </rule>
+
+   <rule>
+      <pattern>
+        <pattern-item n="ord"/>
+      </pattern>
+      <action>
+		<call-macro n="set_par_gen">
+			<with-param pos="1"/>
+		</call-macro>
+        <out>
+			<lu>
+				<clip pos="1" side="tl" part="lemh"/>
+				<clip pos="1" side="tl" part="a_ord"/>
+				<clip pos="1" side="tl" part="nbr"/>
+				<clip pos="1" side="tl" part="a_case"/>
+				<clip pos="1" side="tl" part="lemq"/>
 			</lu>
         </out>
       </action>
