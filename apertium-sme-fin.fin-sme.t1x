@@ -30,6 +30,9 @@
     <def-cat n="v_actor">
       <cat-item tags="V.Der_ja.*"/>
     </def-cat>
+    <def-cat n="num_mod">
+      <cat-item tags="N.*.*.@Num←"/>
+    </def-cat>
     <def-cat n="nom_cmpnd">
       <cat-item tags="N.*.*.Cmpnd"/>
     </def-cat>
@@ -58,6 +61,10 @@
     </def-cat>
     <def-cat n="pronpers">
       <cat-item tags="Pron.Pers.*"/>
+    </def-cat>
+    <def-cat n="punct_clb">
+      <cat-item tags="Punct.CLB"/>
+      <cat-item tags="Punct.CLB.*"/>
     </def-cat>
     <def-cat n="pron">
       <cat-item tags="Pron.*"/>
@@ -319,6 +326,14 @@
           </let>
         </otherwise>
       </choose>
+    </def-macro>
+    <def-macro n="set_par_gen2" npar="2">
+      <call-macro n="set_par_gen">
+        <with-param pos="1"/>
+      </call-macro>
+      <call-macro n="set_par_gen">
+        <with-param pos="2"/>
+      </call-macro>
     </def-macro>
     <def-macro n="set_par_gen" npar="1" c="arg.1: pronoun. Change Par into Gen">
       <choose>
@@ -677,7 +692,7 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="current_syntag"/></tag>
               <tag><clip pos="1" side="tl" part="nbr"/></tag>
-              <tag><clip pos="1" side="tl" part="case"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
@@ -728,7 +743,7 @@
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="current_syntag"/></tag>
               <tag><clip pos="2" side="tl" part="nbr"/></tag>
-              <tag><clip pos="2" side="tl" part="case"/></tag>
+              <tag><clip pos="2" side="tl" part="a_case"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lem"/>
@@ -751,6 +766,51 @@
         </out>
       </action>
     </rule>
+    <rule comment="REGLA: NUM NomMod"> <!-- Áhčis leat 2 máná. WORKS-->
+      <pattern>
+        <pattern-item n="num"/>
+        <pattern-item n="num_mod"/>
+      </pattern>
+      <action>
+        <call-macro n="set_loc_loc1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_tra_ill1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_par_gen2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="num_mod" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_num"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/> 
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="a_case"/>
+              <clip pos="2" side="tl" part="poss"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+   </rule>
+
     <!-- end noun rules -->
     <!-- begin adjective rules -->
     <rule comment="regla: adj">
@@ -913,6 +973,26 @@
         </out>
       </action>
     </rule>
+    <rule comment="REGLA: PUNCTUATION CLB">
+      <pattern>
+        <pattern-item n="punct_clb"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="punct" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="CLB"/></tag>
+              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     <!-- end unsorted rules -->
   </section-rules>
 </transfer>
