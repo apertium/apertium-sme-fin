@@ -4,6 +4,13 @@ import os, sys, getopt
 import subprocess as sp
 import re
 
+try:
+	import json
+except ImportError:
+	json = False
+	print "json module not installed. Only command line options or options in this file will be possible."
+
+
 PIPE = sp.PIPE
 
 class Config(object):
@@ -14,14 +21,15 @@ class Config(object):
 		"""
 			Set default options. Don't change them here if you're editing the file. Change below.
 		"""
-		self.TARGET_LANGUAGE = "sme"
-		self.SOURCE_LANGUAGE = "fin"
+		self.TARGET_LANGUAGE = ""
+		self.SOURCE_LANGUAGE = ""
 		self.GTHOME = os.environ.get("GTHOME")
-		self.PRODUCE_LEXC_FOR = "sme"
+		self.PRODUCE_LEXC_FOR = ""
 		self.OUTPUT_DIR = '.'
-		self.GTPFX = 'gt'
+		self.GTPFX = ''
+		self.LEXTYPE = ''
 		
-		self.SRC = '/omg/'
+		self.SRC = ''
 		
 		proc_lang = self.PRODUCE_LEXC_FOR
 
@@ -43,7 +51,9 @@ class Config(object):
 			"GTPFX": self.GTPFX,
 			"OUTPUT_DIR": self.OUTPUT_DIR,
 			"PRODUCE_LEXC_FOR": self.PRODUCE_LEXC_FOR,
-			"files": self.files
+			"files": self.files,
+			"SRC": self.SRC,
+			"LEXTYPE": self.LEXTYPE
 		}
 		return D
 	
@@ -57,7 +67,8 @@ class Config(object):
 			self.__setattr__(a, b)
 				
 		self.files = D['files']
-		self.SRC = SRC = self.GTHOME + '/' + self.GTPFX + '/' + self.PRODUCE_LEXC_FOR + '/src/'
+		if not self.SRC:
+			self.SRC = SRC = self.GTHOME + '/' + self.GTPFX + '/' + self.PRODUCE_LEXC_FOR + '/src/'
 
 class Configs(object):
 	def __init__(self):
@@ -69,18 +80,18 @@ class Configs(object):
 #
 #########
 
-CONF = Configs()
+DEFAULTS = Configs()
 
-CONF.langs[0].TARGET_LANGUAGE = "sme"
-CONF.langs[0].SOURCE_LANGUAGE = "fin"
-CONF.langs[0].GTHOME = os.environ.get("GTHOME")
-CONF.langs[0].PRODUCE_LEXC_FOR = "sme"
-CONF.langs[0].OUTPUT_DIR = os.getcwd() + '/../'
-CONF.langs[0].GTPFX = 'gt'
-CONF.langs[0].HEADER = "sme-lex.txt"
-CONF.langs[0].SRC = CONF.langs[0].GTHOME + '/' + CONF.langs[0].GTPFX + '/' + CONF.langs[0].PRODUCE_LEXC_FOR + '/src/'
+DEFAULTS.langs[0].TARGET_LANGUAGE = "sme"
+DEFAULTS.langs[0].SOURCE_LANGUAGE = "fin"
+DEFAULTS.langs[0].GTHOME = os.environ.get("GTHOME")
+DEFAULTS.langs[0].PRODUCE_LEXC_FOR = "sme"
+DEFAULTS.langs[0].OUTPUT_DIR = os.getcwd() + '/../'
+DEFAULTS.langs[0].GTPFX = 'gt'
+DEFAULTS.langs[0].HEADER = "sme-lex.txt"
+DEFAULTS.langs[0].SRC = DEFAULTS.langs[0].GTHOME + '/' + DEFAULTS.langs[0].GTPFX + '/' + DEFAULTS.langs[0].PRODUCE_LEXC_FOR + '/src/'
 
-CONF.langs[0].files = [
+DEFAULTS.langs[0].files = [
 	["verb-sme-lex.txt", 	'clip', 	{'pos_filter': 'V', 'split': 'VerbRoot\n'}],
 	["noun-sme-lex.txt", 	'clip', 	{'pos_filter': 'N', 'split': 'NounRoot\n'}],
 	["adj-sme-lex.txt", 		'clip', 	{'pos_filter': 'A', 'split': 'AdjectiveRoot\n'}],
@@ -98,40 +109,40 @@ CONF.langs[0].files = [
 	["punct-sme-lex.txt", 			'cat']
 ]
 
-try:
-	import json
-except ImportError:
-	print "json module not installed. Only command line options or options in this file will be possible."
-
-if json:
+def load_conf(fname):
+	if not json:
+		return False
 	try:
-		with open('langs.cfg', 'r') as F:
+		with open(fname, 'r') as F:
 			exists = True
 			try:
 				D = json.load(F)
 			except Exception, e:
 				print e
-			CONF = Configs()
+				print "Oops, config file is farked up."
+				return 2
+			new_confs = Configs()
 			if len(D) == 1:
 				new = Config()
 				new.read_from_dict(D[0])
-				CONF.langs = [new]
+				new_confs.langs = [new]
 			elif len(D) > 1:
-				CONF.langs = []
+				new_conf.langs = []
 				for item in D:
 					new = Config()
 					new.read_from_dict(item)
-					CONF.langs.append(new)
+					new_confs.langs.append(new)
 			# print CONF.langs		
 			print "Loaded config from %s" % F.name
 			
 	except IOError:
 		print "Config file does not exist. Creating default file."
 		with open('langs.cfg', 'w') as F:
-			json.dump([CONF.langs[0].return_dict()], F, ensure_ascii=True)
+			json.dump([DEFAULTS.langs[0].return_dict()], F, ensure_ascii=True)
 			print "Defaults saved to %s" % F.name
-else:
-	json == False
+	
+	DEFAULTS = False
+	return new_confs
 
 
 # 	Regexp to exclude lines we don't want
@@ -269,6 +280,11 @@ def extract(data, fname, pos_filter, split, no_header=False, no_trim=False, debu
 		return head, trim
 
 
+def make_hlexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
+	print "Coming soon!"
+	return False
+
+
 def make_lexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
 	"""
 		This does everything.
@@ -291,7 +307,10 @@ def make_lexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
 	# 		sys.exit() # TODO: exit with error
 	
 	# SRC = "%s/%s/%s/src" % (gthome, gtpfx, proc_lang)
-	SRC = COBJ.SRC
+	try:
+		SRC = COBJ.SRC
+	except AttributeError:
+		print "SRC not set."
 	
 	DEV = os.getcwd()
 	OUTFILE = "%s.%s.lexc" % (BASENAME, proc_lang) # TODO: change to prod location.
@@ -353,13 +372,13 @@ def make_lexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
 ### Begin command-line and input handling
 
 default_values = '\n'
-default_values += "\t--target-lang:   %s\n" % CONF.langs[0].TARGET_LANGUAGE
-default_values += "\t--source-lang:   %s\n" % CONF.langs[0].SOURCE_LANGUAGE
-default_values += "\t--proc-lang:     %s\n" % CONF.langs[0].PRODUCE_LEXC_FOR
-default_values += "\t--gthome:        %s\n" % CONF.langs[0].GTHOME
-default_values += "\t--gt-prefix:     %s\n" % CONF.langs[0].GTPFX
-default_values += "\t--output-dir:    %s\n" % CONF.langs[0].OUTPUT_DIR
-default_values += "\n\tDefault proc dir: %s\n" % "%s%s/%s/src/" % (CONF.langs[0].GTHOME, CONF.langs[0].GTPFX, CONF.langs[0].PRODUCE_LEXC_FOR)
+default_values += "\t--target-lang:   %s\n" % DEFAULTS.langs[0].TARGET_LANGUAGE
+default_values += "\t--source-lang:   %s\n" % DEFAULTS.langs[0].SOURCE_LANGUAGE
+default_values += "\t--proc-lang:     %s\n" % DEFAULTS.langs[0].PRODUCE_LEXC_FOR
+default_values += "\t--gthome:        %s\n" % DEFAULTS.langs[0].GTHOME
+default_values += "\t--gt-prefix:     %s\n" % DEFAULTS.langs[0].GTPFX
+default_values += "\t--output-dir:    %s\n" % DEFAULTS.langs[0].OUTPUT_DIR
+default_values += "\n\tDefault proc dir: %s\n" % "%s%s/%s/src/" % (DEFAULTS.langs[0].GTHOME, DEFAULTS.langs[0].GTPFX, DEFAULTS.langs[0].PRODUCE_LEXC_FOR)
 
 
 help_message = '''\n\nOPTIONS:
@@ -388,21 +407,45 @@ class Usage(Exception):
 
 # make_lexc(TL=TARGET_LANGUAGE, SL=SOURCE_LANGUAGE, proc_lang=PRODUCE_LEXC_FOR, gthome=GTHOME, gtpfx=GTPFX, out_dir=OUTPUT_DIR):
 
+def run_with_conf(C):
+	for lang in C.langs:
+		if lang.LEXTYPE == "hlexc":
+			make_hlexc(
+				lang.TARGET_LANGUAGE, 
+				lang.SOURCE_LANGUAGE, 
+				lang.PRODUCE_LEXC_FOR,
+				lang.GTPFX,
+				lang.GTHOME,
+				lang.OUTPUT_DIR,
+				lang,
+			)
+		else:
+			make_lexc(
+				lang.TARGET_LANGUAGE, 
+				lang.SOURCE_LANGUAGE, 
+				lang.PRODUCE_LEXC_FOR,
+				lang.GTPFX,
+				lang.GTHOME,
+				lang.OUTPUT_DIR,
+				lang
+			)
+	return True
+
 def main(argv=None):
 	
 	# Set commandline defaults
-	cmd_tl            = CONF.langs[0].TARGET_LANGUAGE
-	cmd_sl            = CONF.langs[0].SOURCE_LANGUAGE
-	cmd_proc_lang     = CONF.langs[0].PRODUCE_LEXC_FOR
-	cmd_gthome        = CONF.langs[0].GTHOME
-	cmd_gtpfx         = CONF.langs[0].GTPFX
-	cmd_outdir        = CONF.langs[0].OUTPUT_DIR
+	cmd_tl            = DEFAULTS.langs[0].TARGET_LANGUAGE
+	cmd_sl            = DEFAULTS.langs[0].SOURCE_LANGUAGE
+	cmd_proc_lang     = DEFAULTS.langs[0].PRODUCE_LEXC_FOR
+	cmd_gthome        = DEFAULTS.langs[0].GTHOME
+	cmd_gtpfx         = DEFAULTS.langs[0].GTPFX
+	cmd_outdir        = DEFAULTS.langs[0].OUTPUT_DIR
 	
 	if argv is None:
 		argv = sys.argv
 	try:
 		try:
-			opts, args = getopt.getopt(argv[1:], "tspgxho:v", ["help", "target-lang=", "source-lang=", "proc-lang=", "gthome=", "gt-prefix=", "output-dir="])
+			opts, args = getopt.getopt(argv[1:], "hctspgxo:v", ["help", "config=", "target-lang=", "source-lang=", "proc-lang=", "gthome=", "gt-prefix=", "output-dir="])
 		except getopt.error, msg:
 			raise Usage(msg)
 
@@ -410,47 +453,20 @@ def main(argv=None):
 		if len(opts) == 0:
 			print "\nNo options, using defaults in file, or langs.cfg."
 			print "See --help for more information. \n"
-			for lang in CONF.langs:
-				make_lexc(
-					lang.TARGET_LANGUAGE, 
-					lang.SOURCE_LANGUAGE, 
-					lang.PRODUCE_LEXC_FOR,
-					lang.GTPFX,
-					lang.GTHOME,
-					lang.OUTPUT_DIR,
-					lang
-				)
-		
-			# if len(CONF.langs) == 1:
-			# 	lang = CONF.langs[0]
-			# 	make_lexc(
-			# 		lang.TARGET_LANGUAGE, 
-			# 		lang.SOURCE_LANGUAGE, 
-			# 		lang.PRODUCE_LEXC_FOR,
-			# 		lang.GTPFX,
-			# 		lang.GTHOME,
-			# 		lang.OUTPUT_DIR,
-			# 		lang
-			# 	)
-			# elif len(CONF.langs) > 1:
-			# 	for lang in CONF.langs:
-			# 		make_lexc(
-			# 			lang.TARGET_LANGUAGE, 
-			# 			lang.SOURCE_LANGUAGE, 
-			# 			lang.PRODUCE_LEXC_FOR,
-			# 			lang.GTPFX,
-			# 			lang.GTHOME,
-			# 			lang.OUTPUT_DIR,
-			# 			lang
-			# 		)
-			
-							
+			CONF = load_conf('langs.cfg')
+			run_with_conf(CONF)
+									
 		elif len(opts) > 0:			
 			for option, value in opts:
 				if option == "-v":
 					verbose = True
 				if option in ("-h", "--help"):
 					raise Usage(help_message)
+				if option in ("-c", "--config"):
+					fn = value
+					XC = load_conf(fname=fn)
+					run_with_conf(XC)
+					return 2					
 				if option in ("-t", "--target-lang"):
 					cmd_tl = value
 				if option in ("-s", "--source-lang"):
@@ -464,7 +480,7 @@ def main(argv=None):
 				if option in ("-o", "--output-dir"):
 					cmd_outdir = value
 		
-			make_lexc(cmd_tl, cmd_sl, cmd_proc_lang, cmd_gtpfx, cmd_gthome, cmd_outdir)
+		make_lexc(cmd_tl, cmd_sl, cmd_proc_lang, cmd_gtpfx, cmd_gthome, cmd_outdir)
 
 
 	except Usage, err:
