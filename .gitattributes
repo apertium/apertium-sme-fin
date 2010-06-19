@@ -43,7 +43,7 @@ dev/update-lexc.sh -text
 dev/uppercase-first.twol -text
 dev/xfst2apertium.hashtags.twol -text
 dev/xfst2apertium.relabel -text
-dev/xfst2apertium.useless.twol -text
+dev/xfst2apertium.useless.generation.twol -text
 /fin-sme.prob -text
 /lexchoicebil.xsl -text
 /modes.xml -text

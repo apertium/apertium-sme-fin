@@ -93,16 +93,16 @@
 +Cmpnd	<Cmp>
 +CmpOnly	<Cmp>
 +SgCmp	<Sg><Cmp>
-+SgLeft	<Sg>
++SgLeft	@0@
 +PlCmp	<Sg><Cmp>
-+SgNomCmp	<Sg><Nom><Cmp>
-+SgNomLeft	<Sg><Nom>
-+SgGenCmp	<Sg><Gen><Cmp>
-+SgGenLeft	<Sg><Gen>
-+DefSgGenCmp	<Def><Sg><Gen><Cmp>
-+PlNomCmp	<Pl><Nom><Cmp>
-+PlNomLeft	<Pl><Nom>
-+PlGenCmp	<Pl><Gen><Cmp>
++SgNomCmp	@0@
++SgNomLeft	@0@
++SgGenCmp	@0@
++SgGenLeft	@0@
++DefSgGenCmp	@0@
++PlNomCmp	@0@
++PlNomLeft	@0@
++PlGenCmp	@0@
 +CmpN/SgN	@0@
 +CmpN/SgG	@0@
 +CmpN/PlG	@0@
@@ -122,5 +122,5 @@
 +Pcle	<Pcle>
 +>1	<GT1>
 #	+
-^	
+^	@0@
 +Use/Sub	@0@

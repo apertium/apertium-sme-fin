@@ -26,7 +26,7 @@
         <file name="fin-sme.t3x.bin"/>
       </program>
       <program name="hfst-proc $1">
-        <file name="fin-sme.autogen.hfst.ol"/>
+        <file name="fin-sme.autogen.hfst"/>
       </program>
     </pipeline>
   </mode>

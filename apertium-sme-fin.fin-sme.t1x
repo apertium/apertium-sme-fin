@@ -39,7 +39,7 @@
     <def-cat n="attrmod">
       <cat-item tags="Pron.Dem.*.*."/>
       <cat-item tags="Pron.Interr.*.*."/>
-      <cat-item tags="Pron.Rel.*.*."/>
+      <cat-item tags="Pron.Rel.*.*.@N→"/>
     </def-cat>
     <def-cat n="ord">
       <cat-item tags="Num.Ord.*"/>
@@ -234,6 +234,7 @@
     <def-var n="number"/>
     <def-var n="case"/>
     <def-var n="current_syntag"/>
+    <def-var n="cur_verb_mood"/>
   </section-def-vars>
   <section-def-macros>
     <def-macro n="set_loc_loc1" npar="1" c="arg.1: noun. Change All/Ela/Ade/Ine into Loc">
@@ -609,6 +610,23 @@
         <pattern-item n="neg_verb"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test>
+              <not>
+                <equal>
+                  <clip pos="1" side="tl" part="a_realis"/>
+                  <lit-tag v="Imprt"/>
+                </equal>
+              </not>
+            </test>
+            <let>
+              <var n="cur_verb_mood"/>
+              <lit-tag v="Ind"/>
+            </let>
+          </when>
+        </choose>
+
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
@@ -622,7 +640,7 @@
               <!-- specified in a_verb -->
               <clip pos="1" side="tl" part="a_realis"/>
               <clip pos="1" side="tl" part="a_voice"/>
-              <lit-tag v="Ind"/>
+              <var n="cur_verb_mood"/>
               <!--<clip pos="1" side="tl" part="a_tense" />-->
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_neg"/>
