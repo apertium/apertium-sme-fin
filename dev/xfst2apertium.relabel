@@ -112,8 +112,8 @@
 +CmpN/SgNomLeft	@0@
 +CmpN/SgGenLeft	@0@
 +CmpN/PlGenLeft	@0@
-+PlGenLeft	<Pl><Gen>
-+DefPlGenCmp	<Def><Pl><Gen><Cmp>
++PlGenLeft	@0@
++DefPlGenCmp	@0@
 +Qst	<Qst>
 +Ger	<Ger>
 +VAbess	<VAbess>
