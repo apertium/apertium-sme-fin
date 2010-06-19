@@ -2,7 +2,7 @@
 <modes>
   <mode name="fin-sme" install="yes">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
@@ -33,7 +33,7 @@
 
   <mode name="fin-sme-morph">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
     </pipeline>
@@ -41,7 +41,7 @@
 
   <mode name="fin-sme-tagger">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
@@ -53,7 +53,7 @@
 
   <mode name="fin-sme-chunker">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
@@ -73,7 +73,7 @@
 
   <mode name="fin-sme-interchunk">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
@@ -97,7 +97,7 @@
 
   <mode name="fin-sme-postchunk">
     <pipeline>
-      <program name="hfst-proc">
+      <program name="hfst-proc -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -w">
