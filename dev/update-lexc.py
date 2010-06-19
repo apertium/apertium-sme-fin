@@ -231,9 +231,10 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		side = lambda x: rx_spl(x)[1]
 		l_split = lambda x: chstr('', rx_spl2(rx_spl(x)[1])[0])
 	else:
-		rx_spl = re.compile(r'\<').split
+		rx_spl = re.compile(r':').split
+		rx_spl2 = re.compile(r'\<').split
 		side = lambda x: rx_spl(x)[0]
-		l_split = lambda x: rx_spl(x)[0]
+		l_split = lambda x: rx_spl2(x)[0]
 				
 	
 	# Possible to do this faster?	
@@ -241,6 +242,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		words = list(set([l_split(a) for a in data if side(a).find(search_key) > -1]))
 	else:
 		words = list(set([l_split(a) for a in data]))
+	
 	
 	if debug:
 		print str(len(words)) + ' unique words matching %s in .dix' % (str(search_key))
@@ -264,6 +266,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	# Filter out text based on excludes
 	rest = rest.splitlines()
 	rest = [a for a in rest if not excl.search(a)]
+	
 	
 	if debug:
 		# print '\n'.join(rest[0:50])
@@ -289,14 +292,16 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	
 	# Slow
 	# stripchar = lambda x: x.replace('0','').replace('^','').replace('#','').partition(':')[0].partition('+')[0]
-	wt = words
+	wt = []
 	
 	if no_trim:
 		trim = rest
 	else:
+		trim = []
 		if hlexc:
 			# Need more complex loop for now to make sure all sublexicons are involved.
 			# TODO: test for sme.
+			wt = words
 			for a in rest:
 				if a.find(';') > -1:
 					if stripchar(a) in words:
@@ -305,8 +310,17 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 				else:
 					trim.append(a)
 		else:
-			trim = [a for a in rest if stripchar(a) in words]
+			for a in rest:
+				if a.find(';') > -1:
+					if stripchar(a) in words:
+						trim.append(a)
+				else:
+					trim.append(a)
+			
+			# trim = [a for a in rest if stripchar(a) in words]
 			wt = [a for a in words if stripchar(a) not in words]
+	
+	
 	
 	if debug:
 		# print '\n'.join([stripchar(a) for a in rest])
