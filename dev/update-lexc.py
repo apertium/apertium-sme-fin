@@ -32,7 +32,7 @@ class Config(object):
 		self.SRC = ''
 		
 		proc_lang = self.PRODUCE_LEXC_FOR
-
+		
 		self.HEADER = "sme-lex.txt"
 		
 		# List of lists, first item is filename, second item is action 'clip' or 'cat', third is dictionary of options.
@@ -80,8 +80,8 @@ class Configs(object):
 #
 #########
 
+# TODO: always use json cfgs.
 DEFAULTS = Configs()
-
 DEFAULTS.langs[0].TARGET_LANGUAGE = "sme"
 DEFAULTS.langs[0].SOURCE_LANGUAGE = "fin"
 DEFAULTS.langs[0].GTHOME = os.environ.get("GTHOME")
@@ -90,7 +90,6 @@ DEFAULTS.langs[0].OUTPUT_DIR = os.getcwd() + '/../'
 DEFAULTS.langs[0].GTPFX = 'gt'
 DEFAULTS.langs[0].HEADER = "sme-lex.txt"
 DEFAULTS.langs[0].SRC = DEFAULTS.langs[0].GTHOME + '/' + DEFAULTS.langs[0].GTPFX + '/' + DEFAULTS.langs[0].PRODUCE_LEXC_FOR + '/src/'
-
 DEFAULTS.langs[0].files = [
 	["verb-sme-lex.txt", 	'clip', 	{'pos_filter': 'V', 'split': 'VerbRoot\n'}],
 	["noun-sme-lex.txt", 	'clip', 	{'pos_filter': 'N', 'split': 'NounRoot\n'}],
@@ -160,7 +159,6 @@ lex_excludes = [
 ]
 excl = re.compile(r'|'.join(['(?:' + a + ')' for a in lex_excludes]))
 
-
 def lt_exp(fname, side=None):
 	"""
 		Expands lexicon file, currently only one-sided.
@@ -201,7 +199,7 @@ def cat_file(fname, ret_type=False, exclude=False):
 		return data
 
 
-def extract(data, fname, pos_filter, split, no_header=False, no_trim=False, debug=False):
+def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False, debug=False, side=None):
 	"""
 		Given a pattern (e.g., V, N, N><Prop), extract matching intersecting words between lt-expanded data and lex file (fname).
 		
@@ -213,25 +211,40 @@ def extract(data, fname, pos_filter, split, no_header=False, no_trim=False, debu
 		no_trim (bool) 		- False by default, if true, do not filter based on pos_filter
 		
 	"""
-		
+	chstr = re.compile(r'[0\^\#]').sub
+	
+	if fname.find('hlexc') > -1:
+		print "hlexc mode"
+		hlexc = True
+	else:
+		hlexc = False
+	
 	if pos_filter:
-		search_key = '<' + pos_filter
+		search_key = pos_filter
 	else:
 		search_key = False
-		
-	# Words matching pos
 	
-	rx_spl = re.compile(r'\<').split
-	l_split = lambda x: rx_spl(x)[0]	
+	# Words matching pos
+	if side == 'right':
+		rx_spl = re.compile(r':').split
+		rx_spl2 = re.compile(r'\<').split
+		side = lambda x: rx_spl(x)[1]
+		l_split = lambda x: chstr('', rx_spl2(rx_spl(x)[1])[0])
+	else:
+		rx_spl = re.compile(r'\<').split
+		side = lambda x: rx_spl(x)[0]
+		l_split = lambda x: rx_spl(x)[0]
+				
 	
 	# Possible to do this faster?	
 	if search_key:
-		words = list(set([l_split(a) for a in data if a.find(search_key) > -1]))
+		words = list(set([l_split(a) for a in data if side(a).find(search_key) > -1]))
 	else:
 		words = list(set([l_split(a) for a in data]))
 	
 	if debug:
-		print str(len(words)) + ' unique words matching %s in .dix' % (str(search_key), fname.lower())
+		print str(len(words)) + ' unique words matching %s in .dix' % (str(search_key))
+		# print str(len(words)) + ' unique words matching %s in .dix' % (str(search_key), fname.lower())
 	
 	# May not be excluding commented lines, probably should.
 	with open(fname, 'r') as F:
@@ -239,38 +252,71 @@ def extract(data, fname, pos_filter, split, no_header=False, no_trim=False, debu
 	point = 'LEXICON %s' % split
 	
 	# split text
-	clip = text.split(point)
-	head = clip[0] + '\n' + point + '\n'
-	try:
-		rest = clip[1] # NOTE: point not added back in
-	except IndexError:
+	if split:
+		clip = text.split(point)
+		head = clip[0] + '\n' + point + '\n'
+		rest = clip[1]
+	else:
+		head = '\n'
+		clip = text
 		rest = text
-	
-	if debug:
-		print rest
-	
+		
 	# Filter out text based on excludes
 	rest = rest.splitlines()
 	rest = [a for a in rest if not excl.search(a)]
+	
+	if debug:
+		# print '\n'.join(rest[0:50])
+		print "Sorting through %d lines" % len(rest)
+	
 		
 	# rest = [a for a in rest if not a.startswith('!')]
 	
 	# if this is slow, there is still something creative that can be done here
 	
 	# regex isn't working for some reason.
-	chstr = re.compile(r'[0\^\#]').sub
-	chspl = re.compile(r'(:|\+)').split
 	
-	stripchar = lambda x: chstr('', chspl(x)[0])
+	if hlexc:
+		stripchar = lambda x: x.split("'")[0]
+		# def stripchar(x):
+		# 	print x
+		# 	print x.split("'")[0]
+		# 	return x.split("'")[0]
+	else:
+		chspl = re.compile(r'(:|\+)').split
+		stripchar = lambda x: chstr('', chspl(x.strip())[0])
+	
 	
 	# Slow
 	# stripchar = lambda x: x.replace('0','').replace('^','').replace('#','').partition(':')[0].partition('+')[0]
+	wt = words
 	
 	if no_trim:
 		trim = rest
 	else:
-		# trim = map(stripchar, )
-		trim = [a for a in rest if stripchar(a.strip()) in words]
+		if hlexc:
+			# Need more complex loop for now to make sure all sublexicons are involved.
+			# TODO: test for sme.
+			for a in rest:
+				if a.find(';') > -1:
+					if stripchar(a) in words:
+						trim.append(a)
+						wt.pop(wt.index(stripchar(a)))
+				else:
+					trim.append(a)
+		else:
+			trim = [a for a in rest if stripchar(a) in words]
+			wt = [a for a in words if stripchar(a) not in words]
+	
+	if debug:
+		# print '\n'.join([stripchar(a) for a in rest])
+		print "%d lines after trim" % (len(trim))
+		
+	# Print missing words to stderr
+	if len(wt) > 0:
+		sys.stderr.write('>>> %d words possibly missing in morphology: ' % len(wt))
+		sys.stderr.write('\n>>> ' + ', '.join(wt))
+	
 	
 	trim = '\n'.join(trim)
 	
@@ -281,8 +327,63 @@ def extract(data, fname, pos_filter, split, no_header=False, no_trim=False, debu
 
 
 def make_hlexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
-	print "Coming soon!"
-	return False
+	SRC = COBJ.SRC
+	PREFIX1 = "%s-%s" % (TL, SL)
+	PREFIX2 = "%s-%s" % (SL, TL)
+	
+	# Project base-name
+	BASENAME = "apertium-" + PREFIX1
+	
+	DEV = os.getcwd()
+	OUTFILE = "%s.%s.lexc" % (BASENAME, proc_lang)
+	STEPS = COBJ.files
+	
+	if proc_lang == TL:
+		exp = 'left'
+	elif proc_lang == SL:
+		exp = 'right'
+	
+	lt_expand_data = lt_exp(fname="%s/../%s.%s.dix" % (DEV, BASENAME, PREFIX1))
+	output_ = []
+	output_app = output_.append
+	
+	for step in STEPS:
+		fname, action = SRC + step[0], step[1]
+		
+		if len(step) == 3:		opts = dict([(str(a), str(b)) for a, b in step[2].items()]) ; opts['debug'] = True ; opts['side'] = exp
+		else:					opts = None
+		
+		# DEBUG
+		
+		try:
+			with open(fname, 'r') as F:
+				exists = True			
+		except IOError, e:
+			print "*** File %s does not exist. Skipping. ***" % fname
+			continue
+	
+		if action == 'clip':
+			print "... Fetching words from %s" % fname
+			if opts:
+				head, trim = extract(lt_expand_data, fname, **opts)
+			else:
+				head, trim = extract(lt_expand_data, fname)
+			data = head + trim
+		elif action == 'cat':
+			print "... Reading all of %s" % fname
+			data = cat_file(fname, str, exclude=False)
+		
+		output_app(data)	
+	
+	out_ = '\n'.join([a for a in output_])
+	OUTFILE = out_dir + OUTFILE
+
+	with open(OUTFILE, 'w') as F:
+		F.write(out_)
+
+	print '... Done.'
+	print 'Saved to %s.\n' % OUTFILE
+	return True
 
 
 def make_lexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
@@ -301,7 +402,7 @@ def make_lexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
 	
 	# Project base-name
 	BASENAME = "apertium-" + PREFIX1
-	
+		
 	# if not GTHOME:
 	# 		print "$GTHOME not set."
 	# 		sys.exit() # TODO: exit with error
@@ -313,11 +414,11 @@ def make_lexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
 		print "SRC not set."
 	
 	DEV = os.getcwd()
-	OUTFILE = "%s.%s.lexc" % (BASENAME, proc_lang) # TODO: change to prod location.
+	OUTFILE = "%s.%s.lexc" % (BASENAME, proc_lang)
 	
 	# Get data from lt_expand
-	lt_expand_data = lt_exp(fname="%s/../%s.%s.dix" % (DEV, BASENAME, PREFIX1))
-	main_header = cat_file(COBJ.SRC + "/" + COBJ.HEADER, list, exclude=True)
+	lt_expand_data = lt_exp(fname="%s/../%s.%s.dix" % (DEV, BASENAME, PREFIX1)) 
+	main_header = cat_file(COBJ.SRC + "/" + COBJ.HEADER, list, exclude=True)  # TODO: header variable in conf
 	
 	# Use dicts to go through files and trim
 	# strings for just reading a filename with no action taken
@@ -336,7 +437,7 @@ def make_lexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
 				
 		try:
 			with open(fname, 'r') as F:
-				exists = True			
+				exists = True
 		except IOError, e:
 			print "*** File %s does not exist. Skipping. ***" % fname
 			continue
@@ -371,6 +472,7 @@ def make_lexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
 
 ### Begin command-line and input handling
 
+# TODO: always use cfg
 default_values = '\n'
 default_values += "\t--target-lang:   %s\n" % DEFAULTS.langs[0].TARGET_LANGUAGE
 default_values += "\t--source-lang:   %s\n" % DEFAULTS.langs[0].SOURCE_LANGUAGE
@@ -448,7 +550,7 @@ def main(argv=None):
 			opts, args = getopt.getopt(argv[1:], "hctspgxo:v", ["help", "config=", "target-lang=", "source-lang=", "proc-lang=", "gthome=", "gt-prefix=", "output-dir="])
 		except getopt.error, msg:
 			raise Usage(msg)
-
+			
 		# option processing
 		if len(opts) == 0:
 			print "\nNo options, using defaults in file, or langs.cfg."
@@ -480,9 +582,9 @@ def main(argv=None):
 				if option in ("-o", "--output-dir"):
 					cmd_outdir = value
 		
-		make_lexc(cmd_tl, cmd_sl, cmd_proc_lang, cmd_gtpfx, cmd_gthome, cmd_outdir)
-
-
+				make_lexc(cmd_tl, cmd_sl, cmd_proc_lang, cmd_gtpfx, cmd_gthome, cmd_outdir)
+		
+	
 	except Usage, err:
 		print >> sys.stderr, sys.argv[0].split("/")[-1] + ": " + str(err.msg)
 		print >> sys.stderr, "For help use --help.\n"
