@@ -39,6 +39,7 @@
     <sdef n="Prop"     c="Proper noun"/>
     <sdef n="Pers"     c="Personal"/>
     <sdef n="Pos"      c="Positive"/>
+    <sdef n="Neg"      c="Negative"/>
     <sdef n="Rel"      c="Relative"/>
     <sdef n="Dem"      c="Demonstrative"/>
     <sdef n="Interr"   c="Interrogative"/>
@@ -3310,7 +3311,8 @@ some of these are likely not that common... need to fix slashed entries and dupl
 
     <!-- Verbs -->
 
-    <e><p><l>ii<s n="V"/><s n="IV"/></l><r>ei<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>ii<s n="V"/><s n="IV"/><s n="Neg"/></l><r>ei<s n="V"/><s n="Neg"/></r></p><par n="V_V"/></e>
+
     <e><p><l>leat<s n="V"/><s n="IV"/></l><r>olla<s n="V"/></r></p><par n="V_V"/></e>
 	
 	

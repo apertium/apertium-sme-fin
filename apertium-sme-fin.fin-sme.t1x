@@ -15,6 +15,9 @@
     <cat-item tags="Pcle"/>
     <cat-item tags="Pcle.*"/>
   </def-cat>
+  <def-cat n="neg_verb"> 
+    <cat-item tags="V.Neg.*"/>
+  </def-cat>
   <def-cat n="verb"> 
     <cat-item tags="V.*"/>
   </def-cat>
@@ -65,6 +68,7 @@
 		<attr-item tags="V"/>
 		<attr-item tags="V.IV"/>
 		<attr-item tags="V.TV"/>
+		<attr-item tags="V.IV.Neg"/>
 	</def-attr>
 	<def-attr n="a_pron">
 		<attr-item tags="Pron"/>
@@ -346,6 +350,27 @@
     </rule>
 
     
+	<rule>
+		<pattern>
+			<pattern-item n="neg_verb" />
+		</pattern>
+		<action>
+			<out>
+				<lu>
+					<clip pos="1" side="tl" part="lem" />
+					<clip pos="1" side="tl" part="a_verb" /> 
+					<!-- <clip pos="1" side="tl" part="a_trans" /> --> <!-- specified in a_verb -->
+					<clip pos="1" side="tl" part="a_realis" />
+					<clip pos="1" side="tl" part="a_voice" />
+					<lit-tag v="Ind"/>
+					<!--<clip pos="1" side="tl" part="a_tense" />-->
+					<clip pos="1" side="tl" part="a_person" />
+					<clip pos="1" side="tl" part="a_neg" />
+				</lu>
+			</out>
+		</action>
+	</rule>
+ 
 	<rule>
 		<pattern>
 			<pattern-item n="verb" />
