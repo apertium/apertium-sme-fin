@@ -510,7 +510,7 @@
     </rule>
     <!-- end pronoun rules -->
     <!-- begin verb rules -->
-    <rule comment="regla: infs. Fin Inf3 Inf2 Inf1 -&gt; sme Inf">
+    <rule comment="regla: infs. Fin Inf3 Inf2 Inf1 → sme Inf">
       <!-- Test: Minä menen katsomaan, Käyn katsomassa. -->
       <pattern>
         <pattern-item n="inf"/>
@@ -598,7 +598,7 @@
               <!-- <clip pos="1" side="tl" part="gen"/> -->
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
-              <clip pos="1" side="tl" part="a_poss"/>
+              <clip pos="1" side="tl" part="a_pxprs"/>
             </lu>
           </chunk>
         </out>
@@ -700,7 +700,7 @@
               <!-- <clip pos="1" side="tl" part="gen"/> -->
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
-              <clip pos="1" side="tl" part="a_poss"/>
+              <clip pos="1" side="tl" part="a_pxprs"/>
             </lu>
           </chunk>
         </out>
@@ -751,7 +751,7 @@
               <!-- <clip pos="1" side="tl" part="gen"/> -->
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
-              <clip pos="1" side="tl" part="a_poss"/>
+              <clip pos="1" side="tl" part="a_pxprs"/>
             </lu>
             <b pos="1"/>
             <lu>
@@ -760,7 +760,7 @@
               <!-- <clip pos="1" side="tl" part="gen"/> -->
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
-              <clip pos="2" side="tl" part="a_poss"/>
+              <clip pos="2" side="tl" part="a_pxprs"/>
             </lu>
           </chunk>
         </out>
@@ -803,7 +803,7 @@
               <clip pos="2" side="tl" part="a_nom"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
-              <clip pos="2" side="tl" part="poss"/>
+              <clip pos="2" side="tl" part="a_pxprs"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -854,7 +854,7 @@
               <!-- <clip pos="1" side="tl" part="gen"/> -->
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
-              <clip pos="1" side="tl" part="a_poss"/>
+              <clip pos="1" side="tl" part="a_pxprs"/>
             </lu>
           </chunk>
         </out>
@@ -894,6 +894,19 @@
         <pattern-item n="num"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <call-macro n="strip_nbr">
+              <with-param pos="1"/>
+            </call-macro>
+          </when>
+        </choose>
         <out>
           <chunk name="num" case="caseFirstWord">
             <tags>
@@ -907,6 +920,7 @@
               <clip pos="1" side="tl" part="a_num"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
+              <!--<clip pos="1" side="tl" part="a_pxprs"/>--><!-- fin numerals have this, sme ones don't -->
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
