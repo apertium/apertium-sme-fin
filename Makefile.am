@@ -12,6 +12,7 @@ BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON = \
 	$(PREFIX2).autogen.hfst \
+	$(PREFIX2).automorf.hfst \
 	$(PREFIX2).rlx.bin \
 	$(PREFIX2).autobil.bin \
 	$(PREFIX2).t1x.bin \
@@ -42,7 +43,6 @@ TARGETS_COMMON = \
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-twolc -r -i dev/xfst2apertium.useless.analysis.twol -o $@
 
-
 .deps/xfst2apertium.hashtags.twol.hfst: dev/xfst2apertium.hashtags.twol
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-twolc -r -i dev/xfst2apertium.hashtags.twol -o $@
@@ -61,6 +61,11 @@ $(PREFIX2).autogen.hfst: .deps/$(BASENAME).$(LANG1).hfst .deps/xfst2apertium.use
 	hfst-substitute -F dev/xfst2apertium.relabel -i .deps/$@.2.tmp -o .deps/$(PREFIX2).autogen.hfst
 	hfst-lookup-optimize .deps/$(PREFIX2).autogen.hfst -o $@
 	rm .deps/$@.1.tmp .deps/$@.2.tmp
+
+$(PREFIX1).automorf.hfst: $(PREFIX2).autogen.hfst
+	if [ ! -d .deps ]; then mkdir .deps; fi
+	hfst-invert $(PREFIX2).autogen.hfst -o .deps/$(PREFIX1).automorf.hfst
+	hfst-lookup-optimize .deps/$(PREFIX1).automorf.hfst -o $@
 
 
 ## 	BILINGUAL DICTIONARIES
