@@ -247,6 +247,7 @@
     <def-var n="case"/>
     <def-var n="current_syntag"/>
     <def-var n="cur_verb_mood"/>
+    <def-var n="cur_verb_tense"/>
   </section-def-vars>
   <section-def-macros>
     <def-macro n="set_loc_loc1" npar="1" c="arg.1: noun. Change All/Ela/Ade/Ine into Loc">
@@ -686,6 +687,21 @@
         <pattern-item n="verb"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="sl" part="a_realis"/>
+                <lit-tag v="Cond"/>
+              </equal>
+            </test>
+            <let>
+              <var n="cur_verb_tense"/>
+              <lit-tag v="Prs"/>
+            </let>
+          </when>
+        </choose>
+
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
@@ -700,6 +716,7 @@
               <clip pos="1" side="tl" part="a_realis"/>
               <clip pos="1" side="tl" part="a_voice"/>
               <clip pos="1" side="tl" part="a_tense"/>
+              <var n="cur_verb_tense"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_neg"/>
               <clip pos="1" side="tl" part="lemq"/>
@@ -708,6 +725,10 @@
         </out>
         <let>
           <var n="cur_verb_mood"/>
+          <lit v=""/>
+        </let>
+        <let>
+          <var n="cur_verb_tense"/>
           <lit v=""/>
         </let>
       </action>
