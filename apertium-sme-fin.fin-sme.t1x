@@ -250,7 +250,7 @@
     <def-var n="cur_verb_tense"/>
   </section-def-vars>
   <section-def-macros>
-    <def-macro n="set_loc_loc1" npar="1" c="arg.1: noun. Change All/Ela/Ade/Ine into Loc">
+    <def-macro n="set_loc_loc1" npar="1" c="arg.1: noun. Change All/Ela/Ade/Ine/Abl into Loc">
       <choose>
         <when>
           <test>
@@ -268,6 +268,10 @@
               <equal>
                 <clip pos="1" side="sl" part="a_case"/>
                 <lit-tag v="All"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="Abl"/>
               </equal>
               <equal>
                 <clip pos="1" side="sl" part="a_case"/>
