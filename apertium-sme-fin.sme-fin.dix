@@ -107,12 +107,9 @@
 	
 	<e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Pcle"/></r></p></e>
 	
-
-<!-- TODO: Are these really Pcle in fin and Adv in sme ?-->
-<!-- 
 	<e><p><l>beare<s n="Adv"/></l><r>tahansa<s n="Pcle"/></r></p></e>
 	<e><p><l>datte<s n="Adv"/></l><r>silti<s n="Pcle"/></r></p></e>
-	<e><p><l>dál<s n="Adv"/></l><r>juo<s n="Pcle"/></r></p></e>
+	<e><p><l>dál<s n="Adv"/></l><r>jo<s n="Pcle"/></r></p></e>
 	<e><p><l>galego<s n="Adv"/></l><r>tokko<s n="Pcle"/></r></p></e>
 	<e><p><l>goitge<s n="Adv"/></l><r>kuitenkaan<s n="Pcle"/></r></p></e>
 	<e><p><l>goitge<s n="Adv"/></l><r>kuitenkin<s n="Pcle"/></r></p></e>
@@ -129,7 +126,7 @@
 	<e><p><l>gal<s n="Adv"/></l><r>kyllä<s n="Pcle"/></r></p></e>
 	<e><p><l>minddar<s n="Adv"/></l><r>muutoin<s n="Pcle"/></r></p></e>
 	<e><p><l>nugo<s n="Adv"/></l><r>kuten<s n="Pcle"/></r></p></e>
--->
+
 
 	<!-- 
 		TODO: see following TODO.
