@@ -33,7 +33,7 @@ class Config(object):
 		
 		proc_lang = self.PRODUCE_LEXC_FOR
 		
-		self.HEADER = "sme-lex.txt"
+		self.HEADER = ""
 		
 		# List of lists, first item is filename, second item is action 'clip' or 'cat', third is dictionary of options.
 		self.files = [
@@ -60,15 +60,15 @@ class Config(object):
 	def read_from_dict(self, D):
 		# convert all arguments to str, json module is a little funny
 		for k, v in D.items():
-			if type(k) == unicode:
-				a = str(k)
-			if type(v) == unicode:
-				b = str(v)
-			self.__setattr__(a, b)
+			# if type(k) == unicode:
+			# 	a = str(k)
+			# if type(v) == unicode:
+			# 	b = str(v)
+			self.__setattr__(str(k), str(v))
 				
 		self.files = D['files']
-		if not self.SRC:
-			self.SRC = SRC = self.GTHOME + '/' + self.GTPFX + '/' + self.PRODUCE_LEXC_FOR + '/src/'
+		# if not self.SRC:
+		# 	self.SRC = SRC = self.GTHOME + '/' + self.GTPFX + '/' + self.PRODUCE_LEXC_FOR + '/src/'
 
 class Configs(object):
 	def __init__(self):
@@ -159,6 +159,12 @@ lex_excludes = [
 ]
 excl = re.compile(r'|'.join(['(?:' + a + ')' for a in lex_excludes]))
 
+class LTExpError(Exception):
+	def __init__(self, msg):
+		print "lt-expand failed processing. Error:"
+		print msg
+	
+
 def lt_exp(fname, side=None):
 	"""
 		Expands lexicon file, currently only one-sided.
@@ -168,8 +174,10 @@ def lt_exp(fname, side=None):
 	
 	cmd = "lt-expand %s" % fname
 	ltexp = sp.Popen(cmd.split(' '), shell=False, stdout=PIPE, stderr=PIPE, stdin=PIPE)
-	output = ltexp.communicate()[0].splitlines() # split('\n')
-	
+	output, err = ltexp.communicate() # split('\n')
+	output = output.splitlines()
+	if len(err) > 0:
+		raise LTExpError(err)
 	# Remove REGEX and empty lines
 	output = [l for l in output if "REGEX" not in l and l.strip()]
 	
@@ -214,7 +222,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	chstr = re.compile(r'[0\^\#]').sub
 	
 	if fname.find('hlexc') > -1:
-		print "hlexc mode"
+		# print "hlexc mode"
 		hlexc = True
 	else:
 		hlexc = False
@@ -330,6 +338,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	if len(wt) > 0:
 		sys.stderr.write('>>> %d words possibly missing in morphology: ' % len(wt))
 		sys.stderr.write('\n>>> ' + ', '.join(wt))
+		sys.stderr.write('\n')
 	
 	
 	trim = '\n'.join(trim)
@@ -340,7 +349,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		return head, trim
 
 
-def make_hlexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
+def make_hlexc(TL, SL, proc_lang, out_dir, COBJ=False):
 	SRC = COBJ.SRC
 	PREFIX1 = "%s-%s" % (TL, SL)
 	PREFIX2 = "%s-%s" % (SL, TL)
@@ -358,13 +367,14 @@ def make_hlexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
 		exp = 'right'
 	
 	lt_expand_data = lt_exp(fname="%s/../%s.%s.dix" % (DEV, BASENAME, PREFIX1))
+	
 	output_ = []
 	output_app = output_.append
 	
 	for step in STEPS:
 		fname, action = SRC + step[0], step[1]
 		
-		if len(step) == 3:		opts = dict([(str(a), str(b)) for a, b in step[2].items()]) ; opts['debug'] = True ; opts['side'] = exp
+		if len(step) == 3:		opts = dict([(str(a), str(b)) for a, b in step[2].items()]) ; opts['side'] = exp
 		else:					opts = None
 		
 		# DEBUG
@@ -400,7 +410,7 @@ def make_hlexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
 	return True
 
 
-def make_lexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
+def make_lexc(TL, SL, proc_lang, out_dir, COBJ=False):
 	"""
 		This does everything.
 		
@@ -431,8 +441,11 @@ def make_lexc(TL, SL, proc_lang, gthome, gtpfx, out_dir, COBJ=False):
 	OUTFILE = "%s.%s.lexc" % (BASENAME, proc_lang)
 	
 	# Get data from lt_expand
+	print "... Reading words from bidix."
 	lt_expand_data = lt_exp(fname="%s/../%s.%s.dix" % (DEV, BASENAME, PREFIX1)) 
-	main_header = cat_file(COBJ.SRC + "/" + COBJ.HEADER, list, exclude=True)  # TODO: header variable in conf
+	header_fname = COBJ.SRC + "/" + COBJ.HEADER
+	print "... Reading header from %s" % header_fname
+	main_header = cat_file(header_fname, list, exclude=True)  # TODO: header variable in conf
 	
 	# Use dicts to go through files and trim
 	# strings for just reading a filename with no action taken
@@ -526,25 +539,21 @@ class Usage(Exception):
 def run_with_conf(C):
 	for lang in C.langs:
 		if lang.LEXTYPE == "hlexc":
-			make_hlexc(
-				lang.TARGET_LANGUAGE, 
-				lang.SOURCE_LANGUAGE, 
-				lang.PRODUCE_LEXC_FOR,
-				lang.GTPFX,
-				lang.GTHOME,
-				lang.OUTPUT_DIR,
-				lang,
-			)
+			proc_func = make_hlexc
 		else:
-			make_lexc(
+			proc_func = make_lexc
+		
+		try:
+			proc_func(
 				lang.TARGET_LANGUAGE, 
 				lang.SOURCE_LANGUAGE, 
 				lang.PRODUCE_LEXC_FOR,
-				lang.GTPFX,
-				lang.GTHOME,
 				lang.OUTPUT_DIR,
 				lang
 			)
+		except LTExpError:
+			return 2
+		
 	return True
 
 def main(argv=None):

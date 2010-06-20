@@ -2418,16 +2418,16 @@
 	<e><p><l>erttet<b/>dákti<s n="N"/></l><r>kylkiluu<s n="N"/></r></p></e>
 	<e><p><l>várrepresideanta<s n="N"/></l><r>varapresidentti<s n="N"/></r></p></e>
 	
-	<e><p>eallinahki<s n="N"/></l><r>elinaika<s n="N"/></r></p></e>
-    <e><p>varis<s n="N"/></l><r>koiras<s n="N"/></r></p></e>
-    <e><p>állan<s n="N"/></l><r>kyynärä<s n="N"/></r></p></e>
-    <e><p>njoammu<s n="N"/></l><r>matelija<s n="N"/></r></p></e>
-    <e><p>njiŋŋelas<s n="N"/></l><r>naaras<s n="N"/></r></p></e>
-    <e><p>nieida<s n="N"/></l><r>tytär<s n="N"/></r></p></e>
-    <e><p>oaffar<s n="N"/></l><r>uhrilahja<s n="N"/></r></p></e>
-    <e><p>čáhcedulvi<s n="N"/></l><r>veden<b/>paisumus<s n="N"/></r></p></e>
-    <e><p>muođut<s n="N"/></l><r>kasvot<s n="N"/></r></p></e>
-	<e><p>vuvuzela<s n="N"/></l><r>vuvuzela<s n="N"/></r></p></e>
+	<e><p><l>eallinahki<s n="N"/></l><r>elinaika<s n="N"/></r></p></e>
+	<e><p><l>varis<s n="N"/></l><r>koiras<s n="N"/></r></p></e>
+	<e><p><l>állan<s n="N"/></l><r>kyynärä<s n="N"/></r></p></e>
+	<e><p><l>njoammu<s n="N"/></l><r>matelija<s n="N"/></r></p></e>
+	<e><p><l>njiŋŋelas<s n="N"/></l><r>naaras<s n="N"/></r></p></e>
+	<e><p><l>nieida<s n="N"/></l><r>tytär<s n="N"/></r></p></e>
+	<e><p><l>oaffar<s n="N"/></l><r>uhrilahja<s n="N"/></r></p></e>
+	<e><p><l>čáhcedulvi<s n="N"/></l><r>veden<b/>paisumus<s n="N"/></r></p></e>
+	<e><p><l>muođut<s n="N"/></l><r>kasvot<s n="N"/></r></p></e>
+	<e><p><l>vuvuzela<s n="N"/></l><r>vuvuzela<s n="N"/></r></p></e>
 	
 	<e><p><l>alit<b/>vuodjalasta<s n="N" /></l><r>siniyökönlehti<s n="N"/></r></p></e>
 	<e><p><l>alitdiehpperássi<s n="N" /></l><r>huopaohdake<s n="N"/></r></p></e>
@@ -2614,9 +2614,9 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	
 	
 	none of these have been marked for directionality and duplicate lemmas yet
-
-
+	
 	finnish duplicates
+	
 	<e><p><l>báhpačehporas<s n="N" /></l><r>saunakukka/peltosaunio<s n="N"/></r></p></e>
 	<e><p><l>jámešbánit<s n="N" /></l><r>saunakukka/peltosaunio<s n="N"/></r></p></e>
 	<e><p><l>luomi<s n="N" /></l><r>hilla/lakka/muurain<s n="N"/></r></p></e>
@@ -3324,6 +3324,7 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<!-- Are these relative markers? should they be tagged as such? -->
 	<e><p><l>maid<s n="Adv"/></l><r>mitä<s n="Adv"/></r></p></e>
 	<e><p><l>dás<s n="Adv"/></l><r>tässä<s n="Adv"/></r></p></e>
+	<e><p><l>nu<s n="Adv"/></l><r>niin<s n="Pcle"/></r></p></e>
 	
 
 
@@ -3814,13 +3815,13 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>buktit<s n="V"/><s n="TV"/></l><r>tuoda<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>fuobmát<s n="V"/><s n="TV"/></l><r>huomata<s n="V"/></r></p><par n="V_V"/></e>
 	
-	<e><p>duššadit<s n="V"/><s n="TV"/></l><r>hävittää<s n="V"/></r></p><par n="V_V"/></e>
-	<e><p>garrudit<s n="V"/><s n="TV"/></l><r>kirota<s n="V"/></r></p><par n="V_V"/></e>
-	<e><p>čivgat<s n="V"/><s n="TV"/></l><r>poikia<s n="V"/></r></p><par n="V_V"/></e>
-	<e><p>riegádit<s n="V"/><s n="TV"/></l><r>syntyä<s n="V"/></r></p><par n="V_V"/></e>
-	<e><p>vádjolit<s n="V"/><s n="TV"/></l><r>vaeltaa<s n="V"/></r></p><par n="V_V"/></e>
-	<e><p>vástidit<s n="V"/><s n="TV"/></l><r>vastata<s n="V"/></r></p><par n="V_V"/></e>
-	<e><p>ovttastuvvat<s n="V"/><s n="TV"/></l><r>yhtyä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>duššadit<s n="V"/><s n="TV"/></l><r>hävittää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>garrudit<s n="V"/><s n="TV"/></l><r>kirota<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>čivgat<s n="V"/><s n="TV"/></l><r>poikia<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>riegádit<s n="V"/><s n="TV"/></l><r>syntyä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>vádjolit<s n="V"/><s n="TV"/></l><r>vaeltaa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>vástidit<s n="V"/><s n="TV"/></l><r>vastata<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>ovttastuvvat<s n="V"/><s n="TV"/></l><r>yhtyä<s n="V"/></r></p><par n="V_V"/></e>
 
 	
 	<!-- Verbs end -->
