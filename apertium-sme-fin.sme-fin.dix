@@ -2429,15 +2429,7 @@
     <e><p>muođut<s n="N"/></l><r>kasvot<s n="N"/></r></p></e>
 	<e><p>vuvuzela<s n="N"/></l><r>vuvuzela<s n="N"/></r></p></e>
 	
-	
-	<!-- Nouns end -->
-    
-<!-- 
-some of these are likely not that common... need to fix slashed entries and duplicates before uncommenting
-	
-	
-	none of these have been marked for directionality and duplicate lemmas yet
-	<e><p><l>alit vuodjalasta<s n="N" /></l><r>siniyökönlehti<s n="N"/></r></p></e>
+	<e><p><l>alit<b/>vuodjalasta<s n="N" /></l><r>siniyökönlehti<s n="N"/></r></p></e>
 	<e><p><l>alitdiehpperássi<s n="N" /></l><r>huopaohdake<s n="N"/></r></p></e>
 	<e><p><l>alitgáiski<s n="N" /></l><r>korpi-imarre<s n="N"/></r></p></e>
 	<e><p><l>alitnárti<s n="N" /></l><r>sinirikko<s n="N"/></r></p></e>
@@ -2520,7 +2512,6 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>jeaggelukti<s n="N" /></l><r>aapasara<s n="N"/></r></p></e>
 	<e><p><l>jeaggemáđir<s n="N" /></l><r>luhtamatara<s n="N"/></r></p></e>
 	<e><p><l>jeaggeviola<s n="N" /></l><r>suo-orvokki<s n="N"/></r></p></e>
-	<e><p><l>jearja<s n="N" /></l><r>pohjansinivalvatti<s n="N"/></r></p></e>
 	<e><p><l>jearjá<s n="N" /></l><r>pohjansinivalvatti<s n="N"/></r></p></e>
 	<e><p><l>jeađja<s n="N" /></l><r>pohjansinivalvatti<s n="N"/></r></p></e>
 	<e><p><l>jieret<s n="N" /></l><r>punaherukka<s n="N"/></r></p></e>
@@ -2615,6 +2606,15 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>čuotnjárássi<s n="N" /></l><r>metsäkorte<s n="N"/></r></p></e>
 	<e><p><l>čáhcelukti<s n="N" /></l><r>luhtasara<s n="N"/></r></p></e>
 	<e><p><l>čáhppesmuorji<s n="N" /></l><r>variksenmarja<s n="N"/></r></p></e>
+	
+	<!-- Nouns end -->
+    
+<!-- 
+some of these are likely not that common... need to fix slashed entries and duplicates before uncommenting
+	
+	
+	none of these have been marked for directionality and duplicate lemmas yet
+
 
 	finnish duplicates
 	<e><p><l>báhpačehporas<s n="N" /></l><r>saunakukka/peltosaunio<s n="N"/></r></p></e>
