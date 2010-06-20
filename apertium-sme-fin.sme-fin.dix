@@ -141,29 +141,29 @@
     <!-- Post-positions -->
 
     <e><p><l>alde<s n="Po"/></l><r>päällä<s n="Adp"/></r></p></e>
-    <e><p><l>badjel<s n="Po"/></l><r>yli<s n="Po"/></r></p></e>
-    <e><p><l>gaskkas<s n="Po"/></l><r>välissä<s n="Po"/></r></p></e>
-    <e><p><l>guvlui<s n="Po"/></l><r>kohti<s n="Po"/></r></p></e> <!-- ? -->
-    <e><p><l>ovddas<s n="Po"/></l><r>edessä<s n="Po"/></r></p></e>
+    <e><p><l>badjel<s n="Po"/></l><r>yli<s n="Adp"/></r></p></e>
+    <e><p><l>gaskkas<s n="Po"/></l><r>välissä<s n="Adp"/></r></p></e>
+    <e><p><l>guvlui<s n="Po"/></l><r>kohti<s n="Adp"/></r></p></e> <!-- ? -->
+    <e><p><l>ovddas<s n="Po"/></l><r>edessä<s n="Adp"/></r></p></e>
     <e><p><l>ovddas<s n="Po"/></l><r>edestä<s n="Adp"/></r></p></e>
     <e><p><l>ráigge<s n="Po"/></l><r>myöten<s n="Adp"/></r></p></e>
     <e><p><l>vuolde<s n="Po"/></l><r>alla<s n="Adp"/></r></p></e>
     <e><p><l>vuollái<s n="Po"/></l><r>kohden<s n="Adp"/></r></p></e>
-    <e><p><l>vuostá<s n="Po"/></l><r>vastaan<s n="Po"/></r></p></e>
+    <e><p><l>vuostá<s n="Po"/></l><r>vastaan<s n="Adp"/></r></p></e>
 
     <e><p><l>maŋŋil<s n="Po"/></l><r>jälkeen<s n="Adp"/></r></p></e>
 
-    <e><p><l>ovdal<s n="Po"/></l><r>ennen<s n="Po"/></r></p></e> <!-- Also a preopostion in Fin... -->
-    <e><p><l>maŋŋá<s n="Po"/></l><r>jälkeen<s n="Po"/></r></p></e>
-    <e><p><l>áigge<s n="Po"/></l><r>aikana<s n="Po"/></r></p></e>
+    <e><p><l>ovdal<s n="Po"/></l><r>ennen<s n="Adp"/></r></p></e> <!-- Also a preopostion in Fin... -->
+    <e><p><l>maŋŋá<s n="Po"/></l><r>jälkeen<s n="Adp"/></r></p></e>
+    <e><p><l>áigge<s n="Po"/></l><r>aikana<s n="Adp"/></r></p></e>
     
-    <e><p><l>mielde<s n="Po"/></l><r>kanssa<s n="Po"/></r></p></e>
+    <e><p><l>mielde<s n="Po"/></l><r>kanssa<s n="Adp"/></r></p></e>
 	<e><p><l>mielde<s n="Po"/></l><r>mukaan<s n="Adp"/></r></p></e>
 	<e><p><l>ala<s n="Po"/></l><r>päälle<s n="Adp"/></r></p></e>
 
     
-    <e><p><l>rájes<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siitä asti -->
-    <e srl="1"><p><l>rádjái<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siihen asti -->
+    <e><p><l>rájes<s n="Po"/></l><r>asti<s n="Adp"/></r></p></e> <!-- siitä asti -->
+    <e srl="1"><p><l>rádjái<s n="Po"/></l><r>asti<s n="Adp"/></r></p></e> <!-- siihen asti -->
 
 	<e><p><l>badjel<s n="Po"/></l><r>yli<s n="Adp"/></r></p></e>
 	<e><p><l>bealis<s n="Po"/></l><r>puolessa<s n="Adp"/></r></p></e>
