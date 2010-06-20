@@ -38,6 +38,7 @@ dev/bidix/V.lex.orig -text
 dev/bidix/calc-levenshtein.py -text
 dev/countries.txt -text
 dev/fin.cfg -text
+dev/langs.cfg -text
 dev/scripts/debug.py -text
 dev/update-lexc.py -text
 dev/update-lexc.sh -text

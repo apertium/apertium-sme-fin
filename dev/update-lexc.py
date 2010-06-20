@@ -172,6 +172,13 @@ def lt_exp(fname, side=None):
 		TODO: Two sides!
 	"""
 	
+	valid_cmd = "apertium-validate-dictionary %s" % fname
+	
+	validate = sp.Popen(valid_cmd.split(' '), shell=False, stdout=PIPE, stderr=PIPE, stdin=PIPE)
+	output, err = validate.communicate()
+	if len(err) > 0:
+		raise LTExpError(err)
+	
 	cmd = "lt-expand %s" % fname
 	ltexp = sp.Popen(cmd.split(' '), shell=False, stdout=PIPE, stderr=PIPE, stdin=PIPE)
 	output, err = ltexp.communicate() # split('\n')
