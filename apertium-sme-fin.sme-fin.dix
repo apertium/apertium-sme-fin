@@ -145,12 +145,13 @@
     <e><p><l>gaskkas<s n="Po"/></l><r>välissä<s n="Po"/></r></p></e>
     <e><p><l>guvlui<s n="Po"/></l><r>kohti<s n="Po"/></r></p></e> <!-- ? -->
     <e><p><l>ovddas<s n="Po"/></l><r>edessä<s n="Po"/></r></p></e>
+    <e><p><l>ovddas<s n="Po"/></l><r>edestä<s n="Adp"/></r></p></e>
     <e><p><l>ráigge<s n="Po"/></l><r>myöten<s n="Adp"/></r></p></e>
     <e><p><l>vuolde<s n="Po"/></l><r>alla<s n="Adp"/></r></p></e>
     <e><p><l>vuollái<s n="Po"/></l><r>kohden<s n="Adp"/></r></p></e>
     <e><p><l>vuostá<s n="Po"/></l><r>vastaan<s n="Po"/></r></p></e>
 
-    
+    <e><p><l>maŋŋil<s n="Po"/></l><r>jälkeen<s n="Adp"/></r></p></e>
 
     <e><p><l>ovdal<s n="Po"/></l><r>ennen<s n="Po"/></r></p></e> <!-- Also a preopostion in Fin... -->
     <e><p><l>maŋŋá<s n="Po"/></l><r>jälkeen<s n="Po"/></r></p></e>
@@ -262,6 +263,7 @@
     <e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
     <e><p><l>sihke<s n="CC"/></l><r>sekä<s n="CC"/></r></p></e>
     <e><p><l>ele<s n="CC"/></l><r>eli<s n="CC"/></r></p></e>
+    <e><p><l>dahjege<s n="CC"/></l><r>eli<s n="CC"/></r></p></e>
     <e><p><l>dahje<s n="CC"/></l><r>tahi<s n="CC"/></r></p></e>
     <e r="RL"><p><l>vai<s n="CC"/></l><r>että<s n="CC"/></r></p></e>
 
@@ -367,6 +369,10 @@
     <e><p><l>gávccát<s n="A"/><s n="Ord"/></l><r>kahdeksas<s n="Num"/><s n="Ord"/></r></p></e>
     <e><p><l>ovccát<s n="A"/><s n="Ord"/></l><r>yhdeksäs<s n="Num"/><s n="Ord"/></r></p></e>
     <e><p><l>logát<s n="A"/><s n="Ord"/></l><r>kymmenes<s n="Num"/><s n="Ord"/></r></p></e>
+    
+    <e><p><l>čuođi<s n="Num "/></l><r>sata<s n="Num"/><s n="Card"/></r></p></e>
+    <e><p><l>čieža<s n="Num"/></l><r>seitsemän<s n="Num"/><s n="Card"/></r></p></e>
+
     
     <e><re>[0-9]+</re><p><l><s n="Num"/></l><r><s n="Num"/><s n="Card"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="Num"/></l><r><s n="Num"/><s n="Real"/></r></p></e>
@@ -2415,6 +2421,16 @@
 	<e><p><l>erttet<b/>dákti<s n="N"/></l><r>kylkiluu<s n="N"/></r></p></e>
 	<e><p><l>várrepresideanta<s n="N"/></l><r>varapresidentti<s n="N"/></r></p></e>
 	
+	<e><p>eallinahki<s n="N"/></l><r>elinaika<s n="N"/></r></p></e>
+    <e><p>varis<s n="N"/></l><r>koiras<s n="N"/></r></p></e>
+    <e><p>állan<s n="N"/></l><r>kyynärä<s n="N"/></r></p></e>
+    <e><p>njoammu<s n="N"/></l><r>matelija<s n="N"/></r></p></e>
+    <e><p>njiŋŋelas<s n="N"/></l><r>naaras<s n="N"/></r></p></e>
+    <e><p>nieida<s n="N"/></l><r>tytär<s n="N"/></r></p></e>
+    <e><p>oaffar<s n="N"/></l><r>uhrilahja<s n="N"/></r></p></e>
+    <e><p>čáhcedulvi<s n="N"/></l><r>veden<b/>paisumus<s n="N"/></r></p></e>
+    <e><p>muođut<s n="N"/></l><r>kasvot<s n="N"/></r></p></e>
+
 	
 	<!-- Nouns end -->
     
@@ -3800,6 +3816,14 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>buktit<s n="V"/><s n="TV"/></l><r>tuoda<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>fuobmát<s n="V"/><s n="TV"/></l><r>huomata<s n="V"/></r></p><par n="V_V"/></e>
 	
+	<e><p>duššadit<s n="V"/><s n="TV"/></l><r>hävittää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p>garrudit<s n="V"/><s n="TV"/></l><r>kirota<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p>čivgat<s n="V"/><s n="TV"/></l><r>poikia<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p>riegádit<s n="V"/><s n="TV"/></l><r>syntyä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p>vádjolit<s n="V"/><s n="TV"/></l><r>vaeltaa<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p>vástidit<s n="V"/><s n="TV"/></l><r>vastata<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p>ovttastuvvat<s n="V"/><s n="TV"/></l><r>yhtyä<s n="V"/></r></p><par n="V_V"/></e>
+
 	
 	<!-- Verbs end -->
     
