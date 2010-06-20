@@ -8,41 +8,94 @@ try:
 	import json
 except ImportError:
 	json = False
-	print "json module not installed. Only command line options or options in this file will be possible."
+	print "json module not installed. Only command line options or options in this file will be possible. Use python2.6 or install a suitable json module."
+	
 
+#####
+#
+# Handy globals
+#
+#####
 
+#  Regexp to exclude lines we don't want
 PIPE = sp.PIPE
+lex_excludes = [
+	'\!\^NG\^',
+	'; \!SUB',
+	'\! \!SOUTH',
+	'\+Use\/NG',
+	'\+Nom(.*)\+Use\/Sub',
+	'\+Gen(.*)\+Use\/Sub',
+	'\+Use\/Sub(.*)\+V\+TV',
+	'\+Attr(.*)\+Use\/Sub',
+	'LEXICON PRSPRCTOADJ \!SUB',
+	'\+Imprt(.*)\+Use\/Sub'	
+]
+excl = re.compile(r'|'.join(['(?:' + a + ')' for a in lex_excludes]))
+
+class LTExpError(Exception):
+	def __init__(self, msg):
+		print "lt-expand failed processing. Error:"
+		print msg
 
 class Config(object):
-	def __init__(self):
-		self.set_defaults()
-		
-	def set_defaults(self):
-		"""
-			Set default options. Don't change them here if you're editing the file. Change below.
-		"""
-		self.TARGET_LANGUAGE = ""
-		self.SOURCE_LANGUAGE = ""
+	def default_options(self):
+		self.TARGET_LANGUAGE = "sme"
+		self.SOURCE_LANGUAGE = "fin"
 		self.GTHOME = os.environ.get("GTHOME")
-		self.PRODUCE_LEXC_FOR = ""
-		self.OUTPUT_DIR = '.'
-		self.GTPFX = ''
-		self.LEXTYPE = ''
-		
-		self.SRC = ''
-		
-		proc_lang = self.PRODUCE_LEXC_FOR
-		
-		self.HEADER = ""
-		
-		# List of lists, first item is filename, second item is action 'clip' or 'cat', third is dictionary of options.
+		self.PRODUCE_LEXC_FOR = "sme"
+		self.OUTPUT_DIR = os.getcwd() + '/../'
+		self.GTPFX = 'gt'
+		self.HEADER = "sme-lex.txt"
+		self.SRC = self.GTHOME + '/' + self.GTPFX + '/' + self.PRODUCE_LEXC_FOR + '/src/'
 		self.files = [
 			["verb-sme-lex.txt", 	'clip', 	{'pos_filter': 'V', 'split': 'VerbRoot\n'}],
+			["noun-sme-lex.txt", 	'clip', 	{'pos_filter': 'N', 'split': 'NounRoot\n'}],
+			["adj-sme-lex.txt", 		'clip', 	{'pos_filter': 'A', 'split': 'AdjectiveRoot\n'}],
+			["propernoun-sme-morph.txt", 	'cat'],
+			["propernoun-sme-lex.txt", 'clip', 	{'pos_filter': 'N><Prop', 'split': 'ProperNoun\n'}],
+			["conjunction-sme-lex.txt", 	'cat'],
+			["adv-sme-lex.txt", 		'clip', 	{'pos_filter': 'Adv', 'split': 'Adverb'}],
+			["adv-sme-lex.txt", 		'clip', 	{'pos_filter': 'Adv', 'split': 'gadv ! adv that can form compounds', 'no_header': True, 'no_trim': True}],
+			["subjunction-sme-lex.txt", 	'cat'],
+			["pronoun-sme-lex.txt", 		'cat'],
+			["particle-sme-lex.txt", 		'cat'],
+			["pp-sme-lex.txt", 			'cat'],
+			["numeral-sme-lex.txt", 		'cat'],
+			["abbr-sme-lex.txt", 			'cat'],
 			["punct-sme-lex.txt", 			'cat']
 		]
 		
-		return True
 	
+	def __init__(self, defaults=False):
+		"""
+			Set default options. Don't change them here if you're editing the file. Change below.
+		"""
+		if defaults:
+			self.default_options()
+		else:
+			self.TARGET_LANGUAGE = ""
+			self.SOURCE_LANGUAGE = ""
+			self.GTHOME = os.environ.get("GTHOME")
+			self.PRODUCE_LEXC_FOR = ""
+			self.OUTPUT_DIR = '.'
+			self.GTPFX = ''
+			self.LEXTYPE = ''
+		
+			self.SRC = ''
+		
+			proc_lang = self.PRODUCE_LEXC_FOR
+		
+			self.HEADER = ""
+		
+			# List of lists, first item is filename, second item is action 'clip' or 'cat', third is dictionary of options.
+			self.files = [
+				["verb-sme-lex.txt", 	'clip', 	{'pos_filter': 'V', 'split': 'VerbRoot\n'}],
+				["punct-sme-lex.txt", 			'cat']
+			]
+		
+		return None
+		
 	def return_dict(self):
 		D = {
 			"TARGET_LANGUAGE": self.TARGET_LANGUAGE,
@@ -74,41 +127,21 @@ class Configs(object):
 	def __init__(self):
 		self.langs = [Config()]
 
+
 #########
 # 
 #  Set these options here for default behavior, or use commandline to pass in arguments. See --help.
 #
 #########
 
-# TODO: always use json cfgs.
+# TODO: always use json cfgs?
 DEFAULTS = Configs()
-DEFAULTS.langs[0].TARGET_LANGUAGE = "sme"
-DEFAULTS.langs[0].SOURCE_LANGUAGE = "fin"
-DEFAULTS.langs[0].GTHOME = os.environ.get("GTHOME")
-DEFAULTS.langs[0].PRODUCE_LEXC_FOR = "sme"
-DEFAULTS.langs[0].OUTPUT_DIR = os.getcwd() + '/../'
-DEFAULTS.langs[0].GTPFX = 'gt'
-DEFAULTS.langs[0].HEADER = "sme-lex.txt"
-DEFAULTS.langs[0].SRC = DEFAULTS.langs[0].GTHOME + '/' + DEFAULTS.langs[0].GTPFX + '/' + DEFAULTS.langs[0].PRODUCE_LEXC_FOR + '/src/'
-DEFAULTS.langs[0].files = [
-	["verb-sme-lex.txt", 	'clip', 	{'pos_filter': 'V', 'split': 'VerbRoot\n'}],
-	["noun-sme-lex.txt", 	'clip', 	{'pos_filter': 'N', 'split': 'NounRoot\n'}],
-	["adj-sme-lex.txt", 		'clip', 	{'pos_filter': 'A', 'split': 'AdjectiveRoot\n'}],
-	["propernoun-sme-morph.txt", 	'cat'],
-	["propernoun-sme-lex.txt", 'clip', 	{'pos_filter': 'N><Prop', 'split': 'ProperNoun\n'}],
-	["conjunction-sme-lex.txt", 	'cat'],
-	["adv-sme-lex.txt", 		'clip', 	{'pos_filter': 'Adv', 'split': 'Adverb'}],
-	["adv-sme-lex.txt", 		'clip', 	{'pos_filter': 'Adv', 'split': 'gadv ! adv that can form compounds', 'no_header': True, 'no_trim': True}],
-	["subjunction-sme-lex.txt", 	'cat'],
-	["pronoun-sme-lex.txt", 		'cat'],
-	["particle-sme-lex.txt", 		'cat'],
-	["pp-sme-lex.txt", 			'cat'],
-	["numeral-sme-lex.txt", 		'cat'],
-	["abbr-sme-lex.txt", 			'cat'],
-	["punct-sme-lex.txt", 			'cat']
-]
+DEFAULTS.langs = [Config(defaults=True)]
 
 def load_conf(fname):
+	"""
+		Load configs from JSON file
+	"""
 	if not json:
 		return False
 	try:
@@ -139,54 +172,32 @@ def load_conf(fname):
 		with open('langs.cfg', 'w') as F:
 			json.dump([DEFAULTS.langs[0].return_dict()], F, ensure_ascii=True)
 			print "Defaults saved to %s" % F.name
-	
+		
 	DEFAULTS = False
 	return new_confs
 
-
-# 	Regexp to exclude lines we don't want
-lex_excludes = [
-	'\!\^NG\^',
-	'; \!SUB',
-	'\! \!SOUTH',
-	'\+Use\/NG',
-	'\+Nom(.*)\+Use\/Sub',
-	'\+Gen(.*)\+Use\/Sub',
-	'\+Use\/Sub(.*)\+V\+TV',
-	'\+Attr(.*)\+Use\/Sub',
-	'LEXICON PRSPRCTOADJ \!SUB',
-	'\+Imprt(.*)\+Use\/Sub'	
-]
-excl = re.compile(r'|'.join(['(?:' + a + ')' for a in lex_excludes]))
-
-class LTExpError(Exception):
-	def __init__(self, msg):
-		print "lt-expand failed processing. Error:"
-		print msg
 	
 
-def lt_exp(fname, side=None):
+def Popen(cmd):
+	proc = sp.Popen(cmd.split(' '), shell=False, stdout=PIPE, stderr=PIPE, stdin=PIPE)
+	output, err = proc.communicate() # split('\n')
+	return output, err
+
+def lt_exp(fname):
 	"""
-		Expands lexicon file, currently only one-sided.
-		
-		TODO: Two sides!
+		Validates for errors in dix, then returns expanded data.		
 	"""
 	
-	valid_cmd = "apertium-validate-dictionary %s" % fname
-	
-	validate = sp.Popen(valid_cmd.split(' '), shell=False, stdout=PIPE, stderr=PIPE, stdin=PIPE)
-	output, err = validate.communicate()
+	output, err = Popen("apertium-validate-dictionary %s" % fname)
 	if len(err) > 0:
 		raise LTExpError(err)
 	
-	cmd = "lt-expand %s" % fname
-	ltexp = sp.Popen(cmd.split(' '), shell=False, stdout=PIPE, stderr=PIPE, stdin=PIPE)
-	output, err = ltexp.communicate() # split('\n')
-	output = output.splitlines()
+	output, err = Popen("lt-expand %s" % fname)
 	if len(err) > 0:
 		raise LTExpError(err)
+	
 	# Remove REGEX and empty lines
-	output = [l for l in output if "REGEX" not in l and l.strip()]
+	output = [l for l in output.splitlines() if "REGEX" not in l and l.strip()]
 	
 	return output
 
