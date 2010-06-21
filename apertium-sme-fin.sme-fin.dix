@@ -159,6 +159,9 @@
     <e><p><l>vuolde<s n="Po"/></l><r>alla<s n="Adp"/></r></p></e>
     <e><p><l>vuollái<s n="Po"/></l><r>kohden<s n="Adp"/></r></p></e>
     <e><p><l>vuostá<s n="Po"/></l><r>vastaan<s n="Adp"/></r></p></e>
+    <e><p><l>sisa<s n="Po"/></l><r>sekaan<s n="Adp"/></r></p></e>
+    <e><p><l>ektui<s n="Po"/></l><r>nähden<s n="Adp"/></r></p></e>
+
 
     <e><p><l>maŋŋil<s n="Po"/></l><r>jälkeen<s n="Adp"/></r></p></e>
 
@@ -291,6 +294,9 @@
     <e><p><l>vaikko<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
     <e><p><l>vaikke<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
     <e><p><l>ovdal<b/>go<s n="CS"/></l><r>ennen<b/>kuin<s n="CS"/></r></p></e>
+    <e><p><l>dasságo<s n="CS"/></l><r>kunnes<s n="CS"/></r></p></e>
+    <e><p><l>go<s n="CS"/></l><r>kuin<s n="CS"/></r></p></e>
+
 
 	<!-- CS : Pcle -->
 	<e><p><l>nugo<s n="CS"/></l><r>niinkuin<s n="Pcle"/></r></p></e>
@@ -2634,6 +2640,13 @@
     <e><p><l>gállu<s n="N"/></l><r>viileys<s n="N"/></r></p></e>
     <e><p><l>fiikonmuorra<s n="N"/></l><r>viikkunapuu<s n="N"/></r></p></e>
     <e><p><l>vašši<s n="N"/></l><r>vaino<s n="N"/></r></p></e>
+    <e><p><l>lossatvuohta<s n="N"/></l><r>raskaus<s n="N"/></r></p></e>
+    <e><p><l>šlávva<s n="N"/></l><r>orja<s n="N"/></r></p></e>
+    <e><p><l>gáskkašahkesrássi<s n="N"/></l><r>ohdake<s n="N"/></r></p></e>
+    <e><p><l>náhkis<s n="N"/></l><r>nahas<s n="N"/></r></p></e>
+    <e><p><l>lasta<s n="N"/></l><r>lehti<s n="N"/></r></p></e>
+    <e><p><l>šušmi<s n="N"/></l><r>kantapää<s n="N"/></r></p></e>
+    <e><p><l>nuorttabealli<s n="N"/></l><r>itäpuoli<s n="N"/></r></p></e>
 
 
 	
@@ -3304,6 +3317,9 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	
 	<e><p><l>šattolaš<s n="A"/></l><r>hedelmällinen<s n="A"/></r></p><par n="A_A"/></e>
 
+    <e><p><l>gávvil<s n="A"/></l><r>kavala<s n="A"/></r></p><par n="A_A"/></e>
+    <e><p><l>agálaš<s n="A"/></l><r>iankaikkinen<s n="A"/></r></p><par n="A_A"/></e>
+    
 	<!-- ! Adv - A, etc ???  -->
 	<e><p><l>vuolibuš<s n="Adv"/></l><r>alamainen<s n="A"/></r></p></e>
 	<e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e>
@@ -3880,6 +3896,16 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>čiehkádit<s n="V"/><s n="IV"/></l><r>lymytä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>rahpasit<s n="V"/><s n="IV"/></l><r>aueta<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>šealgut<s n="V"/><s n="IV"/></l><r>välkkyä<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>fillet<s n="V"/><s n="TV"/></l><r>pettää<s n="V"/></r></p></e>
+    <e><p><l>gárvvohit<s n="V"/><s n="TV"/></l><r>pukea<s n="V"/></r></p></e>
+    <e><p><l>ballat<s n="V"/><s n="TV"/></l><r>peljätä<s n="V"/></r></p></e>
+    <e><p><l>ballat<s n="V"/><s n="TV"/></l><r>pelätä<s n="V"/></r></p></e>
+    <e><p><l>geiget<s n="V"/><s n="TV"/></l><r>ojentaa<s n="V"/></r></p></e>
+    <e><p><l>duolbmat<s n="V"/><s n="IV"/></l><r>polkea<s n="V"/></r></p></e>
+    <e><p><l>njivžut<s n="V"/><s n="IV"/></l><r>leimuta<s n="V"/></r></p></e>
+    <e><p><l>váccašit<s n="V"/><s n="IV"/></l><r>käyskennellä<s n="V"/></r></p></e>
+    <e><p><l>čuorvut<s n="V"/><s n="TV"/></l><r>huutaa<s n="V"/></r></p></e>
+    <e><p><l>ealihit<s n="V"/><s n="TV"/></l><r>elättää<s n="V"/></r></p></e>
 
 	
 	<!-- Verbs end -->

@@ -146,6 +146,7 @@ What do we do?
 
 How to handle this? It's not somthing that can be done with a transfer rule, I believe.
 
+Multiword, will it present probolems if the second words are derived and need to just remain without being analysed?
 
 
 
@@ -212,24 +213,30 @@ kylkiluu is treated in one instance as one word, and in another as two, despite 
 
 ### Select puista N Pl Ela
 
-"<Syö>"
-	"syödä" V Ind Prs ConNeg @X 
-	"syödä" V Act Ind Prs Sg3 @X 
-	"syödä" V Act Imprt Sg2 @X 
-"<vapaasti>"
-	"vapaasti" Adv @X 
-	"vapaa" A* Pos Der/sti Adv @X 
-"<kaikista>"
-	"kaikki" Pron[SUBCAT = INDEF] Pl Ela 
-	"kaikista" Pcle @PCLE 
-"<muista>"
-	"muistaa" V Ind Prs ConNeg @+FMAINV 
-"<paratiisin>"
-	"paratiisi" N Sg Gen @←OBJ 
-"<puista>"
-	"puu" N Pl Ela @X 
-	"puistaa" V Ind Prs ConNeg @X 
-	"puistaa" V Act Imprt Sg2 @X 
+	"<Syö>"
+		"syödä" V Ind Prs ConNeg @X 
+		"syödä" V Act Ind Prs Sg3 @X 
+		"syödä" V Act Imprt Sg2 @X 
+	"<vapaasti>"
+		"vapaasti" Adv @X 
+		"vapaa" A* Pos Der/sti Adv @X 
+	"<kaikista>"
+		"kaikki" Pron[SUBCAT = INDEF] Pl Ela 
+		"kaikista" Pcle @PCLE 
+	"<muista>"
+		"muistaa" V Ind Prs ConNeg @+FMAINV 
+	"<paratiisin>"
+		"paratiisi" N Sg Gen @←OBJ 
+	"<puista>"
+		"puu" N Pl Ela @X 
+		"puistaa" V Ind Prs ConNeg @X 
+		"puistaa" V Act Imprt Sg2 @X 
+
++2
+
+> Silloin aukenivat heidän molempain silmät, ja he huomasivat olevansa  alasti; ja he sitoivat yhteen viikunapuun lehtiä ja tekivät itselleen  vyöverhot.
+
+lehtiä N/V?
 
 ### Select V
 
@@ -283,4 +290,19 @@ koko, kaikista
 
 	borramuš	borrat+V+TV+Der3+Der/muš+N+Sg+Nom
 	borramuš	borramuš+N+Sg+Nom
+
+
+### Correct words? 
+
+	SME : POS : FIN : POS 
+
+'remains', 'ash'
+
+	gavja : N : tomu : N 
+	tuhka / gutna?
+
+'clothes, dress'
+
+	gárvu : N : puku : N
+
 
