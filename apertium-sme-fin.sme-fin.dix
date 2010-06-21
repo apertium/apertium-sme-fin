@@ -133,6 +133,9 @@
 	<e><p><l>gal<s n="Adv"/></l><r>kyllä<s n="Pcle"/></r></p></e>
 	<e><p><l>minddar<s n="Adv"/></l><r>muutoin<s n="Pcle"/></r></p></e>
 	<e><p><l>nugo<s n="Adv"/></l><r>kuten<s n="Pcle"/></r></p></e>
+	
+	<!-- CC:Pcle -->
+	
 	<e><p><l>muhto<s n="CC"/></l><r>vaan<s n="Pcle"/></r></p></e>
 
 
@@ -206,6 +209,8 @@
 	<e><p><l>ovddabeale<s n="Po"/></l><r>editse<s n="Adp"/></r></p></e>
 	
 
+    <e><p><l>badjelii<s n="Adp"/></l><r>ylle<s n="Adp"/></r></p></e>
+
     <!-- 
 
 	TODO: Some more postpositions to add:
@@ -262,6 +267,7 @@
 
     <!-- Conjunctions -->
     <e><p><l>ja<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
+    <e><p><l>ja<s n="CC"/></l><r>ynnä<s n="CC"/></r></p></e>
     <e><p><l>vai<s n="CC"/></l><r>vai<s n="CC"/></r></p></e>
     <e><p><l>muhto<s n="CC"/></l><r>mutta<s n="CC"/></r></p></e>
     <e><p><l>muhto<s n="CC"/></l><r>vaan<s n="CC"/></r></p></e>
@@ -2621,7 +2627,14 @@
 	<e><p><l>onyksgeađgi<s n="N" /></l><r>onyks<b/>kivi<s n="N"/></r></p></e>
 	<e><p><l>suovasgáhčči<s n="N" /></l><r>bedellion<b/>pihka<s n="N"/></r></p></e>
 	
-	
+	<e><p><l>suovasgáhčči<s n="N" /></l><r>bedellion<b/>pihka<s n="N"/></r></p></e>
+    
+    <e><p><l>gearpmaš<s n="N"/></l><r>käärme<s n="N"/></r></p></e>
+    <e><p><l>gállu<s n="N"/></l><r>viileys<s n="N"/></r></p></e>
+    <e><p><l>fiikonmuorra<s n="N"/></l><r>viikkunapuu<s n="N"/></r></p></e>
+    <e><p><l>vašši<s n="N"/></l><r>vaino<s n="N"/></r></p></e>
+
+
 	
 	<!-- Nouns end -->
     
@@ -3019,11 +3032,21 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>Čálku<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lisma<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Šveica<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sveitsi<s n="N"/><s n="Prop"/></r></p></e>
 
+    <e><p><l>Noa<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Nooa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Kain<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kain<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Abel<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Aabel<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Adai<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Aada<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Eva<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Eeva<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Eurfat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Eufrat<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lamek<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lemek<s n="N"/><s n="Prop"/></r></p></e>
+
 
     <e><p><l>ávvudeapmi<s n="N"/></l><r>juhliminen<s n="N"/></r></p></e>
 	
 	<e><p><l>beaggin<s n="N"/></l><r>maine<s n="N"/></r></p></e>
 	
+	
+
 
 
     <!-- Adjectives -->
@@ -3315,7 +3338,10 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>eret<s n="Adv"/></l><r>pois<s n="Adv"/></r></p></e>
 	<e><p><l>mot<s n="Adv"/></l><r>kuinka<s n="Adv"/></r></p></e>
 	<e><p><l>uhcánaččaid<s n="Adv"/></l><r>vähitellen<s n="Adv"/></r></p></e>
-	
+	<e><p><l>vuot<s n="Adv"/></l><r>jälleen<s n="Adv"/></r></p></e>
+    <e><p><l>oktii<s n="Adv"/></l><r>yhteen<s n="Adv"/></r></p></e>
+    <e><p><l>duođaid<s n="Adv"/></l><r>todella<s n="Adv"/></r></p></e>
+
 	
 	<!-- oba <Adv> oppa <Adv> / koko <Pcle> <Pron> -->
 
@@ -3336,6 +3362,7 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>dál<s n="Adv"/></l><r>nyt<s n="Pcle"/></r></p></e>
 	<e><p><l>vel<s n="Adv"/></l><r>vielä<s n="Pcle"/></r></p></e>
 	<e><p><l>nu<s n="Adv"/></l><r>niin<s n="Pcle"/></r></p></e>
+	<e><p><l>suige<s n="Adv"/></l><r>suinkaan<s n="Pcle"/></r></p></e>
 	
 	<!-- Po:Pcle, Pr:Pcle -->
 	
@@ -3849,6 +3876,9 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>vádjolit<s n="V"/><s n="TV"/></l><r>vaeltaa<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>vástidit<s n="V"/><s n="TV"/></l><r>vastata<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>ovttastuvvat<s n="V"/><s n="TV"/></l><r>yhtyä<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>čiehkádit<s n="V"/><s n="IV"/></l><r>lymytä<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>rahpasit<s n="V"/><s n="IV"/></l><r>aueta<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>šealgut<s n="V"/><s n="IV"/></l><r>välkkyä<s n="V"/></r></p><par n="V_V"/></e>
 
 	
 	<!-- Verbs end -->

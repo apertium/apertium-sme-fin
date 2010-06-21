@@ -6717,6 +6717,7 @@ orustit:orust ALIST ;
 ovddidit:ovddid MUITAL ;
 ovttastuvvat:ovttast UVVA ;
 rah0pat:rah'pa BORRA ;
+rahpasit:rahpas BOTNJAS ;
 rasttildit:rasttild MUITTASJ ;
 rehkenas0tit:rehkenas'ti DIEHTALADDA ;
 ribahit:ribah MUITAL ;
@@ -6808,6 +6809,7 @@ vázzit:vázzi BOAHTI ;
 čatnat:čatna BORRA ;
 čađahit:čađah MUITAL ;
 čieh0kat:čieh'ka BORRA ;
+čiehkádit:čiehkád ALIST ;
 čiehkástallat:čiehkástalla BOAHTALADDA ;
 čiek0čat:čiek'ča BORRA ;
 čierastallat:čierastalla BOAHTALADDA ;
@@ -6842,6 +6844,7 @@ vázzit:vázzi BOAHTI ;
 čállit:čálli DIEHTI ;
 šaddadit:šaddad MUITAL ;
 šaddat:šadda DIEVVA ;
+šeal0gut:šeal'gu DIEVVA ;
 šlahttit:šlahtti ARVI ;
 !Distributed under the terms of the GNU General Public License version 2
 ! or any later version.
@@ -7416,6 +7419,8 @@ ge0res:gerres MALIS ;
 geaidnu:geajdnu AIGI ;
 geal0lir:geal'lir MALIS ;
 gear0di:gear'di GOAHTI ;
+ gearpmaš+SgNomCmp+SgGenCmp+PlGenCmp:gearbma DAIVVAS ; !
+ gearpmaš+SgNomCmp+SgGenCmp+PlGenCmp:gearbmaš MATTAR ; !
  geasse#mánnu+SgNomCmp+SgGenCmp+PlGenCmp:geasse#mánnu AIGI; !
  geasse#orohat+SgNomCmp+SgGenCmp+PlGenCmp:geasse#orohah'k JOHTOLAT ; !
  geasse#sad0ji+SgNomCmp+SgGenCmp+PlGenCmp:geasse#sad'ji ALBMI ; !
@@ -7984,6 +7989,7 @@ beassáš#mát0ki:beassáš#mát'ki GOAHTI ;
  máttar#vánhen+SgNomCmp+SgGenCmp+PlGenCmp:máttar#vánhem GAHPIR ; !
  mášiidna+N+SgNomCmp:mášen%> R ; !Alt.cmp-form
 mášiidna:máš MASKIN ;
+na00gir:nah'kir MALISLONG ;
 arve#oak0ti:arve#oak'ti GOAHTI ;
  namahus+SgNomCmp+DefSgGenCmp+DefPlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft:namahuss JOHTOLAT ; !
  namma+SgNomCmp+DefSgGenCmp+DefPlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft:namma GOAHTI; !
@@ -8103,6 +8109,7 @@ olgo#feaskkir:olgo#feas'kir MALIS ;
  olmmoš+SgNomCmp+SgGenCmp+PlGenCmp:olbmož FALIS ; !
  garasvuoh0ta+SgGenCmp+DefPlGenCmp:garasvuoh'ta LUONDU ; !
 olmmái:olbmáj FALIS "man N" ;
+onyks#geađ0gi:onyks#geađ'gi AIGI ;
  orrun#sad0ji+SgNomCmp+SgGenCmp+PlGenCmp:orrun#sad'ji ALBMI ; !
 ortnet:ortneg GAHPIR ;
  os0ku+SgNomCmp+SgGenCmp+DefPlGenCmp:os'ku ALBMILONG ; !
@@ -8422,6 +8429,7 @@ vajahas:vajahass JOHTOLAT ;
 valáštallan#hál0la:valáštallan#hál'la GOAHTI ;
 van0ca:van'ca GOAHTI ;
  vašálaš+SgNomCmp+SgGenCmp+PlGenCmp:vašálažž JOHTOLAT ; !
+ vašši+SgNomCmp+DefSgGenCmp:vašši ALBMILONG; !
  veadde#muor0ji+SgNomCmp+SgGenCmp+DefPlGenCmp:veadde#muor'ji GOAHTI ; !
 veahkke#ruh0ta:veahkke#ruh'ta GOAHTI ;
  veahkki+SgNomCmp+SgGenCmp+PlGenCmp:veahkki AIGI; !
@@ -11387,6 +11395,7 @@ Eden:Eden9 LONDON-plc ;
  Øster^botten+Use/Sub:Øster^botten9 LONDON-plc ; !
 London:London9 LONDON-plc ;
 Adam:Adam9 LONDON-mal ;
+Kain:Kain9 LONDON-mal ;
 Már0já:Már'já MARJA-fem ;
  Kanáda+Use/Sub:Kanáda ACCRA-plc ; !
  Amerihká+Use/Sub:Amerihká ACCRA-plc ; !

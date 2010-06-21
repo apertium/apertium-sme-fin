@@ -245,6 +245,8 @@ oađđáhit nahkáriidda : vaivuttaa uneen
 6 vaan sumu nousi maasta ja kasteli koko maan pinnan.
 6 #muhto mierká čuožžilii eatnamis ja njuoskadii @koko eatnama @pinna.
 
+koko, kaikista
+
 ### Pinta
 
 	"<6>"
@@ -273,4 +275,12 @@ oađđáhit nahkáriidda : vaivuttaa uneen
 
 ?
 
+
+### syötävä - borramuš
+
+	syötävä	syötävä+A+Pos+Sg+Nom
+	syötävä	syödä+V+Pass+PrsPcp+Pos+Sg+Nom
+
+	borramuš	borrat+V+TV+Der3+Der/muš+N+Sg+Nom
+	borramuš	borramuš+N+Sg+Nom
 
