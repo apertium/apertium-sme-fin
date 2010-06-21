@@ -210,3 +210,67 @@ kylkiluu is treated in one instance as one word, and in another as two, despite 
 	"<puita>"
 		"puu" N Pl Par @←OBJ MAP:2186 
 
+### Select puista N Pl Ela
+
+"<Syö>"
+	"syödä" V Ind Prs ConNeg @X 
+	"syödä" V Act Ind Prs Sg3 @X 
+	"syödä" V Act Imprt Sg2 @X 
+"<vapaasti>"
+	"vapaasti" Adv @X 
+	"vapaa" A* Pos Der/sti Adv @X 
+"<kaikista>"
+	"kaikki" Pron[SUBCAT = INDEF] Pl Ela 
+	"kaikista" Pcle @PCLE 
+"<muista>"
+	"muistaa" V Ind Prs ConNeg @+FMAINV 
+"<paratiisin>"
+	"paratiisi" N Sg Gen @←OBJ 
+"<puista>"
+	"puu" N Pl Ela @X 
+	"puistaa" V Ind Prs ConNeg @X 
+	"puistaa" V Act Imprt Sg2 @X 
+
+### Select V
+
+"Ja hän teki maasta kaikki metsän eläimet ja kaikki taivaan linnut ja **toi** ne ihmisen eteen nähdäkseen." 
+
+### Idiom
+
+oađđáhit nahkáriidda : vaivuttaa uneen
+
+
+### Particles need to transfer
+
+6 vaan sumu nousi maasta ja kasteli koko maan pinnan.
+6 #muhto mierká čuožžilii eatnamis ja njuoskadii @koko eatnama @pinna.
+
+### Pinta
+
+	"<6>"
+		"6" Num Card Sg Nom @SUBJ→ 
+	"<vaan>"
+		"vaan" Pcle @PCLE 
+	"<sumu>"
+		"sumu" N Sg Nom @SUBJ→ 
+	"<nousi>"
+		"nousta" V Act Ind Prt Sg3 @+FMAINV 
+	"<maasta>"
+		"maa" N Sg Ela @LOC @←ADVL 
+	"<ja>"
+		"ja" Conj CC @CNP 
+	"<kasteli>"
+		"kastella" V Act Ind Prt Sg3 @+FMAINV 
+	"<koko>"
+		"koko" Pcle @PCLE 
+	"<maan>"
+		"maa" N Sg Gen @X 
+	"<pinnan>"
+		"pinta" N Sg Gen @←OBJ 
+		"pinna" N Sg Gen @←OBJ 
+	"<.>"
+		"." Punct CLB 
+
+?
+
+
