@@ -145,3 +145,68 @@ What do we do?
 # Viime aikoina ~ maŋimus áiggiid
 
 How to handle this? It's not somthing that can be done with a transfer rule, I believe.
+
+
+
+
+# Notes while collecting more lexical entries
+
+### need to Select "maa" N Sg Par
+
+	"<eikä>"
+		"ei" V Neg Act Sg3 Foc/ka @+FAUXV 
+	"<ollut>"
+		"olla" V Pass PrfPrc Pos Pl Nom @←OBJ 
+		"olla" V Act PrfPrc Pos Sg Nom @←OBJ 
+	"<ihmistä>"
+		"ihminen" N Sg Par @←OBJ 
+	"<maata>"
+		"maata" V Act Inf1 Sg Lat @-FMAINV 
+		"maa" N Sg Par @←OBJ 
+	"<viljelemässä>"
+		"viljellä" V Act Inf3 Sg Ine @-FMAINV 
+	"<,>"
+		"," Punct CLB 
+
+
+### Omorfi:
+
+> Added nom reading for gold.
+
+
+### Compounds?
+
+> luomistyö
+
+kylkiluu is treated in one instance as one word, and in another as two, despite that the source has the same.
+
+*Fin*:
+    
+    21 Niin Herra Jumala vaivutti ihmisen raskaaseen uneen, ja kun hän  nukkui, otti hän yhden hänen kylkiluistaan ja täytti sen paikan lihalla.
+    22 Ja Herra Jumala rakensi vaimon siitä kylkiluusta, jonka hän oli  ottanut miehestä, ja toi hänet miehen luo.
+
+*Sme*:
+
+    21 #Nu Hearrá Ipmil @vaivuttaa olbmo lossadii nihkui, ja go son  ođii, válddii son #okta su @kylki @luinen duogi ja devddii dan báikki bierggus.
+	22 Ja Hearrá Ipmil ráhkadii eammi #dat #erttetdákti, gean son lei  váldán albmás, ja buvttii su albmá lusa.
+
+### CG: kasvatti as v
+
+	"<Ja>"
+		"ja" Conj CC @CNP MAP:2143 
+	;	"ja" Pcle REMOVE:687 
+	"<Herra>"
+		"herra" N Sg Nom @N→ MAP:2162 
+	"<Jumala>"
+		"Jumala" N Prop Sg Nom @SUBJ→ MAP:2168 
+		"jumala" N Sg Nom @SUBJ→ MAP:2168 
+	"<kasvatti>"
+		"kasvatti" N Sg Nom @SUBJ→ MAP:2168 
+	;	"kasvattaa" V Act Ind Prt Sg3 @X MAP:2438 REMOVE:2440 
+	"<maasta>"
+		"maa" N Sg Ela @LOC @←ADVL MAP:2250 
+	"<kaikkinaisia>"
+		"kaikkinainen" A Pos Pl Par @X MAP:2438 
+	"<puita>"
+		"puu" N Pl Par @←OBJ MAP:2186 
+

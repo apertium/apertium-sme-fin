@@ -59,6 +59,9 @@
 
 	<sdef n="Der2"	c="Derivation / 2" />
 	<sdef n="Der_ja"	c="Derivation / ja" />
+	
+	
+	<sdef n="Agr"		c="Agreeing adjective" />
   </sdefs>
   <pardefs>
     <pardef n="A_A">
@@ -69,6 +72,10 @@
       <e><p><l></l><r><s n="Act"/></r></p></e>
       <e><p><l><s n="Der2"/><s n="Actor"/></l><r><s n="Der_ja"/></r></p></e>
       <e><p><l></l><r></r></p></e>
+    </pardef>
+    <pardef n="A_A_Agr">
+    <e><p><l><s n="Agr"/></l><r><s n="Pos"/></r></p></e>
+    <e><p><l><s n="Agr"/></l><r></r></p></e>
     </pardef>
   </pardefs>
   <section id="main" type="standard">
@@ -126,6 +133,7 @@
 	<e><p><l>gal<s n="Adv"/></l><r>kyllä<s n="Pcle"/></r></p></e>
 	<e><p><l>minddar<s n="Adv"/></l><r>muutoin<s n="Pcle"/></r></p></e>
 	<e><p><l>nugo<s n="Adv"/></l><r>kuten<s n="Pcle"/></r></p></e>
+	<e><p><l>muhto<s n="CC"/></l><r>vaan<s n="Pcle"/></r></p></e>
 
 
 	<!-- 
@@ -308,8 +316,10 @@
     <e><p><l>dakkár<s n="Pron"/><s n="Indef"/></l><r>sellainen<s n="Pron"/></r></p></e>
     <e><p><l>duokkár<s n="Pron"/><s n="Indef"/></l><r>tuommoinen<s n="Pron"/></r></p></e>
     <e><p><l>muhtin<s n="Pron"/><s n="Indef"/></l><r>muutama<s n="Pron"/></r></p></e>
-    <e><p><l>juohke<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/><s n="Indef"/></r></p></e>
-	<!-- diekkár - semmoinen, sellainen? -->
+    <e><p><l>juohke<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/><s n="Indef"/></r></p></e>   
+	<e><p><l>goappašat<s n="Pron"/><s n="Indef"/><s n="Pl"/></l><r>molemmat<s n="Pron"/><s n="Indef"/><s n="Pl"/></r></p></e>
+    
+    <!-- diekkár - semmoinen, sellainen? -->
     
     <e><p><l>nubbi<s n="Pron"/><s n="Recipr"/></l><r>toinen<s n="Pron"/><s n="Recipr"/></r></p></e>
 	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>itse<s n="Pron"/><s n="Refl"/></r></p></e>
@@ -2415,7 +2425,7 @@
 	<e><p><l>nuorta<s n="N"/></l><r>itä<s n="N"/></r></p></e>
 	<e><p><l>joavku<s n="N"/></l><r>joukko<s n="N"/></r></p></e>
 	<e><p><l>riegádeapmi<s n="N"/></l><r>synty<s n="N"/></r></p></e>
-	<e><p><l>erttet<b/>dákti<s n="N"/></l><r>kylkiluu<s n="N"/></r></p></e>
+	<e><p><l>erttetdákti<s n="N"/></l><r>kylkiluu<s n="N"/></r></p></e>
 	<e><p><l>várrepresideanta<s n="N"/></l><r>varapresidentti<s n="N"/></r></p></e>
 	
 	<e><p><l>eallinahki<s n="N"/></l><r>elinaika<s n="N"/></r></p></e>
@@ -2606,6 +2616,7 @@
 	<e><p><l>čuotnjárássi<s n="N" /></l><r>metsäkorte<s n="N"/></r></p></e>
 	<e><p><l>čáhcelukti<s n="N" /></l><r>luhtasara<s n="N"/></r></p></e>
 	<e><p><l>čáhppesmuorji<s n="N" /></l><r>variksenmarja<s n="N"/></r></p></e>
+	<e><p><l>deahkki<s n="N" /></l><r>lihas<s n="N"/></r></p></e>
 	
 	<!-- Nouns end -->
     
@@ -3258,15 +3269,17 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	<e><p><l>vigiheapmi<s n="A"/></l><r>viaton<s n="A"/></r></p><par n="A_A"/></e>
 
 	<e><p><l>juohkelágán<s n="A"/></l><r>kaikkinainen<s n="A"/></r></p><par n="A_A"/></e>
+	<e><p><l>earálágán<s n="A"/></l><r>erilainen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>hearvás<s n="A"/></l><r>ihana<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>vuosttaš<s n="A"/></l><r>ensimmäinen<s n="A"/></r></p><par n="A_A"/></e>
 	
+	<e><p><l>šattolaš<s n="A"/></l><r>hedelmällinen<s n="A"/></r></p><par n="A_A"/></e>
 
 	<!-- ! Adv - A, etc ???  -->
 	<e><p><l>vuolibuš<s n="Adv"/></l><r>alamainen<s n="A"/></r></p></e>
 	<e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e>
 	
-	<e><p><l>olles<s n="A"/></l><r>koko<s n="Pron"/></r></p></e>
+	<e><p><l>ollis<s n="A"/></l><r>koko<s n="Pron"/></r></p></e>
 	
 	<!-- Adjectives end -->
 	
@@ -3307,24 +3320,33 @@ some of these are likely not that common... need to fix slashed entries and dupl
 	
 	<e><p><l>álás<s n="Adv"/></l><r>alasti<s n="Adv"/></r></p></e>
 	<e><p><l>friddja<s n="Adv"/></l><r>vapaasti<s n="Adv"/></r></p></e>
-	<e><p><l>vel<s n="Adv"/></l><r>vielä<s n="Adv"/></r></p></e>
 	
 	
 	<!-- <e><p><l>maŋimus<b/>áiggiid</l><r>viime<b/>aikoina</r></p></e> -->
+	
+	<!-- Adv:Pcle -->
 
 	<e><p><l>maŋimus<s n="Adv"/></l><r>viime<s n="Pcle"/></r></p></e>
 	<e><p><l>maid<s n="Adv"/></l><r>myös<s n="Pcle"/></r></p></e>
 	<e><p><l>dál<s n="Adv"/></l><r>nyt<s n="Pcle"/></r></p></e>
+	<e><p><l>vel<s n="Adv"/></l><r>vielä<s n="Pcle"/></r></p></e>
+	<e><p><l>nu<s n="Adv"/></l><r>niin<s n="Pcle"/></r></p></e>
+	
+	<!-- Po:Pcle, Pr:Pcle -->
 	
 	<e><p><l>juohke<b/>bealde<s n="Po"/></l><r>kaikkialla<s n="Adv"/></r></p></e>
 	<e><p><l>veardde<s n="Po"/></l><r>verran<s n="Adv"/></r></p></e>
 	<e><p><l>gasku<s n="Pr"/></l><r>keskellä<s n="Adv"/></r></p></e>
 	
+	<!-- CC:Pcle -->
+	
+	
+	<e><p><l>muhto<s n="CC"/></l><r>mutta<s n="Pcle"/></r></p></e>
+	
 	
 	<!-- Are these relative markers? should they be tagged as such? -->
 	<e><p><l>maid<s n="Adv"/></l><r>mitä<s n="Adv"/></r></p></e>
 	<e><p><l>dás<s n="Adv"/></l><r>tässä<s n="Adv"/></r></p></e>
-	<e><p><l>nu<s n="Adv"/></l><r>niin<s n="Pcle"/></r></p></e>
 	
 
 
