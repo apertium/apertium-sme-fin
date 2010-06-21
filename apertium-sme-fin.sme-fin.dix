@@ -20,6 +20,7 @@
     <sdef n="Actor"    c="Actor"/>
     <sdef n="Plc"      c="Toponym"/>
     <sdef n="Mal"      c="?"/>
+    <sdef n="Sur"      c="Surname"/>
 
     <sdef n="Card"     c="Cardinal"/>
     <sdef n="Real"     c="Real number"/>
@@ -3032,13 +3033,13 @@ some of these are likely not that common... need to fix slashed entries and dupl
     <e><p><l>Čálku<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lisma<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Šveica<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sveitsi<s n="N"/><s n="Prop"/></r></p></e>
 
-    <e><p><l>Noa<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Nooa<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Kain<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kain<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Abel<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Aabel<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Adai<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Aada<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Eva<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Eeva<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Eurfat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Eufrat<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Lamek<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lemek<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Noa<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Nooa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Kain<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Kain<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Abel<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Aabel<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Adai<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Aada<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Eva<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Eeva<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Eufrat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Eufrat<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lamek<s n="N"/><s n="Prop"/><s n="Sur"/></l><r>Lemek<s n="N"/><s n="Prop"/></r></p></e>
 
 
     <e><p><l>ávvudeapmi<s n="N"/></l><r>juhliminen<s n="N"/></r></p></e>
