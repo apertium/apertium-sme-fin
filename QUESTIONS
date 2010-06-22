@@ -149,6 +149,13 @@ How to handle this? It's not somthing that can be done with a transfer rule, I b
 Multiword, will it present probolems if the second words are derived and need to just remain without being analysed?
 
 
+# -teen numbers
+
+Sme: guokte|nuppelohkái
+fin: kaksi|toista
+
+Will make note of this on wiki.
+
 
 # Notes while collecting more lexical entries
 
@@ -168,6 +175,11 @@ Multiword, will it present probolems if the second words are derived and need to
 		"viljellä" V Act Inf3 Sg Ine @-FMAINV 
 	"<,>"
 		"," Punct CLB 
+
+again... 
+
+	Tämä lohduttaa meitä työssämme ja kättemme vavoissa viljellessämme maata
+
 
 
 ### Omorfi:
@@ -305,4 +317,30 @@ koko, kaikista
 
 	gárvu : N : puku : N
 
+### More PoS differences
+
+'other' muu : A+Pos+Sg+Nom
+'other' eará : Pron+Indef+Attr
+
+
+### particles strike again
+
+> eli
+
+	"<eli>"
+		"eli" Pcle @PCLE MAP:2264 
+	;	"elää" V Act Ind Prt Sg3 @X MAP:2438 REMOVE:2440 
+	;	"eli" Conj CC @X MAP:2438 REMOVE:2440 
+
+> sitten
+
+	"<sitten>"
+		"sitten" Pcle @PCLE MAP:2264 
+	;	"sitten" Adv @X MAP:2438 REMOVE:2440 
+	"<hän>"
+		"hän" Pron Pers Sg Nom @SUBJ→ MAP:2168 
+	"<kuoli>"
+		"kuolla" V Act Ind Prt Sg3 @+FMAINV MAP:2211 
+	"<.>"
+		"." Punct CLB ADD:665 
 

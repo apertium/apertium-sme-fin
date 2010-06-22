@@ -6632,6 +6632,7 @@ ipmirdit:ipmird MUITTASJ ;
 is0kat:is'ka BORRA ;
 jearralit:jearral VUORDIL ;
 jearrat:jearra BORRA ;
+jeđđet:jeđđe DOHPPE ;
 joat0kit:joat'ki DIEHTI ;
 joav0dat:joav'da DIEVVA ;
 joh0tit:joh'ti BOAHTI ;
@@ -8105,6 +8106,7 @@ oal0ga:oal'ga GOAHTI ;
  obba#dál0ki+SgNomCmp+SgGenCmp+PlGenCmp:obba#dál'ki GOAHTI ; !
  ohcan#ái0gi+SgNomCmp+SgGenCmp+PlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft:ohcan#áj'gi AIGI ; !
  ohcci+SgNomCmp+SgGenCmp+PlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft:ohcci¤ ACTOR ; !
+ oktavuoh0ta+SgGenCmp+DefPlGenCmp:oktavuoh'ta LUONDU ; !
 ol0ju:ol'ju GOAHTI ;
  olbmo#borran#rássi+SgNomCmp+SgGenCmp+DefPlGenCmp:olbmo#borran#rássi AIGI; !
 olgguldas#bivttas:olgguldas#bik'tas MALIS ;
@@ -11214,6 +11216,7 @@ Estte^ea0na:Estte^eatnam8 GUOLBBA-plc ;
 Thai^ea0na:Thai^eatnam8 GUOLBBA-plc ;
 Ruoná^ea0na:Ruoná^eatnam8 GUOLBBA-plc ;
 Buollán^goađe^sa00vu:Buollán^goađe^savvun8 GUOLBBA-plc ;
+Nord^lán0da:Nord^lán'da MARJA-plc ;
 Eng^lán0da:Eng^lán'da MARJA-plc ;
 Hol^lán0da:Hol^lán'da MARJA-plc ;
 Ir^lán0da:Ir^lán'da MARJA-plc ;
@@ -11222,6 +11225,7 @@ Got^lán0da:Got^lán'da MARJA-plc ;
 Est^lán0da:Est^lán'da MARJA-plc ;
 Å^lán0da:Å^lán'da MARJA-plc ;
 Nor0ga:Nor'ga MARJA-plc ;
+U^njár0ga:U^njár'ga MARJA-plc ;
 Suoma^njár0ga:Suoma^njár'ga MARJA-plc ;
 Geađge^njár0ga:Geađge^njár'ga MARJA-plc ;
 Roave^njár0ga:Roave^njár'ga MARJA-plc ;
@@ -11239,6 +11243,7 @@ Gamil^joh0ka:Gamil^joh'ka MARJA-plc ;
 Cieskul^joh0ka:Cieskul^joh'ka MARJA-plc ;
 Doallán^joh0ka:Doallán^joh'ka MARJA-plc ;
 Bálo^joh0ka:Bálo^joh'ka MARJA-plc ;
+Bisso^joh0ka:Bisso^joh'ka MARJA-plc ;
 Gáivo^joh0ka:Gáivo^joh'ka MARJA-plc ;
 Anár^joh0ka:Anár^joh'ka MARJA-plc ;
 Bies^joh0ka:Bies^joh'ka MARJA-plc ;
@@ -11249,6 +11254,7 @@ Grei0ka:Grej'ka MARJA-plc ;
 Nuorta^rii0ka:Nuorta^rij'ka MARJA-plc ;
 Duis0ka:Duis'ka MARJA-plc ;
 Pols0ka:Pols'ka MARJA-plc ;
+Rom0sa:Rom'sa MARJA-plc ;
 Mearra^bah0ta:Mearra^bah'ta MARJA-plc ;
 Davve^mearra^bah0ta:Davve^mearra^bah'ta MARJA-plc ;
 Goldda^luok0ta:Goldda^luok'ta MARJA-plc ;
@@ -11259,6 +11265,7 @@ Vilges-Ruošša:Vilges-Ruoš'ša MARJA-plc ;
 Ruoš0ša:Ruoš'ša MARJA-plc ;
 Má^seal0gi:Má^seal'gi MARJA-plc ;
 Suolo^čiel0gi:Suolo^čiel'gi MARJA-plc ;
+Olmmái^vággi:Olmmái^vággi MARJA-plc ;
 Deanu^leah0ki:Deanu^leah'ki MARJA-plc ;
 Buođđo^boh0ki:Buođđo^boh'ki MARJA-plc ;
 Giema^jáv0ri:Giema^jáv'ri MARJA-plc ;
@@ -11288,6 +11295,7 @@ Vuolle-Jal0vi:Vuolle-Jal'vi MARJA-plc ;
 Bár0ši:Bár'ši MARJA-plc ;
 Geađge^luoppal:Geađge^luobbal MARJA-plc ;
 Iv0gu:Iv'gu MARJA-plc ;
+Porsáŋ0gu:Porsáŋ'gu MARJA-plc ;
 Álahead0ju:Álahead'ju MARJA-plc ;
 Finn^már0ku:Finn^már'ku MARJA-plc ;
 Dán^már0ku:Dán^már'ku MARJA-plc ;
@@ -11297,8 +11305,10 @@ Guovda^geaidnu:Guovda^geajdnu MARJA-plc ;
 Sibir0já:Sibir'já MARJA-plc ;
 Kiinná:Kijnná MARJA-plc ;
 Leaváš:Leaváž PLACE-DIM-plc ;
+Sállan:Sállan9 ANAR-plc ;
 Giron:Giron9 ANAR-plc ;
 Deargget:Deargged ANAR-plc ;
+Várjjat:Várjjag ANAR-plc ;
 Helsset:Helsseg ANAR-plc ;
 Beattet:Beatteg ANAR-plc ;
 Veahčat:Veahčah ANAR-plc ;
@@ -11335,11 +11345,13 @@ Dar0ji:Dar'ji MARJA-plc ;
  Buollan^guoi0ka+Use/Sub:Buollan^guoi'ka MARJA-plc ; !
  Garit^guoi0ka+Use/Sub:Garit^guoj'ka MARJA-plc ; !
  Anár^johka+Use/Sub:Anár^johka MARJA-plc ; !
+ Hammer^feas0ta+Use/Sub:Hammer^feas'ta MARJA-plc ; !
  Lávnnjit^vuopmi+Use/Sub:Lávnnjit^vuopmi MARJA-plc ; !
  Garit^jáv0ri+Use/Sub:Garit^jáv'ri MARJA-plc ; !
  Afrihká+Use/Sub:Afrihká MARJA-plc ; !
  Ruoŧ0ŧa+Use/Sub:Ruoŧ'ŧa SUOPMA-plc ; !
  Áiligas+Use/Sub:Áiligas ANAR-plc ; !
+Skánit:Skátni VARGGAT-plc ;
  Nuorbe^njár0ga:Nuorbe^njár'ga MARJA-plc ; !FIN
  Roavve^njár0ga:Roavve^njár'ga MARJA-plc ; !FIN
  Veahča^joh0ka:Veahča^joh'ka MARJA-plc ; !FIN
