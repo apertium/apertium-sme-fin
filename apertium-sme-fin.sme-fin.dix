@@ -3348,7 +3348,7 @@
 	<!-- Po:Pcle, Pr:Pcle -->
 	<e><p><l>juohke<b/>bealde<s n="Po"/></l><r>kaikkialla<s n="Adv"/></r></p></e>
 	<e><p><l>veardde<s n="Po"/></l><r>verran<s n="Adv"/></r></p></e>
-	<e><p><l>gasku<s n="Pr"/></l><r>keskellä<s n="Adv"/></r></p></e>
+	<e><p><l>gasku<s n="Adv"/></l><r>keskellä<s n="Adv"/></r></p></e>
 	<!-- CC:Pcle -->
 	<e><p><l>muhto<s n="CC"/></l><r>mutta<s n="Pcle"/></r></p></e>	
 	<!-- Are these relative markers? should they be tagged as such? -->
