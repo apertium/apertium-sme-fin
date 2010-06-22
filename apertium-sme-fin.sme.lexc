@@ -6427,6 +6427,7 @@ bieggat:biegga ARVI ;
 bieguhit:bieguh MUITAL ;
 biehttalit:biehttal VUORDIL ;
 bieđđat:bieđđa DIEVVA ;
+bihkkadit:bihkkad MUITAL ;
 bilidit:bilid MUITAL ;
 billahuvvat:billah UVVA ;
 billašuvvat:billaš UVVA ;
@@ -6588,6 +6589,7 @@ guos0kat:guos'ka DIEVVA ;
 guovllastit:guovllast MUITAL ;
 guođđit:guođđi DIEHTI ;
 gur0put:gur'pu DAHTU ;
+gáh0tat:gáh'ta BORRA ;
 gáibidit:gájbid MUITAL ;
 gálašit:gálaš BEAGASJ ;
 gár0tat:gár'ta DIEVVA ;
@@ -6743,6 +6745,7 @@ ráhkestit:ráhke7st MUITAL ;
 ráigánit:rájgán LASSAN ;
 ráv0kat:ráv'ka BORRA ;
 ráđđet:ráđđe DOHPPE ;
+seailluhit:seajlluh MUITAL ;
 sear0vat:sear'va DIEVVA ;
 seas0tit:seas'ti DIEHTI ;
 sevnnjodit:sevnnjod ALIST ;
@@ -7013,6 +7016,7 @@ LEXICON NounRoot
  a0đa+Last:ađđam8 SEAMU "marrow N" ; !
  addi+SgNomCmp+SgGenCmp+PlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft:addi¤ ACTOR "giver N" ; !
 a^dreas0sa:a^dreas'sa GOAHTI "address N" ;
+advear0ba:advear'ba GOAHTI "adverb N" ;
  advokáhta+SgNomCmp+SgGenCmp+PlGenCmp:advokáhta STAHTA "solicitor N"; !
  ah0ki+SgNomCmp+SgGenCmp+DefPlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft:ah'ki ALBMI "age N" ; !
  albmi+SgNomCmp+SgGenCmp:albmi ALBMI "sky N" ; !
@@ -7052,6 +7056,7 @@ arve#dáv0gi:arve#dáv'gi GOAHTI ;
 bagadus:bagaduss JOHTOLAT ;
 bah0ta:bah'ta GOAHTI ;
  hoahkan+SgCmp:hoahkam BOAHTIN ; !
+ bahávuoh0ta+SgGenCmp+DefPlGenCmp:bahávuoh'ta LUONDU ; !
  bahčavuoh0ta+SgGenCmp+DefPlGenCmp:bahčavuoh'ta LUONDU ; !
  baján#dál0ki+SgNomCmp+SgGenCmp+PlGenCmp:baján#dál'ki GOAHTI ; !
 bal0va:bal'va GOAHTI ;
@@ -7358,6 +7363,7 @@ eappir:eabbir MALIS ;
  el#rávdnji+SgNomCmp+DefSgGenCmp:el#rávdnji AIGI; !
  erohus+SgNomCmp+DefSgGenCmp+DefPlGenCmp+SgLeft+SgNomLeft+PlGenLeft:erohuss JOHTOLAT ; !
 erttet#dák0ti:erttet#dák'ti AIGI ;
+erttet:ertteg GAHPIR ;
 evangeli^um:evangeli^um9 BUFFALO ;
 evangeli^um:evangeli^um9 GAHPIRLONG ;
  evangelis0ta+SgNomCmp+SgGenCmp+PlGenCmp:evangelis'ta GOAHTI ; !
@@ -7381,6 +7387,7 @@ fidnu:fidnu¤ GOAHTI ;
  fierbme#rássi+SgNomCmp+DefSgGenCmp+PlGenCmp:fierbme#rássi AIGI; !
 fiervá#buv0ri:fiervá#buv'ri GOAHTI ;
  fiikkon+Use/Sub:fiikkon GAHPIR; ! The form used in the NT
+ fiikkon#muorra+SgNomCmp+SgGenCmp+DefPlGenCmp+Use/Sub:fiikkon#muorra GOAHTI; ! !
  filippilaš+SgNomCmp+SgGenCmp+PlGenCmp:filippilažž JOHTOLAT ; !
  filosofa+SgNomCmp+SgGenCmp+PlGenCmp:filosofa GOAHTI; !
  sáiva#čáhce#guolli+SgNomCmp+SgGenCmp+PlGenCmp:sáiva#čáhce#guolli AIGI; !
@@ -7526,6 +7533,7 @@ govččas:gok'čas MALIS ;
  greikalaš+SgNomCmp+SgGenCmp+PlGenCmp:greikalažž JOHTOLAT ; !
 gudni:gudni¤ AIGI ;
  guhkes#bearjadat+SgNomCmp+SgGenCmp+DefPlGenCmp:guhkes#bearjadah'k JOHTOLAT ; !
+guhkkodat:guhkkodah'k JOHTOLAT ;
  guhppár+SgNomCmp+SgGenCmp+PlGenCmp:guhppár GAHPIRLONG; !
  gui0gu+SgNomCmp+SgGenCmp+PlGenCmp:guj'gu GOAHTI ; !
 guk0si:guk'si GOAHTI ;
@@ -8373,6 +8381,7 @@ sihkkun#gum0me:sihkkun#gum'me GOAHTI ;
 suovas#bier0gu:suovas#bier'gu GOAHTI ;
  suovva+SgNomCmp+SgGenCmp+PlGenCmp:suovva GOAHTI; !
 láibe#suv0li:láibe#suv'li GOAHTI ;
+ sypressa#muorra+SgNomCmp+SgGenCmp+DefPlGenCmp:sypressa#muorra GOAHTI; !
 sá0laš:sállaš MALIS ;
 sá0laš:sálla DAIVVAS ;
  sábbát+Use/Sub:sábbáh GAHPIRLONG ; !
@@ -8442,12 +8451,14 @@ van0ca:van'ca GOAHTI ;
  vašálaš+SgNomCmp+SgGenCmp+PlGenCmp:vašálažž JOHTOLAT ; !
  vašši+SgNomCmp+DefSgGenCmp:vašši ALBMILONG; !
  veadde#muor0ji+SgNomCmp+SgGenCmp+DefPlGenCmp:veadde#muor'ji GOAHTI ; !
+veahka#vál0di:veahka#vál'di VALDI ;
 veahkke#ruh0ta:veahkke#ruh'ta GOAHTI ;
  veahkki+SgNomCmp+SgGenCmp+PlGenCmp:veahkki AIGI; !
 veai0ki:veaj'ki GOAHTI ;
 veak0ta:veak'ta GOAHTI ;
 veal0gi:veal'gi AIGI ;
 pul0ta:pul'ta GOAHTI ;
+vear0ba:vear'ba GOAHTI ;
 vear0ju:vear'ju AIGI ;
  veardádus+SgNomCmp+DefSgGenCmp+DefPlGenCmp+SgLeft+SgNomLeft+SgGenLeft+PlGenLeft:veardáduss JOHTOLAT ; !
  vearro#dahkki+SgNomCmp+SgGenCmp+PlGenCmp:vearro#dahkki¤ ACTOR ; !
