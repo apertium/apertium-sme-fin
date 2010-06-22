@@ -206,7 +206,7 @@
 	<e><p><l>ovddabeale<s n="Po"/></l><r>editse<s n="Adp"/></r></p></e>
 	
 
-    <e><p><l>badjelii<s n="Adp"/></l><r>ylle<s n="Adp"/></r></p></e>
+        <e><p><l>badjelii<s n="Adp"/></l><r>ylle<s n="Adp"/></r></p></e> <!-- TODO: CHECK -->
 
     <!-- 
 
@@ -2573,7 +2573,7 @@
     <e><p><l>lossatvuohta<s n="N"/></l><r>raskaus<s n="N"/></r></p></e>
     <e><p><l>šlávva<s n="N"/></l><r>orja<s n="N"/></r></p></e>
     <e><p><l>gáskkašahkesrássi<s n="N"/></l><r>ohdake<s n="N"/></r></p></e>
-    <e><p><l>náhkis<s n="N"/></l><r>nahas<s n="N"/></r></p></e>
+    <e><p><l>náhkki<s n="N"/></l><r>nahas<s n="N"/></r></p></e>
     <e><p><l>lasta<s n="N"/></l><r>lehti<s n="N"/></r></p></e>
     <e><p><l>šušmi<s n="N"/></l><r>kantapää<s n="N"/></r></p></e>
     <e><p><l>nuorttabealli<s n="N"/></l><r>itäpuoli<s n="N"/></r></p></e>
