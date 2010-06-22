@@ -175,6 +175,7 @@
       <attr-item tags="Ind"/>
       <attr-item tags="Imprt"/>
       <attr-item tags="Cond"/>
+      <attr-item tags="Pot"/>
       <attr-item tags="Inf1"/>
       <attr-item tags="Inf2"/>
       <attr-item tags="Inf3"/>
@@ -698,10 +699,16 @@
         <choose>
           <when>
             <test>
-              <equal>
-                <clip pos="1" side="sl" part="a_realis"/>
-                <lit-tag v="Cond"/>
-              </equal>
+              <or>
+                <equal>
+                  <clip pos="1" side="sl" part="a_realis"/>
+                  <lit-tag v="Pot"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="a_realis"/>
+                  <lit-tag v="Cond"/>
+                </equal>
+              </or>
             </test>
             <let>
               <var n="cur_verb_tense"/>
