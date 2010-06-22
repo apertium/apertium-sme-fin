@@ -157,6 +157,26 @@ fin: kaksi|toista
 Will make note of this on wiki.
 
 
+# add readings in omorfi
+
+Adp:
+
+ + edessä
+ + välissä
+ + aikana
+ + välillä 
+ + väliin
+ + välille
+ + sisällä
+ + sisälle
+ + sisään
+
+
+Adv:
+
+
+
+
 # Notes while collecting more lexical entries
 
 ### need to Select "maa" N Sg Par
@@ -344,3 +364,22 @@ koko, kaikista
 	"<.>"
 		"." Punct CLB ADD:665 
 
+Has this been fixed by CG rule?
+
+### Drop compound analyses when others exist?
+
+> sankari 
+
+	san	san+N+Sg+Nom# kari+N+Sg+Nom
+	sankari sankari+N+Sg+Nom
+
+> kyynärä
+
+	kyynärä	kyynärä+N+Sg+Nom
+	kyynärä	kyy+N+Sg+Nom+# närä+N+Sg+Nom
+
+> parhaiksi
+
+	parhaiksi	parhaiksi+Adv
+	parhaiksi	par+N+Sg+Nom+# hai+N+Pl+Tra
+	parhaiksi	par+N+Sg+Nom+# hai+N+Sg+Tra

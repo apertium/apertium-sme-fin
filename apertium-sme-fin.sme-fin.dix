@@ -161,22 +161,15 @@
     <e><p><l>vuostá<s n="Po"/></l><r>vastaan<s n="Adp"/></r></p></e>
     <e><p><l>sisa<s n="Po"/></l><r>sekaan<s n="Adp"/></r></p></e>
     <e><p><l>ektui<s n="Po"/></l><r>nähden<s n="Adp"/></r></p></e>
-
-
     <e><p><l>maŋŋil<s n="Po"/></l><r>jälkeen<s n="Adp"/></r></p></e>
-
     <e><p><l>ovdal<s n="Po"/></l><r>ennen<s n="Adp"/></r></p></e> <!-- Also a preopostion in Fin... -->
     <e><p><l>maŋŋá<s n="Po"/></l><r>jälkeen<s n="Adp"/></r></p></e>
     <e><p><l>áigge<s n="Po"/></l><r>aikana<s n="Adp"/></r></p></e>
-    
     <e><p><l>mielde<s n="Po"/></l><r>kanssa<s n="Adp"/></r></p></e>
 	<e><p><l>mielde<s n="Po"/></l><r>mukaan<s n="Adp"/></r></p></e>
 	<e><p><l>ala<s n="Po"/></l><r>päälle<s n="Adp"/></r></p></e>
-
-    
     <e><p><l>rájes<s n="Po"/></l><r>asti<s n="Adp"/></r></p></e> <!-- siitä asti -->
     <e srl="1"><p><l>rádjái<s n="Po"/></l><r>asti<s n="Adp"/></r></p></e> <!-- siihen asti -->
-
 	<e><p><l>badjel<s n="Po"/></l><r>yli<s n="Adp"/></r></p></e>
 	<e><p><l>bealis<s n="Po"/></l><r>puolessa<s n="Adp"/></r></p></e>
 	<e><p><l>beallái<s n="Po"/></l><r>puoleen<s n="Adp"/></r></p></e>
@@ -791,6 +784,7 @@
     <e><p><l>fiervá<s n="N"/></l><r>fieru<s n="N"/></r></p></e>
     <e><p><l>fiervábuvri<s n="N"/></l><r>venevaja<s n="N"/></r></p></e>
     <e><p><l>fiikkon<s n="N"/></l><r>viikuna<s n="N"/></r></p></e>
+    <e><p><l>fiikkonmuorra<s n="N"/></l><r>viikunapuu<s n="N"/></r></p></e>
     <e><p><l>filippilaš<s n="N"/></l><r>filippiläinen<s n="N"/></r></p></e>
     <e><p><l>filosofa<s n="N"/></l><r>filosofi<s n="N"/></r></p></e>
     <e><p><l>friddjaminuhtta<s n="N"/></l><r>välitunti<s n="N"/></r></p></e>
@@ -2587,6 +2581,15 @@
 	<e><p><l>sohkagirji<s n="N"/></l><r>sukuluettelo<s n="N"/></r></p></e>
 	<e><p><l>ávvudeapmi<s n="N"/></l><r>juhliminen<s n="N"/></r></p></e>
 	<e><p><l>beaggin<s n="N"/></l><r>maine<s n="N"/></r></p></e>
+	<e><p><l>veahkaváldi<s n="N"/></l><r>väkivalta<s n="N"/></r></p></e>
+	<e><p><l>advearba<s n="N"/></l><r>adverbi<s n="N"/></r></p></e>
+	<e><p><l>vearba<s n="N"/></l><r>verbi<s n="N"/></r></p></e>
+	<e><p><l>dulvi<s n="N"/></l><r>paisumus<s n="N"/></r></p></e>
+	<e><p><l>čáhcedulvi<s n="N"/></l><r>vedenpaisumus<s n="N"/></r></p></e>
+	<e><p><l>bahávuohta<s n="N"/></l><r>pahuus<s n="N"/></r></p></e>
+	<e><p><l>guhkkodat<s n="N"/></l><r>pituus<s n="N"/></r></p></e>
+
+	
 	<!-- nouns end -->
     
 <!-- 
@@ -3281,6 +3284,9 @@
 	<e><p><l>šattolaš<s n="A"/></l><r>hedelmällinen<s n="A"/></r></p><par n="A_A"/></e>
     <e><p><l>gávvil<s n="A"/></l><r>kavala<s n="A"/></r></p><par n="A_A"/></e>
     <e><p><l>agálaš<s n="A"/></l><r>iankaikkinen<s n="A"/></r></p><par n="A_A"/></e>
+	<e><p><l>bajimus<s n="A"/></l><r>ylimmäinen<s n="A"/></r></p><par n="A_A"/></e>
+	<e><p><l>gaskkamus<s n="A"/></l><r>keskimmäinen<s n="A"/></r></p><par n="A_A"/></e>
+	<e><p><l>vuolimus<s n="A"/></l><r>alimmainen<s n="A"/></r></p><par n="A_A"/></e>
 	<!-- ! Adv - A, etc ???  -->
 	<e><p><l>vuolibuš<s n="Adv"/></l><r>alamainen<s n="A"/></r></p></e>
 	<e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e>
@@ -3315,6 +3321,15 @@
 	<e><p><l>vuot<s n="Adv"/></l><r>jälleen<s n="Adv"/></r></p></e>
     <e><p><l>oktii<s n="Adv"/></l><r>yhteen<s n="Adv"/></r></p></e>
     <e><p><l>duođaid<s n="Adv"/></l><r>todella<s n="Adv"/></r></p></e>
+	<e><p><l>dievva<s n="Adv"/></l><r>täyteen<s n="Adv"/></r></p></e>
+	<e><p><l>ná<s n="Adv"/></l><r>näin<s n="Adv"/></r></p></e>
+	<e><p><l>olggul<s n="Adv"/></l><r>ulkoa<s n="Adv"/></r></p></e>
+	<e><p><l>olgun<s n="Adv"/></l><r>ulkona<s n="Adv"/></r></p></e>
+	<e><p><l>siskkil<s n="Adv"/></l><r>sisältä<s n="Adv"/></r></p></e>
+	<e><p><l>dievva<s n="Adv"/></l><r>täynnä<s n="Adv"/></r></p></e>
+
+	
+
 	<!-- oba <Adv> oppa <Adv> / koko <Pcle> <Pron> -->
 	<e><p><l>gaskii<s n="Adv"/></l><r>välille<s n="Adv"/></r></p></e>
 	<e><p><l>ovtta<s n="Adv"/></l><r>näkyviin<s n="Adv"/></r></p></e> <!-- TODO: CHECK -->
@@ -3340,7 +3355,7 @@
 	<e><p><l>maid<s n="Adv"/></l><r>mitä<s n="Adv"/></r></p></e>
 	<e><p><l>dás<s n="Adv"/></l><r>tässä<s n="Adv"/></r></p></e>
 	<!-- end adverbs -->
-    <!-- Verbs -->
+    <!-- verbs -->
     <e><p><l>ii<s n="V"/><s n="IV"/><s n="Neg"/></l><r>ei<s n="V"/><s n="Neg"/></r></p><par n="V_V"/></e>
     <e><p><l>leat<s n="V"/><s n="IV"/></l><r>olla<s n="V"/></r></p><par n="V_V"/></e>
 	
@@ -3837,7 +3852,15 @@
     <e><p><l>čuorvut<s n="V"/><s n="TV"/></l><r>huutaa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>ealihit<s n="V"/><s n="TV"/></l><r>elättää<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>jeđđet<s n="V"/><s n="TV"/></l><r>lohduttaa<s n="V"/></r></p><par n="V_V"/></e>
-	<!-- Verbs end -->
+	
+	<e><p><l>billašuvvat<s n="V"/><s n="IV"/></l><r>turmeltua<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>billašuvvat<s n="V"/><s n="IV"/></l><r>turmella<s n="V"/></r></p><par n="V_V"/></e> <!-- ? -->
+	<e><p><l>seailluhit<s n="V"/><s n="IV"/></l><r>säilyttää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>gáhtat<s n="V"/><s n="TV"/></l><r>katua<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>bihkkadit<s n="V"/><s n="TV"/></l><r>tervata<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>bidjat<s n="V"/><s n="TV"/></l><r>sijoittaa<s n="V"/></r></p><par n="V_V"/></e>
+	
+	<!-- verbs end -->
     
     <!-- Punctuation -->
     <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="Num"/></l><r><s n="Num"/></r></p></e>
