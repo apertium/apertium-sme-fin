@@ -132,6 +132,7 @@
       <attr-item tags="N.Prop.Plc"/>
       <attr-item tags="N.Prop.Mal"/>
       <attr-item tags="Pron.Dem"/>
+      <attr-item tags="Pron.Interr"/>
     </def-attr>
     <def-attr n="a_case">
       <attr-item tags="Nom"/>
@@ -427,8 +428,9 @@
         <call-macro n="set_tra_ill1">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="set_par_gen">
+        <call-macro n="set_par_gen2">
           <with-param pos="1"/>
+          <with-param pos="2"/>
         </call-macro>
         <call-macro n="strip_nbr">
           <with-param pos="1"/>
@@ -812,7 +814,8 @@
         <call-macro n="set_tra_ill1">
           <with-param pos="2"/>
         </call-macro>
-        <call-macro n="set_par_gen">
+        <call-macro n="set_par_gen2">
+          <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>
         <choose>
