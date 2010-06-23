@@ -3378,9 +3378,9 @@
     <e><p><l>vuoidat<s n="V"/><s n="TV"/></l><r>voidella<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>lihkadit<s n="V"/><s n="IV"/></l><r>liikkua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>mannat<s n="V"/><s n="IV"/></l><r>mennä<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>gullat<s n="V"/><s n="TV"/></l><r>kuulua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>luohttit<s n="V"/><s n="IV"/></l><r>luottaa<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>gullat<s n="V"/><s n="IV"/></l><r>kuulla<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>gullat<s n="V"/><s n="TV"/></l><r>kuulua<s n="V"/></r></p><par n="V_V"/></e>
+    <!--<e><p><l>gullat<s n="V"/><s n="IV"/></l><r>kuulla<s n="V"/></r></p><par n="V_V"/></e>-->
     <e><p><l>deattuhit<s n="V"/><s n="IV"/></l><r>todistaa<s n="V"/></r></p><par n="V_V"/></e>
     <!--<e><p><l>sárdnut<s n="V"/><s n="IV"/></l><r>sanoa<s n="V"/></r></p><par n="V_V"/></e>-->
     <e><p><l>dadjat<s n="V"/><s n="TV"/></l><r>sanoa<s n="V"/></r></p><par n="V_V"/></e>
