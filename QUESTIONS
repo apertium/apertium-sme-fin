@@ -12,9 +12,24 @@ kuiva potentially nominal, but adj in the morphology.
 
 Change in morph, or elsewhere?
 
+TROND: To me it seems the best way would be to keep it an A. All adjs can occur here. And the analysis is good already today:
+
+"<että>"
+	"että" Conj CLB 
+"<kuiva>"
+	"kuiva" A Pos Sg Nom @SUBJ→ 
+"<tulee>"
+	"tulla" V Ind Prs Sg3 @+FMAINV 
+"<näkyviin>"
+	"näkyä" V Pcp2 Pos Pl Ill @X 
+	"näkyviin" Adv @X 
+
+
 # Account on bug tracker
 
 http://giellatekno.uit.no/bugzilla/buglist.cgi?cmdtype=runnamed&namedcmd=mtbugs
+
+TROND: What is this?
 
 
 # Mihin - Pron+Rel?
@@ -32,6 +47,9 @@ Adv?
 
 mihin works as a comp. Change in morphology or what?
 
+TROND: Yes, I think new morphology ks needed here."mihin" just as Rel as "johon".
+
+
 #  yks - pron? 
 
  @yks<Pron><Sg><Ill> 
@@ -44,6 +62,9 @@ yhteen	yhteen+Adv
 yhteen	yhde+N+Sg+Gen
 
 can we just remove the pronoun reading when there is a number reading ? 
+
+TROND: Hmm. But that means "always", right?
+
 
 # Comparative adverbs
 
@@ -67,6 +88,16 @@ can we just remove the pronoun reading when there is a number reading ?
 
 	$ echo "hoahpubut" | sme
 	hoahpubut	hoahpubut+Adv+Comp
+
+
+TROND:
+~/gtsvn/kt/fin$ echo "njoazibut" | usme
+0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
+njoazibut	njoahci+A+Comp+Der2+Der/at+Adv
+njoazibut	njoahci+A+Comp+Sg+Acc+PxSg2
+njoazibut	njoahci+A+Comp+Sg+Gen+PxSg2
+njoazibut	njoahci+A+Comp+Sg+Nom+PxSg2
+njoazibut	njoahci+A+Comp+Pl+Nom
 
 
 
