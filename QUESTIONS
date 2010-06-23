@@ -48,6 +48,7 @@ Adv?
 mihin works as a comp. Change in morphology or what?
 
 TROND: Yes, I think new morphology ks needed here."mihin" just as Rel as "johon".
+paikka, mihin vedet olivat kokontuneet = the place whereto the water had gathered.
 
 
 #  yks - pron? 
@@ -108,6 +109,9 @@ $ echo "viheriät" |apertium -d . fin-sme-morph
 
 What can we do with this ? Just add it as lexicalised in Omorfi ?
 
+TROND: yes. This is not perceived as a compound.
+
+
 
 # elävä - ealli (adjective, verb)
 
@@ -135,6 +139,22 @@ Can we somehow add elävä as a verb, or ealli as an adjective ? 	Is there a rea
 	ealli	eallit+V+IV+Der2+Actor+N+Sg+Acc
 	
 
+TROND: The issue here is the participle.
+It has been lexicalised in omorfi, not in sme.fst. So, lexicalise it in sme as well.
+On a more general note: 
+What matches is the fin PrsPcp and the Sme PrsPrc.
+
+
+ealli	     ealli+N+Actor+Sg+Nom
+ealli	     ealli+N+Actor+Sg+Acc
+ealli	     ealli+N+Actor+Sg+Gen
+ealli	     eallit+V+IV+PrsPrc
+ealli	     eallit+V+IV+Imprt+Du2
+ealli	     eallit+V+IV+Der2+Actor+N+Sg+Nom
+ealli	     eallit+V+IV+Der2+Actor+N+Sg+Acc
+ealli	     eallit+V+IV+Der2+Actor+N+Sg+Gen
+
+TROND: On a more general note: You have an old sme.fst. The SgGenCmp forest has now been cut.
 
 
 # lexicon modifications
@@ -149,6 +169,12 @@ Can we somehow add elävä as a verb, or ealli as an adjective ? 	Is there a rea
 omorfi - Adv
 gt sme - bealde +Po
 
+TROND: These are just different:
+One is compounded: fi = "all+on", 
+and on e is not: se = every onside+Po.
+So: transfer rule. 
+
+
 # oma -> ieš
 
 Transferring an adjective to a reflexive pronoun.
@@ -159,6 +185,13 @@ Transferring an adjective to a reflexive pronoun.
 <Flammie> spectie: I just talked with a Finnish major about reflexive oma 
 constructions, turns out it has its own section in official grammar so it's 
 quite specific construct <http://scripta.kotus.fi/visk/sisallys.php?p=1456>
+
+TROND:
+This is a well-known diff between fi and se. Here we just need transfer rules, 
+like this:
+oma+Cx N+Cx+Px ==> ieš+Px N+Cx
+
+
 
 # Multiple analyses for reflexives
 
@@ -171,14 +204,22 @@ quite specific construct <http://scripta.kotus.fi/visk/sisallys.php?p=1456>
 	ieš+Pron+Refl+Loc+PxPl2	alddádet
 	
 What do we do?
+TROND:
+We fix the isme-norm.fst transducer, by blocking 3 of 4.
+
+
 
 
 # Viime aikoina ~ maŋimus áiggiid
 
 How to handle this? It's not somthing that can be done with a transfer rule, I believe.
-
 Multiword, will it present probolems if the second words are derived and need to just remain without being analysed?
 
+TROND:
+I do not see the problem, so I need some illumination here.
+The expressions are different: 
+last.indeclineable time-Pl-Ess vs. last time-Pl-Gen
+But these are fixed expressions. Similar expressions for time can be found (viime päivinä (last days) ~ maŋimus beivviid), but others do not come to mind, to me, at least.)
 
 # -teen numbers
 
@@ -186,6 +227,7 @@ Sme: guokte|nuppelohkái
 fin: kaksi|toista
 
 Will make note of this on wiki.
+TROND: These two are parallel, "toista" (partitive) and "nuppelohkái" (illative) are both indeclinable, and can be treated as such.
 
 
 # add readings in omorfi
@@ -213,6 +255,8 @@ Adv:
 	kosken	Koski<N><Prop><Sg><Gen>
 	kosken	koskea<V><Act><Ind><Prs><Sg1>
 
+TROND: Hmm, I do not get the 2nd one at all.
+
 
 
 # Notes while collecting more lexical entries
@@ -233,6 +277,9 @@ Adv:
 		"viljellä" V Act Inf3 Sg Ine @-FMAINV 
 	"<,>"
 		"," Punct CLB 
+
+TROND: CG problem, yes.
+
 
 again... 
 
@@ -307,6 +354,8 @@ kylkiluu is treated in one instance as one word, and in another as two, despite 
 > Silloin aukenivat heidän molempain silmät, ja he huomasivat olevansa  alasti; ja he sitoivat yhteen viikunapuun lehtiä ja tekivät itselleen  vyöverhot.
 
 lehtiä N/V?
+
+TROND: lehtiä +N+Pl+Par
 
 ### Select V
 
@@ -404,6 +453,9 @@ koko, kaikista
 
 Has this been fixed by CG rule?
 
+TROND: No, evidently it has not, but it should.
+
+
 ### Drop compound analyses when others exist?
 
 > sankari 
@@ -411,13 +463,20 @@ Has this been fixed by CG rule?
 	san	san+N+Sg+Nom# kari+N+Sg+Nom
 	sankari sankari+N+Sg+Nom
 
+TROND: yes.
+
 > kyynärä
 
 	kyynärä	kyynärä+N+Sg+Nom
 	kyynärä	kyy+N+Sg+Nom+# närä+N+Sg+Nom
+
+TROND: yes.
+
 
 > parhaiksi
 
 	parhaiksi	parhaiksi+Adv
 	parhaiksi	par+N+Sg+Nom+# hai+N+Pl+Tra
 	parhaiksi	par+N+Sg+Nom+# hai+N+Sg+Tra
+
+TROND: yes.
