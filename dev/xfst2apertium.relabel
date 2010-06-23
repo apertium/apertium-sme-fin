@@ -129,3 +129,5 @@
 +PUNCT	<Punct>
 +Dial/-GG	@0@
 +Adp	<Adp>
++LEFT	@0@
++RIGHT	@0@

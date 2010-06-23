@@ -859,6 +859,7 @@
     <e><p><l>giella<s n="N"/></l><r>ansa<s n="N"/></r></p></e>
     <e><p><l>giella<s n="N"/></l><r>kieli<s n="N"/></r></p></e>
     <e><p><l>sámegiella<s n="N"/></l><r>saamekieli<s n="N"/></r></p></e>
+    <e><p><l>sámegiella<s n="N"/></l><r>saamen<b/>kieli<s n="N"/></r></p></e>
     <e><p><l>giellaguovddáš<s n="N"/></l><r>kielikeskus<s n="N"/></r></p></e>
     <e><p><l>giellagursa<s n="N"/></l><r>kielikurssi<s n="N"/></r></p></e>
     <e><p><l>giellakursa<s n="N"/></l><r>kielikurssi<s n="N"/></r></p></e>
@@ -3870,5 +3871,12 @@
     <e><p><l>excl<s n="CLB"/></l><r>!<s n="Punct"/><s n="CLB"/></r></p></e>
     <e><p><l>,<s n="CLB"/></l><r>,<s n="Punct"/><s n="CLB"/></r></p></e>
     <e><p><l>-<s n="Punct"/></l><r>-<s n="Punct"/><s n="CLB"/></r></p></e>
+    <e><p><l>--<s n="Punct"/></l><r>--<s n="Punct"/><s n="CLB"/></r></p></e>
+    <e><p><l>+<s n="Punct"/></l><r>+<s n="Punct"/><s n="CLB"/></r></p></e>
+    <e><p><l>=<s n="Punct"/></l><r>=<s n="Punct"/><s n="CLB"/></r></p></e>
+    <e><p><l>'<s n="Punct"/></l><r>'<s n="Punct"/><s n="CLB"/></r></p></e>
+    <e><p><l>(<s n="Punct"/></l><r>(<s n="Punct"/><s n="CLB"/></r></p></e>
+    <e><p><l>)<s n="Punct"/></l><r>)<s n="Punct"/><s n="CLB"/></r></p></e>
+
   </section>
 </dictionary>
