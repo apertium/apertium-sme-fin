@@ -349,14 +349,14 @@
       </choose>
     </def-macro>
     <def-macro n="set_par_gen2" npar="2">
-      <call-macro n="set_par_gen">
+      <call-macro n="set_par_gen1">
         <with-param pos="1"/>
       </call-macro>
-      <call-macro n="set_par_gen">
+      <call-macro n="set_par_gen1">
         <with-param pos="2"/>
       </call-macro>
     </def-macro>
-    <def-macro n="set_par_gen" npar="1" c="arg.1: pronoun. Change Par into Gen">
+    <def-macro n="set_par_gen1" npar="1" c="arg.1: pronoun. Change Par into Gen">
       <choose>
         <when>
           <test>
@@ -428,9 +428,8 @@
         <call-macro n="set_tra_ill1">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="set_par_gen2">
+        <call-macro n="set_par_gen1">
           <with-param pos="1"/>
-          <with-param pos="2"/>
         </call-macro>
         <call-macro n="strip_nbr">
           <with-param pos="1"/>
@@ -466,7 +465,7 @@
         <call-macro n="set_tra_ill1">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="set_par_gen">
+        <call-macro n="set_par_gen1">
           <with-param pos="1"/>
         </call-macro>
         <out>
@@ -497,7 +496,7 @@
         <call-macro n="set_tra_ill1">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="set_par_gen">
+        <call-macro n="set_par_gen1">
           <with-param pos="1"/>
         </call-macro>
         <choose>
@@ -593,7 +592,7 @@
         <call-macro n="set_tra_ill1">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="set_par_gen">
+        <call-macro n="set_par_gen1">
           <with-param pos="1"/>
         </call-macro>
         <choose>
@@ -763,7 +762,7 @@
         <call-macro n="set_tra_ill1">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="set_par_gen">
+        <call-macro n="set_par_gen1">
           <with-param pos="1"/>
         </call-macro>
         <choose>
@@ -918,7 +917,7 @@
         <call-macro n="set_tra_ill1">
           <with-param pos="1"/>
         </call-macro>
-        <call-macro n="set_par_gen">
+        <call-macro n="set_par_gen1">
           <with-param pos="1"/>
         </call-macro>
         <choose>
@@ -975,7 +974,7 @@
         <pattern-item n="ord"/>
       </pattern>
       <action>
-        <call-macro n="set_par_gen">
+        <call-macro n="set_par_gen1">
           <with-param pos="1"/>
         </call-macro>
         <out>
