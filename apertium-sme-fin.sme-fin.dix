@@ -276,6 +276,8 @@
     <e r="RL"><p><l>vai<s n="CC"/></l><r>että<s n="CC"/></r></p></e>
 
     <e><p><l>ahte<s n="CS"/></l><r>että<s n="CS"/></r></p></e>
+	<e><p><l>dasgo<s n="CS"/></l><r>sillä<s n="CS"/></r></p></e>
+	
     <e><p><l>aht<s n="CS"/></l><r>et<s n="CS"/></r></p></e>
     <e><p><l>danin<s n="CS"/></l><r>koska<s n="CS"/></r></p></e>
     <e><p><l>dego<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
@@ -287,9 +289,16 @@
     <e><p><l>vaikko<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
     <e><p><l>vaikke<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
     <e><p><l>ovdal<b/>go<s n="CS"/></l><r>ennen<b/>kuin<s n="CS"/></r></p></e>
+	<e r="RL"><p><l>ovdal<b/>go<s n="CS"/></l><r>ennenkuin<s n="CS"/></r></p></e>
     <e><p><l>dasságo<s n="CS"/></l><r>kunnes<s n="CS"/></r></p></e>
     <e><p><l>go<s n="CS"/></l><r>kuin<s n="CS"/></r></p></e>
 
+	<!-- juos - CS, fal - Adv -->
+	<e><p><l>juos<b/>fal<s n="Adv" /></l><r>mikäli<s n="CS"/></r></p></e>
+
+
+	<e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
+	
 
 	<!-- CS : Pcle -->
 	<e><p><l>nugo<s n="CS"/></l><r>niinkuin<s n="Pcle"/></r></p></e>
@@ -3793,6 +3802,7 @@
 	<e><p><l>ráhkadit<s n="V"/><s n="TV"/></l><r>rakentaa<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>ráhkestit<s n="V"/><s n="TV"/></l><r>rakastaa<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>smiehttat<s n="V"/><s n="IV"/></l><r>miettiä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>vásihit<s n="V"/><s n="TV"/></l><r>viettää<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>vásihit<s n="V"/><s n="TV"/></l><r>kokea<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>ávnnastit<s n="V"/><s n="TV"/></l><r>työstää<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>čájáhallat<s n="V"/><s n="IV"/></l><r>näytellä<s n="V"/></r></p><par n="V_V"/></e>

@@ -175,6 +175,13 @@ Adp:
 Adv:
 
 
+# How to not discard compound analyses in the following case?
+
+	kosken	koski<N><Sg><Gen>
+	kosken	koska<CS><Cmpnd>+ei<V><Neg><Act><Sg1>
+	kosken	Koski<N><Prop><Sg><Gen>
+	kosken	koskea<V><Act><Ind><Prs><Sg1>
+
 
 
 # Notes while collecting more lexical entries
