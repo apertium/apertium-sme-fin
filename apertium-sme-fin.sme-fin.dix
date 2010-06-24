@@ -2491,7 +2491,7 @@
     <e><p><l>áŋkor<s n="N"/></l><r>ankkuri<s n="N"/></r></p></e>
     <e><p><l>áŋkorbáddi<s n="N"/></l><r>ankkuriköysi<s n="N"/></r></p></e>
     <e><p><l>ášši<s n="N"/></l><r>asia<s n="N"/></r></p></e>
-    <e><p><l>šaddomuorra<s n="N"/></l><r>hedelmäpuu<s n="N"/></r></p></e>
+    <e><p><l>šaddo<j/>muorra<s n="N"/></l><r>hedelmäpuu<s n="N"/></r></p></e>
     <e><p><l>šaddu<s n="N"/></l><r>hedelmä<s n="N"/></r></p></e>
     <e><p><l>šaddu<s n="N"/></l><r>kasvi<s n="N"/></r></p></e>
     <e><p><l>šaddu<s n="N"/></l><r>kuolo<s n="N"/></r></p></e>
@@ -3311,7 +3311,11 @@
 
 
     <e slr="1"><p><l>fargga<s n="Adv"/></l><r>pian<s n="Adv"/></r></p></e>
-    <e><p><l><s n="Adv"/></l><r><s n="Adv"/></r></p></e>
+
+    <e><p><l>hui<s n="Adv"/></l><r>erittäin<s n="Adv"/></r></p></e>
+    <e><p><l>hui<s n="Adv"/></l><r>kovin<s n="Adv"/></r></p></e>
+    <e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Adv"/></r></p></e>
+
     <e><p><l>ain<s n="Adv"/></l><r>edelleen<s n="Adv"/></r></p></e>
     <e><p><l>ainjuo<s n="Adv"/></l><r>ainakin<s n="Adv"/></r></p></e>
     <e><p><l>aivve<s n="Adv"/></l><r>juuri<s n="Adv"/></r></p></e>
@@ -3371,8 +3375,6 @@
     <e><p><l>guhkkin<s n="Adv"/></l><r>kaukana<s n="Adv"/></r></p></e>
     <e><p><l>guhká<s n="Adv"/></l><r>kauan<s n="Adv"/></r></p></e>
     <e><p><l>guhkás<s n="Adv"/></l><r>kauas<s n="Adv"/></r></p></e>
-    <e><p><l>hui<s n="Adv"/></l><r>erittäin<s n="Adv"/></r></p></e>
-    <e><p><l>hui<s n="Adv"/></l><r>kovin<s n="Adv"/></r></p></e>
     <e><p><l>hárve<s n="Adv"/></l><r>harvoin<s n="Adv"/></r></p></e>
     <e><p><l>iešalddes<s n="Adv"/></l><r>itsestään<s n="Adv"/></r></p></e>
     <e><p><l>ihttin<s n="Adv"/></l><r>huomenna<s n="Adv"/></r></p></e>
