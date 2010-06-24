@@ -3341,63 +3341,69 @@
 	<e><p><l>maŋimus<b/>áiggiid<s n="Adv"/></l><r>viime<b/>aikoina<s n="Adv"/></r></p></e>
 	<e><p><l>maŋimus<b/>beivviid<s n="Adv"/></l><r>viime<b/>päivinä<s n="Adv"/></r></p></e>
 	<!-- Adv:Pcle -->
-	<e><p><l>maŋimus<s n="Adv"/></l><r>viime<s n="Pcle"/></r></p></e>
-	<e><p><l>maid<s n="Adv"/></l><r>myös<s n="Pcle"/></r></p></e>
-	<e><p><l>dál<s n="Adv"/></l><r>nyt<s n="Pcle"/></r></p></e>
-	<e><p><l>vel<s n="Adv"/></l><r>vielä<s n="Pcle"/></r></p></e>
-	<e><p><l>juobe<s n="Adv"/></l><r>vieläpä<s n="Pcle"/></r></p></e>
-	<e><p><l>juoba<s n="Adv"/></l><r>jopa<s n="Pcle"/></r></p></e>
-	<e><p><l>miehtä<s n="Adv"/></l><r>kauttaaltaan<s n="Pcle"/></r></p></e>
-	<e><p><l>hui<s n="Adv"/></l><r>ani<s n="Pcle"/></r></p></e>
-	<e><p><l>kánske<s n="Adv"/></l><r>ehkä<s n="Pcle"/></r></p></e>
-	<e><p><l>naba<s n="Adv"/></l><r>entä<s n="Pcle"/></r></p></e>
-	<e><p><l>naba<s n="Adv"/></l><r>entäpä<s n="Pcle"/></r></p></e>
-	<e><p><l>illá<s n="Adv"/></l><r>hädin tuskin<s n="Pcle"/></r></p></e>
-	<e><p><l>buot<s n="Adv"/></l><r>kaikkein<s n="Pcle"/></r></p></e>
-	<e><p><l>buohkanassii<s n="Adv"/></l><r>kaikkiaan<s n="Pcle"/></r></p></e>
-	<e><p><l>soaitá<s n="Adv"/></l><r>kenties<s n="Pcle"/></r></p></e>
-	<e><p><l>oppalohkái<s n="Adv"/></l><r>kerta kaikkiaan<s n="Pcle"/></r></p></e>
-	<e><p><l>lagabui<s n="Adv"/></l><r>lähes<s n="Pcle"/></r></p></e>
-	<e><p><l>maiddái<s n="Adv"/></l><r>myöskin<s n="Pcle"/></r></p></e>
-	<e><p><l>maiddái<s n="Adv"/></l><r>myöskään<s n="Pcle"/></r></p></e>
-	<e><p><l>nugo<s n="Adv"/></l><r>niin kuin<s n="Pcle"/></r></p></e>
-	<e><p><l>ollásii<s n="Adv"/></l><r>peräti<s n="Pcle"/></r></p></e>
-	<e><p><l>nuppe<b/>gežiid<s n="Adv"/></l><r>päinvastoin<s n="Pcle"/></r></p></e>
-	<e><p><l>dan sadjái<s n="Adv"/></l><r>sen<b/>sijaan<s n="Pcle"/></r></p></e>
-	<e><p><l>dieđus<s n="Adv"/></l><r>tieten<s n="Pcle"/></r></p></e>
-	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkään<s n="Pcle"/></r></p></e>
-	<e><p><l>seamma<b/>go<s n="Adv"/></l><r>yhtä<b/>kuin<s n="Pcle"/></r></p></e>
 	<e><p><l>ain<s n="Adv"/></l><r>yhä<s n="Pcle"/></r></p></e>
-	<e><p><l>hui<s n="Adv"/></l><r>ylen<s n="Pcle"/></r></p></e>
-	<e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Pcle"/></r></p></e>
 	<e><p><l>beare<s n="Adv"/></l><r>tahansa<s n="Pcle"/></r></p></e>
+	<e><p><l>beare<s n="Adv"/></l><r>ties<s n="Pcle"/></r></p></e>
+	<e><p><l>buohkanassii<s n="Adv"/></l><r>kaikkiaan<s n="Pcle"/></r></p></e>
+	<e><p><l>buot<s n="Adv"/></l><r>kaikkein<s n="Pcle"/></r></p></e>
+	<e><p><l>dan sadjái<s n="Adv"/></l><r>sen<b/>sijaan<s n="Pcle"/></r></p></e>
 	<e><p><l>datte<s n="Adv"/></l><r>silti<s n="Pcle"/></r></p></e>
+	<e><p><l>dieđus<s n="Adv"/></l><r>tieten<s n="Pcle"/></r></p></e>
+	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkin<s n="Pcle"/></r></p></e>
+	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkään<s n="Pcle"/></r></p></e>
+	<e><p><l>divdna<s n="Adv"/></l><r>tyynni<s n="Pcle"/></r></p></e>
+	<e><p><l>divdna<s n="Adv"/></l><r>tyystin<s n="Pcle"/></r></p></e>
+	<e><p><l>dušše<s n="Adv"/></l><r>vain<s n="Pcle"/></r></p></e>
 	<e><p><l>dál<s n="Adv"/></l><r>jo<s n="Pcle"/></r></p></e>
+	<e><p><l>dál<s n="Adv"/></l><r>nyt<s n="Pcle"/></r></p></e>
+	<e><p><l>fas<s n="Adv"/></l><r>taas<s n="Pcle"/></r></p></e>
+	<e><p><l>gal<s n="Adv"/></l><r>kai<s n="Pcle"/></r></p></e>
+	<e><p><l>gal<s n="Adv"/></l><r>kyllä<s n="Pcle"/></r></p></e>
 	<e><p><l>galego<s n="Adv"/></l><r>tokko<s n="Pcle"/></r></p></e>
 	<e><p><l>goitge<s n="Adv"/></l><r>kuitenkaan<s n="Pcle"/></r></p></e>
 	<e><p><l>goitge<s n="Adv"/></l><r>kuitenkin<s n="Pcle"/></r></p></e>
+	<e><p><l>hui<s n="Adv"/></l><r>ani<s n="Pcle"/></r></p></e>
+	<e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Pcle"/></r></p></e>
+	<e><p><l>hui<s n="Adv"/></l><r>ylen<s n="Pcle"/></r></p></e>
+	<e><p><l>illá<s n="Adv"/></l><r>hädin tuskin<s n="Pcle"/></r></p></e>
 	<e><p><l>juo<s n="Interj"/></l><r>jo<s n="Pcle"/></r></p></e>
+	<e><p><l>juoba<s n="Adv"/></l><r>jopa<s n="Pcle"/></r></p></e>
+	<e><p><l>juobe<s n="Adv"/></l><r>vieläpä<s n="Pcle"/></r></p></e>
+	<e><p><l>kánske<s n="Adv"/></l><r>ehkä<s n="Pcle"/></r></p></e>
+	<e><p><l>lagabui<s n="Adv"/></l><r>lähes<s n="Pcle"/></r></p></e>
 	<e><p><l>mahká<s n="Adv"/></l><r>muka<s n="Pcle"/></r></p></e>
+	<e><p><l>maid<s n="Adv"/></l><r>myös<s n="Pcle"/></r></p></e>
+	<e><p><l>maiddái<s n="Adv"/></l><r>myöskin<s n="Pcle"/></r></p></e>
+	<e><p><l>maiddái<s n="Adv"/></l><r>myöskään<s n="Pcle"/></r></p></e>
+	<e><p><l>maŋimus<s n="Adv"/></l><r>viime<s n="Pcle"/></r></p></e>
+	<e><p><l>miehtä<s n="Adv"/></l><r>kauttaaltaan<s n="Pcle"/></r></p></e>
+	<e><p><l>minddar<s n="Adv"/></l><r>muutoin<s n="Pcle"/></r></p></e>
+	<e><p><l>naba<s n="Adv"/></l><r>entä<s n="Pcle"/></r></p></e>
+	<e><p><l>naba<s n="Adv"/></l><r>entäpä<s n="Pcle"/></r></p></e>
 	<e><p><l>nappo<s n="Adv"/></l><r>siis<s n="Pcle"/></r></p></e>
+	<e><p><l>nu<s n="Adv"/></l><r>niin<s n="Pcle"/></r></p></e>
+	<e><p><l>nugo<s n="Adv"/></l><r>kuten<s n="Pcle"/></r></p></e>
+	<e><p><l>nugo<s n="Adv"/></l><r>niin</b>kuin<s n="Pcle"/></r></p></e>
+	<e><p><l>nuppe<b/>gežiid<s n="Adv"/></l><r>päinvastoin<s n="Pcle"/></r></p></e>
+	<e><p><l>ná<s n="Adv"/></l><r>täten<s n="Pcle"/></r></p></e>
+	<e><p><l>ollásii<s n="Adv"/></l><r>peräti<s n="Pcle"/></r></p></e>
 	<e><p><l>oppa<s n="Adv"/></l><r>edes<s n="Pcle"/></r></p></e>
-	<e><p><l>fas<s n="Adv"/></l><r>taas<s n="Pcle"/></r></p></e>
+	<e><p><l>oppalohkái<s n="Adv"/></l><r>kerta kaikkiaan<s n="Pcle"/></r></p></e>
+	<e><p><l>seamma<b/>go<s n="Adv"/></l><r>yhtä<b/>kuin<s n="Pcle"/></r></p></e>
+	<e><p><l>soaitá<s n="Adv"/></l><r>kenties<s n="Pcle"/></r></p></e>
+	<e><p><l>suige<s n="Adv"/></l><r>suinkaan<s n="Pcle"/></r></p></e>
+	<e><p><l>vel<s n="Adv"/></l><r>vielä<s n="Pcle"/></r></p></e>
 	<e><p><l>áibbas<s n="Adv"/></l><r>aivan<s n="Pcle"/></r></p></e>
 	<e><p><l>áibbas<s n="Adv"/></l><r>ihan<s n="Pcle"/></r></p></e>
-	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkin<s n="Pcle"/></r></p></e>
-	<e><p><l>dušše<s n="Adv"/></l><r>vain<s n="Pcle"/></r></p></e>
-	<e><p><l>gal<s n="Adv"/></l><r>kai<s n="Pcle"/></r></p></e>
-	<e><p><l>gal<s n="Adv"/></l><r>kyllä<s n="Pcle"/></r></p></e>
-	<e><p><l>minddar<s n="Adv"/></l><r>muutoin<s n="Pcle"/></r></p></e>
-	<e><p><l>nugo<s n="Adv"/></l><r>kuten<s n="Pcle"/></r></p></e>
-	<e><p><l>nu<s n="Adv"/></l><r>niin<s n="Pcle"/></r></p></e>
-	<e><p><l>suige<s n="Adv"/></l><r>suinkaan<s n="Pcle"/></r></p></e>
-	<e><p><l>šat<s n="Adv"/></l><r>enää<s n="Pcle"/></r></p></e>
+	<e><p><l>šat<s n="Adv"/></l><r>enää<s n="Pcle"/></r></p></e
+
 	<!-- Po:Pcle, Pr:Pcle -->
 	<e><p><l>juohke<b/>bealde<s n="Po"/></l><r>kaikkialla<s n="Adv"/></r></p></e>
 	<e><p><l>veardde<s n="Po"/></l><r>verran<s n="Adv"/></r></p></e>
 	<e><p><l>gasku<s n="Adv"/></l><r>keskellä<s n="Adv"/></r></p></e>
-	<!-- CC:Pcle -->
-	<e><p><l>muhto<s n="CC"/></l><r>mutta<s n="Pcle"/></r></p></e>	
+	<!-- CC:Pcle, CS:Pcle -->
+	<e><p><l>muhto<s n="CC"/></l><r>mutta<s n="Pcle"/></r></p></e>
+	<e><p><l>dego<s n="CS"/></l><r>ikään</b>kuin<s n="Pcle"/></r></p></e>
 	<!-- Are these relative markers? should they be tagged as such? -->
 	<e><p><l>maid<s n="Adv"/></l><r>mitä<s n="Adv"/></r></p></e>
 	<e><p><l>dás<s n="Adv"/></l><r>tässä<s n="Adv"/></r></p></e>
