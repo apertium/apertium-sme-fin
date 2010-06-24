@@ -113,7 +113,8 @@
    <e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
    <e><p><l>go<s n="Pcle"/></l><r>kun<s n="Pcle"/></r></p></e>
    
-   <e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Pcle"/></r></p></e>
+   <!--<e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Pcle"/></r></p></e>-->
+   <e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Adv"/></r></p></e>
    
    <e><p><l>beare<s n="Adv"/></l><r>tahansa<s n="Pcle"/></r></p></e>
    <e><p><l>datte<s n="Adv"/></l><r>silti<s n="Pcle"/></r></p></e>
