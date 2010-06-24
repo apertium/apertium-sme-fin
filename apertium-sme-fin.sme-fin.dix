@@ -83,34 +83,41 @@
 
 	
     <!-- Particles -->
-    
-	<e><p><l>almma<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
-	<e><p><l>almmat<s n="Pcle"/></l><r>toki<s n="Pcle"/></r></p></e>
-	<e><p><l>beare<s n="Pcle"/></l><r>tahansa<s n="Pcle"/></r></p></e>
-	<e><p><l>datte<s n="Pcle"/></l><r>silti<s n="Pcle"/></r></p></e>
-	<e><p><l>dál<s n="Pcle"/></l><r>juo<s n="Pcle"/></r></p></e>
-	<e><p><l>eará<s n="Pcle"/></l><r>eri<s n="Pcle"/></r></p></e>
-	<e><p><l>galego<s n="Pcle"/></l><r>tokko<s n="Pcle"/></r></p></e>
-	<e><p><l>goitge<s n="Pcle"/></l><r>kuitenkaan<s n="Pcle"/></r></p></e>
-	<e><p><l>goitge<s n="Pcle"/></l><r>kuitenkin<s n="Pcle"/></r></p></e>
-	<e><p><l>juo<s n="Pcle"/></l><r>jo<s n="Pcle"/></r></p></e>
-	<e><p><l>juoidá<s n="Pcle"/></l><r>jotain<s n="Pcle"/></r></p></e> 
-	<e><p><l>mahká<s n="Pcle"/></l><r>muka<s n="Pcle"/></r></p></e>
-	<e><p><l>nappo<s n="Pcle"/></l><r>siis<s n="Pcle"/></r></p></e>
-	<e><p><l>oppa<s n="Pcle"/></l><r>edes<s n="Pcle"/></r></p></e>
-	<e><p><l>taas<s n="Pcle"/></l><r>fas<s n="Pcle"/></r></p></e>
-	<e><p><l>áibbas<s n="Pcle"/></l><r>aivan<s n="Pcle"/></r></p></e>
-	<e><p><l>áibbas<s n="Pcle"/></l><r>ihan<s n="Pcle"/></r></p></e>
-    <e><p><l>dieđusge<s n="Pcle"/></l><r>tietenkin<s n="Pcle"/></r></p></e>
+	
+	<!-- Adv:Pcle -->
+	
+	<!-- The following all have Pcle on the finnish side, checked. Many are adverbs, but also possibly sentence level and thus should be CSes? Ryan -->
+
+	<e><p><l>beare<s n="Adv"/></l><r>tahansa<s n="Pcle"/></r></p></e>
 	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkään<s n="Pcle"/></r></p></e>
-    <e><p><l>dušše<s n="Pcle"/></l><r>vain<s n="Pcle"/></r></p></e>
-    <e><p><l>gal<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
-    <e><p><l>gal<s n="Pcle"/></l><r>kyllä<s n="Pcle"/></r></p></e>
-    <e><p><l>minddar<s n="Pcle"/></l><r>muutoin<s n="Pcle"/></r></p></e>
-    <e><p><l>nugo<s n="Pcle"/></l><r>kuten<s n="Pcle"/></r></p></e>
+	<e><p><l>dušše<s n="Adv"/></l><r>vain<s n="Pcle"/></r></p></e>
+	<e><p><l>dál<s n="Adv"/></l><r>juo<s n="Pcle"/></r></p></e>
+	<e><p><l>fas<s n="Adv"/></l><r>taas<s n="Pcle"/></r></p></e>
+	<e><p><l>gal<s n="Adv"/></l><r>kai<s n="Pcle"/></r></p></e>
+	<e><p><l>galego<s n="Adv"/></l><r>tokko<s n="Pcle"/></r></p></e>
+	<e><p><l>goitge<s n="Adv"/></l><r>kuitenkaan<s n="Pcle"/></r></p></e>
+	<e><p><l>goitge<s n="Adv"/></l><r>kuitenkin<s n="Pcle"/></r></p></e>
+	<e><p><l>juo<s n="Adv"/></l><r>jo<s n="Pcle"/></r></p></e>
+	<e><p><l>mahká<s n="Adv"/></l><r>muka<s n="Pcle"/></r></p></e>
+	<e><p><l>nappo<s n="Adv"/></l><r>siis<s n="Pcle"/></r></p></e>
+	<e><p><l>oppa<s n="Adv"/></l><r>edes<s n="Pcle"/></r></p></e>
+	<e><p><l>áibbas<s n="Adv"/></l><r>aivan<s n="Pcle"/></r></p></e>
+	<e><p><l>áibbas<s n="Adv"/></l><r>ihan<s n="Pcle"/></r></p></e>
+    <e><p><l>datte<s n="Adv"/></l><r>silti<s n="Pcle"/></r></p></e>
+    <e><p><l>dieđusge<s n="Adv"/></l><r>tietenkin<s n="Pcle"/></r></p></e>
+    <e><p><l>dušše<s n="Adv"/></l><r>vain<s n="Pcle"/></r></p></e>
+    <e><p><l>gal<s n="Adv"/></l><r>kyllä<s n="Pcle"/></r></p></e>
+    <e><p><l>minddar<s n="Adv"/></l><r>muutoin<s n="Pcle"/></r></p></e>
+    <e><p><l>nugo<s n="Adv"/></l><r>kuten<s n="Pcle"/></r></p></e>
+
+
+	
+	<!-- Pcle:Pcle -->
+	<e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
+	<e><p><l>almma<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
 	<e><p><l>almma<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
 	<e><p><l>almmat<s n="Pcle"/></l><r>toki<s n="Pcle"/></r></p></e>
-	<e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
+	<e><p><l>almmat<s n="Pcle"/></l><r>toki<s n="Pcle"/></r></p></e>
 	<e><p><l>go<s n="Pcle"/></l><r>kun<s n="Pcle"/></r></p></e>
 	<e><p><l>hás<s n="Pcle"/></l><r>jospa<s n="Pcle"/></r></p></e>
 	<e><p><l>na<s n="Pcle"/></l><r>no<s n="Pcle"/></r></p></e>
@@ -323,7 +330,9 @@
 	
     <e><p><l>muhtin<s n="Pron"/><s n="Indef"/></l><r>eräs<s n="Pron"/></r></p></e>
 	
-	
+	<!-- Pron Indef:Pcle -->
+	<e><p><l>juoidá<s n="Pron"/><s n="Indef"/></l><r>jotain<s n="Pcle"/></r></p></e>
+	<e><p><l>eará<s n="Pron"/><s n="Indef"/></l><r>eri<s n="Pcle"/></r></p></e>
 	
     <!-- diekkár - semmoinen, sellainen? -->
     
@@ -3301,8 +3310,6 @@
     <!-- adverbs -->
 
 
-
-
     <e slr="1"><p><l>fargga<s n="Adv"/></l><r>pian<s n="Adv"/></r></p></e>
     <e><p><l><s n="Adv"/></l><r><s n="Adv"/></r></p></e>
     <e><p><l>ain<s n="Adv"/></l><r>edelleen<s n="Adv"/></r></p></e>
@@ -3374,6 +3381,7 @@
     <e><p><l>juoba<s n="Adv"/></l><r>jopa<s n="Adv"/></r></p></e>
     <e><p><l>juohke<b/>bealde<s n="Adv"/></l><r>kaikkialta<s n="Adv"/></r></p></e>
     <e><p><l>kánske<s n="Adv"/></l><r>ehkä<s n="Adv"/></r></p></e>
+    <e><p><l>lusa<s n="Po"/></l><r>tykö<s n="Adv"/></r></p></e>
     <e><p><l>maŋŋin<s n="Adv"/></l><r>takana<s n="Adv"/></r></p></e>
     <e><p><l>maŋŋit<s n="Adv"/></l><r>myöhään<s n="Adv"/></r></p></e>
     <e><p><l>menddo<s n="Adv"/></l><r>liian<s n="Adv"/></r></p></e>
