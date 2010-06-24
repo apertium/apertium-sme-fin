@@ -221,6 +221,9 @@ The expressions are different:
 last.indeclineable time-Pl-Ess vs. last time-Pl-Gen
 But these are fixed expressions. Similar expressions for time can be found (viime päivinä (last days) ~ maŋimus beivviid), but others do not come to mind, to me, at least.)
 
+RYAN:
+This can just be a multiword Adv, i think... Will be added as such.
+
 # -teen numbers
 
 Sme: guokte|nuppelohkái
@@ -257,7 +260,11 @@ Adv:
 
 TROND: Hmm, I do not get the 2nd one at all.
 
+RYAN: we have some structures where ei combines with some CS before it. For ettei, this works fine because there is one analysis: 
 
+	ettei	että+Conj+CS+# ei+V+Neg+Act+Sg3
+
+The problem comes in for others where there is a compound analysis and a non-compound analysis. Compounds will be dropped in hfst-proc for now, so we can't use these... But in order to get them to translate, they need to be compounds. Kosken in this case is probably very rare, but it's a good example of where a compound is needed but will be dropped.
 
 # Notes while collecting more lexical entries
 
@@ -480,3 +487,51 @@ TROND: yes.
 	parhaiksi	par+N+Sg+Nom+# hai+N+Sg+Tra
 
 TROND: yes.
+
+
+### Spaces vs. no spaces
+
+sitä vastoin
+
+$ echo "sitävastoin" | fin
+sitävastoin	sitävastoin+Pcle
+
+Should this return a compound analysis too, so that we can normalize spaces vs nonspaces?
+
+### "Particles"
+
+A lot of the words on the all bible missing wich are 'particles' can be deconstructed to some adverb plus a focus particle (aha, real particles). I wonder if it would be worth storing a minimal version of the words and having the focus markers just transferred...  For instance, there are cases where Finnish has two words reflecting pos and neg., e.g. *myöskin* and *myöskään*; but sámi (to my knowledge) doesn't have the same thing. 
+
+Perhaps Linda or Trond know whether the following is productive:
+
+	missäkin - gosnai, gosge; gostege, gostige, gos
+	missään - gostege ~ gostige ~ goste ~ gosge
+
+	mihinkin - gosanai ~ gosage, gosa
+	mihinkään - gosage
+	
+	myöskin - maiddái
+	myöskään - maiddái
+
+Also
+
+	entä - naba, na?
+	entäpä - naba
+
+	missäpä	- gosba
+	mihinpä - gosaba
+	milloinpa - goasba
+
+
+Basic question: can we construct a list of 1-1 correspondences in most of the sme and fin particles?
+
+	fin 		sme
+	-pa 		-ba
+	-kin		-nai, -ge
+	-kaan		-ge
+	?			-bat
+	?			-nu
+	-han		?
+
+Then if this works out, we need to make sure that the morphology in finnish also provides a deconstructed analysis for these.
+
