@@ -102,6 +102,7 @@
 	<e><p><l>áibbas<s n="Pcle"/></l><r>aivan<s n="Pcle"/></r></p></e>
 	<e><p><l>áibbas<s n="Pcle"/></l><r>ihan<s n="Pcle"/></r></p></e>
     <e><p><l>dieđusge<s n="Pcle"/></l><r>tietenkin<s n="Pcle"/></r></p></e>
+	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkään<s n="Pcle"/></r></p></e>
     <e><p><l>dušše<s n="Pcle"/></l><r>vain<s n="Pcle"/></r></p></e>
     <e><p><l>gal<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
     <e><p><l>gal<s n="Pcle"/></l><r>kyllä<s n="Pcle"/></r></p></e>
@@ -3349,8 +3350,6 @@
 	<e><p><l>dan sadjái<s n="Adv"/></l><r>sen<b/>sijaan<s n="Pcle"/></r></p></e>
 	<e><p><l>datte<s n="Adv"/></l><r>silti<s n="Pcle"/></r></p></e>
 	<e><p><l>dieđus<s n="Adv"/></l><r>tieten<s n="Pcle"/></r></p></e>
-	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkin<s n="Pcle"/></r></p></e>
-	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkään<s n="Pcle"/></r></p></e>
 	<e><p><l>divdna<s n="Adv"/></l><r>tyynni<s n="Pcle"/></r></p></e>
 	<e><p><l>divdna<s n="Adv"/></l><r>tyystin<s n="Pcle"/></r></p></e>
 	<e><p><l>dušše<s n="Adv"/></l><r>vain<s n="Pcle"/></r></p></e>
@@ -3383,7 +3382,7 @@
 	<e><p><l>nappo<s n="Adv"/></l><r>siis<s n="Pcle"/></r></p></e>
 	<e><p><l>nu<s n="Adv"/></l><r>niin<s n="Pcle"/></r></p></e>
 	<e><p><l>nugo<s n="Adv"/></l><r>kuten<s n="Pcle"/></r></p></e>
-	<e><p><l>nugo<s n="Adv"/></l><r>niin</b>kuin<s n="Pcle"/></r></p></e>
+	<e><p><l>nugo<s n="Adv"/></l><r>niin<b/>kuin<s n="Pcle"/></r></p></e>
 	<e><p><l>nuppe<b/>gežiid<s n="Adv"/></l><r>päinvastoin<s n="Pcle"/></r></p></e>
 	<e><p><l>ná<s n="Adv"/></l><r>täten<s n="Pcle"/></r></p></e>
 	<e><p><l>ollásii<s n="Adv"/></l><r>peräti<s n="Pcle"/></r></p></e>
@@ -3395,7 +3394,7 @@
 	<e><p><l>vel<s n="Adv"/></l><r>vielä<s n="Pcle"/></r></p></e>
 	<e><p><l>áibbas<s n="Adv"/></l><r>aivan<s n="Pcle"/></r></p></e>
 	<e><p><l>áibbas<s n="Adv"/></l><r>ihan<s n="Pcle"/></r></p></e>
-	<e><p><l>šat<s n="Adv"/></l><r>enää<s n="Pcle"/></r></p></e
+	<e><p><l>šat<s n="Adv"/></l><r>enää<s n="Pcle"/></r></p></e>
 
 	<!-- Po:Pcle, Pr:Pcle -->
 	<e><p><l>juohke<b/>bealde<s n="Po"/></l><r>kaikkialla<s n="Adv"/></r></p></e>
@@ -3403,7 +3402,7 @@
 	<e><p><l>gasku<s n="Adv"/></l><r>keskellä<s n="Adv"/></r></p></e>
 	<!-- CC:Pcle, CS:Pcle -->
 	<e><p><l>muhto<s n="CC"/></l><r>mutta<s n="Pcle"/></r></p></e>
-	<e><p><l>dego<s n="CS"/></l><r>ikään</b>kuin<s n="Pcle"/></r></p></e>
+	<e><p><l>dego<s n="CS"/></l><r>ikään<b/>kuin<s n="Pcle"/></r></p></e>
 	<!-- Are these relative markers? should they be tagged as such? -->
 	<e><p><l>maid<s n="Adv"/></l><r>mitä<s n="Adv"/></r></p></e>
 	<e><p><l>dás<s n="Adv"/></l><r>tässä<s n="Adv"/></r></p></e>
