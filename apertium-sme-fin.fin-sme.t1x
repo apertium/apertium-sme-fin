@@ -1079,19 +1079,44 @@
         <pattern-item n="pcle"/>
       </pattern>
       <action>
-        <out>
-          <chunk name="pcle" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="PCLE"/></tag>
-              <tag><clip pos="1" side="sl" part="syntag"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_pcle"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose> <!-- Sometimes Pcle can be translated by Adv, this allows that -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_adv"/>
+                <lit-tag v="Adv"/>
+              </equal>
+            </test>
+            <out>
+              <chunk name="adv" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="ADV"/></tag>
+                  <tag><clip pos="1" side="sl" part="syntag"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_adv"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </when>
+          <otherwise>
+            <out>
+              <chunk name="pcle" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="PCLE"/></tag>
+                  <tag><clip pos="1" side="sl" part="syntag"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_pcle"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
     <rule comment="REGLA: PUNCTUATION CLB">
