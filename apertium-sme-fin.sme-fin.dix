@@ -3055,6 +3055,7 @@
     <e><p><l>Lamek<s n="N"/><s n="Prop"/><s n="Sur"/></l><r>Lemek<s n="N"/><s n="Prop"/></r></p></e>
 	<!-- end propernouns -->		
     <!-- adjectives -->
+ 	<e><p><l>duohta<s n="A"/></l><r>tosi<s n="A"/></r></p><par n="A_A"/></e>
  	<e><p><l>bajimus<s n="A"/></l><r>ylimmäinen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>earálágán<s n="A"/></l><r>erilainen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>gaskkamus<s n="A"/></l><r>keskimmäinen<s n="A"/></r></p><par n="A_A"/></e>
