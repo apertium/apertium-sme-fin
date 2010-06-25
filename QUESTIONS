@@ -1,29 +1,5 @@
 markdown syntax.
 
-# Morphology or CG or what?
-
-> 9 Ja Jumala sanoi: "Kokoontukoot vedet, jotka ovat taivaan alla, yhteen paikkaan, niin että kuiva tulee näkyviin". Ja tapahtui niin.
->
-> 9 Ipmil celkkii: «Čoahkkanehkoset čázit almmi vuolde ovtta sadjái, ja ihtos goikeeanan!» Ja nu šattai.
-
-
-kuiva - adjective, goike#eanan - noun
-kuiva potentially nominal, but adj in the morphology.
-
-Change in morph, or elsewhere?
-
-TROND: To me it seems the best way would be to keep it an A. All adjs can occur here. And the analysis is good already today:
-
-"<että>"
-	"että" Conj CLB 
-"<kuiva>"
-	"kuiva" A Pos Sg Nom @SUBJ→ 
-"<tulee>"
-	"tulla" V Ind Prs Sg3 @+FMAINV 
-"<näkyviin>"
-	"näkyä" V Pcp2 Pos Pl Ill @X 
-	"näkyviin" Adv @X 
-
 
 # Account on bug tracker
 
@@ -31,24 +7,6 @@ http://giellatekno.uit.no/bugzilla/buglist.cgi?cmdtype=runnamed&namedcmd=mtbugs
 
 TROND: What is this?
 
-
-# Mihin - Pron+Rel?
-
-> paikka, mihin vedet olivat kokontuneet
-
-	$ echo "johon" | ofin
-	johon	joka+Pron+Rel+Sg+Ill
-
-	$ echo "mihin" | ofin
-	mihin	mikä+Pron+Interr+Sg+Ill
-	mihin	mihin+Adv
-
-Adv?
-
-mihin works as a comp. Change in morphology or what?
-
-TROND: Yes, I think new morphology ks needed here."mihin" just as Rel as "johon".
-paikka, mihin vedet olivat kokontuneet = the place whereto the water had gathered.
 
 
 #  yks - pron? 
@@ -67,38 +25,6 @@ can we just remove the pronoun reading when there is a number reading ?
 TROND: Hmm. But that means "always", right?
 
 
-# Comparative adverbs
-
-> hitaammin ~ njoazibut
-
-	$ echo "hitaammin" | ofin
-	hitaammin	hidas+A+Comp+Pl+Ins
-	hitaammin	hidas+A+Der/sti+Adv+Comp
-
-	$ echo "njoazibut" | sme
-	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Sg+Nom+Use/Marg+Use/Ped+PxSg2
-	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Sg+Gen+Use/Marg+Use/Ped+PxSg2
-	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Sg+Acc+Use/Marg+Use/Ped+PxSg2
-	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Pl+Nom
-	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Der2+Der/at+Adv
-
-	$ echo "nopeammin" | ofin
-	nopeammin	nopea+A+Comp+Pl+Ins
-	nopeammin	nopea+A+Der/sti+Adv+Comp
-
-
-	$ echo "hoahpubut" | sme
-	hoahpubut	hoahpubut+Adv+Comp
-
-
-TROND:
-~/gtsvn/kt/fin$ echo "njoazibut" | usme
-0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
-njoazibut	njoahci+A+Comp+Der2+Der/at+Adv
-njoazibut	njoahci+A+Comp+Sg+Acc+PxSg2
-njoazibut	njoahci+A+Comp+Sg+Gen+PxSg2
-njoazibut	njoahci+A+Comp+Sg+Nom+PxSg2
-njoazibut	njoahci+A+Comp+Pl+Nom
 
 
 
@@ -224,7 +150,15 @@ But these are fixed expressions. Similar expressions for time can be found (viim
 RYAN:
 This can just be a multiword Adv, i think... Will be added as such.
 
-# -teen numbers
+
+
+
+
+# Notes while collecting more lexical entries
+
+## PoS differences and transfer
+
+### -teen numbers
 
 Sme: guokte|nuppelohkái
 fin: kaksi|toista
@@ -232,97 +166,130 @@ fin: kaksi|toista
 Will make note of this on wiki.
 TROND: These two are parallel, "toista" (partitive) and "nuppelohkái" (illative) are both indeclinable, and can be treated as such.
 
-
-# add readings in omorfi
-
-Adp:
-
- + edessä
- + välissä
- + aikana
- + välillä 
- + väliin
- + välille
- + sisällä
- + sisälle
- + sisään
-
-
-Adv:
-
-
-# How to not discard compound analyses in the following case?
-
-	kosken	koski<N><Sg><Gen>
-	kosken	koska<CS><Cmpnd>+ei<V><Neg><Act><Sg1>
-	kosken	Koski<N><Prop><Sg><Gen>
-	kosken	koskea<V><Act><Ind><Prs><Sg1>
-
-TROND: Hmm, I do not get the 2nd one at all.
-
-RYAN: we have some structures where ei combines with some CS before it. For ettei, this works fine because there is one analysis: 
-
-	ettei	että+Conj+CS+# ei+V+Neg+Act+Sg3
-
-The problem comes in for others where there is a compound analysis and a non-compound analysis. Compounds will be dropped in hfst-proc for now, so we can't use these... But in order to get them to translate, they need to be compounds. Kosken in this case is probably very rare, but it's a good example of where a compound is needed but will be dropped.
-
-
-# Comparative and superlative adverbs 
+### Comparative and superlative adverbs 
 
 These are fairly productive and consistent at least in finnish but the morphology doesn't seem to have Advs which are comparative or superlative tagged as such.
 
 	lähemmin  +Adv		-> +Adv+Commp
 	lähimmin  +Adv		-> +Adv+Superl
 
+#### Comparative adverbs
 
-# Notes while collecting more lexical entries
+> hitaammin ~ njoazibut
 
-### need to Select "maa" N Sg Par
+	$ echo "hitaammin" | ofin
+	hitaammin	hidas+A+Comp+Pl+Ins
+	hitaammin	hidas+A+Der/sti+Adv+Comp
 
-	"<eikä>"
-		"ei" V Neg Act Sg3 Foc/ka @+FAUXV 
-	"<ollut>"
-		"olla" V Pass PrfPrc Pos Pl Nom @←OBJ 
-		"olla" V Act PrfPrc Pos Sg Nom @←OBJ 
-	"<ihmistä>"
-		"ihminen" N Sg Par @←OBJ 
-	"<maata>"
-		"maata" V Act Inf1 Sg Lat @-FMAINV 
-		"maa" N Sg Par @←OBJ 
-	"<viljelemässä>"
-		"viljellä" V Act Inf3 Sg Ine @-FMAINV 
-	"<,>"
-		"," Punct CLB 
+	$ echo "njoazibut" | sme
+	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Sg+Nom+Use/Marg+Use/Ped+PxSg2
+	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Sg+Gen+Use/Marg+Use/Ped+PxSg2
+	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Sg+Acc+Use/Marg+Use/Ped+PxSg2
+	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Pl+Nom
+	njoazibut	njoahci+SgNomCmp+SgGenCmp+PlGenCmp+A+Comp+Der2+Der/at+Adv
 
-TROND: CG problem, yes.
+	$ echo "nopeammin" | ofin
+	nopeammin	nopea+A+Comp+Pl+Ins
+	nopeammin	nopea+A+Der/sti+Adv+Comp
 
 
-again... 
-
-	Tämä lohduttaa meitä työssämme ja kättemme vavoissa viljellessämme maata
-
+	$ echo "hoahpubut" | sme
+	hoahpubut	hoahpubut+Adv+Comp
 
 
-### Omorfi:
+TROND:
+~/gtsvn/kt/fin$ echo "njoazibut" | usme
+0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
+njoazibut	njoahci+A+Comp+Der2+Der/at+Adv
+njoazibut	njoahci+A+Comp+Sg+Acc+PxSg2
+njoazibut	njoahci+A+Comp+Sg+Gen+PxSg2
+njoazibut	njoahci+A+Comp+Sg+Nom+PxSg2
+njoazibut	njoahci+A+Comp+Pl+Nom
 
-> Added nom reading for gold.
+
+### More PoS differences
+
+'other' muu : A+Pos+Sg+Nom
+'other' eará : Pron+Indef+Attr
+
+### Idioms? - oađđáhit nahkáriidda : vaivuttaa uneen
+
+### Particles need to transfer
+
+6 vaan sumu nousi maasta ja kasteli koko maan pinnan.
+6 #muhto mierká čuožžilii eatnamis ja njuoskadii @koko eatnama @pinna.
+
+koko, kaikista
+
+### syötävä - borramuš
+
+	syötävä	syötävä+A+Pos+Sg+Nom
+	syötävä	syödä+V+Pass+PrsPcp+Pos+Sg+Nom
+
+	borramuš	borrat+V+TV+Der3+Der/muš+N+Sg+Nom
+	borramuš	borramuš+N+Sg+Nom
 
 
-### Compounds?
+## CG stuff to fix
 
-> luomistyö
+### particles strike again
 
-kylkiluu is treated in one instance as one word, and in another as two, despite that the source has the same.
+> eli
 
-*Fin*:
-    
-    21 Niin Herra Jumala vaivutti ihmisen raskaaseen uneen, ja kun hän  nukkui, otti hän yhden hänen kylkiluistaan ja täytti sen paikan lihalla.
-    22 Ja Herra Jumala rakensi vaimon siitä kylkiluusta, jonka hän oli  ottanut miehestä, ja toi hänet miehen luo.
+	"<eli>"
+		"eli" Pcle @PCLE MAP:2264 
+	;	"elää" V Act Ind Prt Sg3 @X MAP:2438 REMOVE:2440 
+	;	"eli" Conj CC @X MAP:2438 REMOVE:2440 
 
-*Sme*:
+> sitten
 
-    21 #Nu Hearrá Ipmil @vaivuttaa olbmo lossadii nihkui, ja go son  ođii, válddii son #okta su @kylki @luinen duogi ja devddii dan báikki bierggus.
-	22 Ja Hearrá Ipmil ráhkadii eammi #dat #erttetdákti, gean son lei  váldán albmás, ja buvttii su albmá lusa.
+	"<sitten>"
+		"sitten" Pcle @PCLE MAP:2264 
+	;	"sitten" Adv @X MAP:2438 REMOVE:2440 
+	"<hän>"
+		"hän" Pron Pers Sg Nom @SUBJ→ MAP:2168 
+	"<kuoli>"
+		"kuolla" V Act Ind Prt Sg3 @+FMAINV MAP:2211 
+	"<.>"
+		"." Punct CLB ADD:665 
+
+Has this been fixed by CG rule?
+
+TROND: No, evidently it has not, but it should.
+
+
+### Pinta
+
+	"<6>"
+		"6" Num Card Sg Nom @SUBJ→ 
+	"<vaan>"
+		"vaan" Pcle @PCLE 
+	"<sumu>"
+		"sumu" N Sg Nom @SUBJ→ 
+	"<nousi>"
+		"nousta" V Act Ind Prt Sg3 @+FMAINV 
+	"<maasta>"
+		"maa" N Sg Ela @LOC @←ADVL 
+	"<ja>"
+		"ja" Conj CC @CNP 
+	"<kasteli>"
+		"kastella" V Act Ind Prt Sg3 @+FMAINV 
+	"<koko>"
+		"koko" Pcle @PCLE 
+	"<maan>"
+		"maa" N Sg Gen @X 
+	"<pinnan>"
+		"pinta" N Sg Gen @←OBJ 
+		"pinna" N Sg Gen @←OBJ 
+	"<.>"
+		"." Punct CLB 
+
+?
+
+### Select V
+
+"Ja hän teki maasta kaikki metsän eläimet ja kaikki taivaan linnut ja **toi** ne ihmisen eteen nähdäkseen." 
+
 
 ### CG: kasvatti as v
 
@@ -373,106 +340,72 @@ lehtiä N/V?
 
 TROND: lehtiä +N+Pl+Par
 
-### Select V
+## need to Select "maa" N Sg Par
 
-"Ja hän teki maasta kaikki metsän eläimet ja kaikki taivaan linnut ja **toi** ne ihmisen eteen nähdäkseen." 
+	"<eikä>"
+		"ei" V Neg Act Sg3 Foc/ka @+FAUXV 
+	"<ollut>"
+		"olla" V Pass PrfPrc Pos Pl Nom @←OBJ 
+		"olla" V Act PrfPrc Pos Sg Nom @←OBJ 
+	"<ihmistä>"
+		"ihminen" N Sg Par @←OBJ 
+	"<maata>"
+		"maata" V Act Inf1 Sg Lat @-FMAINV 
+		"maa" N Sg Par @←OBJ 
+	"<viljelemässä>"
+		"viljellä" V Act Inf3 Sg Ine @-FMAINV 
+	"<,>"
+		"," Punct CLB 
 
-### Idiom
-
-oađđáhit nahkáriidda : vaivuttaa uneen
-
-
-### Particles need to transfer
-
-6 vaan sumu nousi maasta ja kasteli koko maan pinnan.
-6 #muhto mierká čuožžilii eatnamis ja njuoskadii @koko eatnama @pinna.
-
-koko, kaikista
-
-### Pinta
-
-	"<6>"
-		"6" Num Card Sg Nom @SUBJ→ 
-	"<vaan>"
-		"vaan" Pcle @PCLE 
-	"<sumu>"
-		"sumu" N Sg Nom @SUBJ→ 
-	"<nousi>"
-		"nousta" V Act Ind Prt Sg3 @+FMAINV 
-	"<maasta>"
-		"maa" N Sg Ela @LOC @←ADVL 
-	"<ja>"
-		"ja" Conj CC @CNP 
-	"<kasteli>"
-		"kastella" V Act Ind Prt Sg3 @+FMAINV 
-	"<koko>"
-		"koko" Pcle @PCLE 
-	"<maan>"
-		"maa" N Sg Gen @X 
-	"<pinnan>"
-		"pinta" N Sg Gen @←OBJ 
-		"pinna" N Sg Gen @←OBJ 
-	"<.>"
-		"." Punct CLB 
-
-?
+TROND: CG problem, yes.
 
 
-### syötävä - borramuš
+again... 
 
-	syötävä	syötävä+A+Pos+Sg+Nom
-	syötävä	syödä+V+Pass+PrsPcp+Pos+Sg+Nom
-
-	borramuš	borrat+V+TV+Der3+Der/muš+N+Sg+Nom
-	borramuš	borramuš+N+Sg+Nom
+	Tämä lohduttaa meitä työssämme ja kättemme vavoissa viljellessämme maata
 
 
-### Correct words? 
-
-	SME : POS : FIN : POS 
-
-'remains', 'ash'
-
-	gavja : N : tomu : N 
-	tuhka / gutna?
-
-'clothes, dress'
-
-	gárvu : N : puku : N
-
-### More PoS differences
-
-'other' muu : A+Pos+Sg+Nom
-'other' eará : Pron+Indef+Attr
+## Morphological analysis notes
 
 
-### particles strike again
+### Add Adp and Advs to morphology
 
-> eli
+Adp:
 
-	"<eli>"
-		"eli" Pcle @PCLE MAP:2264 
-	;	"elää" V Act Ind Prt Sg3 @X MAP:2438 REMOVE:2440 
-	;	"eli" Conj CC @X MAP:2438 REMOVE:2440 
-
-> sitten
-
-	"<sitten>"
-		"sitten" Pcle @PCLE MAP:2264 
-	;	"sitten" Adv @X MAP:2438 REMOVE:2440 
-	"<hän>"
-		"hän" Pron Pers Sg Nom @SUBJ→ MAP:2168 
-	"<kuoli>"
-		"kuolla" V Act Ind Prt Sg3 @+FMAINV MAP:2211 
-	"<.>"
-		"." Punct CLB ADD:665 
-
-Has this been fixed by CG rule?
-
-TROND: No, evidently it has not, but it should.
+ + edessä
+ + välissä
+ + aikana
+ + välillä 
+ + väliin
+ + välille
+ + sisällä
+ + sisälle
+ + sisään
 
 
-### Drop compound analyses when others exist?
+Adv:
+
+### Add to morphology: Mihin - Pron+Rel?
+
+> paikka, mihin vedet olivat kokontuneet
+
+	$ echo "johon" | ofin
+	johon	joka+Pron+Rel+Sg+Ill
+
+	$ echo "mihin" | ofin
+	mihin	mikä+Pron+Interr+Sg+Ill
+	mihin	mihin+Adv
+
+Adv?
+
+mihin works as a comp. Change in morphology or what?
+
+TROND: Yes, I think new morphology ks needed here."mihin" just as Rel as "johon".
+paikka, mihin vedet olivat kokontuneet = the place whereto the water had gathered.
+
+### Compounds
+
+#### Drop compound analyses when others exist?
 
 > sankari 
 
@@ -481,21 +414,38 @@ TROND: No, evidently it has not, but it should.
 
 TROND: yes.
 
-> kyynärä
+RYAN: These all appear to be fixed now... 
 
-	kyynärä	kyynärä+N+Sg+Nom
-	kyynärä	kyy+N+Sg+Nom+# närä+N+Sg+Nom
+#### More compounds?
 
-TROND: yes.
+> luomistyö
 
+kylkiluu is treated in one instance as one word, and in another as two, despite that the source has the same.
 
-> parhaiksi
+*Fin*:
+    
+    21 Niin Herra Jumala vaivutti ihmisen raskaaseen uneen, ja kun hän  nukkui, otti hän yhden hänen kylkiluistaan ja täytti sen paikan lihalla.
+    22 Ja Herra Jumala rakensi vaimon siitä kylkiluusta, jonka hän oli  ottanut miehestä, ja toi hänet miehen luo.
 
-	parhaiksi	parhaiksi+Adv
-	parhaiksi	par+N+Sg+Nom+# hai+N+Pl+Tra
-	parhaiksi	par+N+Sg+Nom+# hai+N+Sg+Tra
+*Sme*:
 
-TROND: yes.
+    21 #Nu Hearrá Ipmil @vaivuttaa olbmo lossadii nihkui, ja go son  ođii, válddii son #okta su @kylki @luinen duogi ja devddii dan báikki bierggus.
+	22 Ja Hearrá Ipmil ráhkadii eammi #dat #erttetdákti, gean son lei  váldán albmás, ja buvttii su albmá lusa.
+
+#### How to not discard compound analyses in the following case?
+
+		kosken	koski<N><Sg><Gen>
+		kosken	koska<CS><Cmpnd>+ei<V><Neg><Act><Sg1>
+		kosken	Koski<N><Prop><Sg><Gen>
+		kosken	koskea<V><Act><Ind><Prs><Sg1>
+
+	TROND: Hmm, I do not get the 2nd one at all.
+
+	RYAN: we have some structures where ei combines with some CS before it. For ettei, this works fine because there is one analysis: 
+
+		ettei	että+Conj+CS+# ei+V+Neg+Act+Sg3
+
+	The problem comes in for others where there is a compound analysis and a non-compound analysis. Compounds will be dropped in hfst-proc for now, so we can't use these... But in order to get them to translate, they need to be compounds. Kosken in this case is probably very rare, but it's a good example of where a compound is needed but will be dropped.
 
 
 ### Spaces vs. no spaces
@@ -506,6 +456,9 @@ $ echo "sitävastoin" | fin
 sitävastoin	sitävastoin+Pcle
 
 Should this return a compound analysis too, so that we can normalize spaces vs nonspaces?
+
+
+## Transfer notes
 
 ### "Particles"
 
@@ -544,26 +497,15 @@ Basic question: can we construct a list of 1-1 correspondences in most of the sm
 
 Then if this works out, we need to make sure that the morphology in finnish also provides a deconstructed analysis for these.
 
-### "Particles" which I don't know a translation for.
 
-All these were listed as particles in omorfi, but i'm not sure how to translate them, some may already be listed like vaikka or kun, but can these work the same in sme?
 
-tarvis                          dárbu ?
-
-in                              ?
-kunpa                           ?
-vaikkapa                        ?
-sitävastoin                     ?
-pas                             ? 
-kaikin                          ? 
-yhtäkaikki                      ? 
-
+## Vocabularyish stuff
 
 ### Staging ground for day of reckoning wrt. particles
 
 http://piratepad.net/8twShp38ZS
 
-### Some missing adverbs to find... 
+### Adverbs
 
 päähän		oskálii ? 
 rohkeasti	roahkkat (n), rohkkes, roahkkadit?
@@ -601,3 +543,31 @@ poikki		doaris ?
 jäljellä		?
 jäljelle		?
 paitsi	 	 - earret <Pr> ? 
+
+
+### Particles
+
+All these were listed as particles in omorfi, but i'm not sure how to translate them, some may already be listed like vaikka or kun, but can these work the same in sme?
+
+tarvis                          dárbu ?
+
+in                              ?
+kunpa                           ?
+vaikkapa                        ?
+sitävastoin                     ?
+pas                             ? 
+kaikin                          ? 
+yhtäkaikki                      ? 
+
+### tomu - gavja?
+
+	SME : POS : FIN : POS 
+
+'remains', 'ash'
+
+	gavja : N : tomu : N 
+	tuhka / gutna?
+
+'clothes, dress'
+
+	gárvu : N : puku : N
