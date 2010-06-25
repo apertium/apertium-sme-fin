@@ -46,6 +46,7 @@
     <sdef n="Interr"   c="Interrogative"/>
     <sdef n="Recipr"     c="Reciprocal"/>
 	<sdef n="Refl"		c="Reflexive" />
+	<sdef n="Comp"		c="Reflexive" />
 
     <sdef n="Fem"      c="Feminine"/>
     <sdef n="Masc"     c="Masculine"/>
@@ -3481,7 +3482,7 @@
     <e><p><l>siste<s n="Adv"/></l><r>sisälle<s n="Adv"/></r></p></e>
     <e><p><l>siste<s n="Adv"/></l><r>sisällä<s n="Adv"/></r></p></e>
     <e><p><l>sisa<s n="Adv"/></l><r>sisään<s n="Adv"/></r></p></e>
-	<e><p><l>sisa<j/>guovlluid<s n="Adv"/></l><r>sisäänpäin<s n="POS"/></r></p></e>
+	<e><p><l>sisa<j/>guovlluid<s n="Adv"/></l><r>sisäänpäin<s n="Adv"/></r></p></e>
 	<e><p><l>siskálagaid<s n="Adv"/></l><r>sisäkkäin<s n="Adv"/></r></p></e>
 	<e><p><l>siskkáldasat<s n="Adv"/></l><r>sisältäpäin<s n="Adv"/></r></p></e>
 	<e><p><l>sullii<s n="Adv"/></l><r>noin<s n="Adv"/></r></p></e>
