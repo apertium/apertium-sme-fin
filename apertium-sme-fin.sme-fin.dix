@@ -134,7 +134,10 @@
 	
 	<e><p><l>eará<s n="Pron+Indef+Attr"/></l><r>eri<s n="Pcle"/></r></p></e>
 	<e><p><l>juoidá<s n="Pron+Indef+Sg+Acc"/></l><r>jotain<s n="Pcle "/></r></p></e>
+	<e><p><l>eará<s n="Pron+Indef+Attr"/></l><r>muu<s n="A"/></r></p></e>
 	 -->
+
+
 
     <!-- Post-positions -->
 
@@ -275,13 +278,14 @@
 	<e><p><l>jus<b/>juo<b/><s n="CS"/></l><r>joskin<s n="CS"/></r></p></e>
     <e><p><l>muhte<s n="CS"/></l><r>mutta<s n="CS"/></r></p></e>
     <e><p><l>nugo<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
-    <e><p><l>vai<s n="CS"/></l><r>vai<s n="CS"/></r></p></e>
+    <e><p><l>vai<s n="CS"/></l><r>vai<s n="CC"/></r></p></e>
+    <e><p><l>vai<s n="CS"/></l><r>tai<s n="CC"/></r></p></e>
     <e><p><l>vaikko<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
     <e><p><l>vaikke<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
     <e><p><l>ovdal<b/>go<s n="CS"/></l><r>ennen<b/>kuin<s n="CS"/></r></p></e>
 	<e r="RL"><p><l>ovdal<b/>go<s n="CS"/></l><r>ennenkuin<s n="CS"/></r></p></e>
     <e><p><l>dasságo<s n="CS"/></l><r>kunnes<s n="CS"/></r></p></e>
-    <e><p><l>go<s n="CS"/></l><r>kuin<s n="CS"/></r></p></e>
+    <e><p><l>go<s n="CS"/></l><r>kuin<s n="CC"/></r></p></e>
 
 	<!-- juos - CS, fal - Adv -->
 	<e><p><l>juos<b/>fal<s n="CS" /></l><r>mikäli<s n="CS"/></r></p></e>
@@ -2919,7 +2923,8 @@
     <e><p><l>Suopma<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Suomi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Suovdit<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Suonttajärvi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Suovvaguoika<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Savukoski<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Sáksi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Saksa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Tuiska<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Saksa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sáksi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Saksi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Sállevárri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Sallivaara<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Sápmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lappi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Sárevuopmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Saarivuoma<s n="N"/><s n="Prop"/></r></p></e>
@@ -3424,6 +3429,7 @@
     <e><p><l>ruovttus<s n="Adv"/></l><r>kotona<s n="Adv"/></r></p></e>
     <e><p><l>seammáláhkai<s n="Adv"/></l><r>samoin<s n="Adv"/></r></p></e>
     <e><p><l>siskkil<s n="Adv"/></l><r>sisältä<s n="Adv"/></r></p></e>
+    <e><p><l>sullii<s n="Adv"/></l><r>noin<s n="Adv"/></r></p></e>
     <e><p><l>uhcánaččaid<s n="Adv"/></l><r>vähitellen<s n="Adv"/></r></p></e>
     <e><p><l>veaháš<s n="Adv"/></l><r>vähän<s n="Adv"/></r></p></e>
     <e><p><l>vehá<s n="Adv"/></l><r>hiukan<s n="Adv"/></r></p></e>
