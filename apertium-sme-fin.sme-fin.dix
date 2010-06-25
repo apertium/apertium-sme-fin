@@ -3397,6 +3397,7 @@
     <e><p><l>juohke<b/>bealde<s n="Adv"/></l><r>kaikkialta<s n="Adv"/></r></p></e>
     <e><p><l>kánske<s n="Adv"/></l><r>ehkä<s n="Adv"/></r></p></e>
     <e><p><l>lusa<s n="Po"/></l><r>tykö<s n="Adv"/></r></p></e>
+	<e><p><l>manne<s n="Adv"/></l><r>miksi<s n="Adv"/></r></p></e>
     <e><p><l>maŋŋil<s n="Adv"/></l><r>myöhemmin<s n="Adv"/></r></p></e>
     <e><p><l>maŋŋin<s n="Adv"/></l><r>takana<s n="Adv"/></r></p></e>
     <e><p><l>maŋŋit<s n="Adv"/></l><r>myöhään<s n="Adv"/></r></p></e>
@@ -3407,6 +3408,7 @@
     <e><p><l>milloseappot<s n="Adv"/></l><r>mieluummin<s n="Adv"/></r></p></e>
     <e><p><l>millosit<s n="Adv"/></l><r>mielellään<s n="Adv"/></r></p></e>
     <e><p><l>mot<s n="Adv"/></l><r>kuinka<s n="Adv"/></r></p></e>
+    <e><p><l>mot<s n="Adv"/></l><r>miten<s n="Adv"/></r></p></e>
     <e><p><l>muhtumin<s n="Adv"/></l><r>joskus<s n="Adv"/></r></p></e>
     <e><p><l>nu<s n="Adv"/></l><r>niin<s n="Adv"/></r></p></e>
     <e><p><l>nuvttá<s n="Adv"/></l><r>ilmaiseksi<s n="Adv"/></r></p></e>
@@ -3438,7 +3440,13 @@
     <e><p><l>ruovttus<s n="Adv"/></l><r>kotona<s n="Adv"/></r></p></e>
     <e><p><l>seammáláhkai<s n="Adv"/></l><r>samoin<s n="Adv"/></r></p></e>
     <e><p><l>siskkil<s n="Adv"/></l><r>sisältä<s n="Adv"/></r></p></e>
-    <e><p><l>sullii<s n="Adv"/></l><r>noin<s n="Adv"/></r></p></e>
+    <e><p><l>siste<s n="Adv"/></l><r>sisälle<s n="Adv"/></r></p></e>
+    <e><p><l>siste<s n="Adv"/></l><r>sisällä<s n="Adv"/></r></p></e>
+    <e><p><l>sisa<s n="Adv"/></l><r>sisään<s n="Adv"/></r></p></e>
+	<e><p><l>sisa<j/>guovlluid<s n="Adv"/></l><r>sisäänpäin<s n="POS"/></r></p></e>
+	<e><p><l>siskálagaid<s n="Adv"/></l><r>sisäkkäin<s n="Adv"/></r></p></e>
+	<e><p><l>siskkáldasat<s n="Adv"/></l><r>sisältäpäin<s n="Adv"/></r></p></e>
+	<e><p><l>sullii<s n="Adv"/></l><r>noin<s n="Adv"/></r></p></e>
     <e><p><l>uhcánaččaid<s n="Adv"/></l><r>vähitellen<s n="Adv"/></r></p></e>
     <e><p><l>veaháš<s n="Adv"/></l><r>vähän<s n="Adv"/></r></p></e>
     <e><p><l>vehá<s n="Adv"/></l><r>hiukan<s n="Adv"/></r></p></e>
@@ -3461,6 +3469,26 @@
    <e><p><l>ovtta<s n="Adv"/></l><r>näkyviin<s n="Adv"/></r></p></e> <!-- TODO: CHECK -->
    <e><p><l>seammás<s n="Adv"/></l><r>samalla<s n="Adv"/></r></p></e>
    <e><p><l>álás<s n="Adv"/></l><r>alasti<s n="Adv"/></r></p></e>
+   <e><p><l>alás<s n="Adv"/></l><r>ylös<s n="Adv"/></r></p></e>
+   <e><p><l>luhtte<s n="Adv"/></l><r>luona<s n="Adv"/></r></p></e>
+   <e><p><l>duohken<s n="Adv"/></l><r>luona<s n="Adv"/></r></p></e>
+   <e><p><l>luhtte<s n="Adv"/></l><r>luota<s n="Adv"/></r></p></e>
+   <e><p><l>duohken<s n="Adv"/></l><r>luota<s n="Adv"/></r></p></e>
+   <e><p><l>guovdu<s n="Adv"/></l><r>kohtaan<s n="Adv"/></r></p></e>
+   <e><p><l>ovttas<s n="Adv"/></l><r>yhdessä<s n="Adv"/></r></p></e>
+   <e><p><l>mielde<s n="Adv"/></l><r>mukana<s n="Adp"/></r></p></e>
+   <e><p><l>ovdan<s n="Adv"/></l><r>esiin<s n="Adv"/></r></p></e>
+   <e><p><l>agi<b/>beaivvisge<s n="Adv"/></l><r>ikinä<s n="Adv"/></r></p></e>
+   <e><p><l>goas<s n="Adv"/></l><r>jolloin<s n="Adv"/></r></p></e>
+   <e><p><l>lahka<s n="Adv"/></l><r>lähellä<s n="Adv"/></r></p></e>
+   <e><p><l>luhtte<s n="Adv"/></l><r>lähelle<s n="Adv"/></r></p></e>
+   <e><p><l>lagabut<s n="Adv"/><s n="Comp"/></l><r>lähemmin<s n="Adv"/></r></p></e>
+   <e><p><l>lagabui<s n="Adv"/></l><r>lähemmäs<s n="Adv"/></r></p></e>
+   <e><p><l>báhtarussii<s n="Adv"/></l><r>pakoon<s n="Adv"/></r></p></e>
+   <e><p><l>jámas<s n="Adv"/></l><r>kuoliaaksi<s n="Adv"/></r></p></e>
+   <e><p><l>álggos<s n="Adv"/></l><r>ensin<s n="Adv"/></r></p></e>
+   
+   
 <!--    <e><p><l>diehko<s n="Adv"/></l><r>sinne<s n="Adv"/></r></p></e>-->
 
 	<!-- Po:Pcle, Pr:Pcle -->
