@@ -253,6 +253,23 @@
     <def-var n="cur_verb_tense"/>
   </section-def-vars>
   <section-def-macros>
+    <def-macro n="set_qst_mark1" npar="1">
+       <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="sl" part="a_qst"/>
+                <lit-tag v="Qst_ko"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_qst"/>
+              <lit-tag v="Qst"/>
+            </let>
+          </when>
+        </choose>
+    </def-macro>
+
     <def-macro n="set_loc_loc1" npar="1" c="arg.1: noun. Change All/Ela/Ade/Ine/Abl into Loc">
       <choose>
         <when>
@@ -649,21 +666,9 @@
             </let>
           </when>
         </choose>
-        <choose>
-          <when>
-            <test>
-              <equal>
-                <clip pos="1" side="sl" part="a_qst"/>
-                <lit-tag v="Qst_ko"/>
-              </equal>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="a_qst"/>
-              <lit-tag v="Qst"/>
-            </let>
-          </when>
-        </choose>
-
+        <call-macro n="set_qst_mark1">
+          <with-param pos="1"/>
+        </call-macro>
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
@@ -717,6 +722,9 @@
             </let>
           </when>
         </choose>
+        <call-macro n="set_qst_mark1">
+          <with-param pos="1"/>
+        </call-macro>
 
         <out>
           <chunk name="verb" case="caseFirstWord">
@@ -735,6 +743,7 @@
               <var n="cur_verb_tense"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_neg"/>
+              <clip pos="1" side="tl" part="a_qst"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
