@@ -18,21 +18,7 @@ except ImportError:
 #
 #####
 
-#  Regexp to exclude lines we don't want
 PIPE = sp.PIPE
-lex_excludes = [
-	'\!\^NG\^',
-	'; \!SUB',
-	'\! \!SOUTH',
-	'\+Use\/NG',
-	'\+Nom(.*)\+Use\/Sub',
-	'\+Gen(.*)\+Use\/Sub',
-	'\+Use\/Sub(.*)\+V\+TV',
-	'\+Attr(.*)\+Use\/Sub',
-	'LEXICON PRSPRCTOADJ \!SUB',
-	'\+Imprt(.*)\+Use\/Sub'	
-]
-excl = re.compile(r'|'.join(['(?:' + a + ')' for a in lex_excludes]))
 
 class LTExpError(Exception):
 	def __init__(self, msg):
@@ -203,7 +189,21 @@ def lt_exp(fname):
 	return output
 
 
-# from guppy import hpy
+
+lex_excludes = [
+	'\!\^NG\^',
+	'; \!SUB',
+	'\! \!SOUTH',
+	'\+Use\/NG',
+	'\+Nom(.*)\+Use\/Sub',
+	'\+Gen(.*)\+Use\/Sub',
+	'\+Use\/Sub(.*)\+V\+TV',
+	'\+Attr(.*)\+Use\/Sub',
+	'LEXICON PRSPRCTOADJ \!SUB',
+	'\+Imprt(.*)\+Use\/Sub',
+]
+
+excl_symbols = re.compile(r'|'.join(['(?:' + a + ')' for a in lex_excludes]))
 
 def cat_file(fname, ret_type=False, exclude=False):
 	"""
@@ -215,13 +215,13 @@ def cat_file(fname, ret_type=False, exclude=False):
 	# with open(fname, 'r') as F:
 	# 	lines = F.readlines()
 	# 	if exclude:
-	# 		data = [a for a in lines if not excl.search(a)]
+	# 		data = [a for a in lines if not excl_symbols.search(a)]
 	# 	else:
 	# 		data = lines
 	
 	with open(fname, 'r') as F:
 		if exclude:
-			data = [a for a in F if not excl.search(a)]
+			data = [a for a in F if not excl_symbols.search(a)]
 		else:
 			data = F.readlines()
 	
@@ -253,29 +253,32 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	
 	if pos_filter:					search_key = pos_filter
 	else:							search_key = False
-	
-	# remove some symbols
-	chstr = lambda x: re.compile(r'[0\^\#]').sub('', x)
-	
+		
 	# lt_expand side -- move this to lt_expand func?
 	
-	# TODO: clean this mess
-	if side == 'right':
-		rx_spl = re.compile(r':').split
-		rx_spl2 = re.compile(r'\<').split
-		side = lambda x: rx_spl(x)[1]
-		l_split = lambda x: chstr(rx_spl2(rx_spl(x)[1])[0])
-	else:
-		rx_spl = re.compile(r':').split
-		rx_spl2 = re.compile(r'\<').split
-		side = lambda x: rx_spl(x)[0]
-		l_split = lambda x: rx_spl2(x)[0]
+	# dieđusge<Adv>:tietenkään<Pcle>
+	# Unjárga<N><Prop><Plc>:Uuniemi<N><Prop>
+	
+	left = lambda x: x.partition(':')[0]
+	right = lambda x: x.partition(':')[2]
+	lemma = lambda x: x.partition('<')[0]
+	
+	if side == 'right':			side = right
+	else:						side = left
+	
+	lx = lambda x: lemma(side(x))
 				
 	if search_key:
-		words = list(set([l_split(a) for a in data if side(a).find(search_key) > -1]))
+		words = list(set([lx(a) for a in data if side(a).find(search_key) > -1]))
 	else:
-		words = list(set([l_split(a) for a in data]))
+		words = list(set([lx(a) for a in data]))
 	
+	# Account for lt_expand's conversion of <b/> -> ' ', <j/> -> '+', by removing these
+	
+	words = [word.replace(' ', '').replace('+', '') for word in words]
+	
+	
+		
 	if debug:
 		print str(len(words)) + ' unique words matching %s in .dix' % (str(search_key))
 		# print str(len(words)) + ' unique words matching %s in .dix' % (str(search_key), fname.lower())
@@ -287,7 +290,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	# split text
 	if split:
 		clip = text.split(point)
-		head = clip[0] + '\n' + point + '\n'
+		head = clip[0] + point # '\n' + point + '\n'
 		rest = clip[1]
 	else:
 		head = '\n'
@@ -296,7 +299,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	
 	# Filter out text based on excludes
 	rest = rest.splitlines()
-	rest = [a for a in rest if not excl.search(a)]
+	rest = [a for a in rest if not excl_symbols.search(a)]
 	
 	if debug:
 		print "Sorting through %d lines" % len(rest)
@@ -305,49 +308,57 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		# priorisointi'][POS=NOUN][KTN=5][KAV=J]:priorisoin{t~~}{J}	kotus_5i_NOUN/stemfiller;
 		clip_line = lambda x: x.split("'")[0]
 	else:
+		# remove some symbols
+		chstr = lambda x: re.compile(r'[0\^\#]').sub('', x)
+		
 		# šikaneret+Use/Sub:sjikanere DOHPPE ; ! ^LOAN NOR
-		cplus = re.compile(r'(:|\+)')
-		split_cplus = lambda x: cplus.split(x.strip(), maxsplit=0)
+		colon_plus = re.compile(r'(:|\+)')
+		split_cplus = lambda x: colon_plus.split(x.strip(), maxsplit=0)
 		
 		# bivval BIVVAL ;
 		split_space = lambda x: re.compile(r'\s').split(x.strip(), maxsplit=0)
 		
 		# Return clip if matches + or :, otherwise try matching with space.
-		clip_line = lambda x: chstr(split_cplus(x)[0]) if cplus.findall(x) else chstr(split_space(x)[0])
+		clip_line = lambda x: chstr(split_cplus(x)[0]) if colon_plus.findall(x) else chstr(split_space(x)[0])
 	
-	wt = []
+	commented = re.compile('^\s*\!').match
+	
+	not_in_morph = []
 	if no_trim:
 		trim = rest
 	else:
 		trim = []
 		if hlexc:
-			wt = words
-			for a in rest:
-				if a.find(';') > -1:
-					clipped = clip_line(a)
+			not_in_morph = words
+			for line in rest:
+				if line.find(';') > -1:
+					clipped = clip_line(line)
 					if clipped in words:
-						trim.append(a)
-						wt.pop(wt.index(clipped))
+						trim.append(line)
+						not_in_morph.pop(not_in_morph.index(clipped))
 						continue
 				else:
-					trim.append(a)
+					trim.append(line)
 		else:
-			for a in rest:
-				if a.find(';') > -1:
-					if clip_line(a) in words:
-						trim.append(a)
+			for l in rest:
+				# l = line.strip()
+				if l.find(';') > -1:
+					if clip_line(l) in words:
+						trim.append(l)
 						continue
+				elif not l.strip() or commented(l): # line.startswith('!') or line.startswith(' !'):
+					continue
 				else:
-					trim.append(a)
-			wt = [a for a in words if clip_line(a) not in words]
+					trim.append(l)
+			not_in_morph = [a for a in words if clip_line(a) not in words]
 	
 	if debug:
 		print "%d lines after trim" % (len(trim))
 		
 	# Print missing words to stderr
-	if len(wt) > 0:
-		sys.stderr.write('>>> %d words possibly missing in morphology: ' % len(wt))
-		sys.stderr.write('\n>>> ' + ', '.join(wt))
+	if len(not_in_morph) > 0:
+		sys.stderr.write('>>> %d words possibly missing in morphology: ' % len(not_in_morph))
+		sys.stderr.write('\n>>> ' + ', '.join(not_in_morph))
 		sys.stderr.write('\n')
 	
 	# trim.sort()
