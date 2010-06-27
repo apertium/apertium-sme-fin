@@ -1,4 +1,5 @@
 #!/usr/bin/python2.6
+# encoding: utf-8
 
 import os, sys, getopt
 import subprocess as sp
@@ -202,6 +203,8 @@ def lt_exp(fname):
 	return output
 
 
+# from guppy import hpy
+
 def cat_file(fname, ret_type=False, exclude=False):
 	"""
 		Get data from file, if exclude=True, then exclude lines; otherwise return all data.
@@ -209,12 +212,18 @@ def cat_file(fname, ret_type=False, exclude=False):
 		Returns list.
 	"""
 	
+	# with open(fname, 'r') as F:
+	# 	lines = F.readlines()
+	# 	if exclude:
+	# 		data = [a for a in lines if not excl.search(a)]
+	# 	else:
+	# 		data = lines
+	
 	with open(fname, 'r') as F:
-		lines = F.readlines()
 		if exclude:
-			data = [a for a in lines if not excl.search(a)]
+			data = [a for a in F if not excl.search(a)]
 		else:
-			data = lines
+			data = F.readlines()
 	
 	if ret_type:
 		if ret_type == list:
@@ -237,7 +246,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		no_trim (bool) 		- False by default, if true, do not filter based on pos_filter
 		
 	"""
-	chstr = re.compile(r'[0\^\#]').sub
+	
 	
 	if fname.find('hlexc') > -1:
 		# print "hlexc mode"
@@ -250,7 +259,10 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	else:
 		search_key = False
 	
+	
 	# Words matching pos
+	chstr = re.compile(r'[0\^\#]').sub
+	
 	if side == 'right':
 		rx_spl = re.compile(r':').split
 		rx_spl2 = re.compile(r'\<').split
@@ -262,13 +274,10 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		side = lambda x: rx_spl(x)[0]
 		l_split = lambda x: rx_spl2(x)[0]
 				
-	
-	# Possible to do this faster?	
 	if search_key:
 		words = list(set([l_split(a) for a in data if side(a).find(search_key) > -1]))
 	else:
 		words = list(set([l_split(a) for a in data]))
-	
 	
 	if debug:
 		print str(len(words)) + ' unique words matching %s in .dix' % (str(search_key))
@@ -290,34 +299,37 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		rest = text
 		
 	# Filter out text based on excludes
+	
 	rest = rest.splitlines()
 	rest = [a for a in rest if not excl.search(a)]
 	
-	
 	if debug:
-		# print '\n'.join(rest[0:50])
 		print "Sorting through %d lines" % len(rest)
 	
-		
-	# rest = [a for a in rest if not a.startswith('!')]
-	
-	# if this is slow, there is still something creative that can be done here
-	
-	# regex isn't working for some reason.
-	
+	# clip_line is supposed to strip characters like 0 ^ # : + etc.
 	if hlexc:
-		stripchar = lambda x: x.split("'")[0]
-		# def stripchar(x):
-		# 	print x
-		# 	print x.split("'")[0]
-		# 	return x.split("'")[0]
+		# Finnish .hlexc files have a different format:
+		# priorisointi'][POS=NOUN][KTN=5][KAV=J]:priorisoin{t~~}{J}	kotus_5i_NOUN/stemfiller;
+		# ^  clip this out
+		
+		clip_line = lambda x: x.split("'")[0]
 	else:
-		chspl = re.compile(r'(:|\+)').split
-		stripchar = lambda x: chstr('', chspl(x.strip())[0])
-	
+		# Sme -lex.txt files have this format:
+		# šikaneret+Use/Sub:sjikanere DOHPPE ; ! ^LOAN NOR
+		#  ^ clip this, easiest way is to split either at : or +, whichever comes first.
+		
+		cplus = re.compile(r'(:|\+)')
+		split_cplus = lambda x: cplus.split(x.strip(), maxsplit=0)
+		match_cplus = lambda x: True if cplus.findall(x) else False
+		
+		split_space = lambda x: re.compile(r'\s').split(x.strip(), maxsplit=0)
+		# clip_line = lambda x: chstr('', split_cplus(x)[0])
+		# Return clip if matches + or :, otherwise try matching with space.
+		clip_line = lambda x: chstr('', split_cplus(x)[0]) if match_cplus(x) else chstr('', split_space(x)[0])
 	
 	# Slow
-	# stripchar = lambda x: x.replace('0','').replace('^','').replace('#','').partition(':')[0].partition('+')[0]
+	# clip_line = lambda x: x.replace('0','').replace('^','').replace('#','').partition(':')[0].partition('+')[0]
+	
 	wt = []
 	
 	if no_trim:
@@ -325,31 +337,28 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	else:
 		trim = []
 		if hlexc:
-			# Need more complex loop for now to make sure all sublexicons are involved.
-			# TODO: test for sme.
 			wt = words
 			for a in rest:
 				if a.find(';') > -1:
-					if stripchar(a) in words:
+					if clip_line(a) in words:
 						trim.append(a)
-						wt.pop(wt.index(stripchar(a)))
+						wt.pop(wt.index(clip_line(a)))
+						continue
 				else:
 					trim.append(a)
 		else:
 			for a in rest:
 				if a.find(';') > -1:
-					if stripchar(a) in words:
+					if clip_line(a) in words:
 						trim.append(a)
+						continue
 				else:
 					trim.append(a)
-			
-			# trim = [a for a in rest if stripchar(a) in words]
-			wt = [a for a in words if stripchar(a) not in words]
+			wt = [a for a in words if clip_line(a) not in words]
 	
 	
 	
 	if debug:
-		# print '\n'.join([stripchar(a) for a in rest])
 		print "%d lines after trim" % (len(trim))
 		
 	# Print missing words to stderr
@@ -358,7 +367,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		sys.stderr.write('\n>>> ' + ', '.join(wt))
 		sys.stderr.write('\n')
 	
-	
+	# trim.sort()
 	trim = '\n'.join(trim)
 	
 	if no_header:
@@ -419,10 +428,10 @@ def make_hlexc(TL, SL, proc_lang, out_dir, COBJ=False):
 	
 	out_ = '\n'.join([a for a in output_])
 	OUTFILE = out_dir + OUTFILE
-
+	
 	with open(OUTFILE, 'w') as F:
 		F.write(out_)
-
+	
 	print '... Done.'
 	print 'Saved to %s.\n' % OUTFILE
 	return True
@@ -632,9 +641,16 @@ def main(argv=None):
 		return 2
 
 
+
+
 if __name__ == "__main__":
 	# make_lexc()
-	sys.exit(main())
+	profile = False
+	# import profile
+	if profile:
+		profile.run("sys.exit(main())")
+	else:
+		sys.exit(main())
 
 
 

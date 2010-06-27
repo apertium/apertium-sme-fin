@@ -152,6 +152,7 @@
     <e><p><l>ovddas<s n="Po"/></l><r>edestä<s n="Adp"/></r></p></e>
     <e><p><l>ráigge<s n="Po"/></l><r>myöten<s n="Adp"/></r></p></e>
     <e><p><l>vuolde<s n="Po"/></l><r>alla<s n="Adp"/></r></p></e>
+    <e><p><l>vuollái<s n="Po"/></l><r>alle<s n="Adp"/></r></p></e>
     <e><p><l>vuollái<s n="Po"/></l><r>kohden<s n="Adp"/></r></p></e>
     <e><p><l>vuostá<s n="Po"/></l><r>vastaan<s n="Adp"/></r></p></e>
     <e><p><l>sisa<s n="Po"/></l><r>sekaan<s n="Adp"/></r></p></e>
@@ -572,13 +573,13 @@
 	<e><p><l>fierbmerássi<s n="N" /></l><r>hiirenvirna<s n="N"/></r></p></e>
 	<e><p><l>fiskesjuopmu<s n="N" /></l><r>suikerohanhikki<s n="N"/></r></p></e>
 	<e><p><l>fiskesrássi<s n="N" /></l><r>niittyleinikki<s n="N"/></r></p></e>
-	<e><p><l>fiskesviola<s n="N" /></l><r>lapinorvokki <s n="N"/></r></p></e>
+	<e><p><l>fiskesviola<s n="N" /></l><r>lapinorvokki<s n="N"/></r></p></e>
 	<e><p><l>geađgeluomi<s n="N" /></l><r>mesimarja<s n="N"/></r></p></e>
 	<e><p><l>geardi<s n="N" /></l><r>kerta<s n="N"/></r></p></e>
 	<e><p><l>gieddemáđir<s n="N" /></l><r>ahomatara<s n="N"/></r></p></e>
 	<e><p><l>gieddesáhpal<s n="N" /></l><r>kangasmaitikka<s n="N"/></r></p></e>
 	<e><p><l>gieddeullu<s n="N" /></l><r>luhtavilla<s n="N"/></r></p></e>
-	<e><p><l>gieganjuolla<s n="N" /></l><r>maitohorsma <s n="N"/></r></p></e>
+	<e><p><l>gieganjuolla<s n="N" /></l><r>maitohorsma<s n="N"/></r></p></e>
 	<e><p><l>gieganjuolla<s n="N" /></l><r>tupasvilla<s n="N"/></r></p></e>
 	<e><p><l>gironlasta<s n="N" /></l><r>vaivaispaju<s n="N"/></r></p></e>
 	<e><p><l>giđđaboallu<s n="N" /></l><r>sinirikko<s n="N"/></r></p></e>
@@ -603,7 +604,7 @@
 	<e><p><l>gálbberássi<s n="N" /></l><r>ruusujuuri<s n="N"/></r></p></e>
 	<e><p><l>gálla<s n="N" /></l><r>leskenlehti<s n="N"/></r></p></e>
 	<e><p><l>gámasuoidni<s n="N" /></l><r>vesisara<s n="N"/></r></p></e>
-	<e><p><l>gáranasmuorji<s n="N" /></l><r>sianpuolukka <s n="N"/></r></p></e>
+	<e><p><l>gáranasmuorji<s n="N" /></l><r>sianpuolukka<s n="N"/></r></p></e>
 	<e><p><l>gáskálas<s n="N" /></l><r>nokkonen<s n="N"/></r></p></e>
 	<e><p><l>heasttagazzarássi<s n="N" /></l><r>leskenlehti<s n="N"/></r></p></e>
 	<e><p><l>heasttaseaibi<s n="N" /></l><r>vesikuusi<s n="N"/></r></p></e>
@@ -611,7 +612,7 @@
 	<e><p><l>heaŋggolieđga<s n="N" /></l><r>nuokkutalvikki<s n="N"/></r></p></e>
 	<e><p><l>hilsksu<s n="N" /></l><r>pihatähtimö<s n="N"/></r></p></e>
 	<e><p><l>hommet<s n="N"/></l><r>homma<s n="N"/></r></p></e>
-	<e><p><l>horbmá<s n="N" /></l><r>maitohorsma <s n="N"/></r></p></e>
+	<e><p><l>horbmá<s n="N" /></l><r>maitohorsma<s n="N"/></r></p></e>
 	<e><p><l>hádjaurttas<s n="N" /></l><r>ruusujuuri<s n="N"/></r></p></e>
 	<e><p><l>hástalus<s n="N"/></l><r>haaste<s n="N"/></r></p></e>
 	<e><p><l>idni<s n="N" /></l><r>katinlieko<s n="N"/></r></p></e>
@@ -631,7 +632,7 @@
 	<e><p><l>lieđđedaŋas<s n="N" /></l><r>uuvana<s n="N"/></r></p></e>
 	<e><p><l>livdnju<s n="N" /></l><r>kanerva<s n="N"/></r></p></e>
 	<e><p><l>lávžžamuorji<s n="N" /></l><r>lillukka<s n="N"/></r></p></e>
-	<e><p><l>miehtaguodja<s n="N" /></l><r>kiiltosara <s n="N"/></r></p></e>
+	<e><p><l>miehtaguodja<s n="N" /></l><r>kiiltosara<s n="N"/></r></p></e>
 	<e><p><l>miehtamuorji<s n="N" /></l><r>mesimarja<s n="N"/></r></p></e>
 	<e><p><l>miehtaskážir<s n="N" /></l><r>mesiangervo<s n="N"/></r></p></e>
 	<e><p><l>miektanárti<s n="N" /></l><r>mätäsrikko<s n="N"/></r></p></e>
@@ -651,7 +652,7 @@
 	<e><p><l>njoammu<s n="N"/><s n="Actor"/></l><r>matelija<s n="N"/></r></p></e>
 	<e><p><l>njuohcu<s n="N" /></l><r>raate<s n="N"/></r></p></e>
 	<e><p><l>njuovvelávki<s n="N" /></l><r>ruoholaukka<s n="N"/></r></p></e>
-	<e><p><l>njálanjuovčča<s n="N" /></l><r>lääte <s n="N"/></r></p></e>
+	<e><p><l>njálanjuovčča<s n="N" /></l><r>lääte<s n="N"/></r></p></e>
 	<e><p><l>njálggaháiruohtas<s n="N" /></l><r>ruusujuuri<s n="N"/></r></p></e>
 	<e><p><l>njálggaháissuoidni<s n="N" /></l><r>tunturimaarianheinä<s n="N"/></r></p></e>
 	<e><p><l>noaiddelieđđi<s n="N" /></l><r>maariankämmekkä<s n="N"/></r></p></e>
@@ -723,7 +724,7 @@
 	<e><p><l>vilgesvuodjalasta<s n="N" /></l><r>valkoyökönlehti<s n="N"/></r></p></e>
 	<e><p><l>vuodjarássi<s n="N" /></l><r>voikukka<s n="N"/></r></p></e>
 	<e><p><l>vuolgodolgi<s n="N" /></l><r>kotkansiipi<s n="N"/></r></p></e>
-	<e><p><l>vuovdesáhpal<s n="N" /></l><r>metsámaitkikka <s n="N"/></r></p></e>
+	<e><p><l>vuovdesáhpal<s n="N" /></l><r>metsámaitkikka<s n="N"/></r></p></e>
 	<e><p><l>vuovdeviola<s n="N" /></l><r>metsäorvokki<s n="N"/></r></p></e>
 	<e><p><l>vuvuzela<s n="N"/></l><r>vuvuzela<s n="N"/></r></p></e>
 	<e><p><l>váldorolla<s n="N"/></l><r>päärooli<s n="N"/></r></p></e>
@@ -3422,7 +3423,7 @@
 
 	<!-- ! Adv - A, etc ???  -->
 	<e><p><l>vuolibuš<s n="Adv"/></l><r>alamainen<s n="A"/></r></p></e>
-	<e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e>
+	<!-- <e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e> -->
 	<e><p><l>ollis<s n="A"/></l><r>koko<s n="Pron"/></r></p></e>
 	<!-- end adjectives -->
     <!-- adverbs -->

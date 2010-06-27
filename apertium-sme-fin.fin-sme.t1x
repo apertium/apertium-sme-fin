@@ -21,11 +21,14 @@
     <def-cat n="verb">
       <cat-item tags="V.*"/>
     </def-cat>
+	<def-cat n="pcps">
+		<cat-item tags="V.*.PrfPrc.*" />
+		<cat-item tags="V.*.PrsPrc.*" />
+	</def-cat>
     <def-cat n="inf">
       <cat-item tags="V.*.Inf1.*"/>
       <cat-item tags="V.*.Inf2.*"/>
       <cat-item tags="V.*.Inf3.*"/>
-      <cat-item tags="V.*.PrfPrc.*"/>
     </def-cat>
     <def-cat n="v_actor">
       <cat-item tags="V.Der_ja.*"/>
@@ -181,6 +184,7 @@
       <attr-item tags="Inf2"/>
       <attr-item tags="Inf3"/>
       <attr-item tags="PrfPrc"/>
+	  <attr-item tags="PrsPrc" />
       <attr-item tags="Inf"/>
     </def-attr>
     <def-attr n="a_neg">
@@ -243,7 +247,6 @@
       <attr-item tags="@-FOBJ→"/>
       <attr-item tags="@-F←OBJ"/>
     </def-attr>
-
   </section-def-attrs>
   <section-def-vars>
     <def-var n="number"/>
@@ -254,22 +257,21 @@
   </section-def-vars>
   <section-def-macros>
     <def-macro n="set_qst_mark1" npar="1">
-       <choose>
-          <when>
-            <test>
-              <equal>
-                <clip pos="1" side="sl" part="a_qst"/>
-                <lit-tag v="Qst_ko"/>
-              </equal>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="a_qst"/>
-              <lit-tag v="Qst"/>
-            </let>
-          </when>
-        </choose>
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="sl" part="a_qst"/>
+              <lit-tag v="Qst_ko"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="a_qst"/>
+            <lit-tag v="Qst"/>
+          </let>
+        </when>
+      </choose>
     </def-macro>
-
     <def-macro n="set_loc_loc1" npar="1" c="arg.1: noun. Change All/Ela/Ade/Ine/Abl into Loc">
       <choose>
         <when>
@@ -393,7 +395,6 @@
             <lit-tag v="Nom"/>
           </let>
         </when>
-
         <when>
           <test>
             <equal>
@@ -570,6 +571,27 @@
     </rule>
     <!-- end pronoun rules -->
     <!-- begin verb rules -->
+	<rule comment="regla: participles">
+		<pattern>
+			<pattern-item n="pcps" />
+		</pattern>
+		<action>
+			
+			<out>
+				<chunk name="inf" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="PCP"/></tag>
+						<tag><clip pos="1" side="sl" part="syntag"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lem"/>
+						<clip pos="1" side="tl" part="a_verb"/>
+						<clip pos="1" side="tl" part="a_realis"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+	</rule>
     <rule comment="regla: infs. Fin Inf3 Inf2 Inf1 → sme Inf">
       <!-- Test: Minä menen katsomaan, Käyn katsomassa. -->
       <pattern>
@@ -715,7 +737,6 @@
         </let>
       </action>
     </rule>
-
     <rule comment="regla: verb">
       <pattern>
         <pattern-item n="verb"/>
@@ -744,7 +765,6 @@
         <call-macro n="set_qst_mark1">
           <with-param pos="1"/>
         </call-macro>
-
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
@@ -920,7 +940,7 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="lemh"/> 
+              <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
@@ -930,8 +950,7 @@
           </chunk>
         </out>
       </action>
-   </rule>
-
+    </rule>
     <!-- end noun rules -->
     <!-- begin adjective rules -->
     <rule comment="regla: adj">
@@ -961,7 +980,7 @@
             </call-macro>
           </when>
         </choose>
-		<!-- <choose>
+        <!-- <choose>
 			<when>
 				<test>
 					<equal>
@@ -1055,7 +1074,8 @@
               <clip pos="1" side="tl" part="a_num"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
-              <!--<clip pos="1" side="tl" part="a_pxprs"/>--><!-- fin numerals have this, sme ones don't -->
+              <!--<clip pos="1" side="tl" part="a_pxprs"/>-->
+              <!-- fin numerals have this, sme ones don't -->
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -1107,7 +1127,8 @@
         <pattern-item n="pcle"/>
       </pattern>
       <action>
-        <choose> <!-- Sometimes Pcle can be translated by Adv, this allows that -->
+        <choose>
+          <!-- Sometimes Pcle can be translated by Adv, this allows that -->
           <when>
             <test>
               <equal>
@@ -1165,8 +1186,6 @@
         </out>
       </action>
     </rule>
-
-
     <!-- end unsorted rules -->
   </section-rules>
 </transfer>

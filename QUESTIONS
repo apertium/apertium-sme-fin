@@ -368,6 +368,30 @@ again...
 ## Morphological analysis notes
 
 
+### Adp is a problematic category in fin.
+
+$ echo "lähellä" | fin
+lähellä    lähellä+Adv
+
+$ echo "ennen" | fin
+ennen    ennen+Adp
+ennen    ennen+Adv
+
+läpi vuosisatojen
+vuosisatojen läpi
+
+
+sme: 
+
+$ echo "haltuun" | fin
+haltuun    haltuun+Adp
+$ echo "háldui" | sme
+háldui    háldu+N+Sg+Ill
+
+
+Emailed Flammie
+
+
 ### Add Adp and Advs to morphology
 
 Adp:
@@ -381,7 +405,7 @@ Adp:
  + sisällä
  + sisälle
  + sisään
-
+ + lähellä - only Adv, but is Pr and Po
 
 Adv:
 
