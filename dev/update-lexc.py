@@ -248,26 +248,23 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	"""
 	
 	
-	if fname.find('hlexc') > -1:
-		# print "hlexc mode"
-		hlexc = True
-	else:
-		hlexc = False
+	if fname.find('hlexc') > -1:	hlexc = True
+	else:							hlexc = False
 	
-	if pos_filter:
-		search_key = pos_filter
-	else:
-		search_key = False
+	if pos_filter:					search_key = pos_filter
+	else:							search_key = False
 	
+	# remove some symbols
+	chstr = lambda x: re.compile(r'[0\^\#]').sub('', x)
 	
-	# Words matching pos
-	chstr = re.compile(r'[0\^\#]').sub
+	# lt_expand side -- move this to lt_expand func?
 	
+	# TODO: clean this mess
 	if side == 'right':
 		rx_spl = re.compile(r':').split
 		rx_spl2 = re.compile(r'\<').split
 		side = lambda x: rx_spl(x)[1]
-		l_split = lambda x: chstr('', rx_spl2(rx_spl(x)[1])[0])
+		l_split = lambda x: chstr(rx_spl2(rx_spl(x)[1])[0])
 	else:
 		rx_spl = re.compile(r':').split
 		rx_spl2 = re.compile(r'\<').split
@@ -283,7 +280,6 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		print str(len(words)) + ' unique words matching %s in .dix' % (str(search_key))
 		# print str(len(words)) + ' unique words matching %s in .dix' % (str(search_key), fname.lower())
 	
-	# May not be excluding commented lines, probably should.
 	with open(fname, 'r') as F:
 		text = F.read()
 	point = 'LEXICON %s' % split
@@ -297,41 +293,29 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		head = '\n'
 		clip = text
 		rest = text
-		
-	# Filter out text based on excludes
 	
+	# Filter out text based on excludes
 	rest = rest.splitlines()
 	rest = [a for a in rest if not excl.search(a)]
 	
 	if debug:
 		print "Sorting through %d lines" % len(rest)
 	
-	# clip_line is supposed to strip characters like 0 ^ # : + etc.
 	if hlexc:
-		# Finnish .hlexc files have a different format:
 		# priorisointi'][POS=NOUN][KTN=5][KAV=J]:priorisoin{t~~}{J}	kotus_5i_NOUN/stemfiller;
-		# ^  clip this out
-		
 		clip_line = lambda x: x.split("'")[0]
 	else:
-		# Sme -lex.txt files have this format:
 		# šikaneret+Use/Sub:sjikanere DOHPPE ; ! ^LOAN NOR
-		#  ^ clip this, easiest way is to split either at : or +, whichever comes first.
-		
 		cplus = re.compile(r'(:|\+)')
 		split_cplus = lambda x: cplus.split(x.strip(), maxsplit=0)
-		match_cplus = lambda x: True if cplus.findall(x) else False
 		
+		# bivval BIVVAL ;
 		split_space = lambda x: re.compile(r'\s').split(x.strip(), maxsplit=0)
-		# clip_line = lambda x: chstr('', split_cplus(x)[0])
+		
 		# Return clip if matches + or :, otherwise try matching with space.
-		clip_line = lambda x: chstr('', split_cplus(x)[0]) if match_cplus(x) else chstr('', split_space(x)[0])
-	
-	# Slow
-	# clip_line = lambda x: x.replace('0','').replace('^','').replace('#','').partition(':')[0].partition('+')[0]
+		clip_line = lambda x: chstr(split_cplus(x)[0]) if cplus.findall(x) else chstr(split_space(x)[0])
 	
 	wt = []
-	
 	if no_trim:
 		trim = rest
 	else:
@@ -340,9 +324,10 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 			wt = words
 			for a in rest:
 				if a.find(';') > -1:
-					if clip_line(a) in words:
+					clipped = clip_line(a)
+					if clipped in words:
 						trim.append(a)
-						wt.pop(wt.index(clip_line(a)))
+						wt.pop(wt.index(clipped))
 						continue
 				else:
 					trim.append(a)
@@ -355,8 +340,6 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 				else:
 					trim.append(a)
 			wt = [a for a in words if clip_line(a) not in words]
-	
-	
 	
 	if debug:
 		print "%d lines after trim" % (len(trim))
