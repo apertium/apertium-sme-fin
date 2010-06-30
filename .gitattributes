@@ -18,6 +18,7 @@ corp/open_tran_-_fin_sme.txt -text
 corp/processed.txt -text
 corp/sentences -text
 corp/teakstta.txt -text
+corp/yle_uutiset_rss -text
 dev/bidix/A.lex -text
 dev/bidix/A.lex.orig -text
 dev/bidix/Adv.lex -text

@@ -11219,10 +11219,6 @@ almmolaš:almmol ETNOLOGALAS ;
  amerihkálaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:amerihkál AHKASAS ; !
 asehaš:aseh ASEHAS "thin A" ;
 assái:assá JIEDNAI ;
- badjel#hear0ki+CmpN/SgN+CmpN/SgG+CmpN/PlG:badjel#hear'ki LAIKI ; !
- badjel#eatnanlaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:badje7l#eatnanl AHKASAS ; !
- badjel#fámolaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:badje7l#fámol DABALAS ; !
- badjel#mielat+CmpN/SgN+CmpN/SgG+CmpN/PlG:badjel#mielag AGAdj ; !
  bahá+CmpN/SgN+CmpN/SgG+CmpN/PlG:bahá LAIKI; !
  bahá LEXATTR ;  ! This one is for "bahá vuoiŋŋat"
  baháneahkkán+CmpN/SgN+CmpN/SgG+CmpN/PlG:baháneahkkán JOHTIL; !
@@ -11440,7 +11436,6 @@ gallji LAIKI ;
  galmmas+CmpN/SgN+CmpN/SgG+CmpN/PlG:galbma GARAS ; !
 ga0ras:garra GARAS "hard A" ;
 gaska#mearálaš:gaska#mearál ETNOLOGALAS ;
- gaskkasaš+Use/Sub:gaskkas AHKASAS ; !
  gassat+CmpN/SgN+CmpN/SgG+CmpN/PlG:gass ALLAT ; !
  geaffi+CmpN/SgN+CmpN/SgG+CmpN/PlG:geaffi LAIKI; !
  geafi+CmpN/SgN+CmpN/SgG+CmpN/PlG:geafi LAIKI; !
@@ -11500,8 +11495,6 @@ jaskat:jask VIELG ;
  juolggeheapme+CmpN/SgN+CmpN/SgG+CmpN/PlG:juolggeh JEAGOHEAPMI ; !
  já0mas+CmpN/SgN+CmpN/SgG+CmpN/PlG:jápma GARAS ; !
  kristtalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:kristtal ETNOLOGALAS ; !
- lahka#oaidnil+CmpN/SgN+CmpN/SgG+CmpN/PlG:lahka#oaidnil JOHTIL; !
- lahkanmeahttun+CmpN/SgN+CmpN/SgG+CmpN/PlG:lahkanmeahttu MEAHTTUS ; !
  liekkas+CmpN/SgN+CmpN/SgG+CmpN/PlG:liegga GARAS ; !
  liekkus+CmpN/SgN+CmpN/SgG+CmpN/PlG:lieggus LIEKKUS "warm A" ; !
  lihkoheapme+CmpN/SgN+CmpN/SgG+CmpN/PlG:lihkoh JEAGOHEAPMI ; !
@@ -11510,7 +11503,6 @@ li0nis:litn LINIS ;
 lobiheapme:lobih JEAGOHEAPMI ;
  lossat+CmpN/SgN+CmpN/SgG+CmpN/PlG:loss LOSSAT ; !
  lossat:los'ses LEXATTR ; ! ad hoc exceptional form
- luhtte#orru+CmpN/SgN+CmpN/SgG+CmpN/PlG:luhtte#orru¤ HAHTTI ; !
  lunddolaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:lunddol DABALAS ; !
  luohttevaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:luohttevažž DEARVVASLAS ; !
  luo0vus+CmpN/SgN+CmpN/SgG+CmpN/PlG:luovvu GARAS ; !
@@ -11522,7 +11514,6 @@ lái0vi:láj'vi LAIKI ;
  maŋildus FINJU- ;
  maŋos#manni+CmpN/SgN+CmpN/SgG+CmpN/PlG:maŋos#manna¤ HAHTTI ; !
 maŋŋit:maŋŋid JOHTIL ;
- meaddil#manni+CmpN/SgN+CmpN/SgG+CmpN/PlG:meaddi7l#manna¤ HAHTTI ; !
 miella#giddevaš:miella#giddevažž DEARVVASLAS ;
  muoseheapme+CmpN/SgN+CmpN/SgG+CmpN/PlG:muoseh JEAGOHEAPMI ; !
  mánáheapme+CmpN/SgN+CmpN/SgG+CmpN/PlG:mánáh JEAGOHEAPMI ; !
@@ -11580,8 +11571,6 @@ ol0lis:ol'lis VATTIS ;
 ollislaš:ollisl DABALAS ;
 ol0lu:ol'lu BOREALA ;
 oppa At ;
- ovddasteaddji+CmpN/SgN+CmpN/SgG+CmpN/PlG:ovddasteaddji¤ HAHTTI ; !
- ovddas#vásttolaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:ovddas#vásttol DABALAS ; !
 ovddeš:ovddež AGAdj ;
  ovtta-ahkáhaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:ovtta-ahkáh AHKASAS ; !
  ovtta#gielalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:ovtta#gielal AHKASAS ; !
@@ -11611,7 +11600,6 @@ o0đas:ođđa GARAS ;
 ođđa#áigásaš:ođđa#áigás ETNOLOGALAS ;
  rabas#mielalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:rabas#mielal ETNOLOGALAS ; !
  ra00bas+CmpN/SgN+CmpN/SgG+CmpN/PlG:rah'pas GAPPUS ; !
- rastásaš+CmpN/SgN+CmpN/SgGenLeft+CmpN/PlGenLeft:rastás AHKASAS ; !
 riekta:rivttes LEXATTR ;
  riek0ta:riek't RIEKTA ; ! no sg obl
 riikkaid#gaskasaš:riikkaid9#gaskas AHKASAS ;
@@ -11677,7 +11665,6 @@ viiddis:vij'd VIISSIS ;
  vuollegaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuolleg ASEHAS ; !
  vuo0ras+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuorras GAPPUS ; !
  vuosttaš#luohkkálaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuosttaš#luohkkál AHKASAS ; !
- vuostá#čuožžomeahttun+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuostá#čuožžo7meahttu MEAHTTUS ; !
  vuotnalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuotnal AHKASAS ; !
  váibbas+CmpN/SgN+CmpN/SgG+CmpN/PlG:váj'bas BOAKKAS ; !
  váibmil+CmpN/SgN+CmpN/SgG+CmpN/PlG:váibmil JOHTIL; !
@@ -14357,8 +14344,6 @@ duo adv ;
  duonnánaga+Use/Sub:duonnánaga adv; !
  duoppet#dáppe+Use/Sub:duoppet#dáppe adv; !
  duoppil#dáppil+Use/Sub:duoppil#dáppil adv; !
-duogi adv ;
-duohken adv ;
 duohko adv ;
  duohkot+Use/Sub:duohkot adv; !
  duohkot#deike+Use/Sub:duohkot#deike adv; !
@@ -14403,8 +14388,6 @@ fas adv ;
 friddja adv ;
 gal adv ;
  galle#ládje+Use/Sub:galle#ládje adv; !
-gaskii adv ;
-gasku adv ;
 geardde adv ;
 gitta adv ;
  goas#nu+Use/Sub:goas#nu adv; !
@@ -14447,7 +14430,6 @@ kánske adv ;
 lagabui adv ;
 lagabut adv-comp ;
 lagamustá adv-sup ;
-lahka adv ;
 loahpas adv ;
 lossadit adv ;
 lávda adv ;
