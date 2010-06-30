@@ -232,6 +232,45 @@ koko, kaikista
 
 ## CG stuff to fix
 
+### Syntactic tag application question
+
+Do I need to apply these to every item in the phrase, or just one? In this case, I'm doing things like:
+
+	lähellä tätä vanhaa metsää
+	Prep	Dem	 A		N
+						@<P
+
+But should it be?
+
+	lähellä tätä vanhaa metsää
+	Prep	Dem	 A		N
+			@<P	@<P		@<P
+
+
+
+### Case of Adv and Po disambiguation -- underway, needs more test cases
+
+	"<Hän>"
+		"hän" Pron Pers Sg Nom @SUBJ→ MAP:2207 
+	"<sanoi>"
+		"sanoa" V Act Ind Prt Sg3 @+FMAINV MAP:2263 
+	"<sen>"
+		"se" Pron Dem Sg Gen @→P MAP:2361 
+	;	"sen" Pcle REMOVE:695 
+	;	"se" Pron Dem Sg Ins IFF:725 
+	"<ennen>"
+		"ennen" Po @X SELECT:1478 MAP:2540 
+	;	"ennen" Adv SELECT:1478 
+	;	"ennen" Adp SELECT:1478 
+	;	"ennen" Pr SELECT:1478 
+	"<.>"
+		"." Punct CLB ADD:671 
+
+As it stands now this is the analysis... However, we need one in which ennen is an adv, and sen is an obj. "He said it before."
+
+Should find more test cases for this. Interesting problem.  In this case it can be fixed because partitive is the case assigned with 'ennen' as either a preposition or a postposition.
+
+
 ### particles strike again
 
 > eli
@@ -367,8 +406,16 @@ again...
 
 ## Morphological analysis notes
 
+## Particles
 
-### Adp is a problematic category in fin.
+May have a note about this somewhere already. The particle POS in omorfi is a problem, so this will be fixed.
+
+	vasta eilen.
+
+
+
+
+### Adp is a problematic category in fin. -- solution in progress
 
 $ echo "lähellä" | fin
 lähellä    lähellä+Adv
@@ -389,7 +436,7 @@ $ echo "háldui" | sme
 háldui    háldu+N+Sg+Ill
 
 
-Emailed Flammie
+Splitting Adp into Pr and Po.
 
 
 ### Add Adp and Advs to morphology
@@ -632,3 +679,4 @@ yhtäkaikki                      ?
 'clothes, dress'
 
 	gárvu : N : puku : N
+
