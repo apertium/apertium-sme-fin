@@ -15,6 +15,16 @@
       <cat-item tags="Pcle"/>
       <cat-item tags="Pcle.*"/>
     </def-cat>
+	<def-cat n="postpos">
+		<cat-item tags="Po.*" />
+	</def-cat>
+	<def-cat n="prepos">
+		<cat-item tags="Pr.*" />
+	</def-cat>
+	<def-cat n="adpos">
+		<cat-item tags="Adp.*" />
+	</def-cat>
+	
     <def-cat n="neg_verb">
       <cat-item tags="V.Neg.*"/>
     </def-cat>
@@ -109,6 +119,11 @@
     <def-attr n="a_adv">
       <attr-item tags="Adv"/>
     </def-attr>
+    <def-attr n="a_adp">
+	  <attr-item tags="Pr" />
+	  <attr-item tags="Po" />
+	  <attr-item tags="Adp" />
+	</def-attr>
     <def-attr n="a_pcle">
       <attr-item tags="Pcle"/>
     </def-attr>
@@ -1122,6 +1137,52 @@
         </out>
       </action>
     </rule>
+
+	<!-- There currently shouldn't be many finnish adpositions that don't have a po or pr reading, but I want adpositions not to transfer yet so that something breaks and I notice. -->
+    <rule comment="REGLA: POSTPOSITIONS">
+      <pattern>
+        <pattern-item n="postpos"/>
+      </pattern>
+      <action>
+          <!-- Sometimes Pcle can be translated by Adv, this allows that -->
+            <out>
+              <chunk name="adp" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="ADP"/></tag>
+                  <tag><clip pos="1" side="sl" part="syntag"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_adp"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out> 
+      </action>
+    </rule>
+
+    <rule comment="REGLA: PREPOSITIONS">
+      <pattern>
+        <pattern-item n="prepos"/>
+      </pattern>
+      <action>
+          <!-- Prepositions need to be transfered to postpositions -->
+            <out>
+              <chunk name="pr" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="PR"/></tag>
+                  <tag><clip pos="1" side="sl" part="syntag"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_adp"/>
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out> 
+      </action>
+    </rule>
+
     <rule comment="REGLA: PARTICLE">
       <pattern>
         <pattern-item n="pcle"/>
@@ -1168,7 +1229,8 @@
         </choose>
       </action>
     </rule>
-    <rule comment="REGLA: PUNCTUATION CLB">
+ 
+   <rule comment="REGLA: PUNCTUATION CLB">
       <pattern>
         <pattern-item n="punct_clb"/>
       </pattern>
