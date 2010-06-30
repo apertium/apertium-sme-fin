@@ -159,7 +159,7 @@
     <e><p><l>ektui<s n="Po"/></l><r>nähden<s n="Po"/></r></p></e>
     <e><p><l>maŋŋil<s n="Po"/></l><r>jälkeen<s n="Po"/></r></p></e>
     <e><p><l>ovdal<s n="Po"/></l><r>ennen<s n="Po"/></r></p></e> <!-- Also a prepoostion in Fin... -->
-    <e><p><l>ovdal<s n="Po"/></l><r>ennen<s n="Pr"/></r></p></e> <!-- Also a prepoostion in Fin... -->
+    <e><p><l>ovdal<s n="Pr"/></l><r>ennen<s n="Pr"/></r></p></e> <!-- Also a prepoostion in Fin... -->
     <e><p><l>maŋŋá<s n="Po"/></l><r>jälkeen<s n="Po"/></r></p></e>
     <e><p><l>áigge<s n="Po"/></l><r>aikana<s n="Po"/></r></p></e>
     <e><p><l>mielde<s n="Po"/></l><r>kanssa<s n="Po"/></r></p></e>
@@ -167,7 +167,6 @@
 	<e><p><l>ala<s n="Po"/></l><r>päälle<s n="Po"/></r></p></e>
     <e><p><l>rájes<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siitä asti -->
     <e srl="1"><p><l>rádjái<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siihen asti -->
-	<e><p><l>badjel<s n="Po"/></l><r>yli<s n="Po"/></r></p></e>
 	<e><p><l>bealis<s n="Po"/></l><r>puolessa<s n="Po"/></r></p></e>
 	<e><p><l>beallái<s n="Po"/></l><r>puoleen<s n="Po"/></r></p></e>
 	<e><p><l>botnis<s n="Po"/></l><r>pohjalla<s n="Po"/></r></p></e>
@@ -184,9 +183,7 @@
 	<e><p><l>maŋábealde<s n="Adv"/></l><r>taitse<s n="Po"/></r></p></e>
 	<e><p><l>meaddil<s n="Po"/></l><r>ohitse<s n="Po"/></r></p></e>
 	<e><p><l>miehtá<s n="Po"/></l><r>pitkin<s n="Po"/></r></p></e>
-	<e><p><l>mielde<s n="Po"/></l><r>kanssa<s n="Po"/></r></p></e>
 	<e><p><l>njeaigga<s n="Po"/></l><r>vasten<s n="Po"/></r></p></e>
-	<e><p><l>ovdal<s n="Po"/></l><r>ennen<s n="Po"/></r></p></e>
 	<e><p><l>ovdii<s n="Po"/></l><r>eteen<s n="Po"/></r></p></e>
 	<e><p><l>rastá<s n="Po"/></l><r>ylitse<s n="Po"/></r></p></e>
 	<e><p><l>rádjái<s n="Po"/></l><r>asti<s n="Po"/></r></p></e>
@@ -210,7 +207,7 @@
 	<e><p><l>albma<s n="Adv"/></l><r>ilmi<s n="Adv"/></r></p></e>
 	<e><p><l>gosa<s n="Adv"/></l><r>jonne<s n="Adv"/></r></p></e>
 	<e><p><l>albmosii<s n="Adv"/></l><r>julki<s n="Adv"/></r></p></e>
-	<e><p><l>kahtia<s n="Adv"/></l><r>guovtte<b/>sadjái<s n="Adv"/></r></p></e>
+	<e><p><l>guovtte<b/>sadjái<s n="Adv"/></l><r>kahtia<s n="Adv"/></r></p></e>
 	<e><p><l>ollásit<s n="Adv"/></l><r>kokonaan<s n="Adv"/></r></p></e>
 	<e><p><l>čoahkkái<s n="Adv"/></l><r>kokoon<s n="Adv"/></r></p></e>
 	<e><p><l>golbmii<s n="Adv"/></l><r>kolmesti<s n="Adv"/></r></p></e>
@@ -236,7 +233,7 @@
 	<e><p><l>suollemasat<s n="Adv"/></l><r>salassa<s n="Adv"/></r></p></e>
 	<e><p><l>njuolgga<s n="Adv"/></l><r>suoraan<s n="Adv"/></r></p></e>
 	<e><p><l>stuorrát<s n="Adv"/></l><r>suuresti<s n="Adv"/></r></p></e>
-	<e><p><l>syrjään<s n="Adv"/></l><r>boaitto<b/>beallai<s n="Adv"/></r></p></e>
+	<e><p><l>boaitto<b/>beallai<s n="Adv"/></l><r>syrjään<s n="Adv"/></r></p></e>
 	<e><p><l>dáiddolaččat<s n="Adv"/></l><r>taidokkaasti<s n="Adv"/></r></p></e>
 	<e><p><l>duogi<s n="Adv"/></l><r>takaa<s n="Adv"/></r></p></e>
 	<e><p><l>sadjosii<s n="Adv"/></l><r>talteen<s n="Adv"/></r></p></e>
