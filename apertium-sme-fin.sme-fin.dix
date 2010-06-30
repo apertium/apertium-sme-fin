@@ -195,7 +195,8 @@
 	<e><p><l>várás<s n="Po"/></l><r>varalle<s n="Po"/></r></p></e>
 	<e><p><l>várás<s n="Po"/></l><r>varten<s n="Po"/></r></p></e>
 	<e><p><l>dihtii<s n="Po"/></l><r>vuoksi<s n="Po"/></r></p></e> <!-- TODO: CHECK-->
-        
+    <e><p><l>badjelii<s n="Po"/></l><r>ylle<s n="Po"/></r></p></e>
+       
 	<e><p><l>sisa<s n="Po"/></l><r>keskelle<s n="Po"/></r></p></e>
 	<e><p><l>ovddabeale<s n="Po"/></l><r>editse<s n="Po"/></r></p></e>
 	<!-- Adv: Adv -->
@@ -305,8 +306,7 @@
 
 	
 
-        <e><p><l>badjelii<s n="Adp"/></l><r>ylle<s n="Adp"/></r></p></e> <!-- TODO: CHECK -->
-
+ 
     <!-- 
 
 	TODO: Some more postpositions to add:

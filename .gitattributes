@@ -41,6 +41,7 @@ dev/fin.cfg -text
 dev/langs.cfg -text
 dev/scripts/apertium.py -text
 dev/scripts/debug.py -text
+dev/sme_fin_postp_prep -text
 dev/update-lexc.py -text
 dev/update-lexc.sh -text
 dev/uppercase-first.twol -text

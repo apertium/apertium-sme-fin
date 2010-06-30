@@ -1,0 +1,247 @@
+#! leaving just a list of all the readings that need to be added somehow
+# If it is +po in Finnish, add +po in sme. if it is both in finnish, add both in sme; otherwise if sme has po and pr and finnish only has one, just add corresponding version.
+
++Pr aisttan
++Pr aistton
+
++Po ala			|| +Po päälle
++Po alde		|| +Po päällä
++Po asu
++Pr +Po badjebealde
++Pr +Po badjel		|| +Po yli		
++Pr +Po badjelaš
++Pr +Po badjelii	|| +Po ylle
++Pr +Po badjelis
++Pr +Po bajil
++Pr +Po bajábealde
++Pr +Po bajá#beale
++Pr +Po bajá#beali
++Pr +Po bajá#beallai
++Pr +Po bajá#beallái
++Po bakte
++Po beal
++Pr +Po bealde				(see juohkebealde)
++Pr +Po beale
++Po beales
++Po beali
++Po bealis		|| +Po puolessa
++Pr +Po beallái		|| +Po puoleen
++Pr +Po birra
++Po bokte
++Po bokti
++Po buohta
++Po buorrin
++Po báldal
++Po báldda			|| +Po sivuitse
++Po bálddas
++Po báldii
++Po bále
++Po báli
++Pr +Po báras
++Pr +Po bárrii
++Pr +Po davá#bealde
++Pr +Po davá#beale
++Pr +Po davá#beali
++Pr +Po davá#beallai
++Pr +Po davá#beallái
++Po dihte
++Po dihtii		|| +Po vuoksi
++Po duoge
++Po duogi		|| +Adv takaa (+Adv sme)
++Pr +Po duogá#bealde
++Pr +Po duogá#beale
++Pr +Po duogá#beali
++Pr +Po duogá#beallai
++Pr +Po duogá#beallái
++Po duohkai
++Po duohken		|| sme, +Adv; fin + Adv: luona, luota
++Po duohkin
++Po dáfos
++Po dáfus
++Pr earet
++Pr earret
++Po ektui		|| +Po nähden
++Po eret		|| +Po irti, +Adv pois 
++Po fárrui
++Po fárus
++Pr gaskal
++Pr +Po gaskan || +Po kesken
++Po gaskii || +Adv välille
++Po gaskka
++Pr gaskkal
++Po gaskkas || +Po välissä
++Pr +Po gasku || +Adv keskellä
++Pr +Po geahčai
++Po geahčen
++Pr +Po geahčil
++Pr +Po geažes	|| +Po kuluttua
++Pr +Po geažil
++Pr +Po geažis
++Pr +Po guhkkot
++Pr +Po guhkkut
++Pr +Po gullut
++Po guora
++Po guoras
++Pr +Po guovdalas
++Pr +Po guovddáš
++Pr +Po guovdelas
++Pr +Po guovdelaš
++Pr +Po guovdu || +Adv kohtaan
++Po gurrii
++Pr +Po gurut#bealde
++Pr +Po gurut#beale
++Pr +Po gurut#beali
++Pr +Po gurut#beallai
++Pr +Po gurut#beallái
++Po haga		|| +Pr ilman
++Pr +Po hahttá
++Pr +Po labi
++Pr +Po labis
++Pr +Po lahka	|| +Po likelle
++Adv lahka || +Adv lähellä
++Pr +Po loahpageahčai
++Pr +Po loahpageahčen
++Po luhtte
++Adv luhtte | +Adv luona
++Adv luhtte | +Adv luota
++Adv luhtte | +Adv lähelle
++Pr +Po lulá#bealde
++Pr +Po lulá#beale
++Pr +Po lulá#beali
++Pr +Po lulá#beallai
++Pr +Po lulá#beallái
++Po lusa || +Po luo
++Po lusa || +Po luokse
++Po lusa || +Adv tykö
++Po ládje
++Po mano
++Po manu
++Po mađe
++Po mađi
++Po maŋil
++Adv maŋil || +Adv jäljestäpäin
++Po maŋis
++Po mađo
++Po mađu
++Pr +Po maŋŋegeahčai
++Pr +Po maŋŋegeahčen
++Pr +Po maŋŋel
++Pr +Po maŋŋil || +Po jälkeen
++Pr +Po maŋŋá || +Po jälkeen
++Po maŋŋái
++Pr +Po meaddel
++Pr +Po meaddil || +Po ohitse
++Pr +Po meattil
++Pr +Po meattá
++Pr +Po miehtá || +Po pitkin
++Po miel
++Po mielde || +Po kanssa
++Po mielde || +Po mukaan
++Po mielde || +Po kanssa
++Adv mielde || +Po mukana
++Po muttos
++Po máttá#bealde
++Po máttá#beale
++Po máttá#beali
++Po máttá#beallai
++Po máttá#beallái
++Po nala
++Po nalde
++Po njeaiga
++Po njeaigga || +Po vasten
++Pr +Po nuortta#bealde
++Pr +Po nuortta#beale
++Pr +Po nuortta#beali
++Pr +Po nuortta#beallai
++Pr +Po nuortta#beallái
++Pr +Po oaidnut
++Pr +Po oarjja#bealde
++Pr +Po oarjja#beale
++Pr +Po oarjja#beali
++Pr +Po oarjja#beallai
++Pr +Po oarjja#beallái
++Pr +Po oasil
++Pr +Po olgeš#bealde
++Pr +Po olgeš#beale
++Pr +Po olgeš#beali
++Pr +Po olgeš#beallai
++Pr +Po olgeš#beallái
++Po olggil
++Pr +Po olggo#bealde
++Pr +Po olggo#beale
++Pr +Po olggo#beali
++Pr +Po olggo#beallai
++Pr +Po olggo#beallái
++Pr +Po olis
++Pr +Po ollái
++Pr +Po ovdal || +Po ennen, +Pr ennen
++Po ovdasii
++Po ovdda#bealde
++Po ovdda#beale
++Po ovdda#beali
++Po ovdda#beallai
++Po ovdda#beallái
++Po ovddal
++Po ovddas || +Po edessä, +Po edestä
++Po ovdii || +Po eteen
++Pr +Po rastá || +Po ylitse
++Po rádjai
++Po rádjái || +Po asti (+Illat), +Po saakka
++Po ráje
++Po rájes || +Po asti (+Elat)
++Po ráji
++Po rájis
++Po sadjái
++Po sajes
++Po sajis
++Po seahká
++Pr +Po sealgge#bealde
++Po sisa || +Po sekaan
++Po sisa || +Po keskelle
++Pr +Po siskka#bealde
++Pr +Po siskka#beale
++Pr +Po siskka#beali
++Pr +Po siskka#beallai
++Pr +Po siskka#beallái
++Pr +Po siskko#bealde
++Pr +Po siskko#beale
++Pr +Po siskko#beali
++Pr +Po siskko#beallai
++Pr +Po siskko#beallái
++Po siste || +Po sisälle, +Po sisällä
++Pr +Po sivas
++Pr +Po skivhlái
++Pr +Po suktii
++Po veagas || +Po varassa
++Pr +Po veardde || +Adv verran (+Po!)
++Po vehkii
++Po vehkiin
++Po viđe
++Po viđá
++Pr +Po vulo#bealde
++Pr +Po vulo#beale
++Pr +Po vulo#beali
++Pr +Po vulo#beallai
++Pr +Po vulo#beallái
++Po vuolde || +Po alla, +Po alta
++Po vuole
++Po vuoli
++Pr +Po vuolil
++Po vuolis
++Po vuollai
++Pr +Po vuollel
++Pr +Po vuollil
++Pr +Po vuollái || +Po alle, +Po kohden
++Pr +Po vuolá#bealde
++Pr +Po vuolá#beale
++Pr +Po vuolá#beali
++Pr +Po vuolá#beallai
++Pr +Po vuolá#beallái
++Pr +Po vuostá || +Po vastaan
++Pr +Po vuostái
++Po vuođul || (sme +Adv!) +Adv nojalla
++Pr +Po várte
++Po várás || +Po varalle, +Po varten
++Po váste
++Po áigi 
++Pr +Po čađa
