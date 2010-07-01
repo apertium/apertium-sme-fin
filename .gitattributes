@@ -15,7 +15,6 @@
 /configure.ac -text
 corp/line_phrases.sql -text
 corp/nt-fin-sme/NOTES -text
-corp/nt-fin-sme/bible.fin.tar.gz -text
 corp/nt-fin-sme/bible.fin/book001.chapter001.txt -text
 corp/nt-fin-sme/bible.fin/book001.chapter002.txt -text
 corp/nt-fin-sme/bible.fin/book001.chapter003.txt -text
@@ -1205,7 +1204,6 @@ corp/nt-fin-sme/bible.fin/book066.chapter019.txt -text
 corp/nt-fin-sme/bible.fin/book066.chapter020.txt -text
 corp/nt-fin-sme/bible.fin/book066.chapter021.txt -text
 corp/nt-fin-sme/bible.fin/book066.chapter022.txt -text
-corp/nt-fin-sme/bible.sme.tar.gz -text
 corp/nt-fin-sme/bible.sme/book040.chapter001.txt -text
 corp/nt-fin-sme/bible.sme/book040.chapter002.txt -text
 corp/nt-fin-sme/bible.sme/book040.chapter003.txt -text
