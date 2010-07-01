@@ -6,7 +6,12 @@
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
     </def-cat>
-
+	<def-cat n="NUMP">
+      <cat-item tags="NUM.*"/>
+    </def-cat>
+	<def-cat n="SN_numattr">
+		<cat-item tags="SN.*.@Num←"/>
+	</def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -66,6 +71,22 @@
   </section-def-vars>
 
   <section-rules>
+	<rule>
+		<pattern>
+			<pattern-item n="NUMP"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+		            <lit v="***"/>
+					<clip pos="1" part="lemh"/>
+					<clip pos="1" part="tags"/>
+					<clip pos="1" part="chcontent"/>
+					<clip pos="1" part="lemq"/>
+				</chunk>
+			</out>
+		</action>
+	</rule>
 
     <rule>
       <pattern>

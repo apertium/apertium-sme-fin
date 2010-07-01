@@ -861,7 +861,7 @@
         </out>
       </action>
     </rule>
-    <rule comment="regla: *** attrmod nom">
+    <rule comment="regla: attrmod nom">
       <pattern>
         <pattern-item n="attrmod"/>
         <pattern-item n="nom"/>
@@ -960,7 +960,6 @@
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
-              <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -1054,6 +1053,99 @@
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="REGLA: *** NUMERAL NOM">
+      <pattern>
+        <pattern-item n="num"/>
+	    <pattern-item n="nom"/>
+      </pattern>
+      <action>
+	    <call-macro n="set_loc_loc1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_tra_ill1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_par_gen1">
+          <with-param pos="2"/>
+        </call-macro>
+        <choose><!-- Strip number on attr if essive -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <call-macro n="strip_nbr">
+              <with-param pos="1"/>
+            </call-macro>
+          </when>
+        </choose>
+        <choose> <!-- Strip number on head if essive. TODO: doesn't work! -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <call-macro n="strip_nbr">
+              <with-param pos="1"/>
+            </call-macro>
+          </when>
+        </choose>
+		<choose> <!-- if noun case is loc or ill, then attr is acc/gen -->
+			<when>
+				<test>
+					<or>
+						<equal>
+							<clip pos="2" side="tl" part="a_case"/>
+							<lit-tag v="Loc" />
+						</equal>
+						<equal>
+							<clip pos="2" side="tl" part="a_case"/>
+							<lit-tag v="Ill" />
+						</equal>
+					</or>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="a_case"/>
+					<lit-tag v="Gen"/>
+				</let>
+			</when>
+		</choose>
+        <out>
+          <chunk name="num" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="NUM"/></tag>
+              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+              <tag><clip pos="1" side="sl" part="nbr"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_num"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="a_case"/>
+              <!--<clip pos="1" side="tl" part="a_pxprs"/>-->
+              <!-- fin numerals have this, sme ones don't -->
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+			<b pos="1"/><!-- space -->
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="a_case"/>
+              <!--<clip pos="1" side="tl" part="a_pxprs"/>-->
+              <!-- fin numerals have this, sme ones don't -->
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+			
           </chunk>
         </out>
       </action>
