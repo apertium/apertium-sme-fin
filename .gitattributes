@@ -3,6 +3,7 @@
 /ChangeLog -text
 /Makefile.am -text
 /NEWS -text
+/NOTES -text
 /QUESTIONS -text
 /README -text
 /apertium-sme-fin.fin-sme.t1x -text
