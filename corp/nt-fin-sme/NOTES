@@ -1,0 +1,34 @@
+fin:	book054.chapter003.txt	
+
+line 1 removed [not in sme]
+
+fin:	book047.chapter013.txt	
+
+line 14 removed [not in sme]
+
+fin:	book046.chapter011.txt	 
+
+remove line 1 [not in sme]
+
+sme:	book045.chapter003.txt	
+
+<	24       Muhto ánssáškeahttá sii ožžot vanhurskkisvuođa su árpmus, go Kristus Jesus lea lonistan sin.
+<	25       26 Su lea Ipmil ásahan oaffarin, go son dagai su vara soabahussan sidjiide geat oskot. Nu lea Ipmil čájehan vanhurskkisvuođas, go guhkesmielalašvuođastis guđii ráŋggáškeahttá vássán áiggiid suttuid. Muhto dál dán áiggis son čájeha vanhurskkisvuođas, ahte son lea ieš vanhurskkis ja cealká vanhurskkisin su guhte osku Jesusii.
+<	27       Gos de lea dat mas mii sáhttit rábmot iežamet? Buot rápmi lea dušši! Mii lágaid cealká dan? Lea go dat daguid láhka? Ii leat, muhto oskku láhka.
+
+>	24       Muhto ánssáškeahttá sii ožžot vanhurskkisvuođa su árpmus, go Kristus Jesus lea lonistan sin.
+>	25       Su lea Ipmil ásahan oaffarin, go son dagai su vara soabahussan sidjiide geat oskot. Nu lea Ipmil čájehan vanhurskkisvuođas, go guhkesmielalašvuođastis guđii ráŋggáškeahttá vássán áiggiid suttuid. 
+>	26       Muhto dál dán áiggis son čájeha vanhurskkisvuođas, ahte son lea ieš vanhurskkis ja cealká vanhurskkisin su guhte osku Jesusii.
+>	27       Gos de lea dat mas mii sáhttit rábmot iežamet? Buot rápmi lea dušši! Mii lágaid cealká dan? Lea go dat daguid láhka? Ii leat, muhto oskku láhka.
+
+fin	book044.chapter019.txt
+
+line 41 removed [not in sme, was spacer]
+
+fin	book044.chapter008.txt
+
+line 1 removed [not in sme]
+
+fin	book043.chapter008.txt
+
+remove line 53 [not in sme]

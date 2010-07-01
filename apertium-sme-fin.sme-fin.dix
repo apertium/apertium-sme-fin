@@ -113,9 +113,9 @@
     <e><p><l>gal<s n="Adv"/></l><r>kyllä<s n="Pcle"/></r></p></e>
     <e><p><l>nugo<s n="Adv"/></l><r>kuten<s n="Pcle"/></r></p></e>
 	<e><p><l>šat<s n="Adv"/></l><r>enää<s n="Pcle"/></r></p></e>   <!-- should be Adv -->
-
-
-
+	
+	
+	
 	
 	<!-- Pcle:Pcle -->
 	<e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
@@ -127,13 +127,13 @@
 	<e><p><l>hás<s n="Pcle"/></l><r>jospa<s n="Pcle"/></r></p></e>
 	<e><p><l>na<s n="Pcle"/></l><r>no<s n="Pcle"/></r></p></e>
 	
-
+	
 	
 	<!-- CC:Pcle -->
 	
 	<e><p><l>muhto<s n="CC"/></l><r>vaan<s n="Pcle"/></r></p></e>
 
-
+	
 	<!-- 
 		TODO: see following TODO.
 	
@@ -141,9 +141,9 @@
 	<e><p><l>juoidá<s n="Pron+Indef+Sg+Acc"/></l><r>jotain<s n="Pcle "/></r></p></e>
 	<e><p><l>eará<s n="Pron+Indef+Attr"/></l><r>muu<s n="A"/></r></p></e>
 	 -->
-
-
-
+	
+	
+	
     <!-- Postpositions, prepositions -->
 	<e><p><l>ala<s n="Po"/></l><r>päälle<s n="Po"/></r></p></e>
 	<e><p><l>bajábealde<s n="Po"/></l><r>yläpuolella<s n="Po"/></r></p></e>
