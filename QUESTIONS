@@ -403,6 +403,22 @@ again...
 
 	Tämä lohduttaa meitä työssämme ja kättemme vavoissa viljellessämme maata
 
+### Numbers versus pronouns
+
+	"<Yhdellä>"
+		"yksi" Pron Sg Ade @X SELECT:1311 MAP:2597 
+	;	"yksi" Num Card Sg Ade SELECT:1311 
+	"<miehellä>"
+		"mies" N Sg Ade @NUM← MAP:2315 
+	"<on>"
+		"olla" V Act Ind Prs Sg3 @+FMAINV MAP:2322 
+	"<iso>"
+		"iso" A Pos Sg Nom @←SPRED SELECT:851 MAP:2345 
+	;	"iso" N Sg Nom SELECT:851 
+	"<hattu>"
+		"hattu" N Sg Nom @X MAP:2597 
+
+
 
 ## Morphological analysis notes
 
