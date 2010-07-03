@@ -58,7 +58,7 @@
       <cat-item tags="Num.Ord.*"/>
     </def-cat>
     <def-cat n="num">
-      <cat-item tags="Num.*"/>
+      <cat-item tags="Num.Card.*"/>
     </def-cat>
 	<!-- 
 	esimerkki:

@@ -11689,6 +11689,9 @@ váttis:váddis VATTIS ;
  ártet+CmpN/SgN+CmpN/SgG+CmpN/PlG:árteg JOHTIL ; !
 ávdin:ávdim BEAKKAN ;
  čalmmeheapme+CmpN/SgN+CmpN/SgG+CmpN/PlG:čalmmeh JEAGOHEAPMI ; !
+ šattot+CmpN/SgN+CmpN/SgG+CmpN/PlG:šattog AGAdj "by growth A" ; !
+ šatteš+CmpN/SgN+CmpN/SgG+CmpN/PlG:šatteš JOHTIL ; !
+ šattes+CmpN/SgN+CmpN/SgG+CmpN/PlG:šattes JOHTIL ; !
  čeahppi+CmpN/SgN+CmpN/SgG+CmpN/PlG:čeahppi LAIKI; !
  šealgat+CmpN/SgN+CmpN/SgG+CmpN/PlG:šealg VIELG ; !
  čeavlái+CmpN/SgN+CmpN/SgG+CmpN/PlG:čeavlá JIEDNAI ; !
@@ -14553,6 +14556,7 @@ váile adv ;
  álás+Use/Sub:álás adv; !
 álás adv ;
 árrat adv ;
+šat adv ;
 čiekŋalasas adv ;
 čoahkkái adv ;
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages

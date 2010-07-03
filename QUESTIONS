@@ -533,6 +533,16 @@ Should this return a compound analysis too, so that we can normalize spaces vs n
 
 ## Transfer notes
 
+### Derived adjectives
+
+	$ echo "soajálaš" | hfst-lookup .deps/sme-fin.automorf.hfst 
+	soajálaš	soadji<N><Der1><Der_laš><A><Attr>
+	soajálaš	soadji<N><Der1><Der_laš><A><Sg><Nom>
+	soajálaš	soadjá<N><Der1><Der_laš><A><Attr>
+	soajálaš	soadjá<N><Der1><Der_laš><A><Sg><Nom>
+
+Ideally this shouldn't be derived... How do we fix? 
+
 ### Some prepositions become postpositions, second level transfer -- how to?
 
 	<e><p><l>buohta<s n="Po"/></l><r>vastapäätä<s n="Pr"/></r></p></e>
