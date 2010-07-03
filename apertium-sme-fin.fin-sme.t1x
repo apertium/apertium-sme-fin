@@ -60,6 +60,17 @@
     <def-cat n="num">
       <cat-item tags="Num.*"/>
     </def-cat>
+	<!-- 
+	esimerkki:
+	<def-cat n="pcle.qst">
+	      <cat-item lemma="go" tags="Pcle.*"/>
+    </def-cat>
+	<def-cat n="month">
+      <cat-item lemma="guovvamánnu" tags="N.*"/>
+      <cat-item lemma="ođđajagimánnu" tags="N.*"/>
+      <cat-item lemma="guovvamánnu" tags="N.*"/>
+	</def-cat>
+	-->
     <def-cat n="nom">
       <cat-item tags="N.*"/>
     </def-cat>
