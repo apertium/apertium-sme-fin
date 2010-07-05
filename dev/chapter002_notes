@@ -1,8 +1,3 @@
-1 Nu bohte #gárvvis albmi ja eana buot joavkkuineaset.
-
-	okay, what broke
-
-
 2 Ja Jumala päätti seitsemäntenä päivänä työnsä, jonka hän oli tehnyt,  ja lepäsi seitsemäntenä päivänä kaikesta työstänsä, jonka hän oli  tehnyt.
 2 Ja Ipmil mearridii #čihččet beaivin bargguset, gean son lei dahkan,  ja vuoiŋŋastii #čihččet beaivin buot barggusteaset, gean son lei  dahkan.
 
@@ -35,27 +30,25 @@ bibel.no 5 ii lean vel ii oktage meahci miestta eatnama alde, iige lean mihkkege
 
 	sieramiinsa?
 
-8 Ja Hearrá Ipmil čohkkáhii #paradiás #Eden, #nuorta, ja ásahii dohko  olbmo, gean son lei dahkan.
+8 Ja Hearrá Ipmil čohkkáhii paradiása #Eden, #nuorta, ja ásahii dohko  olbmo, gean son lei dahkan.
 
 	Eden requires Prop.Plc tags which aren't being inserted now: problem is that omorfi is not returning N Prop
 	
 	Omorfi has prop listed in lexical data. :| Why isn't it working?
 
 
-9 Ja Hearrá Ipmil šaddadii eatnamis #juohkelágán muoraid, #hearvás oaidnit ja  buriid borrat, ja eallit muora sisa/siskkil #paradiás, nu maid buori ja  bahá dieđu muora.
-
-	+ kasvatti -> šaddadit, fixed something in cg
+9 Ja Hearrá Ipmil šaddadii eatnamis #juohkelágán muoraid, #hearvás oaidnit ja  buriid borrat, ja eallit muora sisa/siskkil paradiása, nu maid buori ja  bahá dieđu muora.
 
 	still problems with juohkelágán
 	
 	$ echo "juohkelágán" | automorf
-	juohkelágán	juohke<Der1>+Der/lágán<A><Attr>
-	juohkelágán	juohke<Der1>+Der/lágán<A><Sg><Nom>
-	juohkelágán	juohke<Der1>+Der/lágán<A><Sg><Acc>
+	juohkelágán	juohke<Der1><Der_lágán><A><Attr>
+	juohkelágán	juohke<Der1><Der_lágán><A><Sg><Nom>
+	juohkelágán	juohke<Der1><Der_lágán><A><Sg><Acc>
 	
 	
 
-10 Ja #Eden manai johka, gii njuoskadii #paradiás, ja dat juohkašuvai  #dat njealji/njealje- suorgái.
+10 Ja #Eden manai johka, gii njuoskadii paradiása, ja dat juohkašuvai  #dat njealji/njealje/njealje- suorgái.
 
 11 @Ensimmäinen namma lea *Piison; dat #golgit @koko *Havilan eatnama, geas lea  @kulta;
 
@@ -65,26 +58,24 @@ bibel.no 5 ii lean vel ii oktage meahci miestta eatnama alde, iige lean mihkkege
 
 14 Goalmmáda eanu namma lea *Hiddekel; dat viehká *Assurin @editse.  Ja  njealját eatnu lea Eufrat.
 
-15 Ja Hearrá Ipmil válddii olbmo ja bijai su #Eden #paradiás  šaddadit ja várjalit dan.
+15 Ja Hearrá Ipmil válddii olbmo ja bijai su #Eden paradiásii  šaddadit ja várjalit dan.
 
-16 Ja Hearrá Ipmil gohčui olbmo dadjat: @"Bora @vapaa buot muitte  #paradiás @puistaa,
+16 Ja Hearrá Ipmil gohčui olbmo daddjat/dadjat: @"Bora @vapaa buot muitte  paradiása @puistaa,
 
-17 muhte buori ja bahá dieđu muoras ale bora, #dat #dat beaivin, geanin  don #dat borat, berre du #jápmin #jápmin@".
+17 muhte buori ja bahá dieđu muoras ale bora, #dat #dat beaivin, geanin  don #dat borat, berre du jápmimis jápmima@".
 
-18 Ja Hearrá Ipmil dajai: @"Ii leat olbmo buorre leat oktan, mun  dagan sutnje veahki, gii lea sutnje vuogas@".
+18 Ja Hearrá Ipmil daddjai/dajai: @"Ii leat olbmo buorre leat/leahket oktan, mun  dagan sutnje veahki, gii lea sutnje vuogas@".
 
-19 Ja Hearrá Ipmil dagai eatnamis buot vuovddi eallit ja buot almmi  lottit ja @toi dat olbmo ovdii oaidnit, mot son dat namahivččii; ja  #nugo olmmoš namahii juohke #eallit sivdnádusa, nu lei dan namma @oleva.
+19 Ja Hearrá Ipmil dagai eatnamis buot vuovddi eallit ja buot almmi  lottit ja @toi dat olbmo ovdii oaidnit, mot son dat namahivččii; ja  #nugo olmmoš namahii juohke ealli sivdnádusa, nu lei dan namma @oleva.
 
-20 Ja olmmoš attii namat buot eallu ealliide/elliide ja almmi lottiide  ja buot vuovddi ealliide/elliide. Muhte Áttámii ii gávdnon veahki, gii  livččii sutnje heiven.
+20 Ja olmmoš attii namat buot eallu ealliide/elliide ja almmi lottiide  ja buot vuovddi ealliide/elliide. Muhte Áttámii ii gávdnon veahki, gii  livččii/livčče/livččui sutnje heiven.
 
 21 Nu Hearrá Ipmil @vaivuttaa olbmo lossadii nahkárii, ja go son  ođii, válddii son #okta su #erttetdákti ja devddii dan báikki bierggus.
 
 22 Ja Hearrá Ipmil ráhkadii eami #dat #erttetdákti, gean son lei  váldán dievddus, ja buvttii su dievddu lusa.
 
-23 Ja dievdu dajai: @"Dát lea @nyt dákti mu dávttiinan ja biergu mu  deahkkán; son #gohčodit divdui, #dat son lea dievddus  váldán@".
+23 Ja dievdu daddjai/dajai: @"Dát lea @nyt dákti mu dávttiinan ja biergu mu  deahkkán; son #gohčodit divdui, #dat son lea dievddus  váldán@".
 
 24 *Sentähden dievdu luhpos áhčisteaset ja eatnisteaset ja servos  eapmáseaset, ja sii bohtet ovtta birgui.
 
 25 Ja sii ledje #goappašat, dievdu ja su eamiset, @ala eai  heahpanan @toinen.
-
-
