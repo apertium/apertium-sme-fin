@@ -105,6 +105,7 @@
 +PlNomLeft	@0@
 +PlGenCmp	@0@
 +CmpN/SgN	@0@
++CmpN/Sg	@0@
 +CmpN/SgG	@0@
 +CmpN/PlG	@0@
 +CmpN/DefSgGen	@0@
