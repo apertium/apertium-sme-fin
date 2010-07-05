@@ -941,7 +941,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-    <rule comment="regla: attrmod nom">
+    <rule comment="regla: attrmod nom"> <!-- I get the feeling this is not doing what i intend: hän kutsui {sitä eedeniksi}, should not be grouped in this case -->
       <pattern>
         <pattern-item n="attrmod"/>
         <pattern-item n="nom"/>

@@ -9325,6 +9325,7 @@ mullju GOAHTI ;
  muohtti+CmpN/SgN+CmpN/SgG+CmpN/PlG:muohtti ALBMI; !
  muohtti+G3+CmpN/SgN+CmpN/SgG+CmpN/PlG:muohtti¤ GOAHTI ; !
 muoh0tu:muoh'tu BASSI ;
+muol0da:muol'da GOAHTI ;
 muorje#meas0tu:muorje#meas'tu GOAHTI ;
  muor0ji+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:muor'ji GOAHTI ; !
  muorra+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:muorra GOAHTI; !
@@ -11652,6 +11653,7 @@ unohas:unoh UNOHAS ;
  vanhurskkismeahttun+Use/Sub:vanhurskkismeahttu MEAHTTUS ; !
 va0ras:varras GAPPUS ;
 vejolaš:vejol DABALAS ;
+ velggolaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:velggol ETNOLOGALAS ; !
  vielgat+CmpN/SgN+CmpN/SgG+CmpN/PlG:vielg VIELG ; !
  vieris#eatnanlaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:vieris#eatnanl AHKASAS ; !
  vie0ris+CmpN/SgN+CmpN/SgG+CmpN/PlG:vierris VATTIS ; !
@@ -13837,6 +13839,7 @@ Bálo^jáv0ri:Bálo^jáv'ri MARJA-plc ;
 Bár0ši:Bár'ši MARJA-plc ;
 Báđoš:Báđož ANAR-plc ;
 Báđár ANAR-plc ;
+Børre ACCRA-mal ;
 Cieskul^joh0ka:Cieskul^joh'ka MARJA-plc ;
 Dar0ji:Dar'ji MARJA-plc ;
  Darji+Use/Sub:Darji MARJA-plc ; !?
@@ -13980,6 +13983,7 @@ Lamek LONDON-sur ;
  Leam0mi:Leam'mi MARJA-plc ; !This is probably better option than ACCRA !FIN
 Leavdnja MARJA-plc ;
 Leaváš:Leaváž PLACE-DIM-plc ;
+Lene ACCRA-fem ;
 Li^etuva ACCRA-plc ;
  Lihtto^muor^várri MARJA-plc ; !FIN
  Lismá^gierrat^guolbba:Lismá^gierrat^guol'ban8 GUOLBBA-plc ; !FIN
@@ -13992,6 +13996,9 @@ Lu^jáv0ri:Lu^jáv'ri MARJA-plc ;
  Luossa^goatnil ANAR-plc ; !FIN
 Látvia ACCRA-plc ;
  Lávnnjit^vuopmi+Use/Sub:Lávnnjit^vuopmi MARJA-plc ; !
+ Majava^joh0ka:Majava^joh'ka MARJA-plc ; !FIN
+ Majava^skái0di:Majava^skáj'di MARJA-plc ; !FIN
+Maja ACCRA-fem ;
 Mearra^bah0ta:Mearra^bah'ta MARJA-plc ;
 Mearra^bađa^luok0ta:Mearra^bađa^luok'ta MARJA-plc ;
 Meksiko:Meksiko9 ACCRA-plc ;
@@ -14035,6 +14042,9 @@ Omas^vuotna MARJA-plc ;
 Ovnnesjoh0ka:Ovnnesjoh'ka MARJA-plc ;
  Ovnnes^joh0ka:Ovnnes^joh'ka MARJA-plc ; !FIN
  Ovnnes^jáv0ri:Ovnnes^jáv'ri MARJA-plc ; !FIN
+ Per-čezá% jáv0ri:Per-čezá% jáv'ri MARJA-plc ; !FIN
+Per BERN-mal ;
+ Permanent BERN-org ; !Permanent forum
  Polen+Use/Sub:Polen9 LONDON-plc ; !
 Pols0ka:Pols'ka MARJA-plc ;
 Porsáŋ0gu:Porsáŋ'gu MARJA-plc ;
@@ -14059,6 +14069,7 @@ Ruoŧŧa SUOPMA-plc ;
 Sibir0já:Sibir'já MARJA-plc ;
 Silis^jáv0ri:Silis^jáv'ri MARJA-plc ;
 Sisilia ACCRA-plc ;
+Sjur BERN-mal ;
 Skandinávia ACCRA-plc ;
  Skiehččan^joh0ka:Skiehččan^joh'ka MARJA-plc ; !FIN
  Skot^lán0da+Use/Sub:Skot^lán'da MARJA-plc ; !
@@ -14080,9 +14091,18 @@ Suoma^njár0ga:Suoma^njár'ga MARJA-plc ;
 Sállan:Sállan9 ANAR-plc ;
 Sálle^várri MARJA-plc ;
  Sápmi+CmpN/SgG:Sápmi SUOPMA-plc ; !
+ Sára^máhte^guolbba+Use/Sub:Sára^máhte^guol'ban8 GUOLBBA-plc ; !
+ Sára^á00ja:Sára^ád'jag8 GUOLBBA-plc ; !FIN
+ Sára^joh0ka:Sára^joh'ka MARJA-plc ; !FIN
+ Sára^geađ0gi:Sára^geađ'gi MARJA-plc ; !FIN
 Sáre^vuopmi MARJA-plc ;
+Tampere:Tampere SIJTE-plc ;
+ Tampere+N+Prop+Org+Sg+Ill:Tamperei K ; !alt. ill-form
 Thai^ea0na:Thai^eatnam8 GUOLBBA-plc ;
+Thomas LONDON-mal ;
+Thomas:Thomas LONDON-mal ;
 Tibet BERN-plc ;
+Tomi ACCRA-mal ;
 Tommi ACCRA-mal ;
 Troms BERN-LOAN-plc ;
  Tromssa-OL+Use/Sub:Tromssa-OL BERN-org; !
@@ -14090,11 +14110,13 @@ Troms BERN-LOAN-plc ;
  Troms% i% felles^skap+Use/Sub:Troms% i% felles^skap9 BERN-org ; !
 Troms^ø NYSTØ-LOAN-plc ;
  Troms^øy+Use/Sub:Troms^øy NYSTØ-plc ; !
+Trond:Trond9 BERN-mal ;
  Turkiija+Use/Sub:Turkiija MARJA-plc ; !
 Turkki ACCRA-sur ;
 Ubmi MARJA-plc ;
 Ukraina ACCRA-plc ;
 U^njár0ga:U^njár'ga MARJA-plc ;
+Uula MARJA-mal ;
 Vazáš:Vazáž ANAR-plc ;
  Veahča^joh0ka:Veahča^joh'ka MARJA-plc ; !FIN
 Veahča^jáv0ri:Veahča^jáv'ri MARJA-plc ;
@@ -14481,6 +14503,7 @@ oktonassii adv ;
 olggos adv ;
 olggul adv ;
 olgun adv ;
+ollenge CSadv ;
 ollu adv ;
 ollásit adv ;
 oppa adv ;
@@ -14538,6 +14561,7 @@ veaháš adv ;
 vearrut adv ;
 vehá adv ;
 veháš adv ;
+vel adv ;
 viehka adv ;
 viimmat adv ;
 vulos adv ;

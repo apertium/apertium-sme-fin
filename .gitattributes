@@ -1498,6 +1498,7 @@ dev/bidix/Pron.lex.orig -text
 dev/bidix/V.lex -text
 dev/bidix/V.lex.orig -text
 dev/bidix/calc-levenshtein.py -text
+dev/chapter002_notes -text
 dev/countries.txt -text
 dev/fin.cfg -text
 dev/langs.cfg -text

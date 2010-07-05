@@ -1,0 +1,89 @@
+1 Nu bohte gárvásii albmi ja eana buot #joavku.
+
+	comitative generation issue -- can't figure out how to make transfer rule work
+
+2 Ja Ipmil mearridii #čihččet beaivin bargguset, gean son lei dahkan,  ja vuoiŋŋastii #čihččet beaivin buot barggusteaset, gean son lei  dahkan.
+
+	in bible.no : čihččet beaivvi, not with ess. -- .t2x?
+
+3 Ja Ipmil #bures+sivdnidit čihččeda beaivvi ja basuhii dan, #danin son #dat  beaivin vuoiŋŋastii buot @luomistyö, gean son lei dahkan.
+
+	trying lexicalizing luomistyö, requires compound analysis which is dropped from hfstproc
+	
+	doesn't work as lexical item in dictionary.
+
+
+4 Dát lea muitalus almmi ja eatnama #riegádeapmi, go dat #sivdnidit.  #Dat  áigái go Hearrá Ipmil dagai eatnama ja almmi,
+
+	$ echo "riegádeamis" | automorf
+	...
+	riegádeamis	riegádeapmi+CmpN/Sg<N><Sg><Acc><PxSg3>
+	riegádeamis	riegádeapmi+CmpN/Sg<N><Sg><Gen><PxSg3>
+	riegádeamis	riegádeapmi+CmpN/Sg<N><Sg><Loc>
+	
+	+CmpN/Sg tag problem? Can this be removed with the twolc scripts?
+
+5 ii leamaš #vel #okta gietti miestaga eatnama alde, ii #vel šaddan  mange suoinni giettis, #danin Hearrá Ipmil ii #vel leamaš addán čuođi  eatnama ala ii leamaš olbmo eatnama šaddadit,
+
+
+6 muhto mierká čuožžilii eatnamis ja njuoskadii @koko eatnama @pinna.
+
+	how to select between pinna and pinta in CG? both nouns
+
+7 Dalle Hearrá Ipmil dagai eatnama #muolda olbmo ja bosui su  *sieramiinsa #eallin vuoiŋŋa, ja nu olbmos bođii @elävä siellu.
+
+	sieramiinsa?
+
+8 Ja Hearrá Ipmil čohkkáhii #paradiás #Eden, #nuorta, ja ásahii dohko  olbmo, gean son lei dahkan.
+
+	Eden requires Prop.Plc tags which aren't being inserted now: problem is that omorfi is not returning N Prop
+	
+	Omorfi has prop listed in lexical data. :| Why isn't it working?
+
+
+9 Ja Hearrá Ipmil šaddadii eatnamis #juohkelágán muoraid, #hearvás oaidnit ja  buriid borrat, ja eallit muora sisa/siskkil #paradiás, nu maid buori ja  bahá dieđu muora.
+
+	+ kasvatti -> šaddadit, fixed something in cg
+
+	still problems with juohkelágán
+	
+	$ echo "juohkelágán" | automorf
+	juohkelágán	juohke<Der1>+Der/lágán<A><Attr>
+	juohkelágán	juohke<Der1>+Der/lágán<A><Sg><Nom>
+	juohkelágán	juohke<Der1>+Der/lágán<A><Sg><Acc>
+	
+	
+
+10 Ja #Eden manai johka, gii njuoskadii #paradiás, ja dat juohkašuvai  #dat njealji/njealje- suorgái.
+
+11 @Ensimmäinen namma lea *Piison; dat #golgit @koko *Havilan eatnama, geas lea  @kulta;
+
+12 ja dan eatnama @kulta lea buori. #Dat lea maid *bedellion@-pihka ja  *onyks@-kivetä.
+
+13 Nuppi/Nuppe eanu namma lea *Giihon; dat #golgit @koko #Mánnu eatnama.
+
+14 Goalmmáda eanu namma lea *Hiddekel; dat viehká *Assurin @editse.  Ja  njealját eatnu lea Eufrat.
+
+15 Ja Hearrá Ipmil válddii olbmo ja bijai su #Eden #paradiás  šaddadit ja várjalit dan.
+
+16 Ja Hearrá Ipmil gohčui olbmo dadjat: @"Bora @vapaa buot muitte  #paradiás @puistaa,
+
+17 muhte buori ja bahá dieđu muoras ale bora, #dat #dat beaivin, geanin  don #dat borat, berre du #jápmin #jápmin@".
+
+18 Ja Hearrá Ipmil dajai: @"Ii leat olbmo buorre leat oktan, mun  dagan sutnje veahki, gii lea sutnje vuogas@".
+
+19 Ja Hearrá Ipmil dagai eatnamis buot vuovddi eallit ja buot almmi  lottit ja @toi dat olbmo ovdii oaidnit, mot son dat namahivččii; ja  #nugo olmmoš namahii juohke #eallit sivdnádusa, nu lei dan namma @oleva.
+
+20 Ja olmmoš attii namat buot eallu ealliide/elliide ja almmi lottiide  ja buot vuovddi ealliide/elliide. Muhte Áttámii ii gávdnon veahki, gii  livččii sutnje heiven.
+
+21 Nu Hearrá Ipmil @vaivuttaa olbmo lossadii nahkárii, ja go son  ođii, válddii son #okta su #erttetdákti ja devddii dan báikki bierggus.
+
+22 Ja Hearrá Ipmil ráhkadii eami #dat #erttetdákti, gean son lei  váldán dievddus, ja buvttii su dievddu lusa.
+
+23 Ja dievdu dajai: @"Dát lea @nyt dákti mu dávttiinan ja biergu mu  deahkkán; son #gohčodit divdui, #dat son lea dievddus  váldán@".
+
+24 *Sentähden dievdu luhpos áhčisteaset ja eatnisteaset ja servos  eapmáseaset, ja sii bohtet ovtta birgui.
+
+25 Ja sii ledje #goappašat, dievdu ja su eamiset, @ala eai  heahpanan @toinen.
+
+
