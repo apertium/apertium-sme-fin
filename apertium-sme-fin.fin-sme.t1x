@@ -298,7 +298,8 @@
         </when>
       </choose>
     </def-macro>
-    <def-macro n="set_loc_loc1" npar="1" c="arg.1: noun. Change All/Ela/Ade/Ine/Abl into Loc">
+    
+    <def-macro n="set_loc_loc1" npar="1" c="arg.1: noun. Change Ela/Ade/Ine/Abl into Loc">
       <choose>
         <when>
           <test>
@@ -313,10 +314,12 @@
 </begins-with>
 </or>-->
             <or>
+<!--
               <equal>
                 <clip pos="1" side="sl" part="a_case"/>
                 <lit-tag v="All"/>
               </equal>
+-->              
               <equal>
                 <clip pos="1" side="sl" part="a_case"/>
                 <lit-tag v="Abl"/>
@@ -343,6 +346,30 @@
         </when>
       </choose>
     </def-macro>
+
+    <def-macro n="set_all_ill1" npar="1" c="arg.1: noun. Change All into Ill">
+      <choose>
+        <when>
+          <test>
+              <equal>
+                <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="All"/>
+              </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="a_case"/>
+            <lit-tag v="Ill"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+    
+    <!--
+Tra can be both Ill and Ess.
+Käännän suomeksi - Jorgalan suomagillii.
+Tulin lääkäriksi - šadden doavttirin.    
+So, Tra > Ess if predicative. But for this we need syntactic tags.
+    -->
     <def-macro n="set_tra_ill1" npar="1" c="arg.1: noun. Change Tra into Ill">
       <choose>
         <when>
@@ -488,6 +515,9 @@
         <call-macro n="set_loc_loc1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="set_tra_ill1">
           <with-param pos="1"/>
         </call-macro>
@@ -525,6 +555,9 @@
         <call-macro n="set_loc_loc1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="set_tra_ill1">
           <with-param pos="1"/>
         </call-macro>
@@ -554,6 +587,9 @@
       </pattern>
       <action>
         <call-macro n="set_loc_loc1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_all_ill1">
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="set_tra_ill1">
@@ -671,6 +707,9 @@
       </pattern>
       <action>
         <call-macro n="set_loc_loc1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_all_ill1">
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="set_tra_ill1">
@@ -833,6 +872,9 @@
         <call-macro n="set_loc_loc1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="set_tra_ill1">
           <with-param pos="1"/>
         </call-macro>
@@ -883,6 +925,9 @@
         </call-macro>
         <call-macro n="set_loc_loc1">
           <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="set_tra_ill1">
           <with-param pos="2"/>
@@ -942,6 +987,9 @@
         <call-macro n="set_loc_loc1">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="set_tra_ill1">
           <with-param pos="1"/>
         </call-macro>
@@ -984,6 +1032,9 @@
       </pattern>
       <action>
         <call-macro n="set_loc_loc1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_all_ill1">
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="set_tra_ill1">
@@ -1076,6 +1127,9 @@
       <action>
 	    <call-macro n="set_loc_loc1">
           <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="set_tra_ill1">
           <with-param pos="2"/>
