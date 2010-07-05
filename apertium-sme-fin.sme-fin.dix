@@ -882,7 +882,8 @@
     <e><p><l>bargobivttas<s n="N"/></l><r>työvaatteet<s n="N"/></r></p></e>
     <e><p><l>bargoplána<s n="N"/></l><r>työsuunnitelma<s n="N"/></r></p></e>
     <e><p><l>bargosadji<s n="N"/></l><r>työpaikka<s n="N"/></r></p></e>
-    <e><p><l>sivdnidan<j/>dahku<s n="N"/></l><r>luomis<j/>työ<s n="N"/></r></p></e>
+    <!--<e><p><l>sivdnidan<j/>dahku<s n="N"/></l><r>luomis<j/>työ<s n="N"/></r></p></e>-->
+    <e><p><l>sivdnidan<j/>dahku<s n="N"/></l><r>luomistyö<s n="N"/></r></p></e>
     <e><p><l>bargu<s n="N"/></l><r>työ<s n="N"/></r></p></e>
     <e><p><l>barta<s n="N"/></l><r>mökki<s n="N"/></r></p></e>
     <e><p><l>basadanlatnja<s n="N"/></l><r>kylpyhuone<s n="N"/></r></p></e>
