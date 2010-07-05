@@ -610,6 +610,7 @@
 	<e><p><l>biellorássi<s n="N" /></l><r>kissankello<s n="N"/></r></p></e>
 	<e><p><l>boallorássi<s n="N" /></l><r>kullero (? kullervo)<s n="N"/></r></p></e>
 	<e><p><l>boaresgállarássi<s n="N" /></l><r>metsäkurjenpolvi<s n="N"/></r></p></e>
+	<e><p><l>boazu<s n="N" /></l><r>poro<s n="N"/></r></p></e>
 	<e><p><l>boska<s n="N" /></l><r>väinönputki<s n="N"/></r></p></e>
 	<e><p><l>báktenárti<s n="N" /></l><r>pahtarikko<s n="N"/></r></p></e>
 	<e><p><l>básdiehpáš<s n="N" /></l><r>keminängelmä<s n="N"/></r></p></e>
@@ -3109,6 +3110,7 @@
     <e><p><l>Sápmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lappi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Sárevuopmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Saarivuoma<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Thaieana<s n="N"/><s n="Prop"/></l><r>Thaimaa<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Tampere<s n="N"/><s n="Prop"/></l><r>Tampere<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Tibet<s n="N"/><s n="Prop"/></l><r>Tiibet<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Tommi<s n="N"/><s n="Prop"/></l><r>Tommi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Troms<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tromsa<s n="N"/><s n="Prop"/></r></p></e>
@@ -3229,6 +3231,19 @@
     <e><p><l>Noa<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Nooa<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Kain<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Kain<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Abel<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Aabel<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Trond<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Trond<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sjur<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Sjur<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ciprian<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Ciprian<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Børre<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Børre<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Tomi<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Tomi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Thomas<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Aabel<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Maja<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Maja<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Lene<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Lene<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Biret-Ánne<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Biret-Ánne<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Sára<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Saara<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Per<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Per<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Uula<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Ola<s n="N"/><s n="Prop"/></r></p></e>
+
     <e><p><l>Adai<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Aada<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Eufrat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Eufrat<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Lamek<s n="N"/><s n="Prop"/><s n="Sur"/></l><r>Lemek<s n="N"/><s n="Prop"/></r></p></e>
