@@ -1,6 +1,4 @@
-1 Nu bohte gárvásii albmi ja eana buot #joavku.
-
-	comitative generation issue -- can't figure out how to make transfer rule work
+1 Nu bohte gárvásii albmi ja eana buot joavkkuineaset.
 
 2 Ja Ipmil mearridii #čihččet beaivin bargguset, gean son lei dahkan,  ja vuoiŋŋastii #čihččet beaivin buot barggusteaset, gean son lei  dahkan.
 
@@ -13,18 +11,10 @@
 	doesn't work as lexical item in dictionary.
 
 
-4 Dát lea muitalus almmi ja eatnama #riegádeapmi, go dat #sivdnidit.  #Dat  áigái go Hearrá Ipmil dagai eatnama ja almmi,
+4 Dát lea muitalus almmi ja eatnama riegádeamis, go dat #sivdnidit.  #Dat  áigái go Hearrá Ipmil dagai eatnama ja almmi,
 
-	$ echo "riegádeamis" | automorf
-	...
-	riegádeamis	riegádeapmi+CmpN/Sg<N><Sg><Acc><PxSg3>
-	riegádeamis	riegádeapmi+CmpN/Sg<N><Sg><Gen><PxSg3>
-	riegádeamis	riegádeapmi+CmpN/Sg<N><Sg><Loc>
-	
-	+CmpN/Sg tag problem? Can this be removed with the twolc scripts?
 
 5 ii leamaš #vel #okta gietti miestaga eatnama alde, ii #vel šaddan  mange suoinni giettis, #danin Hearrá Ipmil ii #vel leamaš addán čuođi  eatnama ala ii leamaš olbmo eatnama šaddadit,
-
 
 6 muhto mierká čuožžilii eatnamis ja njuoskadii @koko eatnama @pinna.
 
@@ -40,7 +30,6 @@
 	
 	Omorfi has prop listed in lexical data. :| Why isn't it working?
 
-
 9 Ja Hearrá Ipmil šaddadii eatnamis #juohkelágán muoraid, #hearvás oaidnit ja  buriid borrat, ja eallit muora sisa/siskkil #paradiás, nu maid buori ja  bahá dieđu muora.
 
 	+ kasvatti -> šaddadit, fixed something in cg
@@ -52,7 +41,9 @@
 	juohkelágán	juohke<Der1>+Der/lágán<A><Sg><Nom>
 	juohkelágán	juohke<Der1>+Der/lágán<A><Sg><Acc>
 	
-	
+
+		FMT: Now we get: ^juohkelágán/juohke<Der1><Der_lágán><A><Attr>/juohke<Der1><Der_lágán><A><Sg><Nom>/juohke<Der1><Der_lágán><A><Sg><Acc>$
+		FMT: We need juohkelágán lexicalised as an adjective in the sme FST
 
 10 Ja #Eden manai johka, gii njuoskadii #paradiás, ja dat juohkašuvai  #dat njealji/njealje- suorgái.
 

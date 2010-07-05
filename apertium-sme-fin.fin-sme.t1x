@@ -283,6 +283,9 @@
     <def-var n="cur_verb_tense"/>
   </section-def-vars>
   <section-def-macros>
+    <def-macro n="reset_rule_variables1" npar="1">
+      <let><var n="com_num"/><lit v=""/></let>
+    </def-macro>
 	<def-macro n="set_com_number" npar="1" c="When noun case is comitative, add 'Sg' tag">
 		<choose>
         <when>
@@ -300,7 +303,7 @@
         <otherwise>
           <let>
             <var n="com_num"/>
-			<lit-tag v=""/>
+			<lit v=""/>
           </let>
         </otherwise>
       </choose>
@@ -932,13 +935,16 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_nom"/>
               <!-- <clip pos="1" side="tl" part="gen"/> -->
-			  <clip pos="1" side="tl" part="com_num"/> <!-- only in use in Comitative -->
+      	  <var n="com_num"/> <!-- only in use in Comitative -->
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
             </lu>
           </chunk>
         </out>
+        <call-macro n="reset_rule_variables1">
+          <with-param pos="1"/>
+        </call-macro>
       </action>
     </rule>
     <rule comment="regla: attrmod nom"> <!-- I get the feeling this is not doing what i intend: hän kutsui {sitä eedeniksi}, should not be grouped in this case -->
