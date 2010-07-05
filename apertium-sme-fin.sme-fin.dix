@@ -706,6 +706,7 @@
 	<e><p><l>leaibi<s n="N" /></l><r>harmaaleppä<s n="N"/></r></p></e>
 	<e><p><l>lieđđedaŋas<s n="N" /></l><r>uuvana<s n="N"/></r></p></e>
 	<e><p><l>livdnju<s n="N" /></l><r>kanerva<s n="N"/></r></p></e>
+	<e><p><l>gáranas<s n="N" /></l><r>korppi<s n="N"/></r></p></e>
 	<e><p><l>lávžžamuorji<s n="N" /></l><r>lillukka<s n="N"/></r></p></e>
 	<e><p><l>miehtaguodja<s n="N" /></l><r>kiiltosara<s n="N"/></r></p></e>
 	<e><p><l>miehtamuorji<s n="N" /></l><r>mesimarja<s n="N"/></r></p></e>
@@ -2096,6 +2097,9 @@
     <e><p><l>olju<s n="N"/></l><r>öljy<s n="N"/></r></p></e>
     <e><p><l>ollesolmmoš<s n="N"/></l><r>aikuinen<s n="N"/></r></p></e>
     <e><p><l>olmmoš<s n="N"/></l><r>ihminen<s n="N"/></r></p></e>
+    <e><p><l>imaš<s n="N"/></l><r>ihme<s n="N"/></r></p></e>
+	<e><p><l>máinnas<s n="N"/></l><r>satu<s n="N"/></r></p></e>
+	
     <e><p><l>olmmošgoddi<s n="N"/></l><r>murhaaja<s n="N"/></r></p></e>
     <e><p><l>olmmái<s n="N"/></l><r>ystävä<s n="N"/></r></p></e>
     <e><p><l>omman<s n="N"/></l><r>uuni<s n="N"/></r></p></e>
@@ -3320,7 +3324,7 @@
     <e><p><l>deaŧalaš<s n="A"/></l><r>tärkeä<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>dievas<s n="A"/></l><r>täysi<s n="A"/></r></p><par n="A_A" /></e>
     <e><p><l>divrras<s n="A"/></l><r>kallis<s n="A"/></r></p><par n="A_A"/></e> 
-    <e><p><l>dološ<s n="A"/></l><r>vanha<s n="A"/></r></p><par n="A_A"/></e> 
+    <e slr="1"><p><l>dološ<s n="A"/></l><r>vanha<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>dovddus<s n="A"/></l><r>tunnettu<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>dovddus<s n="A"/></l><r>tuttu<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>duhtavaš<s n="A"/></l><r>tyytyväinen<s n="A"/></r></p><par n="A_A"/></e> 
@@ -3703,6 +3707,7 @@
 	<e><p><l>billašuvvat<s n="V"/><s n="IV"/></l><r>turmeltua<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>borggihit<s n="V"/><s n="TV"/></l><r>pöllähtää<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>buktit<s n="V"/><s n="TV"/></l><r>tuoda<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>doalvut<s n="V"/><s n="TV"/></l><r>viedä<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>bures<j/>sivdnidit<s n="V"/><s n="TV"/></l><r>siunata<s n="V"/></r></p><par n="V_V"/></e> <!-- bures#sivdnidit -->
 	<e><p><l>dagahit<s n="V"/><s n="TV"/></l><r>aiheuttaa<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>deattuhit<s n="V"/><s n="TV"/></l><r>korostaa<s n="V"/></r></p><par n="V_V"/></e>
@@ -3803,6 +3808,7 @@
     <e><p><l>bivvat<s n="V"/><s n="IV"/></l><r>tareta<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>biškut<s n="V"/><s n="IV"/></l><r>kirkua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>boagustit<s n="V"/><s n="TV"/></l><r>nauraa<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>bohkosit<s n="V"/><s n="IV"/></l><r>naurahtaa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>boahtit<s n="V"/><s n="IV"/></l><r>tulla<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>boahtit<s n="V"/><s n="IV"/></l><r>tulla<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>boaldit<s n="V"/><s n="TV"/></l><r>polttaa<s n="V"/></r></p><par n="V_V"/></e>

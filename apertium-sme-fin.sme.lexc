@@ -6466,6 +6466,7 @@ boagustit:boagust MUITAL ;
 boah0tit:boah'ti BOAHTI ;
 boal0dit:boal'di DIEHTILONGSHORT ;
 boatkuluvvat:boatkul UVVA ;
+bohkosit:bohkos BOTNJAS ;
 boh0čit:boh'či DIEHTI ;
 boradit:borad MUITAL ;
 borahit:borah MUITAL ;
@@ -8560,6 +8561,13 @@ gámmár GAHPIRLONG ;
  gán0da+CmpN/SgN+CmpN/SgG+CmpN/PlG:gán'da GOAHTI ; !
  gánda#bui0ca+CmpN/SgN+CmpN/SgG+CmpN/PlG:gánda#buj'ca GOAHTI ; !
  gándalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:gándalažž JOHTOLAT ; !
+ gáranas#bai0ka+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:gáranas#baj'ka GOAHTI ; !
+ gáranas#báh0ti+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:gáranas#báh'ti GOAHTI ; !
+ gáranas#muor0ji+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:gáranas#muor'ji GOAHTI ; !
+ gáranas#mánnu+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:gáranas#mánnu AIGI; !
+ gáranas#rássi+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:gáranas#rássi AIGI; !
+ gáranas#sággi+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:gáranas#sággi GOAHTI; !
+ gáranas+CmpN/SgN+CmpN/SgG+CmpN/PlG:gáranass JOHTOLAT ; !
  gáranas#muor0ji+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:gáranas#muor'ji GOAHTI ; !
 gárastat:gárastah'k JOHTOLAT ;
 gár0di:gár'di GOAHTI ;
@@ -8715,6 +8723,9 @@ illu ALBMILONG ;
  illu#beai0vi+N+CmpN/Sg+CmpN/Sg:illu#beai%> Rreal ; !
  illustrašuvdna:illustrašu TELEFON ; !^LOAN
  illusjonis0ma:illusjonis'ma GOAHTI ; !^LOAN
+i0maš:ipmaš MALIS ;
+ imaš+CmpN/SgN+CmpN/SgG+CmpN/PlG+Use/Sub:imaž GAHPIR ; !
+imaš:ipma DAIVVAS ;
 interneahtta GOAHTI ;
  internáhtta+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:internáhtta GOAHTI; !
  ipmi+CmpN/SgN+CmpN/SgG+CmpN/PlG:ipmi ALBMI; !
