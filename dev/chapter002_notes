@@ -1,8 +1,14 @@
-1 Nu bohte gárvásii albmi ja eana buot joavkkuineaset.
+1 Nu bohte #gárvvis albmi ja eana buot joavkkuineaset.
 
+	okay, what broke
+
+
+2 Ja Jumala päätti seitsemäntenä päivänä työnsä, jonka hän oli tehnyt,  ja lepäsi seitsemäntenä päivänä kaikesta työstänsä, jonka hän oli  tehnyt.
 2 Ja Ipmil mearridii #čihččet beaivin bargguset, gean son lei dahkan,  ja vuoiŋŋastii #čihččet beaivin buot barggusteaset, gean son lei  dahkan.
 
 	in bible.no : čihččet beaivvi, not with ess. -- .t2x?
+
+	need to change case of '7th day'/seitsemäntenä päivänä from ess to nom.
 
 3 Ja Ipmil #bures+sivdnidit čihččeda beaivvi ja basuhii dan, #danin son #dat  beaivin vuoiŋŋastii buot @luomistyö, gean son lei dahkan.
 
@@ -14,7 +20,12 @@
 4 Dát lea muitalus almmi ja eatnama riegádeamis, go dat #sivdnidit.  #Dat  áigái go Hearrá Ipmil dagai eatnama ja almmi,
 
 
-5 ii leamaš #vel #okta gietti miestaga eatnama alde, ii #vel šaddan  mange suoinni giettis, #danin Hearrá Ipmil ii #vel leamaš addán čuođi  eatnama ala ii leamaš olbmo eatnama šaddadit,
+5 ei ollut vielä yhtään kedon pensasta maan päällä, eikä vielä kasvanut  mitään ruohoa kedolla, koska Herra Jumala ei vielä ollut antanut sataa  maan päälle eikä ollut ihmistä maata viljelemässä,
+5 ii leamaš vel ollenge gietti miestaga eatnama alde, ii vel šaddan  mange suoinni giettis, #danin Hearrá Ipmil ii vel leamaš addán čuođi  eatnama ala ii leamaš olbmo eatnama šaddadit,
+
+bibel.no 5 ii lean vel ii oktage meahci miestta eatnama alde, iige lean mihkkege rásiid šaddan, dasgo Hearrá Ipmil ii lean diktán arvit eatnama ala, iige olmmoš lean bargamin dan.
+
+	+ Fixed CG for yhtään kedon pensasta
 
 6 muhto mierká čuožžilii eatnamis ja njuoskadii @koko eatnama @pinna.
 
@@ -30,6 +41,7 @@
 	
 	Omorfi has prop listed in lexical data. :| Why isn't it working?
 
+
 9 Ja Hearrá Ipmil šaddadii eatnamis #juohkelágán muoraid, #hearvás oaidnit ja  buriid borrat, ja eallit muora sisa/siskkil #paradiás, nu maid buori ja  bahá dieđu muora.
 
 	+ kasvatti -> šaddadit, fixed something in cg
@@ -41,9 +53,7 @@
 	juohkelágán	juohke<Der1>+Der/lágán<A><Sg><Nom>
 	juohkelágán	juohke<Der1>+Der/lágán<A><Sg><Acc>
 	
-
-		FMT: Now we get: ^juohkelágán/juohke<Der1><Der_lágán><A><Attr>/juohke<Der1><Der_lágán><A><Sg><Nom>/juohke<Der1><Der_lágán><A><Sg><Acc>$
-		FMT: We need juohkelágán lexicalised as an adjective in the sme FST
+	
 
 10 Ja #Eden manai johka, gii njuoskadii #paradiás, ja dat juohkašuvai  #dat njealji/njealje- suorgái.
 
