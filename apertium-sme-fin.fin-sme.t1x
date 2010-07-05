@@ -99,10 +99,6 @@
       <attr-item tags="Fem"/>
       <attr-item tags="Masc"/>
     </def-attr>
-    <def-attr n="nbr">
-      <attr-item tags="Sg"/>
-      <attr-item tags="Pl"/>
-    </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="V"/>
       <attr-item tags="V.IV"/>
@@ -134,6 +130,10 @@
 	  <attr-item tags="Pr" />
 	  <attr-item tags="Po" />
 	  <attr-item tags="Adp" />
+	</def-attr>
+	<def-attr n="nbr">
+	  <attr-item tags="Sg" />
+	  <attr-item tags="Pl" />
 	</def-attr>
     <def-attr n="a_pcle">
       <attr-item tags="Pcle"/>
@@ -177,7 +177,7 @@
       <attr-item tags="Ess"/>
       <attr-item tags="Tra"/>
       <attr-item tags="Abe"/>
-      <attr-item tags="Cmt"/>
+      <attr-item tags="Com"/>
       <attr-item tags="Ins"/>
       <attr-item tags="Loc"/>
     </def-attr>
@@ -277,11 +277,34 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="case"/>
+	<def-var n="com_num" />
     <def-var n="current_syntag"/>
     <def-var n="cur_verb_mood"/>
     <def-var n="cur_verb_tense"/>
   </section-def-vars>
   <section-def-macros>
+	<def-macro n="set_com_number" npar="1" c="When noun case is comitative, add 'Sg' tag">
+		<choose>
+        <when>
+          <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_case"/>
+                <lit-tag v="Com"/>
+              </equal>
+          </test>
+          <let>
+            <var n="com_num"/>
+			<lit-tag v="Sg"/>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <var n="com_num"/>
+			<lit-tag v=""/>
+          </let>
+        </otherwise>
+      </choose>
+	</def-macro>
     <def-macro n="set_qst_mark1" npar="1">
       <choose>
         <when>
@@ -462,7 +485,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </when>
       </choose>
     </def-macro>
-    <def-macro n="strip_nbr" npar="1" c="Strip the nbr tag from personal pronouns">
+    <def-macro n="strip_nbr" npar="1" c="Strip the nbr tag">
       <choose>
         <when>
           <test>
@@ -881,7 +904,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_par_gen1">
           <with-param pos="1"/>
         </call-macro>
-        <choose>
+ 		<call-macro n="set_com_number">
+			<with-param pos="1" />
+		</call-macro>
+       <choose>
           <when>
             <test>
               <equal>
@@ -906,6 +932,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_nom"/>
               <!-- <clip pos="1" side="tl" part="gen"/> -->
+			  <clip pos="1" side="tl" part="com_num"/> <!-- only in use in Comitative -->
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
@@ -1043,7 +1070,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_par_gen1">
           <with-param pos="1"/>
         </call-macro>
-        <choose>
+        <choose> <!-- why is this not stripping number on ordinals? -->
           <when>
             <test>
               <equal>
@@ -1301,7 +1328,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="postpos"/>
       </pattern>
       <action>
-          <!-- Sometimes Pcle can be translated by Adv, this allows that -->
             <out>
               <chunk name="adp" case="caseFirstWord">
                 <tags>
@@ -1317,7 +1343,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </out> 
       </action>
     </rule>
-
     <rule comment="REGLA: PREPOSITIONS">
       <pattern>
         <pattern-item n="prepos"/>
@@ -1339,7 +1364,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </out> 
       </action>
     </rule>
-
     <rule comment="REGLA: PARTICLE">
       <pattern>
         <pattern-item n="pcle"/>
@@ -1386,8 +1410,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </choose>
       </action>
     </rule>
- 
-   <rule comment="REGLA: PUNCTUATION CLB">
+    <rule comment="REGLA: PUNCTUATION CLB">
       <pattern>
         <pattern-item n="punct_clb"/>
       </pattern>

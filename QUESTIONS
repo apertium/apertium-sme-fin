@@ -533,6 +533,17 @@ Should this return a compound analysis too, so that we can normalize spaces vs n
 
 ## Transfer notes
 
+### Comitative transfer to sme needs nbr tag added.
+
+	$ echo "joukkoinensa" | fin
+	joukkoinensa	joukko+N+Com+Pl3
+	joukkoinensa	joukko+N+Com+Sg3
+
+	echo "joavkkuidisguin" | sme
+	joavkkuidisguin	joavku+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG+N+Pl+Com+Use/Ped+PxSg3
+
+
+
 ### Derived adjectives
 
 	$ echo "soajálaš" | hfst-lookup .deps/sme-fin.automorf.hfst 

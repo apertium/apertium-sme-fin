@@ -88,7 +88,8 @@
 	<!-- Adv:Pcle -->
 	
 	<!-- The following all have Pcle on the finnish side, checked. Many are adverbs, but also possibly sentence level and thus should be CSes? Ryan -->
-
+	
+	<e><p><l>ain<s n="Adv"/></l><r>yhä<s n="Pcle"/></r></p></e>
 	<e><p><l>belle<s n="Adv"/></l><r>puoli<s n="Pcle"/></r></p></e>
 	<e><p><l>beare<s n="Adv"/></l><r>tahansa<s n="Pcle"/></r></p></e>
 	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkään<s n="Pcle"/></r></p></e>
@@ -113,6 +114,8 @@
     <e><p><l>gal<s n="Adv"/></l><r>kyllä<s n="Pcle"/></r></p></e>
     <e><p><l>nugo<s n="Adv"/></l><r>kuten<s n="Pcle"/></r></p></e>
 	<e><p><l>šat<s n="Adv"/></l><r>enää<s n="Pcle"/></r></p></e>   <!-- should be Adv -->
+	<e><p><l>vel<s n="Adv"/></l><r>vielä<s n="Pcle"/></r></p></e>  <!-- should be Adv -->
+	
 	
 	
 	
@@ -271,6 +274,7 @@
 	<!-- Adverbs -->
 	<!-- Adv: Adv -->
 	<e><p><l>duojásii<s n="Adv"/></l><r>alati<s n="Adv"/></r></p></e>
+	<e><p><l>hearkkit<s n="Adv"/></l><r>herkästi<s n="Adv"/></r></p></e>
 	<e><p><l>garrasit<s n="Adv"/></l><r>ankarasti<s n="Adv"/></r></p></e>
 	<e><p><l>ovdal<s n="Adv"/></l><r>ennemmin<s n="Adv"/></r></p></e>
 	<e><p><l>vuohččan<s n="Adv"/></l><r>ensiksi<s n="Adv"/></r></p></e>
@@ -370,6 +374,8 @@
 	<e><p><l>álkit<s n="Adv"/></l><r>helposti<s n="Adv"/></r></p></e>
 	<e><p><l>čiekŋalasas<s n="Adv"/></l><r>syvältä<s n="Adv"/></r></p></e>
 	<e><p><l>čiekŋalassii<s n="Adv"/></l><r>syvälle<s n="Adv"/></r></p></e>
+	<e><p><l>ollenge<s n="Adv"/></l><r>yhtään<s n="Adv"/></r></p></e>
+	
 	
 
 	
@@ -875,6 +881,7 @@
     <e><p><l>bargobivttas<s n="N"/></l><r>työvaatteet<s n="N"/></r></p></e>
     <e><p><l>bargoplána<s n="N"/></l><r>työsuunnitelma<s n="N"/></r></p></e>
     <e><p><l>bargosadji<s n="N"/></l><r>työpaikka<s n="N"/></r></p></e>
+    <e><p><l>sivdnidan<j/>dahku<s n="N"/></l><r>luomis<j/>työ<s n="N"/></r></p></e>
     <e><p><l>bargu<s n="N"/></l><r>työ<s n="N"/></r></p></e>
     <e><p><l>barta<s n="N"/></l><r>mökki<s n="N"/></r></p></e>
     <e><p><l>basadanlatnja<s n="N"/></l><r>kylpyhuone<s n="N"/></r></p></e>
@@ -1207,6 +1214,7 @@
     <e><p><l>dávvir<s n="N"/></l><r>esine<s n="N"/></r></p></e>
     <e><p><l>dáža<s n="N"/></l><r>norjalainen<s n="N"/></r></p></e>
     <e><p><l>dáčča<s n="N"/></l><r>norjalainen<s n="N"/></r></p></e>
+    <e><p><l>eadni<s n="N"/></l><r>emä<s n="N"/></r></p></e>
     <e><p><l>eadni<s n="N"/></l><r>äiti<s n="N"/></r></p></e>
     <e><p><l>eahket<s n="N"/></l><r>ehtoo<s n="N"/></r></p></e>
     <e><p><l>eahket<s n="N"/></l><r>ilta<s n="N"/></r></p></e>
@@ -1609,6 +1617,8 @@
     <e><p><l>iđit<s n="N"/></l><r>aamu<s n="N"/></r></p></e>
     <e><p><l>iđitbiebmu<s n="N"/></l><r>aamupala<s n="N"/></r></p></e>
     <e><p><l>iđitgáffe<s n="N"/></l><r>aamukahvi<s n="N"/></r></p></e>
+	<e><p><l>muolda<s n="N"/></l><r>tomu<s n="N"/></r></p></e>
+	
     <e><p><l>jagiáigi<s n="N"/></l><r>vuodenaika<s n="N"/></r></p></e>
     <e><p><l>jahkebealli<s n="N"/></l><r>puolivuosi<s n="N"/></r></p></e>
     <e><p><l>jahki<s n="N"/></l><r>vuosi<s n="N"/></r></p></e>
