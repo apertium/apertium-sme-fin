@@ -54,6 +54,27 @@
       <cat-item tags="Pron.Interr.*.*."/>
       <cat-item tags="Pron.Rel.*.*.@N→"/>
     </def-cat>
+    <def-cat n="attrmod_1"> <!-- Svonni's grupp 1 --> 
+      <cat-item tags="Pron.Dem.*.*."/> <!-- dat, dát, diet, dot, duot -->
+      <cat-item tags="Pron.Indef.*.*."/> <!-- goappašat, guktot -->
+      <!-- <cat-item tags="Pron.Interr.*.*."/> <!-- guhte, goabbá -->
+      <cat-item tags="Pron.Rel.*.*.@N→"/> <!-- guhte, goabbá ?? maybe remove interr? -->
+	  <cat-item lemma="buorre" tags="A.*"/>
+      <cat-item lemma="bahá" tags="A.*"/>
+      <cat-item lemma="okta" tags="Num.*"/>
+    </def-cat>
+    <def-cat n="attrmod_2"> <!-- Svonni's grupp 2 --> 
+      <cat-item tags="Pron.Interr.*.*."/> <!-- mii gii only? -->
+    </def-cat>
+	<def-cat n="attrmod_3"> <!-- Svonni's grupp 3 -->
+	  <cat-item tags="Num.*"/> <!-- how to do all numbers except for one? -->
+	  <cat-item lemma="máŋga" tags="A.*"/>
+      <cat-item lemma="galle" tags="A.*"/>
+      <cat-item lemma="moadde" tags="Num.*"/>
+	</def-cat>
+	
+	<def-cat n="adj_agr">
+	</def-cat>
     <def-cat n="ord">
       <cat-item tags="Num.Ord.*"/>
     </def-cat>
