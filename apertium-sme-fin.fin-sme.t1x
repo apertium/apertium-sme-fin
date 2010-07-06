@@ -1187,7 +1187,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </rule>
 
 	
-    <rule comment="regla: attrmod_1 nom"> <!-- näihin taloinhin -> dáid dáluide. TODO:  tänä talona -> dánin #dállu . write wiki tests-->
+    <rule comment="regla: attrmod_1 nom"> <!-- näihin taloihin -> dáid dáluide. TODO:  tänä talona -> dánin #dállu . write wiki tests-->
       <pattern>
         <pattern-item n="attrmod_1"/>
         <pattern-item n="nom"/>
@@ -1305,6 +1305,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_par_gen1">
               <with-param pos="2"/>
         </call-macro>
+ 		<call-macro n="set_com_number">
+			<with-param pos="2" />
+		</call-macro>
         <choose>
           <when>
             <test>
@@ -1335,8 +1338,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_nom"/>
-              <clip pos="2" side="tl" part="nbr"/>
-              <clip pos="2" side="tl" part="a_case"/>
+              <var n="com_num"/> <!-- only in use in Comitative -->
+			  <clip pos="2" side="tl" part="nbr"/>
+  			  <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
             </lu>
           </chunk>
