@@ -72,11 +72,6 @@
       <cat-item lemma="galle" tags="A.*"/>
       <cat-item lemma="moadde" tags="Num.*"/>
 	</def-cat>
-	
-<!--
-	<def-cat n="adj_agr">
-	</def-cat>
--->
     <def-cat n="ord">
       <cat-item tags="Num.Ord.*"/>
     </def-cat>
@@ -964,69 +959,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
+
     <rule comment="regla: attrmod nom">
       <pattern>
-        <pattern-item n="adj"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <call-macro n="set_syntag1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_all_ill1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_tra_ill1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_par_gen1">
-              <with-param pos="2"/>
-            </call-macro>
-        <choose>
-          <when>
-            <test>
-              <equal>
-                <clip pos="2" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
-              </equal>
-            </test>
-            <call-macro n="strip_nbr">
-              <with-param pos="2"/>
-            </call-macro>
-          </when>
-        </choose>
-        <out>
-          <chunk name="adj_nom" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="current_syntag"/></tag>
-              <tag><clip pos="2" side="tl" part="nbr"/></tag>
-              <tag><clip pos="2" side="tl" part="a_case"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <clip pos="1" side="tl" part="a_adj"/>
-			  <lit-tag v="Attr" />
-            </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="2" side="tl" part="lem"/>
-              <clip pos="2" side="tl" part="a_nom"/>
-              <clip pos="2" side="tl" part="nbr"/>
-              <clip pos="2" side="tl" part="a_case"/>
-              <clip pos="2" side="tl" part="a_pxprs"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="regla: attrmod nom"> <!-- I get the feeling this is not doing what i intend: hän kutsui {sitä eedeniksi}, should not be grouped in this case -->
-      <pattern>
-        <pattern-item n="attrmod"/>
+        <pattern-item n="attrmod_1"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -1080,6 +1016,66 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_nom"/>
               <!-- <clip pos="1" side="tl" part="gen"/> -->
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="a_case"/>
+              <clip pos="2" side="tl" part="a_pxprs"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="regla: attradj nom">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="set_syntag1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_loc_loc1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_tra_ill1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_par_gen1">
+              <with-param pos="2"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <call-macro n="strip_nbr">
+              <with-param pos="2"/>
+            </call-macro>
+          </when>
+        </choose>
+        <out>
+          <chunk name="adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+			  <lit-tag v="Attr" />
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_nom"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>

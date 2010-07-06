@@ -722,3 +722,12 @@ pois 	pois+Adv
 
 välityksellä	välitys+N+Sg+Ade
 
+## Lexical selection
+
+	"<lavalla>"
+		"lapa" N Sg Ade @X MAP:2615 
+		"lava" N Sg Ade @X MAP:2615 
+
+	"<pinnan>"
+		"pinta" N Sg Gen @←OBJ MAP:2276 
+		"pinna" N Sg Gen @←OBJ MAP:2276 
