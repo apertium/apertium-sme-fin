@@ -60,8 +60,8 @@
       <!-- <cat-item tags="Pron.Interr.*.*."/> --> <!-- guhte, goabbá -->
       <cat-item tags="Pron.Rel.*.*.@N→"/> <!-- guhte, goabbá ?? maybe remove interr? -->
       <cat-item lemma="hyvä" tags="A.*"/> <!-- buorre -->
-      <cat-item lemma="bahá" tags="A.*"/>
-      <cat-item lemma="okta" tags="Num.*"/>
+      <cat-item lemma="paha" tags="A.*"/> <!-- paha -->
+      <cat-item lemma="yksi" tags="Num.*"/> <!-- okta -->
     </def-cat>
     <def-cat n="attrmod_2"> <!-- Svonni's grupp 2 --> 
       <cat-item tags="Pron.Interr.*.*."/> <!-- mii gii only? -->
@@ -504,6 +504,14 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </when>
       </choose>
     </def-macro>
+	<def-macro n="strip_nbr2" npar="2">
+		<call-macro n="strip_nbr">
+			<with-param pos="1"/>
+		</call-macro>
+		<call-macro n="strip_nbr">
+			<with-param pos="2"/>
+		</call-macro>
+	</def-macro> 
     <def-macro n="strip_nbr" npar="1" c="Strip the nbr tag">
       <choose>
         <when>
@@ -961,7 +969,225 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       </action>
     </rule>
 
-    <rule comment="regla: attrmod nom">
+    <rule comment="regla: attrmod_3 nom"> <!-- näihin taloinhin -> dáid dáluide. TODO:  tänä talona -> dánin #dállu -->
+      <pattern>
+        <pattern-item n="attrmod_3"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="set_syntag1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_loc_loc1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_tra_ill1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_par_gen2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+
+		
+        <choose> <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
+			<when>
+				<test>
+					<or>
+						<equal>
+							<clip pos="2" side="tl" part="a_case"/>
+							<lit-tag v="Ill" />
+						</equal>
+						<equal>
+							<clip pos="2" side="tl" part="a_case"/>
+							<lit-tag v="Loc" />
+						</equal>						
+					</or>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="a_case"/>
+					<lit-tag v="Gen" />
+				</let>
+			</when>
+	    </choose>
+        <choose> <!-- no love yet. works on attr but not on noun -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <call-macro n="strip_nbr2">
+			  <with-param pos="1"/>
+              <with-param pos="2"/>
+            </call-macro>
+          </when>
+        </choose>
+		
+
+  		<out>
+          <chunk name="attr_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_attr"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="a_pxprs"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="a_case"/>
+              <clip pos="2" side="tl" part="a_pxprs"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
+    <rule comment="regla: attrmod_2 nom">
+      <pattern>
+        <pattern-item n="attrmod_2"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="set_syntag1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_loc_loc1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_tra_ill1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_par_gen2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+		
+		<choose>  <!-- This and following choose rule mikä talo -> mii dáluid --> 
+			<when>
+				<test>
+					<and>
+						<equal>
+							<clip pos="1" side="sl" part="a_case"/>
+							<lit-tag v="Nom"/>
+						</equal>
+						<equal>
+							<clip pos="2" side="sl" part="a_case"/>
+							<lit-tag v="Nom"/>
+						</equal>
+					</and>
+				</test>
+				<let>
+					<clip pos="2" side="tl" part="nbr"/>
+					<lit-tag v="Pl"/>
+				</let>
+			</when>
+		</choose>
+
+		<choose> 
+			<when>
+				<test>
+					<and>
+						<equal>
+							<clip pos="1" side="sl" part="a_case"/>
+							<lit-tag v="Nom"/>
+						</equal>
+						<equal>
+							<clip pos="2" side="sl" part="a_case"/>
+							<lit-tag v="Nom"/>
+						</equal>
+					</and>
+				</test>
+				<let>
+					<clip pos="2" side="tl" part="a_case"/>
+					<lit-tag v="Gen"/>
+				</let>
+			</when>
+		</choose>
+		
+        <choose> <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
+			<when>
+				<test>
+					<or>
+						<equal>
+							<clip pos="2" side="tl" part="a_case"/>
+							<lit-tag v="Ill" />
+						</equal>
+						<equal>
+							<clip pos="2" side="tl" part="a_case"/>
+							<lit-tag v="Loc" />
+						</equal>						
+					</or>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="a_case"/>
+					<lit-tag v="Gen" />
+				</let>
+			</when>
+	    </choose>
+        <choose> <!-- no love yet. works on attr but not on noun -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <call-macro n="strip_nbr2">
+			  <with-param pos="1"/>
+              <with-param pos="2"/>
+            </call-macro>
+          </when>
+        </choose>
+  		<out>
+          <chunk name="attr_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_attr"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="a_pxprs"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="a_case"/>
+              <clip pos="2" side="tl" part="a_pxprs"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+	
+    <rule comment="regla: attrmod_1 nom"> <!-- näihin taloinhin -> dáid dáluide. TODO:  tänä talona -> dánin #dállu -->
       <pattern>
         <pattern-item n="attrmod_1"/>
         <pattern-item n="nom"/>
@@ -983,7 +1209,27 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>
-        <choose>
+        <choose> <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
+			<when>
+				<test>
+					<or>
+						<equal>
+							<clip pos="2" side="tl" part="a_case"/>
+							<lit-tag v="Ill" />
+						</equal>
+						<equal>
+							<clip pos="2" side="tl" part="a_case"/>
+							<lit-tag v="Loc" />
+						</equal>						
+					</or>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="a_case"/>
+					<lit-tag v="Gen" />
+				</let>
+			</when>
+	    </choose>
+        <choose> <!-- no love yet. works on attr but not on noun -->
           <when>
             <test>
               <equal>
@@ -991,12 +1237,13 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
                 <lit-tag v="Ess"/>
               </equal>
             </test>
-            <call-macro n="strip_nbr">
+            <call-macro n="strip_nbr2">
+			  <with-param pos="1"/>
               <with-param pos="2"/>
             </call-macro>
           </when>
         </choose>
-        <out>
+  		<out>
           <chunk name="attr_nom" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
@@ -1007,7 +1254,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_attr"/>
-              <!-- <clip pos="1" side="tl" part="gen"/> -->
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
@@ -1016,7 +1262,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_nom"/>
-              <!-- <clip pos="1" side="tl" part="gen"/> -->
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
