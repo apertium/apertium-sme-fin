@@ -4213,6 +4213,7 @@
     <e><p><l>+<s n="Punct"/></l><r>+<s n="Punct"/><s n="CLB"/></r></p></e>
     <e><p><l>=<s n="Punct"/></l><r>=<s n="Punct"/><s n="CLB"/></r></p></e>
     <e><p><l>'<s n="Punct"/></l><r>'<s n="Punct"/><s n="CLB"/></r></p></e>
+    <e><p><l>"<s n="Punct"/></l><r>"<s n="Punct"/><s n="CLB"/></r></p></e>
     <e><p><l>(<s n="Punct"/></l><r>(<s n="Punct"/><s n="CLB"/></r></p></e>
     <e><p><l>)<s n="Punct"/></l><r>)<s n="Punct"/><s n="CLB"/></r></p></e>
 
