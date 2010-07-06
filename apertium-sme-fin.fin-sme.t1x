@@ -1213,14 +1213,26 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 			<when>
 				<test>
 					<or>
-						<equal>
-							<clip pos="2" side="tl" part="a_case"/>
-							<lit-tag v="Ill" />
-						</equal>
-						<equal>
-							<clip pos="2" side="tl" part="a_case"/>
-							<lit-tag v="Loc" />
-						</equal>						
+						<and>
+							<equal>
+								<clip pos="2" side="tl" part="a_case"/>
+								<lit-tag v="Ill" />
+							</equal>
+							<equal>
+								<clip pos="2" side="tl" part="nbr"/>
+								<lit-tag v="Sg" />
+							</equal>
+						</and>
+						<and>
+							<equal>
+								<clip pos="2" side="tl" part="a_case"/>
+								<lit-tag v="Loc" />
+							</equal>
+							<equal>
+								<clip pos="2" side="tl" part="nbr"/>
+								<lit-tag v="Sg" />
+							</equal>
+						</and>
 					</or>
 				</test>
 				<let>
@@ -1229,6 +1241,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 				</let>
 			</when>
 	    </choose>
+
         <choose> <!-- no love yet. works on attr but not on noun -->
           <when>
             <test>
