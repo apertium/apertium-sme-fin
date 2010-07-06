@@ -969,7 +969,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       </action>
     </rule>
 
-    <rule comment="regla: attrmod_3 nom"> <!-- näihin taloinhin -> dáid dáluide. TODO:  tänä talona -> dánin #dállu -->
+    <rule comment="regla: attrmod_3 nom"> 
       <pattern>
         <pattern-item n="attrmod_3"/>
         <pattern-item n="nom"/>
@@ -1187,7 +1187,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </rule>
 
 	
-    <rule comment="regla: attrmod_1 nom"> <!-- näihin taloinhin -> dáid dáluide. TODO:  tänä talona -> dánin #dállu -->
+    <rule comment="regla: attrmod_1 nom"> <!-- näihin taloinhin -> dáid dáluide. TODO:  tänä talona -> dánin #dállu . write wiki tests-->
       <pattern>
         <pattern-item n="attrmod_1"/>
         <pattern-item n="nom"/>
@@ -1213,7 +1213,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 			<when>
 				<test>
 					<or>
-						<and>
+						<and> <!-- TODO: multiple nested ands break something here, but they do work/validate -->
 							<equal>
 								<clip pos="2" side="tl" part="a_case"/>
 								<lit-tag v="Ill" />
