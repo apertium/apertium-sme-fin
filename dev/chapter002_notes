@@ -5,11 +5,7 @@
 
 	need to change case of '7th day'/seitsemäntenä päivänä from ess to nom.
 
-3 Ja Ipmil #bures+sivdnidit čihččeda beaivvi ja basuhii dan, #danin son #dat  beaivin vuoiŋŋastii buot @luomistyö, gean son lei dahkan.
-
-	trying lexicalizing luomistyö, requires compound analysis which is dropped from hfstproc
-	
-	doesn't work as lexical item in dictionary.
+3 Ja Ipmil #bures+sivdnidit čihččeda beaivvi ja basuhii dan, #danin son #dat  beaivin vuoiŋŋastii buot #sivdnidan+dahku, gean son lei dahkan.
 
 
 4 Dát lea muitalus almmi ja eatnama riegádeamis, go dat #sivdnidit.  #Dat  áigái go Hearrá Ipmil dagai eatnama ja almmi,
@@ -26,7 +22,7 @@ bibel.no 5 ii lean vel ii oktage meahci miestta eatnama alde, iige lean mihkkege
 
 	how to select between pinna and pinta in CG? both nouns
 
-7 Dalle Hearrá Ipmil dagai eatnama #muolda olbmo ja bosui su  *sieramiinsa #eallin vuoiŋŋa, ja nu olbmos bođii @elävä siellu.
+7 Dalle Hearrá Ipmil dagai eatnama muolddas olbmo ja bosui su  *sieramiinsa eallima vuoiŋŋa, ja nu olbmos bođii @elävä siellu.
 
 	sieramiinsa?
 
@@ -37,7 +33,7 @@ bibel.no 5 ii lean vel ii oktage meahci miestta eatnama alde, iige lean mihkkege
 	Omorfi has prop listed in lexical data. :| Why isn't it working?
 
 
-9 Ja Hearrá Ipmil šaddadii eatnamis #juohkelágán muoraid, #hearvás oaidnit ja  buriid borrat, ja eallit muora sisa/siskkil paradiása, nu maid buori ja  bahá dieđu muora.
+9 Ja Hearrá Ipmil šaddadii eatnamis #juohkelágán muoraid, #hearvás oaidnit ja  buriid borrat, ja eallit muora sisa/siskkil #paradiás, nu maid buori ja  bahá dieđu muora.
 
 	still problems with juohkelágán
 	
