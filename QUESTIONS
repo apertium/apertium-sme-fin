@@ -572,7 +572,46 @@ Also, why doesn't this apply to the first position?
 Expect: 		^attr_nom<SN><@X><Sg><Ess>{^dát<Pron><Dem><Ess>$ ^dállu<N><Ess>$}$
 What happens: 	^attr_nom<SN><@X><Sg><Ess>{^dát<Pron><Dem><Ess>$ ^dállu<N><Sg><Ess>$}$
 
+### Selecting the right words...
 
+I'm attempting to make sure that sme: nubbi, fin: toinen gets treated by the right rules in transfer. The problem is that def-cat in .t1x goes by the finnish side, and unfortunately it looks like I need to pick items by the sme side...
+
+    <def-cat n="attrmod_1"> <!-- Svonni's grupp 1 --> 
+      <cat-item tags="Pron.Dem.*.*."/> <!-- dat, dát, diet, dot, duot -->
+      <cat-item tags="Pron.Indef.*.*."/> <!-- goappašat, guktot -->
+	<!-- <cat-item tags="Pron.Interr.*.*."/> --> <!-- guhte, goabbá -->
+      <cat-item tags="Pron.Rel.*.*.@N→"/> <!-- guhte, goabbá ?? maybe remove interr? -->
+      <cat-item lemma="hyvä" tags="A.*"/> <!-- buorre -->
+      <cat-item lemma="paha" tags="A.*"/> <!-- paha -->
+      <cat-item lemma="yksi" tags="Num.*"/> <!-- okta -->
+    </def-cat>
+    <def-cat n="attrmod_2"> <!-- Svonni's grupp 2 --> 
+      <cat-item tags="Pron.Interr.*.*."/> <!-- mii gii only? -->
+    </def-cat>
+	<def-cat n="attrmod_3"> <!-- Svonni's grupp 3 -->
+	  <cat-item tags="Num.*"/> <!-- how to do all numbers except for one? -->
+	  <cat-item lemma="máŋga" tags="A.*"/>
+      <cat-item lemma="galle" tags="A.*"/>
+      <cat-item lemma="moadde" tags="Num.*"/>
+	</def-cat>
+
+
+	$ echo "toinen" | fin
+	toinen	toinen+N+Sg+Nom
+	toinen	toinen+Num+Ord+Sg+Nom
+	toinen	toinen+Pron+Recipr+Sg+Nom
+	
+	$ echo "nubbi" | automorf
+	nubbi	nubbi<Pron><Indef><Attr>
+	nubbi	nubbi<Pron><Indef><Sg><Nom>
+	nubbi	nubbi<Pron><Recipr><Attr>
+	nubbi	nubbi<Pron><Recipr><Sg><Nom>
+	nubbi	nubbi<A><Ord><Attr>
+	nubbi	nubbi<A><Ord><Sg><Nom>
+
+Currently nubbi ends up going to the rules that handle attrmod_3 because toinen is a Num., but it would ideally be part of attrmod_1, since it's an indefinite pronoun.  
+
+I realize this can be fixed by just adding this to the morphology, but I wonder if perhaps there's a way to go by the sme side. Can it be done in higher level transfers? 
 
 ### Comitative transfer to sme needs nbr tag added.
 

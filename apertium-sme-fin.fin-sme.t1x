@@ -57,7 +57,7 @@
     <def-cat n="attrmod_1"> <!-- Svonni's grupp 1 --> 
       <cat-item tags="Pron.Dem.*.*."/> <!-- dat, dát, diet, dot, duot -->
       <cat-item tags="Pron.Indef.*.*."/> <!-- goappašat, guktot -->
-      <!-- <cat-item tags="Pron.Interr.*.*."/> --> <!-- guhte, goabbá -->
+<!-- <cat-item tags="Pron.Interr.*.*."/> --> <!-- guhte, goabbá -->
       <cat-item tags="Pron.Rel.*.*.@N→"/> <!-- guhte, goabbá ?? maybe remove interr? -->
       <cat-item lemma="hyvä" tags="A.*"/> <!-- buorre -->
       <cat-item lemma="paha" tags="A.*"/> <!-- paha -->
@@ -1029,7 +1029,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 		
 
   		<out>
-          <chunk name="attr_nom" case="caseFirstWord">
+			<!-- Temporarily labeling these with numbers for easier debugging -->
+          <chunk name="attr_nom3" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="current_syntag"/></tag>
@@ -1155,7 +1156,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           </when>
         </choose>
   		<out>
-          <chunk name="attr_nom" case="caseFirstWord">
+          <chunk name="attrmod_2" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="current_syntag"/></tag>
@@ -1248,7 +1249,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           </when>
         </choose>
   		<out>
-          <chunk name="attr_nom" case="caseFirstWord">
+          <chunk name="attr_nom1" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="current_syntag"/></tag>
