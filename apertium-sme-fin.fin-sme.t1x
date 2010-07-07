@@ -991,7 +991,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>
-
 		
         <choose> <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
 			<when>
@@ -1056,9 +1055,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
-
-
     <rule comment="regla: attrmod_2 nom">
       <pattern>
         <pattern-item n="attrmod_2"/>
@@ -1185,8 +1181,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
-	
     <rule comment="regla: attrmod_1 nom"> <!-- näihin taloihin -> dáid dáluide. TODO:  tänä talona -> dánin #dállu . write wiki tests-->
       <pattern>
         <pattern-item n="attrmod_1"/>
@@ -1198,6 +1192,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </call-macro>
         <call-macro n="set_loc_loc1">
           <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_loc_loc1">
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="set_all_ill1">
           <with-param pos="1"/>
@@ -1212,28 +1209,22 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <choose> <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
 			<when>
 				<test>
-					<or>
-						<and> <!-- TODO: multiple nested ands break something here, but they do work/validate -->
+					<and>
+						<equal>
+							<clip pos="2" side="tl" part="nbr"/>
+							<lit-tag v="Sg" />
+						</equal>
+						<or>
 							<equal>
 								<clip pos="2" side="tl" part="a_case"/>
 								<lit-tag v="Ill" />
-							</equal>
-							<equal>
-								<clip pos="2" side="tl" part="nbr"/>
-								<lit-tag v="Sg" />
-							</equal>
-						</and>
-						<and>
+							</equal>							
 							<equal>
 								<clip pos="2" side="tl" part="a_case"/>
 								<lit-tag v="Loc" />
 							</equal>
-							<equal>
-								<clip pos="2" side="tl" part="nbr"/>
-								<lit-tag v="Sg" />
-							</equal>
-						</and>
-					</or>
+						</or>
+					</and>
 				</test>
 				<let>
 					<clip pos="1" side="tl" part="a_case"/>

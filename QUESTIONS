@@ -429,7 +429,7 @@ May have a note about this somewhere already. The particle POS in omorfi is a pr
 	vasta eilen.
 
 
-
+## Ensimmäinen - +Adj reading
 
 ### Adp is a problematic category in fin. -- solution in progress
 
@@ -532,6 +532,47 @@ sitävastoin	sitävastoin+Pcle
 Should this return a compound analysis too, so that we can normalize spaces vs nonspaces?
 
 ## Transfer notes
+
+### Avoiding having to specify each parameter?
+
+This is fine when there's one attribute we care about
+
+	<call-macro n="set_loc_loc1">
+	  <with-param pos="2"/>
+	</call-macro>
+
+As phrases increase in length, either we have to: 
+
+	<call-macro n="set_loc_loc1">
+	  <with-param pos="2"/>
+	</call-macro>
+    <call-macro n="set_loc_loc1">
+      <with-param pos="1"/>
+    </call-macro>
+
+Or, make a macro to wrap this that does essentially the same thing. It's kind of tedious.
+
+Also, why doesn't this apply to the first position?
+
+	<choose> <!-- no love yet. works on attr but not on noun -->
+	  <when>
+	    <test>
+	      <equal>
+	        <clip pos="2" side="tl" part="a_case"/>
+	        <lit-tag v="Ess"/>
+	      </equal>
+	    </test>
+	    <call-macro n="strip_nbr2">
+		  <with-param pos="1"/>
+	      <with-param pos="2"/>
+	    </call-macro>
+	  </when>
+	</choose>
+
+Expect: 		^attr_nom<SN><@X><Sg><Ess>{^dát<Pron><Dem><Ess>$ ^dállu<N><Ess>$}$
+What happens: 	^attr_nom<SN><@X><Sg><Ess>{^dát<Pron><Dem><Ess>$ ^dállu<N><Sg><Ess>$}$
+
+
 
 ### Comitative transfer to sme needs nbr tag added.
 
