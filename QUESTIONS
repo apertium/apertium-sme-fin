@@ -28,59 +28,6 @@ TROND: Hmm. But that means "always", right?
 
 
 
-# prefixes ?
-
-$ echo "viheriät" |apertium -d . fin-sme-morph
-^viheriät/viher<Pfx><Cmpnd>+ikä<N><Pl><Nom>/viher<Pfx><Cmpnd>+ikä<N><Pl><Nom>$
-
-What can we do with this ? Just add it as lexicalised in Omorfi ?
-
-TROND: yes. This is not perceived as a compound.
-
-
-
-# elävä - ealli (adjective, verb)
-
-> elävä ~ ealli
-
-	^elävät/elävä<A><Pos><Pl><Nom>$
-
-	<e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e>
-
-Can we somehow add elävä as a verb, or ealli as an adjective ? 	Is there a real grammatical reason for this, or would it be alright to add an Adj reading?
-
-
-	$ echo "elävä" | ofin
-	elävä	elävä+A+Pos+Sg+Nom
-	elävä	elää+V+Act+PrsPcp+Pos+Sg+Nom
-
-	$ echo "ealli" | sme
-	ealli	ealli+SgNomCmp+SgGenCmp+PlGenCmp+N+Actor+Sg+Nom
-	ealli	ealli+SgNomCmp+SgGenCmp+PlGenCmp+N+Actor+Sg+Gen
-	ealli	ealli+SgNomCmp+SgGenCmp+PlGenCmp+N+Actor+Sg+Acc
-	ealli	eallit+V+IV+Use/Sub+PrsPrc+Use/Sub
-	ealli	eallit+V+IV+Imprt+Du2
-	ealli	eallit+V+IV+Der2+Actor+N+Sg+Nom
-	ealli	eallit+V+IV+Der2+Actor+N+Sg+Gen
-	ealli	eallit+V+IV+Der2+Actor+N+Sg+Acc
-	
-
-TROND: The issue here is the participle.
-It has been lexicalised in omorfi, not in sme.fst. So, lexicalise it in sme as well.
-On a more general note: 
-What matches is the fin PrsPcp and the Sme PrsPrc.
-
-
-ealli	     ealli+N+Actor+Sg+Nom
-ealli	     ealli+N+Actor+Sg+Acc
-ealli	     ealli+N+Actor+Sg+Gen
-ealli	     eallit+V+IV+PrsPrc
-ealli	     eallit+V+IV+Imprt+Du2
-ealli	     eallit+V+IV+Der2+Actor+N+Sg+Nom
-ealli	     eallit+V+IV+Der2+Actor+N+Sg+Acc
-ealli	     eallit+V+IV+Der2+Actor+N+Sg+Gen
-
-TROND: On a more general note: You have an old sme.fst. The SgGenCmp forest has now been cut.
 
 
 # lexicon modifications
@@ -132,23 +79,6 @@ oma+Cx N+Cx+Px ==> ieš+Px N+Cx
 What do we do?
 TROND:
 We fix the isme-norm.fst transducer, by blocking 3 of 4.
-
-
-
-
-# Viime aikoina ~ maŋimus áiggiid
-
-How to handle this? It's not somthing that can be done with a transfer rule, I believe.
-Multiword, will it present probolems if the second words are derived and need to just remain without being analysed?
-
-TROND:
-I do not see the problem, so I need some illumination here.
-The expressions are different: 
-last.indeclineable time-Pl-Ess vs. last time-Pl-Gen
-But these are fixed expressions. Similar expressions for time can be found (viime päivinä (last days) ~ maŋimus beivviid), but others do not come to mind, to me, at least.)
-
-RYAN:
-This can just be a multiword Adv, i think... Will be added as such.
 
 
 
