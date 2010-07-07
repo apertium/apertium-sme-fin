@@ -330,26 +330,6 @@ TROND: No, evidently it has not, but it should.
 "Ja hän teki maasta kaikki metsän eläimet ja kaikki taivaan linnut ja **toi** ne ihmisen eteen nähdäkseen." 
 
 
-### CG: kasvatti as v
-
-	"<Ja>"
-		"ja" Conj CC @CNP MAP:2143 
-	;	"ja" Pcle REMOVE:687 
-	"<Herra>"
-		"herra" N Sg Nom @N→ MAP:2162 
-	"<Jumala>"
-		"Jumala" N Prop Sg Nom @SUBJ→ MAP:2168 
-		"jumala" N Sg Nom @SUBJ→ MAP:2168 
-	"<kasvatti>"
-		"kasvatti" N Sg Nom @SUBJ→ MAP:2168 
-	;	"kasvattaa" V Act Ind Prt Sg3 @X MAP:2438 REMOVE:2440 
-	"<maasta>"
-		"maa" N Sg Ela @LOC @←ADVL MAP:2250 
-	"<kaikkinaisia>"
-		"kaikkinainen" A Pos Pl Par @X MAP:2438 
-	"<puita>"
-		"puu" N Pl Par @←OBJ MAP:2186 
-
 ### Select puista N Pl Ela
 
 	"<Syö>"
@@ -420,16 +400,16 @@ again...
 
 
 
-## Morphological analysis notes
+## Morphological analysis notes, things to add
 
-## Particles
+### Particles
 
 May have a note about this somewhere already. The particle POS in omorfi is a problem, so this will be fixed.
 
 	vasta eilen.
 
 
-## Ensimmäinen - +Adj reading
+### Ensimmäinen - +Adj reading
 
 ### Adp is a problematic category in fin. -- solution in progress
 
@@ -458,53 +438,9 @@ Adv:
 
 ### siksi että, dannego
 
-
-### Add to morphology: Mihin - Pron+Rel?
-
-> paikka, mihin vedet olivat kokontuneet
-
-	$ echo "johon" | ofin
-	johon	joka+Pron+Rel+Sg+Ill
-
-	$ echo "mihin" | ofin
-	mihin	mikä+Pron+Interr+Sg+Ill
-	mihin	mihin+Adv
-
-Adv?
-
-mihin works as a comp. Change in morphology or what?
-
-TROND: Yes, I think new morphology ks needed here."mihin" just as Rel as "johon".
-paikka, mihin vedet olivat kokontuneet = the place whereto the water had gathered.
+?
 
 ### Compounds
-
-#### Drop compound analyses when others exist?
-
-> sankari 
-
-	san	san+N+Sg+Nom# kari+N+Sg+Nom
-	sankari sankari+N+Sg+Nom
-
-TROND: yes.
-
-RYAN: These all appear to be fixed now... 
-
-#### More compounds?
-
-> luomistyö
-
-kylkiluu is treated in one instance as one word, and in another as two, despite that the source has the same.
-
-*Fin*:
-    
-    21 Niin Herra Jumala vaivutti ihmisen raskaaseen uneen, ja kun hän  nukkui, otti hän yhden hänen kylkiluistaan ja täytti sen paikan lihalla.
-    22 Ja Herra Jumala rakensi vaimon siitä kylkiluusta, jonka hän oli  ottanut miehestä, ja toi hänet miehen luo.
-
-*Sme*:
-
-    21 #Nu Hearrá Ipmil @vaivuttaa olbmo lossadii nihkui, ja go son  ođii, válddii son #okta su @kylki @luinen duogi ja devddii dan báikki bierggus.
-	22 Ja Hearrá Ipmil ráhkadii eammi #dat #erttetdákti, gean son lei  váldán albmás, ja buvttii su albmá lusa.
 
 #### How to not discard compound analyses in the following case?
 
@@ -612,16 +548,6 @@ I'm attempting to make sure that sme: nubbi, fin: toinen gets treated by the rig
 Currently nubbi ends up going to the rules that handle attrmod_3 because toinen is a Num., but it would ideally be part of attrmod_1, since it's an indefinite pronoun.  
 
 I realize this can be fixed by just adding this to the morphology, but I wonder if perhaps there's a way to go by the sme side. Can it be done in higher level transfers? 
-
-### Comitative transfer to sme needs nbr tag added.
-
-	$ echo "joukkoinensa" | fin
-	joukkoinensa	joukko+N+Com+Pl3
-	joukkoinensa	joukko+N+Com+Sg3
-
-	echo "joavkkuidisguin" | sme
-	joavkkuidisguin	joavku+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG+N+Pl+Com+Use/Ped+PxSg3
-
 
 
 ### Derived adjectives
