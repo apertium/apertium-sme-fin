@@ -91,6 +91,8 @@
 	-->
     <def-cat n="nom">
       <cat-item tags="N.*"/>
+	  <cat-item tags="N.Prop.*"/>
+	  <cat-item tags="N.Prop.Plc.*"/>
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="A.*"/>
@@ -181,6 +183,7 @@
       <attr-item tags="N.Prop.Mal"/>
       <attr-item tags="Pron.Dem"/>
       <attr-item tags="Pron.Interr"/>
+      <attr-item tags="Pron.Indef"/>
     </def-attr>
     <def-attr n="a_case">
       <attr-item tags="Nom"/>
@@ -1207,6 +1210,12 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>
+ 		<call-macro n="set_com_number">
+			<with-param pos="2" />
+		</call-macro>
+		<call-macro n="set_com_number">
+			<with-param pos="1" />
+		</call-macro>
         <choose> <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
 			<when>
 				<test>
@@ -1267,6 +1276,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <var n="com_num"/> <!-- only in use in Comitative -->
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>

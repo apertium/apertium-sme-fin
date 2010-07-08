@@ -502,6 +502,7 @@
     
     <e><p><l>juoga<s n="Pron"/><s n="Indef"/></l><r>jokin<s n="Pron"/></r></p></e>
     <e><p><l>buot<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/></r></p></e>
+    <e slr="1"><p><l>buohkat<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/></r></p></e>
     <e><p><l>mihkkege<s n="Pron"/><s n="Indef"/></l><r>mikään<s n="Pron"/><s n="Qnt"/></r></p></e>
     <e><p><l>dákkár<s n="Pron"/><s n="Indef"/></l><r>tällainen<s n="Pron"/></r></p></e>
     <e><p><l>dakkár<s n="Pron"/><s n="Indef"/></l><r>semmoinen<s n="Pron"/></r></p></e>
@@ -641,7 +642,7 @@
 	<e><p><l>eallinahki<s n="N"/></l><r>elinaika<s n="N"/></r></p></e>
 	<e><p><l>eallu<s n="N"/></l><r>karja<s n="N"/></r></p></e>
 	<e><p><l>eavru<s n="N" /></l><r>hapro<s n="N"/></r></p></e>
-	<e><p><l>eden<s n="N"/></l><r>eeden<s n="N"/></r></p></e> <!-- 'an Eden' / 'a paradise' -->
+	<!-- <e><p><l>eden<s n="N"/></l><r>eeden<s n="N"/></r></p></e> --> <!-- 'an Eden' / 'a paradise' -->
 	<e><p><l>ehtemas<s n="N" /></l><r>juolukka<s n="N"/></r></p></e>
 	<e><p><l>erttet<s n="N"/></l><r>kylki<s n="N"/></r></p></e>
 	<e><p><l>erttetdákti<s n="N"/></l><r>kylkiluu<s n="N"/></r></p></e>
@@ -663,7 +664,6 @@
 	<e><p><l>golka<s n="N" /></l><r>lapinvuokko<s n="N"/></r></p></e>
 	<e><p><l>gollenárti<s n="N" /></l><r>kultarikko<s n="N"/></r></p></e>
 	<e><p><l>gollerássi<s n="N" /></l><r>rentukka<s n="N"/></r></p></e>
-	<e><p><l>golli<s n="N"/></l><r>kulta<s n="N"/></r></p></e>
 	<e><p><l>gonagasčoalci<s n="N" /></l><r>kaarlenvaltikka<s n="N"/></r></p></e>
 	<e><p><l>gottesáhpal<s n="N" /></l><r>peuranvirna<s n="N"/></r></p></e>
 	<e><p><l>guhkkodat<s n="N"/></l><r>pituus<s n="N"/></r></p></e>
@@ -2122,7 +2122,7 @@
     <e><p><l>ođđabeairuohtta<s n="N"/></l><r>uudenvuodenaatto<s n="N"/></r></p></e>
     <e><p><l>ođđajagemánnu<s n="N"/></l><r>tammikuu<s n="N"/></r></p></e>
     <e><p><l>ođđajagiruohtta<s n="N"/></l><r>uudenvuodenaatto<s n="N"/></r></p></e>
-    <e><p><l>paradiás<s n="N"/></l><r>paratiisi<s n="N"/></r></p></e>
+    <e><p><l>paradiisa<s n="N"/></l><r>paratiisi<s n="N"/></r></p></e>
     <e><p><l>peanna<s n="N"/></l><r>kynä<s n="N"/></r></p></e>
     <e><p><l>piano<s n="N"/></l><r>piano<s n="N"/></r></p></e>
     <e><p><l>pizza<s n="N"/></l><r>pizza<s n="N"/></r></p></e>
@@ -3266,6 +3266,7 @@
     <e><p><l>Lamek<s n="N"/><s n="Prop"/><s n="Sur"/></l><r>Lemek<s n="N"/><s n="Prop"/></r></p></e>
 	<!-- end propernouns -->		
     <!-- adjectives -->
+	<e><p><l>friddja<s n="A"/></l><r>vapaa<s n="A"/></r></p><par n="A_A"/></e>
  	<e><p><l>duohta<s n="A"/></l><r>tosi<s n="A"/></r></p><par n="A_A"/></e>
  	<e><p><l>bajimus<s n="A"/></l><r>ylimmäinen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>earálágán<s n="A"/></l><r>erilainen<s n="A"/></r></p><par n="A_A"/></e>

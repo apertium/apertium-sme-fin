@@ -330,7 +330,27 @@ again...
 
 
 
-## Morphological analysis notes, things to add
+## Omorfi
+
+### Eden
+
+	$ echo "Eedenissa" | fin
+	Eedenissa	Eedenissa	+?
+
+$ echo "Eedeniin" | fin
+Eedeniin	eeden+N+Sg+Ill
+Eedeniin	eeden+N+Sg+Nom+# ikä+N+Pl+Ins
+
+Looked at omorfi source but not sure how to fix this one.
+
+	Afganistan'][POS=NOUN][SUBCAT=PROPER][KTN=5]:Afganistan	kotus_5_PROPER_geo/stemfiller	;
+	
+	Eeden'][POS=NOUN][SUBCAT=PROPER][KTN=9]:Eede	kotus_9_PROPER_geo/stemfiller	;
+	Eeden'][POS=NOUN][SUBCAT=PROPER][KTN=9]:eede	kotus_9_PROPER_geo/stemfiller	;
+
+Are these comparable? 
+
+Another problem is that Eeden should be returning +N+Prop, but it isn't for some reason.
 
 ### Particles
 

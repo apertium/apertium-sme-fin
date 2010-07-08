@@ -28,9 +28,7 @@ bibel.no 5 ii lean vel ii oktage meahci miestta eatnama alde, iige lean mihkkege
 
 8 Ja Hearrá Ipmil čohkkáhii paradiása #Eden, #nuorta, ja ásahii dohko  olbmo, gean son lei dahkan.
 
-	Eden requires Prop.Plc tags which aren't being inserted now: problem is that omorfi is not returning N Prop
-	
-	Omorfi has prop listed in lexical data. :| Why isn't it working?
+	Two problems with Eeden (see QUESTIONS: Eden), but the important one here is that N+Prop isn't being returned although it's in the lex file with Prop.
 
 
 9 Ja Hearrá Ipmil šaddadii eatnamis #juohkelágán muoraid, #hearvás oaidnit ja  buriid borrat, ja eallit muora sisa/siskkil #paradiás, nu maid buori ja  bahá dieđu muora.
@@ -48,6 +46,39 @@ bibel.no 5 ii lean vel ii oktage meahci miestta eatnama alde, iige lean mihkkege
 10 Ja #Eden manai johka, gii njuoskadii paradiása, ja dat juohkašuvai  #dat njealji/njealje/njealje- suorgái.
 
 11 @Ensimmäinen namma lea *Piison; dat #golgit @koko *Havilan eatnama, geas lea  @kulta;
+
+	CG is returning different analysis than that which shows up in the tagger.
+	
+	$ echo "se kiertää koko Havilan maan, jossa on kultaa" | fin-sme-tagger
+	... 
+	 ^jossa/joka<Pron><Rel><Sg><Ine><CLB>$ 
+	^on/olla<V><Act><Ind><Prs><Sg3><@+FAUXV>$ 
+	^kultaa/kullata<V><Act><Imprt><Sg2>/kullata<V><Act><Ind><Prs><Sg3>/kullata<V><Ind><Prs><ConNeg>/kulta<A><Pos><Sg><Par><@←OBJ>/kulta<N><Sg><Par><@←OBJ>$^./.<Punct><CLB>$
+
+
+	"<se>"
+		"se" Pron Dem Sg Nom 
+	"<kiertää>"
+		"kiertää" V Act Ind Prs Sg3 @+FMAINV 
+		"kiertää" V Act Inf1 Sg Lat @-FMAINV 
+	"<koko>"
+		"koko" Pron Sg Nom @→N 
+		"koko" N Sg Nom 
+	"<Havilan>"
+		"Havilan" ? 
+	"<maan>"
+		"maa" N Sg Gen @←OBJ 
+	"<,>"
+		"," Punct CLB 
+	"<jossa>"
+		"joka" Pron Rel Sg Ine CLB 
+	"<on>"
+		"olla" V Act Ind Prs Sg3 @+FMAINV 
+	"<kultaa>"
+		"kulta" N Sg Par @←OBJ 
+		"kulta" A Pos Sg Par @←OBJ 
+
+
 
 12 ja dan eatnama @kulta lea buori. #Dat lea maid *bedellion@-pihka ja  *onyks@-kivetä.
 
