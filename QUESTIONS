@@ -687,3 +687,9 @@ välityksellä	välitys+N+Sg+Ade
 	"<pinnan>"
 		"pinta" N Sg Gen @←OBJ MAP:2276 
 		"pinna" N Sg Gen @←OBJ MAP:2276 
+
+# Misc 
+
+## Apertium lex learner?
+
+## wikitest script
