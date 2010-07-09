@@ -150,11 +150,11 @@
 	  <attr-item tags="Pr" />
 	  <attr-item tags="Po" />
 	  <attr-item tags="Adp" />
-    </def-attr>
-    <def-attr n="nbr">
-      <attr-item tags="Sg" />
-      <attr-item tags="Pl" />
-    </def-attr>
+	</def-attr>
+	<def-attr n="nbr">
+	  <attr-item tags="Sg" />
+	  <attr-item tags="Pl" />
+	</def-attr>
     <def-attr n="a_pcle">
       <attr-item tags="Pcle"/>
     </def-attr>
@@ -212,7 +212,7 @@
       <!-- Hmm, is this inconsistency a problem? -->
     </def-attr>
     <def-attr n="a_der">
-      <attr-item tags="Der_ja"/>
+      <attr-item tags="Def_ja"/>
       <attr-item tags="Der2"/>
     </def-attr>
     <def-attr n="a_voice">
@@ -301,7 +301,6 @@
     <def-var n="case"/>
 	<def-var n="com_num" />
     <def-var n="current_syntag"/>
-    <def-var n="current_number"/>
     <def-var n="cur_verb_mood"/>
     <def-var n="cur_verb_tense"/>
   </section-def-vars>
@@ -510,10 +509,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </def-macro>
 	<def-macro n="strip_nbr2" npar="2">
 		<call-macro n="strip_nbr">
-			<with-param pos="2"/>
+			<with-param pos="1"/>
 		</call-macro>
 		<call-macro n="strip_nbr">
-			<with-param pos="1"/>
+			<with-param pos="2"/>
 		</call-macro>
 	</def-macro> 
     <def-macro n="strip_nbr" npar="1" c="Strip the nbr tag">
@@ -530,11 +529,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
                 <lit-tag v="Sg"/>
               </equal>
             </or>
-          </test> 
+          </test>
           <let>
             <clip pos="1" side="tl" part="nbr"/>
             <lit v=""/>
-          </let> 
+          </let>
         </when>
       </choose>
     </def-macro>
@@ -1025,8 +1024,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               </equal>
             </test>
             <call-macro n="strip_nbr2">
+			  <with-param pos="1"/>
               <with-param pos="2"/>
-              <with-param pos="1"/>
             </call-macro>
           </when>
         </choose>
@@ -1192,10 +1191,74 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="nom"/>
       </pattern>
       <action>
-    <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let>
-    <let><clip pos="2" side="tl" part="nbr"/><lit v=""/></let>
-    <out>
-      <chunk name="attr_nom1" case="caseFirstWord">
+        <call-macro n="set_syntag1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_loc_loc1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_loc_loc1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_tra_ill1">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_par_gen2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+ 		<call-macro n="set_com_number">
+			<with-param pos="2" />
+		</call-macro>
+		<call-macro n="set_com_number">
+			<with-param pos="1" />
+		</call-macro>
+        <choose> <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
+			<when>
+				<test>
+					<and>
+						<equal>
+							<clip pos="2" side="tl" part="nbr"/>
+							<lit-tag v="Sg" />
+						</equal>
+						<or>
+							<equal>
+								<clip pos="2" side="tl" part="a_case"/>
+								<lit-tag v="Ill" />
+							</equal>							
+							<equal>
+								<clip pos="2" side="tl" part="a_case"/>
+								<lit-tag v="Loc" />
+							</equal>
+						</or>
+					</and>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="a_case"/>
+					<lit-tag v="Gen" />
+				</let>
+			</when>
+	    </choose>
+
+        <choose> <!-- no love yet. works on attr but not on noun -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <call-macro n="strip_nbr2">
+			  <with-param pos="1"/>
+              <with-param pos="2"/>
+            </call-macro>
+          </when>
+        </choose>
+  		<out>
+          <chunk name="attr_nom1" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="current_syntag"/></tag>
@@ -1203,21 +1266,20 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <tag><clip pos="2" side="tl" part="a_case"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="lem"/>
               <clip pos="1" side="tl" part="a_attr"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
-              <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="lem"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <var n="com_num"/> <!-- only in use in Comitative -->
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
-              <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
