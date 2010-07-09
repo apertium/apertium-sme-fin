@@ -59,15 +59,15 @@
 
 <xsl:template match="p">
   <p>
+      <l><xsl:apply-templates select="./l/*|./l/text()"/></l>
       <xsl:choose>
-        <xsl:when test="not(count(../@slr)=0)">
-          <l><xsl:apply-templates select="./l/text()|./l/*[not(name(.)=string('s'))]"/>:<xsl:apply-templates select="../@slr"/><xsl:apply-templates select="./l/*[name(.)=string('s')]"/></l>
+        <xsl:when test="not(count(../@srl)=0)">
+          <r><xsl:apply-templates select="./r/text()|./r/*[not(name(.)=string('s'))]"/>:<xsl:apply-templates select="../@srl"/><xsl:apply-templates select="./r/*[name(.)=string('s')]"/></r>
         </xsl:when>
         <xsl:otherwise>
-	  <l><xsl:apply-templates select="./l/*|./l/text()"/></l>
+	  <r><xsl:apply-templates select="./r/*|./r/text()"/></r>
         </xsl:otherwise>
       </xsl:choose>
-      <r><xsl:apply-templates select="./r/*|./r/text()"/></r>
   </p>
 </xsl:template>
 

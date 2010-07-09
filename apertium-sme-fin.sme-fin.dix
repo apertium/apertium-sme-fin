@@ -590,7 +590,6 @@
     <e slr="1"><p><l>viisodat<s n="N"/></l><r>järkeisoppi<s n="N"/></r></p></e>
     <e slr="1"><p><l>šaddu<s n="N"/></l><r>istutus<s n="N"/></r></p></e>
     <e slr="2"><p><l>rábát<s n="N"/></l><r>tahdas<s n="N"/></r></p></e>
-    <e srl="1"><p><l>viessu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
 
 	
 	<e><p><l>advearba<s n="N"/></l><r>adverbi<s n="N"/></r></p></e>
@@ -1200,7 +1199,11 @@
     <e><p><l>dákti<s n="N"/></l><r>määräys<s n="N"/></r></p></e>
     <e><p><l>dálki<s n="N"/></l><r>ilma<s n="N"/></r></p></e>
     <e><p><l>dálkkas<s n="N"/></l><r>lääke<s n="N"/></r></p></e>
+
     <e><p><l>dállu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
+    <e srl="1"><p><l>viessu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
+    <e srl="2"><p><l>stohpu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
+
     <e><p><l>dálolaš<s n="N"/></l><r>pienmaanviljelijä<s n="N"/></r></p></e>
     <e><p><l>dálueamit<s n="N"/></l><r>emäntä<s n="N"/></r></p></e>
     <e><p><l>dálvebivttas<s n="N"/></l><r>talvivaatteet<s n="N"/></r></p></e>
@@ -2416,7 +2419,6 @@
     <e><p><l>stoahkanapparáhtta<s n="N"/></l><r>leikkiteline<s n="N"/></r></p></e>
     <e><p><l>stoarbma<s n="N"/></l><r>myrsky<s n="N"/></r></p></e>
     <e><p><l>stohpogálvu<s n="N"/></l><r>huonekalu<s n="N"/></r></p></e>
-    <e><p><l>stohpu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
     <e><p><l>studeanta<s n="N"/></l><r>opiskelija<s n="N"/></r></p></e>
     <e><p><l>stuibmidit<s n="N"/></l><r>kapinoitsija<s n="N"/></r></p></e>
     <e><p><l>stuollu<s n="N"/></l><r>tuoli<s n="N"/></r></p></e>
@@ -2579,7 +2581,6 @@
     <e><p><l>viessogálvu<s n="N"/></l><r>huonekalu<s n="N"/></r></p></e>
     <e><p><l>viessohoiddár<s n="N"/></l><r>talonmies<s n="N"/></r></p></e>
     <e><p><l>viessočoavdda<s n="N"/></l><r>talonavain<s n="N"/></r></p></e>
-    <e><p><l>viessu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
     <e><p><l>viidni<s n="N"/></l><r>viina<s n="N"/></r></p></e>
     <e><p><l>viidni<s n="N"/></l><r>viini<s n="N"/></r></p></e>
     <e><p><l>viidni<s n="N"/></l><r>viinimalja<s n="N"/></r></p></e>
