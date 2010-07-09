@@ -2234,8 +2234,18 @@
 	<e><p><l>gáibádus<s n="N"/></l><r>edellytys<s n="N"/></r></p></e>
 	<e><p><l>doaibma<s n="N"/></l><r>toiminta<s n="N"/></r></p></e>
 	<e><p><l>inšeneavra<s n="N"/></l><r>insinööri<s n="N"/></r></p></e>
-	
-	
+	<e><p><l>ovttasbargu<s n="N"/></l><r>yhteistyö<s n="N"/></r></p></e>
+	<e><p><l>ovttasbargu<s n="N"/></l><r>yhteistyöelin<s n="N"/></r></p></e>
+	<e><p><l>orgána<s n="N"/></l><r>elin<s n="N"/></r></p></e>
+	<e><p><l>terminologiija<s n="N"/></l><r>terminologia<s n="N"/></r></p></e>
+	<e><p><l>orgána<s n="N"/></l><r>yhteisö<s n="N"/></r></p></e>
+	<e><p><l>orgána <s n="N"/></l><r>kumppani<s n="N"/></r></p></e>
+	<e><p><l>stivrenjoavku<s n="N"/></l><r>johtoryhmä<s n="N"/></r></p></e>
+	<e><p><l>prošeaktajoavku<s n="N"/></l><r>projektiryhmä<s n="N"/></r></p></e>
+	<e><p><l>seminára<s n="N"/></l><r>seminaari<s n="N"/></r></p></e>
+	<e><p><l>njuolggadus<s n="N"/></l><r>sääntö<s n="N"/></r></p></e>
+	<e><p><l>jođas<s n="N"/></l><r>johto<s n="N"/></r></p></e>
+	<e><p><l>davviriikkalaš<s n="N"/></l><r>pohjoismainen<s n="N"/></r></p></e>	
     <e><p><l>ruovttudoallu<s n="N"/></l><r>kotitalous<s n="N"/></r></p></e>
     <e><p><l>ruovttusiidu<s n="N"/></l><r>kotisivu<s n="N"/></r></p></e>
     <e><p><l>ruovttuveahkki<s n="N"/></l><r>kotiapulainen<s n="N"/></r></p></e>
@@ -2818,6 +2828,10 @@
     <e><p><l>čázeheahti<s n="N"/></l><r>haaksirikko<s n="N"/></r></p></e>
     <e><p><l>čázet<s n="N"/></l><r>nahkakenkä<s n="N"/></r></p></e>
     <e><p><l>čázit<s n="N"/></l><r>vesi<s n="N"/></r></p></e>
+	<e><p><l>sátnejođiheaddji<s n="N"/></l><r>puheenjohtaja<s n="N"/></r></p></e>
+	<e><p><l>bargu<s n="N"/></l><r>tehtävä<s n="N"/></r></p></e>
+	<e><p><l>várrelahttu<s n="N"/></l><r>varajäsen<s n="N"/></r></p></e>
+
 
 
 	
@@ -3552,7 +3566,9 @@
     <e><p><l>hui<s n="Adv"/></l><r>erittäin<s n="Adv"/></r></p></e>
     <e><p><l>hui<s n="Adv"/></l><r>kovin<s n="Adv"/></r></p></e>
     <e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Adv"/></r></p></e>
-
+	<e><p><l>dábálaččat<s n="Adv"/></l><r>yleensä<s n="Adv"/></r></p></e>
+	<e><p><l>maŋemus<j/>háve<s n="Adv"/></l><r>viimeksi<s n="Adv"/></r></p></e>
+	
     <e><p><l>ain<s n="Adv"/></l><r>edelleen<s n="Adv"/></r></p></e>
     <e><p><l>ainjuo<s n="Adv"/></l><r>ainakin<s n="Adv"/></r></p></e>
     <e><p><l>aivve<s n="Adv"/></l><r>juuri<s n="Adv"/></r></p></e>
@@ -3754,6 +3770,9 @@
 	<e><p><l>láhppot<s n="V"/><s n="IV"/></l><r>eksyä<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>mearridit<s n="V"/><s n="TV"/></l><r>päättää<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>mohkastit<s n="V"/><s n="IV"/></l><r>kiertää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>namuhit<s n="V"/><s n="TV"/></l><r>nimetä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>válljet<s n="V"/><s n="TV"/></l><r>valita<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>ovddastit<s n="V"/><s n="TV"/></l><r>edustaa<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>movttiidahttit<s n="V"/><s n="TV"/></l><r>innostaa<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>muitalit<s n="V"/><s n="TV"/></l><r>kertoa<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>namahit<s n="V"/><s n="TV"/></l><r>nimittää<s n="V"/></r></p><par n="V_V"/></e>
