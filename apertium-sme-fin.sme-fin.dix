@@ -1607,7 +1607,13 @@
     <e><p><l>ildu<s n="N"/></l><r>hylly<s n="N"/></r></p></e>
     <e><p><l>illu<s n="N"/></l><r>ilo<s n="N"/></r></p></e>
     <e><p><l>interneahtta<s n="N"/></l><r>internetti<s n="N"/></r></p></e>
-    <e><p><l>internáhtta<s n="N"/></l><r>sisäoppilaitos<s n="N"/></r></p></e>
+    <e><p><l>neahtta<s n="N"/></l><r>netti<s n="N"/></r></p></e>
+    <e><p><l>neahttasiidu<s n="N"/></l><r>nettisivu<s n="N"/></r></p></e>
+    <e><p><l>siidu<s n="N"/></l><r>sivusto<s n="N"/></r></p></e>
+	<e><p><l>professor<s n="N"/></l><r>professori<s n="N"/></r></p></e>
+	<e><p><l>spábbačiekčan<s n="N"/></l><r>jalkapallo<s n="N"/></r></p></e>
+	<e><p><l>meahccedikšu<s n="N"/></l><r>metsänhoitaja<s n="N"/></r></p></e>
+	<e><p><l>internáhtta<s n="N"/></l><r>sisäoppilaitos<s n="N"/></r></p></e>
     <e><p><l>ipmi<s n="N"/></l><r>täti<s n="N"/></r></p></e>
     <e><p><l>ipmil<s n="N"/></l><r>jumala<s n="N"/></r></p></e>
     <e><p><l>ipmil<s n="N"/></l><r>jumala<s n="N"/></r></p></e>
@@ -1643,7 +1649,11 @@
     <e><p><l>jieŋas<s n="N"/></l><r>jääsilta<s n="N"/></r></p></e>
     <e><p><l>joatkkaskuvla<s n="N"/></l><r>lukio<s n="N"/></r></p></e>
     <e><p><l>joavkobargu<s n="N"/></l><r>ryhmätyö<s n="N"/></r></p></e>
-    <e><p><l>joavku<s n="N"/></l><r>ryhmä<s n="N"/></r></p></e>
+    <e><p><l>bargojoavku<s n="N"/></l><r>työryhmä<s n="N"/></r></p></e>
+	<e><p><l>váttisvuohta<s n="N"/></l><r>vaikeus<s n="N"/></r></p></e>
+	<e><p><l>joavku<s n="N"/></l><r>ryhmä<s n="N"/></r></p></e>
+	<e><p><l>čilgehus<s n="N"/></l><r>selvitys<s n="N"/></r></p></e>
+	
     <e><p><l>jogaš<s n="N"/></l><r>puro<s n="N"/></r></p></e>
     <e><p><l>joggeskuovva<s n="N"/></l><r>lenkkikenkä<s n="N"/></r></p></e>
     <e><p><l>johka<s n="N"/></l><r>joki<s n="N"/></r></p></e>
@@ -2219,6 +2229,13 @@
     <e><p><l>ruovdepoarta<s n="N"/></l><r>rautaportti<s n="N"/></r></p></e>
     <e><p><l>ruovdi<s n="N"/></l><r>rauta<s n="N"/></r></p></e>
     <e><p><l>ruovttubargu<s n="N"/></l><r>läksy<s n="N"/></r></p></e>
+	<e><p><l>ruhtadeapmi<s n="N"/></l><r>talous<s n="N"/></r></p></e>
+	<e><p><l>ruhtadoallu<s n="N"/></l><r>rahatalous<s n="N"/></r></p></e>
+	<e><p><l>gáibádus<s n="N"/></l><r>edellytys<s n="N"/></r></p></e>
+	<e><p><l>doaibma<s n="N"/></l><r>toiminta<s n="N"/></r></p></e>
+	<e><p><l>inšeneavra<s n="N"/></l><r>insinööri<s n="N"/></r></p></e>
+	
+	
     <e><p><l>ruovttudoallu<s n="N"/></l><r>kotitalous<s n="N"/></r></p></e>
     <e><p><l>ruovttusiidu<s n="N"/></l><r>kotisivu<s n="N"/></r></p></e>
     <e><p><l>ruovttuveahkki<s n="N"/></l><r>kotiapulainen<s n="N"/></r></p></e>
@@ -3298,6 +3315,7 @@
     <e><p><l>bahča<s n="A"/></l><r>katkera<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>bahča<s n="A"/></l><r>kitkerä<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>baski<s n="A"/></l><r>ahdas<s n="A"/></r></p><par n="A_A"/></e> 
+	<e><p><l>erenoamaš<s n="A"/></l><r>erityinen<s n="A"/></r></p><par n="A_A"/></e>
     <e><p><l>bastil<s n="A"/></l><r>terävä<s n="A"/></r></p><par n="A_A"/></e>
     <e><p><l>beakkán<s n="A"/></l><r>kuuluisa<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>bealjeheapme<s n="A"/></l><r>kuuro<s n="A"/></r></p><par n="A_A"/></e> 

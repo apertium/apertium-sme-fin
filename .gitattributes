@@ -15,6 +15,8 @@
 /autogen.sh -text
 /configure.ac -text
 corp/line_phrases.sql -text
+corp/nordterm-fin.mdown -text
+corp/nordterm-sme.mdown -text
 corp/nt-fin-sme/NOTES -text
 corp/nt-fin-sme/bible.fin/book001.chapter001.txt -text
 corp/nt-fin-sme/bible.fin/book001.chapter002.txt -text
@@ -1499,6 +1501,7 @@ dev/bidix/V.lex -text
 dev/bidix/V.lex.orig -text
 dev/bidix/calc-levenshtein.py -text
 dev/chapter002_notes -text
+dev/chapter003_notes -text
 dev/countries.txt -text
 dev/fin.cfg -text
 dev/langs.cfg -text

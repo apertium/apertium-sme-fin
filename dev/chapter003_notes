@@ -1,0 +1,119 @@
+1 Mutta käärme oli kavalin kaikista kedon eläimistä, jotka Herra Jumala  oli tehnyt; ja se sanoi vaimolle: "Onko Jumala todellakin sanonut:  `Älkää syökö kaikista paratiisin puista`?"
+1 Muhte gearpmaš lei gávvil #buot gietti ealliin/elliin, geat Hearrá Ipmil  lei dahkan; ja dat dajai eapmái: #"Leago Ipmil duođaid dadjan:  `Allet bora #buot #paradiisa @puistaa`?#"
+
+	buot - attr?
+	puistaa - CG rule or lexical selection? 
+
+2 Niin vaimo vastasi käärmeelle: "Me saamme syödä muiden puiden  hedelmiä paratiisissa,
+2 Nu eapmi vástidii gearbmahii/gearbmašii: #"Mii oažžut borrat @muu muoraid  šattuid #paradiisa,
+
+
+	muu'][POS=ADJECTIVE][KTN=18]:mu{^u}	kotus_18_ADJECTIVE/stemfiller	;
+	
+	Need to add as indefinite pronoun too.
+	joku muu tuli sisään
+
+
+
+3 mutta sen puun hedelmästä, joka on keskellä paratiisia, on Jumala  sanonut: `Älkää syökö siitä älkääkä koskeko siihen, ettette kuolisi`."
+3 muhte dan muora šattus, gii lea gasku #paradiisa, lea Ipmil  dadjan: `Allet bora #dat allet guoskka @siihen, ahte ehpet jámášii`.#"
+
+	alletge guoskka dasa 
+
+	siihen - needs a CG rule
+	
+	älkää syökö siitä
+	^dat<Pron><Dem><Sg><Loc>$}
+	
+	missing dem readings in sme
+	
+	$ echo "dan" | automorf
+	dan	dat<Pron><Dem><Sg><Acc>
+	dan	dat<Pron><Dem><Sg><Gen>
+	dan	dat<Pron><Pers><Sg3><Acc>
+	dan	dat<Pron><Pers><Sg3><Gen>
+	
+	$ echo "dasa" | sme
+	dasa	dat+Pron+Pers+Sg3+Ill
+	dasa	dassat+V+TV+Ind+Prs+ConNeg
+	dasa	dassat+V+TV+Imprt+Sg2
+	dasa	dassat+V+TV+Imprt+ConNeg
+	dasa	dassat+V+TV+VGen
+	
+
+4 Niin käärme sanoi vaimolle: "Ette suinkaan kuole;
+4 Nu gearpmaš dajai eapmái: #"Ehpet @suinkaan jáme;
+
+	
+
+5 vaan Jumala tietää, että sinä päivänä, jona te siitä syötte,  aukenevat teidän silmänne, ja te tulette niinkuin Jumala tietämään hyvän  ja pahan".
+5 muhto Ipmil diehtá, ahte danin beaivin, #gii dii #dat borrabehtet,  rahpasit din #čalbmi, ja dii boahtibehtet #nugo Ipmil diehtit buori  ja bahá#".
+
+	:D hyvän ja pahan -> here bahá actually gets acc. 
+
+6 Ja vaimo näki, että siitä puusta oli hyvä syödä ja että se oli ihana  katsella ja suloinen puu antamaan ymmärrystä; ja hän otti sen hedelmästä  ja söi ja antoi myös miehellensä, joka oli hänen kanssansa, ja hänkin  söi.
+6 Ja eapmi oinnii, ahte dan muoras lei buorre borrat ja ahte dat lei #hearvás  geahčadit ja @sulo muorra addit ipmárdusa; ja son válddii dan šattus  ja borai ja attii maid divdoseaset, gii lei su mielde, ja son  borai.
+
+
+7 Silloin aukenivat heidän molempain silmät, ja he huomasivat olevansa  alasti; ja he sitoivat yhteen viikunapuun lehtiä ja tekivät itselleen  vyöverhot.
+7 Dalle rahpasedje sin #goappašat čalmmit, ja sii fuobmájedje #leat  @ala; ja sii čatne oktii #fiikkonmuorra @lehtiä ja dahke allaseaset/alcciset/alcceseaset/alcceset  avvi #láseliidni.
+
+	
+
+8 Ja he kuulivat, kuinka Herra Jumala käyskenteli paratiisissa illan  viileydessä. Ja mies vaimoineen lymysi Herran Jumalan kasvojen edestä  paratiisin puiden sekaan.
+8 Ja sii gulle, mot Hearrá Ipmil váccašii #paradiisa eahkeda  gálus. Ja dievdu emiineaset čiehkádii Hearrá Ipmil/Ipmila ámadajuid @edestä  #paradiisa muoraid sisa/siskkil.
+
+9 Mutta Herra Jumala huusi miestä ja sanoi hänelle: "Missä olet?"
+9 Muhte Hearrá Ipmil @huusi dievddu ja dajai sutnje: #"Mas leat?#"
+
+10 Hän vastasi: "Minä kuulin sinun askeleesi paratiisissa ja pelkäsin,  sillä minä olen alasti, ja sentähden minä lymysin".
+10 Son vástidii: #"#Mii @kuula du lávkkát #paradiisa ja ballen,  #dat manin lean @ala, ja *sentähden manin čiehkádin#".
+
+11 Ja hän sanoi: "Kuka sinulle ilmoitti, että olet alasti? Etkö syönyt  siitä puusta, josta minä kielsin sinua syömästä?"
+11 Ja son dajai: #"Gii dutnje almmuhii, ahte leat @ala? Itgo borran  dan muoras, geas manin biehttalin du borrat?#"
+
+12 Mies vastasi: "Vaimo, jonka annoit olemaan minun kanssani, antoi  minulle siitä puusta, ja minä söin".
+#12 Dievdu vástidii: #"Eapmi, gean addet leat mu mielde, attii  munnje dan muoras, ja manin borren#".
+
+13 Niin Herra Jumala sanoi vaimolle: "Mitäs olet tehnyt?" Vaimo  vastasi: "Käärme petti minut, ja minä söin".
+13 Nu Hearrá Ipmil dajai eapmái: #"Man leat dahkan?#" Eapmi  vástidii: #"Gearpmaš fillii mu, ja manin borren#".
+
+14 Ja Herra Jumala sanoi käärmeelle: "Koska tämän teit, kirottu ole  sinä kaikkien karjaeläinten ja kaikkien metsän eläinten joukossa.  Vatsallasi sinun pitää käymän ja tomua syömän koko elinaikasi.
+14 Ja Hearrá Ipmil dajai gearbmahii/gearbmašii: #"#Danin dán dahket, garrudan leage  danin #buot eallu ealliid/elliid ja #buot vuovddi ealliid/elliid joavkkus.  @Vatsa du berre #geavat ja @tomuta borrat @koko #eallinahki.
+
+15 Ja minä panen vainon sinun ja vaimon välille ja sinun siemenesi ja  hänen siemenensä välille; se on polkeva rikki sinun pääsi, ja sinä olet  pistävä sitä kantapäähän."
+15 Ja manin bijan vaši du ja eami gaskii ja du gilvagat ja  su gilvageaset gaskii; dat lea #duolbmat @rikki du #beassat, ja danin leat  @pistää dan šušmái.#"
+
+16 Ja vaimolle hän sanoi: "Minä teen suuriksi sinun raskautesi vaivat,  kivulla sinun pitää synnyttämän lapsia; mutta mieheesi on sinun halusi  oleva, ja hän on sinua vallitseva".
+16 Ja eapmái son dajai: #"Manin dagan @suura du lossatvuođat váivvit,  bákčasis du berre guoddit mánáid; muhte divdosat lea du siđai  #leat, ja son lea du #ráđđet#".
+
+17 Ja Aadamille hän sanoi: "Koska kuulit vaimoasi ja söit puusta, josta  minä kielsin sinua sanoen: `Älä syö siitä`, niin kirottu olkoon maa  sinun tähtesi. Vaivaa nähden sinun pitää elättämän itseäsi siitä koko  elinaikasi;
+17 Ja Áttámii son dajai: #"#Danin gullet eamát ja borret muoras, geas  manin biehttalin du dadjat: `Ale bora #dat`, nu garrudan lehkos eana  du násttát. Váivvi @nähden du berre ealihit iežat #dat @koko  #eallinahki;
+
+18 orjantappuroita ja ohdakkeita se on kasvava sinulle, ja kedon  ruohoja sinun on syötävä.
+18 @orjantappura ja #gáskkašahkesrássi dat lea #šaddat dutnje, ja gietti  suinniid du lea #borrat.
+
+19 Otsasi hiessä sinun pitää syömän leipäsi, kunnes tulet maaksi  jälleen, sillä siitä sinä olet otettu. Sillä maasta sinä olet, ja maaksi  pitää sinun jälleen tuleman."
+19 #Gállu bivastagas du berre borrat #láibi, dasságo boađát eatnamii  vuot, #dat #dat danin leat váldán. Dan eatnamis don leat, ja eatnamii  berre du vuot #boahtit.#"
+
+	Is leipäsi fixable with CG? According to CG it's Nom or Gen, which is fine for Finnish but sme needs this to be an object. 
+	Maybe a transfer rule can just switch all objects to Acc/Gen?
+
+
+20 Ja mies antoi vaimolleen nimen Eeva, sillä hänestä tuli kaiken  elävän äiti.
+20 Ja dievdu attii eapmáseaset nama #Evá, #dat sus bođii buot  #eallit eadni.
+
+	eallit - use/sub tag problem
+
+21 Ja Herra Jumala teki Aadamille ja hänen vaimollensa puvut nahasta ja  puki ne heidän yllensä.
+21 Ja Hearrá Ipmil dagai Áttámii ja su eapmáseaset @puku náhki ja  gárvvohii dat sin badjelii.
+
+22 Ja Herra Jumala sanoi: "Katso, ihminen on tullut sellaiseksi kuin  joku meistä, niin että hän tietää hyvän ja pahan. Kun ei hän nyt vain  ojentaisi kättänsä ja ottaisi myös elämän puusta ja söisi ja eläisi  iankaikkisesti!"
+22 Ja Hearrá Ipmil dajai: #"Geahča, olmmoš lea boahtán #dakkár go  soamis @meistää, nu ahte son diehtá buori ja bahá. Go ii son @nyt dušše  geigeše gieđaset ja válddášii maid eallima muoras ja borašii ja ealášii  #agálaš!#"
+
+23 Niin Herra Jumala ajoi hänet pois Eedenin paratiisista viljelemään  maata, josta hän oli otettu.
+23 Nu Hearrá Ipmil vujii su eret @Eeden #paradiisa šaddadit  eatnama, geas son lei váldán.
+
+24 Ja hän karkoitti ihmisen ja asetti Eedenin paratiisin itäpuolelle  kerubit ynnä välkkyvän, leimuavan miekan vartioitsemaan elämän puun  tietä.
+24 Ja son *karkoitti olbmo ja ásahii @Eeden #paradiisa #nuorttabealli  kerubat ja #šealgut, #njivžut miehki *vartioitsemaan eallima muora  geainnu.
+
