@@ -46,7 +46,7 @@ function grepextract {
 
 ### Extract contents of bilingual dictionary (lema + pos)
 
-lt-expand $DEV/../$BASENAME.$PREFIX1.dix  | grep -v REGEX | cut -f1-2 -d'>' > $EXP 
+lt-expand $DEV/../$BASENAME.$PREFIX1.dix  | grep -v REGEX | cut -f1-2 -d'>'  | sed 's/+//g' > $EXP 
 
 ### Extract head 
 
