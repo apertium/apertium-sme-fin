@@ -6483,6 +6483,7 @@ buol0lit:buolli BOAHTI ;
 buoridit:buorid MUITAL ;
 buorránit:buorrán LASSAN ;
 buorástahttit:buorástahtti HAHTTIT ;
+bures#sivdnidit:bures#sivdnid MUITAL ;
 báh0cit:báh'ci BOAHTI ;
 báh0čit:báh'či DIEHTI ;
 bái0tit:báj'ti BOAHTI ;
@@ -7516,6 +7517,7 @@ deaivvadan#sad0ji:deaivvadan#sad'ji ALBMI ;
  deaške#da0ŋas+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:deaške#dakŋas MALIS ; !
  diddi+CmpN/SgN+CmpN/SgG+CmpN/PlG:diddi GOAHTI; !
 diehppi GOAHTI ;
+diehto#sátne#gir0ji:diehto#sátne#gir'ji GOAHTI ;
 dieh0tu:dieh'tu ALBMI ;
  diehtun#addin+CmpN/Sg:diehtun#addim BOAHTIN ; !
  diehtun#addi+CmpN/SgN+CmpN/SgG+CmpN/PlG:diehtun#addi¤ ACTOR ; !
@@ -10901,6 +10903,7 @@ váđđu GOAHTI ;
  ášši#jođiheaddji+CmpN/SgN+CmpN/SgG+CmpN/PlG:ášši#jođiheaddji¤ ACTOR ; !
  ášši#prosa#teak0sta+Use/Sub:ášši#prosa#teak'sta GOAHTI ; !
  ášši#suor0gi+Use/Sub:ášši#suor'gi GOAHTI ; !
+ šaddo#muorra+CmpN/SgN+CmpN/SgG+CmpN/PlG:šaddo#muorra GOAHTI; !
  šaddu+CmpN/SgN+CmpN/SgG+CmpN/PlG:šaddu GOAHTI; !
  čakča#guohtun+CmpN/Sg:čakča#guohtum BOAHTINLONGSHORT ; !
  čak0ča+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:čak'ča GOAHTI ; !
