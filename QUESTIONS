@@ -88,6 +88,16 @@ We fix the isme-norm.fst transducer, by blocking 3 of 4.
 
 ## PoS differences and transfer
 
+### -ltään/-ltaan
+
+	hengiltään (henki+N+Pl+Abl+Sg3/henki+N+Pl+Abl+Pl3), nimeltään (nimi+N+Sg+Abl+Sg3/nimi+N+Sg+Abl+Pl3)
+	->
+	vuoiŋŋa mielde
+	nama mielde
+
+	..., nimeltä Sakarias, ...
+	..., Sakarja-nammasaš báhppa ... 
+
 ### -teen numbers
 
 Sme: guokte|nuppelohkái
@@ -687,6 +697,8 @@ välityksellä	välitys+N+Sg+Ade
 	"<pinnan>"
 		"pinta" N Sg Gen @←OBJ MAP:2276 
 		"pinna" N Sg Gen @←OBJ MAP:2276 
+
+
 
 # Misc 
 

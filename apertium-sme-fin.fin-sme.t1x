@@ -971,7 +971,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
+	
     <rule comment="regla: attrmod_3 nom"> 
       <pattern>
         <pattern-item n="attrmod_3"/>

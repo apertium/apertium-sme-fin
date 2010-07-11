@@ -6786,6 +6786,7 @@ sihkkelas0tit:sihkkelas'ti BOAHTALADDA ;
 sihkkut:sihkku BOLTU ;
 sih0tat:sih'ta BORRA ;
 sir0dit:sir'di DIEHTI ;
+sisttis#doallat:sisttis#doalla BORRA ;
 sivdnidit:sivdnid MUITAL ;
 smiehttat:smiehtta BORRA ;
 soai0tit:soaj'ti BOAHTI ;
@@ -6867,6 +6868,7 @@ vázzit:vázzi BOAHTI ;
 šlahttit:šlahtti ARVI ;
 čoagganit:čoaggan LASSAN ;
 čoaggit:čoaggi DIEHTI ;
+čoahkkanit:čoahkkan LASSAN ;
 čoas0kut:čoas'ku DIEVVA ;
 čohkkedit:čohkked ALIST ;
 čohkkáhit:čohkkáh MUITAL ;
@@ -7064,6 +7066,7 @@ aláš:aláž LEXDIMINC ;
  ametys0ta:ametys'ta GOAHTI ; !^LOAN
  anti#kristus+CmpN/SgN+CmpN/SgG+CmpN/PlG:anti#kristus GAHPIRLONG; !
  apoastal+CmpN/SgN+CmpN/SgG+CmpN/PlG:apoastal GAHPIR; !
+apparáhta STAHTA ;
  appelsiidna+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:appels MASKIN ; !
 arve#bivttas:arve#bik'tas MALIS ;
  arve#dál0ki+CmpN/SgN+CmpN/SgG+CmpN/PlG:arve#dál'ki GOAHTI ; !
@@ -7513,6 +7516,7 @@ deaivvadan#sad0ji:deaivvadan#sad'ji ALBMI ;
  deaške#da0ŋas+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:deaške#dakŋas MALIS ; !
  diddi+CmpN/SgN+CmpN/SgG+CmpN/PlG:diddi GOAHTI; !
 diehppi GOAHTI ;
+diehto#sátne#gir0ji:diehto#sátne#gir'ji GOAHTI ;
 dieh0tu:dieh'tu ALBMI ;
  diehtun#addin+CmpN/Sg:diehtun#addim BOAHTIN ; !
  diehtun#addi+CmpN/SgN+CmpN/SgG+CmpN/PlG:diehtun#addi¤ ACTOR ; !
@@ -7720,6 +7724,7 @@ dák0ti:dák'ti AIGI ;
  dálkkas#buv0da+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:dálkkas#buv'da GOAHTI ; !
  dálkkas#gieh0ta+CmpN/SgN+CmpN/SgG+CmpN/PlG:dálkkas#gieh'ta GOAHTI ; !
 dálkkas:dál'kas MALIS ;
+dálkkas#die00đa:dálkkas#dieh'tag8 SEAMU ;
  dállu+CmpN/SgN+CmpN/SgG+CmpN/PlG:dállu ALBMI; !
  dálolaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:dálolažž JOHTOLAT ; !
  dálu#eamit+CmpN/SgN+CmpN/SgG+CmpN/PlG:dálu#eamid GAHPIRLONG ; !
@@ -8113,6 +8118,7 @@ gazza GOAHTI ;
  gazza#sáhpal+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:gazza#sáhpal GAHPIR; !
 gažaldat:gažaldah'k JOHTOLAT ;
  geah0či+CmpN/SgN+CmpN/DefSgGen+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft:geah'či AIGI ; !
+ geahččan#guov0lu+CmpN/SgN+CmpN/SgG+CmpN/PlG:geahččan#guov'lu ALBMI ; !
 geaidno#guorra GOAHTI ;
  geaidno#guorra+N+CmpN/Sg+CmpN/Sg:geaidno#guor%> Rreal ; !
 geaidnu:geajdnu AIGI ;
@@ -9245,6 +9251,9 @@ mearra#biv0du:mearra#biv'du ALBMI ;
  mearra#sápmelaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:mearra#sápmelažž JOHTOLAT ; !
  mearra#sápmelaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:mearra#sápmelažž JOHTOLAT ; !
  mearra#sápmi+CmpN/SgG+CmpN/PlG:mearra#sápmi AIGI; !
+mearri GOAHTI ;
+ mearridan#orgána+CmpN/SgN+CmpN/SgG+CmpN/PlG:mearridan#orgána GOAHTI; !
+ mearridan#vuoigatvuoh0ta+CmpN/SgG+CmpN/DefPlGen:mearridan#vuoigatvuoh'ta LUONDU ; !
  mehtar+Use/Sub:mehtar GAHPIR; ! !SUB
 mehter GAHPIR ;
  mehter#systema GOAHTI ; !^LOAN
@@ -9444,6 +9453,7 @@ mát0ki:mát'ki GOAHTI ;
  máttar#áddjá+CmpN/SgN+CmpN/SgG+CmpN/PlG:máttar#áddjá ALBMILONG; !
  máttar#áhkku+CmpN/SgN+CmpN/SgG+CmpN/PlG:máttar#áhkku ALBMILONG ; !
 mátta#sáme#giella GOAHTI ;
+ máŋggas+CmpN/None:máŋ'gas OVCCIS ;  !
  mášiidna+N+CmpN/SgN:mášen%> R ; !Alt.cmp-form
 mášiidna:máš MASKIN ;
 máššu AIGI ;
@@ -10461,6 +10471,8 @@ teaks0ta:teaks'ta GOAHTI ;
  teaksta#gieđahallan+CmpN/Sg:teaksta#gieđahallam BOAHTALADDAN ; !
  teaksta#nuppástuhttin+CmpN/Sg:teaksta#nuppástuhttim BOAHTIN ; !
 teal0tá:teal'tá ALBMILONG ;
+ teknihkka#hoav0da+CmpN/SgN+CmpN/SgG+CmpN/PlG:teknihkka#hoav'da GOAHTI ; !
+teknihkka GOAHTI ;
  teknihkkár+CmpN/SgN+CmpN/SgG+CmpN/PlG:teknihkkár GAHPIRLONG; !
 telefovdna:telefo TELEFON ;
 telefák0sa:telefák'sa GOAHTI ;
@@ -10604,12 +10616,25 @@ vuod0ja:vuod'ja GOAHTI ;
  vuodjan+CmpN/Sg:vuodjam BOAHTIN ; !
 vuodja#lái0bi:vuodja#láj'bi GOAHTI ;
  vuodja#rássi+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:vuodja#rássi AIGI; !
+ vuodjin#oahppi+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuodjin#oahppi¤ ACTOR ; !
+ vuodjin#ái0gi+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:vuodjin#áj'gi AIGI ;  !
+ vuodjin#hárjehallan+CmpN/Sg:vuodjin#hárjehallam BOAHTALADDAN ; !
+ vuodjin#bea0na+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuodjin#beatnag8 BEANA ; !
+ vuodjin#oahpaheaddji+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuodjin#oahpaheaddji¤ ACTOR ; !
+ vuodjin#vuogasvuoh0ta+CmpN/SgG+CmpN/DefPlGen:vuodjin#vuogasvuoh'ta LUONDU ; !
+ vuodjin#geahččaleapmi+CmpN/Sg:vuodjin#geahččal EAPMI ; !
+ vuodjin#skuv0la+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:vuodjin#skuv'la GOAHTI ; !
+ vuodjin#guov0lu+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuodjin#guov'lu ALBMI ; !
+ vuodjin#geatnegasvuoh0ta+CmpN/SgG+CmpN/DefPlGen:vuodjin#geatnegasvuoh'ta LUONDU ; !
+ vuodjin#kantuvra+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:vuodjin#k KANTUR ; !
+ vuodjin+CmpN/Sg+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft:vuodjim BOAHTINLONGSHORT ; !
 vuodjin#goar0ta:vuodjin#goar'ta GOAHTI ;
 vuodjin#koar0ta:vuodjin#koar'ta GOAHTI ;
  vuodjin#skuv0la+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:vuodjin#skuv'la GOAHTI ; !
 vuogga GOAHTI ;
  vuogga#čeahppi+CmpN/SgN+CmpN/SgG+CmpN/PlG:vuogga#čeahppi ALBMILONG; !
  vuogga#áŋkkur+Use/Sub:vuogga#áŋkkur GAHPIR; !
+vuogádat:vuogádah'k JOHTOLAT ;
 vuoh0ki:vuoh'ki AIGI ;
 vuoiddas:vuoj'das MALIS ;
  vuoigatvuoh0ta+CmpN/SgG+CmpN/DefPlGen:vuoigatvuoh'ta LUONDU ; !
@@ -10967,6 +10992,8 @@ váđđu GOAHTI ;
  čoahkkin#jođiheaddji+CmpN/SgN+CmpN/SgG+CmpN/PlG:čoahkkin#jođiheaddji¤ ACTOR ; !
  čoahkkin#latnja+CmpN/SgN+CmpN/SgG+CmpN/PlG:čoahkkin#latnja GOAHTI; !
  čoahkkin+CmpN/SgN+CmpN/DefSgGen+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft:čoahkkim GAHPIRLONG ; !
+ čoakkáldat#goziheaddji+CmpN/SgN+CmpN/SgG+CmpN/PlG:čoakkáldat#goziheaddji¤ ACTOR ; !
+čoakkáldat:čoakkáldah'k JOHTOLAT ;
 šoalka#liidni:šoalka#lijdni GOAHTI ;
 čoarve#bas0te:čoarve#bas'te GOAHTI ;
 čoarve#duod0ji:čoarve#duod'ji GOAHTI ;
@@ -11561,6 +11588,7 @@ mávssolaš:mávssol DABALAS ;
  mášoheapme+CmpN/SgN+CmpN/SgG+CmpN/PlG:mášoh JEAGOHEAPMI ; !
  nanus+CmpN/SgN+CmpN/SgG+CmpN/PlG:nannu NANUS ; !
  nanus:nana LEXATTR ; ! exceptional attr form
+nationála BOREALA ;
  neav0ri+CmpN/SgN+CmpN/SgG+CmpN/PlG:neav'ri LAIKI ; !
 njalkkas:njal'kas BOAKKAS ;
  njoah0ci+CmpN/SgN+CmpN/SgG+CmpN/PlG:njoah'ci LAIKI ; !
