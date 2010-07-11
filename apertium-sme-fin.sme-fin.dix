@@ -504,10 +504,10 @@
     <e><p><l>buot<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/></r></p></e>
     <e slr="1"><p><l>buohkat<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/></r></p></e>
     <e><p><l>mihkkege<s n="Pron"/><s n="Indef"/></l><r>mikään<s n="Pron"/><s n="Qnt"/></r></p></e>
-    <e><p><l>dákkár<s n="Pron"/><s n="Indef"/></l><r>tällainen<s n="Pron"/></r></p></e>
-    <e><p><l>dakkár<s n="Pron"/><s n="Indef"/></l><r>semmoinen<s n="Pron"/></r></p></e>
-    <e><p><l>dakkár<s n="Pron"/><s n="Indef"/></l><r>sellainen<s n="Pron"/></r></p></e>
-    <e><p><l>duokkár<s n="Pron"/><s n="Indef"/></l><r>tuommoinen<s n="Pron"/></r></p></e>
+    <e><p><l>dákkár<s n="Pron"/><s n="Dem"/></l><r>tällainen<s n="Pron"/></r></p></e>
+    <e><p><l>dakkár<s n="Pron"/><s n="Dem"/></l><r>semmoinen<s n="Pron"/></r></p></e>
+    <e><p><l>dakkár<s n="Pron"/><s n="Dem"/></l><r>sellainen<s n="Pron"/></r></p></e>
+    <e><p><l>duokkár<s n="Pron"/><s n="Dem"/></l><r>tuommoinen<s n="Pron"/></r></p></e>
     <e><p><l>muhtin<s n="Pron"/><s n="Indef"/></l><r>muutama<s n="Pron"/></r></p></e>
     <e><p><l>juohke<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/><s n="Indef"/></r></p></e>   
 	<e><p><l>goappašat<s n="Pron"/><s n="Indef"/><s n="Pl"/></l><r>molemmat<s n="Pron"/><s n="Indef"/><s n="Pl"/></r></p></e>
@@ -2806,17 +2806,17 @@
 	<e><p><l>fitnodatsearvi<s n="N"/></l><r>yhtiö<s n="N"/></r></p></e>
 	<e><p><l>vuodjin<s n="N"/></l><r>ajo<s n="N"/></r></p></e>
 	
-	<e><p><l>Meksiko<b/>luokta<s n="N"/></l><r>Meksikon<b/>lahti<s n="N"/></r></p></e> <!-- ? -->
+	<e><p><l>Meksiko<j/>luokta<s n="N"/></l><r>Meksikonlahti<s n="N"/></r></p></e> <!-- ? -->
 	<e><p><l>mearri<s n="N"/></l><r>määrä<s n="N"/></r></p></e>
 	<e><p><l>diehto<j/>sátne<j/>girji<s n="N"/></l><r>tietosanakirja<s n="N"/></r></p></e>
 	<e><p><l>dálkkas<j/>dieđa<s n="N"/></l><r>lääketiede<s n="N"/></r></p></e>
-	<e><p><l>geahččanguovlu<s n="N"/></l><r>näkökulma<s n="N"/></r></p></e>
+	<e><p><l>geahččan<j/>guovlu<s n="N"/></l><r>näkökulma<s n="N"/></r></p></e>
 	<e><p><l>teknihkka<s n="N"/></l><r>tekniikka<s n="N"/></r></p></e>
-	<e><p><l>válddooassi<s n="N"/></l><r>pääosa<s n="N"/></r></p></e>
+	<e><p><l>válddo<j/>oassi<s n="N"/></l><r>pääosa<s n="N"/></r></p></e>
 	<e><p><l>čoakkáldat<s n="N"/></l><r>kokoelma<s n="N"/></r></p></e>
 
 	<!-- languages -->
-	<e><p><l>suomagiella<s n="N"/></l><r>suomi<s n="N"/></r></p></e>
+	<e><p><l>suoma<j/>giella<s n="N"/></l><r>suomi<s n="N"/></r></p></e>
 
 	
 	<!-- nouns end -->
