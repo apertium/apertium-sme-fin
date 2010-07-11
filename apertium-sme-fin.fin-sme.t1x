@@ -45,7 +45,7 @@
     </def-cat>
 	<def-cat n="appearance">
 		<cat-item lemma="henki" tags="N.Pl.Abl.*"/>
-		<cat-item lemma="nimi" tags="N.Pl.Abl.*"/>
+		<cat-item lemma="nimi" tags="N.Sg.Abl.*"/>
 		<!-- More? -->
 	</def-cat>
     <def-cat n="num_mod">
@@ -922,7 +922,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </rule>
     <!-- end verb rules -->
     <!-- begin noun rules -->
-    <rule comment="regla: appearance adverbials"> <!-- uskonnollinen hengiltään -> vuoiŋŋa mielde, doesn't work with adj yet. -->
+    <rule comment="regla: appearance adverbials: adj adv"> <!-- uskonnollinen hengiltään -> vuoiŋŋa mielde, doesn't work with adj yet. -->
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="appearance"/>
@@ -962,7 +962,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </rule>
 
 
-    <rule comment="regla: appearance adverbials"> <!-- hengiltään -> vuoiŋŋa mielde, doesn't work with adj yet. -->
+    <rule comment="regla: appearance adverbials: adv"> <!-- hengiltään -> vuoiŋŋa mielde. -->
       <pattern>
         <pattern-item n="appearance"/>
       </pattern>
@@ -992,9 +992,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       </action>
     </rule>
 	
-
-
-
 
     <rule comment="regla: nom">
       <pattern>

@@ -2815,7 +2815,8 @@
 	<e><p><l>válddooassi<s n="N"/></l><r>pääosa<s n="N"/></r></p></e>
 	<e><p><l>čoakkáldat<s n="N"/></l><r>kokoelma<s n="N"/></r></p></e>
 
-
+	<!-- languages -->
+	<e><p><l>suomagiella<s n="N"/></l><r>suomi<s n="N"/></r></p></e>
 
 	
 	<!-- nouns end -->
@@ -3538,7 +3539,8 @@
 	<e><p><l>dábálaš<s n="A"/></l><r>yleinen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>nationála<s n="A"/></l><r>kansallinen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>oskkolaš<s n="A"/></l><r>uskonnollinen<s n="A"/></r></p><par n="A_A"/></e>
-
+	<e><p><l>oahpis<s n="A"/></l><r>tietty<s n="A"/></r></p><par n="A_A"/></e>
+	
 
 
 	<!-- ! Adv - A, etc ???  -->
