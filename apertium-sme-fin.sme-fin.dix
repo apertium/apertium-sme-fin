@@ -2806,7 +2806,7 @@
 	<e><p><l>fitnodatsearvi<s n="N"/></l><r>yhtiö<s n="N"/></r></p></e>
 	<e><p><l>vuodjin<s n="N"/></l><r>ajo<s n="N"/></r></p></e>
 	
-	<e><p><l>Meksiko<j/>luokta<s n="N"/></l><r>Meksikon<j/>lahti<s n="N"/></r></p></e> <!-- ? -->
+	<e><p><l>Meksiko<b/>luokta<s n="N"/></l><r>Meksikon<b/>lahti<s n="N"/></r></p></e> <!-- ? -->
 	<e><p><l>mearri<s n="N"/></l><r>määrä<s n="N"/></r></p></e>
 	<e><p><l>diehtosátnegirji<s n="N"/></l><r>tietosanakirja<s n="N"/></r></p></e>
 	<e><p><l>dálkkasdieđa<s n="N"/></l><r>lääketiede<s n="N"/></r></p></e>
@@ -4231,7 +4231,7 @@
     <e><p><l>lihkadit<s n="V"/><s n="IV"/></l><r>liikkua<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>golgat<s n="V"/><s n="IV"/></l><r>vuotaa<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>geahččalit<s n="V"/><s n="TV"/></l><r>yrittää<s n="V"/></r></p><par n="V_V" /></e>
-	<e><p><l>bidjat<j/>sadjái<s n="V"/><s n="TV"/></l><r>asentaa<s n="V"/></r></p><par n="V_V" /></e>
+	<e><p><l>bidjat<b/>sadjái<s n="V"/><s n="TV"/></l><r>asentaa<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>gokčat<s n="V"/></l><r>kattaa<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>sisttisdoallat<s n="V"/><s n="TV"/></l><r>sisältää<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>čoahkkanit<s n="V"/><s n="IV"/></l><r>keskittyä<s n="V"/></r></p><par n="V_V" /></e>

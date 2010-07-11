@@ -43,6 +43,11 @@
     <def-cat n="v_actor">
       <cat-item tags="V.Der_ja.*"/>
     </def-cat>
+	<def-cat n="appearance">
+		<cat-item lemma="henki" tags="N.Pl.Abl.*"/>
+		<cat-item lemma="nimi" tags="N.Pl.Abl.*"/>
+		<!-- More? -->
+	</def-cat>
     <def-cat n="num_mod">
       <cat-item tags="N.*.*.@Num←"/>
     </def-cat>
@@ -917,6 +922,80 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </rule>
     <!-- end verb rules -->
     <!-- begin noun rules -->
+    <rule comment="regla: appearance adverbials"> <!-- uskonnollinen hengiltään -> vuoiŋŋa mielde, doesn't work with adj yet. -->
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="appearance"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
+            </tags>
+			<lu>
+			  <clip pos="1" side="tl" part="lem"/>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <!-- <clip pos="1" side="tl" part="gen"/> -->
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="a_pxprs"/>
+			</lu>
+			<b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+			  <lit-tag v="N"/>
+			  <lit-tag v="Sg"/>
+              <lit-tag v="Gen"/>
+            </lu>
+			<b/>
+			<lu>
+				<lit v="mielde"/>
+				<lit-tag v="Po"/>
+			</lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="regla: appearance adverbials"> <!-- hengiltään -> vuoiŋŋa mielde, doesn't work with adj yet. -->
+      <pattern>
+        <pattern-item n="appearance"/>
+      </pattern>
+      <action>
+
+        <out>
+          <chunk name="adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+			  <lit-tag v="N"/>
+			  <lit-tag v="Sg"/>
+              <lit-tag v="Gen"/>
+            </lu>
+			<b/>
+			<lu>
+				<lit v="mielde"/>
+				<lit-tag v="Po"/>
+			</lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+	
+
+
+
+
     <rule comment="regla: nom">
       <pattern>
         <pattern-item n="nom"/>
@@ -1395,6 +1474,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
+
+ 
     <!-- end noun rules -->
     <!-- begin adjective rules -->
     <rule comment="regla: adj">
