@@ -705,6 +705,8 @@ välityksellä	välitys+N+Sg+Ade
 	
 Not preserving @Subj tag somehow. Sentence 4 in corp/sampletext.txt
 
+	FMT: The set_syntag1 macro was not being called in the rule
+
 # Misc 
 
 ## Apertium lex learner?

@@ -1019,6 +1019,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_par_gen1">
           <with-param pos="1"/>
         </call-macro>
+ 		<call-macro n="set_syntag1">
+			<with-param pos="1" />
+		</call-macro>
  		<call-macro n="set_com_number">
 			<with-param pos="1" />
 		</call-macro>
