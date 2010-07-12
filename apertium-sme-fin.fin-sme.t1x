@@ -454,6 +454,16 @@ Käännän suomeksi - Jorgalan suomagillii.
 Tulin lääkäriksi - šadden doavttirin.    
 So, Tra > Ess if predicative. But for this we need syntactic tags.
     -->
+
+	<def-macro n="set_tra_ill2" npar="1" c="two-argument version">
+		<call-macro n="set_tra_ill1">
+			<with-param pos="1"/>
+		</call-macro>
+		<call-macro n="set_tra_ill1">
+			<with-param pos="2"/>
+		</call-macro>
+	</def-macro>
+	
     <def-macro n="set_tra_ill1" npar="1" c="arg.1: noun. Change Tra into Ill">
       <choose>
         <when>
@@ -620,8 +630,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_pron"/>
-			  <var n="comitative_num"/>
-              <clip pos="1" side="tl" part="nbr"/>
+			  <!-- <var n="comitative_num"/> -->
+              <!-- <clip pos="1" side="tl" part="nbr"/> -->
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
             </lu>
@@ -1010,22 +1020,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       </pattern>
       <action>
 		<!-- TODO: nominal_case_number? -->
-        <call-macro n="set_syntag1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_all_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_tra_ill1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_par_gen2">
-          <with-param pos="1"/>
-          <with-param pos="2"/>
-        </call-macro>
+		<call-macro n="nominal_case_number">
+			<with-param pos="2"/>
+		</call-macro>
 		
         <choose> <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
 			<when>
@@ -1074,7 +1071,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_attr"/>
+              <clip pos="1" side="tl" part="a_num"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
@@ -1099,23 +1096,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="nom"/>
       </pattern>
       <action>
-		<!-- TODO: nominal_case_number? -->
-        <call-macro n="set_syntag1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_all_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_tra_ill1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_par_gen2">
-          <with-param pos="1"/>
-          <with-param pos="2"/>
-        </call-macro>
+		<call-macro n="nominal_case_number">
+			<with-param pos="2" />
+		</call-macro>
 		
 		<choose>  <!-- This and following choose rule mikä talo -> mii dáluid --> 
 			<when>
@@ -1228,27 +1211,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="nom"/>
       </pattern>
       <action>
-		<!-- TODO: nominal_case_number? -->
-        <call-macro n="set_syntag1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_all_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_tra_ill1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_par_gen2">
-          <with-param pos="1"/>
-          <with-param pos="2"/>
-        </call-macro>
- 		<call-macro n="set_comitative_number">
+		<call-macro n="nominal_case_number">
 			<with-param pos="2" />
 		</call-macro>
 		<call-macro n="set_comitative_number">
@@ -1418,31 +1381,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="adj"/>
       </pattern>
       <action>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_all_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_tra_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_par_gen1">
-          <with-param pos="1"/>
-        </call-macro>
-        <choose> <!-- why is this not stripping number on ordinals? -->
-          <when>
-            <test>
-              <equal>
-                <clip pos="1" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
-              </equal>
-            </test>
-            <call-macro n="strip_nbr">
-              <with-param pos="1"/>
-            </call-macro>
-          </when>
-        </choose>
+		<call-macro n="nominal_case_number">
+			<with-param pos="1"/>
+		</call-macro>
         <!-- <choose>
 			<when>
 				<test>
@@ -1469,6 +1410,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_adj"/>
               <!-- <clip pos="1" side="tl" part="gen"/> -->
+              <var n="comitative_num"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
@@ -1514,16 +1456,16 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       </pattern>
       <action>
 	    <call-macro n="set_loc_loc1">
-          <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="set_all_ill1">
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="set_tra_ill1">
-          <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <call-macro n="set_par_gen1">
-          <with-param pos="2"/>
+          <with-param pos="1"/>
         </call-macro>
         <choose><!-- Strip number on attr if essive -->
           <when>
