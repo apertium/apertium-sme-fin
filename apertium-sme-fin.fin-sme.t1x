@@ -99,6 +99,10 @@
 	  <cat-item tags="N.Prop.*"/>
 	  <cat-item tags="N.Prop.Plc.*"/>
     </def-cat>
+    <def-cat n="attr">
+		<cat-item tags="A.*"/>
+	    <cat-item lemma="tällainen" tags="Pron.*"/>
+	</def-cat>
     <def-cat n="adj">
       <cat-item tags="A.*"/>
     </def-cat>
@@ -167,6 +171,12 @@
       <attr-item tags="CC"/>
       <attr-item tags="CS"/>
     </def-attr>
+    <def-attr n="a_attrs">
+		<attr-item tags="A" />
+		<attr-item tags="A.Attr" />
+		<attr-item tags="A.Agr" />
+		<attr-item tags="Pron" />
+	</def-attr>
     <def-attr n="a_adj">
       <attr-item tags="A"/>
       <attr-item tags="A.Attr"/>
@@ -305,10 +315,20 @@
     <def-var n="number"/>
     <def-var n="case"/>
 	<def-var n="comitative_num" />
+	<def-var n="demonstrative" />
     <def-var n="current_syntag"/>
     <def-var n="cur_verb_mood"/>
     <def-var n="cur_verb_tense"/>
   </section-def-vars>
+  <section-def-lists>
+	  <def-list n="sort_pronouns"> <!-- dákkár, dakkár, duokkár, makkár -->
+		<list-item v="tällainen"/>
+		<list-item v="sellainen"/>
+		<list-item v="semmoinen"/>
+		<list-item v="tuommoinen"/>
+		<list-item v="millainen"/>
+	  </def-list>
+  </section-def-lists>
   <section-def-macros>
 	<def-macro n="nominal_case_number" npar="1" c="Set cases for pronouns and nouns">
         <call-macro n="set_loc_loc1">
@@ -326,7 +346,7 @@
  		<call-macro n="set_comitative_number">
 			<with-param pos="1" />
 		</call-macro>
-        <choose>
+        <choose> <!-- strip number when case is essive -->
           <when>
             <test>
               <equal>
@@ -342,6 +362,40 @@
 		<call-macro n="set_syntag1">
 			<with-param pos="1" />
 		</call-macro>
+		<!-- Following macro relies on syntag set -->
+		<call-macro n="subj_case_nominative">
+			<with-param pos="1"/>
+		</call-macro>
+	</def-macro>
+	
+	<def-macro n="subj_case_nominative" npar="1" c="When the syntactic tag is @SUBJ, case must be nominative">
+	  <choose>
+	  	<when>
+	  		<test>
+			    <and>
+					<or>
+						<equal>
+			  				<var n="current_syntag"/>
+							<lit-tag v="@SUBJ→"/>
+			  			</equal>
+			  			<equal>
+			  				<var n="current_syntag"/>
+							<lit-tag v="@←SUBJ"/>
+			  			</equal>
+					</or>
+				    <equal>
+				    	<clip pos="1" side="tl" part="a_case"/>
+						<lit-tag v="Gen"/>
+				    </equal>
+				</and>
+	  		</test>
+	  		<let>
+				<clip pos="1" side="tl" part="a_case"/>
+	  			<lit-tag v="Nom"/>
+	  		</let>
+	  	</when>
+	  </choose>
+	  
 	</def-macro>
 		
 	<def-macro n="set_comitative_number" npar="1" c="When noun case is comitative, add 'Sg' tag">
@@ -1291,13 +1345,33 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 
     <rule comment="regla: attradj nom">
       <pattern>
-        <pattern-item n="adj"/>
+        <pattern-item n="attr"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
 		<call-macro n="nominal_case_number">
 			<with-param pos="2"/>
 		</call-macro>
+	  <choose>
+	  	<when>
+	  		<test>
+	  			<in caseless="yes">
+	  				<clip pos="1" side="sl" part="lemh"/>
+					<list n="sort_pronouns"/>
+	  			</in>
+	  		</test>
+	  		<let>
+		        <var n="demonstrative"/>
+	  			<lit-tag v="Dem"/>
+	  		</let>
+	  	</when>
+		<otherwise>
+			<let>
+				<var n="demonstrative"/>
+				<lit v=""/>
+			</let>
+		</otherwise>
+	  </choose>
         <out>
           <chunk name="adj_nom" case="caseFirstWord">
             <tags>
@@ -1308,7 +1382,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_adj"/>
+              <clip pos="1" side="tl" part="a_attrs"/>
+			  <var n="demonstrative"/>
 			  <lit-tag v="Attr" />
 			  <clip pos="1" side="tl" part="lemq"/>
             </lu>
