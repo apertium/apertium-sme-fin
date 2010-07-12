@@ -698,7 +698,12 @@ välityksellä	välitys+N+Sg+Ade
 		"pinta" N Sg Gen @←OBJ MAP:2276 
 		"pinna" N Sg Gen @←OBJ MAP:2276 
 
+## Syntactic tags?
 
+^tietosanakirjoja/tietosanakirja<N><Pl><Par><@SUBJ→>$
+-> ^nom<SN><@X><Pl><Gen>{^diehto+sátne+girji<N><Pl><Gen>$}$
+	
+Not preserving @Subj tag somehow. Sentence 4 in corp/sampletext.txt
 
 # Misc 
 
