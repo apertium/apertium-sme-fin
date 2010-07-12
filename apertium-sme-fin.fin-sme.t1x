@@ -304,13 +304,44 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="case"/>
-	<def-var n="com_num" />
+	<def-var n="comitative_num" />
     <def-var n="current_syntag"/>
     <def-var n="cur_verb_mood"/>
     <def-var n="cur_verb_tense"/>
   </section-def-vars>
   <section-def-macros>
-	<def-macro n="set_com_number" npar="1" c="When noun case is comitative, add 'Sg' tag">
+	<def-macro n="nominal_case" npar="1" c="Set cases for pronouns and nouns">
+        <call-macro n="set_loc_loc1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_tra_ill1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_par_gen1">
+          <with-param pos="1"/>
+        </call-macro>
+ 		<call-macro n="set_comitative_number">
+			<with-param pos="1" />
+		</call-macro>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <call-macro n="strip_nbr">
+              <with-param pos="1"/>
+            </call-macro>
+          </when>
+        </choose>
+	</def-macro>
+		
+	<def-macro n="set_comitative_number" npar="1" c="When noun case is comitative, add 'Sg' tag">
 		<choose>
         <when>
           <test>
@@ -320,13 +351,13 @@
               </equal>
           </test>
           <let>
-            <var n="com_num"/>
+            <var n="comitative_num"/>
 			<lit-tag v="Sg"/>
           </let>
         </when>
         <otherwise>
           <let>
-            <var n="com_num"/>
+            <var n="comitative_num"/>
 			<lit v=""/>
           </let>
         </otherwise>
@@ -571,21 +602,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="pronpers"/>
       </pattern>
       <action>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_all_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_tra_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_par_gen1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="strip_nbr">
-          <with-param pos="1"/>
-        </call-macro>
+		<call-macro n="nominal_case">
+			<with-param pos="1"/>
+		</call-macro>
         <out>
           <chunk name="pron" case="caseFirstWord">
             <tags>
@@ -598,6 +617,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_pron"/>
+			  <var n="comitative_num"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
@@ -611,18 +631,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="pronrefl"/>
       </pattern>
       <action>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_all_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_tra_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_par_gen1">
-          <with-param pos="1"/>
-        </call-macro>
+		<call-macro n="nominal_case">
+			<with-param pos="1"/>
+		</call-macro>		
         <out>
           <chunk name="pron" case="caseFirstWord">
             <tags>
@@ -632,6 +643,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_pron"/>
+			  <var n="comitative_num"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
               <clip pos="1" side="tl" part="lemq"/>
@@ -645,31 +657,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="pron"/>
       </pattern>
       <action>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_all_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_tra_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_par_gen1">
-          <with-param pos="1"/>
-        </call-macro>
-        <choose>
-          <when>
-            <test>
-              <equal>
-                <clip pos="1" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
-              </equal>
-            </test>
-            <call-macro n="strip_nbr">
-              <with-param pos="1"/>
-            </call-macro>
-          </when>
-        </choose>
+		<call-macro n="nominal_case">
+			<with-param pos="1"/>
+		</call-macro>
         <out>
           <chunk name="pron" case="caseFirstWord">
             <tags>
@@ -682,6 +672,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_pron"/>
+			  <var n="comitative_num"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
@@ -696,8 +687,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 		<pattern>
 			<pattern-item n="pcps" />
 		</pattern>
-		<action>
-			
+		<action>	
 			<out>
 				<chunk name="inf" case="caseFirstWord">
 					<tags>
@@ -767,31 +757,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="v_actor"/>
       </pattern>
       <action>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_all_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_tra_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_par_gen1">
-          <with-param pos="1"/>
-        </call-macro>
-        <choose>
-          <when>
-            <test>
-              <equal>
-                <clip pos="1" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
-              </equal>
-            </test>
-            <call-macro n="strip_nbr">
-              <with-param pos="1"/>
-            </call-macro>
-          </when>
-        </choose>
+		<call-macro n="nominal_case">
+			<with-param pos="1"/>
+		</call-macro>
         <out>
           <!-- this should be treated as any other noun -->
           <chunk name="nom" case="caseFirstWord">
@@ -1007,37 +975,12 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="nom"/>
       </pattern>
       <action>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_all_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_tra_ill1">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_par_gen1">
-          <with-param pos="1"/>
-        </call-macro>
- 		<call-macro n="set_syntag1">
+		<call-macro n="nominal_case">
+			<with-param pos="1"/>
+		</call-macro>
+ 		<call-macro n="set_syntag1"> <!-- TODO: DRY? move up to nominal_case? -->
 			<with-param pos="1" />
 		</call-macro>
- 		<call-macro n="set_com_number">
-			<with-param pos="1" />
-		</call-macro>
-       <choose>
-          <when>
-            <test>
-              <equal>
-                <clip pos="1" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
-              </equal>
-            </test>
-            <call-macro n="strip_nbr">
-              <with-param pos="1"/>
-            </call-macro>
-          </when>
-        </choose>
         <out>
           <chunk name="nom" case="caseFirstWord">
             <tags>
@@ -1049,8 +992,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_nom"/>
-              <!-- <clip pos="1" side="tl" part="gen"/> -->
-      	  <var n="com_num"/> <!-- only in use in Comitative -->
+      	  	  <var n="comitative_num"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
@@ -1067,6 +1009,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="nom"/>
       </pattern>
       <action>
+		<!-- TODO: nominal_case? -->
         <call-macro n="set_syntag1">
           <with-param pos="2"/>
         </call-macro>
@@ -1156,6 +1099,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="nom"/>
       </pattern>
       <action>
+		<!-- TODO: nominal_case? -->
         <call-macro n="set_syntag1">
           <with-param pos="2"/>
         </call-macro>
@@ -1284,6 +1228,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="nom"/>
       </pattern>
       <action>
+		<!-- TODO: nominal_case? -->
         <call-macro n="set_syntag1">
           <with-param pos="2"/>
         </call-macro>
@@ -1303,10 +1248,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>
- 		<call-macro n="set_com_number">
+ 		<call-macro n="set_comitative_number">
 			<with-param pos="2" />
 		</call-macro>
-		<call-macro n="set_com_number">
+		<call-macro n="set_comitative_number">
 			<with-param pos="1" />
 		</call-macro>
         <choose> <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
@@ -1370,7 +1315,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
-              <var n="com_num"/> <!-- only in use in Comitative -->
+              <var n="comitative_num"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
@@ -1390,20 +1335,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_syntag1">
           <with-param pos="2"/>
         </call-macro>
-        <call-macro n="set_loc_loc1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_all_ill1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_tra_ill1">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_par_gen1">
-              <with-param pos="2"/>
-        </call-macro>
- 		<call-macro n="set_com_number">
-			<with-param pos="2" />
+		<call-macro n="nominal_case">
+			<with-param pos="2"/>
 		</call-macro>
         <choose>
           <when>
@@ -1436,7 +1369,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
-              <var n="com_num"/> <!-- only in use in Comitative -->
+              <var n="comitative_num"/>
 			  <clip pos="2" side="tl" part="nbr"/>
   			  <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
