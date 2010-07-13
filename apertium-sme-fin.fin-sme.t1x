@@ -887,6 +887,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       </pattern>
       <action>
       	<!-- ela -> loc. (set_loc_loc1 may do too much for our purposes, but it works for now) -->
+
         <call-macro n="set_ela_loc1">
         	<with-param pos="1"/>
         </call-macro>
@@ -914,28 +915,28 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </choose>
 
         <!-- Ine -> Ess -->
-		<choose>
-			<when>
-				<test>
-					<equal>
-						<clip pos="1" side="sl" part="a_case"/>
-						<lit-tag v="Ine"/>
-					</equal>
-				</test>
-				<let>
-					<clip pos="1" side="tl" part="a_case"/>
-					<lit-tag v="Ess"/>
-				</let>
-			</when>
-		</choose>
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="sl" part="a_case"/>
+              <lit-tag v="Ine"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="a_case"/>
+            <lit-tag v="Ess"/>
+          </let>
+        </when>
+      </choose>
 
 		<!-- Set Inf -->
         <choose>
           <when>
             <test>
-	           <equal>
-	             <clip pos="1" side="sl" part="a_case"/>
-                 <lit-tag v="Ill"/>
+              <equal>
+	        <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="Ill"/>
                </equal>
             </test>
             <let>
@@ -949,10 +950,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <choose>
           <when>
             <test>
-	           <equal>
-	             <clip pos="1" side="sl" part="a_case"/>
-                 <lit-tag v="Ill"/>
-               </equal>
+              <equal>
+                <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="Ill"/>
+              </equal>
             </test>
             <let>
               <clip pos="1" side="tl" part="a_case"/>
@@ -961,57 +962,75 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           </when>
         </choose>
 
+        <choose>
         <!-- Ade -> Der_n Com -->
-		<choose>
-			<when>
-				<test>
-					<equal>
-						<clip pos="1" side="sl" part="a_case"/>
-						<lit-tag v="Ade"/>
-					</equal>
-				</test>
-				<let>
-					<clip pos="1" side="tl" part="a_case"/>
-					<lit-tag v="Der_n.N.Sg.Com"/>
-				</let>
-			</when>
-		</choose>
+           <when>
+             <test>
+               <equal>
+		 <clip pos="1" side="sl" part="a_case"/>
+	  	 <lit-tag v="Ade"/>
+               </equal>
+             </test>
+             <out>
+               <chunk name="inf" case="caseFirstWord">
+                 <tags>
+                   <tag><lit-tag v="Inf3"/></tag>
+                   <tag><clip pos="1" side="sl" part="syntag"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="a_verb"/>
+                    <lit-tag v="Der_n.N.Sg.Com"/>
+     		  <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+          </when>
 
+        <!-- Abe -> VAbess -->
+           <when>
+             <test>
+               <equal>
+		 <clip pos="1" side="sl" part="a_case"/>
+	  	 <lit-tag v="Abe"/>
+               </equal>
+             </test>
+             <out>
+               <chunk name="inf" case="caseFirstWord">
+                 <tags>
+                   <tag><lit-tag v="Inf3"/></tag>
+                   <tag><clip pos="1" side="sl" part="syntag"/></tag>
+                 </tags>
+                 <lu>
+                   <clip pos="1" side="tl" part="lemh"/>
+                   <clip pos="1" side="tl" part="a_verb"/>
+                    <lit-tag v="VAbess"/>
+     		  <clip pos="1" side="tl" part="lemq"/>
+                 </lu>
+               </chunk>
+             </out>
+          </when>
 
-        <!-- Abe -> Der_n Com -->
-		<choose>
-			<when>
-				<test>
-					<equal>
-						<clip pos="1" side="sl" part="a_case"/>
-						<lit-tag v="Abe"/>
-					</equal>
-				</test>
-				<let>
-					<clip pos="1" side="tl" part="a_realis"/>
-					<lit-tag v="VAbess"/>
-				</let>
-			</when>
-		</choose>
-
-
-        <out>
-          <chunk name="inf" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="Inf3"/></tag>
-              <tag><clip pos="1" side="sl" part="syntag"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <!-- <clip pos="1" side="tl" part="a_trans" /> -->
-              <!-- specified in a_verb -->
-              <clip pos="1" side="tl" part="a_realis"/>
-              <clip pos="1" side="tl" part="a_case"/>
-			  <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+          <otherwise>
+            <out>
+              <chunk name="inf" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="Inf3"/></tag>
+                  <tag><clip pos="1" side="sl" part="syntag"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_verb"/>
+                  <!-- <clip pos="1" side="tl" part="a_trans" /> -->
+                  <!-- specified in a_verb -->
+                  <clip pos="1" side="tl" part="a_realis"/>
+                  <clip pos="1" side="tl" part="a_case"/>
+    		  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>	
 
