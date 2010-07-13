@@ -32,7 +32,7 @@
       <cat-item tags="V.*"/>
     </def-cat>
     <def-cat n="actioloc">
-      <cat-item tags="V.*.Inf3.Ela"/>
+      <cat-item tags="V.*.Inf3.*"/>
     </def-cat>
 	<def-cat n="pcps">
 		<cat-item tags="V.*.PrfPrc.*" />
@@ -41,7 +41,6 @@
     <def-cat n="inf">
       <cat-item tags="V.*.Inf1.*"/>
       <cat-item tags="V.*.Inf2.*"/>
-      <cat-item tags="V.*.Inf3.*"/>
     </def-cat>
     <def-cat n="inf3">
       <cat-item tags="V.*.Inf3.*"/>
