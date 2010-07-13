@@ -32,7 +32,7 @@
       <cat-item tags="V.*"/>
     </def-cat>
     <def-cat n="actioloc">
-      <cat-item tags="V.*.Actio.Loc"/>
+      <cat-item tags="V.*.Inf3.Ela"/>
     </def-cat>
 	<def-cat n="pcps">
 		<cat-item tags="V.*.PrfPrc.*" />
@@ -260,6 +260,7 @@
       <attr-item tags="PrfPrc"/>
 	  <attr-item tags="PrsPrc" />
       <attr-item tags="Inf"/>
+      <attr-item tags="Actio"/>
     </def-attr>
     <def-attr n="a_neg">
       <attr-item tags="ConNeg"/>
@@ -795,20 +796,23 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     <rule comment="regla: infs. Fin Inf3 → sme Actio Loc">
       <!-- Test: Minä tulen katsomasta. ~ Mun boađán geahččamis. -->
       <pattern>
-        <pattern-item n="inf3"/>
+        <pattern-item n="actioloc"/>
       </pattern>
       <action>
+        <call-macro n="set_loc_loc1">
+        	<with-param pos="1"/>
+        </call-macro>
         <choose>
           <when>
             <test>
                 <equal>
-                  <clip pos="1" side="sl" part="a_realis"/>
-                  <lit-tag v="Inf3"/>
+                  <clip pos="1" side="sl" part="a_case"/>
+                  <lit-tag v="Ela"/>
                 </equal>
             </test>
             <let>
               <clip pos="1" side="tl" part="a_realis"/>
-              <lit-tag v="actioloc"/>
+              <lit-tag v="Actio"/>
             </let>
           </when>
         </choose>
@@ -824,6 +828,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <!-- <clip pos="1" side="tl" part="a_trans" /> -->
               <!-- specified in a_verb -->
               <clip pos="1" side="tl" part="a_realis"/>
+              <clip pos="1" side="tl" part="a_case"/>
 			  <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
