@@ -792,22 +792,33 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 		</action>
 	</rule>
 
-    <rule comment="regla: infs. Fin Inf3 → sme Actio Loc">
+ 	<!-- ine -> ess, ela -> loc, ill -> 0 -->
+	<!-- inf3 -> actio -->
+
+
+    <rule comment="regla: infs. Fin Inf3 Ela → sme Actio Loc">
       <!-- Test: Minä tulen katsomasta. ~ Mun boađán geahččamis. -->
       <pattern>
-        <pattern-item n="actioloc"/>
+        <pattern-item n="inf3"/>
       </pattern>
       <action>
         <call-macro n="set_loc_loc1">
         	<with-param pos="1"/>
         </call-macro>
+		<!-- Set Actio tag -->
         <choose>
           <when>
             <test>
-                <equal>
-                  <clip pos="1" side="sl" part="a_case"/>
-                  <lit-tag v="Ela"/>
-                </equal>
+            	<or>
+	                <equal>
+	                  <clip pos="1" side="sl" part="a_case"/>
+	                  <lit-tag v="Ela"/>
+	                </equal>
+	                <equal>
+	                  <clip pos="1" side="sl" part="a_case"/>
+	                  <lit-tag v="Ine"/>
+	                </equal>
+	            </or>
             </test>
             <let>
               <clip pos="1" side="tl" part="a_realis"/>
@@ -815,10 +826,55 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="sl" part="a_case"/>
+						<lit-tag v="Ine"/>
+					</equal>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="a_case"/>
+					<lit-tag v="Ess"/>
+				</let>
+			</when>
+		</choose>
+		
+		<!-- Set Inf -->
+        <choose>
+          <when>
+            <test>
+	           <equal>
+	             <clip pos="1" side="sl" part="a_case"/>
+                 <lit-tag v="Ill"/>
+               </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_realis"/>
+              <lit-tag v="Inf"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+	           <equal>
+	             <clip pos="1" side="sl" part="a_case"/>
+                 <lit-tag v="Ill"/>
+               </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_case"/>
+              <lit v=""/>
+            </let>
+          </when>
+        </choose>
+
         <out>
           <chunk name="inf" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="actioloc"/></tag>
+              <tag><lit-tag v="Inf3"/></tag>
               <tag><clip pos="1" side="sl" part="syntag"/></tag>
             </tags>
             <lu>
@@ -834,56 +890,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
-
-    <rule comment="regla: infs. Fin Inf3 Inf2 Inf1 → sme Inf">
-      <!-- Test: Minä menen katsomaan, Käyn katsomassa. -->
-      <pattern>
-        <pattern-item n="inf"/>
-      </pattern>
-      <action>
-        <choose>
-          <when>
-            <test>
-              <or>
-                <equal>
-                  <clip pos="1" side="sl" part="a_realis"/>
-                  <lit-tag v="Inf1"/>
-                </equal>
-                <equal>
-                  <clip pos="1" side="sl" part="a_realis"/>
-                  <lit-tag v="Inf2"/>
-                </equal>
-                <equal>
-                  <clip pos="1" side="sl" part="a_realis"/>
-                  <lit-tag v="Inf3"/>
-                </equal>
-              </or>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="a_realis"/>
-              <lit-tag v="Inf"/>
-            </let>
-          </when>
-        </choose>
-        <out>
-          <chunk name="inf" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="INF"/></tag>
-              <tag><clip pos="1" side="sl" part="syntag"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <!-- <clip pos="1" side="tl" part="a_trans" /> -->
-              <!-- specified in a_verb -->
-              <clip pos="1" side="tl" part="a_realis"/>
-			  <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
+	
     <rule comment="regla: v_actor">
       <pattern>
         <pattern-item n="v_actor"/>
