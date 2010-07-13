@@ -89,6 +89,7 @@
 	
 	<!-- The following all have Pcle on the finnish side, checked. Many are adverbs, but also possibly sentence level and thus should be CSes? Ryan -->
 	
+	<e><p><l>ovdalis<s n="Adv"/></l><r>aiemmin<s n="Adv"/></r></p></e>
 	<e><p><l>ain<s n="Adv"/></l><r>yhä<s n="Pcle"/></r></p></e>
 	<e><p><l>belle<s n="Adv"/></l><r>puoli<s n="Pcle"/></r></p></e>
 	<e><p><l>beare<s n="Adv"/></l><r>tahansa<s n="Pcle"/></r></p></e>
@@ -257,6 +258,7 @@
    <e><p><l>siste<s n="Po"/></l><r>sisälle<s n="Po"/></r></p></e>
    <e><p><l>siste<s n="Po"/></l><r>sisällä<s n="Po"/></r></p></e>
    <e><p><l>vuođul<s n="Po"/></l><r>nojalla<s n="Po"/></r></p></e>
+	<e><p><l>beales<s n="Po"/></l><r>puolesta<s n="Po"/></r></p></e>
 	<!-- Po:Pr -->
 	<e><p><l>buohta<s n="Po"/></l><r>vastapäätä<s n="Pr"/></r></p></e>
 	<e><p><l>haga<s n="Po"/></l><r>ilman<s n="Pr"/></r></p></e>
@@ -2816,7 +2818,15 @@
 	<e><p><l>teknihkka<s n="N"/></l><r>tekniikka<s n="N"/></r></p></e>
 	<e><p><l>váldo<j/>oassi<s n="N"/></l><r>pääosa<s n="N"/></r></p></e> <!-- tried válddu<j/>oassi, váldu<j/>oassi -->
 	<e><p><l>čoakkáldat<s n="N"/></l><r>kokoelma<s n="N"/></r></p></e>
-
+	<e><p><l>vegetašuvdna<s n="N"/></l><r>aluskasvillisuus<s n="N"/></r></p></e>
+	<e><p><l>eahketbeaivi<s n="N"/></l><r>iltapäivä<s n="N"/></r></p></e>
+	<e><p><l>guossavuovdi<s n="N"/></l><r>kuusikko<s n="N"/></r></p></e>
+	<e><p><l>dolla<s n="N"/></l><r>liekki<s n="N"/></r></p></e>
+	<e><p><l>meahccebuollin<s n="N"/></l><r>maastopalo<s n="N"/></r></p></e>
+	<e><p><l>dolla<s n="N"/></l><r>nuotio<s n="N"/></r></p></e>
+	<e><p><l>dolla<s n="N"/></l><r>palo<s n="N"/></r></p></e>
+	<e><p><l>dollameaštár<s n="N"/></l><r>palomestari<s n="N"/></r></p></e>
+	
 	<!-- languages -->
 	<e><p><l>suoma<j/>giella<s n="N"/></l><r>suomi<s n="N"/></r></p></e>
 
@@ -4239,6 +4249,10 @@
 	<e><p><l>gokčat<s n="V"/><s n="TV"/></l><r>kattaa<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>sisttis<j/>doallat<s n="V"/><s n="TV"/></l><r>sisältää<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>čoahkkanit<s n="V"/><s n="IV"/></l><r>keskittyä<s n="V"/></r></p><par n="V_V" /></e>
+	<e><p><l>árvalit<s n="V"/><s n="TV"/></l><r>arvella<s n="V"/></r></p><par n="V_V" /></e>
+	<e><p><l>mielahuddat<s n="V"/><s n="IV"/></l><r>raivota<s n="V"/></r></p><par n="V_V" /></e>
+	<e><p><l>njivžut<s n="V"/><s n="IV"/></l><r>roihuta<s n="V"/></r></p><par n="V_V" /></e>
+	<e><p><l>borgit<s n="V"/><s n="IV"/></l><r>savuta<s n="V"/></r></p><par n="V_V" /></e>
 	
 	
 	<!-- verbs end -->

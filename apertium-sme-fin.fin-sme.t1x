@@ -341,7 +341,6 @@
 		<list-item v="muoto"/>
 		<list-item v="väritys"/>
 		<list-item v="sija"/>
-		
   	  </def-list>
   </section-def-lists>
   <section-def-macros>
