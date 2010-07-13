@@ -262,6 +262,7 @@
       <attr-item tags="Inf"/>
       <attr-item tags="Actio"/>
       <attr-item tags="VAbess"/>
+      <attr-item tags="VGen"/>
     </def-attr>
     <def-attr n="a_neg">
       <attr-item tags="ConNeg"/>
@@ -814,15 +815,49 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 		</action>
 	</rule>
 	
-	<rule comment="regla: infs. Fin Inf2 → sme Ger">
+	<rule comment="regla: infs. Fin Inf2 Ine→ sme Ger, fin Inf2 Ins  sme VGen">
+	<!-- Lapsi tuli itkien kotiin = mánná bođii čieru ruoktot -->
+	<!-- Lapsi tuli itkien kotiin = mánná bođii čieru ruoktot -->
+	
       <pattern>
         <pattern-item n="inf2"/>
       </pattern>
       <action>
+        <choose>
+          <when>
+            <test>
+	                <equal>
+	                  <clip pos="1" side="sl" part="a_case"/>
+	                  <lit-tag v="Ine"/>
+	                </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_case"/>
+              <lit-tag v="Com"/>
+            </let>
+          </when>
+        </choose>
+
+        <!-- Ine -> Ess -->
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="sl" part="a_case"/>
+						<lit-tag v="Ine"/>
+					</equal>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="a_realis"/>
+					<lit-tag v="VGen"/>
+				</let>
+			</when>
+		</choose>
+
         <out>
           <chunk name="inf" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="Inf3"/></tag>
+              <tag><lit-tag v="Inf2"/></tag>
               <tag><clip pos="1" side="sl" part="syntag"/></tag>
             </tags>
             <lu>
