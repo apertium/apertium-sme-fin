@@ -6474,6 +6474,7 @@ bor0dit:bor'di DIEHTI ;
 bor0gat:bor'ga BORRA ;
 borggihit:borggih BEAGASJ ;
 borgguhit:borgguh BONJAT ;
+bor0git:bor'gi BOAHTI ;
 borrat:borra BORRA ;
 bossut:bossu BOLTU ;
 botnit:botni DIEHTI ;
@@ -6712,6 +6713,7 @@ láv0lut:láv'lu BOLTU ;
 mannat:manna DIEVVA ;
 mearkkašit:mearkkaš MUITTASJ ;
 mearridit:mearrid MUITAL ;
+mielahuddat:mielahudda BOAHTALADDA ;
 mohkastit:mohkast MUITAL ;
 mojohallat:mojohalla BOAHTALADDA ;
 molssodit:molssod BONJAT ;
@@ -6844,6 +6846,7 @@ vázzit:vázzi BOAHTI ;
 ái0tit:áj'ti DIEHTI ;
 álggahit:álggah MUITAL ;
 ál0git:ál'gi BOAHTI ;
+árvalit:árval VUORDIL ;
 árvidit:árvid MUITAL ;
 ásahit:ásah MUITAL ;
 ássat:ássa DIEVVA ;
@@ -8479,6 +8482,7 @@ guorbme#bii0la:guorbme#bij'la GOAHTI ;
  guossa#lahppu+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:guossa#lahppu GOAHTI; !
  guossa#lahppu+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:guossa#lahppu¤ GOAHTI ; !
  guossa#rássi+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:guossa#rássi AIGI; !
+ guossa#vuov0di+CmpN/SgN+CmpN/SgG+CmpN/PlG:guossa#vuov'di AIGI ; !
  guosse#latnja+CmpN/SgN+CmpN/SgG+CmpN/PlG:guosse#latnja GOAHTI; !
  guos0si+CmpN/SgN+CmpN/SgG+CmpN/PlG:guos'si GOAHTI ; !
  guossi#guolle#bivdi+CmpN/SgN+CmpN/SgG+CmpN/PlG:guossi#guolle#bivdi¤ ACTOR ; !
@@ -9212,6 +9216,7 @@ marmora GOAHTI ;
 marsipána#gáhkku GOAHTI ;
 matematihkka GOAHTI ;
  maŋŋeb#ár0ga+CmpN/SgN+CmpN/SgG+CmpN/PlG:maŋŋeb9#ár'ga GOAHTI ; !
+ meahcce#buollin+CmpN/Sg:meahcce#buollim BOAHTIN ; !
  meahcce#dikšun#ovttastus+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:meahcce#dikšun#ovttastuss JOHTOLAT ; !
  meahcci+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:meahcci ALBMI; !
  meara#guolli+CmpN/SgN+CmpN/SgG+CmpN/PlG:meara#guolli AIGI; !
@@ -10563,6 +10568,7 @@ vear0ju:vear'ju AIGI ;
  vearro#dahkki+CmpN/SgN+CmpN/SgG+CmpN/PlG:vearro#dahkki¤ ACTOR ; !
  vearro#máksi+CmpN/SgN+CmpN/SgG+CmpN/PlG:vearro#máksi¤ ACTOR ; !
 vearru GOAHTI ;
+vegetašuvdna:vegetašu TELEFON ;
  vejolašvuoh0ta+CmpN/SgG+CmpN/DefPlGen:vejolašvuoh'ta LUONDU ; !
  verdde+CmpN/SgN+CmpN/SgG+CmpN/PlG:verdde GOAHTI; !
  verddevuoh0ta+CmpN/SgG+CmpN/DefPlGen:verddevuoh'ta LUONDU ; !
@@ -14111,6 +14117,7 @@ Omas^vuotna MARJA-plc ;
 Ovnnesjoh0ka:Ovnnesjoh'ka MARJA-plc ;
  Ovnnes^joh0ka:Ovnnes^joh'ka MARJA-plc ; !FIN
  Ovnnes^jáv0ri:Ovnnes^jáv'ri MARJA-plc ; !FIN
+Pekka ACCRA-mal ;
  Per-čezá% jáv0ri:Per-čezá% jáv'ri MARJA-plc ; !FIN
 Per BERN-mal ;
  Permanent BERN-org ; !Permanent forum
