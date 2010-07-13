@@ -40,8 +40,11 @@
 	</def-cat>
     <def-cat n="inf">
       <cat-item tags="V.*.Inf1.*"/>
-      <cat-item tags="V.*.Inf2.*"/>
     </def-cat>
+    <def-cat n="inf2">		
+      <cat-item tags="V.*.Inf2.Sg.Ins.*"/>
+      <cat-item tags="V.*.Inf2.Sg.Ine.*"/>
+	</def-cat>
     <def-cat n="inf3">
       <cat-item tags="V.*.Inf3.*"/>
     </def-cat>
@@ -791,21 +794,50 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 			</out>
 		</action>
 	</rule>
+	
+	<rule comment="regla: infs. Fin Inf2 → sme Ger">
+      <pattern>
+        <pattern-item n="inf2"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="inf" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="Inf3"/></tag>
+              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <!-- <clip pos="1" side="tl" part="a_trans" /> -->
+              <!-- specified in a_verb -->
+              <lit-tag v="Ger" />
+			  <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
- 	<!-- ine -> ess, ela -> loc, ill -> 0 -->
-	<!-- inf3 -> actio -->
+   <rule comment="regla: infs. Fin Inf3 → sme Actio; case changes">
+      <!-- ine -> ess, ela -> loc, ill -> 0 -->
+      <!-- inf3 -> actio -->
 
-
-    <rule comment="regla: infs. Fin Inf3 Ela → sme Actio Loc">
       <!-- Test: Minä tulen katsomasta. ~ Mun boađán geahččamis. -->
+      <!-- Test: Minä menen katsomaan. ~ Mun manan geahččat. -->
+      <!-- Test: Minä olen katsomassa. ~ Mun lean geahččame. -->
+      <!-- fuom/huom/obs: west: geahččame, east: geahččamin -->
+
       <pattern>
         <pattern-item n="inf3"/>
       </pattern>
       <action>
+      	<!-- ela -> loc. (set_loc_loc1 may do too much for our purposes, but it works for now) -->
         <call-macro n="set_loc_loc1">
         	<with-param pos="1"/>
         </call-macro>
-		<!-- Set Actio tag -->
+
+		<!-- Inf3 -> Actio -->
         <choose>
           <when>
             <test>
@@ -826,6 +858,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
+
+        <!-- Ine -> Ess -->
 		<choose>
 			<when>
 				<test>
@@ -840,7 +874,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 				</let>
 			</when>
 		</choose>
-		
+
 		<!-- Set Inf -->
         <choose>
           <when>
@@ -856,6 +890,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
+
+        <!-- Ill -> 0 --> 
         <choose>
           <when>
             <test>
@@ -889,8 +925,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           </chunk>
         </out>
       </action>
-    </rule>
-	
+    </rule>	
+
+
     <rule comment="regla: v_actor">
       <pattern>
         <pattern-item n="v_actor"/>
