@@ -45,6 +45,7 @@
     </def-cat>
 	<def-cat n="appearance">
 		<cat-item lemma="henki" tags="N.Pl.Abl.*"/>
+		<cat-item lemma="ulkonäkö" tags="N.Pl.Abl.*"/>
 		<cat-item lemma="nimi" tags="N.Sg.Abl.*"/>
 		<!-- More? -->
 	</def-cat>
@@ -102,6 +103,10 @@
     <def-cat n="attr">
 		<cat-item tags="A.*"/>
 	    <cat-item lemma="tällainen" tags="Pron.*"/>
+		<cat-item lemma="sellainen" tags="Pron.*"/>
+		<cat-item lemma="semmoinen" tags="Pron.*"/>
+		<cat-item lemma="tuommoinen" tags="Pron.*"/>
+		<cat-item lemma="millainen" tags="Pron.*"/>
 	</def-cat>
     <def-cat n="adj">
       <cat-item tags="A.*"/>
@@ -328,6 +333,16 @@
 		<list-item v="tuommoinen"/>
 		<list-item v="millainen"/>
 	  </def-list>
+	  <def-list n="sense_words"> <!-- hengiltään, ulkonäöltään, nimeltään, etc. -->
+		<list-item v="henki"/>
+		<list-item v="ulkonäkö"/>
+		<list-item v="nimi"/>
+		<list-item v="koko"/>
+		<list-item v="muoto"/>
+		<list-item v="väritys"/>
+		<list-item v="sija"/>
+		
+  	  </def-list>
   </section-def-lists>
   <section-def-macros>
 	<def-macro n="nominal_case_number" npar="1" c="Set cases for pronouns and nouns">
@@ -962,7 +977,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </rule>
     <!-- end verb rules -->
     <!-- begin noun rules -->
-    <rule comment="regla: appearance adverbials: adj adv"> <!-- uskonnollinen hengiltään -> vuoiŋŋa mielde, doesn't work with adj yet. -->
+    <rule comment="regla: appearance adverbials: adj adv"> <!-- uskonnollinen hengiltään -> vuoiŋŋa mielde works with adj, not with non 3pPx. -->
       <pattern>
         <pattern-item n="adj"/>
         <pattern-item n="appearance"/>
@@ -987,22 +1002,22 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 			</lu>
 			<b/>
             <lu>
+			  <clip pos="2" side="tl" part="lemh"/>
 			  <lit-tag v="N"/>
 			  <lit-tag v="Sg"/>
               <lit-tag v="Gen"/>
-			 <clip pos="1" side="tl" part="lemq"/>
+			  <clip pos="2" side="tl" part="lemq"/>
             </lu>
 			<b/>
 			<lu>
 				<lit v="mielde"/>
 				<lit-tag v="Po"/>
-				<clip pos="1" side="tl" part="lemq"/>
+				<clip pos="2" side="tl" part="lemq"/>
 			</lu>
           </chunk>
         </out>
       </action>
     </rule>
-
 
     <rule comment="regla: appearance adverbials: adv"> <!-- hengiltään -> vuoiŋŋa mielde. -->
       <pattern>
@@ -1029,7 +1044,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 			<lu>
 				<lit v="mielde"/>
 				<lit-tag v="Po"/>
-				<clip pos="1" side="tl" part="lemq"/>
+				<clip pos="2" side="tl" part="lemq"/>
 			</lu>
           </chunk>
         </out>
