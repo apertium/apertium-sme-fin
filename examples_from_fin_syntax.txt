@@ -4,57 +4,42 @@ Koira haukkuu.
  Setäni asuu maalla.
  
 
-
 Isä peseea autoa
  Mies rakensi talon kalliolle.
   
 
-
 Haanpää	 oli kirjailija.
  Kirjoittaminen on työlästä.
  
-
 
 Autotallissa oli vettä.
  Ovella seisoi kauppias.
  Ikkunassa on	 rullaverhot.
  
 
-
  Perheeseen syntyi kaksoset.
 Onnettomuudessa kuoli useita katsojia.
 Tulipalossa vaurioitui julkisia rakennuksia.
  
 
-
 Koiralla on luu.
  Kaikilla ei ole televisiota.
  
-
 
 Pertistä tuli tohtori.
  Tytöstä kehittyi nainen.
  Siemenestä kasvoi puu.
  
 
-
-(Nyt &#150; täällä) sataaa
- (Täällä &#150; Savossa) on kylmä &#150; kaunista.
- (Täällä &#150; Savossa) on kylmä &#150; kaunista.
- (Täällä &#150; Savossa) on kylmä &#150; kaunista.
- (Nyt)	 on yö &#150; myöhä &#150; torstai.
- (Nyt)	 on yö &#150; myöhä &#150; torstai.
- (Nyt)	 on yö &#150; myöhä &#150; torstai.
+(Nyt ~ täällä) sataaa
+ (Täällä ~ Savossa) on kylmä ~ kaunista.
+ (Nyt)	 on yö ~ myöhä ~ torstai.
  
-
 
 Minua onnisti.
  Hänelle	 kävi ikävästi.
- Lapsen &#150; lapsella on	 jano &#150; nälkä &#150; kylmä.
- Lapsen &#150; lapsella on	 jano &#150; nälkä &#150; kylmä.
- Lapsen &#150; lapsella on	 jano &#150; nälkä &#150; kylmä.
+ Lapsen ~ lapsella on	 jano ~ nälkä ~ kylmä.
  
-
 
  Lapset leikkivät rannalla. 
 He heittelevät kiviä veteen. 
@@ -66,11 +51,8 @@ Yksi kaatui hiekalle.
  Vieraat tulivat illalla.
  He tutustuivat ensin taloon.
  
- 
  Useat poliisit menettivät henkensä.
 Monet suomalaiset osaavat englantia.
- 
- 
  
  Kahvi on kallista.
 Monet suomalaiset ovat ujoja.
@@ -80,38 +62,31 @@ Oppilaita on ahkeria ja laiskoja;
 Kouluja täällä
  on kolme. 
  
- 
  Jääkaapissa on maitoa.
 Leskellä on omaisuutta.
 Heistä tuli kunnollista väkeä.
  
-
 
  Laivassa oli jo matkustajia.
 Minulla on lapsia.
 Pojista kasvaa miehiä.
  
 
-
  Laitoksessa ei ole johtajaa.
 Meillä ei ole autoa.
 Hänestä ei tullut opettajaa.
  
 
-
  Tuossa talossa tuskin on emäntää.
 Onko sinulla kelloa?
  
 
-
  Hänellä ei ole kovinkaan iso palkka.
  
-
 
  Ei hänellä ole päässä hattu (vaan jotakin muuta).
 Ei hänellä ole päässä hattua (eikä välttämättä muutakaan).
  
-
 
  Minun täytyi lähteä kotiin.
 Miesten pitää tehdä työ.
@@ -121,7 +96,6 @@ Junan oli määrä lähteä yhdeksältä.
 Kaikkien on hyvä tuntea kielioppia.
  
 
-
  Hallissa pitää olla valvoja. 
 Vrt. Valvojan pitää olla hallissa.
 Päässä täytyy olla kypärä. 
@@ -130,7 +104,6 @@ Tänne oli määrä tulla vieraita.
 Vrt. Vieraiden oli määrä jo tulla.
  
 
-
  Näkyy, että hän yrittää kaikkensa.
 Riittää, että ei sada.
 On hauskaa, että olemme taas yhdessä.
@@ -138,26 +111,21 @@ Näyttää epävarmalta, onko tulos oikea.
 On yhdentekevää, mistä saan työpaikan.
  
 
-
  Näyttää tulevan sade.
 Kuuluu olevan kova ukkonen.
 Ilmeni miehen syntyneen Venäjällä.
 Pian selvisi talossa harjoitetun ilkivaltaa.
  
 
-
  On vastuutonta jättää lasta yksin.
 On yllättävää kuulla tuollaista.
 Onpas mukavaa olla taas kotona.
  
 
-
  Lapset leikkivät rannalla. (substantiivi)
 He heittelevät kiviä veteen. (pronomini)
 Pienet katsovat vierestä. (substantiivisesti  käytetty adjektiivi)
 Yksi kaatui hiekalle. (numeraali)
- 
- 
  
 
  Bussi tulee. (finiittimuoto)
@@ -165,18 +133,11 @@ Juna ehti lähteä. (verbiketju)
 Mies oli myöhästyä. (kiteytynyt verbiliitto)
  
 
-
- Tyttö menee &#150; menisi &#150; meni lukioon.
- Tyttö menee &#150; menisi &#150; meni lukioon.
- Tyttö menee &#150; menisi &#150; meni lukioon.
+ Tyttö menee ~ menisi ~ meni lukioon.
  
 
-
- Tyttö on mennyt &#150; lienee mennyt &#150; oli mennyt lukioon.
- Tyttö on mennyt &#150; lienee mennyt &#150; oli mennyt lukioon.
- Tyttö on mennyt &#150; lienee mennyt &#150; oli mennyt lukioon.
+ Tyttö on mennyt ~ lienee mennyt ~ oli mennyt lukioon.
  
-
 
  Tyttö ei mene lukioon.
  Tyttö ei mennyt lukioon.
@@ -184,118 +145,81 @@ Tyttö ei olisi mennyt  lukioon;
 Tyttö ei ollut mennyt lukioon.
  
 
-
  Poika osasi ratkaista kaikki tehtävät.
 Kirje ehti tulla ajoissa perille.
 Naiset menivät uimaan.
 Kello näyttää olevan 12.
  
 
-
- Hävinnyt ei voinut &#150; osannut salata pettymystään.
- Hävinnyt ei voinut &#150; osannut salata pettymystään.
-Jokaisen täytyy &#150; pitää osallistua kokeeseen.
-Jokaisen täytyy &#150; pitää osallistua kokeeseen.
+ Hävinnyt ei voinut ~ osannut salata pettymystään.
+Jokaisen täytyy ~ pitää osallistua kokeeseen.
 Meidän sallittiin esittää oma käsityksemme asioista.
  
 
-
- Matti muisti &#150; ehti tulla ajoissa. 
- Matti muisti &#150; ehti tulla ajoissa. 
+ Matti muisti ~ ehti tulla ajoissa. 
 ('Matti tuli ajoissa.')
-Matti ei muistanut &#150; ehtinyt tulla ajoissa. 
-Matti ei muistanut &#150; ehtinyt tulla ajoissa. 
+Matti ei muistanut ~ ehtinyt tulla ajoissa. 
 ('Matti ei tullut ajoissa.')
  
 
-
- Matti aikoi &#150; yritti &#150; ajatteli tulla ajoissa.
- Matti aikoi &#150; yritti &#150; ajatteli tulla ajoissa.
- Matti aikoi &#150; yritti &#150; ajatteli tulla ajoissa.
-Matti ei aikonut &#150; yrittänyt &#150; ajatellut tulla ajoissa.
-Matti ei aikonut &#150; yrittänyt &#150; ajatellut tulla ajoissa.
-Matti ei aikonut &#150; yrittänyt &#150; ajatellut tulla ajoissa.
+ Matti aikoi ~ yritti ~ ajatteli tulla ajoissa.
+Matti ei aikonut ~ yrittänyt ~ ajatellut tulla ajoissa.
  
 
-
- Väki on syömässä &#150; tuli syömään &#150; lähti syömästä.
+ Väki on syömässä ~ tuli syömään ~ lähti syömästä.
  
-
 
  Sinä kuulut saaneen viran nimiisi.
 Työ näkyy olevan valmis.
  
 
-
- Asian on ratkettava huomiseksi. (<a
-href="sivu389.htm#Passiivin 1. partisiippi">&gt;nesessiivinen, 'täytyy')
-Päätös on jo tehtävissä. (<a
-href="sivu389.htm#2) Rakenne on tehtävissä">&gt;episteeminen, 'voi')
-Tyttö oli nukkuvinaan. (<a
-href="sivu389.htm#Aktiivin 1. partisiippi">&gt;kvasi, 'ikään kuin')
-Tauti menee, jos on mennäkseen. (<a
-href="sivu389.htm#3) Rakenne tulee, jos on tullakseen">&gt;fatum)
-Sinne ei ole menemistä. (<a
-href="sivu389.htm#4. infinitiivi">&gt;nesessiivinen)
+ Asian on ratkettava huomiseksi. 
  
 
-
- Lapsi oli pudota &#150; putoamaisillaan.
+ Lapsi oli pudota ~ putoamaisillaan.
 Vieläkö työ on tekemättä?
  
 
-
- Minä lähden &#150; te lähdette kotiin.
+ Minä lähden ~ te lähdette kotiin.
  
-
 
  Pihalla leikkii lapsia. Teidän täytyy valvoa heitä.
  
 
-
- Hän ei kertonut &#150; he eivät kertoneet asiasta mitään.
+ Hän ei kertonut ~ he eivät kertoneet asiasta mitään.
  
-
 
  Oletteko odottanut jo kauan?
 Te ette tullutkaan sovittuna aikana.
  
 
-
  Sinä, Liisa ja minä olemme samassa ryhmässä.
 Sinä ja Pekka menette tuonne.
  
 
-
  Liikenteen vilske ja melu on tauonnut.
  
-
 
  Isä tai äiti lähtee mukaan.
 Vrt. Isä ja äiti lähtevät mukaan.
  
 
-
- Neljä &#150; tuhat katsojaa saapui paikalle.
+ Neljä ~ tuhat katsojaa saapui paikalle.
  
 
-
- Kolme parasta hakijaa saa &#150; saavat kutsun.
+ Kolme parasta hakijaa saa ~ saavat kutsun.
  
-
 
  Laitoksen kolme professoria ovat naisia. 
 
-Kolme laitoksen professoria &#150; professoreista 
+Kolme laitoksen professoria ~ professoreista 
 on naisia.)
 Seuraavat kolme päivää ovat ratkaisevia.
  
 
-
  Kaksi suurvaltaa eivät päässeet 
 (vrt. ei päässyt) sopimukseen.
  
-
 
  
  Laatikossa oli kengät.
@@ -303,40 +227,29 @@ Ohjelmaan kuuluu käyttöohjeet.
 Kaikkiin kuoriin tuli osoitteet.
 Tuolista puuttui pehmusteet.
  
- 
-
 
  
  Tytöllä on ruskeat silmät.
  
- 
-
 
  
  Helsingin Sanomat on Suomen suurin sanomalehti.
 Yhtyneet Paperitehtaat oli parantanut tulostaan.
 Yhdysvallat ei osallistu kokoukseen.
  
- 
-
 
  Monikossa predikaatti on, jos nimen tarkoitteen monikollisuutta
  korostetaan, esim. Färsaaret käsittävät 24 saarta.
  
 
-
  
  Osallistujista puolet oli ensikertalaisia.
  
- 
-
 
  
- Varmin tunnistuskeino ovat &#150; on sormenjäljet.
-Presidentin tulikoe olivat &#150; oli idänsuhteet.
+ Varmin tunnistuskeino ovat ~ on sormenjäljet.
+Presidentin tulikoe olivat ~ oli idänsuhteet.
  
- 
-
 
  Kirja käännetään ruotsiksi.
 Tekstiä on korjattu.
@@ -344,43 +257,34 @@ Torilla myydään vihanneksia.
 Tähän rakennetaan talo.
  
 
-
  Tästä näkee hyvin.
 Saako sieltä kahvia?
 Tietoon ei voi luottaa.
  
 
-
  Sataa. Eilen tuuli. Yöllä pyrytti.
  
-
 
  Päätäni (obj.) särkee. Minua (obj.) pelottaa.
  
 
-
- Tule+n huomenna.
-Näytä+t tyylikkäältä.
-Ole+mme lomalla.
-Lähde+tte+kö kahville?
+ Tulen huomenna.
+Näytät tyylikkäältä.
+Olemme lomalla.
+Lähdettekö kahville?
  
-
 
  Isä kävi kaupassa ja osti ruokaa.
 Poika ei lähtenyt kouluun vaan jäi kotiin.
 Mies matkusti ulkomaille mutta tuli pian takaisin.
  
 
-
  Tyttö lukee kirjaa. Lue kirja loppuun! Tyttö luki kirjan.
  
 
-
  He halusivat, että minä puhun.
-He halusivat minun puhuvan &#150; antoivat minun puhua.
+He halusivat minun puhuvan ~ antoivat minun puhua.
  
-
-
 
  Ostaisin puvun. 
 Kokeile tuota. 
@@ -388,35 +292,29 @@ Haluaisin sinisen.
 Löysimme yhden. 
  
 
-
  Arvelin, että ehtisin ajoissa perille.
 Epäiletkö, että tehtävä on liian vaikea?
 Myönnän, että olet oikeassa.
  
-
 
  Pääministeri arvaili, kuinka äänestyksessä kävisi.
 Haastattelussa kysyttiin, mikä on lempivärini.
 Mieti, oletko tehnyt jonkin virheen.
  
 
-
  Arvelin, että ehtisin ajoissa perille.
 Arvelin ehtiväni ajoissa perille.
  
-
 
  Opettaja ilmoitti olevansa sairaana.
 Aavistin sinun soittavan.
 Hän huomasi tulleensa petetyksi.
  
 
-
  Mies alkoi sahata puuta.
 Pidin viisaimpana myydä auton.
 Tyttö otti tavaksi voimistella aamuisin.
  
-
 
  Hallitus antoi asian raueta.
 Jeesus salli lasten tulla luoksensa.
@@ -424,116 +322,92 @@ Poliisi
 
  En osta kirjaa. (Vrt. Ostan kirjan.)
  
- 
  Pekka luki kirjaa. (Vrt. Pekka luki kirjan.)
- 
  
  Liisa söi puuroa. (Vrt. Liisa söi puuron.)
  
 
  Pekka ei lukenut kirjaa.
-Vrt. Pekka luki kirjan &#150; kirjaa.
+Vrt. Pekka luki kirjan ~ kirjaa.
 Liisa ei syönyt puuroa.
-Vrt. Liisa söi puuron &#150; puuroa.
+Vrt. Liisa söi puuron ~ puuroa.
  
-
 
  Eikö tehdä souturetki?
 Etkö tunnekin minut?
  
 
-
  Oletko nähnyt lompakkoani?
  
-
 
  Harva on nähnyt karhua metsässä.
 Tuskin hän valitusta tekee.
 Mies poistui sanomatta sanaakaan.
-Ongelmaan on mahdoton &#150; vaikea löytää ratkaisua.
+Ongelmaan on mahdoton ~ vaikea löytää ratkaisua.
 On turha tehdä aloitetta.
  
-
 
  Mies luki sanomalehteä.
 Kirjoitin kirjettä.
 Taloa maalattiin.
  
 
-
  Mies luki sanomalehden.
 Kirjoitin kirjeen.
 Talo maalattiin.
  
 
-
  Metsästäjä ampui hirven.
 Poika potki pallon puhki.
  
 
-
- Pekka rakastaa &#150; ihailee &#150; arvostaa &#150; epäilee Liisaa.
+ Pekka rakastaa ~ ihailee ~ arvostaa ~ epäilee Liisaa.
  
-
 
  Joku seuraa minua. 
 Noudatamme lakia.
 He jatkoivat matkaa.
  
 
-
  Isä kantoi vettä (vrt. veden) saunaan.
 Olen menettänyt toivoani (vrt. toivoni).
 Luovutan kirjojani (vrt. kirjani) pois.
  
 
-
  Pekka vuokraa auton. Vrt. Auto vuokrataan.
 Hän vuokratkoon auton. Vrt. Vuokratkaa auto.
  
-
 
  Vuokrasitko (sinä) auton?
 Jos (kuka hyvänsä) vuokraa auton, 
 pääsee nopeammin perille.
  
 
-
  
  Vuokratkaamme auto!
 Vuokraa &#151; vuokratkaa auto!
  
- 
-
 
  
  Vuokrataan auto.
  
- 
- 
  Nyt (meidän) kannattaa vuokrata auto.
  
- 
-
 
  
  Nyt (meidän) on pakko vuokrata auto.
  
- 
-
 
  Pekka vuokraa autot.
 Autot vuokrattiin.
 Vuokratkaamme autot.
-Vuokraa &#150; vuokratkaa autot.
+Vuokraa ~ vuokratkaa autot.
  
-
 
  He ottivat minut (vrt. Pekan) mukaan.
 Ottakaa hänet (vrt. Pekka) mukaan.
 Kenet (vrt. Pekka) otetaan mukaan?
  
-
 
  Pekka vuokrasi kaksi autoa.
 Mies voitti miljoona markkaa.
@@ -545,72 +419,53 @@ Hän pysyi päätöksessään kutsua ministeri vieraakseen.
 Yritys harkitsi mahdollisuutta ottaa ulkomainen laina.
  
 
-
- Hän sai luvan rakentaa mökin rantaan. (päätteell. akk.)
-Hänelle annettiin lupa rakentaa mökki. (päätteetön akk.)
-Hän ei saanut lupaa rakentaa mökkiä. (partitiivi)
+ Hän sai luvan rakentaa mökin rantaan. 
+Hänelle annettiin lupa rakentaa mökki. 
+Hän ei saanut lupaa rakentaa mökkiä. 
  
-
 
  Pekka vuokraa auton. Vrt. Auto vuokrataan.
 Hän vuokratkoon auton. Vrt. Vuokratkaa auto.
  
-
 
  Vuokrasitko sinä auton?
 Jos kuka hyvänsä vuokraa auton, 
 pääsee nopeammin perille.
  
 
-
  
  Vuokratkaamme auto!
 Vuokraa &#151; vuokratkaa auto!
  
- 
-
 
  
  Vuokrataan auto.
  
- 
- 
- 
-
 
  
  Nyt (meidän) kannattaa vuokrata auto.
  
- 
-
 
  
  Nyt (meidän) on pakko vuokrata auto.
  
- 
-
 
  Pekka vuokraa autot.
 Autot vuokrattiin.
 Vuokratkaamme autot.
-Vuokraa &#150; vuokratkaa autot.
+Vuokraa ~ vuokratkaa autot.
  
-
 
  He ottivat minut (vrt. Pekan) mukaan.
 Ottakaa hänet (vrt. Pekka) mukaan.
 Kenet (vrt. Pekka) otetaan mukaan?
  
 
-
  Pekka vuokrasi kaksi autoa.
 Mies voitti miljoona markkaa.
  
 
-
  Juotuaan maidon lapsi nukahti. 
-
-
 
  Presidentti kertoi hallituksen yrityksestä (subst.) 
 saada (attr.) kysymys (obj.) ratkaistuksi.
@@ -618,29 +473,24 @@ Hän pysyi päätöksessään kutsua ministeri vieraakseen.
 Yritys harkitsi mahdollisuutta ottaa ulkomainen laina.
  
 
-
  Hän sai luvan rakentaa mökin rantaan. (päätteell. akk.)
 Hänelle annettiin lupa rakentaa mökki. (päätteetön akk.)
 Hän ei saanut lupaa rakentaa mökkiä. (partitiivi)
  
-
 
  Tuo mies on opettaja.
 Opettaminen on vaikeaa.
 Tämä takki on minun.
  
 
-
  Mene sivuille:
  3.5.1 Predikatiivin sijat
  3.5.2 Predikatiivin luku
  Harjoitustehtäviä
 
-
  Tämä metsä on valtion.
 Onko tuo koira teidän?
  
-
 
  Ilves on kissaeläin.
 Nevala oli keihäänheittäjä.
@@ -648,13 +498,11 @@ Kirja on mielenkiintoinen.
 Sakset ovat terävät.
  
 
-
  Ilves on kissaeläimiä.
 Nevala oli keihäänheittäjiä.
 Pöytä on tammea.
 Kannu on tinaa.
  
-
 
  Vesi (ainesana) on nestettä. 
 Värisokeus (abstraktisana) on perinnöllistä. 
@@ -662,37 +510,28 @@ Väki (kollektiivisana) oli ystävällistä.
 Ilvekset (monikollinen sana) ovat kissaeläimiä. 
  
 
-
  On hyödyllistä opiskella kieliä. (subj. 1. infinitiivi)
 Olipa ikävää, että sairastuit. (subj. että-lause)
 Juhlassa oli hauskaa. (subjektia ei ole)
  
 
-
  
- Oli varo+maton+ta sanoa niin.
-On luonno+llis+ta, että tulet mukaan.
+ Oli varomatonta sanoa niin.
+On luonnollista, että tulet mukaan.
  
- 
-
 
  On hyvä joutua ajoissa perille.
 Oli paha, että myöhästyit.
 Täällä on kylmä.
  
 
-
-
-
  Kirja on kallis.
 Kirjat ovat kalliita.
 Häät olivat komeat.
  
 
-
- Hän on &#150; He ovat tunnettua sukua &#150; muusikkoja.
+ Hän on ~ He ovat tunnettua sukua ~ muusikkoja.
  
-
 
  Kirja on mielenkiintoinen.
 Vesi on kirkasta.
@@ -700,24 +539,19 @@ Sakset ovat terävät.
 Ilvekset ovat notkeita.
  
 
-
  Tehän olette utelias.
 Oletteko jo terve?
  
 
-
  Onpa täällä oltu ahkeria!
  
-
 
  Ilves on kissaeläin.
 Pojat ovat kaksoset.
  
 
-
  Metsät ovat maamme rikkaus.
  
-
 
  Hän on &#151; He ovat tunnettua sukua.
 Tämä pitäjä on &#151; Nämä pitäjät ovat Hämettä.
@@ -725,19 +559,16 @@ Urheilija on &#151; Urheilijat ovat keihäänheittäjiä.
 Ilves on &#151; Ilvekset ovat kissaeläimiä.
  
 
-
  Tartuin pakettiin paljain käsin.
 Älä luota yli kolmekymmentävuotiaisiin.
 Lasken yhdestä kymmeneen.
 Sinussa on ainesta johtajaksi.
  
 
-
  Ystäväni on ollut vakavasti sairaana.
 Hän tuskin tulee enää täysin terveeksi.
-Ruoka tuoksuu hyvältä &#150; hyvälle.
+Ruoka tuoksuu hyvältä ~ hyvälle.
  
-
 
  Tilanne huonontui sangen äkkiä.
 Ratkaisu tehtiin varsin pian.
@@ -746,12 +577,10 @@ Tule pian.
 Kuitenkin hän peruuttaa tulonsa.
  
 
-
  Kirkko on keskellä kylää, posti vastapäätä pankkia.
 Hirvi kulki maantien poikki.
 Moni itkee lemmen tähden.
  
-
 
  Sytytä valot, jotta näet paremmin.
 En päässyt tulemaan, koska olin sairas.
@@ -759,7 +588,6 @@ Nainen oli jo ovella, kun puhelin soi.
 Jos lähdet, rupean itkemään.
 Vaikka oli pimeää, hän osasi perille.
  
-
 
  Isä on kylpemässä &#151; menee kylpemään &#151; 
 tulee kylpemästä.
@@ -770,11 +598,9 @@ Kaaduttuaan hän ei enää noussut.
 Lähdin maalle levätäkseni.
  
 
-
  Tyttö soitti pianoa kauniisti.
 Matkustamme Helsinkiin junalla.
  
-
 
  Puistossa leikkii lapsia. 
  
@@ -783,16 +609,13 @@ Matkustamme Helsinkiin junalla.
 Ohitustiellä tapahtui aamulla paha kolari.
  
 
-
  Mennäänkö elokuviin?
 He toivat Kiinasta silkkiä.
  
 
-
  Unohdin sateenvarjon kauppaan.
 Löysin kirjan kaapista.
  
-
 
  Olosija: Ukko väsyi tiellä.
  Muna rikottiin kulhossa.
@@ -800,34 +623,26 @@ Tulosija: Ukko väsyi tielle (väsähti, jäi tiepuoleen).
  Muna rikottiin kulhoon (ja jätettiin sinne).
  
 
-
  
  Heittäydyin vuoteelle &#151; vuoteeseen.
 Kävelimme suolla. &#151; Tarvoimme suossa.
  
- 
-
 
  
  Täällä on mukava kuljeskella. 
 &#151; Tässä on mukava paikka istua.
 Pilkkimies juoksi avannolle &#151; avantoon.
  
- 
-
 
  
  Kiinnitin antennin katolle &#151; kattoon.
 Hänen kasvoillaan oli naamari. 
 &#151; Hänen kasvoissaan oli arpi.
  
- 
-
 
  Koirallani on lyhyt häntä.
 Veitsessä on pitkä terä.
  
-
 
  Lähetin kortteja ystäville. &#151; Sain kortteja ystäviltä.
 Antaisitko lehden minulle? &#151; Kuka otti minulta lehden?
@@ -835,14 +650,12 @@ He ojensivat minulle maljakon. &#151; Minulta putosi maljakko.
 Lainasin rahaa Jannelle &#151; Jannelta.
  
 
-
  Suomessa on kaunista kesällä.
 Ensi viikolla lähden lomalle.
 Maanantaina olen vielä työssä.
 Minä vuonna olet syntynyt?
 Esitys alkaa kello 19.
  
-
 
  Olen matkalla tiistaista perjantaihin.
 Hän on tavattavissa kymmenestä yhteentoista.
@@ -852,14 +665,11 @@ Juhlat kestivät aamuun asti.
 Palaan kotiin keskiviikkoon mennessä.
  
 
-
  Hän kirjoitti tutkielmaansa kaksi vuotta.
  
 
-
  Hän kirjoitti tutkielmansa kahdessa vuodessa.
  
-
 
  Menen Lontoosen kahdeksi viikoksi.
 Voinko istahtaa tähän hetkeksi.
@@ -867,17 +677,14 @@ Menen lepäämään tunniksi.
 Vuoka pannaan uuniin 15 minuutiksi.
  
 
-
  Anu on lääkärinä – valmistui lääkäriksi Kuopiossa.
 Vrt. Heimo on insinööri (predikatiivi).
  
-
 
  Timo on ala-asteen rehtori — rehtorina.
 Pekka on sairas — sairaana.
 Puuro tuli mustaa — mustaksi.
  
-
 
  Ruoka (subj.) säilyy kylmänä jääkaapissa.
 Ilma (subj.) pysyi kauniina koko päivän.
@@ -885,22 +692,18 @@ He (subj.) istuivat väsyneinä penkillä.
 Pekka (subj.) toimii – viihtyy – pysyy valmentajana.
  
 
-
  Käytimme kukkaruukkua (obj.) tuhkakuppina.
  
-
 
  Pidän Pekkaa sopivana tehtävään.
 Pidätkö häntä hyvänä näyttelijänä?
 Häntä pidetään rehellisenä miehenä.
  
 
-
  Sää (subj.) muuttui kirkkaaksi.
 Hän (subj.) tuli tiedosta hyvin iloiseksi.
 Monet (subj.) joutuvat työttömiksi vasten tahtoaan.
  
-
 
  Maalasimme talon (obj.) keltaiseksi.
 Tieto teki hänet (obj.) onnelliseksi.
@@ -909,7 +712,6 @@ Luulin häntä (obj.) ulkomaalaiseksi.
 He ehdottavat Pekkaa (obj.) puheenjohtajaksi.
  
 
-
  Talo näyttää tyhjältä.
 Ilma tuntuu kylmältä.
 Soitto kuulosti kamalalta.
@@ -917,37 +719,30 @@ Ehdotus vaikutti hyvältä.
 Ruoka tuoksui hyvältä – hyvälle.
  
 
-
  Lapsi palasi iloisena — Lapset palasivat iloisina kotiin.
 Hän tuli surulliseksi — He tulivat surullisiksi tiedosta.
  
-
 
  Olen ollut täällä teidän vaivoinanne.
 Vanhat säännöt otettiin esikuvaksi.
  
 
-
  Nuorempana harrastin urheilua.
 = Kun olin nuorempi, harrastin urheilua.
  
-
 
  Lakimiehenä hän ymmärtää asian.
 = Koska on lakimies, hän ymmärtää asian.
  
 
-
  Sinuna en tekisi noin.
 = Jos olisin sinä, en tekisi noin.
  
-
 
  He viipyivät matkalla viikon. (päätteellinen akkus.)
 Matkalla viivyttiin viikko. (päätteetön akkus.)
 En viipynyt matkalla viikkoakaan. (partitiivi)
  
-
 
  Siika painoi 2 kg 300 g.
 Tynnyri veti 80 litraa lakkoja.
@@ -955,35 +750,28 @@ Kokous kesti 8 ½ tuntia.
 Vastaus viipyi kaksi viikkoa.
  
 
-
  Vahtikaa lapsia koko ajan (t. koko aika).
 Meidän pitää tavata toisen kerran (t. toinen kerta).
 Elokuva esitetään viimeisen kerran.
  
 
-
- Hänestä kuullaan vielä paljon &#150; enemmän &#150; jonkin verran.
+ Hänestä kuullaan vielä paljon ~ enemmän ~ jonkin verran.
 Hänestä ei ole kuultu paljonkaan (&#150; paljoakaan).
-Neuvotteluissa edistyttiin vain vähän &#150; hiukan.
+Neuvotteluissa edistyttiin vain vähän ~ hiukan.
  
-
 
  Tulin tilaisuuteen tunnin myöhemmin.
 Sinne tultiin tunti myöhemmin.
 Tuntia myöhemmin paikalla ei ollut ketään.
  
 
-
  Tulin sinne &#151; Sinne tultiin tuntia myöhemmin.
  
-
 
  Tulin sinne tunti myöhemmin.
  
 
-
  Hän on vuoden (t. vuotta) vanhempi kuin minä.
-
 
  Asumme isossa keltaisessa (adj.) talossa. 
 Tunnetko tuon (pron.) miehen? 
@@ -991,47 +779,38 @@ Kotimme on kuudennessa (num.) kerroksessa.
 Kutsu lähetetään vain hyväksytyille (part.) hakijoille. 
  
 
-
  ihana kukallinen huivi
 mainio vanhanaikainen seremonia
  
 
-
  Ainetta ilmaiseva attribuutti muodostaa usein pääsanansa kanssa suomessa
  yhdyssanan: muoviruusu, puukulho.
-
 
  pitkä ryhdikäs upseeri
 kalpea heikkohermoinen virkailija
  
-
 
  miel. 	halpa pitkänomainen massavalmisteinen kuorrutettu kakku
 kuin 	?pitkänomainen halpa massavalmisteinen kuorrutettu kakku
 tai 	?pitkänomainen massavalmisteinen kuorrutettu halpa kakku
  
 
-
  Hän poimi punaiset ruusut, 
 valkeat ruusut eivät kelvanneet.
  
 
-
  Pöytää koristivat ihanat ruusut.
  
-
 
  Ota ensi kerralla koko perheesi mukaan.
 Hän valmisti joka kerraksi kelpo yllätyksen.
  
-
 
  ensimmäiset kolme viikkoa
 vrt. kolme ensimmäistä viikkoa
 hyväksytyistä viidestä suorituksesta
 vrt. viidestä hyväksytystä suorituksesta
  
-
 
  joksikin aikaa, pitkästä aikaa, sillä aikaa, 
 tuolla tapaa, tällä haavaa, samalla kertaa, 
@@ -1042,69 +821,56 @@ tällä puolen, millä tavoin, pahoilla mielin,
 tältä kohden, tuolle puolen
  
 
-
  jonkun lompakko, pojan huone, Joensuun yliopisto
 öljymaiden politiikka, linnun laulu, kielten opetus
  
 
-
  Suomen hallitus 
 (vrt. finska regeringen, the Finnish government)
  
-
 
  pojan pyörä (omistus, jollekin kuuluminen)
 Helsingin kadut (lokaalinen suhde)
 pojan maailma (lokaalinen tai kognitiivinen suhde)
  
 
-
  auringon kimmellys (vrt. aurinko kimmeltää)
 kakun koristelu (vrt. kakkua koristellaan)
  
 
-
  Aaltosen rintakuva ('Aaltosen omistama' vai 
 'Aaltosta esittävä' vai 'Aaltosen veistämä' rintakuva?)
  
-
 
  Tieto saatiin pääjohtaja Vuoriselta.
 Mitä mieltä olet rehtori Pelkosesta?
 Tapasimme toisemme ravintola Yösarvessa.
  
 
-
  Tieto saatiin yhtiön pääjohtajalta Vuoriselta.
 Mitä mieltä olet rehtoristamme Pelkosesta?
 Tapasimme toisemme suositussa ravintolassa Yösarvessa.
  
 
-
  filosofian kandidaatti Järviseltä
 lääketieteen ja kirurgian tohtori Vartiaiselle
  
 
-
  Alustajalla Pertti Väisäsellä oli tuoreita tietoja.
  
 
-
- Kantajalla &#150; kantaja Lahtisella oli paljon sanottavaa.
-Hakijan &#150; hakija Kivisen pyyntöön suostuttiin.
+ Kantajalla ~ kantaja Lahtisella oli paljon sanottavaa.
+Hakijan ~ hakija Kivisen pyyntöön suostuttiin.
  
-
 
  Asevelvolliselle Hannu Lipposelle myönnettiin lykkäystä.
 Tilalliselle Matti Huuskoselle annettiin poikkeuslupa.
  
 
-
- kappalaisen &#150; kappalainen Matti Pentikäisen saarna
-kirjastoapulaisen &#150; kirjastoapulainen 
+ kappalaisen ~ kappalainen Matti Pentikäisen saarna
+kirjastoapulaisen ~ kirjastoapulainen 
 Niina Mustosen anomus
  
-
 
  Kuopiossa, läänin pääkaupungissa, 
 on myös yliopisto.
@@ -1113,13 +879,11 @@ Näytelmä, kirjallisuuden lajeista vaikein,
 vaati teknistäkin taitoa.
  
 
-
  Sanassa koti on neljä kirjainta.
 Romaanissa Irralliset Meri kuvaa elämän tyhjyyttä.
 Sivulla 127 on asiasta maininta.
 Kolmioon ABC on piirretty ympyrä.
  
-
 
  Lapselle annettiin pala leipää.
 Yksi pala leivästä oli jo huvennut.
@@ -1127,40 +891,33 @@ Tähän tarvitaan metri kangasta.
 Metri kankaasta oli mennyt pilalle.
  
 
-
  Otatko lasillisen viiniä?
 Lasillisesta viiniä ei tule humalaan.
 Kuka teistä teki tämän?
 Kenelle teistä voin jättää viestin?
  
 
-
  Pihalla on kolme (pääs.) poikaa (attr.).
 Näin siellä kymmenen (pääs.) ihmistä (attr.).
  
-
 
  Hän puhui kolmesta (attr.) pojasta (pääs.).
 Sain vastaukset kymmeneltä (attr.) ihmiseltä (pääs.).
  
 
-
  Lähtö Jyväskylään (attr.) lykkäytyi.
 Vrt. Lähden Jyväskylään (advli) myöhemmin.
  
 
-
  huomioita teoksen tyylistä, ajatus yhteisestä lomasta, 
 tieto Titanicin uppoamisesta, selvitys varojen käytöstä
  
-
 
  ehdotus ylimääräisestä kokouksesta
 ennuste talouden kehityksestä
 päätös riitajutusta
 laki peruskoulu-uudistuksesta
  
-
 
  Hän on susi lammasten vaatteissa.
 Paluumatka Helsingistä oli hankala.
@@ -1170,7 +927,6 @@ Oletko sinä Matti Virtanen Tampereelta?
 Yhteydet ulkomaille olivat poikki.
  
 
-
  Mutka ennen siltaa on vaarallinen.
 Seikkailu ympäri Lontoota oli hauskaa.
 Istuskelu ystävien kanssa kesti pitkään.
@@ -1178,11 +934,9 @@ Matka napapiirin taakse oli mieleenpainuva.
 
  
 
-
  ? Koira haukkui kärppää kivenkolossa.
 ? Hän kertoi kokemuksistaan Lapissa.
  
-
 
  Pojalle tuli kiire lähteä pois. (infinitiivi)
 Tämä on kirja, jota eniten rakastan. (relatiivilause)
@@ -1190,54 +944,43 @@ Esiin nousi tunne, että puhumme eri kieliä. (että-lause)
 Meillä on ongelma, mistä saadaan rahat.	(epäsuora kysym.)
  
 
-
  Minulla oli aikomus anoa, halu ryhtyä johonkin,
 tilaisuus puhua, kunnia vastaanottaa lähetys
  
-
 
  Tuo on se veljeni, joka on lääkäri (restriktiivinen).
 Vanhin veljeni, (joka on) lääkäri, (ei-restriktiivinen)
 asuu Kemissä. 
  
 
-
-
  Pian levisi pelko, että laiva uppoaa.
 Väite, että olisin kuollut, on huomattavasti liioiteltu.
  
-
 
  Mielessäni heräsi epäilys, tuleeko tästä 
 lainkaan valmista.
 Hänellä on ehdotus, miten kulttuuria voisi eheyttää.
  
 
-
- Tiesin nukku+va+ni &#151; nukku+nee+ni. (huom. persoona, aika)
-Kuulin kerro+tta+va+n &#151; kerro+tu+n. (huom. passiivi, aika)
-Kallen tul+tu+a (vrt. tullessa) Pekka lähti. (huom. aika)
+ Tiesin nukkuvani &#151; nukkuneeni. (huom. persoona, aika)
+Kuulin kerrottavan &#151; kerrotun. (huom. passiivi, aika)
+Kallen tultua (vrt. tullessa) Pekka lähti. (huom. aika)
  
 
-
- kuumasti paista+va &#151; paista+nut aurinko (huom. aika)
-kioskista oste+tta+va &#151; oste+ttu kirja (huom. pass., aika)
-kioskista osta+ma+ni kirja (huom. aika, pers.)
+ kuumasti paistava &#151; paistanut aurinko (huom. aika)
+kioskista ostettava &#151; ostettu kirja (huom. pass., aika)
+kioskista ostamani kirja (huom. aika, pers.)
  
-
 
  Mies alkoi sahata puuta.
  
 
-
  Isä antoi pojan mennä ulkomaille.
  
-
 
  palkkojen nouseminen 
 ulkomaalaisten häätäminen rajalta 
  
-
 
  Sanoin sinun lähtevän. 
 Vrt. Sanoin, että sinä lähdet. (objekti)
@@ -1245,18 +988,15 @@ Näyttää tulevan sade.
 Vrt. Näyttää, että tulee sade. (subjekti)
  
 
-
  Mene sivuille:
  3.8.2.1 Referatiivinen lauseenvastike objektina
  3.8.2.2 Referatiivinen lauseenvastike subjektina
  3.8.2.3 Kielto referatiivisessa lauseenvastikkeessa
  Harjoitustehtäviä
 
-
  Hän sanoi sinun tietävän asian.
 Vrt. &#151; &#151; että sinä tiedät asian.
  
-
 
  Tiedän &#151; tiesin hänen osaavan venäjää. (akt. 1. partis.)
 Tiedän &#151; tiesin hänen osanneen venäjää. (akt. 2. partis.)
@@ -1264,18 +1004,15 @@ Tiedän &#151; tiesin siellä osattavan venäjää. (pass. 1. partis.)
 Tiedän &#151; tiesin siellä osatun venäjää. (pass. 2. partis.)
  
 
-
  Todettiin miehen olevan ymmärrystä vailla. (edelleen)
 Todettiin miehen olleen ymmärrystä vailla. (aikaisemmin)
  
-
 
  Kuulin käen kukkuvan.
 Huomasimme rahojen kadonneen.
 Luulen tuntevani hänet.
 Mies uskoi olevansa jo terve.
  
-
 
  Huomasin tekstiin jääneen virheen. (päätteellinen akkusat.)
 Tekstiin huomattiin jääneen virhe. (päätteetön akkusatiivi)
@@ -1285,46 +1022,37 @@ Hän kertoi &#151; kerrottiin autossa
 tulleen vieraita. (partitiivi)
  
 
-
  Luulen hänellä olevan asiasta toinen käsitys 
 (t. toisen käsityksen).
 Arvelin kyseessä olleen poikkeustapaus 
 (t. poikkeustapauksen)
  
 
-
  Kuulin &#151; kerrotaan hänen ostaneen uuden auton.
 Vrt. &#151; &#151; että hän on ostanut uuden auton.
  
-
 
  Kuulin (akt.) häneltä varastetun auton.
 Kerrotaan (pass.) häneltä varastetun auto.
 Vrt. Kuulin &#151; kerrotaan, että häneltä varastettiin auto. 
  
 
-
  Lehti kertoi maahan saadun uusi hallitus 
 (t. uuden hallituksen).
  
 
-
  Hän kertoi päätöksen jo tehdyn.
-Vrt. Hän kertoi asiasta jo tehdyn päätöksen &#150; päätös.
+Vrt. Hän kertoi asiasta jo tehdyn päätöksen ~ päätös.
  
-
 
  Luulin hänen olevan sairas.
 Vrt. &#151; &#151; että hän oli sairas.
  
 
-
  Hän tiesi olevansa terve.
  
 
-
  He väittivät hänen paperiensa olevan puhtaat.
-
 
  Näkyy tulevan sade.
 Vrt. &#151; &#151; että tulee sade.
@@ -1332,11 +1060,9 @@ Ilmeni hänen syntyneen Ruotsissa.
 Vrt. &#151; &#151; että hän on syntynyt Ruotsissa.
  
 
-
  Naapuri näkyi lähtevän työhön.
 Naapuri näkyi lähteneen työhön.
  
-
 
  Sinä tunnut ymmärtävän. 
 Vrt. Tuntuu, että sinä ymmärrät.
@@ -1344,11 +1070,9 @@ Työt näkyvät päättyneen.
 Vrt. Näkyy, että työt ovat päättyneet.
  
 
-
  Ilmeni &#151; kävi ilmi miehen olevan ulkomaalainen.
 Osoittautui virkailijoiden tienneen asiasta.	
  
-
 
  Täällä näyttää juhlitun. 
 Vrt. Näyttää, että täällä on juhlittu.
@@ -1356,11 +1080,9 @@ Sinut näkyy nimitetyn irkaan.
 Vrt. Näkyy, että sinut on nimitetty virkaan.
  
 
-
  Talossa osoittautui harjoitetun ilkivaltaa.
 Vrt. Osoittautui, että talossa oli harjoitettu ilkivaltaa.
  
-
 
  Näyttää tulevan sade.
 Talossa kuului käyneen vieraita.
@@ -1368,11 +1090,9 @@ Siellä kuuluu olleen häät.
 Selvisi asiassa tapahtuneen väärinkäsityksiä.
  
 
-
  Kuulin laivan jäävän &#151; jääneen lähtemättä.
 Vrt. &#151; &#151; että laiva ei lähde &#151; ei lähtenyt.
  
-
 
  Mies ei sanonut tietävänsä. 
 ('Mies sanoi, että hän ei tiedä')
@@ -1382,13 +1102,11 @@ Talo ei kuulu olevan valmis.
 ('Kuuluu [olevan niin], että talo ei ole valmis')
  
 
-
  Se tapahtui hänen tullessaan kotiin.
 Vrt. — — kun hän tuli kotiin.
 Tein sen hänen tultuaan kotiin.
 Vrt. — — kun hän oli tullut kotiin.
  
-
 
  Tarpeen vaatiessa ('jos tarve vaatii') 
 ohjeesta poiketaan.
@@ -1398,11 +1116,9 @@ Esimiehen estyessä ('jos esimies estyy')
 puhetta johtaa varaesimies.
  
 
-
  Hän satutti kaatuessaan kätensä. (samanaikainen)
 Kaaduttuaan hän ei enää päässyt jaloilleen. (varhempi)
  
-
 
  Kuormaa nostettaessa vaijeri katkesi.
 Vrt. Kun kuormaa nostettiin — —.
@@ -1410,64 +1126,51 @@ Syötyä lähdettiin kävelylle.
 Vrt. Kun oli syöty — —.
  
 
-
  Anun lähtiessä — lähdettyä minulle tuli ikävä.
  
 
-
- Meidän tullessa+mme — tultua+mme alkoi sataa.
+ Meidän tullessamme — tultuamme alkoi sataa.
  
 
-
- Lapsi riemastui saadessa+an — saatua+an lahjan.
+ Lapsi riemastui saadessaan — saatuaan lahjan.
  
 
-
- Heti tultua+si töistä rupeamme siivoamaan.
+ Heti tultuasi töistä rupeamme siivoamaan.
  
-
 
  (Omistajan adessiivi:)
-Tietoja kerätessä+än toimittajalla oli nauhuri.
+Tietoja kerätessään toimittajalla oli nauhuri.
  (Yksipersoonaisen verbin tekijä:)
-Hänen täytyy aina syödä lukiessa+an.
+Hänen täytyy aina syödä lukiessaan.
  (Passiivin objekti:)
-Suomeen saapuessa+an vieras otettiin juhlavasti vastaan.
+Suomeen saapuessaan vieras otettiin juhlavasti vastaan.
  
-
-
 
  &quot;Veneen kaatuessa se särkyi pahoin.&quot;
-Paremmin: Kaatuessa+an vene särkyi pahoin.
+Paremmin: Kaatuessaan vene särkyi pahoin.
 Vrt. Kun vene kaatui, se särkyi pahoin.
  
-
 
  Luin kirjeen heti saatuani sen.
 Lue kirje heti saatuasi sen.
 Kirje luettiin heti lähetin tuotua sen.
  
 
-
  Laitetta (obj.) käytettäessä on varottava ylikuormitusta.
 Uutta viiniä (obj.) maisteltua tutustuttiin taloon.
  
-
 
  Veden ollessa liian kylmää ei pidä mennä uimaan.
 Ilman oltua pitkään kaunis tulivat sateet.
  
 
-
  Lähdin maalle levätäkseni.
 Vrt. &#151; &#151; jotta lepäisin.
  
 
-
  Tämä on liian hyvää ollakseen totta.
 Hän on liian heikko lähteäkseen matkalle.
  
-
 
  &quot;Askel hidastui kiivastuakseen uudelleen.&quot;
 Vrt. &#151; &#151; mutta kiivastui uudelleen.
@@ -1476,8 +1179,6 @@ että oli unohtanut avaimet.&quot;
 Vrt. &#151; &#151; ja huomasi saman tien, että &#151; &#151;.
  
 
-
-
  Tilanteen helpottamiseksi käytettiin kaikkia keinoja.
 Vrt. Jotta helpotettaisiin tilannetta, 
 käytettiin kaikkia keinoja.
@@ -1485,38 +1186,31 @@ käytettiin kaikkia keinoja.
 käytettiin kaikkia keinoja.&quot;)
  
 
-
  Nainen soitti lääkärille tilatakseen ajan.
 Poika harjoitteli ahkerasti oppiakseen soittamaan kitaraa.
 Tyttö teki parhaansa saadakseen hyvän tuloksen.
  
 
-
- Mies tutki käsikirjaa saadakse+en laitteen toimimaan.
+ Mies tutki käsikirjaa saadakseen laitteen toimimaan.
 Vrt. &#151; &#151; jotta saisi laitteen toimimaan.
  
-
 
  Minä tulin voidaksesi levätä. 
 Vrt. &#151; &#151; jotta voisit levätä.
  
 
-
  &quot;Te kannatte vettä hänen pestäkseen itsensä.&quot;
 Vrt. &#151; &#151; jotta hän pesisi itsensä.
  
-
 
  Pidä kiirettä saadaksesi työn (obj.) valmiiksi.
 Vrt. &#151; &#151; jotta saat työn valmiiksi.
  
 
-
  Ollakseen pätevä (predvi) 
 sopimus tarvitsee allekirjoituksen.
 Vrt. Jotta olisi pätevä, &#151; &#151;.
  
-
 
  Tietääkseni asia on jo ratkaistu.
 Vrt. Sikäli kuin tiedän, &#151; &#151;.
@@ -1524,17 +1218,14 @@ Sellaista ei heidän muistaakseen ole ennen sattunut.
 Vrt. &#151; &#151;, mikäli he muistavat, &#151; &#151;.
  
 
-
  Kaikki eivät huomatakseni olleet paikalla.
 Hänen arvatakseen ottelu päättyy tasapeliin.
 Mennäksemme suoraan asiaan &#151; &#151;.
  
 
-
  Tietääksemme &#151; heidän tietääkseen asia on jo ratkaistu.
 Vrt. Mikäli tiedämme &#151; sikäli kuin he tietävät, &#151; &#151;.
  
-
 
  Tyttö nauroi kaikkien nähden.
 Vrt. &#151; &#151; niin että kaikki näkivät.
@@ -1542,18 +1233,15 @@ Poistuin kenenkään huomaamatta.
 Vrt. &#151; &#151; siten että kukaan ei huomannut.
  
 
-
  Kesän tullen hän virkistyi.
 Vrt. Kun kesä tuli, &#151; &#151;.
 Hän pettää meidät heti tilaisuuden tullen.
 Vrt. &#151; &#151; kun tilaisuus tulee.
  
 
-
  Ei kukko käskien laula. 
 Vrt. &#151; &#151; kun &#151; jos sitä käskee.
  
-
 
  Minä en puhu enää sinun kuultesi.
 Vrt. &#151; &#151; niin että sinä kuulet.
@@ -1561,19 +1249,16 @@ Sinä olet tietämättäsi auttanut minua.
 Vrt. &#151; &#151; siten että et tiennyt &#151; &#151; ilman että tiesit.
  
 
-
  Ei uni maaten lopu.
 Vrt. &#151; &#151; siten että maataan &#151; makaa.
 Asia on selvä sanomattakin.
 Vrt. &#151; &#151; siten että ei sanota &#151; ilman että sanotaan.
  
 
-
  Uskallan sanoa sen kaikkien kuullen.
-Se tapahtui minun tietämättä+ni.
-Tein sen tiete+ni enkä sattumalta. Vrt. &#151; &#151; niin että tiesin.
+Se tapahtui minun tietämättäni.
+Tein sen tieteni enkä sattumalta. Vrt. &#151; &#151; niin että tiesin.
  
-
 
  Mies kulki horjuen.
 Tyttö astui ujostellen sisään.
@@ -1581,11 +1266,9 @@ Lapsi tuli itkien kotiin.
 Sinä läksit lupaa kysymättä.
  
 
-
  Tyttö nauroi kaikkien nähden.
 = Tyttö nauroi niin, että kaikki näkivät kun tyttö nauroi.
  
-
 
  Lokki lensi siivet vettä viistäen.
 Vrt. &#151; &#151; niin että siivet viistivät vettä.
@@ -1593,17 +1276,14 @@ Mies ryntäsi sisään aseita vyöllä riippuen.
 Vrt. &#151; &#151; siten että vyöllä riippui aseita.
  
 
-
  Poika odotti sydän pamppaillen.
 ?Mies tarttui lasiin käsi vapisematta.
 Vrt. &#151; &#151; niin että käsi ei vapissut.
  
 
-
  Hevonen nelisti kaviot kipinöitä iskien.
 Mies ryntäsi sisään aseita vyöllä riippuen.
  
-
 
  Poika hyppäsi veteen pää edellä.
 Vrt. &#151; &#151; siten että pää oli edellä.
@@ -1611,11 +1291,9 @@ Asianajaja saapui papereita mukanaan.
 Vrt. &#151; &#151; niin että papereita oli mukana.
  
 
-
  Mies kuunteli kertomusta silmät kauhusta pyöreinä.
 Tiellä käveli kettu höyheniä suupielessä.
  
-
 
  Hallitus antoi asian raueta.
 Isä käski pojan pestä auton.
@@ -1623,127 +1301,93 @@ Sallikaa lasten tulla minun luokseni.
 Vrt. &#151; &#151; että lapset tulevat minun luokseni.
  
 
-
  Poika antoi veden valua.
  
-
 
  Hallitus antoi palkata sijaisia. 
 Vrt. &#151; &#151; (että) palkattiin sijaisia.
 Salissa käskettiin olla hiljaa.
  
 
-
  Poliisi käski yleisön poistua takaovesta.
 Meidän ei suotu vaikuttaa asian käsittelyyn. 
 Saksien annettiin jäädä pöydälle.
  
-
 
  Annoin (akt.) tekstiin jäädä virheen. (päätteellinen akkusat.)
 Tekstiin annettiin (pass.) jäädä virhe. (päätteetön akkusat.)
 Annoitko tekstiin jäädä virheitä? (partitiivi)
  
 
-
  Isä käski (akt.) pojan lukea kirjan. (päätteellinen akkusat.)
 Pojan käskettiin (pass.) lukea kirja. (päätteetön akkusat.)
 Käske (imp. yks. 2.) pojan lukea kirja. (päätteetön akkusat.)
  
-
 
  Isä käski pojan olla huolellinen.
 Poika antoi huoneensa olla epäsiisti.
 Lasten käskettiin olla ahkeria.
  
 
-
  Sinä otit nähdäksesi suuren vaivan.
 Mies oli saanut tehdäkseen kesämökin.
  
 
-
-
  Hän häpesi kuollakseen.
 Sydän sykki pakahtuakseen.
  
-
-
 
  Tauti menee, jos on mennäkseen.
 Tulee pappi tyhmemmästäkin, jos on tullakseen.
 Myös: Hän on niin ollakseen.
  
 
-
-
  Jätän kuvailematta vaikeuksia tarkemmin.
 Hän jätti käyttämättä tilaisuutta hyväkseen.
  
-
-
 
  Sinun on nyt lähteminen.
 Tietoon käy luottaminen.
 Sinne ei ole menemistä.
  
 
-
-
  Kello käy käymistään.
 Myrsky yltyi yltymistään.
  
-
-
 
  Lapsi oli putoamaisillaan pöydältä.
 Olin nääntymäisilläni nälkään.
  
 
-
-
  Tyttö oli nukkuvinaan.
 He eivät olleet kuulevinaan huomautusta.
  
-
-
 
  Asian on ratkettava huomiseen mennessä.
 Poikienkin olisi luettava läksynsä.
  
 
-
-
  Rappaukseen on päästävä ilmaa. (eksistentiaalinen)
 Nyt on oltava hiljaa. (passiivinen)
  
-
 
  Onko johtaja tavattavissa?
 Päätös on jo tehtävissä.
 Tämä asia ei ole muutettavissa.
  
 
-
-
  Esimies määräsi hankittavaksi uudet valaisimet.
 Hän esitti ryhdyttäväksi toimiin.
  
 
-
-
- Minun tuli kerrotuksi &#150; kerrottua asia.
-Ei hänen tule lähdetyksi &#150; lähdettyä.
+ Minun tuli kerrotuksi ~ kerrottua asia.
+Ei hänen tule lähdetyksi ~ lähdettyä.
  
-
-
 
  Tulin kertoneeksi asian.
  
 
-
  Hän sai sanotuksi tärkeimmät asiat.
 Miehet eivät saaneet hävitettyä kaikkia tuholaisia.
  
-
 
