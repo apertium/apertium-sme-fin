@@ -793,6 +793,28 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </rule>
     <!-- end pronoun rules -->
     <!-- begin verb rules -->
+	<rule comment="regla: inf1">
+		<pattern>
+			<pattern-item n="inf" />
+		</pattern>
+		<action>	
+			<out>
+				<chunk name="inf1" case="caseFirstWord">
+					<tags>
+						<tag><lit-tag v="Inf1"/></tag>
+						<tag><clip pos="1" side="sl" part="syntag"/></tag>
+					</tags>
+					<lu>
+						<clip pos="1" side="tl" part="lemh"/>
+						<clip pos="1" side="tl" part="a_verb"/>
+						<lit-tag v="Inf"/>
+						<clip pos="1" side="tl" part="lemq"/>
+					</lu>
+				</chunk>
+			</out>
+		</action>
+	</rule>
+	
 	<rule comment="regla: participles">
 		<pattern>
 			<pattern-item n="pcps" />
