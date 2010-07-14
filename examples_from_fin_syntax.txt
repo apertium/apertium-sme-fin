@@ -1,25 +1,21 @@
 
- Rakenne: SUBJ. PRED. ADVLI)
-Esim. Koira haukkuu.
+Koira haukkuu.
  Lapset ovat puistossa.
  Setäni asuu maalla.
  
 
 
- Rakenne: SUBJ.	 PRED. OBJ. ADVLI)
-Esim. Isä peseea autoa
+Isä peseea autoa
  Mies rakensi talon kalliolle.
- 
+  
 
 
- Rakenne: SUBJ.	 PRED. PREDVI
-Esim. Haanpää	 oli kirjailija.
+Haanpää	 oli kirjailija.
  Kirjoittaminen on työlästä.
  
 
 
- Rakenne: ADVLI PRED. SUBJ.
-Esim. Autotallissa oli vettä.
+Autotallissa oli vettä.
  Ovella seisoi kauppias.
  Ikkunassa on	 rullaverhot.
  
@@ -31,74 +27,60 @@ Tulipalossa vaurioitui julkisia rakennuksia.
  
 
 
- Rakenne: ADVLI PRED. SUBJ.
-Esim. Koiralla on luu.
+Koiralla on luu.
  Kaikilla ei ole televisiota.
  
 
 
- Rakenne: ADVLI PRED. SUBJ. 
-Esim. Pertistä tuli tohtori.
+Pertistä tuli tohtori.
  Tytöstä kehittyi nainen.
  Siemenestä kasvoi puu.
  
 
 
- Rakenne: (ADVLI)	 PRED. (PREDVI)
-Esim. (Nyt &#150; täällä) sataaa
+(Nyt &#150; täällä) sataaa
  (Täällä &#150; Savossa) on kylmä &#150; kaunista.
+ (Täällä &#150; Savossa) on kylmä &#150; kaunista.
+ (Täällä &#150; Savossa) on kylmä &#150; kaunista.
+ (Nyt)	 on yö &#150; myöhä &#150; torstai.
+ (Nyt)	 on yö &#150; myöhä &#150; torstai.
  (Nyt)	 on yö &#150; myöhä &#150; torstai.
  
 
 
- Rakenne: OBJ. &#150; ADVLI PRED. (ADVLI &#150; ?)
-Esim. Minua onnisti.
+Minua onnisti.
  Hänelle	 kävi ikävästi.
+ Lapsen &#150; lapsella on	 jano &#150; nälkä &#150; kylmä.
+ Lapsen &#150; lapsella on	 jano &#150; nälkä &#150; kylmä.
  Lapsen &#150; lapsella on	 jano &#150; nälkä &#150; kylmä.
  
 
 
- Lapset leikkivät rannalla. (substantiivi)
-He heittelevät kiviä veteen. (pronomini)
-Pienet katsovat vierestä. (substantiivisesti 
- käytetty adjektiivi)
-Yksi kaatui hiekalle. (numeraali)
+ Lapset leikkivät rannalla. 
+He heittelevät kiviä veteen. 
+Pienet katsovat vierestä. 
+Yksi kaatui hiekalle. 
  
 
-
-<a
- name="Nominatiivisubjekti">Nominatiivisubjekti
-Nominatiivi
- on subjektin perussija: subjekti on nominatiivissa, elleivät erityiset syyt vaadi sitä
- muuhun sijaan (<a href="../lahteita.htm#Hakulinen, A. &#150; Karlsson, F. 1979"
- target="_blank">Hakulinen &#150; Karlsson 1979*). Normaalisti nominatiivisubjekti on
- lauseen alussa ennen verbiä, esim.
  
  Vieraat tulivat illalla.
  He tutustuivat ensin taloon.
  
  
- Subjekti on lähes aina nominatiivissa, jos lauseessa on objekti eli lause
- on tyypiltään &lt;transitiivinen, esim.
- 
  Useat poliisit menettivät henkensä.
 Monet suomalaiset osaavat englantia.
  
  
- Jos lauseessa on &lt;predikatiivi,
- subjekti on aina nominatiivissa, esim.
  
  Kahvi on kallista.
 Monet suomalaiset ovat ujoja.
  
+Vihaa on pyhääkin; 
+Oppilaita on ahkeria ja laiskoja; 
+Kouluja täällä
+ on kolme. 
  
- (Seuraavanlaisissa lauseissa partitiivisubjekti on mahdollinen: Vihaa
- on pyhääkin; Oppilaita on ahkeria ja laiskoja; Kouluja&nbsp;täällä
- on kolme. &#150; Nämä ovat erikoistapauksia, joissa ei ole kysymys varsinaisesta
- predikatiivista. Lauseet ovat eksistentiaalisia.)
-
-Partitiivisubjekti
-
+ 
  Jääkaapissa on maitoa.
 Leskellä on omaisuutta.
 Heistä tuli kunnollista väkeä.
@@ -172,115 +154,11 @@ Onpas mukavaa olla taas kotona.
 
  Lapset leikkivät rannalla. (substantiivi)
 He heittelevät kiviä veteen. (pronomini)
-Pienet katsovat vierestä. (substantiivisesti 
- käytetty adjektiivi)
+Pienet katsovat vierestä. (substantiivisesti  käytetty adjektiivi)
 Yksi kaatui hiekalle. (numeraali)
  
-
-
-<a
- name="Nominatiivisubjekti">Nominatiivisubjekti
-Nominatiivi
- on subjektin perussija: subjekti on nominatiivissa, elleivät erityiset syyt vaadi sitä
- muuhun sijaan (<a href="../lahteita.htm#Hakulinen, A. &#150; Karlsson, F. 1979"
- target="_blank">Hakulinen &#150; Karlsson 1979*). Normaalisti nominatiivisubjekti on
- lauseen alussa ennen verbiä, esim.
- 
- Vieraat tulivat illalla.
- He tutustuivat ensin taloon.
  
  
- Subjekti on lähes aina nominatiivissa, jos lauseessa on objekti eli lause
- on tyypiltään &lt;transitiivinen, esim.
- 
- Useat poliisit menettivät henkensä.
-Monet suomalaiset osaavat englantia.
- 
- 
- Jos lauseessa on &lt;predikatiivi,
- subjekti on aina nominatiivissa, esim.
- 
- Kahvi on kallista.
-Monet suomalaiset ovat ujoja.
- 
- 
- (Seuraavanlaisissa lauseissa partitiivisubjekti on mahdollinen: Vihaa
- on pyhääkin; Oppilaita on ahkeria ja laiskoja; Kouluja&nbsp;täällä
- on kolme. &#150; Nämä ovat erikoistapauksia, joissa ei ole kysymys varsinaisesta
- predikatiivista. Lauseet ovat eksistentiaalisia.)
-
-Partitiivisubjekti
-
- Jääkaapissa on maitoa.
-Leskellä on omaisuutta.
-Heistä tuli kunnollista väkeä.
- 
-
-
- Laivassa oli jo matkustajia.
-Minulla on lapsia.
-Pojista kasvaa miehiä.
- 
-
-
- Laitoksessa ei ole johtajaa.
-Meillä ei ole autoa.
-Hänestä ei tullut opettajaa.
- 
-
-
- Tuossa talossa tuskin on emäntää.
-Onko sinulla kelloa?
- 
-
-
- Hänellä ei ole kovinkaan iso palkka.
- 
-
-
- Ei hänellä ole päässä hattu (vaan jotakin muuta).
-Ei hänellä ole päässä hattua (eikä välttämättä muutakaan).
- 
-
-
- Minun täytyi lähteä kotiin.
-Miesten pitää tehdä työ.
-Meidän ei tarvitse välittää hänestä.
-Jokaisen kannattaa yrittää.
-Junan oli määrä lähteä yhdeksältä.
-Kaikkien on hyvä tuntea kielioppia.
- 
-
-
- Hallissa pitää olla valvoja. 
-Vrt. Valvojan pitää olla hallissa.
-Päässä täytyy olla kypärä. 
-Vrt. Kypärän täytyy olla päässä.
-Tänne oli määrä tulla vieraita. 
-Vrt. Vieraiden oli määrä jo tulla.
- 
-
-
- Näkyy, että hän yrittää kaikkensa.
-Riittää, että ei sada.
-On hauskaa, että olemme taas yhdessä.
-Näyttää epävarmalta, onko tulos oikea.
-On yhdentekevää, mistä saan työpaikan.
- 
-
-
- Näyttää tulevan sade.
-Kuuluu olevan kova ukkonen.
-Ilmeni miehen syntyneen Venäjällä.
-Pian selvisi talossa harjoitetun ilkivaltaa.
- 
-
-
- On vastuutonta jättää lasta yksin.
-On yllättävää kuulla tuollaista.
-Onpas mukavaa olla taas kotona.
- 
-
 
  Bussi tulee. (finiittimuoto)
 Juna ehti lähteä. (verbiketju)
@@ -289,16 +167,21 @@ Mies oli myöhästyä. (kiteytynyt verbiliitto)
 
 
  Tyttö menee &#150; menisi &#150; meni lukioon.
+ Tyttö menee &#150; menisi &#150; meni lukioon.
+ Tyttö menee &#150; menisi &#150; meni lukioon.
  
 
 
  Tyttö on mennyt &#150; lienee mennyt &#150; oli mennyt lukioon.
+ Tyttö on mennyt &#150; lienee mennyt &#150; oli mennyt lukioon.
+ Tyttö on mennyt &#150; lienee mennyt &#150; oli mennyt lukioon.
  
 
 
- Tyttö ei mene &#150; ei mennyt lukioon.
-Tyttö ei ole mennyt &#150; ei olisi mennyt &#150; 
-ei ollut mennyt lukioon.
+ Tyttö ei mene lukioon.
+ Tyttö ei mennyt lukioon.
+Tyttö ei olisi mennyt  lukioon; 
+Tyttö ei ollut mennyt lukioon.
  
 
 
@@ -310,19 +193,27 @@ Kello näyttää olevan 12.
 
 
  Hävinnyt ei voinut &#150; osannut salata pettymystään.
+ Hävinnyt ei voinut &#150; osannut salata pettymystään.
+Jokaisen täytyy &#150; pitää osallistua kokeeseen.
 Jokaisen täytyy &#150; pitää osallistua kokeeseen.
 Meidän sallittiin esittää oma käsityksemme asioista.
  
 
 
  Matti muisti &#150; ehti tulla ajoissa. 
+ Matti muisti &#150; ehti tulla ajoissa. 
 ('Matti tuli ajoissa.')
+Matti ei muistanut &#150; ehtinyt tulla ajoissa. 
 Matti ei muistanut &#150; ehtinyt tulla ajoissa. 
 ('Matti ei tullut ajoissa.')
  
 
 
  Matti aikoi &#150; yritti &#150; ajatteli tulla ajoissa.
+ Matti aikoi &#150; yritti &#150; ajatteli tulla ajoissa.
+ Matti aikoi &#150; yritti &#150; ajatteli tulla ajoissa.
+Matti ei aikonut &#150; yrittänyt &#150; ajatellut tulla ajoissa.
+Matti ei aikonut &#150; yrittänyt &#150; ajatellut tulla ajoissa.
 Matti ei aikonut &#150; yrittänyt &#150; ajatellut tulla ajoissa.
  
 
@@ -394,7 +285,8 @@ Vrt. Isä ja äiti lähtevät mukaan.
 
 
  Laitoksen kolme professoria ovat naisia. 
-(Vrt. Kolme laitoksen professoria &#150; professoreista 
+
+Kolme laitoksen professoria &#150; professoreista 
 on naisia.)
 Seuraavat kolme päivää ovat ratkaisevia.
  
@@ -489,15 +381,11 @@ He halusivat minun puhuvan &#150; antoivat minun puhua.
  
 
 
- Mene sivuille:
- 3.4.1 Objektina esiintyvät rakenteet
- 3.4.2 Objektin sijat
 
-
- Ostaisin puvun. (substantiivi)
-Kokeile tuota. (pronomini)
-Haluaisin sinisen. (substantiivisesti käytetty adj.)
-Löysimme yhden. (numeraali)
+ Ostaisin puvun. 
+Kokeile tuota. 
+Haluaisin sinisen. 
+Löysimme yhden. 
  
 
 
@@ -532,30 +420,13 @@ Tyttö otti tavaksi voimistella aamuisin.
 
  Hallitus antoi asian raueta.
 Jeesus salli lasten tulla luoksensa.
-Poliisi käski kuljettajan nousta autosta.
- 
+Poliisi
 
-Partitiiviobjekti on
- yleisempi kuin &gt;akkusatiiviobjekti (<a
- href="../lahteita.htm#Hakulinen, A. &#150; Karlsson, F. 1979" target="_blank">Hakulinen
- &#150; Karlsson 1979*). 
-
-
-Kuva: Partitiivi- ja 
-akkusatiiviobjekti
-Objekti on partitiivissa seuraavissa
- tapauksissa (kuva: Hyperkielioppi
- 1997*):
- 1) Lause on sisällöltään kieltävä tai epäilevä, esim.
- 
- 
  En osta kirjaa. (Vrt. Ostan kirjan.)
  
- 2) Verbin ilmaisema tekeminen on kesken, esim.
  
  Pekka luki kirjaa. (Vrt. Pekka luki kirjan.)
  
- 3) Objekti ilmaisee summittaista määrää, esim.
  
  Liisa söi puuroa. (Vrt. Liisa söi puuron.)
  
@@ -639,13 +510,6 @@ Vuokraa &#151; vuokratkaa auto!
  Vuokrataan auto.
  
  
- (Puhekielessä passiivia käytetään yleisesti myös me-pronominin
- yhteydessä monikon 1. persoonan tilalla. Akkusatiiviobjekti on tällöinkin
- päätteetön, esim. Me vuokrataan auto.)
- 
- 
-
-
  
  Nyt (meidän) kannattaa vuokrata auto.
  
@@ -675,24 +539,8 @@ Kenet (vrt. Pekka) otetaan mukaan?
 Mies voitti miljoona markkaa.
  
 
-
- Juotuaan maidon lapsi nukahti. 
-(<a
-href="sivu383.htm#Lauseenvastikkeen objekti">&gt;temporaalinen lv.)
-Kiirehdin saadakseni työn valmiiksi. 
-(<a
-href="sivu384.htm#Lauseenvastikkeen objekti ja predikatiivi">&gt;finaalinen lv.)
-Toden sanoakseni en luota tietoon. 
-(<a
-href="sivu385.htm">&gt;kvantum-lv.)
-Tiedän hänen hoitaneen asian hyvin.
-(<a
-href="sivu3821.htm#Lauseenvastikkeen objekti">&gt;akt. referatiivinen lv.)
- 
-
-
- Presidentti kertoi hallituksen yrityksestä (subst.) 
-saada (attr.) kysymys (obj.) ratkaistuksi.
+ Presidentti kertoi hallituksen yrityksestä  
+saada  kysymys ratkaistuksi.
 Hän pysyi päätöksessään kutsua ministeri vieraakseen.
 Yritys harkitsi mahdollisuutta ottaa ulkomainen laina.
  
@@ -709,8 +557,8 @@ Hän vuokratkoon auton. Vrt. Vuokratkaa auto.
  
 
 
- Vuokrasitko (sinä) auton?
-Jos (kuka hyvänsä) vuokraa auton, 
+ Vuokrasitko sinä auton?
+Jos kuka hyvänsä vuokraa auton, 
 pääsee nopeammin perille.
  
 
@@ -726,9 +574,6 @@ Vuokraa &#151; vuokratkaa auto!
  Vuokrataan auto.
  
  
- (Puhekielessä passiivia käytetään yleisesti myös me-pronominin
- yhteydessä monikon 1. persoonan tilalla. Akkusatiiviobjekti on tällöinkin
- päätteetön, esim. Me vuokrataan auto.)
  
  
 
@@ -764,18 +609,7 @@ Mies voitti miljoona markkaa.
 
 
  Juotuaan maidon lapsi nukahti. 
-(<a
-href="sivu383.htm#Lauseenvastikkeen objekti">&gt;temporaalinen lv.)
-Kiirehdin saadakseni työn valmiiksi. 
-(<a
-href="sivu384.htm#Lauseenvastikkeen objekti ja predikatiivi">&gt;finaalinen lv.)
-Toden sanoakseni en luota tietoon. 
-(<a
-href="sivu385.htm">&gt;kvantum-lv.)
-Tiedän hänen hoitaneen asian hyvin.
-(<a
-href="sivu3821.htm#Lauseenvastikkeen objekti">&gt;akt. referatiivinen lv.)
- 
+
 
 
  Presidentti kertoi hallituksen yrityksestä (subst.) 
@@ -848,15 +682,6 @@ Täällä on kylmä.
  
 
 
- Pojan täytyy olla ahkera. (<a
-href="../selityks.htm#Nesessiiviset rakenteet" target="_blank">nesessiivinen* lv.)
-Pojan ollessa ahkera &#151; &#151;. (<a
-href="sivu383.htm#Lauseenvastikkeen predikatiivi">&gt;temporaalinen lv.)
-Isä toivoi pojan olevan ahkera. (<a
-href="sivu3821.htm#Lauseenvastikkeen predikatiivi">&gt;referatiivinen lv.)
-Isä käski pojan olla ahkera. (<a
-href="sivu388.htm#Lauseenvastikkeen predikatiivi">&gt;permissiivinen lv.)
- 
 
 
  Kirja on kallis.
@@ -951,16 +776,8 @@ Matkustamme Helsinkiin junalla.
  
 
 
- Puistossa leikkii lapsia. (<a
-href="sivu32.htm#Eksistentiaalilause">&lt;eksistentiaalilause)
-Minulla ei nyt ole rahaa. (<a
-href="sivu32.htm#Omistuslause">&lt;omistuslause)
-Pojasta tulee mies. (<a
-href="sivu32.htm#Tuloslause">&lt;tuloslause)
-Tytölle kävi hyvin. (<a
-href="sivu32.htm#Kokijalause">&lt;kokijalause)
+ Puistossa leikkii lapsia. 
  
-
 
  Meillä juodaan nykyään teetä.
 Ohitustiellä tapahtui aamulla paha kolari.
