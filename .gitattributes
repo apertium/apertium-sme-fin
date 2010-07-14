@@ -1516,6 +1516,7 @@ dev/uppercase-first.twol -text
 dev/xfst2apertium.hashtags.twol -text
 dev/xfst2apertium.relabel -text
 dev/xfst2apertium.useless.generation.twol -text
+/examples_from_fin_syntax.txt -text
 /fin-sme.prob -text
 /lexchoicebil.xsl -text
 /modes.xml -text
