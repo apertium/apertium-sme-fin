@@ -715,8 +715,11 @@ Not preserving @Subj tag somehow. Sentence 4 in corp/sampletext.txt
 
 # Notes from Lene on sample text
 
+### Input
 
 Tietosanakirja on kirjoitettu kattava kokoelma tietoa. Tietosanakirja voi olla yleinen ja sisältää tietoa useista eri aiheista, tai se voi keskittyä johonkin tiettyyn aiheeseen, kuten lääketieteeseen tai tekniikkaan. Pääosa osa tietosanakirjoista keskittyy tarjoamaan tietoa tietystä kansallisesta näkökulmasta. Tietosanakirja voi olla myös uskonnollinen hengeltään, mutta tällaisia tietosanakirjoja ei suomeksi ole.
+
+### Apertium produces... 
 
 Diehtosátnegirji lea čállán #gokčat čoakkáldat dieđu. Diehtosátnegirji sáhttá #leat dábálaš ja #sisttis+doallat dieđu #máŋga #eará fáttáin, vai dat sáhttá #čoahkkanit geasa oahpes fáddái, nugo dálkkasdiehtagii vai teknihkkii. #Váldo+oassi oassi diehtosátnegirjjiin čoahkkana fállat dieđu oahppásis nationála geahččanguovllus. Diehtosátnegirji sáhttá #leat maid #oskkolaš vuoiŋŋasteaset, muhte dákkár diehtosátnegirjjit ii Supmii leage.
 
@@ -725,23 +728,24 @@ Diehtosátnegirji lea čállán #gokčat čoakkáldat dieđu. Diehtosátnegirji 
 Diehtosátnegirji lea čallojuvvon viiddes diehtočoakkáldat. Diehtosátnegirji sáhttá leat dábálaš ja sisttisdoallat dieđu máŋga eará fáttás, vai dat sáhttá vuodjut geasa oahpes fáddái, nugo dálkkasdiehtagii vai teknihkkii. Váldooasi oasis diehtosátnegirjjiin vuodju fállat dieđu dihto nationála geahččanguovllus. Diehtosátnegirji sáhttá leat maid oskkolaš vuoiŋŋastiss, muhte dákkár diehtosátnegirjjit eai leat suomagillii.
 
 
-okoelma tietoa = diehtočoakkáldat
+### Lene's notes 
 
-gokči - teknihkalaččat riekta, muhto ii leat dábálaš nie dadjat sámegillii
++ okoelma tietoa = diehtočoakkáldat
 
-kuten lääketieteeseen tai tekniikkaan : sme: dahje
++ gokči - teknihkalaččat riekta, muhto ii leat dábálaš nie dadjat sámegillii -> viiddes
 
-vai - dušše go lea jearldat
++ kuten lääketieteeseen tai tekniikkaan : sme: dahje
+	vai - dušše go lea jearldat
 
-máŋga fáttás - go numerála lea Sg, de substantiiva lea Sg
++ máŋga fáttás - go numerála lea Sg, de substantiiva lea Sg
 
-máŋggat - hui ollu 
++ máŋggat - hui ollu 
 
-keskittyä - vuodjut heive dasa
++ keskittyä - vuodjut heive dasa
 
-Pääosa osa – váldooasi oasis
++ Pääosa osa – váldooasi oasis
 
-oahppásis - dihto
++ oahppásis - dihto
 
 vuoiŋŋasteaset - vuoiŋŋastis
 	namastis

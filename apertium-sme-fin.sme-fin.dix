@@ -745,6 +745,7 @@
 	<e><p><l>njoammu<s n="N"/><s n="Actor"/></l><r>matelija<s n="N"/></r></p></e>
 	<e><p><l>njuohcu<s n="N" /></l><r>raate<s n="N"/></r></p></e>
 	<e><p><l>njuolggadus<s n="N"/></l><r>sääntö<s n="N"/></r></p></e>
+	<e><p><l>dálki<s n="N"/></l><r>sää<s n="N"/></r></p></e>
 	<e><p><l>njuovvelávki<s n="N" /></l><r>ruoholaukka<s n="N"/></r></p></e>
 	<e><p><l>njálanjuovčča<s n="N" /></l><r>lääte<s n="N"/></r></p></e>
 	<e><p><l>njálggaháiruohtas<s n="N" /></l><r>ruusujuuri<s n="N"/></r></p></e>
@@ -3443,6 +3444,7 @@
     <e><p><l>mahtosaš<s n="A"/></l><r>kokoinen<s n="A"/></r></p><par n="A_A"/></e>
     <e><p><l>miellagiddevaš<s n="A"/></l><r>mielenkiintoinen<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>muoseheapme<s n="A"/></l><r>rauhaton<s n="A"/></r></p><par n="A_A"/></e> 
+	<e><p><l>máđoheapme<s n="A"/></l><r>mahdoton<s n="A"/></r></p><par n="A_A"/></e>
     <e><p><l>mánáheapme<s n="A"/></l><r>lapseton<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>mánálaš<s n="A"/></l><r>lapsellinen<s n="A"/></r></p><par n="A_A"/></e>
     <e><p><l>mávssolaš<s n="A"/></l><r>arvokas<s n="A"/></r></p><par n="A_A"/></e> 
