@@ -225,7 +225,7 @@
 	<e><p><l>čađa<s n="Po"/></l><r>läpi<s n="Po"/></r></p></e>
 	<e><p><l>čađa<s n="Po"/></l><r>lävitse<s n="Po"/></r></p></e>
 	<e><p><l>čađa<s n="Po"/></l><r>välityksellä<s n="Po"/></r></p></e>
-    <e><p><l>alde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>
+    <e r="LR"><p><l>alde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>
     <e><p><l>badjel<s n="Po"/></l><r>yli<s n="Po"/></r></p></e>
     <e><p><l>badjelii<s n="Po"/></l><r>ylle<s n="Po"/></r></p></e>
     <e><p><l>ektui<s n="Po"/></l><r>nähden<s n="Po"/></r></p></e>
@@ -2163,6 +2163,7 @@
     <e><p><l>pálbmalávvordat<s n="N"/></l><r>palmulauantai<s n="N"/></r></p></e>
     <e><p><l>pálbmasotnabeaivi<s n="N"/></l><r>palmusunnuntai<s n="N"/></r></p></e>
     <e><p><l>pánter<s n="N"/></l><r>eläintiede<s n="N"/></r></p></e>
+    <e><p><l>párka<s n="N"/></l><r>puisto<s n="N"/></r></p></e>
     <e><p><l>párra<s n="N"/></l><r>pari<s n="N"/></r></p></e>
     <e><p><l>rabbat<s n="N"/></l><r>rabbi<s n="N"/></r></p></e>
     <e><p><l>raddeleahppi<s n="N"/></l><r>rintaläppä<s n="N"/></r></p></e>
@@ -2556,6 +2557,7 @@
     <e><p><l>vielljabealle<s n="N"/></l><r>velipuoli<s n="N"/></r></p></e>
     <e><p><l>vielppis<s n="N"/></l><r>pentu<s n="N"/></r></p></e>
     <e><p><l>vierca<s n="N"/></l><r>pässi<s n="N"/></r></p></e>
+    <e><p><l>viessu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
     <e><p><l>viessobearráigeahčči<s n="N"/></l><r>talonmies<s n="N"/></r></p></e>
     <e><p><l>viessogálvu<s n="N"/></l><r>huonekalu<s n="N"/></r></p></e>
     <e><p><l>viessohoiddár<s n="N"/></l><r>talonmies<s n="N"/></r></p></e>
@@ -2849,6 +2851,8 @@
 --> 
 
     <!-- Proper nouns -->
+    <e><p><l>Haanpää<s n="N"/><s n="Prop"/><s n="Sur"/></l><r>Haanpää<s n="N"/><s n="Prop"/></r></p></e>    
+    <e><p><l>Virtanen<s n="N"/><s n="Prop"/><s n="Sur"/></l><r>Virtanen<s n="N"/><s n="Prop"/></r></p></e>    
     <e><p><l>Afrihká<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Afrika<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Albánia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Albania<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Amerihká<b/>ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Amerikan<b/>yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
