@@ -1,0 +1,8 @@
+<pre>
+{% for item in articles %}
+{{ item.translated_title }}
+
+{{ item.translated_text|safe }}
+---
+{% endfor %}
+</pre>

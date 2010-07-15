@@ -1,0 +1,113 @@
+/* @override http://localhost:8000/m/css/master.css */
+
+/* Browser Reset via Blueprint ------------------------------- */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	list-style-type:none;
+}
+
+#page {
+	margin: 0 2em;
+	font-family: sans-serif;
+}
+
+#header {
+	margin-bottom: 1em;
+}
+
+#header h1 {
+	font-size: 230%;
+}
+
+#content {
+	
+}
+
+#content h2 {
+	margin-bottom: 1.5em;
+}
+
+div.article {
+	position: relative;
+	margin-bottom: 3em;
+}
+
+div.article div {
+	margin: 0 4em;
+}
+
+.original {
+	display: none;
+}
+
+
+.article p {
+	margin: .5em;
+}
+
+#content h2 {
+	font-size: 140%;
+}
+
+#content h3 {
+	
+}
+
+#content .article h4 {
+	position: absolute;
+	right: 0px;
+	top: -1.75em;
+	font-size: 90%;
+}
+
+.article p {
+	line-height: 1.3em;
+	margin-bottom: .25em;
+}
+
+.unknownwd {
+	border-bottom: dashed 1px #900;
+}
+
+.unknownwd span {
+	color: #AAA;
+	display: none;
+}
+
+
+.interleave a {
+	color: #000;
+	text-decoration: none;
+}
+
+#feed_list {
+	margin: .5em 1.5em;
+}
+
+#feed_list dd {
+	margin-left: 2em;
+	font-style: italic;
+	font-size: 90%;
+}
+
+#feed_list dt {
+	font-size: 170%;
+}
+
+#feed_list dt a {
+	text-decoration: none;
+}
+
+#feed_list dd a {
+	color: #55F;
+}

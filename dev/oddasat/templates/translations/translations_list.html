@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+	{% if feed %}
+	<h2>{{ feed.name }}</h2>
+	{% endif %}
+	
+	{% for article in articles %}
+		{% include "translations/item.html" %}
+	{% endfor %}
+	
+{% endblock %}

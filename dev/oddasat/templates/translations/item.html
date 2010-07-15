@@ -1,0 +1,7 @@
+<div class="article">
+	<h2 class="translated"><a href="/articles/{{ article.id }}/">{{ article.translated_title }}</a></h2>
+	<h3 class="original">{{ article.article.title }}</h3>
+	<h4><a href="{{ article.article.link }}">Original article</a> in ... <a href="{{ article.article.url }}">{{ article.article.feed.name }}</a> ({{ article.article.pub_date|date:"Y.m.d h:m" }})</h4>
+	<div class="translated">{{ article.highlight_unknown|safe|linebreaks }}</div>
+	<div class="original">{{ article.original_text|linebreaks }}</div>
+</div>

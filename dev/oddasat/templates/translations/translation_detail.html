@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block header %}
+	<script src="/m/js/jquery-1.4.2.min.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/javascript">
+		function toggle_details (event) {
+			// lid = event.target.id.match(/lemma_(\d+)/)[1];
+			// 
+			// alert(lid);
+			// $('lemma_' + lid).toggle();
+			// $('analysis_' + lid).toggle();
+			$(event.target).parent().children('a.lemma').toggle();
+			$(event.target).parent().children('a.analysis').toggle();
+			
+			return false;
+		}
+			
+		$(document).ready(function() {			
+			$('a.w_item').click(toggle_details);
+			$('#trans_toggle').click(function (event) {
+				$('.original').toggle();
+				$('.translated').toggle();
+			})		
+			
+		});
+	
+	</script>
+	
+{% endblock %}
+
+{% block content %}
+	{% include "translations/item.html" %}
+	
+	<div id="main">
+	<a id="trans_toggle" href="#">Translation/Original</a>
+	</div>
+	{% comment %}
+		
+	<div id="details">
+		<h5><a href="/articles/{{ article.id }}/chunk/">Chunk</a>ed and interleaved</h5>
+		<div class="article">
+			<div class="chunked interleave">
+				{% for sentence in article.chunked_format_split %}
+					<p>{% for word in sentence %}
+						<span class="word"><a href="#omg" class="w_item lemma">{{ word.lemma|escape }}</a><a href="#" class="w_item analysis" style="display: none;" id="analysis_{{ forloop.counter }}">{{ word.chunk|escape }}</a></span>{% if not forloop.last%} {% endif %}{% endfor %}
+				{% endfor %}</p>
+			</div>
+			<a href="/articles/{{ article.id }}/re_save/">Resave</a>
+		</div>
+	</div>
+	{% endcomment %}
+	
+	<a href="/articles/{{ article.id }}/re_save/">Resave</a>
+	<div id="log">
+	</div>
+	
+	{% if chunked %}
+	<div class="article">
+		<div class="translated">{{ article.chunked_format|escape|linebreaks }}</div>
+	</div>
+	{% endif %}
+{% endblock %}

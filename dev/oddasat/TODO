@@ -1,0 +1,19 @@
+# Required packages
+
+python 2.6
+feedparser
+django 1.1.1
+
+# Todos
+
+ * RSS feeds from translated news
+
+ * Parser models for each feed type
+
+ * Get it running on victorio
+
+ * Move apertium paths and such into settings.py
+
+ * Try with another language pair?
+	-> Feed models will need to specify source and target language
+

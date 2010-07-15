@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h2>Neahttasiiddut / Nettisivut</h2>
+	<h3>... Main leat RSS ođđasat-feedit.</h3>
+	
+	<dl id="feed_list">
+	{% for feed in feeds %}
+		<dt><a href="/feeds/{{ feed.id }}/">{{ feed.name }}</a></dt>
+		<dd>Source: <a href="{{ feed.url }}">{{ feed.url }}</a></dd>
+	{% endfor %}
+	</dl>
+
+{% endblock %}

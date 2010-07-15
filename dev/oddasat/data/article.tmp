@@ -1,0 +1,1066 @@
+<!-- accessibility -->
+<ul class="skiplinks hide">
+	<li>
+		<a href="#maincontent">Hyppää sisältöön, ohita navigaatio ja haku.</a>
+	</li>
+	<li>
+		<a href="/uutiset/teksti/">Kokeile tekstiversiota</a>
+	</li>
+	<li>
+		<a href="#navigation">Hyppää navigaatioon.</a>
+	</li>
+	<li>
+		<a href="#search">Hyppää hakuun.</a>
+	</li>
+</ul><!-- // accessibility -->
+<!-- start #yleheader -->
+<div id="yleheader" class="light">
+	<div class="yleheaderwrapper">
+		<p>
+			<a href="http://yle.fi"><span class="hide">yle.fi</span></a>
+		</p>
+		<div id="yleheadermetalinks">
+			<ul>
+				<li class="metalink">
+					<a href="http://yle.fi">YLE.fi-etusivu</a>
+				</li>
+				<li class="metalink last">
+					<a href="http://ohjelmaopas.yle.fi/loyda_ao">Löydä A-Ö</a>
+				</li>
+			</ul>
+		</div><!-- end #yleheadermetalinks -->
+		<div id="yleheadersearch">
+			<!-- Google CSE code begins -->
+			<form class="ylefi-search" action="http://yle.fi/haku/" method="get" id="searchbox_007097612530377999607:glpulxqhhs4">
+				<fieldset>
+					<input type="hidden" name="hl" value="fi" /> <input type="hidden" name="cx" value="007097612530377999607:glpulxqhhs4" /> <input type="hidden" name="cof" value="FORID:9" /> <legend>Hae yle.fi:stä</legend> <label for="ylefi-search-input" accesskey="F">Etsi <input name="q" type="text" id="ylefi-search-input" /></label> <button type="submit">Löydä</button>
+				</fieldset>
+			</form><!-- Google CSE Code ends -->
+		</div><!-- end #yleheadersearch -->
+	</div><!-- end .yleheaderwrapper -->
+</div><!-- end #yleheader -->
+<hr class="hide" />
+<div id="site" class="uutiset">
+	<div class="page">
+		<div class="heading">
+			<!-- site name and introduction -->
+			<div class="yle-block">
+				<div class="introduction">
+					<h2>
+						<a href="http://yle.fi/uutiset/" title="YLE Uutisten etusivulle"><span class="hide">Uutiset</span> <!--[if lt IE 7]>
+		<span style="position: absolute; width:341px; height:42px; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader (src='/uutiset/template/normal/img/logot/logo.png?version=2.5.3');"></span>
+	  <![endif]-->
+						 <img class="filterOutOnIE6" src="/uutiset/template/normal/img/logot/logo.png?version=2.5.3" alt="Uutiset" width="341" height="42" /></a>
+					</h2>
+				</div>
+			</div>
+			<div class="hovers">
+				<div class="container">
+					<!-- font sizes -->
+					<div id="font-sizes">
+						Tekstikoko:&nbsp; <a id="normal" href="/uutiset/nc/setCookie.do?name=useFontSize&amp;path=%2F&amp;value=normal&amp;redirectUrl=%2Fuutiset%2Fkulttuuri%2F2010%2F07%2Frestauroitu_rion_kristus-patsas_paljastettiin_yleisolle_1798738.html" name="normal">A</a> <a id="bigger" href="/uutiset/nc/setCookie.do?name=useFontSize&amp;path=%2F&amp;value=bigger&amp;redirectUrl=%2Fuutiset%2Fkulttuuri%2F2010%2F07%2Frestauroitu_rion_kristus-patsas_paljastettiin_yleisolle_1798738.html" name="bigger">A</a> <a id="biggest" href="/uutiset/nc/setCookie.do?name=useFontSize&amp;path=%2F&amp;value=biggest&amp;redirectUrl=%2Fuutiset%2Fkulttuuri%2F2010%2F07%2Frestauroitu_rion_kristus-patsas_paljastettiin_yleisolle_1798738.html" name="biggest">A</a>
+					</div><!--  Text version link -->
+					<div id="to-text-version">
+						<a href="/uutiset/teksti/">Tekstiversio</a><span class="biggest">&nbsp;</span>
+					</div>
+				</div>
+				<div class="naviContainer">
+					<div id="uppernavi" class="uppernavi">
+						<ul>
+							<li class="uutiset-navi first active-uutiset-navi">
+								<div class="left">
+									<div class="right">
+										<a href="/uutiset" class="uutiset-navi active-uutiset-navi"><span class="active-uutiset-navi">Uutiset</span></a>
+									</div>
+								</div>
+							</li>
+							<li class="urheilu-navi">
+								<div class="left">
+									<div class="right">
+										<a href="/urheilu" class="urheilu-navi"><span class="">Urheilu</span></a>
+									</div>
+								</div>
+							</li>
+							<li class="saa-navi">
+								<div class="left">
+									<div class="right">
+										<a href="http://yle.fi/saa" class="saa-navi"><span class="">Sää</span></a>
+									</div>
+								</div>
+							</li>
+							<li class="alueet-navi last">
+								<div class="left">
+									<div class="right">
+										<a href="/alueet" class="alueet-navi"><span class="">Alueet</span></a>
+										<div class="subMenu">
+											<div class="lastVisitedSections">
+												<p>
+													Viimeksi valitsemasi alueet:
+												</p>
+												<ul>
+													<li>
+														<span class="lastVisitedSection">etela-karjala</span> <a href="/alueet/etela-karjala/">Etelä-Karjala</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">etela-savo</span> <a href="/alueet/etela-savo/">Etelä-Savo</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">yle-helsinki</span> <a href="/alueet/helsinki/">Helsinki ja Uusimaa</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">hame</span> <a href="/alueet/hame/">Häme</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">kainuu</span> <a href="/alueet/kainuu/">Kainuu</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">keski-pohjanmaa</span> <a href="/alueet/keski-pohjanmaa/">Keski-Pohjanmaa</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">keski-suomi</span> <a href="/alueet/keski-suomi/">Keski-Suomi</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">kymenlaakso</span> <a href="/alueet/kymenlaakso/">Kymenlaakso</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">lahti</span> <a href="/alueet/lahti/">Lahti</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">lappi</span> <a href="/alueet/lappi/">Lappi</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">oulu</span> <a href="/alueet/oulu/">Oulu</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">perameri</span> <a href="/alueet/perameri/">Perämeri</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">pohjanmaa</span> <a href="/alueet/pohjanmaa/">Pohjanmaa</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">pohjois-karjala</span> <a href="/alueet/pohjois-karjala/">Pohjois-Karjala</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">satakunta</span> <a href="/alueet/satakunta/">Satakunta</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">savo</span> <a href="/alueet/savo/">Savo</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">tampere</span> <a href="/alueet/tampere/">Tampere</a>
+													</li>
+													<li>
+														<span class="lastVisitedSection">turku</span> <a href="/alueet/turku/">Turku</a>
+													</li>
+												</ul>
+											</div>
+											<div>
+												<p>
+													Kaikki alueet:
+												</p>
+												<ul class="columnLeft">
+													<li>
+														<a href="/alueet/etela-karjala/" class="arrow">Etelä-Karjala</a>
+													</li>
+													<li>
+														<a href="/alueet/etela-savo/" class="arrow">Etelä-Savo</a>
+													</li>
+													<li>
+														<a href="/alueet/helsinki/" class="arrow">Helsinki ja Uusimaa</a>
+													</li>
+													<li>
+														<a href="/alueet/hame/" class="arrow">Häme</a>
+													</li>
+													<li>
+														<a href="/alueet/kainuu/" class="arrow">Kainuu</a>
+													</li>
+													<li>
+														<a href="/alueet/keski-pohjanmaa/" class="arrow">Keski-Pohjanmaa</a>
+													</li>
+													<li>
+														<a href="/alueet/keski-suomi/" class="arrow">Keski-Suomi</a>
+													</li>
+													<li>
+														<a href="/alueet/kymenlaakso/" class="arrow">Kymenlaakso</a>
+													</li>
+													<li>
+														<a href="/alueet/lahti/" class="arrow">Lahti</a>
+													</li>
+													<li>
+														<a href="/alueet/lappi/" class="arrow">Lappi</a>
+													</li>
+												</ul>
+												<ul class="columnRight">
+													<li>
+														<a href="/alueet/oulu/" class="arrow">Oulu</a>
+													</li>
+													<li>
+														<a href="/alueet/perameri/" class="arrow">Perämeri</a>
+													</li>
+													<li>
+														<a href="/alueet/pohjanmaa/" class="arrow">Pohjanmaa</a>
+													</li>
+													<li>
+														<a href="/alueet/pohjois-karjala/" class="arrow">Pohjois-Karjala</a>
+													</li>
+													<li>
+														<a href="/alueet/satakunta/" class="arrow">Satakunta</a>
+													</li>
+													<li>
+														<a href="/alueet/savo/" class="arrow">Savo</a>
+													</li>
+													<li>
+														<a href="/alueet/tampere/" class="arrow">Tampere</a>
+													</li>
+													<li>
+														<a href="/alueet/turku/" class="arrow">Turku</a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="content">
+			<div class="grid col3-grid1">
+				<div id="fragment1" class="content fragment1">
+					<div class="menu">
+						<div class="naviblock">
+							<p class="hide">
+								<strong>Uutisten päänavigaatio</strong>
+							</p>
+							<ul>
+								<li class="first">
+									<a href="/uutiset/" style="">Etusivu</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/tuoreimmat/" style="">Tuoreimmat</a>
+								</li>
+								<li class="last-menu">
+									<a href="/uutiset/luetuimmat/" style="">Luetuimmat</a>
+								</li>
+							</ul>
+						</div>
+						<div class="naviblock">
+							<p class="hide">
+								<strong>Erikoissivut</strong>
+							</p>
+							<ul>
+								<li class="first last-menu">
+									<a href="/uutiset/teemat/vaalit_2011/" style="">Vaalit 2011</a>
+								</li>
+							</ul>
+						</div>
+						<div class="naviblock">
+							<p class="hide">
+								<strong>Uutisten navigaatio</strong>
+							</p>
+							<ul>
+								<li class="first">
+									<a href="/uutiset/kotimaa/" style="">Kotimaa</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/alueelliset_uutiset/" style="">Alueet</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/ulkomaat/" style="">Ulkomaat</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/talous_ja_politiikka/" style="">Talous ja politiikka</a>
+								</li>
+								<li class="selected">
+									<a href="/uutiset/kulttuuri/" style="">Kulttuuri</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/viihde/" style="">Viihde</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/tiede_ja_tekniikka/" style="">Tiede ja tekniikka</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/luonto_ja_ymparisto/" style="">Luonto ja ympäristö</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/terveys_ja_hyvinvointi/" style="">Terveys ja hyvinvointi</a>
+								</li>
+								<li class="">
+									<a href="http://yle.fi/urheilu/" style="">Urheilu</a>
+								</li>
+								<li class="last-menu">
+									<a href="http://yle.fi/saa" style="">Sää</a>
+								</li>
+							</ul>
+						</div>
+						<div class="naviblock">
+							<p class="hide">
+								<strong>Mediasali ja ohjelmat</strong>
+							</p>
+							<ul>
+								<li class="first">
+									<a href="/uutiset/mediasali/" style="">Mediasali</a>
+								</li>
+								<li class="last-menu">
+									<a href="/uutiset/ohjelmat/" style="">Ohjelmat</a>
+								</li>
+							</ul>
+						</div>
+						<div class="naviblock">
+							<p class="hide">
+								<strong>Uutiset eri kielillä</strong>
+							</p>
+							<ul>
+								<li class="first">
+									<a href="/uutiset/viittomakieliset_uutiset/" style="">Viittomakieliset uutiset</a>
+								</li>
+								<li class="">
+									<a href="http://yle.fi/ulkomailla/index.php?id=1334" style="">Selkouutiset</a>
+								</li>
+								<li class="">
+									<a href="http://svenska.yle.fi/nyheter/" style="">Nyheter</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/news/" style="">News</a>
+								</li>
+								<li class="">
+									<a href="http://yle.fi/novosti" style="">Novosti</a>
+								</li>
+								<li class="">
+									<a href="http://yle.fi/sapmi" style="">YLE Sápmi</a>
+								</li>
+								<li class="last-menu">
+									<a href="http://www.yleradio1.fi/nuntii/" style="">Nuntii latini</a>
+								</li>
+							</ul>
+						</div>
+						<div class="naviblock">
+							<p class="hide">
+								<strong>Sivustoja</strong>
+							</p>
+							<ul>
+								<li class="first">
+									<a href="http://yle.fi/tekstitv" style="">YLE Teksti-TV</a>
+								</li>
+								<li class="last-menu">
+									<a href="http://yle.fi/aamutv" style="">YLEn Aamu-tv</a>
+								</li>
+							</ul>
+						</div>
+						<div class="naviblock">
+							<p class="hide">
+								<strong>Ota mukaasi</strong>
+							</p>
+							<ul>
+								<li class="first">
+									<a href="/uutiset/kotimaa/2008/05/rss-syotteet_248.html" style="">RSS-syötteet</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/yleista/2008/11/uutiset_puhelimeesi_372093.html" style="">Uutiset puhelimeesi</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/yleista/2008/11/ota_uutisotsikot_sivuillesi_373394.html" style="">Ota uutisotsikot sivuillesi</a>
+								</li>
+								<li class="last-menu">
+									<a href="/uutiset/yleista/2009/09/tilaa_podcasteja_993545.html" style="">Podcastit</a>
+								</li>
+							</ul>
+						</div>
+						<div>
+							<p class="hide"></p>
+							<ul>
+								<li class="first last-menu">
+									<div id="news-search">
+										<h3>
+											Haku
+										</h3>
+										<form action="/uutiset/haku/hae.do" id="quick-search" accept-charset="UTF-8">
+											<div>
+												<input type="hidden" name="pageLength" value="20" /> <input type="hidden" name="optimized" value="true" /> <input type="hidden" name="sortString" value="by_date_desc" /> <input type="hidden" name="publicationId" value="3" /> <input type="hidden" name="includeSubSections" value="true" /> <input type="hidden" name="searchSectionId" value="45" /> <input type="hidden" name="articleType" value="NEWSARTICLE" /> <input type="hidden" name="articleType" value="CURRENTSTORY" /> <input type="hidden" name="articleType" value="THEMELIFTUPARTICLE" /> <input type="hidden" name="articleType" value="PROGRAMMECARD" /> <input type="hidden" name="articleType" value="SPEAKER" /> <input type="hidden" name="articleType" value="IFRAMECONTENT" /> <input type="hidden" name="pageNumber" value="1" /> <input type="hidden" name="searchtype" value="basic" /> <input type="hidden" name="timerange" value="all" /> <input type="hidden" name="dateFormat" value="dd.MM.yyyy" /> <input type="hidden" name="includeSectionId" value="7" /> <input type="hidden" name="includeSectionId" value="1145" /> <input type="hidden" name="includeSectionId" value="1904" /> <label for="eceExpr" class="hide">Hae hakusanalla</label> <input id="eceExpr" type="text" name="atLeastOne" value="" /> <button class="rounded" type="submit">
+												<div class="rounded-border">
+													&nbsp;
+												</div>
+												<div class="rounded-container">
+													Hae
+												</div>
+												<div class="rounded-border">
+													&nbsp;
+												</div></button>
+											</div>
+										</form>
+										<div class="searchErrorMessage"></div><a class="news-search-advanced-link" href="/uutiset/haku/?searchtype=advanced">Tarkempi haku ja ohjeet</a>
+										<p class="recent-searches">
+											Ajankohtaiset haut: <a class="current" href="/uutiset/haku/hae.do?searchSectionId=45&amp;articleType=NEWSARTICLE&amp;articleType=CURRENTSTORY&amp;articleType=THEMELIFTUPARTICLE&amp;articleType=PROGRAMMECARD&amp;articleType=SPEAKER&amp;articleType=IFRAMECONTENT&amp;publicationId=3&amp;includeSubSections=true&amp;pageLength=20&amp;pageNumber=1&amp;timerange=all&amp;searchtype=basic&amp;dateFormat=dd.MM.yyyy&amp;wireframe=normal&amp;sortString=by_date_desc&amp;eceExpr=sukellusvene&amp;atLeastOne=sukellusvene&amp;optimized=true&amp;includeSectionId=7&amp;includeSectionId=1145&amp;includeSectionId=1904">sukellusvene</a>, <a class="current" href="/uutiset/haku/hae.do?searchSectionId=45&amp;articleType=NEWSARTICLE&amp;articleType=CURRENTSTORY&amp;articleType=THEMELIFTUPARTICLE&amp;articleType=PROGRAMMECARD&amp;articleType=SPEAKER&amp;articleType=IFRAMECONTENT&amp;publicationId=3&amp;includeSubSections=true&amp;pageLength=20&amp;pageNumber=1&amp;timerange=all&amp;searchtype=basic&amp;dateFormat=dd.MM.yyyy&amp;wireframe=normal&amp;sortString=by_date_desc&amp;eceExpr=Puola&amp;atLeastOne=Puola&amp;optimized=true&amp;includeSectionId=7&amp;includeSectionId=1145&amp;includeSectionId=1904">Puola</a>, <a class="current" href="/uutiset/haku/hae.do?searchSectionId=45&amp;articleType=NEWSARTICLE&amp;articleType=CURRENTSTORY&amp;articleType=THEMELIFTUPARTICLE&amp;articleType=PROGRAMMECARD&amp;articleType=SPEAKER&amp;articleType=IFRAMECONTENT&amp;publicationId=3&amp;includeSubSections=true&amp;pageLength=20&amp;pageNumber=1&amp;timerange=all&amp;searchtype=basic&amp;dateFormat=dd.MM.yyyy&amp;wireframe=normal&amp;sortString=by_date_desc&amp;eceExpr=Pride&amp;atLeastOne=Pride&amp;optimized=true&amp;includeSectionId=7&amp;includeSectionId=1145&amp;includeSectionId=1904">Pride</a>, <a class="current" href="/uutiset/haku/hae.do?searchSectionId=45&amp;articleType=NEWSARTICLE&amp;articleType=CURRENTSTORY&amp;articleType=THEMELIFTUPARTICLE&amp;articleType=PROGRAMMECARD&amp;articleType=SPEAKER&amp;articleType=IFRAMECONTENT&amp;publicationId=3&amp;includeSubSections=true&amp;pageLength=20&amp;pageNumber=1&amp;timerange=all&amp;searchtype=basic&amp;dateFormat=dd.MM.yyyy&amp;wireframe=normal&amp;sortString=by_date_desc&amp;eceExpr=auto&amp;atLeastOne=auto&amp;optimized=true&amp;includeSectionId=7&amp;includeSectionId=1145&amp;includeSectionId=1904">auto</a>
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="navigation-contact">
+							<p class="hide">
+								<strong>Ota yhteyttä</strong>
+							</p>
+							<ul>
+								<li class="first">
+									<img src="/uutiset/template/normal/img/yle-uutiset.png" alt="/uutiset/template/normal/img/yle-uutiset.png" /> <a href="/uutiset/yleista/2008/09/yhteydet_uutiskeskus_167319.html" style="">Toimitus</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/yleista/2008/04/laheta_juttuvinkki_55.html" style="">Lähetä juttuvinkki</a>
+								</li>
+								<li class="">
+									<a href="/uutiset/yleista/2008/09/laheta_palautetta_158014.html" style="">Lähetä palautetta</a>
+								</li>
+								<li class="last-menu">
+									<a href="/uutiset/yleista/2008/11/80_vuotta_luotettavaa_uutisvalitysta_368456.html" style="">YLE Uutisten historiaa</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div><!-- End of frament1 div -->
+				<div id="fragment2" class="content layout-000_defaultsection">
+					<strong class="hide">Olet tässä</strong>
+					<div class="breadcrumb-container">
+						<div class="breadcrumb clearfix">
+							<div class="section">
+								<h2>
+									<span class="hide">Osasto:</span> Kulttuuri
+								</h2>
+							</div><!-- breadcrumb -->
+							<div>
+								<p class="path">
+									<a href="http://yle.fi/uutiset/">Etusivu</a> &gt; <a href="/uutiset/kulttuuri/">Kulttuuri &gt;</a> <em>Artikkeli</em>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div style="clear:both"></div>
+					<div class="maincontent-area">
+						<div id="maincontent">
+							<div id="article">
+								<h1>
+									Restauroitu Rion Kristus-patsas paljastettiin yleisölle
+								</h1><!-- Start of 'Timestamp' -->
+								<div>
+									<span class="timestamp"><span class="timestamp-prefix">julkaistu&nbsp;</span>to klo 02:39, <span class="timestamp-prefix">päivitetty&nbsp;</span>to klo 10:05</span>
+								</div><!-- End of 'Timestamp' -->
+								<div class="articleImage imageVersionBWidth">
+									<span class="imageVersionB image"><img src="http://yle.fi/ecepic/archive/00325/rio_de_janeiro_bras_325673b.jpg" alt="Ihmisiä Kristus-patsaan juurella" style="width: 480px; height: 270px;" /></span> <!-- 
+	<div class="image-info">
+		<p class="caption">
+		  </p>
+		<p class="caption">
+		  Kuva: Reuters-TV</p>
+	  </div>
+	  </div>
+	 -->
+									<div class="image-info">
+										<p class="caption"></p>
+										<p class="caption">
+											Kuva: Reuters-TV
+										</p>
+									</div>
+								</div>
+								<div class="ingress-right"></div>
+								<div class="ingress">
+									<p>
+										Brasiliassa Rio de Janeiron kaupungin tunnettu maamerkki, Kristus vapahtaja <span style="white-space: nowrap;">-patsas</span>, on paljastettu uudelleen yleisölle mittavan korjausurakan jälkeen.
+									</p>
+								</div>
+								<div class="body">
+									<p>
+										Patsaan restaurointi maksoi noin 3,5 miljoonaa euroa ja sen kustansivat brasilialainen kaivosyhtiö Vale sekä Rion roomalaiskatolinen arkkihiippakunta.
+									</p>
+									<p>
+										Lähes 80 vuotta vanhassa patsaassa oli muun muassa halkeamia ja vesivaurioita.
+									</p>
+									<p>
+										38 metriä korkea Kristus-patsas sijaitsee Rio de Janeiron yllä Corcovado-vuoren huipulla ja siitä on tullut sekä Rion että Brasilian symboli. Patsasta käy ihailemassa noin kaksi miljoonaa ihmistä vuosittain.
+									</p>
+									<div class="articlesource">
+										<p>
+											AFP
+										</p>
+									</div>
+								</div><!-- End of (article) body div -->
+								<div id="sociallinks">
+									<ul>
+										<li class="send-to-friend">
+											<a name="sendtofriend" href="/uutiset/kulttuuri/2010/07/restauroitu_rion_kristus-patsas_paljastettiin_yleisolle_1798738.html?sendtofriend=true#sendtofriend" id="sendtofriend">Lähetä linkki</a>
+										</li>
+										<li class="share">
+											<a href="http://www.addthis.com/bookmark.php?v=250" class="addthis_button" addthis:url="http://yle.fi/uutiset/kulttuuri/2010/07/restauroitu_rion_kristus-patsas_paljastettiin_yleisolle_1798738.html" addthis:title="Restauroitu Rion Kristus-patsas paljastettiin yleisölle"><span class="linktext">Jaa kirjanmerkki:</span></a>
+										</li>
+										<li class="print">
+											<a href="/uutiset/kulttuuri/2010/07/restauroitu_rion_kristus-patsas_paljastettiin_yleisolle_1798738.html?print=true" class="">Tulosta artikkeli</a>
+										</li>
+									</ul>
+								</div>
+								<div class="popup-container" id="popup-container">
+									<span class="send-to-friend-href" style="display: none;">/uutiset/template/normal/ajax/nc/send-to-friend.jsp?defaultArticleId=1798738&amp;articleId=1798738</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="newsbox">
+						<h2 class="hide">
+							Jatka tästä
+						</h2>
+						<div id="newsboxselector" class="hide">
+							<form id="newsbox-form" action="#">
+								<div>
+									<input type="hidden" id="current-section" value="14" /> <input type="radio" class="radio" id="section-selector-0" name="section" value="14" checked="checked" /> <label for="section-selector-0">Kulttuuri</label> <input type="radio" class="radio" id="section-selector-1" name="section" value="-1" /> <label for="section-selector-1">Kaikki</label>
+								</div>
+							</form>
+						</div>
+						<div id="news-tabs">
+							<span class="hide" id="topline-ajax-news">Uutiset</span> <span class="hide" id="topline-ajax-comments">Näistä keskustellaan</span> <span class="hide" id="topline-ajax-videos">Videot</span> <span class="hide" id="topline-ajax-audios">Audiot</span> <span class="hide" id="topline-ajax-media">Videot ja audiot</span>
+							<ul id="newsboxtabs">
+								<li class="ui-tabs-selected">
+									<a href="/uutiset/template/normal/ajax/tabs/tab-news.jsp?browserSectionId=&amp;browserArticleId=1798738&amp;section=14" title="Tuoreimmat ja luetuimmat uutiset"><span class="margin-floater"><span class="topline" id="topline-news">Tuoreimmat ja luetuimmat uutiset</span></span></a>
+								</li>
+								<li>
+									<a href="/uutiset/template/normal/ajax/tabs/tab-comments.jsp?browserSectionId=&amp;browserArticleId=1798738&amp;section=14" title="Kommentoidut uutiset"><span class="margin-floater"><span class="topline" id="topline-comments">Kommentoidut uutiset</span></span></a>
+								</li>
+								<li>
+									<a href="/uutiset/template/normal/ajax/tabs/tab-media.jsp?browserSectionId=&amp;browserArticleId=1798738&amp;section=14" title="Tuoreimmat ja suosituimmat videot ja audiot"><span class="margin-floater"><span class="topline" id="topline-media">Tuoreimmat ja suosituimmat videot ja audiot</span></span></a>
+								</li>
+							</ul>
+						</div><!--  End of news-tabs div -->
+					</div><!-- end of newsbox div -->
+					<div id="theme-selectors" style="display:none;">
+						<div id="areaNews" class="theme-selector">
+							<div class="open-close">
+								<a href="/uutiset/template/normal/ajax/area-news/theme-news.jsp"></a>
+							</div>
+							<div class="hide">
+								<label for="theme-area">Valitse alue:</label>
+							</div>
+							<div class="selector-select">
+								<select name="section" id="theme-area">
+									<option value="1150">
+										Etelä-Karjala
+									</option>
+									<option value="1151">
+										Etelä-Savo
+									</option>
+									<option value="1153">
+										Helsinki
+									</option>
+									<option value="1152">
+										Häme
+									</option>
+									<option value="1154">
+										Kainuu
+									</option>
+									<option value="1155">
+										Keski-Pohjanmaa
+									</option>
+									<option value="1156">
+										Keski-Suomi
+									</option>
+									<option value="1157">
+										Kymenlaakso
+									</option>
+									<option value="1165">
+										Lahti
+									</option>
+									<option value="1158">
+										Lappi
+									</option>
+									<option value="1163">
+										Oulu
+									</option>
+									<option value="1159">
+										Perämeri
+									</option>
+									<option value="1161">
+										Pohjanmaa
+									</option>
+									<option value="1162">
+										Pohjois-Karjala
+									</option>
+									<option value="1166">
+										Satakunta
+									</option>
+									<option value="1164">
+										Savo
+									</option>
+									<option value="1160">
+										Tampere
+									</option>
+									<option value="1167">
+										Turku
+									</option>
+								</select>
+							</div>
+							<div class="selector-label">
+								<a href="/uutiset/alueelliset_uutiset/">Alueelliset uutiset</a>
+							</div>
+						</div>
+						<div id="newsContent" class="themeContent" style="display: none"></div><span id="sport-news-size" style="display: none;">4</span>
+						<div id="sports" class="theme-selector">
+							<div class="open-close">
+								<a href="/uutiset/template/normal/ajax/sport-news/sport-news.jsp"></a>
+							</div>
+							<div class="hide">
+								<label for="sport-to-view">Valitse urheilulaji:</label>
+							</div>
+							<div class="selector-select">
+								<select id="sport-to-view">
+									<option value="/urheilu/rss/paauutiset.rss">
+										Urheilun pääuutiset
+									</option>
+									<option value="/urheilu/rss/urheilun_tuoreimmat.rss">
+										Urheilun tuoreimmat
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=jaakiekko">
+										Jääkiekko
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=jalkapallo">
+										Jalkapallo
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=moottoriurheilu">
+										Moottoriurheilu
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=hiihtolajit">
+										Hiihtolajit
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=alppilajit">
+										Alppilajit
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=yleisurheilu">
+										Yleisurheilu
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=lentopallo">
+										Lentopallo
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=koripallo">
+										Koripallo
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=salibandy">
+										Salibandy
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=pesapallo">
+										Pesäpallo
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=tennis">
+										Tennis
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=golf">
+										Golf
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=muu_palloilu">
+										Muu palloilu
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=uinti">
+										Uinti
+									</option>
+									<option value="/urheilu/rss/uutiset.rss?osasto=muut">
+										Muut
+									</option>
+								</select>
+							</div>
+							<div class="selector-label">
+								<a href="http://yle.fi/urheilu/">Urheilu</a>
+							</div>
+						</div>
+						<div id="sportsContent" class="themeContent" style="display: none"></div>
+					</div>
+				</div><!-- End of frament2 div -->
+				<div id="fragment3" class="content fragment3">
+					<div class="component">
+						<div class="replaceWithAjax">
+							<a class="replaceWithAjaxLink" href="/uutiset/template/normal/ajax/liftups/liftups.jsp?browserArticleId=1798738&amp;defaultArticleId=1798738" style="display: none;"></a>
+						</div><noscript><iframe height="2000" frameborder="0" width="100%" src="/uutiset/template/normal/ajax/liftups/liftups.jsp?iframe=iframe&amp;browserArticleId=1798738&amp;defaultArticleId=1798738"></iframe></noscript>
+					</div>
+				</div><!-- End of fragment3 div -->
+				<div style="clear: both;">
+					<div class="component">
+						<div class="replaceWithAjax">
+							<a class="replaceWithAjaxLink" href="/uutiset/template/normal/ajax/tab-latest-by-category.jsp?browserArticleId=1798738&amp;defaultArticleId=1798738" style="display: none;">Tuoreimmat uutiset kategorioittain</a>
+						</div><noscript><iframe height="450" frameborder="0" width="100%" src="/uutiset/template/normal/ajax/tab-latest-by-category.jsp?iframe=iframe&amp;browserArticleId=1798738&amp;defaultArticleId=1798738"></iframe></noscript>
+					</div>
+				</div>
+			</div><!-- End of grid  col3-drid1 div -->
+		</div><!-- End of content div -->
+		<div class="local-footer">
+			<ul>
+				<li>
+					<a href="/uutiset/" style="">YLE Uutiset</a>
+				</li>
+				<li>
+					<span class="spacer">&nbsp;|&nbsp;</span> <a href="/uutiset/yleista/2008/09/yhteydet_uutiskeskus_167319.html" style="">Yhteystiedot</a>
+				</li>
+				<li>
+					<span class="spacer">&nbsp;|&nbsp;</span> <a href="/uutiset/yleista/2008/09/yle_uutiset_-_jotta_suomalaiset_tietaisivat_167318.html" style="">Mikä YLE Uutiset?</a>
+				</li>
+				<li>
+					<span class="spacer">&nbsp;|&nbsp;</span> <a href="/uutiset/yleista/2008/09/laheta_palautetta_158014.html" style="">Lähetä palautetta</a>
+				</li>
+			</ul>
+		</div>
+	</div><!--  End of page div -->
+</div><!--  End of site div --><!-- start #ylefooter -->
+<div id="ylefooter">
+	<div class="ylefooterwrapper">
+		<div class="ylefooterlinks hfclearfix">
+			<div class="ylefootercolumn first">
+				<address>
+					<span class="uppercase">Yleisradio Oy</span><br />
+					Radiokatu 5<br />
+					00024 Yleisradio<br />
+					puh. (09) 14801
+				</address>
+			</div><!-- end .ylefootercolumn -->
+			<div class="ylefootercolumn">
+				<h6>
+					Uutiset
+				</h6>
+				<ul>
+					<li>
+						<a href="http://yle.fi/uutiset/">Uutisten etusivu</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/uutiset/tuoreimmat/">Tuoreimmat</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/uutiset/luetuimmat/">Luetuimmat</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/alueet/">Alueet</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/saa/">Sää</a>
+					</li>
+				</ul>
+				<h6>
+					Urheilu
+				</h6>
+				<ul>
+					<li>
+						<a href="http://yle.fi/urheilu/">Urheilun etusivu</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/urheilu/tuoreimmat/">Tuorein urheilu</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/urheilu/tulospalvelu/">Tulospalvelu</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/urheilu/lajit/">Lajit</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/urheilu/suorat_lahetykset_netissa/">Suorana netissä</a>
+					</li>
+				</ul>
+			</div>
+			<div class="ylefootercolumn">
+				<h6>
+					Radio
+				</h6>
+				<ul>
+					<li>
+						<a href="http://ohjelmaopas.yle.fi/mediaoppaat/radio-opas">Radion ohjelmatiedot</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="http://yleradio1.fi/">YLE Radio 1</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/radiosuomi/">YLE Radio Suomi</a>
+					</li>
+					<li>
+						<a href="http://ylex.fi/">YleX</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/puhe/">YLE Puhe</a>
+					</li>
+					<li>
+						<a href="http://lotta.yle.fi/rswebvsa.nsf/sivut/maakuntaradiot">Maakuntaradiot</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/klassinen">Ylen Klassinen</a>
+					</li>
+					<li>
+						<a href="http://svenska.yle.fi/vega/">YLE Radio Vega</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/extrem/">YLE Radio Extrem</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/ulkomailla/index.php?id=1342">YLE Mondo</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/sapmi/">YLE Sámi radio</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/novosti">YLE Novosti po-russki</a>
+					</li>
+				</ul>
+			</div>
+			<div class="ylefootercolumn">
+				<h6>
+					TV
+				</h6>
+				<ul>
+					<li>
+						<a href="http://yle.fi/ohjelmaopas/">TV-ohjelmatiedot</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/tv1/">YLE TV1</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/tv2/">YLE TV2</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/teema/">Teema</a>
+					</li>
+					<li>
+						<a href="http://svenska.yle.fi/fst5/">FST5</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/tvfinland/">TV Finland</a>
+					</li>
+				</ul>
+				<h6>
+					Areena
+				</h6>
+				<ul>
+					<li>
+						<a href="http://areena.yle.fi/">Areenan etusivu</a>
+					</li>
+					<li>
+						<a href="http://areena.yle.fi/live">Suorat lähetykset</a>
+					</li>
+					<li>
+						<a href="http://areena.yle.fi/lista/114/uusimmat">Urheilu</a>
+					</li>
+					<li>
+						<a href="http://areena.yle.fi/lista/108/uusimmat">Ajankohtaisohjelmat</a>
+					</li>
+					<li>
+						<a href="http://areena.yle.fi/lista/102/uusimmat">Asiaohjelmat</a>
+					</li>
+					<li>
+						<a href="http://areena.yle.fi/lista/113/uusimmat">Oppiminen ja tiede</a>
+					</li>
+					<li>
+						<a href="http://areena.yle.fi/lista/110/uusimmat">Kulttuuri</a>
+					</li>
+					<li>
+						<a href="http://areena.yle.fi/lista/116/uusimmat">Viihde</a>
+					</li>
+					<li>
+						<a href="http://areena.yle.fi/lista/112/uusimmat">Musiikki</a>
+					</li>
+					<li>
+						<a href="http://areena.yle.fi/lista/109/uusimmat">Draama</a>
+					</li>
+					<li>
+						<a href="http://areena.yle.fi/lista/111/uusimmat">Lapset</a>
+					</li>
+				</ul>
+			</div>
+			<div class="ylefootercolumn">
+				<h6>
+					Elävä arkisto
+				</h6>
+				<ul>
+					<li>
+						<a href="http://yle.fi/elavaarkisto/?s=rss">Uusimmat</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/elavaarkisto/?s=l&amp;l=s">Suosituimmat</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/elavaarkisto/?s=l&amp;l=a">Aiheiden mukaan</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/elavaarkisto/?s=l&amp;l=h">Henkilöiden mukaan</a>
+					</li>
+				</ul>
+				<h6>
+					Blogit
+				</h6>
+				<ul>
+					<li>
+						<a href="http://blogit.yle.fi">Blogien etusivu</a>
+					</li>
+				</ul>
+				<h6>
+					Keskustelut
+				</h6>
+				<ul>
+					<li>
+						<a href="http://ohjelmaopas.yle.fi/artikkelit/nettiopas/nettiopas-alasivu/keskustelut">Keskustelut</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/keskustelut/">yle.fi keskustelut</a>
+					</li>
+				</ul>
+				<h6>
+					Podcastit
+				</h6>
+				<ul>
+					<li>
+						<a href="http://areena.yle.fi/podcast/uusimmat">Podcastien etusivu</a>
+					</li>
+					<li>
+						<a href="http://ohjelmaopas.yle.fi/loyda_ao/ohjeet">Mitä ihmeen podcasteja?</a>
+					</li>
+				</ul>
+			</div>
+			<div class="ylefootercolumn">
+				<h6>
+					Aiheet
+				</h6>
+				<ul>
+					<li>
+						<a href="http://yle.fi/olotila/">Olotila</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/kulttuurikunto/">Kulttuurikunto</a>
+					</li>
+					<li>
+						<a href="http://kohtaus.yle.fi/">Kohtaus</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/pelit/">Aivonarikka</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/atuubi/">A-tuubi</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/tiede/">Tiede</a>
+					</li>
+					<li>
+						<a href="http://blogit.yle.fi/">Blogit</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/oppiminen/">Oppiminen</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/satumaa/">Satumaa</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/tehosto/">Tehosto</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="http://avoinyle.fi/www/fi/">Yle yhtiönä</a>
+					</li>
+					<li>
+						<a href="http://avoinyle.fi/www/fi/yhteydet/index.php">Yhteydet Yleen</a>
+					</li>
+					<li>
+						<a href="http://svenska.yle.fi">svenska.yle.fi</a>
+					</li>
+					<li>
+						<a href="http://ohjelmaopas.yle.fi/artikkelit/nettiopas/yle-international">YLE international</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/yleshop/">YLE Shop</a>
+					</li>
+					<li>
+						<a href="http://ohjelmat.yle.fi/arkistomyynti/">Arkistomyynti</a>
+					</li>
+					<li>
+						<a href="http://www.tv-maksu.fi/">TV-maksut</a>
+					</li>
+					<li>
+						<a href="http://yle.fi/palaute/palaute.php">Lähetä palautetta</a>
+					</li>
+					<li>
+						<a href="http://ohjelmaopas.yle.fi/loyda_ao">Löydä A-Ö</a>
+					</li>
+				</ul>
+			</div>
+		</div><!-- end .ylefooterlinks -->
+		<div class="ylefooterinfo"></div><!-- end .ylefooterinfo -->
+	</div><!-- end . -->
+</div><!-- end #ylefooter -->
+<script type='text/javascript' src='http://static.yle.fi/global/js/swfobject.js'>
+</script><script type='text/javascript' src='http://static.yle.fi/global/api/document/?service=jquery&amp;jquery_modules=core,jfeed,form,jcarousel,dates,cookie'>
+</script><script type="text/javascript" src="http://static.yle.fi/global/js/yle_pack.js">
+</script><script type="text/javascript" src="http://static.yle.fi/global/api/load.php?version=4&amp;modules=js/headerfooter">
+</script><script type="text/javascript" src="http://areena.yle.fi/player/js/areenaplayer.js">
+</script><!-- Localized texts for js-->
+<script type="text/javascript">
+//<![CDATA[
+	function htmlEntityDecode(str) {
+		var ta = document.createElement("textarea");
+		ta.innerHTML=str.replace(/<\/g,"&lt;").replace(/>/g,"&gt;");
+		return ta.value;
+	}
+
+	var errorInServiceMsg  = htmlEntityDecode('Vikaa palvelussa, ota yhteyttä ylläpitoon.');
+	var tooShortName       = htmlEntityDecode('Lähettäjän nimi on liian lyhyt (alle 3 merkkiä)');
+	var tooLongName        = htmlEntityDecode('Lähettäjän nimi on liian pitkä (yli 100 merkkiä)');
+	var tooShortSearchTerm = htmlEntityDecode('Annetun hakutermin tulee olla vähintään 2 kirjainta pitkä.');
+	var pollInactive       = htmlEntityDecode('Kyselyyn ei voi juuri nyt vastata');
+	var tr_image           = htmlEntityDecode('Kuva');
+//]]>
+</script><!-- local javascripts -->
+<script type="text/javascript" src="/uutiset/template/normal/js/ylefi_uutiset_local_js.js?version=2.5.3">
+</script><!--  Remove background flicker in IE < 7 -->
+<script type="text/javascript">
+//<![CDATA[
+		try {
+		  document.execCommand('BackgroundImageCache', false, true);
+		} catch(e) {}
+//]]>
+</script><!-- Weather -->
+<script src="http://yle.fi/saa/js/kaupunkisaa-script.js" type="text/javascript" charset="utf-8">
+</script><script src="http://yle.fi/saa/kaupunkisaa_utf8.js" type="text/javascript" charset="utf-8">
+</script> 
+<p>
+	<span id="styles-to-be-loaded-for-firefox2" class="hidden">/uutiset/template/normal/css/firefox2.css?version=2.5.3</span> <span id="google-maps-url" class="hidden"></span> <span id="browserSectionId" style="display: none;"></span> <span id="browserArticleId" style="display: none;">1798738</span><!-- Escenic Analysis Engine client script start  -->
+</p><script type="text/javascript">
+//<![CDATA[
+var jsRt     = '1';
+var jsObjId  = '1798738';
+var jsType   = encodeURIComponent('article');
+var jsCtxId  = '14';
+var jsPubId  = '3';
+var jsCat    = encodeURIComponent('');
+var jsMeta   = encodeURIComponent('');
+var jsTitle  = encodeURIComponent('Restauroitu Rion Kristus-patsas paljastettiin yleisölle');
+var jsUrl    = encodeURIComponent('/uutiset/kulttuuri/article1798738.ece');
+
+var ref=encodeURIComponent(document.referrer);
+if (ref.length>=252) ref=ref.substring(0,252)+"...";
+  var isJS10 = 1;
+//]]>
+</script>
+<div style="display: none;">
+	<script type="text/javascript">
+//<![CDATA[
+	var isJS10=0;
+	document.write('<div><img src="http://194.252.88.111/eae-logger/Logger?clientDT=' + (new Date()).getTime() + '&rt=' + jsRt+ '&objId=' + jsObjId  + '&type=' + jsType + '&ctxId=' + jsCtxId + '&pubId=' + jsPubId + '&cat=' + jsCat +  
+	'&meta=' + jsMeta + '&title=' + jsTitle + '&url=' + jsUrl + '" width="1" height="1" alt="stats" /><\/div>');
+	//]]>
+	</script><noscript><!-- eaeNoscriptMark -->
+	<div>
+		<img src="http://194.252.88.111/eae-logger/Logger?rt=1&amp;objId=1798738&amp;url=%2Fuutiset%2Fkulttuuri%2Farticle1798738.ece&amp;type=article&amp;pubId=3&amp;ctxId=14&amp;cat=&amp;meta=&amp;title=Restauroitu+Rion+Kristus-patsas+paljastettiin+yleis%C3%B6lle" width="1" height="1" alt="stats" />
+	</div></noscript>
+</div><!-- Escenic Analysis Engine client script stop  -->
+<div style="display: none;">
+	<!-- TNS metrix alkaa-->
+	<script type="text/javascript" src="http://yle.fi/tmv11.js">
+</script> <script type="text/javascript">
+//<![CDATA[
+	<!--
+	var tmsec = new Array ('tmsec=uutiset', 'tmsec=tvuutiset');
+	getTMqs('http', '', '', 'yle_fi', 'fi', 'ISO-8859-1', tmsec);
+	//-->
+	//]]>
+	</script> <noscript>
+	<div>
+		<img src="http://statistik-gallup.net/V11***yle_fi/fi/ISO-8859-1/tmsec=uutiset&amp;tmsec=tvuutiset/" alt="" />
+	</div></noscript> <!-- TNS metrix loppuu-->
+</div><!-- Tracking is either not enabled or configured properly in this environment  -->
