@@ -1,10 +1,7 @@
 #!/opt/local/IncPy/python.exe
 # encoding: utf-8
 
-from apertium import apertium
-
 import sys
-import getopt
 import re
 import string
 
@@ -32,16 +29,15 @@ def split_words(chunk):
 fail_rexp = re.compile(r'^(?P<star>\*)|^(?P<hash>\#)|^(?P<at>\@)')
 fails = lambda x: fail_rexp.findall(x) and fail_rexp.findall(x) or None
 
-clean_fails = lambda x: tuple([1 for a in x if len(a) > 0])
-
 def coverage(text):
 	words = split_words(text)
 	word_count = len(words)
-	# This gives a list with tuples of ('*', '#', '@')
+	unique_word_count = len(list(set(words)))
+	
+	# This gives a list with tuples for each word with ('*', '#', '@')
 	matched = [a for a in [fails(word) for word in words] if a]
-	star = 0
-	hash_ = 0
-	at = 0
+	
+	star, hash_, at = 0, 0, 0
 	
 	# Cooler way to do this? :o
 	for item in matched:
@@ -53,13 +49,27 @@ def coverage(text):
 		if q[2]:
 			at += 1
 	
-	# ('*', '#', '@')
-	counts = ('Starred', 'Nongenerated', 'Unknown')
+	tags = ('*', '#', '@')
+	counts = (star, hash_, at)
 	
-	print 'Total words: %d' % word_count
-	totals =  dict(zip(counts, (star, hash_, at)))
+	print >> sys.stdout, 'Total words:  %d' % word_count
+	print >> sys.stdout, 'Total unique word forms:  %d\n' % unique_word_count
+	totals =  dict(zip(tags, counts))
+	
+	div = lambda x,y: round(float(x)/float(y), 2)
+	perc = lambda x: str(x*100) + '%'
+	div_perc = lambda x,y: str(round(float(x)/float(y), 2)*100) + '%'
+	
+	
 	for k,v in totals.iteritems():
-		print '\t%s: %d' % (k, v)
+		percent = div_perc(v,word_count)
+		print >> sys.stdout, '\t%s:  %d\t\t%s' % (k, v, percent)
+	
+	print >> sys.stdout, '\nnaive total: \t\t%s' % str(perc(sum([div(a,word_count) for a in totals.values()])))
+	print >> sys.stdout, 'without error: %s\t%s' % (str(word_count-sum(counts)), div_perc(word_count-sum(counts),word_count))
+
+	print ''
+	return 2 
 
 
 def main():

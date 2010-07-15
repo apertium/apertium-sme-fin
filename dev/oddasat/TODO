@@ -16,4 +16,3 @@ django 1.1.1
 
  * Try with another language pair?
 	-> Feed models will need to specify source and target language
-
