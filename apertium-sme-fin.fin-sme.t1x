@@ -986,6 +986,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 
         <choose>
         <!-- Ade -> Der_n Com -->
+		<!-- Hän meni yliopistoon juoksemalla - Son manai universitehtii viehkamiin (?) -->
            <when>
              <test>
                <equal>
@@ -1002,7 +1003,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
                  <lu>
                    <clip pos="1" side="tl" part="lemh"/>
                    <clip pos="1" side="tl" part="a_verb"/>
-                    <lit-tag v="Der_n.N.Sg.Com"/>
+                    <lit-tag v="Der3.Der_n.N.Sg.Com"/>
      		  <clip pos="1" side="tl" part="lemq"/>
                  </lu>
                </chunk>
@@ -1013,8 +1014,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
            <when>
              <test>
                <equal>
-		 <clip pos="1" side="sl" part="a_case"/>
-	  	 <lit-tag v="Abe"/>
+				 <clip pos="1" side="sl" part="a_case"/>
+			  	 <lit-tag v="Abe"/>
                </equal>
              </test>
              <out>
