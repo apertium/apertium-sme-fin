@@ -57,12 +57,14 @@ TARGETS_COMMON = \
 $(PREFIX2).autogen.hfst: .deps/$(BASENAME).$(LANG1).hfst .deps/xfst2apertium.useless.generation.twol.hfst .deps/xfst2apertium.hashtags.twol.hfst dev/xfst2apertium.relabel
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-compose-intersect -l .deps/$(BASENAME).$(LANG1).hfst .deps/xfst2apertium.useless.generation.twol.hfst -o .deps/$@.1.tmp
-	hfst-compose-intersect -l .deps/$@.1.tmp .deps/xfst2apertium.hashtags.twol.hfst -o .deps/$@.2.tmp
+	hfst-invert .deps/$@.1.tmp -o .deps/$@.1.inverted.tmp
+	hfst-compose-intersect -l .deps/$@.1.inverted.tmp .deps/xfst2apertium.hashtags.twol.hfst -o .deps/$@.2.inverted.tmp
+	hfst-invert .deps/$@.2.inverted.tmp -o .deps/$@.2.tmp
 	hfst-substitute -F dev/xfst2apertium.relabel -i .deps/$@.2.tmp -o .deps/$(PREFIX2).autogen.hfst
 	hfst-lookup-optimize .deps/$(PREFIX2).autogen.hfst -o $@
 	rm .deps/$@.1.tmp .deps/$@.2.tmp
 
-$(PREFIX1).automorf.hfst: .deps/$(PREFIX2).autogen.hfst
+$(PREFIX1).automorf.hfst: $(PREFIX2).autogen.hfst
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-invert .deps/$(PREFIX2).autogen.hfst -o .deps/$(PREFIX1).automorf.hfst
 	hfst-lookup-optimize .deps/$(PREFIX1).automorf.hfst -o $@
