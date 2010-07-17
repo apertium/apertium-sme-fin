@@ -136,4 +136,5 @@ RemCmptag:0  <=>  \KeepCmpAfter  _  ;
 ! mielbargin      miel+ShCmp#bargat+V+TV+Der2+Actor+N+Ess
 
 "Delete compound tags at the beginning of words"
-RemWICmptag:0  <=>  [ # | #: ]  _  ; 
+! RemWICmptag:0  <=>  [ # | #: ]  _  ; 
+RemWICmptag:0  /<=  [ # | #: ]  _  ; 
