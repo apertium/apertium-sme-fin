@@ -1506,7 +1506,7 @@ dev/chapter003_notes -text
 dev/countries.txt -text
 dev/fin.cfg -text
 dev/generation-test.sh -text
-dev/langs.cfg -text
+dev/langs.cfg.in -text
 dev/oddasat/TODO -text
 dev/oddasat/__init__.py -text
 dev/oddasat/apertium/__init__.py -text
