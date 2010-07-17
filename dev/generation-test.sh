@@ -29,7 +29,7 @@ if [[ ! -f /tmp/fin.gentest.postchunk ]]; then
 	exit;
 fi
 
-cat /tmp/fin.gentest.postchunk  | sed 's/^ //g' | grep -v -e '@' -e '*' -e '[0-9]<Num>' | sed 's/\$>/$/g' | sort -f | uniq -c | sort -gr > /tmp/fin.gentest.stripped
+cat /tmp/fin.gentest.postchunk  | sed 's/^ //g' | grep -v -e '@' -e '*' -e '[0-9]<Num>' -e '#}' -e '#{' | sed 's/\$>/$/g' | sort -f | uniq -c | sort -gr > /tmp/fin.gentest.stripped
 cat /tmp/fin.gentest.stripped | hfst-proc -g ../fin-sme.autogen.hfst > /tmp/fin.gentest.surface
 cat /tmp/fin.gentest.stripped | sed 's/^ *[0-9]* \^/^/g' > /tmp/fin.gentest.nofreq
 paste /tmp/fin.gentest.surface /tmp/fin.gentest.nofreq | grep -e '\/' -e '#'  > /tmp/fin.generation.errors.txt
