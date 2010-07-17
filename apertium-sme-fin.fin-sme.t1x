@@ -1268,7 +1268,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 			<lu>
 				<lit v="mielde"/>
 				<lit-tag v="Po"/>
-				<clip pos="2" side="tl" part="lemq"/>
+				<!--<clip pos="1" side="tl" part="lemq"/>-->
 			</lu>
           </chunk>
         </out>
@@ -1864,6 +1864,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="num"/>
       </pattern>
       <action>
+	<call-macro n="nominal_case_number"> <!-- to convert par/ade etc. -->
+		<with-param pos="1"/>
+	</call-macro>
         <choose>
           <when>
             <test>

@@ -169,6 +169,7 @@
 	<e><p><l>báldii<s n="Po"/></l><r>viereen<s n="Po"/></r></p></e>
 	<e><p><l>bále<s n="Po"/></l><r>aikana<s n="Po"/></r></p></e>
 	<e><p><l>dihte<s n="Po"/></l><r>takia<s n="Po"/></r></p></e>
+	<e><p><l>geažil<s n="Po"/></l><r>takia<s n="Po"/></r></p></e>
 	<e><p><l>dihte<s n="Po"/></l><r>tähden<s n="Po"/></r></p></e>
 	<e><p><l>dihte<s n="Po"/></l><r>vuoksi<s n="Po"/></r></p></e>
 	<e><p><l>dihtii<s n="Po"/></l><r>vuoksi<s n="Po"/></r></p></e>
@@ -191,7 +192,6 @@
 	<e><p><l>geažes<s n="Po"/></l><r>kuluttua<s n="Po"/></r></p></e>
 	<e><p><l>geažil<s n="Po"/></l><r>johdosta<s n="Po"/></r></p></e>
 	<e><p><l>geažil<s n="Po"/></l><r>perusteella<s n="Po"/></r></p></e>
-	<e><p><l>geažil<s n="Po"/></l><r>takia<s n="Po"/></r></p></e>
 	<e><p><l>geažil<s n="Po"/></l><r>tähden<s n="Po"/></r></p></e>
 	<e><p><l>hárrái<s n="Po"/></l><r>suhteen<s n="Po"/></r></p></e>
 	<e><p><l>lahka<s n="Po"/></l><r>likelle<s n="Po"/></r></p></e>
@@ -202,6 +202,7 @@
 	<e><p><l>miehtá<s n="Po"/></l><r>pitkin<s n="Po"/></r></p></e>
 	<e><p><l>mielde<s n="Po"/></l><r>mukaan<s n="Po"/></r></p></e>
 	<e><p><l>nala<s n="Po"/></l><r>päälle<s n="Po"/></r></p></e>
+        <!--<e r="LR"><p><l>alde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>-->
 	<e><p><l>nalde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>
 	<e><p><l>nalde<s n="Po"/></l><r>päältä<s n="Po"/></r></p></e>
 	<e><p><l>njeaigga<s n="Po"/></l><r>vasten<s n="Po"/></r></p></e>
@@ -225,7 +226,6 @@
 	<e><p><l>čađa<s n="Po"/></l><r>läpi<s n="Po"/></r></p></e>
 	<e><p><l>čađa<s n="Po"/></l><r>lävitse<s n="Po"/></r></p></e>
 	<e><p><l>čađa<s n="Po"/></l><r>välityksellä<s n="Po"/></r></p></e>
-    <e r="LR"><p><l>alde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>
     <e><p><l>badjel<s n="Po"/></l><r>yli<s n="Po"/></r></p></e>
     <e><p><l>badjelii<s n="Po"/></l><r>ylle<s n="Po"/></r></p></e>
     <e><p><l>ektui<s n="Po"/></l><r>nähden<s n="Po"/></r></p></e>
@@ -2634,8 +2634,6 @@
     <e><p><l>váivi<s n="N"/></l><r>vaiva<s n="N"/></r></p></e>
     <e><p><l>váldodoaimmaheaddji<s n="N"/></l><r>päätoimittaja<s n="N"/></r></p></e>
     <e><p><l>váldosiidu<s n="N"/></l><r>etusivu<s n="N"/></r></p></e>
-    <e><p><l>váldoášši<s n="N"/></l><r>pääasia<s n="N"/></r></p></e>
-    <e><p><l>váldoášši<s n="N"/></l><r>pääkohta<s n="N"/></r></p></e>
     <e><p><l>válli<s n="N"/></l><r>vala<s n="N"/></r></p></e>
     <e><p><l>vánddardeaddji<s n="N"/></l><r>kulkuri<s n="N"/></r></p></e>
     <e><p><l>vánhen<s n="N"/></l><r>vanhempi<s n="N"/></r></p></e>
@@ -2693,7 +2691,7 @@
     <e><p><l>ásahus<s n="N"/></l><r>laitos<s n="N"/></r></p></e>
     <e><p><l>ásen<s n="N"/></l><r>aasi<s n="N"/></r></p></e>
     <e><p><l>ássanguovlu<s n="N"/></l><r>asuinalue<s n="N"/></r></p></e>
-    <e><p><l>ássi<s n="N"/></l><r>asukas<s n="N"/></r></p></e>
+    <e><p><l>ássi<s n="N"/><s n="Actor"/></l><r>asukas<s n="N"/></r></p></e>
     <e><p><l>ávju<s n="N"/></l><r>terä<s n="N"/></r></p></e>
     <e><p><l>ávki<s n="N"/></l><r>etu<s n="N"/></r></p></e>
     <e><p><l>ávki<s n="N"/></l><r>hyöty<s n="N"/></r></p></e>
@@ -2820,7 +2818,10 @@
 	<e><p><l>dálkkasdieđa<s n="N"/></l><r>lääketiede<s n="N"/></r></p></e>
 	<e><p><l>geahččanguovlu<s n="N"/></l><r>näkökulma<s n="N"/></r></p></e>
 	<e><p><l>teknihkka<s n="N"/></l><r>tekniikka<s n="N"/></r></p></e>
-	<e><p><l>váldooassi<s n="N"/></l><r>pääosa<s n="N"/></r></p></e> <!-- tried váldduoassi, válduoassi -->
+        <e><p><l>váldoášši<s n="N"/></l><r>pääasia<s n="N"/></r></p></e>
+        <e><p><l>váldoášši<s n="N"/></l><r>pääkohta<s n="N"/></r></p></e>
+	<!--<e><p><l>váldooassi<s n="N"/></l><r>pääosa<s n="N"/></r></p></e>--> <!-- tried váldduoassi, válduoassi -->
+	<e><p><l>válduoassi<s n="N"/></l><r>pääosa<s n="N"/></r></p></e> <!-- tried váldduoassi, válduoassi -->
 	<e><p><l>čoakkáldat<s n="N"/></l><r>kokoelma<s n="N"/></r></p></e>
 	<e><p><l>vegetašuvdna<s n="N"/></l><r>aluskasvillisuus<s n="N"/></r></p></e>
 	<e><p><l>eahketbeaivi<s n="N"/></l><r>iltapäivä<s n="N"/></r></p></e>

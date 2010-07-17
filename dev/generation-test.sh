@@ -1,15 +1,23 @@
-BIBLE=/home/fran/corpora/finnish/bible.fi/*.txt
+#!/bin/bash
 
 if [[ $1 == "-r" ]]; then
+	if [[ $# -lt 2 ]]; then 
+		echo $#;
+		echo "Not enough arguments to generation-test.sh -r";
+		echo "bash generation-test.sh -r <corpus>";
+		exit;
+	fi
+	BIBLE=$2
+	echo "Corpus in: $BIBLE";
 	echo -n "Processing corpus for generation test (this could take some time)... ";
-	cat $BIBLE | apertium -d ../ fin-sme-postchunk | sed 's/\$\W*\^/$\n^/g' > /tmp/fin.gentest.postchunk
+	cat $BIBLE/*.txt | apertium -d ../ fin-sme-postchunk | sed 's/\$\W*\^/$\n^/g' > /tmp/fin.gentest.postchunk
 	echo "done.";
 fi
 
 if [[ ! -f /tmp/fin.gentest.postchunk ]]; then
 	echo "Something went wrong in processing the corpus, you have no output file.";
 	echo "Try running:"
-	echo "   sh generation-test.sh -r";
+	echo "   sh generation-test.sh -r <corpus>";
 	exit;
 fi
 
