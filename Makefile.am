@@ -61,7 +61,8 @@ TARGETS_COMMON = \
 	hfst-compose-intersect -l .deps/$(PREFIX1).automorf.useless.tmp .deps/xfst2apertium.hashtags.twol.hfst -o .deps/$(PREFIX1).automorf.hashtags.tmp
 	hfst-invert .deps/$(PREFIX1).automorf.hashtags.tmp -o .deps/$(PREFIX2).autogen.hashtags.tmp
 	hfst-substitute -F dev/xfst2apertium.relabel -i .deps/$(PREFIX2).autogen.hashtags.tmp -o .deps/$(PREFIX2).autogen.hfst
-	rm .deps/$(PREFIX1).automorf.orig.tmp .deps/$(PREFIX1).automorf.useless.tmp .deps/$(PREFIX1).automorf.hashtags.tmp .deps/$(PREFIX2).autogen.hashtags.tmp
+
+#	rm .deps/$(PREFIX1).automorf.orig.tmp .deps/$(PREFIX1).automorf.useless.tmp .deps/$(PREFIX1).automorf.hashtags.tmp .deps/$(PREFIX2).autogen.hashtags.tmp
 
 $(PREFIX2).autogen.hfst: .deps/$(PREFIX2).autogen.hfst
 	hfst-lookup-optimize .deps/$(PREFIX2).autogen.hfst -o $@

@@ -24,6 +24,10 @@
 
 Alphabet
 
+%+PrsPrc
+%+Num
+%+Sg
+
 %+Last:0
 %+Use/NG:0
 %+Use/Ped:0
@@ -41,7 +45,6 @@ Sets
 
 Useless =
 %+Last
-%+Use/NG
 %+Use/Ped	
 %+Use/Sub	
 %+Use/Circ	
@@ -59,10 +62,21 @@ Nonstandard =
 %+Dial/%-GS
 ;
 
+AllowUse =
+%+Num
+%+PrsPrc
+;
+
 Rules 
 
-"Disallow non-standard forms from the generator (note: this file creates the sme analyser too, so non-standard forms will be disallowed there too)"
+
+"Disallow all non-standard dialect forms from the generator (note: this file creates the sme analyser too, so non-standard forms will be disallowed there too)"
 Nonstandard:? /<= _ ;
+
+
+"Disallow Use-marked forms in some contexts"
+Useless:? /<= # [ \AllowUse:? ]* _ [ \AllowUse:? ]* # ;
+
 
 "Delete Use-tags etc. that we don't use"
 Useless:0 <=> _ ; 
