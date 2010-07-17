@@ -7,10 +7,18 @@ if [[ $1 == "-r" ]]; then
 		echo "bash generation-test.sh -r <corpus>";
 		exit;
 	fi
-	BIBLE=$2
-	echo "Corpus in: $BIBLE";
-	echo -n "Processing corpus for generation test (this could take some time)... ";
-	cat $BIBLE/*.txt | apertium -d ../ fin-sme-postchunk | sed 's/\$\W*\^/$\n^/g' > /tmp/fin.gentest.postchunk
+	args=("$@")
+	echo "Corpus in: "`dirname $2`;
+	echo -n "Processing corpus for generation test... ";
+	rm /tmp/fin-sme.corpus.txt
+	for i in `seq 1 $#`; do 
+		if [[ ${args[$i]} != "" && -f ${args[$i]} ]]; then 
+			cat ${args[$i]} >> /tmp/fin-sme.corpus.txt
+		fi
+	done
+	echo "done.";
+	echo -n "Translating corpus for generation test (this could take some time)... ";
+	cat /tmp/fin-sme.corpus.txt | apertium -d ../ fin-sme-postchunk | sed 's/\$\W*\^/$\n^/g' > /tmp/fin.gentest.postchunk
 	echo "done.";
 fi
 
