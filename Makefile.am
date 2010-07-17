@@ -54,17 +54,19 @@ TARGETS_COMMON = \
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-compose-intersect -l .deps/$(LANG1).lexc.hfst .deps/$(LANG1).twol.hfst -o $@
 
-$(PREFIX2).autogen.hfst: .deps/$(BASENAME).$(LANG1).hfst .deps/xfst2apertium.useless.generation.twol.hfst .deps/xfst2apertium.hashtags.twol.hfst dev/xfst2apertium.relabel
+.deps/$(PREFIX2).autogen.hfst: .deps/$(BASENAME).$(LANG1).hfst .deps/xfst2apertium.useless.generation.twol.hfst .deps/xfst2apertium.hashtags.twol.hfst dev/xfst2apertium.relabel
 	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-compose-intersect -l .deps/$(BASENAME).$(LANG1).hfst .deps/xfst2apertium.useless.generation.twol.hfst -o .deps/$@.1.tmp
-	hfst-invert .deps/$@.1.tmp -o .deps/$@.1.inverted.tmp
-	hfst-compose-intersect -l .deps/$@.1.inverted.tmp .deps/xfst2apertium.hashtags.twol.hfst -o .deps/$@.2.inverted.tmp
-	hfst-invert .deps/$@.2.inverted.tmp -o .deps/$@.2.tmp
-	hfst-substitute -F dev/xfst2apertium.relabel -i .deps/$@.2.tmp -o .deps/$(PREFIX2).autogen.hfst
-	hfst-lookup-optimize .deps/$(PREFIX2).autogen.hfst -o $@
-	rm .deps/$@.1.tmp .deps/$@.2.tmp
+	hfst-invert .deps/$(BASENAME).$(LANG1).hfst -o .deps/$(PREFIX1).automorf.orig.tmp
+	hfst-compose-intersect -l .deps/$(PREFIX1).automorf.orig.tmp .deps/xfst2apertium.useless.generation.twol.hfst -o .deps/$(PREFIX1).automorf.useless.tmp
+	hfst-compose-intersect -l .deps/$(PREFIX1).automorf.useless.tmp .deps/xfst2apertium.hashtags.twol.hfst -o .deps/$(PREFIX1).automorf.hashtags.tmp
+	hfst-invert .deps/$(PREFIX1).automorf.hashtags.tmp -o .deps/$(PREFIX2).autogen.hashtags.tmp
+	hfst-substitute -F dev/xfst2apertium.relabel -i .deps/$(PREFIX2).autogen.hashtags.tmp -o .deps/$(PREFIX2).autogen.hfst
+	rm .deps/$(PREFIX1).automorf.orig.tmp .deps/$(PREFIX1).automorf.useless.tmp .deps/$(PREFIX1).automorf.hashtags.tmp .deps/$(PREFIX2).autogen.hashtags.tmp
 
-$(PREFIX1).automorf.hfst: $(PREFIX2).autogen.hfst
+$(PREFIX2).autogen.hfst: .deps/$(PREFIX2).autogen.hfst
+	hfst-lookup-optimize .deps/$(PREFIX2).autogen.hfst -o $@
+
+$(PREFIX1).automorf.hfst: .deps/$(PREFIX2).autogen.hfst
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-invert .deps/$(PREFIX2).autogen.hfst -o .deps/$(PREFIX1).automorf.hfst
 	hfst-lookup-optimize .deps/$(PREFIX1).automorf.hfst -o $@
