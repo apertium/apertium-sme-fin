@@ -1,10 +1,11 @@
 [
 	{
-		"SOURCE_LANGUAGE": "fin", 
+		"LANG2": "fin", 
+		"LANG1": "sme",
 		"OUTPUT_DIR": "/Volumes/Skewl/apertium/apertium-sme-fin/", 
 		"SRC": "/Users/pyry/gtsvn/gt/sme/src/",
 		"PRODUCE_LEXC_FOR": "sme", 
-		"TARGET_LANGUAGE": "sme",
+		"BIDIX_SIDE": "L",
 		"HEADER": "sme-lex.txt",
 		"LEXTYPE": "",
 		"files": [

@@ -9,6 +9,9 @@ django 1.1.1
  * RSS feeds from translated news
 
  * Parser models for each feed type
+	- Use xmllib2, may be faster than ElementTree, and more extended xpath support: http://simonwillison.net/2003/Oct/21/xpathRocks/
+	
+	- mechanize: http://wwwsearch.sourceforge.net/mechanize/
 
  * Get it running on victorio
 

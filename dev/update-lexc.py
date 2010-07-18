@@ -1,6 +1,8 @@
 #!/usr/bin/python2.6
 # encoding: utf-8
 
+#!/opt/local/incpy/python.exe
+
 import os, sys, getopt
 import subprocess as sp
 import re
@@ -25,14 +27,21 @@ class LTExpError(Exception):
 		print "lt-expand failed processing. Error:"
 		print msg
 
+class Conf_Validation_Error(Exception):
+	def __init__(self, msg):
+		print "The config file is invalid:"
+		print msg
+
+
 class Config(object):
 	def default_options(self):
-		self.TARGET_LANGUAGE = "sme"
-		self.SOURCE_LANGUAGE = "fin"
+		self.LANG1 = "sme"
+		self.LANG2 = "fin"
 		self.GTHOME = os.environ.get("GTHOME")
 		self.PRODUCE_LEXC_FOR = "sme"
 		self.OUTPUT_DIR = os.getcwd() + '/../'
 		self.GTPFX = 'gt'
+		self.BIDIX_SIDE = 'R' # or L
 		self.HEADER = "sme-lex.txt"
 		self.SRC = self.GTHOME + '/' + self.GTPFX + '/' + self.PRODUCE_LEXC_FOR + '/src/'
 		self.files = [
@@ -61,8 +70,8 @@ class Config(object):
 		if defaults:
 			self.default_options()
 		else:
-			self.TARGET_LANGUAGE = ""
-			self.SOURCE_LANGUAGE = ""
+			self.LANG1 = ""
+			self.LANG2 = ""
 			self.GTHOME = os.environ.get("GTHOME")
 			self.PRODUCE_LEXC_FOR = ""
 			self.OUTPUT_DIR = '.'
@@ -85,8 +94,8 @@ class Config(object):
 		
 	def return_dict(self):
 		D = {
-			"TARGET_LANGUAGE": self.TARGET_LANGUAGE,
-			"SOURCE_LANGUAGE": self.SOURCE_LANGUAGE,
+			"LANG1": self.LANG1,
+			"LANG2": self.LANG2,
 			"GTHOME": self.GTHOME,
 			"GTPFX": self.GTPFX,
 			"OUTPUT_DIR": self.OUTPUT_DIR,
@@ -129,6 +138,10 @@ def load_conf(fname):
 	"""
 		Load configs from JSON file
 	"""
+	if not os.path.isfile(fname):
+		print "%s does not exist." % fname
+		raise IOError
+	
 	if not json:
 		return False
 	try:
@@ -146,7 +159,7 @@ def load_conf(fname):
 				new.read_from_dict(D[0])
 				new_confs.langs = [new]
 			elif len(D) > 1:
-				new_conf.langs = []
+				new_confs.langs = []
 				for item in D:
 					new = Config()
 					new.read_from_dict(item)
@@ -244,6 +257,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		pos_filter (str) 	- Filter lines based on pattern, e.g., V, N, N><Prop, etc. Will be turned to <V, <N, etc.
 		no_header (bool) 	- False by default, if true, do not return header.
 		no_trim (bool) 		- False by default, if true, do not filter based on pos_filter
+		side (str)			- use this side of the bidix, 'left' or 'right'
 		
 	"""
 	
@@ -264,7 +278,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	lemma = lambda x: x.partition('<')[0]
 	
 	if side == 'right':			side = right
-	else:						side = left
+	elif side == 'left':		side = left
 	
 	lx = lambda x: lemma(side(x))
 				
@@ -277,8 +291,6 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	
 	words = [word.replace(' ', '').replace('+', '') for word in words]
 	
-	
-		
 	if debug:
 		print str(len(words)) + ' unique words matching %s in .dix' % (str(search_key))
 		# print str(len(words)) + ' unique words matching %s in .dix' % (str(search_key), fname.lower())
@@ -382,6 +394,7 @@ def make_hlexc(TL, SL, proc_lang, out_dir, COBJ=False):
 	OUTFILE = "%s.%s.lexc" % (BASENAME, proc_lang)
 	STEPS = COBJ.files
 	
+	
 	if proc_lang == TL:
 		exp = 'left'
 	elif proc_lang == SL:
@@ -471,6 +484,15 @@ def make_lexc(TL, SL, proc_lang, out_dir, COBJ=False):
 	# Use dicts to go through files and trim
 	# strings for just reading a filename with no action taken
 	
+	if COBJ.BIDIX_SIDE == 'R':
+		BIDIX_SIDE = 'right'
+	elif COBJ.BIDIX_SIDE == 'L':
+		BIDIX_SIDE = 'left'
+	else:
+		error = 'BIDIX_SIDE must have a value of "L" or "R"'
+		raise Conf_Validation_Error(error)
+	
+	
 	# Add SRC dir to STEPS
 	STEPS = COBJ.files
 	
@@ -480,7 +502,7 @@ def make_lexc(TL, SL, proc_lang, out_dir, COBJ=False):
 	for step in STEPS:
 		fname, action = SRC + step[0], step[1]
 		
-		if len(step) == 3:		opts = dict([(str(a), str(b)) for a, b in step[2].items()])
+		if len(step) == 3:		opts = dict([(str(a), str(b)) for a, b in step[2].items()]) ; opts['side'] = BIDIX_SIDE
 		else:					opts = None
 				
 		try:
@@ -522,8 +544,8 @@ def make_lexc(TL, SL, proc_lang, out_dir, COBJ=False):
 
 # TODO: always use cfg
 default_values = '\n'
-default_values += "\t--target-lang:   %s\n" % DEFAULTS.langs[0].TARGET_LANGUAGE
-default_values += "\t--source-lang:   %s\n" % DEFAULTS.langs[0].SOURCE_LANGUAGE
+default_values += "\t--target-lang:   %s\n" % DEFAULTS.langs[0].LANG1
+default_values += "\t--source-lang:   %s\n" % DEFAULTS.langs[0].LANG2
 default_values += "\t--proc-lang:     %s\n" % DEFAULTS.langs[0].PRODUCE_LEXC_FOR
 default_values += "\t--gthome:        %s\n" % DEFAULTS.langs[0].GTHOME
 default_values += "\t--gt-prefix:     %s\n" % DEFAULTS.langs[0].GTPFX
@@ -555,9 +577,12 @@ class Usage(Exception):
 	def __init__(self, msg):
 		self.msg = msg
 
-# make_lexc(TL=TARGET_LANGUAGE, SL=SOURCE_LANGUAGE, proc_lang=PRODUCE_LEXC_FOR, gthome=GTHOME, gtpfx=GTPFX, out_dir=OUTPUT_DIR):
+# make_lexc(TL=LANG1, SL=LANG2, proc_lang=PRODUCE_LEXC_FOR, gthome=GTHOME, gtpfx=GTPFX, out_dir=OUTPUT_DIR):
 
 def run_with_conf(C):
+	# TODO: if there's a failure here it's probably that the config file is screwed up
+	# Need to validate some.
+	
 	for lang in C.langs:
 		if lang.LEXTYPE == "hlexc":
 			proc_func = make_hlexc
@@ -566,8 +591,8 @@ def run_with_conf(C):
 		
 		try:
 			proc_func(
-				lang.TARGET_LANGUAGE, 
-				lang.SOURCE_LANGUAGE, 
+				lang.LANG1, 
+				lang.LANG2, 
 				lang.PRODUCE_LEXC_FOR,
 				lang.OUTPUT_DIR,
 				lang
@@ -580,8 +605,8 @@ def run_with_conf(C):
 def main(argv=None):
 	
 	# Set commandline defaults
-	cmd_tl            = DEFAULTS.langs[0].TARGET_LANGUAGE
-	cmd_sl            = DEFAULTS.langs[0].SOURCE_LANGUAGE
+	cmd_tl            = DEFAULTS.langs[0].LANG1
+	cmd_sl            = DEFAULTS.langs[0].LANG2
 	cmd_proc_lang     = DEFAULTS.langs[0].PRODUCE_LEXC_FOR
 	cmd_gthome        = DEFAULTS.langs[0].GTHOME
 	cmd_gtpfx         = DEFAULTS.langs[0].GTPFX
