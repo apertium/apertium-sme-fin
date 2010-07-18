@@ -11,8 +11,8 @@ try:
 	import json
 except ImportError:
 	json = False
-	print "json module not installed. Only command line options or options in this file will be possible. Use python2.6 or install a suitable json module."
-	
+	print "json module not installed. Use python2.6 or install json. (easy_install json)"
+
 
 #####
 #
@@ -43,6 +43,7 @@ class Config(object):
 		self.GTPFX = 'gt'
 		self.BIDIX_SIDE = 'R' # or L
 		self.HEADER = "sme-lex.txt"
+		self.LEXTYPE = 'hlexc'
 		self.SRC = self.GTHOME + '/' + self.GTPFX + '/' + self.PRODUCE_LEXC_FOR + '/src/'
 		self.files = [
 			["verb-sme-lex.txt", 	'clip', 	{'pos_filter': 'V', 'split': 'VerbRoot\n'}],
@@ -130,21 +131,31 @@ class Configs(object):
 #
 #########
 
-# TODO: always use json cfgs?
-DEFAULTS = Configs()
-DEFAULTS.langs = [Config(defaults=True)]
-
-def load_conf(fname):
+def load_conf(fname, create=False):
 	"""
 		Load configs from JSON file
 	"""
-	if not os.path.isfile(fname):
-		print "%s does not exist." % fname
-		raise IOError
+	
+	if create:
+		print "Creating default config file: %s" % fname
+		with open(fname, 'w') as F:
+			DEFAULTS = Configs()
+			DEFAULTS.langs = [Config(defaults=True)]
+			json.dump([DEFAULTS.langs[0].return_dict()], F, ensure_ascii=True, sort_keys=True, indent=4)
+			print "Done."
+			print "Note, indentation of JSON does not matter so long as it is valid JSON."
+		return True
+	else:
+		if not os.path.isfile(fname):
+			print "Default file %s does not exist. Rerun with --create=langs.cfg to create a sample file, or specify the path of the config file with --config=FILENAME." % fname
+			return False
+	
 	
 	if not json:
+		print "Either the json module is missing, or you are not using python2.6."
 		return False
-	try:
+	
+	if os.path.isfile(fname):
 		with open(fname, 'r') as F:
 			exists = True
 			try:
@@ -167,17 +178,10 @@ def load_conf(fname):
 			# print CONF.langs		
 			print "Loaded config from %s" % F.name
 			
-	except IOError:
-		print "Config file does not exist. Creating default file."
-		with open('langs.cfg', 'w') as F:
-			json.dump([DEFAULTS.langs[0].return_dict()], F, ensure_ascii=True)
-			print "Defaults saved to %s" % F.name
-		
 	DEFAULTS = False
 	return new_confs
 
 	
-
 def Popen(cmd):
 	proc = sp.Popen(cmd.split(' '), shell=False, stdout=PIPE, stderr=PIPE, stdin=PIPE)
 	output, err = proc.communicate() # split('\n')
@@ -200,7 +204,6 @@ def lt_exp(fname):
 	output = [l for l in output.splitlines() if "REGEX" not in l and l.strip()]
 	
 	return output
-
 
 
 lex_excludes = [
@@ -382,107 +385,27 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 		return head, trim
 
 
-def make_hlexc(TL, SL, proc_lang, out_dir, COBJ=False):
+def make_lexc(COBJ=False):
+	"""
+		Rename this once it's done.
+		
+		This is the function that does everything.
+		
+		TODO: error handling if files don't exist
+		TODO: switch everything to conf. object, so less things need to be passed in.
+		
+	"""
+	
 	SRC = COBJ.SRC
-	PREFIX1 = "%s-%s" % (TL, SL)
-	PREFIX2 = "%s-%s" % (SL, TL)
+	PROC_LANG = COBJ.PRODUCE_LEXC_FOR
+	PREFIX = "%s-%s" % (COBJ.LANG1, COBJ.LANG2)
 	
-	# Project base-name
-	BASENAME = "apertium-" + PREFIX1
+	BASENAME = "apertium-" + PREFIX
 	
-	DEV = os.getcwd()
-	OUTFILE = "%s.%s.lexc" % (BASENAME, proc_lang)
+	DEV = os.getcwd() # Expecting we're in the dev directory... TODO: Fix
+	OUTFILE = "%s.%s.lexc" % (BASENAME, PROC_LANG)
+	
 	STEPS = COBJ.files
-	
-	
-	if proc_lang == TL:
-		exp = 'left'
-	elif proc_lang == SL:
-		exp = 'right'
-	
-	lt_expand_data = lt_exp(fname="%s/../%s.%s.dix" % (DEV, BASENAME, PREFIX1))
-	
-	output_ = []
-	output_app = output_.append
-	
-	for step in STEPS:
-		fname, action = SRC + step[0], step[1]
-		
-		if len(step) == 3:		opts = dict([(str(a), str(b)) for a, b in step[2].items()]) ; opts['side'] = exp
-		else:					opts = None
-		
-		# DEBUG
-		
-		try:
-			with open(fname, 'r') as F:
-				exists = True			
-		except IOError, e:
-			print "*** File %s does not exist. Skipping. ***" % fname
-			continue
-	
-		if action == 'clip':
-			print "... Fetching words from %s" % fname
-			if opts:
-				head, trim = extract(lt_expand_data, fname, **opts)
-			else:
-				head, trim = extract(lt_expand_data, fname)
-			data = head + trim
-		elif action == 'cat':
-			print "... Reading all of %s" % fname
-			data = cat_file(fname, str, exclude=False)
-		
-		output_app(data)	
-	
-	out_ = '\n'.join([a for a in output_])
-	OUTFILE = out_dir + OUTFILE
-	
-	with open(OUTFILE, 'w') as F:
-		F.write(out_)
-	
-	print '... Done.'
-	print 'Saved to %s.\n' % OUTFILE
-	return True
-
-
-def make_lexc(TL, SL, proc_lang, out_dir, COBJ=False):
-	"""
-		This does everything.
-		
-		TODO: SRC dir should be moved out of here, passed in instead for easier switching of languages? /gt/ ~ /kt/ stuff will confuse things.
-		TODO: error handling if files don't exist.
-		
-		COBJ = Config object
-	"""
-	
-	# Prefix direction
-	PREFIX1 = "%s-%s" % (TL, SL)
-	PREFIX2 = "%s-%s" % (SL, TL)
-	
-	# Project base-name
-	BASENAME = "apertium-" + PREFIX1
-		
-	# if not GTHOME:
-	# 		print "$GTHOME not set."
-	# 		sys.exit() # TODO: exit with error
-	
-	# SRC = "%s/%s/%s/src" % (gthome, gtpfx, proc_lang)
-	try:
-		SRC = COBJ.SRC
-	except AttributeError:
-		print "SRC not set."
-	
-	DEV = os.getcwd()
-	OUTFILE = "%s.%s.lexc" % (BASENAME, proc_lang)
-	
-	# Get data from lt_expand
-	print "... Reading words from bidix."
-	lt_expand_data = lt_exp(fname="%s/../%s.%s.dix" % (DEV, BASENAME, PREFIX1)) 
-	header_fname = COBJ.SRC + "/" + COBJ.HEADER
-	print "... Reading header from %s" % header_fname
-	main_header = cat_file(header_fname, list, exclude=True)  # TODO: header variable in conf
-	
-	# Use dicts to go through files and trim
-	# strings for just reading a filename with no action taken
 	
 	if COBJ.BIDIX_SIDE == 'R':
 		BIDIX_SIDE = 'right'
@@ -492,26 +415,34 @@ def make_lexc(TL, SL, proc_lang, out_dir, COBJ=False):
 		error = 'BIDIX_SIDE must have a value of "L" or "R"'
 		raise Conf_Validation_Error(error)
 	
+	print "... Reading words from bidix."
+	lt_expand_data = lt_exp(fname="%s/../%s.%s.dix" % (DEV, BASENAME, PREFIX))
 	
-	# Add SRC dir to STEPS
-	STEPS = COBJ.files
+	if len(COBJ.HEADER) > 0:
+		header_fname = COBJ.SRC + "/" + COBJ.HEADER
+		print "... Reading header from %s" % header_fname
+		main_header = cat_file(header_fname, list, exclude=True)  # TODO: header variable in conf
+		output_ = [''.join(main_header)]
+	else:
+		print "... Assuming header is provided in 'files'."
+		output_ = []
 	
-	output_ = [''.join(main_header)]
-	output_app = output_.append			# Faster this way
+	output_app = output_.append
 	
 	for step in STEPS:
 		fname, action = SRC + step[0], step[1]
 		
 		if len(step) == 3:		opts = dict([(str(a), str(b)) for a, b in step[2].items()]) ; opts['side'] = BIDIX_SIDE
 		else:					opts = None
-				
+		
 		try:
 			with open(fname, 'r') as F:
-				exists = True
+				exists = True			
 		except IOError, e:
 			print "*** File %s does not exist. Skipping. ***" % fname
+			# TODO: do not continue?
 			continue
-	
+		
 		if action == 'clip':
 			print "... Fetching words from %s" % fname
 			if opts:
@@ -524,99 +455,73 @@ def make_lexc(TL, SL, proc_lang, out_dir, COBJ=False):
 			data = cat_file(fname, str, exclude=False)
 		
 		output_app(data)
-		
-	# TODO:
+	
+	# TODO: maybe this isn't a problem anymore
 	# punct_point=`grep -nH ' real pilcrow' $PUNCTLEXC | cut -f2 -d':'`;
 	# head -n $punct_point $PUNCTLEXC >> $OUTFILE;
 	
 	out_ = '\n'.join([a for a in output_])
-	OUTFILE = out_dir + OUTFILE
+	OUTFILE = COBJ.OUTPUT_DIR + OUTFILE
 	
 	with open(OUTFILE, 'w') as F:
 		F.write(out_)
-	
+		
 	print '... Done.'
 	print 'Saved to %s.\n' % OUTFILE
 	return True
+	
 
 
-### Begin command-line and input handling
-
-# TODO: always use cfg
-default_values = '\n'
-default_values += "\t--target-lang:   %s\n" % DEFAULTS.langs[0].LANG1
-default_values += "\t--source-lang:   %s\n" % DEFAULTS.langs[0].LANG2
-default_values += "\t--proc-lang:     %s\n" % DEFAULTS.langs[0].PRODUCE_LEXC_FOR
-default_values += "\t--gthome:        %s\n" % DEFAULTS.langs[0].GTHOME
-default_values += "\t--gt-prefix:     %s\n" % DEFAULTS.langs[0].GTPFX
-default_values += "\t--output-dir:    %s\n" % DEFAULTS.langs[0].OUTPUT_DIR
-default_values += "\n\tDefault proc dir: %s\n" % "%s%s/%s/src/" % (DEFAULTS.langs[0].GTHOME, DEFAULTS.langs[0].GTPFX, DEFAULTS.langs[0].PRODUCE_LEXC_FOR)
-
+#########
+#
+# Begin command-line and input handling
+#
+##########
 
 help_message = '''\n\nOPTIONS:
-	-t/--target-lang	
-	-s/--source-lang	
-	-p/--proc-lang	Language to process lexc files for
-	-g/--gthome	Giellatekno source repository
-	-x/--gt-prefix	Giellatekno subdirectory, e.g., gt, kt.
-	-o/--output-dir	Location to output to. Default is one up from /dev/
-	
+	--config=FILE 	Specify the path to another config file.
+	--create=FILE	Create a default config file at FILE.
 DEFAULT VALUES IN FILE:
 '''
 
-help_message += default_values
+# Describe structure of default conf fig.
+help_message += """
+"""
 
 help_message += """
-Currently which -lex.txt files are processed is specified in a somewhat complicated way, however
-if one file is missing, then the file skips and processing should continue anyway.  It is likely
-that something else  will be needed for this,  since the .lexc files programmed in  are specific
-to sme. 
+Currently which *-lex.txt files are processed is specified in a somewhat complicated way, however
+if one file is missing, then the file skips and processing should continue anyway.
 """
 
 class Usage(Exception):
 	def __init__(self, msg):
 		self.msg = msg
 
-# make_lexc(TL=LANG1, SL=LANG2, proc_lang=PRODUCE_LEXC_FOR, gthome=GTHOME, gtpfx=GTPFX, out_dir=OUTPUT_DIR):
-
 def run_with_conf(C):
 	# TODO: if there's a failure here it's probably that the config file is screwed up
 	# Need to validate some.
-	
-	for lang in C.langs:
-		if lang.LEXTYPE == "hlexc":
-			proc_func = make_hlexc
-		else:
-			proc_func = make_lexc
-		
-		try:
-			proc_func(
-				lang.LANG1, 
-				lang.LANG2, 
-				lang.PRODUCE_LEXC_FOR,
-				lang.OUTPUT_DIR,
-				lang
-			)
-		except LTExpError:
+	# Wrapping here is for better ease at error handling.
+	try:
+		for lang in C.langs:
+			try:
+				make_lexc(
+					lang
+				)
+			except LTExpError:
+				return 2
+	except AttributeError:
+		if type(C) in [type(Config), type(Configs)]:
+			print "Config file could not be read or was malformed."
 			return 2
 		
 	return True
 
 def main(argv=None):
-	
-	# Set commandline defaults
-	cmd_tl            = DEFAULTS.langs[0].LANG1
-	cmd_sl            = DEFAULTS.langs[0].LANG2
-	cmd_proc_lang     = DEFAULTS.langs[0].PRODUCE_LEXC_FOR
-	cmd_gthome        = DEFAULTS.langs[0].GTHOME
-	cmd_gtpfx         = DEFAULTS.langs[0].GTPFX
-	cmd_outdir        = DEFAULTS.langs[0].OUTPUT_DIR
-	
 	if argv is None:
 		argv = sys.argv
 	try:
 		try:
-			opts, args = getopt.getopt(argv[1:], "hctspgxo:v", ["help", "config=", "target-lang=", "source-lang=", "proc-lang=", "gthome=", "gt-prefix=", "output-dir="])
+			opts, args = getopt.getopt(argv[1:], "hcx:v", ["help", "config=", "create="])
 		except getopt.error, msg:
 			raise Usage(msg)
 			
@@ -633,30 +538,18 @@ def main(argv=None):
 					verbose = True
 				if option in ("-h", "--help"):
 					raise Usage(help_message)
+				if option in ("-x", "--create"):
+					load_conf(value, create=True)
+					return 2
 				if option in ("-c", "--config"):
 					fn = value
 					XC = load_conf(fname=fn)
 					run_with_conf(XC)
-					return 2					
-				if option in ("-t", "--target-lang"):
-					cmd_tl = value
-				if option in ("-s", "--source-lang"):
-					cmd_sl = value
-				if option in ("-p", "--proc-lang"):
-					cmd_proc_lang = value
-				if option in ("-g", "--gthome"):
-					cmd_gthome = value
-				if option in ("-x", "--gt-prefix"):
-					cmd_gtpfx = value
-				if option in ("-o", "--output-dir"):
-					cmd_outdir = value
-		
-				make_lexc(cmd_tl, cmd_sl, cmd_proc_lang, cmd_gtpfx, cmd_gthome, cmd_outdir)
+					return 2
 		
 	
 	except Usage, err:
 		print >> sys.stderr, sys.argv[0].split("/")[-1] + ": " + str(err.msg)
-		print >> sys.stderr, "For help use --help.\n"
 		return 2
 
 
