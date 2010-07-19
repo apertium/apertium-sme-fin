@@ -1,7 +1,6 @@
 #!/usr/bin/python2.6
 # encoding: utf-8
 
-#!/opt/local/incpy/python.exe
 
 import os, sys, getopt
 import subprocess as sp
@@ -44,6 +43,7 @@ class Config(object):
 		self.BIDIX_SIDE = 'R' # or L
 		self.HEADER = "sme-lex.txt"
 		self.LEXTYPE = 'hlexc'
+		self.REMOVE_EMPTY_LEXICONS = 'no'
 		self.SRC = self.GTHOME + '/' + self.GTPFX + '/' + self.PRODUCE_LEXC_FOR + '/src/'
 		self.files = [
 			["verb-sme-lex.txt", 	'clip', 	{'pos_filter': 'V', 'split': 'VerbRoot\n'}],
@@ -78,6 +78,7 @@ class Config(object):
 			self.OUTPUT_DIR = '.'
 			self.GTPFX = ''
 			self.LEXTYPE = ''
+			self.REMOVE_EMPTY_LEXICONS = ''
 		
 			self.SRC = ''
 		
@@ -103,7 +104,8 @@ class Config(object):
 			"PRODUCE_LEXC_FOR": self.PRODUCE_LEXC_FOR,
 			"files": self.files,
 			"SRC": self.SRC,
-			"LEXTYPE": self.LEXTYPE
+			"LEXTYPE": self.LEXTYPE,
+			"REMOVE_EMPTY_LEXICONS": self.REMOVE_EMPTY_LEXICONS
 		}
 		return D
 	
@@ -174,8 +176,7 @@ def load_conf(fname, create=False):
 				for item in D:
 					new = Config()
 					new.read_from_dict(item)
-					new_confs.langs.append(new)
-			# print CONF.langs		
+					new_confs.langs.append(new)	
 			print "Loaded config from %s" % F.name
 			
 	DEFAULTS = False
@@ -250,7 +251,7 @@ def cat_file(fname, ret_type=False, exclude=False):
 		return data
 
 
-def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False, debug=False, side=None):
+def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False, debug=False, side=None, remove_empty_lex=False):
 	"""
 		Given a pattern (e.g., V, N, N><Prop), extract matching intersecting words between lt-expanded data and lex file (fname).
 		
@@ -379,6 +380,17 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	# trim.sort()
 	trim = '\n'.join(trim)
 	
+	if hlexc and remove_empty_lex:
+		# I have to do annoying things to remove empty lexicons
+		strip_comments = re.sub(r'\!(.*)(\n)?', '', trim)
+		fix_whitespace = re.sub(r'\n\n', '\n', strip_comments)
+		
+		lexica = re.sub(r'(\nLEXICON(.*)|\n)*(?P<lex>\nLEXICON(.*))\n(?!LEXICON)', '\g<lex>\n', fix_whitespace)
+		lexica2 = re.sub(r'(\nLEXICON(.*)\n)\n*$', '', lexica)
+		lexica3 = re.sub(r'(LEXICON(.*))(?P<lex>\nLEXICON(.*))', '\g<lex>\n', lexica2)
+		
+		trim = lexica3
+	
 	if no_header:
 		return '\n', "%s\n%s" % (point, trim)
 	else:
@@ -407,6 +419,11 @@ def make_lexc(COBJ=False):
 	
 	STEPS = COBJ.files
 	
+	if COBJ.REMOVE_EMPTY_LEXICONS:
+		REMOVE_EMPTY = COBJ.REMOVE_EMPTY_LEXICONS
+	else:
+		REMOVE_EMPTY = False
+	
 	if COBJ.BIDIX_SIDE == 'R':
 		BIDIX_SIDE = 'right'
 	elif COBJ.BIDIX_SIDE == 'L':
@@ -432,7 +449,7 @@ def make_lexc(COBJ=False):
 	for step in STEPS:
 		fname, action = SRC + step[0], step[1]
 		
-		if len(step) == 3:		opts = dict([(str(a), str(b)) for a, b in step[2].items()]) ; opts['side'] = BIDIX_SIDE
+		if len(step) == 3:		opts = dict([(str(a), str(b)) for a, b in step[2].items()]) ; opts['side'] = BIDIX_SIDE ; opts['remove_empty_lex'] = REMOVE_EMPTY
 		else:					opts = None
 		
 		try:
