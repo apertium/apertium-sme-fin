@@ -777,3 +777,43 @@ luokseni / luoksesi - same problem
 
 Need Po tags in omorfi. Can chunk this and "minun kanssa"/like things as Adv later. Need @Advl tag for Po w/o Px tags in CG?
 
+Can't remember what the problem really is when apertium ends up with a syntactic analysis that isn't returned by CG. Checked punctuation and everthing.
+
+	8 Sitten hän laski luotansa kyyhkysen nähdäksensä, oliko vesi  vähentynyt maan pinnalta.
+
+According to CG luotansa is a Po
+
+	"<8>"
+		"8" Num Card Sg Nom 
+	"<Sitten>"
+		"sitten" Adv @ADVL 
+	"<hän>"
+		"hän" Pron Pers Sg Nom @SUBJ→ 
+	"<laski>"
+		"laskea" V Act Ind Prt Sg3 
+	"<luotansa>"
+		"luota" Po Pl3 @ADVL 
+	"<kyyhkysen>"
+		"kyyhkynen" N Sg Gen @←OBJ 
+	"<nähdäksensä>"
+		"nähdä" V Act Inf1 Sg Tra Pl3 @-FMAINV 
+	"<,>"
+		"," Punct CLB 
+	"<oliko>"
+		"olla" V Act Ind Prt Sg3 Qst/ko @+FAUXV 
+	"<vesi>"
+		"vesi" N Sg Nom @←SPRED 
+	"<vähentynyt>"
+		"vähentyä" V Act PrfPrc Pos Sg Nom @→N 
+	"<maan>"
+		"maa" N Sg Gen @→P 
+	"<pinnalta>"
+		"pinnalta" Po 
+	"<.>"
+		"." Punct CLB 
+
+In tagger it is an Adv
+
+	^8/8<Num><Card><Sg><Nom>$ ^Sitten/Sitten<Adv><@ADVL>$ ^hän/hän<Pron><Pers><Sg><Nom><@SUBJ→>$ ^laski/laskea<V><Act><Ind><Prt><Sg3>$ ^luotansa/luota<Adv><PxPl3><@ADVL>/luota<Adv><PxSg3><@ADVL>$ ^kyyhkysen/*kyyhkysen$ ^nähdäksensä/nähdä<V><Act><Inf1><Sg><Tra><PxPl3><@-FMAINV>/nähdä<V><Act><Inf1><Sg><Tra><PxSg3><@-FMAINV>$^,/,<Punct><CLB>$ ^oliko/olla<V><Act><Ind><Prt><Sg3><Qst_ko><@+FAUXV>$ ^vesi/vesi<N><Sg><Nom><@←SPRED>$  ^vähentynyt/*vähentynyt$ ^maan/maa<N><Sg><Gen><@→P>$ ^pinnalta/pinnalta<Po>$^../..<Punct><CLB>$
+
+
