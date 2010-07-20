@@ -1554,6 +1554,22 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </call-macro>
           </when>
         </choose>
+		
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" side="tl" part="nbr"/>
+						<lit-tag v="Pl"/>
+					</equal>					
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="nbr"/>
+					<lit-tag v="Pl"/>
+				</let>
+			</when>
+		</choose>
+		
   		<out>
           <chunk name="attr_nom1" case="caseFirstWord">
             <tags>
