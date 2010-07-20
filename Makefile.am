@@ -12,12 +12,13 @@ BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON = \
 	$(PREFIX2).autogen.hfst \
-	$(PREFIX1).automorf.hfst \
+	$(PREFIX2).automorf.hfst \
 	$(PREFIX2).rlx.bin \
 	$(PREFIX2).autobil.bin \
 	$(PREFIX2).t1x.bin \
 	$(PREFIX2).t2x.bin \
 	$(PREFIX2).t3x.bin \
+	$(PREFIX1).automorf.hfst \
 	$(PREFIX2).mode
 
 ##
@@ -31,6 +32,15 @@ TARGETS_COMMON = \
 .deps/$(LANG1).lexc.hfst: $(BASENAME).$(LANG1).lexc
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-lexc $(BASENAME).$(LANG1).lexc -o $@
+
+.deps/$(LANG2).twol.hfst: $(BASENAME).$(LANG2).twol
+	if [ ! -d .deps ]; then mkdir .deps; fi
+	hfst-twolc -r -i $(BASENAME).$(LANG2).twol -o $@
+
+.deps/$(LANG2).lexc.hfst: $(BASENAME).$(LANG2).lexc
+	if [ ! -d .deps ]; then mkdir .deps; fi
+	hfst-lexc $(BASENAME).$(LANG2).lexc -o $@
+
 
 #
 # These are scripts that remove unwanted tags
@@ -46,6 +56,25 @@ TARGETS_COMMON = \
 .deps/xfst2apertium.hashtags.twol.hfst: dev/xfst2apertium.hashtags.twol
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-twolc -r -i dev/xfst2apertium.hashtags.twol -o $@
+
+#
+# This is a generator 'apertium-sme-smj.fin.hfst'
+#
+.deps/$(BASENAME).$(LANG2).hfst: .deps/$(LANG2).lexc.hfst .deps/$(LANG2).twol.hfst dev/omorfi2apertium.relabel 
+	if [ ! -d .deps ]; then mkdir .deps; fi
+	hfst-compose-intersect -l .deps/$(LANG2).lexc.hfst .deps/$(LANG2).twol.hfst -o $@
+
+# apertium-sme-fin , fin-sme , fin
+.deps/$(PREFIX2).automorf.hfst: .deps/$(BASENAME).$(LANG2).hfst dev/omorfi2apertium.relabel
+	if [ ! -d .deps ]; then mkdir .deps; fi
+	hfst-invert .deps/$(BASENAME).$(LANG2).hfst -o .deps/$(PREFIX2).automorf.hfst.tmp
+	hfst-substitute -F dev/omorfi2apertium.relabel -i .deps/$(PREFIX2).automorf.hfst.tmp -o .deps/$(PREFIX2).automorf.hfst
+
+$(PREFIX2).automorf.hfst: .deps/$(PREFIX2).automorf.hfst
+	hfst-lookup-optimize .deps/$(PREFIX2).automorf.hfst -o $@
+
+$(PREFIX1).autogen.hfst: .deps/$(PREFIX1).automorf.hfst
+	hfst-lookup-optimize .deps/$(PREFIX1).autogen.hfst -o $@
 
 #
 # This is a generator 'apertium-sme-smj.smj.hfst'
