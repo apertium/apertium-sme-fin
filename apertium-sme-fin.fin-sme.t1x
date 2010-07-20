@@ -353,7 +353,7 @@
   	  </def-list>
   </section-def-lists>
   <section-def-macros>
-	<def-macro n="nominal_case_number" npar="1" c="Set cases for pronouns and nouns">
+    <def-macro n="nominal_case_number" npar="1" c="Set cases for pronouns and nouns">
         <call-macro n="set_loc_loc1">
           <with-param pos="1"/>
         </call-macro>
