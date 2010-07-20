@@ -1505,6 +1505,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       </pattern>
       <action>
 		<call-macro n="nominal_case_number">
+			<with-param pos="1" />
+		</call-macro>
+		<call-macro n="nominal_case_number">
 			<with-param pos="2" />
 		</call-macro>
 		<call-macro n="set_comitative_number">
