@@ -185,7 +185,7 @@
 	<e><p><l>gasku<s n="Po"/></l><r>keskellä<s n="Po"/></r></p></e>
 	<e><p><l>geahčai<s n="Po"/></l><r>luo<s n="Po"/></r></p></e>
 	<e><p><l>geahčai<s n="Po"/></l><r>luokse<s n="Po"/></r></p></e>
-	<e><p><l>geahčen<s n="Po"/></l><r>luota<s n="Po"/></r></p></e>
+	<e srl="2"><p><l>geahčen<s n="Po"/></l><r>luota<s n="Po"/></r></p></e>
 	<e><p><l>geahčen<s n="Po"/></l><r>päästä<s n="Po"/></r></p></e>
 	<e><p><l>geažes<s n="Po"/></l><r>kuluttua<s n="Po"/></r></p></e>
 	<e><p><l>geažil<s n="Po"/></l><r>johdosta<s n="Po"/></r></p></e>
@@ -244,8 +244,8 @@
     <e><p><l>vuollái<s n="Po"/></l><r>kohden<s n="Po"/></r></p></e>
     <e><p><l>vuostá<s n="Po"/></l><r>vastaan<s n="Po"/></r></p></e>
     <e><p><l>áigge<s n="Po"/></l><r>aikana<s n="Po"/></r></p></e>
-   <e><p><l>duohken<s n="Po"/></l><r>luona<s n="Po"/></r></p></e>
-   <e><p><l>duohken<s n="Po"/></l><r>luota<s n="Po"/></r></p></e>
+   <e srl="1"><p><l>duohken<s n="Po"/></l><r>luona<s n="Po"/></r></p></e>
+   <e srl="1"><p><l>duohken<s n="Po"/></l><r>luota<s n="Po"/></r></p></e>
    <e><p><l>gaskii<s n="Po"/></l><r>välille<s n="Po"/></r></p></e>
    <e><p><l>guovdu<s n="Po"/></l><r>kohtaan<s n="Po"/></r></p></e>
    <e><p><l>lahka<s n="Po"/></l><r>lähellä<s n="Po"/></r></p></e>	
@@ -261,6 +261,7 @@
 	<!-- Po:Pr -->
 	<e><p><l>buohta<s n="Po"/></l><r>vastapäätä<s n="Pr"/></r></p></e>
 	<e><p><l>haga<s n="Po"/></l><r>ilman<s n="Pr"/></r></p></e>
+    <e><p><l>ala<s n="Po"/></l><r>yli<s n="Pr"/></r></p></e>
 	<!-- Pr:Pr -->
    <e><p><l>lahka<s n="Pr"/></l><r>lähellä<s n="Pr"/></r></p></e>
 	<e><p><l>birra<s n="Pr"/></l><r>koskien<s n="Pr"/></r></p></e>
@@ -269,6 +270,8 @@
 	<!-- Adv:Po -->
 	<e><p><l>váile<s n="Adv"/></l><r>vailla<s n="Po"/></r></p></e>
 	<e><p><l>maŋos<s n="Adv"/></l><r>taakse<s n="Po"/></r></p></e>
+	<!-- <e><p><l>luhtte<s n="Po"/></l><r>luona<s n="Adv"/></r></p></e>
+	<e><p><l>luhtte<s n="Po"/></l><r>luota<s n="Adv"/></r></p></e> --> <!-- This was a test, if you don't know what these lines are, delete. -->
 	<e><p><l>maŋábealde<s n="Adv"/></l><r>taitse<s n="Po"/></r></p></e>
 
 	<!-- End prepositions/postpositions -->

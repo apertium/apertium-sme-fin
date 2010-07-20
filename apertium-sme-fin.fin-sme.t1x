@@ -353,7 +353,7 @@
   	  </def-list>
   </section-def-lists>
   <section-def-macros>
-    <def-macro n="nominal_case_number" npar="1" c="Set cases for pronouns and nouns">
+	<def-macro n="nominal_case_number" npar="1" c="Set cases for pronouns and nouns">
         <call-macro n="set_loc_loc1">
           <with-param pos="1"/>
         </call-macro>
@@ -1570,6 +1570,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 			</when>
 		</choose>
 		
+
   		<out>
           <chunk name="attr_nom1" case="caseFirstWord">
             <tags>
@@ -1941,6 +1942,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       </action>
     </rule>
     <rule comment="REGLA: ADVERB">
+	  <!-- This also handles cases where sl:Adv and tl:Po, and although this results in a Po tag, the chunk should still be Adv. -->
       <pattern>
         <pattern-item n="adv"/>
       </pattern>
@@ -1954,7 +1956,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_adv"/>
-              <clip pos="1" side="tl" part="lemq"/>
+		 	  <clip pos="1" side="tl" part="a_pxprs"/>
+			  <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
@@ -1976,6 +1979,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
                 <lu>
                   <clip pos="1" side="tl" part="lemh"/>
                   <clip pos="1" side="tl" part="a_adp"/>
+			 	  <clip pos="1" side="tl" part="a_pxprs"/>
                   <clip pos="1" side="tl" part="lemq"/>
                 </lu>
               </chunk>

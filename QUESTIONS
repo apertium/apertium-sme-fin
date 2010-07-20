@@ -754,4 +754,26 @@ vuoiŋŋasteaset - vuoiŋŋastis
 ii leat -  eai leat suomagillii
 
 
+# New issues with including finnish lexc
+
+lääketiede -> dálkkasdieđa used to work, but now it's starred.
+
+## @
+
+5 nyt <Pcle>
+		- Adv in bidix, should add Adv in omorfi
+
+5 eikä
+
+4 luona		
+	luonasi
+	luonani		both are adv, but po in sme 
+		luhtán luhtte+Po+PxSg1
+	
+	- tweaked adv rule to handle Po/Adv, but maintain Adv chunk
+
+kanssani / kanssasi - should also have Adv if this Adv analysis is correct, yet omorfi had Adp.
+luokseni / luoksesi - same problem
+
+Need Po tags in omorfi. Can chunk this and "minun kanssa"/like things as Adv later. Need @Advl tag for Po w/o Px tags in CG?
 
