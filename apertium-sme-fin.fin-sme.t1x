@@ -270,6 +270,17 @@
     <def-attr n="a_qst">
       <attr-item tags="Qst"/>
     </def-attr>
+	<def-attr n="a_foc">
+		<!-- Fin -->
+		<attr-item tags="Foc_han"/>
+		<attr-item tags="Foc_kin"/>
+		<attr-item tags="Foc_kaan"/>
+		<attr-item tags="Foc_pa"/>
+		<attr-item tags="Foc_s"/>
+		<!-- Sme -->
+		<attr-item tags="Foc_ge"/>
+		<attr-item tags="Foc_naj"/>
+	</def-attr>
     <def-attr n="a_tense">
       <attr-item tags="Prs"/>
       <attr-item tags="Prt"/>
@@ -442,23 +453,30 @@
         </otherwise>
       </choose>
 	</def-macro>
-    <def-macro n="set_qst_mark1" npar="1">
-      <choose>
-        <when>
-          <test>
-            <equal>
-              <clip pos="1" side="sl" part="a_qst"/>
-              <lit-tag v="Qst_ko"/>
-            </equal>
-          </test>
-          <let>
-            <clip pos="1" side="tl" part="a_qst"/>
-            <lit-tag v="Qst"/>
-          </let>
-        </when>
-      </choose>
-    </def-macro>
-    
+     
+	<def-macro n="set_foc_particles" npar="1" c="arg.1: a word">
+		<choose>
+			<when>
+				<test>
+					<or>
+						<equal>
+							<clip pos="1" side="sl" part="a_foc"/>
+							<lit-tag v="Foc_kin"/>
+						</equal>
+						<equal>
+							<clip pos="1" side="sl" part="a_foc"/>
+							<lit-tag v="Foc_kaan"/>
+						</equal>
+					</or>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="a_foc"/>
+					<lit-tag v="Foc_ge"/>
+				</let>
+			</when>
+		</choose>
+	</def-macro>
+
     <def-macro n="set_loc_loc1" npar="1" c="arg.1: noun. Change Ela/Ade/Ine/Abl into Loc">
       <choose>
         <when>
@@ -1107,9 +1125,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
-        <!-- <call-macro n="set_qst_mark1">
-          <with-param pos="1"/>
-        </call-macro> --> <!-- changed tag in relabel -->
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
@@ -1143,6 +1158,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="verb"/>
       </pattern>
       <action>
+		<call-macro n="set_foc_particles">
+			<with-param pos="1"/>
+		</call-macro>
         <choose>
           <when>
             <test>
@@ -1163,9 +1181,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
-        <call-macro n="set_qst_mark1">
-          <with-param pos="1"/>
-        </call-macro>
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
@@ -1183,6 +1198,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <var n="cur_verb_tense"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_neg"/>
+			  <clip pos="1" side="tl" part="a_foc"/>
               <clip pos="1" side="tl" part="a_qst"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -1283,6 +1299,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 		<call-macro n="nominal_case_number">
 			<with-param pos="1"/>
 		</call-macro>
+		<call-macro n="set_foc_particles">
+			<with-param pos="1"/>
+		</call-macro>
         <out>
           <chunk name="nom" case="caseFirstWord">
             <tags>
@@ -1298,6 +1317,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
+              <clip pos="1" side="tl" part="a_foc"/>
+              <clip pos="1" side="tl" part="a_qst"/>
 			  <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -1315,6 +1336,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 		<call-macro n="nominal_case_number">
 			<with-param pos="2"/>
 		</call-macro>
+		<call-macro n="set_foc_particles">
+			<with-param pos="2"/>
+		</call-macro>
+		
 		
         <choose> <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
 			<when>
@@ -1376,6 +1401,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
+              <clip pos="2" side="tl" part="a_qst"/>
+              <clip pos="2" side="tl" part="a_foc"/>
 			  <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -1391,6 +1418,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 		<call-macro n="nominal_case_number">
 			<with-param pos="2" />
 		</call-macro>
+		<call-macro n="set_foc_particles">
+			<with-param pos="2"/>
+		</call-macro>
+		
 		
 		<choose>  <!-- This and following choose rule mikä talo -> mii dáluid --> 
 			<when>
@@ -1491,6 +1522,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
+              <clip pos="2" side="tl" part="a_qst"/>
+              <clip pos="2" side="tl" part="a_foc"/>
 			  <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -1512,6 +1545,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 		<call-macro n="set_comitative_number">
 			<with-param pos="1" />
 		</call-macro>
+		<call-macro n="set_foc_particles">
+			<with-param pos="2"/>
+		</call-macro>
+		
         <choose> <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
 			<when>
 				<test>
@@ -1594,6 +1631,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
+              <clip pos="2" side="tl" part="a_qst"/>
+              <clip pos="2" side="tl" part="a_foc"/>
 			  <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -1610,6 +1649,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 		<call-macro n="nominal_case_number">
 			<with-param pos="2"/>
 		</call-macro>
+		<call-macro n="set_foc_particles">
+			<with-param pos="2"/>
+		</call-macro>
+		
 	  <choose>
 	  	<when>
 	  		<test>
@@ -1653,6 +1696,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 			  <clip pos="2" side="tl" part="nbr"/>
   			  <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
+              <clip pos="2" side="tl" part="a_qst"/>
+              <clip pos="2" side="tl" part="a_foc"/>
   			  <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -1800,6 +1845,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_par_gen1">
           <with-param pos="1"/>
         </call-macro>
+		<call-macro n="set_foc_particles">
+			<with-param pos="2"/>
+		</call-macro>
+
         <choose><!-- Strip number on attr if essive -->
           <when>
             <test>
@@ -1869,6 +1918,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="2" side="tl" part="a_nom"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
+              <clip pos="2" side="tl" part="a_qst"/>
+              <clip pos="2" side="tl" part="a_foc"/>
               <!--<clip pos="1" side="tl" part="a_pxprs"/>-->
               <!-- fin numerals have this, sme ones don't -->
               <clip pos="2" side="tl" part="lemq"/>
