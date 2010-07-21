@@ -26,7 +26,7 @@
 [CLIT=KAAN]	<Foc_kaan>
 [CLIT=KA]	<Foc_ka>
 [CLIT=KIN]	<Foc_kin>
-[CLIT=KO]	<Qst_ko>
+[CLIT=KO]	<Qst>
 [CLIT=PA]	<Foc_pa>
 [CLIT=S]	<Foc_s>
 [CMP=CMP]	<Comp>

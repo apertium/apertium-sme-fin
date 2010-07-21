@@ -269,7 +269,6 @@
     </def-attr>
     <def-attr n="a_qst">
       <attr-item tags="Qst"/>
-      <attr-item tags="Qst_ko"/>
     </def-attr>
     <def-attr n="a_tense">
       <attr-item tags="Prs"/>
@@ -1108,9 +1107,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
-        <call-macro n="set_qst_mark1">
+        <!-- <call-macro n="set_qst_mark1">
           <with-param pos="1"/>
-        </call-macro>
+        </call-macro> --> <!-- changed tag in relabel -->
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
@@ -1971,9 +1970,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       </pattern>
       <action>
             <out>
-              <chunk name="adp" case="caseFirstWord">
+              <chunk name="Po" case="caseFirstWord">
                 <tags>
-                  <tag><lit-tag v="ADP"/></tag>
+                  <tag><lit-tag v="PO"/></tag>
                   <tag><clip pos="1" side="sl" part="syntag"/></tag>
                 </tags>
                 <lu>
@@ -1986,6 +1985,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </out> 
       </action>
     </rule>
+	
     <rule comment="REGLA: PREPOSITIONS">
       <pattern>
         <pattern-item n="prepos"/>
