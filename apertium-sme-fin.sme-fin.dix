@@ -563,6 +563,15 @@
     <!-- <e srl="1"><p><l>moai<s n="Pron"/><s n="Pers" /><s n="Du1" /></l><r>me<s n="Pron"/></r></p></e>
     <e srl="1"><p><l>doai<s n="Pron"/><s n="Pers" /><s n="Du2" /></l><r>te<s n="Pron"/></r></p></e>
     <e srl="1"><p><l>soai<s n="Pron"/><s n="Pers" /><s n="Du3" /></l><r>he<s n="Pron"/></r></p></e> -->
+
+
+	<!-- Demonstratives -->
+	<!-- ! Adv: Pron+Dem -->
+	
+	<e><p><l>dáppe<s n="Adv"/></l><r>täällä<s n="Pron"/><s n="Dem"/></r></p></e>
+	<e><p><l>doppe<s n="Adv"/></l><r>siellä<s n="Pron"/><s n="Dem"/></r></p></e>
+	<e><p><l>duoppe<s n="Adv"/></l><r>tuolla<s n="Pron"/><s n="Dem"/></r></p></e>
+	
 	<!-- end pronouns -->
     <!-- Numerals -->
 	
@@ -607,7 +616,9 @@
     <e slr="1"><p><l>viisodat<s n="N"/></l><r>järkeisoppi<s n="N"/></r></p></e>
     <e slr="1"><p><l>šaddu<s n="N"/></l><r>istutus<s n="N"/></r></p></e>
     <e slr="2"><p><l>rábát<s n="N"/></l><r>tahdas<s n="N"/></r></p></e>
-
+	
+	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/></l><r>kukaan<s n="Pron"/><s n="Qnt"/></r></p></e>
+	
 	
 	<!-- <e><p><l>eden<s n="N"/></l><r>eeden<s n="N"/></r></p></e> --> <!-- 'an Eden' / 'a paradise' -->
 
@@ -2843,9 +2854,15 @@
 	<e><p><l>dolla<s n="N"/></l><r>nuotio<s n="N"/></r></p></e>
 	<e><p><l>dolla<s n="N"/></l><r>palo<s n="N"/></r></p></e>
 	<e><p><l>dollameaštár<s n="N"/></l><r>palomestari<s n="N"/></r></p></e>
+	<e><p><l>maŋis<j/>boahtti<s n="N"/></l><r>jälkeläinen<s n="N"/></r></p></e>
+	
+	<e><p><l>duvvá<s n="N"/></l><r>kyyhkynen<s n="N"/></r></p></e>
+	
+	
 	
 	<!-- languages -->
 	<e><p><l>suomagiella<s n="N"/></l><r>suomi<s n="N"/></r></p></e>
+	
 
 	
 	<!-- nouns end -->
@@ -3776,6 +3793,7 @@
 	<e><p><l>dagahit<s n="V"/><s n="TV"/></l><r>aiheuttaa<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>deattuhit<s n="V"/><s n="TV"/></l><r>korostaa<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>duššadit<s n="V"/><s n="TV"/></l><r>hävittää<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>duššadit<s n="V"/><s n="TV"/></l><r>tuhota<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>fuobmát<s n="V"/><s n="TV"/></l><r>huomata<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>garrudit<s n="V"/><s n="TV"/></l><r>kirota<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>gohččut<s n="V"/><s n="TV"/></l><r>käskeä<s n="V"/></r></p><par n="V_V"/></e>

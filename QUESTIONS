@@ -758,6 +758,10 @@ ii leat -  eai leat suomagillii
 
 lääketiede -> dálkkasdieđa used to work, but now it's starred.
 
+## Gotchas:
+
+ + If CG analysis doesn't match up with that provided by apertium-tagger, problem is that our trimmed lexc files will result in more unknown words, which results in more unknown analyses. If CG analysis is fine, it will be fine in apertium when all words have been added.
+
 ## Working through the bible again for missing closed classes and checking generation errors.
 
 ## @
@@ -781,84 +785,7 @@ Need Po tags in omorfi. Can chunk this and "minun kanssa"/like things as Adv lat
 
 Can't remember what the problem really is when apertium ends up with a syntactic analysis that isn't returned by CG. Checked punctuation and everthing.
 
-	8 Sitten hän laski luotansa kyyhkysen nähdäksensä, oliko vesi  vähentynyt maan pinnalta.
 
-According to CG luotansa is a Po
-
-	"<8>"
-		"8" Num Card Sg Nom 
-	"<Sitten>"
-		"sitten" Adv @ADVL 
-	"<hän>"
-		"hän" Pron Pers Sg Nom @SUBJ→ 
-	"<laski>"
-		"laskea" V Act Ind Prt Sg3 
-	"<luotansa>"
-		"luota" Po Pl3 @ADVL 
-	"<kyyhkysen>"
-		"kyyhkynen" N Sg Gen @←OBJ 
-	"<nähdäksensä>"
-		"nähdä" V Act Inf1 Sg Tra Pl3 @-FMAINV 
-	"<,>"
-		"," Punct CLB 
-	"<oliko>"
-		"olla" V Act Ind Prt Sg3 Qst/ko @+FAUXV 
-	"<vesi>"
-		"vesi" N Sg Nom @←SPRED 
-	"<vähentynyt>"
-		"vähentyä" V Act PrfPrc Pos Sg Nom @→N 
-	"<maan>"
-		"maa" N Sg Gen @→P 
-	"<pinnalta>"
-		"pinnalta" Po 
-	"<.>"
-		"." Punct CLB 
-
-In tagger it is an Adv
-
-	^8/8<Num><Card><Sg><Nom>$ ^Sitten/Sitten<Adv><@ADVL>$ ^hän/hän<Pron><Pers><Sg><Nom><@SUBJ→>$ ^laski/laskea<V><Act><Ind><Prt><Sg3>$ ^luotansa/luota<Adv><PxPl3><@ADVL>/luota<Adv><PxSg3><@ADVL>$ ^kyyhkysen/*kyyhkysen$ ^nähdäksensä/nähdä<V><Act><Inf1><Sg><Tra><PxPl3><@-FMAINV>/nähdä<V><Act><Inf1><Sg><Tra><PxSg3><@-FMAINV>$^,/,<Punct><CLB>$ ^oliko/olla<V><Act><Ind><Prt><Sg3><Qst_ko><@+FAUXV>$ ^vesi/vesi<N><Sg><Nom><@←SPRED>$  ^vähentynyt/*vähentynyt$ ^maan/maa<N><Sg><Gen><@→P>$ ^pinnalta/pinnalta<Po>$^../..<Punct><CLB>$
-
-
-More... 
-
-Kanssa<Pcle> reading is not removed, and thus fails:
-
-$ echo "Katso, minä teen liiton teidän ja teidän jälkeläistenne kanssa" | fin-sme-tagger
-^Katso/Katsoa<V><Act><Imprt><Sg2>/Katsoa<V><Ind><Prs><ConNeg>$^,/,<Punct><CLB>$ ^minä/minä<Pron><Pers><Sg><Nom><@SUBJ→>$ ^teen/tehdä<V><Act><Ind><Prs><Sg1>$ ^liiton/liitto<N><Sg><Gen>$ ^teidän/sinä<Pron><Pers><Pl><Gen><@←OBJ>$ ^ja/ja<CC><@CNP>$ ^teidän/sinä<Pron><Pers><Pl><Gen><@←OBJ>$ ^jälkeläistenne/*jälkeläistenne$ ^kanssa/kanssa<Pcle><@PCLE>/kanssa<Po>$^./.<Punct><CLB>$
-
-	VISL CG-3 Disambiguator version 0.9.7.6010
-	Codepage: default UTF-8, input UTF-8, output UTF-8, grammar UTF-8
-	Parsing grammar took 0.106397 seconds.
-	Grammar has 6 sections, 0 templates, 1332 rules, 1282 sets, 721 c-tags, 1326 s-tags.
-	"<Katso>"
-		"katsoa" V Ind Prs ConNeg 
-		"katsoa" V Act Imprt Sg2 
-	"<,>"
-		"," Punct CLB ADD:730 
-	"<minä>"
-		"minä" Pron Pers Sg Nom @SUBJ→ SELECT:1347 MAP:2433 
-	;	"mikä" Pron Interr Sg Ess SELECT:1347 
-	;	"mikä" Pron Rel Sg Ess CLB ADD:739 SELECT:1347 
-	"<teen>"
-		"tehdä" V Act Ind Prs Sg1 SELECT:763 
-	;	"tee" N Sg Gen SELECT:763 
-	"<liiton>"
-		"liitto" N Sg Gen 
-	"<teidän>"
-		"sinä" Pron Pers Pl Gen @←OBJ MAP:2448 
-	"<ja>"
-		"ja" Conj CC @CNP MAP:2406 
-	;	"ja" Pcle REMOVE:754 
-	"<teidän>"
-		"sinä" Pron Pers Pl Gen @→N MAP:2651 
-	"<jälkeläistenne>"
-		"jälkeläinen" N Pl Gen Pl2 @→P MAP:2620 
-	"<kanssa>"
-		"kanssa" Po SELECT:1627 
-	;	"kanssa" Adp SELECT:1627 
-	;	"kanssa" Pcle SELECT:1627
-
-Also @PCLE tag pops up in the tagger, but isn't in the CG analysis
 
 ## Sisa/siskkil
 

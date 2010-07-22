@@ -43,8 +43,8 @@ def split_output(text=False):
 
 
 CWD = os.curdir
-FINCGT = "preprocess | hfst-lookup /opt/local/share/omorfi/mor-omorfi.cg.hfst | /Users/pyry/apertium/apertium-sme-fin/tools/lookup2cg | vislcg3 -g /Users/pyry/apertium/apertium-sme-fin/dev/gtsvn/kt/fin/src/fin-dis.rle --trace"
-
+FINCG = "preprocess | hfst-lookup /opt/local/share/omorfi/mor-omorfi.cg.hfst | /Users/pyry/apertium/apertium-sme-fin/tools/lookup2cg | vislcg3 -g /Users/pyry/apertium/apertium-sme-fin/dev/gtsvn/kt/fin/src/fin-dis.rle --trace"
+FINCGT = "hfst-proc -w /Users/pyry/apertium/apertium-sme-fin/fin-sme.automorf.hfst | /Users/pyry/apertium/apertium-sme-fin/dev/tagger-to-visl.py | vislcg3 --trace --grammar /Users/pyry/apertium/apertium-sme-fin/fin-sme.rlx.bin"
 
 def watch(dir_to_watch, command):
 	"""
@@ -124,6 +124,10 @@ def main(argv=None):
 					command = command[1:len(command)-1]
 				if command == "fincgt":
 					command = FINCGT
+					imput = sys.stdin.read()
+					command = "echo \"%s\" | %s" % ((imput, command))
+				if command == "fincg":
+					command = FINCG
 					imput = sys.stdin.read()
 					command = "echo \"%s\" | %s" % ((imput, command))
 			if option in ("-w", "--watch"):
