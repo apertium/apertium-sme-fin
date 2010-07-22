@@ -202,6 +202,9 @@
 	<e><p><l>nala<s n="Po"/></l><r>päälle<s n="Po"/></r></p></e>
         <!--<e r="LR"><p><l>alde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>-->
 	<e><p><l>nalde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>
+	<e><p><l>nalde<s n="Po"/></l><r>pinnalla<s n="Po"/></r></p></e>
+	<e><p><l>nala<s n="Po"/></l><r>pinnalle<s n="Po"/></r></p></e>
+	
 	<e><p><l>nalde<s n="Po"/></l><r>päältä<s n="Po"/></r></p></e>
 	<e><p><l>njeaigga<s n="Po"/></l><r>vasten<s n="Po"/></r></p></e>
 	<e><p><l>ovddabeale<s n="Po"/></l><r>editse<s n="Po"/></r></p></e>
@@ -255,25 +258,32 @@
    <e><p><l>lusa<s n="Po"/></l><r>tykö<s n="Po"/></r></p></e>
    <e><p><l>mielde<s n="Po"/></l><r>mukana<s n="Po"/></r></p></e>	
    <e><p><l>siste<s n="Po"/></l><r>sisälle<s n="Po"/></r></p></e>
-   <e><p><l>siste<s n="Po"/></l><r>sisällä<s n="Po"/></r></p></e>
+   <e><p><l>siste<s n="Po"/></l><r>sisällä<s n="Po"/></r></p></e>	
+   <e><p><l>siskkil<s n="Po"/></l><r>sisältä<s n="Po"/></r></p></e>
+   <e><p><l>sisa<s n="Po"/></l><r>sisään<s n="Po"/></r></p></e>
    <e><p><l>vuođul<s n="Po"/></l><r>nojalla<s n="Po"/></r></p></e>
 	<e><p><l>beales<s n="Po"/></l><r>puolesta<s n="Po"/></r></p></e>
+	<e><p><l>siste<s n="Po"/></l><r>keskuudessa<s n="Po"/></r></p></e>
+	
 	<!-- Po:Pr -->
 	<e><p><l>buohta<s n="Po"/></l><r>vastapäätä<s n="Pr"/></r></p></e>
 	<e><p><l>haga<s n="Po"/></l><r>ilman<s n="Pr"/></r></p></e>
     <e><p><l>ala<s n="Po"/></l><r>yli<s n="Pr"/></r></p></e>
+    <e><p><l>vuolde<s n="Po"/></l><r>alla<s n="Pr"/></r></p></e>
+	
 	<!-- Pr:Pr -->
-   <e><p><l>lahka<s n="Pr"/></l><r>lähellä<s n="Pr"/></r></p></e>
+    <e><p><l>lahka<s n="Pr"/></l><r>lähellä<s n="Pr"/></r></p></e>
 	<e><p><l>birra<s n="Pr"/></l><r>koskien<s n="Pr"/></r></p></e>
 	<e><p><l>gasku<s n="Pr"/></l><r>keskellä<s n="Pr"/></r></p></e>
-   <e><p><l>ovdal<s n="Pr"/></l><r>ennen<s n="Pr"/></r></p></e> <!-- Also a postposition in Fin... -->
+    <e><p><l>ovdal<s n="Pr"/></l><r>ennen<s n="Pr"/></r></p></e> <!-- Also a postposition in Fin... -->
+	
 	<!-- Adv:Po -->
 	<e><p><l>váile<s n="Adv"/></l><r>vailla<s n="Po"/></r></p></e>
 	<e><p><l>maŋos<s n="Adv"/></l><r>taakse<s n="Po"/></r></p></e>
 	<!-- <e><p><l>luhtte<s n="Po"/></l><r>luona<s n="Adv"/></r></p></e>
 	<e><p><l>luhtte<s n="Po"/></l><r>luota<s n="Adv"/></r></p></e> --> <!-- This was a test, if you don't know what these lines are, delete. -->
 	<e><p><l>maŋábealde<s n="Adv"/></l><r>taitse<s n="Po"/></r></p></e>
-
+	
 	<!-- End prepositions/postpositions -->
 	<!-- Adverbs -->
 	<!-- Adv: Adv -->
@@ -3740,7 +3750,10 @@
 	<e><p><l>juohke<b/>bealde<s n="Po"/></l><r>kaikkialla<s n="Adv"/></r></p></e>
 	<!-- CC:Pcle, CS:Pcle -->
 	<e><p><l>muhto<s n="CC"/></l><r>mutta<s n="Pcle"/></r></p></e>
+	<e><p><l>maiddái<s n="Adv"/></l><r>myöskin<s n="Pcle"/></r></p></e>
 	<e><p><l>dego<s n="CS"/></l><r>ikään<b/>kuin<s n="Pcle"/></r></p></e>
+	<e><p><l>dušše<j/>fal<s n="Adv"/></l><r>ainoastaan<s n="Adv"/></r></p></e>
+	
 	<!-- Are these relative markers? should they be tagged as such? -->
 	<e><p><l>maid<s n="Adv"/></l><r>mitä<s n="Adv"/></r></p></e>
 	<e><p><l>dás<s n="Adv"/></l><r>tässä<s n="Adv"/></r></p></e>

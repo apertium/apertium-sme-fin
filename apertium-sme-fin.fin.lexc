@@ -756,8 +756,8 @@ lomasta'][POS=POSTPOSITION]:lomasta	Clitic/Optional	;
 lomitse'][POS=POSTPOSITION]:lomitse	Possessive/Optional+Vn	;
 lukien'][POS=POSTPOSITION]:lukien	Clitic/Optional	;
 luo'][POS=POSTPOSITION]:luo	Clitic/Optional	;
-luota'][POS=POSTPOSITION]:luota	Clitic/Optional	;
-luona'][POS=POSTPOSITION]:luona	Clitic/Optional	;
+luota'][POS=POSTPOSITION]:luota	Possessive/Optional+Vn	;
+luona'][POS=POSTPOSITION]:luona	Possessive/Optional+Vn	;
 luokse'][POS=POSTPOSITION]:luokse	Possessive/Optional+Vn	;
 luvalla'][POS=POSTPOSITION]:luvalla	Possessive/Optional+Vn	;
 lähelle'][POS=POSTPOSITION]:lähelle	Possessive/Optional+Vn	;
@@ -1063,6 +1063,7 @@ välissä'][POS=PREPOSITION]:välissä	 Possessive/Optional+Vn ;
 välistä'][POS=PREPOSITION]:välistä	Possessive/Optional+Vn	;
 yli'][POS=PREPOSITION]:yli	Clitic/Optional	;
 ylitse'][POS=PREPOSITION]:ylitse	Possessive/Optional+Vn	;
+ympäri'][POS=PREPOSITION]:ympäri	Possessive/Optional+Vn	;
 
 
 

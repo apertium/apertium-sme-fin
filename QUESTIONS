@@ -758,6 +758,8 @@ ii leat -  eai leat suomagillii
 
 lääketiede -> dálkkasdieđa used to work, but now it's starred.
 
+## Working through the bible again for missing closed classes and checking generation errors.
+
 ## @
 
 5 nyt <Pcle>
@@ -816,4 +818,79 @@ In tagger it is an Adv
 
 	^8/8<Num><Card><Sg><Nom>$ ^Sitten/Sitten<Adv><@ADVL>$ ^hän/hän<Pron><Pers><Sg><Nom><@SUBJ→>$ ^laski/laskea<V><Act><Ind><Prt><Sg3>$ ^luotansa/luota<Adv><PxPl3><@ADVL>/luota<Adv><PxSg3><@ADVL>$ ^kyyhkysen/*kyyhkysen$ ^nähdäksensä/nähdä<V><Act><Inf1><Sg><Tra><PxPl3><@-FMAINV>/nähdä<V><Act><Inf1><Sg><Tra><PxSg3><@-FMAINV>$^,/,<Punct><CLB>$ ^oliko/olla<V><Act><Ind><Prt><Sg3><Qst_ko><@+FAUXV>$ ^vesi/vesi<N><Sg><Nom><@←SPRED>$  ^vähentynyt/*vähentynyt$ ^maan/maa<N><Sg><Gen><@→P>$ ^pinnalta/pinnalta<Po>$^../..<Punct><CLB>$
 
+
+More... 
+
+Kanssa<Pcle> reading is not removed, and thus fails:
+
+$ echo "Katso, minä teen liiton teidän ja teidän jälkeläistenne kanssa" | fin-sme-tagger
+^Katso/Katsoa<V><Act><Imprt><Sg2>/Katsoa<V><Ind><Prs><ConNeg>$^,/,<Punct><CLB>$ ^minä/minä<Pron><Pers><Sg><Nom><@SUBJ→>$ ^teen/tehdä<V><Act><Ind><Prs><Sg1>$ ^liiton/liitto<N><Sg><Gen>$ ^teidän/sinä<Pron><Pers><Pl><Gen><@←OBJ>$ ^ja/ja<CC><@CNP>$ ^teidän/sinä<Pron><Pers><Pl><Gen><@←OBJ>$ ^jälkeläistenne/*jälkeläistenne$ ^kanssa/kanssa<Pcle><@PCLE>/kanssa<Po>$^./.<Punct><CLB>$
+
+	VISL CG-3 Disambiguator version 0.9.7.6010
+	Codepage: default UTF-8, input UTF-8, output UTF-8, grammar UTF-8
+	Parsing grammar took 0.106397 seconds.
+	Grammar has 6 sections, 0 templates, 1332 rules, 1282 sets, 721 c-tags, 1326 s-tags.
+	"<Katso>"
+		"katsoa" V Ind Prs ConNeg 
+		"katsoa" V Act Imprt Sg2 
+	"<,>"
+		"," Punct CLB ADD:730 
+	"<minä>"
+		"minä" Pron Pers Sg Nom @SUBJ→ SELECT:1347 MAP:2433 
+	;	"mikä" Pron Interr Sg Ess SELECT:1347 
+	;	"mikä" Pron Rel Sg Ess CLB ADD:739 SELECT:1347 
+	"<teen>"
+		"tehdä" V Act Ind Prs Sg1 SELECT:763 
+	;	"tee" N Sg Gen SELECT:763 
+	"<liiton>"
+		"liitto" N Sg Gen 
+	"<teidän>"
+		"sinä" Pron Pers Pl Gen @←OBJ MAP:2448 
+	"<ja>"
+		"ja" Conj CC @CNP MAP:2406 
+	;	"ja" Pcle REMOVE:754 
+	"<teidän>"
+		"sinä" Pron Pers Pl Gen @→N MAP:2651 
+	"<jälkeläistenne>"
+		"jälkeläinen" N Pl Gen Pl2 @→P MAP:2620 
+	"<kanssa>"
+		"kanssa" Po SELECT:1627 
+	;	"kanssa" Adp SELECT:1627 
+	;	"kanssa" Pcle SELECT:1627
+
+Also @PCLE tag pops up in the tagger, but isn't in the CG analysis
+
+## Sisa/siskkil
+
+$ echo "sisa+Po" | smegen
+sisa+Po	sisa
+sisa+Po	siskkil
+
+## Sen pinnalta
+
+(According to sámi-suoma-sámi sátnegirji:)
+
+$ echo govdilasas | sme 
+govdilasas	govdat+V+IV+Der2+Actor+N+SgGenCmp+Use/NG+Use/Circ#+Use/Circlassa+N+Sg+Gen+Use/Ped+PxSg3
+govdilasas	govdat+V+IV+Der2+Actor+N+SgGenCmp+Use/NG+Use/Circ#+Use/Circlassa+N+Sg+Acc+Use/Ped+PxSg3
+govdilasas	govdat+V+IV+Der2+Actor+N+SgGenCmp+Use/NG+Use/Circ#+Use/Circlassa+N+Sg+Loc
+govdilasas	govdilasas+Adv
+
+$ echo govdilassii | sme
+govdilassii	govdat+V+IV+Der2+Actor+N+SgGenCmp+Use/NG+Use/Circ#+Use/Circlassa+N+Sg+Ill
+govdilassii	govdilassii+Adv
+
+$ echo "pinnalta" | fin
+pinnalta	pinnalta+Po
+pinnalta	pinnalta+Pr
+pinnalta	pinnalta+Adp
+pinnalta	pinna+N+Sg+Abl
+pinnalta	pinta+N+Sg+Abl
+
+$ echo "pinnalle" | fin
+pinnalle	pinnalle+Po
+pinnalle	pinnalle+Pr
+pinnalle	pinnalle+Adp
+pinnalle	pinna+N+Sg+All
+pinnalle	pinta+N+Sg+All
 
