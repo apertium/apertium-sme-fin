@@ -147,17 +147,18 @@
 
 
     <!-- Postpositions, prepositions -->
-	<e><p><l>ala<s n="Po"/></l><r>päälle<s n="Po"/></r></p></e>
+	<!-- <e><p><l>ala<s n="Po"/></l><r>päälle<s n="Po"/></r></p></e> --> <!-- we are westerners -->
+	
+	<e srl="2"><p><l>geahčen<s n="Po"/></l><r>luota<s n="Po"/></r></p></e>
 	<e><p><l>bajábealde<s n="Po"/></l><r>yläpuolella<s n="Po"/></r></p></e>
 	<e><p><l>bajábealde<s n="Po"/></l><r>yläpuolelta<s n="Po"/></r></p></e>
 	<e><p><l>bealde<s n="Po"/></l><r>puolella<s n="Po"/></r></p></e>
 	<e><p><l>bealde<s n="Po"/></l><r>puolelta<s n="Po"/></r></p></e>
+	<e><p><l>beales<s n="Po"/></l><r>puolesta<s n="Po"/></r></p></e>
+	<e srl="1"><p><l>dáfus<s n="Po"/></l><r>puolesta<s n="Po"/></r></p></e>
 	<e><p><l>bealis<s n="Po"/></l><r>puolessa<s n="Po"/></r></p></e>
 	<e><p><l>beallái<s n="Po"/></l><r>puoleen<s n="Po"/></r></p></e>
 	<e><p><l>birra<s n="Po"/></l><r>ympäri<s n="Po"/></r></p></e>
-	<e><p><l>miehtá<s n="Pr"/></l><r>ympäri<s n="Pr"/></r></p></e>
-	<e><p><l>bokte<s n="Po"/></l><r>kautta<s n="Po"/></r></p></e>
-	<e><p><l>bokti<s n="Po"/></l><r>kautta<s n="Po"/></r></p></e>
 	<e><p><l>botnis<s n="Po"/></l><r>pohjalla<s n="Po"/></r></p></e>
 	<e><p><l>buohta<s n="Po"/></l><r>vastapäätä<s n="Po"/></r></p></e>
 	<e><p><l>báldal<s n="Po"/></l><r>vieritse<s n="Po"/></r></p></e>
@@ -165,46 +166,42 @@
 	<e><p><l>bálddas<s n="Po"/></l><r>vieressä<s n="Po"/></r></p></e>
 	<e><p><l>bálddas<s n="Po"/></l><r>vierestä<s n="Po"/></r></p></e>
 	<e><p><l>báldii<s n="Po"/></l><r>viereen<s n="Po"/></r></p></e>
-	<e><p><l>bále<s n="Po"/></l><r>aikana<s n="Po"/></r></p></e>
-	<e><p><l>dihte<s n="Po"/></l><r>takia<s n="Po"/></r></p></e>
-	<e><p><l>geažil<s n="Po"/></l><r>takia<s n="Po"/></r></p></e>
-	<e><p><l>dihte<s n="Po"/></l><r>tähden<s n="Po"/></r></p></e>
-	<e><p><l>dihte<s n="Po"/></l><r>vuoksi<s n="Po"/></r></p></e>
-	<e><p><l>dihtii<s n="Po"/></l><r>vuoksi<s n="Po"/></r></p></e>
+	<!-- <e><p><l>dihtii<s n="Po"/></l><r>vuoksi<s n="Po"/></r></p></e> --> <!-- ? -->
 	<e><p><l>duogi<s n="Po"/></l><r>takaa<s n="Po"/></r></p></e>
-	<e><p><l>duohkai<s n="Po"/></l><r>taakse<s n="Po"/></r></p></e>
+	<!-- <e><p><l>duohkai<s n="Po"/></l><r>taakse<s n="Po"/></r></p></e> --> <!-- ? -->
 	<e><p><l>duohken<s n="Po"/></l><r>takana<s n="Po"/></r></p></e>
-	<e><p><l>duohkin<s n="Po"/></l><r>takana<s n="Po"/></r></p></e>
+	<e srl="1"><p><l>duohkin<s n="Po"/></l><r>takana<s n="Po"/></r></p></e>
 	<e><p><l>dáfus<s n="Po"/></l><r>kannalta<s n="Po"/></r></p></e>
-	<e><p><l>dáfus<s n="Po"/></l><r>puolesta<s n="Po"/></r></p></e>
 	<e><p><l>eret<s n="Po"/></l><r>irti<s n="Po"/></r></p></e>
 	<e><p><l>gaskan<s n="Po"/></l><r>kesken<s n="Po"/></r></p></e>
 	<e><p><l>gaskka<s n="Po"/></l><r>välillä<s n="Po"/></r></p></e>
 	<e><p><l>gaskka<s n="Po"/></l><r>välistä<s n="Po"/></r></p></e>
 	<e><p><l>gaskka<s n="Po"/></l><r>välitse<s n="Po"/></r></p></e>
 	<e><p><l>gasku<s n="Po"/></l><r>keskellä<s n="Po"/></r></p></e>
-	<e><p><l>geahčai<s n="Po"/></l><r>luo<s n="Po"/></r></p></e>
-	<e><p><l>geahčai<s n="Po"/></l><r>luokse<s n="Po"/></r></p></e>
-	<e srl="2"><p><l>geahčen<s n="Po"/></l><r>luota<s n="Po"/></r></p></e>
+	<e><p><l>lusa<s n="Po"/></l><r>luo<s n="Po"/></r></p></e>
+	<e srl="1"><p><l>geahčai<s n="Po"/></l><r>luo<s n="Po"/></r></p></e>
+	<e><p><l>lusa<s n="Po"/></l><r>luokse<s n="Po"/></r></p></e>
+	<e srl="1"><p><l>geahčai<s n="Po"/></l><r>luokse<s n="Po"/></r></p></e>
 	<e><p><l>geahčen<s n="Po"/></l><r>päästä<s n="Po"/></r></p></e>
 	<e><p><l>geažes<s n="Po"/></l><r>kuluttua<s n="Po"/></r></p></e>
 	<e><p><l>geažil<s n="Po"/></l><r>johdosta<s n="Po"/></r></p></e>
 	<e><p><l>geažil<s n="Po"/></l><r>perusteella<s n="Po"/></r></p></e>
-	<e><p><l>geažil<s n="Po"/></l><r>tähden<s n="Po"/></r></p></e>
+	<e><p><l>dihte<s n="Po"/></l><r>takia<s n="Po"/></r></p></e>
+	<e srl="1"><p><l>geažil<s n="Po"/></l><r>takia<s n="Po"/></r></p></e>
+	<e><p><l>dihte<s n="Po"/></l><r>tähden<s n="Po"/></r></p></e>
+	<e srl="1"><p><l>geažil<s n="Po"/></l><r>tähden<s n="Po"/></r></p></e>
+	<e><p><l>dihte<s n="Po"/></l><r>vuoksi<s n="Po"/></r></p></e>
 	<e><p><l>hárrái<s n="Po"/></l><r>suhteen<s n="Po"/></r></p></e>
 	<e><p><l>lahka<s n="Po"/></l><r>likelle<s n="Po"/></r></p></e>
-	<e><p><l>lusa<s n="Po"/></l><r>luo<s n="Po"/></r></p></e>
-	<e><p><l>lusa<s n="Po"/></l><r>luokse<s n="Po"/></r></p></e>
 	<e><p><l>ládje<s n="Po"/></l><r>kaltainen<s n="Po"/></r></p></e>
 	<e><p><l>meaddil<s n="Po"/></l><r>ohitse<s n="Po"/></r></p></e>
 	<e><p><l>miehtá<s n="Po"/></l><r>pitkin<s n="Po"/></r></p></e>
+	<e><p><l>miehtá<s n="Pr"/></l><r>ympäri<s n="Pr"/></r></p></e>
 	<e><p><l>mielde<s n="Po"/></l><r>mukaan<s n="Po"/></r></p></e>
-	<e><p><l>nala<s n="Po"/></l><r>päälle<s n="Po"/></r></p></e>
-        <!--<e r="LR"><p><l>alde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>-->
-	<e><p><l>nalde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>
-	<e><p><l>nalde<s n="Po"/></l><r>pinnalla<s n="Po"/></r></p></e>
 	<e><p><l>nala<s n="Po"/></l><r>pinnalle<s n="Po"/></r></p></e>
-	
+	<e><p><l>nala<s n="Po"/></l><r>päälle<s n="Po"/></r></p></e>
+	<e><p><l>nalde<s n="Po"/></l><r>pinnalla<s n="Po"/></r></p></e>
+	<e><p><l>nalde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>
 	<e><p><l>nalde<s n="Po"/></l><r>päältä<s n="Po"/></r></p></e>
 	<e><p><l>njeaigga<s n="Po"/></l><r>vasten<s n="Po"/></r></p></e>
 	<e><p><l>ovddabeale<s n="Po"/></l><r>editse<s n="Po"/></r></p></e>
@@ -215,60 +212,63 @@
 	<e><p><l>sajis<s n="Po"/></l><r>asemesta<s n="Po"/></r></p></e>
 	<e><p><l>sajis<s n="Po"/></l><r>sijasta<s n="Po"/></r></p></e>
 	<e><p><l>sisa<s n="Po"/></l><r>keskelle<s n="Po"/></r></p></e>
+	<e><p><l>siste<s n="Po"/></l><r>keskuudessa<s n="Po"/></r></p></e>
 	<e><p><l>veagas<s n="Po"/></l><r>varassa<s n="Po"/></r></p></e>
 	<e><p><l>veardde<s n="Po"/></l><r>verran<s n="Po"/></r></p></e>
 	<e><p><l>vuolde<s n="Po"/></l><r>alta<s n="Po"/></r></p></e>
 	<e><p><l>vuostá<s n="Po"/></l><r>vastaan<s n="Po"/></r></p></e>
-	<e><p><l>vuostái<s n="Po"/></l><r>kohti<s n="Po"/></r></p></e>
+    <e><p><l>guvlui<s n="Po"/></l><r>kohti<s n="Po"/></r></p></e> <!-- ? -->
+	<e srl="1"><p><l>vuostái<s n="Po"/></l><r>kohti<s n="Po"/></r></p></e>
 	<e><p><l>vuostái<s n="Po"/></l><r>verrattuna<s n="Po"/></r></p></e>
 	<e><p><l>várás<s n="Po"/></l><r>varalle<s n="Po"/></r></p></e>
 	<e><p><l>várás<s n="Po"/></l><r>varten<s n="Po"/></r></p></e>
-	<e><p><l>čađa<s n="Po"/></l><r>kautta<s n="Po"/></r></p></e>
+	<e><p><l>bokte<s n="Po"/></l><r>kautta<s n="Po"/></r></p></e>
+	<e srl="1"><p><l>čađa<s n="Po"/></l><r>kautta<s n="Po"/></r></p></e>
 	<e><p><l>čađa<s n="Po"/></l><r>läpi<s n="Po"/></r></p></e>
 	<e><p><l>čađa<s n="Po"/></l><r>lävitse<s n="Po"/></r></p></e>
 	<e><p><l>čađa<s n="Po"/></l><r>välityksellä<s n="Po"/></r></p></e>
+    <!--<e r="LR"><p><l>alde<s n="Po"/></l><r>päällä<s n="Po"/></r></p></e>-->
+	<e><p><l>rádjái<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siihen asti -->
+    <e srl="1"><p><l>rájes<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siitä asti -->
     <e><p><l>badjel<s n="Po"/></l><r>yli<s n="Po"/></r></p></e>
     <e><p><l>badjelii<s n="Po"/></l><r>ylle<s n="Po"/></r></p></e>
     <e><p><l>ektui<s n="Po"/></l><r>nähden<s n="Po"/></r></p></e>
     <e><p><l>gaskkas<s n="Po"/></l><r>välissä<s n="Po"/></r></p></e>
-    <e><p><l>guvlui<s n="Po"/></l><r>kohti<s n="Po"/></r></p></e> <!-- ? -->
-    <e><p><l>maŋŋil<s n="Po"/></l><r>jälkeen<s n="Po"/></r></p></e>
     <e><p><l>maŋŋá<s n="Po"/></l><r>jälkeen<s n="Po"/></r></p></e>
+    <e srl="1"><p><l>maŋŋil<s n="Po"/></l><r>jälkeen<s n="Po"/></r></p></e>
     <e><p><l>mielde<s n="Po"/></l><r>kanssa<s n="Po"/></r></p></e>
     <e><p><l>ovdal<s n="Po"/></l><r>ennen<s n="Po"/></r></p></e> <!-- Also a preposition in Fin... -->
     <e><p><l>ovddas<s n="Po"/></l><r>edessä<s n="Po"/></r></p></e>
     <e><p><l>ovddas<s n="Po"/></l><r>edestä<s n="Po"/></r></p></e>
-    <e><p><l>rádjái<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siihen asti -->
     <e><p><l>ráigge<s n="Po"/></l><r>myöten<s n="Po"/></r></p></e>
-    <e><p><l>rájes<s n="Po"/></l><r>asti<s n="Po"/></r></p></e> <!-- siitä asti -->
     <e><p><l>sisa<s n="Po"/></l><r>sekaan<s n="Po"/></r></p></e>
     <e><p><l>vuolde<s n="Po"/></l><r>alla<s n="Po"/></r></p></e>
     <e><p><l>vuollái<s n="Po"/></l><r>alle<s n="Po"/></r></p></e>
     <e><p><l>vuollái<s n="Po"/></l><r>kohden<s n="Po"/></r></p></e>
     <e><p><l>vuostá<s n="Po"/></l><r>vastaan<s n="Po"/></r></p></e>
     <e><p><l>áigge<s n="Po"/></l><r>aikana<s n="Po"/></r></p></e>
+	<e srl="1"><p><l>bále<s n="Po"/></l><r>aikana<s n="Po"/></r></p></e>
    <e srl="1"><p><l>duohken<s n="Po"/></l><r>luona<s n="Po"/></r></p></e>
-   <e><p><l>luhtte<s n="Po"/></l><r>luota<s n="Po"/></r></p></e>
    <e srl="1"><p><l>duohken<s n="Po"/></l><r>luota<s n="Po"/></r></p></e>
    <e><p><l>gaskii<s n="Po"/></l><r>välille<s n="Po"/></r></p></e>
    <e><p><l>guovdu<s n="Po"/></l><r>kohtaan<s n="Po"/></r></p></e>
    <e><p><l>lahka<s n="Po"/></l><r>lähellä<s n="Po"/></r></p></e>	
    <e><p><l>luhtte<s n="Po"/></l><r>luona<s n="Po"/></r></p></e>
+   <e><p><l>luhtte<s n="Po"/></l><r>luota<s n="Po"/></r></p></e>
    <e><p><l>luhtte<s n="Po"/></l><r>lähelle<s n="Po"/></r></p></e>
    <e><p><l>lusa<s n="Po"/></l><r>tykö<s n="Po"/></r></p></e>
    <e><p><l>mielde<s n="Po"/></l><r>mukana<s n="Po"/></r></p></e>	
+   <e><p><l>sisa<s n="Po"/></l><r>sisään<s n="Po"/></r></p></e>
+   <e><p><l>siskkil<s n="Po"/></l><r>sisältä<s n="Po"/></r></p></e>
    <e><p><l>siste<s n="Po"/></l><r>sisälle<s n="Po"/></r></p></e>
    <e><p><l>siste<s n="Po"/></l><r>sisällä<s n="Po"/></r></p></e>	
-   <e><p><l>siskkil<s n="Po"/></l><r>sisältä<s n="Po"/></r></p></e>
-   <e><p><l>sisa<s n="Po"/></l><r>sisään<s n="Po"/></r></p></e>
    <e><p><l>vuođul<s n="Po"/></l><r>nojalla<s n="Po"/></r></p></e>
-	<e><p><l>beales<s n="Po"/></l><r>puolesta<s n="Po"/></r></p></e>
-	<e><p><l>siste<s n="Po"/></l><r>keskuudessa<s n="Po"/></r></p></e>
+
 	
 	<!-- Po:Pr -->
 	<e><p><l>buohta<s n="Po"/></l><r>vastapäätä<s n="Pr"/></r></p></e>
 	<e><p><l>haga<s n="Po"/></l><r>ilman<s n="Pr"/></r></p></e>
-    <e><p><l>ala<s n="Po"/></l><r>yli<s n="Pr"/></r></p></e>
+    <e><p><l>nala<s n="Po"/></l><r>yli<s n="Pr"/></r></p></e>
     <e><p><l>vuolde<s n="Po"/></l><r>alla<s n="Pr"/></r></p></e>
 	
 	<!-- Pr:Pr -->
