@@ -1509,6 +1509,7 @@ dev/chapter003_notes -text
 dev/countries.txt -text
 dev/fin.cfg -text
 dev/generation-summary.bible.txt -text
+dev/generation-tag-fails-summary.txt -text
 dev/generation-test.sh -text
 dev/langs.cfg.in -text
 dev/oddasat/TODO -text

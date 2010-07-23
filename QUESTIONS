@@ -172,6 +172,21 @@ koko, kaikista
 
 ## CG stuff to fix
 
+### Imperative object marking
+
+Need to add @OBJ tag for imperatives.
+
+	"<Tee>"
+		"tehdä" V Act Imprt Sg2 SELECT:1537 
+		"tehdä" V Ind Prs ConNeg @+FMAINV SELECT:1537 MAP:2524 
+	;	"tee" N Sg Nom SELECT:1537 
+	"<se>"
+		"se" Pron Dem Sg Nom 
+	"<.>"
+		"." Punct CLB ADD:734 
+
+
+
 ### Syntactic tag application question
 
 Do I need to apply these to every item in the phrase, or just one? In this case, I'm doing things like:
