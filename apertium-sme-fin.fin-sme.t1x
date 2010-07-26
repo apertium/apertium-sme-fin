@@ -1733,10 +1733,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 		</pattern>
 		<action>
         <call-macro n="nominal_case_number">
-          <with-param pos="2"/>
+          <with-param pos="3"/>
         </call-macro>
         <call-macro n="set_foc_particles">
-          <with-param pos="2"/>
+          <with-param pos="3"/>
         </call-macro>
 			<out>
 	          <chunk name="gen_gen_nom" case="caseFirstWord">
@@ -1794,8 +1794,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 	            <tags>
 	              <tag><lit-tag v="SN"/></tag>
 	              <tag><var n="current_syntag"/></tag>
-	              <tag><clip pos="3" side="tl" part="nbr"/></tag>
-	              <tag><clip pos="3" side="tl" part="a_case"/></tag>
+	              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+	              <tag><clip pos="2" side="tl" part="a_case"/></tag>
 	            </tags>
 	            <lu>
 	              <clip pos="1" side="tl" part="lemh"/>
