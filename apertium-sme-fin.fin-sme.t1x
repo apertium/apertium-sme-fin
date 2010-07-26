@@ -799,6 +799,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <with-param pos="1"/>
         </call-macro>
 		<choose>
+			<!-- siihen -> dasa  -->
 			<when>
 				<test>
 					<and>

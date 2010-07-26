@@ -3321,10 +3321,12 @@
     <e><p><l>Per<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Per<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Uula<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Ola<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Pekka<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Pekka<s n="N"/><s n="Prop"/></r></p></e>
-
+	<e><p><l>Abraham<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Aabraham<s n="N"/><s n="Prop"/></r></p></e>
+	
     <e><p><l>Adai<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Aada<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Eufrat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Eufrat<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Lamek<s n="N"/><s n="Prop"/><s n="Sur"/></l><r>Lemek<s n="N"/><s n="Prop"/></r></p></e>
+
 	<!-- end propernouns -->		
     <!-- adjectives -->
 	<e><p><l>friddja<s n="A"/></l><r>vapaa<s n="A"/></r></p><par n="A_A"/></e>
@@ -3623,6 +3625,7 @@
     <e><p><l>dalle<s n="Adv"/></l><r>silloin<s n="Adv"/></r></p></e>
     <e><p><l>de<s n="Adv"/></l><r>sitten<s n="Adv"/></r></p></e>
     <e><p><l>de<s n="Adv"/></l><r>sitten<s n="Adv"/></r></p></e>
+	<e><p><l>dasa<s n="Adv"/></l><r>siihen<s n="Adv"/></r></p></e>
     <e><p><l>deike<s n="Adv"/></l><r>tänne<s n="Adv"/></r></p></e>
     <e><p><l>die<s n="Adv"/></l><r>tuossa<s n="Adv"/></r></p></e>
     <e><p><l>diekko<s n="Adv"/></l><r>siitä<s n="Adv"/></r></p></e>
