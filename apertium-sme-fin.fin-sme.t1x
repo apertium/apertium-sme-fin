@@ -1777,7 +1777,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 	        </out>
 		</action>
 	</rule>
-	<rule comment="regla: attrgen attrgen nom">
+	<rule comment="regla: attrgen nom">
 		<pattern>
 			<pattern-item n="attrgen"/>
 			<pattern-item n="nom"/>
@@ -1790,7 +1790,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <with-param pos="2"/>
         </call-macro>
 			<out>
-	          <chunk name="gen_gen_nom" case="caseFirstWord">
+	          <chunk name="gen_nom" case="caseFirstWord">
 	            <tags>
 	              <tag><lit-tag v="SN"/></tag>
 	              <tag><var n="current_syntag"/></tag>
