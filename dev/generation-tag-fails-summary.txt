@@ -260,15 +260,17 @@ Issue with some of these is that if a word is tagged wrong in the bidix (e.g., s
 
 + Some of these are this: 
 
-1 #nubbi	^nubbi<Sg><Nom><PxPl1>$
-1 #nubbi	^nubbi<Sg><Gen><PxPl2>$
-1 #nubbi	^nubbi<Sg><Gen><PxPl1>$
-1 #nubbi	^nubbi<Sg><All><PxPl2>$
-1 #nubbi	^nubbi<Pl><Par><PxPl2>$
-1 #Nubbi	^Nubbi<Pl><Par>$
-1 #nubbi	^nubbi<Pl><Ill><PxPl3>$
-1 #nubbi	^nubbi<Pl><All><PxPl2>$
-1 #nubbi	^nubbi<Pl><All>$
+	1 #nubbi	^nubbi<Sg><Nom><PxPl1>$
+	1 #nubbi	^nubbi<Sg><Gen><PxPl2>$
+	1 #nubbi	^nubbi<Sg><Gen><PxPl1>$
+	1 #nubbi	^nubbi<Sg><All><PxPl2>$
+	1 #nubbi	^nubbi<Pl><Par><PxPl2>$
+	1 #Nubbi	^Nubbi<Pl><Par>$
+	1 #nubbi	^nubbi<Pl><Ill><PxPl3>$
+	1 #nubbi	^nubbi<Pl><All><PxPl2>$
+	1 #nubbi	^nubbi<Pl><All>$
+	
+These should be attributive if they're singular at least.
 
 + Some of these are the partitive case not being transfered
 

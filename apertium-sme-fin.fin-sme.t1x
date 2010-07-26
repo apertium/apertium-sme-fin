@@ -175,6 +175,7 @@
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="Num"/>
+	  <attr-item tags="Num.Ord"/>
     </def-attr>
     <def-attr n="a_adv">
       <attr-item tags="Adv"/>
@@ -187,6 +188,7 @@
     <def-attr n="nbr">
       <attr-item tags="Sg"/>
       <attr-item tags="Pl"/>
+      <attr-item tags="Sg"/>
     </def-attr>
     <def-attr n="a_pcle">
       <attr-item tags="Pcle"/>
@@ -216,6 +218,7 @@
     <def-attr n="a_attr">
       <attr-item tags="N"/>
       <attr-item tags="A"/>
+      <attr-item tags="A.Ord"/>
       <attr-item tags="N.Actor"/>
       <attr-item tags="N.Prop"/>
       <attr-item tags="N.Prop.Plc"/>
@@ -795,6 +798,30 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="nominal_case_number">
           <with-param pos="1"/>
         </call-macro>
+		<choose>
+			<when>
+				<test>
+					<and>
+						<equal>
+							<clip pos="1" side="sl" part="nbr"/>
+							<lit-tag v="Sg"/>
+						</equal>
+						<contains-substring>
+							<clip pos="1" side="sl" part="a_pron"/>
+							<lit v="Dem"/>
+						</contains-substring>
+					</and>
+				</test>
+				<let>
+					<clip pos="1" side="tl" part="nbr"/>
+					<lit-tag v="Sg3"/>
+				</let>
+					<let>
+						<clip pos="1" side="tl" part="a_pron"/>
+						<lit-tag v="Pron.Pers"/>
+					</let>
+			</when>
+		</choose>
         <out>
           <chunk name="pron" case="caseFirstWord">
             <tags>
@@ -1378,7 +1405,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_num"/>
+              <clip pos="1" side="tl" part="a_ord"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>

@@ -480,17 +480,14 @@
     <e><p><l>ovdal<b/>go<s n="CS"/></l><r>ennen<b/>kuin<s n="CS"/></r></p></e>
 	<e r="RL"><p><l>ovdal<b/>go<s n="CS"/></l><r>ennenkuin<s n="CS"/></r></p></e>
     <e><p><l>dasságo<s n="CS"/></l><r>kunnes<s n="CS"/></r></p></e>
+	<e><p><l>nugo<s n="CS"/></l><r>niinkuin<s n="CS"/></r></p></e>
     <e><p><l>go<s n="CS"/></l><r>kuin<s n="CC"/></r></p></e>
+
 
 	<!-- juos - CS, fal - Adv -->
 	<e><p><l>juos<b/>fal<s n="CS" /></l><r>mikäli<s n="CS"/></r></p></e>
-
-
-	<e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
 	
-
-	<!-- CS : Pcle -->
-	<e><p><l>nugo<s n="CS"/></l><r>niinkuin<s n="Pcle"/></r></p></e>
+	<e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
 	
 	
     <!-- Pronouns -->
@@ -3342,7 +3339,7 @@
 	<e><p><l>seavdnjat<s n="A"/></l><r><s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>seavdnjat<s n="A"/></l><r>pimeä<s n="A"/></r></p><par n="A_A"/></e> <!-- TODO:CHECK -->
 	<e><p><l>soajálaš<s n="A"/></l><r>siivekäs<s n="A"/></r></p><par n="A_A"/></e>
-	<e><p><l>stuoris<s n="A"/></l><r><s n="A"/></r></p><par n="A_A"/></e>
+	<!-- <e><p><l>stuoris<s n="A"/></l><r><s n="A"/></r></p><par n="A_A"/></e> --> <!-- Eh? -->
 	<e><p><l>vigiheapmi<s n="A"/></l><r>viaton<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>vuolimus<s n="A"/></l><r>alimmainen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>vuosttaš<s n="A"/></l><r>ensimmäinen<s n="A"/></r></p><par n="A_A"/></e>
