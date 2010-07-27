@@ -1,5 +1,11 @@
 #!/bin/bash
 
+if [[ $# -lt 2 ]]; then
+	echo "Not enough arguments to generation-test.sh -r";
+	echo "bash generation-test.sh -r <corpus>";
+	exit;
+fi
+
 if [[ $1 == "-r" ]]; then
 	if [[ $# -lt 2 ]]; then 
 		echo $#;
@@ -10,7 +16,7 @@ if [[ $1 == "-r" ]]; then
 	args=("$@")
 	echo "Corpus in: "`dirname $2`;
 	echo -n "Processing corpus for generation test... ";
-	rm /tmp/fin-sme.corpus.txt
+	rm -f /tmp/fin-sme.corpus.txt
 	for i in `seq 1 $#`; do 
 		if [[ ${args[$i]} != "" && -f ${args[$i]} ]]; then 
 			cat ${args[$i]} >> /tmp/fin-sme.corpus.txt

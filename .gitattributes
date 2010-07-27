@@ -1612,3 +1612,4 @@ dev/xfst2apertium.useless.generation.twol -text
 /pending-tests.sh -text
 /script.sh -text
 tools/lookup2cg -text
+/wiki-tests.sh -text
