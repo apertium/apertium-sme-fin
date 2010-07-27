@@ -67,7 +67,7 @@
       <cat-item tags="Pron.Interr.*.*."/>
       <cat-item tags="Pron.Rel.*.*.@N→"/>
     </def-cat>
-    <def-cat n="attrmod_1">
+    <def-cat n="attrnom_1">
       <!-- Svonni's grupp 1 -->
       <cat-item tags="Pron.Dem.*.*."/>
       <!-- dat, dát, diet, dot, duot -->
@@ -84,18 +84,18 @@
       <cat-item lemma="yksi" tags="Num.*"/>
       <!-- okta -->
     </def-cat>
-    <def-cat n="attrmod_2">
+    <def-cat n="attrnom_2">
       <!-- Svonni's grupp 2 -->
       <cat-item tags="Pron.Interr.*.*."/>
       <!-- mii gii only? -->
     </def-cat>
-    <def-cat n="attrmod_3">
+    <def-cat n="attrnom_3">
       <!-- Svonni's grupp 3 -->
-      <cat-item tags="Num.*"/>
+      <cat-item tags="Num.Card.*"/>
       <!-- how to do all numbers except for one? -->
-      <cat-item lemma="máŋga" tags="A.*"/>
-      <cat-item lemma="galle" tags="A.*"/>
-      <cat-item lemma="moadde" tags="Num.*"/>
+      <cat-item lemma="usea" tags="A.*"/>   <!-- máŋga -->
+      <!-- <cat-item lemma="galle" tags="A.*"/>
+      <cat-item lemma="moadde" tags="Num.*"/> -->
     </def-cat>
     <def-cat n="ord">
       <cat-item tags="Num.Ord.*"/>
@@ -174,12 +174,13 @@
       <attr-item tags="Pron.Indef"/>
     </def-attr>
     <def-attr n="a_ord">
-      <attr-item tags="Num.Ord"/>
-      <attr-item tags="A.Ord"/>
+      <attr-item tags="Ord"/>
+	  <attr-item tags="A.Ord"/>
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="Num"/>
       <attr-item tags="Num.Ord"/>
+      <attr-item tags="Num.Card"/>
     </def-attr>
     <def-attr n="a_adv">
       <attr-item tags="Adv"/>
@@ -896,7 +897,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-    <rule comment="regla: infs. Fin Inf2 Ine→ sme Ger, fin Inf2 Ins  sme VGen">
+    <rule comment="regla: inf2: inf2+Ine → Ger, Inf2+Ins → VGen">
       <!-- Lapsi tuli itkien kotiin = mánná bođii čieru ruoktot -->
       <!-- Lapsi tuli itkien kotiin = mánná bođii čieru ruoktot -->
       <pattern>
@@ -1130,6 +1131,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
+
     <rule comment="regla: neg verb">
       <pattern>
         <pattern-item n="neg_verb"/>
@@ -1244,6 +1246,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </let>
       </action>
     </rule>
+	<!-- NOTE: Not doing aux verb for now, save these for interchunk -->
     <!-- end verb rules -->
     <!-- begin noun rules -->
     <!-- Need to move the multi-word rules up a level -->
@@ -1354,9 +1357,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-    <rule comment="regla: attrmod_3 nom">
+    <rule comment="regla: attrnom_3 nom">
       <pattern>
-        <pattern-item n="attrmod_3"/>
+        <pattern-item n="attrnom_3"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -1366,7 +1369,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </call-macro>
         <call-macro n="set_foc_particles">
           <with-param pos="2"/>
-        </call-macro>
+        </call-macro> 
+		<call-macro n="set_syntag1">
+	        <with-param pos="1"/>
+	      </call-macro>
         <choose>
           <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
           <when>
@@ -1405,16 +1411,16 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </choose>
         <out>
           <!-- Temporarily labeling these with numbers for easier debugging -->
-          <chunk name="attr_nom3" case="caseFirstWord">
+          <chunk name="attrnom_3" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="current_syntag"/></tag>
-              <tag><clip pos="2" side="tl" part="nbr"/></tag>
-              <tag><clip pos="2" side="tl" part="a_case"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_ord"/>
+              <clip pos="1" side="tl" part="a_num"/>
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
@@ -1435,9 +1441,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-    <rule comment="regla: attrmod_2 nom">
+    <rule comment="regla: attrnom_2 nom">
       <pattern>
-        <pattern-item n="attrmod_2"/>
+        <pattern-item n="attrnom_2"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -1525,7 +1531,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           </when>
         </choose>
         <out>
-          <chunk name="attrmod_2" case="caseFirstWord">
+          <chunk name="attrnom_2" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="current_syntag"/></tag>
@@ -1555,10 +1561,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-    <rule comment="regla: attrmod_1 nom">
+    <rule comment="regla: attrnom_1 nom">
       <!-- näihin taloihin -> dáid dáluide. TODO:  tänä talona -> dánin #dállu . write wiki tests-->
       <pattern>
-        <pattern-item n="attrmod_1"/>
+        <pattern-item n="attrnom_1"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -1631,7 +1637,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           </when>
         </choose>
         <out>
-          <chunk name="attr_nom1" case="caseFirstWord">
+          <chunk name="attrnom_1" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
               <tag><var n="current_syntag"/></tag>
@@ -1663,7 +1669,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       </action>
     </rule>
 
-    <rule comment="regla: attrgen attr nom">
+    <rule comment="regla: attrgen attradj nom">
       <pattern>	
 		<pattern-item n="attrgen"/>
         <pattern-item n="attr"/>

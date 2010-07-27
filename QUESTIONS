@@ -251,6 +251,14 @@ Has this been fixed by CG rule?
 
 TROND: No, evidently it has not, but it should.
 
+> ensi, viime
+
+These are both listed as particles but they need to be adjectives as well; however I'm not sure how to add indeclinable adjectives to omorfi yet. Are the same entries for the particles suitable for adjectives?
+
+	ensi'][POS=PARTICLE]:ensi	Ennd	;
+	viime'][POS=PARTICLE]:viime	Ennd	;
+
+
 
 ### Pinta
 
