@@ -1662,6 +1662,80 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
+
+    <rule comment="regla: attrgen attr nom">
+      <pattern>	
+		<pattern-item n="attrgen"/>
+        <pattern-item n="attr"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="nominal_case_number">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="set_foc_particles">
+          <with-param pos="3"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="1" side="sl" part="lemh"/>
+                <list n="sort_pronouns"/>
+              </in>
+            </test>
+            <let>
+              <var n="demonstrative"/>
+              <lit-tag v="Dem"/>
+            </let>
+          </when>
+          <otherwise>
+            <let>
+              <var n="demonstrative"/>
+              <lit v=""/>
+            </let>
+          </otherwise>
+        </choose>
+        <out>
+          <chunk name="gen_adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="3" side="tl" part="nbr"/></tag>
+              <tag><clip pos="3" side="tl" part="a_case"/></tag>
+            </tags>
+			<lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="gen_attrs"/>
+              <clip pos="1" side="tl" part="a_person"/>
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+			<b pos="1"/>
+			<lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_attrs"/>
+              <var n="demonstrative"/>
+              <lit-tag v="Attr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <var n="comitative_num"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="a_case"/>
+              <clip pos="3" side="tl" part="a_pxprs"/>
+              <clip pos="3" side="tl" part="a_qst"/>
+              <clip pos="3" side="tl" part="a_foc"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="regla: attradj nom">
       <pattern>
         <pattern-item n="attr"/>
@@ -1725,6 +1799,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
+
 	<rule comment="regla: attrgen attrgen nom">
 		<pattern>
 			<pattern-item n="attrgen"/>
