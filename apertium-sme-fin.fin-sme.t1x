@@ -150,6 +150,9 @@
       <cat-item tags="Punct.CLB"/>
       <cat-item tags="Punct.CLB.*"/>
     </def-cat>
+    <def-cat n="pron_rel">
+      <cat-item tags="Pron.Rel.*"/>
+    </def-cat>
     <def-cat n="pron">
       <cat-item tags="Pron.*"/>
     </def-cat>
@@ -802,6 +805,60 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
+    <rule comment="regla: pron rel">
+      <pattern>
+        <pattern-item n="pron_rel"/>
+      </pattern>
+      <action>
+        <call-macro n="nominal_case_number">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <!-- siihen -> dasa  -->
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="nbr"/>
+                  <lit-tag v="Sg"/>
+                </equal>
+                <contains-substring>
+                  <clip pos="1" side="sl" part="a_pron"/>
+                  <lit v="Dem"/>
+                </contains-substring>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit-tag v="Sg3"/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_pron"/>
+              <lit-tag v="Pron.Pers"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="pron" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PRN"/></tag>
+              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+              <tag><clip pos="1" side="sl" part="nbr"/></tag>
+              <tag><clip pos="1" side="sl" part="a_person"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_pron"/>
+              <var n="comitative_num"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="a_case"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="regla: pron">
       <pattern>
         <pattern-item n="pron"/>
