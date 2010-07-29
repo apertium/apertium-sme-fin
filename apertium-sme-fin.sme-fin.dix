@@ -94,7 +94,6 @@
 	<e><p><l>belle<s n="Adv"/></l><r>puoli<s n="Pcle"/></r></p></e>
 	<e><p><l>beare<s n="Adv"/></l><r>tahansa<s n="Pcle"/></r></p></e>
 	<e><p><l>dieđusge<s n="Adv"/></l><r>tietenkään<s n="Pcle"/></r></p></e>
-	<e><p><l>dušše<s n="Adv"/></l><r>vain<s n="Pcle"/></r></p></e>
 	<e><p><l>dál<s n="Adv"/></l><r>juo<s n="Pcle"/></r></p></e>
 	<e><p><l>fas<s n="Adv"/></l><r>taas<s n="Pcle"/></r></p></e>
 	<e><p><l>gal<s n="Adv"/></l><r>kai<s n="Pcle"/></r></p></e>
@@ -122,8 +121,6 @@
 	<!-- Pcle:Pcle -->
 	<e><p><l>ai<s n="Pcle"/></l><r>ai<s n="Pcle"/></r></p></e>
 	<e><p><l>almma<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
-	<e><p><l>almma<s n="Pcle"/></l><r>kai<s n="Pcle"/></r></p></e>
-	<e><p><l>almmat<s n="Pcle"/></l><r>toki<s n="Pcle"/></r></p></e>
 	<e><p><l>almmat<s n="Pcle"/></l><r>toki<s n="Pcle"/></r></p></e>
 	<e><p><l>go<s n="Pcle"/></l><r>kun<s n="Pcle"/></r></p></e>
 	<e><p><l>hás<s n="Pcle"/></l><r>jospa<s n="Pcle"/></r></p></e>
@@ -487,7 +484,6 @@
 	<!-- juos - CS, fal - Adv -->
 	<e><p><l>juos<b/>fal<s n="CS" /></l><r>mikäli<s n="CS"/></r></p></e>
 	
-	<e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
 	
 	
     <!-- Pronouns -->
@@ -646,7 +642,6 @@
 	<e><p><l>biellorássi<s n="N" /></l><r>kissankello<s n="N"/></r></p></e>
 	<e><p><l>boallorássi<s n="N" /></l><r>kullero (? kullervo)<s n="N"/></r></p></e>
 	<e><p><l>boaresgállarássi<s n="N" /></l><r>metsäkurjenpolvi<s n="N"/></r></p></e>
-	<e><p><l>boazu<s n="N" /></l><r>poro<s n="N"/></r></p></e>
 	<e><p><l>boska<s n="N" /></l><r>väinönputki<s n="N"/></r></p></e>
 	<e><p><l>báktenárti<s n="N" /></l><r>pahtarikko<s n="N"/></r></p></e>
 	<e><p><l>básdiehpáš<s n="N" /></l><r>keminängelmä<s n="N"/></r></p></e>
@@ -2885,12 +2880,10 @@
     <e><p><l>Albánia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Albania<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Amerihká<b/>ovttastuvvan<b/>stáhtat<s n="N"/><s n="Prop"/></l><r>Amerikan<b/>yhdysvallat<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Amerihká<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Amerika<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Anár<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Inari<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Anárjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Inarijoki<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Anárjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Inarijärvi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Atlánta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Atlantti<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Austrália<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Australia<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Avvil<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ivalo<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Avvir<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Imandra<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Ađevuopmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Idivuoma<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Badje-Jalvi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ylä-Jalve<s n="N"/><s n="Prop"/></r></p></e>
@@ -2941,7 +2934,6 @@
     <e><p><l>Deanuleahki<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tenonlaakso<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Deanuvuotna<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tenovuono<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Deargget<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Täräntö<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Deatnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Teno<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Divttasvuotna<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tiitisvuono<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Doallángieddi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tuulomankenttä<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Doallánjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tuulomajoki<s n="N"/><s n="Prop"/></r></p></e>
@@ -2962,7 +2954,6 @@
     <e><p><l>Estteeana<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Viro<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Eurohpá<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Eurooppa<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Evá<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Eeva<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Finnmárku<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ruija<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Fráŋkriika<s n="N"/><s n="Prop"/></l><r>Ranska<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Fášku<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Vaskojoki<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Gabná<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Rautasvuoma<s n="N"/><s n="Prop"/></r></p></e>
@@ -2989,9 +2980,7 @@
     <e><p><l>Giemajávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kemijärvi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Giepma<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kemi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Gihttel<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kittilä<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Gilbbesjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kilpisjärvi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Gillan<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Killingi<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Girkonjárga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kirkkoniemi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Giron<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kiiruna<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Goahppil<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Koppelo<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Goatneljohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kostejoki<s n="N"/><s n="Prop"/></r></p></e>
@@ -3010,7 +2999,6 @@
     <e><p><l>Guoldná<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kuolna<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Guoládat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kuola<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Guossán<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kuusamo<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Guovdageaidnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Koutokeino<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Gáddeluokta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kantalahti<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Gáiddus-Nuorti<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaukoitä<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Gáivojohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaivojoki<s n="N"/><s n="Prop"/></r></p></e>
@@ -3026,8 +3014,6 @@
     <e><p><l>Gárjil<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Karjala<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Gávva<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaava<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Heahttá<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Enontekiö<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Heahttá<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Hetta<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Helsset<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Helsinki<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Hollánda<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Hollanti<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Háldi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Halti<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Iijávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Iijärvi<s n="N"/><s n="Prop"/></r></p></e>
@@ -3038,7 +3024,6 @@
     <e><p><l>Israel<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Israel<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Itália<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Italia<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Ivgu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Jyykeä<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Ivgu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Yykeä<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Japána<s n="N"/><s n="Prop"/></l><r>Japani<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Japána<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Japani<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Jesus<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Jeesus<s n="N"/><s n="Prop"/></r></p></e>
@@ -3056,7 +3041,6 @@
     <e><p><l>Karlsøy<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Gálsa<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Kiinná<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kiina<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Kolttapahta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Golddabákti<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Kárášjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaarasjoki<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Leahttáseatnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lätäseno<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Leaibejohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Leppälä<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Leaibejávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Leppäjärvi<s n="N"/><s n="Prop"/></r></p></e>
@@ -3279,7 +3263,6 @@
 	<e><p><l>Johkamohkki<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Jokkmokk<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Kárášjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kaarasjoki<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Leavdnja<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Lemmijoki<s n="N"/><s n="Prop"/></r></p></e>
-	<e><p><l>Lujávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Luujärvi<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Máze<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Masi<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Nordlánda<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Nordland<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Norga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Norja<s n="N"/><s n="Prop"/></r></p></e>
@@ -3624,7 +3607,6 @@
     <e><p><l>dakko<s n="Adv"/></l><r>sitä<b/>kautta<s n="Adv"/></r></p></e>
     <e><p><l>dalle<s n="Adv"/></l><r>silloin<s n="Adv"/></r></p></e>
     <e><p><l>de<s n="Adv"/></l><r>sitten<s n="Adv"/></r></p></e>
-    <e><p><l>de<s n="Adv"/></l><r>sitten<s n="Adv"/></r></p></e>
 	<e><p><l>dasa<s n="Adv"/></l><r>siihen<s n="Adv"/></r></p></e>
     <e><p><l>deike<s n="Adv"/></l><r>tänne<s n="Adv"/></r></p></e>
     <e><p><l>die<s n="Adv"/></l><r>tuossa<s n="Adv"/></r></p></e>
@@ -3654,7 +3636,6 @@
     <e><p><l>dán<s n="Adv"/></l><r>tässä<s n="Adv"/></r></p></e>
     <e><p><l>dákko<s n="Adv"/></l><r>tätä<b/>kautta<s n="Adv"/></r></p></e>
     <e><p><l>dál<s n="Adv"/></l><r>nyt<s n="Adv"/></r></p></e>
-    <e><p><l>dáppe<s n="Adv"/></l><r>täällä<s n="Adv"/></r></p></e>
     <e><p><l>dáppe<s n="Adv"/></l><r>täällä<s n="Adv"/></r></p></e>
     <e><p><l>dáppe<s n="Adv"/></l><r>täältä<s n="Adv"/></r></p></e>
     <e><p><l>dáppil<s n="Adv"/></l><r>sieltä<s n="Adv"/></r></p></e>
@@ -3779,7 +3760,6 @@
 	
 	<!-- <e><p><l>bargat<g><b/>eatnama</g><s n="V"/><s n="TV"/></l><r>viljellä<s n="V"/></r></p><par n="V_V"/></e> -->
 	<e><p><l>baldit<s n="V"/><s n="TV"/></l><r>pelottaa<s n="V"/></r></p><par n="V_V"/></e>
-	<e><p><l>bassat<s n="V"/><s n="TV"/></l><r>pestä<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>basuhit<s n="V"/><s n="TV"/></l><r>pyhittää<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>bidjat<s n="V"/><s n="TV"/></l><r>sijoittaa<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>bieđđat<s n="V"/><s n="IV"/></l><r>riehua<s n="V"/></r></p><par n="V_V"/></e>
@@ -3787,7 +3767,6 @@
 	<e><p><l>billašuvvat<s n="V"/><s n="IV"/></l><r>turmella<s n="V"/></r></p><par n="V_V"/></e> <!-- ? -->
 	<e><p><l>billašuvvat<s n="V"/><s n="IV"/></l><r>turmeltua<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>borggihit<s n="V"/><s n="TV"/></l><r>pöllähtää<s n="V"/></r></p><par n="V_V"/></e>
-	<e><p><l>buktit<s n="V"/><s n="TV"/></l><r>tuoda<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>doalvut<s n="V"/><s n="TV"/></l><r>viedä<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>buressivdnidit<s n="V"/><s n="TV"/></l><r>siunata<s n="V"/></r></p><par n="V_V"/></e> <!-- bures#sivdnidit -->
 	<e><p><l>dagahit<s n="V"/><s n="TV"/></l><r>aiheuttaa<s n="V"/></r></p><par n="V_V"/></e>
@@ -3862,14 +3841,12 @@
     <e><p><l>ballat<s n="V"/><s n="TV"/></l><r>pelätä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>ballat<s n="V"/><s n="TV"/></l><r>peljätä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>baladit<s n="V"/><s n="IV"/></l><r>pelkäillä<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>ballat<s n="V"/><s n="TV"/></l><r>pelätä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>bargat<s n="V"/><s n="TV"/></l><r>työskennellä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>barggahit<s n="V"/><s n="TV"/></l><r>teettää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>basadit<s n="V"/><s n="IV"/></l><r>peseytyä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>bassaladdat<s n="V"/><s n="TV"/></l><r>pestä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>bassat<s n="V"/><s n="TV"/></l><r>pestä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>bassit<s n="V"/><s n="TV"/></l><r>paistaa<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>batnit<s n="V"/><s n="TV"/></l><r>kehrätä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>batnit<s n="V"/><s n="TV"/></l><r>kehrätä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>bealkit<s n="V"/><s n="TV"/></l><r>haukkua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>bearráigeahččat<s n="V"/><s n="TV"/></l><r>katsoa perässä<s n="V"/></r></p><par n="V_V"/></e>
@@ -3894,7 +3871,6 @@
     <e><p><l>biškut<s n="V"/><s n="IV"/></l><r>kirkua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>boagustit<s n="V"/><s n="TV"/></l><r>nauraa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>bohkosit<s n="V"/><s n="IV"/></l><r>naurahtaa<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>boahtit<s n="V"/><s n="IV"/></l><r>tulla<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>boahtit<s n="V"/><s n="IV"/></l><r>tulla<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>boaldit<s n="V"/><s n="TV"/></l><r>polttaa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>boatkuluvvat<s n="V"/><s n="IV"/></l><r>kipeytyä<s n="V"/></r></p><par n="V_V"/></e>
@@ -3946,7 +3922,6 @@
     <e><p><l>doahput<s n="V"/><s n="TV"/></l><r>tarttua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>doaibmat<s n="V"/><s n="IV"/></l><r>toimia<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>doaivut<s n="V"/><s n="TV"/></l><r>toivoa<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>doaivut<s n="V"/><s n="TV"/></l><r>toivoa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>doallat<s n="V"/><s n="TV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>doalvut<s n="V"/><s n="TV"/></l><r>tuoda<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>doapmat<s n="V"/><s n="IV"/></l><r>kiirehtiä<s n="V"/></r></p><par n="V_V"/></e>
@@ -3992,7 +3967,7 @@
     <e><p><l>galgat<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>galledit<s n="V"/><s n="TV"/></l><r>vierailla<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>gallánit<s n="V"/><s n="IV"/></l><r>täyttyä<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>geahkat<s n="V"/><s n="TV"/></l><r>!-- kukkua --<s n="V"/></r></p><par n="V_V"/></e>
+    <e><p><l>geahkat<s n="V"/><s n="TV"/></l><r>kukkua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>geahčadit<s n="V"/><s n="TV"/></l><r>katsella<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>geahčastit<s n="V"/><s n="TV"/></l><r>katsella<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>geahččalit<s n="V"/><s n="TV"/></l><r>kokeilla<s n="V"/></r></p><par n="V_V"/></e>
@@ -4112,7 +4087,6 @@
     <e><p><l>lihkkat<s n="V"/><s n="IV"/></l><r>herätä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>loahpahit<s n="V"/><s n="TV"/></l><r>lopeta<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>logadit<s n="V"/><s n="TV"/></l><r>lukea<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>lohkat<s n="V"/><s n="TV"/></l><r>lukea<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>lohkat<s n="V"/><s n="TV"/></l><r>lukea<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>lohpidit<s n="V"/><s n="TV"/></l><r>luvata<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>luohttit<s n="V"/><s n="IV"/></l><r>luottaa<s n="V"/></r></p><par n="V_V"/></e>
