@@ -4,7 +4,7 @@
   <section-def-cats>
 
     <def-cat n="nom1">
-      <cat-item name="nom"/>
+      <cat-item name="nom1"/>
     </def-cat>
   </section-def-cats>
 
