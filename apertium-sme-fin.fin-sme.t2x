@@ -60,6 +60,7 @@
      <attr-item tags="Ess"/>
      <attr-item tags="Ill"/>
      <attr-item tags="Loc"/>
+     <attr-item tags="Abe"/>
      <attr-item tags="Ine"/>
      <attr-item tags="Ela"/>
   </def-attr>
@@ -68,7 +69,40 @@
   <section-def-vars>
     <def-var n="nombre"/>
     <def-var n="genere"/>
+	<def-var n="noun_abe_fin"/>
   </section-def-vars>
+
+  <section-def-macros>
+	<def-macro n="conv_abe_noun1" npar="1">
+	<choose>
+		<when>
+			<test>
+				<equal><clip pos="1" part="case"/><lit-tag v="Abe"/></equal>
+			</test>
+			<let>
+				<clip pos="1" part="case"/>
+				<lit v="Gen"/>
+			</let>
+			<let>
+			 	<var n="noun_abe_fin"/>
+			 	<concat>
+					<lit v=" ^"/>
+					<lit v="haga"/>
+					<lit-tag v="Po"/>
+					<lit v="$"/>
+				 </concat>
+			</let>
+		</when>
+		<otherwise>
+			<let>
+				<var n="noun_abe_fin"/>
+				<lit v=""/>
+			</let>
+		</otherwise>
+	</choose>
+
+	</def-macro>	
+  </section-def-macros>
 
   <section-rules>
 	<rule>
@@ -87,18 +121,23 @@
 			</out>
 		</action>
 	</rule>
-
+	
     <rule>
       <pattern>
         <pattern-item n="SN"/>
       </pattern>
-      <action>
+      <action>	
+		<call-macro n="conv_abe_noun1">
+			<with-param pos="1"/>
+		</call-macro>
         <out>
           <chunk>
-            <clip pos="1" part="lemh"/>
-            <clip pos="1" part="tags"/>
-            <clip pos="1" part="chcontent"/>
-            <clip pos="1" part="lemq"/>
+			<clip pos="1" part="lemh"/>
+			<clip pos="1" part="tags" />
+			<lit v="{"/>
+			<clip pos="1" part="content" />
+			<var n="noun_abe_fin"/>
+			<lit v="}"/>
           </chunk>
         </out>
       </action>

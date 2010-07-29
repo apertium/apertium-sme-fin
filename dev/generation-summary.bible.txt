@@ -301,10 +301,6 @@ Multiple surface forms for a single lexical form
       1 alladiidda/allagiidda	^allat<A><Pl><Ill>$
 
 ===============================================================================
-Multiple bidix entries for a single source language lexical form
-===============================================================================
-
-===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
    1152 #dat	^dat<Pron><Dem><Sg><Loc>$
@@ -313,7 +309,6 @@ Tag mismatch between transfer and generation
     791 #ollis	^ollis<Sg><Nom>$
     680 #leat	^leat<V><IV><PrsPrc>$
     491 #stuoris	^stuoris<A><Attr>$			?
-    467 #danin	^danin<CS>$
     428 #ieš	^ieš<Pron><Attr>$
     426 #buot	^buot<Pron><Indef><Sg><Gen>$
     368 #buot	^buot<Pron><Indef><Sg><Nom>$
@@ -339,7 +334,6 @@ Tag mismatch between transfer and generation
     135 #geavat	^geavat<V><TV><Ind><Prs><ConNeg>$
     130 #Ipmil	^Ipmil<N><Pl><Nom><PxPl1>$
     128 #Ipmil	^Ipmil<N><Pl><Nom><PxPl2>$
-    123 #Danin	^Danin<CS>$
     121 #huikit	^huikit<V><TV><Ind><Prt><Sg3>$
     120 #vanhurskkis	^vanhurskkis<N><Sg><Gen>$
     118 #eallit	^eallit<V><IV>$
