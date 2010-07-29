@@ -316,11 +316,13 @@
       <attr-item tags="Prt"/>
     </def-attr>
     <def-attr n="a_person">
+<!--
       <attr-item tags="Sg"/>
+      <attr-item tags="Pl"/>
+-->
       <attr-item tags="Sg1"/>
       <attr-item tags="Sg2"/>
       <attr-item tags="Sg3"/>
-      <attr-item tags="Pl"/>
       <attr-item tags="Pl1"/>
       <attr-item tags="Pl2"/>
       <attr-item tags="Pl3"/>
@@ -1108,6 +1110,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <let>
               <clip pos="1" side="tl" part="a_realis"/>
               <lit-tag v="Inf"/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_case"/>
+              <lit v=""/>
             </let>
           </when>
         </choose>
