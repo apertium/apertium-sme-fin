@@ -12495,6 +12495,7 @@ valvoa'][POS=VERB][KTN=52]:valvo{^back}	kotus_52_VERB/stemfiller	;
 väsyä'][POS=VERB][KTN=52]:väsy{^front}	kotus_52_VERB/stemfiller	;
 haukkua'][POS=VERB][KTN=52][KAV=A]:hauk{k~~}u{^back}{A}	kotus_52_VERB/stemfiller	;
 hukkua'][POS=VERB][KTN=52][KAV=A]:huk{k~~}u{^back}{A}	kotus_52_VERB/stemfiller	;
+kukkua'][POS=VERB][KTN=52][KAV=A]:kuk{k~~}u{^back}{A}	kotus_52_VERB/stemfiller	;
 liikkua'][POS=VERB][KTN=52][KAV=A]:liik{k~~}u{^back}{A}	kotus_52_VERB/stemfiller	;
 nukkua'][POS=VERB][KTN=52][KAV=A]:nuk{k~~}u{^back}{A}	kotus_52_VERB/stemfiller	;
 välkkyä'][POS=VERB][KTN=52][KAV=A]:välk{k~~}y{^front}{A}	kotus_52_VERB/stemfiller	;

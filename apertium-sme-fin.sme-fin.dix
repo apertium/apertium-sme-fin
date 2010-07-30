@@ -373,7 +373,7 @@
 	<e><p><l>rabas<s n="Adv"/></l><r>auki<s n="Adv"/></r></p></e>
 	<e><p><l>riektadit<s n="Adv"/></l><r>oikeaan<s n="Adv"/></r></p></e>
 	<e><p><l>sadjosis<s n="Adv"/></l><r>tallella<s n="Adv"/></r></p></e>
-	<e><p><l>seammas<s n="Adv"/></l><r>samassa<s n="Adv"/></r></p></e>
+	<e><p><l>seammás<s n="Adv"/></l><r>samassa<s n="Adv"/></r></p></e>
 	<e><p><l>sierra<s n="Adv"/></l><r>erilleen<s n="Adv"/></r></p></e>
 	<e><p><l>suoli<s n="Adv"/></l><r>salaa<s n="Adv"/></r></p></e>
 	<e><p><l>suoli<s n="Adv"/></l><r>varkain<s n="Adv"/></r></p></e>
@@ -523,7 +523,7 @@
 	<e><p><l>goappašat<s n="Pron"/><s n="Indef"/><s n="Pl"/></l><r>molemmat<s n="Pron"/><s n="Indef"/><s n="Pl"/></r></p></e>
 	<e><p><l>soamis<s n="Pron"/><s n="Indef"/></l><r>joku<s n="Pron"/></r></p></e>   
 	
-	<e><p><l>seamma<s n="Pron"/><s n="Indef"/></l><r>sama<s n="Pron"/></r></p></e>
+	<e><p><l>seammá<s n="Pron"/><s n="Indef"/></l><r>sama<s n="Pron"/></r></p></e>
 	<e><p><l>juohkehaš<s n="Pron"/><s n="Indef"/></l><r>jokainen<s n="Pron"/></r></p></e>
 	
     <e><p><l>muhtin<s n="Pron"/><s n="Indef"/></l><r>eräs<s n="Pron"/></r></p></e>
@@ -2847,6 +2847,8 @@
 	<e><p><l>dolla<s n="N"/></l><r>palo<s n="N"/></r></p></e>
 	<e><p><l>dollameaštár<s n="N"/></l><r>palomestari<s n="N"/></r></p></e>
 	<e><p><l>maŋis<j/>boahtti<s n="N"/></l><r>jälkeläinen<s n="N"/></r></p></e>
+	<e><p><l>meahcceealli<s n="N"/></l><r>metsä<j/>eläin<s n="N"/></r></p></e>
+	
 	
 	<e><p><l>duvvá<s n="N"/></l><r>kyyhkynen<s n="N"/></r></p></e>
 	
