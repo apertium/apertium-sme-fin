@@ -316,7 +316,7 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	# Filter out text based on excludes
 	rest = rest.splitlines()
 	rest = [a for a in rest if not excl_symbols.search(a)]
-	
+		
 	if debug:
 		print "Sorting through %d lines" % len(rest)
 	
@@ -345,16 +345,20 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	else:
 		trim = []
 		if hlexc:
-			not_in_morph = words
+			not_in_morph = words[:]
 			for line in rest:
 				if line.find(';') > -1:
 					clipped = clip_line(line)
 					if clipped in words:
 						trim.append(line)
-						not_in_morph.pop(not_in_morph.index(clipped))
+						
+						try:					not_in_morph.pop(not_in_morph.index(clipped))
+						except ValueError:		pass # There should be no other exceptions
+						
 						continue
 				else:
 					trim.append(line)
+			
 		else:
 			for l in rest:
 				# l = line.strip()
