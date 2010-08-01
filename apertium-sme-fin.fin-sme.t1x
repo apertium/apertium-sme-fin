@@ -69,9 +69,9 @@
     </def-cat>
     <def-cat n="attrnom_1">
       <!-- Svonni's grupp 1 -->
-      <cat-item tags="Pron.Dem.*.*."/>
+      <cat-item tags="Pron.Dem.*.*.@N→"/>
       <!-- dat, dát, diet, dot, duot -->
-      <cat-item tags="Pron.Indef.*.*."/>
+      <cat-item tags="Pron.Indef.*.*.@N→"/>
       <!-- goappašat, guktot -->
       <!-- <cat-item tags="Pron.Interr.*.*."/> -->
       <!-- guhte, goabbá -->

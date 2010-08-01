@@ -62,6 +62,7 @@
 	<sdef n="Der2"	c="Derivation / 2" />
 	<sdef n="Der_ja"	c="Derivation / ja" />
 	
+	<sdef n="Ill"		c="Illative" />
 	
 	<sdef n="Agr"		c="Agreeing adjective" />
   </sdefs>
@@ -611,7 +612,7 @@
     <e slr="2"><p><l>rábát<s n="N"/></l><r>tahdas<s n="N"/></r></p></e>
 	
 	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/></l><r>kukaan<s n="Pron"/><s n="Qnt"/></r></p></e>
-	
+	<e><p><l>nubbi<s n="Pron"/><s n="Indef"/></l><r>toinen<s n="Pron" /><s n="Indef"/></r></p></e>
 	
 	<!-- <e><p><l>eden<s n="N"/></l><r>eeden<s n="N"/></r></p></e> --> <!-- 'an Eden' / 'a paradise' -->
 
@@ -3609,7 +3610,6 @@
     <e><p><l>dakko<s n="Adv"/></l><r>sitä<b/>kautta<s n="Adv"/></r></p></e>
     <e><p><l>dalle<s n="Adv"/></l><r>silloin<s n="Adv"/></r></p></e>
     <e><p><l>de<s n="Adv"/></l><r>sitten<s n="Adv"/></r></p></e>
-	<e><p><l>dasa<s n="Adv"/></l><r>siihen<s n="Adv"/></r></p></e>
     <e><p><l>deike<s n="Adv"/></l><r>tänne<s n="Adv"/></r></p></e>
     <e><p><l>die<s n="Adv"/></l><r>tuossa<s n="Adv"/></r></p></e>
     <e><p><l>diekko<s n="Adv"/></l><r>siitä<s n="Adv"/></r></p></e>
@@ -3745,6 +3745,9 @@
    <e><p><l>minddar<s n="Adv"/></l><r>muutoin<s n="Adv"/></r></p></e>
    
 <!--    <e><p><l>diehko<s n="Adv"/></l><r>sinne<s n="Adv"/></r></p></e>-->
+	
+	<!-- Pron:Adv -->
+	<!-- <e><p><l>dasa<s n="Pron"/><s n="Pers"/><s n="Sg3"/><s n="Ill"/></l><r>siihen<s n="Adv"/></r></p></e>  -->
 
 	<!-- Po:Pcle, Pr:Pcle -->
 	<e><p><l>juohke<b/>bealde<s n="Po"/></l><r>kaikkialla<s n="Adv"/></r></p></e>
