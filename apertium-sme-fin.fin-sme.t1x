@@ -71,7 +71,7 @@
       <!-- Svonni's grupp 1 -->
       <cat-item tags="Pron.Dem.*.*.@N→"/>
       <!-- dat, dát, diet, dot, duot -->
-      <cat-item tags="Pron.Indef.*.*.@N→"/>
+      <cat-item tags="Pron.Indef.*.*."/>
       <!-- goappašat, guktot -->
       <!-- <cat-item tags="Pron.Interr.*.*."/> -->
       <!-- guhte, goabbá -->
@@ -1863,6 +1863,82 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       </action>
     </rule>
 
+    <rule comment="regla: attradj attradj nom">
+      <pattern>
+        <pattern-item n="attr"/>
+        <pattern-item n="attr"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="set_noun_postp">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="nominal_case_number">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="set_foc_particles">
+          <with-param pos="3"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+              <in caseless="yes">
+                <clip pos="1" side="sl" part="lemh"/>
+                <list n="sort_pronouns"/>
+              </in>
+            </test>
+            <let>
+              <var n="demonstrative"/>
+              <lit-tag v="Dem"/>
+            </let>
+          </when>
+          <otherwise>
+            <let>
+              <var n="demonstrative"/>
+              <lit v=""/>
+            </let>
+          </otherwise>
+        </choose>
+        <out>
+          <chunk name="adj_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_attrs"/>
+              <var n="demonstrative"/>
+              <lit-tag v="Attr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_attrs"/>
+              <var n="demonstrative"/>
+              <lit-tag v="Attr"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <var n="comitative_num"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="a_case"/>
+              <clip pos="3" side="tl" part="a_pxprs"/>
+              <clip pos="3" side="tl" part="a_qst"/>
+              <clip pos="3" side="tl" part="a_foc"/>
+              <clip pos="1" side="tl" part="lemq"/>
+              <var n="cur_noun_postp"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     <rule comment="regla: attradj nom">
       <pattern>
         <pattern-item n="attr"/>
