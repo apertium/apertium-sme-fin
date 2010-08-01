@@ -11899,8 +11899,8 @@ Eurooppa'][POS=NOUN][SUBCAT=PROPER][KTN=10][KAV=B]:Euroop{p~~}{^a}{B}	kotus_10_P
 Eurooppa'][POS=NOUN][SUBCAT=PROPER][KTN=10][KAV=B]:euroop{p~~}{^a}{B}	kotus_10_PROPER_geo/stemfiller	;
 Kaukoitä'][POS=NOUN][SUBCAT=PROPER][KTN=10][KAV=F]:Kaukoi{t~~}{^ä}{F}	kotus_10_PROPER_geo/stemfiller	;
 Kaukoitä'][POS=NOUN][SUBCAT=PROPER][KTN=10][KAV=F]:kaukoi{t~~}{^ä}{F}	kotus_10_PROPER_geo/stemfiller	;
-Minnesota'][POS=NOUN][SUBCAT=PROPER][KTN=10][KAV=F]:Minneso{t~~}{^a}{F}	kotus_10_PROPER_geo/stemfiller	;
-Minnesota'][POS=NOUN][SUBCAT=PROPER][KTN=10][KAV=F]:minneso{t~~}{^a}{F}	kotus_10_PROPER_geo/stemfiller	;
+Minnesota'][POS=NOUN][SUBCAT=PROPER][KTN=10][KAV=F][STY=NONSTANDARD]:Minneso{t~~}{^a}{F}	kotus_10_PROPER_geo/stemfiller	;
+Minnesota'][POS=NOUN][SUBCAT=PROPER][KTN=10][KAV=F][STY=NONSTANDARD]:minneso{t~~}{^a}{F}	kotus_10_PROPER_geo/stemfiller	;
 Minnesota'][POS=NOUN][SUBCAT=PROPER][KTN=10][KAV=F]:Minnesot{^a}{F}	kotus_10_PROPER_geo/stemfiller	;
 Minnesota'][POS=NOUN][SUBCAT=PROPER][KTN=10][KAV=F]:minnesot{^a}{F}	kotus_10_PROPER_geo/stemfiller	;
 Saariselkä'][POS=NOUN][SUBCAT=PROPER][KTN=10][KAV=L]:Saarisel{k~~}{^ä}{L}	kotus_10_PROPER_geo/stemfiller	;

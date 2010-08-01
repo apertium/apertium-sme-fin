@@ -93,9 +93,13 @@
       <!-- Svonni's grupp 3 -->
       <cat-item tags="Num.Card.*"/>
       <!-- how to do all numbers except for one? -->
-      <cat-item lemma="usea" tags="A.*"/>   <!-- máŋga -->
+      <cat-item lemma="usea" tags="A.*"/>
+      <!-- máŋga -->
       <!-- <cat-item lemma="galle" tags="A.*"/>
       <cat-item lemma="moadde" tags="Num.*"/> -->
+    </def-cat>
+    <def-cat n="buot">
+      <cat-item lemma="kaikki" tags="Pron.Indef.*"/>
     </def-cat>
     <def-cat n="ord">
       <cat-item tags="Num.Ord.*"/>
@@ -103,9 +107,9 @@
     <def-cat n="num">
       <cat-item tags="Num.Card.*"/>
     </def-cat>
-	<def-cat n="nums">
-		<cat-item tags="Num.*"/>
-	</def-cat>
+    <def-cat n="nums">
+      <cat-item tags="Num.*"/>
+    </def-cat>
     <!-- 
 	esimerkki:
 	<def-cat n="pcle.qst">
@@ -117,10 +121,10 @@
       <cat-item lemma="guovvamánnu" tags="N.*"/>
 	</def-cat>
 	-->
-	<def-cat n="attrgen">
-		<cat-item tags="N.*.Gen.*" />
-		<cat-item tags="Pron.Pers.*.Gen.*"/>
-	</def-cat>
+    <def-cat n="attrgen">
+      <cat-item tags="N.*.Gen.*"/>
+      <cat-item tags="Pron.Pers.*.Gen.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="N.*"/>
       <cat-item tags="N.Prop.*"/>
@@ -181,7 +185,7 @@
     </def-attr>
     <def-attr n="a_ord">
       <attr-item tags="Ord"/>
-	  <attr-item tags="A.Ord"/>
+      <attr-item tags="A.Ord"/>
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="Num"/>
@@ -237,10 +241,10 @@
       <attr-item tags="Pron.Interr"/>
       <attr-item tags="Pron.Indef"/>
     </def-attr>
-	<def-attr n="gen_attrs">
-		<attr-item tags="N"/>         
-		<attr-item tags="Pron.Pers"/>
-	</def-attr>
+    <def-attr n="gen_attrs">
+      <attr-item tags="N"/>
+      <attr-item tags="Pron.Pers"/>
+    </def-attr>
     <def-attr n="a_case">
       <attr-item tags="Nom"/>
       <attr-item tags="Gen"/>
@@ -316,7 +320,7 @@
       <attr-item tags="Prt"/>
     </def-attr>
     <def-attr n="a_person">
-<!--
+      <!--
       <attr-item tags="Sg"/>
       <attr-item tags="Pl"/>
 -->
@@ -373,6 +377,7 @@
     <def-var n="number"/>
     <def-var n="case"/>
     <def-var n="comitative_num"/>
+    <def-var n="buot_buohkat"/>
     <def-var n="demonstrative"/>
     <def-var n="current_syntag"/>
     <def-var n="cur_verb_mood"/>
@@ -400,39 +405,40 @@
     </def-list>
   </section-def-lists>
   <section-def-macros>
-        <def-macro n="set_noun_postp" npar="1">
-           <let>
-             <var n="cur_noun_postp"/>
-             <lit v=""/>
-           </let>
-        <choose>
-                <when>
-                        <test>
-                                <equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="Abe"/></equal>
-                        </test>
-                        <let>
-                                <clip pos="1" side="tl" part="a_case"/>
-                                <lit-tag v="Gen"/>
-                        </let>
-                        <let>
-                                <var n="cur_noun_postp"/>
-                                <concat>
-                                        <lit v="$ ^"/>
-                                        <lit v="haga"/>
-                                        <lit-tag v="Po"/>
-                                 </concat>
-                        </let>
-                </when>
-                <otherwise>
-                        <let>
-                                <var n="cur_noun_postp"/>
-                                <lit v=""/>
-                        </let>
-                </otherwise>
-        </choose>
-
-        </def-macro>
-
+    <def-macro n="set_noun_postp" npar="1">
+      <let>
+        <var n="cur_noun_postp"/>
+        <lit v=""/>
+      </let>
+      <choose>
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="sl" part="a_case"/>
+              <lit-tag v="Abe"/>
+            </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="a_case"/>
+            <lit-tag v="Gen"/>
+          </let>
+          <let>
+            <var n="cur_noun_postp"/>
+            <concat>
+              <lit v="$ ^"/>
+              <lit v="haga"/>
+              <lit-tag v="Po"/>
+            </concat>
+          </let>
+        </when>
+        <otherwise>
+          <let>
+            <var n="cur_noun_postp"/>
+            <lit v=""/>
+          </let>
+        </otherwise>
+      </choose>
+    </def-macro>
     <def-macro n="nominal_case_number" npar="1" c="Set cases for pronouns and nouns">
       <call-macro n="set_loc_loc1">
         <with-param pos="1"/>
@@ -894,7 +900,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
     <rule comment="regla: pron">
       <pattern>
         <pattern-item n="pron"/>
@@ -1231,7 +1236,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
     <rule comment="regla: neg verb">
       <pattern>
         <pattern-item n="neg_verb"/>
@@ -1346,7 +1350,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </let>
       </action>
     </rule>
-	<!-- NOTE: Not doing aux verb for now, save these for interchunk -->
+    <!-- NOTE: Not doing aux verb for now, save these for interchunk -->
     <!-- end verb rules -->
     <!-- begin noun rules -->
     <!-- Need to move the multi-word rules up a level -->
@@ -1461,7 +1465,149 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
+    <rule comment="regla: kaikki/buot nom">
+      <pattern>
+        <pattern-item n="buot"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <!-- TODO: nominal_case_number? -->
+        <call-macro n="nominal_case_number">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="nominal_case_number">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_noun_postp">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_foc_particles">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_syntag1">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
+          <when>
+            <test>
+				<and>
+					<equal>
+						<clip pos="2" side="tl" part="nbr" />
+						<lit-tag v="Sg"/>
+					</equal>
+					<or>
+	                <equal>
+	                  <clip pos="2" side="tl" part="a_case"/>
+	                  <lit-tag v="Ill"/>
+	                </equal>
+	                <equal>
+	                  <clip pos="2" side="tl" part="a_case"/>
+	                  <lit-tag v="Loc"/>
+	                </equal>
+	              </or>
+				</and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_case"/>
+              <lit-tag v="Gen"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <!-- no love yet. works on attr but not on noun -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <call-macro n="strip_nbr2">
+              <with-param pos="1"/>
+              <with-param pos="2"/>
+            </call-macro>
+          </when>
+        </choose>
+		<choose> <!-- we actually want pl here instead of the default Sg -->
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" side="tl" part="a_case"/>
+						<lit-tag v="Com"/>
+					</equal>
+				</test>
+				<let>
+					<var n="comitative_num"/>
+					<lit-tag v="Pl"/>
+				</let>
+				<let>
+					<clip pos="2" side="tl" part="nbr"/>
+					<lit-tag v="Pl"/>
+				</let>
+			</when>
+		</choose>
+        <choose>
+          <when>
+            <test>
+				<or>
+				  <equal>
+	                <clip pos="2" side="tl" part="nbr"/>
+	                <lit-tag v="Pl"/>
+	              </equal>
+	              <equal>
+	                <var n="comitative_num"/>
+	                <lit-tag v="Pl"/>
+	              </equal>
+				</or>
+            </test>
+			<let>
+				<var n="buot_buohkat" />
+				<lit v="buohkat" />
+			</let>
+          </when>
+		  <otherwise>
+		    <let>
+				<var n="buot_buohkat" />
+				<lit v="buot" />
+			</let>
+		  </otherwise>
+        </choose>
+        <out>
+          <chunk name="buot" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+			  <var n="buot_buohkat"/>
+              <lit-tag v="Pron"/>
+              <lit-tag v="Indef"/>
+			  <var n="comitative_num"/>
+              <clip pos="2" side="tl" part="nbr"/> <!-- borrowing number here... -->
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="lemq"/>
+			  <!-- Need to figure out what to do with buot/Sg here. -->
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="nbr"/>
+			  <var n="comitative_num"/>
+              <clip pos="2" side="tl" part="a_case"/>
+              <clip pos="2" side="tl" part="a_pxprs"/>
+              <clip pos="2" side="tl" part="a_qst"/>
+              <clip pos="2" side="tl" part="a_foc"/>
+              <clip pos="1" side="tl" part="lemq"/>
+              <var n="cur_noun_postp"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     <rule comment="regla: attrnom_3 nom">
       <pattern>
         <pattern-item n="attrnom_3"/>
@@ -1477,10 +1623,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </call-macro>
         <call-macro n="set_foc_particles">
           <with-param pos="2"/>
-        </call-macro> 
-		<call-macro n="set_syntag1">
-	        <with-param pos="1"/>
-	      </call-macro>
+        </call-macro>
+        <call-macro n="set_syntag1">
+          <with-param pos="1"/>
+        </call-macro>
         <choose>
           <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
           <when>
@@ -1785,10 +1931,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
     <rule comment="regla: attrgen attradj nom">
-      <pattern>	
-		<pattern-item n="attrgen"/>
+      <pattern>
+        <pattern-item n="attrgen"/>
         <pattern-item n="attr"/>
         <pattern-item n="nom"/>
       </pattern>
@@ -1830,15 +1975,15 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <tag><clip pos="3" side="tl" part="nbr"/></tag>
               <tag><clip pos="3" side="tl" part="a_case"/></tag>
             </tags>
-			<lu>
+            <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="gen_attrs"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
-			<b pos="1"/>
-			<lu>
+            <b pos="1"/>
+            <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_attrs"/>
               <var n="demonstrative"/>
@@ -1862,7 +2007,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
     <rule comment="regla: attradj attradj nom">
       <pattern>
         <pattern-item n="attr"/>
@@ -2006,14 +2150,13 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
-	<rule comment="regla: attrgen attrgen nom">
-		<pattern>
-			<pattern-item n="attrgen"/>
-			<pattern-item n="attrgen"/>
-			<pattern-item n="nom"/>
-		</pattern>
-		<action>
+    <rule comment="regla: attrgen attrgen nom">
+      <pattern>
+        <pattern-item n="attrgen"/>
+        <pattern-item n="attrgen"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
         <call-macro n="set_noun_postp">
           <with-param pos="3"/>
         </call-macro>
@@ -2023,52 +2166,52 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_foc_particles">
           <with-param pos="3"/>
         </call-macro>
-			<out>
-	          <chunk name="gen_gen_nom" case="caseFirstWord">
-	            <tags>
-	              <tag><lit-tag v="SN"/></tag>
-	              <tag><var n="current_syntag"/></tag>
-	              <tag><clip pos="3" side="tl" part="nbr"/></tag>
-	              <tag><clip pos="3" side="tl" part="a_case"/></tag>
-	            </tags>
-	            <lu>
-	              <clip pos="1" side="tl" part="lemh"/>
-	              <clip pos="1" side="tl" part="gen_attrs"/>
-	              <clip pos="1" side="tl" part="a_person"/>
-	              <clip pos="1" side="tl" part="a_case"/>
-	              <clip pos="1" side="tl" part="lemq"/>
-	            </lu>
-	            <b pos="1"/>
-	            <lu>
-	              <clip pos="2" side="tl" part="lemh"/>
-	              <clip pos="2" side="tl" part="gen_attrs"/>
-	              <clip pos="2" side="tl" part="a_person"/>
-	              <clip pos="2" side="tl" part="a_case"/>
-	              <clip pos="2" side="tl" part="lemq"/>
-	            </lu>
-	            <b pos="1"/>
-	            <lu>
-	              <clip pos="3" side="tl" part="lemh"/>
-	              <clip pos="3" side="tl" part="a_nom"/>
-	              <var n="comitative_num"/>
-	              <clip pos="3" side="tl" part="nbr"/>
-	              <clip pos="3" side="tl" part="a_case"/>
-	              <clip pos="3" side="tl" part="a_pxprs"/>
-	              <clip pos="3" side="tl" part="a_qst"/>
-	              <clip pos="3" side="tl" part="a_foc"/>
-	              <clip pos="3" side="tl" part="lemq"/>
-                      <var n="cur_noun_postp"/>
-	            </lu>
-	          </chunk>
-	        </out>
-		</action>
-	</rule>
-	<rule comment="regla: attrgen nom">
-		<pattern>
-			<pattern-item n="attrgen"/>
-			<pattern-item n="nom"/>
-		</pattern>
-		<action>
+        <out>
+          <chunk name="gen_gen_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="3" side="tl" part="nbr"/></tag>
+              <tag><clip pos="3" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="gen_attrs"/>
+              <clip pos="1" side="tl" part="a_person"/>
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="gen_attrs"/>
+              <clip pos="2" side="tl" part="a_person"/>
+              <clip pos="2" side="tl" part="a_case"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <var n="comitative_num"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="a_case"/>
+              <clip pos="3" side="tl" part="a_pxprs"/>
+              <clip pos="3" side="tl" part="a_qst"/>
+              <clip pos="3" side="tl" part="a_foc"/>
+              <clip pos="3" side="tl" part="lemq"/>
+              <var n="cur_noun_postp"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="regla: attrgen nom">
+      <pattern>
+        <pattern-item n="attrgen"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
         <call-macro n="set_noun_postp">
           <with-param pos="2"/>
         </call-macro>
@@ -2078,39 +2221,38 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_foc_particles">
           <with-param pos="2"/>
         </call-macro>
-			<out>
-	          <chunk name="gen_nom" case="caseFirstWord">
-	            <tags>
-	              <tag><lit-tag v="SN"/></tag>
-	              <tag><var n="current_syntag"/></tag>
-	              <tag><clip pos="2" side="tl" part="nbr"/></tag>
-	              <tag><clip pos="2" side="tl" part="a_case"/></tag>
-	            </tags>
-	            <lu>
-	              <clip pos="1" side="tl" part="lemh"/>
-	              <clip pos="1" side="tl" part="gen_attrs"/>
-	              <clip pos="1" side="tl" part="a_person"/>
-	              <clip pos="1" side="tl" part="a_case"/>
-	              <clip pos="1" side="tl" part="lemq"/>
-	            </lu>
-	            <b pos="1"/>
-	            <lu>
-	              <clip pos="2" side="tl" part="lemh"/>
-	              <clip pos="2" side="tl" part="a_nom"/>
-	              <var n="comitative_num"/>
-	              <clip pos="2" side="tl" part="nbr"/>
-	              <clip pos="2" side="tl" part="a_case"/>
-	              <clip pos="2" side="tl" part="a_pxprs"/>
-	              <clip pos="2" side="tl" part="a_qst"/>
-	              <clip pos="2" side="tl" part="a_foc"/>
-	              <clip pos="2" side="tl" part="lemq"/>
-                      <var n="cur_noun_postp"/>
-	            </lu>
-	          </chunk>
-	        </out>
-		</action>
-	</rule>
-
+        <out>
+          <chunk name="gen_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="gen_attrs"/>
+              <clip pos="1" side="tl" part="a_person"/>
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <var n="comitative_num"/>
+              <clip pos="2" side="tl" part="nbr"/>
+              <clip pos="2" side="tl" part="a_case"/>
+              <clip pos="2" side="tl" part="a_pxprs"/>
+              <clip pos="2" side="tl" part="a_qst"/>
+              <clip pos="2" side="tl" part="a_foc"/>
+              <clip pos="2" side="tl" part="lemq"/>
+              <var n="cur_noun_postp"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     <rule comment="REGLA: NUM NomMod">
       <!-- Áhčis leat 2 máná. WORKS-->
       <pattern>
@@ -2172,7 +2314,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="nominal_case_number">
           <with-param pos="1"/>
         </call-macro>
-		
         <!-- <choose>
 			<when>
 				<test>
@@ -2315,8 +2456,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-	
-
     <rule comment="REGLA: NUMERAL NOM">
       <pattern>
         <pattern-item n="num"/>
