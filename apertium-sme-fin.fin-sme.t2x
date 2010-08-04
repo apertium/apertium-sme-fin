@@ -97,6 +97,8 @@
 		</action>
 	</rule>
 	<rule>
+		<!-- Hän katsoi kaikkea, mitä hän tehnyt oli. -->
+		<!-- Son geahčai buot, maid son lei dahkan. -->
 		<pattern>
 			<pattern-item n="PCP"/>
 			<pattern-item n="AUX"/>
