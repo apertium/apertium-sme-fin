@@ -770,6 +770,159 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </def-macro>
   </section-def-macros>
   <section-rules>
+    <rule comment="regla: kaikki/buot nom">
+      <pattern>
+        <pattern-item n="buot"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <!-- TODO: nominal_case_number? -->
+        <call-macro n="nominal_case_number">
+          <with-param pos="2"/>
+        </call-macro>
+		<!--    
+		<call-macro n="nominal_case_number">
+          <with-param pos="1"/>
+        </call-macro>
+		-->
+		<call-macro n="set_noun_postp">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_foc_particles">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_syntag1">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
+          <when>
+            <test>
+				<and>
+					<equal>
+						<clip pos="2" side="tl" part="nbr" />
+						<lit-tag v="Sg"/>
+					</equal>
+					<or>
+	                <equal>
+	                  <clip pos="2" side="tl" part="a_case"/>
+	                  <lit-tag v="Ill"/>
+	                </equal>
+	                <equal>
+	                  <clip pos="2" side="tl" part="a_case"/>
+	                  <lit-tag v="Loc"/>
+	                </equal>
+	              </or>
+				</and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_case"/>
+              <lit-tag v="Gen"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <!-- no love yet. works on attr but not on noun -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <call-macro n="strip_nbr2">
+              <with-param pos="1"/>
+              <with-param pos="2"/>
+            </call-macro>
+          </when>
+        </choose>
+		<choose> <!-- we actually want pl here instead of the default Sg -->
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" side="tl" part="a_case"/>
+						<lit-tag v="Com"/>
+					</equal>
+				</test>
+				<let>
+					<var n="comitative_num"/>
+					<lit-tag v="Pl"/>
+				</let>
+				<let>
+					<clip pos="2" side="tl" part="nbr"/>
+					<lit-tag v="Pl"/>
+				</let>
+			</when>
+		</choose>
+		<!--
+		<choose>
+          <when>
+            <test>
+				<or>
+				  <equal>
+	                <clip pos="2" side="tl" part="nbr"/>
+	                <lit-tag v="Pl"/>
+	              </equal>
+	              <equal>
+	                <var n="comitative_num"/>
+	                <lit-tag v="Pl"/>
+	              </equal>
+				</or>
+            </test>
+			<let>
+				<var n="buot_buohkat" />
+				<lit v="buohkat" />
+			</let>
+          </when>
+		  <otherwise>
+		    <let>
+				<var n="buot_buohkat" />
+				<lit v="buot" />
+			</let>
+		  </otherwise>
+	  </choose>
+	  -->
+	  <!-- it seems like buot/buohkat as attr is always reduced to some plain attributative form instead. leaving above for ref. -->
+        <out>
+          <chunk name="buot" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
+            </tags>
+			<lu>
+				<lit v="buot"/>
+				<lit-tag v="Pron"/>
+				<lit-tag v="Indef"/>
+				<!--
+			  <var n="buot_buohkat"/>
+              <lit-tag v="Pron"/>
+              <lit-tag v="Indef"/>
+			  <var n="comitative_num"/>
+              <clip pos="2" side="tl" part="nbr"/> 
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="lemq"/>
+			  -->
+			  <!-- Need to figure out what to do with buot/Sg here. -->
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="nbr"/>
+			  <var n="comitative_num"/>
+              <clip pos="2" side="tl" part="a_case"/>
+              <clip pos="2" side="tl" part="a_pxprs"/>
+              <clip pos="2" side="tl" part="a_qst"/>
+              <clip pos="2" side="tl" part="a_foc"/>
+              <clip pos="1" side="tl" part="lemq"/>
+              <var n="cur_noun_postp"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     <rule comment="regla: kaikki/buot">
       <pattern>
         <pattern-item n="buot"/>
@@ -796,7 +949,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 				<var n="buot_buohkat" />
 				<lit v="buohkat" />
 			</let>
-          </when>
+		</when>
 		  <otherwise>
 		    <let>
 				<var n="buot_buohkat" />
@@ -804,6 +957,20 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 			</let>
 		  </otherwise>
         </choose>
+		<choose>
+			<when>
+			<!-- Ja jumala katsoi kaikkea, mitä hän tehnyt oli ... -->
+			<!--  Ipmil geahčadii buot maid lei dahkan -->
+			<test><equal>
+					<clip pos="1" side="tl" part="a_case"/>
+					<lit-tag v="Gen"/>
+			</equal></test>
+			<let>
+				<clip pos="1" side="tl" part="a_case"/>
+				<lit v=""/>
+			</let>
+			</when>
+		</choose>
         <out>
           <chunk name="buot" case="caseFirstWord">
             <tags>
@@ -1514,149 +1681,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="1" side="tl" part="a_pxprs"/>
               <clip pos="1" side="tl" part="a_foc"/>
               <clip pos="1" side="tl" part="a_qst"/>
-              <clip pos="1" side="tl" part="lemq"/>
-              <var n="cur_noun_postp"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-    <rule comment="regla: kaikki/buot nom">
-      <pattern>
-        <pattern-item n="buot"/>
-        <pattern-item n="nom"/>
-      </pattern>
-      <action>
-        <!-- TODO: nominal_case_number? -->
-        <call-macro n="nominal_case_number">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="nominal_case_number">
-          <with-param pos="1"/>
-        </call-macro>
-        <call-macro n="set_noun_postp">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_foc_particles">
-          <with-param pos="2"/>
-        </call-macro>
-        <call-macro n="set_syntag1">
-          <with-param pos="1"/>
-        </call-macro>
-        <choose>
-          <!-- set attr case based on head case. Head Ill -> Attr Gen, head Loc -> Attr Gen -->
-          <when>
-            <test>
-				<and>
-					<equal>
-						<clip pos="2" side="tl" part="nbr" />
-						<lit-tag v="Sg"/>
-					</equal>
-					<or>
-	                <equal>
-	                  <clip pos="2" side="tl" part="a_case"/>
-	                  <lit-tag v="Ill"/>
-	                </equal>
-	                <equal>
-	                  <clip pos="2" side="tl" part="a_case"/>
-	                  <lit-tag v="Loc"/>
-	                </equal>
-	              </or>
-				</and>
-            </test>
-            <let>
-              <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
-            </let>
-          </when>
-        </choose>
-        <choose>
-          <!-- no love yet. works on attr but not on noun -->
-          <when>
-            <test>
-              <equal>
-                <clip pos="2" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
-              </equal>
-            </test>
-            <call-macro n="strip_nbr2">
-              <with-param pos="1"/>
-              <with-param pos="2"/>
-            </call-macro>
-          </when>
-        </choose>
-		<choose> <!-- we actually want pl here instead of the default Sg -->
-			<when>
-				<test>
-					<equal>
-						<clip pos="2" side="tl" part="a_case"/>
-						<lit-tag v="Com"/>
-					</equal>
-				</test>
-				<let>
-					<var n="comitative_num"/>
-					<lit-tag v="Pl"/>
-				</let>
-				<let>
-					<clip pos="2" side="tl" part="nbr"/>
-					<lit-tag v="Pl"/>
-				</let>
-			</when>
-		</choose>
-        <choose>
-          <when>
-            <test>
-				<or>
-				  <equal>
-	                <clip pos="2" side="tl" part="nbr"/>
-	                <lit-tag v="Pl"/>
-	              </equal>
-	              <equal>
-	                <var n="comitative_num"/>
-	                <lit-tag v="Pl"/>
-	              </equal>
-				</or>
-            </test>
-			<let>
-				<var n="buot_buohkat" />
-				<lit v="buohkat" />
-			</let>
-          </when>
-		  <otherwise>
-		    <let>
-				<var n="buot_buohkat" />
-				<lit v="buot" />
-			</let>
-		  </otherwise>
-        </choose>
-        <out>
-          <chunk name="buot" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-              <tag><var n="current_syntag"/></tag>
-              <tag><clip pos="1" side="tl" part="nbr"/></tag>
-              <tag><clip pos="1" side="tl" part="a_case"/></tag>
-            </tags>
-            <lu>
-			  <var n="buot_buohkat"/>
-              <lit-tag v="Pron"/>
-              <lit-tag v="Indef"/>
-			  <var n="comitative_num"/>
-              <clip pos="2" side="tl" part="nbr"/> <!-- borrowing number here... -->
-              <clip pos="1" side="tl" part="a_case"/>
-              <clip pos="1" side="tl" part="lemq"/>
-			  <!-- Need to figure out what to do with buot/Sg here. -->
-            </lu>
-            <b pos="1"/>
-            <lu>
-              <clip pos="2" side="tl" part="lemh"/>
-              <clip pos="2" side="tl" part="a_nom"/>
-              <clip pos="2" side="tl" part="nbr"/>
-			  <var n="comitative_num"/>
-              <clip pos="2" side="tl" part="a_case"/>
-              <clip pos="2" side="tl" part="a_pxprs"/>
-              <clip pos="2" side="tl" part="a_qst"/>
-              <clip pos="2" side="tl" part="a_foc"/>
               <clip pos="1" side="tl" part="lemq"/>
               <var n="cur_noun_postp"/>
             </lu>

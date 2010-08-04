@@ -509,8 +509,8 @@
     <e><p><l>gii<s n="Pron"/><s n="Interr"/></l><r>kuka<s n="Pron"/><s n="Interr"/></r></p></e>
     
     <e><p><l>juoga<s n="Pron"/><s n="Indef"/></l><r>jokin<s n="Pron"/></r></p></e>
-    <e><p><l>buot<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>kaikki<s n="Pron"/><s n="Indef"/><s n="Sg"/></r></p></e>
-    <e><p><l>buohkat<s n="Pron"/><s n="Indef"/><s n="Pl"/></l><r>kaikki<s n="Pron"/><s n="Indef"/><s n="Pl"/></r></p></e>
+    <e><p><l>buot<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/><s n="Indef"/><s n="Sg"/></r></p></e>
+    <e><p><l>buohkat<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/><s n="Indef"/><s n="Pl"/></r></p></e>
     <!--<e><p><l>buohkat<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/></r></p></e>-->
     <e><p><l>mihkkege<s n="Pron"/><s n="Indef"/></l><r>mikään<s n="Pron"/><s n="Qnt"/></r></p></e>
 
