@@ -770,6 +770,62 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </def-macro>
   </section-def-macros>
   <section-rules>
+    <rule comment="regla: kaikki/buot">
+      <pattern>
+        <pattern-item n="buot"/>
+      </pattern>
+      <action>
+        <call-macro n="nominal_case_number">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+				<or>
+				  <equal>
+	                <clip pos="1" side="tl" part="nbr"/>
+	                <lit-tag v="Pl"/>
+	              </equal>
+	              <equal>
+	                <var n="comitative_num"/>
+	                <lit-tag v="Pl"/>
+	              </equal>
+				</or>
+            </test>
+			<let>
+				<var n="buot_buohkat" />
+				<lit v="buohkat" />
+			</let>
+          </when>
+		  <otherwise>
+		    <let>
+				<var n="buot_buohkat" />
+				<lit v="buot" />
+			</let>
+		  </otherwise>
+        </choose>
+        <out>
+          <chunk name="buot" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+			  <var n="buot_buohkat"/>
+              <lit-tag v="Pron"/>
+              <lit-tag v="Indef"/>
+			  <var n="comitative_num"/>
+              <clip pos="1" side="tl" part="nbr"/> <!-- borrowing number here... -->
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="lemq"/>
+			  <!-- Need to figure out what to do with buot/Sg here. -->
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     <!-- begin pronoun rules -->
     <rule comment="regla: pron.indef">
       <!-- indefinite pronouns 'juohke' have no number/case in sámi -->
