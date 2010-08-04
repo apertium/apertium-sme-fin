@@ -12,6 +12,12 @@
 	<def-cat n="SN_numattr">
 		<cat-item tags="SN.*.@Num←"/>
 	</def-cat>
+	<def-cat n="PCP">
+		<cat-item tags="PCP"/>
+	</def-cat>
+	<def-cat n="AUX">
+		<cat-item tags="V.@+FAUXV"/>
+	</def-cat>
   </section-def-cats>
 
   <section-def-attrs>
@@ -90,8 +96,31 @@
 			</out>
 		</action>
 	</rule>
+	<rule>
+		<pattern>
+			<pattern-item n="PCP"/>
+			<pattern-item n="AUX"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+					<clip pos="2" part="lemh" />
+					<clip pos="2" part="tags"/>
+					<clip pos="2" part="chcontent"/>
+					<clip pos="2" part="lemq"/>
+				</chunk>
+				<b />
+				<chunk>	
+					<clip pos="1" part="lemh" />
+					<clip pos="1" part="tags"/>
+					<clip pos="1" part="chcontent"/>
+					<clip pos="1" part="lemq"/>
+				</chunk>
+			</out>
+		</action>
+	</rule>
 	
-    <rule>
+	<rule>
       <pattern>
         <pattern-item n="SN"/>
       </pattern>
