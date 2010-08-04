@@ -962,11 +962,15 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 			<!-- Ja jumala katsoi kaikkea, mitä hän tehnyt oli ... -->
 			<!--  Ipmil geahčadii buot maid lei dahkan -->
 			<test><equal>
-					<clip pos="1" side="tl" part="a_case"/>
-					<lit-tag v="Gen"/>
+					<clip pos="1" side="tl" part="nbr"/>
+					<lit-tag v="Sg"/>
 			</equal></test>
 			<let>
 				<clip pos="1" side="tl" part="a_case"/>
+				<lit v=""/>
+			</let>
+			<let>
+				<clip pos="1" side="tl" part="nbr"/>
 				<lit v=""/>
 			</let>
 			</when>
@@ -984,7 +988,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <lit-tag v="Pron"/>
               <lit-tag v="Indef"/>
 			  <var n="comitative_num"/>
-              <clip pos="1" side="tl" part="nbr"/> <!-- borrowing number here... -->
+              <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="lemq"/>
 			  <!-- Need to figure out what to do with buot/Sg here. -->
