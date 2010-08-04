@@ -15,6 +15,9 @@
 	<def-cat n="PCP">
 		<cat-item tags="PCP"/>
 	</def-cat>
+	<def-cat n="NEG">
+		<cat-item tags="V.NEG"/>
+	</def-cat>
 	<def-cat n="AUX">
 		<cat-item tags="V.@+FAUXV"/>
 	</def-cat>
@@ -96,6 +99,40 @@
 			</out>
 		</action>
 	</rule>
+	<rule>
+		<!-- Mutta tällaisia tietosanakirjoja ei suomeksi ole. -->
+		<!-- Muhte dákkár diehtosátnegirjjit eai leat suomagillii. -->
+		<pattern>
+			<pattern-item n="NEG"/>
+			<pattern-item n="SN"/>
+			<pattern-item n="AUX"/>
+		</pattern>
+		<action>
+			<out>
+				<chunk>
+					<clip pos="1" part="lemh" />
+					<clip pos="1" part="tags"/>
+					<clip pos="1" part="chcontent"/>
+					<clip pos="1" part="lemq"/>
+				</chunk>
+				<b />
+				<chunk>	
+					<clip pos="3" part="lemh" />
+					<clip pos="3" part="tags"/>
+					<clip pos="3" part="chcontent"/>
+					<clip pos="3" part="lemq"/>
+				</chunk>
+				<b />
+				<chunk>	
+					<clip pos="2" part="lemh" />
+					<clip pos="2" part="tags"/>
+					<clip pos="2" part="chcontent"/>
+					<clip pos="2" part="lemq"/>
+				</chunk>
+			</out>
+		</action>
+	</rule>
+		
 	<rule>
 		<!-- Hän katsoi kaikkea, mitä hän tehnyt oli. -->
 		<!-- Son geahčai buot, maid son lei dahkan. -->
