@@ -1,3 +1,4 @@
+
 ===============================================================================
 Multiple surface forms for a single lexical form
 ===============================================================================
@@ -432,16 +433,13 @@ Tag mismatch between transfer and generation
 ===============================================================================
     993 #dát	^dát<Pron><Pers><Sg3><Nom>$
     976 #excl	^excl<CLB>$
-    822 #buohkat	^buohkat<Pron><Indef>$
     791 #ollis	^ollis<Sg><Nom>$
     753 #Hearrá	^Hearrá<N><Gen>$
     680 #leat	^leat<V><IV><PrsPrc>$
     648 #dát	^dát<Pron><Pers><Sg3><Gen>$
     539 #Ipmil	^Ipmil<N><Gen>$
-    489 #buot	^buot<Pron><Indef><Sg><Gen>$
     482 #stuoris	^stuoris<A><Attr>$
     426 #ieš	^ieš<Pron><Attr>$
-    397 #buot	^buot<Pron><Indef><Sg><Nom>$
     357 #Israel	^Israel<N><Gen>$
     349 #Dát	^Dát<Pron><Pers><Sg3><Nom>$
     328 #ieš	^ieš<Pron><Refl><Gen>$
@@ -526,7 +524,6 @@ Tag mismatch between transfer and generation
      51 #Váldit	^Váldit<V><TV><Imprt><Pl2>$
      51 #leat	^leat<V><IV><Ind><Prs><Sg3><Foc_ge>$
      50 #čihččet	^čihččet<A><Ord><Ess>$
-     50 #buot	^buot<Pron><Indef><Sg><Loc>$
      49 #viellja	^viellja<N><Pl><Nom><PxPl3>$
      49 #seammá	^seammá<Pron><Indef><Sg><Loc>$
      49 #gávpot	^gávpot<N><Gen>$
@@ -590,7 +587,6 @@ Tag mismatch between transfer and generation
      34 #vanhurskkis	^vanhurskkis<N><Sg><Loc>$
      34 #goikkis	^goikkis<A><Attr>$
      34 #eapmi	^eapmi<N><Pl><Nom><PxPl3>$
-     34 #buot	^buot<Pron><Indef><Sg><Ill>$
      33 #miehkki	^miehkki<N><Gen>$
      33 #dahku	^dahku<N><Pl><Nom><PxPl3>$
      32 #Ii	^Ii<V><IV><Neg><Ind><Sg1><Qst>$
@@ -693,7 +689,6 @@ Tag mismatch between transfer and generation
      21 #gii	^gii<Pron><Rel><Sg><Abe>$
      21 #gasku	^gasku<Po><PxPl2>$
      21 #doalvut	^doalvut<V><TV><Ind><Pass><Prt><Pe4>$
-     21 #Buohkat	^Buohkat<Pron><Indef>$
      21 #Buktit	^Buktit<V><TV><Imprt><Pl2>$
      21 #beales	^beales<Po><PxSg1>$
      20 #vuosttaš	^vuosttaš<A><Ord><Sg><Gen>$
@@ -701,6 +696,7 @@ Tag mismatch between transfer and generation
      20 #poarta	^poarta<N><Gen>$
      20 #hearvás	^hearvás<A><Attr>$
      20 #buorre	^buorre<A><Attr>$
+     20 #buohkat	^buohkat<Pron><Indef><Sg><Pl><Com>$
      20 #boahtit	^boahtit<V><IV>$
      20 #beaivi	^beaivi<N><Gen>$
      19 #vuosttaš	^vuosttaš<A><Ord><Sg><Loc>$
@@ -834,6 +830,7 @@ Tag mismatch between transfer and generation
      13 #giehta	^giehta<N><Pl><Nom><PxPl2>$
      13 #duohtavuohta	^duohtavuohta<N><Gen>$
      13 #čihččet	^čihččet<A><Ord><Sg><Loc>$
+     13 #buot	^buot<Pron><Indef><Ess>$
      13 #bokte	^bokte<Po><PxSg1>$
      13 #bargu	^bargu<N><Gen>$
      13 #ballat	^ballat<V><TV><Imprt><Pl2>$
@@ -1780,7 +1777,6 @@ Tag mismatch between transfer and generation
       3 #čállit	^čállit<V><TV><Ind><Pass><Prs><Pe4>$
       3 #caggat	^caggat<V><TV><Imprt><Sg2><Qst>$
       3 #buressivdnidit	^buressivdnidit<V><TV>$
-      3 #buot	^buot<Pron><Indef><Ess>$
       3 #buorránit	^buorránit<V><IV><Neg>$
       3 #bossut	^bossut<V><TV><Ind><Pass><Prt><Pe4>$
       3 #borrat	^borrat<V><TV><Imprt><Sg2><Qst>$
@@ -2235,7 +2231,6 @@ Tag mismatch between transfer and generation
       2 #čállit	^čállit<V><TV><Imprt><Pl2>$
       2 #čállit	^čállit<V><TV><Cond><Pass><Prs><Pe4>$
       2 #caggat	^caggat<V><TV><Ind><Pass><Prs><Pe4>$
-      2 #buot	^buot<Pron><Indef><Sg><Ess>$
       2 #buoridit	^buoridit<V><TV><Cond><Prs><Sg3><Qst>$
       2 #buoridit	^buoridit<V><TV>$
       2 #buolva	^buolva<N><Gen>$
@@ -3682,7 +3677,6 @@ Tag mismatch between transfer and generation
       1 #buressivdnidit	^buressivdnidit<V><TV><Imprt><Pass><Pe4>$
       1 #buressivdnidit	^buressivdnidit<V><TV><Der3><Der_n><N><Sg><Com>$
       1 #buozas	^buozas<A><Pl><Nom><PxPl3>$
-      1 #buot	^buot<Pron><Indef><Nom>$
       1 #buorre	^buorre<A><Pl><Nom><PxSg2>$
       1 #Buorre	^Buorre<A><Attr>$
       1 #buoridit	^buoridit<V><TV><Ind><Pass><Prt><Pe4>$
@@ -3946,5 +3940,5 @@ Summary
 ===============================================================================
    421 /tmp/fin-sme.multiform
      0 /tmp/fin-sme.multibidix
-  3510 /tmp/fin-sme.tagmismatch
-  3931 total
+  3503 /tmp/fin-sme.tagmismatch
+  3924 total
