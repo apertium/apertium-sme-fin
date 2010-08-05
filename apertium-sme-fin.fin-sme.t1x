@@ -157,6 +157,9 @@
     <def-cat n="pron_rel">
       <cat-item tags="Pron.Rel.*"/>
     </def-cat>
+    <def-cat n="pron_dem">
+      <cat-item tags="Pron.Dem.*"/>
+    </def-cat>
     <def-cat n="pron">
       <cat-item tags="Pron.*"/>
     </def-cat>
@@ -1121,6 +1124,35 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="1" side="tl" part="a_pron"/>
               <var n="comitative_num"/>
               <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="a_case"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+	<rule comment="regla: pron / dát">
+      <pattern>
+        <pattern-item n="pron_dem"/>
+      </pattern>
+      <action>
+        <call-macro n="nominal_case_number">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="pron" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="PRN"/></tag>
+              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+              <tag><clip pos="1" side="sl" part="nbr"/></tag>
+              <tag><clip pos="1" side="sl" part="a_person"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_pron"/>
+              <var n="comitative_num"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
             </lu>
           </chunk>
