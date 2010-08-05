@@ -545,7 +545,8 @@
 	<e><p><l>okta<s n="Num"/></l><r>yksi<s n="Pron"/></r></p></e>
 	
 	<!-- Pron : N -->
-	<e><p><l>goappašat<s n="Pron"/><s n="Indef"/></l><r>molempi<s n="N"/></r></p></e>
+	<e r="RL"><p><l>goappašat<s n="Pron"/><s n="Indef"/><s n="Pl"/></l><r>molempi<s n="N"/><s n="Sg"/></r></p></e>
+	<e><p><l>goappašat<s n="Pron"/><s n="Indef"/><s n="Pl"/></l><r>molempi<s n="N"/><s n="Pl"/></r></p></e>
 	
 	 <!-- echo "joku" | ofin
 	joku	joku+Pron+Sg+Nom
