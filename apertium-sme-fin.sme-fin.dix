@@ -539,7 +539,7 @@
 	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>itse<s n="Pron"/><s n="Refl"/></r></p></e>
 
 	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/></r></p></e>
-	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>oma<s n="A"/></r></p></e>
+	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>oma<s n="A"/><s n="Pos"/></r></p></e>
 	
 	<!-- !! Num and Pron -->
 	<e><p><l>okta<s n="Num"/></l><r>yksi<s n="Pron"/></r></p></e>
