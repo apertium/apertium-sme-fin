@@ -853,4 +853,22 @@ lean	leat+V+IV+Ind+Prs+Sg1
 lean	leat+V+IV+PrfPrc+Use/NG
 
 
+## Stuoris 
+
+482 #stuoris	^stuoris<A><Attr>$
+
+$ echo "stuoris" | sme
+stuoris	stuoris+CmpN/SgN+CmpN/SgG+CmpN/PlG+A+Sg+Nom
+
+    <e><p><l>stuoris<s n="A"/></l><r>suuri<s n="A"/></r></p><par n="A_A"/></e> 
+
+need A+Attr:
+
+$ echo "stuora" | sme
+stuora	stuoris+CmpN/SgN+CmpN/SgG+CmpN/PlG+A+Attr+Dial/-KJ
+
+$ echo "stuorra" | sme
+stuorra	stuoris+Dial/-GG+A+Attr
+
+Cannot generate.
 
