@@ -129,6 +129,7 @@
       <cat-item tags="N.*"/>
       <cat-item tags="N.Prop.*"/>
       <cat-item tags="N.Prop.Plc.*"/>
+      <cat-item tags="N.Prop.Mal.*"/>
     </def-cat>
     <def-cat n="attr">
       <cat-item tags="A.*"/>
@@ -246,6 +247,10 @@
     </def-attr>
     <def-attr n="gen_attrs">
       <attr-item tags="N"/>
+      <attr-item tags="N.Actor"/>
+      <attr-item tags="N.Prop"/>
+      <attr-item tags="N.Prop.Plc"/>
+      <attr-item tags="N.Prop.Mal"/>
       <attr-item tags="Pron.Pers"/>
     </def-attr>
     <def-attr n="a_case">
@@ -1130,7 +1135,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-	<rule comment="regla: pron / dát">
+	<rule comment="regla: pron dem">
+		<!-- tässä -> dás ; tuossa -> duos -->
       <pattern>
         <pattern-item n="pron_dem"/>
       </pattern>
@@ -2293,6 +2299,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="gen_attrs"/>
+              <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="lemq"/>
@@ -2301,6 +2308,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="gen_attrs"/>
+              <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_person"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="lemq"/>
@@ -2348,6 +2356,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="gen_attrs"/>
+              <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="lemq"/>

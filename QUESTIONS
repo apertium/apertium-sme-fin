@@ -844,3 +844,13 @@ pinnalle	pinnalle+Adp
 pinnalle	pinna+N+Sg+All
 pinnalle	pinta+N+Sg+All
 
+## PrfPrc +Use/NG
+
+680 #leat	^leat<V><IV><PrsPrc>$
+
+$ echo "lean" | sme
+lean	leat+V+IV+Ind+Prs+Sg1
+lean	leat+V+IV+PrfPrc+Use/NG
+
+
+
