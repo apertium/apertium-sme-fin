@@ -8,6 +8,7 @@ Multiple surface forms for a single lexical form
     517 dieppe/dieppe-	^dieppe<Adv>$
     321 Jesus/Jesusa	^Jesus<N><Prop><Mal><Sg><Gen>$
     281 Israel/Israel-	^Israel<N><Prop><Plc><Sg><Nom>$
+    237 maŋisboahttiid/maŋisbohttiid	^maŋisboahtti<N><Actor><Pl><Gen>$
     225 agálaš-/agálaččaid-/agálačča-	^agálaš<A>$
     201 ovtta/ovtta-	^okta<Num><Sg><Gen>$
     158 Israelas/Israelis	^Israel<N><Prop><Plc><Sg><Loc>$
@@ -45,6 +46,7 @@ Multiple surface forms for a single lexical form
      29 morraha/morraša	^moraš<N><Sg><Gen>$
      29 Egypta/Egypta-	^Egypta<N><Prop><Plc><Sg><Nom>$
      28 morrahii/morrašii	^moraš<N><Sg><Ill>$
+     28 maŋisboahttiin/maŋisbohttiin	^maŋisboahtti<N><Actor><Pl><Loc>$
      27 viđa/viđa+-	^vihtta<Num><Sg><Gen>$
      27 gutnis/gudnis	^gudni<N><Sg><Loc>$
      25 Noa/Noa-	^Noa<N><Prop><Mal><Sg><Nom>$
@@ -60,6 +62,7 @@ Multiple surface forms for a single lexical form
      17 rupmahan/rupmašan	^rumaš<N><Sg><Gen><PxSg1>$
      17 oaive-/oaivve-/oivviid-	^oaivi<N>$
      16 rupmahat/rupmašat	^rumaš<N><Pl><Nom>$
+     16 maŋisboahttiidasat/maŋisbohttiidasat	^maŋisboahtti<N><Actor><Pl><Ill><PxSg2>$
      16 alddiineattet/alddesteattet/alddádet/alddáneattet	^ieš<Pron><Refl><Loc><PxPl2>$
      16 allaseamet/alccamet/alcceseamet/alccemet	^ieš<Pron><Refl><Ill><PxPl1>$
      16 iehčamet/iežaideamet/iežamet	^ieš<Pron><Refl><Gen><PxPl1>$
@@ -67,8 +70,10 @@ Multiple surface forms for a single lexical form
      16 čalmmeheamit/čalmmeheamet	^čalmmeheapme<A><Pl><Nom>$
      15 vissis-/vissásiid-/vissás-	^vissis<A>$
      15 rupmahiin/rupmašiin	^rumaš<N><Pl><Loc>$
+     15 maŋisboahttiidat/maŋisbohttiidat	^maŋisboahtti<N><Actor><Pl><Gen><PxSg2>$
      15 gutnis/gudnis	^gudni<N><Sg><Gen><PxSg3>$
      14 vahkku/vahku	^vahkku<N><Sg><Gen>$
+     14 maŋisboahttiide/maŋisbohttiide	^maŋisboahtti<N><Actor><Pl><Ill>$
      14 dieđikeahttá/dieđikeahttájin	^diehtit<V><TV><VAbess>$
      14 bahča-/bahččat-/bahččagiid-	^bahča<A>$
      13 ovcci/ovcci-	^ovcci<Num><Sg><Gen>$
@@ -78,6 +83,7 @@ Multiple surface forms for a single lexical form
      13 bearrahis/bearrašis	^bearaš<N><Sg><Gen><PxSg3>$
      12 rupmahii/rupmašii	^rumaš<N><Sg><Ill>$
      12 ribatkeahttá/ribatkeahttájin	^ribahit<V><TV><VAbess>$
+     12 maŋisboahttiidasas/maŋisbohttiidasas	^maŋisboahtti<N><Actor><Pl><Ill><PxSg3>$
      12 Kain/Kain-	^Kain<N><Prop><Mal><Sg><Nom>$
      12 borakeahttá/borakeahttájin	^borrat<V><TV><VAbess>$
      12 allada/allaga	^allat<A><Sg><Gen>$
@@ -106,6 +112,7 @@ Multiple surface forms for a single lexical form
       9 gávviliid-/gávvil-	^gávvil<A>$
       9 gámmirat/gámmárat	^gámmir<N><Sg><Gen><PxSg2>$
       8 sierra/sierra-	^sierra<Adv>$
+      8 maŋisboahttiinis/maŋisbohttiinis	^maŋisboahtti<N><Actor><Pl><Loc><PxSg3>$
       8 alddestat/alddát	^ieš<Pron><Refl><Loc><PxSg2>$
       8 alddiineaset/alddiset/alddesteaset/alddeset/alddáneaset	^ieš<Pron><Refl><Loc><PxPl3>$
       8 golmmas/golmman	^golbma<Num><Sg><Loc>$
@@ -172,6 +179,7 @@ Multiple surface forms for a single lexical form
       4 rupmahiinniset/rupmašiinniset	^rumaš<N><Pl><Loc><PxPl3>$
       4 rupmahiinnádet/rupmašiinnádet	^rumaš<N><Pl><Loc><PxPl2>$
       4 njulges/njuolga	^njuolgat<A><Attr>$
+      4 maŋisboahttiidis/maŋisbohttiidis	^maŋisboahtti<N><Actor><Pl><Gen><PxSg3>$
       4 lossat-/lossadiid-	^lossat<A>$
       4 logis/login	^logi<Num><Sg><Loc>$
       4 lihkadeaddjiid/lihkadeddjiid	^lihkadit<V><IV><Der2><Actor><N><Pl><Gen>$
@@ -240,6 +248,11 @@ Multiple surface forms for a single lexical form
       2 morrahisttiset/morrašisttiset	^moraš<N><Sg><Loc><PxPl3>$
       2 morrahan/morrašan	^moraš<N><Sg><Gen><PxSg1>$
       2 morrahiid/morrašiid	^moraš<N><Pl><Gen>$
+      2 maŋisboahttiineattet/maŋisbohttiineattet	^maŋisboahtti<N><Actor><Pl><Loc><PxPl2>$
+      2 maŋisboahttiidasaset/maŋisbohttiidasaset	^maŋisboahtti<N><Actor><Pl><Ill><PxPl3>$
+      2 maŋisboahttiidan/maŋisbohttiidan	^maŋisboahtti<N><Actor><Pl><Gen><PxSg1>$
+      2 maŋisboahttiideaset/maŋisbohttiideaset	^maŋisboahtti<N><Actor><Pl><Gen><PxPl3>$
+      2 maŋisboahttiideattet/maŋisbohttiideattet	^maŋisboahtti<N><Actor><Pl><Gen><PxPl2>$
       2 jearralkeahttá/jearralkeahttájin	^jearralit<V><TV><VAbess>$
       2 Alddiineaset/Alddiset/Alddesteaset/Alddeset/Alddáneaset	^Ieš<Pron><Refl><Loc><PxPl3>$
       2 Allaseaset/Alcciset/Alcceseaset/Alcceset	^Ieš<Pron><Refl><Ill><PxPl3>$
@@ -331,6 +344,12 @@ Multiple surface forms for a single lexical form
       1 morrahiinniset/morrašiinniset	^moraš<N><Pl><Loc><PxPl3>$
       1 morrahiinnádet/morrašiinnádet	^moraš<N><Pl><Loc><PxPl2>$
       1 molssodeaddjiid/molssodeddjiid	^molssodit<V><TV><Der2><Actor><N><Pl><Gen>$
+      1 maŋisboahttiinat/maŋisbohttiinat	^maŋisboahtti<N><Actor><Pl><Loc><PxSg2>$
+      1 maŋisboahttiineaset/maŋisbohttiineaset	^maŋisboahtti<N><Actor><Pl><Loc><PxPl3>$
+      1 maŋisboahttiidasan/maŋisbohttiidasan	^maŋisboahtti<N><Actor><Pl><Ill><PxSg1>$
+      1 maŋisboahttiidasadet/maŋisbohttiidasadet	^maŋisboahtti<N><Actor><Pl><Ill><PxPl2>$
+      1 maŋisboahttiidasamet/maŋisbohttiidasamet	^maŋisboahtti<N><Actor><Pl><Ill><PxPl1>$
+      1 maŋisboahttiideamet/maŋisbohttiideamet	^maŋisboahtti<N><Actor><Pl><Gen><PxPl1>$
       1 mávssikeahttá/mávssikeahttájin	^máksit<V><TV><VAbess>$
       1 máđoheamis/máđoheames	^máđoheapme<A><Sg><Loc>$
       1 Máđoheami/Máđoheami-/Máđoheame/Máđoheame-	^Máđoheapme<A><Sg><Gen>$
@@ -452,7 +471,6 @@ Tag mismatch between transfer and generation
     287 #gii	^gii<Sg><Gen>$
     280 #Ipmil	^Ipmil<N><Prop><Mal><Sg><Gen><PxSg2>$
     268 #dát	^dát<Pron><Pers><Sg3><Loc>$
-    237 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Gen>$
     210 #nubbi	^nubbi<Sg><Nom>$
     207 #nubbi	^nubbi<Sg><Gen>$
     200 #beaivi	^beaivi<N><Sg><Ess>$
@@ -463,7 +481,6 @@ Tag mismatch between transfer and generation
     155 #Ipmil	^Ipmil<N><Prop><Mal><Sg><Gen><PxPl1>$
     155 #guvlui	^guvlui<Po>$
     149 #sáhttit	^sáhttit<V><IV>$
-    149 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Nom>$
     142 #gii	^gii<Pron><Rel><Sg><Ess>$
     132 #dát	^dát<Pron><Pers><Sg3><Ill>$
     130 #Ipmil	^Ipmil<N><Prop><Mal><Sg><Gen><PxPl2>$
@@ -590,7 +607,6 @@ Tag mismatch between transfer and generation
      29 #áhčči	^áhčči<N><Pl><Nom><PxPl2>$
      28 #namma	^namma<N><Pl>$
      28 #nala	^nala<Po><PxPl3>$
-     28 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Loc>$
      28 #ieš	^ieš<Sg><Ill><PxPl2>$
      28 #čalbmi	^čalbmi<N><Pl><Nom><PxSg2>$
      27 #ovdabeale	^ovdabeale<Adv><PxSg3>$
@@ -711,7 +727,6 @@ Tag mismatch between transfer and generation
      16 #nubbi	^nubbi<Ess>$
      16 #mannat	^mannat<V><IV><Ind><Pass><Prs><Pe4>$
      16 #mánná	^mánná<N><Pl><Nom><PxPl3>$
-     16 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Ill><PxSg2>$
      16 #leat	^leat<V><IV><Ind><Prs><Pl3><Qst>$
      16 #illu	^illu<N><Pl>$
      16 #ieš	^ieš<Pron><Refl><Par><PxPl3>$
@@ -729,7 +744,6 @@ Tag mismatch between transfer and generation
      15 #Muitit	^Muitit<V><TV><Imprt><Pl2>$
      15 #mii	^mii<Pron><Interr><Sg><Ine>$
      15 #Márjá	^Márjá<N><Prop><Sg><Gen>$
-     15 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Gen><PxSg2>$
      15 #leat	^leat<V><IV><Ind><Prs><Sg1><Foc_ge>$
      15 #Ipmil	^Ipmil<N><Prop><Mal><Sg><Ill><PxSg1>$
      15 #gávccát	^gávccát<A><Ord><Ess>$
@@ -745,9 +759,6 @@ Tag mismatch between transfer and generation
      14 #namma	^namma<N><Pl><Nom><PxPl3>$
      14 #muitit	^muitit<V><TV><Ind><Pass><Prs><Pe4><ConNeg>$
      14 #mii	^mii<Sg><Gen>$
-     14 #maŋis+boahtti	^maŋis+boahtti<N><Sg><Gen><PxSg2>$
-     14 #maŋis+boahtti	^maŋis+boahtti<N><Sg><Gen>$
-     14 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Ill>$
      14 #leat	^leat<V><IV><Ind><Prs><Sg2><Foc_ge>$
      14 #jietna	^jietna<N><Pl><Nom><PxSg3>$
      14 #eapmi	^eapmi<N><Pl><Nom><PxSg3>$
@@ -799,7 +810,6 @@ Tag mismatch between transfer and generation
      12 #nieida	^nieida<N><Pl><Nom><PxSg3>$
      12 #nala	^nala<Po><PxPl1>$
      12 #maŋŋá	^maŋŋá<Po><PxSg2>$
-     12 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Ill><PxSg3>$
      12 #logi	^logi<Num><Sg><Par>$
      12 #leat	^leat<V><IV><Actio><Ess>$
      12 #ihtit	^ihtit<V><IV><Ind><Pass><Prs><Pe4><ConNeg>$
@@ -951,8 +961,6 @@ Tag mismatch between transfer and generation
       8 #nalde	^nalde<Po><PxSg3>$
       8 #muorra	^muorra<N><Sg><Nom><Foc_han>$
       8 #muitit	^muitit<V><TV><Imprt><Pl2>$
-      8 #maŋis+boahtti	^maŋis+boahtti<N><Sg><Gen><PxSg3>$
-      8 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Loc><PxSg3>$
       8 #leat	^leat<V><IV><Ind><Prt><Sg3><Foc_ge>$
       8 #leat	^leat<V><IV><Ind><Prs><ConNeg><Foc_ge>$
       8 #juohke bealde	^juohke bealde<Adv>$
@@ -1095,7 +1103,6 @@ Tag mismatch between transfer and generation
       6 #nalde	^nalde<Po><PxPl3>$
       6 #Mánnu	^Mánnu<N><Pl><Ins>$
       6 #Mannat	^Mannat<V><IV><Ind><Prs><Sg1><Qst>$
-      6 #maŋis+boahtti	^maŋis+boahtti<N><Sg><Nom>$
       6 #máŋga	^máŋga<Pl><Nom>$
       6 #lohkat	^lohkat<V><TV>$
       6 #logát	^logát<A><Ord><Sg><Nom>$
@@ -1317,9 +1324,7 @@ Tag mismatch between transfer and generation
       4 #mannat	^mannat<V><IV><Ind><Pass><Prs><Pe4><ConNeg>$
       4 #mánna	^mánna<N><Sg><Nom>$
       4 #maŋos	^maŋos<PxSg3>$
-      4 #maŋis+boahtti	^maŋis+boahtti<N><Sg><Gen><PxPl3>$
-      4 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Nom><PxPl3>$
-      4 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Gen><PxSg3>$
+      4 #maŋisboahtti	^maŋisboahtti<N><Actor><Pl><Nom><PxPl3>$
       4 #luohpat	^luohpat<V><TV><Ind><Pass><Prs><Pe4><ConNeg>$
       4 #Lihkolaš	^Lihkolaš<A><Sg><Nom>$
       4 #lihkolaš	^lihkolaš<A><Sg><Ill>$
@@ -1867,13 +1872,7 @@ Tag mismatch between transfer and generation
       2 #mannat	^mannat<V><IV><Ind><Prs><Sg2><Foc_ge>$
       2 #mánná	^mánná<N><Pl><Ill><Foc_ge>$
       2 #maŋŋá	^maŋŋá<Po><PxPl1>$
-      2 #maŋis+boahtti	^maŋis+boahtti<N><Sg><Nom><PxSg3>$
-      2 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Nom><PxSg2>$
-      2 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Loc><PxPl2>$
-      2 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Ill><PxPl3>$
-      2 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Gen><PxSg1>$
-      2 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Gen><PxPl3>$
-      2 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Gen><PxPl2>$
+      2 #maŋisboahtti	^maŋisboahtti<N><Actor><Pl><Nom><PxSg2>$
       2 #maŋemusháve	^maŋemusháve<Adv>$
       2 #máksit	^máksit<V><TV><Ind><Pass><Prs><Pe4>$
       2 #luohttit	^luohttit<V><IV>$
@@ -2755,18 +2754,10 @@ Tag mismatch between transfer and generation
       1 #mánná	^mánná<N><Pl><Nom><PxSg3><Foc_ge>$
       1 #Mánná	^Mánná<N><Pl><Loc><PxPl3><Qst>$
       1 #maŋos	^maŋos<PxSg2>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Sg><Nom><PxSg2>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Sg><Ill><PxSg3>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Nom><PxPl2>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Loc><PxSg2>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Loc><PxPl3>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Loc><Foc_ge>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Ill><PxSg1>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Ill><PxPl2>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Ill><PxPl1>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Gen><PxSg2><Foc_ge>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Gen><PxPl1>$
-      1 #maŋis+boahtti	^maŋis+boahtti<N><Pl><Gen><Foc_ge>$
+      1 #maŋisboahtti	^maŋisboahtti<N><Actor><Pl><Nom><PxPl2>$
+      1 #maŋisboahtti	^maŋisboahtti<N><Actor><Pl><Loc><Foc_ge>$
+      1 #maŋisboahtti	^maŋisboahtti<N><Actor><Pl><Gen><PxSg2><Foc_ge>$
+      1 #maŋisboahtti	^maŋisboahtti<N><Actor><Pl><Gen><Foc_ge>$
       1 #Máŋga	^Máŋga<Pl><Nom>$
       1 #máŋga	^máŋga<Ess>$
       1 #Máksit	^Máksit<V><TV><Imprt><Pl2>$
@@ -2877,7 +2868,7 @@ Tag mismatch between transfer and generation
       1 #láđđi	^láđđi<N><Pl><Ins>$
       1 #kránnjá	^kránnjá<N><Pl><Ess>$
       1 #kamela	^kamela<N><Pl><Nom><PxSg2><Foc_ge>$
-      1 #jus juo 	^jus juo <CS>$
+      1 #jus juo	^jus juo<CS>$
       1 #jurdda	^jurdda<N><Pl><Nom><PxPl2>$
       1 #jurdda	^jurdda<N><Pl><Loc><PxSg2><Foc_ge>$
       1 #Juotna	^Juotna<N><Pl><Gen><Qst>$
@@ -3766,7 +3757,7 @@ Tag mismatch between transfer and generation
 ===============================================================================
 Summary
 ===============================================================================
-   435 /tmp/fin-sme.multiform
+   454 /tmp/fin-sme.multiform
      0 /tmp/fin-sme.multibidix
-  3318 /tmp/fin-sme.tagmismatch
-  3753 total
+  3290 /tmp/fin-sme.tagmismatch
+  3744 total
