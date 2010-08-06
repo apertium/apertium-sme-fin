@@ -886,7 +886,7 @@
     <!--<e><p><l>sápmi<s n="N"/></l><r>saame<s n="N"/></r></p></e>-->
     <e srl="1"><p><l>viessu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
     <e srl="2"><p><l>stohpu<s n="N"/></l><r>talo<s n="N"/></r></p></e>
-    <e><p><l>addi<s n="N"/></l><r>antaja<s n="N"/></r></p></e>
+    <e><p><l>addi<s n="N"/><s n="Actor"/></l><r>antaja<s n="N"/></r></p></e>
     <e><p><l>adreassa<s n="N"/></l><r>osoite<s n="N"/></r></p></e>
     <e><p><l>advokáhta<s n="N"/></l><r>asianajaja<s n="N"/></r></p></e>
     <e><p><l>albmi<s n="N"/></l><r>taivas<s n="N"/></r></p></e>

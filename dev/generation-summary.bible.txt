@@ -1,3 +1,6 @@
+Corpus in: /home/fran/corpora/finnish/bible.fi
+Processing corpus for generation test... done.
+Translating corpus for generation test (this could take some time)... done.
 
 ===============================================================================
 Multiple surface forms for a single lexical form
@@ -2113,7 +2116,6 @@ Tag mismatch between transfer and generation
       2 #áigi	^áigi<N><Sg><Gen><Foc_ge>$
       2 #áibmu	^áibmu<N><Pl><Gen><Qst>$
       2 #áhčči	^áhčči<N><Sg><Gen><PxPl3><Foc_ge>$
-      2 #ađa	^ađa<N><Sg><Gen>$
       1 #vuovdit	^vuovdit<V><TV><Ind><Pass><Prt><Pe4>$
       1 #vuovdit	^vuovdit<V><TV><Ind><Pass><Prs><Pe4>$
       1 #Vuovdit	^Vuovdit<V><TV><Imprt><Pl2>$
@@ -3617,16 +3619,11 @@ Tag mismatch between transfer and generation
       1 #Addit	^Addit<V><TV><Imprt><Pass><Pe4>$
       1 #addit	^addit<V><TV><Cond><Prs><Sg2><Foc_ge>$
       1 #Addit	^Addit<V><TV><Cond><Prs><Sg1><Qst>$
-      1 #addi	^addi<N><Pl><Ill>$
-      1 #ađa	^ađa<N><Sg><Loc>$
-      1 #ađa	^ađa<N><Pl><Nom>$
-      1 #ađa	^ađa<N><Pl><Ill>$
-      1 #ađa	^ađa<N><Pl><Gen>$
 
 ===============================================================================
 Summary
 ===============================================================================
    422 /tmp/fin-sme.multiform
      0 /tmp/fin-sme.multibidix
-  3190 /tmp/fin-sme.tagmismatch
-  3612 total
+  3184 /tmp/fin-sme.tagmismatch
+  3606 total
