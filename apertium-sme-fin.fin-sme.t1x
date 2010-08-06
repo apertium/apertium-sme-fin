@@ -122,8 +122,8 @@
 	</def-cat>
 	-->
     <def-cat n="attrgen">
-      <cat-item tags="N.*.Gen.*"/>
-      <cat-item tags="Pron.Pers.*.Gen.*"/>
+      <cat-item tags="N.*.Gen.@→N"/>
+      <cat-item tags="Pron.Pers.*.Gen.@→N"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="N.*"/>
@@ -2070,7 +2070,20 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </call-macro>
         <call-macro n="set_foc_particles">
           <with-param pos="2"/>
-        </call-macro>
+	  </call-macro>
+	  <choose>
+		<when><test>
+			  <equal>
+				  <clip pos="1" side="sl" part="a_case"/>
+				  <lit-tag v="Tra"/>
+			  </equal>
+		</test>
+		<let>
+			<clip pos="1" side="tl" part="a_case"/>
+			<lit-tag v="Gen"/>
+		</let>
+		</when>
+		</choose>
         <out>
           <chunk name="oma_nom" case="caseFirstWord">
             <tags>
@@ -2081,10 +2094,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="gen_attrs"/>
-              <clip pos="1" side="tl" part="nbr"/>
+			  <lit-tag v="Pron"/>
+			  <lit-tag v="Refl"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="2" side="tl" part="a_pxprs"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
@@ -2094,7 +2108,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <var n="comitative_num"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
-              <clip pos="2" side="tl" part="a_pxprs"/>
               <clip pos="2" side="tl" part="a_qst"/>
               <clip pos="2" side="tl" part="a_foc"/>
               <clip pos="2" side="tl" part="lemq"/>
