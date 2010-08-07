@@ -909,3 +909,38 @@ boagustit    boagustit+V+TV+Ind+Prt+Sg2
 boagustit    boagustit+V+TV+Inf
 
 ~ This is probably an unhandled derivation...
+
+## Some adverbs missing in sme.lexc
+
+     95 #agi beaivvisge	^agi beaivvisge<Adv>$	^agi/ahki<N><Sg><Acc>/ahki<N><Sg><Gen>$ ^beaivvisge/*beaivvisge$
+     66 #goassege	^goassege<Adv>$	^goassege/*goassege$
+     46 #ovdabeale	^ovdabeale<Adv>$	^ovdabeale/*ovdabeale$
+     27 #dakko bokte	^dakko bokte<Adv>$	^dakko/dakko<Adv>$ ^bokte/bokte<Po>$
+     23 #heaittekeahttá	^heaittekeahttá<Adv>$	^heaittekeahttá/*heaittekeahttá$
+     19 #riektadit	^riektadit<Adv>$	^riektadit/*riektadit$
+     16 #ovdalgihtii	^ovdalgihtii<Adv>$	^ovdalgihtii/*ovdalgihtii$
+     14 #boaitto beallai	^boaitto beallai<Adv>$	^boaitto/*boaitto$ ^beallai/beallai<Po>/beallai<Pr>$
+     12 #garrasit	^garrasit<Adv>$	^garrasit/garas<A><Der2><Der_at><Adv>$
+     11 #náitosii	^náitosii<Adv>$	^náitosii/náittus<N><Sg><Ill>$
+     11 #guovtte sadjái	^guovtte sadjái<Adv>$	^guovtte/guokte<Num><Sg><Gen>$ ^sadjái/sadji<N><Sg><Ill>/sadjái<Po>$
+     11 #dáiddolaččat	^dáiddolaččat<Adv>$	^dáiddolaččat/dáidu<N><Der1><Der_laš><A><Comp><Attr>/dáidu<N><Der1><Der_laš><A><Comp><Sg><Nom>/dáidu<N><Der1><Der_laš><A><Der2><Der_at><Adv>/dáidu<N><Der1><Der_laš><A><Pl><Nom>/dáidu<N><Der1><Der_laš><A><Sg><Acc><PxSg2>/dáidu<N><Der1><Der_laš><A><Sg><Gen><PxSg2>$
+      9 #vallái	^vallái<Adv>$	^vallái/*vallái$
+      9 #eará guovllus	^eará guovllus<Adv>$	^eará/eará<Pron><Indef><Attr>/eará<Pron><Indef><Sg><Acc>/eará<Pron><Indef><Sg><Gen>/eará<Pron><Indef><Sg><Nom>$ ^guovllus/guovlu<N><Sg><Acc><PxSg3>/guovlu<N><Sg><Gen><PxSg3>/guovlu<N><Sg><Loc>$
+      9 #čiekŋalassii	^čiekŋalassii<Adv>$	^čiekŋalassii/*čiekŋalassii$
+      8 #juohke bealde	^juohke bealde<Adv>$	^juohke/juohke<Pron><Indef>$ ^bealde/bealde<Po>/bealde<Pr>$
+      7 #sisaguovlluid	^sisaguovlluid<Adv>$	^sisaguovlluid/*sisaguovlluid$
+      7 #ovddeš	^ovddeš<Adv>$	^ovddeš/*ovddeš$
+      7 #lagamustá	^lagamustá<Adv>$	^lagamustá/lagamustá<Adv><Superl>$
+      7 #farggabut	^farggabut<Adv>$	^farggabut/farggabut<Adv><Comp>$
+      6 #vulos guovlluid	^vulos guovlluid<Adv>$	^vulos/vulos<Adv>$ ^guovlluid/guovlu<N><Pl><Acc>/guovlu<N><Pl><Gen>$
+      6 #guhkit	^guhkit<Adv>$	^guhkit/guhkit<Adv><Comp>/guhkki<A><Comp><Attr>/guhkki<A><Comp><Sg><Nom>/guhkki<A><Der2><Der_at><Adv>/guhkki<A><Pl><Nom>$
+      6 #eará guvlui	^eará guvlui<Adv>$	^eará/eará<Pron><Indef><Attr>/eará<Pron><Indef><Sg><Acc>/eará<Pron><Indef><Sg><Gen>/eará<Pron><Indef><Sg><Nom>$ ^guvlui/guovlu<N><Sg><Ill>$
+      6 #dárkileappot	^dárkileappot<Adv>$	^dárkileappot/*dárkileappot$
+      6 #Dakko bokte	^Dakko bokte<Adv>$	^Dakko/Dakko<Adv>$ ^bokte/bokte<Po>$
+      5 #maŋil	^maŋil<Adv>$	^maŋil/maŋil<Po>$
+      5 #duohkái	^duohkái<Adv>$	^duohkái/duohki<N><Sg><Ill>$
+      5 #dássidit	^dássidit<Adv>$	^dássidit/*dássidit$
+      2 #maŋemusháve	^maŋemusháve<Adv>$	^maŋemusháve/*maŋemusháve$
+      2 #dábálaččat	^dábálaččat<Adv>$	^dábálaččat/*dábálaččat$
+      1 #Dábálaččat	^Dábálaččat<Adv>$	^Dábálaččat/*Dábálaččat$
+
