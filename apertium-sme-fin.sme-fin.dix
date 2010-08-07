@@ -1044,7 +1044,7 @@
     <e><p><l>bliánta<s n="N"/></l><r>lyijykynä<s n="N"/></r></p></e>
     <e><p><l>bláđđi<s n="N"/></l><r>lehti<s n="N"/></r></p></e>
     <e><p><l>boadnji<s n="N"/></l><r>aviomies<s n="N"/></r></p></e>
-    <e><p><l>boagustit<s n="N"/></l><r>nauru<s n="N"/></r></p></e>
+    <!-- TODO: ?? Left side is a verb <e><p><l>boagustit<s n="N"/></l><r>nauru<s n="N"/></r></p></e> -->
     <e><p><l>boagán<s n="N"/></l><r>vyö<s n="N"/></r></p></e>
     <e><p><l>boahtimuš<s n="N"/></l><r>perustus<s n="N"/></r></p></e> 
     <e><p><l>boaldámuš<s n="N"/></l><r>polttoaine<s n="N"/></r></p></e>
@@ -2054,7 +2054,7 @@
     <e><p><l>nissonolmmoš<s n="N"/></l><r>nainen<s n="N"/></r></p></e>
     <e><p><l>nisu<s n="N"/></l><r>nainen<s n="N"/></r></p></e>
     <e><p><l>nisut<s n="N"/></l><r>nisu<s n="N"/></r></p></e>
-    <e><p><l>njamahit<s n="N"/></l><r>imettäväinen<s n="N"/></r></p></e>
+    <!-- TODO: ?? Left side is a verb <e><p><l>njamahit<s n="N"/></l><r>imettäväinen<s n="N"/></r></p></e> -->
     <e><p><l>njavvi<s n="N"/></l><r>niva<s n="N"/></r></p></e>
     <e><p><l>njelješ<s n="N"/></l><r>nelonen<s n="N"/></r></p></e>
     <e><p><l>njoammil<s n="N"/></l><r>jänis<s n="N"/></r></p></e>
@@ -2356,7 +2356,7 @@
     <e><p><l>skierat<s n="N"/></l><r>sakset<s n="N"/></r></p></e>
     <e><p><l>skihpár<s n="N"/></l><r>ystävä<s n="N"/></r></p></e>
     <e><p><l>skiipa<s n="N"/></l><r>laiva<s n="N"/></r></p></e>
-    <e><p><l>skilaidit<s n="N"/></l><r>kilievä<s n="N"/></r></p></e>
+    <!-- TODO: ?? Left side is a verb <e><p><l>skilaidit<s n="N"/></l><r>kilievä<s n="N"/></r></p></e> -->
     <e><p><l>skilleduorastat<s n="N"/></l><r>kiirastorstai<s n="N"/></r></p></e>
     <e><p><l>skire<s n="N"/></l><r>harakka<s n="N"/></r></p></e>
     <e><p><l>skohter<s n="N"/></l><r>lumikelkka<s n="N"/></r></p></e>
@@ -2423,7 +2423,7 @@
     <e><p><l>stoarbma<s n="N"/></l><r>myrsky<s n="N"/></r></p></e>
     <e><p><l>stohpogálvu<s n="N"/></l><r>huonekalu<s n="N"/></r></p></e>
     <e><p><l>studeanta<s n="N"/></l><r>opiskelija<s n="N"/></r></p></e>
-    <e><p><l>stuibmidit<s n="N"/></l><r>kapinoitsija<s n="N"/></r></p></e>
+    <!-- TODO: ?? Left side is a verb <e><p><l>stuibmidit<s n="N"/></l><r>kapinoitsija<s n="N"/></r></p></e> -->
     <e><p><l>stuollu<s n="N"/></l><r>tuoli<s n="N"/></r></p></e>
     <e><p><l>stuoradiggi<s n="N"/></l><r>suurkäräjät<s n="N"/></r></p></e>
     <e><p><l>stággu<s n="N"/></l><r>onki<s n="N"/></r></p></e>
