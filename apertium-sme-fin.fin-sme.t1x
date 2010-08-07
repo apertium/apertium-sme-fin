@@ -1171,6 +1171,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="nominal_case_number">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set_foc_particles">
+          <with-param pos="1"/>
+        </call-macro>
         <choose>
           <when>
             <test>
@@ -1211,6 +1214,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="a_foc"/>
+              <clip pos="1" side="tl" part="a_qst"/>
             </lu>
           </chunk>
         </out>
