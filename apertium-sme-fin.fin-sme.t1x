@@ -1124,9 +1124,25 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <lit-tag v="Pron.Pers"/>
             </let>
           </when>
-        </choose>
+	  </choose>
+	  <!-- for some reason the number removal from before didn't work, so trying again. Probably didn't play well with the other macros? -->
+	  <!-- Suurin osa kirkoista on rakennettu aikana, jona ei ollut vaihtoehtona olla kuulumatta uskontoporukoihin. -->
+	  <choose>
+        <!-- strip number when case is essive -->
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="tl" part="a_case"/>
+              <lit-tag v="Ess"/>
+            </equal>
+          </test>
+          <call-macro n="strip_nbr">
+            <with-param pos="1"/>
+          </call-macro>
+        </when>
+      </choose>
         <out>
-          <chunk name="pron" case="caseFirstWord">
+          <chunk name="pron_rel" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="PRN"/></tag>
               <tag><clip pos="1" side="sl" part="syntag"/></tag>

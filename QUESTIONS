@@ -890,25 +890,32 @@ I remember something about how we should be using the non-clitic question marker
 ^ráigge/ráigge<Adv>$
 
 
+## Generation issue with nubbi seems to be +Use/CircN
 
-# N/V mismatch
 
--      1 #Boagustit    ^Boagustit<N><Sg><Loc>$
--      1 #boagustit    ^boagustit<N><Sg><Loc>$
--      1 #boagustit    ^boagustit<N><Sg><Gen>$
--      1 #boagustit    ^boagustit<N><Pl><Nom><PxPl2>$
--      1 #boagustit    ^boagustit<N><Ess><PxPl3>$
--      1 #boagustit    ^boagustit<N><Ess>$
-maybe ?
+$ echo goalmmát | automorf
+goalmmát	goalmmát	+?
 
-$ echo boagustit | osme
-191480 0
-boagustit    boagustit+V+TV+Ind+Prs+Pl1+Dial/-KJ
-boagustit    boagustit+V+TV+Ind+Prs+Pl3
-boagustit    boagustit+V+TV+Ind+Prt+Sg2
-boagustit    boagustit+V+TV+Inf
+$ echo goalmmát | sme
+goalmmát	+Use/CircNgoalmmát+A+Ord+Sg+Nom
+goalmmát	+Use/CircNgoalmmát+A+Ord+Sg+Gen+Use/Sub
+goalmmát	+Use/CircNgoalmmát+A+Ord+Sg+Acc+Use/Sub
+goalmmát	+Use/CircNgoalmmát+A+Ord+Attr
 
-~ This is probably an unhandled derivation...
+$ echo "nubbi" | automorf
+nubbi	nubbi<Pron><Indef><Attr>
+nubbi	nubbi<Pron><Indef><Sg><Nom>
+nubbi	nubbi<Pron><Recipr><Attr>
+nubbi	nubbi<Pron><Recipr><Sg><Nom>
+
+$ echo nubbi | sme
+nubbi	+Use/CircNnubbi+A+Ord+Sg+Nom
+nubbi	+Use/CircNnubbi+A+Ord+Attr
+nubbi	nubbi+Pron+Recipr+Sg+Nom
+nubbi	nubbi+Pron+Recipr+Attr
+nubbi	nubbi+Pron+Indef+Sg+Nom
+nubbi	nubbi+Pron+Indef+Attr
+
 
 ## Some adverbs missing in sme.lexc
 
