@@ -2656,7 +2656,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               </equal>
             </test>
             <call-macro n="strip_nbr">
-              <with-param pos="1"/>
+              <with-param pos="2"/>
             </call-macro>
           </when>
         </choose>
