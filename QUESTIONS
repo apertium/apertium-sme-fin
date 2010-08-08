@@ -916,6 +916,17 @@ nubbi	nubbi+Pron+Recipr+Attr
 nubbi	nubbi+Pron+Indef+Sg+Nom
 nubbi	nubbi+Pron+Indef+Attr
 
+## Excl
+
+$ echo '!' | sme
+!	^excl+CLB+Use/Circ
+
+$ echo 'Perkele!' | fin-sme
+Beargalat#!
+
+<e><p><l>excl<s n="CLB"/></l><r>!<s n="Punct"/><s n="CLB"/></r></p></e>
+
++Use/Circ preventing generation.
 
 ## Some adverbs missing in sme.lexc
 
