@@ -536,7 +536,6 @@ Tag mismatch between transfer and generation
      99 #nubbi	^nubbi<Pl><Nom>$
      95 #agi beaivvisge	^agi beaivvisge<Adv>$
      89 #addit	^addit<V><TV><Ind><Pass><Prs><Pe4>$
-     87 #juohke	^juohke<Pron><Indef><Sg><Gen>$
      84 #nubbi	^nubbi<Sg><Ill>$
      84 #bajimus	^bajimus<A><Attr>$
      81 #goappašat	^goappašat<Pron><Indef>$
@@ -550,6 +549,7 @@ Tag mismatch between transfer and generation
      65 #áhčči	^áhčči<N><Pl><Nom><PxPl3>$
      62 #nuorta	^nuorta<N><Sg><Ill>$
      62 #dadjat	^dadjat<V><TV>$
+     61 #guhtege	^guhtege<Pron><Indef>$
      60 #mánnu	^mánnu<N><Sg><Ine>$
      59 #ieš	^ieš<Sg><Nom>$
      59 #addit	^addit<V><TV><Ind><Pass><Prt><Pe4>$
@@ -617,6 +617,7 @@ Tag mismatch between transfer and generation
      29 #viidu	^viidu<N><Sg><Nom>$
      29 #riegádit	^riegádit<V><IV>$
      29 #Leat	^Leat<V><IV><Ind><Prs><Sg3><Foc_han>$
+     29 #guhtege	^guhtege<Pron><Indef><Gen>$
      29 #doalvut	^doalvut<V><TV><Ind><Pass><Prs><Pe4>$
      29 #áhčči	^áhčči<N><Pl><Nom><PxPl2>$
      28 #namma	^namma<N><Pl>$
@@ -695,7 +696,6 @@ Tag mismatch between transfer and generation
      18 #Ollis	^Ollis<Sg><Nom>$
      18 #nuorta	^nuorta<N><Sg><Loc>$
      18 #logát	^logát<Sg><Loc>$
-     18 #juohke	^juohke<Pron><Indef><Sg><Nom>$
      18 #gasku	^gasku<Po><PxSg2>$
      18 #gaskka	^gaskka<Po><PxPl1>$
      18 #eará	^eará$
@@ -819,7 +819,6 @@ Tag mismatch between transfer and generation
      11 #mánna	^mánna<N><Sg><Gen>$
      11 #maŋŋá	^maŋŋá<Po><PxSg1>$
      11 #leat	^leat<V><IV>$
-     11 #juohke	^juohke<Pron><Indef><Pl><Nom>$
      11 #juohkelágán	^juohkelágán<A><Sg><Gen>$
      11 #juhkat	^juhkat<V><TV>$
      11 #ieš	^ieš<Pron><Refl><Par><PxSg2>$
@@ -883,7 +882,6 @@ Tag mismatch between transfer and generation
       9 #miehkki	^miehkki<N><Pl><Nom><PxPl3>$
       9 #mánná	^mánná<N><Pl><Nom><PxSg3>$
       9 #lohkat	^lohkat<V><TV><Ind><Pass><Prs><Pe4>$
-      9 #juohke	^juohke<Pron><Indef><Ess>$
       9 #iskat	^iskat<V><TV>$
       9 #ii	^ii<V><IV><Neg><Ind><Sg3><Foc_han>$
       9 #ieš	^ieš<Sg><Ill><PxPl3>$
@@ -1050,6 +1048,7 @@ Tag mismatch between transfer and generation
       6 #heivet	^heivet<V><IV><Neg>$
       6 #heivehit	^heivehit<V><TV>$
       6 #Hearvás	^Hearvás<A><Attr>$
+      6 #guhtege	^guhtege<Pron><Indef><Loc>$
       6 #guhkit	^guhkit<Adv>$
       6 #guđát	^guđát<Ess>$
       6 #gonagas	^gonagas<N><Pl><Nom><PxPl2>$
@@ -1137,6 +1136,7 @@ Tag mismatch between transfer and generation
       5 #guokte	^guokte<Num><Pl><Ins>$
       5 #guokte	^guokte<Num><Pl>$
       5 #gullat	^gullat<V><TV><Ind><Pass><Prs><Pe4>$
+      5 #Guhtege	^Guhtege<Pron><Indef>$
       5 #gudni	^gudni<N><Pl><Nom><PxSg2>$
       5 #gollat	^gollat<V><IV><Imprt><Pass><Pe4>$
       5 #goalmmát	^goalmmát<Sg><Gen>$
@@ -1240,7 +1240,6 @@ Tag mismatch between transfer and generation
       4 #láđđi	^láđđi<N><Pl><Nom><PxPl2>$
       4 #kránnjá	^kránnjá<N><Pl><Nom><PxSg3>$
       4 #juohkit	^juohkit<V><TV><Imprt><Pass><Pe4>$
-      4 #juohke	^juohke<Pron><Indef><Sg><Loc>$
       4 #juohkelágán	^juohkelágán<A><Sg><Loc>$
       4 #Ipmil	^Ipmil<N><Prop><Mal><Sg><Nom><PxPl1>$
       4 #illu	^illu<N><Pl><Nom><PxPl2>$
@@ -1725,7 +1724,6 @@ Tag mismatch between transfer and generation
       2 #juolgi	^juolgi<N><Pl><Nom><PxSg3>$
       2 #juolgi	^juolgi<N><Pl><Ins>$
       2 #juohkit	^juohkit<V><TV>$
-      2 #juohke	^juohke<Pron><Indef><Pl><Loc>$
       2 #juohkelágán	^juohkelágán<A><Pl><Loc>$
       2 #juhkat	^juhkat<V><TV><Ind><Pass><Prs><Pe4>$
       2 #juhkat	^juhkat<V><TV><Imprt><Sg2><Qst>$
@@ -1788,6 +1786,7 @@ Tag mismatch between transfer and generation
       2 #guođđit	^guođđit<V><TV><Ind><Pass><Prt><Pe4>$
       2 #gullat	^gullat<V><TV><Ind><Pass><Prt><Pe4>$
       2 #gulahallat	^gulahallat<V><TV>$
+      2 #guhtege	^guhtege<Pron><Indef><Ill>$
       2 #govva	^govva<N><Pl><Nom><PxSg3>$
       2 #golli	^golli<N><Pl><Nom><PxSg2>$
       2 #gollat	^gollat<V><IV><Cond><Pass><Prs><Pe4><ConNeg>$
@@ -2533,12 +2532,6 @@ Tag mismatch between transfer and generation
       1 #jus juo	^jus juo<CS>$
       1 #jurdda	^jurdda<N><Pl><Nom><PxPl2>$
       1 #jurdda	^jurdda<N><Pl><Loc><PxSg2><Foc_ge>$
-      1 #Juohke	^Juohke<Pron><Indef><Sg><Nom>$
-      1 #Juohke	^Juohke<Pron><Indef><Sg><Loc>$
-      1 #juohke	^juohke<Pron><Indef><Sg><Ill>$
-      1 #Juohke	^Juohke<Pron><Indef><Sg><Gen>$
-      1 #juohke	^juohke<Pron><Indef><Pl><Ill>$
-      1 #juohke	^juohke<Pron><Indef><Nom>$
       1 #juohkelágán	^juohkelágán<A><Sg><Ill>$
       1 #juohkelágán	^juohkelágán<A><Pl><Ill>$
       1 #juhkat	^juhkat<V><TV><Ind><Pass><Prs><Pe4><ConNeg>$
@@ -2681,6 +2674,7 @@ Tag mismatch between transfer and generation
       1 #gullat	^gullat<V><TV><Ind><Prs><Sg1><Foc_ge>$
       1 #Gullat	^Gullat<V><TV><Imprt><Sg2><Foc_s>$
       1 #gullat	^gullat<V><TV><Cond><Pass><Prs><Pe4>$
+      1 #Guhtege	^Guhtege<Pron><Indef><Loc>$
       1 #guđát	^guđát<Sg><Gen>$
       1 #Guđát	^Guđát<Ess>$
       1 #govva	^govva<N><Pl><Nom><PxPl3>$
@@ -3274,5 +3268,5 @@ Summary
 ===============================================================================
    509 /tmp/fin-sme.multiform
      0 /tmp/fin-sme.multibidix
-  2750 /tmp/fin-sme.tagmismatch
-  3259 total
+  2744 /tmp/fin-sme.tagmismatch
+  3253 total

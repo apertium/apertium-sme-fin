@@ -65,8 +65,20 @@
 	<sdef n="Ill"		c="Illative" />
 	
 	<sdef n="Agr"		c="Agreeing adjective" />
+	<sdef n="ND"		c="Number to be determined" />
+	<sdef n="Nom"		c="" />
+	<sdef n="Gen"		c="" />
+
   </sdefs>
   <pardefs>
+    <pardef n="juohke_kukin__Pron">
+      <e r="LR"><p><l></l><r><s n="ND"/></r></p></e>
+      <e r="RL"><p><l></l><r><s n="Sg"/><s n="Nom"/></r></p></e>
+      <e r="RL"><p><l></l><r><s n="Sg"/><s n="Gen"/></r></p></e>
+      <e r="RL"><p><l></l><r><s n="Pl"/><s n="Nom"/></r></p></e>
+      <e r="RL"><p><l></l><r><s n="Pl"/><s n="Gen"/></r></p></e>
+    </pardef>
+
     <pardef n="A_A">
       <e><p><l></l><r><s n="Pos"/></r></p></e>
       <e><p><l></l><r></r></p></e>
@@ -521,7 +533,7 @@
     <e><p><l>duokkár<s n="Pron"/><s n="Dem"/></l><r>tuommoinen<s n="Pron"/></r></p></e>
 
     <e><p><l>muhtin<s n="Pron"/><s n="Indef"/></l><r>muutama<s n="Pron"/></r></p></e>
-    <e><p><l>juohke<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/><s n="Indef"/></r></p></e>   
+    <e><p><l>juohke<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/><s n="Indef"/></r></p><par n="juohke_kukin__Pron"/></e>   
 	<e><p><l>goappašat<s n="Pron"/><s n="Indef"/><s n="Pl"/></l><r>molemmat<s n="Pron"/><s n="Indef"/><s n="Pl"/></r></p></e>
 	<e><p><l>soamis<s n="Pron"/><s n="Indef"/></l><r>joku<s n="Pron"/></r></p></e>   
 	
