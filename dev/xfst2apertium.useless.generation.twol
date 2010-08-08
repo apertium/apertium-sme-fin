@@ -25,6 +25,8 @@
 Alphabet
 
 %+PrsPrc
+%+CLB
+%+Ord
 %+Num
 %+Qst
 %+Sg
@@ -64,6 +66,8 @@ Nonstandard =
 ;
 
 AllowUse =
+%+CLB
+%+Ord
 %+Num
 %+PrsPrc
 %+Qst
