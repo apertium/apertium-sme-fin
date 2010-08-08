@@ -1044,7 +1044,7 @@
     <e><p><l>bliánta<s n="N"/></l><r>lyijykynä<s n="N"/></r></p></e>
     <e><p><l>bláđđi<s n="N"/></l><r>lehti<s n="N"/></r></p></e>
     <e><p><l>boadnji<s n="N"/></l><r>aviomies<s n="N"/></r></p></e>
-    <!-- TODO: ?? Left side is a verb <e><p><l>boagustit<s n="N"/></l><r>nauru<s n="N"/></r></p></e> -->
+    <e><p><l>boagusteapmi<s n="N"/></l><r>nauru<s n="N"/></r></p></e>
     <e><p><l>boagán<s n="N"/></l><r>vyö<s n="N"/></r></p></e>
     <e><p><l>boahtimuš<s n="N"/></l><r>perustus<s n="N"/></r></p></e> 
     <e><p><l>boaldámuš<s n="N"/></l><r>polttoaine<s n="N"/></r></p></e>
@@ -2423,7 +2423,7 @@
     <e><p><l>stoarbma<s n="N"/></l><r>myrsky<s n="N"/></r></p></e>
     <e><p><l>stohpogálvu<s n="N"/></l><r>huonekalu<s n="N"/></r></p></e>
     <e><p><l>studeanta<s n="N"/></l><r>opiskelija<s n="N"/></r></p></e>
-    <!-- TODO: ?? Left side is a verb <e><p><l>stuibmidit<s n="N"/></l><r>kapinoitsija<s n="N"/></r></p></e> -->
+    <e><p><l>stuibmideaddji<s n="N"/></l><r>kapinoitsija<s n="N"/></r></p></e>
     <e><p><l>stuollu<s n="N"/></l><r>tuoli<s n="N"/></r></p></e>
     <e><p><l>stuoradiggi<s n="N"/></l><r>suurkäräjät<s n="N"/></r></p></e>
     <e><p><l>stággu<s n="N"/></l><r>onki<s n="N"/></r></p></e>
@@ -3327,7 +3327,7 @@
 	<e><p><l>láhkásaš<s n="A"/></l><r>kaltainen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>ruonas<s n="A"/></l><r>vihanta<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>seavdnjat<s n="A"/></l><r><s n="A"/></r></p><par n="A_A"/></e>
-	<e><p><l>seavdnjat<s n="A"/></l><r>pimeä<s n="A"/></r></p><par n="A_A"/></e> <!-- TODO:CHECK -->
+	<e><p><l>seavdnjat<s n="A"/></l><r>pimeä<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>soajálaš<s n="A"/></l><r>siivekäs<s n="A"/></r></p><par n="A_A"/></e>
 	<!-- <e><p><l>stuoris<s n="A"/></l><r><s n="A"/></r></p><par n="A_A"/></e> --> <!-- Eh? -->
 	<e><p><l>vigiheapmi<s n="A"/></l><r>viaton<s n="A"/></r></p><par n="A_A"/></e>
