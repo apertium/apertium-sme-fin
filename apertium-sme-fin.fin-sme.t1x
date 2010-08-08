@@ -75,7 +75,7 @@
       <!-- goappašat, guktot -->
       <!-- <cat-item tags="Pron.Interr.*.*."/> -->
       <!-- guhte, goabbá -->
-      <cat-item tags="Pron.Rel.*.*.@N→"/>
+	  <!-- <cat-item tags="Pron.Rel.*.*.@N→"/> -->
       <!-- guhte, goabbá ?? maybe remove interr? -->
       <cat-item lemma="hyvä" tags="A.*"/>
       <!-- buorre -->
