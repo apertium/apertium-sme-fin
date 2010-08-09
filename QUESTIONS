@@ -963,3 +963,33 @@ Beargalat#!
       1 #Dábálaččat	^Dábálaččat<Adv>$	^Dábálaččat/*Dábálaččat$
 
 
+
+## Words without illative/locative
+
+fran@victorio:~$ echo nuorta+N+Sg+Ill | dsme
+0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
+nuorta+N+Sg+Ill	nuorta+N+Sg+Ill	+?
+
+fran@victorio:~$ echo nuorta+N+Sg+Loc | dsme
+0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
+nuorta+N+Sg+Loc	nuorta+N+Sg+Loc	+?
+
+fran@victorio:~$ echo nuorta+N+Sg+Gen | dsme
+0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
+nuorta+N+Sg+Gen	nuortta
+
+fran@victorio:~$ echo nuorta+N+Sg+Acc | dsme
+0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
+nuorta+N+Sg+Acc	nuortta
+
+fran@victorio:~$ echo nuorta+N+Sg+Nom | dsme
+0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
+nuorta+N+Sg+Nom	nuorta
+
+fran@victorio:~$ echo nuorta+N+Sg+Com | dsme
+0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
+nuorta+N+Sg+Com	nuorttain
+
+fran@victorio:~$ echo nuorta+N+Ess | dsme
+0%>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>100%
+nuorta+N+Ess	nuortan
