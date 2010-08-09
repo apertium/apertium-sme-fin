@@ -135,7 +135,7 @@
       <cat-item lemma="oma" tags="A.Pos.*"/>
     </def-cat>
     <def-cat n="attr">
-      <cat-item tags="A.*"/>
+      <cat-item tags="A.*.*.*.@→N"/>
       <cat-item lemma="tällainen" tags="Pron.*"/>
       <cat-item lemma="sellainen" tags="Pron.*"/>
       <cat-item lemma="semmoinen" tags="Pron.*"/>
@@ -2924,7 +2924,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_adv"/>
-              <clip pos="1" side="tl" part="a_pxprs"/>
+              <!--<clip pos="1" side="tl" part="a_pxprs"/>--> <!-- we discard pos.suf for now -->
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -2946,7 +2946,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_adp"/>
-              <clip pos="1" side="tl" part="a_pxprs"/>
+              <!--<clip pos="1" side="tl" part="a_pxprs"/>-->
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>

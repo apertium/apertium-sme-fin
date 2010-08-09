@@ -24,9 +24,11 @@
 
 Alphabet
 
+%-
 %+PrsPrc
 %+CLB
 %+Ord
+%+Foc/ge
 %+Num
 %+Qst
 %+Sg
@@ -67,6 +69,7 @@ Nonstandard =
 
 AllowUse =
 %+CLB
+%+Foc/ge
 %+Ord
 %+Num
 %+PrsPrc
@@ -88,3 +91,6 @@ Useless:? /<= # [ \AllowUse:? ]* _ [ \AllowUse:? ]* # ;
 Useless:0 <=> _ ; 
 ! Removing tags with hfst-substitute will give duplicate analyses, so
 ! we do it here instead
+
+!"Remove Ipmil-"
+!%- /<= _ # ;
