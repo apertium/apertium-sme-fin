@@ -199,6 +199,7 @@
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="Num"/>
+      <attr-item tags="A.Ord"/>
       <attr-item tags="Num.Ord"/>
       <attr-item tags="Num.Card"/>
     </def-attr>
