@@ -25,5 +25,51 @@
 			["abbr-sme-lex.txt", "cat"],
 			["punct-sme-lex.txt", "cat"]
 		]
+	},
+	{
+		"LANG2": "fin", 
+		"LANG1": "sme",
+		"OUTPUT_DIR": "/Volumes/Skewl/apertium/apertium-sme-fin/", 
+		"SRC": "/Users/pyry/apertium/omorfi/src/morphology/",
+		"PRODUCE_LEXC_FOR": "fin", 
+		"REMOVE_EMPTY_LEXICONS": "no",
+		"BIDIX_SIDE": "R",
+		"LEXTYPE": "",
+		"files": [
+			["omorfi.hlexc", "cat"],
+			
+			["lexical-data/adjective-stubs.hlexc", "clip", {"pos_filter": "<A>"}],
+			["lexical-data/adpositions.hlexc", "cat"],
+			["lexical-data/adverbs.hlexc", "cat"],
+			["lexical-data/conjunctions.hlexc", "cat"],
+			["lexical-data/digit-stubs.hlexc", "cat"],
+			["lexical-data/exceptions.hlexc", "cat"],
+			["lexical-data/interjections.hlexc", "cat"],
+			["lexical-data/noun-stubs.hlexc", "clip", {"pos_filter": "<N>"}],
+			["lexical-data/numeral-stubs.hlexc", "cat"],
+			["lexical-data/particles.hlexc", "cat"],
+			["lexical-data/prefixes.hlexc", "cat"],
+			["lexical-data/pronouns.hlexc", "cat"],
+			["lexical-data/proper-noun-stubs.hlexc", "clip", {"pos_filter": "<N><Prop"}],
+			["lexical-data/punctuation.hlexc", "cat"],
+			["lexical-data/suffixes.hlexc", "cat"],
+			["lexical-data/verb-stubs.hlexc", "clip", {"pos_filter": "<V>"}],
+		
+			["acronym-infl.hlexc", "cat"],
+			["adjective-infl.hlexc", "cat"],
+			["adjective-stems.hlexc", "cat"],
+			["common-infl.hlexc", "cat"],
+			["compounding.hlexc", "cat"],
+			["derivations.hlexc", "cat"],
+			["digit-infl.hlexc", "cat"],
+			["digit-stems.hlexc", "cat"],
+			["noun-infl.hlexc", "cat"],
+			["noun-stems.hlexc", "cat"],
+			["numeral-stems.hlexc", "cat"],
+			["proper-noun-stems.hlexc", "cat"],
+			["verb-infl.hlexc", "cat"],
+			["verb-stems.hlexc", "cat"]
+		]
 	}
+	
 ]
