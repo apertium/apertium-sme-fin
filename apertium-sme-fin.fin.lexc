@@ -624,6 +624,8 @@ laiska'][POS=ADJECTIVE][KTN=9]:laisk{^a}	kotus_9_ADJECTIVE/stemfiller	;
 paha'][POS=ADJECTIVE][KTN=9]:pah{^a}	kotus_9_ADJECTIVE/stemfiller	;
 vanha'][POS=ADJECTIVE][KTN=9]:vanh{^a}	kotus_9_ADJECTIVE/stemfiller	;
 varma'][POS=ADJECTIVE][KTN=9]:varm{^a}	kotus_9_ADJECTIVE/stemfiller	;
+LEXICON kotus_99_ADJECTIVE
+koko'][POS=ADJECTIVE]:koko	Ennd	;
 LEXICON kotus_9_ADJECTIVE/stub
 tarkka'][POS=ADJECTIVE][KTN=9][KAV=A]:tark{k~~}{^a}{A}	kotus_9_ADJECTIVE/stemfiller	;
 halpa'][POS=ADJECTIVE][KTN=9][KAV=E]:hal{p~~}{^a}{E}	kotus_9_ADJECTIVE/stemfiller	;

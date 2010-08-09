@@ -3598,7 +3598,7 @@
 
 	<!-- ! Adv - A, etc ???  -->
 	<!-- <e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e> -->
-	<e><p><l>ollis<s n="A"/></l><r>koko<s n="Pron"/></r></p></e>
+	<e><p><l>ollis<s n="A"/></l><r>koko<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>máŋga<s n="Num"/></l><r>usea<s n="Pron"/></r></p></e>
 	<!-- end adjectives -->
     <!-- adverbs -->
