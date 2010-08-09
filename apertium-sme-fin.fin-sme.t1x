@@ -30,6 +30,9 @@
     <def-cat n="verb">
       <cat-item tags="V.*"/>
     </def-cat>
+    <def-cat n="vpass">
+      <cat-item tags="V.Pass.*"/>
+    </def-cat>
     <def-cat n="pcps">
       <cat-item tags="V.*.PrfPrc.*"/>
       <cat-item tags="V.*.PrsPrc.*"/>
@@ -1626,6 +1629,64 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </let>
       </action>
     </rule>
+
+    <rule comment="regla: passive verb">
+      <pattern>
+        <pattern-item n="vpass"/>
+      </pattern>
+      <action>
+        <call-macro n="set_foc_particles">
+          <with-param pos="1"/>
+        </call-macro>
+        <choose>
+          <when>
+            <test>
+                <equal>
+                  <clip pos="1" side="sl" part="a_person"/>
+                  <lit-tag v="Pe4"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_person"/>
+              <lit-tag v="Sg3"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="verb" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="V"/></tag>
+              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <!-- <clip pos="1" side="tl" part="a_trans" /> -->
+              <!-- specified in a_verb -->
+              <lit-tag v="Der2.Der_PassL.V"/>
+              <clip pos="1" side="tl" part="a_realis"/>
+              <clip pos="1" side="tl" part="a_tense"/>
+              <var n="cur_verb_tense"/>
+              <clip pos="1" side="tl" part="a_person"/>
+              <clip pos="1" side="tl" part="a_neg"/>
+              <clip pos="1" side="tl" part="a_foc"/>
+              <clip pos="1" side="tl" part="a_qst"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="cur_verb_mood"/>
+          <lit v=""/>
+        </let>
+        <let>
+          <var n="cur_verb_tense"/>
+          <lit v=""/>
+        </let>
+      </action>
+    </rule>
+
+
     <rule comment="regla: verb">
       <pattern>
         <pattern-item n="verb"/>
