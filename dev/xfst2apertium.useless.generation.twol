@@ -29,9 +29,7 @@ Alphabet
 %+CLB
 %+Ord
 %+Foc/ge
-%+Foc/han
-%+Foc/pa
-%+Foc/s
+%+Foc/naj
 %+Num
 %+Qst
 %+Sg
@@ -73,9 +71,7 @@ Nonstandard =
 AllowUse =
 %+CLB
 %+Foc/ge
-%+Foc/han
-%+Foc/pa
-%+Foc/s
+%+Foc/naj
 %+Ord
 %+Num
 %+PrsPrc
