@@ -48,11 +48,9 @@
 			["lexical-data/noun-stubs.hlexc", "clip", {"pos_filter": "<N>"}],
 			["lexical-data/numeral-stubs.hlexc", "cat"],
 			["lexical-data/particles.hlexc", "cat"],
-			["lexical-data/prefixes.hlexc", "cat"],
 			["lexical-data/pronouns.hlexc", "cat"],
 			["lexical-data/proper-noun-stubs.hlexc", "clip", {"pos_filter": "<N><Prop"}],
 			["lexical-data/punctuation.hlexc", "cat"],
-			["lexical-data/suffixes.hlexc", "cat"],
 			["lexical-data/verb-stubs.hlexc", "clip", {"pos_filter": "<V>"}],
 		
 			["acronym-infl.hlexc", "cat"],
