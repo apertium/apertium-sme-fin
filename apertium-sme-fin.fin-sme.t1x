@@ -146,6 +146,7 @@
       <cat-item lemma="millainen" tags="Pron.*"/>
     </def-cat>
     <def-cat n="adj">
+      <cat-item tags="A"/>
       <cat-item tags="A.*"/>
     </def-cat>
     <def-cat n="pronrefl">
