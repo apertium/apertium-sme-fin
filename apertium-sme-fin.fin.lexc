@@ -186,8 +186,10 @@ LEXICON Main
 [LEMMA=':    Compounding/Initial ;
 [LEMMA=':    Compounding/Free    ;
 [LEMMA=':    Compounding/None   ;
-[COMPOUND_FORM=OMIT][LEMMA='-:-   Compounding/Final   ;
-[COMPOUND_FORM=OMIT][LEMMA='-:-   Compounding/Free   ;
+![COMPOUND_FORM=OMIT][LEMMA='-:-   Compounding/Final   ;
+![COMPOUND_FORM=OMIT][LEMMA='-:-   Compounding/Free   ;
+![COMPOUND_FORM=OMIT][LEMMA=':-   Compounding/Final   ;
+![COMPOUND_FORM=OMIT][LEMMA=':-   Compounding/Free   ;
 
 LEXICON Compounding/Middle
 [LEMMA=':    Compounding/Free    ;
@@ -197,7 +199,8 @@ LEXICON Compounding/Initial
 @D.NEED@@P.NEED.NOMINAL@	Digits	;
 @D.NEED@@P.NEED.NOMINAL@	Acronyms	;
 @D.NEED@	Prefixes	;
-@D.NEED@@P.NEED.REST@[COMPOUND_FORM=OMIT][LEMMA='-:@D.NEED@@P.NEED.REST@-	Suffixes	; ! sole suffixes in broken compounds
+!@D.NEED@@P.NEED.REST@[COMPOUND_FORM=OMIT][LEMMA='-:@D.NEED@@P.NEED.REST@-	Suffixes	; ! sole suffixes in broken compounds
+!@D.NEED@@P.NEED.REST@[COMPOUND_FORM=OMIT][LEMMA=':@D.NEED@@P.NEED.REST@-	Suffixes	; ! sole suffixes in broken compounds
 
 LEXICON Compounding/None
 @D.NEED@@P.NEED.REST@	Abbreviations	;

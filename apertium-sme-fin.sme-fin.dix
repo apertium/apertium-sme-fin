@@ -600,6 +600,7 @@
     <e><p><l>ovcci<s n="Num"/></l><r>yhdeksän<s n="Num"/><s n="Card"/></r></p></e>
     <e><p><l>logi<s n="Num"/></l><r>kymmenen<s n="Num"/><s n="Card"/></r></p></e>
 	<e><p><l>logi<s n="Num"/></l><r>kymmenen<s n="Num"/><s n="Card"/></r></p></e>
+	<e><p><l>duháhat<s n="Num"/></l><r>tuhat<s n="Num"/><s n="Card"/></r></p></e>
    	
     <e><p><l>čuođi<s n="Num"/></l><r>sata<s n="Num"/><s n="Card"/></r></p></e>
 	
@@ -608,7 +609,9 @@
     <e><p><l>@<s n="Num"/></l><r>yhdes<s n="Num"/><s n="Ord"/></r></p></e>
 -->
 
+    <e r="RL"><p><l>vuosttaš<s n="A"/><s n="Ord"/></l><r>yhdes<s n="Num"/><s n="Ord"/></r></p></e>
     <e><p><l>vuosttaš<s n="A"/><s n="Ord"/></l><r>ensimmäinen<s n="Num"/><s n="Ord"/></r></p></e>
+    <e r="RL"><p><l>nubbi<s n="A"/><s n="Ord"/></l><r>kahdes<s n="Num"/><s n="Ord"/></r></p></e>
     <e><p><l>nubbi<s n="A"/><s n="Ord"/></l><r>toinen<s n="Num"/><s n="Ord"/></r></p></e>
     <e><p><l>goalmmát<s n="A"/><s n="Ord"/></l><r>kolmas<s n="Num"/><s n="Ord"/></r></p></e>
     <e><p><l>njealját<s n="A"/><s n="Ord"/></l><r>neljäs<s n="Num"/><s n="Ord"/></r></p></e>
