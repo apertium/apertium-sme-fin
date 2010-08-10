@@ -3598,6 +3598,7 @@
 	<e><p><l>oahpis<s n="A"/></l><r>tietty<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>jiehtanas<s n="A"/></l><r>jättiläinen<s n="A"/></r></p><par n="A_A"/></e>
 	
+    <e><p><l>ipmilmeahttun<s n="A"/></l><r>jumala<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>vuolibuš<s n="A"/></l><r>alamainen<s n="A"/></r></p><par n="A_A"/></e>
 
 
@@ -3620,7 +3621,7 @@
     <e><p><l>ain<s n="Adv"/></l><r>edelleen<s n="Adv"/></r></p></e>
     <e><p><l>ainjuo<s n="Adv"/></l><r>ainakin<s n="Adv"/></r></p></e>
     <e><p><l>aivve<s n="Adv"/></l><r>juuri<s n="Adv"/></r></p></e>
-    <e><p><l>aktii<s n="Adv"/></l><r>yksin<s n="Adv"/></r></p></e>
+	<e><p><l>aktii<s n="Adv"/></l><r>yksin<s n="Adv"/></r></p></e> <!-- TODO: check, aktii, akta, oktii, etc? -->
     <e><p><l>allin<s n="Adv"/></l><r>ylhäällä<s n="Adv"/></r></p></e>
     <e><p><l>allin<s n="Adv"/></l><r>ylhäältä<s n="Adv"/></r></p></e>
     <e><p><l>badjin<s n="Adv"/></l><r>ylhäälläpäin<s n="Adv"/></r></p></e>
