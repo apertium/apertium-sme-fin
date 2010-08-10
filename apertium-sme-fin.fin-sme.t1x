@@ -405,6 +405,7 @@
     <def-var n="cur_verb_mood"/>
     <def-var n="cur_verb_tense"/>
     <def-var n="cur_noun_postp"/>
+    <def-var n="cur_poss_suff"/>
   </section-def-vars>
   <section-def-lists>
     <def-list n="sort_pronouns">
@@ -800,10 +801,16 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </when>
         <when>
           <test>
-            <equal>
-              <clip pos="1" side="sl" part="a_case"/>
-              <lit-tag v="Par"/>
-            </equal>
+            <or>
+              <equal>
+                <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="Ins"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="sl" part="a_case"/>
+                <lit-tag v="Par"/>
+              </equal>
+            </or>
           </test>
           <let>
             <clip pos="1" side="tl" part="a_case"/>
@@ -2284,7 +2291,39 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_foc_particles">
           <with-param pos="2"/>
         </call-macro>
+        <let>
+          <var n="cur_poss_suff"/>
+          <lit v=""/>
+        </let>
         <choose>
+          <when>
+            <test>
+              <not>
+                <equal>
+                  <clip pos="2" side="sl" part="a_pxprs"/>
+                  <lit v=""/>
+                </equal>
+              </not>
+            </test>
+            <let>
+              <var n="cur_poss_suff"/>
+              <clip pos="2" side="tl" part="a_pxprs"/>
+            </let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="2" side="sl" part="a_case"/>
+                <lit-tag v="Ins"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="2" side="tl" part="a_case"/>
+              <lit-tag v="Com"/>
+            </let>
+          </when>
           <when>
             <test>
               <equal>
@@ -2312,7 +2351,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <lit-tag v="Refl"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
-              <clip pos="2" side="tl" part="a_pxprs"/>
+              <var n="cur_poss_suff"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
@@ -2329,6 +2368,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </lu>
           </chunk>
         </out>
+        <let>
+          <var n="cur_poss_suff"/>
+          <lit v=""/>
+        </let>
       </action>
     </rule>
     <rule comment="regla: attrgen attradj nom">
