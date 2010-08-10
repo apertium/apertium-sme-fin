@@ -102,8 +102,8 @@
 	
 	<!-- The following all have Pcle on the finnish side, checked. Many are adverbs, but also possibly sentence level and thus should be CSes? Ryan -->
 	
-	<e c="FMT:CHECK><p><l>seammá<s n="Adv"/></l><r>yhtä<s n="Adv"/></r></p></e>
-	<e c="FMT:CHECK><p><l>duođaid<s n="Adv"/></l><r>välillä<s n="Adv"/></r></p></e>
+	<e c="FMT:CHECK"><p><l>seammá<s n="Adv"/></l><r>yhtä<s n="Adv"/></r></p></e>
+	<e c="FMT:CHECK"><p><l>duođaid<s n="Adv"/></l><r>välillä<s n="Adv"/></r></p></e>
 
 	<e><p><l>ovdalis<s n="Adv"/></l><r>aiemmin<s n="Adv"/></r></p></e>
 	<e><p><l>ain<s n="Adv"/></l><r>yhä<s n="Pcle"/></r></p></e>
@@ -600,6 +600,8 @@
     <e><p><l>ovcci<s n="Num"/></l><r>yhdeksän<s n="Num"/><s n="Card"/></r></p></e>
     <e><p><l>logi<s n="Num"/></l><r>kymmenen<s n="Num"/><s n="Card"/></r></p></e>
 	<e><p><l>logi<s n="Num"/></l><r>kymmenen<s n="Num"/><s n="Card"/></r></p></e>
+   	
+    <e><p><l>čuođi<s n="Num"/></l><r>sata<s n="Num"/><s n="Card"/></r></p></e>
 	
 <!--
     <e><p><l>@<s n="Num"/></l><r>kahdes<s n="Num"/><s n="Ord"/></r></p></e>
@@ -616,9 +618,6 @@
     <e><p><l>gávccát<s n="A"/><s n="Ord"/></l><r>kahdeksas<s n="Num"/><s n="Ord"/></r></p></e>
     <e><p><l>ovccát<s n="A"/><s n="Ord"/></l><r>yhdeksäs<s n="Num"/><s n="Ord"/></r></p></e>
     <e><p><l>logát<s n="A"/><s n="Ord"/></l><r>kymmenes<s n="Num"/><s n="Ord"/></r></p></e>
-   	
-    <e><p><l>čuođi<s n="Num"/></l><r>sata<s n="Num"/><s n="Card"/></r></p></e>
-    <e><p><l>čieža<s n="Num"/></l><r>seitsemän<s n="Num"/><s n="Card"/></r></p></e>
     
     <e><re>[0-9]+</re><p><l><s n="Num"/></l><r><s n="Num"/><s n="Card"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="Num"/></l><r><s n="Num"/><s n="Real"/></r></p></e>

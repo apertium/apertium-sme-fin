@@ -1003,3 +1003,18 @@ Translate with verb-derived-noun instead of actio. can all agent participles coi
 # Focus particles
 
 How to translate: Foc/han, Foc/s, Foc/pa ? 
+
+# seammá
+
+We want to be able to generate "seammá+Pron+Indef+Sg+Loc" but we can't at the moment 
+because we only have an adverb reading for that. :(
+
+    LEXICON SEAMMA
+    +Sg+Nom:%> K ;
+    +Sg+Acc:%> K ;
+    +Sg+Gen:%> K ;
+    +Sg+Gen+Use/Sub:»# NAMAT ; !
+    +Sg+Ill:%>j K ;  ! Let's await the verdict of the jury..
+    ! +Sg+Loc:%>s K ; ! Let's settle for the Adv reading
+    +Sg+Loc+Use/Sub:%>n K ;  ! !SOUTH, well..., probably this one should Adv as well
+    ...
