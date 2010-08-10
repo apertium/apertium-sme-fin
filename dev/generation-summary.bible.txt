@@ -1,4 +1,3 @@
-
 ===============================================================================
 Multiple surface forms for a single lexical form
 ===============================================================================
@@ -504,10 +503,9 @@ Tag mismatch between transfer and generation
     669 #leat	^leat<V><IV><PrsPrc>$
     346 #ieš	^ieš<Pron><Refl><Gen>$
     260 #dát	^dát<Pron><Pers><Sg3><Loc>$
-    227 #agálaš	^agálaš<A>$
     180 #seammáláhkai	^seammáláhkai<Adv>$
     155 #guvlui	^guvlui<Po>$
-    149 #sáhttit	^sáhttit<V><IV>$
+    144 #sáhttit	^sáhttit<V><IV>$
     142 #ovdabeale	^ovdabeale<Adv>$
     131 #dát	^dát<Pron><Pers><Sg3><Ill>$
     121 #vanhurskkis	^vanhurskkis<N><Sg><Gen>$
@@ -533,7 +531,6 @@ Tag mismatch between transfer and generation
      48 #eallit	^eallit<V><IV>$
      47 #ieš	^ieš<Sg><Gen>$
      38 #vanhurskkis	^vanhurskkis<N><Sg><Nom>$
-     37 #falli	^falli<A>$
      37 #dovdat	^dovdat<V><TV>$
      36 #sohka	^sohka<N><Pl>$
      36 #ráigge	^ráigge<Po>$
@@ -547,7 +544,6 @@ Tag mismatch between transfer and generation
      31 #ieš	^ieš<Pron><Refl><Ins>$
      30 #Oahpaheaddji	^Oahpaheaddji<N><Sg><Nom>$
      30 #guhtege	^guhtege<Pron><Indef><Gen>$
-     30 #allat	^allat<A>$
      29 #viidu	^viidu<N><Sg><Nom>$
      29 #riegádit	^riegádit<V><IV>$
      29 #mii	^mii<Pron><Interr><Gen>$
@@ -555,17 +551,16 @@ Tag mismatch between transfer and generation
      28 #namma	^namma<N><Pl>$
      28 #ieš	^ieš<Sg><Ill><PxPl2>$
      27 #dakko bokte	^dakko bokte<Adv>$
-     27 #dáidit	^dáidit<V><IV><PrsPrc>$
      25 #vanhurskkis	^vanhurskkis<N><Sg><Gen><PxSg2>$
      25 #sábbát	^sábbát<N><Sg><Gen>$
      25 #ieš	^ieš<Pl><Nom>$
      24 #mávssahus	^mávssahus<N><Sg><Gen>$
      23 #vanhurskkis	^vanhurskkis<N><Sg><Ill>$
      23 #ossodat	^ossodat<N><Pl>$
-     23 #osku	^osku<N>$
      23 #oažžut	^oažžut<V><TV>$
      23 #heaittekeahttá	^heaittekeahttá<Adv>$
      23 #goappašat	^goappašat<Pl><Nom>$
+     23 #dáidit	^dáidit<V><IV><PrsPrc>$
      23 #buktit	^buktit<V><TV>$
      23 #álás	^álás<A><Sg><Gen>$
      22 #vanhurskkis	^vanhurskkis<N><Sg><Gen><PxSg3>$
@@ -578,6 +573,7 @@ Tag mismatch between transfer and generation
      21 #ieš	^ieš<Sg><Ill><PxSg3>$
      21 #ieš	^ieš<Pron><Refl><Par><PxSg3>$
      21 #gollat	^gollat<V><IV><Der2><Der_PassL><V><PrsPrc>$
+     20 #garrasit	^garrasit<Adv>$
      20 #buohkat	^buohkat<Pron><Indef><Sg><Pl><Com>$
      20 #boahtit	^boahtit<V><IV>$
      19 #vihtta	^vihtta<Num><Sg><Par>$
@@ -599,7 +595,6 @@ Tag mismatch between transfer and generation
      18 #arvit	^arvit<V><IV><Ind><Prs><Sg1>$
      17 #oaivi	^oaivi<N>$
      17 #mannat	^mannat<V><IV>$
-     16 #vissis	^vissis<A>$
      16 #ovdalgihtii	^ovdalgihtii<Adv>$
      16 #luohttit	^luohttit<V><IV><Der2><Der_PassL><V><PrsPrc>$
      16 #illu	^illu<N><Pl>$
@@ -615,7 +610,6 @@ Tag mismatch between transfer and generation
      14 #golgat	^golgat<V><IV><Der2><Der_PassL><V><PrsPrc>$
      14 #boaitto beallai	^boaitto beallai<Adv>$
      14 #berret	^berret<V><IV><Der2><Der_PassL><V><Ind><Prt><Sg3>$
-     14 #bahča	^bahča<A>$
      14 #addit	^addit<V><TV>$
      13 #vigiheapmi	^vigiheapmi<A><Sg><Gen>$
      13 #suollemas	^suollemas<N><Sg><Nom>$
@@ -637,7 +631,6 @@ Tag mismatch between transfer and generation
      12 #ieš	^ieš<Pron><Refl><Ine><PxSg3>$
      12 #ieš	^ieš<Pron><Refl><Ela><PxSg3>$
      12 #ieš	^ieš<Pl><Gen>$
-     12 #garrasit	^garrasit<Adv>$
      12 #Dát	^Dát<Pron><Pers><Sg3><Ill>$
      12 #borrat	^borrat<V><TV>$
      12 #berret	^berret<V><IV><Der2><Der_PassL><V><PrsPrc>$
@@ -664,27 +657,22 @@ Tag mismatch between transfer and generation
      10 #máŋga	^máŋga<Pl><Gen>$
      10 #ieš	^ieš<Pl><Nom><PxSg2>$
      10 #gullat	^gullat<V><TV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
-     10 #golbma	^golbma<Num>$
      10 #gii	^gii<Pron><Rel><Sg><Abe>$
      10 #fiikkonmuorra	^fiikkonmuorra<N><Sg><Gen>$
      10 #Duot	^Duot<Pron><Pers><Sg3><Loc>$
      10 #diehtit	^diehtit<V><TV>$
      10 #dahkat	^dahkat<V><TV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
-     10 #bahá	^bahá<A>$
      10 #áigge	^áigge<Po>$
       9 #vigiheapmi	^vigiheapmi<A><Attr>$
       9 #vanhurskkis	^vanhurskkis<A>$
       9 #vallái	^vallái<Adv>$
       9 #sohkagirji	^sohkagirji<N><Pl><Ill>$
-      9 #skibir	^skibir<N>$
-      9 #oadjebas	^oadjebas<A>$
       9 #iskat	^iskat<V><TV>$
       9 #ieš	^ieš<Sg><Ill><PxPl3>$
       9 #ieš	^ieš<Pron><Refl><Ine><PxSg2>$
       9 #ieš	^ieš<Pron><Refl><Ela><PxSg2>$
       9 #ieš	^ieš<Pl><Nom><PxSg3>$
       9 #ieš	^ieš<Pl><Nom><PxSg1>$
-      9 #gávvil	^gávvil<A>$
       9 #fitnat	^fitnat<V><IV><Der2><Der_PassL><V><PrsPrc>$
       9 #eará guovllus	^eará guovllus<Adv>$
       9 #dearvvahit	^dearvvahit<V><TV><Inf><Ill>$
@@ -705,7 +693,6 @@ Tag mismatch between transfer and generation
       8 #ieš	^ieš<Pron><Refl><Ine><PxPl3>$
       8 #hearvás	^hearvás<A><Sg><Gen>$
       8 #guokte	^guokte<Num><Sg><Par>$
-      8 #garas	^garas<A>$
       8 #fiikkon	^fiikkon<N><Pl><Gen>$
       8 #duššadit	^duššadit<V><TV>$
       8 #dološ	^dološ<A><Sg><Ess>$
@@ -721,7 +708,6 @@ Tag mismatch between transfer and generation
       7 #ráđđet	^ráđđet<V><TV><Der2><Actor><N><Sg><Nom>$
       7 #ovddeš	^ovddeš<Adv>$
       7 #orrut	^orrut<V><IV><Neg>$
-      7 #ollislaš	^ollislaš<A>$
       7 #lagamustá	^lagamustá<Adv>$
       7 #jeđđet	^jeđđet<V><TV><Der2><Actor><N><Sg><Nom>$
       7 #jávkat	^jávkat<V><IV><Neg>$
@@ -732,6 +718,7 @@ Tag mismatch between transfer and generation
       7 #ieš	^ieš<Pron><Refl><Ade>$
       7 #ieš	^ieš<Pl><Ill><PxSg1>$
       7 #hállat	^hállat<V><TV>$
+      7 #guoktilaččat	^guoktilaččat<Adv>$
       7 #guoddit	^guoddit<V><TV>$
       7 #golbma	^golbma<Num><Sg><Par>$
       7 #gohčodit	^gohčodit<V><TV>$
@@ -744,7 +731,6 @@ Tag mismatch between transfer and generation
       7 #čájehit	^čájehit<V><TV><Inf><Ill>$
       7 #berret	^berret<V><IV><Der2><Der_PassL><V><Imprt><Sg3>$
       7 #bassat	^bassat<V><TV>$
-      7 #almmolaš	^almmolaš<A>$
       7 #almmái	^almmái<N><Sg><Ess>$
       7 #almmái	^almmái<N><Pl><Nom><PxSg3>$
       6 #vuolibuš	^vuolibuš<A><Sg><Ill>$
@@ -762,7 +748,6 @@ Tag mismatch between transfer and generation
       6 #lohkat	^lohkat<V><TV>$
       6 #ieš	^ieš<Sg><Ill><PxSg1>$
       6 #ieš	^ieš<A><Pl><Nom><PxSg3>$
-      6 #heivet	^heivet<V><IV><Neg>$
       6 #heivehit	^heivehit<V><TV>$
       6 #guhtege	^guhtege<Pron><Indef><Loc>$
       6 #guhkit	^guhkit<Adv>$
@@ -770,11 +755,9 @@ Tag mismatch between transfer and generation
       6 #fuobmát	^fuobmát<V><TV><Der2><Der_PassL><V><Ind><Prt><Sg3>$
       6 #fitnat	^fitnat<V><IV>$
       6 #eará guvlui	^eará guvlui<Adv>$
-      6 #duođalaš	^duođalaš<A>$
       6 #Doaibmat	^Doaibmat<V><IV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
       6 #dárkileappot	^dárkileappot<Adv>$
       6 #Dakko bokte	^Dakko bokte<Adv>$
-      6 #buorre	^buorre<A>$
       6 #buhtis	^buhtis<A><Sg><Ess>$
       6 #boahtit	^boahtit<V><IV><Der2><Der_PassL><V><PrsPrc>$
       6 #bilkideaddji	^bilkideaddji<N><Sg><Nom>$
@@ -784,7 +767,6 @@ Tag mismatch between transfer and generation
       6 #bahávuohta	^bahávuohta<N><Pl><Nom><PxPl3>$
       6 #almmái	^almmái<N><Pl><Nom><PxPl3>$
       5 #Vanhurskkis	^Vanhurskkis<N><Sg><Nom>$
-      5 #stuoris	^stuoris<A>$
       5 #smiehttat	^smiehttat<V><TV><Inf><Ill>$
       5 #Sara	^Sara<N><Prop><Fem><Sg><Loc>$
       5 #ráđđet	^ráđđet<V><TV><Der2><Actor><N><Sg><Gen>$
@@ -792,18 +774,16 @@ Tag mismatch between transfer and generation
       5 #Oahpisteaddji	^Oahpisteaddji<N><Sg><Nom>$
       5 #nannet	^nannet<V><TV><Der2><Der_PassL><V><PrfPrc>$
       5 #maŋil	^maŋil<Adv>$
-      5 #lossat	^lossat<A>$
       5 #joavdat	^joavdat<V><IV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
       5 #jeđđet	^jeđđet<V><TV><Der2><Der_PassL><V><PrfPrc>$
-      5 #jalla	^jalla<A>$
       5 #ieš	^ieš<Pron><Refl><Par><PxSg1>$
       5 #ieš	^ieš<Pl><Ill><PxSg3>$
+      5 #heivet	^heivet<V><IV><Neg>$
       5 #guokte	^guokte<Num><Pl>$
       5 #Guhtege	^Guhtege<Pron><Indef>$
       5 #geahčadit	^geahčadit<V><TV><Inf><Ill>$
       5 #duohkái	^duohkái<Adv>$
       5 #dássidit	^dássidit<Adv>$
-      5 #čieŋal	^čieŋal<A>$
       5 #boagusteapmi	^boagusteapmi<N><Sg><Ill>$
       5 #bivdi	^bivdi<N><Pl><Gen>$
       5 #basuhit	^basuhit<V><TV>$
@@ -815,7 +795,6 @@ Tag mismatch between transfer and generation
       4 #vuolibuš	^vuolibuš<A><Sg><Nom>$
       4 #vuoigŋa	^vuoigŋa<N>$
       4 #vuoidat	^vuoidat<V><TV>$
-      4 #vuohki	^vuohki<N>$
       4 #vejolaš	^vejolaš<A><Sg><Nom>$
       4 #Vanhurskkis	^Vanhurskkis<N><Sg><Gen>$
       4 #válljet	^válljet<V><TV>$
@@ -861,10 +840,8 @@ Tag mismatch between transfer and generation
       4 #hearvás	^hearvás<A><Pl><Nom>$
       4 #Hearvás	^Hearvás<A><Attr>$
       4 #gurput	^gurput<V><TV>$
-      4 #gievra	^gievra<A>$
       4 #gaskkamus	^gaskkamus<A><Sg><Nom>$
       4 #gártat	^gártat<V><IV>$
-      4 #friddja	^friddja<A>$
       4 #fiikkon	^fiikkon<N><Pl><Nom>$
       4 #eapmi	^eapmi<N><Sg><Ess>$
       4 #duohtavuohta	^duohtavuohta<N><Pl><Nom><PxSg2>$
@@ -874,11 +851,11 @@ Tag mismatch between transfer and generation
       4 #dearvvas	^dearvvas<A><Sg><Ess>$
       4 #deaivat	^deaivat<V><TV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
       4 #Dáidit	^Dáidit<V><IV><PrsPrc>$
-      4 #dáidit	^dáidit<V><IV><Neg>$
       4 #čuodjat	^čuodjat<N><Sg><Gen>$
       4 #čierastit	^čierastit<V><IV><Der2><Der_PassL><V><PrsPrc>$
       4 #čeavlái	^čeavlái<N><Sg><Loc>$
       4 #čállit	^čállit<V><TV>$
+      4 #buorre	^buorre<A>$
       4 #buorránit	^buorránit<V><IV>$
       4 #bilkideaddji	^bilkideaddji<N><Pl><Nom>$
       4 #bidjat	^bidjat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
@@ -890,19 +867,15 @@ Tag mismatch between transfer and generation
       3 #vuordit	^vuordit<V><TV>$
       3 #vuoitit	^vuoitit<V><TV>$
       3 #vuoddji	^vuoddji<N><Pl><Gen>$
-      3 #Vissis	^Vissis<A>$
       3 #vieris	^vieris<A><Sg><Ess>$
       3 #viehkat	^viehkat<V><IV><Inf><Ill>$
-      3 #váttis	^váttis<A>$
       3 #vašálašvuohta	^vašálašvuohta<N><Sg><Gen>$
       3 #vanhurskkis	^vanhurskkis<N><Sg><Gen><PxPl1>$
       3 #vanhurskkis	^vanhurskkis<N><Pl><Nom><PxSg2>$
-      3 #válmmas	^válmmas<A>$
       3 #válljet	^válljet<V><TV><Der2><Der_PassL><V><Inf2>$
       3 #váldit	^váldit<V><TV>$
       3 #tuolloviessu	^tuolloviessu<N><Sg><Loc>$
       3 #soajálaš	^soajálaš<A><Attr>$
-      3 #smiehttat	^smiehttat<V><TV>$
       3 #šattolaš	^šattolaš<A><Sg><Ill>$
       3 #Sáhttit	^Sáhttit<V><IV><Imprt><Sg2><Qst>$
       3 #ruoktu	^ruoktu<N><Pl><Nom><PxPl3>$
@@ -940,7 +913,6 @@ Tag mismatch between transfer and generation
       3 #juos fal	^juos fal<CS>$
       3 #joavdat	^joavdat<V><IV><Der2><Der_PassL><V><Cond><Sg3><ConNeg>$
       3 #jáhkkit	^jáhkkit<V><TV>$
-      3 #illu	^illu<N>$
       3 #ieš	^ieš<Sg><Nom><PxSg1>$
       3 #ieš	^ieš<Sg><Loc><PxSg1>$
       3 #ieš	^ieš<Sg><Gen><PxSg2>$
@@ -976,6 +948,7 @@ Tag mismatch between transfer and generation
       3 #deattuhit	^deattuhit<V><TV>$
       3 #dárbbašlaš	^dárbbašlaš<A><Sg><Nom>$
       3 #dárbbahit	^dárbbahit<V><TV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
+      3 #dáidit	^dáidit<V><IV><Neg>$
       3 #dadjat	^dadjat<V><TV><Inf3><Ins>$
       3 #čuvggodit	^čuvggodit<V><IV>$
       3 #čuohppat	^čuohppat<V><TV>$
@@ -1022,7 +995,6 @@ Tag mismatch between transfer and generation
       2 #vanhurskkis	^vanhurskkis<N><Pl><Nom><PxSg3>$
       2 #vanhurskkis	^vanhurskkis<N><Pl><Nom><PxPl3>$
       2 #váibat	^váibat<V><IV><Der2><Der_PassL><V><PrsPrc>$
-      2 #ustitlaš	^ustitlaš<A>$
       2 #testamenta	^testamenta<N><Sg><Nom>$
       2 #testamenta	^testamenta<N><Sg><Gen>$
       2 #Suollemas	^Suollemas<N><Sg><Gen>$
@@ -1058,7 +1030,6 @@ Tag mismatch between transfer and generation
       2 #ollislaš	^ollislaš<A><Pl><Nom>$
       2 #okta	^okta<Num><Sg><Ade>$
       2 #ođas	^ođas<A>$
-      2 #oanehaš	^oanehaš<A>$
       2 #oahpisteaddji	^oahpisteaddji<N><Pl><Nom>$
       2 #oahpaheaddji	^oahpaheaddji<N><Sg><Ill><PxSg3>$
       2 #oahpaheaddji	^oahpaheaddji<N><Sg><Ill><PxPl3>$
@@ -1068,7 +1039,6 @@ Tag mismatch between transfer and generation
       2 #oahpaheaddji	^oahpaheaddji<N><Pl><Nom>$
       2 #Nuorta	^Nuorta<N><Sg><Ill>$
       2 #nohkat	^nohkat<V><IV><Neg>$
-      2 #njálbmi	^njálbmi<N>$
       2 #nealgi	^nealgi<N><Sg><Ess>$
       2 #nealgi	^nealgi<N><Pl><Ess>$
       2 #nannet	^nannet<V><TV><Der2><Der_PassL><V><PrsPrc>$
@@ -1083,13 +1053,11 @@ Tag mismatch between transfer and generation
       2 #lihkolaš	^lihkolaš<A><Pl><Nom>$
       2 #Lihkolaš	^Lihkolaš<A><Pl><Gen>$
       2 #lihkolaš	^lihkolaš<A><Pl><Gen>$
-      2 #lihkolaš	^lihkolaš<A>$
       2 #lihkkat	^lihkkat<V><IV><Neg>$
       2 #Leat	^Leat<V><IV><Ger>$
       2 #leat	^leat<V><IV><Der3><Der_n><N><Sg><Com>$
       2 #leat	^leat<V><IV><Der2><Der_PassL><V><Ind><Prt><Sg3>$
       2 #lávda	^lávda<N><Sg><Ess>$
-      2 #láiki	^láiki<A>$
       2 #láhppot	^láhppot<V><IV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
       2 #juohkit	^juohkit<V><TV>$
       2 #joavku	^joavku<N><Pl>$
@@ -1121,7 +1089,6 @@ Tag mismatch between transfer and generation
       2 #ieš	^ieš<A><Pl><Loc><PxSg3>$
       2 #huikit	^huikit<V><IV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
       2 #Hearvás	^Hearvás<A><Pl><Nom>$
-      2 #hearvás	^hearvás<A>$
       2 #gurput	^gurput<V><TV><Der2><Der_PassL><V><Inf2>$
       2 #guoskat	^guoskat<V><IV><Der2><Der_PassL><V><PrsPrc>$
       2 #guoskat	^guoskat<V><IV><Der2><Der_PassL><V><Imprt><Sg3><ConNeg>$
@@ -1133,7 +1100,6 @@ Tag mismatch between transfer and generation
       2 #gohčodit	^gohčodit<V><TV><Der2><Der_PassL><V><Imprt><Sg3><ConNeg>$
       2 #goappašat	^goappašat<Pl><Loc>$
       2 #goappašat	^goappašat<Pl><Ill>$
-      2 #geahči	^geahči<N>$
       2 #gaskkamus	^gaskkamus<A><Sg><Loc>$
       2 #garrudit	^garrudit<V><TV>$
       2 #fuobmát	^fuobmát<V><TV><Der2><Der_PassL><V><PrfPrc>$
@@ -1159,7 +1125,6 @@ Tag mismatch between transfer and generation
       2 #čieža	^čieža<Num><Gen>$
       2 #čeavlái	^čeavlái<N><Sg><Loc><PxPl3>$
       2 #čeavlái	^čeavlái<N><Sg><Ill>$
-      2 #čeavlái	^čeavlái<A>$
       2 #cealkit	^cealkit<V><TV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
       2 #časkit	^časkit<V><TV>$
       2 #čállit	^čállit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
@@ -1193,7 +1158,6 @@ Tag mismatch between transfer and generation
       2 #árbeeanan	^árbeeanan<N><Ess>$
       2 #almmuhit	^almmuhit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       2 #almmái	^almmái<N><Pl><Nom><PxPl2>$
-      2 #Allat	^Allat<A>$
       2 #Álás	^Álás<A><Ess>$
       2 #áigi	^áigi<N>$
       2 #Adai	^Adai<N><Prop><Sg><Gen>$
@@ -1210,7 +1174,6 @@ Tag mismatch between transfer and generation
       1 #vuoiŋŋastit	^vuoiŋŋastit<V><IV><Der2><Der_PassL><V><PrsPrc>$
       1 #vuoidat	^vuoidat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #vuoddji	^vuoddji<N><Sg><Com><PxSg3>$
-      1 #viššal	^viššal<A>$
       1 #viidu	^viidu<N><Sg><Ill>$
       1 #viidu	^viidu<N><Sg><Gen><Foc_ge>$
       1 #viidu	^viidu<N><Pl><Gen>$
@@ -1218,7 +1181,6 @@ Tag mismatch between transfer and generation
       1 #viežžat	^viežžat<V><TV><Der2><Der_PassL><V><Cond><Sg3><ConNeg>$
       1 #vieris	^vieris<A><Pl><Ess><PxPl3>$
       1 #vejolaš	^vejolaš<A><Pl><Ill>$
-      1 #vejolaš	^vejolaš<A>$
       1 #vearju	^vearju<N><Com><PxSg3>$
       1 #veahkki	^veahkki<N>$
       1 #vázzit	^vázzit<V><IV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
@@ -1258,9 +1220,6 @@ Tag mismatch between transfer and generation
       1 #suollemas	^suollemas<N><Sg><Ill>$
       1 #suollemas	^suollemas<N><Sg><Gen><PxSg3>$
       1 #suollemas	^suollemas<N><Pl><Ill>$
-      1 #suohtas	^suohtas<A>$
-      1 #suhttu	^suhttu<N>$
-      1 #suddu	^suddu<N>$
       1 #suddat	^suddat<V><IV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #stuoris	^stuoris<A><Pl><Nom><PxPl3>$
       1 #stunžet	^stunžet<V><TV><Der2><Der_PassL><V><PrfPrc>$
@@ -1373,14 +1332,12 @@ Tag mismatch between transfer and generation
       1 #oahpaheaddji	^oahpaheaddji<N><Sg><Gen><PxPl2>$
       1 #oahpaheaddji	^oahpaheaddji<N><Pl><Ill><PxSg1>$
       1 #oahpaheaddji	^oahpaheaddji<N><Pl><Gen><PxSg1>$
-      1 #Oadjebas	^Oadjebas<A>$
       1 #oađđit	^oađđit<V><IV>$
       1 #nuollat	^nuollat<V><TV><Inf><Ill>$
       1 #Nohkat	^Nohkat<V><IV><Neg>$
       1 #njuoska	^njuoska<A><Pl><Nom>$
       1 #njunni	^njunni<N><Pl>$
       1 #njeallje	^njeallje<Num><Sg><Abe>$
-      1 #njalkkas	^njalkkas<A>$
       1 #nisut	^nisut<N><Sg><Gen><Foc_ge>$
       1 #nisut	^nisut<N><Pl><Nom><PxSg3>$
       1 #nisut	^nisut<N><Pl><Nom><PxSg2>$
@@ -1413,6 +1370,7 @@ Tag mismatch between transfer and generation
       1 #luohpat	^luohpat<V><TV><Der2><Der_PassL><V><Imprt><Sg3><ConNeg>$
       1 #lunddolaš	^lunddolaš<A><Sg><Gen>$
       1 #lunddolaš	^lunddolaš<A><Pl><Nom>$
+      1 #lossat	^lossat<A>$
       1 #lohpidit	^lohpidit<V><TV><Der2><Der_PassL><V><Imprt><Sg3><ConNeg>$
       1 #lohkat	^lohkat<V><TV><Der2><Der_PassL><V><Pot><Sg3><ConNeg>$
       1 #lohkat	^lohkat<V><TV><Der2><Der_PassL><V><Inf2>$
@@ -1452,15 +1410,10 @@ Tag mismatch between transfer and generation
       1 #jearralit	^jearralit<V><TV><Der3><Der_n><N><Sg><Com>$
       1 #jearralit	^jearralit<V><TV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
       1 #jávkat	^jávkat<V><IV>$
-      1 #jaskat	^jaskat<A>$
-      1 #Jalla	^Jalla<A>$
       1 #jahki	^jahki<N><Pl>$
-      1 #issoras	^issoras<A>$
       1 #iskat	^iskat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #Ipmil	^Ipmil<N><Prop><Mal><Gen>$
       1 #imaštallat	^imaštallat<V><TV>$
-      1 #Imaš	^Imaš<N>$
-      1 #imaš	^imaš<A>$
       1 #ii	^ii<V><IV><Neg><Ind><Sg3><Foc_han><Qst>$
       1 #ieš	^ieš<Sg><Nom><PxPl2>$
       1 #Ieš	^Ieš<Sg><Nom>$
@@ -1495,10 +1448,8 @@ Tag mismatch between transfer and generation
       1 #hovdejeaddji	^hovdejeaddji<N><Pl><Nom>$
       1 #hovdejeaddji	^hovdejeaddji<N><Pl><Ill>$
       1 #hovdejeaddji	^hovdejeaddji<N><Pl><Gen>$
-      1 #hiđis	^hiđis<A>$
       1 #hervet	^hervet<V><TV><Der2><Der_PassL><V><Ind><Prt><Sg3>$
       1 #hervet	^hervet<V><TV><Der2><Der_PassL><V><Ind><Prs><Sg3>$
-      1 #hersko	^hersko<N>$
       1 #heivet	^heivet<V><IV><Der2><Der_PassL><V><Cond><Sg3><ConNeg>$
       1 #heivet	^heivet<V><IV>$
       1 #heivehit	^heivehit<V><TV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
@@ -1529,7 +1480,6 @@ Tag mismatch between transfer and generation
       1 #gullat	^gullat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #Guhtege	^Guhtege<Pron><Indef><Loc>$
       1 #govččas	^govččas<N><Ess><PxSg2>$
-      1 #gonagas	^gonagas<N>$
       1 #golli	^golli<N><Com>$
       1 #gollat	^gollat<V><IV><Neg>$
       1 #gollat	^gollat<V><IV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
@@ -1543,7 +1493,6 @@ Tag mismatch between transfer and generation
       1 #goddit	^goddit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #goddit	^goddit<V><TV>$
       1 #gođđat	^gođđat<V><IV><Der2><Der_PassL><V><PrsPrc>$
-      1 #girji	^girji<N>$
       1 #gelddolaš	^gelddolaš<A><Attr>$
       1 #geiget	^geiget<V><TV><Der2><Der_PassL><V><Ind><Prt><Sg3>$
       1 #geahččat	^geahččat<V><TV><Imprt><Sg3><Foc_ge>$
@@ -1589,7 +1538,7 @@ Tag mismatch between transfer and generation
       1 #fástobeaivi	^fástobeaivi<N><Sg><Nom><Foc_ge>$
       1 #fastivuohta	^fastivuohta<N><Pl><Nom><PxPl3>$
       1 #fastivuohta	^fastivuohta<N><Pl><Nom><PxPl2>$
-      1 #Falli	^Falli<A>$
+      1 #falli	^falli<A>$
       1 #fállat	^fállat<V><TV>$
       1 #erenoamaš	^erenoamaš<A><Sg><Loc>$
       1 #erenoamaš	^erenoamaš<A><Attr>$
@@ -1650,7 +1599,6 @@ Tag mismatch between transfer and generation
       1 #dábálaš	^dábálaš<A><Pl><Ill>$
       1 #Dábálaš	^Dábálaš<A><Attr>$
       1 #dábálaš	^dábálaš<A><Attr>$
-      1 #dábálaš	^dábálaš<A>$
       1 #Dábálaččat	^Dábálaččat<Adv>$
       1 #čuvggodit	^čuvggodit<V><IV><Foc_ge>$
       1 #čuožžut	^čuožžut<V><IV><Imprt><Pl3><Foc_ge>$
@@ -1667,8 +1615,6 @@ Tag mismatch between transfer and generation
       1 #čoaggin	^čoaggin<N><Pl><Gen>$
       1 #čoagganit	^čoagganit<V><IV><Der2><Der_PassL><V><Ind><Prs><Sg3>$
       1 #čieža	^čieža<Num><Sg><All>$
-      1 #Čieža	^Čieža<Num>$
-      1 #čieža	^čieža<Num>$
       1 #Čierastit	^Čierastit<V><IV><Imprt><Sg2><Foc_han>$
       1 #čierastit	^čierastit<V><IV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
       1 #Čeavlái	^Čeavlái<N><Sg><Nom>$
@@ -1681,7 +1627,6 @@ Tag mismatch between transfer and generation
       1 #čatnat	^čatnat<V><TV><Foc_ge>$
       1 #čatnat	^čatnat<V><TV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
       1 #časkit	^časkit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
-      1 #čáppat	^čáppat<A>$
       1 #čállit	^čállit<V><TV><Der2><Der_PassL><V><Ind><Prs><Sg3><ConNeg>$
       1 #čállit	^čállit<V><TV><Der2><Der_PassL><V><Imprt><Sg3><ConNeg>$
       1 #čájehit	^čájehit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
@@ -1715,10 +1660,8 @@ Tag mismatch between transfer and generation
       1 #bissut	^bissut<V><IV>$
       1 #bissovaš	^bissovaš<A><Sg><Ess>$
       1 #bissovaš	^bissovaš<A><Pl><Nom><PxSg3>$
-      1 #bissovaš	^bissovaš<A>$
       1 #billašuvvat	^billašuvvat<V><IV><Neg>$
       1 #billašuvvat	^billašuvvat<V><IV><Der2><Der_PassL><V><PrfPrc>$
-      1 #bilku	^bilku<N>$
       1 #bilkideaddji	^bilkideaddji<N><Sg><Ill>$
       1 #bilkideaddji	^bilkideaddji<N><Sg><Gen><PxSg2>$
       1 #Bilkideaddji	^Bilkideaddji<N><Sg><Gen>$
@@ -1746,7 +1689,6 @@ Tag mismatch between transfer and generation
       1 #beassat	^beassat<V><IV><Der2><Der_PassL><V><PrsPrc>$
       1 #beassat	^beassat<V><IV><Der2><Der_PassL><V><Inf2>$
       1 #bearaš	^bearaš<N><Com><PxSg3>$
-      1 #bastil	^bastil<A>$
       1 #Bárgut	^Bárgut<N><Sg><Nom>$
       1 #bárgut	^bárgut<N><Sg><Ill>$
       1 #bargi	^bargi<N><Sg><Loc>$
@@ -1787,7 +1729,6 @@ Tag mismatch between transfer and generation
       1 #álás	^álás<A><Pl><Gen>$
       1 #áhčeheapmi	^áhčeheapmi<A><Pl><Ill>$
       1 #áhčči	^áhčči<N><Gen>$
-      1 #Agálaš	^Agálaš<A>$
       1 #addit	^addit<V><TV><Inf3><Ins>$
       1 #Adai	^Adai<N><Prop><Sg><Nom>$
 
@@ -1796,5 +1737,5 @@ Summary
 ===============================================================================
   490 /tmp/fin-sme.multiform
     0 /tmp/fin-sme.multibidix
- 1290 /tmp/fin-sme.tagmismatch
- 1780 total
+ 1232 /tmp/fin-sme.tagmismatch
+ 1722 total
