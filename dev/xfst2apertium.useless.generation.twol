@@ -30,6 +30,8 @@ Alphabet
 %+Ord
 %+Foc/ge
 %+Foc/naj
+%+Foc/han
+%+Foc/ba
 %+Num
 %+Qst
 %+Sg
@@ -72,6 +74,8 @@ AllowUse =
 %+CLB
 %+Foc/ge
 %+Foc/naj
+%+Foc/han
+%+Foc/ba
 %+Ord
 %+Num
 %+PrsPrc

@@ -334,6 +334,7 @@
       <!-- Sme -->
       <attr-item tags="Foc_ge"/>
       <attr-item tags="Foc_naj"/>
+      <attr-item tags="Foc_ba"/>
     </def-attr>
     <def-attr n="a_tense">
       <attr-item tags="Prs"/>
@@ -578,6 +579,30 @@
     </def-macro>
     <def-macro n="set_foc_particles" npar="1" c="arg.1: a word">
       <choose>
+        <when>
+          <test>
+              <equal>
+                <clip pos="1" side="sl" part="a_foc"/>
+                <lit-tag v="Foc_pa"/>
+              </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="a_foc"/>
+            <lit-tag v="Foc_ba"/>
+          </let>
+        </when>
+        <when>
+          <test>
+              <equal>
+                <clip pos="1" side="sl" part="a_foc"/>
+                <lit-tag v="Foc_s"/>
+              </equal>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="a_foc"/>
+            <lit v=""/>
+          </let>
+        </when>
         <when>
           <test>
             <or>
