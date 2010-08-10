@@ -44,7 +44,7 @@
 			["lexical-data/conjunctions.hlexc", "cat"],
 			["lexical-data/digit-stubs.hlexc", "cat"],
 			["lexical-data/exceptions.hlexc", "cat"],
-			["lexical-data/interjections.hlexc", "cat"],
+			["lexical-data/interjections.hlexc", "clip", {"pos_filter": "<Interj>"}],
 			["lexical-data/noun-stubs.hlexc", "clip", {"pos_filter": "<N>"}],
 			["lexical-data/numeral-stubs.hlexc", "cat"],
 			["lexical-data/particles.hlexc", "cat"],

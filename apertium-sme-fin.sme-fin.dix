@@ -547,6 +547,10 @@
 	<e><p><l>juohkehaš<s n="Pron"/><s n="Indef"/></l><r>jokainen<s n="Pron"/></r></p></e>
 	
     <e><p><l>muhtin<s n="Pron"/><s n="Indef"/></l><r>eräs<s n="Pron"/></r></p></e>
+
+	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/></l><r>kukaan<s n="Pron"/><s n="Qnt"/></r></p></e>
+	<e><p><l>nubbi<s n="Pron"/><s n="Indef"/></l><r>toinen<s n="Pron" /><s n="Indef"/></r></p></e>
+	
 	
 	<!-- Pron Indef:Pcle -->
 	<e><p><l>juoidá<s n="Pron"/><s n="Indef"/></l><r>jotain<s n="Pcle"/></r></p></e>
@@ -558,7 +562,7 @@
 	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>itse<s n="Pron"/><s n="Refl"/></r></p></e>
 
 	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/></r></p></e>
-	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>oma<s n="A"/><s n="Pos"/></r></p></e>
+	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>oma<s n="A"/></r></p></e> <!-- was A.Pos -->
 	
 	<!-- !! Num and Pron -->
 	<e><p><l>okta<s n="Num"/></l><r>yksi<s n="Pron"/></r></p></e>
@@ -582,9 +586,9 @@
 	<!-- Demonstratives -->
 	<!-- ! Adv: Pron+Dem -->
 	
-	<e><p><l>dáppe<s n="Adv"/></l><r>täällä<s n="Pron"/><s n="Dem"/></r></p></e>
-	<e><p><l>doppe<s n="Adv"/></l><r>siellä<s n="Pron"/><s n="Dem"/></r></p></e>
-	<e><p><l>duoppe<s n="Adv"/></l><r>tuolla<s n="Pron"/><s n="Dem"/></r></p></e>
+    <e><p><l>dáppe<s n="Adv"/></l><r>täällä<s n="Pron"/><s n="Dem"/></r></p></e>
+    <e><p><l>doppe<s n="Adv"/></l><r>siellä<s n="Pron"/><s n="Dem"/></r></p></e>
+    <e><p><l>duoppe<s n="Adv"/></l><r>tuolla<s n="Pron"/><s n="Dem"/></r></p></e>
 	
 	<!-- end pronouns -->
     <!-- Numerals -->
@@ -599,8 +603,7 @@
     <e><p><l>gávcci<s n="Num"/></l><r>kahdeksan<s n="Num"/><s n="Card"/></r></p></e>
     <e><p><l>ovcci<s n="Num"/></l><r>yhdeksän<s n="Num"/><s n="Card"/></r></p></e>
     <e><p><l>logi<s n="Num"/></l><r>kymmenen<s n="Num"/><s n="Card"/></r></p></e>
-	<e><p><l>logi<s n="Num"/></l><r>kymmenen<s n="Num"/><s n="Card"/></r></p></e>
-	<e><p><l>duháhat<s n="Num"/></l><r>tuhat<s n="Num"/><s n="Card"/></r></p></e>
+    <e><p><l>duháhat<s n="Num"/></l><r>tuhat<s n="Num"/><s n="Card"/></r></p></e>
    	
     <e><p><l>čuođi<s n="Num"/></l><r>sata<s n="Num"/><s n="Card"/></r></p></e>
 	
@@ -625,6 +628,7 @@
     <e><re>[0-9]+</re><p><l><s n="Num"/></l><r><s n="Num"/><s n="Card"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="Num"/></l><r><s n="Num"/><s n="Real"/></r></p></e>
 	<!-- end numerals -->
+
     <!-- nouns -->
     <e slr="1"><p><l>oainnáhus<s n="N"/></l><r>näky<s n="N"/></r></p></e>
     <e slr="1"><p><l>riidu<s n="N"/></l><r>erimielisyys<s n="N"/></r></p></e>
@@ -632,9 +636,6 @@
     <e slr="1"><p><l>viisodat<s n="N"/></l><r>järkeisoppi<s n="N"/></r></p></e>
     <e slr="1"><p><l>šaddu<s n="N"/></l><r>istutus<s n="N"/></r></p></e>
     <e slr="2"><p><l>rábát<s n="N"/></l><r>tahdas<s n="N"/></r></p></e>
-	
-	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/></l><r>kukaan<s n="Pron"/><s n="Qnt"/></r></p></e>
-	<e><p><l>nubbi<s n="Pron"/><s n="Indef"/></l><r>toinen<s n="Pron" /><s n="Indef"/></r></p></e>
 	
 	<!-- <e><p><l>eden<s n="N"/></l><r>eeden<s n="N"/></r></p></e> --> <!-- 'an Eden' / 'a paradise' -->
 
