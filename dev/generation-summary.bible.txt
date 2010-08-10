@@ -1,15 +1,12 @@
+
 ===============================================================================
 Multiple surface forms for a single lexical form
 ===============================================================================
-    453 nuppi/nuppe	^nubbi<A><Ord><Sg><Gen>$
     237 maŋisboahttiid/maŋisbohttiid	^maŋisboahtti<N><Actor><Pl><Gen>$
-    158 sisa/siskkil	^sisa<Po>$
-    130 maiddai/maiddái	^maiddái<Adv>$
      87 gámmira/gámmára	^gámmir<N><Sg><Gen>$
      80 gutni/gudni	^gudni<N><Sg><Gen>$
      79 guovtti/guovtte/guovtte-	^guokte<Num><Sg><Gen>$
      63 gámmirii/gámmárii	^gámmir<N><Sg><Ill>$
-     58 Maiddai/Maiddái	^Maiddái<Adv>$
      53 njealji/njealje/njealje-	^njeallje<Num><Sg><Gen>$
      53 mastege/masge	^mihkkege<Pron><Indef><Sg><Loc>$
      51 eatge/eapge	^ii<V><IV><Neg><Ind><Pl1><Foc_ge>$
@@ -48,7 +45,6 @@ Multiple surface forms for a single lexical form
      13 ealliide/elliide	^ealli<N><Actor><Pl><Ill>$
      13 beasis/beassis	^beassi<N><Sg><Loc>$
      12 ribatkeahttá/ribatkeahttájin	^ribahit<V><TV><VAbess>$
-     12 Nuppi/Nuppe	^Nubbi<A><Ord><Sg><Gen>$
      12 maŋisboahttiidasas/maŋisbohttiidasas	^maŋisboahtti<N><Actor><Pl><Ill><PxSg3>$
      12 čalmmeheami/čalmmeheame	^čalmmeheapme<A><Sg><Gen>$
      12 borakeahttá/borakeahttájin	^borrat<V><TV><VAbess>$
@@ -187,7 +183,6 @@ Multiple surface forms for a single lexical form
       2 oažžuba/oažžuba+son/oažžuba+hal/oažžuba+han	^oažžut<V><TV><Ind><Prs><Sg3><Foc_ba>$
       2 oinniimetba/oinniimetba+son/oinniimetba+hal/oinniimetba+han	^oaidnit<V><TV><Ind><Prt><Pl1><Foc_ba>$
       2 oaidniid/oidniid	^oaidnit<V><TV><Der2><Actor><N><Pl><Gen>$
-      2 nuppi/nuppe	^nubbi<Pron><Recipr><Sg><Gen>$
       2 morrahisttiset/morrašisttiset	^moraš<N><Sg><Loc><PxPl3>$
       2 morrahan/morrašan	^moraš<N><Sg><Gen><PxSg1>$
       2 morrahiiddádet/morrašiiddádet	^moraš<N><Pl><Nom><PxPl2>$
@@ -518,8 +513,8 @@ Tag mismatch between transfer and generation
      66 #goassege	^goassege<Adv>$
      62 #nuorta	^nuorta<N><Sg><Ill>$
      62 #dadjat	^dadjat<V><TV>$
+     60 #ieš	^ieš<Sg><Nom>$
      60 #guhtege	^guhtege<Pron><Indef>$
-     59 #ieš	^ieš<Sg><Nom>$
      59 #bajimus	^bajimus<A><Attr>$
      57 #Seammáláhkai	^Seammáláhkai<Adv>$
      57 #jápmit	^jápmit<V><IV>$
@@ -565,7 +560,6 @@ Tag mismatch between transfer and generation
      23 #buktit	^buktit<V><TV>$
      23 #álás	^álás<A><Sg><Gen>$
      22 #vanhurskkis	^vanhurskkis<N><Sg><Gen><PxSg3>$
-     22 #siskkil	^siskkil<Po>$
      22 #bajimus	^bajimus<A><Sg><Nom>$
      21 #sábbát	^sábbát<N><Sg><Nom>$
      21 #leat	^leat<V><IV><Der2><Der_PassL><V><PrfPrc>$
@@ -1735,7 +1729,7 @@ Tag mismatch between transfer and generation
 ===============================================================================
 Summary
 ===============================================================================
-  490 /tmp/fin-sme.multiform
+  484 /tmp/fin-sme.multiform
     0 /tmp/fin-sme.multibidix
- 1232 /tmp/fin-sme.tagmismatch
- 1722 total
+ 1231 /tmp/fin-sme.tagmismatch
+ 1715 total
