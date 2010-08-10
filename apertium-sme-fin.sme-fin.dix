@@ -102,6 +102,9 @@
 	
 	<!-- The following all have Pcle on the finnish side, checked. Many are adverbs, but also possibly sentence level and thus should be CSes? Ryan -->
 	
+	<e c="FMT:CHECK><p><l>seammá<s n="Adv"/></l><r>yhtä<s n="Adv"/></r></p></e>
+	<e c="FMT:CHECK><p><l>duođaid<s n="Adv"/></l><r>välillä<s n="Adv"/></r></p></e>
+
 	<e><p><l>ovdalis<s n="Adv"/></l><r>aiemmin<s n="Adv"/></r></p></e>
 	<e><p><l>ain<s n="Adv"/></l><r>yhä<s n="Pcle"/></r></p></e>
 	<e><p><l>belle<s n="Adv"/></l><r>puoli<s n="Pcle"/></r></p></e>
@@ -158,6 +161,8 @@
 
     <!-- Postpositions, prepositions -->
 	<!-- <e><p><l>ala<s n="Po"/></l><r>päälle<s n="Po"/></r></p></e> --> <!-- we are westerners -->
+
+	<e c="FMT:CHECK"><p><l>dihtii<s n="Po"/></l><r>ansiosta<s n="Po"/></r></p></e>
 	
 	<e srl="2"><p><l>geahčen<s n="Po"/></l><r>luota<s n="Po"/></r></p></e>
 	<e><p><l>bajábealde<s n="Po"/></l><r>yläpuolella<s n="Po"/></r></p></e>
