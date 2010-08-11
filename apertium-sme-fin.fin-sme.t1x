@@ -2828,6 +2828,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="nominal_case_number1">
           <with-param pos="1"/>
         </call-macro>
+		<!-- need to reset the variable here too. -->
 		<let>
 			<var n="default_px"/>
 			<lit v=""/>
