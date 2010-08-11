@@ -1041,6 +1041,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
               <clip pos="2" side="tl" part="nbr"/>
               <var n="comitative_num"/>
               <clip pos="2" side="tl" part="a_case"/>
@@ -2095,12 +2096,13 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
               <clip pos="2" side="tl" part="a_qst"/>
               <clip pos="2" side="tl" part="a_foc"/>
-              <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="2" side="tl" part="lemq"/>
               <var n="cur_noun_postp"/>
             </lu>
           </chunk>
@@ -2220,12 +2222,13 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
               <clip pos="2" side="tl" part="a_qst"/>
               <clip pos="2" side="tl" part="a_foc"/>
-              <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="2" side="tl" part="lemq"/>
               <var n="cur_noun_postp"/>
             </lu>
           </chunk>
@@ -2330,13 +2333,14 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
               <var n="comitative_num"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
               <clip pos="2" side="tl" part="a_qst"/>
               <clip pos="2" side="tl" part="a_foc"/>
-              <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="2" side="tl" part="lemq"/>
               <var n="cur_noun_postp"/>
             </lu>
           </chunk>
@@ -2426,6 +2430,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
               <var n="comitative_num"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
@@ -2505,13 +2510,14 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen"/>
               <var n="comitative_num"/>
               <clip pos="3" side="tl" part="nbr"/>
               <clip pos="3" side="tl" part="a_case"/>
               <clip pos="3" side="tl" part="a_pxprs"/>
               <clip pos="3" side="tl" part="a_qst"/>
               <clip pos="3" side="tl" part="a_foc"/>
-              <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="3" side="tl" part="lemq"/>
               <var n="cur_noun_postp"/>
             </lu>
           </chunk>
@@ -2581,13 +2587,14 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen"/>
               <var n="comitative_num"/>
               <clip pos="3" side="tl" part="nbr"/>
               <clip pos="3" side="tl" part="a_case"/>
               <clip pos="3" side="tl" part="a_pxprs"/>
               <clip pos="3" side="tl" part="a_qst"/>
               <clip pos="3" side="tl" part="a_foc"/>
-              <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="3" side="tl" part="lemq"/>
               <var n="cur_noun_postp"/>
             </lu>
           </chunk>
@@ -2648,13 +2655,14 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
               <var n="comitative_num"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
               <clip pos="2" side="tl" part="a_qst"/>
               <clip pos="2" side="tl" part="a_foc"/>
-              <clip pos="1" side="tl" part="lemq"/>
+              <clip pos="2" side="tl" part="lemq"/>
               <var n="cur_noun_postp"/>
             </lu>
           </chunk>
@@ -2706,6 +2714,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="3" side="tl" part="lemh"/>
               <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen"/>
               <var n="comitative_num"/>
               <clip pos="3" side="tl" part="nbr"/>
               <clip pos="3" side="tl" part="a_case"/>
@@ -2754,6 +2763,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
               <var n="comitative_num"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
@@ -2809,6 +2819,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_pxprs"/>
@@ -3044,6 +3055,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_qst"/>
@@ -3148,6 +3160,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
+              <clip pos="2" side="tl" part="gen"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_case"/>
               <clip pos="2" side="tl" part="a_qst"/>
