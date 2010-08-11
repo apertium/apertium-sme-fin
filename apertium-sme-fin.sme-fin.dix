@@ -3789,6 +3789,8 @@
 	<!-- end adverbs -->
     <!-- verbs -->
 	
+	<e><p><l>fertet<s n="V"/><s n="IV"/></l><r>täytyä<s n="V"/></r></p><par n="V_V"/></e>
+
 	<!-- <e><p><l>bargat<g><b/>eatnama</g><s n="V"/><s n="TV"/></l><r>viljellä<s n="V"/></r></p><par n="V_V"/></e> -->
 	<e><p><l>baldit<s n="V"/><s n="TV"/></l><r>pelottaa<s n="V"/></r></p><par n="V_V"/></e>
 	<e><p><l>basuhit<s n="V"/><s n="TV"/></l><r>pyhittää<s n="V"/></r></p><par n="V_V"/></e>

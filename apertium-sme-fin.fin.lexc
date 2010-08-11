@@ -12079,6 +12079,7 @@ ryhtyä'][POS=VERB][KTN=52][KAV=F]:ryh{t~~}y{^front}{F}	kotus_52_VERB/stemfiller
 sitoa'][POS=VERB][KTN=52][KAV=F]:si{t~~}o{^back}{F}	kotus_52_VERB/stemfiller	;
 tahtoa'][POS=VERB][KTN=52][KAV=F]:tah{t~~}o{^back}{F}	kotus_52_VERB/stemfiller	;
 tapahtua'][POS=VERB][KTN=52][KAV=F]:tapah{t~~}u{^back}{F}	kotus_52_VERB/stemfiller	;
+täytyä'][POS=VERB][KTN=52][KAV=F]:täy{t~~}y{^front}{F}	kotus_52_VERB/stemfiller	;
 uskaltautua'][POS=VERB][KTN=52][KAV=F]:uskaltau{t~~}u{^back}{F}	kotus_52_VERB/stemfiller	;
 yhtyä'][POS=VERB][KTN=52][KAV=F]:yh{t~~}y{^front}{F}	kotus_52_VERB/stemfiller	;
 ampua'][POS=VERB][KTN=52][KAV=H]:am{p~~}u{^back}{H}	kotus_52_VERB/stemfiller	;
