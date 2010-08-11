@@ -7119,7 +7119,7 @@ ehkä'][POS=CONJUNCTION][SUBCAT=SUBORD][BOUNDARY=COMPOUND][LEMMA='ei'][POS=VERB]
 ! ehkä'][POS=CONJUNCTION][SUBCAT=SUBORD]:ehken Ennd ;
 ! ehkä'][POS=CONJUNCTION][SUBCAT=SUBORD]:ehket Ennd ;
 ! ehkä'][POS=CONJUNCTION][SUBCAT=SUBORD]:ehkette Ennd ;
-eikä'][POS=CONJUNCTION][SUBCAT=SUBORD]:eikä	Ennd	;
+! eikä'][POS=CONJUNCTION][SUBCAT=SUBORD]:eikä	Ennd	;
 elikkä'][POS=CONJUNCTION][SUBCAT=COORD]:elikkä	Ennd	;
 eli'][POS=CONJUNCTION][SUBCAT=COORD]:eli	Ennd	;
 ! ellei'][POS=CONJUNCTION][SUBCAT=SUBORD]:ellei	Ennd	;
@@ -7129,7 +7129,7 @@ eli'][POS=CONJUNCTION][SUBCAT=COORD]:eli	Ennd	;
 ! ellen'][POS=CONJUNCTION][SUBCAT=SUBORD]:ellen	Ennd	;
 ! ellet'][POS=CONJUNCTION][SUBCAT=SUBORD]:ellet	Ennd	;
 ! ellette'][POS=CONJUNCTION][SUBCAT=SUBORD]:ellette	Ennd	;
-enkä'][POS=CONJUNCTION][SUBCAT=SUBORD]:enkä	Ennd	;
+!enkä'][POS=CONJUNCTION][SUBCAT=SUBORD]:enkä	Ennd	;
 ennen% kuin'][POS=CONJUNCTION][SUBCAT=SUBORD]:ennen% kuin	Ennd	;
 ennenkuin'][POS=CONJUNCTION][SUBCAT=SUBORD]:ennenkuin	Ennd	;
 etteikö'][POS=CONJUNCTION][SUBCAT=SUBORD]:etteikö	Ennd	;
