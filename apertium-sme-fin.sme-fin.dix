@@ -997,7 +997,8 @@
     <e><p><l>bearjadat<s n="N"/></l><r>perjantai<s n="N"/></r></p></e>
     <e><p><l>beaska<s n="N"/></l><r>peski<s n="N"/></r></p></e>
     <e><p><l>beassi<s n="N"/></l><r>pesä<s n="N"/></r></p></e>
-    <e><p><l>beassážat<s n="N"/></l><r>pääsiäinen<s n="N"/></r></p></e>
+    <e r="RL"><p><l>beassážat<s n="N"/><s n="Pl"/></l><r>pääsiäinen<s n="N"/><s n="Sg"/></r></p></e>
+    <e><p><l>beassážat<s n="N"/><s n="Pl"/></l><r>pääsiäinen<s n="N"/><s n="Pl"/></r></p></e>
     <e><p><l>beassášbeaivi<s n="N"/></l><r>pääsiäispäivä<s n="N"/></r></p></e>
     <e><p><l>beassášluopmu<s n="N"/></l><r>pääsiäisloma<s n="N"/></r></p></e>
     <e><p><l>beassášlávvardat<s n="N"/></l><r>pääsiäisilta<s n="N"/></r></p></e>
@@ -1153,7 +1154,7 @@
     <e><p><l>bárbmoloddi<s n="N"/></l><r>muuttolintu<s n="N"/></r></p></e>
     <e><p><l>bárbmu<s n="N"/></l><r>etelä<s n="N"/></r></p></e>
     <e><p><l>bárdni<s n="N"/></l><r>poika<s n="N"/></r></p></e>
-    <e><p><l>bárgut<s n="N"/></l><r>parku<s n="N"/></r></p></e>
+    <e><p><l>bárgu<s n="N"/></l><r>parku<s n="N"/></r></p></e>
     <e><p><l>bárra<s n="N"/></l><r>pari<s n="N"/></r></p></e>
     <e><p><l>bártnáš<s n="N"/></l><r>poika<s n="N"/></r></p></e>
     <e><p><l>bártnáš<s n="N"/></l><r>poikanen<s n="N"/></r></p></e>
@@ -2075,7 +2076,7 @@
     <e><p><l>nissongákti<s n="N"/></l><r>naistenpuku<s n="N"/></r></p></e>
     <e><p><l>nissonolmmoš<s n="N"/></l><r>nainen<s n="N"/></r></p></e>
     <e><p><l>nisu<s n="N"/></l><r>nainen<s n="N"/></r></p></e>
-    <e><p><l>nisut<s n="N"/></l><r>nisu<s n="N"/></r></p></e>
+    <e><p><l>nisu<s n="N"/></l><r>nisu<s n="N"/></r></p></e>
     <!-- TODO: ?? Left side is a verb <e><p><l>njamahit<s n="N"/></l><r>imettäväinen<s n="N"/></r></p></e> -->
     <e><p><l>njavvi<s n="N"/></l><r>niva<s n="N"/></r></p></e>
     <e><p><l>njelješ<s n="N"/></l><r>nelonen<s n="N"/></r></p></e>
@@ -2205,7 +2206,7 @@
     <e><p><l>pánter<s n="N"/></l><r>eläintiede<s n="N"/></r></p></e>
     <e><p><l>párka<s n="N"/></l><r>puisto<s n="N"/></r></p></e>
     <e><p><l>párra<s n="N"/></l><r>pari<s n="N"/></r></p></e>
-    <e><p><l>rabbat<s n="N"/></l><r>rabbi<s n="N"/></r></p></e>
+    <e><p><l>rabbi<s n="N"/></l><r>rabbi<s n="N"/></r></p></e>
     <e><p><l>raddeleahppi<s n="N"/></l><r>rintaläppä<s n="N"/></r></p></e>
     <e><p><l>raddi<s n="N"/></l><r>rinta<s n="N"/></r></p></e>
     <e><p><l>radio<s n="N"/></l><r>radio<s n="N"/></r></p></e>
@@ -2335,7 +2336,7 @@
     <e><p><l>seaidni<s n="N"/></l><r>seinä<s n="N"/></r></p></e>
     <e><p><l>seaila<s n="N"/></l><r>sinetti<s n="N"/></r></p></e>
     <e><p><l>sealgi<s n="N"/></l><r>selkä<s n="N"/></r></p></e>
-    <e><p><l>searvegoddi<s n="N"/><s n="Actor"/></l><r>seurakunta<s n="N"/></r></p></e>
+    <e><p><l>searvegoddi<s n="N"/></l><r>seurakunta<s n="N"/></r></p></e>
     <e><p><l>searvi<s n="N"/></l><r>seura<s n="N"/></r></p></e>
     <e><p><l>seavdnjadas<s n="N"/></l><r>pimeys<s n="N"/></r></p></e>
     <e><p><l>seaŋga<s n="N"/></l><r>sänky<s n="N"/></r></p></e>
@@ -2760,7 +2761,7 @@
     <e><p><l>šearfa<s n="N"/></l><r>kaulaliina<s n="N"/></r></p></e>
     <e><p><l>čearpmat<s n="N"/></l><r>vasa<s n="N"/></r></p></e>
     <e><p><l>čearret<s n="N"/></l><r>tiira<s n="N"/></r></p></e>
-    <e><p><l>čeavlái<s n="N"/></l><r>ylpeys<s n="N"/></r></p></e>
+    <e><p><l>čeavllis<s n="N"/></l><r>ylpeys<s n="N"/></r></p></e>
     <e><p><l>čibbi<s n="N"/></l><r>polvi<s n="N"/></r></p></e>
     <e><p><l>šibit<s n="N"/></l><r>kotieläin<s n="N"/></r></p></e>
     <e><p><l>šibitdoallu<s n="N"/></l><r>eläinpito<s n="N"/></r></p></e>
@@ -3333,7 +3334,7 @@
 	<e><p><l>Pekka<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Pekka<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Abraham<s n="N"/><s n="Prop"/><s n="Mal"/></l><r>Aabraham<s n="N"/><s n="Prop"/></r></p></e>
 	
-    <e><p><l>Adai<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Aada<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ada<s n="N"/><s n="Prop"/><s n="Fem"/></l><r>Aada<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Eufrat<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Eufrat<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Lamek<s n="N"/><s n="Prop"/><s n="Sur"/></l><r>Lemek<s n="N"/><s n="Prop"/></r></p></e>
 

@@ -545,6 +545,47 @@
       <call-macro n="subj_case_nominative">
         <with-param pos="1"/>
       </call-macro>
+      <choose> <!-- This stanza sets the possessive suffix to '' if the word is in plural nominative -->
+        <when>
+          <test>
+            <and>
+              <equal>
+                <clip pos="1" side="tl" part="a_case"/>
+                <lit-tag v="Nom"/>
+              </equal>
+              <equal>
+                <clip pos="1" side="tl" part="nbr"/>
+                <lit-tag v="Pl"/>
+              </equal>
+              <not>
+                <and>
+                    <equal>
+                      <clip pos="1" side="tl" part="a_pxprs"/>
+                      <lit v=""/>
+                    </equal>
+                    <equal>
+                      <clip pos="1" side="tl" part="a_pxprs"/>
+                      <lit-tag v="PxSg1"/>
+                    </equal>
+                    <equal>
+                      <clip pos="1" side="tl" part="a_pxprs"/>
+                      <lit-tag v="PxPl1"/>
+                    </equal>
+                </and>
+              </not>
+            </and>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="a_pxprs"/>
+            <lit v=""/>
+          </let>
+          <let>
+            <var n="default_px"/>
+            <lit v=""/>
+          </let>
+        </when>
+      </choose>
+
     </def-macro>
     <def-macro n="subj_case_nominative" npar="1" c="When the syntactic tag is @SUBJ, case must be nominative">
       <choose>
