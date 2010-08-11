@@ -2292,7 +2292,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_noun_postp">
           <with-param pos="2"/>
         </call-macro>
-        <call-macro n="nominal_case_number1">
+        <call-macro n="nominal_case_number2">
+          <with-param pos="1"/>
           <with-param pos="2"/>
         </call-macro>
         <call-macro n="set_foc_particles">
