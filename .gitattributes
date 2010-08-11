@@ -1487,6 +1487,7 @@ corp/sentences -text
 corp/teakstta.txt -text
 corp/yle_uutiset_rss -text
 dev/MISSING -text
+dev/apertium-sme-fin.txt -text
 dev/bidix/A.lex -text
 dev/bidix/A.lex.orig -text
 dev/bidix/Adv.lex -text

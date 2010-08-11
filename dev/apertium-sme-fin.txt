@@ -1,0 +1,894 @@
+Tämä on lista sanoista, jotka löytyvät suomen hmm, uudessa testamentissa, mutta ei bidix-issa, eikä ehkä meidän sme-analysaattorissa.
+Niihen olisi hyvä saada käännös, mutta lisää siitä kokouksessa
+
+==Po===========================================
+    114 birra	^@ympärillä<Po>$
+    112 XXXfallehit+V	^@kimppuun<Po>$	Mies kävi marjastajan kimppuun.	Almmái fallehii muorječoaggi.
+     77 siste	^@seassa<Po>$
+     67 luhtte	^@tykönä<Po>$
+     61 maŋis	^@jäljessä<Po>$
+     58 ^@mielessä<Po>$
+     54 ^@haltuun<Po>$
+     52 ^@ympärille<Po>$
+     52 rastá	^@poikki<Po>$
+     48 ^@suusta<Po>$
+     48 ^@mieleen<Po>$
+     47 gurrii	^@ääreen<Po>$
+     46 gaskkas	^@keskeltä<Po>$
+     45 ^@paitsi<Po>$
+     43 XXX	^@keskuudesta<Po>$ Joukon keskuudesta valittiin. Joavkkus válljejuvvui.	Joukon keskuudesta Jumala valitsi Jeesuksen? Ipmil válljii Jesusa joavkkus. = no pass… other examples? N.Loc = N.Gen keskuudesta, pron-PERSON.Gen N.Loc = N.Gen.PxPERSON keskuudesta ?? joavkkus = joukon keskuudesta in this context yes
+     41 geahčai	^@päähän<Po>$
+     40 olggobealde	^@ulkopuolelle<Po>$
+     40 olggobeallai	^@ulkopuolella<Po>$
+     40 XXXnammii, but it's too concrete, I wouldn't use it	^@nimeen<Po>$
+     39 XXXlassin+N+Ess	^@lisäksi<Po>$	dan lassin = sen lisäksi Dasa lassin ledje muhtin hui somás vitssat Reašk! -siiddus,  ferte dan lassin guorahallat stáhtaloanaid ja stáhta eará oΩΩumiid gáibádusa
+     37 XXXnjálmmis+N	^@suussa<Po>$	illan suussa hmm,   joen suussa	Kampaa naamas niin saat illan suussa banaanin!! 	illan suussa = About 23,400 results, joen suussa = 3000… question: can njálmmis be a translation of suussa? well, maybe finnish side samis use it like that, but it comes from finnish.. like dessverre = dađi bahábut in norwegian
+     36 buorrin	^@hyväksi<Po>$
+     36 rájes	^@alkaen<Po>$
+     31 badjelis	^@yllä<Po>$
+     24 maŋis	^@perässä<Po>$
+     24 ^@ääriin<Po>$
+     23 siskkobealde	^@sisäpuolella<Po>$
+     23 meattá	^@ohi<Po>$
+     23 ^@mielestä<Po>$
+     19 bálddas	^@rinnalla<Po>$
+     19 rájes	^@lähtien<Po>$
+     19 gaskii	^@keskuuteen<Po>$
+     19 guoras	^@äärestä<Po>$
+     17 ^@varteen<Po>$
+     17 sistte	^@seasta<Po>$
+     17 maŋil	^@perästä<Po>$
+     17 geažis	^@päässä<Po>$
+     16 birrasis+N	^@ympäriltä<Po>$
+     13 badjelis	^@yltä<Po>$
+     13 geainnus+N	^@tiellä<Po>$
+     13 beallái	^@puolelle<Po>$
+     13 ^@ohella<Po>$
+     13 ^@hallussa<Po>$
+     12 ovddal	^@edeltä<Po>$
+     11 bálddas	^@sivussa<Po>$
+     11 ^@ohessa<Po>$
+     10 ^@kuluessa<Po>$
+     10 ^@kintereillä<Po>$
+      9 geaidnui+N	^@tielle<Po>$
+      9 njálbmái+N ^@suuhun<Po>$
+      9 gurrii	^@laitaan<Po>$
+      8 ovddal	^@vastassa<Po>$
+      8 gaskii	^@väliin<Po>$
+      8 ^@tasalle<Po>$
+      8 ^@kourista<Po>$
+      8 ovdii	^@edelle<Po>$
+      7 haga	^@vaille<Po>$
+      7 geainnus+N	^@tieltä<Po>$
+      7 báldii	^@rinnalle<Po>$
+      7 gaskkas	^@parissa<Po>$
+      7 guoras	^@laidassa<Po>$
+      7 ^@kimpusta<Po>$
+      7 ^@huostaan<Po>$
+      7 áigái+N	^@aikaan<Po>$
+      6 ^@varaan<Po>$
+      6 siskkobeallái	^@sisäpuolelle<Po>$
+      6 ^@päällitse<Po>$
+      6 ^@oheen<Po>$
+      6 oidnosis+Adv	^@näkyvistä<Po>$
+      6 gieđain+N	^@käsissä<Po>$
+      6 ^@huomaan<Po>$
+      5 bálddas	^@vierellä<Po>$
+      5 maŋis	^@jäljestä<Po>$
+      5 árpmus+N	^@armosta<Po>$
+      4 várás	^@varalta<Po>$
+      4 čuovggas+N	^@valossa<Po>$
+      4 siskkobealde	^@sisäpuolelta<Po>$
+      4 ^@pitäen<Po>$
+      4 ^@pinnalta<Po>$
+      4 fuolakeahttá	^@huolimatta<Po>$
+      3 bálddas	^@viereltä<Po>$
+      3 gaskkas	^@väliltä<Po>$
+      3 ^@turvin<Po>$
+      3 siste	^@sisästä<Po>$
+      3 siste	^@sisässä<Po>$
+      3 čalmmis+N	^@silmässä<Po>$
+      3 niskái+N ^@niskalle<Po>$
+      3 ^@maista<Po>$
+      3 ^@kintereille<Po>$
+      3 ^@huostassa<Po>$
+      3 ^@huomassa<Po>$
+      3 vuolil	^@alitse<Po>$
+      2 ^@vastoin<Po>$
+      2 ^@varressa<Po>$
+      2 čalmmis+N	^@silmästä<Po>$
+      2 ravddas+N	^@reunasta<Po>$
+      2 bodnái+N	^@pohjaan<Po>$
+      2 ^@pintaan<Po>$
+      2 ^@nykyä<Po>$
+      2 eará	^@muassa<Po>$ earet eará =  muun muassa
+      2 gazzain+N	^@kynsistä<Po>$
+      2 ^@kustannuksella<Po>$
+      2 ^@kouriin<Po>$
+      2 julggiin+N	^@jaloista<Po>$
+      2 bániin+N	^@hampaissa<Po>$
+      2 vuollái	^@alapuolelle<Po>$
+      2 vuolde	^@alapuolella<Po>$
+      1 báldii	^@vierelle<Po>$
+      1 ^@varresta<Po>$
+      1 várrin+N	^@varalla<Po>$
+      1 olggobealde	^@ulkopuolelta<Po>$
+      1 ^@tienoilla<Po>$
+      1 ^@tasalla<Po>$
+      1 čalbmái+N	^@silmään<Po>$
+      1 dan dihte	^@Sen takia<Po>$
+      1 ravddas+N	^@reunalla<Po>$
+      1 beallemuttus+Adv	^@puolivälissä<Po>$
+      1 bodnái+N	^@pohjalle<Po>$
+      1 maŋŋái	^@perään<Po>$
+      1 ^@parista<Po>$
+      1 njeaiga	^@päin<Po>$
+      1 niskkis+N	^@niskalta<Po>$
+      1 ^@nimiin<Po>$
+      1 oaidnimis+V	^@nähtävissä<Po>$
+      1 mielde	^@myötä<Po>$
+      1 ^@muodossa<Po>$
+      1 ^@lukien<Po>$
+      1 lahka	^@liki<Po>$
+      1 lahkosii+Adv	^@liepeille<Po>$
+      1 ravddas+N+Loc	^@laidasta<Po>$
+      1 lahka	^@läheltä<Po>$
+      1 ^@kupeelle<Po>$
+      1 ^@jäljiltä<Po>$
+      1 bániin+N	^@hampaista<Po>$
+      1 dihte	^@ansiosta<Po>$
+      1 ^@ääreltä<Po>$
+      1 ^@äärelle<Po>$
+      1 ^@äärellä<Po>$
+==Pr===========================================
+     28 ^@paitsi<Pr>$
+     18 ^@päin<Pr>$
+     13 gasku	^@keskelle<Pr>$
+     11 lahka	^@lähelle<Pr>$
+      9 vuostái	^@vastoin<Pr>$
+      9 ^@pitkin<Pr>$
+      7 ^@kohti<Pr>$
+      6 ^@asti<Pr>$
+      5 ^@pitäen<Pr>$
+      5 ^@irti<Pr>$
+      4 badjel	^@ylitse<Pr>$
+      2 gasku	^@keskeltä<Pr>$
+      2 vuolil	^@alle<Pr>$
+      1 ^@varalla<Pr>$
+      1 ^@rinnalle<Pr>$
+      1 ^@lähtien<Pr>$
+      1 ^@huolimatta<Pr>$
+      1 ^@alkaen<Pr>$
+==Pron===========================================
+    147 máŋga ^@moni<Pron><Sg><Gen>$
+     96 máŋga	^@moni<Pron><Pl><Nom>$
+     61 ^@mi<Pron><Sg><Nom>$
+     52 ^@toi<Pron><Dem><Sg><Nom>$
+     47 goabbá	^@kumpi<Pron><Interr><Sg><Gen>$
+     32 ^@moni<Pron><Pl><Gen>$
+     25 ^@kumpi<Pron><Interr><Sg><Nom>$
+     23 ^@mikin<Pron><Ess>$
+     22 ^@ken<Pron><Sg><Nom>$
+     19 ^@muuan<Pron><Sg><Nom>$
+     13 ^@moni<Pron><Sg><Loc>$
+     12 ^@moni<Pron><Pl><Ins>$
+     11 ^@sie<Pron><Pers><Nom>$
+     11 ^@moni<Pron><Sg><Ill>$
+     11 ^@moni<Pron><Pl><Loc>$
+     10 ^@moni<Pron><Sg><Nom>$
+      8 ^@sä<Pron><Pers><Nom>$
+      7 ^@kumpainen<Pron><Interr><Sg><Gen>$
+      6 ^@moni<Pron><Pl><Ill>$
+      6 ^@millainen<Pron><Interr><Sg><Nom>$
+      6 ^@mä<Pron><Sg><Loc>$
+      6 ^@harva<Pron><Pl><Nom>$
+      5 ^@minkälainen<Pron><Interr><Sg><Nom>$
+      4 ^@tämmöinen<Pron><Sg><Nom>$
+      4 ^@kumpi<Pron><Interr><Sg><Ill>$
+      4 ^@harva<Pron><Pl><Gen>$
+      3 ^@Yks<Pron><Sg><Gen>$
+      3 ^@yks<Pron><Ess>$
+      3 ^@minkälainen<Pron><Interr><Sg><Gen>$
+      3 ^@millainen<Pron><Interr><Pl><Gen>$
+      3 ^@jollainen<Pron><Sg><Gen>$
+      3 ^@hää<Pron><Pers><Acc>$
+      2 ^@yks<Pron><Sg><Ill>$
+      2 ^@tuollainen<Pron><Sg><Gen>$
+      2 ^@minkälainen<Pron><Interr><Pl><Nom>$
+      2 ^@millainen<Pron><Interr><Sg><Gen>$
+      2 ^@millainen<Pron><Interr><Pl><Nom>$
+      2 ^@kumpi<Pron><Interr><Sg><Par>$
+      2 ^@kumpi<Pron><Interr><Sg><Loc>$
+      1 ^@useampi<Pron><Sg><Ins>$
+      1 ^@tuollainen<Pron><Sg><Loc>$
+      1 ^@tämmöinen<Pron><Sg><Gen>$
+      1 ^@moni<Pron><Ess>$
+      1 ^@monias<Pron><Pl><Nom>$
+      1 ^@Mimmoinen<Pron><Pl><Gen>$
+      1 ^@millainen<Pron><Interr><Sg><Tra>$
+      1 ^@mikin<Pron><Sg><Gen>$
+      1 ^@ma<Pron><Pers><Nom>$
+      1 ^@kumpi<Pron><Interr><Sg><Ade>$
+      1 ^@kumpi<Pron><Interr><Pl><Gen>$
+      1 ^@kumpainen<Pron><Interr><Sg><Loc>$
+      1 ^@kumpainen<Pron><Interr><Pl><Nom>$
+      1 ^@jollainen<Pron><Sg><Nom>$
+==CC===========================================
+     25 ^@joko<CC>$
+      1 vai	^@vaiko<CC>$
+==CS===========================================
+    109 iige+V	^@eikä<CS>$
+      2 manin+Adv	^@miksi<CS>$
+      2 go beare	^@jahka<CS>$
+      1 inge+V	^@enkä<CS>$
+      1 alege+V	^@äläkä<CS>$
+==A===========================================
+      3 -Stuorre	^@-Suuri<A><Sg><Nom>$
+      1 iežas	^@oma<A><Sg><Nom>$
+==Adv===========================================
+    235 duođai	^@totisesti<Adv>$
+    169 fal	^@lain<Adv>$
+    152 seamma	^@yhtä<Adv>$
+     71 visot	^@yltympäri<Adv>$
+     70 árrat	^@varhain<Adv>$
+     65 ^@jäljelle<Adv>$
+     63 ^@jäljellä<Adv>$
+     60 olgeš beallái	^@oikealle<Adv>$
+     57 gosa	^@mihin<Adv>$
+     52 olgeš bealdi	^@oikealla<Adv>$
+     43 gaskaneaset+N	^@keskenään<Adv>$
+     42 vuostá	^@vastaan<Adv>$
+     42 duššás	^@turhaan<Adv>$
+     42 duohtan+A	^@toteen<Adv>$
+     41 johtilit	^@kiiruusti<Adv>$
+     41 ^@ääressä<Adv>$
+     38 ^@vallassa<Adv>$
+     36 jaska	^@vaiti<Adv>$
+     35 ovdan	^@esille<Adv>$
+     34 gurot beallái	^@vasemmalle<Adv>$
+     34 agálaččat	^@iäti<Adv>$
+     32 ^@tyköä<Adv>$
+     31 allagassii	^@korkealle<Adv>$
+     30 sierra	^@erikseen<Adv>$
+     29 ^@suloisesti<Adv>$
+     27 ^@käsiksi<Adv>$
+     26 mielde	^@mukaisesti<Adv>$
+     24 ^@mieliksi<Adv>$
+     23 ^@varrella<Adv>$
+     23 ^@pystyssä<Adv>$
+     23 várra	^@kaiketi<Adv>$
+     22 oktiibuot	^@yhteensä<Adv>$
+     22 ođđasit	^@uudestaan<Adv>$
+     22 agálaččat	^@ainiaan<Adv>$
+     22 agálažžii	^@ainiaaksi<Adv>$
+     21 johtilit	^@äkisti<Adv>$
+     20 gurot bealdi^@vasemmalla<Adv>$
+     20 ^@tiettäväksi<Adv>$
+     18 nuppádassii	^@toistamiseen<Adv>$
+     17 sajis	^@paikalla<Adv>$
+     16 ^@täytäntöön<Adv>$
+     -----------------------------------
+     16 dás duohko	^@tästedes<Adv>$
+     16 ^@kuntoon<Adv>$
+     16 ^@koolla<Adv>$
+     15 ^@vallasta<Adv>$
+     15 ^@välillä<Adv>$
+     15 ^@rikki<Adv>$
+     14 ^@yhtäkkiä<Adv>$
+     14 ^@umpeen<Adv>$
+     14 ^@pystyyn<Adv>$
+     14 ^@nuhteettomasti<Adv>$
+     14 ^@keskeen<Adv>$
+     14 ^@kahdesti<Adv>$
+     14 ^@äkkiä<Adv>$
+     13 ^@ylöspäin<Adv>$
+     13 ^@vastedes<Adv>$
+     13 ^@tarkasti<Adv>$
+     13 ^@rohkeasti<Adv>$
+     13 ^@harhaan<Adv>$
+     13 ^@hajalla<Adv>$
+     12 ^@ylenpalttisesti<Adv>$
+     12 ^@yksimielisesti<Adv>$
+     12 ^@paikalta<Adv>$
+     12 ^@korkealla<Adv>$
+     12 ^@enempää<Adv>$
+     11 ^@hengissä<Adv>$
+     11 ^@ennen kaikkea<Adv>$
+     10 ^@yhäti<Adv>$
+     10 ^@vihdoin<Adv>$
+     10 ^@sivusta<Adv>$
+     10 ^@sen tähden<Adv>$
+     10 ^@jalan<Adv>$
+     10 ^@ikuisesti<Adv>$
+      9 ^@väijyksissä<Adv>$
+      9 ^@tyhjiin<Adv>$
+      9 ^@taampana<Adv>$
+      9 ^@sivulle<Adv>$
+      9 ^@murskaksi<Adv>$
+      9 ^@juovuksissa<Adv>$
+      8 ^@ylempänä<Adv>$
+      8 ^@vuonna<Adv>$
+      8 ^@verroin<Adv>$
+      8 ^@väijyksiin<Adv>$
+      8 ^@paikoilleen<Adv>$
+      8 ^@joutuin<Adv>$
+      8 ^@hartaasti<Adv>$
+      7 ^@viimeiseksi<Adv>$
+      7 ^@vapaaehtoisesti<Adv>$
+      7 ^@väkisin<Adv>$
+      7 ^@lujasti<Adv>$
+      7 ^@kiivaasti<Adv>$
+      7 ^@kelvottomasti<Adv>$
+      7 ^@kaksinkertaisesti<Adv>$
+      7 ^@johonkin<Adv>$
+      7 ^@hämmästyksissään<Adv>$
+      6 ^@syyttömästi<Adv>$
+      6 ^@sivulla<Adv>$
+      6 ^@selvästi<Adv>$
+      6 ^@paikalle<Adv>$
+      6 ^@oikealta<Adv>$
+      6 ^@liikaa<Adv>$
+      6 ^@eksyksissä<Adv>$
+      6 ^@alttiisti<Adv>$
+      6 ^@alallaan<Adv>$
+      5 ^@vasempaan<Adv>$
+      5 ^@tekeillä<Adv>$
+      5 ^@tahtomattaan<Adv>$
+      5 ^@paossa<Adv>$
+      5 ^@onneksi<Adv>$
+      5 ^@näännyksissä<Adv>$
+      5 ^@lailla<Adv>$
+      5 ^@kuiviin<Adv>$
+      5 ^@kuhun<Adv>$
+      5 ^@kauemmin<Adv>$
+      5 ^@kauaksi<Adv>$
+      5 ^@hukassa<Adv>$
+      5 ^@haikeasti<Adv>$
+      5 ^@ammoin<Adv>$
+      4 ^@yllin kyllin<Adv>$
+      4 ^@viljalti<Adv>$
+      4 ^@viisaasti<Adv>$
+      4 ^@varrelta<Adv>$
+      4 ^@uuvuksissa<Adv>$
+      4 ^@tylysti<Adv>$
+      4 ^@tunnollisesti<Adv>$
+      4 ^@tapaturmaisesti<Adv>$
+      4 ^@sen verran<Adv>$
+      4 ^@selville<Adv>$
+      4 ^@sekaisin<Adv>$
+      4 ^@sattumalta<Adv>$
+      4 ^@ruumiillisesti<Adv>$
+      4 ^@rinnakkain<Adv>$
+      4 ^@puheilla<Adv>$
+      4 ^@petollisesti<Adv>$
+      4 ^@peitossa<Adv>$
+      4 ^@partaalle<Adv>$
+      4 ^@pahemmin<Adv>$
+      4 ^@päälletysten<Adv>$
+      4 ^@omakätisesti<Adv>$
+      4 ^@ollenkaan<Adv>$
+      4 ^@nälissään<Adv>$
+      4 ^@miltei<Adv>$
+      4 ^@luonnostaan<Adv>$
+      4 ^@keskitse<Adv>$
+      4 ^@kauniisti<Adv>$
+      4 ^@kärsivällisesti<Adv>$
+      4 ^@karsaasti<Adv>$
+      4 ^@juovuksiin<Adv>$
+      4 ^@julkeasti<Adv>$
+      4 ^@erillään<Adv>$
+      4 ^@entisellään<Adv>$
+      4 ^@edespäin<Adv>$
+      4 ^@avojaloin<Adv>$
+      4 ^@ahtaalle<Adv>$
+      3 ^@ylpeästi<Adv>$
+      3 ^@ylihuomenna<Adv>$
+      3 ^@yhtenään<Adv>$
+      3 ^@yhtaikaa<Adv>$
+      3 ^@visusti<Adv>$
+      3 ^@vilpittömästi<Adv>$
+      3 ^@viipymättä<Adv>$
+      3 ^@viekkaasti<Adv>$
+      3 ^@väsyksiin<Adv>$
+      3 ^@valloilleen<Adv>$
+      3 ^@umpimähkään<Adv>$
+      3 ^@ulkonaisesti<Adv>$
+      3 ^@uhalla<Adv>$
+      3 ^@toiste<Adv>$
+      3 ^@tarpeen<Adv>$
+      3 ^@syrjässä<Adv>$
+      3 ^@siveästi<Adv>$
+      3 ^@sikseen<Adv>$
+      3 ^@selin<Adv>$
+      3 ^@säädyllisesti<Adv>$
+      3 ^@riittävästi<Adv>$
+      3 ^@rehellisesti<Adv>$
+      3 ^@rajakkain<Adv>$
+      3 ^@pitkään<Adv>$
+      3 ^@perällä<Adv>$
+      3 ^@peitosta<Adv>$
+      3 ^@muualta<Adv>$
+      3 ^@monesti<Adv>$
+      3 ^@miehelään<Adv>$
+      3 ^@loitolla<Adv>$
+      3 ^@lähemmäksi<Adv>$
+      3 ^@kylliksi<Adv>$
+      3 ^@kurin<Adv>$
+      3 ^@kovalla<Adv>$
+      3 ^@kerrallaan<Adv>$
+      3 ^@iankaiken<Adv>$
+      3 ^@huoleti<Adv>$
+      3 ^@hekumallisesti<Adv>$
+      3 ^@heitteille<Adv>$
+      3 ^@ennalleen<Adv>$
+      3 ^@eksyksiin<Adv>$
+      3 ^@ammolle<Adv>$
+      3 ^@ajattelemattomasti<Adv>$
+      2 ^@ymmälle<Adv>$
+      2 ^@ymmällä<Adv>$
+      2 ^@ylösalaisin<Adv>$
+      2 ^@ylimpänä<Adv>$
+      2 ^@yksitellen<Adv>$
+      2 ^@vireillä<Adv>$
+      2 ^@vasemmalta<Adv>$
+      2 ^@vallalla<Adv>$
+      2 ^@väkevästi<Adv>$
+      2 ^@vahvasti<Adv>$
+      2 ^@vähin<Adv>$
+      2 ^@vähiin<Adv>$
+      2 ^@vähän väliä<Adv>$
+      2 ^@ulospäin<Adv>$
+      2 ^@ulkoapäin<Adv>$
+      2 ^@työläästi<Adv>$
+      2 ^@tuimasti<Adv>$
+      2 ^@toisaalta<Adv>$
+      2 ^@täydelleen<Adv>$
+      2 ^@tasan<Adv>$
+      2 ^@taitamattomasti<Adv>$
+      2 ^@taidollisesti<Adv>$
+      2 ^@taaksepäin<Adv>$
+      2 ^@syvällä<Adv>$
+      2 ^@syvään<Adv>$
+      2 ^@suosiollisesti<Adv>$
+      2 ^@sittemmin<Adv>$
+      2 ^@sisemmällä<Adv>$
+      2 ^@sisällisesti<Adv>$
+      2 ^@sinnempänä<Adv>$
+      2 ^@sillä tavoin<Adv>$
+      2 ^@satakertaisesti<Adv>$
+      2 ^@rinnan<Adv>$
+      2 ^@rikollisesti<Adv>$
+      2 ^@rajusti<Adv>$
+      2 ^@pulskasti<Adv>$
+      2 ^@perästäpäin<Adv>$
+      2 ^@partaalla<Adv>$
+      2 ^@paikallaan<Adv>$
+      2 ^@olevinaan<Adv>$
+      2 ^@nöyrästi<Adv>$
+      2 ^@niukasti<Adv>$
+      2 ^@nelinkertaisesti<Adv>$
+      2 ^@naimisissa<Adv>$
+      2 ^@mukaa<Adv>$
+      2 ^@melkein<Adv>$
+      2 ^@likellä<Adv>$
+      2 ^@liiaksi<Adv>$
+      2 ^@leppeästi<Adv>$
+      2 ^@läpeensä<Adv>$
+      2 ^@läjittäin<Adv>$
+      2 ^@laimin<Adv>$
+      2 ^@lähin<Adv>$
+      2 ^@kurittomasti<Adv>$
+      2 ^@kupeella<Adv>$
+      2 ^@kumarassa<Adv>$
+      2 ^@kumaraan<Adv>$
+      2 ^@kovassa<Adv>$
+      2 ^@koossa<Adv>$
+      2 ^@kohdakkain<Adv>$
+      2 ^@kiinteästi<Adv>$
+      2 ^@kiihkeästi<Adv>$
+      2 ^@kepeästi<Adv>$
+      2 ^@jumalisesti<Adv>$
+      2 ^@jälkeenpäin<Adv>$
+      2 ^@innokkaasti<Adv>$
+      2 ^@hurjasti<Adv>$
+      2 ^@herkeämättä<Adv>$
+      2 ^@hereille<Adv>$
+      2 ^@Hempeästi<Adv>$
+      2 ^@häpeällisesti<Adv>$
+      2 ^@hallusta<Adv>$
+      2 ^@eroon<Adv>$
+      2 ^@avonaisesti<Adv>$
+      2 ^@auliisti<Adv>$
+      2 ^@ammolla<Adv>$
+      2 ^@alkuaan<Adv>$
+      2 ^@alimpana<Adv>$
+      2 ^@ainaiseksi<Adv>$
+      1 ^@ymmärtäväisesti<Adv>$
+      1 ^@ymmärtämättömästi<Adv>$
+      1 ^@yltyleensä<Adv>$
+      1 ^@ylimmäksi<Adv>$
+      1 ^@ylhäälle<Adv>$
+      1 ^@yksityisesti<Adv>$
+      1 ^@yksistään<Adv>$
+      1 ^@vuorostaan<Adv>$
+      1 ^@vireästi<Adv>$
+      1 ^@viidesti<Adv>$
+      1 ^@vihamielisesti<Adv>$
+      1 ^@vastatusten<Adv>$
+      1 ^@varuillaan<Adv>$
+      1 ^@varjolla<Adv>$
+      1 ^@valveilla<Adv>$
+      1 ^@välttämättä<Adv>$
+      1 ^@valtavasti<Adv>$
+      1 ^@vakuuttavasti<Adv>$
+      1 ^@vakituisesti<Adv>$
+      1 ^@vajavaisesti<Adv>$
+      1 ^@vähissä<Adv>$
+      1 ^@vähäisen<Adv>$
+      1 ^@vähääkään<Adv>$
+      1 ^@urheasti<Adv>$
+      1 ^@ummessa<Adv>$
+      1 ^@ulompaa<Adv>$
+      1 ^@tyyten<Adv>$
+      1 ^@tuuliajolle<Adv>$
+      1 ^@tuskaisesti<Adv>$
+      1 ^@tuhatmäärin<Adv>$
+      1 ^@tuhatkertaisesti<Adv>$
+      1 ^@toistaiseksi<Adv>$
+      1 ^@toisaanne<Adv>$
+      1 ^@todellisesti<Adv>$
+      1 ^@tiheässä<Adv>$
+      1 ^@tiepuoleen<Adv>$
+      1 ^@täsmällisesti<Adv>$
+      1 ^@tarkalleen<Adv>$
+      1 ^@tarjona<Adv>$
+      1 ^@tarjolle<Adv>$
+      1 ^@tarjolla<Adv>$
+      1 ^@täpötäyteen<Adv>$
+      1 ^@täpötäynnä<Adv>$
+      1 ^@tännempänä<Adv>$
+      1 ^@tallessa<Adv>$
+      1 ^@takaperin<Adv>$
+      1 ^@taivasalle<Adv>$
+      1 ^@taiten<Adv>$
+      1 ^@tähän<Adv>$
+      1 ^@tahallisesti<Adv>$
+      1 ^@taampaa<Adv>$
+      1 ^@taammas<Adv>$
+      1 ^@taammaksi<Adv>$
+      1 ^@syrjästä<Adv>$
+      1 ^@suunniltaan<Adv>$
+      1 ^@sujuvasti<Adv>$
+      1 ^@sivulta<Adv>$
+      1 ^@sisemmälle<Adv>$
+      1 ^@silmällä pitäen<Adv>$
+      1 ^@sillä välin<Adv>$
+      1 ^@seuraavasti<Adv>$
+      1 ^@seudulla<Adv>$
+      1 ^@Sen vuoksi<Adv>$
+      1 ^@selvillä<Adv>$
+      1 ^@selkoselällään<Adv>$
+      1 ^@salaisesti<Adv>$
+      1 ^@ryhmittäin<Adv>$
+      1 ^@rutosti<Adv>$
+      1 ^@röyhkeästi<Adv>$
+      1 ^@rivittäin<Adv>$
+      1 ^@ristikkäin<Adv>$
+      1 ^@ratsaille<Adv>$
+      1 ^@ratki<Adv>$
+      1 ^@rankasti<Adv>$
+      1 ^@rajatusten<Adv>$
+      1 ^@pyhästi<Adv>$
+      1 ^@puhki<Adv>$
+      1 ^@polvilleen<Adv>$
+      1 ^@poispäin<Adv>$
+      1 ^@pilalle<Adv>$
+      1 ^@pikimmin<Adv>$
+      1 ^@piakkoin<Adv>$
+      1 ^@perin pohjin<Adv>$
+      1 ^@perin juurin<Adv>$
+      1 ^@peräkkäin<Adv>$
+      1 ^@parittain<Adv>$
+      1 ^@parhaimmillaan<Adv>$
+      1 ^@parhaiksi<Adv>$
+      1 ^@papillisesti<Adv>$
+      1 ^@pakosalle<Adv>$
+      1 ^@päivittäin<Adv>$
+      1 ^@painuksissa<Adv>$
+      1 ^@paikka paikoin<Adv>$
+      1 ^@paikaltaan<Adv>$
+      1 ^@paikalleen<Adv>$
+      1 ^@päällekkäin<Adv>$
+      1 ^@pääksytysten<Adv>$
+      1 ^@otollisesti<Adv>$
+      1 ^@omilleen<Adv>$
+      1 ^@olletikin<Adv>$
+      1 ^@öisin<Adv>$
+      1 ^@oikeamielisesti<Adv>$
+      1 ^@ohimennen<Adv>$
+      1 ^@odottamatta<Adv>$
+      1 ^@nurjasti<Adv>$
+      1 ^@nojassa<Adv>$
+      1 ^@niin ikään<Adv>$
+      1 ^@näkyvissä<Adv>$
+      1 ^@näkymättömiin<Adv>$
+      1 ^@näännyksiin<Adv>$
+      1 ^@muulloin<Adv>$
+      1 ^@moitteettomasti<Adv>$
+      1 ^@minnepäin<Adv>$
+      1 ^@mihinkä<Adv>$
+      1 ^@mieluimmin<Adv>$
+      1 ^@mielettömästi<Adv>$
+      1 ^@miehekkäästi<Adv>$
+      1 ^@matalalta<Adv>$
+      1 ^@lyhykäisesti<Adv>$
+      1 ^@lyhyeen<Adv>$
+      1 ^@lukuisasti<Adv>$
+      1 ^@lujalla<Adv>$
+      1 ^@lujaan<Adv>$
+      1 ^@loitommaksi<Adv>$
+      1 ^@loitolle<Adv>$
+      1 ^@loisteliaasti<Adv>$
+      1 ^@lempeästi<Adv>$
+      1 ^@leikiten<Adv>$
+      1 ^@lähempänä<Adv>$
+      1 ^@lähemmä<Adv>$
+      1 ^@lähekkäin<Adv>$
+      1 ^@kyyryssä<Adv>$
+      1 ^@kupeelta<Adv>$
+      1 ^@kuohuksissa<Adv>$
+      1 ^@kunnolla<Adv>$
+      1 ^@kumarruksissa<Adv>$
+      1 ^@kuiville<Adv>$
+      1 ^@kotosalla<Adv>$
+      1 ^@korjuuseen<Adv>$
+      1 ^@komeasti<Adv>$
+      1 ^@kolmasti<Adv>$
+      1 ^@kohtuullisesti<Adv>$
+      1 ^@koholle<Adv>$
+      1 ^@koholla<Adv>$
+      1 ^@kiukuissaan<Adv>$
+      1 ^@kimakasti<Adv>$
+      1 ^@kiihdyksissä<Adv>$
+      1 ^@kihloissa<Adv>$
+      1 ^@keskessä<Adv>$
+      1 ^@kerroin<Adv>$
+      1 ^@kenossa<Adv>$
+      1 ^@kauimpana<Adv>$
+      1 ^@kauhuissaan<Adv>$
+      1 ^@kauempana<Adv>$
+      1 ^@kauempaa<Adv>$
+      1 ^@kauemmaksi<Adv>$
+      1 ^@kateisiin<Adv>$
+      1 ^@kasvotusten<Adv>$
+      1 ^@karkuun<Adv>$
+      1 ^@kankeasti<Adv>$
+      1 ^@kainosti<Adv>$
+      1 ^@kahtaanne<Adv>$
+      1 ^@kahden kesken<Adv>$
+      1 ^@jumalattomasti<Adv>$
+      1 ^@jotenkin<Adv>$
+      1 ^@joten<Adv>$
+      1 ^@istualle<Adv>$
+      1 ^@irstaasti<Adv>$
+      1 ^@inhimillisesti<Adv>$
+      1 ^@hurskaasti<Adv>$
+      1 ^@huoletta<Adv>$
+      1 ^@huolellisesti<Adv>$
+      1 ^@hillittömästi<Adv>$
+      1 ^@hiljalleen<Adv>$
+      1 ^@hiljakkoin<Adv>$
+      1 ^@henkiin<Adv>$
+      1 ^@hellävaroen<Adv>$
+      1 ^@hellästi<Adv>$
+      1 ^@hämmennyksiin<Adv>$
+      1 ^@halukkaasti<Adv>$
+      1 ^@hajalleen<Adv>$
+      1 ^@hädissään<Adv>$
+      1 ^@etäällä<Adv>$
+      1 ^@esillä<Adv>$
+      1 ^@epäilemättä<Adv>$
+      1 ^@entuudestaan<Adv>$
+      1 ^@ennen pitkää<Adv>$
+      1 ^@ennakolta<Adv>$
+      1 ^@enimmän<Adv>$
+      1 ^@eloon<Adv>$
+      1 ^@edemmäs<Adv>$
+      1 ^@Edeltäkäsin<Adv>$
+      1 ^@avoimesti<Adv>$
+      1 ^@auttamatta<Adv>$
+      1 ^@Alkujaan<Adv>$
+      1 ^@alemmaksi<Adv>$
+      1 ^@Äkkiä<Adv>$
+      1 ^@Äkisti<Adv>$
+      1 ^@ajoissa<Adv>$
+      1 ^@ajallaan<Adv>$
+      1 ^@aikaisemmin<Adv>$
+      1 ^@aiheettomasti<Adv>$
+      1 ^@Ahtaalla<Adv>$
+      1 ^@äänekkäästi<Adv>$
+==Interj===========================================
+     89 ^@muu<Interj>$
+     63 ^@oi<Interj>$
+     26 ^@halleluja<Interj>$
+     10 ^@kas<Interj>$
+      1 ^@uh<Interj>$
+==Pcle===========================================
+    266 ^@kanssa<Pcle>$
+    220 ^@päin<Pcle>$
+    207 ^@et<Pcle>$
+    207 ^@asti<Pcle>$
+    194 ^@ainoastaan<Pcle>$
+    144 ^@anteeksi<Pcle>$
+    123 ^@voi<Pcle>$
+    111 ^@saakka<Pcle>$
+    110 ^@ylen<Pcle>$
+     92 ^@kaikkiaan<Pcle>$
+     88 ^@näet<Pcle>$
+     76 ^@ikäänkuin<Pcle>$
+     52 ^@ehkä<Pcle>$
+     47 ^@tyynni<Pcle>$
+     46 ^@myöskään<Pcle>$
+     45 ^@hamaan<Pcle>$
+     42 ^@vasta<Pcle>$
+     40 ^@liian<Pcle>$
+     37 ^@vaari<Pcle>$
+     35 ^@hamasta<Pcle>$
+     26 ^@lisäksi<Pcle>$
+     24 ^@ensi<Pcle>$
+     23 ^@jopa<Pcle>$
+     21 ^@tuhannen<Pcle>$
+     20 ^@kaikin<Pcle>$
+     18 ^@lisää<Pcle>$
+     18 ^@kiitti<Pcle>$
+     17 ^@peräti<Pcle>$
+     13 ^@tuskin<Pcle>$
+     13 ^@entä<Pcle>$
+     13 ^@ehkäpä<Pcle>$
+     12 ^@sen sijaan<Pcle>$
+     11 ^@myöten<Pcle>$
+     10 ^@varsinkin<Pcle>$
+     10 ^@suinkaan<Pcle>$
+     10 ^@päinvastoin<Pcle>$
+      8 ^@kenties<Pcle>$
+      6 ^@viime<Pcle>$
+      6 ^@vertoja<Pcle>$
+      6 ^@varmaan<Pcle>$
+      6 ^@Hoosianna<Pcle>$
+      5 ^@vallan<Pcle>$
+      5 ^@niin kuin<Pcle>$
+      5 ^@lähes<Pcle>$
+      5 ^@kerta kaikkiaan<Pcle>$
+      5 ^@hyvänsä<Pcle>$
+      4 ^@yhtäkaikki<Pcle>$
+      4 ^@Varmaankin<Pcle>$
+      4 ^@sitävastoin<Pcle>$
+      4 ^@niinikään<Pcle>$
+      4 ^@Kunpa<Pcle>$
+      4 ^@kaikkein<Pcle>$
+      4 ^@hiukan<Pcle>$
+      3 ^@verraten<Pcle>$
+      3 ^@varsin<Pcle>$
+      3 ^@tarvis<Pcle>$
+      3 ^@liika<Pcle>$
+      3 ^@kauttaaltaan<Pcle>$
+      3 ^@kato<Pcle>$
+      3 ^@järjestään<Pcle>$
+      3 ^@jaa<Pcle>$
+      2 ^@tuiki<Pcle>$
+      2 ^@suinkin<Pcle>$
+      2 ^@sivu<Pcle>$
+      2 ^@per<Pcle>$
+      2 ^@perin<Pcle>$
+      2 ^@kunnon<Pcle>$
+      2 ^@hirmu<Pcle>$
+      2 ^@entäpä<Pcle>$
+      2 ^@enintään<Pcle>$
+      2 ^@ani<Pcle>$
+      1 ^@Yhtä kuin<Pcle>$
+      1 ^@yhtäkaikki<Pcle>$ -
+      1 ^@varsinkaan<Pcle>$
+      1 ^@vaikkapa<Pcle>$
+      1 ^@tyystin<Pcle>$
+      1 ^@tieten<Pcle>$
+      1 ^@ties<Pcle>$
+      1 ^@Täten<Pcle>$
+      1 ^@Seis<Pcle>$
+      1 ^@Pas<Pcle>$
+      1 ^@nimenomaan<Pcle>$
+      1 ^@lopen<Pcle>$
+      1 ^@lienee<Pcle>$
+      1 ^@in<Pcle>$
+      1 ^@Hela<Pcle>$
+      1 ^@hädin tuskin<Pcle>$
+==N===========================================
+     19 ^@-joki<N><Sg><Gen>$
+     17 ^@-kuu<N><Sg><Loc>$
+      8 ^@-kuu<N><Sg><Gen>$
+      6 ^@-vuori<N><Sg><Ill>$
+      6 ^@-laiva<N><Pl><Nom>$
+      4 ^@-vuori<N><Sg><Gen>$
+      4 ^@-joki<N><Sg><Loc>$
+      4 ^@-eläin<N><Sg><Nom>$
+      4 ^@-ajaa<V><Der2><Actor><N><Pl><Nom>$
+      3 ^@-talo<N><Sg><Gen>$
+      3 ^@-nainen<N><Pl><Loc>$
+      3 ^@-kivi<N><Pl><Gen>$
+      3 ^@-joki<N><Sg><Ill>$
+      2 ^@-talo<N><Sg><Ill>$
+      2 ^@-puro<N><Sg><Ill>$
+      2 ^@-portti<N><Sg><Gen>$
+      2 ^@-laiva<N><Pl><Gen>$
+      2 ^@-laakso<N><Sg><Nom>$
+      2 ^@-kivi<N><Sg><Nom>$
+      2 ^@-kivi<N><Sg><Gen>$
+      2 ^@-istua<V><Der2><Actor><N><Pl><Nom>$
+      2 ^@-ajaa<V><Der2><Actor><N><Pl><Nom><PxSg3>$
+      1 ^@-vuohi<N><Sg><Nom>$
+      1 ^@-virta<N><Pl><Gen>$
+      1 ^@-virsi<N><Sg><Nom>$
+      1 ^@-vaski<N><Sg><Nom>$
+      1 ^@-vaimo<N><Sg><Nom>$
+      1 ^@-vaimo<N><Sg><Gen>$
+      1 ^@-temppeli<N><Pl><Loc>$
+      1 ^@-temppeli<N><Pl><Ill>$
+      1 ^@-sana<N><Sg><Gen>$
+      1 ^@-saari<N><Pl><Gen>$
+      1 ^@-rakennus<N><Sg><Loc>$
+      1 ^@-rakennus<N><Sg><Gen>$
+      1 ^@-portti<N><Sg><Nom>$
+      1 ^@-pappi<N><Pl><Gen>$
+      1 ^@-palmu<N><Sg><Gen>$
+      1 ^@-päivä<N><Pl><Nom>$
+      1 ^@-päivä<N><Pl><Gen>$
+      1 ^@-osa<N><Sg><Gen><PxSg1>$
+      1 ^@-olla<V><Der2><Actor><N><Pl><Nom>$
+      1 ^@-nimi<N><Sg><Ill>$
+      1 ^@-nainen<N><Sg><Nom>$
+      1 ^@-nainen<N><Sg><Gen>$
+      1 ^@-määräys<N><Pl><Nom>$
+      1 ^@-Maa<N><Sg><Nom><Foc_ge>$
+      1 ^@-maa<N><Sg><Gen>$
+      1 ^@-laulu<N><Sg><Nom>$
+      1 ^@-laji<N><Sg><Gen>$
+      1 ^@-laakso<N><Sg><Ill>$
+      1 ^@-kuva<N><Pl><Gen><PxPl2>$
+      1 ^@-kuu<N><Sg><Nom>$
+      1 ^@-kuu<N><Sg><Ill>$
+      1 ^@-kukka<N><Pl><Gen>$
+      1 ^@-kivi<N><Pl><Nom>$
+      1 ^@-kauhistus<N><Sg><Ill>$
+      1 ^@-ikä<N><Sg><Loc>$
+      1 ^@-esine<N><Pl><Gen>$
+      1 ^@-elää<V><Der2><Actor><N><Sg><Nom>$
+      1 ^@-asua<V><Der2><Actor><N><Pl><Nom>$
+      1 ^@-ase<N><Pl><Nom>$
+      1 ^@-alue<N><Sg><Loc>$
+      1 ^@-ajo<N><Sg><Gen>$
+      1 ^@-ajaja<N><Pl><Gen>$
+==Num===========================================
+     22 ^@tuhat<Num><Card><Sg><Nom>$
+      2 ^@yhdes<Num><Ord><Sg><Nom>$
+      2 ^@yhdes<Num><Ord><Ess>$
+      2 ^@kahdes<Num><Ord><Sg><Nom>$
+==V===========================================
+     23 ^@tietä<V>$
+     16 ^@eläköön<V>$
+      4 ^@-ajaa<V><Der2><Actor><N><Pl><Nom>$
+      2 ^@taita<V>$
+      2 ^@-ottaa<V>$
+      2 ^@-istua<V><PrsPrc>$
+      2 ^@-istua<V><Der2><Actor><N><Pl><Nom>$
+      2 ^@-ajaa<V><Der2><Actor><N><Pl><Nom><PxSg3>$
+      1 ^@tuta<V>$
+      1 ^@-tulla<V>$
+      1 ^@-todistaa<V><Ind><Act><Prs><Sg3>$
+      1 ^@sikisi<V>$
+      1 ^@-panna<V>$
+      1 ^@-olla<V><Der2><Actor><N><Pl><Nom>$
+      1 ^@-nukkua<V>$
+      1 ^@-elää<V><Der2><Actor><N><Sg><Nom>$
+      1 ^@-asua<V><Der2><Actor><N><Pl><Nom>$
+      1 ^@-ajaa<V><PrfPrc>$
+      1 ^@-ajaa<V>$
+
