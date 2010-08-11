@@ -145,6 +145,9 @@
       <cat-item lemma="tuommoinen" tags="Pron.*"/>
       <cat-item lemma="millainen" tags="Pron.*"/>
     </def-cat>
+    <def-cat n="adj_oma">
+      <cat-item lemma="oma" tags="A.Pos.*"/>
+    </def-cat>
     <def-cat n="adj">
       <cat-item tags="A"/>
       <cat-item tags="A.*"/>
@@ -227,12 +230,14 @@
       <attr-item tags="A"/>
       <attr-item tags="A.Attr"/>
       <attr-item tags="A.Agr"/>
+      <attr-item tags="A.Pos"/>
       <attr-item tags="Pron"/>
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="A"/>
       <attr-item tags="A.Attr"/>
       <attr-item tags="A.Agr"/>
+      <attr-item tags="A.Pos"/>
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="N"/>
@@ -2753,6 +2758,51 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </rule>
     <!-- end noun rules -->
     <!-- begin adjective rules -->
+    <rule comment="regla: oma">
+      <pattern>
+        <pattern-item n="adj_oma"/>
+      </pattern>
+      <action>
+        <call-macro n="nominal_case_number1">
+          <with-param pos="1"/>
+        </call-macro>
+		<choose><when>
+				<test><equal>
+						<clip pos="1" side="sl" part="a_pxprs"/>
+						<lit v=""/>
+				</equal></test>
+
+		</when>
+		<otherwise>
+				<let>
+					<clip pos="1" side="tl" part="a_pxprs"/>
+					<lit-tag v="PxSg3"/>
+				</let>
+		</otherwise>
+		
+	</choose>
+        <out>
+          <chunk name="adj_oma" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="Pron"/></tag>
+              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+              <tag><clip pos="1" side="sl" part="nbr"/></tag>
+              <tag><clip pos="1" side="sl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+			  <lit-tag v="Pron" />
+			  <lit-tag v="Refl" />
+			  <!-- <clip pos="1" side="tl" part="gen"/> -->
+              <var n="comitative_num"/>
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="a_pxprs"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     <rule comment="regla: adj">
       <pattern>
         <pattern-item n="adj"/>

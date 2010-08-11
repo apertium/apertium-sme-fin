@@ -1018,3 +1018,23 @@ because we only have an adverb reading for that. :(
     ! +Sg+Loc:%>s K ; ! Let's settle for the Adv reading
     +Sg+Loc+Use/Sub:%>n K ;  ! !SOUTH, well..., probably this one should Adv as well
     ...
+
+# 3rd Infinitive Passive Instructive
+
+Note to self:
+
+heidät pitää Jumalan lapsiksi kutsuttaman.
+sii gohčoduvvojit Ipmila mánnán.
+
+Hän on oleva suuri, ja hänet pitää kutsuttaman Korkeimman Pojaksi.
+Son šaddá leat stuoris ja gohčoduvvo Alimusa Bárdnin.
+
+Sentähden myös se pyhä, mikä syntyy, pitää kutsuttaman Jumalan Pojaksi.
+Dan dihtii lea bassi dat mánná gii riegáda ja gohčoduvvo bassin ja Ipmila Bárdnin.
+
+Fairly clear. kutsua+V+Pass+Inf3+Sg+Ins needs to drop these and go to passive. Transfer rules can then add subj person from surrounding contexts.
+
+What is nice though is that mostly all of the cases of this I can find are around pitää (aux verb, 'must')
+
+# missing tag, reminder
+ ^lähtemäisillään/lähteä<V><Act><DRV=MAISILLAPxPl3>/lähteä<V><Act><DRV=MAISILLAPxSg3>$
