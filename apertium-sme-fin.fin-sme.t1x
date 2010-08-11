@@ -545,6 +545,9 @@
       <call-macro n="subj_case_nominative">
         <with-param pos="1"/>
       </call-macro>
+      <call-macro n="obj_case_accusative">
+        <with-param pos="1"/>
+      </call-macro>
       <choose> <!-- This stanza sets the possessive suffix to '' if the word is in plural nominative -->
         <when>
           <test>
@@ -615,6 +618,35 @@
         </when>
       </choose>
     </def-macro>
+    <def-macro n="obj_case_accusative" npar="1" c="When the syntactic tag is @OBJ, case is accusative by default">
+      <choose>
+        <when>
+          <test>
+            <and>
+              <or>
+                <equal>
+                  <var n="current_syntag"/>
+                  <lit-tag v="@OBJ→"/>
+                </equal>
+                <equal>
+                  <var n="current_syntag"/>
+                  <lit-tag v="@←OBJ"/>
+                </equal>
+              </or>
+              <equal>
+                <clip pos="1" side="tl" part="a_case"/>
+                <lit-tag v="Nom"/>
+              </equal>
+            </and>
+          </test>
+          <let>
+            <clip pos="1" side="tl" part="a_case"/>
+            <lit-tag v="Acc"/>
+          </let>
+        </when>
+      </choose>
+    </def-macro>
+
     <def-macro n="set_comitative_number" npar="1" c="When noun case is comitative, add 'Sg' tag">
       <choose>
         <when>
