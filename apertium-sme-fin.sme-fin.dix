@@ -162,7 +162,7 @@
     <!-- Postpositions, prepositions -->
 	<!-- <e><p><l>ala<s n="Po"/></l><r>päälle<s n="Po"/></r></p></e> --> <!-- we are westerners -->
 
-	<e c="FMT:CHECK"><p><l>dihtii<s n="Po"/></l><r>ansiosta<s n="Po"/></r></p></e>
+	<e><p><l>dihte<s n="Po"/></l><r>ansiosta<s n="Po"/></r></p></e>
 
     <e><p><l>birra<s n="Po"/></l><r>ympärillä<s n="Po"/></r></p></e>
     <e><p><l>siste<s n="Po"/></l><r>seassa<s n="Po"/></r></p></e>
@@ -218,7 +218,6 @@
     <e><p><l>mielde<s n="Po"/></l><r>myötä<s n="Po"/></r></p></e>
     <e><p><l>lahka<s n="Po"/></l><r>liki<s n="Po"/></r></p></e>
     <e><p><l>lahka<s n="Po"/></l><r>läheltä<s n="Po"/></r></p></e>
-    <e><p><l>dihte<s n="Po"/></l><r>ansiosta<s n="Po"/></r></p></e>
 
 
 	<e><p><l>bajábealde<s n="Po"/></l><r>yläpuolella<s n="Po"/></r></p></e>
