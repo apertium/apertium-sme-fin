@@ -1027,7 +1027,7 @@
     <e><p><l>biebmu<s n="N"/></l><r>ruoka<s n="N"/></r></p></e>
     <e><p><l>biedju<s n="N"/></l><r>pesä<s n="N"/></r></p></e>
     <e><p><l>biegga<s n="N"/></l><r>tuuli<s n="N"/></r></p></e>
-    <e><p><l>biellu<s n="N"/></l><r>kello<s n="N"/></r></p></e>
+    <e r="LR"><p><l>biellu<s n="N"/></l><r>kello<s n="N"/></r></p></e>
     <e><p><l>bierdna<s n="N"/></l><r>karhu<s n="N"/></r></p></e>
     <e><p><l>bierggas<s n="N"/></l><r>esine<s n="N"/></r></p></e>
     <e><p><l>bierggas<s n="N"/></l><r>tavara<s n="N"/></r></p></e>
@@ -1362,9 +1362,8 @@
     <e><p><l>fiertu<s n="N"/></l><r>pouta<s n="N"/></r></p></e>
     <e><p><l>fiervá<s n="N"/></l><r>fieru<s n="N"/></r></p></e>
     <e><p><l>fiervábuvri<s n="N"/></l><r>venevaja<s n="N"/></r></p></e>
-    <e><p><l>fiikkon<s n="N"/></l><r>viikuna<s n="N"/></r></p></e>
-    <e><p><l>fiikkonmuorra<s n="N"/></l><r>viikunapuu<s n="N"/></r></p></e>
-    <e><p><l>fiikonmuorra<s n="N"/></l><r>viikkunapuu<s n="N"/></r></p></e>
+    <e><p><l>fiikon<s n="N"/></l><r>viikuna<s n="N"/></r></p></e>
+    <e><p><l>fiikonmuorra<s n="N"/></l><r>viikunapuu<s n="N"/></r></p></e><!--fiikkon outside of norm-->
     <e><p><l>filbma<s n="N"/></l><r>elokuva<s n="N"/></r></p></e>
     <e><p><l>filippilaš<s n="N"/></l><r>filippiläinen<s n="N"/></r></p></e>
     <e><p><l>filosofa<s n="N"/></l><r>filosofi<s n="N"/></r></p></e>
@@ -2537,13 +2536,13 @@
     <e><p><l>telefovdna<s n="N"/></l><r>puhelin<s n="N"/></r></p></e>
     <e><p><l>telefáksa<s n="N"/></l><r>fax<s n="N"/></r></p></e>
     <e><p><l>tempel<s n="N"/></l><r>temppeli<s n="N"/></r></p></e>
-    <e><p><l>testamenta<s n="N"/></l><r>testamentti<s n="N"/></r></p></e>
+    <e><p><l>testameanta<s n="N"/></l><r>testamentti<s n="N"/></r></p></e>
     <e><p><l>teáhter<s n="N"/></l><r>teatteri<s n="N"/></r></p></e>
-    <e><p><l>tiibma<s n="N"/></l><r>kello<s n="N"/></r></p></e>
+    <e r="LR"><p><l>tiibma<s n="N"/></l><r>kello<s n="N"/></r></p></e>
     <e><p><l>tiibmaplána<s n="N"/></l><r>aikataulu<s n="N"/></r></p></e>
     <e><p><l>tiŋga<s n="N"/></l><r>esine<s n="N"/></r></p></e>
     <e><p><l>toga<s n="N"/></l><r>juna<s n="N"/></r></p></e>
-    <e><p><l>topasa<s n="N"/></l><r>topaasi<s n="N"/></r></p></e>
+    <e><p><l>topása<s n="N"/></l><r>topaasi<s n="N"/></r></p></e>
     <e><p><l>truvdnu<s n="N"/></l><r>valtaistuin<s n="N"/></r></p></e>
     <e><p><l>tráhppá<s n="N"/></l><r>portaat<s n="N"/></r></p></e>
     <e><p><l>tráktor<s n="N"/></l><r>traktori<s n="N"/></r></p></e>
@@ -2834,7 +2833,7 @@
     <e><p><l>čájálmas<s n="N"/></l><r>näytelmä<s n="N"/></r></p></e>
     <e><p><l>čájálmas<s n="N"/></l><r>näyttely<s n="N"/></r></p></e>
     <e><p><l>čála<s n="N"/></l><r>kirjelmä<s n="N"/></r></p></e>
-    <e><p><l>čálli<s n="N"/><s n="Actor"/></l><r>kirjailija<s n="N"/></r></p></e>
+    <e r="LR"><p><l>čálli<s n="N"/></l><r>kirjailija<s n="N"/></r></p></e>
     <e><p><l>čállingirji<s n="N"/></l><r>kirjoitusvihko<s n="N"/></r></p></e>
     <e><p><l>čállingursa<s n="N"/></l><r>kirjoittamiskurssi<s n="N"/></r></p></e>
     <e><p><l>čállinkursa<s n="N"/></l><r>kirjoituskurssi<s n="N"/></r></p></e>
@@ -3611,7 +3610,9 @@
 	<!-- <e><p><l>ealli<s n="V"/><s n="IV"/></l><r>elävä<s n="A"/></r></p></e> -->
 	<e><p><l>ollis<s n="A"/></l><r>koko<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>máŋga<s n="Num"/></l><r>usea<s n="Pron"/></r></p></e>
+	<e><p><l>máŋga<s n="Num"/></l><r>moni<s n="Pron"/></r></p></e>
 	<!-- end adjectives -->
+	
     <!-- adverbs -->
 
 
@@ -3664,7 +3665,7 @@
     <e><p><l>dušše<s n="Adv"/></l><r>vain<s n="Adv"/></r></p></e>
     <e><p><l>dán<s n="Adv"/></l><r>tässä<s n="Adv"/></r></p></e>
     <e><p><l>dákko<s n="Adv"/></l><r>tätä<b/>kautta<s n="Adv"/></r></p></e>
-    <e><p><l>dál<s n="Adv"/></l><r>nyt<s n="Adv"/></r></p></e>
+    <e><p><l>dál<s n="Adv"/></l><r>nyt<s n="Pcle"/></r></p></e>
     <e><p><l>dáppe<s n="Adv"/></l><r>täällä<s n="Adv"/></r></p></e>
     <e><p><l>dáppe<s n="Adv"/></l><r>täältä<s n="Adv"/></r></p></e>
     <e><p><l>dáppil<s n="Adv"/></l><r>sieltä<s n="Adv"/></r></p></e>
