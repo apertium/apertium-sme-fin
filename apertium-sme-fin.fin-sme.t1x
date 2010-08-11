@@ -364,6 +364,7 @@
       <attr-item tags="Pl2"/>
       <attr-item tags="Pl3"/>
       <attr-item tags="Pe4"/>
+      <attr-item tags="PD"/>
     </def-attr>
     <def-attr n="a_pxprs">
       <attr-item tags="PxSg1"/>
@@ -1830,6 +1831,21 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <choose>
           <when>
             <test>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="täytyä"/>
+                </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_person"/>
+              <lit-tag v="PD"/>
+            </let>
+          </when>
+        </choose>
+
+        <choose>
+          <when>
+            <test>
               <or>
                 <equal>
                   <clip pos="1" side="sl" part="a_realis"/>
@@ -1852,6 +1868,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <tags>
               <tag><lit-tag v="V"/></tag>
               <tag><clip pos="1" side="sl" part="syntag"/></tag>
+              <tag><clip pos="1" side="tl" part="a_person"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -1862,7 +1879,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="1" side="tl" part="a_voice"/>
               <clip pos="1" side="tl" part="a_tense"/>
               <var n="cur_verb_tense"/>
-              <clip pos="1" side="tl" part="a_person"/>
+              <lit-tag v="3"/>
               <clip pos="1" side="tl" part="a_neg"/>
               <clip pos="1" side="tl" part="a_foc"/>
               <clip pos="1" side="tl" part="a_qst"/>
