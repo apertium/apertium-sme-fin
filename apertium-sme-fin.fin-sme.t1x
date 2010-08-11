@@ -143,6 +143,9 @@
     <def-cat n="oma">
       <cat-item lemma="oma" tags="A.Pos.*"/>
     </def-cat>
+    <def-cat n="oma_attr">
+		<cat-item lemma="oma" tags="A.Pos.*.*.*.@→N"/>
+    </def-cat>
     <def-cat n="attr">
       <cat-item tags="A.*.*.*.@→N"/>
       <cat-item lemma="tällainen" tags="Pron.*"/>
@@ -2342,7 +2345,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </rule>
     <rule comment="regla: oma nom">
       <pattern>
-        <pattern-item n="oma"/>
+        <pattern-item n="oma_attr"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
@@ -2825,6 +2828,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="nominal_case_number1">
           <with-param pos="1"/>
         </call-macro>
+		<let>
+			<var n="default_px"/>
+			<lit v=""/>
+		</let>
 		<choose><when>
 				<test>
 					<and>
@@ -2900,6 +2907,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </lu>
           </chunk>
         </out>
+		<let>
+			<var n="default_px"/>
+			<lit v=""/>
+		</let>
       </action>
     </rule>
     <rule comment="regla: adj">
