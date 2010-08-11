@@ -2,6 +2,10 @@
 <interchunk>
 
   <section-def-cats>
+    <def-cat n="SUBJ">
+      <cat-item tags="*.@SUBJ→.*"/>
+      <cat-item tags="*.@←SUBJ.*"/>
+    </def-cat>
     <def-cat n="SN">
       <cat-item tags="SN"/>
       <cat-item tags="SN.*"/>
@@ -20,6 +24,7 @@
 	</def-cat>
 	<def-cat n="AUX">
 		<cat-item tags="V.@+FAUXV"/>
+		<cat-item tags="V.@+FAUXV.*"/>
 	</def-cat>
   </section-def-cats>
 
@@ -73,6 +78,20 @@
      <attr-item tags="Ine"/>
      <attr-item tags="Ela"/>
   </def-attr>
+    <def-attr n="a_person">
+      <!--
+      <attr-item tags="Sg"/>
+      <attr-item tags="Pl"/>
+-->
+      <attr-item tags="Sg1"/>
+      <attr-item tags="Sg2"/>
+      <attr-item tags="Sg3"/>
+      <attr-item tags="Pl1"/>
+      <attr-item tags="Pl2"/>
+      <attr-item tags="Pl3"/>
+      <attr-item tags="Pe4"/>
+      <attr-item tags="PD"/>      
+    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -83,6 +102,43 @@
 
 
   <section-rules>
+	<rule>
+		<pattern>
+			<pattern-item n="SUBJ"/>
+			<pattern-item n="AUX"/>
+		</pattern>
+		<action>
+		    <choose>
+		      <when>
+		        <test>
+		          <equal>
+		            <clip pos="2" part="a_person"/>
+		            <lit-tag v="PD"/>
+		          </equal>
+		        </test>
+		        <let>
+		          <clip pos="2" part="a_person"/>
+		          <clip pos="1" part="a_person"/>
+		        </let>
+		      </when>
+		    </choose>
+			<out>
+				<chunk>
+					<clip pos="1" part="lemh"/>
+					<clip pos="1" part="tags"/>
+					<clip pos="1" part="chcontent"/>
+					<clip pos="1" part="lemq"/>
+				</chunk>
+				<b pos="1"/>
+				<chunk>
+					<clip pos="2" part="lemh"/>
+					<clip pos="2" part="tags"/>
+					<clip pos="2" part="chcontent"/>
+					<clip pos="2" part="lemq"/>
+				</chunk>
+			</out>
+		</action>
+	</rule>
 	<rule>
 		<pattern>
 			<pattern-item n="NUMP"/>

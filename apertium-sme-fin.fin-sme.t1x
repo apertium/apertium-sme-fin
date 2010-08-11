@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="copulasg3">
+      <cat-item lemma="olla" tags="V.Act.Ind.Prs.Sg3.@+FAUXV"/>
+    </def-cat>
     <def-cat n="conj">
       <cat-item tags="CC"/>
       <cat-item tags="CS"/>
@@ -32,6 +35,9 @@
     </def-cat>
     <def-cat n="vpass">
       <cat-item tags="V.Pass.*"/>
+    </def-cat>
+    <def-cat n="prsprcpass">
+      <cat-item tags="V.Pass.PrsPrc.*"/>
     </def-cat>
     <def-cat n="pcps">
       <cat-item tags="V.*.PrfPrc.*"/>
@@ -327,7 +333,7 @@
       <attr-item tags="ConNeg"/>
     </def-attr>
     <def-attr n="a_qst">
-      <attr-item tags="Qst"/>
+      <attr-item tags="Qst.*"/>
     </def-attr>
     <def-attr n="a_foc">
       <!-- Fin -->
@@ -411,6 +417,7 @@
     <def-var n="current_syntag"/>
     <def-var n="cur_verb_mood"/>
     <def-var n="cur_verb_tense"/>
+    <def-var n="cur_person"/>
     <def-var n="cur_noun_postp"/>
     <def-var n="cur_poss_suff"/>
   </section-def-vars>
@@ -858,6 +865,37 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </def-macro>
   </section-def-macros>
   <section-rules>
+    <rule comment="copulasg3 + pass prsprc">
+      <pattern>
+        <pattern-item n="copulasg3"/>
+        <pattern-item n="prsprcpass"/>
+      </pattern>
+      <action>
+        <call-macro n="set_syntag1">
+          <with-param pos="1"/>
+        </call-macro>
+        <out>
+          <chunk name="copulasg3" case="caseFirstWord">
+          <tags>
+            <tag><lit-tag v="V"/></tag>
+            <tag><var n="current_syntag"/></tag>
+            <tag><lit-tag v="PD"/></tag>
+          </tags>
+          <lu>
+            <lit v="fertet"/>
+            <lit-tag v="V.IV.Ind.Prs.3"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="lemh"/>
+            <clip pos="2" side="tl" part="a_verb"/>
+            <lit-tag v="Inf"/>
+            <clip pos="2" side="tl" part="lemq"/>
+          </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     <rule comment="regla: kaikki/buot nom">
       <pattern>
         <pattern-item n="buot"/>
@@ -1123,8 +1161,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <tags>
               <tag><lit-tag v="PRN"/></tag>
               <tag><clip pos="1" side="sl" part="syntag"/></tag>
-              <tag><clip pos="1" side="sl" part="nbr"/></tag>
-              <tag><clip pos="1" side="sl" part="a_person"/></tag>
+              <tag><clip pos="1" side="tl" part="a_person"/></tag>
               <tag><clip pos="1" side="sl" part="a_case"/></tag>
             </tags>
             <lu>
