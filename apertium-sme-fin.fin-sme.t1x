@@ -1825,6 +1825,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="verb"/>
       </pattern>
       <action>
+        <call-macro n="set_syntag1">
+          <with-param pos="1"/>
+        </call-macro>
         <call-macro n="set_foc_particles">
           <with-param pos="1"/>
         </call-macro>
@@ -1867,7 +1870,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <chunk name="verb" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="V"/></tag>
-              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+              <tag><var n="current_syntag"/></tag> 
               <tag><clip pos="1" side="tl" part="a_person"/></tag>
             </tags>
             <lu>
