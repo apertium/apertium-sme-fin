@@ -111,10 +111,18 @@
 		    <choose>
 		      <when>
 		        <test>
+                          <and>
 		          <equal>
 		            <clip pos="2" part="a_person"/>
 		            <lit-tag v="PD"/>
 		          </equal>
+<not>
+		          <equal>
+		            <clip pos="1" part="a_person"/>
+		            <lit v=""/>
+		          </equal>
+</not>
+                          </and>
 		        </test>
 		        <let>
 		          <clip pos="2" part="a_person"/>
