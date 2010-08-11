@@ -2769,10 +2769,25 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <with-param pos="1"/>
         </call-macro>
 		<choose><when>
-				<test><not><equal>
+				<test>
+					<and>
+						<not><equal>
 						<clip pos="1" side="sl" part="a_pxprs"/>
 						<lit v=""/>
-			</equal></not></test>
+						</equal></not>
+
+						<not><equal>
+						<clip pos="1" side="sl" part="a_case"/>
+						<lit-tag v="Nom"/>
+
+						</equal></not>
+					</and>
+					
+					</test>
+			<let>
+              <clip pos="1" side="tl" part="nbr"/>
+	  		  <lit v=""/>
+		  </let>
 
 		</when>
 		<otherwise>
@@ -2780,8 +2795,31 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 				<var n="default_px"/>
 					<lit-tag v="PxSg3"/>
 				</let>
+			<let>
+              <clip pos="1" side="tl" part="nbr"/>
+	  		  <lit v=""/>
+		  </let>
 		</otherwise>
-		
+	</choose>
+	<choose>
+		<when>
+			<test><equal>
+					<clip pos="1" side="tl" part="a_case"/>
+					<lit-tag v="Nom"/>
+			</equal></test>
+		<let>
+			<clip pos="1" side="tl" part="a_pxprs"/>
+			<lit v=""/>
+		</let>
+		<let>
+			<var n="default_px"/>
+			<lit v=""/>
+		</let>
+		<let>
+			<var n="comitative_num"/>
+			<clip pos="1" side="sl" part="nbr"/>
+		</let>
+		</when>
 	</choose>
         <out>
           <chunk name="adj_oma" case="caseFirstWord">
@@ -2796,6 +2834,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 			  <lit-tag v="Pron" />
 			  <lit-tag v="Refl" />
 			  <!-- <clip pos="1" side="tl" part="gen"/> -->
+              <clip pos="1" side="tl" part="nbr"/>
               <var n="comitative_num"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
