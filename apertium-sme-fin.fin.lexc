@@ -12317,6 +12317,7 @@ kuolla'][POS=VERB][KTN=67]:kuol{^back}	kotus_67_VERB/stemfiller	;
 kuulla'][POS=VERB][KTN=67]:kuul{^back}	kotus_67_VERB/stemfiller	;
 kysellä'][POS=VERB][KTN=67]:kysel{^front}	kotus_67_VERB/stemfiller	;
 kävellä'][POS=VERB][KTN=67]:kävel{^front}	kotus_67_VERB/stemfiller	;
+luulla'][POS=VERB][KTN=67]:luul{^back}	kotus_67_VERB/stemfiller	;
 mennä'][POS=VERB][KTN=67]:men{^front}	kotus_67_VERB/stemfiller	;
 nuolla'][POS=VERB][KTN=67]:nuol{^back}	kotus_67_VERB/stemfiller	;
 panna'][POS=VERB][KTN=67]:pan{^back}	kotus_67_VERB/stemfiller	;
