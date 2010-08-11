@@ -405,6 +405,7 @@
     <def-var n="number"/>
     <def-var n="case"/>
     <def-var n="comitative_num"/>
+    <def-var n="default_px"/>
     <def-var n="buot_buohkat"/>
     <def-var n="demonstrative"/>
     <def-var n="current_syntag"/>
@@ -2767,15 +2768,15 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <with-param pos="1"/>
         </call-macro>
 		<choose><when>
-				<test><equal>
+				<test><not><equal>
 						<clip pos="1" side="sl" part="a_pxprs"/>
 						<lit v=""/>
-				</equal></test>
+			</equal></not></test>
 
 		</when>
 		<otherwise>
-				<let>
-					<clip pos="1" side="tl" part="a_pxprs"/>
+			<let>
+				<var n="default_px"/>
 					<lit-tag v="PxSg3"/>
 				</let>
 		</otherwise>
@@ -2797,6 +2798,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <var n="comitative_num"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
+				<var n="default_px"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
