@@ -1,14 +1,12 @@
+
 ===============================================================================
 Multiple surface forms for a single lexical form
 ===============================================================================
     237 maŋisboahttiid/maŋisbohttiid	^maŋisboahtti<N><Actor><Pl><Gen>$
      87 gámmira/gámmára	^gámmir<N><Sg><Gen>$
-     80 gutni/gudni	^gudni<N><Sg><Gen>$
      79 guovtti/guovtte/guovtte-	^guokte<Num><Sg><Gen>$
      63 gámmirii/gámmárii	^gámmir<N><Sg><Ill>$
      53 njealji/njealje/njealje-	^njeallje<Num><Sg><Gen>$
-     53 mastege/masge	^mihkkege<Pron><Indef><Sg><Loc>$
-     51 eatge/eapge	^ii<V><IV><Neg><Ind><Pl1><Foc_ge>$
      46 gámmiris/gámmáris	^gámmir<N><Sg><Loc>$
      42 láđit/láđđit	^láđđi<N><Pl><Nom>$
      39 ipmahiid/ipmašiid	^imaš<N><Pl><Gen>$
@@ -20,8 +18,6 @@ Multiple surface forms for a single lexical form
      28 morrahii/morrašii	^moraš<N><Sg><Ill>$
      28 maŋisboahttiin/maŋisbohttiin	^maŋisboahtti<N><Actor><Pl><Loc>$
      27 láđis/láđđis	^láđđi<N><Sg><Gen><PxSg3>$
-     27 gutnis/gudnis	^gudni<N><Sg><Loc>$
-     26 leiba/leiba+son/leiba+hal/leiba+han	^leat<V><IV><Ind><Prt><Sg3><Foc_ba>$
      26 láđiid/láđđiid	^láđđi<N><Pl><Gen>$
      24 láđi/láđđi	^láđđi<N><Sg><Gen>$
      22 ovttas/ovttan	^okta<Num><Sg><Loc>$
@@ -38,7 +34,6 @@ Multiple surface forms for a single lexical form
      14 vahkku/vahku	^vahkku<N><Sg><Gen>$
      14 maŋisboahttiide/maŋisbohttiide	^maŋisboahtti<N><Actor><Pl><Ill>$
      14 lossa/losses	^lossat<A><Attr>$
-     14 gutnis/gudnis	^gudni<N><Sg><Gen><PxSg3>$
      14 dieđikeahttá/dieđikeahttájin	^diehtit<V><TV><VAbess>$
      13 morrahis/morrašis	^moraš<N><Sg><Loc>$
      13 ealliide/elliide	^ealli<N><Actor><Pl><Ill>$
@@ -55,7 +50,6 @@ Multiple surface forms for a single lexical form
      11 gámmiriin/gámmáriin	^gámmir<N><Pl><Loc>$
      11 alladii/allagii	^allat<A><Sg><Ill>$
      10 oaččukeahttá/oaččukeahttájin	^oažžut<V><TV><VAbess>$
-     10 Gutniid/Gudniid	^Gudni<N><Pl><Gen>$
      10 gámmiristtis/gámmáristtis	^gámmir<N><Sg><Loc><PxSg3>$
      10 dagakeahttá/dagakeahttájin	^dahkat<V><TV><VAbess>$
       9 ipmahat/ipmašat	^imaš<N><Pl><Nom>$
@@ -75,7 +69,6 @@ Multiple surface forms for a single lexical form
       7 láđiset/láđđiset	^láđđi<N><Sg><Gen><PxPl3>$
       7 láđiidis/láđđiidis	^láđđi<N><Pl><Gen><PxSg3>$
       7 ipmahiin/ipmašiin	^imaš<N><Pl><Loc>$
-      7 Eatgo/Eapgo	^Ii<V><IV><Neg><Ind><Pl1><Qst>$
       7 Guovtti/Guovtte/Guovtte-	^Guokte<Num><Sg><Gen>$
       7 gámmiristtán/gámmáristtán	^gámmir<N><Sg><Loc><PxSg1>$
       7 ealliin/elliin	^ealli<N><Actor><Pl><Loc>$
@@ -85,18 +78,15 @@ Multiple surface forms for a single lexical form
       6 máđoheami/máđoheame	^máđoheapme<A><Sg><Gen>$
       6 láđiideaset/láđđiideaset	^láđđi<N><Pl><Gen><PxPl3>$
       6 jugakeahttá/jugakeahttájin	^juhkat<V><TV><VAbess>$
-      6 gutniset/gudniset	^gudni<N><Sg><Gen><PxPl3>$
       6 deavddikeahttá/deavddikeahttájin	^deavdit<V><TV><VAbess>$
       6 buorrin/buorren	^buorre<A><Ess>$
       5 moarsiidan/morsiidan	^moarsi<N><Pl><Nom><PxSg1>$
       5 maŋisboahttiidis/maŋisbohttiidis	^maŋisboahtti<N><Actor><Pl><Gen><PxSg3>$
-      5 Leaba/Leaba+son/Leaba+hal/Leaba+han	^Leat<V><IV><Ind><Prs><Sg3><Foc_ba>$
       5 Livččiigo/Livččego/Livččuigo	^Leat<V><IV><Cond><Prs><Sg3><Qst>$
       5 láđis/láđđis	^láđđi<N><Sg><Loc>$
       5 láđiideattet/láđđiideattet	^láđđi<N><Pl><Nom><PxPl2>$
       5 ipmahiiddis/ipmašiiddis	^imaš<N><Pl><Gen><PxSg3>$
       5 gulakeahttá/gulakeahttájin	^gullat<V><TV><VAbess>$
-      5 gutniidat/gudniidat	^gudni<N><Pl><Nom><PxSg2>$
       5 gohčotkeahttá/gohčotkeahttájin	^gohčodit<V><TV><VAbess>$
       5 gearbmahat/gearbmašat	^gearpmaš<N><Pl><Nom>$
       5 gearbmahiid/gearbmašiid	^gearpmaš<N><Pl><Gen>$
@@ -116,9 +106,7 @@ Multiple surface forms for a single lexical form
       4 láđát/láđđát	^láđđi<N><Sg><Gen><PxSg2>$
       4 láđiidat/láđđiidat	^láđđi<N><Pl><Nom><PxSg2>$
       4 ipmahis/ipmašis	^imaš<N><Sg><Gen><PxSg3>$
-      4 eatgo/eapgo	^ii<V><IV><Neg><Ind><Pl1><Qst>$
       4 guođikeahttá/guođikeahttájin	^guođđit<V><TV><VAbess>$
-      4 gutnát/gudnát	^gudni<N><Sg><Gen><PxSg2>$
       4 duššatkeahttá/duššatkeahttájin	^duššadit<V><TV><VAbess>$
       4 divttikeahttá/divttikeahttájin	^diktit<V><TV><VAbess>$
       4 čihčii/čihččii/čižii	^čieža<Num><Sg><Ill>$
@@ -135,20 +123,14 @@ Multiple surface forms for a single lexical form
       3 oainnikeahttá/oainnikeahttájin	^oaidnit<V><TV><VAbess>$
       3 morrahiinnis/morrašiinnis	^moraš<N><Pl><Loc><PxSg3>$
       3 lihkoheami/lihkoheame	^lihkoheapme<A><Sg><Gen>$
-      3 ledjeba/ledjeba+son/ledjeba+hal/ledjeba+han	^leat<V><IV><Ind><Prt><Pl3><Foc_ba>$
-      3 leimmetba/leimmetba+son/leimmetba+hal/leimmetba+han	^leat<V><IV><Ind><Prt><Pl1><Foc_ba>$
-      3 Leatba/Leatba+son/Leatba+hal/Leatba+han	^Leat<V><IV><Ind><Prs><Pl3><Foc_ba>$
-      3 lehkosba/lehkosba+son/lehkosba+hal/lehkosba+han	^leat<V><IV><Imprt><Sg3><Foc_ba>$
-      3 Livččiiba/Livččiiba+son/Livččiiba+hal/Livččiiba+han/Livččeba/Livččeba+son/Livččeba+hal/Livččeba+han/Livččuiba/Livččuiba+son/Livččuiba+hal/Livččuiba+han	^Leat<V><IV><Cond><Prs><Sg3><Foc_ba>$
+      3 Livččiiba/Livččeba/Livččuiba	^Leat<V><IV><Cond><Prs><Sg3><Foc_ba>$
       3 láđiidat/láđđiidat	^láđđi<N><Pl><Gen><PxSg2>$
       3 jođiheame/jođiheamen	^jođihit<V><TV><Actio><Ess>$
       3 ipmahiinnis/ipmašiinnis	^imaš<N><Pl><Loc><PxSg3>$
       3 ipmahat/ipmašat	^imaš<A><Pl><Nom>$
       3 ipmahiid/ipmašiid	^imaš<A><Pl><Gen>$
       3 herskkuid/herskuid	^hersko<N><Pl><Gen>$
-      3 guoskkaiba/guoskkaiba+son/guoskkaiba+hal/guoskkaiba+han	^guoskat<V><IV><Ind><Prt><Sg3><Foc_ba>$
       3 Guođálingo/Guođášingo	^Guođđit<V><TV><Cond><Prs><Sg1><Qst>$
-      3 gutniid/gudniid	^gudni<N><Pl><Gen>$
       3 govdadat/govdagat	^govdat<A><Pl><Nom>$
       3 geahčadeame/geahčadeamen	^geahčadit<V><TV><Actio><Ess>$
       3 gámmirasadet/gámmárasadet	^gámmir<N><Sg><Ill><PxPl2>$
@@ -179,8 +161,6 @@ Multiple surface forms for a single lexical form
       2 ráhkatkeahttá/ráhkatkeahttájin	^ráhkadit<V><TV><VAbess>$
       2 ráhkadeamis/ráhkadeames	^ráhkadit<V><TV><Actio><Loc>$
       2 Ovttas/Ovttan	^Okta<Num><Sg><Loc>$
-      2 oažžuba/oažžuba+son/oažžuba+hal/oažžuba+han	^oažžut<V><TV><Ind><Prs><Sg3><Foc_ba>$
-      2 oinniimetba/oinniimetba+son/oinniimetba+hal/oinniimetba+han	^oaidnit<V><TV><Ind><Prt><Pl1><Foc_ba>$
       2 oaidniid/oidniid	^oaidnit<V><TV><Der2><Actor><N><Pl><Gen>$
       2 morrahisttiset/morrašisttiset	^moraš<N><Sg><Loc><PxPl3>$
       2 morrahan/morrašan	^moraš<N><Sg><Gen><PxSg1>$
@@ -191,8 +171,6 @@ Multiple surface forms for a single lexical form
       2 maŋisboahttiidasaset/maŋisbohttiidasaset	^maŋisboahtti<N><Actor><Pl><Ill><PxPl3>$
       2 maŋisboahttiidan/maŋisbohttiidan	^maŋisboahtti<N><Actor><Pl><Gen><PxSg1>$
       2 maŋisboahttiideattet/maŋisbohttiideattet	^maŋisboahtti<N><Actor><Pl><Gen><PxPl2>$
-      2 Leiba/Leiba+son/Leiba+hal/Leiba+han	^Leat<V><IV><Ind><Prt><Sg3><Foc_ba>$
-      2 leaba/leaba+son/leaba+hal/leaba+han	^leat<V><IV><Ind><Prs><Sg3><Foc_ba>$
       2 Livččiihan/Livččehan/Livččuihan	^Leat<V><IV><Cond><Prs><Sg3><Foc_han>$
       2 Láđiidat/Láđđiidat	^Láđđi<N><Pl><Nom><PxSg2>$
       2 láđiinis/láđđiinis	^láđđi<N><Pl><Loc><PxSg3>$
@@ -200,17 +178,12 @@ Multiple surface forms for a single lexical form
       2 láđiidasan/láđđiidasan	^láđđi<N><Pl><Ill><PxSg1>$
       2 láđiidasaset/láđđiidasaset	^láđđi<N><Pl><Ill><PxPl3>$
       2 láđiideattet/láđđiideattet	^láđđi<N><Pl><Gen><PxPl2>$
-      2 jearaba/jearaba+son/jearaba+hal/jearaba+han	^jearrat<V><TV><Ind><Prs><ConNeg><Foc_ba>$
       2 jearralkeahttá/jearralkeahttájin	^jearralit<V><TV><VAbess>$
-      2 iiba/iiba+son/iiba+hal/iiba+han	^ii<V><IV><Neg><Ind><Sg3><Foc_ba>$
       2 herskkuidis/herskuidis	^hersko<N><Pl><Gen><PxSg3>$
       2 hálakeahttá/hálakeahttájin	^hállat<V><TV><VAbess>$
       2 guohtumin/guohtume/guohtumen	^guohtun<N><Ess>$
-      2 gutnistis/gudnistis	^gudni<N><Sg><Loc><PxSg3>$
-      2 gutniidan/gudniidan	^gudni<N><Pl><Nom><PxSg1>$
       2 govdadiid/govdagiid	^govdat<A><Pl><Gen>$
       2 Govda/Govdes	^Govdat<A><Attr>$
-      2 geigeba/geigeba+son/geigeba+hal/geigeba+han	^geiget<V><TV><Ind><Prs><ConNeg><Foc_ba>$
       2 geahčakeahttá/geahčakeahttájin	^geahččat<V><TV><VAbess>$
       2 gásttašeamis/gásttašeames	^gásttašit<V><TV><Actio><Loc>$
       2 gámmiris/gámmáris	^gámmir<N><Sg><Nom><PxSg3>$
@@ -227,7 +200,6 @@ Multiple surface forms for a single lexical form
       2 Daddjaimethan/Dajaimethan	^Dadjat<V><TV><Ind><Prt><Pl1><Foc_han>$
       2 Daddjáhan/Dadjáhan	^Dadjat<V><TV><Ind><Prs><Sg3><Foc_han>$
       2 daddjatgo/dajatgo	^dadjat<V><TV><Ind><Prs><Sg2><Qst>$
-      2 Čohkkájitba/Čohkkájitba+son/Čohkkájitba+hal/Čohkkájitba+han	^Čohkkát<V><IV><Ind><Prt><Sg2><Foc_ba>$
       2 čierasteame/čierasteamen	^čierastit<V><IV><Actio><Ess>$
       2 cakkakeahttá/cakkakeahttájin	^caggat<V><TV><VAbess>$
       2 boradeame/boradeamen	^boradit<V><TV><Actio><Ess>$
@@ -257,15 +229,13 @@ Multiple surface forms for a single lexical form
       1 tuollu/tuolu	^tuollu<N><Sg><Gen>$
       1 spealakeahttá/spealakeahttájin	^speallat<V><TV><VAbess>$
       1 soaitiid/soitiid	^soaitit<V><IV><Der2><Actor><N><Pl><Gen>$
-      1 soaittálinba/soaittálinba+son/soaittálinba+hal/soaittálinba+han/soaittášinba/soaittášinba+son/soaittášinba+hal/soaittášinba+han	^soaitit<V><IV><Cond><Prs><Sg1><Foc_ba>$
+      1 soaittálinba/soaittášinba	^soaitit<V><IV><Cond><Prs><Sg1><Foc_ba>$
       1 Soaittáledjego/Soaittášedjego	^Soaitit<V><IV><Cond><Prs><Pl3><Qst>$
       1 smiehtalinge/smiehtašinge	^smiehttat<V><TV><Cond><Prs><Sg1><Foc_ge>$
       1 Sivdnideaddjiidan/Sivdnideddjiidan	^Sivdnidit<V><TV><Der2><Actor><N><Pl><Nom><PxSg1>$
       1 Sivdnideaddjiideaset/Sivdnideddjiideaset	^Sivdnidit<V><TV><Der2><Actor><N><Pl><Nom><PxPl3>$
       1 Sivdnideaddjiideamet/Sivdnideddjiideamet	^Sivdnidit<V><TV><Der2><Actor><N><Pl><Nom><PxPl1>$
       1 sávakeahttá/sávakeahttájin	^sávvat<V><TV><VAbess>$
-      1 sáhttába/sáhttába+son/sáhttába+hal/sáhttába+han	^sáhttit<V><IV><Ind><Prs><Sg3><Foc_ba>$
-      1 Sáhttibehtetba/Sáhttibehtetba+son/Sáhttibehtetba+hal/Sáhttibehtetba+han	^Sáhttit<V><IV><Ind><Prs><Pl2><Foc_ba>$
       1 sáhtálitge/sáhtášitge	^sáhttit<V><IV><Cond><Prs><Sg2><Foc_ge>$
       1 Sáhtálingo/Sáhtášingo	^Sáhttit<V><IV><Cond><Prs><Sg1><Qst>$
       1 sáhtálingo/sáhtášingo	^sáhttit<V><IV><Cond><Prs><Sg1><Qst>$
@@ -279,12 +249,9 @@ Multiple surface forms for a single lexical form
       1 ráhkesteaddjiidat/ráhkesteddjiidat	^ráhkestit<V><TV><Der2><Actor><N><Pl><Nom><PxSg2>$
       1 ráhkesteaddjiidan/ráhkesteddjiidan	^ráhkestit<V><TV><Der2><Actor><N><Pl><Gen><PxSg1>$
       1 ráhkesteaddjiid/ráhkesteddjiid	^ráhkestit<V><TV><Der2><Actor><N><Pl><Gen>$
-      1 ráhkadiiba/ráhkadiiba+son/ráhkadiiba+hal/ráhkadiiba+han	^ráhkadit<V><TV><Ind><Prt><Sg3><Foc_ba>$
       1 ráhkadeaddjiidat/ráhkadeddjiidat	^ráhkadit<V><TV><Der2><Actor><N><Pl><Nom><PxSg2>$
       1 ráhkadeame/ráhkadeamen	^ráhkadit<V><TV><Actio><Ess>$
-      1 Oažžutba/Oažžutba+son/Oažžutba+hal/Oažžutba+han	^Oažžut<V><TV><Ind><Prs><Pl1><Foc_ba>$
       1 oaččuleiddetge/oččošeiddetge	^oažžut<V><TV><Cond><Prs><Pl2><Foc_ge>$
-      1 Oinniimetba/Oinniimetba+son/Oinniimetba+hal/Oinniimetba+han	^Oaidnit<V><TV><Ind><Prt><Pl1><Foc_ba>$
       1 oaidniide/oidniide	^oaidnit<V><TV><Der2><Actor><N><Pl><Ill>$
       1 nogakeahttá/nogakeahttájin	^nohkat<V><IV><VAbess>$
       1 Njulges/Njuolga	^Njuolgat<A><Attr>$
@@ -325,17 +292,10 @@ Multiple surface forms for a single lexical form
       1 Lihkaliigo/Lihkašiigo	^Lihkkat<V><IV><Cond><Prs><Sg3><Qst>$
       1 lihkadeaddjiin/lihkadeddjiin	^lihkadit<V><IV><Der2><Actor><N><Pl><Loc>$
       1 lihkadeaddjiide/lihkadeddjiide	^lihkadit<V><IV><Der2><Actor><N><Pl><Ill>$
-      1 ledjetba/ledjetba+son/ledjetba+hal/ledjetba+han	^leat<V><IV><Ind><Prt><Sg2><Foc_ba>$
-      1 Ledjenba/Ledjenba+son/Ledjenba+hal/Ledjenba+han	^Leat<V><IV><Ind><Prt><Sg1><Foc_ba>$
-      1 Leatba/Leatba+son/Leatba+hal/Leatba+han	^Leat<V><IV><Ind><Prs><Sg2><Foc_ba>$
-      1 Leanba/Leanba+son/Leanba+hal/Leanba+han	^Leat<V><IV><Ind><Prs><Sg1><Foc_ba>$
-      1 leatba/leatba+son/leatba+hal/leatba+han	^leat<V><IV><Ind><Prs><Pl3><Foc_ba>$
-      1 Lehkosba/Lehkosba+son/Lehkosba+hal/Lehkosba+han	^Leat<V><IV><Imprt><Sg3><Foc_ba>$
-      1 lehkosetba/lehkosetba+son/lehkosetba+hal/lehkosetba+han	^leat<V><IV><Imprt><Pl3><Foc_ba>$
       1 livččiigo/livččego/livččuigo	^leat<V><IV><Cond><Prs><Sg3><Qst>$
       1 livččiihan/livččehan/livččuihan	^leat<V><IV><Cond><Prs><Sg3><Foc_han>$
-      1 livččiiba/livččiiba+son/livččiiba+hal/livččiiba+han/livččeba/livččeba+son/livččeba+hal/livččeba+han/livččuiba/livččuiba+son/livččuiba+hal/livččuiba+han	^leat<V><IV><Cond><Prs><Sg3><Foc_ba>$
-      1 Livččetba/Livččetba+son/Livččetba+hal/Livččetba+han/Livččotba/Livččotba+son/Livččotba+hal/Livččotba+han	^Leat<V><IV><Cond><Prs><Sg2><Foc_ba>$
+      1 livččiiba/livččeba/livččuiba	^leat<V><IV><Cond><Prs><Sg3><Foc_ba>$
+      1 Livččetba/Livččotba	^Leat<V><IV><Cond><Prs><Sg2><Foc_ba>$
       1 Livččengo/Livččongo	^Leat<V><IV><Cond><Prs><Sg1><Qst>$
       1 livččenge/livččonge	^leat<V><IV><Cond><Prs><Sg1><Foc_ge>$
       1 Livččego/Livččogo	^Leat<V><IV><Cond><Prs><Pl3><Qst>$
@@ -347,7 +307,6 @@ Multiple surface forms for a single lexical form
       1 láđiidasas/láđđiidasas	^láđđi<N><Pl><Ill><PxSg3>$
       1 láđiideamet/láđđiideamet	^láđđi<N><Pl><Gen><PxPl1>$
       1 juogikeahttá/juogikeahttájin	^juohkit<V><TV><VAbess>$
-      1 juhkába/juhkába+son/juhkába+hal/juhkába+han	^juhkat<V><TV><Ind><Prs><Sg3><Foc_ba>$
       1 Jugalingo/Jugašingo	^Juhkat<V><TV><Cond><Prs><Sg1><Qst>$
       1 jođiheaddjiideattet/jođiheddjiideattet	^jođihit<V><TV><Der2><Actor><N><Pl><Nom><PxPl2>$
       1 jođiheamis/jođiheames	^jođihit<V><TV><Actio><Loc>$
@@ -363,30 +322,21 @@ Multiple surface forms for a single lexical form
       1 ipmahiiddiset/ipmašiiddiset	^imaš<N><Pl><Gen><PxPl3>$
       1 ipmahii/ipmašii	^imaš<A><Sg><Ill>$
       1 ipmaha/ipmaša	^imaš<A><Sg><Gen>$
-      1 Iiba/Iiba+son/Iiba+hal/Iiba+han	^Ii<V><IV><Neg><Ind><Sg3><Foc_ba>$
-      1 Eatge/Eapge	^Ii<V><IV><Neg><Ind><Pl1><Foc_ge>$
       1 hivssegiid/hivssehiid	^hivsset<N><Pl><Gen>$
       1 Herskko/Hersko	^Hersko<N><Sg><Gen>$
       1 herskkuinan/herskuinan	^hersko<N><Pl><Loc><PxSg1>$
       1 heahpankeahttá/heahpankeahttájin	^heahpanit<V><IV><VAbess>$
       1 hálaliigo/hálašiigo	^hállat<V><TV><Cond><Prs><Sg3><Qst>$
       1 hálaliige/hálašiige	^hállat<V><TV><Cond><Prs><Sg3><Foc_ge>$
-      1 Gurpojuvvuiba/Gurpojuvvuiba+son/Gurpojuvvuiba+hal/Gurpojuvvuiba+han	^Gurput<V><TV><Der2><Der_PassL><V><Ind><Prt><Sg3><Foc_ba>$
       1 guoskkakeahttá/guoskkakeahttájin	^guoskat<V><IV><VAbess>$
       1 guddiidis/guoddiidis	^guoddit<V><TV><Der2><Actor><N><Pl><Nom><PxSg3>$
       1 Guottálingo/Guottášingo	^Guoddit<V><TV><Cond><Prs><Sg1><Qst>$
-      1 Gutniset/Gudniset	^Gudni<N><Sg><Gen><PxPl3>$
-      1 gutnádet/gudnádet	^gudni<N><Sg><Gen><PxPl2>$
-      1 Gutni/Gudni	^Gudni<N><Sg><Gen>$
-      1 Gutniidan/Gudniidan	^Gudni<N><Pl><Nom><PxSg1>$
-      1 Gutnit/Gudnit	^Gudni<N><Pl><Nom>$
       1 govdadis/govdagis	^govdat<A><Sg><Loc>$
       1 govdadiidda/govdagiidda	^govdat<A><Pl><Ill>$
       1 govda/govdes	^govdat<A><Attr>$
       1 Golggaledjego/Golggašedjego	^Golgat<V><IV><Cond><Prs><Pl3><Qst>$
       1 Golmmas/Golmman	^Golbma<Num><Sg><Loc>$
       1 gohčodeame/gohčodeamen	^gohčodit<V><TV><Actio><Ess>$
-      1 goziimetba/goziimetba+son/goziimetba+hal/goziimetba+han	^gohcit<V><TV><Ind><Prt><Pl1><Foc_ba>$
       1 giehmánnii/giehmánnái	^giehmánni<N><Sg><Ill>$
       1 gearbmahiin/gearbmašiin	^gearpmaš<N><Pl><Loc>$
       1 gearbmahiidda/gearbmašiidda	^gearpmaš<N><Pl><Ill>$
@@ -413,31 +363,22 @@ Multiple surface forms for a single lexical form
       1 gálluide/gáluide	^gállu<N><Pl><Ill>$
       1 gáhtaidege/gáhttaidege	^gáhta<N><Pl><Ill><Foc_ge>$
       1 finakeahttá/finakeahttájin	^fitnat<V><IV><VAbess>$
-      1 Finanba/Finanba+son/Finanba+hal/Finanba+han	^Fitnat<V><IV><Ind><Prs><Sg1><Foc_ba>$
       1 finaleimmetgo/finašeimmetgo	^fitnat<V><IV><Cond><Prs><Pl1><Qst>$
       1 fiidnás/fiidnásis	^fiinnis<A><Sg><Loc>$
       1 fiidnát/fiidnásat	^fiinnis<A><Pl><Nom>$
       1 Egyptasge/Egyptange	^Egypta<N><Prop><Plc><Sg><Loc><Foc_ge>$
       1 earutkeahttá/earutkeahttájin	^earuhit<V><TV><VAbess>$
-      1 elleba/elleba+son/elleba+hal/elleba+han	^eallit<V><IV><Ind><Prt><Pl3><Foc_ba>$
-      1 eliimetba/eliimetba+son/eliimetba+hal/eliimetba+han	^eallit<V><IV><Ind><Prt><Pl1><Foc_ba>$
       1 ealliideamet/elliideamet	^ealli<N><Actor><Pl><Nom><PxPl1>$
       1 ealliidge/elliidge	^ealli<N><Actor><Pl><Gen><Foc_ge>$
       1 eahkedisge/eahkebisge	^eahket<N><Sg><Loc><Foc_ge>$
       1 duššadeamis/duššadeames	^duššadit<V><TV><Actio><Loc>$
       1 doamakeahttá/doamakeahttájin	^doapmat<V><IV><VAbess>$
-      1 doalvuba/doalvuba+son/doalvuba+hal/doalvuba+han	^doalvut<V><TV><Ind><Prs><Sg3><Foc_ba>$
       1 doabukeahttá/doabukeahttájin	^doahput<V><TV><VAbess>$
       1 divukeahttá/divukeahttájin	^divvut<V><TV><VAbess>$
       1 diehttiideattet/dihttiideattet	^diehtit<V><TV><Der2><Actor><N><Pl><Gen><PxPl2>$
       1 deattuheaddjiideaset/deattuheddjiideaset	^deattuhit<V><TV><Der2><Actor><N><Pl><Nom><PxPl3>$
       1 deattuheame/deattuheamen	^deattuhit<V><TV><Actio><Ess>$
       1 Dáiddáliigo/Dáiddášiigo	^Dáidit<V><IV><Cond><Prs><Sg3><Qst>$
-      1 Dáhtunba/Dáhtunba+son/Dáhtunba+hal/Dáhtunba+han	^Dáhttut<V><TV><Ind><Prs><Sg1><Foc_ba>$
-      1 Dáhttuba/Dáhttuba+son/Dáhttuba+hal/Dáhttuba+han	^Dáhttu<N><Sg><Nom><Foc_ba>$
-      1 dáhttuba/dáhttuba+son/dáhttuba+hal/dáhttuba+han	^dáhttu<N><Sg><Nom><Foc_ba>$
-      1 dagaiba/dagaiba+son/dagaiba+hal/dagaiba+han	^dahkat<V><TV><Ind><Prt><Sg3><Foc_ba>$
-      1 dagaidetba/dagaidetba+son/dagaidetba+hal/dagaidetba+han	^dahkat<V><TV><Ind><Prt><Pl2><Foc_ba>$
       1 dagalingo/dagašingo	^dahkat<V><TV><Cond><Prs><Sg1><Qst>$
       1 Daddjethan/Dadjethan	^Dadjat<V><TV><Ind><Prt><Sg2><Foc_han>$
       1 Daddjágo/Dadjágo	^Dadjat<V><TV><Ind><Prs><Sg3><Qst>$
@@ -453,10 +394,7 @@ Multiple surface forms for a single lexical form
       1 čuožžileamis/čuožžileames	^čuožžilit<V><IV><Actio><Loc>$
       1 cummesteamis/cummesteames	^cummestit<V><TV><Actio><Loc>$
       1 čujuheame/čujuheamen	^čujuhit<V><TV><Actio><Ess>$
-      1 Čohkkájedjeba/Čohkkájedjeba+son/Čohkkájedjeba+hal/Čohkkájedjeba+han	^Čohkkát<V><IV><Ind><Prt><Pl3><Foc_ba>$
-      1 Čohkkánba/Čohkkánba+son/Čohkkánba+hal/Čohkkánba+han	^Čohkkát<V><IV><Ind><Prs><Sg1><Foc_ba>$
       1 Čalmmeheami/Čalmmeheame	^Čalmmeheapme<A><Sg><Gen>$
-      1 Čállenba/Čállenba+son/Čállenba+hal/Čállenba+han	^Čállit<V><TV><Ind><Prt><Sg1><Foc_ba>$
       1 buorris/buorres	^buorre<A><Sg><Nom><PxSg3>$
       1 buoris/buores	^buorre<A><Sg><Gen><PxSg3>$
       1 buoriset/buoreset	^buorre<A><Sg><Gen><PxPl3>$
@@ -466,15 +404,10 @@ Multiple surface forms for a single lexical form
       1 bulliideamet/buolliideamet	^buollit<V><IV><Der2><Actor><N><Pl><Nom><PxPl1>$
       1 bulliidat/buolliidat	^buollit<V><IV><Der2><Actor><N><Pl><Gen><PxSg2>$
       1 buvttikeahttá/buvttikeahttájin	^buktit<V><TV><VAbess>$
-      1 boraiba/boraiba+son/boraiba+hal/boraiba+han	^borrat<V><TV><Ind><Prt><Sg3><Foc_ba>$
-      1 Boraidetba/Boraidetba+son/Boraidetba+hal/Boraidetba+han	^Borrat<V><TV><Ind><Prt><Pl2><Foc_ba>$
-      1 borrába/borrába+son/borrába+hal/borrába+han	^borrat<V><TV><Ind><Prs><Sg3><Foc_ba>$
       1 boralege/borašege	^borrat<V><TV><Cond><Prs><ConNeg><Foc_ge>$
-      1 bohtenba/bohtenba+son/bohtenba+hal/bohtenba+han	^boahtit<V><IV><Ind><Prt><Sg1><Foc_ba>$
       1 boahttiin/bohttiin	^boahtit<V><IV><Der2><Actor><N><Pl><Loc>$
       1 Bisuliigo/Bisošiigo	^Bissut<V><IV><Cond><Prs><Sg3><Qst>$
       1 bisuledjege/bisošedjege	^bissut<V><IV><Cond><Prs><Pl3><Foc_ge>$
-      1 biehttalitba/biehttalitba+son/biehttalitba+hal/biehttalitba+han	^biehttalit<V><TV><Ind><Prs><Pl3><Foc_ba>$
       1 bieđakeahttá/bieđakeahttájin	^bieđđat<V><IV><VAbess>$
       1 beasisteaset/beassisteaset	^beassi<N><Sg><Loc><PxPl3>$
       1 besiidis/bessiidis	^beassi<N><Pl><Nom><PxSg3>$
@@ -891,6 +824,7 @@ Tag mismatch between transfer and generation
       3 #nannet	^nannet<V><TV>$
       3 #molssodit	^molssodit<V><TV><Der2><Der_PassL><V><Imprt><Sg3><ConNeg>$
       3 #Mii	^Mii<Pron><Interr><Gen>$
+      3 #mihkkege	^mihkkege<Pron><Indef><Pl><Nom>$
       3 #mávssolaš	^mávssolaš<A><Pl><Gen>$
       3 #Márjá	^Márjá<N><Prop><Sg><Nom>$
       3 #mannat	^mannat<V><IV><Der2><Der_PassL><V><Inf2>$
@@ -1728,7 +1662,7 @@ Tag mismatch between transfer and generation
 ===============================================================================
 Summary
 ===============================================================================
-  484 /tmp/fin-sme.multiform
+  416 /tmp/fin-sme.multiform
     0 /tmp/fin-sme.multibidix
- 1231 /tmp/fin-sme.tagmismatch
- 1715 total
+ 1232 /tmp/fin-sme.tagmismatch
+ 1648 total

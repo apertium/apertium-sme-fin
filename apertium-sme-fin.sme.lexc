@@ -1316,7 +1316,7 @@ LEXICON GAHPIRLONGSHORT !Long and short compound-forms. Trisyll. Non-Gradating C
  +N+SgNomCmp:%> R ;
  +N+Der/viđá+Adv:»#viđá K ;
  +N+Ess:%>in K ;
- +N+SgNomCmp:%>X7 R ;		! This gives boagan# and boagán#
+! +N+SgNomCmp:%>X7 R ;		! This gives boagan# and boagán# !sett attende
  +N:%> MALLAS- ;		! GAI, NPx, NPl
  +N: DenominalNounsC ;
  +N: DenominalAdjsC ;
@@ -3247,7 +3247,6 @@ LEXICON BOAHTALADDAN  ! No compound-forms, but reintroduced
  +N+Sg+Gen:%>a K ;
  +N+SgGenCmp:%>a R ;
  +N+Sg+Acc:%>a K ;
-!+Sg+Acc:%> K ; ! We suspect the Acc is never short
  +N+Pl+Nom:%>at K ;
  +N+Sg+Ill:%>ij K ;
  +N+Sg+Loc:%>is K ;
@@ -3277,9 +3276,7 @@ LEXICON BOAHTINLONGSHORTTV   !+CmpN/Sg +CmpN/DefSgGen +CmpN/DefPlGen +CmpN/SgLef
  +N+SgCmp:%>X7 R ;
  +N+SgCmp:%> R ;
  +N+Der/viđá+Adv:»X7#viđá K ;
-! +N+Der/viđi+Adv:»X7#viđi K ;
  +N+Der/viđá+Adv:»#viđá K ;
-! +N+Der/viđi+Adv:»#viđi K ;
  +N+SgNomCmp:X7# VEARA ;
  +N+SgNomCmp:# VEARA ;
  +N+Ess:%>in K ;   ! Dialects
@@ -3289,7 +3286,6 @@ LEXICON BOAHTINLONGSHORTTV   !+CmpN/Sg +CmpN/DefSgGen +CmpN/DefPlGen +CmpN/SgLef
  +N+SgGenCmp:%>a R ;
  +N+Sg+Gen+CmpN/Sg+CmpN/DefSgGen+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft+Use/Ped:%> PxC ;
  +N+Sg+Acc:%>a K ;
-!+Sg+Acc:%> K ; ! We suspect the Acc is never short
  +N+Sg+Acc+CmpN/Sg+CmpN/DefSgGen+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft+Use/Ped:%> PxC ;
  +N+Pl+Nom:%>at K ;
  +N+Pl+Nom+CmpN/Sg+CmpN/DefSgGen+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft+Use/Ped:%>ijddá%> Px1V ;
@@ -3379,7 +3375,6 @@ LEXICON BOAHTINSHORTTV   !+CmpN/Sg +CmpN/DefSgGen +CmpN/DefPlGen +CmpN/SgLeft +C
  +N+Sg+Loc+CmpN/Sg+CmpN/DefSgGen+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft+Use/Ped:%>istti%> PxV ;
  +N+Sg+Com+CmpN/Sg+CmpN/DefSgGen+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft+Use/Ped:%>ijnni%> PxV ;
  +N+Pl+Nom+CmpN/Sg+CmpN/DefSgGen+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft+Use/Ped:%>ijddá%> Px1V ;
-! +Pl+Nom:%>ijddi%> PxV ; !^P^
  +N+Pl+Gen+CmpN/Sg+CmpN/DefSgGen+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft+Use/Ped:%>ijddi%> PxV ;
  +N+Pl+Acc+CmpN/Sg+CmpN/DefSgGen+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft+Use/Ped:%>ijddi%> PxV ;
  +N+Pl+Ill+CmpN/Sg+CmpN/DefSgGen+CmpN/DefPlGen+CmpN/SgLeft+CmpN/SgNomLeft+CmpN/SgGenLeft+CmpN/PlGenLeft+Use/Ped:%>ijddás%> PxC ;
@@ -3390,7 +3385,6 @@ LEXICON BOAHTALADDANTV   !+CmpN/Sg +CmpN/DefSgGen +CmpN/DefPlGen +CmpN/SgLeft +C
  +N+Sg+Nom:%> K ;
  +N+SgCmp:%> R ;
  +N+Der/viđá+Adv:»#viđá K ;
-! +N+Der/viđi+Adv:»#viđi K ;
  +N+SgNomCmp:# VEARA ;
  +N+Ess:%>in K ;
  +N+Ess:%>en K ;   !Dialects
@@ -3398,7 +3392,6 @@ LEXICON BOAHTALADDANTV   !+CmpN/Sg +CmpN/DefSgGen +CmpN/DefPlGen +CmpN/SgLeft +C
  +N+Sg+Gen:%>a K ;
  +N+SgGenCmp:a R ;
  +N+Sg+Acc:%>a K ;
-!+Sg+Acc:%> K ; ! We suspect the Acc is never short
  +N+Pl+Nom:%>at K ;
  +N+Sg+Ill:%>ij K ;
  +N+Sg+Loc:%>is K ;
@@ -3512,30 +3505,6 @@ LEXICON BOHCCU
  +Pl+Loc+Use/Ped:jn%> PxC ;
  +Pl+Com:jgujn K ;
  +Pl+Com+Use/Ped:jd%> PxPlComC ;
-
-!LEXICON SADDO ! From contr noun SATTU
-! +Pl+Nom:t K ;
-
-!LEXICON SADDU ! From contr noun SATTU
-! +Pl+Nom:jd%> Px1C ; !^P^
-! +Pl+Gen:jd K ;
-! +PlGenCmp:jd R ;
-! +Pl+Gen:jd%> PxC ; !^P^
-! +Pl+Acc:jd K ;
-! +Pl+Acc:jd%> PxC ; !^P^
-! +Pl+Ill:jde K ;
-! +Pl+Ill:jdasa%> PxV ; !^P^
-! +Pl+Loc:jn K ;
-! +Pl+Loc:jn%> PxC ; !^P^
-! +Pl+Com:jgujn K ;
-! +Pl+Com:jd%> PxPlComC ; !^P^
-
-!LEXICON SATTU- ! From contr noun SATTU
-! +SgNomCmp:X7 R ;
-! +Der/viđá+Adv:»X7viđá K ;
-! +Der/viđi+Adv:»X7viđi K ;
-! +Ess:n K ;
-! +Ess:n%> PxC ; !^P^
 
 
 
@@ -3663,19 +3632,13 @@ LEXICON EABBU
  +Der1+Der/Dimin+N+Pl+Com:»X6žijgujn K ;
  +Der1+Der/Dimin+N+Sg+Loc+Use/Marg+Use/Ped:»X6žistti%> PxV ;
  +Der1+Der/Dimin+N+Sg+Com+Use/Marg+Use/Ped:»X6žijnni%> PxV ;
-! +Der1+Der/Dimin+N+Pl+Nom:»X6žijddi%> PxV ; !^P^ !MARG
  +Der1+Der/Dimin+N+Pl+Gen+Use/Marg+Use/Ped:»X6žijddi%> PxV ;
  +Der1+Der/Dimin+N+Pl+Acc+Use/Marg+Use/Ped:»X6žijddi%> PxV ;
  +Der1+Der/Dimin+N+Pl+Ill+Use/Marg+Use/Ped:»X6žijddás%> PxC ;
  +Der1+Der/Dimin+N+Pl+Loc+Use/Marg+Use/Ped:»X6žijnni%> PxV ;
  +Der1+Der/Dimin+N+Pl+Com+Use/Marg+Use/Ped:»X6žijddi%> PxPlComV1 ;
  +Der1+Der/Dimin+A+Attr:»X6š%> ATTRCONT ;
-! +Der1+Der/Dimin:»X6ž VUOHTA ;
  +Der1+Der/Dimin+A+Der2+Der/at+Adv:»X6žit K ;
-! +Der2+Der/Dimin:»X6ž DIMINC ; !these line seems the same as above
-! +Der2+Der/Dimin+Attr:»X6š ATTRCONT ; !these line seems the same as above
-!! +Der2+Der/Dimin:»X6ž VUOHTA ; !these line seems the same as above
-! +Der2+Der/Dimin+Der2+Der/at+Adv:»X6žit K ; !these line seems the same as above
  :%> EABBUCASE1 ;
  :%> EABBUCASE2 ;
  +Der2+Der/at+Adv:%>X8t K ;
@@ -3767,11 +3730,9 @@ LEXICON BUStem
  +Pl+Nom+Use/Marg+Use/Ped:uiddá%> Px1V ;
 
 LEXICON EAMOS
-! :%>X4 MALIS0 ;
 ! The 3 next lines are for MALIS0
 ! minus the pointer to Ess Px.
  +Sg+Nom:%>X4 K ;
-! +SgNomCmp:%>X4X7 R ;
  +Ess:%>X4in K ;
  +Sg+Nom+Use/Marg+Use/Ped:%>X2 PxC ;
  +Sg+Gen:%>X2a K ;
@@ -3799,20 +3760,12 @@ LEXICON EAMOS
  +Pl+Ill+Use/Marg+Use/Ped:%>X2ijddás%> PxC ;
  +Pl+Loc+Use/Marg+Use/Ped:%>X2ijnni%> PxV ;
  +Pl+Com+Use/Marg+Use/Ped:%>X2ijddi%> PxPlComV1 ;
-! :X8 VUOHTA ;
  :%>X2 ADVC ;
  +Attr:%>X4 K ; ! Attributive superaltives
               ! Here and not in MALIS0 because
               ! also nouns go there.
 
-!LEXICON VUDDJE- ! Nothing directed here anymore, but to FALLA-
-! +Sg+Acc:%> K ;
-! +Pl+Nom:%>t K ;
-! +Attr:s K ;
-! +Adv:t K ;
 
-!LEXICON VUDDJI-  ! Nothing directed here anymore, but to FALLA-
-! +Pl+Acc:%>jd K ;
 
 LEXICON GAPPUS0
  +Sg+Nom: K ;
@@ -3860,24 +3813,6 @@ LEXICON MEAHTTUN  ! Deverbal adjectives.
  +A+Pl+Nom+Use/Ped:m%>iiddá%> Px1V ;
 
 
-!LEXICON FIIDNA-
-! From contr adjs, all words that before were
-! directed here are now directed to FALLA-, don't think we need this anymore
-! +Sg+Gen:%> K ;
-! +Sg+Acc:%> K ;
-! +Sg+Ill:%>j K ;
-! +Sg+Loc:%>s K ;
-! +Sg+Com:%>jn K ;
-! +Pl+Nom:%>t K ;
-! +Pl+Gen:%>jd K ;
-! +Pl+Gen:%>jd K ;
-! +Pl+Acc:%>jd K ;
-! +Pl+Ill:%>jde K ;
-! +Pl+Loc:%>jn K ;
-! +Pl+Com:%>jgujn K ;
-
-
-
 LEXICON GEAHTES
  +Der3+Der/geahtes+A+Attr:»#geahtes K ;
  +Der3+Der/geahtes+A+Attr:»#keahtes K ;
@@ -3890,9 +3825,6 @@ LEXICON OVDDIT ! Inherently comparative adjectives
 LEXICON MADDELEABBO ! Inherently comparative adjectives
  +A+Comp+Attr:%> K ;
  +A:%> EABBO/EAMOS_CONT ;
-
-
-
 
 
 
@@ -6281,27 +6213,21 @@ LEXICON DeverbalVerbsARVIL
 
 LEXICON K
  ENDLEX ;
- +Qst+Use/Circ:#go ENDLEX ;  	  ! !I removed the Circ symbol from these two, as they are common.
+ +Qst:#go ENDLEX ;  	  ! !I removed the Circ symbol from these two, as they are common.
  +Foc/naj+Qst+Use/Circ:#naigo ENDLEX ; 
  +Qst+Foc/son+Use/Circ:#goson ENDLEX ; 
- +Foc/ge+Use/Circ:#ge ENDLEX ;	 ! !Alternatively, the K lexicon may be done at PL as a compound lexicon
+ +Foc/ge:#ge ENDLEX ;	 ! !Alternatively, the K lexicon may be done at PL as a compound lexicon
  +Foc/gen+Use/Circ:#gen ENDLEX ;  ! ! Also, the symbol should be ^L^ (large), rather than ^-C-^
  +Foc/ges+Use/Circ:#ges ENDLEX ;  ! ! Attested for 'muges'. Others?
  +Foc/gis+Use/Circ:#gis ENDLEX ;  ! ! Means same as ges and is maybe more common
  +Foc/naj+Use/Circ:#nai ENDLEX ;	
- +Foc/ba+Use/Circ:#ba ENDLEX ;   
+ +Foc/ba:#ba ENDLEX ;   
  +Foc/ban+Use/Circ:#ban ENDLEX ; 
  +Foc/be+Use/Circ:#be ENDLEX ;   
  +Foc/hal+Use/Circ:#hal ENDLEX ;  !  ! XXX Is this required?
- +Foc/han+Use/Circ:#han ENDLEX ; 
+ +Foc/han:#han ENDLEX ; 
  +Foc/bat+Use/Circ:#bat ENDLEX ; 
  +Foc/son+Use/Circ:#son ENDLEX ;  !  ! makkárson
- +Foc/ba+Use/Circ:#ba#hal ENDLEX ;   
- +Foc/be+Use/Circ:#be#hal ENDLEX ;   
- +Foc/ba+Use/Circ:#ba#han ENDLEX ;   
- +Foc/be+Use/Circ:#be#han ENDLEX ;   
- +Foc/ba+Use/Circ:#ba#son ENDLEX ;   
- +Foc/be+Use/Circ:#be#son ENDLEX ;   
 
 
 LEXICON K-son
@@ -6311,12 +6237,6 @@ LEXICON K-son
  +Foc/bat+Use/Circ:#bat ENDLEX ; 
  +Foc/ba+Use/Circ:#ba ENDLEX ;   
  +Foc/be+Use/Circ:#be ENDLEX ;   
- +Foc/ba+Use/Circ:#ba#hal ENDLEX ;   
- +Foc/be+Use/Circ:#be#hal ENDLEX ;   
- +Foc/ba+Use/Circ:#ba#han ENDLEX ;   
- +Foc/be+Use/Circ:#be#han ENDLEX ;   
- +Foc/ba+Use/Circ:#ba#son ENDLEX ;   
- +Foc/be+Use/Circ:#be#son ENDLEX ;   
  ENDLEX ;
 ! This is a Continuation Class for Interrogative Pronouns and Adverbs like
 ! gii(son), gosa(son) etc.. These have now been added to the lexicon(s).
@@ -6377,7 +6297,7 @@ LEXICON negind
 +Du3:eaba%> K ;
 +Du3+Use/Sub:eava%> K ; ! !Kárášjohka dialect
 +Pl1:%>eat K ;
-+Pl1+Use/Sub:%>eap9 K ; ! !Skániid dialect
++Pl1+Use/Sub+Use/NG:%>eap9 K ; ! !Skániid dialect
 +Pl2:ehpe%>t K ;
 +Pl3:%>eai K ;
 
@@ -7755,7 +7675,6 @@ govččas:gok'čas MALIS ;
 greikalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:greikalažž JOHTOLAT ;
 groava#lái0bi:groava#láj'bi GOAHTI ;
 gráda GOAHTI ;
-gudni ALBMI ;
 gudni:gudni¤ AIGI ;
 guhkes#bearjadat+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:guhkes#bearjadah'k JOHTOLAT ;
 guhkkodat:guhkkodah'k JOHTOLAT ;
@@ -16418,13 +16337,13 @@ LEXICON declindef-cl
 
 ! Exceptional nominatives
 mihkkege+Pron+Indef+Sg+Nom:mihkke%>ge # ;
-mihkkege+Pron+Indef+Pl+Nom:mahkke%>ge # ;
-mihkkege+Pron+Indef+Pl+Gen:maide%>ge # ;
+mahkkege+Pron+Indef+Pl+Nom:mahkke%>ge # ;
+maidege+Pron+Indef+Pl+Gen:maide%>ge # ;
 mihkke+Pron+Indef+Sg+Nom:mihkke%> # ;
 mihkket+Pron+Indef+Sg+Nom+Use/Sub:mihkke%>t # ; !
 mihkkige+Pron+Indef+Sg+Nom:mihkki%>ge # ;
-mihkkige+Pron+Indef+Pl+Nom:mahkki%>ge # ;
-mihkkige+Pron+Indef+Pl+Gen:maidi%>ge # ;
+mahkkige+Pron+Indef+Pl+Nom:mahkki%>ge # ;
+maidige+Pron+Indef+Pl+Gen:maidi%>ge # ;
 giige+Pron+Indef+Sg+Nom:gii%>ge # ;
 giinai+Pron+Indef+Sg+Nom:gii%>nai # ;
 giijai+Pron+Indef+Sg+Nom:gii%>jai # ;
@@ -16471,19 +16390,19 @@ LEXICON oblindemcassg
 +Acc:nge # ;
 +Ill:sage # ;
 +Loc:sge # ;
-+Loc:stege # ;
++Loc+Use/NG:stege # ;
 +Com:jnnage # ;
 
 LEXICON oblindemcaspl
 +Gen:jde # ;
 +Gen:jde»# NAMAT ;
 +Acc:jde # ;
-+Gen:jdege # ;
-+Gen:jdege»# NAMAT ;
++Gen+Foc/ge:jdege # ;
++Gen+Foc/ge:jdege»# NAMAT ;
 +Acc:jdege # ;
-+Gen:jdige # ;
-+Gen:jdige»# NAMAT ;
-+Acc:jdige # ;
++Gen+Foc/ge+Use/NG:jdige # ;
++Gen+Foc/ge+Use/NG:jdige»# NAMAT ;
++Acc+Foc/ge+Use/NG:jdige # ;
 +Ill:jddage # ;
 +Loc:jnge # ;
 !Here we do not go to the case paradigm of the demonstratives,
@@ -16493,53 +16412,53 @@ LEXICON oblindefcas-giinai
 +Gen:nnai # ;
 +Gen:nnai»# NAMAT ;
 +Acc:nnai # ;
-+Gen:nai # ;
-+Gen:nai»# NAMAT ;
-+Acc:nai # ;
++Gen+Use/NG:nai # ;
++Gen+Use/NG:nai»# NAMAT ;
++Acc+Use/NG:nai # ;
 +Ill:sanai # ;
-+Ill:sai # ;
++Ill+Use/NG:sai # ;
 +Loc:snai # ;
-+Loc:sai # ;
-+Loc:stenai # ;
-+Loc:stai # ;
++Loc+Use/NG:sai # ;
++Loc+Use/NG:stenai # ;
++Loc+Use/NG:stai # ;
 +Com:jnnanai # ;
-+Com:jnnai # ;
-+Gen:jdnai # ;
-+Gen:jdnai»# NAMAT ;
-+Acc:jdnai # ;
-+Gen:jdai # ;
-+Gen:jdai»# NAMAT ;
-+Acc:jdai # ;
-+Ill:jddanai # ;
-+Ill:jddai # ;
-+Loc:jnnai # ;
-+Loc:jnai # ;
++Com+Use/NG:jnnai # ;
++Gen+Use/NG:jdnai # ;
++Gen+Use/NG:jdnai»# NAMAT ;
++Acc+Use/NG:jdnai # ;
++Gen+Use/NG:jdai # ;
++Gen+Use/NG:jdai»# NAMAT ;
++Acc+Use/NG:jdai # ;
++Ill+Use/NG:jddanai # ;
++Ill+Use/NG:jddai # ;
++Loc+Use/NG:jnnai # ;
++Loc+Use/NG:jnai # ;
 
 LEXICON oblindefcas-miinai
 +Gen:nnai # ;
 +Gen:nnai»# NAMAT ;
 +Acc:nnai # ;
 ! +Gen:nai # ; !commented out disamb reasons
-+Gen:nai»# NAMAT ;
++Gen+Use/NG:nai»# NAMAT ;
 ! +Acc:nai # ; !commented out disamb reasons
 +Ill:sanai # ;
-+Ill:sai # ;
++Ill+Use/NG:sai # ;
 +Loc:snai # ;
-+Loc:sai # ;
++Loc+Use/NG:sai # ;
 +Loc:stenai # ;
-+Loc:stai # ;
++Loc+Use/NG:stai # ;
 +Com:jnnanai # ;
-+Com:jnnai # ;
-+Gen:jdnai # ;
-+Gen:jdnai»# NAMAT ;
-+Acc:jdnai # ; !commented out disamb reasons
++Com+Use/NG:jnnai # ;
++Gen+Use/NG:jdnai # ;
++Gen+Use/NG:jdnai»# NAMAT ;
++Acc+Use/NG:jdnai # ; !commented out disamb reasons
 ! +Gen:jdai # ; !commented out disamb reasons
-+Gen:jdai»# NAMAT ;
++Gen+Use/NG:jdai»# NAMAT ;
 ! +Acc:jdai # ; !commented out disamb reasons
-+Ill:jddanai # ;
++Ill+Use/NG:jddanai # ;
 ! +Ill:jddai # ; !commented out disamb reasons
-+Loc:jnnai # ;
-+Loc:jnai # ;
++Loc+Use/NG:jnnai # ;
++Loc+Use/NG:jnai # ;
 
 
 
@@ -18602,7 +18521,7 @@ LEXICON OKTA
  +Num+Ess:%>n K ;
  +Num+Sg+Acc:%>X4 K ;
  +Num+Sg+Gen:%>X4 K ;
- +Num+Sg+Gen:»X4# NUMERALCOMPOUNDS ;            ! golmmagielat
+ +Num+Sg+Gen:»X4# NUMERALCOMPOUNDS ; ! golmmagielat
  +Num+Sg+Loc:%>X4s K ;
  +Num+Sg+Loc+Use/Sub:%>X4n K ; ! !SOUTH
  +Num+Pl+Nom:%>X4t K ;
@@ -18617,19 +18536,19 @@ LEXICON OKTA
 LEXICON OKTANUPPELOHKAI
  +Num+Sg+Nom:%>#nuppe#lohká%>j K ;
  +Num+Ess:%>#nuppe#lohki%>n K ;
- +Num+Ess:%>#nuppe#logi%>n K ;
+ +Num+Ess+Use/NG:%>#nuppe#logi%>n K ;
  +Num+Sg+Acc:%>#nuppe#lohká%>j K ;
  +Num+Sg+Gen:%>X4#nuppe#logi%> K ;
  +Num+Sg+Gen:%>X4#nuppe#logi»# NUMERALCOMPOUNDS ;            ! golmmagielat
  +Num+Sg+Nom+Attr:%>X4#nuppe#lot»# NUMERALCOMPOUNDS ;            ! golmmagielat
  +Num+Sg+Nom+Attr:%>#nuppe#lot%> K ;
- +Num+Sg+Nom+Attr:%>n#nuppe#lot%> K ;
- +Num+Sg+Nom+Attr:%>X4#nuppe#lot%> K ;
- +Num+Sg+Nom+Attr:%>X5jn#nuppe#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>n#nuppe#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>X4#nuppe#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>X5jn#nuppe#lot%> K ;
  +Num+Sg+Acc+Attr:%>#nuppe#lot%> K ;
- +Num+Sg+Acc+Attr:%>n#nuppe#lot%> K ;
- +Num+Sg+Acc+Attr:%>X4#nuppe#lot%> K ;
- +Num+Sg+Acc+Attr:%>X5jn#nuppe#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>n#nuppe#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>X4#nuppe#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>X5jn#nuppe#lot%> K ;
  +Num+Sg+Loc:%>X4#nuppe#logi%>s K ;
  +Num+Sg+Loc+Use/Sub:%>X4#nuppe#logi%>n K ; ! !SOUTH
  +Num+Pl+Nom:%>#nuppe#logi%>t K ;
@@ -18640,34 +18559,34 @@ LEXICON OKTANUPPELOHKAI
  +Num+Pl+Ill:%>#nuppe#logi%>jde K ;
  +Num+Pl+Loc:%>X5jn#nuppe#logi%>jn K ;
  +Num+Pl+Com:%>#nuppe#logi%>jgujn K ;
- +Num+Pl+Loc:%>#nuppe#logi%>jn K ; !Nickel 91 from here downwards
+ +Num+Pl+Loc+Use/NG:%>#nuppe#logi%>jn K ; !Nickel 91 from here downwards
  +Num+Pl+Attr:%>X4t#nuppe#lot%> K ;
- +Num+Pl+Attr:%>X5jd#nuppe#lot%> K ;
- +Num+Pl+Attr:%>X5jn#nuppe#lot%> K ;
- +Num+Pl+Nom:%>X4t#nuppe#logi%>t K ;
- +Num+Pl+Acc:%>X5jd#nuppe#logi%>X5jd K ;
+ +Num+Pl+Attr+Use/NG:%>X5jd#nuppe#lot%> K ;
+ +Num+Pl+Attr+Use/NG:%>X5jn#nuppe#lot%> K ;
+ +Num+Pl+Nom+Use/NG:%>X4t#nuppe#logi%>t K ;
+ +Num+Pl+Acc+Use/NG:%>X5jd#nuppe#logi%>X5jd K ;
  +Num+Pl+Gen+Use/Sub:%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#nuppe#logi%>n K ;
+ +Num+Ess+Use/NG:%>X4t#nuppe#logi%>n K ;
 
 
 LEXICON OKTAGOALMMATLOHKAI
  +Num+Sg+Nom:%>#goalmmát#lohká%>j K ;
  +Num+Ess:%>#goalmmát#lohki%>n K ;
- +Num+Ess:%>#goalmmát#logi%>n K ;
+ +Num+Ess+Use/NG:%>#goalmmát#logi%>n K ;
  +Num+Sg+Acc:%>#goalmmát#lohká%>j K ;
  +Num+Sg+Gen:%>X4#goalmmát#logi%> K ;
  +Num+Sg+Gen:%>X4#goalmmát#logi»# NUMERALCOMPOUNDS ;            ! golmmagielat
  +Num+Sg+Nom+Attr:%>X4#goalmmát#lot»# NUMERALCOMPOUNDS ;            ! golmmagielat
  +Num+Sg+Nom+Attr:%>X4#goalmmát#lot%> K ;
- +Num+Sg+Nom+Attr:%>#goalmmát#lot%> K ;
- +Num+Sg+Nom+Attr:%>X5jn#goalmmát#lot%> K ;
- +Num+Sg+Nom+Attr:%>n#goalmmát#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>#goalmmát#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>X5jn#goalmmát#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>n#goalmmát#lot%> K ;
  +Num+Sg+Acc+Attr:%>X4#goalmmát#lot%> K ;
- +Num+Sg+Acc+Attr:%>#goalmmát#lot%> K ;
- +Num+Sg+Acc+Attr:%>X5jn#goalmmát#lot%> K ;
- +Num+Sg+Acc+Attr:%>n#goalmmát#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>#goalmmát#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>X5jn#goalmmát#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>n#goalmmát#lot%> K ;
  +Num+Sg+Loc:%>X4#goalmmát#logi%>s K ;
  +Num+Sg+Loc+Use/Sub:%>X4#goalmmát#logi%>n K ; ! !SOUTH
  +Num+Pl+Nom:%>#goalmmát#logi%>t K ;
@@ -18680,32 +18599,32 @@ LEXICON OKTAGOALMMATLOHKAI
  +Num+Pl+Com:%>#goalmmát#logi%>jgujn K ;
  +Num+Pl+Loc:%>#goalmmát#logi%>jn K ; !Nickel 91 from here downwards
  +Num+Pl+Attr:%>X4t#goalmmát#lot%> K ;
- +Num+Pl+Attr:%>X5jd#goalmmát#lot%> K ;
- +Num+Pl+Attr:%>X5jn#goalmmát#lot%> K ;
+ +Num+Pl+Attr+Use/NG:%>X5jd#goalmmát#lot%> K ;
+ +Num+Pl+Attr+Use/NG:%>X5jn#goalmmát#lot%> K ;
  +Num+Pl+Nom:%>X4t#goalmmát#logi%>t K ;
- +Num+Pl+Acc:%>X5jd#goalmmát#logi%>X5jd K ;
+ +Num+Pl+Acc+Use/NG:%>X5jd#goalmmát#logi%>X5jd K ;
  +Num+Pl+Gen+Use/Sub:%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#goalmmát#logi%>n K ;
+ +Num+Ess+Use/NG:%>X4t#goalmmát#logi%>n K ;
 
 
 LEXICON OKTANJEALJATLOHKAI
  +Num+Sg+Nom:%>#njealját#lohká%>j K ;
  +Num+Ess:%>#njealját#lohki%>n K ;
- +Num+Ess:%>#njealját#logi%>n K ;
+ +Num+Ess+Use/NG:%>#njealját#logi%>n K ;
  +Num+Sg+Acc:%>#njealját#lohká%>j K ;
  +Num+Sg+Gen:%>X4#njealját#logi%> K ;
  +Num+Sg+Gen:%>X4#njealját#logi»# NUMERALCOMPOUNDS ;            ! golmmagielat
  +Num+Sg+Nom+Attr:%>X4#njealját#lot»# NUMERALCOMPOUNDS ;            ! golmmagielat
  +Num+Sg+Nom+Attr:%>X4#njealját#lot%> K ;
- +Num+Sg+Nom+Attr:%>#njealját#lot%> K ;
- +Num+Sg+Nom+Attr:%>X5jn#njealját#lot%> K ;
- +Num+Sg+Nom+Attr:%>n#njealját#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>#njealját#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>X5jn#njealját#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>n#njealját#lot%> K ;
  +Num+Sg+Acc+Attr:%>X4#njealját#lot%> K ;
- +Num+Sg+Acc+Attr:%>#njealját#lot%> K ;
- +Num+Sg+Acc+Attr:%>X5jn#njealját#lot%> K ;
- +Num+Sg+Acc+Attr:%>n#njealját#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>#njealját#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>X5jn#njealját#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>n#njealját#lot%> K ;
  +Num+Sg+Loc:%>X4#njealját#logi%>s K ;
  +Num+Sg+Loc+Use/Sub:%>X4#njealját#logi%>n K ; ! !SOUTH
  +Num+Pl+Nom:%>#njealját#logi%>t K ;
@@ -18716,16 +18635,16 @@ LEXICON OKTANJEALJATLOHKAI
  +Num+Pl+Ill:%>#njealját#logi%>jde K ;
  +Num+Pl+Loc:%>X5jn#njealját#logi%>jn K ;
  +Num+Pl+Com:%>#njealját#logi%>jgujn K ;
- +Num+Pl+Loc:%>#njealját#logi%>jn K ; !Nickel 91 from here downwards
- +Num+Pl+Attr:%>X4t#njealját#lot%> K ;
- +Num+Pl+Attr:%>X5jd#njealját#lot%> K ;
- +Num+Pl+Attr:%>X5jn#njealját#lot%> K ;
- +Num+Pl+Nom:%>X4t#njealját#logi%>t K ;
- +Num+Pl+Acc:%>X5jd#njealját#logi%>X5jd K ;
+ +Num+Pl+Loc+Use/NG:%>#njealját#logi%>jn K ; !Nickel 91 from here downwards
+ +Num+Pl+Attr+Use/NG:%>X4t#njealját#lot%> K ;
+ +Num+Pl+Attr+Use/NG:%>X5jd#njealját#lot%> K ;
+ +Num+Pl+Attr+Use/NG:%>X5jn#njealját#lot%> K ;
+ +Num+Pl+Nom+Use/NG:%>X4t#njealját#logi%>t K ;
+ +Num+Pl+Acc+Use/NG:%>X5jd#njealját#logi%>X5jd K ;
  +Num+Pl+Gen+Use/Sub:%>X5jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#njealját#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#njealját#logi%>n K ;
+ +Num+Ess+Use/NG:%>X4t#njealját#logi%>n K ;
 
 
 LEXICON OKTAVIDATLOHKAI
@@ -18737,13 +18656,13 @@ LEXICON OKTAVIDATLOHKAI
  +Num+Sg+Gen:%>X4#viđát#logi»# NUMERALCOMPOUNDS ;            ! golmmagielat
  +Num+Sg+Nom+Attr:%>X4#viđát#lot»# NUMERALCOMPOUNDS ;            ! golmmagielat
  +Num+Sg+Nom+Attr:%>X4#viđát#lot%> K ;
- +Num+Sg+Nom+Attr:%>X5jn#viđát#lot%> K ;
- +Num+Sg+Nom+Attr:%>#viđát#lot%> K ;
- +Num+Sg+Nom+Attr:%>n#viđát#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>X5jn#viđát#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>#viđát#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>n#viđát#lot%> K ;
  +Num+Sg+Acc+Attr:%>X4#viđát#lot%> K ;
- +Num+Sg+Acc+Attr:%>X5jn#viđát#lot%> K ;
- +Num+Sg+Acc+Attr:%>#viđát#lot%> K ;
- +Num+Sg+Acc+Attr:%>n#viđát#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>X5jn#viđát#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>#viđát#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>n#viđát#lot%> K ;
  +Num+Sg+Loc:%>X4#viđát#logi%>s K ;
  +Num+Sg+Loc+Use/Sub:%>X4#viđát#logi%>n K ; ! !SOUTH
  +Num+Pl+Nom:%>#viđát#logi%>t K ;
@@ -18754,16 +18673,16 @@ LEXICON OKTAVIDATLOHKAI
  +Num+Pl+Ill:%>#viđát#logi%>jde K ;
  +Num+Pl+Loc:%>X5jn#viđát#logi%>jn K ;
  +Num+Pl+Com:%>#viđát#logi%>jgujn K ;
- +Num+Pl+Loc:%>#viđát#logi%>jn K ; !Nickel 91 from here downwards
- +Num+Pl+Attr:%>X4t#viđát#lot%> K ;
- +Num+Pl+Attr:%>X5jd#viđát#lot%> K ;
- +Num+Pl+Attr:%>X5jn#viđát#lot%> K ;
- +Num+Pl+Nom:%>X4t#viđát#logi%>t K ;
- +Num+Pl+Acc:%>X5jd#viđát#logi%>X5jd K ;
- +Num+Pl+Gen+Use/Sub:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ill+Use/Sub:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Com+Use/Sub:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#viđát#logi%>n K ;
+ +Num+Pl+Loc+Use/NG:%>#viđát#logi%>jn K ; !Nickel 91 from here downwards
+ +Num+Pl+Attr+Use/NG:%>X4t#viđát#lot%> K ;
+ +Num+Pl+Attr+Use/NG:%>X5jd#viđát#lot%> K ;
+ +Num+Pl+Attr+Use/NG:%>X5jn#viđát#lot%> K ;
+ +Num+Pl+Nom+Use/NG:%>X4t#viđát#logi%>t K ;
+ +Num+Pl+Acc+Use/NG:%>X5jd#viđát#logi%>X5jd K ;
+ +Num+Pl+Gen+Use/Sub+Use/NG:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
+ +Num+Pl+Ill+Use/Sub+Use/NG:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
+ +Num+Pl+Com+Use/Sub+Use/NG:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
+ +Num+Ess+Use/NG:%>X4t#viđát#logi%>n K ;
 
 
 LEXICON OKTAGUDATLOHKAI
@@ -18774,14 +18693,14 @@ LEXICON OKTAGUDATLOHKAI
  +Num+Sg+Gen:%>X4#guđát#logi%> K ;
  +Num+Sg+Gen:%>X4#guđát#logi»# NUMERALCOMPOUNDS ;            ! golmmagielat
  +Num+Sg+Nom+Attr:%>X4#guđát#lot»# NUMERALCOMPOUNDS ;            ! golmmagielat
- +Num+Sg+Nom+Attr:%>X4#guđát#lot%> K ;
- +Num+Sg+Nom+Attr:%>X5jn#guđát#lot%> K ;
- +Num+Sg+Nom+Attr:%>#guđát#lot%> K ;
- +Num+Sg+Nom+Attr:%>n#guđát#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>X4#guđát#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>X5jn#guđát#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>#guđát#lot%> K ;
+ +Num+Sg+Nom+Attr+Use/NG:%>n#guđát#lot%> K ;
  +Num+Sg+Acc+Attr:%>X4#guđát#lot%> K ;
- +Num+Sg+Acc+Attr:%>X5jn#guđát#lot%> K ;
- +Num+Sg+Acc+Attr:%>#guđát#lot%> K ;
- +Num+Sg+Acc+Attr:%>n#guđát#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>X5jn#guđát#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>#guđát#lot%> K ;
+ +Num+Sg+Acc+Attr+Use/NG:%>n#guđát#lot%> K ;
  +Num+Sg+Loc:%>X4#guđát#logi%>s K ;
  +Num+Sg+Loc+Use/Sub:%>X4#guđát#logi%>n K ; ! !SOUTH
  +Num+Pl+Nom:%>#guđát#logi%>t K ;
@@ -18794,20 +18713,20 @@ LEXICON OKTAGUDATLOHKAI
  +Num+Pl+Com:%>#guđát#logi%>jgujn K ;
  +Num+Pl+Loc:%>#guđát#logi%>jn K ; !Nickel 91 from here downwards
  +Num+Pl+Attr:%>X4t#guđát#lot%> K ;
- +Num+Pl+Attr:%>X5jd#guđát#lot%> K ;
- +Num+Pl+Attr:%>X5jn#guđát#lot%> K ;
- +Num+Pl+Nom:%>X4t#guđát#logi%>t K ;
- +Num+Pl+Acc:%>X5jd#guđát#logi%>X5jd K ;
+ +Num+Pl+Attr+Use/NG:%>X5jd#guđát#lot%> K ;
+ +Num+Pl+Attr+Use/NG:%>X5jn#guđát#lot%> K ;
+ +Num+Pl+Nom+Use/NG:%>X4t#guđát#logi%>t K ;
+ +Num+Pl+Acc+Use/NG:%>X5jd#guđát#logi%>X5jd K ;
  +Num+Pl+Gen+Use/Sub:%>X5jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#guđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#guđát#logi%>n K ;
+ +Num+Ess+Use/NG:%>X4t#guđát#logi%>n K ;
 
 
 LEXICON OKTACIHCCETLOHKAI
  +Num+Sg+Nom:%>#čihččet#lohká%>j K ;
  +Num+Ess:%>#čihččet#lohki%>n K ;
- +Num+Ess:%>#čihččet#logi%>n K ;
+ +Num+Ess+Use/NG:%>#čihččet#logi%>n K ;
  +Num+Sg+Acc:%>#čihččet#lohká%>j K ;
  +Num+Sg+Gen:%>X4#čihččet#logi%> K ;
  +Num+Sg+Gen:%>X4#čihččet#logi»# NUMERALCOMPOUNDS ;            ! golmmagielat
@@ -18839,14 +18758,14 @@ LEXICON OKTACIHCCETLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#čihččet#logi%>n K ;
+ +Num+Ess:%>X4t#čihččet#logi%>n K ;
 
 
 
 LEXICON OKTAGAVCCATLOHKAI
  +Num+Sg+Nom:%>#gávccát#lohká%>j K ;
  +Num+Ess:%>#gávccát#lohki%>n K ;
- +Num+Ess:%>#gávccát#logi%>n K ;
+ +Num+Ess+Use/NG:%>#gávccát#logi%>n K ;
  +Num+Sg+Acc:%>#gávccát#lohká%>j K ;
  +Num+Sg+Gen:%>X4#gávccát#logi%> K ;
  +Num+Sg+Gen:%>X4#gávccát#logi»# NUMERALCOMPOUNDS ;            ! golmmagielat
@@ -18878,7 +18797,7 @@ LEXICON OKTAGAVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#gávccát#logi%>n K ;
+ +Num+Ess:%>X4t#gávccát#logi%>n K ;
 
 LEXICON OKTAOVCCATLOHKAI
  +Num+Sg+Nom:%>#ovccát#lohká%>j K ;
@@ -18915,7 +18834,7 @@ LEXICON OKTAOVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#ovccát#logi%>n K ;
+ +Num+Ess:%>X4t#ovccát#logi%>n K ;
 
 
 LEXICON OKTALOGATLOHKAI
@@ -18953,7 +18872,7 @@ LEXICON OKTALOGATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#logát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#logát#logi%>n K ;
+ +Num+Ess:%>X4t#logát#logi%>n K ;
 
 
 LEXICON OKTALOHKI
@@ -18993,18 +18912,17 @@ LEXICON OKTALOHKI
  +Num+Pl+Ill+Use/Sub:%>#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:%>#logi%>jn K ;
- +Num+Pl+Ess:%>#lohki%>n K ;
+ +Num+Ess:%>#lohki%>n K ;
  +Num+Pl+Nom:%>X4t#logi%>t K ;
  +Num+Pl+Acc:%>X5jd#logi%>X5jd K ;
  +Num+Pl+Gen+Use/Sub:%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:%>X5jn#logi%>jn K ;
- +Num+Pl+Ess:%>X4t#logi%>n K ;
+ +Num+Ess:%>X4t#logi%>n K ;
 
 LEXICON GUOKTE
  +Num+Sg+Nom:e%> K ;
- +Num+Ess:i%>n K ;
  +Num+Sg+Acc:e%> K ;
  +Num+Sg+Gen:i%>X4 K ;
  +Num+Sg+Gen+Use/Sub:e%>X4 K ;
@@ -19012,9 +18930,10 @@ LEXICON GUOKTE
  +Num+Sg+Gen:e»X4# NUMERALCOMPOUNDS ;            ! guovttegielat 
  +Num+Sg+Loc:i%>X4s K ;
  +Num+Sg+Loc+Use/Sub:i%>X4n K ; ! !SOUTH
- +Num+Pl+Nom:i%>X4t K ;
  +Num+Sg+Ill:á%>j K ;
  +Num+Sg+Com:i%>X5jn K ;
+ +Num+Ess:i%>n K ;
+ +Num+Pl+Nom:i%>X4t K ;
  +Num+Pl+Acc:i%>X5jd K ;
  +Num+Pl+Gen:i%>X5jd K ;
  +Num+Pl+Ill:i%>X5jde K ;
@@ -19023,12 +18942,10 @@ LEXICON GUOKTE
 
 LEXICON GUOKTENUPPELOHKAI
  +Num+Sg+Nom:e%>#nuppe#lohká%>j K ;
- +Num+Ess:e%>#nuppe#lohki%>n K ;
- +Num+Ess:e%>#nuppe#logi%>n K ;
  +Num+Sg+Acc:e%>#nuppe#lohká%>j K ;
  +Num+Sg+Gen:e%>X4#nuppe#logi%> K ;
- +Num+Sg+Gen:e%>X4#nuppe#logi»# NUMERALCOMPOUNDS ;            ! golmmagielat
- +Num+Sg+Nom+Attr:e%>X4#nuppe#lot»# NUMERALCOMPOUNDS ;            ! golmmagielat
+ +Num+Sg+Gen:e%>X4#nuppe#logi»# NUMERALCOMPOUNDS ;     ! golmmagielat
+ +Num+Sg+Nom+Attr:e%>X4#nuppe#lot»# NUMERALCOMPOUNDS ; ! golmmagielat
  +Num+Sg+Nom+Attr:e%>X4#nuppe#lot%> K ;
  +Num+Sg+Nom+Attr:i%>X5jn#nuppe#lot%> K ;
  +Num+Sg+Nom+Attr:e%>#nuppe#lot%> K ;
@@ -19039,9 +18956,11 @@ LEXICON GUOKTENUPPELOHKAI
  +Num+Sg+Acc+Attr:i%>n#nuppe#lot%> K ;
  +Num+Sg+Loc:e%>X4#nuppe#logi%>s K ;
  +Num+Sg+Loc+Use/Sub:e%>X4#nuppe#logi%>n K ; ! !SOUTH
- +Num+Pl+Nom:e%>#nuppe#logi%>t K ;
  +Num+Sg+Ill:e%>X4#nuppe#lohká%>j K ;
  +Num+Sg+Com:i%>X5jn#nuppe#logi%>jn K ;
+ +Num+Ess:e%>#nuppe#lohki%>n K ;
+ +Num+Ess:e%>#nuppe#logi%>n K ;
+ +Num+Pl+Nom:e%>#nuppe#logi%>t K ;
  +Num+Pl+Acc:e%>#nuppe#logi%>X5jd K ;
  +Num+Pl+Gen:e%>#nuppe#logi%>X5jd K ;
  +Num+Pl+Ill:e%>#nuppe#logi%>jde K ;
@@ -19056,7 +18975,7 @@ LEXICON GUOKTENUPPELOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#nuppe#logi%>n K ;
+ +Num+Ess:i%>X4t#nuppe#logi%>n K ;
 
 LEXICON GUOKTEGOALMMATLOHKAI
  +Num+Sg+Nom:e%>#goalmmát#lohká%>j K ;
@@ -19093,7 +19012,7 @@ LEXICON GUOKTEGOALMMATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#goalmmát#logi%>n K ;
+ +Num+Ess:i%>X4t#goalmmát#logi%>n K ;
 
 
 LEXICON GUOKTENJEALJATLOHKAI
@@ -19131,7 +19050,7 @@ LEXICON GUOKTENJEALJATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#njealját#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#njealját#logi%>n K ;
+ +Num+Ess:i%>X4t#njealját#logi%>n K ;
 
 LEXICON GUOKTEVIDATLOHKAI
  +Num+Sg+Nom:e%>#viđát#lohká%>j K ;
@@ -19168,7 +19087,7 @@ LEXICON GUOKTEVIDATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#viđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#viđát#logi%>n K ;
+ +Num+Ess:i%>X4t#viđát#logi%>n K ;
 
 
 LEXICON GUOKTEGUDATLOHKAI
@@ -19206,7 +19125,7 @@ LEXICON GUOKTEGUDATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#guđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#guđát#logi%>n K ;
+ +Num+Ess:i%>X4t#guđát#logi%>n K ;
 
 LEXICON GUOKTECIHCCETLOHKAI
  +Num+Sg+Nom:e%>#čihččet#lohká%>j K ;
@@ -19243,7 +19162,7 @@ LEXICON GUOKTECIHCCETLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#čihččet#logi%>n K ;
+ +Num+Ess:i%>X4t#čihččet#logi%>n K ;
  
 
 LEXICON GUOKTEGAVCCATLOHKAI
@@ -19281,7 +19200,7 @@ LEXICON GUOKTEGAVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#gávccát#logi%>n K ;
+ +Num+Ess:i%>X4t#gávccát#logi%>n K ;
  
 
 LEXICON GUOKTEOVCCATLOHKAI
@@ -19319,7 +19238,7 @@ LEXICON GUOKTEOVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#ovccát#logi%>n K ;
+ +Num+Ess:i%>X4t#ovccát#logi%>n K ;
 
 LEXICON GUOKTELOGATLOHKAI
  +Num+Sg+Nom:e%>#logát#lohká%>j K ;
@@ -19356,7 +19275,7 @@ LEXICON GUOKTELOGATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#logát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#logát#logi%>n K ;
+ +Num+Ess:i%>X4t#logát#logi%>n K ;
 
 
 LEXICON GUOKTELOGI
@@ -19397,14 +19316,14 @@ LEXICON GUOKTELOGI
  +Num+Pl+Ill+Use/Sub:e%>#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:e%>#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:e%>#logi%>jn K ;
- +Num+Pl+Ess:e%>#lohki%>n K ;
+ +Num+Ess:e%>#lohki%>n K ;
  +Num+Pl+Nom:i%>X4t#logi%>t K ;
  +Num+Pl+Acc:i%>X5jd#logi%>X5jd K ;
  +Num+Pl+Gen+Use/Sub:i%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:i%>X5jn#logi%>jn K ;
- +Num+Pl+Ess:i%>X4t#logi%>n K ;
+ +Num+Ess:i%>X4t#logi%>n K ;
 
 
 LEXICON GOLBMALOGIOKTA
@@ -20072,7 +19991,7 @@ LEXICON NUBBENUPPELOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#nuppe#logi%>n K ;
+ +Num+Ess:i%>X4t#nuppe#logi%>n K ;
 
 
 LEXICON NUBBEGOALMMATLOHKAI
@@ -20110,7 +20029,7 @@ LEXICON NUBBEGOALMMATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#goalmmát#logi%>n K ;
+ +Num+Ess:i%>X4t#goalmmát#logi%>n K ;
 
 
 LEXICON NUBBENJEALJATLOHKAI
@@ -20148,7 +20067,7 @@ LEXICON NUBBENJEALJATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#njealját#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#njealját#logi%>n K ;
+ +Num+Ess:i%>X4t#njealját#logi%>n K ;
 
 
 LEXICON NUBBEVIDATLOHKAI
@@ -20186,7 +20105,7 @@ LEXICON NUBBEVIDATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#viđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#viđát#logi%>n K ;
+ +Num+Ess:i%>X4t#viđát#logi%>n K ;
 
 
 LEXICON NUBBEGUDATLOHKAI
@@ -20224,7 +20143,7 @@ LEXICON NUBBEGUDATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#guđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#guđát#logi%>n K ;
+ +Num+Ess:i%>X4t#guđát#logi%>n K ;
 
 
 LEXICON NUBBECIHCCETLOHKAI
@@ -20262,7 +20181,7 @@ LEXICON NUBBECIHCCETLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#čihččet#logi%>n K ;
+ +Num+Ess:i%>X4t#čihččet#logi%>n K ;
 
 
 LEXICON NUBBEGAVCCATLOHKAI
@@ -20300,7 +20219,7 @@ LEXICON NUBBEGAVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#gávccát#logi%>n K ;
+ +Num+Ess:i%>X4t#gávccát#logi%>n K ;
 
 LEXICON NUBBEOVCCATLOHKAI
  +Num+Sg+Nom:e%>#ovccát#lohká%>j K ;
@@ -20337,7 +20256,7 @@ LEXICON NUBBEOVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#ovccát#logi%>n K ;
+ +Num+Ess:i%>X4t#ovccát#logi%>n K ;
 
 
 LEXICON NUBBELOGATLOHKAI
@@ -20375,7 +20294,7 @@ LEXICON NUBBELOGATLOHKAI
  +Num+Pl+Gen+Use/Sub:i%>X5jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:i%>X5jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:i%>X5jd#logát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:i%>X4t#logát#logi%>n K ;
+ +Num+Ess:i%>X4t#logát#logi%>n K ;
 
 LEXICON NUBBELOGI
  +Num+Sg+Nom:e%>#lohki%> K ;
@@ -20458,7 +20377,7 @@ LEXICON GOLBMANUPPELOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#nuppe#logi%>n K ;
+ +Num+Ess:%>X4t#nuppe#logi%>n K ;
 
 
 LEXICON GOLBMAGOALMMATLOHKAI
@@ -20496,7 +20415,7 @@ LEXICON GOLBMAGOALMMATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#goalmmát#logi%>n K ;
+ +Num+Ess:%>X4t#goalmmát#logi%>n K ;
 
 LEXICON GOLBMANJEALJATLOHKAI
  +Num+Sg+Nom:%>#njealját#lohká%>j K ;
@@ -20533,7 +20452,7 @@ LEXICON GOLBMANJEALJATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#njealját#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#njealját#logi%>n K ;
+ +Num+Ess:%>X4t#njealját#logi%>n K ;
 
 LEXICON GOLBMAVIDATLOHKAI
  +Num+Sg+Nom:%>#viđát#lohká%>j K ;
@@ -20570,7 +20489,7 @@ LEXICON GOLBMAVIDATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#viđát#logi%>n K ;
+ +Num+Ess:%>X4t#viđát#logi%>n K ;
 
 LEXICON GOLBMAGUDATLOHKAI
  +Num+Sg+Nom:%>#guđát#lohká%>j K ;
@@ -20607,7 +20526,7 @@ LEXICON GOLBMAGUDATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#guđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#guđát#logi%>n K ;
+ +Num+Ess:%>X4t#guđát#logi%>n K ;
 
 
 LEXICON GOLBMACIHCCETLOHKAI
@@ -20645,7 +20564,7 @@ LEXICON GOLBMACIHCCETLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#čihččet#logi%>n K ;
+ +Num+Ess:%>X4t#čihččet#logi%>n K ;
 
 
 LEXICON GOLBMAGAVCCATLOHKAI
@@ -20683,7 +20602,7 @@ LEXICON GOLBMAGAVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#gávccát#logi%>n K ;
+ +Num+Ess:%>X4t#gávccát#logi%>n K ;
 
 
 LEXICON GOLBMAOVCCATLOHKAI
@@ -20721,7 +20640,7 @@ LEXICON GOLBMAOVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#ovccát#logi%>n K ;
+ +Num+Ess:%>X4t#ovccát#logi%>n K ;
 
 LEXICON GOLBMALOGATLOHKAI
  +Num+Sg+Nom:%>#logát#lohká%>j K ;
@@ -20758,7 +20677,7 @@ LEXICON GOLBMALOGATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#logát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#logát#logi%>n K ;
+ +Num+Ess:%>X4t#logát#logi%>n K ;
 
 
 LEXICON GOLBMALOGI
@@ -20798,14 +20717,14 @@ LEXICON GOLBMALOGI
  +Num+Pl+Ill+Use/Sub:%>#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:%>#logi%>jn K ;
- +Num+Pl+Ess:%>#lohki%>n K ;
+ +Num+Ess:%>#lohki%>n K ;
  +Num+Pl+Nom:%>X4t#logi%>t K ;
  +Num+Pl+Acc:%>X5jd#logi%>X5jd K ;
  +Num+Pl+Gen+Use/Sub:%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:%>X5jn#logi%>jn K ;
- +Num+Pl+Ess:%>X4t#logi%>n K ;
+ +Num+Ess:%>X4t#logi%>n K ;
 
 
 LEXICON VIHTTA
@@ -20861,7 +20780,7 @@ LEXICON VIHTTANUPPELOHKAI
  +Num+Pl+Gen+Use/Sub:đa%>jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:đa%>jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:đa%>jd#nuppe#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:đa%>t#nuppe#logi%>n K ;
+ +Num+Ess:đa%>t#nuppe#logi%>n K ;
 
 
 LEXICON VIHTTAGOALMMATLOHKAI
@@ -20899,7 +20818,7 @@ LEXICON VIHTTAGOALMMATLOHKAI
  +Num+Pl+Gen+Use/Sub:đa%>jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:đa%>jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:đa%>jd#goalmmát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:đa%>t#goalmmát#logi%>n K ;
+ +Num+Ess:đa%>t#goalmmát#logi%>n K ;
 
 
  LEXICON VIHTTANJEALJATLOHKAI
@@ -20937,7 +20856,7 @@ LEXICON VIHTTAGOALMMATLOHKAI
  +Num+Pl+Gen+Use/Sub:đa%>jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:đa%>jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:đa%>jd#njealját#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:đa%>t#njealját#logi%>n K ;
+ +Num+Ess:đa%>t#njealját#logi%>n K ;
 
 LEXICON VIHTTAVIDATLOHKAI
  +Num+Sg+Nom:htta%>#viđát#lohká%>j K ;
@@ -20974,7 +20893,7 @@ LEXICON VIHTTAVIDATLOHKAI
  +Num+Pl+Gen+Use/Sub:đa%>jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:đa%>jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:đa%>jd#viđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:đa%>t#viđát#logi%>n K ;
+ +Num+Ess:đa%>t#viđát#logi%>n K ;
 
  LEXICON VIHTTAGUDATLOHKAI
  +Num+Sg+Nom:htta%>#guđát#lohká%>j K ;
@@ -21011,7 +20930,7 @@ LEXICON VIHTTAVIDATLOHKAI
  +Num+Pl+Gen+Use/Sub:đa%>jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:đa%>jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:đa%>jd#guđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:đa%>t#guđát#logi%>n K ;
+ +Num+Ess:đa%>t#guđát#logi%>n K ;
 
 LEXICON VIHTTACIHCCETLOHKAI
  +Num+Sg+Nom:htta%>#čihččet#lohká%>j K ;
@@ -21048,7 +20967,7 @@ LEXICON VIHTTACIHCCETLOHKAI
  +Num+Pl+Gen+Use/Sub:đa%>jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:đa%>jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:đa%>jd#čihččet#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:đa%>t#čihččet#logi%>n K ;
+ +Num+Ess:đa%>t#čihččet#logi%>n K ;
 
 LEXICON VIHTTAGAVCCATLOHKAI
  +Num+Sg+Nom:htta%>#gávccát#lohká%>j K ;
@@ -21085,7 +21004,7 @@ LEXICON VIHTTAGAVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:đa%>jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:đa%>jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:đa%>jd#gávccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:đa%>t#gávccát#logi%>n K ;
+ +Num+Ess:đa%>t#gávccát#logi%>n K ;
 
 LEXICON VIHTTAOVCCATLOHKAI
  +Num+Sg+Nom:htta%>#ovccát#lohká%>j K ;
@@ -21122,7 +21041,7 @@ LEXICON VIHTTAOVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:đa%>jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:đa%>jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:đa%>jd#ovccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:đa%>t#ovccát#logi%>n K ;
+ +Num+Ess:đa%>t#ovccát#logi%>n K ;
 
 LEXICON VIHTTALOGATLOHKAI
  +Num+Sg+Nom:htta%>#logát#lohká%>j K ;
@@ -21159,7 +21078,7 @@ LEXICON VIHTTALOGATLOHKAI
  +Num+Pl+Gen+Use/Sub:đa%>jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:đa%>jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:đa%>jd#logát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:đa%>t#logát#logi%>n K ;
+ +Num+Ess:đa%>t#logát#logi%>n K ;
 
 LEXICON VIHTTALOGI
  +Num+Sg+Nom:htta%>#lohki%> K ;
@@ -21199,14 +21118,14 @@ LEXICON VIHTTALOGI
  +Num+Pl+Ill+Use/Sub:htta%>#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:htta%>#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:htta%>#logi%>jn K ;
- +Num+Pl+Ess:htta%>#lohki%>n K ;
+ +Num+Ess:htta%>#lohki%>n K ;
  +Num+Pl+Nom:đa%>t#logi%>t K ;
  +Num+Pl+Acc:đa%>jd#logi%>X5jd K ;
  +Num+Pl+Gen+Use/Sub:đa%>jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:đa%>jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:đa%>jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:đa%>jn#logi%>jn K ;
- +Num+Pl+Ess:đa%>t#logi%>n K ;
+ +Num+Ess:đa%>t#logi%>n K ;
 
 
 
@@ -21263,7 +21182,7 @@ LEXICON CIEZANUPPELOHKAI
  +Num+Pl+Gen+Use/Sub:eža%>jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:eža%>jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:eža%>jd#nuppe#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:eža%>t#nuppe#logi%>n K ;
+ +Num+Ess:eža%>t#nuppe#logi%>n K ;
 
 LEXICON CIEZAGOALMMATLOHKAI
  +Num+Sg+Nom:eža%>#goalmmát#lohká%>j K ;
@@ -21298,7 +21217,7 @@ LEXICON CIEZAGOALMMATLOHKAI
  +Num+Pl+Gen+Use/Sub:eža%>jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:eža%>jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:eža%>jd#goalmmát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:eža%>t#goalmmát#logi%>n K ;
+ +Num+Ess:eža%>t#goalmmát#logi%>n K ;
 
 LEXICON CIEZANJEALJATLOHKAI
  +Num+Sg+Nom:eža%>#njealját#lohká%>j K ;
@@ -21333,7 +21252,7 @@ LEXICON CIEZANJEALJATLOHKAI
  +Num+Pl+Gen+Use/Sub:eža%>jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:eža%>jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:eža%>jd#njealját#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:eža%>t#njealját#logi%>n K ;
+ +Num+Ess:eža%>t#njealját#logi%>n K ;
 
 LEXICON CIEZAVIDATLOHKAI
  +Num+Sg+Nom:eža%>#viđát#lohká%>j K ;
@@ -21368,7 +21287,7 @@ LEXICON CIEZAVIDATLOHKAI
  +Num+Pl+Gen+Use/Sub:eža%>jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:eža%>jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:eža%>jd#viđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:eža%>t#viđát#logi%>n K ;
+ +Num+Ess:eža%>t#viđát#logi%>n K ;
 
 LEXICON CIEZAGUDATLOHKAI
  +Num+Sg+Nom:eža%>#guđát#lohká%>j K ;
@@ -21403,7 +21322,7 @@ LEXICON CIEZAGUDATLOHKAI
  +Num+Pl+Gen+Use/Sub:eža%>jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:eža%>jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:eža%>jd#guđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:eža%>t#guđát#logi%>n K ;
+ +Num+Ess:eža%>t#guđát#logi%>n K ;
 
 LEXICON CIEZACIHCCETLOHKAI
  +Num+Sg+Nom:eža%>#čihččet#lohká%>j K ;
@@ -21438,7 +21357,7 @@ LEXICON CIEZACIHCCETLOHKAI
  +Num+Pl+Gen+Use/Sub:eža%>jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:eža%>jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:eža%>jd#čihččet#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:eža%>t#čihččet#logi%>n K ;
+ +Num+Ess:eža%>t#čihččet#logi%>n K ;
 
 LEXICON CIEZAGAVCCATLOHKAI
  +Num+Sg+Nom:eža%>#gávccát#lohká%>j K ;
@@ -21473,7 +21392,7 @@ LEXICON CIEZAGAVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:eža%>jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:eža%>jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:eža%>jd#gávccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:eža%>t#gávccát#logi%>n K ;
+ +Num+Ess:eža%>t#gávccát#logi%>n K ;
 
 LEXICON CIEZAOVCCATLOHKAI
  +Num+Sg+Nom:eža%>#ovccát#lohká%>j K ;
@@ -21508,7 +21427,7 @@ LEXICON CIEZAOVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:eža%>jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:eža%>jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:eža%>jd#ovccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:eža%>t#ovccát#logi%>n K ;
+ +Num+Ess:eža%>t#ovccát#logi%>n K ;
 
 LEXICON CIEZALOGATLOHKAI
  +Num+Sg+Nom:eža%>#logát#lohká%>j K ;
@@ -21543,7 +21462,7 @@ LEXICON CIEZALOGATLOHKAI
  +Num+Pl+Gen+Use/Sub:eža%>jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:eža%>jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:eža%>jd#logát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:eža%>t#logát#logi%>n K ;
+ +Num+Ess:eža%>t#logát#logi%>n K ;
 
 LEXICON CIEZALOGI
  +Num+Sg+Nom:ehča%>#lohki%> K ;
@@ -21582,14 +21501,14 @@ LEXICON CIEZALOGI
  +Num+Pl+Ill+Use/Sub:eža%>#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:eža%>#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:eža%>#logi%>jn K ;
- +Num+Pl+Ess:eža%>#lohki%>n K ;
+ +Num+Ess:eža%>#lohki%>n K ;
  +Num+Pl+Nom:eža%>t#logi%>t K ;
  +Num+Pl+Acc:eža%>jd#logi%>X5jd K ;
  +Num+Pl+Gen+Use/Sub:eža%>jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:eža%>jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:eža%>jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:eža%>jn#logi%>jn K ;
- +Num+Pl+Ess:eža%>t#logi%>n K ;
+ +Num+Ess:eža%>t#logi%>n K ;
 
 
 LEXICON GAVCCI
@@ -21643,7 +21562,7 @@ LEXICON GAVCCINUPPELOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#nuppe#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#nuppe#logi%>n K ;
+ +Num+Ess:%>X4t#nuppe#logi%>n K ;
 
 LEXICON GAVCCIGOALMMATLOHKAI
  +Num+Sg+Nom:%>X4#goalmmát#lohká%>j K ;
@@ -21678,7 +21597,7 @@ LEXICON GAVCCIGOALMMATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#goalmmát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#goalmmát#logi%>n K ;
+ +Num+Ess:%>X4t#goalmmát#logi%>n K ;
 
 LEXICON GAVCCINJEALJATLOHKAI
  +Num+Sg+Nom:%>X4#njealját#lohká%>j K ;
@@ -21713,7 +21632,7 @@ LEXICON GAVCCINJEALJATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#njealját#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#njealját#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#njealját#logi%>n K ;
+ +Num+Ess:%>X4t#njealját#logi%>n K ;
 
 LEXICON GAVCCIVIDATLOHKAI
  +Num+Sg+Nom:%>X4#viđát#lohká%>j K ;
@@ -21748,7 +21667,7 @@ LEXICON GAVCCIVIDATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#viđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#viđát#logi%>n K ;
+ +Num+Ess:%>X4t#viđát#logi%>n K ;
 
 LEXICON GAVCCIGUDATLOHKAI
  +Num+Sg+Nom:%>X4#guđát#lohká%>j K ;
@@ -21783,7 +21702,7 @@ LEXICON GAVCCIGUDATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#guđát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#guđát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#guđát#logi%>n K ;
+ +Num+Ess:%>X4t#guđát#logi%>n K ;
 
 LEXICON GAVCCICIHCCETLOHKAI
  +Num+Sg+Nom:%>X4#čihččet#lohká%>j K ;
@@ -21819,7 +21738,7 @@ LEXICON GAVCCICIHCCETLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#čihččet#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#čihččet#logi%>n K ;
+ +Num+Ess:%>X4t#čihččet#logi%>n K ;
 
 LEXICON GAVCCIGAVCCATLOHKAI
  +Num+Sg+Nom:%>#gávccát#lohká%>j K ;
@@ -21854,7 +21773,7 @@ LEXICON GAVCCIGAVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#gávccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#gávccát#logi%>n K ;
+ +Num+Ess:%>X4t#gávccát#logi%>n K ;
 
 LEXICON GAVCCIOVCCATLOHKAI
  +Num+Sg+Nom:%>X4#ovccát#lohká%>j K ;
@@ -21890,7 +21809,7 @@ LEXICON GAVCCIOVCCATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#ovccát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#ovccát#logi%>n K ;
+ +Num+Ess:%>X4t#ovccát#logi%>n K ;
 
 LEXICON GAVCCILOGATLOHKAI
  +Num+Sg+Nom:%>#logát#lohká%>j K ;
@@ -21925,7 +21844,7 @@ LEXICON GAVCCILOGATLOHKAI
  +Num+Pl+Gen+Use/Sub:%>X5jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#logát#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#logát#logi%>X5jd K ; ! because of speller
- +Num+Pl+Ess:%>X4t#logát#logi%>n K ;
+ +Num+Ess:%>X4t#logát#logi%>n K ;
 
 LEXICON GAVCCILOGI
  +Num+Sg+Nom:%>#lohki%> K ;
@@ -21964,14 +21883,14 @@ LEXICON GAVCCILOGI
  +Num+Pl+Ill+Use/Sub:%>X4#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X4#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:%>X4#logi%>jn K ;
- +Num+Pl+Ess:%>X4#lohki%>n K ;
+ +Num+Ess:%>X4#lohki%>n K ;
  +Num+Pl+Nom:%>X4t#logi%>t K ;
  +Num+Pl+Acc:%>X5jd#logi%>X5jd K ;
  +Num+Pl+Gen+Use/Sub:%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Ill+Use/Sub:%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Com+Use/Sub:%>X5jd#logi%>X5jd K ; ! because of speller
  +Num+Pl+Loc:%>X5jn#logi%>jn K ;
- +Num+Pl+Ess:%>X4t#logi%>n K ;
+ +Num+Ess:%>X4t#logi%>n K ;
 
 
 
