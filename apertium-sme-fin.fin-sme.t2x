@@ -102,7 +102,9 @@
 
 
   <section-rules>
-	<rule>
+
+
+	<rule comment="Same as previous, instead of or condition in when, for noun subjects">
 		<pattern>
 			<pattern-item n="SUBJ"/>
 			<pattern-item n="AUX"/>
@@ -111,23 +113,63 @@
 		    <choose>
 		      <when>
 		        <test>
-                          <and>
-		          <equal>
-		            <clip pos="2" part="a_person"/>
-		            <lit-tag v="PD"/>
-		          </equal>
-<not>
-		          <equal>
-		            <clip pos="1" part="a_person"/>
-		            <lit v=""/>
-		          </equal>
-</not>
-                          </and>
+                  <and>
+		            <equal>
+		              <clip pos="2" part="a_person"/>
+		              <lit-tag v="PD"/>
+		            </equal>
+                    <not>
+    		          <equal>
+    		            <clip pos="1" part="a_person"/>
+    		            <lit v=""/>
+    		          </equal>
+                    </not>
+                  </and>
 		        </test>
 		        <let>
 		          <clip pos="2" part="a_person"/>
 		          <clip pos="1" part="a_person"/>
 		        </let>
+		      </when>
+		      <when>
+		        <test>
+                  <and>
+		            <equal>
+		              <clip pos="2" part="a_person"/>
+		              <lit-tag v="PD"/>
+		            </equal>
+    		          <equal>
+    		            <clip pos="1" part="a_person"/>
+    		            <lit v=""/>
+    		          </equal>
+                  </and>
+		        </test>
+		        <choose>
+			      <when>
+			        <test>
+			            <equal>
+			              <clip pos="1" part="nbr"/>
+			              <lit-tag v="Sg"/>
+			            </equal>
+			        </test>
+			        <let>
+			          <clip pos="2" part="a_person"/>
+			          <lit-tag v="Sg3"/>
+			        </let>
+			      </when>
+			      <when>
+			        <test>
+			            <equal>
+			              <clip pos="1" part="nbr"/>
+			              <lit-tag v="Pl"/>
+			            </equal>
+			        </test>
+			        <let>
+			          <clip pos="2" part="a_person"/>
+			          <lit-tag v="Pl3"/>
+			        </let>
+			      </when>
+		        </choose>
 		      </when>
 		    </choose>
 			<out>
@@ -147,6 +189,7 @@
 			</out>
 		</action>
 	</rule>
+
 	<rule>
 		<pattern>
 			<pattern-item n="NUMP"/>
