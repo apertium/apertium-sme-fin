@@ -1242,6 +1242,32 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="nominal_case_number1">
           <with-param pos="1"/>
         </call-macro>
+        <choose>
+          <when>
+            <test>
+              <and> 
+                <or>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_case"/> 
+                    <lit-tag v="Ill"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_case"/> 
+                    <lit-tag v="Loc"/>
+                  </equal>
+                </or>
+                <equal>
+                  <clip pos="1" side="tl" part="nbr"/> 
+                  <lit-tag v="Sg"/>
+                </equal>
+              </and> 
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_case"/> 
+              <lit-tag v="Gen"/>
+            </let>
+          </when>
+        </choose>
         <out>
           <chunk name="pron_pers" case="caseFirstWord">
             <tags>
@@ -1400,16 +1426,23 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
                 </equal>
               </or>
             </test>
+<!--
             <let>
               <clip pos="1" side="tl" part="a_pronattrs"/>
               <lit-tag v="Pers"/>
             </let>
+-->
             <let>
               <clip pos="1" side="tl" part="nbr"/>
-              <lit-tag v="Sg3"/>
+              <lit-tag v="Sg"/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_case"/>
+              <lit-tag v="Gen"/>
             </let>
           </when>
         </choose>
+
         <out>
           <chunk name="pron_dem" case="caseFirstWord">
             <tags>
@@ -1863,14 +1896,40 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <choose>
           <when>
             <test>
+              <and>
                 <equal>
                   <clip pos="1" side="sl" part="a_person"/>
                   <lit-tag v="Pe4"/>
                 </equal>
+                <equal>
+                  <clip pos="1" side="sl" part="a_neg"/>
+                  <lit v=""/>
+                </equal>
+              </and>
             </test>
             <let>
               <clip pos="1" side="tl" part="a_person"/>
               <lit-tag v="Sg3"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <and>
+                <equal>
+                  <clip pos="1" side="sl" part="a_person"/>
+                  <lit-tag v="Pe4"/>
+                </equal>
+                <not>
+                  <equal>
+                    <clip pos="1" side="sl" part="a_neg"/>
+                    <lit v=""/>
+                  </equal>
+                </not>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_person"/>
+              <lit v=""/>
             </let>
           </when>
         </choose>
