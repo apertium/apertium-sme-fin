@@ -3860,7 +3860,13 @@
 	<!-- end adverbs -->
     <!-- verbs -->
 	
-	<e><p><l>fertet<s n="V"/><s n="IV"/></l><r>täytyä<s n="V"/></r></p><par n="V_V"/></e>
+	<e><p><l>fertet<s n="V"/><s n="IV"/></l><r>täytyä<s n="V"/></r></p><par n="V_V"/></e><!-- must -->
+
+    <e><p><l>doallat<s n="V"/><s n="TV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- hold (acc) -->
+    <e srl="1"><p><l>berret<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- burde, ought to -->
+    <e srl="2"><p><l>liikot<s n="V"/><s n="TV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- like (ela to ill)  -->
+    <e srl="3"><p><l>coakcut<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- get grip, foothold -->
+<!--    <e r="LR"><p><l>galgat<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e>--><!-- skulle, should -->
 
 	<!-- <e><p><l>bargat<g><b/>eatnama</g><s n="V"/><s n="TV"/></l><r>viljellä<s n="V"/></r></p><par n="V_V"/></e> -->
 	<e><p><l>jáhkkit<s n="V"/><s n="TV"/></l><r>luulla<s n="V"/></r></p><par n="V_V"/></e>
@@ -3957,7 +3963,6 @@
     <e><p><l>bearráigeahččat<s n="V"/><s n="TV"/></l><r>katsoa perässä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>beassat<s n="V"/><s n="IV"/></l><r>päästä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>beroštit<s n="V"/><s n="IV"/></l><r>välittää<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>berret<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>bidjat<s n="V"/><s n="TV"/></l><r>panna<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>bieggat<s n="V"/><s n="IV"/></l><r>puhaltaa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>bieguhit<s n="V"/><s n="TV"/></l><r>kiusata<s n="V"/></r></p><par n="V_V"/></e>
@@ -4002,7 +4007,6 @@
     <e><p><l>caggat<s n="V"/><s n="TV"/></l><r>estää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>cealkit<s n="V"/><s n="TV"/></l><r>lausua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>ciellat<s n="V"/><s n="TV"/></l><r>haukkua<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>coakcut<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>coggat<s n="V"/><s n="TV"/></l><r>panna<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>cummestit<s n="V"/><s n="TV"/></l><r>suudella<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>cuovkanit<s n="V"/><s n="IV"/></l><r>murskaantua<s n="V"/></r></p><par n="V_V"/></e>
@@ -4027,7 +4031,6 @@
     <e><p><l>doahput<s n="V"/><s n="TV"/></l><r>tarttua<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>doaibmat<s n="V"/><s n="IV"/></l><r>toimia<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>doaivut<s n="V"/><s n="TV"/></l><r>toivoa<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>doallat<s n="V"/><s n="TV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>doalvut<s n="V"/><s n="TV"/></l><r>tuoda<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>doapmat<s n="V"/><s n="IV"/></l><r>kiirehtiä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>doarjut<s n="V"/><s n="TV"/></l><r>tukea<s n="V"/></r></p><par n="V_V"/></e>
@@ -4069,7 +4072,6 @@
     <e><p><l>fitnat<s n="V"/><s n="IV"/></l><r>käydä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>fállat<s n="V"/><s n="TV"/></l><r>tarjota<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>gahččat<s n="V"/><s n="IV"/></l><r>putoa<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>galgat<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>galledit<s n="V"/><s n="TV"/></l><r>vierailla<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>gallánit<s n="V"/><s n="IV"/></l><r>täyttyä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>geahkat<s n="V"/><s n="TV"/></l><r>kukkua<s n="V"/></r></p><par n="V_V"/></e>
