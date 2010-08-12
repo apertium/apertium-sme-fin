@@ -142,6 +142,12 @@
       <cat-item tags="N.Prop.Plc.*"/>
       <cat-item tags="N.Prop.Mal.*"/>
     </def-cat>
+    <def-cat n="oma_com">
+      <cat-item lemma="oma" tags="A.Pos.Pl.Ins.@→N"/>
+    </def-cat>
+    <def-cat n="nom_com">
+      <cat-item tags="N.Pl.Ins"/>
+    </def-cat>
     <def-cat n="oma">
       <cat-item lemma="oma" tags="A.Pos.*"/>
     </def-cat>
@@ -2431,6 +2437,37 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="2" side="tl" part="a_foc"/>
               <clip pos="2" side="tl" part="lemq"/>
               <var n="cur_noun_postp"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="regla: omin nom.Com">
+      <pattern>
+		  <pattern-item n="oma_com"/> <!-- A.Pos.Pl.Ins.@>N -->
+		  <pattern-item n="nom_com"/> <!-- N.Pl.Ins -->
+      </pattern>
+      <action>
+        <out>
+          <chunk name="omin_com" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <lit-tag v="Pron.Refl.Gen"/>
+              <clip pos="1" side="tl" part="a_person"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_nom"/>
+			  <lit-tag v="Pl.Com"/>
+			  <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
