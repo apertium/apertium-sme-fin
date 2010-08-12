@@ -3244,6 +3244,20 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="nominal_case_number1">
           <with-param pos="1"/>
         </call-macro>
+		<choose> <!-- why does this need to be repeated? -->
+        <!-- strip number when case is essive -->
+        <when>
+          <test>
+            <equal>
+              <clip pos="1" side="tl" part="a_case"/>
+              <lit-tag v="Ess"/>
+            </equal>
+          </test>
+          <call-macro n="strip_nbr">
+            <with-param pos="1"/>
+          </call-macro>
+        </when>
+      </choose>
         <!-- <choose>
 			<when>
 				<test>
