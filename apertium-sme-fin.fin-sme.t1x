@@ -1911,10 +1911,16 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <choose>
           <when>
             <test>
+              <or>
                 <equal caseless="yes">
                   <clip pos="1" side="sl" part="lem"/>
                   <lit v="täytyä"/>
                 </equal>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="pitää:1"/>
+                </equal>
+              </or>
             </test>
             <let>
               <clip pos="1" side="tl" part="a_person"/>
