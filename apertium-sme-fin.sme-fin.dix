@@ -2919,7 +2919,7 @@
     <e><p><l>čázet<s n="N"/></l><r>nahkakenkä<s n="N"/></r></p></e>
     <e><p><l>čázit<s n="N"/></l><r>vesi<s n="N"/></r></p></e>
 	<e><p><l>apparáhta<s n="N"/></l><r>laite<s n="N"/></r></p></e>
-	<e><p><l>čoaggin<s n="N"/></l><r>keräys<s n="N"/></r></p></e>
+	<e><p><l>čoaggi<s n="N"/><s n="Actor"/></l><r>keräys<s n="N"/></r></p></e>
 	<e><p><l>sajáiduhttima<s n="N"/></l><r>asennus<s n="N"/></r></p></e>
 	<e><p><l>vuogádat<s n="N"/></l><r>järjestelmä<s n="N"/></r></p></e>
 	<e><p><l>fitnodatsearvi<s n="N"/></l><r>yhtiö<s n="N"/></r></p></e>
@@ -3416,7 +3416,7 @@
     <!-- adjectives -->
 	<e><p><l>friddja<s n="A"/></l><r>vapaa<s n="A"/></r></p><par n="A_A"/></e>
  	<e><p><l>duohta<s n="A"/></l><r>tosi<s n="A"/></r></p><par n="A_A"/></e>
- 	<e><p><l>bajimus<s n="A"/></l><r>ylimmäinen<s n="A"/></r></p><par n="A_A"/></e>
+ 	<e><p><l>bajit<s n="A"/></l><r>ylimmäinen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>earálágán<s n="A"/></l><r>erilainen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>gaskkamus<s n="A"/></l><r>keskimmäinen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>hearvái<s n="A"/></l><r>ihana<s n="A"/></r></p><par n="A_A"/></e>

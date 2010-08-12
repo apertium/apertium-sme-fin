@@ -120,6 +120,9 @@
       <cat-item tags="Num.Ord.*"/>
     </def-cat>
     <def-cat n="num">
+      <cat-item lemma="yksi" tags="Pron.*"/>
+      <cat-item lemma="usea" tags="Pron.*"/>
+      <cat-item lemma="moni" tags="Pron.*"/>
       <cat-item tags="Num.Card.*"/>
     </def-cat>
     <def-cat n="nums">
@@ -1223,6 +1226,50 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: NUM">
+      <pattern>
+        <pattern-item n="num"/>
+      </pattern>
+      <action>
+        <call-macro n="set_noun_postp">
+          <with-param pos="2"/>
+        </call-macro>
+        <call-macro n="set_loc_loc1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_all_ill1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_tra_ill1">
+          <with-param pos="1"/>
+        </call-macro>
+        <call-macro n="set_par_gen2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
+        <out>
+          <chunk name="num" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+              <tag><clip pos="1" side="tl" part="nbr"/></tag>
+              <tag><clip pos="1" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_num"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="a_case"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+
     <!-- begin pronoun rules -->
     <rule comment="regla: pron.indef">
       <!-- indefinite pronouns 'juohke' have no number/case in sámi -->
@@ -1466,6 +1513,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
                 <equal>
                   <clip pos="1" side="tl" part="a_case"/>
                   <lit-tag v="Loc"/>
+                </equal>
+                <equal>
+                  <clip pos="1" side="tl" part="a_case"/>
+                  <lit-tag v="Abe"/>
                 </equal>
               </or>
             </test>
@@ -2105,6 +2156,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     <!-- end verb rules -->
     <!-- begin noun rules -->
     <!-- Need to move the multi-word rules up a level -->
+
     <rule comment="regla: appearance adverbials: adj adv">
       <!-- uskonnollinen hengiltään -> vuoiŋŋa mielde works with adj, not with non 3pPx. -->
       <pattern>
