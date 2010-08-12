@@ -3864,7 +3864,7 @@
 
     <e><p><l>doallat<s n="V"/><s n="TV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- hold (acc) -->
     <e srl="1"><p><l>berret<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- burde, ought to -->
-    <e srl="2"><p><l>liikot<s n="V"/><s n="TV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- like (ela to ill)  -->
+    <e srl="2"><p><l>liikot<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- like (ela to ill)  -->
     <e srl="3"><p><l>coakcut<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- get grip, foothold -->
 <!--    <e r="LR"><p><l>galgat<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e>--><!-- skulle, should -->
 

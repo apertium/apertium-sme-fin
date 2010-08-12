@@ -18,4 +18,4 @@ SECTION
 # pitää → 1: berret, 2: liikot, 3: coakcut
 
 SUBSTITUTE ("pitää") ("pitää:1") ("pitää" V) ((-1* @SUBJ→ + Gen BARRIER CLB) OR (1* @←SUBJ + Gen BARRIER CLB));
-SUBSTITUTE ("pitää") ("pitää:2") ("pitää" V) ((1* @←OBJ + Ela BARRIER CLB) OR (-1* @OBJ→ + Ela BARRIER CLB));
+SUBSTITUTE ("pitää") ("pitää:2") ("pitää" V) ((1* Ela BARRIER CLB) OR (-1* Ela BARRIER CLB));
