@@ -713,6 +713,10 @@
 	<e><p><l>alitdiehpperássi<s n="N" /></l><r>huopaohdake<s n="N"/></r></p></e>
 	<e><p><l>alitgáiski<s n="N" /></l><r>korpi-imarre<s n="N"/></r></p></e>
 	<e><p><l>alitnárti<s n="N" /></l><r>sinirikko<s n="N"/></r></p></e>
+	<e><p><l>dálviluopmu<s n="N" /></l><r>talviloma<s n="N"/></r></p></e>
+	<e><p><l>báiki<s n="N" /></l><r>haku<s n="N"/></r></p></e>
+	<e><p><l>alkohola<s n="N" /></l><r>alkoholi<s n="N"/></r></p></e>
+	<e><p><l>karamealla<s n="N" /></l><r>karamelli<s n="N"/></r></p></e>
 	<e><p><l>alitnásti<s n="N" /></l><r>tunturikatkero<s n="N"/></r></p></e>
 	<e><p><l>alitrássi<s n="N" /></l><r>metsäkurjenpolvi<s n="N"/></r></p></e>
 	<e><p><l>alásgožot<s n="N" /></l><r>tunturikeulankärki<s n="N"/></r></p></e>
@@ -3225,7 +3229,7 @@
     <e><p><l>Románia<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Romania<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Ruksesmearra<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Punainenmeri<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Ruonáeana<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Gröönlanti<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Ruoŧŧa<s n="N"/><s n="Prop"/></l><r>Ruotsi<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Ruoŧŧa<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ruotsi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Ruoŧŧa<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ruotsi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Ruošša<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Venäjä<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Rádjeeatnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Könkämäeno<s n="N"/><s n="Prop"/></r></p></e>
@@ -3348,6 +3352,7 @@
 	<e><p><l>Deatnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Teno<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Divttasvuotna<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Tysfjord<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Finnmárku<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ruija<s n="N"/><s n="Prop"/></r></p></e>
+	<e><p><l>Finnmárku<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Finnmark<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Gilbbesjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kilpisjärvi<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Girkonjárga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kirkkoniemi<s n="N"/><s n="Prop"/></r></p></e>
 	<e><p><l>Guovdageaidnu<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Koutokeino<s n="N"/><s n="Prop"/></r></p></e>
@@ -4377,6 +4382,7 @@
 	<e><p><l>mielahuddat<s n="V"/><s n="IV"/></l><r>raivota<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>njivžut<s n="V"/><s n="IV"/></l><r>roihuta<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>borgit<s n="V"/><s n="IV"/></l><r>savuta<s n="V"/></r></p><par n="V_V" /></e>
+	<e><p><l>gávdnat<s n="V"/><s n="TV"/></l><r>löytää<s n="V"/></r></p><par n="V_V" /></e>
 	
 	
 	<!-- verbs end -->

@@ -355,7 +355,7 @@
       <attr-item tags="ConNeg"/>
     </def-attr>
     <def-attr n="a_qst">
-      <attr-item tags="Qst.*"/>
+      <attr-item tags="Qst"/>
     </def-attr>
     <def-attr n="a_foc">
       <!-- Fin -->
