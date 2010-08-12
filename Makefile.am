@@ -14,6 +14,7 @@ TARGETS_COMMON = \
 	$(PREFIX2).autogen.hfst \
 	$(PREFIX2).automorf.hfst \
 	$(PREFIX2).rlx.bin \
+	$(PREFIX2).lex.bin \
 	$(PREFIX2).autobil.bin \
 	$(PREFIX2).t1x.bin \
 	$(PREFIX2).t2x.bin \
@@ -118,6 +119,13 @@ $(PREFIX2).autobil.bin: .deps/$(BASENAME).$(PREFIX1).dix
 
 $(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
 	cg-comp $(BASENAME).$(PREFIX2).rlx $@
+
+##
+##	LEXICAL SELECTION: CONSTRAINT GRAMMAR(S)
+##
+
+$(PREFIX2).lex.bin: $(BASENAME).$(PREFIX2).lex
+	cg-comp $(BASENAME).$(PREFIX2).lex $@
 
 ##
 ##	TRANSFER RULES
