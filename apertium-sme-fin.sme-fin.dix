@@ -986,7 +986,11 @@
     <e><p><l>almmuhus<s n="N"/></l><r>ilmoitus<s n="N"/></r></p></e>
     <e><p><l>almmustus<s n="N"/></l><r>ilmestys<s n="N"/></r></p></e>
     <e><p><l>almmái<s n="N"/></l><r>mies<s n="N"/></r></p></e>
+<!--
+    <e><p><l>dievdoolmmoš<s n="N"/></l><r>mies<s n="N"/></r></p></e>
+    <e><p><l>dievdu<s n="N"/></l><r>mies<s n="N"/></r></p></e>
     <e><p><l>almmáiolmmoš<s n="N"/></l><r>mies<s n="N"/></r></p></e>
+-->
     <e><p><l>aloe<s n="N"/></l><r>seos<s n="N"/></r></p></e>
     <e><p><l>aláš<s n="N"/></l><r>pinta<s n="N"/></r></p></e>
     <e><p><l>ametysta<s n="N"/></l><r>ametisti<s n="N"/></r></p></e>
@@ -1265,8 +1269,6 @@
     <e><p><l>dierbmá<s n="N"/></l><r>ukkonenjylinä<s n="N"/></r></p></e>
     <e><p><l>dievdogahpir<s n="N"/></l><r>miestenhattu<s n="N"/></r></p></e>
     <e><p><l>dievdogákti<s n="N"/></l><r>miehenkauhti<s n="N"/></r></p></e>
-    <e><p><l>dievdoolmmoš<s n="N"/></l><r>mies<s n="N"/></r></p></e>
-    <e><p><l>dievdu<s n="N"/></l><r>mies<s n="N"/></r></p></e>
     <e><p><l>dieđa<s n="N"/></l><r>tiede<s n="N"/></r></p></e>
     <e><p><l>digaštallan<s n="N"/></l><r>sanakiista<s n="N"/></r></p></e>
     <e><p><l>dihtor<s n="N"/></l><r>tietokone<s n="N"/></r></p></e>
