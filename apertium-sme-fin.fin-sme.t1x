@@ -10,6 +10,10 @@
       <cat-item tags="CC.*"/>
       <cat-item tags="CS.*"/>
     </def-cat>
+    <def-cat n="interj">
+      <cat-item tags="Interj"/>
+      <cat-item tags="Interj.*"/>
+    </def-cat>
     <def-cat n="adv">
       <cat-item tags="Adv"/>
       <cat-item tags="Adv.*"/>
@@ -196,6 +200,9 @@
     <def-attr n="gen">
       <attr-item tags="Fem"/>
       <attr-item tags="Masc"/>
+    </def-attr>
+    <def-attr n="a_interj">
+      <attr-item tags="Interj"/>
     </def-attr>
     <def-attr n="a_verb">
       <attr-item tags="V"/>
@@ -3507,6 +3514,26 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_adp"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="REGLA: INTERJ">
+      <pattern>
+        <pattern-item n="interj"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="ij" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="IJ"/></tag>
+              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_interj"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
