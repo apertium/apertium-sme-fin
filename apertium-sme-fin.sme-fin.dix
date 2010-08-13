@@ -4145,7 +4145,7 @@
     <e><p><l>fillet<s n="V"/><s n="TV"/></l><r>pettää<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>firrestit<s n="V"/><s n="TV"/></l><r>hämmentää<b/>hieman<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>fitnat<s n="V"/><s n="IV"/></l><r>käydä<s n="V"/></r></p><par n="V_V"/></e>
-    <e><p><l>fitnat<s n="V"/><s n="IV"/></l><r>käydä<s n="V"/></r></p><par n="V_V"/></e>
+    <e srl="1"><p><l>fallehit<s n="V"/><s n="IV"/></l><r>käydä<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>fállat<s n="V"/><s n="TV"/></l><r>tarjota<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>gahččat<s n="V"/><s n="IV"/></l><r>putoa<s n="V"/></r></p><par n="V_V"/></e>
     <e><p><l>galledit<s n="V"/><s n="TV"/></l><r>vierailla<s n="V"/></r></p><par n="V_V"/></e>
