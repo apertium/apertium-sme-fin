@@ -4191,7 +4191,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="nom"/>
       </pattern>
       <action>
-        <call-macro n="set_loc_loc1">
+        <call-macro n="nominal_case_number2">
+            <with-param pos="1"/>
+            <with-param pos="2"/>
+        </call-macro>
+<!--         <call-macro n="set_loc_loc1">
           <with-param pos="1"/>
         </call-macro>
         <call-macro n="set_all_ill1">
@@ -4206,7 +4210,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_foc_particles">
           <with-param pos="2"/>
         </call-macro>
-        <choose>
+ -->        <choose>
           <!-- Strip number on attr if essive -->
           <when>
             <test>
