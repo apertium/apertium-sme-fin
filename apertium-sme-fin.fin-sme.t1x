@@ -90,7 +90,7 @@
       <!-- goappašat, guktot -->
       <!-- <cat-item tags="Pron.Interr.*.*."/> -->
       <!-- guhte, goabbá -->
-	  <!-- <cat-item tags="Pron.Rel.*.*.@N→"/> -->
+      <!-- <cat-item tags="Pron.Rel.*.*.@N→"/> -->
       <!-- guhte, goabbá ?? maybe remove interr? -->
       <cat-item lemma="hyvä" tags="A.*"/>
       <!-- buorre -->
@@ -159,7 +159,7 @@
       <cat-item lemma="oma" tags="A.Pos.*"/>
     </def-cat>
     <def-cat n="oma_attr">
-		<cat-item lemma="oma" tags="A.Pos.*.*.*.@→N"/>
+      <cat-item lemma="oma" tags="A.Pos.*.*.*.@→N"/>
     </def-cat>
     <def-cat n="attr">
       <cat-item tags="A.*.*.*.@→N"/>
@@ -181,10 +181,12 @@
     </def-cat>
     <def-cat n="pronindef">
       <cat-item tags="Pron.Indef.*"/>
-  	</def-cat>
-  
+    </def-cat>
     <def-cat n="pron_subj">
       <cat-item tags="Pron.Pers.*.*.@SUBJ→"/>
+    </def-cat>
+	<def-cat n="pron_gen">
+      <cat-item tags="Pron.Pers.*.Gen.@N→"/>
     </def-cat>
     <def-cat n="pron_pers">
       <cat-item tags="Pron.Pers.*"/>
@@ -433,7 +435,8 @@
     </def-attr>
   </section-def-attrs>
   <section-def-vars>
-    <def-var n="cur_derivation"/> <!-- for example Der2.Der_PassL.V -->
+    <def-var n="cur_derivation"/>
+    <!-- for example Der2.Der_PassL.V -->
     <def-var n="number"/>
     <def-var n="case"/>
     <def-var n="comitative_num"/>
@@ -473,7 +476,7 @@
         <var n="cur_derivation"/>
         <lit v=""/>
       </let>
-       <choose>
+      <choose>
         <when>
           <test>
             <equal>
@@ -485,8 +488,8 @@
             <var n="cur_derivation"/>
             <lit-tag v="Der2.Der_PassL.V"/>
           </let>
-         </when>
-       </choose>
+        </when>
+      </choose>
     </def-macro>
     <def-macro n="set_noun_postp" npar="1">
       <let>
@@ -570,7 +573,8 @@
       <call-macro n="obj_case_accusative">
         <with-param pos="1"/>
       </call-macro>
-      <choose> <!-- This stanza sets the possessive suffix to '' if the word is in plural nominative -->
+      <choose>
+        <!-- This stanza sets the possessive suffix to '' if the word is in plural nominative -->
         <when>
           <test>
             <and>
@@ -584,18 +588,18 @@
               </equal>
               <not>
                 <and>
-                    <equal>
-                      <clip pos="1" side="tl" part="a_pxprs"/>
-                      <lit v=""/>
-                    </equal>
-                    <equal>
-                      <clip pos="1" side="tl" part="a_pxprs"/>
-                      <lit-tag v="PxSg1"/>
-                    </equal>
-                    <equal>
-                      <clip pos="1" side="tl" part="a_pxprs"/>
-                      <lit-tag v="PxPl1"/>
-                    </equal>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_pxprs"/>
+                    <lit v=""/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_pxprs"/>
+                    <lit-tag v="PxSg1"/>
+                  </equal>
+                  <equal>
+                    <clip pos="1" side="tl" part="a_pxprs"/>
+                    <lit-tag v="PxPl1"/>
+                  </equal>
                 </and>
               </not>
             </and>
@@ -610,7 +614,6 @@
           </let>
         </when>
       </choose>
-
     </def-macro>
     <def-macro n="subj_case_nominative" npar="1" c="When the syntactic tag is @SUBJ, case must be nominative">
       <choose>
@@ -668,7 +671,6 @@
         </when>
       </choose>
     </def-macro>
-
     <def-macro n="set_comitative_number" npar="1" c="When noun case is comitative, add 'Sg' tag">
       <choose>
         <when>
@@ -695,10 +697,10 @@
       <choose>
         <when>
           <test>
-              <equal>
-                <clip pos="1" side="sl" part="a_foc"/>
-                <lit-tag v="Foc_pa"/>
-              </equal>
+            <equal>
+              <clip pos="1" side="sl" part="a_foc"/>
+              <lit-tag v="Foc_pa"/>
+            </equal>
           </test>
           <let>
             <clip pos="1" side="tl" part="a_foc"/>
@@ -707,10 +709,10 @@
         </when>
         <when>
           <test>
-              <equal>
-                <clip pos="1" side="sl" part="a_foc"/>
-                <lit-tag v="Foc_s"/>
-              </equal>
+            <equal>
+              <clip pos="1" side="sl" part="a_foc"/>
+              <lit-tag v="Foc_s"/>
+            </equal>
           </test>
           <let>
             <clip pos="1" side="tl" part="a_foc"/>
@@ -975,22 +977,22 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </call-macro>
         <out>
           <chunk name="copulasg3" case="caseFirstWord">
-          <tags>
-            <tag><lit-tag v="V"/></tag>
-            <tag><var n="current_syntag"/></tag>
-            <tag><lit-tag v="PD"/></tag>
-          </tags>
-          <lu>
-            <lit v="fertet"/>
-            <lit-tag v="V.IV.Ind.Prs.3"/>
-          </lu>
-          <b pos="1"/>
-          <lu>
-            <clip pos="2" side="tl" part="lemh"/>
-            <clip pos="2" side="tl" part="a_verb"/>
-            <lit-tag v="Inf"/>
-            <clip pos="2" side="tl" part="lemq"/>
-          </lu>
+            <tags>
+              <tag><lit-tag v="V"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><lit-tag v="PD"/></tag>
+            </tags>
+            <lu>
+              <lit v="fertet"/>
+              <lit-tag v="V.IV.Ind.Prs.3"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <clip pos="2" side="tl" part="a_verb"/>
+              <lit-tag v="Inf"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
           </chunk>
         </out>
       </action>
@@ -1226,7 +1228,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
     <rule comment="REGLA: NUM">
       <pattern>
         <pattern-item n="num"/>
@@ -1267,9 +1268,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-
-
-
     <!-- begin pronoun rules -->
     <rule comment="regla: pron.indef">
       <!-- indefinite pronouns 'juohke' have no number/case in sámi -->
@@ -1291,15 +1289,15 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           </chunk>
         </out>
       </action>
-  </rule>
-  <rule>
-	  <pattern>
-		  <pattern-item n="pron_subj"/>
-		</pattern>
-		<action>
+    </rule>
+    <rule>
+      <pattern>
+        <pattern-item n="pron_subj"/>
+      </pattern>
+      <action>
         <call-macro n="nominal_case_number1">
           <with-param pos="1"/>
-	  	</call-macro>
+        </call-macro>
         <out>
           <chunk name="pron_pers" case="caseFirstWord">
             <tags>
@@ -1318,42 +1316,42 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </lu>
           </chunk>
         </out>
-		<let>
-			<var n="cur_person"/>
-			<clip pos="1" side="tl" part="a_person"/>
-		</let>
-		</action>
-	</rule>
-	<rule comment="regla: pron.pers">
+        <let>
+          <var n="cur_person"/>
+          <clip pos="1" side="tl" part="a_person"/>
+        </let>
+      </action>
+    </rule>
+    <rule comment="regla: pron.pers">
       <pattern>
         <pattern-item n="pron_pers"/>
       </pattern>
       <action>
         <call-macro n="nominal_case_number1">
           <with-param pos="1"/>
-	  	</call-macro>
+        </call-macro>
         <choose>
           <when>
             <test>
-              <and> 
+              <and>
                 <or>
                   <equal>
-                    <clip pos="1" side="tl" part="a_case"/> 
+                    <clip pos="1" side="tl" part="a_case"/>
                     <lit-tag v="Ill"/>
                   </equal>
                   <equal>
-                    <clip pos="1" side="tl" part="a_case"/> 
+                    <clip pos="1" side="tl" part="a_case"/>
                     <lit-tag v="Loc"/>
                   </equal>
                 </or>
                 <equal>
-                  <clip pos="1" side="tl" part="nbr"/> 
+                  <clip pos="1" side="tl" part="nbr"/>
                   <lit-tag v="Sg"/>
                 </equal>
-              </and> 
+              </and>
             </test>
             <let>
-              <clip pos="1" side="tl" part="a_case"/> 
+              <clip pos="1" side="tl" part="a_case"/>
               <lit-tag v="Gen"/>
             </let>
           </when>
@@ -1436,23 +1434,23 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <lit-tag v="Pron.Pers"/>
             </let>
           </when>
-	  </choose>
-	  <!-- for some reason the number removal from before didn't work, so trying again. Probably didn't play well with the other macros? -->
-	  <!-- Suurin osa kirkoista on rakennettu aikana, jona ei ollut vaihtoehtona olla kuulumatta uskontoporukoihin. -->
-	  <choose>
-        <!-- strip number when case is essive -->
-        <when>
-          <test>
-            <equal>
-              <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Ess"/>
-            </equal>
-          </test>
-          <call-macro n="strip_nbr">
-            <with-param pos="1"/>
-          </call-macro>
-        </when>
-      </choose>
+        </choose>
+        <!-- for some reason the number removal from before didn't work, so trying again. Probably didn't play well with the other macros? -->
+        <!-- Suurin osa kirkoista on rakennettu aikana, jona ei ollut vaihtoehtona olla kuulumatta uskontoporukoihin. -->
+        <choose>
+          <!-- strip number when case is essive -->
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_case"/>
+                <lit-tag v="Ess"/>
+              </equal>
+            </test>
+            <call-macro n="strip_nbr">
+              <with-param pos="1"/>
+            </call-macro>
+          </when>
+        </choose>
         <out>
           <chunk name="pron_rel" case="caseFirstWord">
             <tags>
@@ -1520,7 +1518,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
                 </equal>
               </or>
             </test>
-<!--
+            <!--
             <let>
               <clip pos="1" side="tl" part="a_pronattrs"/>
               <lit-tag v="Pers"/>
@@ -1536,7 +1534,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
-
         <out>
           <chunk name="pron_dem" case="caseFirstWord">
             <tags>
@@ -1645,7 +1642,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </let>
       </action>
     </rule>
-
     <rule comment="regla: participles">
       <pattern>
         <pattern-item n="pcps"/>
@@ -1675,7 +1671,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </let>
       </action>
     </rule>
-
     <rule comment="regla: inf2: inf2+Ine → Ger, Inf2+Ins → VGen">
       <!-- Lapsi tuli itkien kotiin = mánná bođii čieru ruoktot -->
       <!-- Lapsi tuli itkien kotiin = mánná bođii čieru ruoktot -->
@@ -1975,7 +1970,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </let>
       </action>
     </rule>
-
     <rule comment="regla: passive verb">
       <pattern>
         <pattern-item n="vpass"/>
@@ -2064,8 +2058,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </let>
       </action>
     </rule>
-
-
     <rule comment="regla: verb">
       <pattern>
         <pattern-item n="verb"/>
@@ -2097,7 +2089,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
-
         <choose>
           <when>
             <test>
@@ -2122,7 +2113,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <chunk name="verb" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="V"/></tag>
-              <tag><var n="current_syntag"/></tag> 
+              <tag><var n="current_syntag"/></tag>
               <tag><clip pos="1" side="tl" part="a_person"/></tag>
             </tags>
             <lu>
@@ -2156,7 +2147,6 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     <!-- end verb rules -->
     <!-- begin noun rules -->
     <!-- Need to move the multi-word rules up a level -->
-
     <rule comment="regla: appearance adverbials: adj adv">
       <!-- uskonnollinen hengiltään -> vuoiŋŋa mielde works with adj, not with non 3pPx. -->
       <pattern>
@@ -2598,72 +2588,86 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
     </rule>
     <rule comment="regla: omin nom.Com">
       <pattern>
-		  <pattern-item n="oma_com"/> <!-- A.Pos.Pl.Ins.@>N -->
-		  <pattern-item n="nom_com"/> <!-- N.Pl.Ins -->
+        <pattern-item n="oma_com"/>
+        <!-- A.Pos.Pl.Ins.@>N -->
+        <pattern-item n="nom_com"/>
+        <!-- N.Pl.Ins -->
       </pattern>
-	  <action>
-		<choose>
-			  <when>
-				<test><equal>
-						<var n="cur_person"/>
-						<lit-tag v="Sg1"/>
-				</equal></test>
-				<let>
-					<var n="default_px"/>
-					<lit-tag v="PxSg1"/>
-				</let>
-			</when>
-			  <when>
-				<test><equal>
-						<var n="cur_person"/>
-						<lit-tag v="Sg2"/>
-				</equal></test>
-				<let>
-					<var n="default_px"/>
-					<lit-tag v="PxSg2"/>
-				</let>
-			</when>
-			  <when>
-				<test><equal>
-						<var n="cur_person"/>
-						<lit-tag v="Sg3"/>
-				</equal></test>
-				<let>
-					<var n="default_px"/>
-					<lit-tag v="PxSg3"/>
-				</let>
-			</when>
-			  <when>
-				<test><equal>
-						<var n="cur_person"/>
-						<lit-tag v="Pl1"/>
-				</equal></test>
-				<let>
-					<var n="default_px"/>
-					<lit-tag v="PxPl1"/>
-				</let>
-			</when>
-			  <when>
-				<test><equal>
-						<var n="cur_person"/>
-						<lit-tag v="Pl2"/>
-				</equal></test>
-				<let>
-					<var n="default_px"/>
-					<lit-tag v="PxPl2"/>
-				</let>
-			</when>
-			  <when>
-				<test><equal>
-						<var n="cur_person"/>
-						<lit-tag v="Pl3"/>
-				</equal></test>
-				<let>
-					<var n="default_px"/>
-					<lit-tag v="PxPl3"/>
-				</let>
-			</when>
-		</choose>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <var n="cur_person"/>
+                <lit-tag v="Sg1"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxSg1"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <var n="cur_person"/>
+                <lit-tag v="Sg2"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxSg2"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <var n="cur_person"/>
+                <lit-tag v="Sg3"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxSg3"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <var n="cur_person"/>
+                <lit-tag v="Pl1"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxPl1"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <var n="cur_person"/>
+                <lit-tag v="Pl2"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxPl2"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <var n="cur_person"/>
+                <lit-tag v="Pl3"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxPl3"/>
+            </let>
+          </when>
+        </choose>
         <out>
           <chunk name="omin_com" case="caseFirstWord">
             <tags>
@@ -2675,18 +2679,180 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <lit-tag v="Pron.Refl.Gen"/>
-			  <var n="default_px"/>
-			  <clip pos="1" side="tl" part="lemq"/>
+              <var n="default_px"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <clip pos="2" side="tl" part="a_nom"/>
-			  <lit-tag v="Pl.Com"/>
-			  <clip pos="2" side="tl" part="lemq"/>
+              <lit-tag v="Pl.Com"/>
+              <clip pos="2" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
+      </action>
+    </rule>
+    <rule comment="regla: pron.gen oma nom">
+      <pattern>
+        <pattern-item n="pron_gen"/>
+        <pattern-item n="oma_attr"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+		<!-- Set the possessive suffix based on the personal pronoun. -->
+		<choose>
+          <when>
+            <test>
+              <equal>
+				<!-- Prefer to use target language here since tags are better. Finnish side pronoun tags are silly. -->
+				<clip pos="1" side="tl" part="a_person"/>
+                <lit-tag v="Sg1"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxSg1"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_person"/>
+                <lit-tag v="Sg2"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxSg2"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_person"/>
+                <lit-tag v="Sg3"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxSg3"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_person"/>
+                <lit-tag v="Pl1"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxPl1"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_person"/>
+                <lit-tag v="Pl2"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxPl2"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_person"/>
+                <lit-tag v="Pl3"/>
+              </equal>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxPl3"/>
+            </let>
+          </when>
+        </choose>
+	
+        <call-macro n="set_noun_postp">
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="nominal_case_number2">
+          <with-param pos="2"/>
+          <with-param pos="3"/>
+        </call-macro>
+        <call-macro n="set_foc_particles">
+          <with-param pos="3"/>
+        </call-macro>
+        <let>
+          <var n="cur_poss_suff"/>
+          <lit v=""/>
+        </let>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="3" side="sl" part="a_case"/>
+                <lit-tag v="Ins"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="3" side="tl" part="a_case"/>
+              <lit-tag v="Com"/>
+            </let>
+          </when>
+          <when>
+            <test>
+              <equal>
+                <clip pos="3" side="sl" part="a_case"/>
+                <lit-tag v="Tra"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="3" side="tl" part="a_case"/>
+              <lit-tag v="Gen"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="oma_nom" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="2" side="tl" part="nbr"/></tag>
+              <tag><clip pos="2" side="tl" part="a_case"/></tag>
+            </tags>
+            <lu>
+              <clip pos="2" side="tl" part="lemh"/>
+              <lit-tag v="Pron"/>
+              <lit-tag v="Refl"/>
+              <clip pos="2" side="tl" part="a_person"/>
+              <clip pos="2" side="tl" part="a_case"/>
+              <var n="cur_poss_suff"/>
+              <clip pos="2" side="tl" part="lemq"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="lemh"/>
+              <clip pos="3" side="tl" part="a_nom"/>
+              <clip pos="3" side="tl" part="gen"/>
+              <var n="comitative_num"/>
+              <clip pos="3" side="tl" part="nbr"/>
+              <clip pos="3" side="tl" part="a_case"/>
+              <clip pos="3" side="tl" part="a_qst"/>
+              <clip pos="3" side="tl" part="a_foc"/>
+              <clip pos="3" side="tl" part="lemq"/>
+              <var n="cur_noun_postp"/>
+            </lu>
+          </chunk>
+        </out>
+        <let>
+          <var n="cur_poss_suff"/>
+          <lit v=""/>
+        </let>
       </action>
     </rule>
     <rule comment="regla: oma nom">
@@ -2709,6 +2875,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <var n="cur_poss_suff"/>
           <lit v=""/>
         </let>
+		<!-- this sets person based on the current subject  -->
         <choose>
           <when>
             <test>
@@ -2725,6 +2892,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
+		<!-- This takes care of ?? -->
         <choose>
           <when>
             <test>
@@ -2751,6 +2919,26 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="2" side="tl" part="a_case"/>
+						<lit-tag v="Nom"/>
+					</equal>
+				</test>
+				<let>
+					<var n="cur_poss_suff" />
+					<lit v="" />
+				</let>
+			</when>
+			<otherwise>
+				<let>
+					<clip pos="1" side="tl" part="nbr"/>
+					<lit v=""/>
+				</let>
+			</otherwise>
+		</choose>
         <out>
           <chunk name="oma_nom" case="caseFirstWord">
             <tags>
@@ -2763,6 +2951,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="1" side="tl" part="lemh"/>
               <lit-tag v="Pron"/>
               <lit-tag v="Refl"/>
+			  <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
               <var n="cur_poss_suff"/>
@@ -3181,85 +3370,88 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="nominal_case_number1">
           <with-param pos="1"/>
         </call-macro>
-		<!-- need to reset the variable here too. -->
-		<let>
-			<var n="default_px"/>
-			<lit v=""/>
-		</let>
-		<choose>
-			<when>
-				<test>
-					<and>
-						<not><contains-substring>
-						<clip pos="1" side="sl" part="a_pxprs"/>
-						<lit v="Px"/>
-						</contains-substring></not>
-
-						<not><equal>
-						<clip pos="1" side="sl" part="a_case"/>
-						<lit-tag v="Nom"/>
-						</equal></not>
-					</and>
-				</test>
-			<let>
-				<clip pos="1" side="tl" part="nbr"/>
-				<lit v=""/>
-			</let>
-		</when>
-		<otherwise>
-			<let>
-				<var n="default_px"/>
-				<lit-tag v="PxSg3"/>
-			</let>
-			<let>
-				<clip pos="1" side="tl" part="nbr"/>
-				<lit v=""/>
-		  </let>
-		</otherwise>
-	</choose>
-	<choose>
-		<when>
-			<test><equal>
-					<clip pos="1" side="tl" part="a_case"/>
-					<lit-tag v="Nom"/>
-			</equal></test>
-		<let>
-			<clip pos="1" side="tl" part="a_pxprs"/>
-			<lit v=""/>
-		</let>
-		<let>
-			<var n="default_px"/>
-			<lit v=""/>
-		</let>
-		<let>
-			<var n="comitative_num"/>
-			<clip pos="1" side="sl" part="nbr"/>
-		</let>
-		</when>
-	</choose>
-	<!-- this is awkward; if these are both set somehow we need to unset the variable. This means the previous two rules are funky. -->
-	<choose>
-		<when>
-			<test>
-				<and>
-					<contains-substring>
-						<clip pos="1" side="tl" part="a_pxprs"/>
-						<lit v="Px"/>
-					</contains-substring>
-					
-					<contains-substring>
-						<var n="default_px"/>
-						<lit v="Px"/>
-					</contains-substring>
-				</and>
-			</test>
-			<let>
-				<var n="default_px"/>
-				<lit v=""/>
-			</let>
-		</when>
-	</choose>
-
+        <!-- need to reset the variable here too. -->
+        <let>
+          <var n="default_px"/>
+          <lit v=""/>
+        </let>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <not>
+                  <contains-substring>
+                    <clip pos="1" side="sl" part="a_pxprs"/>
+                    <lit v="Px"/>
+                  </contains-substring>
+                </not>
+                <not>
+                  <equal>
+                    <clip pos="1" side="sl" part="a_case"/>
+                    <lit-tag v="Nom"/>
+                  </equal>
+                </not>
+              </and>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit v=""/>
+            </let>
+          </when>
+          <otherwise>
+            <let>
+              <var n="default_px"/>
+              <lit-tag v="PxSg3"/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="nbr"/>
+              <lit v=""/>
+            </let>
+          </otherwise>
+        </choose>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_case"/>
+                <lit-tag v="Nom"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_pxprs"/>
+              <lit v=""/>
+            </let>
+            <let>
+              <var n="default_px"/>
+              <lit v=""/>
+            </let>
+            <let>
+              <var n="comitative_num"/>
+              <clip pos="1" side="sl" part="nbr"/>
+            </let>
+          </when>
+        </choose>
+        <!-- this is awkward; if these are both set somehow we need to unset the variable. This means the previous two rules are funky. -->
+        <choose>
+          <when>
+            <test>
+              <and>
+                <contains-substring>
+                  <clip pos="1" side="tl" part="a_pxprs"/>
+                  <lit v="Px"/>
+                </contains-substring>
+                <contains-substring>
+                  <var n="default_px"/>
+                  <lit v="Px"/>
+                </contains-substring>
+              </and>
+            </test>
+            <let>
+              <var n="default_px"/>
+              <lit v=""/>
+            </let>
+          </when>
+        </choose>
         <out>
           <chunk name="adj_oma" case="caseFirstWord">
             <tags>
@@ -3270,22 +3462,22 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-			  <lit-tag v="Pron" />
-			  <lit-tag v="Refl" />
-			  <!-- <clip pos="1" side="tl" part="gen"/> -->
+              <lit-tag v="Pron"/>
+              <lit-tag v="Refl"/>
+              <!-- <clip pos="1" side="tl" part="gen"/> -->
               <clip pos="1" side="tl" part="nbr"/>
               <var n="comitative_num"/>
               <clip pos="1" side="tl" part="a_case"/>
               <clip pos="1" side="tl" part="a_pxprs"/>
-				<var n="default_px"/>
+              <var n="default_px"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
-		<let>
-			<var n="default_px"/>
-			<lit v=""/>
-		</let>
+        <let>
+          <var n="default_px"/>
+          <lit v=""/>
+        </let>
       </action>
     </rule>
     <rule comment="regla: adj">
@@ -3641,7 +3833,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_adv"/>
-              <!--<clip pos="1" side="tl" part="a_pxprs"/>--> <!-- we discard pos.suf for now -->
+              <!--<clip pos="1" side="tl" part="a_pxprs"/>-->
+              <!-- we discard pos.suf for now -->
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
@@ -3761,11 +3954,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
       <pattern>
         <pattern-item n="punct_clb"/>
       </pattern>
-	  <action>
-		<let>
-			<var n="cur_person"/>
-			<lit v=""/>
-		</let>
+      <action>
+        <let>
+          <var n="cur_person"/>
+          <lit v=""/>
+        </let>
         <out>
           <chunk name="punct" case="caseFirstWord">
             <tags>
