@@ -1396,29 +1396,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="itse"/>
       </pattern>
       <action>
-		
-		<!-- Remove nbr for non-nom. -->
-		<choose>
-			<when>
-				<test>
-					<equal>
-						<clip pos="1" side="tl" part="a_case"/>
-						<lit-tag v="Nom"/>
-					</equal>
-				</test>
-				<let>
-					<var n="cur_poss_suff" />
-					<lit v="" />
-				</let>
-			</when>
-			<otherwise>
-				<let>
-					<clip pos="1" side="tl" part="nbr"/>
-					<lit v=""/>
-				</let>
-			</otherwise>
-		</choose>
-	
+			
 		<!-- Set default px based on subject -->
         <choose>
           <when>
@@ -1495,6 +1473,49 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           </when>
         </choose>
 
+		<!-- Remove nbr for non-nom. -->
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="tl" part="a_case"/>
+						<lit-tag v="Nom"/>
+					</equal>
+				</test>
+				<let>
+					<var n="cur_poss_suff" />
+					<lit v="" />
+				</let>
+			</when>
+			<otherwise>
+				<let>
+					<clip pos="1" side="tl" part="nbr"/>
+					<lit v=""/>
+				</let>
+			</otherwise>
+		</choose>
+		
+		<!-- remove Px for Nom -->
+		<!-- Remove nbr for non-nom. -->
+		<choose>
+			<when>
+				<test>
+					<equal>
+						<clip pos="1" side="tl" part="a_case"/>
+						<lit-tag v="Nom"/>
+					</equal>
+				</test>
+				<let>
+					<var n="default_px" />
+					<lit v="" />
+				</let>
+				<let>
+					<clip pos="1" side="tl" part="a_pxprs"/>
+					<lit v="" />
+				</let>
+			</when>
+		</choose>
+
 		<!-- If both possible pxes are set somehow, remove default. -->
 		<choose>
           <when>
@@ -1516,6 +1537,8 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
+
+		
         
 		
         <call-macro n="nominal_case_number1">

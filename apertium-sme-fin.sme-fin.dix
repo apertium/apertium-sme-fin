@@ -580,123 +580,123 @@
     
     -->
 
-	<!--  Some questions
-	
-	TODO: Some of these have analyses in sme that are more complex. Do we tag these here like this and have more transfer rules, or do we change the analysis in the morphology?
+		<!--  Some questions
+		
+		TODO: Some of these have analyses in sme that are more complex. Do we tag these here like this and have more transfer rules, or do we change the analysis in the morphology?
 
-	ráigge : : kautta       : Adp // dákko, dokko, gokko, etc
-	
-	juoidá : Pron+Indef+Sg+Acc : jotain : Pcle
+		ráigge : : kautta       : Adp // dákko, dokko, gokko, etc
+		
+		juoidá : Pron+Indef+Sg+Acc : jotain : Pcle
 
-	<e><p><l>vuođđu<s n="N+Sg+Nom"/></l><r>pohjaan<s n="Adp"/></r></p></e>
-	<e><p><l>dásis<s n="N+Sg+Loc"/></l><r>tasalla<s n="Adp"/></r></p></e>
-	<e><p><l>dássái<s n="N+Sg+Ill"/></l><r>tasalle<s n="Adp"/></r></p></e>
-	<e><p><l>guvlui<s n="N+Sg+Ill"/></l><r>kohti<s n="Adp"/></r></p></e>
-	<e><p><l>háldui<s n="N+Sg+Ill"/></l><r>haltuun<s n="Adp"/></r></p></e>
-	<e><p><l>vuolái<s n="-"/></l><r>alle<s n="Adp"/></r></p></e>
-	
-	
-	-->
+		<e><p><l>vuođđu<s n="N+Sg+Nom"/></l><r>pohjaan<s n="Adp"/></r></p></e>
+		<e><p><l>dásis<s n="N+Sg+Loc"/></l><r>tasalla<s n="Adp"/></r></p></e>
+		<e><p><l>dássái<s n="N+Sg+Ill"/></l><r>tasalle<s n="Adp"/></r></p></e>
+		<e><p><l>guvlui<s n="N+Sg+Ill"/></l><r>kohti<s n="Adp"/></r></p></e>
+		<e><p><l>háldui<s n="N+Sg+Ill"/></l><r>haltuun<s n="Adp"/></r></p></e>
+		<e><p><l>vuolái<s n="-"/></l><r>alle<s n="Adp"/></r></p></e>
+		
+		
+		-->
 
-    <!-- Conjunctions -->
-    <e><p><l>ja<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
-    <e><p><l>ja<s n="CC"/></l><r>ynnä<s n="CC"/></r></p></e>
-    <e><p><l>vai<s n="CC"/></l><r>vai<s n="CC"/></r></p></e>
-    <e><p><l>vai<s n="CC"/></l><r>vaiko<s n="CC"/></r></p></e>
-    <e><p><l>muhto<s n="CC"/></l><r>mutta<s n="CC"/></r></p></e>
-    <e><p><l>muhto<s n="CC"/></l><r>vaan<s n="CC"/></r></p></e>
-    <e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
-    <e><p><l>sihke<s n="CC"/></l><r>sekä<s n="CC"/></r></p></e>
-    <e><p><l>ele<s n="CC"/></l><r>eli<s n="CC"/></r></p></e>
-    <e><p><l>dahjege<s n="CC"/></l><r>eli<s n="CC"/></r></p></e>
-    <e><p><l>dahje<s n="CC"/></l><r>tahi<s n="CC"/></r></p></e>
-    <e r="RL"><p><l>vai<s n="CC"/></l><r>että<s n="CC"/></r></p></e>
+		<!-- Conjunctions -->
+		<e><p><l>ja<s n="CC"/></l><r>ja<s n="CC"/></r></p></e>
+		<e><p><l>ja<s n="CC"/></l><r>ynnä<s n="CC"/></r></p></e>
+		<e><p><l>vai<s n="CC"/></l><r>vai<s n="CC"/></r></p></e>
+		<e><p><l>vai<s n="CC"/></l><r>vaiko<s n="CC"/></r></p></e>
+		<e><p><l>muhto<s n="CC"/></l><r>mutta<s n="CC"/></r></p></e>
+		<e><p><l>muhto<s n="CC"/></l><r>vaan<s n="CC"/></r></p></e>
+		<e><p><l>dahje<s n="CC"/></l><r>taikka<s n="CC"/></r></p></e>
+		<e><p><l>sihke<s n="CC"/></l><r>sekä<s n="CC"/></r></p></e>
+		<e><p><l>ele<s n="CC"/></l><r>eli<s n="CC"/></r></p></e>
+		<e><p><l>dahjege<s n="CC"/></l><r>eli<s n="CC"/></r></p></e>
+		<e><p><l>dahje<s n="CC"/></l><r>tahi<s n="CC"/></r></p></e>
+		<e r="RL"><p><l>vai<s n="CC"/></l><r>että<s n="CC"/></r></p></e>
 
-    <e><p><l>vai<s n="CS"/></l><r>jotta<s n="CS"/></r></p></e>
-    <e><p><l>ahte<s n="CS"/></l><r>että<s n="CS"/></r></p></e>
-	<e><p><l>dasgo<s n="CS"/></l><r>sillä<s n="CS"/></r></p></e>
-	
-    <e><p><l>aht<s n="CS"/></l><r>et<s n="CS"/></r></p></e>
-    <e><p><l>daningo<s n="CS"/></l><r>koska<s n="CS"/></r></p></e>
-    <e><p><l>dego<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
-    <e><p><l>go<b/>beare<s n="CS"/></l><r>jahka<s n="CS"/></r></p></e>
-    <e><p><l>go<s n="CS"/></l><r>kun<s n="CS"/></r></p></e>
-    <e><p><l>jus<s n="CS"/></l><r>jos<s n="CS"/></r></p></e>
-	<e><p><l>jus<b/>juo<s n="CS"/></l><r>joskin<s n="CS"/></r></p></e>
-    <e><p><l>muhte<s n="CS"/></l><r>mutta<s n="CS"/></r></p></e>
-    <e><p><l>nugo<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
-    <e><p><l>vai<s n="CS"/></l><r>vai<s n="CC"/></r></p></e>
-    <e><p><l>vai<s n="CS"/></l><r>tai<s n="CC"/></r></p></e>
-    <e><p><l>vaikko<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
-    <e><p><l>vaikke<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
-    <e><p><l>ovdal<b/>go<s n="CS"/></l><r>ennen<b/>kuin<s n="CS"/></r></p></e>
-	<e r="RL"><p><l>ovdal<b/>go<s n="CS"/></l><r>ennenkuin<s n="CS"/></r></p></e>
-    <e><p><l>dasságo<s n="CS"/></l><r>kunnes<s n="CS"/></r></p></e>
-	<e><p><l>nugo<s n="CS"/></l><r>niinkuin<s n="CS"/></r></p></e>
-    <e><p><l>go<s n="CS"/></l><r>kuin<s n="CC"/></r></p></e>
+		<e><p><l>vai<s n="CS"/></l><r>jotta<s n="CS"/></r></p></e>
+		<e><p><l>ahte<s n="CS"/></l><r>että<s n="CS"/></r></p></e>
+		<e><p><l>dasgo<s n="CS"/></l><r>sillä<s n="CS"/></r></p></e>
+		
+		<e><p><l>aht<s n="CS"/></l><r>et<s n="CS"/></r></p></e>
+		<e><p><l>daningo<s n="CS"/></l><r>koska<s n="CS"/></r></p></e>
+		<e><p><l>dego<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
+		<e><p><l>go<b/>beare<s n="CS"/></l><r>jahka<s n="CS"/></r></p></e>
+		<e><p><l>go<s n="CS"/></l><r>kun<s n="CS"/></r></p></e>
+		<e><p><l>jus<s n="CS"/></l><r>jos<s n="CS"/></r></p></e>
+		<e><p><l>jus<b/>juo<s n="CS"/></l><r>joskin<s n="CS"/></r></p></e>
+		<e><p><l>muhte<s n="CS"/></l><r>mutta<s n="CS"/></r></p></e>
+		<e><p><l>nugo<s n="CS"/></l><r>kuten<s n="CS"/></r></p></e>
+		<e><p><l>vai<s n="CS"/></l><r>vai<s n="CC"/></r></p></e>
+		<e><p><l>vai<s n="CS"/></l><r>tai<s n="CC"/></r></p></e>
+		<e><p><l>vaikko<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
+		<e><p><l>vaikke<s n="CS"/></l><r>vaikka<s n="CS"/></r></p></e>
+		<e><p><l>ovdal<b/>go<s n="CS"/></l><r>ennen<b/>kuin<s n="CS"/></r></p></e>
+		<e r="RL"><p><l>ovdal<b/>go<s n="CS"/></l><r>ennenkuin<s n="CS"/></r></p></e>
+		<e><p><l>dasságo<s n="CS"/></l><r>kunnes<s n="CS"/></r></p></e>
+		<e><p><l>nugo<s n="CS"/></l><r>niinkuin<s n="CS"/></r></p></e>
+		<e><p><l>go<s n="CS"/></l><r>kuin<s n="CC"/></r></p></e>
 
 
-	<!-- juos - CS, fal - Adv -->
-	<e><p><l>juos<b/>fal<s n="CS" /></l><r>mikäli<s n="CS"/></r></p></e>
-	
-	
-	
-    <!-- Pronouns -->
+		<!-- juos - CS, fal - Adv -->
+		<e><p><l>juos<b/>fal<s n="CS" /></l><r>mikäli<s n="CS"/></r></p></e>
+		
+		
+		
+		<!-- Pronouns -->
 
-    <e><p><l>mun<s n="Pron"/><s n="Pers"/><s n="Sg1"/></l><r>minä<s n="Pron"/><s n="Pers"/></r></p></e>
-    <e><p><l>don<s n="Pron"/><s n="Pers"/><s n="Sg2"/></l><r>sinä<s n="Pron"/><s n="Pers"/></r></p></e>
-    <e><p><l>son<s n="Pron"/><s n="Pers"/><s n="Sg3"/></l><r>hän<s n="Pron"/><s n="Pers"/></r></p></e>
+		<e><p><l>mun<s n="Pron"/><s n="Pers"/><s n="Sg1"/></l><r>minä<s n="Pron"/><s n="Pers"/></r></p></e>
+		<e><p><l>don<s n="Pron"/><s n="Pers"/><s n="Sg2"/></l><r>sinä<s n="Pron"/><s n="Pers"/></r></p></e>
+		<e><p><l>son<s n="Pron"/><s n="Pers"/><s n="Sg3"/></l><r>hän<s n="Pron"/><s n="Pers"/></r></p></e>
 
-    <!-- This is how omorfi and giellatekno analyze plurals it-->
-    <e><p><l>mun<s n="Pron"/><s n="Pers"/><s n="Pl1"/></l><r>minä<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e> 
-    <e><p><l>don<s n="Pron"/><s n="Pers"/><s n="Pl2"/></l><r>sinä<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e>
-    <e><p><l>son<s n="Pron"/><s n="Pers"/><s n="Pl3"/></l><r>hän<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e>
+		<!-- This is how omorfi and giellatekno analyze plurals it-->
+		<e><p><l>mun<s n="Pron"/><s n="Pers"/><s n="Pl1"/></l><r>minä<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e> 
+		<e><p><l>don<s n="Pron"/><s n="Pers"/><s n="Pl2"/></l><r>sinä<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e>
+		<e><p><l>son<s n="Pron"/><s n="Pers"/><s n="Pl3"/></l><r>hän<s n="Pron"/><s n="Pers"/><s n="Pl"/></r></p></e>
 
-    <e><p><l>dat<s n="Pron"/><s n="Dem"/></l><r>se<s n="Pron"/><s n="Dem"/></r></p></e>
-    <e><p><l>dát<s n="Pron"/><s n="Dem"/></l><r>tämä<s n="Pron"/><s n="Dem"/></r></p></e>
-    <e><p><l>duot<s n="Pron"/><s n="Dem"/></l><r>tuo<s n="Pron"/><s n="Dem"/></r></p></e>
-    <e><p><l>duot<s n="Pron"/><s n="Dem"/></l><r>toi<s n="Pron"/><s n="Dem"/></r></p></e>
-    <e><p><l>gii<s n="Pron"/><s n="Rel"/></l><r>joka<s n="Pron"/><s n="Rel"/></r></p></e>
-    <e slr="1"><p><l>guhte<s n="Pron"/><s n="Rel"/></l><r>joka<s n="Pron"/><s n="Rel"/></r></p></e>
+		<e><p><l>dat<s n="Pron"/><s n="Dem"/></l><r>se<s n="Pron"/><s n="Dem"/></r></p></e>
+		<e><p><l>dát<s n="Pron"/><s n="Dem"/></l><r>tämä<s n="Pron"/><s n="Dem"/></r></p></e>
+		<e><p><l>duot<s n="Pron"/><s n="Dem"/></l><r>tuo<s n="Pron"/><s n="Dem"/></r></p></e>
+		<e><p><l>duot<s n="Pron"/><s n="Dem"/></l><r>toi<s n="Pron"/><s n="Dem"/></r></p></e>
+		<e><p><l>gii<s n="Pron"/><s n="Rel"/></l><r>joka<s n="Pron"/><s n="Rel"/></r></p></e>
+		<e slr="1"><p><l>guhte<s n="Pron"/><s n="Rel"/></l><r>joka<s n="Pron"/><s n="Rel"/></r></p></e>
 
-	<e><p><l>mii<s n="Pron"/><s n="Rel"/></l><r>mikä<s n="Pron"/><s n="Rel"/></r></p></e>
-    <e><p><l>mii<s n="Pron"/><s n="Interr"/></l><r>mikä<s n="Pron"/><s n="Interr"/></r></p></e>
-    <e><p><l>gii<s n="Pron"/><s n="Interr"/></l><r>kuka<s n="Pron"/><s n="Interr"/></r></p></e>
-    <e><p><l>goabbá<s n="Pron"/><s n="Interr"/></l><r>kumpi<s n="Pron"/><s n="Interr"/></r></p></e>
-    
-    <e><p><l>juoga<s n="Pron"/><s n="Indef"/></l><r>jokin<s n="Pron"/></r></p></e>
-    <e><p><l>buot<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>kaikki<s n="Pron"/><s n="Indef"/><s n="Sg"/></r></p></e>
-    <e><p><l>buohkat<s n="Pron"/><s n="Indef"/><s n="Pl"/></l><r>kaikki<s n="Pron"/><s n="Indef"/><s n="Pl"/></r></p></e>
-    <!--<e><p><l>buohkat<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/></r></p></e>-->
-    <e><p><l>mihkkege<s n="Pron"/><s n="Indef"/></l><r>mikään<s n="Pron"/><s n="Qnt"/></r></p></e>
+		<e><p><l>mii<s n="Pron"/><s n="Rel"/></l><r>mikä<s n="Pron"/><s n="Rel"/></r></p></e>
+		<e><p><l>mii<s n="Pron"/><s n="Interr"/></l><r>mikä<s n="Pron"/><s n="Interr"/></r></p></e>
+		<e><p><l>gii<s n="Pron"/><s n="Interr"/></l><r>kuka<s n="Pron"/><s n="Interr"/></r></p></e>
+		<e><p><l>goabbá<s n="Pron"/><s n="Interr"/></l><r>kumpi<s n="Pron"/><s n="Interr"/></r></p></e>
+		
+		<e><p><l>juoga<s n="Pron"/><s n="Indef"/></l><r>jokin<s n="Pron"/></r></p></e>
+		<e><p><l>buot<s n="Pron"/><s n="Indef"/><s n="Sg"/></l><r>kaikki<s n="Pron"/><s n="Indef"/><s n="Sg"/></r></p></e>
+		<e><p><l>buohkat<s n="Pron"/><s n="Indef"/><s n="Pl"/></l><r>kaikki<s n="Pron"/><s n="Indef"/><s n="Pl"/></r></p></e>
+		<!--<e><p><l>buohkat<s n="Pron"/><s n="Indef"/></l><r>kaikki<s n="Pron"/></r></p></e>-->
+		<e><p><l>mihkkege<s n="Pron"/><s n="Indef"/></l><r>mikään<s n="Pron"/><s n="Qnt"/></r></p></e>
 
-    <e><p><l>dákkár<s n="Pron"/><s n="Dem"/></l><r>tällainen<s n="Pron"/></r></p></e>
-    <e><p><l>dakkár<s n="Pron"/><s n="Dem"/></l><r>semmoinen<s n="Pron"/></r></p></e>
-    <e><p><l>dakkár<s n="Pron"/><s n="Dem"/></l><r>sellainen<s n="Pron"/></r></p></e>
-    <e><p><l>duokkár<s n="Pron"/><s n="Dem"/></l><r>tuommoinen<s n="Pron"/></r></p></e>
+		<e><p><l>dákkár<s n="Pron"/><s n="Dem"/></l><r>tällainen<s n="Pron"/></r></p></e>
+		<e><p><l>dakkár<s n="Pron"/><s n="Dem"/></l><r>semmoinen<s n="Pron"/></r></p></e>
+		<e><p><l>dakkár<s n="Pron"/><s n="Dem"/></l><r>sellainen<s n="Pron"/></r></p></e>
+		<e><p><l>duokkár<s n="Pron"/><s n="Dem"/></l><r>tuommoinen<s n="Pron"/></r></p></e>
 
-    <e><p><l>muhtin<s n="Pron"/><s n="Indef"/></l><r>muutama<s n="Pron"/></r></p></e>
-    <e><p><l>juohke<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/><s n="Indef"/></r></p><par n="juohke_kukin__Pron"/></e>   
-	<e><p><l>goappašat<s n="Pron"/><s n="Indef"/><s n="Pl"/></l><r>molemmat<s n="Pron"/><s n="Indef"/><s n="Pl"/></r></p></e>
-	<e><p><l>soamis<s n="Pron"/><s n="Indef"/></l><r>joku<s n="Pron"/></r></p></e>   
-	
-	<e><p><l>seammá<s n="Pron"/><s n="Indef"/></l><r>sama<s n="Pron"/></r></p></e>
-	<e><p><l>juohkehaš<s n="Pron"/><s n="Indef"/></l><r>jokainen<s n="Pron"/></r></p></e>
-	
-    <e><p><l>muhtin<s n="Pron"/><s n="Indef"/></l><r>eräs<s n="Pron"/></r></p></e>
+		<e><p><l>muhtin<s n="Pron"/><s n="Indef"/></l><r>muutama<s n="Pron"/></r></p></e>
+		<e><p><l>juohke<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/><s n="Indef"/></r></p><par n="juohke_kukin__Pron"/></e>   
+		<e><p><l>goappašat<s n="Pron"/><s n="Indef"/><s n="Pl"/></l><r>molemmat<s n="Pron"/><s n="Indef"/><s n="Pl"/></r></p></e>
+		<e><p><l>soamis<s n="Pron"/><s n="Indef"/></l><r>joku<s n="Pron"/></r></p></e>   
+		
+		<e><p><l>seammá<s n="Pron"/><s n="Indef"/></l><r>sama<s n="Pron"/></r></p></e>
+		<e><p><l>juohkehaš<s n="Pron"/><s n="Indef"/></l><r>jokainen<s n="Pron"/></r></p></e>
+		
+		<e><p><l>muhtin<s n="Pron"/><s n="Indef"/></l><r>eräs<s n="Pron"/></r></p></e>
 
-	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/></l><r>kukaan<s n="Pron"/><s n="Qnt"/></r></p></e>
-	<e><p><l>nubbi<s n="Pron"/><s n="Indef"/></l><r>toinen<s n="Pron" /><s n="Indef"/></r></p></e>
-	
-	
-	<!-- Pron Indef:Pcle -->
-	<e><p><l>juoidá<s n="Pron"/><s n="Indef"/></l><r>jotain<s n="Pcle"/></r></p></e>
-	<e><p><l>eará<s n="Pron"/><s n="Indef"/></l><r>eri<s n="Pcle"/></r></p></e>
-	
-    <!-- diekkár - semmoinen, sellainen? -->
-    
-    <e><p><l>nubbi<s n="Pron"/><s n="Recipr"/></l><r>toinen<s n="Pron"/><s n="Recipr"/></r></p></e>
-	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>itse<s n="Pron"/><s n="Refl"/></r></p></e>
+		<e><p><l>guhtege<s n="Pron"/><s n="Indef"/></l><r>kukaan<s n="Pron"/><s n="Qnt"/></r></p></e>
+		<e><p><l>nubbi<s n="Pron"/><s n="Indef"/></l><r>toinen<s n="Pron" /><s n="Indef"/></r></p></e>
+		
+		
+		<!-- Pron Indef:Pcle -->
+		<e><p><l>juoidá<s n="Pron"/><s n="Indef"/></l><r>jotain<s n="Pcle"/></r></p></e>
+		<e><p><l>eará<s n="Pron"/><s n="Indef"/></l><r>eri<s n="Pcle"/></r></p></e>
+		
+		<!-- diekkár - semmoinen, sellainen? -->
+		
+		<e><p><l>nubbi<s n="Pron"/><s n="Recipr"/></l><r>toinen<s n="Pron"/><s n="Recipr"/></r></p></e>
+		<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>itse<s n="Pron"/><s n="Refl"/></r></p></e>
 
 	<e><p><l>guhtege<s n="Pron"/><s n="Indef"/></l><r>kukin<s n="Pron"/></r></p></e>
 	<e><p><l>ieš<s n="Pron"/><s n="Refl"/></l><r>oma<s n="A"/></r></p></e> <!-- was A.Pos -->
