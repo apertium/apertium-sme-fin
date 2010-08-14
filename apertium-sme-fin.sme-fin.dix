@@ -811,6 +811,7 @@
 	<e><p><l>báktenárti<s n="N" /></l><r>pahtarikko<s n="N"/></r></p></e>
 	<e><p><l>básdiehpáš<s n="N" /></l><r>keminängelmä<s n="N"/></r></p></e>
 	<e><p><l>davviriikkalaš<s n="N"/></l><r>pohjoismainen<s n="N"/></r></p></e>	
+	<e><p><l>davviriikka<s n="N"/></l><r>pohjoismaa<s n="N"/></r></p></e>	
 	<e><p><l>daŋasruvso<s n="N" /></l><r>lapinalppiruusu<s n="N"/></r></p></e>
 	<e><p><l>deahkki<s n="N" /></l><r>lihas<s n="N"/></r></p></e>
 	<e><p><l>deanutimjan<s n="N" /></l><r>kangasajuruoho<s n="N"/></r></p></e>
@@ -828,6 +829,7 @@
 	<e><p><l>duottarsáhpal<s n="N" /></l><r>tunturikurjenherne<s n="N"/></r></p></e>
 	<e><p><l>duottarčikŋa<s n="N" /></l><r>lapinalppiruusu<s n="N"/></r></p></e>
 	<e><p><l>dáiddaguovddáš<s n="N"/></l><r>taidekeskus<s n="N"/></r></p></e>
+	<e><p><l>guovddáš<s n="N"/></l><r>keskus<s n="N"/></r></p></e>
 	<e><p><l>eallinahki<s n="N"/></l><r>elinaika<s n="N"/></r></p></e>
 	<e><p><l>eallu<s n="N"/></l><r>karja<s n="N"/></r></p></e>
 	<e><p><l>eavru<s n="N" /></l><r>hapro<s n="N"/></r></p></e>
@@ -3019,6 +3021,8 @@
 	<e><p><l>maŋisboahtti<s n="N"/><s n="Actor"/></l><r>jälkeläinen<s n="N"/></r></p></e>
 	<e><p><l>meahcceealli<s n="N"/></l><r>metsä<j/>eläin<s n="N"/></r></p></e>
 	
+	<e><p><l>republihkka<s n="N"/></l><r>tasavalta<s n="N"/></r></p></e>
+	<e><p><l>guovddáš<s n="N"/></l><r>keskusta<s n="N"/></r></p></e>
 	
 	<e><p><l>duvvá<s n="N"/></l><r>kyyhkynen<s n="N"/></r></p></e>
 	
@@ -3274,7 +3278,7 @@
     <e><p><l>Njáimmet<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Naimakka<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Njárbesjohka<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Närpistöjoki<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Njávdán<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Näätämö<s n="N"/><s n="Prop"/></r></p></e>
-    <e><p><l>Norga<s n="N"/><s n="Prop"/></l><r>Norja<s n="N"/><s n="Prop"/></r></p></e>
+	<!-- <e><p><l>Norga<s n="N"/><s n="Prop"/></l><r>Norja<s n="N"/><s n="Prop"/></r></p></e> -->
     <e><p><l>Norga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Norja<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Nuorbenjárga<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Nuorpiniemi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Nuortabađaeana<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Pohjanmaa<s n="N"/><s n="Prop"/></r></p></e>
@@ -3752,6 +3756,7 @@
 	
     <e><p><l>ipmilmeahttun<s n="A"/></l><r>jumala<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>vuolibuš<s n="A"/></l><r>alamainen<s n="A"/></r></p><par n="A_A"/></e>
+	<e><p><l>davvi<s n="A"/></l><r>pohjoinen<s n="A"/></r></p><par n="A_A"/></e>
 
 
 	<!-- ! Adv - A, etc ???  -->
@@ -4456,6 +4461,7 @@
 	<e><p><l>njivžut<s n="V"/><s n="IV"/></l><r>roihuta<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>borgit<s n="V"/><s n="IV"/></l><r>savuta<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>gávdnat<s n="V"/><s n="TV"/></l><r>löytää<s n="V"/></r></p><par n="V_V" /></e>
+	<e><p><l>leat<s n="V"/><s n="IV"/></l><r>sijaita<s n="V"/></r></p><par n="V_V" /></e>
 	
 	
 	<!-- verbs end -->

@@ -7679,6 +7679,7 @@ guossa+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:guossa GOAHTI ;
 guosse#latnja+CmpN/SgN+CmpN/SgG+CmpN/PlG:guosse#latnja GOAHTI ;
 guov0lu+CmpN/SgN+CmpN/SgG+CmpN/PlG:guov'lu ALBMI ;
 guov0ža+CmpN/SgN+CmpN/SgG+CmpN/PlG:guov'ža GOAHTI ;
+guovddáš+CmpN/SgN+CmpN/SgG+CmpN/PlG:guovddáž LEXDIMINC ;
 guovlu+N+Pl+Loc+Use/Sub:guovlluis K ; !SOUTH
 guovssahasat+CmpN/SgN+CmpN/DefPlGen:guovssahass BORALMASAT ;
 guovssat+CmpN/SgN+CmpN/SgG+CmpN/PlG:guovssah GAHPIR ;
@@ -8386,6 +8387,7 @@ reaŋ0ga+CmpN/SgN+CmpN/SgG+CmpN/PlG:reaŋ'ga GOAHTI ;
 rehket:rehkeg GAHPIR ;
 rei0ve:rej've GOAHTI ;
 rektor+CmpN/SgN+CmpN/SgG+CmpN/PlG:rektor GAHPIR ;
+republihkka+CmpN/SgN+CmpN/SgG+CmpN/PlG:republihkka GOAHTI ;
 reŋ0ko:reŋ'ko GOAHTI ;
 ridda GOAHTI ;
 rieban#gol0li+G3:rieban#gol'li GOAHTI ;
