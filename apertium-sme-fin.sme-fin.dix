@@ -857,7 +857,7 @@
 	<e><p><l>guhkkodat<s n="N"/></l><r>pituus<s n="N"/></r></p></e>
 	<e><p><l>guohcarássi<s n="N" /></l><r>suopursu<s n="N"/></r></p></e>
 	<e><p><l>guolbbajuopmu<s n="N" /></l><r>ahosuolaheinä<s n="N"/></r></p></e>
-	<e><p><l>guolbbanásti<s n="N" /></l><r>metsätähti<s n="N"/></r></p></e>
+	<!-- <e><p><l>guolbbanásti<s n="N" /></l><r>metsätähti<s n="N"/></r></p></e> -->
 	<e><p><l>guossarássi<s n="N" /></l><r>metsäkorte<s n="N"/></r></p></e>
 	<e><p><l>guossarássi<s n="N" /></l><r>vesikuusi<s n="N"/></r></p></e>
 	<e><p><l>guovžžamuorji<s n="N" /></l><r>riekonmarja<s n="N"/></r></p></e>
@@ -933,6 +933,7 @@
 	<e><p><l>noaiddelieđđi<s n="N" /></l><r>maariankämmekkä<s n="N"/></r></p></e>
 	<e><p><l>nuorsá<s n="N" /></l><r>lapinvuokko<s n="N"/></r></p></e>
 	<e><p><l>nuorta<s n="N"/></l><r>itä<s n="N"/></r></p></e>
+	<!-- <e><p><l>nuortamearra<s n="N"/></l><r>itämeri<s n="N"/></r></p></e> -->
 	<e><p><l>nástelieđđi<s n="N" /></l><r>metsätähti<s n="N"/></r></p></e>
 	<e><p><l>nástenárti<s n="N" /></l><r>tähtirikko<s n="N"/></r></p></e>
 	<e><p><l>oaffar<s n="N"/></l><r>uhrilahja<s n="N"/></r></p></e>
@@ -998,6 +999,7 @@
 	<e><p><l>sátnejođiheaddji<s n="N"/><s n="Actor"/></l><r>puheenjohtaja<s n="N"/></r></p></e>
 	<e><p><l>sáŋgár<s n="N" /></l><r>sankari<s n="N"/></r></p></e>
 	<e><p><l>terminologiija<s n="N"/></l><r>terminologia<s n="N"/></r></p></e>
+	<e><p><l>tearbma<s n="N"/></l><r>termi<s n="N"/></r></p></e>
 	<e><p><l>ullorássi<s n="N" /></l><r>tupasvilla<s n="N"/></r></p></e>
 	<e><p><l>upmolsuoidni<s n="N" /></l><r>luhtavilla<s n="N"/></r></p></e>
 	<e><p><l>uvlorássi<s n="N" /></l><r>voikukka<s n="N"/></r></p></e>
@@ -1233,6 +1235,7 @@
     <e><p><l>boaššu<s n="N"/></l><r>posio<s n="N"/></r></p></e>
     <e><p><l>boddu<s n="N"/></l><r>tauko<s n="N"/></r></p></e>
     <e><p><l>bodni<s n="N"/></l><r>pohja<s n="N"/></r></p></e>
+    <e><p><l>oarji<s n="N"/></l><r>länsi<s n="N"/></r></p></e>
     <e><p><l>bohccobiergu<s n="N"/></l><r>poronliha<s n="N"/></r></p></e>
     <e><p><l>bohkká<s n="N"/></l><r>pukki<s n="N"/></r></p></e>
     <e><p><l>boradanboddu<s n="N"/></l><r>ruokatauko<s n="N"/></r></p></e>
@@ -2835,7 +2838,7 @@
     <e><p><l>áhkku<s n="N"/></l><r>akka<s n="N"/></r></p></e>
     <e><p><l>áhkku<s n="N"/></l><r>isoäiti<s n="N"/></r></p></e>
 	<!-- <e><p><l>áhkká<s n="N"/></l><r>vaimo<s n="N"/></r></p></e> -->
-    <e><p><l>áhpi<s n="N"/></l><r>meri<s n="N"/></r></p></e>
+	<!-- <e><p><l>áhpi<s n="N"/></l><r>meri<s n="N"/></r></p></e> -->
     <e><p><l>áhppa<s n="N"/></l><r>apina<s n="N"/></r></p></e>
     <e><p><l>áhčči<s n="N"/></l><r>isä<s n="N"/></r></p></e>
     <e><p><l>áibmi<s n="N"/></l><r>äimä<s n="N"/></r></p></e>

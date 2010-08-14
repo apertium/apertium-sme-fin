@@ -2955,6 +2955,7 @@ vesihiisi'][POS=NOUN][KTN=27]:vesi{#}hii	kotus_27_NOUN/stemfiller	;
 LEXICON kotus_28_NOUN/stub
 kansi'][POS=NOUN][KTN=28]:kan	kotus_28_NOUN/stemfiller	;
 kynsi'][POS=NOUN][KTN=28]:kyn	kotus_28_NOUN/stemfiller	;
+länsi'][POS=NOUN][KTN=28]:län	kotus_28_NOUN/stemfiller	;
 virsi'][POS=NOUN][KTN=28]:vir	kotus_28_NOUN/stemfiller	;
 LEXICON kotus_29_NOUN/stub
 lapsenlapsi'][POS=NOUN][KTN=29]:lapsenla	kotus_29_NOUN/stemfiller	;
@@ -3444,6 +3445,7 @@ taksi'][POS=NOUN][KTN=5]:taks	kotus_5i_NOUN/stemfiller	;
 taksikuski'][POS=NOUN][KTN=5]:taksikusk	kotus_5i_NOUN/stemfiller	;
 talli'][POS=NOUN][KTN=5]:tall	kotus_5i_NOUN/stemfiller	;
 teksti'][POS=NOUN][KTN=5]:tekst	kotus_5i_NOUN/stemfiller	;
+termi'][POS=NOUN][KTN=5]:term	kotus_5i_NOUN/stemfiller	;
 tietokonepeli'][POS=NOUN][KTN=5]:tietokonepel	kotus_5i_NOUN/stemfiller	;
 tili'][POS=NOUN][KTN=5]:til	kotus_5i_NOUN/stemfiller	;
 topaasi'][POS=NOUN][KTN=5]:topaas	kotus_5i_NOUN/stemfiller	;
