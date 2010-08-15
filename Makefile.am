@@ -61,7 +61,7 @@ TARGETS_COMMON = \
 #
 # This is a generator 'apertium-sme-smj.fin.hfst'
 #
-.deps/$(BASENAME).$(LANG2).hfst: .deps/$(LANG2).lexc.hfst .deps/$(LANG2).twol.hfst dev/omorfi2apertium.relabel 
+.deps/$(BASENAME).$(LANG2).hfst: .deps/$(LANG2).lexc.hfst .deps/$(LANG2).twol.hfst
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-compose-intersect -l .deps/$(LANG2).lexc.hfst .deps/$(LANG2).twol.hfst -o $@
 
@@ -80,7 +80,7 @@ $(PREFIX1).autogen.hfst: .deps/$(PREFIX1).automorf.hfst
 #
 # This is a generator 'apertium-sme-smj.smj.hfst'
 #
-.deps/$(BASENAME).$(LANG1).hfst: .deps/$(LANG1).lexc.hfst .deps/$(LANG1).twol.hfst dev/xfst2apertium.relabel 
+.deps/$(BASENAME).$(LANG1).hfst: .deps/$(LANG1).lexc.hfst .deps/$(LANG1).twol.hfst
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-compose-intersect -l .deps/$(LANG1).lexc.hfst .deps/$(LANG1).twol.hfst -o $@
 
