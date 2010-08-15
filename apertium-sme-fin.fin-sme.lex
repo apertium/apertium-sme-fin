@@ -13,6 +13,10 @@ LIST @←OBJ = @←OBJ;
 LIST CLB = CLB;
 
 
+# Word categories
+
+LIST AIKA = "vuosi" "aika" "kuukausi" "tunti" "viikko" ;
+
 SECTION
 
 # pitää → 1: berret, 2: liikot, 3: coakcut
@@ -22,6 +26,10 @@ SUBSTITUTE ("pitää") ("pitää:2") ("pitää" V) ((1* Ela BARRIER CLB) OR (-1*
 
 # käydä = fitnat. 1: fallehit
 SUBSTITUTE ("käydä") ("käydä:1") ("käydä" V) (1* ("kimppuun") BARRIER CLB);
+
+# vaihde = molsa. 1: jorggáldat
+# SUBSTITUTE ("vaihde") ("vaihde:1") ("vaihde" N) (-1 AIKA);
+
 
 
 #    <e><p><l>doallat<s n="V"/><s n="TV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- hold (acc) -->

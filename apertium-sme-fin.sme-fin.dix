@@ -3025,8 +3025,15 @@
 	<e><p><l>guovddáš<s n="N"/></l><r>keskusta<s n="N"/></r></p></e>
 	
 	<e><p><l>duvvá<s n="N"/></l><r>kyyhkynen<s n="N"/></r></p></e>
+	<e><p><l>skandináva<s n="N"/></l><r>skandinaavi<s n="N"/></r></p></e>
+	<e><p><l>vahát<s n="N"/></l><r>vahinko<s n="N"/></r></p></e>
+	<e><p><l>sadji<s n="N"/></l><r>sijainti<s n="N"/></r></p></e>
+	<e><p><l>guovlu<s n="N"/></l><r>seutu<s n="N"/></r></p></e>
 	
+	<e><p><l>kveana<s n="N"/></l><r>kveeni<s n="N"/></r></p></e>
 	
+	<e><p><l>molssa<s n="N"/></l><r>vaihde<s n="N"/></r></p></e>
+	<e srl="1"><p><l>jorggáldat<s n="N"/></l><r>vaihde<s n="N"/></r></p></e>
 	
 	<!-- languages -->
 	<e><p><l>suomagiella<s n="N"/></l><r>suomi<s n="N"/></r></p></e>
@@ -4462,6 +4469,7 @@
 	<e><p><l>borgit<s n="V"/><s n="IV"/></l><r>savuta<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>gávdnat<s n="V"/><s n="TV"/></l><r>löytää<s n="V"/></r></p><par n="V_V" /></e>
 	<e><p><l>leat<s n="V"/><s n="IV"/></l><r>sijaita<s n="V"/></r></p><par n="V_V" /></e>
+	<e><p><l>váikkuhit<s n="V"/><s n="TV"/></l><r>vaikuttaa<s n="V"/></r></p><par n="V_V" /></e>
 	
 	
 	<!-- verbs end -->
