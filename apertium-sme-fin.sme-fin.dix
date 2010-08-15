@@ -3029,7 +3029,18 @@
 	<e><p><l>vahát<s n="N"/></l><r>vahinko<s n="N"/></r></p></e>
 	<e><p><l>sadji<s n="N"/></l><r>sijainti<s n="N"/></r></p></e>
 	<e><p><l>guovlu<s n="N"/></l><r>seutu<s n="N"/></r></p></e>
-	
+	<e><p><l>temperatuvra<s n="N"/></l><r>lämpötila<s n="N"/></r></p></e>
+	<e><p><l>jiellahastalannamma<s n="N"/></l><r>lempinimi<s n="N"/></r></p></e>
+	<e><p><l>máilmmisoahti<s n="N"/></l><r>maailmansota<s n="N"/></r></p></e>
+	<!-- <e><p><l><s n="N"/></l><r>merenkulku<s n="N"/></r></p></e> -->
+	<e><p><l>poláragierdu<s n="N"/></l><r>napapiiri<s n="N"/></r></p></e>
+	<e><p><l>davábealle<s n="N"/></l><r>pohjoispuoli<s n="N"/></r></p></e>
+	<e><p><l>oaivegávpot<s n="N"/></l><r>pääkaupunki<s n="N"/></r></p></e>
+	<e><p><l>sirdolaš<s n="N"/></l><r>siirtolainen<s n="N"/></r></p></e>
+	<e><p><l>dutkanguovddáš<s n="N"/></l><r>tutkimusasema<s n="N"/></r></p></e>
+
+
+
 	<e><p><l>kveana<s n="N"/></l><r>kveeni<s n="N"/></r></p></e>
 	
 	<e><p><l>molssa<s n="N"/></l><r>vaihde<s n="N"/></r></p></e>
@@ -3039,6 +3050,7 @@
 	<e><p><l>suomagiella<s n="N"/></l><r>suomi<s n="N"/></r></p></e>
 	
 
+	<e><p><l>davviriika<s n="N"/></l><r>Pohjola<s n="N"/><s n="Pl"/></r></p></e>
 	
 	<!-- nouns end -->
     
@@ -3764,6 +3776,7 @@
     <e><p><l>ipmilmeahttun<s n="A"/></l><r>jumala<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>vuolibuš<s n="A"/></l><r>alamainen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>davvi<s n="A"/></l><r>pohjoinen<s n="A"/></r></p><par n="A_A"/></e>
+	<e><p><l>spiehkastat<s n="A"/></l><r>poikkeuksellinen<s n="A"/></r></p><par n="A_A"/></e>
 
 
 	<!-- ! Adv - A, etc ???  -->
