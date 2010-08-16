@@ -64,10 +64,13 @@ Useless =
 %+Dial/%-GS	
 ;
 
-!%+Dial/%-GG  !! <- this is the standard form, keep it
 Nonstandard = 
 %+Dial/%-KJ
 %+Dial/%-GS
+;
+
+NonstandardPaths = 
+%+Dial/%-GG  !! <- this is not the standard form, trash it man!
 ;
 
 AllowUse =
@@ -86,7 +89,10 @@ Rules
 
 
 "Disallow all non-standard dialect forms from the generator (note: this file creates the sme analyser too, so non-standard forms will be disallowed there too)"
-Nonstandard:? /<= _ ;
+NonstandardPaths:? /<= _ ;
+
+"Delete tags for nonstandard"
+Nonstandard:0 <=> _ ;
 
 
 "Disallow Use-marked forms in some contexts"
