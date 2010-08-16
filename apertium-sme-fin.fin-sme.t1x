@@ -17,6 +17,7 @@
     <def-cat n="adv">
       <cat-item tags="Adv"/>
       <cat-item tags="Adv.*"/>
+      <cat-item tags="A.*.Der_sti.Adv.*"/>
     </def-cat>
     <def-cat n="pcle">
       <cat-item tags="Pcle"/>
@@ -259,6 +260,7 @@
     </def-attr>
     <def-attr n="a_adv">
       <attr-item tags="Adv"/>
+      <attr-item tags="A.Der2.Der_at.Adv"/>
     </def-attr>
     <def-attr n="a_adp">
       <attr-item tags="Pr"/>
@@ -333,6 +335,10 @@
       <attr-item tags="Com"/>
       <attr-item tags="Ins"/>
       <attr-item tags="Loc"/>
+    </def-attr>
+    <def-attr n="a_deriv"> <!-- possible derivations -->
+      <attr-item tags="Der_sti"/>
+      <attr-item tags="Der2.Der_at"/>
     </def-attr>
     <def-attr n="a_pronattrs">
       <attr-item tags="Dem"/>
@@ -4095,6 +4101,45 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </let>
       </action>
     </rule>
+
+    <rule comment="REGLA: ADVERB">
+      <!-- This also handles cases where sl:Adv and tl:Po, and although this results in a Po tag, the chunk should still be Adv. -->
+      <pattern>
+        <pattern-item n="adv"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="sl" part="a_deriv"/>
+                <lit-tag v="Der_sti"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_adv"/>
+              <lit-tag v="A.Der2.Der_at.Adv"/>
+            </let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="adv" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="ADV"/></tag>
+              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_adv"/>
+              <!--<clip pos="1" side="tl" part="a_pxprs"/>-->
+              <!-- we discard pos.suf for now -->
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="regla: adj">
       <pattern>
         <pattern-item n="adj"/>
@@ -4103,20 +4148,20 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="nominal_case_number1">
           <with-param pos="1"/>
         </call-macro>
-        <!-- <choose>
-			<when>
-				<test>
-					<equal>
-						<clip pos="1" side="tl" part="a_adj"/>
-						<lit-tag v="A.Agr"/>
-					</equal>
-				</test>
-				<let>
-					<clip pos="1" side="tl" part="a_adj"/>
-					<lit-tag v="A"/>
-				</let>
-			</when>
-		</choose> -->
+            <!-- <choose>
+          <when>
+            <test>
+              <equal>
+                <clip pos="1" side="tl" part="a_adj"/>
+                <lit-tag v="A.Agr"/>
+              </equal>
+            </test>
+            <let>
+              <clip pos="1" side="tl" part="a_adj"/>
+              <lit-tag v="A"/>
+            </let>
+          </when>
+        </choose> -->
         <out>
           <chunk name="adj" case="caseFirstWord">
             <tags>
@@ -4437,29 +4482,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         </out>
       </action>
     </rule>
-    <rule comment="REGLA: ADVERB">
-      <!-- This also handles cases where sl:Adv and tl:Po, and although this results in a Po tag, the chunk should still be Adv. -->
-      <pattern>
-        <pattern-item n="adv"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="adv" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="ADV"/></tag>
-              <tag><clip pos="1" side="sl" part="syntag"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_adv"/>
-              <!--<clip pos="1" side="tl" part="a_pxprs"/>-->
-              <!-- we discard pos.suf for now -->
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
+
     <!-- There currently shouldn't be many finnish adpositions that don't have a po or pr reading, but I want adpositions not to transfer yet so that something breaks and I notice. -->
     <rule comment="REGLA: POSTPOSITIONS">
       <pattern>
