@@ -23,6 +23,7 @@
       <cat-item tags="Pcle.*"/>
     </def-cat>
     <def-cat n="postpos">
+      <cat-item tags="Po"/>
       <cat-item tags="Po.*"/>
     </def-cat>
     <def-cat n="prepos">
@@ -4465,20 +4466,36 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <pattern-item n="postpos"/>
       </pattern>
       <action>
-        <out>
-          <chunk name="Po" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="PO"/></tag>
-              <tag><clip pos="1" side="sl" part="syntag"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_adp"/>
-              <!--<clip pos="1" side="tl" part="a_pxprs"/>-->
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose>
+          <when> 
+            <test>
+              <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="kimppuun"/>
+              </equal>
+            </test>
+        <let>
+          <var n="cur_person"/>
+          <lit v=""/>
+        </let>
+          </when> 
+          <otherwise>
+            <out>
+              <chunk name="Po" case="caseFirstWord">
+                <tags>
+                  <tag><lit-tag v="PO"/></tag>
+                  <tag><clip pos="1" side="sl" part="syntag"/></tag>
+                </tags>
+                <lu>
+                  <clip pos="1" side="tl" part="lemh"/>
+                  <clip pos="1" side="tl" part="a_adp"/>
+                  <!--<clip pos="1" side="tl" part="a_pxprs"/>-->
+                  <clip pos="1" side="tl" part="lemq"/>
+                </lu>
+              </chunk>
+            </out>
+          </otherwise>
+        </choose>
       </action>
     </rule>
     <rule comment="REGLA: PREPOSITIONS">
