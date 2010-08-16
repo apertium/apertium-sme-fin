@@ -3809,6 +3809,7 @@
     <e><p><l>bures<s n="Adv"/></l><r>hyvin<s n="Adv"/></r></p></e>
     <e><p><l>dakkaviđe<s n="Adv"/></l><r>heti<s n="Adv"/></r></p></e>
     <e><p><l>dakko<b/>bokte<s n="Adv"/></l><r>siten<s n="Adv"/></r></p></e>
+    <e srl="1"><p><l>nu<s n="Adv"/></l><r>siten<s n="Adv"/></r></p></e>
     <e><p><l>dakko<s n="Adv"/></l><r>sitä<b/>kautta<s n="Adv"/></r></p></e>
     <e><p><l>dalle<s n="Adv"/></l><r>silloin<s n="Adv"/></r></p></e>
     <e><p><l>de<s n="Adv"/></l><r>sitten<s n="Adv"/></r></p></e>
@@ -3888,11 +3889,11 @@
     <e><p><l>olggul<s n="Adv"/></l><r>ulkoa<s n="Adv"/></r></p></e>
     <e><p><l>olgun<s n="Adv"/></l><r>ulkona<s n="Adv"/></r></p></e>
     <e><p><l>ollu<s n="Adv"/></l><r>paljon<s n="Adv"/></r></p></e>
-    <e><p><l>ovdabealde<s n="Adv"/></l><r>edeltä<s n="Adv"/></r></p></e>
-    <e><p><l>ovdabealde<s n="Adv"/></l><r>edestä<s n="Adv"/></r></p></e>
-    <e><p><l>ovdabeale<s n="Adv"/></l><r>edellä<s n="Adv"/></r></p></e>
+    <e><p><l>ovddabealde<s n="Adv"/></l><r>edeltä<s n="Adv"/></r></p></e>
+    <e><p><l>ovddabealde<s n="Adv"/></l><r>edestä<s n="Adv"/></r></p></e>
+    <e><p><l>ovddabeale<s n="Adv"/></l><r>edellä<s n="Adv"/></r></p></e>
     <e><p><l>ovdal<s n="Adv"/></l><r>ennen<s n="Adv"/></r></p></e>
-    <e><p><l>ovdalgihtii<s n="Adv"/></l><r>edeltäpäin<s n="Adv"/></r></p></e>
+    <e><p><l>ovddalgihtii<s n="Adv"/></l><r>edeltäpäin<s n="Adv"/></r></p></e>
     <e><p><l>ovdalis<s n="Adv"/></l><r>edessäpäin<s n="Adv"/></r></p></e>
     <e><p><l>ovdan<b/>ruoktot<s n="Adv"/></l><r>edestakaisin<s n="Adv"/></r></p></e>
     <e><p><l>ovdan<s n="Adv"/></l><r>edessä<s n="Adv"/></r></p></e>
@@ -3905,7 +3906,7 @@
     <e><p><l>ruovttoluotta<s n="Adv"/></l><r>takaisin<s n="Adv"/></r></p></e>
     <e><p><l>ruovttus<s n="Adv"/></l><r>kotoa<s n="Adv"/></r></p></e>
     <e><p><l>ruovttus<s n="Adv"/></l><r>kotona<s n="Adv"/></r></p></e>
-    <e><p><l>seammá<b/>láhkai<s n="Adv"/></l><r>samoin<s n="Adv"/></r></p></e>
+    <e><p><l>seammaláhkai<s n="Adv"/></l><r>samoin<s n="Adv"/></r></p></e>
     <e><p><l>siskkil<s n="Adv"/></l><r>sisältä<s n="Adv"/></r></p></e>
     <e><p><l>siste<s n="Adv"/></l><r>sisälle<s n="Adv"/></r></p></e>
     <e><p><l>siste<s n="Adv"/></l><r>sisällä<s n="Adv"/></r></p></e>
