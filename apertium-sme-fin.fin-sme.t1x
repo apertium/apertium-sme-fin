@@ -2173,6 +2173,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <call-macro n="set_foc_particles">
           <with-param pos="1"/>
         </call-macro>
+        <call-macro n="set_syntag1">
+          <with-param pos="1"/>
+        </call-macro>
         <choose>
           <when>
             <test>
@@ -2213,11 +2216,36 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
           </when>
         </choose>
+        <choose>
+          <when>
+            <test>
+              <and>
+                <equal caseless="yes">
+                  <clip pos="1" side="sl" part="lem"/>
+                  <lit v="olla"/>
+                </equal>
+                 <equal>
+                   <clip pos="1" side="sl" part="a_person"/>
+                   <lit-tag v="Pe4"/>
+                 </equal>
+              </and>
+            </test>
+            <let>
+              <var n="cur_derivation"/>
+              <lit v=""/>
+            </let>
+            <let>
+              <clip pos="1" side="tl" part="a_person"/>
+              <lit-tag v="PD"/>
+            </let>
+          </when>
+        </choose>
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="V"/></tag>
-              <tag><clip pos="1" side="sl" part="syntag"/></tag>
+              <tag><var n="current_syntag"/></tag>
+              <tag><clip pos="1" side="tl" part="a_person"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
@@ -2228,7 +2256,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="1" side="tl" part="a_realis"/>
               <clip pos="1" side="tl" part="a_tense"/>
               <var n="cur_verb_tense"/>
-              <clip pos="1" side="tl" part="a_person"/>
+              <clip pos="1" side="tl" part="a_person" link-to="3"/>
               <clip pos="1" side="tl" part="a_neg"/>
               <clip pos="1" side="tl" part="a_foc"/>
               <clip pos="1" side="tl" part="a_qst"/>

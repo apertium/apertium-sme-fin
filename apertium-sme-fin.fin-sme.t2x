@@ -22,6 +22,9 @@
 	<def-cat n="NEG">
 		<cat-item tags="V.NEG"/>
 	</def-cat>
+	<def-cat n="MAINV">
+		<cat-item tags="V.@+FMAINV.*"/>
+	</def-cat>
 	<def-cat n="AUX">
 		<cat-item tags="V.@+FAUXV"/>
 		<cat-item tags="V.@+FAUXV.*"/>
@@ -102,6 +105,94 @@
 
 
   <section-rules>
+
+
+	<rule comment="Same as previous, instead of or condition in when, for noun subjects">
+		<pattern>
+			<pattern-item n="SUBJ"/>
+			<pattern-item n="MAINV"/>
+		</pattern>
+		<action>
+		    <choose>
+		      <when>
+		        <test>
+                  <and>
+		            <equal>
+		              <clip pos="2" part="a_person"/>
+		              <lit-tag v="PD"/>
+		            </equal>
+                    <not>
+    		          <equal>
+    		            <clip pos="1" part="a_person"/>
+    		            <lit v=""/>
+    		          </equal>
+                    </not>
+                  </and>
+		        </test>
+		        <let>
+		          <clip pos="2" part="a_person"/>
+		          <clip pos="1" part="a_person"/>
+		        </let>
+		      </when>
+		      <when>
+		        <test>
+                  <and>
+		            <equal>
+		              <clip pos="2" part="a_person"/>
+		              <lit-tag v="PD"/>
+		            </equal>
+    		          <equal>
+    		            <clip pos="1" part="a_person"/>
+    		            <lit v=""/>
+    		          </equal>
+                  </and>
+		        </test>
+		        <choose>
+			      <when>
+			        <test>
+			            <equal>
+			              <clip pos="1" part="nbr"/>
+			              <lit-tag v="Sg"/>
+			            </equal>
+			        </test>
+			        <let>
+			          <clip pos="2" part="a_person"/>
+			          <lit-tag v="Sg3"/>
+			        </let>
+			      </when>
+			      <when>
+			        <test>
+			            <equal>
+			              <clip pos="1" part="nbr"/>
+			              <lit-tag v="Pl"/>
+			            </equal>
+			        </test>
+			        <let>
+			          <clip pos="2" part="a_person"/>
+			          <lit-tag v="Pl3"/>
+			        </let>
+			      </when>
+		        </choose>
+		      </when>
+		    </choose>
+			<out>
+				<chunk>
+					<clip pos="1" part="lemh"/>
+					<clip pos="1" part="tags"/>
+					<clip pos="1" part="chcontent"/>
+					<clip pos="1" part="lemq"/>
+				</chunk>
+				<b pos="1"/>
+				<chunk>
+					<clip pos="2" part="lemh"/>
+					<clip pos="2" part="tags"/>
+					<clip pos="2" part="chcontent"/>
+					<clip pos="2" part="lemq"/>
+				</chunk>
+			</out>
+		</action>
+	</rule>
+
 
 
 	<rule comment="Same as previous, instead of or condition in when, for noun subjects">
