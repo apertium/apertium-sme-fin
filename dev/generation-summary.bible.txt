@@ -2,143 +2,149 @@
 ===============================================================================
 Multiple surface forms for a single lexical form
 ===============================================================================
-    237 maŋisboahttiid/maŋisbohttiid	^maŋisboahtti<N><Actor><Pl><Gen>$
+    210 maŋisboahttiid/maŋisbohttiid	^maŋisboahtti<N><Actor><Pl><Gen>$
+     54 ealliid/elliid	^ealli<N><Actor><Pl><Gen>$
+     40 una/unna	^unni<A><Attr>$
+     40 bahá/bahás	^bahá<A><Attr>$
      39 ipmahiid/ipmašiid	^imaš<N><Pl><Gen>$
-     38 ealliid/elliid	^ealli<N><Actor><Pl><Gen>$
+     39 alladii/allagii	^allat<A><Sg><Ill>$
+     34 láđi/láđđi	^láđđi<N><Sg><Gen>$
+     32 guovttis/guovttin	^guokte<Num><Sg><Loc>$
+     29 morraha/morraša	^moraš<N><Sg><Gen>$
      29 Allada/Allaga	^Allat<A><Sg><Gen>$
      28 morrahii/morrašii	^moraš<N><Sg><Ill>$
-     28 morraha/morraša	^moraš<N><Sg><Gen>$
      28 maŋisboahttiin/maŋisbohttiin	^maŋisboahtti<N><Actor><Pl><Loc>$
+     28 láđiid/láđđiid	^láđđi<N><Pl><Gen>$
      27 láđis/láđđis	^láđđi<N><Sg><Gen><PxSg3>$
-     26 láđiid/láđđiid	^láđđi<N><Pl><Gen>$
-     24 láđi/láđđi	^láđđi<N><Sg><Gen>$
-     22 una/unna	^unni<A><Attr>$
-     22 ovttas/ovttan	^okta<Num><Sg><Loc>$
-     21 láđit/láđđit	^láđđi<N><Pl><Nom>$
-     20 láđiid/láđđiid	^láđđi<N><Pl><Acc>$
-     19 láđiide/láđđiide	^láđđi<N><Pl><Ill>$
-     18 njealjis/njealjin	^njeallje<Num><Sg><Loc>$
+     25 láđit/láđđit	^láđđi<N><Pl><Nom>$
+     24 ovttas/ovttan	^okta<Num><Sg><Loc>$
+     23 lossa/losses	^lossat<A><Attr>$
+     21 gearbmaha/gearbmaša	^gearpmaš<N><Sg><Gen>$
+     20 vahkku/vahku	^vahkku<N><Sg><Gen>$
+     20 láđiide/láđđiide	^láđđi<N><Pl><Ill>$
+     19 láđiid/láđđiid	^láđđi<N><Pl><Acc>$
+     18 láđiideaset/láđđiideaset	^láđđi<N><Pl><Nom><PxPl3>$
      18 láđiidis/láđđiidis	^láđđi<N><Pl><Acc><PxSg3>$
-     18 guovttis/guovttin	^guokte<Num><Sg><Loc>$
-     17 láđiideaset/láđđiideaset	^láđđi<N><Pl><Nom><PxPl3>$
+     17 njealjis/njealjin	^njeallje<Num><Sg><Loc>$
+     17 logis/login	^logi<Num><Sg><Loc>$
+     17 láđiin/láđđiin	^láđđi<N><Pl><Loc>$
+     17 ealliide/elliide	^ealli<N><Actor><Pl><Ill>$
      16 maŋisboahttiidasat/maŋisbohttiidasat	^maŋisboahtti<N><Actor><Pl><Ill><PxSg2>$
+     15 morraha/morraša	^moraš<N><Sg><Acc>$
      15 maŋisboahttiidat/maŋisbohttiidat	^maŋisboahtti<N><Actor><Pl><Gen><PxSg2>$
-     15 láđiin/láđđiin	^láđđi<N><Pl><Loc>$
-     15 čalmmeheamit/čalmmeheamet	^čalmmeheapme<A><Pl><Nom>$
-     15 allada/allaga	^allat<A><Sg><Gen>$
-     14 vahkku/vahku	^vahkku<N><Sg><Gen>$
+     15 alladis/allagis	^allat<A><Sg><Loc>$
      14 maŋisboahttiide/maŋisbohttiide	^maŋisboahtti<N><Actor><Pl><Ill>$
-     14 lossa/losses	^lossat<A><Attr>$
+     14 maŋisboahttiid/maŋisbohttiid	^maŋisboahtti<N><Actor><Pl><Acc>$
      14 dieđikeahttá/dieđikeahttájin	^diehtit<V><TV><VAbess>$
+     14 čalmmeheamit/čalmmeheamet	^čalmmeheapme<A><Pl><Nom>$
+     14 allada/allaga	^allat<A><Sg><Gen>$
      13 morrahis/morrašis	^moraš<N><Sg><Loc>$
-     13 máŋggas/máŋggan	^máŋga<Num><Sg><Loc>$
-     13 láđiidis/láđđiidis	^láđđi<N><Pl><Nom><PxSg3>$
-     13 goalmmát/goalmmáda	^goalmmát<A><Ord><Sg><Acc>$
-     13 ealliide/elliide	^ealli<N><Actor><Pl><Ill>$
      13 beasis/beassis	^beassi<N><Sg><Loc>$
      12 ribatkeahttá/ribatkeahttájin	^ribahit<V><TV><VAbess>$
-     12 maŋisboahttiidasas/maŋisbohttiidasas	^maŋisboahtti<N><Actor><Pl><Ill><PxSg3>$
-     12 maŋisboahttiid/maŋisbohttiid	^maŋisboahtti<N><Actor><Pl><Acc>$
+     12 láđiidis/láđđiidis	^láđđi<N><Pl><Nom><PxSg3>$
      12 ealliid/elliid	^ealli<N><Actor><Pl><Acc>$
-     12 čalmmeheami/čalmmeheame	^čalmmeheapme<A><Sg><Gen>$
      12 borakeahttá/borakeahttájin	^borrat<V><TV><VAbess>$
+     11 viđas/viđan	^vihtta<Num><Sg><Loc>$
      11 morrahiidda/morrašiidda	^moraš<N><Pl><Ill>$
+     11 maŋisboahttiidasas/maŋisbohttiidasas	^maŋisboahtti<N><Actor><Pl><Ill><PxSg3>$
+     11 ipmaha/ipmaša	^imaš<N><Sg><Gen>$
      11 govdada/govdaga	^govdat<A><Sg><Gen>$
-     11 gearbmaha/gearbmaša	^gearpmaš<N><Sg><Gen>$
-     11 alladii/allagii	^allat<A><Sg><Ill>$
+     11 čalmmeheami/čalmmeheame	^čalmmeheapme<A><Sg><Gen>$
      10 oaččukeahttá/oaččukeahttájin	^oažžut<V><TV><VAbess>$
-     10 ipmaha/ipmaša	^imaš<N><Sg><Gen>$
+     10 máŋggas/máŋggan	^máŋga<Num><Sg><Loc>$
+     10 golmmas/golmman	^golbma<Num><Sg><Loc>$
+     10 ealliin/elliin	^ealli<N><Actor><Pl><Loc>$
      10 dagakeahttá/dagakeahttájin	^dahkat<V><TV><VAbess>$
       9 ipmahiiddát/ipmašiiddát	^imaš<N><Pl><Gen><PxSg2>$
+      9 gearbmahii/gearbmašii	^gearpmaš<N><Sg><Ill>$
+      9 čiežas/čiežan	^čieža<Num><Sg><Loc>$
       8 maŋisboahttiinis/maŋisbohttiinis	^maŋisboahtti<N><Actor><Pl><Loc><PxSg3>$
-      8 golmmas/golmman	^golbma<Num><Sg><Loc>$
-      8 gearbmahii/gearbmašii	^gearpmaš<N><Sg><Ill>$
+      8 login/lohkin	^logi<Num><Ess>$
+      8 gearbmahiid/gearbmašiid	^gearpmaš<N><Pl><Gen>$
+      8 dáhtukeahttá/dáhtukeahttájin	^dáhttut<V><TV><VAbess>$
       8 boardaga/boardaha	^boardda<N><Sg><Gen>$
-      8 alladis/allagis	^allat<A><Sg><Loc>$
-      8 alladat/allagat	^allat<A><Pl><Nom>$
-      7 morraha/morraša	^moraš<N><Sg><Acc>$
+      7 oahpaheaddjiid/oahpaheddjiid	^oahpaheaddji<N><Actor><Pl><Gen>$
       7 morrahat/morrašat	^moraš<N><Pl><Nom>$
       7 láđiset/láđđiset	^láđđi<N><Sg><Gen><PxPl3>$
       7 láđiidis/láđđiidis	^láđđi<N><Pl><Gen><PxSg3>$
       7 ipmahiin/ipmašiin	^imaš<N><Pl><Loc>$
-      7 ealliin/elliin	^ealli<N><Actor><Pl><Loc>$
       7 boađikeahttá/boađikeahttájin	^boahtit<V><IV><VAbess>$
+      7 alladat/allagat	^allat<A><Pl><Nom>$
+      6 seavdnjadis/sevdnjes	^seavdnjat<A><Attr>$
       6 ribaheamis/ribaheames	^ribahit<V><TV><Actio><Loc>$
       6 manakeahttá/manakeahttájin	^mannat<V><IV><VAbess>$
       6 máđoheami/máđoheame	^máđoheapme<A><Sg><Gen>$
+      6 láđis/láđđis	^láđđi<N><Sg><Loc>$
       6 láđiideaset/láđđiideaset	^láđđi<N><Pl><Gen><PxPl3>$
       6 jugakeahttá/jugakeahttájin	^juhkat<V><TV><VAbess>$
+      6 ipmaha/ipmaša	^imaš<N><Sg><Acc>$
+      6 ipmahat/ipmašat	^imaš<N><Pl><Nom>$
       6 deavddikeahttá/deavddikeahttájin	^deavdit<V><TV><VAbess>$
+      6 čihčii/čihččii/čižii	^čieža<Num><Sg><Ill>$
       6 čalmmeheami/čalmmeheame	^čalmmeheapme<A><Sg><Acc>$
       6 buorrin/buorren	^buorre<A><Ess>$
-      5 vuosttaš/vuosttaža	^vuosttaš<A><Ord><Sg><Acc>$
+      5 vissis/visses	^vissis<A><Attr>$
+      5 riša/rišša	^rišša<N><Sg><Gen>$
+      5 ovccis/ovccin	^ovcci<Num><Sg><Loc>$
       5 maŋisboahttiidis/maŋisbohttiidis	^maŋisboahtti<N><Actor><Pl><Gen><PxSg3>$
       5 Livččiigo/Livččego/Livččuigo	^Leat<V><IV><Cond><Prs><Sg3><Qst>$
-      5 láđis/láđđis	^láđđi<N><Sg><Loc>$
-      5 ipmahat/ipmašat	^imaš<N><Pl><Nom>$
       5 ipmahiiddis/ipmašiiddis	^imaš<N><Pl><Gen><PxSg3>$
       5 gulakeahttá/gulakeahttájin	^gullat<V><TV><VAbess>$
       5 gohčotkeahttá/gohčotkeahttájin	^gohčodit<V><TV><VAbess>$
       5 gearbmahat/gearbmašat	^gearpmaš<N><Pl><Nom>$
-      5 gearbmahiid/gearbmašiid	^gearpmaš<N><Pl><Gen>$
       5 fiidná/fiidnása	^fiinnis<A><Sg><Gen>$
-      5 čiežas/čiežan	^čieža<Num><Sg><Loc>$
       5 beroškeahttá/beroškeahttájin	^beroštit<V><IV><VAbess>$
       5 balakeahttá/balakeahttájin	^ballat<V><TV><VAbess>$
       5 almmutkeahttá/almmutkeahttájin	^almmuhit<V><TV><VAbess>$
-      5 alladiin/allagiin	^allat<A><Pl><Loc>$
-      5 alladiid/allagiid	^allat<A><Pl><Gen>$
+      5 Alladii/Allagii	^Allat<A><Sg><Ill>$
       5 attikeahttá/attikeahttájin	^addit<V><TV><VAbess>$
-      4 vuddjiid/vuoddjiid	^vuoddji<N><Actor><Pl><Gen>$
-      4 seavdnjadis/sevdnjes	^seavdnjat<A><Attr>$
-      4 oahpaheaddjiid/oahpaheddjiid	^oahpaheaddji<N><Actor><Pl><Gen>$
-      4 logis/login	^logi<Num><Sg><Loc>$
       4 lihkadeaddjiid/lihkadeddjiid	^lihkadit<V><IV><Der2><Actor><N><Pl><Gen>$
       4 livččiige/livččege/livččuige	^leat<V><IV><Cond><Prs><Sg3><Foc_ge>$
       4 láđát/láđđát	^láđđi<N><Sg><Gen><PxSg2>$
       4 láđiidat/láđđiidat	^láđđi<N><Pl><Nom><PxSg2>$
       4 láđiideattet/láđđiideattet	^láđđi<N><Pl><Nom><PxPl2>$
+      4 láđiidasaset/láđđiidasaset	^láđđi<N><Pl><Ill><PxPl3>$
       4 ipmahis/ipmašis	^imaš<N><Sg><Gen><PxSg3>$
-      4 ipmahiid/ipmašiid	^imaš<N><Pl><Acc>$
+      4 herskko/hersko	^hersko<N><Sg><Acc>$
       4 guođikeahttá/guođikeahttájin	^guođđit<V><TV><VAbess>$
       4 gávnnakeahttá/gávnnakeahttájin	^gávdnat<V><TV><VAbess>$
       4 duššatkeahttá/duššatkeahttájin	^duššadit<V><TV><VAbess>$
       4 divttikeahttá/divttikeahttájin	^diktit<V><TV><VAbess>$
       4 deattuheaddjiid/deattuheddjiid	^deattuhit<V><TV><Der2><Actor><N><Pl><Acc>$
-      4 čihčii/čihččii/čižii	^čieža<Num><Sg><Ill>$
       4 boardagiin/boardahiin	^boardda<N><Pl><Loc>$
       4 boardagiid/boardahiid	^boardda<N><Pl><Gen>$
       4 beasis/beassis	^beassi<N><Sg><Gen><PxSg3>$
       4 allada/allaga	^allat<A><Sg><Acc>$
+      4 alladiid/allagiid	^allat<A><Pl><Gen>$
       3 vuvdiid/vuovdiid	^vuovdit<V><TV><Der2><Actor><N><Pl><Gen>$
-      3 vissis/visses	^vissis<A><Attr>$
-      3 viđas/viđan	^vihtta<Num><Sg><Loc>$
+      3 vuddjiid/vuoddjiid	^vuoddji<N><Actor><Pl><Gen>$
       3 veahkeheamis/veahkeheames	^veahkehit<V><TV><Actio><Loc>$
       3 ráhkesteaddjiidis/ráhkesteddjiidis	^ráhkestit<V><TV><Der2><Actor><N><Pl><Gen><PxSg3>$
-      3 ovccis/ovccin	^ovcci<Num><Sg><Loc>$
       3 oaččuliigo/oččošiigo	^oažžut<V><TV><Cond><Prs><Sg3><Qst>$
       3 oainnikeahttá/oainnikeahttájin	^oaidnit<V><TV><VAbess>$
       3 oahpaheaddjiide/oahpaheddjiide	^oahpaheaddji<N><Actor><Pl><Ill>$
       3 morrahiinnis/morrašiinnis	^moraš<N><Pl><Loc><PxSg3>$
       3 morrahiid/morrašiid	^moraš<N><Pl><Acc>$
+      3 molssodeaddjiid/molssodeddjiid	^molssodit<V><TV><Der2><Actor><N><Pl><Gen>$
+      3 maŋisboahttiidasaset/maŋisbohttiidasaset	^maŋisboahtti<N><Actor><Pl><Ill><PxPl3>$
       3 maŋisboahttiideaset/maŋisbohttiideaset	^maŋisboahtti<N><Actor><Pl><Acc><PxPl3>$
       3 lihkoheami/lihkoheame	^lihkoheapme<A><Sg><Gen>$
       3 lihkadeaddjiid/lihkadeddjiid	^lihkadit<V><IV><Der2><Actor><N><Pl><Acc>$
       3 Livččiiba/Livččeba/Livččuiba	^Leat<V><IV><Cond><Prs><Sg3><Foc_ba>$
+      3 láđi/láđđi	^láđđi<N><Sg><Acc>$
       3 láđiidat/láđđiidat	^láđđi<N><Pl><Gen><PxSg2>$
       3 láđiideaset/láđđiideaset	^láđđi<N><Pl><Acc><PxPl3>$
       3 jođiheame/jođiheamen	^jođihit<V><TV><Actio><Ess>$
-      3 ipmaha/ipmaša	^imaš<N><Sg><Acc>$
       3 ipmahiinnis/ipmašiinnis	^imaš<N><Pl><Loc><PxSg3>$
-      3 ipmahiid/ipmašiid	^imaš<A><Pl><Gen>$
+      3 ipmahiid/ipmašiid	^imaš<N><Pl><Acc>$
       3 herskkuid/herskuid	^hersko<N><Pl><Gen>$
       3 Guođálingo/Guođášingo	^Guođđit<V><TV><Cond><Prs><Sg1><Qst>$
-      3 govdada/govdaga	^govdat<A><Sg><Acc>$
       3 govdadat/govdagat	^govdat<A><Pl><Nom>$
       3 geahčadeame/geahčadeamen	^geahčadit<V><TV><Actio><Ess>$
       3 gállustis/gálustis	^gállu<N><Sg><Loc><PxSg3>$
       3 gállustat/gálustat	^gállu<N><Sg><Loc><PxSg2>$
       3 gállus/gálus	^gállu<N><Sg><Loc>$
+      3 gállu/gálu	^gállu<N><Sg><Acc>$
       3 fuobmákeahttá/fuobmákeahttájin	^fuobmát<V><TV><VAbess>$
       3 evangeliumas/evangeliumis	^evangelium<N><Sg><Loc>$
       3 duššadeaddjiid/duššadeddjiid	^duššadit<V><TV><Der2><Actor><N><Pl><Acc>$
@@ -146,25 +152,27 @@ Multiple surface forms for a single lexical form
       3 doalaliigo/doalašiigo	^doallat<V><TV><Cond><Prs><Sg3><Qst>$
       3 diehttiid/dihttiid	^diehtit<V><TV><Der2><Actor><N><Pl><Gen>$
       3 diehttiid/dihttiid	^diehtit<V><TV><Der2><Actor><N><Pl><Acc>$
-      3 dáhtukeahttá/dáhtukeahttájin	^dáhttut<V><TV><VAbess>$
       3 daddjágo/dadjágo	^dadjat<V><TV><Ind><Prs><Sg3><Qst>$
-      3 čihččet/čihččeda	^čihččet<A><Ord><Sg><Acc>$
+      3 čierasteaddjiidis/čierasteddjiidis	^čierastit<V><IV><Der2><Actor><N><Pl><Nom><PxSg3>$
       3 boardagiidda/boardahiidda	^boardda<N><Pl><Ill>$
       3 boahttiid/bohttiid	^boahtit<V><IV><Der2><Actor><N><Pl><Gen>$
       3 bilkideaddjiid/bilkideddjiid	^bilkideaddji<N><Actor><Pl><Gen>$
       3 beasi/beassi	^beassi<N><Sg><Gen>$
       3 beasit/beassit	^beassi<N><Pl><Nom>$
-      3 bahá/bahás	^bahá<A><Attr>$
-      3 Allada/Allaga	^Allat<A><Sg><Acc>$
+      3 alladiin/allagiin	^allat<A><Pl><Loc>$
       2 vuorustis/vuorrustis	^vuorru<N><Sg><Loc><PxSg3>$
-      2 viđát/viđáda	^viđát<A><Ord><Sg><Acc>$
       2 veahkeheaddjiid/veahkeheddjiid	^veahkehit<V><TV><Der2><Actor><N><Pl><Acc>$
+      2 válddikeahttá/válddikeahttájin	^váldit<V><TV><VAbess>$
       2 Válddálingo/Válddášingo	^Váldit<V><TV><Cond><Prs><Sg1><Qst>$
       2 vádjoleamis/vádjoleames	^vádjolit<V><IV><Actio><Loc>$
       2 tuollu/tuolu	^tuollu<N><Sg><Acc>$
+      2 soaitiidat/soitiidat	^soaitit<V><IV><Der2><Actor><N><Pl><Gen><PxSg2>$
+      2 soaitiid/soitiid	^soaitit<V><IV><Der2><Actor><N><Pl><Gen>$
       2 sáhtikeahttá/sáhtikeahttájin	^sáhttit<V><IV><VAbess>$
       2 Sáhtálinhan/Sáhtášinhan	^Sáhttit<V><IV><Cond><Prs><Sg1><Foc_han>$
       2 romis/romes	^ropmi<A><Attr>$
+      2 rišas/riššas	^rišša<N><Sg><Loc>$
+      2 riša/rišša	^rišša<N><Sg><Acc>$
       2 riemakeahttá/riemakeahttájin	^riepmat<V><IV><VAbess>$
       2 ráhkatkeahttá/ráhkatkeahttájin	^ráhkadit<V><TV><VAbess>$
       2 ráhkadeaddjiid/ráhkadeddjiid	^ráhkadit<V><TV><Der2><Actor><N><Pl><Acc>$
@@ -172,31 +180,29 @@ Multiple surface forms for a single lexical form
       2 ráđđejeaddjiid/ráđđejeddjiid	^ráđđet<V><TV><Der2><Actor><N><Pl><Gen>$
       2 Ovttas/Ovttan	^Okta<Num><Sg><Loc>$
       2 oaidniid/oidniid	^oaidnit<V><TV><Der2><Actor><N><Pl><Gen>$
-      2 njealját/njealjáda	^njealját<A><Ord><Sg><Acc>$
+      2 njulges/njuolga	^njuolgat<A><Attr>$
       2 morrahisttiset/morrašisttiset	^moraš<N><Sg><Loc><PxPl3>$
       2 morrahan/morrašan	^moraš<N><Sg><Gen><PxSg1>$
       2 morrahiid/morrašiid	^moraš<N><Pl><Gen>$
-      2 mášoheami/mášoheame	^mášoheapme<A><Sg><Acc>$
       2 maŋisboahttiineattet/maŋisbohttiineattet	^maŋisboahtti<N><Actor><Pl><Loc><PxPl2>$
-      2 maŋisboahttiidasaset/maŋisbohttiidasaset	^maŋisboahtti<N><Actor><Pl><Ill><PxPl3>$
       2 maŋisboahttiidan/maŋisbohttiidan	^maŋisboahtti<N><Actor><Pl><Gen><PxSg1>$
       2 maŋisboahttiideattet/maŋisbohttiideattet	^maŋisboahtti<N><Actor><Pl><Gen><PxPl2>$
       2 Livččiihan/Livččehan/Livččuihan	^Leat<V><IV><Cond><Prs><Sg3><Foc_han>$
       2 Láđiidat/Láđđiidat	^Láđđi<N><Pl><Nom><PxSg2>$
       2 láđiinis/láđđiinis	^láđđi<N><Pl><Loc><PxSg3>$
-      2 láđiinat/láđđiinat	^láđđi<N><Pl><Loc><PxSg2>$
       2 láđiineaset/láđđiineaset	^láđđi<N><Pl><Loc><PxPl3>$
+      2 láđiidasas/láđđiidasas	^láđđi<N><Pl><Ill><PxSg3>$
       2 láđiidasan/láđđiidasan	^láđđi<N><Pl><Ill><PxSg1>$
-      2 láđiidasaset/láđđiidasaset	^láđđi<N><Pl><Ill><PxPl3>$
       2 láđiideattet/láđđiideattet	^láđđi<N><Pl><Gen><PxPl2>$
-      2 juoidá/juoga	^juoga<Pron><Indef><Sg><Acc>$
       2 jearralkeahttá/jearralkeahttájin	^jearralit<V><TV><VAbess>$
-      2 ipmahat/ipmašat	^imaš<A><Pl><Nom>$
       2 herskkuidis/herskuidis	^hersko<N><Pl><Gen><PxSg3>$
       2 hálakeahttá/hálakeahttájin	^hállat<V><TV><VAbess>$
       2 guohtumin/guohtume/guohtumen	^guohtun<N><Ess>$
+      2 govdada/govdaga	^govdat<A><Sg><Acc>$
       2 govdadiid/govdagiid	^govdat<A><Pl><Gen>$
       2 Govda/Govdes	^Govdat<A><Attr>$
+      2 govda/govdes	^govdat<A><Attr>$
+      2 geahppa/gehppes	^geahpas<A><Attr>$
       2 geahčakeahttá/geahčakeahttájin	^geahččat<V><TV><VAbess>$
       2 gásttašeamis/gásttašeames	^gásttašit<V><TV><Actio><Loc>$
       2 gállot/gálot	^gállu<N><Sg><Gen><PxSg2>$
@@ -210,9 +216,9 @@ Multiple surface forms for a single lexical form
       2 daddjatgo/dajatgo	^dadjat<V><TV><Ind><Prs><Sg2><Qst>$
       2 čierasteame/čierasteamen	^čierastit<V><IV><Actio><Ess>$
       2 cakkakeahttá/cakkakeahttájin	^caggat<V><TV><VAbess>$
-      2 bulliid/buolliid	^buollit<V><IV><Der2><Actor><N><Pl><Acc>$
       2 boradeame/boradeamen	^boradit<V><TV><Actio><Ess>$
       2 boardagis/boardahis	^boardda<N><Sg><Loc>$
+      2 boardagat/boardahat	^boardda<N><Pl><Nom>$
       2 boađálege/boađášege	^boahtit<V><IV><Cond><Prs><ConNeg><Foc_ge>$
       2 bisánkeahttá/bisánkeahttájin	^bisánit<V><IV><VAbess>$
       2 bilkideaddjiid/bilkideddjiid	^bilkideaddji<N><Actor><Pl><Acc>$
@@ -221,37 +227,46 @@ Multiple surface forms for a single lexical form
       2 ávdin/ávdima	^ávdin<A><Sg><Acc>$
       2 árvalkeahttá/árvalkeahttájin	^árvalit<V><TV><VAbess>$
       2 Alladis/Allagis	^Allat<A><Sg><Loc>$
-      2 Alladii/Allagii	^Allat<A><Sg><Ill>$
+      2 Allada/Allaga	^Allat<A><Sg><Acc>$
       2 alladin/allagin	^allat<A><Ess>$
       1 vuvdiide/vuovdiide	^vuovdi<N><Actor><Pl><Ill>$
       1 vuvdiid/vuovdiid	^vuovdi<N><Actor><Pl><Gen>$
+      1 vuosttaš/vuosttaža	^vuosttaš<A><Ord><Sg><Acc>$
       1 vuoššiid/vuššiid	^vuoššat<V><TV><Der2><Actor><N><Pl><Gen>$
+      1 vuorusteaset/vuorrusteaset	^vuorru<N><Sg><Loc><PxPl3>$
       1 vuorusteattet/vuorrusteattet	^vuorru<N><Sg><Loc><PxPl2>$
       1 vuoru/vuorru	^vuorru<N><Sg><Gen>$
       1 vuoru/vuorru	^vuorru<N><Sg><Acc>$
+      1 vuorddikeahttá/vuorddikeahttájin	^vuordit<V><TV><VAbess>$
       1 Vuorddálingo/Vuorddášingo	^Vuordit<V><TV><Cond><Prs><Sg1><Qst>$
       1 vuitiineaset/vuoitiineaset	^vuoiti<N><Actor><Pl><Loc><PxPl3>$
       1 vuitiid/vuoitiid	^vuoiti<N><Actor><Pl><Gen>$
       1 vuojikeahttá/vuojikeahttájin	^vuodjit<V><TV><VAbess>$
-      1 vuddjiinis/vuoddjiinis	^vuoddji<N><Actor><Sg><Com><PxSg3>$
+      1 vuddjiineaset/vuoddjiineaset	^vuoddji<N><Actor><Sg><Com><PxPl3>$
       1 viehkkiide/vihkkiide	^viehkat<V><IV><Der2><Actor><N><Pl><Ill>$
       1 viehkkiid/vihkkiid	^viehkat<V><IV><Der2><Actor><N><Pl><Gen>$
+      1 veahketkeahttá/veahketkeahttájin	^veahkehit<V><TV><VAbess>$
       1 veahkeheame/veahkeheamen	^veahkehit<V><TV><Actio><Ess>$
       1 vástitkeahttá/vástitkeahttájin	^vástidit<V><TV><VAbess>$
       1 vásitkeahttá/vásitkeahttájin	^vásihit<V><TV><VAbess>$
       1 vánddardeaddjiid/vánddardeddjiid	^vánddardeaddji<N><Actor><Pl><Gen>$
-      1 válddikeahttá/válddikeahttájin	^váldit<V><TV><VAbess>$
       1 válddálingo/válddášingo	^váldit<V><TV><Cond><Prs><Sg1><Qst>$
+      1 váikkuheame/váikkuheamen	^váikkuhit<V><TV><Actio><Ess>$
       1 vahkkus/vahkus	^vahkku<N><Sg><Loc>$
+      1 vahkku/vahku	^vahkku<N><Sg><Acc>$
+      1 vahkkut/vahkut	^vahkku<N><Pl><Nom>$
       1 vádjoleame/vádjoleamen	^vádjolit<V><IV><Actio><Ess>$
+      1 Una/Unna	^Unni<A><Attr>$
       1 tuollu/tuolu	^tuollu<N><Sg><Gen>$
       1 spealakeahttá/spealakeahttájin	^speallat<V><TV><VAbess>$
-      1 soaitiid/soitiid	^soaitit<V><IV><Der2><Actor><N><Pl><Gen>$
+      1 soaitiidis/soitiidis	^soaitit<V><IV><Der2><Actor><N><Pl><Gen><PxSg3>$
+      1 soaitiidan/soitiidan	^soaitit<V><IV><Der2><Actor><N><Pl><Gen><PxSg1>$
       1 soaittálinba/soaittášinba	^soaitit<V><IV><Cond><Prs><Sg1><Foc_ba>$
       1 Soaittáledjego/Soaittášedjego	^Soaitit<V><IV><Cond><Prs><Pl3><Qst>$
       1 smiehtalinge/smiehtašinge	^smiehttat<V><TV><Cond><Prs><Sg1><Foc_ge>$
       1 Sivdnideaddjiideamet/Sivdnideddjiideamet	^Sivdnidit<V><TV><Der2><Actor><N><Pl><Acc><PxPl1>$
       1 sávakeahttá/sávakeahttájin	^sávvat<V><TV><VAbess>$
+      1 sállaha/sállaša	^sálaš<N><Sg><Gen>$
       1 sáhtálitge/sáhtášitge	^sáhttit<V><IV><Cond><Prs><Sg2><Foc_ge>$
       1 Sáhtálingo/Sáhtášingo	^Sáhttit<V><IV><Cond><Prs><Sg1><Qst>$
       1 sáhtálingo/sáhtášingo	^sáhttit<V><IV><Cond><Prs><Sg1><Qst>$
@@ -261,8 +276,6 @@ Multiple surface forms for a single lexical form
       1 šaddadeame/šaddadeamen	^šaddadit<V><TV><Actio><Ess>$
       1 ruonán/ruonájin	^ruoná<A><Ess>$
       1 rokkakeahttá/rokkakeahttájin	^roggat<V><TV><VAbess>$
-      1 riša/rišša	^rišša<N><Sg><Gen>$
-      1 riša/rišša	^rišša<N><Sg><Acc>$
       1 ráhkesteaddjiidan/ráhkesteddjiidan	^ráhkestit<V><TV><Der2><Actor><N><Pl><Gen><PxSg1>$
       1 ráhkesteaddjiid/ráhkesteddjiid	^ráhkestit<V><TV><Der2><Actor><N><Pl><Gen>$
       1 ráhkadeame/ráhkadeamen	^ráhkadit<V><TV><Actio><Ess>$
@@ -276,11 +289,13 @@ Multiple surface forms for a single lexical form
       1 oahpaheaddjiideattet/oahpaheddjiideattet	^oahpaheaddji<N><Actor><Pl><Acc><PxPl2>$
       1 nogakeahttá/nogakeahttájin	^nohkat<V><IV><VAbess>$
       1 Njulges/Njuolga	^Njuolgat<A><Attr>$
+      1 njoammuid/njommuid	^njoammu<N><Actor><Pl><Gen>$
+      1 njoammuid/njommuid	^njoammu<N><Actor><Pl><Acc>$
       1 Njealjis/Njealjin	^Njeallje<Num><Sg><Loc>$
+      1 njealját/njealjáda	^njealját<A><Ord><Sg><Acc>$
       1 morraheattet/morrašeattet	^moraš<N><Sg><Nom><PxPl2>$
       1 morrahisttán/morrašisttán	^moraš<N><Sg><Loc><PxSg1>$
       1 morrahasan/morrašasan	^moraš<N><Sg><Ill><PxSg1>$
-      1 morrahis/morrašis	^moraš<N><Sg><Gen><PxSg3>$
       1 morrahat/morrašat	^moraš<N><Sg><Gen><PxSg2>$
       1 morraheaset/morrašeaset	^moraš<N><Sg><Gen><PxPl3>$
       1 morrahiinnán/morrašiinnán	^moraš<N><Pl><Loc><PxSg1>$
@@ -288,7 +303,6 @@ Multiple surface forms for a single lexical form
       1 morrahiinnádet/morrašiinnádet	^moraš<N><Pl><Loc><PxPl2>$
       1 morrahiiddiset/morrašiiddiset	^moraš<N><Pl><Acc><PxPl3>$
       1 morrahiiddádet/morrašiiddádet	^moraš<N><Pl><Acc><PxPl2>$
-      1 molssodeaddjiid/molssodeddjiid	^molssodit<V><TV><Der2><Actor><N><Pl><Gen>$
       1 molssodeame/molssodeamen	^molssodit<V><TV><Actio><Ess>$
       1 moarsiidan/morsiidan	^moarsi<N><Pl><Acc><PxSg1>$
       1 manalingo/manašingo	^mannat<V><IV><Cond><Prs><Sg1><Qst>$
@@ -303,13 +317,12 @@ Multiple surface forms for a single lexical form
       1 maŋisboahttiideaset/maŋisbohttiideaset	^maŋisboahtti<N><Actor><Pl><Gen><PxPl3>$
       1 maŋisboahttiideamet/maŋisbohttiideamet	^maŋisboahtti<N><Actor><Pl><Gen><PxPl1>$
       1 maŋisboahttiidge/maŋisbohttiidge	^maŋisboahtti<N><Actor><Pl><Gen><Foc_ge>$
-      1 mánáheami/mánáheame	^mánáheapme<A><Sg><Acc>$
       1 mávssikeahttá/mávssikeahttájin	^máksit<V><TV><VAbess>$
       1 máhtálingo/máhtášingo	^máhttit<V><TV><Cond><Prs><Sg1><Qst>$
       1 máđoheamis/máđoheames	^máđoheapme<A><Sg><Loc>$
       1 Máđoheami/Máđoheame	^Máđoheapme<A><Sg><Gen>$
+      1 Lossa/Losses	^Lossat<A><Attr>$
       1 logakeahttá/logakeahttájin	^lohkat<V><TV><VAbess>$
-      1 logát/logáda	^logát<A><Ord><Sg><Acc>$
       1 lihkoheamit/lihkoheamet	^lihkoheapme<A><Pl><Nom>$
       1 Lihkaliigo/Lihkašiigo	^Lihkkat<V><IV><Cond><Prs><Sg3><Qst>$
       1 lihkadeaddjiin/lihkadeddjiin	^lihkadit<V><IV><Der2><Actor><N><Pl><Loc>$
@@ -326,10 +339,10 @@ Multiple surface forms for a single lexical form
       1 láđiineaset/láđđiineaset	^láđđi<N><Sg><Com><PxPl3>$
       1 láđiidan/láđđiidan	^láđđi<N><Pl><Nom><PxSg1>$
       1 láđiideamet/láđđiideamet	^láđđi<N><Pl><Nom><PxPl1>$
-      1 láđiidasas/láđđiidasas	^láđđi<N><Pl><Ill><PxSg3>$
       1 láđiideamet/láđđiideamet	^láđđi<N><Pl><Gen><PxPl1>$
       1 láđiideattet/láđđiideattet	^láđđi<N><Pl><Acc><PxPl2>$
       1 juogikeahttá/juogikeahttájin	^juohkit<V><TV><VAbess>$
+      1 juoidá/juoga	^juoga<Pron><Indef><Sg><Acc>$
       1 Jugalingo/Jugašingo	^Juhkat<V><TV><Cond><Prs><Sg1><Qst>$
       1 jođiheaddjiid/jođiheddjiid	^jođihit<V><TV><Der2><Actor><N><Pl><Acc>$
       1 jođiheamis/jođiheames	^jođihit<V><TV><Actio><Loc>$
@@ -344,10 +357,6 @@ Multiple surface forms for a single lexical form
       1 ipmahiinnán/ipmašiinnán	^imaš<N><Pl><Loc><PxSg1>$
       1 ipmahiiddán/ipmašiiddán	^imaš<N><Pl><Gen><PxSg1>$
       1 ipmahiiddiset/ipmašiiddiset	^imaš<N><Pl><Gen><PxPl3>$
-      1 ipmahii/ipmašii	^imaš<A><Sg><Ill>$
-      1 ipmaha/ipmaša	^imaš<A><Sg><Gen>$
-      1 Ipmaha/Ipmaša	^Imaš<A><Sg><Acc>$
-      1 ipmahiid/ipmašiid	^imaš<A><Pl><Acc>$
       1 hovdejeaddjiide/hovdejeddjiide	^hovdejeaddji<N><Actor><Pl><Ill>$
       1 hovdejeaddjiid/hovdejeddjiid	^hovdejeaddji<N><Actor><Pl><Gen>$
       1 hivssegiid/hivssehiid	^hivsset<N><Pl><Gen>$
@@ -358,20 +367,20 @@ Multiple surface forms for a single lexical form
       1 hálaliige/hálašiige	^hállat<V><TV><Cond><Prs><Sg3><Foc_ge>$
       1 guoskkakeahttá/guoskkakeahttájin	^guoskat<V><IV><VAbess>$
       1 Guottálingo/Guottášingo	^Guoddit<V><TV><Cond><Prs><Sg1><Qst>$
+      1 guđas/guđan	^guhtta<Num><Sg><Loc>$
       1 govdadis/govdagis	^govdat<A><Sg><Loc>$
       1 govdadiidda/govdagiidda	^govdat<A><Pl><Ill>$
-      1 govda/govdes	^govdat<A><Attr>$
       1 Golggaledjego/Golggašedjego	^Golgat<V><IV><Cond><Prs><Pl3><Qst>$
       1 Golmmas/Golmman	^Golbma<Num><Sg><Loc>$
       1 gohčodeame/gohčodeamen	^gohčodit<V><TV><Actio><Ess>$
+      1 goalmmát/goalmmáda	^goalmmát<A><Ord><Sg><Acc>$
       1 giehmánnii/giehmánnái	^giehmánni<N><Sg><Ill>$
       1 gearbmaha/gearbmaša	^gearpmaš<N><Sg><Acc>$
       1 gearbmahiin/gearbmašiin	^gearpmaš<N><Pl><Loc>$
       1 gearbmahiidda/gearbmašiidda	^gearpmaš<N><Pl><Ill>$
-      1 geahppa/gehppes	^geahpas<A><Attr>$
       1 geahčadeamis/geahčadeames	^geahčadit<V><TV><Actio><Loc>$
       1 gávnnaliigo/gávnnašiigo	^gávdnat<V><TV><Cond><Prs><Sg3><Qst>$
-      1 gávccát/gávccáda	^gávccát<A><Ord><Sg><Acc>$
+      1 gávccis/gávccin	^gávcci<Num><Sg><Loc>$
       1 gásttašeame/gásttašeamen	^gásttašit<V><TV><Actio><Ess>$
       1 gállusteattet/gálusteattet	^gállu<N><Sg><Loc><PxPl2>$
       1 gálluset/gáluset	^gállu<N><Sg><Gen><PxPl3>$
@@ -394,6 +403,7 @@ Multiple surface forms for a single lexical form
       1 eahkedisge/eahkebisge	^eahket<N><Sg><Loc><Foc_ge>$
       1 duššadeamis/duššadeames	^duššadit<V><TV><Actio><Loc>$
       1 doamakeahttá/doamakeahttájin	^doapmat<V><IV><VAbess>$
+      1 doalliid/dolliid	^doallat<V><TV><Der2><Actor><N><Pl><Gen>$
       1 Doalaliigo/Doalašiigo	^Doallat<V><TV><Cond><Prs><Sg3><Qst>$
       1 doabukeahttá/doabukeahttájin	^doahput<V><TV><VAbess>$
       1 divukeahttá/divukeahttájin	^divvut<V><TV><VAbess>$
@@ -415,7 +425,7 @@ Multiple surface forms for a single lexical form
       1 čuožžileamis/čuožžileames	^čuožžilit<V><IV><Actio><Loc>$
       1 cummesteamis/cummesteames	^cummestit<V><TV><Actio><Loc>$
       1 čujuheame/čujuheamen	^čujuhit<V><TV><Actio><Ess>$
-      1 čohkkájeaddjiid/čohkkájeddjiid	^čohkkát<V><IV><Der2><Actor><N><Pl><Acc>$
+      1 čoaggiid/čoggiid	^čoaggi<N><Actor><Pl><Gen>$
       1 Čalmmeheami/Čalmmeheame	^Čalmmeheapme<A><Sg><Gen>$
       1 buorris/buorres	^buorre<A><Sg><Nom><PxSg3>$
       1 buoris/buores	^buorre<A><Sg><Gen><PxSg3>$
@@ -427,8 +437,6 @@ Multiple surface forms for a single lexical form
       1 bulliidat/buolliidat	^buollit<V><IV><Der2><Actor><N><Pl><Gen><PxSg2>$
       1 buvttikeahttá/buvttikeahttájin	^buktit<V><TV><VAbess>$
       1 boralege/borašege	^borrat<V><TV><Cond><Prs><ConNeg><Foc_ge>$
-      1 boardagat/boardahat	^boardda<N><Pl><Nom>$
-      1 boardagiid/boardahiid	^boardda<N><Pl><Acc>$
       1 boahttiin/bohttiin	^boahtit<V><IV><Der2><Actor><N><Pl><Loc>$
       1 Bisuliigo/Bisošiigo	^Bissut<V><IV><Cond><Prs><Sg3><Qst>$
       1 bisuledjege/bisošedjege	^bissut<V><IV><Cond><Prs><Pl3><Foc_ge>$
@@ -440,9 +448,9 @@ Multiple surface forms for a single lexical form
       1 Beastiideamet/Bestiideamet	^Beasti<N><Actor><Pl><Acc><PxPl1>$
       1 beastiideamet/bestiideamet	^beasti<N><Actor><Pl><Acc><PxPl1>$
       1 beasisteaset/beassisteaset	^beassi<N><Sg><Loc><PxPl3>$
-      1 besiidis/bessiidis	^beassi<N><Pl><Nom><PxSg3>$
       1 besiidat/bessiidat	^beassi<N><Pl><Nom><PxSg2>$
       1 besiideaset/bessiideaset	^beassi<N><Pl><Nom><PxPl3>$
+      1 besiidis/bessiidis	^beassi<N><Pl><Acc><PxSg3>$
       1 basadeame/basadeamen	^basadit<V><IV><Actio><Ess>$
       1 bálkesteame/bálkesteamen	^bálkestit<V><TV><Actio><Ess>$
       1 báhpiris/báhpáris	^bábir<N><Sg><Loc>$
@@ -455,343 +463,399 @@ Multiple surface forms for a single lexical form
 ===============================================================================
 Multiple bidix entries for a single source language lexical form
 ===============================================================================
+     17 #sistte\/siste	^sistte<Po>/siste<Po>$
+     13 #gasku\/gasku	^gasku<Po>/gasku<Pr>$
+     11 #lahka\/lahka	^lahka<Po>/lahka<Pr>$
+      2 #vuolil\/vuolil	^vuolil<Po>/vuolil<Pr>$
 
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
+   2726 #son	^son<Pron><Pers><Sg><Sg3><Gen>$
+   1925 #mun	^mun<Pron><Pers><Sg><Sg1><Gen>$
+   1902 #don	^don<Pron><Pers><Sg><Sg2><Gen>$
     791 #ollis	^ollis<A>$
-    488 #ieš	^ieš<Pron><Refl><Gen>$
+    266 #čuođi	^čuođi<Num><Sg><Gen>$
+    232 #agálaš	^agálaš<A>$
     180 #seammá láhkai	^seammá láhkai<Adv>$
-    155 #guvlui	^guvlui<Po>$
-    144 #sáhttit	^sáhttit<V><IV>$
-    142 #ovdabeale	^ovdabeale<Adv>$
-    123 #ieš	^ieš<Pron><Refl><Ill>$
-    120 #vanhurskkis	^vanhurskkis<N><Sg><Gen>$
-     95 #agi beaivvisge	^agi beaivvisge<Adv>$
-     81 #goappašat	^goappašat<Pron><Indef>$
-     79 #leat	^leat<V><IV><Ger>$
-     66 #goassege	^goassege<Adv>$
-     64 #ieš	^ieš<Pron><Refl><Loc>$
+    154 #Mun	^Mun<Pron><Pers><Sg><Sg1><Gen>$
+    140 #Don	^Don<Pron><Pers><Sg><Sg2><Gen>$
+    139 #sáhttit	^sáhttit<V><IV>$
+    123 #vanhurskkis	^vanhurskkis<N><Sg><Gen>$
+    123 #Son	^Son<Pron><Pers><Sg><Sg3><Gen>$
+    122 #olmmoš	^olmmoš<N>$
+     89 #bajit	^bajit<A><Attr>$
+     83 #leat	^leat<V><IV><Ger>$
+     79 #goappašat	^goappašat<Pron><Indef>$
+     75 #ieš	^ieš<Pron><Refl><Gen>$
+     75 #duháhat	^duháhat<Num><Sg><Nom>$
+     72 #duháhat	^duháhat<Num><Sg><Gen>$
+     65 #ieš	^ieš<Pron><Refl><PxSg3>$
+     63 #Olmmoš	^Olmmoš<N>$
      62 #nuorta	^nuorta<N><Sg><Ill>$
      62 #dadjat	^dadjat<V><TV>$
-     60 #guhtege	^guhtege<Pron><Indef>$
-     59 #bajit	^bajit<A><Attr>$
+     59 #dahkat	^dahkat<V><TV>$
+     58 #jápmit	^jápmit<V><IV>$
      57 #Seammá láhkai	^Seammá láhkai<Adv>$
-     57 #jápmit	^jápmit<V><IV>$
-     57 #dahkat	^dahkat<V><TV>$
      54 #hállat	^hállat<V><TV><Inf><Ill>$
+     52 #guhtege	^guhtege<Pron><Indef>$
      49 #seammá	^seammá<Pron><Indef><Sg><Loc>$
+     45 #gielda	^gielda<N><Pl>$
      45 #eallit	^eallit<V><IV>$
      37 #dovdat	^dovdat<V><TV>$
      36 #sohka	^sohka<N><Pl>$
-     36 #ráigge	^ráigge<Po>$
      34 #vanhurskkis	^vanhurskkis<N><Sg><Loc>$
+     33 #guhtege	^guhtege<Pron><Indef><Gen>$
+     32 #davvi	^davvi<A><Sg><Ill>$
      31 #seammá	^seammá<Pron><Indef><Ess>$
+     31 #goikkis	^goikkis<A><Attr>$
      30 #vanhurskkis	^vanhurskkis<N><Sg><Nom>$
-     30 #guhtege	^guhtege<Pron><Indef><Gen>$
+     30 #mii	^mii<Pron><Interr><Gen>$
      29 #riegádit	^riegádit<V><IV>$
      29 #okta	^okta<Num><Pl><Ess>$
-     29 #mii	^mii<Pron><Interr><Gen>$
+     29 #oarji	^oarji<N><Sg><Ill>$
+     29 #davvi	^davvi<A><Sg><Loc>$
      28 #namma	^namma<N><Pl>$
      27 #dakko bokte	^dakko bokte<Adv>$
+     27 #dáidit	^dáidit<V><IV><PrsPrc>$
+     26 #vuoidat	^vuoidat<V><TV>$
      26 #viidu	^viidu<N><Sg><Nom>$
      25 #vanhurskkis	^vanhurskkis<N><Sg><Gen><PxSg2>$
-     24 #mávssahus	^mávssahus<N><Sg><Gen>$
+     25 #mávssahus	^mávssahus<N><Sg><Gen>$
+     25 #Halleluja	^Halleluja<Interj>$
      24 #mannat	^mannat<V><IV><Der2><Der_PassL><V><PrsPrc>$
+     24 #buktit	^buktit<V><TV>$
      23 #vanhurskkis	^vanhurskkis<N><Sg><Ill>$
-     23 #vanhurskkis	^vanhurskkis<N><Sg><Gen><PxSg3>$
      23 #ossodat	^ossodat<N><Pl>$
+     23 #osku	^osku<N>$
      23 #oažžut	^oažžut<V><TV>$
-     23 #heaittekeahttá	^heaittekeahttá<Adv>$
-     23 #dáidit	^dáidit<V><IV><PrsPrc>$
-     23 #buktit	^buktit<V><TV>$
-     23 #álás	^álás<A><Sg><Gen>$
+     22 #vigiheapmi	^vigiheapmi<A><Attr>$
+     22 #vanhurskkis	^vanhurskkis<N><Sg><Gen><PxSg3>$
+     22 #álás	^álás<A><Sg><Gen>$
+     21 #oaffar	^oaffar<N><Ess><PxSg3>$
      21 #leat	^leat<V><IV><Der2><Der_PassL><V><PrfPrc>$
-     21 #ieš	^ieš<Pron><Refl><Nom>$
-     21 #duháhat	^duháhat<Num><Sg><Nom>$
-     21 #boahtit	^boahtit<V><IV>$
+     20 #logi	^logi<Num><Sg><Par>$
      20 #jápmit	^jápmit<V><IV><Der2><Der_PassL><V><PrsPrc>$
-     20 #garrasit	^garrasit<Adv>$
-     20 #buohkat	^buohkat<Pron><Indef><Sg><Pl><Com>$
-     19 #vihtta	^vihtta<Num><Sg><Par>$
-     19 #riektadit	^riektadit<Adv>$
+     20 #boahtit	^boahtit<V><IV>$
      19 #ollislaš	^ollislaš<A><Sg><Ill>$
      19 #gullat	^gullat<V><TV>$
-     19 #goikkis	^goikkis<A><Attr>$
-     19 #álás	^álás<A><Sg><Ill>$
+     19 #fallehit	^fallehit<V><IV><Ind><Prs><Sg1>$
+     19 #davvi	^davvi<A><Attr>$
      18 #Ollis	^Ollis<A>$
      18 #nuorta	^nuorta<N><Sg><Loc>$
      18 #goappašat	^goappašat<Pl><Nom>$
      18 #eará	^eará$
      18 #doahput	^doahput<V><TV>$
-     18 #bajit	^bajit<A><Sg><Nom>$
-     18 #bajit	^bajit<A><Sg><Gen>$
      18 #arvit	^arvit<V><IV><Ind><Prs><Sg1>$
      17 #vuolibuš	^vuolibuš<A><Pl><Nom>$
      17 #oaivi	^oaivi<N>$
      17 #mannat	^mannat<V><IV>$
+     17 #buohkat	^buohkat<Pron><Indef><Sg><Pl><Com>$
+     17 #álás	^álás<A><Sg><Ill>$
+     16 #vissis	^vissis<A>$
      16 #ovdalgihtii	^ovdalgihtii<Adv>$
+     16 #jaskat	^jaskat<A>$
      16 #illu	^illu<N><Pl>$
+     16 #davvi	^davvi<A><Sg><Gen>$
      15 #suollemas	^suollemas<N><Sg><Gen>$
+     15 #juhkat	^juhkat<V><TV>$
      15 #gollat	^gollat<V><IV><Der2><Der_PassL><V><PrsPrc>$
      15 #doaibmat	^doaibmat<V><IV><Der2><Der_PassL><V><PrsPrc>$
+     14 #vuođđudit	^vuođđudit<V><TV>$
+     14 #oarji	^oarji<N><Sg><Loc>$
      14 #luohttit	^luohttit<V><IV><Der2><Der_PassL><V><PrsPrc>$
+     14 #ipmirdit	^ipmirdit<V><TV>$
+     14 #guokte	^guokte<Num>$
+     14 #fitnat	^fitnat<V><IV><Der2><Der_PassL><V><PrsPrc>$
      14 #boaitto beallai	^boaitto beallai<Adv>$
+     14 #bahča	^bahča<A>$
      14 #addit	^addit<V><TV>$
-     13 #vigiheapmi	^vigiheapmi<A><Sg><Gen>$
+     13 #leat	^leat<V><IV>$
      13 #iskat	^iskat<V><TV><Inf><Ill>$
-     13 #ipmirdit	^ipmirdit<V><TV>$
-     13 #buot	^buot<Pron><Indef><Ess>$
-     12 #vuođđudit	^vuođđudit<V><TV>$
+     13 #fámolaš	^fámolaš<A><Attr>$
+     13 #dárkil	^dárkil<A>$
      12 #vanhurskkis	^vanhurskkis<N><Sg><Gen><PxSg1>$
-     12 #logi	^logi<Num><Sg><Par>$
      12 #láhppot	^láhppot<V><IV><Der2><Der_PassL><V><PrsPrc>$
      12 #golgat	^golgat<V><IV><Der2><Der_PassL><V><PrsPrc>$
+     12 #buozas	^buozas<A><Attr>$
      12 #borrat	^borrat<V><TV>$
+     12 #biegga	^biegga<N>$
      11 #vejolaš	^vejolaš<A><Sg><Gen>$
-     11 #ollislaš	^ollislaš<A><Sg><Nom>$
-     11 #náitosii	^náitosii<Adv>$
      11 #mánna	^mánna<N><Sg><Gen>$
-     11 #leat	^leat<V><IV>$
-     11 #juhkat	^juhkat<V><TV>$
      11 #guovtte sadjái	^guovtte sadjái<Adv>$
-     11 #dáiddolaččat	^dáiddolaččat<Adv>$
+     11 #guhtege	^guhtege<Pron><Indef><Loc>$
+     11 #gii	^gii<Pron><Rel><Sg><Abe>$
+     11 #álás	^álás<A><Sg><Nom>$
      10 #Rabbi	^Rabbi<N><Sg><Nom>$
-     10 #orrut	^orrut<V><IV>$
+     10 #ollislaš	^ollislaš<A><Sg><Nom>$
+     10 #oadjebas	^oadjebas<A>$
      10 #maŋos	^maŋos$
-     10 #gii	^gii<Pron><Rel><Sg><Abe>$
+     10 #ieš	^ieš<Pron><Refl><Loc>$
+     10 #dilli	^dilli<N>$
      10 #diehtit	^diehtit<V><TV>$
-     10 #beaivi	^beaivi<N><Sg><Par>$
-     10 #áigge	^áigge<Po>$
-      9 #vigiheapmi	^vigiheapmi<A><Attr>$
+     10 #buorre	^buorre<A>$
+     10 #ássat	^ássat<V><IV>$
       9 #vanhurskkis	^vanhurskkis<A>$
       9 #vallái	^vallái<Adv>$
+      9 #ustit	^ustit<N>$
+      9 #ráhkadit	^ráhkadit<V><TV>$
+      9 #nisson	^nisson<N>$
       9 #leat	^leat<V><IV><Der2><Der_PassL><V><PrsPrc>$
       9 #iskat	^iskat<V><TV>$
       9 #eará guovllus	^eará guovllus<Adv>$
       9 #dearvvahit	^dearvvahit<V><TV><Inf><Ill>$
-      9 #čiekŋalassii	^čiekŋalassii<Adv>$
-      9 #buozas	^buozas<A><Attr>$
+      9 #buorre	^buorre<A><Attr>$
       9 #boaldit	^boaldit<V><TV>$
       8 #vanhurskkis	^vanhurskkis<N><Sg><Loc><PxSg2>$
       8 #vanhurskkis	^vanhurskkis<N><Sg><Acc>$
       8 #suollemas	^suollemas<N><Sg><Nom>$
-      8 #ráhkadit	^ráhkadit<V><TV>$
       8 #oaidnit	^oaidnit<V><TV>$
+      8 #mávssahus	^mávssahus<N><Sg><Nom>$
+      8 #lunddolaš	^lunddolaš<A><Attr>$
       8 #juohke bealde	^juohke bealde<Adv>$
-      8 #jahki	^jahki<N><Sg><Par>$
-      8 #ieš	^ieš<Pron><Refl><Nom><PxSg1>$
-      8 #guokte	^guokte<Num><Sg><Par>$
-      8 #fitnat	^fitnat<V><IV><Der2><Der_PassL><V><PrsPrc>$
+      8 #ihtit	^ihtit<V><IV><Neg>$
+      8 #guoddit	^guoddit<V><TV>$
       8 #duššadit	^duššadit<V><TV>$
-      8 #čieža	^čieža<Num><Sg><Par>$
       8 #čierastit	^čierastit<V><IV>$
       8 #álás	^álás<A><Pl><Ill>$
-      7 #vigiheapmi	^vigiheapmi<A><Sg><Nom>$
+      7 #vuostá	^vuostá<N>$
       7 #vanhurskkis	^vanhurskkis<N><Sg><Loc><PxPl3>$
+      7 #vanhurskkis	^vanhurskkis<N><Pl><Nom>$
       7 #sisaguovlluid	^sisaguovlluid<Adv>$
       7 #ovddeš	^ovddeš<Adv>$
-      7 #orrut	^orrut<V><IV><Neg>$
-      7 #mávssahus	^mávssahus<N><Sg><Nom>$
-      7 #lagamustá	^lagamustá<Adv>$
+      7 #ollislaš	^ollislaš<A><Attr>$
+      7 #ollislaš	^ollislaš<A>$
+      7 #njeallje	^njeallje<Num><Sg><Ess>$
       7 #jávkat	^jávkat<V><IV><Neg>$
       7 #Jápmit	^Jápmit<V><IV>$
       7 #Illu	^Illu<N><Pl>$
-      7 #ihtit	^ihtit<V><IV><Neg>$
       7 #hállat	^hállat<V><TV>$
-      7 #guoktilaččat	^guoktilaččat<Adv>$
-      7 #guoddit	^guoddit<V><TV>$
-      7 #golbma	^golbma<Num><Sg><Par>$
       7 #gohčodit	^gohčodit<V><TV>$
       7 #goappašat	^goappašat<Pl><Gen>$
-      7 #farggabut	^farggabut<Adv>$
       7 #duššadit	^duššadit<V><TV><Der3><Der_n><N><Sg><Com>$
       7 #čuožžilit	^čuožžilit<V><IV>$
-      7 #čájehit	^čájehit<V><TV><Inf><Ill>$
+      7 #čuođi	^čuođi<Num><Sg><Par>$
+      7 #čuođi	^čuođi<Num><Sg><Loc>$
       7 #bassat	^bassat<V><TV>$
-      7 #álás	^álás<A><Sg><Nom>$
+      7 #bajit	^bajit<A><Sg><Nom>$
+      7 #ássat	^ássat<V><IV><Neg>$
+      7 #almmolaš	^almmolaš<A>$
       6 #vuolibuš	^vuolibuš<A><Sg><Ill>$
       6 #vulos guovlluid	^vulos guovlluid<Adv>$
+      6 #vigiheapmi	^vigiheapmi<A><Sg><Nom>$
       6 #vádjolit	^vádjolit<V><IV>$
       6 #suollemas	^suollemas<N><Pl><Acc>$
+      6 #smiehttat	^smiehttat<V><TV>$
       6 #Seammá	^Seammá<Pron><Indef><Sg><Loc>$
       6 #sáhttit	^sáhttit<V><IV><Neg>$
-      6 #orrut	^orrut<V><IV><Der2><Der_PassL><V><PrsPrc>$
-      6 #ollislaš	^ollislaš<A><Sg><Gen>$
+      6 #sáhka	^sáhka<N>$
       6 #ollislaš	^ollislaš<A><Pl><Ill>$
-      6 #njeallje	^njeallje<Num><Sg><Par>$
+      6 #njalkkas	^njalkkas<A><Attr>$
       6 #lohkat	^lohkat<V><TV>$
-      6 #Ieš	^Ieš<Pron><Refl><Gen>$
+      6 #heivet	^heivet<V><IV><Neg>$
       6 #heivehit	^heivehit<V><TV>$
-      6 #guhtege	^guhtege<Pron><Indef><Loc>$
-      6 #guhkit	^guhkit<Adv>$
+      6 #gurput	^gurput<V><TV>$
+      6 #guhtege	^guhtege<Pron><Indef><Ill>$
       6 #gohčodit	^gohčodit<V><TV><Inf3><Ins>$
-      6 #geardi	^geardi<N><Sg><Par>$
       6 #fitnat	^fitnat<V><IV>$
+      6 #earrogirji	^earrogirji<N><Sg><Gen>$
       6 #eará guvlui	^eará guvlui<Adv>$
-      6 #dárkileappot	^dárkileappot<Adv>$
+      6 #duháhat	^duháhat<Num><Sg><Par>$
+      6 #davvi	^davvi<A><Sg><Nom>$
+      6 #davvi	^davvi<A>$
+      6 #davábealle	^davábealle<N><Pl>$
       6 #Dakko bokte	^Dakko bokte<Adv>$
+      6 #dáidit	^dáidit<V><IV><Neg>$
+      6 #čájehit	^čájehit<V><TV><Inf><Ill>$
       6 #bárgu	^bárgu<N><Sg><Gen>$
+      6 #ássat	^ássat<V><IV><Der2><Der_PassL><V><PrsPrc>$
+      5 #vigiheapmi	^vigiheapmi<A><Sg><Gen>$
       5 #Vanhurskkis	^Vanhurskkis<N><Sg><Nom>$
-      5 #vanhurskkis	^vanhurskkis<N><Pl><Nom>$
-      5 #váldit	^váldit<V><TV>$
+      5 #uh	^uh<Interj>$
       5 #suollemas	^suollemas<N><Sg><Acc>$
       5 #smiehttat	^smiehttat<V><TV><Inf><Ill>$
       5 #maŋil	^maŋil<Adv>$
-      5 #heivet	^heivet<V><IV><Neg>$
+      5 #jalla	^jalla<A>$
+      5 #ieš	^ieš<Pron><Refl><Sg><Gen>$
+      5 #ieš	^ieš<Pron><Refl><Pl><Acc>$
+      5 #heajat	^heajat<N><Sg><Nom>$
+      5 #heajat	^heajat<N><Sg><Acc>$
       5 #guokte	^guokte<Num><Pl>$
       5 #Guhtege	^Guhtege<Pron><Indef>$
       5 #goappašat	^goappašat<Pl><Acc>$
       5 #geahčadit	^geahčadit<V><TV><Inf><Ill>$
-      5 #duohkái	^duohkái<Adv>$
-      5 #dássidit	^dássidit<Adv>$
+      5 #fallehit	^fallehit<V><IV><Inf>$
+      5 #fallehit	^fallehit<V><IV><Ind><Prs><Sg3>$
+      5 #fallehit	^fallehit<V><IV><Ind><Prs><Pl3>$
+      5 #duháhat	^duháhat<Num><Sg><Ill>$
+      5 #čieža	^čieža<Num><Sg><Ess>$
+      5 #čieŋal	^čieŋal<A>$
+      5 #čáppat	^čáppat<A>$
       5 #boagusteapmi	^boagusteapmi<N><Sg><Ill>$
+      5 #bealli	^bealli<N><Pl>$
       5 #basuhit	^basuhit<V><TV>$
+      5 #bajit	^bajit<A><Sg><Gen>$
+      5 #báhppa	^báhppa<N>$
       5 #ásahit	^ásahit<V><TV>$
       5 #addit	^addit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
+      4 #vuolibuš	^vuolibuš<A><Sg><Nom>$
       4 #vuoigŋa	^vuoigŋa<N>$
-      4 #vuoidat	^vuoidat<V><TV>$
+      4 #vuohki	^vuohki<N>$
+      4 #viidu	^viidu<N><Sg><Acc>$
       4 #vejolaš	^vejolaš<A><Sg><Nom>$
+      4 #veahkaváldi	^veahkaváldi<N>$
       4 #Vanhurskkis	^Vanhurskkis<N><Sg><Gen>$
       4 #válljet	^válljet<V><TV>$
       4 #suollemas	^suollemas<N><Pl><Nom>$
+      4 #soajálaš	^soajálaš<A><Attr>$
       4 #sirdit	^sirdit<V><TV>$
       4 #Seammá	^Seammá<Pron><Indef><Ess>$
       4 #Sáhttit	^Sáhttit<V><IV>$
+      4 #rumaš	^rumaš<N>$
       4 #ráđđet	^ráđđet<V><TV>$
-      4 #orrut	^orrut<V><IV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
+      4 #ollislaš	^ollislaš<A><Sg><Gen>$
       4 #oassi	^oassi<N><Pl>$
       4 #oahppat	^oahppat<V><TV>$
-      4 #njalkkas	^njalkkas<A><Attr>$
       4 #mánna	^mánna<N><Sg><Nom>$
       4 #Lihkolaš	^Lihkolaš<A><Sg><Nom>$
       4 #lihkolaš	^lihkolaš<A><Sg><Ill>$
       4 #leat	^leat<V><IV><Neg>$
       4 #leaikut	^leaikut<V><TV>$
       4 #Juohkit	^Juohkit<V><TV><Imprt><Sg2><Foc_ge>$
+      4 #joavku	^joavku<N><Pl>$
+      4 #jahki	^jahki<N><Gen>$
+      4 #Ipmil	^Ipmil<N><Prop><Mal><Gen>$
       4 #Ii	^Ii<V><IV><Neg><Ind><Sg3><Foc_han><Qst>$
       4 #ihtit	^ihtit<V><IV><Der2><Der_PassL><V><Cond><ConNeg>$
-      4 #ieš	^ieš<Pron><Refl><Nom><PxSg2>$
-      4 #ieš	^ieš<Pron><Refl><Nom><PxPl3>$
-      4 #gurput	^gurput<V><TV>$
+      4 #gievra	^gievra<A>$
       4 #gaskkamus	^gaskkamus<A><Sg><Nom>$
       4 #gártat	^gártat<V><IV>$
+      4 #fuolakeahttá	^fuolakeahttá<Po>$
       4 #doalvut	^doalvut<V><TV>$
       4 #dikšut	^dikšut<V><TV>$
       4 #deaivat	^deaivat<V><TV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
       4 #Dáidit	^Dáidit<V><IV><PrsPrc>$
       4 #čuodjat	^čuodjat<N><Sg><Gen>$
-      4 #čieža	^čieža<Num><Sg><Ess>$
       4 #čállit	^čállit<V><TV>$
-      4 #buorre	^buorre<A>$
+      4 #buot	^buot<Pron><Indef><Ess>$
       4 #buorránit	^buorránit<V><IV>$
       4 #boahtit	^boahtit<V><IV><Der2><Der_PassL><V><PrsPrc>$
       4 #bidjat	^bidjat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       4 #beassat	^beassat<V><IV><Der2><Der_PassL><V><Imprt><ConNeg>$
-      4 #bajit	^bajit<A><Sg><Acc>$
+      4 #bajándálki	^bajándálki<N>$
+      4 #ássat	^ássat<V><IV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
       4 #álás	^álás<A><Ess>$
       3 #vuordit	^vuordit<V><TV>$
-      3 #vuolibuš	^vuolibuš<A><Sg><Nom>$
       3 #vuoitit	^vuoitit<V><TV>$
-      3 #vuodjit	^vuodjit<V><TV>$
-      3 #viidu	^viidu<N><Sg><Acc>$
-      3 #vigiheapmi	^vigiheapmi<A><Sg><Acc>$
+      3 #Vissis	^Vissis<A>$
       3 #viehkat	^viehkat<V><IV><Inf><Ill>$
+      3 #váttis	^váttis<A>$
       3 #vašálašvuohta	^vašálašvuohta<N><Sg><Gen>$
       3 #vanhurskkis	^vanhurskkis<N><Sg><Gen><PxPl1>$
+      3 #válmmas	^válmmas<A>$
+      3 #váldit	^váldit<V><TV>$
       3 #tuolloviessu	^tuolloviessu<N><Sg><Loc>$
-      3 #soajálaš	^soajálaš<A><Attr>$
-      3 #šattolaš	^šattolaš<A><Sg><Ill>$
+      3 #šattolaš	^šattolaš<A><Attr>$
       3 #Sáhttit	^Sáhttit<V><IV><Imprt><Sg2><Qst>$
+      3 #šaddadit	^šaddadit<V><TV>$
       3 #rássegierdu	^rássegierdu<N><Sg><Nom>$
       3 #rássegierdu	^rássegierdu<N><Sg><Gen>$
       3 #ráhkadit	^ráhkadit<V><TV><Der3><Der_n><N><Sg><Com>$
-      3 #ollislaš	^ollislaš<A><Sg><Acc>$
       3 #ollislaš	^ollislaš<A><Ess>$
-      3 #ollislaš	^ollislaš<A><Attr>$
+      3 #okta	^okta<Num><Sg><Ess>$
       3 #ohcat	^ohcat<V><TV>$
       3 #oastit	^oastit<V><TV>$
       3 #nohkat	^nohkat<V><IV>$
       3 #nannet	^nannet<V><TV>$
       3 #Mii	^Mii<Pron><Interr><Gen>$
       3 #mihkkege	^mihkkege<Pron><Indef><Pl><Nom>$
-      3 #miellahttu	^miellahttu<N><Sg><Par>$
+      3 #mearra	^mearra<N><Pl>$
       3 #mávssolaš	^mávssolaš<A><Pl><Gen>$
       3 #mávssahus	^mávssahus<N><Sg><Acc>$
-      3 #lunddolaš	^lunddolaš<A><Attr>$
       3 #lohpidit	^lohpidit<V><TV>$
       3 #lohkat	^lohkat<V><TV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
+      3 #liikot	^liikot<V><IV><Der2><Der_PassL><V><PrsPrc>$
       3 #lihkolaš	^lihkolaš<A><Sg><Nom>$
       3 #lihkolaš	^lihkolaš<A><Ess>$
-      3 #láibi	^láibi<N><Sg><Par>$
+      3 #láhkarihkku	^láhkarihkku<N><Sg><Nom>$
       3 #láhka	^láhka<N><Sg><Ess>$
       3 #juos fal	^juos fal<CS>$
       3 #joavdat	^joavdat<V><IV><Der2><Der_PassL><V><Cond><ConNeg>$
       3 #jáhkkit	^jáhkkit<V><TV>$
+      3 #illu	^illu<N>$
+      3 #ieš	^ieš<Pron><Refl><Sg><Acc>$
       3 #ieš	^ieš<Pron><Refl><Nom><PxSg3>$
       3 #ieš	^ieš<Pron><Attr>$
       3 #heavvanit	^heavvanit<V><IV><Der2><Der_PassL><V><PrsPrc>$
       3 #heavvanit	^heavvanit<V><IV><Der2><Der_PassL><V><Ind><Prs><ConNeg>$
       3 #heavvanit	^heavvanit<V><IV><Der2><Der_PassL><V><Cond><ConNeg>$
       3 #heavvanit	^heavvanit<V><IV>$
+      3 #Heasta	^Heasta<N>$
+      3 #hállu	^hállu<N>$
       3 #gullot	^gullot<V><IV>$
+      3 #golbma	^golbma<Num><Sg><Ela>$
       3 #goddit	^goddit<V><TV><Inf3><Ins>$
+      3 #geardi	^geardi<N>$
       3 #gaskkamus	^gaskkamus<A><Attr>$
       3 #gárvodit	^gárvodit<V><IV>$
+      3 #fallehit	^fallehit<V><IV><Ind><Prt><Sg3>$
       3 #divvut	^divvut<V><TV>$
       3 #dievvat	^dievvat<V><IV>$
       3 #deavdit	^deavdit<V><TV>$
       3 #deattuhit	^deattuhit<V><TV>$
+      3 #Davvi	^Davvi<A><Sg><Loc>$
       3 #dárbbahit	^dárbbahit<V><TV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
-      3 #dáidit	^dáidit<V><IV><Neg>$
       3 #dadjat	^dadjat<V><TV><Inf3><Ins>$
       3 #čuvggodit	^čuvggodit<V><IV>$
       3 #čuohppat	^čuohppat<V><TV>$
+      3 #čuođi	^čuođi<Num><Sg><Ill>$
       3 #čohkkát	^čohkkát<V><IV>$
       3 #buressivdnidit	^buressivdnidit<V><TV>$
       3 #buorránit	^buorránit<V><IV><Neg>$
       3 #borrat	^borrat<V><TV><Imprt><Sg2><Qst>$
       3 #bivdit	^bivdit<V><TV>$
+      3 #bistit	^bistit<V><IV>$
       3 #basadit	^basadit<V><IV>$
       3 #bárgu	^bárgu<N><Sg><Nom>$
       3 #barggahit	^barggahit<V><TV>$
-      3 #bajit	^bajit<A><Sg><Ill>$
-      3 #bajit	^bajit<A><Ess>$
-      3 #báiki	^báiki<N><Pl><Ins>$
       3 #atnit	^atnit<V><TV>$
       3 #Álás	^Álás<A><Sg><Gen>$
       3 #Ai	^Ai<Pcle>$
-      3 #áhpi	^áhpi<N><Pl>$
+      3 #áigi	^áigi<N>$
       2 #vuolibuš	^vuolibuš<A><Pl><Gen>$
-      2 #vovdna	^vovdna<N><Pl><Ade>$
+      2 #vuodjit	^vuodjit<V><TV>$
       2 #vissisvuohta	^vissisvuohta<N><Sg><Nom>$
       2 #vissisvuohta	^vissisvuohta<N><Sg><Loc>$
       2 #vissisvuohta	^vissisvuohta<N><Sg><Gen>$
+      2 #viidu	^viidu<N><Sg><Gen><Foc_ge>$
       2 #Vigiheapmi	^Vigiheapmi<A><Sg><Nom>$
       2 #vigiheapmi	^vigiheapmi<A><Sg><Ill>$
-      2 #vigiheapmi	^vigiheapmi<A><Pl><Nom>$
-      2 #vigiheapmi	^vigiheapmi<A><Pl><Gen>$
+      2 #vigiheapmi	^vigiheapmi<A><Sg><Acc>$
       2 #vigiheapmi	^vigiheapmi<A><Ess>$
       2 #vealgečálus	^vealgečálus<N><Pl><Nom>$
       2 #vanhurskkis	^vanhurskkis<N><Sg><Gen><PxPl2>$
-      2 #vanhurskkis	^vanhurskkis<N><Pl><Acc><PxSg3>$
-      2 #vanhurskkis	^vanhurskkis<N><Pl><Acc><PxSg2>$
       2 #váibat	^váibat<V><IV><Der2><Der_PassL><V><PrsPrc>$
+      2 #ustitlaš	^ustitlaš<A>$
       2 #Suollemas	^Suollemas<N><Sg><Gen>$
       2 #suollemas	^suollemas<N><Pl><Gen>$
       2 #suoládit	^suoládit<V><TV>$
       2 #soajálaš	^soajálaš<A><Sg><Gen>$
       2 #soajálaš	^soajálaš<A><Pl><Ill>$
+      2 #skárrit	^skárrit<N><Sg><Com><PxPl3>$
       2 #sivdnidit	^sivdnidit<V><TV>$
+      2 #šattolaš	^šattolaš<A><Sg><Ill>$
       2 #sárdnidit	^sárdnidit<V><TV><Inf3><Ins>$
       2 #sáhttit	^sáhttit<V><IV><Der2><Der_PassL><V><Cond><Sg3>$
       2 #ráhkadit	^ráhkadit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       2 #Rabbi	^Rabbi<N><Sg><Acc>$
-      2 #okta	^okta<Num><Sg><Ade>$
+      2 #ollislaš	^ollislaš<A><Sg><Acc>$
       2 #ođas	^ođas<A>$
-      2 #oađđit	^oađđit<V><IV>$
+      2 #oanehaš	^oanehaš<A>$
+      2 #nuorttabealli	^nuorttabealli<N><Pl>$
       2 #Nuorta	^Nuorta<N><Sg><Ill>$
       2 #nohkat	^nohkat<V><IV><Neg>$
+      2 #njeallje	^njeallje<Num><Sg><Abe>$
+      2 #njálbmi	^njálbmi<N>$
       2 #muitit	^muitit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       2 #muitit	^muitit<V><TV>$
       2 #mávssahus	^mávssahus<N><Sg><Ill>$
@@ -799,64 +863,69 @@ Tag mismatch between transfer and generation
       2 #mávssahus	^mávssahus<N><Pl><Nom>$
       2 #maŋemusháve	^maŋemusháve<Adv>$
       2 #luohttit	^luohttit<V><IV>$
-      2 #lunddolaš	^lunddolaš<A><Pl><Gen>$
-      2 #liikot	^liikot<V><IV><Der2><Der_PassL><V><PrsPrc>$
-      2 #lihkolaš	^lihkolaš<A><Pl><Nom>$
+      2 #lullibiegga	^lullibiegga<N><Sg><Nom>$
+      2 #lullibiegga	^lullibiegga<N><Sg><Gen>$
       2 #Lihkolaš	^Lihkolaš<A><Pl><Gen>$
       2 #lihkolaš	^lihkolaš<A><Pl><Gen>$
+      2 #lihkolaš	^lihkolaš<A>$
       2 #lihkkat	^lihkkat<V><IV><Neg>$
       2 #Leat	^Leat<V><IV><Ger>$
       2 #leat	^leat<V><IV><Der3><Der_n><N><Sg><Com>$
       2 #leat	^leat<V><IV><Der2><Der_PassL><V><Ind><Prt><Sg3>$
       2 #lávda	^lávda<N><Sg><Ess>$
+      2 #láiki	^láiki<A>$
       2 #láhppot	^láhppot<V><IV><Der2><Der_PassL><V><Ind><Prs><ConNeg>$
       2 #juohkit	^juohkit<V><TV>$
-      2 #joavku	^joavku<N><Pl>$
       2 #joavdat	^joavdat<V><IV><Der2><Der_PassL><V><PrsPrc>$
       2 #jávkat	^jávkat<V><IV><Der2><Der_PassL><V><PrsPrc>$
-      2 #jahki	^jahki<N><Gen>$
       2 #ihtit	^ihtit<V><IV><Der2><Der_PassL><V><PrsPrc>$
       2 #ihtit	^ihtit<V><IV>$
-      2 #Ieš	^Ieš<Pron><Refl><Nom><PxSg2>$
-      2 #Ieš	^Ieš<Pron><Refl><Nom><PxSg1>$
+      2 #ieš	^ieš<Pron><Refl><Nom><PxSg2>$
+      2 #ieš	^ieš<Pron><Refl><Nom><PxPl3>$
+      2 #Ieš	^Ieš<Pron><Refl><Gen>$
       2 #huikit	^huikit<V><IV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
+      2 #hearvái	^hearvái<A>$
       2 #guoskat	^guoskat<V><IV><Der2><Der_PassL><V><Imprt><ConNeg>$
       2 #gulahallat	^gulahallat<V><TV>$
-      2 #guhtege	^guhtege<Pron><Indef><Ill>$
       2 #gollat	^gollat<V><IV><Der2><Der_PassL><V><Cond><ConNeg>$
       2 #gokčat	^gokčat<V><TV>$
       2 #goappašat	^goappašat<Pl><Loc>$
       2 #goappašat	^goappašat<Pl><Ill>$
       2 #gelddolaš	^gelddolaš<A><Pl><Nom>$
+      2 #geahči	^geahči<N>$
+      2 #gávvil	^gávvil<A>$
       2 #gaskkamus	^gaskkamus<A><Sg><Loc>$
       2 #garrudit	^garrudit<V><TV>$
-      2 #gánda	^gánda<N><Sg><Par>$
-      2 #eamit	^eamit<N><Sg><Par>$
+      2 #fallehit	^fallehit<V><IV><Ind><Prs><ConNeg>$
+      2 #fallehit	^fallehit<V><IV><Imprt><Sg2>$
+      2 #fallehit	^fallehit<V><IV><Imprt><Pl2>$
+      2 #eará	^eará<Po>$
       2 #Eallit	^Eallit<V><IV>$
       2 #doallat	^doallat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       2 #doallat	^doallat<V><TV>$
       2 #divrras	^divrras<A>$
-      2 #dat	^dat<Pron><Dem><Gen>$
+      2 #Davvi	^Davvi<A><Attr>$
       2 #dárbbašlaš	^dárbbašlaš<A><Sg><Nom>$
       2 #dárbbašlaš	^dárbbašlaš<A><Sg><Gen>$
+      2 #dáidu	^dáidu<N>$
       2 #dáidit	^dáidit<V><IV>$
       2 #dáhpáhuvvat	^dáhpáhuvvat<V><IV>$
       2 #dadjat	^dadjat<V><TV><Der2><Der_PassL><V><Cond><ConNeg>$
-      2 #dábálaččat	^dábálaččat<Adv>$
+      2 #dábálaš	^dábálaš<A><Attr>$
       2 #čuožžut	^čuožžut<V><IV>$
       2 #čuovvut	^čuovvut<V><TV>$
-      2 #čuođi	^čuođi<Num><Sg><Gen>$
+      2 #čohkkáhit	^čohkkáhit<V><TV>$
       2 #čoagganit	^čoagganit<V><IV><Der2><Der_PassL><V><Ind><Prt><Sg3>$
       2 #čoagganit	^čoagganit<V><IV>$
-      2 #cizáš	^cizáš<N><Sg><Par>$
+      2 #čieža	^čieža<Num><Sg><Par>$
       2 #čieža	^čieža<Num><Gen>$
+      2 #čeavlái	^čeavlái<A>$
       2 #časkit	^časkit<V><TV>$
       2 #čállit	^čállit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       2 #čaibmat	^čaibmat<V><IV><Der2><Der_PassL><V><PrsPrc>$
       2 #buoridit	^buoridit<V><TV>$
       2 #Buktit	^Buktit<V><TV>$
       2 #boaldit	^boaldit<V><TV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
-      2 #bistit	^bistit<V><IV>$
       2 #biehttalit	^biehttalit<V><TV><Der3><Der_n><N><Sg><Com>$
       2 #bidjat	^bidjat<V><TV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
       2 #beassat	^beassat<V><IV>$
@@ -864,41 +933,43 @@ Tag mismatch between transfer and generation
       2 #bárgu	^bárgu<N><Sg><Acc>$
       2 #ballat	^ballat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       2 #ballat	^ballat<V><TV>$
-      2 #Bajit	^Bajit<A><Sg><Gen>$
       2 #bajit	^bajit<A><Pl><Nom>$
+      2 #bajit	^bajit<A><Ess>$
+      2 #bajit	^bajit<A><Dem><Attr>$
+      2 #Bajit	^Bajit<A><Attr>$
       2 #árvu	^árvu<N>$
       2 #amas	^amas<A><Ess><PxSg3>$
       2 #almmuhit	^almmuhit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
-      2 #álbmot	^álbmot<N><Sg><All>$
-      2 #álbmot	^álbmot<N><Pl><Par>$
-      2 #álás	^álás<A><Sg><Acc>$
+      2 #álbmot	^álbmot<N>$
       2 #Álás	^Álás<A><Ess>$
-      2 #áigi	^áigi<N>$
+      2 #áhčči	^áhčči<N><Gen>$
+      2 #Agálaš	^Agálaš<A>$
       1 #vuovdit	^vuovdit<V><TV>$
       1 #vuosttaš	^vuosttaš<A><Ord><Gen>$
       1 #vuolimus	^vuolimus<A><Sg><Nom>$
-      1 #vuolibuš	^vuolibuš<A><Sg><Acc>$
       1 #vuolibuš	^vuolibuš<A><Pl><Ill><PxPl3>$
       1 #vuolibuš	^vuolibuš<A><Pl><Ill>$
       1 #vuolibuš	^vuolibuš<A><Pl><Acc>$
       1 #vuojašit	^vuojašit<V><IV><Der2><Der_PassL><V><PrsPrc>$
       1 #vuoitit	^vuoitit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
+      1 #Vuoigŋa	^Vuoigŋa<N><Gen>$
       1 #vuoidat	^vuoidat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
-      1 #vuohki	^vuohki<N><Sg><Par>$
-      1 #vuohki	^vuohki<N><Pl><Ins>$
+      1 #viššal	^viššal<A>$
       1 #viidu	^viidu<N><Sg><Ill>$
-      1 #viidu	^viidu<N><Sg><Gen><Foc_ge>$
       1 #viidu	^viidu<N><Pl><Gen>$
-      1 #vigiheapmi	^vigiheapmi<A><Sg><Loc>$
+      1 #vihtta	^vihtta<Num>$
+      1 #vigiheapmi	^vigiheapmi<A><Pl><Nom>$
+      1 #vigiheapmi	^vigiheapmi<A><Pl><Gen>$
       1 #viežžat	^viežžat<V><TV><Der2><Der_PassL><V><Cond><ConNeg>$
       1 #vejolaš	^vejolaš<A><Pl><Ill>$
+      1 #vejolaš	^vejolaš<A>$
       1 #vearju	^vearju<N><Com><PxSg3>$
-      1 #veahkki	^veahkki<N><Sg><Tra>$
       1 #veahkki	^veahkki<N>$
       1 #vázzit	^vázzit<V><IV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
       1 #vástidit	^vástidit<V><TV>$
       1 #vásihit	^vásihit<V><TV>$
       1 #vašálašvuohta	^vašálašvuohta<N><Sg><Nom>$
+      1 #varra	^varra<N><Gen>$
       1 #váralaš	^váralaš<A><Sg><Ill>$
       1 #váralaš	^váralaš<A><Sg><Gen>$
       1 #vanhurskkis	^vanhurskkis<N><Sg><Loc><PxSg3>$
@@ -906,11 +977,13 @@ Tag mismatch between transfer and generation
       1 #Vanhurskkis	^Vanhurskkis<N><Sg><Loc>$
       1 #vanhurskkis	^vanhurskkis<N><Sg><Ill><PxSg3>$
       1 #vanhurskkis	^vanhurskkis<N><Sg><Ill><PxSg2>$
+      1 #vanhurskkis	^vanhurskkis<N><Pl><Acc><PxSg3>$
+      1 #vanhurskkis	^vanhurskkis<N><Pl><Acc><PxSg2>$
       1 #vanhurskkis	^vanhurskkis<N><Pl><Acc><PxPl1>$
       1 #válduoassi	^válduoassi<N><Sg><Nom>$
+      1 #váldosiidu	^váldosiidu<N><Sg><Nom>$
       1 #váldit	^váldit<V><TV><Der2><Der_PassL><V><Cond><Sg3><Foc_ge>$
       1 #váldit	^váldit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
-      1 #váivi	^váivi<N><Sg><Par>$
       1 #váimmolaš	^váimmolaš<A><Sg><Gen>$
       1 #váimmolaš	^váimmolaš<A><Attr>$
       1 #váibbas	^váibbas<A><Attr>$
@@ -920,36 +993,36 @@ Tag mismatch between transfer and generation
       1 #suollemas	^suollemas<N><Sg><Ill>$
       1 #suollemas	^suollemas<N><Sg><Gen><PxSg3>$
       1 #suollemas	^suollemas<N><Pl><Ill>$
+      1 #suohtas	^suohtas<A>$
+      1 #suhttu	^suhttu<N>$
+      1 #suddu	^suddu<N>$
       1 #suddat	^suddat<V><IV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #stunžet	^stunžet<V><TV>$
       1 #stuibmideaddji	^stuibmideaddji<N><Actor><Sg><Nom>$
       1 #stuibmideaddji	^stuibmideaddji<N><Actor><Pl><Gen>$
       1 #son	^son<Pron><Pers><Pl3><Abe>$
       1 #soajálaš	^soajálaš<A><Pl><Gen>$
-      1 #soajálaš	^soajálaš<A><Pl><Acc>$
       1 #soaitit	^soaitit<V><IV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #Smiehttat	^Smiehttat<V><TV>$
-      1 #skiipa	^skiipa<N><Pl><Ade>$
+      1 #skárrit	^skárrit<N><Sg><Com><PxSg3>$
+      1 #sivdnidandahku	^sivdnidandahku<N><Sg><Loc><PxSg3>$
+      1 #sirdolaš	^sirdolaš<N>$
       1 #sihkkut	^sihkkut<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #sihkkut	^sihkkut<V><TV><Der2><Der_PassL><V><Cond><ConNeg>$
       1 #Seammá	^Seammá<Pron><Indef><Pl><Loc>$
       1 #seammá	^seammá<Pron><Indef><Pl><Loc>$
       1 #Sávza	^Sávza<N><Com><PxPl3>$
-      1 #šattolaš	^šattolaš<A><Sg><Gen>$
       1 #šattolaš	^šattolaš<A><Pl><Nom>$
-      1 #šattolaš	^šattolaš<A><Pl><Gen>$
-      1 #sátni	^sátni<N><Pl><Ins>$
       1 #sárgut	^sárgut<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #Sáhttit	^Sáhttit<V><IV><Ind><Prs><Sg3><Foc_han><Qst>$
       1 #sáhttit	^sáhttit<V><IV><Ind><Prs><Pl3><Foc_han><Qst>$
       1 #sáhttit	^sáhttit<V><IV><Imprt><Sg2><Qst>$
       1 #sáhttit	^sáhttit<V><IV><Der2><Der_PassL><V><PrsPrc>$
+      1 #Sáhka	^Sáhka<N>$
       1 #šaddat	^šaddat<V><IV>$
-      1 #šaddadit	^šaddadit<V><TV>$
       1 #sábbát	^sábbát<N><Ess><PxPl2>$
-      1 #ruvdno	^ruvdno<N><Sg><Par>$
-      1 #ruovttus	^ruovttus<Adv>$
       1 #rohpi	^rohpi<N><Sg><Ess><PxPl1>$
+      1 #rohkosboddu	^rohkosboddu<N><Sg><Loc>$
       1 #rohkadallat	^rohkadallat<N><Sg><Gen><PxSg1>$
       1 #rohkadallat	^rohkadallat<N><Pl><Nom>$
       1 #rohkadallat	^rohkadallat<N><Pl><Gen>$
@@ -973,35 +1046,37 @@ Tag mismatch between transfer and generation
       1 #rabbi	^rabbi<N><Sg><Ill>$
       1 #rabbi	^rabbi<N><Sg><Acc>$
       1 #Rabbi	^Rabbi<N><Pl><Acc>$
+      1 #rabas	^rabas<A>$
       1 #Polen	^Polen<N><Prop><Pl><Acc>$
       1 #ovttastuvvat	^ovttastuvvat<V><IV><Der2><Der_PassL><V><PrsPrc>$
-      1 #ovcci	^ovcci<Num><Sg><Par>$
-      1 #orrut	^orrut<V><IV><Der2><Der_PassL><V><Cond><Pe4><ConNeg>$
+      1 #ovdaolmmoš	^ovdaolmmoš<N><Ess><PxPl3>$
+      1 #ovcci	^ovcci<Num><Sg><All>$
       1 #ollislaš	^ollislaš<A><Pl><Nom>$
       1 #ollislaš	^ollislaš<A><Pl><Gen>$
       1 #ollislaš	^ollislaš<A><Pl><Acc>$
-      1 #okta	^okta<Num><Sg><Par>$
-      1 #okta	^okta<Num><Sg><Ess>$
-      1 #okta	^okta<Num><Sg><Ela>$
+      1 #oktasaš	^oktasaš<A>$
+      1 #okta	^okta<Num><Sg><All>$
       1 #oažžut	^oažžut<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #Oažžut	^Oažžut<V><TV>$
-      1 #oassi	^oassi<N><Sg><Tra>$
       1 #oassi	^oassi<N><Sg><Ess><PxPl1>$
+      1 #Oarji	^Oarji<N><Sg><Ill>$
       1 #oaidnit	^oaidnit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #oaidnit	^oaidnit<V><TV><Der2><Der_PassL><V><Cond><ConNeg>$
+      1 #oaffar	^oaffar<N><Ess><PxPl3>$
+      1 #Oadjebas	^Oadjebas<A>$
+      1 #oađđit	^oađđit<V><IV>$
       1 #nuollat	^nuollat<V><TV><Inf><Ill>$
       1 #Nohkat	^Nohkat<V><IV><Neg>$
       1 #njuoska	^njuoska<A><Pl><Nom>$
       1 #njunni	^njunni<N><Pl>$
-      1 #njeallje	^njeallje<Num><Sg><Abe>$
-      1 #njálbmi	^njálbmi<N><Sg><Ela>$
-      1 #nisson	^nisson<N><Sg><Par>$
+      1 #njeallje	^njeallje<Num><Sg><Ine>$
+      1 #njalkkas	^njalkkas<A>$
       1 #nannet	^nannet<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #namma	^namma<N><Gen>$
+      1 #muohcu	^muohcu<N>$
       1 #muitalit	^muitalit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
-      1 #mugga	^mugga<N><Gen>$
-      1 #mohkki	^mohkki<N><Pl><Par>$
       1 #mearridit	^mearridit<V><TV>$
+      1 #mearra	^mearra<N><Gen>$
       1 #Mearka	^Mearka<N><Sg>$
       1 #mearka	^mearka<N><Sg>$
       1 #mávssolaš	^mávssolaš<A><Sg><Nom>$
@@ -1012,65 +1087,72 @@ Tag mismatch between transfer and generation
       1 #mávssolaš	^mávssolaš<A><Attr>$
       1 #Mávssahus	^Mávssahus<N><Sg><Nom>$
       1 #mávssahus	^mávssahus<N><Sg><Gen><PxSg2>$
-      1 #Márjá	^Márjá<N><Prop><Sg><Gen>$
       1 #mannat	^mannat<V><IV><Imprt><Sg3><Foc_ge>$
       1 #mannat	^mannat<V><IV><Imprt><Pl3><Foc_ge>$
       1 #Mannat	^Mannat<V><IV><Imprt><Pl2><Foc_ba>$
-      1 #mánná	^mánná<N><Sg><Par>$
       1 #mánna	^mánna<N><Sg><Nom><Foc_ge>$
       1 #mánna	^mánna<N><Sg><Ill><PxSg2>$
       1 #máksit	^máksit<V><TV>$
       1 #Luohttit	^Luohttit<V><IV><Der2><Der_PassL><V><PrsPrc>$
-      1 #lunddolaš	^lunddolaš<A><Sg><Gen>$
-      1 #lunddolaš	^lunddolaš<A><Pl><Acc>$
+      1 #lullibiegga	^lullibiegga<N><Sg><Acc>$
       1 #lossat	^lossat<A>$
       1 #lohkat	^lohkat<V><TV><Der2><Der_PassL><V><Pot><Pe4><ConNeg>$
       1 #lohkat	^lohkat<V><TV><Der2><Der_PassL><V><Imprt><Pe4><ConNeg>$
       1 #lohkat	^lohkat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
-      1 #logi	^logi<Num><Pl><Par>$
-      1 #logi	^logi<Num><Pl><Ins>$
       1 #liikot	^liikot<V><IV>$
       1 #Lihkolaš	^Lihkolaš<A><Sg><Gen>$
       1 #Lihkolaš	^Lihkolaš<A><Pl><Nom>$
+      1 #lihkolaš	^lihkolaš<A><Pl><Nom>$
       1 #lihkolaš	^lihkolaš<A><Pl><Ill>$
+      1 #lihkolaš	^lihkolaš<A><Pl><Acc>$
       1 #Leat	^Leat<V><IV><Ind><Prs><Sg1><Foc_han><Qst>$
       1 #leat	^leat<V><IV><Der2><Der_PassL><V><Ind><Prs><ConNeg>$
       1 #leat	^leat<V><IV><Der2><Der_PassL><V><Ger>$
       1 #leat	^leat<V><IV><Der2><Actor><N><Pl><Nom>$
-      1 #leat	^leat<V><IV><Der2><Actor><N><Pl><Acc>$
       1 #leat	^leat<V><IV><Cond><Prs><Sg3><Foc_han><Qst>$
-      1 #leaska	^leaska<N><Sg><Par>$
-      1 #lámpá	^lámpá<N><Sg><Par>$
       1 #láibut	^láibut<V><TV>$
       1 #láhppot	^láhppot<V><IV><Der2><Der_PassL><V><PrfPrc>$
       1 #láhppot	^láhppot<V><IV><Der2><Der_PassL><V><Ger>$
       1 #láhppit	^láhppit<V><TV>$
+      1 #láhkásaš	^láhkásaš<A>$
+      1 #láhkarihkku	^láhkarihkku<N><Pl><Nom>$
       1 #lahkanit	^lahkanit<V><IV><Imprt><Sg2><Qst>$
       1 #lahkanit	^lahkanit<V><IV><Der2><Der_PassL><V><Ind><Prt><Sg3>$
+      1 #lágalaš	^lágalaš<A><Attr>$
       1 #jus juo	^jus juo<CS>$
       1 #Jorggihit	^Jorggihit<V><IV><Der3><Der_n><N><Sg><Com>$
       1 #jođihit	^jođihit<V><TV>$
       1 #joavdat	^joavdat<V><IV><Der2><Der_PassL><V><Pot><Sg3>$
+      1 #jietna	^jietna<N>$
+      1 #Jesus	^Jesus<N><Prop><Mal><Gen>$
       1 #jearralit	^jearralit<V><TV><Der3><Der_n><N><Sg><Com>$
       1 #jávkat	^jávkat<V><IV>$
-      1 #jahki	^jahki<N><Sg><Tra>$
-      1 #jahki	^jahki<N><Pl><Ess>$
+      1 #Jalla	^Jalla<A>$
       1 #jahki	^jahki<N><Pl>$
-      1 #Israel	^Israel<N><Prop><Plc><Sg><Ine>$
+      1 #issoras	^issoras<A>$
+      1 #Israel	^Israel<N><Prop><Plc><Gen>$
       1 #iskat	^iskat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
-      1 #Ipmil	^Ipmil<N><Prop><Mal><Gen>$
       1 #imaštallat	^imaštallat<V><TV>$
-      1 #imaš	^imaš<N><Sg><Par>$
+      1 #Imaš	^Imaš<N>$
+      1 #imaš	^imaš<A>$
       1 #ii	^ii<V><IV><Neg><Ind><Sg3><Foc_han><Qst>$
       1 #ieš	^ieš<Sg><Nom>$
-      1 #Ieš	^Ieš<Pron><Refl><Nom>$
-      1 #Ieš	^Ieš<Pron><Refl><Loc>$
+      1 #Ieš	^Ieš<Pron><Refl><Sg><Loc>$
+      1 #ieš	^ieš<Pron><Refl><Sg><Loc>$
+      1 #Ieš	^Ieš<Pron><Refl><Sg><Gen>$
+      1 #Ieš	^Ieš<Pron><Refl><PxSg3>$
+      1 #ieš	^ieš<Pron><Refl><Pl><Ill>$
+      1 #ieš	^ieš<Pron><Refl><Nom><PxSg1>$
+      1 #ieš	^ieš<Pron><Refl><Nom>$
+      1 #ieš	^ieš<Pron><Refl><Ill>$
       1 #huikit	^huikit<V><IV>$
+      1 #hiđis	^hiđis<A>$
+      1 #hersko	^hersko<N>$
+      1 #hellodatbeaivi	^hellodatbeaivi<N><Sg><Nom>$
       1 #heivet	^heivet<V><IV><Der2><Der_PassL><V><Cond><ConNeg>$
       1 #heivet	^heivet<V><IV>$
       1 #heivehit	^heivehit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #heavvanit	^heavvanit<V><IV><Der2><Der_PassL><V><Imprt><Sg3>$
-      1 #heasta	^heasta<N><Sg><Par>$
       1 #Hearrá	^Hearrá<N><Gen>$
       1 #heaŋgát	^heaŋgát<V><IV>$
       1 #heaitit	^heaitit<V><TV>$
@@ -1078,22 +1160,28 @@ Tag mismatch between transfer and generation
       1 #heahpanit	^heahpanit<V><IV>$
       1 #Hárjánit	^Hárjánit<V><IV><Der2><Der_PassL><V><Ind><Prs><ConNeg>$
       1 #hárdit	^hárdit<V><TV>$
+      1 #halleluja	^halleluja<Interj>$
       1 #hállat	^hállat<V><TV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
       1 #hállat	^hállat<V><TV><Der2><Der_PassL><V><Cond><Pe4><ConNeg>$
+      1 #gurput	^gurput<V><TV><Der2><Actor><N><Sg><Ess>$
       1 #guoskat	^guoskat<V><IV><Neg>$
       1 #guoskat	^guoskat<V><IV><Der2><Der_PassL><V><PrsPrc>$
-      1 #guokte	^guokte<Num><Sg><All>$
+      1 #guokte	^guokte<Num><Sg><Par>$
+      1 #guokte	^guokte<Num><Sg><Ess>$
+      1 #guokte	^guokte<Num><Sg><Ela>$
       1 #guohtun	^guohtun<N><Ess><PxPl3>$
       1 #guođđit	^guođđit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #gullot	^gullot<V><IV><Neg>$
       1 #gullat	^gullat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #Guhtege	^Guhtege<Pron><Indef><Loc>$
       1 #govččas	^govččas<N><Ess><PxSg2>$
+      1 #gonagas	^gonagas<N>$
       1 #golli	^golli<N><Com>$
       1 #gollat	^gollat<V><IV><Neg>$
       1 #golgat	^golgat<V><IV><Neg>$
       1 #golgat	^golgat<V><IV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
       1 #golgat	^golgat<V><IV>$
+      1 #golbma	^golbma<Num><Sg><Par>$
       1 #gohcit	^gohcit<V><TV>$
       1 #gohččut	^gohččut<V><TV>$
       1 #goddit	^goddit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
@@ -1102,50 +1190,55 @@ Tag mismatch between transfer and generation
       1 #gođđat	^gođđat<V><IV><Der2><Der_PassL><V><PrsPrc>$
       1 #Go beare	^Go beare<CS>$
       1 #go beare	^go beare<CS>$
+      1 #girji	^girji<N>$
       1 #gelddolaš	^gelddolaš<A><Pl><Acc>$
       1 #gelddolaš	^gelddolaš<A><Attr>$
-      1 #geardi	^geardi<N><Pl><Par>$
-      1 #geardi	^geardi<N><Pl><Ins>$
       1 #geahččat	^geahččat<V><TV><Imprt><Sg3><Foc_ge>$
       1 #Geahččat	^Geahččat<V><TV><Imprt><Sg2><Foc_han>$
       1 #geahččat	^geahččat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #geahččat	^geahččat<V><TV>$
       1 #geahčadit	^geahčadit<V><TV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
       1 #geahčadit	^geahčadit<V><TV>$
-      1 #gažaldat	^gažaldat<N><Pl><Par>$
-      1 #gávcci	^gávcci<Num><Sg><Abe>$
       1 #gásttašit	^gásttašit<V><TV><Der3><Der_n><N><Sg><Com>$
       1 #gaskkamus	^gaskkamus<A><Sg><Gen>$
       1 #gaskkamus	^gaskkamus<A><Pl><Acc>$
       1 #gárvvohit	^gárvvohit<V><TV><Der3><Der_n><N><Sg><Com>$
       1 #gárvvohit	^gárvvohit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #garrudit	^garrudit<V><TV><Der3><Der_n><N><Sg><Com>$
-      1 #ganjal	^ganjal<N><Pl><Ins>$
       1 #Gánda	^Gánda<N><Sg><Ess>$
       1 #gáibidit	^gáibidit<V><TV><Inf3><Ins>$
       1 #gáibidit	^gáibidit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #fitnat	^fitnat<V><IV><Neg>$
       1 #fillet	^fillet<V><TV>$
       1 #fástobeaivi	^fástobeaivi<N><Sg><Nom><Foc_ge>$
+      1 #fápmu	^fápmu<N>$
+      1 #fámolaš	^fámolaš<A><Sg><Ill>$
+      1 #fámolaš	^fámolaš<A><Sg><Gen>$
+      1 #fámolaš	^fámolaš<A>$
       1 #falli	^falli<A>$
+      1 #fallehit	^fallehit<V><IV><PrfPrc>$
       1 #fállat	^fállat<V><TV>$
       1 #erenoamaš	^erenoamaš<A><Sg><Loc>$
       1 #erenoamaš	^erenoamaš<A><Attr>$
+      1 #Egypta	^Egypta<N><Prop><Plc><Gen>$
       1 #earuhit	^earuhit<V><TV>$
-      1 #eana	^eana<N><Pl><Par>$
+      1 #earrogirji	^earrogirji<N><Sg><Nom>$
       1 #eana	^eana<N><Pl>$
-      1 #eana	^eana<N><Com>$
       1 #eallu	^eallu<N><Pl>$
       1 #eallit	^eallit<V><IV><Foc_ge>$
       1 #eallit	^eallit<V><IV><Der2><Der_PassL><V><PrsPrc>$
       1 #ealihit	^ealihit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #ealihit	^ealihit<V><TV>$
+      1 #eahpečielggas	^eahpečielggas<A><Attr>$
+      1 #eahket	^eahket<N>$
+      1 #eahketbeaivi	^eahketbeaivi<N><Sg><Ill>$
       1 #duššadit	^duššadit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #duššadit	^duššadit<V><TV><Der2><Der_PassL><V><Cond><ConNeg>$
       1 #duoldat	^duoldat<V><IV>$
+      1 #duohta	^duohta<A>$
       1 #duođalaš	^duođalaš<A><Pl><Ill>$
       1 #Duháhat	^Duháhat<Num><Sg><Nom>$
-      1 #duháhat	^duháhat<N><Sg><Par>$
+      1 #duháhat	^duháhat<Num><Sg><Loc>$
       1 #dovddus	^dovddus<A><Pl><Ess>$
       1 #dovdat	^dovdat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #Dovdat	^Dovdat<V><TV>$
@@ -1157,8 +1250,9 @@ Tag mismatch between transfer and generation
       1 #diehtit	^diehtit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #deavdit	^deavdit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #deaŧalaš	^deaŧalaš<A><Sg><Gen>$
+      1 #Davvi	^Davvi<A><Sg><Gen>$
+      1 #dat	^dat<Pron><Dem><Sg><Pl><Com>$
       1 #dat	^dat<Pron><Dem><Sg><Loc>$
-      1 #Dat	^Dat<Pron><Dem><Gen>$
       1 #dárbbašlaš	^dárbbašlaš<A><Sg><Ill>$
       1 #dárbbašlaš	^dárbbašlaš<A><Sg><Acc>$
       1 #dárbbašlaš	^dárbbašlaš<A><Pl><Gen>$
@@ -1175,29 +1269,32 @@ Tag mismatch between transfer and generation
       1 #dadjat	^dadjat<V><TV><Imprt><Sg2><Qst>$
       1 #dadjat	^dadjat<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #Dadjat	^Dadjat<V><TV>$
-      1 #dábálaš	^dábálaš<A><Sg><Ill>$
       1 #dábálaš	^dábálaš<A><Pl><Ill>$
       1 #Dábálaš	^Dábálaš<A><Attr>$
-      1 #dábálaš	^dábálaš<A><Attr>$
-      1 #Dábálaččat	^Dábálaččat<Adv>$
+      1 #dábálaš	^dábálaš<A>$
       1 #čuvggodit	^čuvggodit<V><IV><Foc_ge>$
       1 #čuožžut	^čuožžut<V><IV><Imprt><Pl3><Foc_ge>$
+      1 #čuodjat	^čuodjat<N><Sg><Acc>$
       1 #čujuhit	^čujuhit<V><TV><Der3><Der_n><N><Sg><Com>$
       1 #čujuhit	^čujuhit<V><TV>$
       1 #čohkkát	^čohkkát<V><IV><Der2><Der_PassL><V><Imprt><ConNeg>$
-      1 #čohkkáhit	^čohkkáhit<V><TV>$
-      1 #čoaggi	^čoaggi<N><Actor><Sg><Ill>$
-      1 #čoaggi	^čoaggi<N><Actor><Pl><Gen>$
       1 #čoagganit	^čoagganit<V><IV><Der2><Der_PassL><V><Ind><Prs><Sg3>$
-      1 #čieža	^čieža<Num><Sg><All>$
+      1 #čivgat	^čivgat<V><IV>$
+      1 #Čieža	^Čieža<Num>$
+      1 #čieža	^čieža<Num>$
       1 #Čierastit	^Čierastit<V><IV><Imprt><Sg2><Foc_han>$
       1 #čierastit	^čierastit<V><IV><Der2><Der_PassL><V><PrsPrc>$
       1 #čierastit	^čierastit<V><IV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
+      1 #čibbi	^čibbi<N><Pl><Ess>$
+      1 #čibbi	^čibbi<N>$
       1 #ceakkus	^ceakkus<A><Attr>$
       1 #čatnat	^čatnat<V><TV><Foc_ge>$
       1 #čatnat	^čatnat<V><TV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
       1 #časkit	^časkit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
+      1 #čáláldat	^čáláldat<N><Sg><Gen><PxSg2>$
+      1 #čáláldat	^čáláldat<N><Sg><Gen>$
       1 #čájehit	^čájehit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
+      1 #čájehit	^čájehit<V><TV>$
       1 #čájáhallat	^čájáhallat<V><IV><Ger>$
       1 #čađahit	^čađahit<V><TV>$
       1 #buressivdnidit	^buressivdnidit<V><TV><Der3><Der_n><N><Sg><Com>$
@@ -1218,20 +1315,22 @@ Tag mismatch between transfer and generation
       1 #boagusteapmi	^boagusteapmi<N><Pl><Nom>$
       1 #boagusteapmi	^boagusteapmi<N><Ess><PxPl3>$
       1 #boagusteapmi	^boagusteapmi<N><Ess>$
-      1 #bivdi	^bivdi<N><Actor><Sg><Par>$
       1 #Bistit	^Bistit<V><IV><Ind><Prs><Sg3><Foc_han><Qst>$
       1 #bissut	^bissut<V><IV><Der2><Der_PassL><V><Ind><Prs><Pe4><ConNeg>$
       1 #bissut	^bissut<V><IV>$
+      1 #bissovaš	^bissovaš<A>$
       1 #billašuvvat	^billašuvvat<V><IV><Neg>$
       1 #billašuvvat	^billašuvvat<V><IV><Der2><Der_PassL><V><PrfPrc>$
+      1 #bilku	^bilku<N>$
       1 #biehttalit	^biehttalit<V><TV>$
+      1 #Biegga	^Biegga<N>$
       1 #bidjat	^bidjat<V><TV><Der2><Der_PassL><V><Imprt><Pe4><ConNeg>$
       1 #bidjat	^bidjat<V><TV><Der2><Der_PassL><V><Cond><Pe4><ConNeg>$
-      1 #bidjat	^bidjat<V><TV>$
       1 #berret	^berret<V><IV><Der2><Der_PassL><V><PrsPrc>$
       1 #bearaš	^bearaš<N><Com><PxSg3>$
-      1 #beaivi	^beaivi<N><Pl><Par>$
-      1 #beaivi	^beaivi<N><Pl><Ess>$
+      1 #bealli	^bealli<N>$
+      1 #beaivi	^beaivi<N><Pl>$
+      1 #bastil	^bastil<A>$
       1 #Bárgu	^Bárgu<N><Sg><Nom>$
       1 #bárgu	^bárgu<N><Sg><Ill>$
       1 #ballat	^ballat<V><TV><Der2><Der_PassL><V><Cond><ConNeg>$
@@ -1239,38 +1338,35 @@ Tag mismatch between transfer and generation
       1 #bálkestit	^bálkestit<V><TV><Der3><Der_n><N><Sg><Com>$
       1 #bálkestit	^bálkestit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #baleš	^baleš<N><Sg><Gen>$
-      1 #Bajit	^Bajit<A><Attr>$
+      1 #bajit	^bajit<A><Sg><Ill>$
+      1 #Bajit	^Bajit<A><Sg><Gen>$
+      1 #báhppa	^báhppa<N><Gen>$
       1 #báhčit	^báhčit<V><TV>$
-      1 #ávki	^ávki<N><Sg><Par>$
-      1 #ášši	^ášši<N><Sg><Ine>$
-      1 #ášši	^ášši<N><Sg><Ela>$
+      1 #ássat	^ássat<V><IV><Der2><Der_PassL><V><Cond><Pe4><ConNeg>$
       1 #ásahit	^ásahit<V><TV><Der3><Der_n><N><Sg><Com>$
       1 #ásahit	^ásahit<V><TV><Der2><Der_PassL><V><Cond><Sg3>$
       1 #arvit	^arvit<V><IV><Actio><Loc>$
       1 #Arvit	^Arvit<V><IV>$
       1 #arvit	^arvit<V><IV>$
-      1 #antikristus	^antikristus<N><Sg><Par>$
+      1 #árbmu	^árbmu<N>$
+      1 #áŋkorbáddi	^áŋkorbáddi<N><Pl><Nom>$
       1 #amas	^amas<A><Ess><PxPl3>$
       1 #almmuhit	^almmuhit<V><TV>$
       1 #almmat	^almmat<Pcle>$
+      1 #almmái	^almmái<N><Ess><PxPl2>$
       1 #álgit	^álgit<V><IV>$
-      1 #álbmot	^álbmot<N><Sg><Ela>$
-      1 #álbmot	^álbmot<N><Pl><Ela>$
-      1 #álbmot	^álbmot<N><Pl><All>$
-      1 #álbmot	^álbmot<N><Pl><Abl>$
       1 #álbmot	^álbmot<N><Ess><PxSg1>$
       1 #Álás	^Álás<A><Sg><Nom>$
       1 #álás	^álás<A><Pl><Loc>$
       1 #álás	^álás<A><Pl><Gen>$
       1 #áhčeheapmi	^áhčeheapmi<A><Pl><Ill>$
-      1 #áhčči	^áhčči<N><Sg><Par>$
-      1 #áhčči	^áhčči<N><Gen>$
+      1 #addit	^addit<V><TV><Qst>$
       1 #addit	^addit<V><TV><Inf3><Ins>$
 
 ===============================================================================
 Summary
 ===============================================================================
-  449 /tmp/fin-sme.multiform
-    0 /tmp/fin-sme.multibidix
-  807 /tmp/fin-sme.tagmismatch
- 1256 total
+  457 /tmp/fin-sme.multiform
+    4 /tmp/fin-sme.multibidix
+  891 /tmp/fin-sme.tagmismatch
+ 1352 total
