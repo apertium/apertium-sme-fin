@@ -52,6 +52,8 @@ Alphabet
 Sets
 
 !%+Dial/%-GG	
+!%+Dial/%-KJ	
+!%+Dial/%-GS	
 Useless =
 %+Last
 !%+Use/Ped	
@@ -60,8 +62,6 @@ Useless =
 %+Use/CircN	
 %+Use/Marg	
 %+Use/NG	
-%+Dial/%-KJ	
-%+Dial/%-GS	
 ;
 
 Nonstandard = 
