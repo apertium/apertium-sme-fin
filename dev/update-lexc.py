@@ -277,8 +277,11 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	# dieđusge<Adv>:tietenkään<Pcle>
 	# Unjárga<N><Prop><Plc>:Uuniemi<N><Prop>
 	
-	left = lambda x: x.partition(':')[0]
-	right = lambda x: x.partition(':')[2]
+	# left = lambda x: x.partition(':')[0]
+	# 	right = lambda x: x.partition(':')[2]
+	
+	left = lambda x: x.rsplit(':')[0]
+	right = lambda x: x.rsplit(':')[-1]			# Need to split instead, to take care of asdf:<:bbq and asdf:>:bbq situations
 	lemma = lambda x: x.partition('<')[0]
 	
 	if side == 'right':			side = right
@@ -287,7 +290,19 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 	lx = lambda x: lemma(side(x))
 				
 	if search_key:
+		# TODO: need a solution to this at some point. For now it's fine.
+			# need to prioritize and do full matching with .endswith first, and then partial matching with .find.
+		
+			# These will not be matched with .endswith <V>, but will be matched with .find
+			# asdf<V><IV>:asdf<V>
+		
+			# These will be matched with <N> and <N><Prop> with .find
+			# bbq<N><Prop>:bbq<N><Prop>
+		
+			# want to make sure that <V> can still match <IV> and <TV>, yet <N> does not match <N><Prop>
+			# without specifying multiple patterns in config?		
 		words = list(set([lx(a) for a in data if side(a).find(search_key) > -1]))
+		# words = list(set([lx(a) for a in data if side(a).endswith(search_key)]))
 	else:
 		words = list(set([lx(a) for a in data]))
 	

@@ -7064,6 +7064,7 @@ bargo#bivttas:bargo#bik'tas MALIS ;
 bargo#joav0ku+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:bargo#joav'ku GOAHTI ;
 bargo#plána GOAHTI ;
 bargo#sad0ji+CmpN/SgN+CmpN/SgG+CmpN/PlG:bargo#sad'ji ALBMI ;
+bargo#veah0ka+CmpN/SgN+CmpN/SgG+CmpN/PlG:bargo#veah'ka GOAHTI ;
 bas0te:bas'te GOAHTI ;
 basadan#latnja+CmpN/SgN+CmpN/SgG+CmpN/PlG:basadan#latnja GOAHTI ;
 basahat:basahah'k JOHTOLAT ;
@@ -7197,6 +7198,7 @@ boaš0šu+CmpN/SgN+CmpN/DefSgGen:boaš'šu GOAHTI ;
 boađđu AIGI ;
 boddu+CmpN/SgN+CmpN/SgG+CmpN/PlG:boddu GOAHTI ;
 bodni+CmpN/SgN+CmpN/SgG+CmpN/PlG:bodni GADDI ;
+bogostat+CmpN/SgN+CmpN/SgG+CmpN/PlG:bogostah'k JOHTOLAT ;
 bohcco#bier0gu:bohcco#bier'gu GOAHTI ;
 bohkká+CmpN/SgN+CmpN/SgG+CmpN/PlG:bohkká ALBMILONG ;
 bor0ga+CmpN/SgN+CmpN/SgG+CmpN/PlG:bor'ga GADDI ;
@@ -8355,6 +8357,7 @@ ovda#munni GOAHTI ;
 ovda#olmmoš+CmpN/SgN+CmpN/SgG+CmpN/PlG:ovda#olbmož FALIS ;
 ovda#skuvla#oahpaheaddji+CmpN/SgN+CmpN/SgG+CmpN/PlG:ovda#skuvla#oahpaheaddji¤ ACTOR ;
 ovdáneapmi+CmpN/Sg:ovdán EAPMI ;
+ovttadat+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:ovttadah'k JOHTOLAT ;
 ovttas#bar0gu:ovttas#bar'gu ALBMI ;
 ovtteš:ovttež LEXDIMINC ;
 ođđa#beai#ruohtta+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:ođđa#beai#ruohtta GOAHTI ;
@@ -8386,6 +8389,7 @@ pálbma#sotna#beai0vi+N+CmpN/Sg+CmpN/Sg:pálbma#sotna#beai%> Rreal ;
 pálbma+CmpN/SgN+CmpN/SgG+CmpN/DefPlGen:pálbma GOAHTI ;
 pár0ka:pár'ka GOAHTI ;
 párra+CmpN/SgN+CmpN/SgG+CmpN/PlG:párra GOAHTI ;
+rabbi STAHTA ;
 radde#leahppi GOAHTI ;
 raddi GOAHTI ;
 radio GARGIA ;
@@ -8632,6 +8636,7 @@ stoh0pu+CmpN/SgN+CmpN/SgG+CmpN/PlG:stoh'pu ALBMI ;
 stohpo#gál0vu:stohpo#gál'vu GOAHTI ;
 studean0ta+CmpN/SgN+CmpN/SgG+CmpN/PlG:studean'ta GOAHTI ;
 stuollu GOAHTI ;
+sturrodat:sturrodah'k JOHTOLAT ;
 stággu GOAHTI ;
 stáhta#minister+CmpN/SgN+CmpN/SgG+CmpN/PlG:stáhta#minister GAHPIR ;
 stáhta#ministtar+CmpN/SgN+CmpN/SgG+CmpN/PlG:stáhta#minis'tar MATTAR ;
@@ -8794,7 +8799,7 @@ viesso#hoiddár+CmpN/SgN+CmpN/SgG+CmpN/PlG:viesso#hoiddár GAHPIRLONG ;
 viesso#čoavdda:viesso#čoav'dag8 SEAMU ;
 viessu+CmpN/SgN+CmpN/SgG+CmpN/PlG:viessu GOAHTI ;
 viidni:vijdni AIGI ;
-viidu+N+Sg+Gen:viiddu # ;
+viidodat:viidodah'k JOHTOLAT ;
 viisodat:viisodah'k JOHTOLAT ;
 vil#bealli+CmpN/SgN+CmpN/SgG+CmpN/PlG:vil#bealli GOAHTI ;
 vil#bealli+N+CmpN/Sg+CmpN/Sg:vil#beal%> Rreal ;
@@ -9377,6 +9382,7 @@ ceakkus:ceaggus BOAKKAS ;
 lágalaš:lágal DABALAS ;
 guovtte#gielalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:guovtte7#gielal AHKASAS ; !
 čálalaš:čálal ETNOLOGALAS ;
+eurohpalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:eurohpal AHKASAS ; !
 váralaš:váral DABALAS ;
 kristtalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:kristtal ETNOLOGALAS ; !
 duođalaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:duođal DABALAS ; !
@@ -11629,6 +11635,7 @@ Kanáda+Use/Sub:Kanáda ACCRA-plc ; !
 Karls^øy BERN-plc ;
 Karls^øy+Use/Sub:Karls^øy NYSTØ-plc ; !
 Kiinná:Kijnná MARJA-plc ;
+Kumpula ACCRA-plc ;
 Káráš^joh0ka:Káráš^joh'ka MARJA-plc ;
 Lamek LONDON-sur ;
 Leaibe^joh0ka:Leaibe^joh'ka MARJA-plc ; !FIN
@@ -12448,6 +12455,7 @@ dakka adv ;
 dakka#viđe adv ;
 dakka#viđi adv ;
 dakko adv ;
+dakko% bokte adv ;
 dal adv ;
 dalle adv ;
 dallánaga adv ;
@@ -14665,7 +14673,7 @@ sealggálassii adv ;
 sealgil adv ;
 seamma adv ;
 seammas+Use/Sub:seammas adv; !
-seamma#láhkai:seamma#láhkai adv; ! MT
+seamma% láhkai adv; ! MT
 seamma#láhkái+Use/Sub:seamma#láhkái adv; !
 seamma#ládje+Use/Sub:seamma#ládje adv;  !
 seammá#láhkai+Use/Sub:seammá#láhkai adv;  !
@@ -14692,6 +14700,7 @@ siidolagaid:siidolagajd9 adv ;
 siidolaga adv ;
 sikkarit+Use/Sub:sikkarit adv; !
 sisa adv ;
+sisa% guvlui adv ;
 sisa#boakkil adv ;
 sisabui adv ;
 sisabuidda adv ;
@@ -14921,6 +14930,7 @@ vakŋut adv ;
 valjis adv ;
 valjit adv ;
 valljugasat adv ;
+vallái adv ;
 vaŋkut adv ;
 varasnaga adv ;
 vare adv ;

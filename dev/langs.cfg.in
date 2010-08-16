@@ -40,7 +40,7 @@
 			
 			["lexical-data/adjective-stubs.hlexc", "clip", {"pos_filter": "<A>"}],
 			["lexical-data/adpositions.hlexc", "cat"],
-			["lexical-data/adverbs.hlexc", "cat"],
+			["lexical-data/adverbs.hlexc", "clip", {"pos_filter": "<Adv>"}],
 			["lexical-data/conjunctions.hlexc", "cat"],
 			["lexical-data/digit-stubs.hlexc", "cat"],
 			["lexical-data/exceptions.hlexc", "cat"],

@@ -1331,7 +1331,7 @@
     <e><p><l>dajaldat<s n="N"/></l><r>sanonta<s n="N"/></r></p></e>
     <e><p><l>dallearka<s n="N"/></l><r>lautanen<s n="N"/></r></p></e>
     <e><p><l>darfegoahti<s n="N"/></l><r>kota<s n="N"/></r></p></e>
-    <e><p><l>davvisámegiella<s n="N"/></l><r>pohjoissaame<s n="N"/></r></p></e>
+	<e><p><l>davvisámegiella<s n="N"/></l><r>pohjoissaame<s n="N"/></r></p></e>
     <e><p><l>deadja<s n="N"/></l><r>tee<s n="N"/></r></p></e>
     <e><p><l>deadjabaste<s n="N"/></l><r>teelusikka<s n="N"/></r></p></e>
     <e><p><l>deadjagohppu<s n="N"/></l><r>teekuppi<s n="N"/></r></p></e>
@@ -3038,9 +3038,13 @@
 	<e><p><l>davábealle<s n="N"/></l><r>pohjoispuoli<s n="N"/></r></p></e>
 	<e><p><l>oaivegávpot<s n="N"/></l><r>pääkaupunki<s n="N"/></r></p></e>
 	<e><p><l>sirdolaš<s n="N"/></l><r>siirtolainen<s n="N"/></r></p></e>
-	<e><p><l>dutkanguovddáš<s n="N"/></l><r>tutkimusasema<s n="N"/></r></p></e>
+	<e><p><l>dutkamaguovddáš<s n="N"/></l><r>tutkimusasema<s n="N"/></r></p></e>
+	<e><p><l>dutkamainstituhtta<s n="N"/></l><r>tutkimuslaitos<s n="N"/></r></p></e>
+	<e><p><l>ovttadat<s n="N"/></l><r>yksikkö<s n="N"/></r></p></e>
 
+	<e><p><l>sturrodat<s n="N"/></l><r>pinta-ala<s n="N"/></r></p></e>
 
+	<e><p><l>guovlu<s n="N"/></l><r>kampus<s n="N"/></r></p></e>
 
 	<e><p><l>kveana<s n="N"/></l><r>kveeni<s n="N"/></r></p></e>
 	
@@ -3053,6 +3057,7 @@
 
 	<e><p><l>davviriika<s n="N"/></l><r>Pohjola<s n="N"/><s n="Pl"/></r></p></e>
 	
+	<e><p><l>bargoveahka<s n="N"/></l><r>henkilökunta<s n="N"/><s n="Pl"/></r></p></e>
 	<!-- nouns end -->
     
 <!-- 
@@ -3080,6 +3085,7 @@
     <e><p><l>Anárjávri<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Inarijärvi<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Atlánta<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Atlantti<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Austrália<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Australia<s n="N"/><s n="Prop"/></r></p></e>
+    <e><p><l>Kumpula<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Kumpula<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Avvir<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Imandra<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Ađevuopmi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Idivuoma<s n="N"/><s n="Prop"/></r></p></e>
     <e><p><l>Badje-Jalvi<s n="N"/><s n="Prop"/><s n="Plc"/></l><r>Ylä-Jalve<s n="N"/><s n="Prop"/></r></p></e>
@@ -3554,6 +3560,7 @@
     <e><p><l>boaris<s n="A"/></l><r>vanha<s n="A"/></r></p><par n="A_A"/></e>
     <e><p><l>buhtis<s n="A"/></l><r>puhdas<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>bulgarialaš<s n="A"/></l><r>bulgarialainen<s n="A"/></r></p><par n="A_A"/></e>
+    <e><p><l>eurohpalaš<s n="A"/></l><r>eurooppalainen<s n="A"/></r></p><par n="A_A"/></e>
     <e><p><l>buoidi<s n="A"/></l><r>lihava<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>buoidi<s n="A"/></l><r>paksu<s n="A"/></r></p><par n="A_A"/></e> 
     <e><p><l>buorre<s n="A"/></l><r>hyvä<s n="A"/></r></p><par n="A_A"/></e> 
@@ -3792,6 +3799,7 @@
 
     <e slr="1"><p><l>fargga<s n="Adv"/></l><r>pian<s n="Adv"/></r></p></e>
 
+	<e><p><l>dasa<b/>lassin<s n="Adv"/></l><r>lisäksi<s n="Adv"/></r></p></e>
     <e><p><l>hui<s n="Adv"/></l><r>erittäin<s n="Adv"/></r></p></e>
     <e><p><l>hui<s n="Adv"/></l><r>kovin<s n="Adv"/></r></p></e>
     <e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Adv"/></r></p></e>
