@@ -446,7 +446,7 @@
 	<e><p><l>albma<s n="Adv"/></l><r>ilmi<s n="Adv"/></r></p></e>
 	<e><p><l>gosa<s n="Adv"/></l><r>jonne<s n="Adv"/></r></p></e>
 	<e><p><l>albmosii<s n="Adv"/></l><r>julki<s n="Adv"/></r></p></e>
-	<e><p><l>guovtte<b/>sadjái<s n="Adv"/></l><r>kahtia<s n="Adv"/></r></p></e>
+	<e><p><l>guovtti<b/>sadjái<s n="Adv"/></l><r>kahtia<s n="Adv"/></r></p></e>
 	<e><p><l>ollásit<s n="Adv"/></l><r>kokonaan<s n="Adv"/></r></p></e>
 	<e><p><l>čoahkkái<s n="Adv"/></l><r>kokoon<s n="Adv"/></r></p></e>
 	<e><p><l>golbmii<s n="Adv"/></l><r>kolmesti<s n="Adv"/></r></p></e>
@@ -471,7 +471,7 @@
 	<e><p><l>suollemasat<s n="Adv"/></l><r>salassa<s n="Adv"/></r></p></e>
 	<e><p><l>njuolgga<s n="Adv"/></l><r>suoraan<s n="Adv"/></r></p></e>
 	<e><p><l>stuorrát<s n="Adv"/></l><r>suuresti<s n="Adv"/></r></p></e>
-	<e><p><l>boaitto<b/>beallai<s n="Adv"/></l><r>syrjään<s n="Adv"/></r></p></e>
+	<e><p><l>boaittobeallai<s n="Adv"/></l><r>syrjään<s n="Adv"/></r></p></e>
 	<e><p><l>dáiddolaččat<s n="Adv"/></l><r>taidokkaasti<s n="Adv"/></r></p></e>
 	<e><p><l>sadjosii<s n="Adv"/></l><r>talteen<s n="Adv"/></r></p></e>
 	<e><p><l>allelii<s n="Adv"/></l><r>ylemmäksi<s n="Adv"/></r></p></e>
@@ -514,13 +514,13 @@
 	<e><p><l>loahpas<s n="Adv"/></l><r>lopuksi<s n="Adv"/></r></p></e>
 	<e><p><l>lossadit<s n="Adv"/></l><r>raskaasti<s n="Adv"/></r></p></e>
 	<e><p><l>lávda<s n="Adv"/></l><r>laajalti<s n="Adv"/></r></p></e>
-	<e><p><l>maŋil<s n="Adv"/></l><r>jäljestäpäin<s n="Adv"/></r></p></e>
+	<e><p><l>maŋŋil<s n="Adv"/></l><r>jäljestäpäin<s n="Adv"/></r></p></e>
 	<e><p><l>maŋábeale<s n="Adv"/></l><r>takaapäin<s n="Adv"/></r></p></e>
 	<e><p><l>muhtumassii<s n="Adv"/></l><r>osaksi<s n="Adv"/></r></p></e>
 	<e><p><l>nuppos<s n="Adv"/></l><r>toisaalle<s n="Adv"/></r></p></e>
 	<e><p><l>oktonassii<s n="Adv"/></l><r>yksinään<s n="Adv"/></r></p></e>
 	<e><p><l>ovdalii<s n="Adv"/></l><r>edemmäksi<s n="Adv"/></r></p></e>
-	<e><p><l>ovddeš<s n="Adv"/></l><r>entiselleen<s n="Adv"/></r></p></e>
+	<e><p><l>ovddešviđi<s n="Adv"/></l><r>entiselleen<s n="Adv"/></r></p></e>
 	<e><p><l>ovddežis<s n="Adv"/></l><r>ennestään<s n="Adv"/></r></p></e>
 	<e><p><l>ođđasis<s n="Adv"/></l><r>uudelleen<s n="Adv"/></r></p></e>
 	<e><p><l>rabas<s n="Adv"/></l><r>auki<s n="Adv"/></r></p></e>
@@ -531,7 +531,7 @@
 	<e><p><l>suoli<s n="Adv"/></l><r>salaa<s n="Adv"/></r></p></e>
 	<e><p><l>suoli<s n="Adv"/></l><r>varkain<s n="Adv"/></r></p></e>
 	<e><p><l>unnit<s n="Adv"/></l><r>vähemmän<s n="Adv"/></r></p></e>
-	<e><p><l>vallái<s n="Adv"/></l><r>yltäkyllin<s n="Adv"/></r></p></e>
+	<e><p><l>valjit<s n="Adv"/></l><r>yltäkyllin<s n="Adv"/></r></p></e>
 	<e><p><l>vearrut<s n="Adv"/></l><r>väärin<s n="Adv"/></r></p></e>
 	<e><p><l>viimmat<s n="Adv"/></l><r>viimein<s n="Adv"/></r></p></e>
 	<e><p><l>vuostálagaid<s n="Adv"/></l><r>vastakkain<s n="Adv"/></r></p></e>
@@ -1217,7 +1217,7 @@
     <e><p><l>bliánta<s n="N"/></l><r>lyijykynä<s n="N"/></r></p></e>
     <e><p><l>bláđđi<s n="N"/></l><r>lehti<s n="N"/></r></p></e>
     <e><p><l>boadnji<s n="N"/></l><r>aviomies<s n="N"/></r></p></e>
-    <e><p><l>boagusteapmi<s n="N"/></l><r>nauru<s n="N"/></r></p></e>
+    <e><p><l>bogostat<s n="N"/></l><r>nauru<s n="N"/></r></p></e>
     <e><p><l>boagán<s n="N"/></l><r>vyö<s n="N"/></r></p></e>
     <e><p><l>boahtimuš<s n="N"/></l><r>perustus<s n="N"/></r></p></e> 
     <e><p><l>boaldámuš<s n="N"/></l><r>polttoaine<s n="N"/></r></p></e>
@@ -3863,7 +3863,7 @@
     <e><p><l>ikte<s n="Adv"/></l><r>eilen<s n="Adv"/></r></p></e>
     <e><p><l>jaska<s n="Adv"/></l><r>hiljaa<s n="Adv"/></r></p></e>
     <e><p><l>juoba<s n="Adv"/></l><r>jopa<s n="Adv"/></r></p></e>
-    <e><p><l>juohke<b/>bealde<s n="Adv"/></l><r>kaikkialta<s n="Adv"/></r></p></e>
+    <e><p><l>miehtá<s n="Adv"/></l><r>kaikkialta<s n="Adv"/></r></p></e>
     <e><p><l>kánske<s n="Adv"/></l><r>ehkä<s n="Adv"/></r></p></e>
  	<e><p><l>manne<s n="Adv"/></l><r>miksi<s n="Adv"/></r></p></e>
     <e><p><l>maŋŋil<s n="Adv"/></l><r>myöhemmin<s n="Adv"/></r></p></e>
@@ -3911,9 +3911,9 @@
     <e><p><l>siste<s n="Adv"/></l><r>sisälle<s n="Adv"/></r></p></e>
     <e><p><l>siste<s n="Adv"/></l><r>sisällä<s n="Adv"/></r></p></e>
     <e><p><l>sisa<s n="Adv"/></l><r>sisään<s n="Adv"/></r></p></e>
-	<e><p><l>sisaguovlluid<s n="Adv"/></l><r>sisäänpäin<s n="Adv"/></r></p></e>
-	<e><p><l>siskálagaid<s n="Adv"/></l><r>sisäkkäin<s n="Adv"/></r></p></e>
-	<e><p><l>siskkáldasat<s n="Adv"/></l><r>sisältäpäin<s n="Adv"/></r></p></e>
+	<e><p><l>sisa<b/>guvlui<s n="Adv"/></l><r>sisäänpäin<s n="Adv"/></r></p></e>
+	<e><p><l>siskálaga<s n="Adv"/></l><r>sisäkkäin<s n="Adv"/></r></p></e>
+	<e><p><l>siskkil<s n="Adv"/></l><r>sisältäpäin<s n="Adv"/></r></p></e>
 	<e><p><l>sullii<s n="Adv"/></l><r>noin<s n="Adv"/></r></p></e>
     <e><p><l>uhcánaččaid<s n="Adv"/></l><r>vähitellen<s n="Adv"/></r></p></e>
     <e><p><l>veaháš<s n="Adv"/></l><r>vähän<s n="Adv"/></r></p></e>
