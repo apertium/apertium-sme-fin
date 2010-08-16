@@ -186,8 +186,10 @@ LEXICON Main
 [LEMMA=':    Compounding/Initial ;
 [LEMMA=':    Compounding/Free    ;
 [LEMMA=':    Compounding/None   ;
-[COMPOUND_FORM=OMIT][LEMMA='-:-   Compounding/Final   ;
-[COMPOUND_FORM=OMIT][LEMMA='-:-   Compounding/Free   ;
+![COMPOUND_FORM=OMIT][LEMMA='-:-   Compounding/Final   ;
+![COMPOUND_FORM=OMIT][LEMMA='-:-   Compounding/Free   ;
+![COMPOUND_FORM=OMIT][LEMMA=':-   Compounding/Final   ;
+![COMPOUND_FORM=OMIT][LEMMA=':-   Compounding/Free   ;
 
 LEXICON Compounding/Middle
 [LEMMA=':    Compounding/Free    ;
@@ -197,7 +199,8 @@ LEXICON Compounding/Initial
 @D.NEED@@P.NEED.NOMINAL@	Digits	;
 @D.NEED@@P.NEED.NOMINAL@	Acronyms	;
 @D.NEED@	Prefixes	;
-@D.NEED@@P.NEED.REST@[COMPOUND_FORM=OMIT][LEMMA='-:@D.NEED@@P.NEED.REST@-	Suffixes	; ! sole suffixes in broken compounds
+!@D.NEED@@P.NEED.REST@[COMPOUND_FORM=OMIT][LEMMA='-:@D.NEED@@P.NEED.REST@-	Suffixes	; ! sole suffixes in broken compounds
+!@D.NEED@@P.NEED.REST@[COMPOUND_FORM=OMIT][LEMMA=':@D.NEED@@P.NEED.REST@-	Suffixes	; ! sole suffixes in broken compounds
 
 LEXICON Compounding/None
 @D.NEED@@P.NEED.REST@	Abbreviations	;
@@ -1177,7 +1180,6 @@ hajalle'][POS=ADVERB]:hajalle	Possessive/Optional+Vn	;
 ikinä'][POS=ADVERB]:ikinä	Possessive/Optional+Vn	;
 kotoa'][POS=ADVERB]:kotoa	Possessive/Optional+Vn	;
 kotona'][POS=ADVERB]:kotona	Possessive/Optional+Vn	;
-lisäksi'][POS=ADVERB]:lisäksi	Possessive/Optional+Vn	;
 näkyviin'][POS=ADVERB]:näkyviin	Possessive/Optional+Vn	;
 pitkälle'][POS=ADVERB]:pitkälle	Possessive/Optional+Vn	;
 sisälle'][POS=ADVERB]:sisälle	Possessive/Optional+Vn	;
@@ -3196,7 +3198,6 @@ kylki'][POS=NOUN][KTN=7][KAV=L]:kyl{k~~}{L}	kotus_7_NOUN/stemfiller	;
 olki'][POS=NOUN][KTN=7][KAV=L]:ol{k~~}{L}	kotus_7_NOUN/stemfiller	;
 sylki'][POS=NOUN][KTN=7][KAV=L]:syl{k~~}{L}	kotus_7_NOUN/stemfiller	;
 LEXICON kotus_8_NOUN/stub
-pohjoissaame'][POS=NOUN][KTN=8]:pohjoissaame	kotus_8_NOUN/stemfiller	;
 saame'][POS=NOUN][KTN=8]:saame	kotus_8_NOUN/stemfiller	;
 nukke'][POS=NOUN][KTN=8][KAV=A]:nuk{k~~}e{A}	kotus_8_NOUN/stemfiller	;
 LEXICON kotus_9_NOUN/stub
