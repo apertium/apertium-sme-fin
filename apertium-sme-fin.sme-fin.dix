@@ -4500,6 +4500,7 @@
     <!-- Interjections -->
     <e><p><l>halleluja<s n="Interj"/></l><r>halleluja<s n="Interj"/></r></p></e>
     <e><p><l>uh<s n="Interj"/></l><r>uh<s n="Interj"/></r></p></e>
+    <e><p><l>vuoi<s n="Interj"/></l><r>oi<s n="Interj"/></r></p></e>
     
     <!-- Punctuation -->
     <e><re>[0-9]+([.:, ][0-9]+)?</re><p><l><s n="Num"/></l><r><s n="Num"/></r></p></e>
