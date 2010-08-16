@@ -300,8 +300,15 @@ def extract(data, fname, pos_filter, split=False, no_header=False, no_trim=False
 			# bbq<N><Prop>:bbq<N><Prop>
 		
 			# want to make sure that <V> can still match <IV> and <TV>, yet <N> does not match <N><Prop>
-			# without specifying multiple patterns in config?		
-		words = list(set([lx(a) for a in data if side(a).find(search_key) > -1]))
+			# without specifying multiple patterns in config?
+		matcher = re.compile(search_key).search
+		# print search_key
+		# words = list(set([lx(a) for a in data if side(a).find(search_key) > -1]))
+		words = list(set([lx(a) for a in data if matcher(a)]))
+		# for a in data:
+		# 	if matcher(a):
+		# 		print matcher(a) #, len(matcher(a))
+		# 		print lx(a)
 		# words = list(set([lx(a) for a in data if side(a).endswith(search_key)]))
 	else:
 		words = list(set([lx(a) for a in data]))
