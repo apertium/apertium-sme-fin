@@ -445,14 +445,8 @@ Multiple bidix entries for a single source language lexical form
 ===============================================================================
 Tag mismatch between transfer and generation
 ===============================================================================
-   2754 #son	^son<Pron><Pers><Sg><Sg3><Gen>$
-   1952 #mun	^mun<Pron><Pers><Sg><Sg1><Gen>$
-   1937 #don	^don<Pron><Pers><Sg><Sg2><Gen>$
     791 #ollis	^ollis<A>$
-    155 #Mun	^Mun<Pron><Pers><Sg><Sg1><Gen>$
-    140 #Don	^Don<Pron><Pers><Sg><Sg2><Gen>$
     139 #sáhttit	^sáhttit<V><IV>$
-    124 #Son	^Son<Pron><Pers><Sg><Sg3><Gen>$
     123 #vanhurskkis	^vanhurskkis<N><Sg><Gen>$
     122 #olmmoš	^olmmoš<N>$
     105 #goappašat	^goappašat<Pron><Indef>$
@@ -893,8 +887,8 @@ Tag mismatch between transfer and generation
       1 #rohkadallat	^rohkadallat<N><Sg><Gen><PxSg1>$
       1 #rohkadallat	^rohkadallat<N><Pl><Nom>$
       1 #rohkadallat	^rohkadallat<N><Pl><Gen>$
-      1 #risse	^risse<N><Pl><Nom>$
-      1 #risse	^risse<N><Pl><Gen>$
+      1 #rissi	^rissi<N><Pl><Nom>$
+      1 #rissi	^rissi<N><Pl><Gen>$
       1 #rievdadit	^rievdadit<V><TV><Imprt><Sg2><Foc_ge>$
       1 #riepmat	^riepmat<V><IV><Der2><Der_PassL><V><PrsPrc>$
       1 #riepmat	^riepmat<V><IV>$
@@ -1175,5 +1169,5 @@ Summary
 ===============================================================================
   432 /tmp/fin-sme.multiform
     3 /tmp/fin-sme.multibidix
-  724 /tmp/fin-sme.tagmismatch
- 1159 total
+  718 /tmp/fin-sme.tagmismatch
+ 1153 total
