@@ -256,9 +256,6 @@ Multiple surface forms for a single lexical form
 ===============================================================================
 Multiple bidix entries for a single source language lexical form
 ===============================================================================
-     13 #gasku\/gasku	^gasku<Po>/gasku<Pr>$
-     11 #lahka\/lahka	^lahka<Po>/lahka<Pr>$
-      2 #vuolil\/vuolil	^vuolil<Po>/vuolil<Pr>$
 
 ===============================================================================
 Tag mismatch between transfer and generation
@@ -312,7 +309,6 @@ Tag mismatch between transfer and generation
      22 #vanhurskkis	^vanhurskkis<N><Sg><Gen><PxSg3>$
      22 #álás	^álás<A><Sg><Gen>$
      21 #oaffar	^oaffar<N><Ess><PxSg3>$
-     21 #millii	^millii<Adv>$
      21 #leat	^leat<V><IV><Der2><Der_PassL><V><PrfPrc>$
      21 #boahtit	^boahtit<V><IV>$
      20 #maŋos	^maŋos$
@@ -352,7 +348,6 @@ Tag mismatch between transfer and generation
      12 #biegga	^biegga<N>$
      11 #mánna	^mánna<N><Sg><Gen>$
      11 #leat	^leat<V><IV>$
-     11 #guovtti sadjái	^guovtti sadjái<Adv>$
      11 #gii	^gii<Pron><Rel><Sg><Abe>$
      11 #buozas	^buozas<A><Attr>$
      11 #álás	^álás<A><Sg><Nom>$
@@ -366,7 +361,6 @@ Tag mismatch between transfer and generation
       9 #nisson	^nisson<N>$
       9 #leat	^leat<V><IV><Der2><Der_PassL><V><PrsPrc>$
       9 #iskat	^iskat<V><TV>$
-      9 #eará guovllus	^eará guovllus<Adv>$
       9 #dearvvahit	^dearvvahit<V><TV><Inf><Ill>$
       9 #buorre	^buorre<A><Attr>$
       9 #boaldit	^boaldit<V><TV>$
@@ -383,7 +377,6 @@ Tag mismatch between transfer and generation
       7 #vuostá	^vuostá<N>$
       7 #vanhurskkis	^vanhurskkis<N><Sg><Loc><PxPl3>$
       7 #vanhurskkis	^vanhurskkis<N><Pl><Nom>$
-      7 #ovddešviđi	^ovddešviđi<Adv>$
       7 #jávkat	^jávkat<V><IV><Neg>$
       7 #Jápmit	^Jápmit<V><IV>$
       7 #Illu	^Illu<N><Pl>$
@@ -396,7 +389,6 @@ Tag mismatch between transfer and generation
       7 #bajit	^bajit<A><Sg><Nom>$
       7 #ássat	^ássat<V><IV><Neg>$
       6 #vuolibuš	^vuolibuš<A><Sg><Ill>$
-      6 #vulos guovlluid	^vulos guovlluid<Adv>$
       6 #vigiheapmi	^vigiheapmi<A><Sg><Nom>$
       6 #vádjolit	^vádjolit<V><IV>$
       6 #suollemas	^suollemas<N><Pl><Acc>$
@@ -413,7 +405,6 @@ Tag mismatch between transfer and generation
       6 #gohčodit	^gohčodit<V><TV><Inf3><Ins>$
       6 #fitnat	^fitnat<V><IV>$
       6 #earrogirji	^earrogirji<N><Sg><Gen>$
-      6 #eará guvlui	^eará guvlui<Adv>$
       6 #davvi	^davvi<A><Sg><Nom>$
       6 #davvi	^davvi<A>$
       6 #davábealle	^davábealle<N><Pl>$
@@ -534,7 +525,6 @@ Tag mismatch between transfer and generation
       3 #čuohppat	^čuohppat<V><TV>$
       3 #čohkkát	^čohkkát<V><IV>$
       3 #buressivdnidit	^buressivdnidit<V><TV>$
-      3 #buorre	^buorre<A><Der2><Der_at><Adv>$
       3 #buorránit	^buorránit<V><IV><Neg>$
       3 #borrat	^borrat<V><TV><Imprt><Sg2><Qst>$
       3 #bivdit	^bivdit<V><TV>$
@@ -575,7 +565,6 @@ Tag mismatch between transfer and generation
       2 #mávssahus	^mávssahus<N><Sg><Ill>$
       2 #mávssahus	^mávssahus<N><Sg><Gen><PxSg1>$
       2 #mávssahus	^mávssahus<N><Pl><Nom>$
-      2 #maŋemusháve	^maŋemusháve<Adv>$
       2 #luohttit	^luohttit<V><IV>$
       2 #lullibiegga	^lullibiegga<N><Sg><Nom>$
       2 #lullibiegga	^lullibiegga<N><Sg><Gen>$
@@ -984,6 +973,6 @@ Tag mismatch between transfer and generation
 Summary
 ===============================================================================
   250 /tmp/fin-sme.multiform
-    3 /tmp/fin-sme.multibidix
-  716 /tmp/fin-sme.tagmismatch
-  969 total
+    0 /tmp/fin-sme.multibidix
+  708 /tmp/fin-sme.tagmismatch
+  958 total

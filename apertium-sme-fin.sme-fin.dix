@@ -455,7 +455,7 @@
 	<e><p><l>heaittekeahttá<s n="Adv"/></l><r>lakkaamatta<s n="Adv"/></r></p></e>
 	<e><p><l>viimmat<s n="Adv"/></l><r>lopulta<s n="Adv"/></r></p></e>
 	<e><p><l>mielde<s n="Adv"/></l><r>läsnä<s n="Adv"/></r></p></e>
-	<e><p><l>millii<s n="Adv"/></l><r>mieleen<s n="Adv"/></r></p></e>
+	<!--<e><p><l>millii<s n="Adv"/></l><r>mieleen<s n="Adv"/></r></p></e>-->
 	<e><p><l>goassege<s n="Adv"/></l><r>milloinkaan<s n="Adv"/></r></p></e>
 	<e><p><l>gosa<s n="Adv"/></l><r>minne<s n="Adv"/></r></p></e>
 	<e><p><l>dolin<s n="Adv"/></l><r>muinoin<s n="Adv"/></r></p></e>
@@ -518,7 +518,7 @@
 	<e><p><l>nuppos<s n="Adv"/></l><r>toisaalle<s n="Adv"/></r></p></e>
 	<e><p><l>oktonassii<s n="Adv"/></l><r>yksinään<s n="Adv"/></r></p></e>
 	<e><p><l>ovdalii<s n="Adv"/></l><r>edemmäksi<s n="Adv"/></r></p></e>
-	<e><p><l>ovddeš<b/>láhkai<s n="Adv"/></l><r>entiselleen<s n="Adv"/></r></p></e>
+	<!--<e><p><l>ovddeš<b/>láhkai<s n="Adv"/></l><r>entiselleen<s n="Adv"/></r></p></e>-->
 	<e><p><l>ovddežis<s n="Adv"/></l><r>ennestään<s n="Adv"/></r></p></e>
 	<e><p><l>ođđasis<s n="Adv"/></l><r>uudelleen<s n="Adv"/></r></p></e>
 	<e><p><l>rabas<s n="Adv"/></l><r>auki<s n="Adv"/></r></p></e>
