@@ -217,8 +217,6 @@
     <e><p><l>maŋŋái<s n="Po"/></l><r>perään<s n="Po"/></r></p></e>
     <e><p><l>njeaiga<s n="Po"/></l><r>päin<s n="Po"/></r></p></e>
     <e><p><l>mielde<s n="Po"/></l><r>myötä<s n="Po"/></r></p></e>
-    <e><p><l>lahka<s n="Po"/></l><r>liki<s n="Po"/></r></p></e>
-    <e><p><l>lahka<s n="Po"/></l><r>läheltä<s n="Po"/></r></p></e>
 
 
 	<e><p><l>bajábealde<s n="Po"/></l><r>yläpuolella<s n="Po"/></r></p></e>
@@ -398,8 +396,8 @@
     <e><p><l>lahka<s n="Po"/></l><r>liki<s n="Po"/></r></p></e>
     <e><p><l>lahka<s n="Po"/></l><r>läheltä<s n="Po"/></r></p></e>
     <e><p><l>dihte<s n="Po"/></l><r>ansiosta<s n="Po"/></r></p></e>
-    <e><p><l>gasku<s n="Po"/></l><r>keskelle<s n="Pr"/></r></p></e>
-    <e><p><l>lahka<s n="Po"/></l><r>lähelle<s n="Pr"/></r></p></e>
+    <!--<e><p><l>gasku<s n="Po"/></l><r>keskelle<s n="Pr"/></r></p></e>-->
+    <!--<e><p><l>lahka<s n="Po"/></l><r>lähelle<s n="Pr"/></r></p></e>-->
 
 	
 	<!-- Po:Pr -->
@@ -414,7 +412,7 @@
     <e><p><l>vuostái<s n="Pr"/></l><r>vastoin<s n="Pr"/></r></p></e>
     <e><p><l>badjel<s n="Pr"/></l><r>ylitse<s n="Pr"/></r></p></e>
     <e><p><l>gasku<s n="Pr"/></l><r>keskeltä<s n="Pr"/></r></p></e>
-    <e><p><l>vuolil<s n="Po"/></l><r>alle<s n="Pr"/></r></p></e>
+    <!--<e><p><l>vuolil<s n="Po"/></l><r>alle<s n="Pr"/></r></p></e>-->
     <e><p><l>lahka<s n="Pr"/></l><r>lähellä<s n="Pr"/></r></p></e>
 	<e><p><l>birra<s n="Pr"/></l><r>koskien<s n="Pr"/></r></p></e>
 	<e><p><l>gasku<s n="Pr"/></l><r>keskellä<s n="Pr"/></r></p></e>
