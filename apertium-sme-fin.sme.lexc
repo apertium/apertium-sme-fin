@@ -825,7 +825,6 @@ LEXICON ACTOR !+CmpN/SgN +CmpN/SgG +CmpN/PlG !Long compound-forms
  +N+Actor+Sg+Nom:%> K ;
  +N+Actor+Sg+Nom+CmpN/SgN+CmpN/SgG+CmpN/PlG+Use/Ped:%> Px3V ;
  +N+Der/viđá+Adv:»viđá K ;
-! +N+Der/viđi+Adv:»viđi K ;
  +N+Actor:%> EssV ;
  +N+Actor:%>X2 GOAHTA- ; ! Px sublexicon
  +N+Actor:%>X3 GOAHTAI ; ! Ill sublexicon
@@ -2263,7 +2262,6 @@ LEXICON LAIKI !Bisyll. V-Adj's with es-Attr. in WeG & Adv.
 
 LEXICON LODJI !bisyll V-Adj with -es and -is Attr in WeG
  +A+Attr:%>X4s ATTR ; ! #lojis
- +A+Attr:%>W1s ATTR ; ! #lojes
  +A:%> LAIKI0 ;
  +A:%>X4 BU/MUS ;
  +A:%> ADVV ;
@@ -2291,9 +2289,7 @@ LEXICON NUORRA !Bisyll. V-Adj. w/CG, w/o Sep. Attr; no Adv.
 
 LEXICON RIEKTA ! Bisyll adj w/o obl sg forms, WeG Attr
  +A+Attr:a%> ATTR ;     ! riekta
- +A+Attr:e%>X4s ATTR ;  ! rievttes
- +A+Attr:e%>X9s ATTR ;  ! rivttes
- +A+Attr+Sg+Nom:a%> K ; ! riekta
+! +A+Attr+Sg+Nom:a%> K ; ! riekta ! tag misnomer?
  +A+Sg+Nom:a%> K ;
  +A+Ess:a%>n K ;
  +A:ás%> EABBO/EAMOS ;
@@ -2318,9 +2314,7 @@ LEXICON VIELGAT
 ! GARRAS- ; ! GAPPUS- instead
 
 LEXICON CAHKK
-! Double set of attr forms here
  +A+Attr:ad%>is ATTR ;
- +A+Attr:e%>Y9s ATTR ;
  :ad JOHTIL ;
 
 LEXICON JALGAT
@@ -2345,7 +2339,6 @@ LEXICON JEAGOHEAPMI
  +A+Ess+Use/Ped:%>eapmi%>X7n%> PxC ;
  +A+Sg+Nom+PxSg3+Use/Ped:%>eapme%>s K ; ! !parallel form
  +A+Sg+Gen:%>eame%> R ;
- +A+Sg+Gen:%>eami%> R ;
  +A+Pl+Gen:%>emi%>jd R ;
  +A+Sg+Gen+PxSg3+Use/Ped:%>eame%>s K ; !  !parallel form
  +A+Sg+Acc+PxSg3+Use/Ped:%>eame%>s K ; !  !parallel form
@@ -2454,8 +2447,6 @@ LEXICON BEAKKAN !Trisyll. Non-gradating C-Adj. without Separate Attr.
  +A+Sg+Acc:%>a K ;
  +A+Pl+Nom:%>at K ;
  +A:%>i MALLASI-/NUORABU- ;  ! obl
-! +A:%> GAPPUS- ;
-! +A:%> GARRAS- ; ! id to GAPPUS0
  +A+Sg+Nom+Use/Ped:%> PxC ;
  +A+Sg+Gen+Use/Ped:%> PxC ;
  +A+Sg+Acc+Use/Ped:%> PxC ;
@@ -2550,7 +2541,6 @@ LEXICON LOSSAT !Trisyll. Gradating C-Adj. with Bisyll. a-Attr. and final t
 
 LEXICON CAVGAT !Trisyll. Gradating C-Adj. with Bisyll. a/es-Attr. and final t, both -but and -eappot comparatives
  +A+Attr:a%> ATTR ;
- +A+Attr:e%>Y9s ATTR ;
  +A:ad%>X2 EABBO/EAMOS ;
 ! +A:ga%> BU/MUS ; causes adv čavggat, replaced by next two:
  +A+Comp:ga%>b BUStem ;
@@ -2627,7 +2617,6 @@ LEXICON LIEKKUS ! ,-iggo-(#=is)
  BIEKKUS ;
 
 LEXICON GUOROS
-! guoro9s,-u8rro- = guorus,-u8rro-#guoro9s
  +A+Attr:%>W1 ATTR ;
  +A+Ess:%>W1in K ;
  +A+Sg+Nom:%>W1 K ;
@@ -2637,7 +2626,6 @@ LEXICON GUOROS
 
 LEXICON NUOLUS ! ,-u8llo-(#nuolo9s)
  +A+Attr:%>W1 ATTR ;
-! GAPPUS ; renders in attr nuolus, norm is nuolos
  +A:%>X2 EABBO/EAMOS ;
  +A:%>X2 GAPPUS- ;
  +A:%>X4 GAPPUS0 ;
@@ -2650,13 +2638,11 @@ LEXICON GEARGGUS ! ,-ergo-#gearggo9s
  +A:%>X4 GAPPUS0 ;
 
 LEXICON VUDDJII
-! +A+Der2+Der/at+Adv:%>it K ; !these probably don´t form adverbs
  +A+Attr:%>Y5s ATTR ;
  +A+SgNomCmp:%>jW1 R ;
  +A:%>j GAPPUS0 ; ! also VUOHTA, but with j
  +A: VUOHTA ;  ! VUOHTA, without j
  +A:%>Y5 FALLA- ;
-! +A:%>Y5 BU/MUS ; ! Nickel: vanligvis ubøyelige
 
  LEXICON JIEDNAI
  +A+Der2+Der/at+Adv:%>jit K ;
@@ -2665,7 +2651,6 @@ LEXICON VUDDJII
  +A:%>j GAPPUS0 ; ! VUOHTA j
  +A: VUOHTA ;  ! VUOHTA, no j
  +A:%>Y5 FALLA- ;
-! +A:%>Y5 BU/MUS ; !Replaced to prevent adv. form jiednát
  +A+Comp:%>Y5b BUStem ;
  +A+Superl:%>Y5muss BUOREMUS ;
 
@@ -2688,7 +2673,6 @@ LEXICON BOREALA !AKTIIVA without comparatives
 
 LEXICON ALLAT
  +A+Attr:a%> ATTR ;
-! +A+Comp:i%>X4b BUStem ; !Replaced to avoid adverb alibut etc.
  +A+Comp+Sg+Nom:i%>X4t K ;
  +A+Comp+Attr:i%>X4t K ;
  +A+Comp+Sg+Gen:i%>X4bu K ;
@@ -2698,16 +2682,12 @@ LEXICON ALLAT
  +A+Comp+Ess:i%>X4bun K ;
  +A+Comp+Der1+Der/Dimin+A+Attr:i»X4buš%> ATTRCONT ; 
  +A+Comp+Der1+Der/Dimin+A:i»X4bužž JOHTOLAT0 ;
-! +A+Comp+Der1+Der/Dimin:i»X4bužž VUOHTA ; !XXX
  +A+Comp+Der1+Der/Dimin+A:i»X4bužža%> BUOREMUSSA- ;
  +A+Comp:i%>X4bu MALLASI-/NUORABU- ;
  +A+Comp+Der2+Der/at+Adv:ad%>eappo%>t K ;
  +A+Comp+Der2+Der/at+Adv:ag%>eappo%>t K ;
  +A+Comp+Der2+Der/at+Adv:ad%>abbo%>t K ;
  +A+Comp+Der2+Der/at+Adv:ag%>abbo%>t K ;
-! +A+Comp+Sg+Nom:i%>X4bu%> PxSgV ; !^P^
-! +A+Comp+Sg+Gen:i%>X4bu%> PxSgV ; !^P^
-! +A+Comp+Sg+Acc:i%>X4bu%> PxSgV ; !^P^
  +A+Comp+Sg+Nom+Use/Ped:i%>X4bu%> Px1V ;
  +A+Comp+Sg+Nom+Use/Ped:i%>X4bu%> Px2V ;
  +A+Comp+Sg+Nom+Use/Ped:i%>X4bu%> Px3V ;
@@ -2719,7 +2699,6 @@ LEXICON ALLAT
  +A+Comp+Sg+Acc+Use/Ped:i%>X4bu%> Px3V ;
  +A+Comp+Sg+Ill+Use/Ped:i%>X4busa%> PxV ;
  +A+Comp+Pl+Nom+Use/Ped:i%>X4buiddá%> Px1V ;
-! +A+Superl:i%>X4muss BUOREMUS ; !!Replaced to avoid adverb alimusat etc.
  +A+Superl+Attr:i%>X4mus K ;
  +A+Superl:i%>X4muss JOHTOLAT0 ;
  +A+Superl+Ess:i%>X4mussa%>n K ;
@@ -2731,16 +2710,13 @@ LEXICON ALLAT
  +A+Superl+Ess+Use/Ped:i%>X4mussa%>n%> PxC ;
  +A+Superl:i%>X4mussa%> EABBUCASE2 ;
  +A:ad ALLAGA ;
- +A:ag ALLAGA ;
  +A:ad%> ADVC ;
- +A:ag%> ADVC ;
  +A+Superl+Der2+Der/at+Adv:i%>X4musat K ;
  +A+Comp+Der2+Der/at+Adv:i%>X4but K ;
 
 
 LEXICON ALLAGA
  00:%>i MALLASI-/NUORABU- ; !^B^ doesn't work ...
-! EABBO/EAMOS ; ! Comp her should only be -bu.
  :%> GAPPUS- ;
  :%> GAPPUS0 ;
  +SgNomCmp#:»X7# NAMAT ;
@@ -2754,11 +2730,9 @@ LEXICON ALLAGA
 
 LEXICON FIINNIS ! ,-dná-(:Ø)#fiinna
  +A+Attr:a%>X4 ATTR ;
-! +A:%>X4 GAPPUS0 ; ! replaced
  +A+Dial/%-GG:ás%>X2 EABBO/EAMOS_CONT-contracted ; ! 
  +A:is%>X4 GAPPUS0 ; ! Nom and Ess
  +A:á%>Y5 BU/MUS ;
-! +A:á%>Y5 FIIDNA- ; ! replaced
  +A:á%>Y5 FALLA- ;
  +A:á%>Y5s MALLAS- ;
 
@@ -2772,7 +2746,6 @@ LEXICON FIINNIS ! ,-dná-(:Ø)#fiinna
  +A:á%>Y5s MALLAS- ;
 
 LEXICON SMAVIS ! as deahtis, but with even more Attr forms
-! +A+Attr:i%>X4s ATTR ; !Smávislágán hardcoded, otherwise attr. is smávva
  +A+Comp:i%>X4b BUStem ; ! smávit
  +A+Superl:i%>X4muss BUOREMUS ; ! smávimus
  +A:ás%> ADVC ;
@@ -2789,8 +2762,6 @@ LEXICON STUORIS ! As fiinnis, but with different comparation
  +A:á%>Y5 FALLA- ;
 
 LEXICON NJALGGAT
-! ,-lgá-:Ø#njálgga = njálggis,-lgá-: Ø#njálgga =
-! njálgga,-lgá-:Ø#njálgga (komp., superl. njálgá- = njálga3s-)
  +A+Attr:a%>X4 ATTR ;
  +A:ah%>X4 GAPPUS0 ;
  +A+Dial/%-GG:ás%>X2 EABBO/EAMOS_CONT-contracted ;  ! 
@@ -2802,17 +2773,14 @@ LEXICON CAPPIS
  +A:is%>X4 GAPPUS0 ;  ! Nom and Ess
  +A+Dial/%-GG:ás%>X2 EABBO/EAMOS_CONT-contracted ;  ! 
  +A:á%>Y5 BU/MUS ;
-! +A:á%>Y5 FIIDNA- ; ! replaced
   +A:á%>Y5 FALLA- ;
 
 LEXICON VIISSIS  ! Contr, CG and -is -> -á, attr -es/-is
  +A+Attr:es%>X4 ATTR ;
  +A:is%>X4 GAPPUS0 ;  ! Nom and Ess
  +A+Comp:át SHORTCOMP ;
-! THEN COMPARATIVE, here tentative
  +A+Dial/%-GG:ás%>X2 EABBO/EAMOS_CONT-contracted ; ! 
  +A+Dial/%-KJ:á%>Y5 BU/MUS ;  ! 
-! +A:á%>Y5 FIIDNA- ; ! replaced
  +A+Dial/%-KJ:á%>Y5 FALLA- ; ! 
  +A+Dial/%-GG:á%>Y5s MALLAS- ; ! 
  
@@ -3100,8 +3068,6 @@ LEXICON BOAHTINLONGSHORT  ! Deverbal nouns
 ! +N+Der/viđi+Adv:»#viđi K ;
  +N+SgNomCmp:X7# VEARA ;
  +N+SgNomCmp:# VEARA ;
- +N+Ess:%>in K ;   ! Dialects
- +N+Ess:%>en K ;   !Dialects
  +N+Ess:%>e K ;    ! Dialects
  +N+Sg+Gen:%>a K ;
  +N+Sg+Gen+Use/Ped:%> PxC ;
@@ -3136,8 +3102,6 @@ LEXICON BOAHTIN  ! Long compound-forms
  +N+Der/viđá+Adv:»#viđá K ;
 ! +N+Der/viđi+Adv:»#viđi K ;
  +N+SgNomCmp:# VEARA ;
- +N+Ess:%>in K ;   ! Dialects
- +N+Ess:%>en K ;   !Dialects
  +N+Ess:%>e K ;    ! Dialects
  +N+Sg+Gen:%>a K ;
  +N+SgGenCmp:%>a R ;
@@ -3173,8 +3137,6 @@ LEXICON BOAHTINSHORT  ! Short compound-forms
  +N+Der/viđá+Adv:»X7#viđá K ;
 ! +N+Der/viđi+Adv:»X7#viđi K ;
  +N+SgNomCmp:X7# VEARA ;
- +N+Ess:%>in K ;   ! Dialects
- +N+Ess:%>en K ;   !Dialects
  +N+Ess:%>e K ;    ! Dialects
  +N+Sg+Gen:%>a K ;
  +N+SgGenCmp:%>a R ;
@@ -3210,8 +3172,6 @@ LEXICON BOAHTALADDAN  ! No compound-forms, but reintroduced
  +N+Der/viđá+Adv:»#viđá K ;
 ! +N+Der/viđi+Adv:»#viđi K ;
  +N+SgNomCmp:# VEARA ;
- +N+Ess:%>in K ;
- +N+Ess:%>en K ;   !Dialects
  +N+Ess:%>e K ;
  +N+Sg+Gen:%>a K ;
  +N+SgGenCmp:%>a R ;
@@ -3283,8 +3243,6 @@ LEXICON BOAHTINTV   !+CmpN/Sg +CmpN/DefSgGen +CmpN/DefPlGen +CmpN/SgLeft +CmpN/S
  +N+Der/viđá+Adv:»#viđá K ;
 ! +N+Der/viđi+Adv:»#viđi K ;
  +N+SgNomCmp:# VEARA ;
- +N+Ess:%>in K ;   ! Dialects
- +N+Ess:%>en K ;   !Dialects
  +N+Ess:%>e K ;    ! Dialects
  +N+Sg+Gen:%>a K ;
  +N+SgGenCmp:%>a R ;
@@ -3320,8 +3278,6 @@ LEXICON BOAHTINSHORTTV   !+CmpN/Sg +CmpN/DefSgGen +CmpN/DefPlGen +CmpN/SgLeft +C
  +N+Der/viđá+Adv:»X7#viđá K ;
 ! +N+Der/viđi+Adv:»X7#viđi K ;
  +N+SgNomCmp:X7# VEARA ;
- +N+Ess:%>in K ;   ! Dialects
- +N+Ess:%>en K ;   !Dialects
  +N+Ess:%>e K ;    ! Dialects
  +N+Sg+Gen:%>a K ;
  +N+SgGenCmp:%>a R ;
@@ -3356,7 +3312,6 @@ LEXICON BOAHTALADDANTV   !+CmpN/Sg +CmpN/DefSgGen +CmpN/DefPlGen +CmpN/SgLeft +C
  +N+Der/viđá+Adv:»#viđá K ;
  +N+SgNomCmp:# VEARA ;
  +N+Ess:%>in K ;
- +N+Ess:%>en K ;   !Dialects
  +N+Ess:%>e K ;
  +N+Sg+Gen:%>a K ;
  +N+SgGenCmp:a R ;
@@ -3390,8 +3345,6 @@ LEXICON IHTAMAT  !Actio plurals
 ! +N+Der/viđi+Adv:»#viđi K ;
  +N+SgNomCmp:# VEARA ;
  +N+Ess:%>in K ;
- +N+Ess:%>en K ;   !Dialects
-! +N+Ess:%>e K ; !not for nouns
  +N+Pl+Nom:%>at K ;
  +N+Pl+Gen:%>ijd K ;
  +N+PlGenCmp:%>ijd R ;
@@ -3414,7 +3367,7 @@ LEXICON IHTALUDDAMAT  ! No compound-forms, plural only, cmp-forms reintroduced
  +N+SgNomCmp:# VEARA ;
  +N+SgCmp:%> R ;
  +N+Ess:%>in K ;
- +N+Ess:%>en K ;   !SDialects
+ +N+Ess+Use/SUB:%>en K ;   !SDialects
 ! +N+Ess:%>e K ; !not for nouns
  +N+Pl+Nom:%>at K ;
  +N+Pl+Gen:%>ijd K ;
@@ -4198,10 +4151,7 @@ LEXICON DIMINV
  :a%> JOHTOLAHKA- ;
 
 LEXICON HEAPMI
-! +Der1+Der/Dimin+N:»X6ž DIMINC ; !no diminutives for these i think
  +Sg+Nom:X7 K ;
-! +Sg+Nom:X1 Px3V ; !^P^ ! tent. reintro
-! +Sg+Nom:X7 Px3V ; !^P^ ! tent. reintro
  +Sg+Nom+Use/Ped: PxV ;
  LASJOBL ;
  +Der2+Der/at+Adv:X8t K ;
@@ -4209,10 +4159,7 @@ LEXICON HEAPMI
 LEXICON LAGAN
  +A+Attr:%> K ;
 !:%> EABBO/EAMOS ;			!no comp.
-! +A:%> GAPPUS- ; !REPLACED TO GET RID OF COMPOUND
-! +A:%> GAPPUS0 ; !REPLACED TO GET RID OF COMPOUND
  +A+Sg+Nom:%> K ;
-! +A+SgNomCmp:%>X7 R ;
  +A: VUOHTA ;
  +A+Ess:%>in K ;
  +A+Sg+Nom+Use/Ped:00%> PxC ;
@@ -5161,7 +5108,6 @@ LEXICON COASKKITCnj
  +V+IV+Ger:%>ettiin%> PxC ;
  +V+IV+PrfPrc:%>an K ;
  +V+IV+VAbess:%>#keahttá K ; 
- +V+IV+VAbess:%>#keahttájin K ; 
  +V+IV+A+Attr:%>#keahtes K ;
  +V+IV+Sup:%>eažžat K ; ! Rare form !!!
 
@@ -5267,7 +5213,6 @@ LEXICON HURAICnj !Substems for Consonantal Verb Stems
  +Ger:d%>ettiin%> PxC ;
  +PrfPrc:d%>an K ;
  +VAbess:d%>#keahttá K ;  
- +VAbess:d%>#keahttájin K ; 
  +VAbess+A+Attr:d%>#keahtes K ; !XXX Why # here? because of final-cons, (TO)
  +VGen:%> K ;
  +PrsPrc+Use/Sub:d%>eaddji@C.NeedNoun@ K ;
@@ -5462,8 +5407,6 @@ LEXICON PASSIVE
  +Der2+Der/PassL+V+Actio+Ess+Use/Sub:%>men K ;
  +Der2+Der/PassL+V+Actio+Loc+Use/Sub:%>mis K ;
  +Der2+Der/PassL+V+Der3+Der/n+N+SgCmp:»uvvo»m@C.NeedNoun@# VEARA ;
- +Der2+Der/PassL+V+Der3+Der/n+N+Ess:»uvvo»m@C.NeedNoun@in K ;   ! Dialects
- +Der2+Der/PassL+V+Der3+Der/n+N+Ess:»uvvo»m@C.NeedNoun@en K ;   ! Dialects
  +Der2+Der/PassL+V+Der3+Der/n+N+Ess:»uvvo»m@C.NeedNoun@e K ;    ! Dialects
  +Der2+Der/PassL+V+Der3+Der/n+N+Sg+Gen:»uvvo»m@C.NeedNoun@a K ;
  +Der2+Der/PassL+V+Der3+Der/n+N+SgGenCmp:»uvvo»m@C.NeedNoun@a R ;
@@ -5733,7 +5676,6 @@ LEXICON NominalFormsV2
  +Ger:dettiin K ;
  +Ger:dettiin%> PxC ;
  +VAbess:keahttá K ; 
- +VAbess:keahttájin K ; 
  +VAbess+A+Attr:keahtes K ;
  +VGen: K ;
 
@@ -5751,13 +5693,11 @@ LEXICON NominalFormsV6 !SUB
 LEXICON NominalFormsV7
  +Ger:dettiin K ;
  +VAbess:keahttá K ;
- +VAbess:keahttájin K ;
  +VAbess+A+Attr:keahtes K ;
 
 LEXICON NominalFormsV8
  +Ger:dettiin K ;
  +VAbess:keahttá K ;
- +VAbess:keahttájin K ;
  +VAbess+A+Attr:keahtes K ;
 
 LEXICON NominalFormsV9
@@ -5784,7 +5724,6 @@ LEXICON NominalFormsC1
  +Ger:ettiin%> PxC ;
  +PrfPrc:an K ;
  +VAbess:#keahttá K ;  
- +VAbess:#keahttájin K ; 
  +VAbess+A+Attr:#keahtes K ; !XXX Why # here? because of final-cons, (TO)
  +VGen: K ;
 
@@ -7091,7 +7030,6 @@ beana#rái0du:beana#ráj'du GOAHTI ;
 beargalat+CmpN/SgN+CmpN/SgG+CmpN/PlG:beargalah'k JOHTOLAT ;
 bearjadat+CmpN/SgN+CmpN/SgG+CmpN/PlG:bearjadah'k JOHTOLAT ;
 beas0ka:beas'ka GOAHTI ;
-beas0si+G3:beas'si AIGI ;
 beassi GOAHTI ;
 beassáš#beai0vi+CmpN/SgN+CmpN/SgG+CmpN/PlG:beassáš#beaj'vi GOAHTI ;
 beassáš#beai0vi+N+CmpN/Sg+CmpN/Sg:beassáš#beai%> Rreal ;
@@ -7525,7 +7463,6 @@ geaidnu:geajdnu AIGI ;
 geal0lir:geal'lir MALIS ;
 gear0di:gear'di GOAHTI ;
 gearpmaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:gearbma DAIVVAS ;
-gearpmaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:gearbmaš MATTAR ;
 geasse#bivttas:geasse#bik'tas MALIS ;
 geasse#luopmu GOAHTI ;
 geasse#mánnu+CmpN/SgN+CmpN/SgG+CmpN/PlG:geasse#mánnu AIGI ;
@@ -7815,7 +7752,6 @@ iehčanasvuoh0ta+CmpN/SgG+CmpN/DefPlGen:iehčanasvuoh'ta LUONDU ;
 ildu:ildu¤ GOAHTI ;
 illu ALBMILONG ;
 imaš+CmpN/SgN+CmpN/SgG+CmpN/PlG+Use/Sub:imaž GAHPIR ;
-imaš:ipma DAIVVAS ;
 interneahtta GOAHTI ;
 internáhtta+CmpN/SgN+CmpN/DefSgGen+CmpN/PlG:internáhtta GOAHTI ;
 ipmi+CmpN/SgN+CmpN/SgG+CmpN/PlG:ipmi ALBMI ;
@@ -8072,7 +8008,7 @@ lávvu GOAHTI ;
 lášmmohallan+CmpN/Sg:lášmmohallam BOAHTIN ;
 láđđe#gák0ti:láđđe#gák'ti GOAHTI ;
 láđđi GOAHTI ;
-láđđi+G3:láđđi¤ GOAHTI ;
+láđđi+G3+USE/NG:láđđi¤ GOAHTI ; ! XXX NG not a good solution 
 majonesa GOAHTI ;
 makedoni^alaš+CmpN/SgN+CmpN/SgG+CmpN/PlG:makedoni^alažž JOHTOLAT ;
 mammon GAHPIR ;
@@ -8123,7 +8059,6 @@ ministtar+CmpN/SgN+CmpN/SgG+CmpN/PlG:minis'tar MATTAR ;
 minuhtta+CmpN/SgN+CmpN/SgG+CmpN/PlG:minuhtta GOAHTI ;
 mir0ko:mir'ko GOAHTI ;
 mo0raš:morra DAIVVAS ;
-mo0raš:morraš MALIS ;
 moalla#olmmái+CmpN/SgN+CmpN/SgG+CmpN/PlG:moalla#olbmáj FALIS ;
 moarsi+CmpN/SgN+CmpN/SgG+CmpN/PlG:moarsi¤ GOAHTI ;
 mod0ji:mod'ji GOAHTI ;
@@ -8420,6 +8355,7 @@ riikka#rád0já:riikka#rád'já ALBMILONGSHORT ;
 rikkis+CmpN/SgN+CmpN/SgG+CmpN/PlG:riggis FALIS ;
 ris0ka:ris'ka GOAHTI ;
 ris0ku:ris'ku GOAHTI ;
+ris0si:ris'si GOAHTI ;
 risen GAHPIR ;
 risen#buv0ru:risen#buv'ru GOAHTI ;
 rist#eadni+CmpN/SgN+CmpN/SgG+CmpN/PlG:rist9#eadni EADNI ;
@@ -8427,7 +8363,6 @@ rist#áhčči+CmpN/SgN+CmpN/SgG+CmpN/PlG:rist9#áhčči ALBMI ;
 risttalašvuoh0ta+CmpN/SgG+CmpN/DefPlGen:risttalašvuoh'ta LUONDU ;
 rivgu+CmpN/SgN+CmpN/SgG+CmpN/PlG:rivgu¤ AIGI ;
 rivgu+Use/Sub:rivgo¤ GOAHTI ;
-riš0ša+G3:riš'ša GOAHTI ;
 rišša GOAHTI ;
 rišša#doassa GOAHTI ;
 rišša#sággi GOAHTI ;
@@ -8752,7 +8687,6 @@ uvdna GOAHTI ;
 va0ris+CmpN/SgN+CmpN/SgG+CmpN/PlG:varris MALISLONG ;
 vahkko#loahppa+CmpN/SgN+CmpN/SgG+CmpN/PlG:vahkko#loahppa GOAHTI ;
 vahkku+CmpN/SgN+CmpN/SgG+CmpN/PlG:vahkku GOAHTI ;
-vahkku+CmpN/SgN+CmpN/SgG+CmpN/PlG:vahkku¤ AIGI ;
 vahát:vahág GAHPIRLONG ;
 vajahas:vajahass JOHTOLAT ;
 valástallan#hál0la+G3:valástallan#hál'la GOAHTI ;
@@ -9258,7 +9192,6 @@ bivval JOHTIL ;
 bahá+CmpN/SgN+CmpN/SgG+CmpN/PlG:bahá LAIKI; !
 stuo0ris+CmpN/SgN+CmpN/SgG+CmpN/PlG:stuorr STUORIS ; !
 heittot:heittog JOHTIL ; ! also :heittoh
-bahá LEXATTR ;  ! This one is for "bahá vuoiŋŋat"
 ga0ras:garra GARAS "hard A" ;
 issoras:issor ISSORAS "terrible A" ;
 fiinnis:fijdn FIINNIS "fine A" ;
@@ -9467,14 +9400,7 @@ njálmmálaš:njálmmál DABALAS ;
 unohas:unoh UNOHAS ;
 erenoamaš+Use/Sub:erenoamaž AGAdj ; !
 un0ni:un'n UHCC ; ! attr unna
-unni:una LEXATTR ; ! attr una
 buorre+Use/Sub: BUOROT ; ! !lexeme in e
-seaggi:seakkes LEXATTR ;  !irregular attr. form
-lossat:los'ses LEXATTR ; ! ad hoc exceptional form
-nanus:nana LEXATTR ; ! exceptional attr form
-stuoris+Dial/%-GG:stuorra LEXATTR ; ! takes care of irregular attr form 
-geah0pas:gehppes LEXATTR ; ! Alt. attr.form
-govdat:govdes LEXATTR ; !unusual attr.form
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
 ! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
@@ -11454,18 +11380,12 @@ LEXICON NENPLACELASH
 
 
 LEXICON ProperNoun
-Abel LONDON-mal ;
-Abraham:Abraham9 BERN-mal ;
-Ada ACCRA-fem ;
 Afrihká+Use/Sub:Afrihká MARJA-plc ; !
-Albánia ACCRA-plc ;
-Amerihká+Use/Sub:Amerihká ACCRA-plc ; !
 Anár ANAR-plc ;
 Anár^joh0ka:Anár^joh'ka MARJA-plc ;
 Anár^johka+Use/Sub:Anár^johka MARJA-plc ; !
 Anár^jáv0ri:Anár^jáv'ri MARJA-plc ;
 Atlánta ACCRA-plc ;
-Austrália ACCRA-plc ;
 Avvil ANAR-plc ;
 Avvir ANAR-plc ;
 Ađe^vuopmi MARJA-plc ;
@@ -11478,7 +11398,6 @@ Bealdo^vuopmi MARJA-plc ;
 Beallje^duottar:Beallje^duoddar DUORTNUS-plc ;
 Beattet:Beatteg ANAR-plc ;
 Beazet:Beazeh ANAR-plc ;
-Belgia ACCRA-plc ;
 Besseš:Bessež ANAR-plc ;
 Bies^joh0ka:Bies^joh'ka MARJA-plc ;
 Bievrraš^joh0ka:Bievrraš^joh'ka MARJA-plc ;
@@ -11487,7 +11406,6 @@ Bihte^gáddi MARJA-plc ;
 Bisso^joh0ka:Bisso^joh'ka MARJA-plc ;
 Biŧon:Biŧom ANAR-plc ;
 Buksal ANAR-plc ;
-Bulgária ACCRA-plc ;
 Buollan^guoi0ka+Use/Sub:Buollan^guoi'ka MARJA-plc ; !
 Buollán^goađe^sa00vu:Buollán^goađe^savvun8 GUOLBBA-plc ;
 Buođggát:Buođ'gá VARGGAT-plc ;
@@ -11502,7 +11420,6 @@ Bár0ši:Bár'ši MARJA-plc ;
 Bárttet:Bártteh ANAR ; ! Final t:h gradation
 Báđoš:Báđož ANAR-plc ;
 Báđár ANAR-plc ;
-Børre ACCRA-mal ;
 Cieskul^joh0ka:Cieskul^joh'ka MARJA-plc ;
 Dar0ji:Dar'ji MARJA-plc ;
 Darji+Use/Sub:Darji MARJA-plc ; !?
@@ -11528,16 +11445,12 @@ Dállo^gilli MARJA-plc ;
 Dán^már0ku:Dán^már'ku MARJA-plc ;
 Dánse^joh0ka:Dánse^joh'ka MARJA-plc ;
 Eanodat:Eanodah'k HEANDARAT-plc ;
-Eden:Eden9 LONDON-plc ;
 Egypta MARJA-plc ;
 Eng^lán0da:Eng^lán'da MARJA-plc ;
 Enodat:Enodah'k HEANDARAT-plc ;
 Espán0nja:Espán'nja MARJA-plc ;
 Est^lán0da:Est^lán'da MARJA-plc ;
 Estte^ea0na:Estte^eatnam8 GUOLBBA-plc ;
-Eufrat LONDON-plc ;
-Eurohpá ACCRA-plc ;
-Evá ACCRA-fem ;
 Finn^már0ku:Finn^már'ku MARJA-plc ;
 Fáš0ku:Fáš'ku MARJA-plc ;
 Gabná MARJA-plc ;
@@ -11562,7 +11475,6 @@ Giehta^ruoh0tas:Giehta^ruohttas DUORTNUS-plc ;
 Giema^joh0ka:Giema^joh'ka MARJA-plc ;
 Giema^jáv0ri:Giema^jáv'ri MARJA-plc ;
 Giepma MARJA-plc ;
-Gihttel LONDON-plc ;
 Gilbbes^jáv0ri:Gilbbes^jáv'ri MARJA-plc ;
 Gillan:Gillam ANAR-plc ;
 Girko^njár0ga:Girko^njár'ga MARJA-plc ;
@@ -11578,7 +11490,6 @@ Got^lán0da:Got^lán'da MARJA-plc ;
 Goškan^jáv0ri:Goškan^jáv'ri MARJA-plc ;
 Grei0ka:Grej'ka MARJA-plc ;
 Guhttás ANAR-plc ;
-Guhtur ANAR-mal ;
 Guohppe^njavvi MARJA-plc ;
 Guoldná MARJA-plc ;
 Guoládat:Guoládah'k HEANDARAT-plc ;
@@ -11595,9 +11506,7 @@ Gálás^eatnu MARJA-plc ;
 Gámas^joh0ka:Gámas^joh'ka MARJA-plc ; !FIN
 Gámas^mohkki MARJA-plc ; !FIN
 Gára^savvon ANAR-plc ; !FIN
-Gárjil LONDON-plc ;
 Gávva MARJA-plc ; !FIN
-Haan^pää ACCRA-plc ;
 Hammer^feas0ta+Use/Sub:Hammer^feas'ta MARJA-plc ; !
 Heahttá MARJA-plc ; !FIN
 Helsset:Helsseg ANAR-plc ;
@@ -11609,61 +11518,41 @@ Iitu MARJA-plc ;
 Ipmil LONDON-mal ;
 Ir^lán0da:Ir^lán'da MARJA-plc ;
 Is^lán0da:Is^lán'da MARJA-plc ;
-Isra^el BERN-plc ;
-Itália ACCRA-plc ;
 Iv0gu:Iv'gu MARJA-plc ;
-Ivgu ACCRA-plc ;
 Japána MARJA-plc ;
-Jesus LONDON-mal ;
 Jiekŋa^mearra MARJA-plc ;
 Jielle^várri MARJA-plc ;
 Johka^mohkki MARJA-plc ;
-Jugo^slávia ACCRA-plc ;
 Jumbál ANAR-plc ; !FIN
 Junte^joh0ka:Junte^joh'ka MARJA-plc ;
 Jáhton ANAR-plc ; !FIN
-Kain:Kain9 LONDON-mal ;
-Kanáda+Use/Sub:Kanáda ACCRA-plc ; !
-Karls^øy BERN-plc ;
-Karls^øy+Use/Sub:Karls^øy NYSTØ-plc ; !
 Kiinná:Kijnná MARJA-plc ;
-Kumpula ACCRA-plc ;
 Káráš^joh0ka:Káráš^joh'ka MARJA-plc ;
-Lamek LONDON-sur ;
 Leaibe^joh0ka:Leaibe^joh'ka MARJA-plc ; !FIN
 Leaibe^jáv0ri:Leaibe^jáv'ri MARJA-plc ; !FIN
 Leam0mi:Leam'mi MARJA-plc ; !This is probably better option than ACCRA !FIN
 Leavdnja MARJA-plc ;
 Leaváš:Leaváž PLACE-DIM-plc ;
-Lene ACCRA-fem ;
-Li^etuva ACCRA-plc ;
 Lihtto^muor^várri MARJA-plc ; !FIN
 Lohttu MARJA-plc ; !FIN
-London:London9 LONDON-plc ;
 Lu^jáv0ri:Lu^jáv'ri MARJA-plc ;
 Luhkkár^bái0ki:Luhkkár^báj'ki MARJA-plc ; !FIN
 Luossa^goatnil ANAR-plc ; !FIN
-Látvia ACCRA-plc ;
 Lávnnjit^vuopmi+Use/Sub:Lávnnjit^vuopmi MARJA-plc ; !
-Maja ACCRA-fem ;
 Mearra^bah0ta:Mearra^bah'ta MARJA-plc ;
 Mearra^bađa^luok0ta:Mearra^bađa^luok'ta MARJA-plc ;
 Meksiko:Meksiko9 ACCRA-plc ;
 Meneš^jáv0ri:Meneš^jáv'ri MARJA-plc ; !FIN
 Mieraš^jáv0ri:Mieraš^jáv'ri MARJA-plc ; !FIN
 Mieraš^luoppal:Mieraš^luobbal DUORTNUS-plc ; !FIN
-Minnesota ACCRA-plc ;
 Mohkke^jáv0ri:Mohkke^jáv'ri MARJA-plc ; !FIN
 Muot0ki:Muot'ki MARJA-plc ;
 Muotke^jáv0ri:Muotke^jáv'ri MARJA-plc ; !FIN
 Má^seal0gi:Má^seal'gi MARJA-plc ;
 Máhte^geavŋŋis:Máhte^geavgŋis GEAVNNIS-plc ; !FIN
-Már0já:Már'já MARJA-fem ;
 Mátta^jáv0ri:Mátta^jáv'ri MARJA-plc ; !FIN
 Máze MARJA-plc ; !In this the ill. is Mázii as it should be
 Neahčil^joh0ka:Neahčil^joh'ka MARJA-plc ; !FIN
-Nicaragua ACCRA-plc ;
-Nigeria ACCRA-plc ;
 Niito^vuohppi MARJA-plc ; !FIN
 Njave^joh0ka:Njave^joh'ka MARJA-plc ; !FIN
 Njearre^jáv0ri:Njearre^jáv'ri MARJA-plc ; !FIN
@@ -11672,7 +11561,6 @@ Njunnás ANAR-plc ; !FIN !sub?
 Njuohtte^jáv0ri:Njuohtte^jáv'ri MARJA-plc ;
 Njárbes^joh0ka:Njárbes^joh'ka MARJA-plc ; !FIN
 Njávdán:Njávdám ANAR-plc ;
-Noa ACCRA-mal ;
 Nor0ga:Nor'ga MARJA-plc ;
 Nord^lán0da:Nord^lán'da MARJA-plc ;
 Nuorbe^njár0ga:Nuorbe^njár'ga MARJA-plc ; !FIN
@@ -11687,9 +11575,6 @@ Omas^vuotna MARJA-plc ;
 Ovnnes^joh0ka:Ovnnes^joh'ka MARJA-plc ; !FIN
 Ovnnes^jáv0ri:Ovnnes^jáv'ri MARJA-plc ; !FIN
 Ovnnesjoh0ka:Ovnnesjoh'ka MARJA-plc ;
-Pekka ACCRA-mal ;
-Per BERN-mal ;
-Polen+Use/Sub:Polen9 LONDON-plc ; !
 Pols0ka:Pols'ka MARJA-plc ;
 Porsáŋ0gu:Porsáŋ'gu MARJA-plc ;
 Rieban^joh0ka:Rieban^joh'ka MARJA-plc ; !FIN
@@ -11699,7 +11584,6 @@ Roah0pi:Roah'pi MARJA-plc ; !FIN
 Roave^njár0ga:Roave^njár'ga MARJA-plc ;
 Roavve^njár0ga:Roavve^njár'ga MARJA-plc ; !FIN
 Rom0sa:Rom'sa MARJA-plc ;
-Románia ACCRA-plc ;
 Rukses^mearra MARJA-plc ;
 Ruoná^ea0na:Ruoná^eatnam8 GUOLBBA-plc ;
 Ruoš0ša:Ruoš'ša MARJA-plc ;
@@ -11707,20 +11591,14 @@ Ruoŧ0ŧa+Use/Sub:Ruoŧ'ŧa SUOPMA-plc ; !
 Ruoŧŧa SUOPMA-plc ;
 Rádje^eatnu MARJA-plc ; !FIN
 Rántel ANAR-plc ; !FIN
-Sara ACCRA-femsur ;
 Sarvves^jáv0ri:Sarvves^jáv'ri MARJA-plc ; !FIN
 Sibir0já:Sibir'já MARJA-plc ;
 Silis^jáv0ri:Silis^jáv'ri MARJA-plc ;
-Sisilia ACCRA-plc ;
-Sjur BERN-mal ;
-Skandinávia ACCRA-plc ;
 Skiehččan^joh0ka:Skiehččan^joh'ka MARJA-plc ; !FIN
 Skot^lán0da+Use/Sub:Skot^lán'da MARJA-plc ; !
 Skánit:Skátni VARGGAT-plc ;
 Soahte^joh0ka:Soahte^joh'ka MARJA-plc ; !FIN
 Soađe^gilli MARJA-plc ;
-Sohppar LONDON-sur ;
-Spánia ACCRA-plc ;
 Stuorra^jáv0ri:Stuorra^jáv'ri MARJA-plc ; !FIN
 Suohpa^jáv0ri:Suohpa^jáv'ri MARJA-plc ; !FIN
 Suolo^čiel0gi:Suolo^čiel'gi MARJA-plc ;
@@ -11731,23 +11609,10 @@ Sállan:Sállan9 ANAR-plc ;
 Sálle^várri MARJA-plc ;
 Sápmi+CmpN/SgG:Sápmi SUOPMA-plc ; !
 Sáre^vuopmi MARJA-plc ;
-Tampere+N+Prop+Org+Sg+Ill:Tamperei K ; !alt. ill-form
-Tampere:Tampere SIJTE-plc ;
 Thai^ea0na:Thai^eatnam8 GUOLBBA-plc ;
-Thomas LONDON-mal ;
-Thomas:Thomas LONDON-mal ;
-Tibet BERN-plc ;
-Tomi ACCRA-mal ;
-Tommi ACCRA-mal ;
-Troms BERN-LOAN-plc ;
-Troms^ø NYSTØ-LOAN-plc ;
-Trond:Trond9 BERN-mal ;
 Turkiija+Use/Sub:Turkiija MARJA-plc ; !
-Turkki ACCRA-sur ;
 U^njár0ga:U^njár'ga MARJA-plc ;
 Ubmi MARJA-plc ;
-Ukraina ACCRA-plc ;
-Uula MARJA-mal ;
 Vazáš:Vazáž ANAR-plc ;
 Veahča^joh0ka:Veahča^joh'ka MARJA-plc ; !FIN
 Veahča^jáv0ri:Veahča^jáv'ri MARJA-plc ;
@@ -11755,7 +11620,6 @@ Veahčat:Veahčah ANAR-plc ;
 Veahčat^guoi0ka:Veahčat^guoj'ka MARJA-plc ; !FIN
 Vilges-Ruošša:Vilges-Ruoš'ša MARJA-plc ;
 Vilges^mearra MARJA-plc ;
-Virtanen:Virta C-FI-NEN-sur ;
 Vuohčču MARJA-plc ; !FIN
 Vuolle-Jal0vi:Vuolle-Jal'vi MARJA-plc ;
 Vuolle^geavŋŋis:Vuolle^geavgŋis GEAVNNIS-plc ; !FIN
@@ -11767,7 +11631,6 @@ Várjjat:Várjjag ANAR-plc ;
 Ábe^skov0vu:Ábe^skov'vu MARJA-plc ;
 Ádja^gor0sa:Ádja^gor'sa MARJA-plc ; !FIN
 Áh^guoi0ka:Áh^guoj'ka MARJA-plc ; !FIN
-Áhkkil LONDON-plc ;
 Áhko^jáv0ri:Áhko^jáv'ri MARJA-plc ; !FIN
 Áhko^várri MARJA-plc ; !FIN
 Áhppes^duottar:Áhppes^duoddar DUORTNUS-plc ;
@@ -11780,12 +11643,10 @@ Várjjat:Várjjag ANAR-plc ;
 Álahead0ju:Álahead'ju MARJA-plc ;
 Áles^bái0ki:Áles^báj'ki MARJA-plc ; !FIN
 Állet^njár0ga:Állet^njár'ga MARJA-plc ;
-Ásia ACCRA-plc ;
 Áttán:Áttám ANAR-mal ;
 Ávjo^várri MARJA-plc ;
 Áŋŋel ANAR-plc ; !FIN
 Å^lán0da:Å^lán'da MARJA-plc ;
-Øster^botten+Use/Sub:Øster^botten9 LONDON-plc ; !
 Čeavet^jáv0ri:Čeavet^jáv'ri MARJA-plc ; !FIN
 Čivtta^joh0ka:Čivtta^joh'ka MARJA-plc ;
 Čoalbme^jáv0ri:Čoalbme^jáv'ri MARJA-plc ;
@@ -11798,6 +11659,72 @@ Várjjat:Várjjag ANAR-plc ;
 Čáhppes^mearra MARJA-plc ;
 Čálku MARJA-plc ;
 Šveica ACCRA-plc ;
+Abel LONDON-mal ;
+Abraham:Abraham9 BERN-mal ;
+Ada ACCRA-fem ;
+Albánia ACCRA-plc ;
+Amerihká+Use/Sub:Amerihká ACCRA-plc ; !
+Austrália ACCRA-plc ;
+Belgia ACCRA-plc ;
+Bulgária ACCRA-plc ;
+Børre ACCRA-mal ;
+Eden:Eden9 LONDON-plc ;
+Eufrat LONDON-plc ;
+Eurohpá ACCRA-plc ;
+Evá ACCRA-fem ;
+Gihttel LONDON-plc ;
+Guhtur ANAR-mal ;
+Gárjil LONDON-plc ;
+Haan^pää ACCRA-plc ;
+Isra^el BERN-plc ;
+Isra^el LONDON-plc ;
+Itália ACCRA-plc ;
+Ivgu ACCRA-plc ;
+Jesus LONDON-mal ;
+Jugo^slávia ACCRA-plc ;
+Kain:Kain9 LONDON-mal ;
+Kanáda+Use/Sub:Kanáda ACCRA-plc ; !
+Karls^øy BERN-plc ;
+Karls^øy+Use/Sub:Karls^øy NYSTØ-plc ; !
+Kumpula ACCRA-plc ;
+Lamek LONDON-sur ;
+Lene ACCRA-fem ;
+Li^etuva ACCRA-plc ;
+London:London9 LONDON-plc ;
+Látvia ACCRA-plc ;
+Maja ACCRA-fem ;
+Minnesota ACCRA-plc ;
+Már0já:Már'já MARJA-fem ;
+Nicaragua ACCRA-plc ;
+Nigeria ACCRA-plc ;
+Noa ACCRA-mal ;
+Pekka ACCRA-mal ;
+Per BERN-mal ;
+Polen+Use/Sub:Polen9 LONDON-plc ; !
+Románia ACCRA-plc ;
+Sara ACCRA-femsur ;
+Sisilia ACCRA-plc ;
+Sjur BERN-mal ;
+Skandinávia ACCRA-plc ;
+Sohppar LONDON-sur ;
+Spánia ACCRA-plc ;
+Tampere+N+Prop+Org+Sg+Ill:Tamperei K ; !alt. ill-form
+Tampere:Tampere SIJTE-plc ;
+Thomas LONDON-mal ;
+Thomas:Thomas LONDON-mal ;
+Tibet BERN-plc ;
+Tomi ACCRA-mal ;
+Tommi ACCRA-mal ;
+Troms BERN-LOAN-plc ;
+Troms^ø NYSTØ-LOAN-plc ;
+Trond:Trond9 BERN-mal ;
+Turkki ACCRA-sur ;
+Ukraina ACCRA-plc ;
+Uula MARJA-mal ;
+Virtanen:Virta C-FI-NEN-sur ;
+Áhkkil LONDON-plc ;
+Ásia ACCRA-plc ;
+Øster^botten+Use/Sub:Øster^botten9 LONDON-plc ; !
 ! Divvun & Giellatekno - open source grammars for Sámi and other languages
 ! Copyright © 2000-2010 The University of Tromsø & the Norwegian Sámi Parliament
 ! http://giellatekno.uit.no & http://divvun.no
