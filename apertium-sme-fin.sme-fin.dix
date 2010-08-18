@@ -444,7 +444,7 @@
 	<e><p><l>albma<s n="Adv"/></l><r>ilmi<s n="Adv"/></r></p></e>
 	<e><p><l>gosa<s n="Adv"/></l><r>jonne<s n="Adv"/></r></p></e>
 	<e><p><l>albmosii<s n="Adv"/></l><r>julki<s n="Adv"/></r></p></e>
-	<e><p><l>guovtti<b/>sadjái<s n="Adv"/></l><r>kahtia<s n="Adv"/></r></p></e>
+	<e><p><l>guovdat<s n="Adv"/></l><r>kahtia<s n="Adv"/></r></p></e>
 	<e><p><l>ollásit<s n="Adv"/></l><r>kokonaan<s n="Adv"/></r></p></e>
 	<e><p><l>čoahkkái<s n="Adv"/></l><r>kokoon<s n="Adv"/></r></p></e>
 	<e><p><l>golbmii<s n="Adv"/></l><r>kolmesti<s n="Adv"/></r></p></e>
@@ -485,8 +485,8 @@
 	<e><p><l>dárkket<s n="Adv"/></l><r>tarkkaan<s n="Adv"/></r></p></e>
 	<e><p><l>dássidit<s n="Adv"/></l><r>vakaasti<s n="Adv"/></r></p></e>
 	<e><p><l>eallinaga<s n="Adv"/></l><r>elävältä<s n="Adv"/></r></p></e>
-	<e><p><l>eará<b/>guovllus<s n="Adv"/></l><r>muualla<s n="Adv"/></r></p></e>
-	<e><p><l>eará<b/>guvlui<s n="Adv"/></l><r>muualle<s n="Adv"/></r></p></e>
+	<e><p><l>eará<b/>sájis<s n="Adv"/></l><r>muualla<s n="Adv"/></r></p></e>
+	<e><p><l>eará<b/>sadjái<s n="Adv"/></l><r>muualle<s n="Adv"/></r></p></e>
 	<e><p><l>eske<s n="Adv"/></l><r>äsken<s n="Adv"/></r></p></e>
 	<e><p><l>farggabut<s n="Adv"/></l><r>pikemmin<s n="Adv"/></r></p></e>
 	<e><p><l>garrasit<s n="Adv"/></l><r>kovasti<s n="Adv"/></r></p></e>
@@ -518,7 +518,7 @@
 	<e><p><l>nuppos<s n="Adv"/></l><r>toisaalle<s n="Adv"/></r></p></e>
 	<e><p><l>oktonassii<s n="Adv"/></l><r>yksinään<s n="Adv"/></r></p></e>
 	<e><p><l>ovdalii<s n="Adv"/></l><r>edemmäksi<s n="Adv"/></r></p></e>
-	<e><p><l>ovddešviđi<s n="Adv"/></l><r>entiselleen<s n="Adv"/></r></p></e>
+	<e><p><l>ovddeš<b/>láhkai<s n="Adv"/></l><r>entiselleen<s n="Adv"/></r></p></e>
 	<e><p><l>ovddežis<s n="Adv"/></l><r>ennestään<s n="Adv"/></r></p></e>
 	<e><p><l>ođđasis<s n="Adv"/></l><r>uudelleen<s n="Adv"/></r></p></e>
 	<e><p><l>rabas<s n="Adv"/></l><r>auki<s n="Adv"/></r></p></e>
@@ -3802,7 +3802,7 @@
     <e><p><l>hui<s n="Adv"/></l><r>kovin<s n="Adv"/></r></p></e>
     <e><p><l>hui<s n="Adv"/></l><r>sangen<s n="Adv"/></r></p></e>
 	<e><p><l>dábálaččat<s n="Adv"/></l><r>yleensä<s n="Adv"/></r></p></e>
-	<e><p><l>maŋemusháve<s n="Adv"/></l><r>viimeksi<s n="Adv"/></r></p></e>
+	<e><p><l>maŋemustá<s n="Adv"/></l><r>viimeksi<s n="Adv"/></r></p></e>
 	
     <e><p><l>ain<s n="Adv"/></l><r>edelleen<s n="Adv"/></r></p></e>
     <e><p><l>ainjuo<s n="Adv"/></l><r>ainakin<s n="Adv"/></r></p></e>
@@ -3928,7 +3928,7 @@
     <e><p><l>veháš<s n="Adv"/></l><r>hieman<s n="Adv"/></r></p></e>
     <e><p><l>viehka<s n="Adv"/></l><r>aika<s n="Adv"/></r></p></e>
     <e><p><l>virggálaččat<s n="Adv"/></l><r>virallisesti<s n="Adv"/></r></p></e>
-    <e><p><l>vulos<b/>guovlluid<s n="Adv"/></l><r>alaspäin<s n="Adv"/></r></p></e>
+    <e><p><l>vulosguovlluid<s n="Adv"/></l><r>alaspäin<s n="Adv"/></r></p></e>
     <e><p><l>vulos<s n="Adv"/></l><r>alas<s n="Adv"/></r></p></e>
     <e><p><l>vuollin<s n="Adv"/></l><r>alhaalla<s n="Adv"/></r></p></e>
     <e><p><l>vuollin<s n="Adv"/></l><r>alhaalta<s n="Adv"/></r></p></e>
