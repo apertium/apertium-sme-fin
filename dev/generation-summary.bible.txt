@@ -2,55 +2,31 @@
 ===============================================================================
 Multiple surface forms for a single lexical form
 ===============================================================================
-    215 maŋisboahttiid/maŋisbohttiid	^maŋisboahtti<N><Actor><Pl><Gen>$
     157 Israelas/Israelis	^Israel<N><Prop><Plc><Sg><Loc>$
-     54 ealliid/elliid	^ealli<N><Actor><Pl><Gen>$
-     28 maŋisboahttiin/maŋisbohttiin	^maŋisboahtti<N><Actor><Pl><Loc>$
      25 ovttas/ovttan	^okta<Num><Sg><Loc>$
-     17 ealliide/elliide	^ealli<N><Actor><Pl><Ill>$
      16 vissát/vissásit	^vissis<A><Der2><Der_at><Adv>$
-     16 maŋisboahttiidasat/maŋisbohttiidasat	^maŋisboahtti<N><Actor><Pl><Ill><PxSg2>$
-     15 maŋisboahttiidat/maŋisbohttiidat	^maŋisboahtti<N><Actor><Pl><Gen><PxSg2>$
-     14 maŋisboahttiide/maŋisbohttiide	^maŋisboahtti<N><Actor><Pl><Ill>$
-     14 maŋisboahttiid/maŋisbohttiid	^maŋisboahtti<N><Actor><Pl><Acc>$
      14 čalmmeheamit/čalmmeheamet	^čalmmeheapme<A><Pl><Nom>$
-     12 ealliid/elliid	^ealli<N><Actor><Pl><Acc>$
-     11 maŋisboahttiidasas/maŋisbohttiidasas	^maŋisboahtti<N><Actor><Pl><Ill><PxSg3>$
      11 čalmmeheami/čalmmeheame	^čalmmeheapme<A><Sg><Gen>$
      10 máŋggas/máŋggan	^máŋga<Num><Sg><Loc>$
-     10 ealliin/elliin	^ealli<N><Actor><Pl><Loc>$
       8 vissái/vissásii	^vissis<A><Sg><Ill>$
-      8 maŋisboahttiinis/maŋisbohttiinis	^maŋisboahtti<N><Actor><Pl><Loc><PxSg3>$
       7 Vissái/Vissásii	^Vissis<A><Sg><Ill>$
-      7 oahpaheaddjiid/oahpaheddjiid	^oahpaheaddji<N><Actor><Pl><Gen>$
       6 ribaheamis/ribaheames	^ribahit<V><TV><Actio><Loc>$
       6 máđoheami/máđoheame	^máđoheapme<A><Sg><Gen>$
       6 čalmmeheami/čalmmeheame	^čalmmeheapme<A><Sg><Acc>$
       6 buorrin/buorren	^buorre<A><Ess>$
       5 vissis/visses	^vissis<A><Attr>$
-      5 maŋisboahttiidis/maŋisbohttiidis	^maŋisboahtti<N><Actor><Pl><Gen><PxSg3>$
       5 Livččiigo/Livččego/Livččuigo	^Leat<V><IV><Cond><Prs><Sg3><Qst>$
       5 fiidná/fiidnása	^fiinnis<A><Sg><Gen>$
       5 boardaga/boardaha	^boardda<N><Sg><Gen>$
-      4 vuddjiid/vuoddjiid	^vuoddji<N><Actor><Pl><Gen>$
       4 vissá/vissása	^vissis<A><Sg><Gen>$
-      4 lihkadeaddjiid/lihkadeddjiid	^lihkadit<V><IV><Der2><Actor><N><Pl><Gen>$
       4 livččiige/livččege/livččuige	^leat<V><IV><Cond><Prs><Sg3><Foc_ge>$
       4 herskko/hersko	^hersko<N><Sg><Acc>$
-      4 deattuheaddjiid/deattuheddjiid	^deattuhit<V><TV><Der2><Actor><N><Pl><Acc>$
       4 boardagiin/boardahiin	^boardda<N><Pl><Loc>$
       4 boardagiid/boardahiid	^boardda<N><Pl><Gen>$
-      3 vuvdiid/vuovdiid	^vuovdit<V><TV><Der2><Actor><N><Pl><Gen>$
       3 Vissát/Vissásit	^Vissis<A><Der2><Der_at><Adv>$
       3 veahkeheamis/veahkeheames	^veahkehit<V><TV><Actio><Loc>$
-      3 ráhkesteaddjiidis/ráhkesteddjiidis	^ráhkestit<V><TV><Der2><Actor><N><Pl><Gen><PxSg3>$
       3 oaččuliigo/oččošiigo	^oažžut<V><TV><Cond><Prs><Sg3><Qst>$
-      3 oahpaheaddjiide/oahpaheddjiide	^oahpaheaddji<N><Actor><Pl><Ill>$
-      3 molssodeaddjiid/molssodeddjiid	^molssodit<V><TV><Der2><Actor><N><Pl><Gen>$
-      3 maŋisboahttiidasaset/maŋisbohttiidasaset	^maŋisboahtti<N><Actor><Pl><Ill><PxPl3>$
-      3 maŋisboahttiideaset/maŋisbohttiideaset	^maŋisboahtti<N><Actor><Pl><Acc><PxPl3>$
       3 lihkoheami/lihkoheame	^lihkoheapme<A><Sg><Gen>$
-      3 lihkadeaddjiid/lihkadeddjiid	^lihkadit<V><IV><Der2><Actor><N><Pl><Acc>$
       3 Livččiiba/Livččeba/Livččuiba	^Leat<V><IV><Cond><Prs><Sg3><Foc_ba>$
       3 herskkuid/herskuid	^hersko<N><Pl><Gen>$
       3 Guođálingo/Guođášingo	^Guođđit<V><TV><Cond><Prs><Sg1><Qst>$
@@ -59,32 +35,17 @@ Multiple surface forms for a single lexical form
       3 gállus/gálus	^gállu<N><Sg><Loc>$
       3 gállu/gálu	^gállu<N><Sg><Acc>$
       3 evangeliumas/evangeliumis	^evangelium<N><Sg><Loc>$
-      3 duššadeaddjiid/duššadeddjiid	^duššadit<V><TV><Der2><Actor><N><Pl><Acc>$
       3 doalaliigo/doalašiigo	^doallat<V><TV><Cond><Prs><Sg3><Qst>$
-      3 diehttiid/dihttiid	^diehtit<V><TV><Der2><Actor><N><Pl><Gen>$
-      3 diehttiid/dihttiid	^diehtit<V><TV><Der2><Actor><N><Pl><Acc>$
       3 daddjágo/dadjágo	^dadjat<V><TV><Ind><Prs><Sg3><Qst>$
-      3 čierasteaddjiidis/čierasteddjiidis	^čierastit<V><IV><Der2><Actor><N><Pl><Nom><PxSg3>$
       3 boardagiidda/boardahiidda	^boardda<N><Pl><Ill>$
-      3 boahttiid/bohttiid	^boahtit<V><IV><Der2><Actor><N><Pl><Gen>$
-      3 bilkideaddjiid/bilkideddjiid	^bilkideaddji<N><Actor><Pl><Gen>$
       2 vuorustis/vuorrustis	^vuorru<N><Sg><Loc><PxSg3>$
       2 vissá/vissása	^vissis<A><Sg><Acc>$
-      2 veahkeheaddjiid/veahkeheddjiid	^veahkehit<V><TV><Der2><Actor><N><Pl><Acc>$
       2 Válddálingo/Válddášingo	^Váldit<V><TV><Cond><Prs><Sg1><Qst>$
       2 vádjoleamis/vádjoleames	^vádjolit<V><IV><Actio><Loc>$
       2 tuollu/tuolu	^tuollu<N><Sg><Acc>$
-      2 soaitiidat/soitiidat	^soaitit<V><IV><Der2><Actor><N><Pl><Gen><PxSg2>$
-      2 soaitiid/soitiid	^soaitit<V><IV><Der2><Actor><N><Pl><Gen>$
       2 Sáhtálinhan/Sáhtášinhan	^Sáhttit<V><IV><Cond><Prs><Sg1><Foc_han>$
-      2 ráhkadeaddjiid/ráhkadeddjiid	^ráhkadit<V><TV><Der2><Actor><N><Pl><Acc>$
       2 ráhkadeamis/ráhkadeames	^ráhkadit<V><TV><Actio><Loc>$
-      2 ráđđejeaddjiid/ráđđejeddjiid	^ráđđet<V><TV><Der2><Actor><N><Pl><Gen>$
       2 Ovttas/Ovttan	^Okta<Num><Sg><Loc>$
-      2 oaidniid/oidniid	^oaidnit<V><TV><Der2><Actor><N><Pl><Gen>$
-      2 maŋisboahttiineattet/maŋisbohttiineattet	^maŋisboahtti<N><Actor><Pl><Loc><PxPl2>$
-      2 maŋisboahttiidan/maŋisbohttiidan	^maŋisboahtti<N><Actor><Pl><Gen><PxSg1>$
-      2 maŋisboahttiideattet/maŋisbohttiideattet	^maŋisboahtti<N><Actor><Pl><Gen><PxPl2>$
       2 Livččiihan/Livččehan/Livččuihan	^Leat<V><IV><Cond><Prs><Sg3><Foc_han>$
       2 láikkit/láikket	^láiki<A><Der2><Der_at><Adv>$
       2 herskkuidis/herskuidis	^hersko<N><Pl><Gen><PxSg3>$
@@ -92,7 +53,6 @@ Multiple surface forms for a single lexical form
       2 gállot/gálot	^gállu<N><Sg><Gen><PxSg2>$
       2 fiidnái/fiidnásii	^fiinnis<A><Sg><Ill>$
       2 fiidnáide/fiidnásiidda	^fiinnis<A><Pl><Ill>$
-      2 deattuheaddjiid/deattuheddjiid	^deattuhit<V><TV><Der2><Actor><N><Pl><Gen>$
       2 dáhtulinge/dáhtošinge	^dáhttut<V><TV><Cond><Prs><Sg1><Foc_ge>$
       2 Daddjaimethan/Dajaimethan	^Dadjat<V><TV><Ind><Prt><Pl1><Foc_han>$
       2 Daddjáhan/Dadjáhan	^Dadjat<V><TV><Ind><Prs><Sg3><Foc_han>$
@@ -100,31 +60,18 @@ Multiple surface forms for a single lexical form
       2 boardagis/boardahis	^boardda<N><Sg><Loc>$
       2 boardagat/boardahat	^boardda<N><Pl><Nom>$
       2 boađálege/boađášege	^boahtit<V><IV><Cond><Prs><ConNeg><Foc_ge>$
-      2 bilkideaddjiid/bilkideddjiid	^bilkideaddji<N><Actor><Pl><Acc>$
       2 ávdin/ávdima	^ávdin<A><Sg><Acc>$
-      1 vuvdiide/vuovdiide	^vuovdi<N><Actor><Pl><Ill>$
-      1 vuvdiid/vuovdiid	^vuovdi<N><Actor><Pl><Gen>$
-      1 vuoššiid/vuššiid	^vuoššat<V><TV><Der2><Actor><N><Pl><Gen>$
       1 vuorusteaset/vuorrusteaset	^vuorru<N><Sg><Loc><PxPl3>$
       1 vuorusteattet/vuorrusteattet	^vuorru<N><Sg><Loc><PxPl2>$
       1 vuoru/vuorru	^vuorru<N><Sg><Gen>$
       1 vuoru/vuorru	^vuorru<N><Sg><Acc>$
       1 Vuorddálingo/Vuorddášingo	^Vuordit<V><TV><Cond><Prs><Sg1><Qst>$
-      1 vuitiineaset/vuoitiineaset	^vuoiti<N><Actor><Pl><Loc><PxPl3>$
-      1 vuitiid/vuoitiid	^vuoiti<N><Actor><Pl><Gen>$
-      1 vuddjiineaset/vuoddjiineaset	^vuoddji<N><Actor><Sg><Com><PxPl3>$
       1 vissát/vissásat	^vissis<A><Pl><Nom>$
-      1 viehkkiide/vihkkiide	^viehkat<V><IV><Der2><Actor><N><Pl><Ill>$
-      1 viehkkiid/vihkkiid	^viehkat<V><IV><Der2><Actor><N><Pl><Gen>$
-      1 vánddardeaddjiid/vánddardeddjiid	^vánddardeaddji<N><Actor><Pl><Gen>$
       1 válddálingo/válddášingo	^váldit<V><TV><Cond><Prs><Sg1><Qst>$
       1 tuollu/tuolu	^tuollu<N><Sg><Gen>$
-      1 soaitiidis/soitiidis	^soaitit<V><IV><Der2><Actor><N><Pl><Gen><PxSg3>$
-      1 soaitiidan/soitiidan	^soaitit<V><IV><Der2><Actor><N><Pl><Gen><PxSg1>$
       1 soaittálinba/soaittášinba	^soaitit<V><IV><Cond><Prs><Sg1><Foc_ba>$
       1 Soaittáledjego/Soaittášedjego	^Soaitit<V><IV><Cond><Prs><Pl3><Qst>$
       1 smiehtalinge/smiehtašinge	^smiehttat<V><TV><Cond><Prs><Sg1><Foc_ge>$
-      1 Sivdnideaddjiideamet/Sivdnideddjiideamet	^Sivdnidit<V><TV><Der2><Actor><N><Pl><Acc><PxPl1>$
       1 sállaha/sállaša	^sálaš<N><Sg><Gen>$
       1 sáhtálitge/sáhtášitge	^sáhttit<V><IV><Cond><Prs><Sg2><Foc_ge>$
       1 Sáhtálingo/Sáhtášingo	^Sáhttit<V><IV><Cond><Prs><Sg1><Qst>$
@@ -133,38 +80,14 @@ Multiple surface forms for a single lexical form
       1 Sáhtáleimmetgo/Sáhtášeimmetgo	^Sáhttit<V><IV><Cond><Prs><Pl1><Qst>$
       1 šaddadeamis/šaddadeames	^šaddadit<V><TV><Actio><Loc>$
       1 ruonán/ruonájin	^ruoná<A><Ess>$
-      1 ráhkesteaddjiidan/ráhkesteddjiidan	^ráhkestit<V><TV><Der2><Actor><N><Pl><Gen><PxSg1>$
-      1 ráhkesteaddjiid/ráhkesteddjiid	^ráhkestit<V><TV><Der2><Actor><N><Pl><Gen>$
       1 oaččuleiddetge/oččošeiddetge	^oažžut<V><TV><Cond><Prs><Pl2><Foc_ge>$
-      1 oaidniide/oidniide	^oaidnit<V><TV><Der2><Actor><N><Pl><Ill>$
-      1 oaidniid/oidniid	^oaidnit<V><TV><Der2><Actor><N><Pl><Acc>$
-      1 oahpisteaddjiide/oahpisteddjiide	^oahpisteaddji<N><Actor><Pl><Ill>$
-      1 oahpisteaddjiid/oahpisteddjiid	^oahpisteaddji<N><Actor><Pl><Gen>$
-      1 oahpaheaddjiidasan/oahpaheddjiidasan	^oahpaheaddji<N><Actor><Pl><Ill><PxSg1>$
-      1 oahpaheaddjiidan/oahpaheddjiidan	^oahpaheaddji<N><Actor><Pl><Gen><PxSg1>$
-      1 oahpaheaddjiideattet/oahpaheddjiideattet	^oahpaheaddji<N><Actor><Pl><Acc><PxPl2>$
-      1 njoammuid/njommuid	^njoammu<N><Actor><Pl><Gen>$
-      1 njoammuid/njommuid	^njoammu<N><Actor><Pl><Acc>$
-      1 moarsiidan/morsiidan	^moarsi<N><Pl><Acc><PxSg1>$
       1 manalingo/manašingo	^mannat<V><IV><Cond><Prs><Sg1><Qst>$
       1 Manaleimmetgo/Manašeimmetgo	^Mannat<V><IV><Cond><Prs><Pl1><Qst>$
-      1 maŋisboahttiinat/maŋisbohttiinat	^maŋisboahtti<N><Actor><Pl><Loc><PxSg2>$
-      1 maŋisboahttiineaset/maŋisbohttiineaset	^maŋisboahtti<N><Actor><Pl><Loc><PxPl3>$
-      1 maŋisboahttiinge/maŋisbohttiinge	^maŋisboahtti<N><Actor><Pl><Loc><Foc_ge>$
-      1 maŋisboahttiidasan/maŋisbohttiidasan	^maŋisboahtti<N><Actor><Pl><Ill><PxSg1>$
-      1 maŋisboahttiidasadet/maŋisbohttiidasadet	^maŋisboahtti<N><Actor><Pl><Ill><PxPl2>$
-      1 maŋisboahttiidasamet/maŋisbohttiidasamet	^maŋisboahtti<N><Actor><Pl><Ill><PxPl1>$
-      1 maŋisboahttiidatge/maŋisbohttiidatge	^maŋisboahtti<N><Actor><Pl><Gen><PxSg2><Foc_ge>$
-      1 maŋisboahttiideaset/maŋisbohttiideaset	^maŋisboahtti<N><Actor><Pl><Gen><PxPl3>$
-      1 maŋisboahttiideamet/maŋisbohttiideamet	^maŋisboahtti<N><Actor><Pl><Gen><PxPl1>$
-      1 maŋisboahttiidge/maŋisbohttiidge	^maŋisboahtti<N><Actor><Pl><Gen><Foc_ge>$
       1 máhtálingo/máhtášingo	^máhttit<V><TV><Cond><Prs><Sg1><Qst>$
       1 máđoheamis/máđoheames	^máđoheapme<A><Sg><Loc>$
       1 Máđoheami/Máđoheame	^Máđoheapme<A><Sg><Gen>$
       1 lihkoheamit/lihkoheamet	^lihkoheapme<A><Pl><Nom>$
       1 Lihkaliigo/Lihkašiigo	^Lihkkat<V><IV><Cond><Prs><Sg3><Qst>$
-      1 lihkadeaddjiin/lihkadeddjiin	^lihkadit<V><IV><Der2><Actor><N><Pl><Loc>$
-      1 lihkadeaddjiide/lihkadeddjiide	^lihkadit<V><IV><Der2><Actor><N><Pl><Ill>$
       1 livččiigo/livččego/livččuigo	^leat<V><IV><Cond><Prs><Sg3><Qst>$
       1 livččiihan/livččehan/livččuihan	^leat<V><IV><Cond><Prs><Sg3><Foc_han>$
       1 livččiiba/livččeba/livččuiba	^leat<V><IV><Cond><Prs><Sg3><Foc_ba>$
@@ -172,17 +95,13 @@ Multiple surface forms for a single lexical form
       1 Livččengo/Livččongo	^Leat<V><IV><Cond><Prs><Sg1><Qst>$
       1 livččenge/livččonge	^leat<V><IV><Cond><Prs><Sg1><Foc_ge>$
       1 Livččego/Livččogo	^Leat<V><IV><Cond><Prs><Pl3><Qst>$
-      1 leaikuidat/leikuidat	^leaikut<V><TV><Der2><Actor><N><Pl><Gen><PxSg2>$
       1 juoidá/juoga	^juoga<Pron><Indef><Sg><Acc>$
       1 Jugalingo/Jugašingo	^Juhkat<V><TV><Cond><Prs><Sg1><Qst>$
-      1 jođiheaddjiid/jođiheddjiid	^jođihit<V><TV><Der2><Actor><N><Pl><Acc>$
       1 jođiheamis/jođiheames	^jođihit<V><TV><Actio><Loc>$
       1 Jesusage/Jesus-age/Jesus:age	^Jesus<N><Prop><Mal><Sg><Gen><Foc_ge>$
       1 jáhkálege/jáhkášege	^jáhkkit<V><TV><Cond><Prs><ConNeg><Foc_ge>$
       1 Israelasge/Israelange/Israelisge/Israelinge/Israel-asge/Israel-ange/Israel-isge/Israel-inge/Israel:asge/Israel:ange/Israel:isge/Israel:inge/Israel:sge	^Israel<N><Prop><Plc><Sg><Loc><Foc_ge>$
       1 Ipmilage/Ipmil-age/Ipmil:age	^Ipmil<N><Prop><Mal><Sg><Acc><Foc_ge>$
-      1 hovdejeaddjiide/hovdejeddjiide	^hovdejeaddji<N><Actor><Pl><Ill>$
-      1 hovdejeaddjiid/hovdejeddjiid	^hovdejeaddji<N><Actor><Pl><Gen>$
       1 hivssegiid/hivssehiid	^hivsset<N><Pl><Gen>$
       1 Herskko/Hersko	^Hersko<N><Sg><Gen>$
       1 herskkuinan/herskuinan	^hersko<N><Pl><Loc><PxSg1>$
@@ -207,13 +126,9 @@ Multiple surface forms for a single lexical form
       1 evangeliumaideamet/evangeliumiiddámet	^evangelium<N><Pl><Acc><PxPl1>$
       1 Egyptasge/Egyptange	^Egypta<N><Prop><Plc><Sg><Loc><Foc_ge>$
       1 eatnanhan/eatnamahan	^eana<N><Sg><Acc><Foc_han>$
-      1 ealliidge/elliidge	^ealli<N><Actor><Pl><Gen><Foc_ge>$
-      1 ealliideamet/elliideamet	^ealli<N><Actor><Pl><Acc><PxPl1>$
       1 eahkedisge/eahkebisge	^eahket<N><Sg><Loc><Foc_ge>$
       1 duššadeamis/duššadeames	^duššadit<V><TV><Actio><Loc>$
-      1 doalliid/dolliid	^doallat<V><TV><Der2><Actor><N><Pl><Gen>$
       1 Doalaliigo/Doalašiigo	^Doallat<V><TV><Cond><Prs><Sg3><Qst>$
-      1 diehttiideattet/dihttiideattet	^diehtit<V><TV><Der2><Actor><N><Pl><Gen><PxPl2>$
       1 Dáiddáliigo/Dáiddášiigo	^Dáidit<V><IV><Cond><Prs><Sg3><Qst>$
       1 dagalingo/dagašingo	^dahkat<V><TV><Cond><Prs><Sg1><Qst>$
       1 Daddjethan/Dadjethan	^Dadjat<V><TV><Ind><Prt><Sg2><Foc_han>$
@@ -229,25 +144,15 @@ Multiple surface forms for a single lexical form
       1 daddjaleimmetge/daddjašeimmetge/dajaleimmetge/dajašeimmetge	^dadjat<V><TV><Cond><Prs><Pl1><Foc_ge>$
       1 čuožžileamis/čuožžileames	^čuožžilit<V><IV><Actio><Loc>$
       1 cummesteamis/cummesteames	^cummestit<V><TV><Actio><Loc>$
-      1 čoaggiid/čoggiid	^čoaggi<N><Actor><Pl><Gen>$
       1 Čalmmeheami/Čalmmeheame	^Čalmmeheapme<A><Sg><Gen>$
       1 buorris/buorres	^buorre<A><Sg><Nom><PxSg3>$
       1 buoris/buores	^buorre<A><Sg><Gen><PxSg3>$
       1 buoriset/buoreset	^buorre<A><Sg><Gen><PxPl3>$
       1 buorrineattet/buorreneattet	^buorre<A><Ess><PxPl2>$
       1 Buorrin/Buorren	^Buorre<A><Ess>$
-      1 bulliideamet/buolliideamet	^buollit<V><IV><Der2><Actor><N><Pl><Nom><PxPl1>$
-      1 bulliidat/buolliidat	^buollit<V><IV><Der2><Actor><N><Pl><Gen><PxSg2>$
       1 boralege/borašege	^borrat<V><TV><Cond><Prs><ConNeg><Foc_ge>$
-      1 boahttiin/bohttiin	^boahtit<V><IV><Der2><Actor><N><Pl><Loc>$
       1 Bisuliigo/Bisošiigo	^Bissut<V><IV><Cond><Prs><Sg3><Qst>$
       1 bisuledjege/bisošedjege	^bissut<V><IV><Cond><Prs><Pl3><Foc_ge>$
-      1 bilkideaddjiinan/bilkideddjiinan	^bilkideaddji<N><Actor><Pl><Loc><PxSg1>$
-      1 bilkideaddjiin/bilkideddjiin	^bilkideaddji<N><Actor><Pl><Loc>$
-      1 Bilkideaddjiide/Bilkideddjiide	^Bilkideaddji<N><Actor><Pl><Ill>$
-      1 bilkideaddjiide/bilkideddjiide	^bilkideaddji<N><Actor><Pl><Ill>$
-      1 Beastiideamet/Bestiideamet	^Beasti<N><Actor><Pl><Acc><PxPl1>$
-      1 beastiideamet/bestiideamet	^beasti<N><Actor><Pl><Acc><PxPl1>$
       1 báhpiris/báhpáris	^bábir<N><Sg><Loc>$
       1 áltárage/áltárge	^áltár<N><Sg><Acc><Foc_ge>$
       1 attálitge/attášitge	^addit<V><TV><Cond><Prs><Sg2><Foc_ge>$
@@ -972,7 +877,7 @@ Tag mismatch between transfer and generation
 ===============================================================================
 Summary
 ===============================================================================
-  250 /tmp/fin-sme.multiform
+  155 /tmp/fin-sme.multiform
     0 /tmp/fin-sme.multibidix
   708 /tmp/fin-sme.tagmismatch
-  958 total
+  863 total
