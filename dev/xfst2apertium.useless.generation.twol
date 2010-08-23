@@ -58,17 +58,22 @@ Useless =
 %+Last
 !%+Use/Ped	
 %+Use/Sub	
-%+Use/Circ	
-%+Use/CircN	
 %+Use/Marg	
 %+Use/NG	
 ;
 
+UsuallyUseless =
+%+Use/Circ	
+%+Use/CircN	
+;
+
+! For Nonstandard, we remove the tag but keep the string
 Nonstandard = 
 %+Dial/%-KJ
 %+Dial/%-GS
 ;
 
+! For Nonstandard, we remove the tag __and__ the string
 NonstandardPaths = 
 %+Dial/%-GG  !! <- this is not the standard form, trash it man!
 ;
@@ -96,7 +101,7 @@ Nonstandard:0 <=> _ ;
 
 
 "Disallow Use-marked forms in some contexts"
-Useless:? /<= # [ \AllowUse:? ]* _ [ \AllowUse:? ]* # ;
+UsuallyUseless:? /<= # [ \AllowUse:? ]* _ [ \AllowUse:? ]* # ;
 
 
 "Delete Use-tags etc. that we don't use"
