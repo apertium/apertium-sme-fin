@@ -1,6 +1,8 @@
-DELIMITERS = "<$\.>" "<$!>" "<$?>" "<.>" "<!>" "<?>" "<...>" "<¶>" CLB;
+DELIMITERS = "<$\.>" "<$!>" "<$?>" "<.>" "<!>" "<?>" "<...>" "<¶>" ;
 
 SETS
+
+LIST CS = CS ; 
 
 LIST Gen = Gen;
 LIST Ela = Ela;
@@ -11,7 +13,7 @@ LIST @OBJ→ = @OBJ→;
 LIST @←OBJ = @←OBJ;
 
 LIST CLB = CLB;
-LIST COMMA = "," ;
+LIST COMMA = "<,>" ;
 
 # Word categories
 
@@ -40,7 +42,8 @@ SUBSTITUTE ("käydä") ("käydä:1") ("käydä" V) (1* ("kimppuun") BARRIER CLB)
 
 # siten = dakko bokte. 1: nu
 
-SUBSTITUTE ("siten") ("siten:1") ("siten" Adv) (1 COMMA)(2 ("että"));
+SUBSTITUTE ("siten") ("siten:1") ("siten" Adv) (1 COMMA) (2 ("että")) ;
+
 # Se alkoi maaliskuun alusta ja joulukuu oli siten kymmenes kuukausi.
 #  Hän leikkasi kuvan siten, että vain hänen päänsä näkyi.
 # joka erosi alkuperäisestä kappaleesta siten, että McCoy puhui kappaleen puheosuudet Razzlen sijaan.
