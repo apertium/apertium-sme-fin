@@ -1598,6 +1598,7 @@ dev/oddasat/translations/urls.py -text
 dev/oddasat/translations/views.py -text
 dev/oddasat/urls.py -text
 dev/omorfi2apertium.relabel -text
+dev/postpos-candidates -text
 dev/scripts/apertium.py -text
 dev/scripts/coverage.py -text
 dev/scripts/debug.py -text
