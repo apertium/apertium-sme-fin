@@ -2,7 +2,7 @@ Tämä on lista sanoista, jotka löytyvät suomen hmm, uudessa testamentissa, mu
 Niihen olisi hyvä saada käännös, mutta lisää siitä kokouksessa
 
 ==Po===========================================
-    112 XXXfallehit+V	^@kimppuun<Po>$	Mies kävi marjastajan kimppuun.	Almmái fallehii muorječoaggi.
+    112 XXXfallehit+V	^kimppuun@<Po>$	Mies kävi marjastajan kimppuun.	Almmái fallehii muorječoaggi.
      Britit lähettivät lentotukialus "HMS Ark Royalilta" "Bismarckin" kimppuun 15 kaksitasoista Swordfish-torpedokonetta,
      For the verbs 
      käydä, lähettää, 
@@ -11,6 +11,10 @@ Niihen olisi hyvä saada käännös, mutta lisää siitä kokouksessa
      for the verb hyökätä
      just delete kimppuun and keep its genitive complement as the object of the verb
      hyökätä will be translated to fallehit anyway
+     Pekka kävi pojan kimppuun.
+     Pekka lähetti hänet pojan kimppuun.
+     Pekka hyökkäsi pojan kimppuun.
+     
      58 ^@mielessä<Po>$
      54 ^@haltuun<Po>$
      52 ^@ympärille<Po>$
