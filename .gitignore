@@ -3,4 +3,7 @@
 /*.hfst
 /*.mode
 /*.ol
+/Makefile
+/Makefile.in
+/configure
 /modes
