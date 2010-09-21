@@ -1,8 +1,10 @@
 /*.bin
 /*.cache
+/*.hfst
 /*.in
 /*.log
 /*.mode
+/*.ol
 /*.status
 /.deps
 /INSTALL
