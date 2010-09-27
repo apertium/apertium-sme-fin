@@ -13,6 +13,7 @@
 /aclocal.m4
 /config
 /configure
+dev/gtsvn
 /install-sh
 /missing
 /modes
