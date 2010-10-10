@@ -154,6 +154,9 @@ $(PREFIX2).mode: modes.xml
 	apertium-gen-modes modes.xml
 	cp *.mode modes/
 
+# So that debug modes get built even if we don't "make install":
+noinst_DATA=modes/$(PREFIX2).mode
+
 ## 
 ##	FILES WHICH AREN'T BUILT BUT ARE DISTRIBUTED
 ## 
