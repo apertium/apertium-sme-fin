@@ -149,4 +149,30 @@
       </program>
     </pipeline>
   </mode>
+
+  <mode name="fin-sme-postchunk-nocg">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="fin-sme.automorf.hfst"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="fin-sme.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="apertium-transfer">
+        <file name="apertium-sme-fin.fin-sme.t1x"/>
+        <file name="fin-sme.t1x.bin"/>
+        <file name="fin-sme.autobil.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-sme-fin.fin-sme.t2x"/>
+        <file name="fin-sme.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-sme-fin.fin-sme.t3x"/>
+        <file name="fin-sme.t3x.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
 </modes>

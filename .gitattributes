@@ -1615,6 +1615,7 @@ dev/xfst2apertium.useless.generation.twol -text
 /lexchoicebil.xsl -text
 /modes.xml -text
 /pending-tests.sh -text
+/regression-tests.sh -text
 /script.sh -text
 tools/lookup2cg -text
 /wiki-tests.sh -text
