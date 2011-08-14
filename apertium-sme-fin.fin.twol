@@ -46,7 +46,7 @@ A B C D E F G H I J K L M N O P Q R S Š T U V W X Y Z Ž Å Ä Ö
 
 ! Morphophonemics
 %{aä%}:a %{aä%}:ä %{oö%}:o %{oö%}:ö %{uy%}:u %{uy%}:y
-%{aäe}:a %{aäe%}:ä %{aäe}:e
+%{aäe%}:a %{aäe%}:ä %{aäe%}:e
 %{k%~%~%}:k %{k%~%~%}:0 %{k%~%~%}:' %{k%~%~%}:g %{k%~%~%}:j %{k%~%~%}:v
 %{p%~%~%}:p %{p%~%~%}:0 %{p%~%~%}:v %{p%~%~%}:m 
 %{t%~%~%}:t %{t%~%~%}:0 %{t%~%~%}:d %{t%~%~%}:r %{t%~%~%}:n %{t%~%~%}:l
@@ -86,10 +86,10 @@ Diacritics
 
 Sets
 
-Harmony = A O U a o u Ä Ö Y ä ö y %{%^a%} %{%^o%} %{%^u%} %{%^ä%} %{%^ö%} %{%^y%} %{%^front%} %{%^back%} {#} {##} ;
+Harmony = A O U a o u Ä Ö Y ä ö y %{%^a%} %{%^o%} %{%^u%} %{%^ä%} %{%^ö%} %{%^y%} %{%^front%} %{%^back%} %{#%} %{##%} ;
 BackHarmony = A O U a o u %{%^a%} %{%^o%} %{%^u%} %{%^back%} ;
 FrontHarmony = Ä Ö Y ä ö y %{%^ä%} %{%^ö%} %{%^y%} %{%^front%} ;
-Lengthening = A E I O U Y Ä Ö a e i o u y ä ö %{%^a%} %{%^e%} %{%^i%} %{%^o%} %{%^u%} %{%^y%} %{%^ä%} %{%^ö%} %{BVL%} {#} {##} ;
+Lengthening = A E I O U Y Ä Ö a e i o u y ä ö %{%^a%} %{%^e%} %{%^i%} %{%^o%} %{%^u%} %{%^y%} %{%^ä%} %{%^ö%} %{BVL%} %{#%} %{##%} ;
 
 Vowels = a e i o u y å ä ö á à â é è ê î ô û í ï ó ò ú ù A E I O U Y Ä Ö È ;
 BasicVowels = a e i o u y å ä ö ;
@@ -115,18 +115,18 @@ WordChars = a b c d e f g h i j k l m n o p q r s š t u v w x y z ž å ä ö
 	Á À Â Ã Ā Ă Ą Ç Ć Ĉ Ċ Č Ð Ď É È Ê Ë Ē Ĕ Ę Ė Ě Ĝ Ğ Ġ Ģ Ȟ Ħ Í Ì Î Ï Ĩ Ī Ĭ Į İ
 	Ĳ Ĵ Ķ Ĺ Ļ Ľ Ŀ Ł Ñ Ń Ņ Ň Ŋ Ó Ò Ô Ō Ŏ Ŕ Ŗ Ř Ś Ŝ Ş Ţ Ť Ŧ Þ Ú Ù Û Ü Ũ Ū Ŭ Ů Ų Ŵ
 	Ý Ŷ Ű Ź Ż Ʒ Æ Ø Œ Ő Ə
-	‐ %: %- ’ %' %  {#} {##} ; 
+	‐ %: %- ’ %' %  %{#%} %{##%} ; 
 
 GradeMarks = %{AV%+%} %{AV%-%} ;
 Grades = %{A%} %{B%} %{C%} %{D%} %{E%} %{F%} %{G%} %{H%} %{I%} %{J%} %{K%} %{L%}
 		 %{M%} %{N%} %{O%} %{P%} %{T%} ;
-Gradations = GradeMarks Grades {#} {##} ;
+Gradations = GradeMarks Grades %{#%} %{##%} ;
 
 Definitions
 
-WordBoundary = [ {##}: | {#}: | %-: | :%- ] ;
+WordBoundary = [ %{##%}: | %{#%}: | %-: | :%- ] ;
 NoHarmony = [ ? - [ Harmony: | WordBoundary ] ]* ;
-NoLengthening = [ ? - [ BasicVowels: | GhostVowels: | %{aeiouyäö%}: | %{BVL%}: | :BasicVowels | {##}: ] ]* ;
+NoLengthening = [ ? - [ BasicVowels: | GhostVowels: | %{aeiouyäö%}: | %{BVL%}: | :BasicVowels | %{##%}: ] ]* ;
 NoGradeMarkers = [ ? - [ Grades: | WordBoundary ] ]* ;
 
 Rules
@@ -160,7 +160,7 @@ Vh:Vv <=> BackHarmony: NoHarmony _ ; where Vh in ( %{aäe%} %{aä%} %{oö%} %{uy
 %{nlrs%}:Ns <=> Ns [ \?:WordChars ]* _ ; where Ns in ( l r s ) ;
 
 "Require Hyphen on Compound Boundary with Matching Vowels"
-{#}:%- <= :Vv [ \?:WordChars ]* _ [ \?:WordChars ]* :Vv ; where Vv in Vowels matched ;
+%{#%}:%- <= :Vv [ \?:WordChars ]* _ [ \?:WordChars ]* :Vv ; where Vv in Vowels matched ;
 
 "Derivational ja e:i change"
 e:i <=> _ [ \?:WordChars ]* %{←e%~i%}: ;
@@ -174,13 +174,13 @@ i:0 <=> _ [ \?:WordChars ]* %{←i%~%0%}: ;
 
 ! Gradation
 "Strong grade context limitations"
-Cs:Cw /<= _ \[ {%AV%+%}: | WordBoundary ]* %{AV%-%}: ; where Cs in
+Cs:Cw /<= _ \[ %{%AV%+%}: | WordBoundary ]* %{AV%-%}: ; where Cs in
 	(  %{k%~%~%}  %{p%~%~%}  %{t%~%~%}
 	   %{d%~%~%}  %{g%~%~%}  %{b%~%~%} )
 	Cw in ( k p t d g b ) matched ;
 
 "Weak grade context limitations"
-Cs:Cw /<= _ \[ {%AV%-%}: | WordBoundary ]* %{AV%+%}: ; where Cs in
+Cs:Cw /<= _ \[ %{%AV%-%}: | WordBoundary ]* %{AV%+%}: ; where Cs in
 	(  %{k%~%~%}  %{p%~%~%}  %{t%~%~%}
 	              %{p%~%~%} %{t%~%~%}
 	   %{k%~%~%} %{p%~%~%} %{t%~%~%}
