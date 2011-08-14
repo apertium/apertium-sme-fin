@@ -72,10 +72,12 @@ TARGETS_COMMON = \
 	hfst-substitute -F dev/omorfi2apertium.relabel -i .deps/$(PREFIX2).automorf.hfst.tmp -o .deps/$(PREFIX2).automorf.hfst
 
 $(PREFIX2).automorf.hfst: .deps/$(PREFIX2).automorf.hfst
-	hfst-lookup-optimize .deps/$(PREFIX2).automorf.hfst -o $@
+#	hfst-lookup-optimize .deps/$(PREFIX2).automorf.hfst -o $@
+	hfst-fst2fst -O -i  .deps/$(PREFIX2).automorf.hfst -o $@ # should it be .ol for -o file?
 
 $(PREFIX1).autogen.hfst: .deps/$(PREFIX1).automorf.hfst
-	hfst-lookup-optimize .deps/$(PREFIX1).autogen.hfst -o $@
+#	hfst-lookup-optimize .deps/$(PREFIX1).autogen.hfst -o $@
+	hfst-fst2fst -O -i  .deps/$(PREFIX1).autogen.hfst -o $@ # should it be .ol for -o file?
 
 #
 # This is a generator 'apertium-sme-smj.smj.hfst'
@@ -95,12 +97,14 @@ $(PREFIX1).autogen.hfst: .deps/$(PREFIX1).automorf.hfst
 #	rm .deps/$(PREFIX1).automorf.orig.tmp .deps/$(PREFIX1).automorf.useless.tmp .deps/$(PREFIX1).automorf.hashtags.tmp .deps/$(PREFIX2).autogen.hashtags.tmp
 
 $(PREFIX2).autogen.hfst: .deps/$(PREFIX2).autogen.hfst
-	hfst-lookup-optimize .deps/$(PREFIX2).autogen.hfst -o $@
+#	hfst-lookup-optimize .deps/$(PREFIX2).autogen.hfst -o $@
+	hfst-fst2fst -O -i  .deps/$(PREFIX2).autogen.hfst -o $@ # should it be .ol for -o file?
 
 $(PREFIX1).automorf.hfst: .deps/$(PREFIX2).autogen.hfst
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-invert .deps/$(PREFIX2).autogen.hfst -o .deps/$(PREFIX1).automorf.hfst
-	hfst-lookup-optimize .deps/$(PREFIX1).automorf.hfst -o $@
+#	hfst-lookup-optimize .deps/$(PREFIX1).automorf.hfst -o $@
+	hfst-fst2fst -O -i  .deps/$(PREFIX1).automorf.hfst -o $@ # should it be .ol for -o file?
 
 
 ## 	BILINGUAL DICTIONARIES
