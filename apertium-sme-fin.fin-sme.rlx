@@ -748,9 +748,9 @@ LIST PLPRON = (Pron Pl1) (Pron Pl2) (Pron Pl3) (Pron Pl) ; # (Pron PxPl1) (Pron 
 LIST SGAGR = (V Sg1) (V Sg2) (V Sg3) ;
 LIST PLAGR = (V Pl1) (V Pl2) (V Pl3) ;
 
-LIST ALL_SGPRON = Sg1 OR Sg2 OR Sg3 OR Sg ;
+SET ALL_SGPRON = Sg1 OR Sg2 OR Sg3 OR Sg ;
 
-LIST ALL_PLPRON = PLPRON OR (N Pl) OR SGAGR ;
+SET ALL_PLPRON = PLPRON OR (N Pl) OR SGAGR ;
 
 
 LIST Cmpnd = Cmpnd ;
@@ -1813,8 +1813,11 @@ SELECT Adv (1 Punct) (2 ETTA) ;
 
 # Assuming that all prepositions are now tagged as such in omorfi -- Ryan
 # SELECT Adp ((1 Par) or (-1 (Par or Gen)) or (2 Par))
-SELECT Pr ((1 Par) or (-1 (Par or Gen)) or (2 Par))
-
+# Trond: This is for debugging, I replace previous with next 3:
+# SELECT Pr ((1 Par));
+# SELECT Pr (-1 (Par or Gen));
+# SELECT Pr (2 Par));
+# Trond: But these look fishy. I comment them out for now
 
 # risky; lumi pyryttää nurkissa -> removing "lative"
 # REMOVE InfV IF (@SUBJ)
