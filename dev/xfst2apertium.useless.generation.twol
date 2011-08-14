@@ -28,62 +28,62 @@ Alphabet
 %+PrsPrc
 %+CLB
 %+Ord
-%+Foc/ge
-%+Foc/naj
-%+Foc/han
-%+Foc/ba
+%+Foc%/ge
+%+Foc%/naj
+%+Foc%/han
+%+Foc%/ba
 %+Num
 %+Qst
 %+Sg
 
 %+Last:0
-%+Use/NG:0
-%+Use/Ped:0
-%+Use/Sub:0
-%+Use/Circ:0
-%+Use/CircN:0
-%+Use/Marg:0
-%+Dial/%-KJ:0
-%+Dial/%-GG:0
-%+Dial/%-GS:0
+%+Use%/NG:0
+%+Use%/Ped:0
+%+Use%/Sub:0
+%+Use%/Circ:0
+%+Use%/CircN:0
+%+Use%/Marg:0
+%+Dial%/%-KJ:0
+%+Dial%/%-GG:0
+%+Dial%/%-GS:0
 ;
 
 
 Sets
 
-!%+Dial/%-GG	
-!%+Dial/%-KJ	
-!%+Dial/%-GS	
+!%+Dial%/%-GG	
+!%+Dial%/%-KJ	
+!%+Dial%/%-GS	
 Useless =
 %+Last
-!%+Use/Ped	
-%+Use/Sub	
-%+Use/Marg	
-%+Use/NG	
+!%+Use%/Ped	
+%+Use%/Sub	
+%+Use%/Marg	
+%+Use%/NG	
 ;
 
 UsuallyUseless =
-%+Use/Circ	
-%+Use/CircN	
+%+Use%/Circ	
+%+Use%/CircN	
 ;
 
 ! For Nonstandard, we remove the tag but keep the string
 Nonstandard = 
-%+Dial/%-KJ
-%+Dial/%-GS
+%+Dial%/%-KJ
+%+Dial%/%-GS
 ;
 
 ! For Nonstandard, we remove the tag __and__ the string
 NonstandardPaths = 
-%+Dial/%-GG  !! <- this is not the standard form, trash it man!
+%+Dial%/%-GG  !! <- this is not the standard form, trash it man!
 ;
 
 AllowUse =
 %+CLB
-%+Foc/ge
-%+Foc/naj
-%+Foc/han
-%+Foc/ba
+%+Foc%/ge
+%+Foc%/naj
+%+Foc%/han
+%+Foc%/ba
 %+Ord
 %+Num
 %+PrsPrc
@@ -94,14 +94,14 @@ Rules
 
 
 "Disallow all non-standard dialect forms from the generator (note: this file creates the sme analyser too, so non-standard forms will be disallowed there too)"
-NonstandardPaths:? /<= _ ;
+NonstandardPaths:0 /<= _ ;
 
 "Delete tags for nonstandard"
 Nonstandard:0 <=> _ ;
 
 
 "Disallow Use-marked forms in some contexts"
-UsuallyUseless:? /<= # [ \AllowUse:? ]* _ [ \AllowUse:? ]* # ;
+UsuallyUseless:0 /<= # [ \AllowUse: ]* _ [ \AllowUse: ]* # ;
 
 
 "Delete Use-tags etc. that we don't use"
