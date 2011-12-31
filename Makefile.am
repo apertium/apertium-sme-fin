@@ -42,7 +42,6 @@ TARGETS_COMMON = \
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-lexc $(BASENAME).$(LANG2).lexc -o $@
 
-
 #
 # These are scripts that remove unwanted tags
 #
@@ -72,11 +71,9 @@ TARGETS_COMMON = \
 	hfst-substitute -F dev/omorfi2apertium.relabel -i .deps/$(PREFIX2).automorf.hfst.tmp -o .deps/$(PREFIX2).automorf.hfst
 
 $(PREFIX2).automorf.hfst: .deps/$(PREFIX2).automorf.hfst
-#	hfst-lookup-optimize .deps/$(PREFIX2).automorf.hfst -o $@
 	hfst-fst2fst -O -i  .deps/$(PREFIX2).automorf.hfst -o $@ # should it be .ol for -o file?
 
 $(PREFIX1).autogen.hfst: .deps/$(PREFIX1).automorf.hfst
-#	hfst-lookup-optimize .deps/$(PREFIX1).autogen.hfst -o $@
 	hfst-fst2fst -O -i  .deps/$(PREFIX1).autogen.hfst -o $@ # should it be .ol for -o file?
 
 #
@@ -97,25 +94,23 @@ $(PREFIX1).autogen.hfst: .deps/$(PREFIX1).automorf.hfst
 #	rm .deps/$(PREFIX1).automorf.orig.tmp .deps/$(PREFIX1).automorf.useless.tmp .deps/$(PREFIX1).automorf.hashtags.tmp .deps/$(PREFIX2).autogen.hashtags.tmp
 
 $(PREFIX2).autogen.hfst: .deps/$(PREFIX2).autogen.hfst
-#	hfst-lookup-optimize .deps/$(PREFIX2).autogen.hfst -o $@
 	hfst-fst2fst -O -i  .deps/$(PREFIX2).autogen.hfst -o $@ # should it be .ol for -o file?
 
 $(PREFIX1).automorf.hfst: .deps/$(PREFIX2).autogen.hfst
 	if [ ! -d .deps ]; then mkdir .deps; fi
 	hfst-invert .deps/$(PREFIX2).autogen.hfst -o .deps/$(PREFIX1).automorf.hfst
-#	hfst-lookup-optimize .deps/$(PREFIX1).automorf.hfst -o $@
 	hfst-fst2fst -O -i  .deps/$(PREFIX1).automorf.hfst -o $@ # should it be .ol for -o file?
 
 
 ## 	BILINGUAL DICTIONARIES
 
-.deps/$(BASENAME).$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix lexchoicebil.xsl
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	xsltproc lexchoicebil.xsl $(BASENAME).$(PREFIX1).dix > $@
+#.deps/$(BASENAME).$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix lexchoicebil.xsl
+#	if [ ! -d .deps ]; then mkdir .deps; fi
+#	xsltproc lexchoicebil.xsl $(BASENAME).$(PREFIX1).dix > $@
 
-$(PREFIX2).autobil.bin: .deps/$(BASENAME).$(PREFIX1).dix
-	apertium-validate-dictionary .deps/$(BASENAME).$(PREFIX1).dix
-	lt-comp rl .deps/$(BASENAME).$(PREFIX1).dix $@
+$(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
+	lt-comp rl $(BASENAME).$(PREFIX1).dix $@
 
 ##
 ##	PRE-TAGGING: CONSTRAINT GRAMMAR(S)

@@ -3531,7 +3531,7 @@
 	<e><p><l>vuolimus<s n="A"/></l><r>alimmainen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>vuosttaš<s n="A"/></l><r>ensimmäinen<s n="A"/></r></p><par n="A_A"/></e>
 	<e><p><l>šattolaš<s n="A"/></l><r>hedelmällinen<s n="A"/></r></p><par n="A_A"/></e>
-	<e><p><l>čiekŋaliimanni<s n="A"/></l><r> syvällinen<s n="A"/></r></p><par n="A_A"/></e>
+	<e><p><l>čiekŋaliimanni<s n="A"/></l><r>syvällinen<s n="A"/></r></p><par n="A_A"/></e>
     <!--<e r="LR"><p><l>dehálaš<s n="A"/></l><r>tärkeä<s n="A"/></r></p><par n="A_A"/></e> -->
     <!--<e><p><l>gappas<s n="A"/></l><r>valkoinen<s n="A"/></r></p><par n="A_A"/></e>-->
     <e><p><l>agálaš<s n="A"/></l><r>iankaikkinen<s n="A"/></r></p><par n="A_A"/></e>
@@ -3980,7 +3980,7 @@
     <e srl="1"><p><l>berret<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- burde, ought to -->
     <e srl="2"><p><l>liikot<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- like (ela to ill)  -->
     <e srl="3"><p><l>coakcut<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e><!-- get grip, foothold -->
-<!--    <e r="LR"><p><l>galgat<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e>--><!-- skulle, should -->
+    <e r="LR"><p><l>galgat<s n="V"/><s n="IV"/></l><r>pitää<s n="V"/></r></p><par n="V_V"/></e>--><!-- skulle, should -->
 
 	<!-- <e><p><l>bargat<g><b/>eatnama</g><s n="V"/><s n="TV"/></l><r>viljellä<s n="V"/></r></p><par n="V_V"/></e> -->
 	<e><p><l>jáhkkit<s n="V"/><s n="TV"/></l><r>luulla<s n="V"/></r></p><par n="V_V"/></e>
