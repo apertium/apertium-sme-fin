@@ -14,6 +14,7 @@ TARGETS_COMMON = \
 	$(PREFIX2).autogen.hfst \
 	$(PREFIX2).automorf.hfst \
 	$(PREFIX2).rlx.bin \
+	$(PREFIX2).lrx.bin \
 	$(PREFIX2).lex.bin \
 	$(PREFIX2).autobil.bin \
 	$(PREFIX2).t1x.bin \
@@ -126,6 +127,10 @@ $(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
 $(PREFIX2).lex.bin: $(BASENAME).$(PREFIX2).lex
 	cg-comp $(BASENAME).$(PREFIX2).lex $@
 
+$(PREFIX2).lrx.bin: $(BASENAME).$(PREFIX2).lrx
+	apertium-lrx-comp $(BASENAME).$(PREFIX2).lrx $@
+
+
 ##
 ##	TRANSFER RULES
 ##
@@ -164,6 +169,7 @@ EXTRA_DIST=\
 	$(BASENAME).$(LANG1).twol \
 	$(BASENAME).$(LANG1).lexc \
 	$(BASENAME).$(PREFIX2).rlx \
+	$(BASENAME).$(PREFIX2).lrx \
 	$(BASENAME).$(PREFIX2).dix \
 	$(BASENAME).$(LANG2).twol \
 	$(BASENAME).$(LANG2).lexc \

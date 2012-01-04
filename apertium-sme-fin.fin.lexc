@@ -11731,6 +11731,7 @@ Vaskojoki'][POS=NOUN][SUBCAT=PROPER][KTN=7][KAV=D]:vaskojo{k~~}{D}	kotus_7_PROPE
 LEXICON kotus_9_PROPER/stub
 Aada'][POS=NOUN][SUBCAT=PROPER][KTN=9]:Aad{^a}	kotus_9_PROPER_first/stemfiller	;
 Eeva'][POS=NOUN][SUBCAT=PROPER][KTN=9]:Eev{^a}	kotus_9_PROPER_first/stemfiller	;
+Mari'][POS=NOUN][SUBCAT=PROPER][KTN=9]:Mari	kotus_9_PROPER_first/stemfiller	;
 Saana'][POS=NOUN][SUBCAT=PROPER][KTN=9]:Saan{^a}	kotus_9_PROPER_first/stemfiller	;
 Saara'][POS=NOUN][SUBCAT=PROPER][KTN=9]:Saar{^a}	kotus_9_PROPER_first/stemfiller	;
 Kanada'][POS=NOUN][SUBCAT=PROPER][KTN=9]:Kanad{^a}	kotus_9_PROPER_geo/stemfiller	;
