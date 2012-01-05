@@ -1,0 +1,46 @@
+<rules>
+  <rule>
+    <match lemma="pitää" tags="V.*">
+      <select lemma="doallat" tags="V.*"/>
+    </match>
+  </rule>
+
+  <rule>
+    <match lemma="pitää" tags="V.*">
+      <select lemma="liikot" tags="V.*"/>
+    </match>
+    <match tags="*.Ela"/>
+  </rule>
+
+  <rule>
+    <or>
+      <match tags="*.Gen"/>
+      <match tags="*.Gen.*"/>
+    </or>
+    <match lemma="pitää" tags="V.*">
+      <select lemma="berret" tags="V.*"/>
+    </match>
+  </rule>
+
+  <rule>
+    <or>
+      <match lemma="vuosi"/> 
+      <match lemma="aika"/> 
+      <match lemma="kuukausi"/> 
+      <match lemma="tunti"/> 
+      <match lemma="viikko"/> 
+    </or>
+    <match lemma="vaihde" tags="N.*">
+      <select lemma="jorggáldat" tags="N.*"/>
+    </match>
+  </rule>
+  
+
+  <rule>
+    <match lemma="siten" tags="Adv">
+      <select lemma="nu"/>
+    </match>
+    <match lemma=","/>
+    <match lemma="että"/>
+  </rule>
+</rules>
