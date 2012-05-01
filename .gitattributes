@@ -21,6 +21,7 @@
 /autogen.sh -text
 /configure.ac -text
 dev/MISSING -text
+dev/algu_xml_to_csv.py -text
 dev/apertium-sme-fin.txt -text
 dev/bidix/A.lex -text
 dev/bidix/A.lex.orig -text
@@ -135,6 +136,7 @@ dev/postpos-candidates -text
 dev/scripts/apertium.py -text
 dev/scripts/coverage.py -text
 dev/scripts/debug.py -text
+dev/sme_algu.tar.bz2 -text
 dev/sme_fin_postp_prep -text
 dev/update-lexc.py -text
 dev/update-lexc.sh -text
