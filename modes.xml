@@ -20,9 +20,11 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
+<!--
       <program name="apertium-lrx-proc">
         <file name="fin-sme.lrx.bin"/>
       </program>
+-->
       <program name="apertium-transfer -b">
         <file name="apertium-sme-fin.fin-sme.t1x"/>
         <file name="fin-sme.t1x.bin"/>
@@ -80,9 +82,11 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
+<!--
       <program name="apertium-lrx-proc -t">
         <file name="fin-sme.lrx.bin"/>
       </program>
+-->
     </pipeline>
   </mode>
 
@@ -127,9 +131,11 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
+<!--
       <program name="apertium-lrx-proc">
         <file name="fin-sme.lrx.bin"/>
       </program>
+-->
       <program name="apertium-transfer -b">
         <file name="apertium-sme-fin.fin-sme.t1x"/>
         <file name="fin-sme.t1x.bin"/>
@@ -157,9 +163,11 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
+<!--
       <program name="apertium-lrx-proc">
         <file name="fin-sme.lrx.bin"/>
       </program>
+-->
       <program name="apertium-transfer -b">
         <file name="apertium-sme-fin.fin-sme.t1x"/>
         <file name="fin-sme.t1x.bin"/>
@@ -191,9 +199,11 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
+<!--
       <program name="apertium-lrx-proc">
         <file name="fin-sme.lrx.bin"/>
       </program>
+-->
       <program name="apertium-transfer -b">
         <file name="apertium-sme-fin.fin-sme.t1x"/>
         <file name="fin-sme.t1x.bin"/>

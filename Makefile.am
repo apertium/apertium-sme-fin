@@ -16,6 +16,7 @@ TARGETS_COMMON = \
 	$(PREFIX2).rlx.bin \
 	$(PREFIX2).lrx.bin \
 	$(PREFIX2).lex.bin \
+	$(PREFIX2).prob \
 	$(PREFIX2).autobil.bin \
 	$(PREFIX2).t1x.bin \
 	$(PREFIX2).t2x.bin \
@@ -167,6 +168,7 @@ noinst_DATA=modes/$(PREFIX2).mode
 
 EXTRA_DIST=\
 	$(BASENAME).$(LANG1).twol \
+	$(PREFIX2).prob \
 	$(BASENAME).$(LANG1).lexc \
 	$(BASENAME).$(PREFIX2).rlx \
 	$(BASENAME).$(PREFIX2).lrx \
@@ -183,6 +185,21 @@ apertium_sme_findir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_sme_modesdir=$(prefix)/share/apertium/modes/
 
 apertium_sme_fin_DATA=$(TARGETS_COMMON)
+
+
+install-data-local:
+	mv modes modes.bak
+	apertium-gen-modes modes.xml $(BASENAME)
+	rm -rf modes
+	mv modes.bak modes
+	test -d $(DESTDIR)$(apertium_sme_modesdir) || mkdir $(DESTDIR)$(apertium_sme_modesdir)
+	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_sme_modesdir)
+	rm $(PREFIX2).mode
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_sme_findir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_sme_findir)
+	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_sme_findir)
+
+
 
 
 CLEANFILES= -rf $(TARGETS_COMMON) .deps modes
