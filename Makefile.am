@@ -129,7 +129,7 @@ $(PREFIX2).lex.bin: $(BASENAME).$(PREFIX2).lex
 	cg-comp $(BASENAME).$(PREFIX2).lex $@
 
 $(PREFIX2).lrx.bin: $(BASENAME).$(PREFIX2).lrx
-	apertium-lrx-comp $(BASENAME).$(PREFIX2).lrx $@
+	lrx-comp $(BASENAME).$(PREFIX2).lrx $@
 
 
 ##
