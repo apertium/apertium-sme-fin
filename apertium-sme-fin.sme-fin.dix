@@ -4591,17 +4591,17 @@
     <e><p><l>vuhpon<s n="N"/></l><r>ahmatti<s n="N"/></r></p></e>
 	<!-- end álgu nouns -->
 
-    <e><p><l>basilla<s n="N+G3"/></l><r>basilli<s n="N"/></r></p></e>
-    <e><p><l>bássa<s n="N+G3"/></l><r>basso<s n="N"/></r></p></e>
-    <e><p><l>biffa<s n="N+G3"/></l><r>pihvi<s n="N"/></r></p></e>
-    <e><p><l>fiellu<s n="N+G3"/></l><r>lauta<s n="N"/></r></p></e>
-    <e><p><l>málle<s n="N+G3"/></l><r>malli<s n="N"/></r></p></e>
-    <e><p><l>millu<s n="N+G3"/></l><r>mylly<s n="N"/></r></p></e>
-    <e><p><l>missu<s n="N+G3"/></l><r>hera<s n="N"/></r></p></e>
-    <e><p><l>pássa<s n="N+G3"/></l><r>passi<s n="N"/></r></p></e>
-    <e><p><l>ruossa<s n="N+G3"/></l><r>risteys<s n="N"/></r></p></e>
-    <e><p><l>stáffu<s n="N+G3"/></l><r>valkama<s n="N"/></r></p></e>
-    <e><p><l>ullu<s n="N+G3"/></l><r>villa<s n="N"/></r></p></e>
+    <e><p><l>basilla<s n="N"/><s n="G3"/></l><r>basilli<s n="N"/></r></p></e>
+    <e><p><l>bássa<s n="N"/><s n="G3"/></l><r>basso<s n="N"/></r></p></e>
+    <e><p><l>biffa<s n="N"/><s n="G3"/></l><r>pihvi<s n="N"/></r></p></e>
+    <e><p><l>fiellu<s n="N"/><s n="G3"/></l><r>lauta<s n="N"/></r></p></e>
+    <e><p><l>málle<s n="N"/><s n="G3"/></l><r>malli<s n="N"/></r></p></e>
+    <e><p><l>millu<s n="N"/><s n="G3"/></l><r>mylly<s n="N"/></r></p></e>
+    <e><p><l>missu<s n="N"/><s n="G3"/></l><r>hera<s n="N"/></r></p></e>
+    <e><p><l>pássa<s n="N"/><s n="G3"/></l><r>passi<s n="N"/></r></p></e>
+    <e><p><l>ruossa<s n="N"/><s n="G3"/></l><r>risteys<s n="N"/></r></p></e>
+    <e><p><l>stáffu<s n="N"/><s n="G3"/></l><r>valkama<s n="N"/></r></p></e>
+    <e><p><l>ullu<s n="N"/><s n="G3"/></l><r>villa<s n="N"/></r></p></e>
 	
 	<!-- languages -->
 	<e><p><l>suomagiella<s n="N"/></l><r>suomi<s n="N"/></r></p></e>
