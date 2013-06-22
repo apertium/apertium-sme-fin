@@ -389,7 +389,7 @@ LEXICON Root
  Subjunction ;
  Conjunction ;
  Adposition ;
- Interjection ;
+! Interjection ;
  Pronoun ;
 ! +Use/CircN: Numeral ;	  Circular 
  Numeral ;	! we need numerals for Apertium.
@@ -5240,7 +5240,7 @@ LEXICON HURAICnj !Substems for Consonantal Verb Stems
  +VAbess+A+Attr:d%>#keahtes K ; !XXX Why # here? because of final-cons, (TO)
  +VGen:%> K ;
  +PrsPrc+Use/Sub:d%>eaddji@C.NeedNoun@ K ;
- +Use/Sub: PRSPRCTOADJ ;
+! +Use/Sub: PRSPRCTOADJ ;
 
 
 LEXICON CondC
@@ -5712,7 +5712,7 @@ LEXICON NominalFormsV5
 
 LEXICON NominalFormsV6 !SUB
  +PrsPrc+Use/Sub:¤@C.NeedNoun@ K ;
- +Use/Sub: PRSPRCTOADJ ; ! ! Deriving adjective
+! +Use/Sub: PRSPRCTOADJ ; ! ! Deriving adjective
 
 LEXICON NominalFormsV7
  +Ger:dettiin K ;
@@ -5753,7 +5753,7 @@ LEXICON NominalFormsC1
 
 LEXICON NominalFormsC2 !SUB
  +PrsPrc+Use/Sub:eaddji@C.NeedNoun@ K ;
- +Use/Sub: PRSPRCTOADJ ;
+! +Use/Sub: PRSPRCTOADJ ;
 
 
 
