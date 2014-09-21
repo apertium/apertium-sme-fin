@@ -102,8 +102,8 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ##	PRE-TAGGING: CONSTRAINT GRAMMAR(S)
 ##
 
-$(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
-	cg-comp $(BASENAME).$(PREFIX2).rlx $@
+$(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
+	cg-comp $< $@
 
 ##
 ##	LEXICAL SELECTION: CONSTRAINT GRAMMAR(S)
