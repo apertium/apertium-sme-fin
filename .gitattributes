@@ -137,5 +137,4 @@ dev/update-rm-deriv-cmp -text
 /modes.xml -text
 /pending-tests.sh -text
 /regression-tests.sh -text
-/script.sh -text
 /wiki-tests.sh -text
