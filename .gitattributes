@@ -139,5 +139,4 @@ dev/update-rm-deriv-cmp -text
 /pending-tests.sh -text
 /regression-tests.sh -text
 /script.sh -text
-tools/lookup2cg -text
 /wiki-tests.sh -text
