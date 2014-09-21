@@ -16,7 +16,7 @@ TARGETS_COMMON = \
 	$(PREFIX2).rlx.bin \
 	$(PREFIX2).lrx.bin \
 	$(PREFIX2).lex.bin \
-	$(PREFIX2).prob \
+	$(PREFIX1).autobil.bin \
 	$(PREFIX2).autobil.bin \
 	$(PREFIX2).t1x.bin \
 	$(PREFIX2).t2x.bin \
@@ -24,91 +24,75 @@ TARGETS_COMMON = \
 	$(PREFIX1).automorf.hfst \
 	$(PREFIX2).mode
 
-##
-## 	ANALYSER / GENERATOR / POSTGEN DICTIONARIES
-##
+# This include defines goals for install-modes, .deps/.d and .mode files:
+@ap_include@
 
-.deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-twolc -R -i $(BASENAME).$(LANG1).twol -o $@
-
-.deps/$(LANG1).lexc.hfst: $(BASENAME).$(LANG1).lexc
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-lexc $(BASENAME).$(LANG1).lexc -o $@
-
-.deps/$(LANG2).twol.hfst: $(BASENAME).$(LANG2).twol
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-twolc -R -i $(BASENAME).$(LANG2).twol -o $@
-
-.deps/$(LANG2).lexc.hfst: $(BASENAME).$(LANG2).lexc
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-lexc $(BASENAME).$(LANG2).lexc -o $@
 
 #
-# These are scripts that remove unwanted tags
 #
-.deps/xfst2apertium.useless.generation.twol.hfst: dev/xfst2apertium.useless.generation.twol
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-twolc -R -i dev/xfst2apertium.useless.generation.twol -o $@
-
-.deps/xfst2apertium.useless.analysis.twol.hfst: dev/xfst2apertium.useless.analysis.twol
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-twolc -R -i dev/xfst2apertium.useless.analysis.twol -o $@
-
-.deps/xfst2apertium.hashtags.twol.hfst: dev/xfst2apertium.hashtags.twol
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-twolc -R -i dev/xfst2apertium.hashtags.twol -o $@
-
 #
-# This is a generator 'apertium-sme-smj.fin.hfst'
-#
-.deps/$(BASENAME).$(LANG2).hfst: .deps/$(LANG2).lexc.hfst .deps/$(LANG2).twol.hfst
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-compose-intersect -1 .deps/$(LANG2).lexc.hfst -2 .deps/$(LANG2).twol.hfst -o $@
 
-# apertium-sme-fin , fin-sme , fin
-.deps/$(PREFIX2).automorf.hfst: .deps/$(BASENAME).$(LANG2).hfst dev/omorfi2apertium.relabel
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-invert .deps/$(BASENAME).$(LANG2).hfst -o .deps/$(PREFIX2).automorf.hfst.tmp
-	hfst-substitute -F dev/omorfi2apertium.relabel -i .deps/$(PREFIX2).automorf.hfst.tmp -o .deps/$(PREFIX2).automorf.hfst
+$(PREFIX2).automorf.hfst: $(AP_LIB2)/$(LANG2).automorf.hfst
+	cp $(AP_LIB2)/$(LANG2).automorf.hfst $@
 
-$(PREFIX2).automorf.hfst: .deps/$(PREFIX2).automorf.hfst
-	hfst-fst2fst -O -i  .deps/$(PREFIX2).automorf.hfst -o $@ # should it be .ol for -o file?
-
-$(PREFIX1).autogen.hfst: .deps/$(PREFIX1).automorf.hfst
-	hfst-fst2fst -O -i  .deps/$(PREFIX1).autogen.hfst -o $@ # should it be .ol for -o file?
+$(PREFIX1).autogen.hfst: $(AP_LIB2)/$(LANG2).autogen.hfst
+	cp $(AP_LIB2)/$(LANG2).autogen.hfst $@
 
 #
 # This is a generator 'apertium-sme-smj.smj.hfst'
 #
-.deps/$(BASENAME).$(LANG1).hfst: .deps/$(LANG1).lexc.hfst .deps/$(LANG1).twol.hfst
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-compose-intersect -1 .deps/$(LANG1).lexc.hfst -2 .deps/$(LANG1).twol.hfst -o $@
 
-.deps/$(PREFIX2).autogen.hfst: .deps/$(BASENAME).$(LANG1).hfst .deps/xfst2apertium.useless.generation.twol.hfst .deps/xfst2apertium.hashtags.twol.hfst dev/xfst2apertium.relabel
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-invert .deps/$(BASENAME).$(LANG1).hfst -o .deps/$(PREFIX1).automorf.orig.tmp
-	hfst-compose-intersect -1 .deps/$(PREFIX1).automorf.orig.tmp -2 .deps/xfst2apertium.useless.generation.twol.hfst -o .deps/$(PREFIX1).automorf.useless.tmp
-	hfst-compose-intersect -1 .deps/$(PREFIX1).automorf.useless.tmp -2 .deps/xfst2apertium.hashtags.twol.hfst -o .deps/$(PREFIX1).automorf.hashtags.tmp
-	hfst-invert .deps/$(PREFIX1).automorf.hashtags.tmp -o .deps/$(PREFIX2).autogen.hashtags.tmp
-	hfst-substitute -F dev/xfst2apertium.relabel -i .deps/$(PREFIX2).autogen.hashtags.tmp -o .deps/$(PREFIX2).autogen.hfst
+.deps/$(PREFIX1).autobil.prefixes: $(PREFIX1).autobil.bin .deps/.d
+	lt-print $< | sed 's/ /@_SPACE_@/g' > .deps/$(PREFIX1).autobil.att
+	hfst-txt2fst -e ε <  .deps/$(PREFIX1).autobil.att > .deps/$(PREFIX1).autobil.hfst
+	hfst-project -p upper .deps/$(PREFIX1).autobil.hfst > .deps/$(PREFIX1).autobil.upper
+	echo ' [ ? - %+ ]* ' | hfst-regexp2fst > .deps/any-nonplus.hfst
+	hfst-concatenate -1 .deps/$(PREFIX1).autobil.upper -2 .deps/any-nonplus.hfst -o .deps/$(PREFIX1).autobil.nonplussed # bidix [^+]*
+	echo ' %+ ' | hfst-regexp2fst > .deps/single-plus.hfst
+	hfst-concatenate -1 .deps/single-plus.hfst -2 .deps/$(PREFIX1).autobil.nonplussed -o .deps/$(PREFIX1).autobil.postplus # + bidix [^+]*
+	hfst-repeat -f0 -t1 -i .deps/$(PREFIX1).autobil.postplus -o .deps/$(PREFIX1).autobil.postplus.0,1 # (+ bidix [^+]*){0,1} gives at most one +
+	hfst-concatenate -1 .deps/$(PREFIX1).autobil.nonplussed -2 .deps/$(PREFIX1).autobil.postplus.0,1 -o $@
 
-#	rm .deps/$(PREFIX1).automorf.orig.tmp .deps/$(PREFIX1).automorf.useless.tmp .deps/$(PREFIX1).automorf.hashtags.tmp .deps/$(PREFIX2).autogen.hashtags.tmp
+#.deps/$(LANG1).automorf.hfst: $(AP_SRC1)/$(BASENAME).$(PREFIX1).LR.att.gz .deps/.d
+.deps/$(LANG1).automorf.hfst: $(AP_SRC1)/apertium-sme-nob.sme-nob.LR.att.gz .deps/.d
+	$(ZCAT) $< | hfst-txt2fst > $@
 
-$(PREFIX2).autogen.hfst: .deps/$(PREFIX2).autogen.hfst
-	hfst-fst2fst -O -i  .deps/$(PREFIX2).autogen.hfst -o $@ # should it be .ol for -o file?
+.deps/$(LANG1).autogen.hfst: $(AP_SRC1)/apertium-sme-nob.sme-nob.LR.att.gz .deps/.d
+	$(ZCAT) $< | hfst-txt2fst | hfst-invert -o $@
 
-$(PREFIX1).automorf.hfst: .deps/$(PREFIX2).autogen.hfst
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	hfst-invert .deps/$(PREFIX2).autogen.hfst -o .deps/$(PREFIX1).automorf.hfst
-	hfst-fst2fst -O -i  .deps/$(PREFIX1).automorf.hfst -o $@ # should it be .ol for -o file?
+.deps/$(PREFIX1).automorf-unrestricted.hfst: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.prefixes
+	hfst-compose-intersect -1 $< -2 .deps/$(PREFIX1).autobil.prefixes -o $@
+
+$(PREFIX1).automorf-unrestricted.hfst: .deps/$(PREFIX1).automorf-unrestricted.hfst
+	hfst-fst2fst -O -i $< -o $@
+
+# rm-deriv-cmp.twol is checked in to SVN since derivation-tags.txt is
+# not installed by giella-sme; this goal only run if --with-lang1 set
+rm-deriv-cmp.twol: $(wildcard $(AP_SRC1)/filters/derivation-tags.txt*) dev/update-rm-deriv-cmp
+	test "$<" = "$^" || dev/update-rm-deriv-cmp $< $@
+# The wildcard+test means we ignore the goal if we don't find
+# derivation-tags.txt
+
+.deps/rm-deriv-cmp.hfst: rm-deriv-cmp.twol .deps/.d
+	hfst-twolc -i $< -o $@
+
+.deps/$(PREFIX1).automorf.hfst: .deps/$(PREFIX1).automorf-unrestricted.hfst .deps/rm-deriv-cmp.hfst
+	hfst-compose-intersect -1 $< -2 .deps/rm-deriv-cmp.hfst -o $@
+
+$(PREFIX1).automorf.hfst: .deps/$(PREFIX1).automorf.hfst
+	hfst-fst2fst -O -i $< -o $@
+
+
+$(PREFIX2).autogen.hfst: .deps/$(LANG1).autogen.hfst
+	hfst-fst2fst -O -i $< -o $@
 
 
 ## 	BILINGUAL DICTIONARIES
 
-#.deps/$(BASENAME).$(PREFIX1).dix: $(BASENAME).$(PREFIX1).dix lexchoicebil.xsl
-#	if [ ! -d .deps ]; then mkdir .deps; fi
-#	xsltproc lexchoicebil.xsl $(BASENAME).$(PREFIX1).dix > $@
+$(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
+	lt-comp lr $(BASENAME).$(PREFIX1).dix $@
+
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
@@ -167,14 +151,10 @@ noinst_DATA=modes/$(PREFIX2).mode
 ## 
 
 EXTRA_DIST=\
-	$(BASENAME).$(LANG1).twol \
 	$(PREFIX2).prob \
-	$(BASENAME).$(LANG1).lexc \
 	$(BASENAME).$(PREFIX2).rlx \
 	$(BASENAME).$(PREFIX2).lrx \
 	$(BASENAME).$(PREFIX2).dix \
-	$(BASENAME).$(LANG2).twol \
-	$(BASENAME).$(LANG2).lexc \
 	$(BASENAME).$(PREFIX2).t1x \
 	$(BASENAME).$(PREFIX2).t2x \
 	$(BASENAME).$(PREFIX2).t3x \
