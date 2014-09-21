@@ -5,52 +5,52 @@
       <cat-item lemma="olla" tags="V.Act.Ind.Prs.Sg3.@+FAUXV"/>
     </def-cat>
     <def-cat n="conj">
-      <cat-item tags="CC"/>
-      <cat-item tags="CS"/>
-      <cat-item tags="CC.*"/>
-      <cat-item tags="CS.*"/>
+      <cat-item tags="cnjcoo"/>
+      <cat-item tags="cnjsub"/>
+      <cat-item tags="cnjcoo.*"/>
+      <cat-item tags="cnjsub.*"/>
     </def-cat>
     <def-cat n="interj">
-      <cat-item tags="Interj"/>
-      <cat-item tags="Interj.*"/>
+      <cat-item tags="ij"/>
+      <cat-item tags="ij.*"/>
     </def-cat>
     <def-cat n="adv">
-      <cat-item tags="Adv"/>
-      <cat-item tags="Adv.*"/>
-      <cat-item tags="A.*.Der_sti.Adv.*"/>
+      <cat-item tags="adv"/>
+      <cat-item tags="adv.*"/>
+      <cat-item tags="a.*.der_sti.adv.*"/>
     </def-cat>
     <def-cat n="pcle">
-      <cat-item tags="Pcle"/>
-      <cat-item tags="Pcle.*"/>
+      <cat-item tags="pcle"/>
+      <cat-item tags="pcle.*"/>
     </def-cat>
     <def-cat n="postpos">
-      <cat-item tags="Po"/>
-      <cat-item tags="Po.*"/>
+      <cat-item tags="po"/>
+      <cat-item tags="po.*"/>
     </def-cat>
     <def-cat n="prepos">
-      <cat-item tags="Pr.*"/>
+      <cat-item tags="pr.*"/>
     </def-cat>
     <def-cat n="adpos">
-      <cat-item tags="Adp.*"/>
+      <cat-item tags="adp.*"/>
     </def-cat>
     <def-cat n="neg_verb">
-      <cat-item tags="V.Neg.*"/>
+      <cat-item tags="vblex.neg.*"/>
     </def-cat>
     <def-cat n="verb">
-      <cat-item tags="V.*"/>
+      <cat-item tags="vblex.*"/>
     </def-cat>
     <def-cat n="vpass">
-      <cat-item tags="V.Pass.*"/>
+      <cat-item tags="vblex.pass.*"/>
     </def-cat>
     <def-cat n="prsprcpass">
-      <cat-item tags="V.Pass.PrsPrc.*"/>
+      <cat-item tags="vblex.pass.PrsPrc.*"/>
     </def-cat>
     <def-cat n="pcps">
-      <cat-item tags="V.*.PrfPrc.*"/>
-      <cat-item tags="V.*.PrsPrc.*"/>
+      <cat-item tags="vblex.*.PrfPrc.*"/>
+      <cat-item tags="vblex.*.PrsPrc.*"/>
     </def-cat>
     <def-cat n="inf">
-      <cat-item tags="V.*.Inf1.*"/>
+      <cat-item tags="v.*.inf1.*"/>
     </def-cat>
     <def-cat n="inf2">
       <cat-item tags="V.*.Inf2.Ins.*"/>
@@ -68,9 +68,9 @@
       <!-- sme -->
     </def-cat>
     <def-cat n="appearance">
-      <cat-item lemma="henki" tags="N.Pl.Abl.*"/>
-      <cat-item lemma="ulkonäkö" tags="N.Pl.Abl.*"/>
-      <cat-item lemma="nimi" tags="N.Sg.Abl.*"/>
+      <cat-item lemma="henki" tags="n.pl.abl.*"/>
+      <cat-item lemma="ulkonäkö" tags="n.pl.abl.*"/>
+      <cat-item lemma="nimi" tags="n.sg.abl.*"/>
       <!-- More? -->
     </def-cat>
     <def-cat n="num_mod">
@@ -80,19 +80,19 @@
       <cat-item tags="N.*.*.Cmpnd"/>
     </def-cat>
     <def-cat n="attrmod">
-      <cat-item tags="Pron.Dem.*.*."/>
-      <cat-item tags="Pron.Interr.*.*."/>
-      <cat-item tags="Pron.Rel.*.*.@N→"/>
+      <cat-item tags="prn.Dem.*.*."/>
+      <cat-item tags="prn.Interr.*.*."/>
+      <cat-item tags="prn.Rel.*.*.@N→"/>
     </def-cat>
     <def-cat n="attrnom_1">
       <!-- Svonni's grupp 1 -->
-      <cat-item tags="Pron.Dem.*.*.@N→"/>
+      <cat-item tags="prn.Dem.*.*.@N→"/>
       <!-- dat, dát, diet, dot, duot -->
-      <cat-item tags="Pron.Indef.*.*."/>
+      <cat-item tags="prn.Indef.*.*."/>
       <!-- goappašat, guktot -->
-      <!-- <cat-item tags="Pron.Interr.*.*."/> -->
+      <!-- <cat-item tags="prn.Interr.*.*."/> -->
       <!-- guhte, goabbá -->
-      <!-- <cat-item tags="Pron.Rel.*.*.@N→"/> -->
+      <!-- <cat-item tags="prn.Rel.*.*.@N→"/> -->
       <!-- guhte, goabbá ?? maybe remove interr? -->
       <cat-item lemma="hyvä" tags="A.*"/>
       <!-- buorre -->
@@ -103,7 +103,7 @@
     </def-cat>
     <def-cat n="attrnom_2">
       <!-- Svonni's grupp 2 -->
-      <cat-item tags="Pron.Interr.*.*."/>
+      <cat-item tags="prn.Interr.*.*."/>
       <!-- mii gii only? -->
     </def-cat>
     <def-cat n="attrnom_3">
@@ -116,15 +116,15 @@
       <cat-item lemma="moadde" tags="Num.*"/> -->
     </def-cat>
     <def-cat n="buot">
-      <cat-item lemma="kaikki" tags="Pron.Indef.*"/>
+      <cat-item lemma="kaikki" tags="prn.Indef.*"/>
     </def-cat>
     <def-cat n="ord">
       <cat-item tags="Num.Ord.*"/>
     </def-cat>
     <def-cat n="num">
-      <cat-item lemma="yksi" tags="Pron.*"/>
-      <cat-item lemma="usea" tags="Pron.*"/>
-      <cat-item lemma="moni" tags="Pron.*"/>
+      <cat-item lemma="yksi" tags="prn.*"/>
+      <cat-item lemma="usea" tags="prn.*"/>
+      <cat-item lemma="moni" tags="prn.*"/>
       <cat-item tags="Num.Card.*"/>
     </def-cat>
     <def-cat n="nums">
@@ -143,7 +143,7 @@
 	-->
     <def-cat n="attrgen">
       <cat-item tags="N.*.Gen.@→N"/>
-      <cat-item tags="Pron.Pers.*.Gen.@→N"/>
+      <cat-item tags="prn.Pers.*.Gen.@→N"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="N.*"/>
@@ -171,11 +171,11 @@
     </def-cat>
     <def-cat n="attr">
       <cat-item tags="A.*.*.*.@→N"/>
-      <cat-item lemma="tällainen" tags="Pron.*"/>
-      <cat-item lemma="sellainen" tags="Pron.*"/>
-      <cat-item lemma="semmoinen" tags="Pron.*"/>
-      <cat-item lemma="tuommoinen" tags="Pron.*"/>
-      <cat-item lemma="millainen" tags="Pron.*"/>
+      <cat-item lemma="tällainen" tags="prn.*"/>
+      <cat-item lemma="sellainen" tags="prn.*"/>
+      <cat-item lemma="semmoinen" tags="prn.*"/>
+      <cat-item lemma="tuommoinen" tags="prn.*"/>
+      <cat-item lemma="millainen" tags="prn.*"/>
     </def-cat>
     <def-cat n="adj_oma">
       <cat-item lemma="oma" tags="A.Pos.*"/>
@@ -185,42 +185,42 @@
       <cat-item tags="A.*"/>
     </def-cat>
 	<def-cat n="itse">
-		<cat-item lemma="itse" tags="Pron.Refl.*.*.*.*"/>
+		<cat-item lemma="itse" tags="prn.ref.*.*.*.*"/>
 	</def-cat>
     <def-cat n="pronrefl">
-      <cat-item tags="Pron.Refl.*"/>
+      <cat-item tags="prn.ref.*"/>
     </def-cat>
     <def-cat n="pronindef">
-      <cat-item tags="Pron.Indef.*"/>
+      <cat-item tags="prn.Indef.*"/>
     </def-cat>
     <def-cat n="pron_subj">
-      <cat-item tags="Pron.Pers.*.*.@SUBJ→"/>
+      <cat-item tags="prn.Pers.*.*.@SUBJ→"/>
     </def-cat>
 	<def-cat n="pron_gen">
-      <cat-item tags="Pron.Pers.*.Gen.@N→"/>
+      <cat-item tags="prn.Pers.*.Gen.@N→"/>
     </def-cat>
     <def-cat n="pron_pers">
-      <cat-item tags="Pron.Pers.*"/>
+      <cat-item tags="prn.Pers.*"/>
     </def-cat>
     <def-cat n="punct_clb">
       <cat-item tags="Punct.CLB"/>
       <cat-item tags="Punct.CLB.*"/>
     </def-cat>
     <def-cat n="pron_rel">
-      <cat-item tags="Pron.Rel.*"/>
+      <cat-item tags="prn.Rel.*"/>
     </def-cat>
     <def-cat n="pron_dem">
-      <cat-item tags="Pron.Dem.*"/>
+      <cat-item tags="prn.Dem.*"/>
     </def-cat>
     <def-cat n="pron">
-      <cat-item tags="Pron.Pers.*"/>
-      <cat-item tags="Pron.*"/>
-      <cat-item tags="Pron.Dem.*"/>
-      <cat-item tags="Pron.Rel.*"/>
-      <cat-item tags="Pron.Recipr.*"/>
-      <cat-item tags="Pron.Interr.*"/>
-      <cat-item tags="Pron.Qnt.*"/>
-      <cat-item tags="Pron.Indef.*"/>
+      <cat-item tags="prn.Pers.*"/>
+      <cat-item tags="prn.*"/>
+      <cat-item tags="prn.Dem.*"/>
+      <cat-item tags="prn.Rel.*"/>
+      <cat-item tags="prn.Recipr.*"/>
+      <cat-item tags="prn.Interr.*"/>
+      <cat-item tags="prn.Qnt.*"/>
+      <cat-item tags="prn.Indef.*"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
@@ -229,28 +229,28 @@
       <attr-item tags="Masc"/>
     </def-attr>
     <def-attr n="a_interj">
-      <attr-item tags="Interj"/>
+      <attr-item tags="ij"/>
     </def-attr>
     <def-attr n="a_verb">
-      <attr-item tags="V"/>
-      <attr-item tags="V.IV"/>
-      <attr-item tags="V.TV"/>
-      <attr-item tags="V.IV.Neg"/>
+      <attr-item tags="v"/>
+      <attr-item tags="v.iV"/>
+      <attr-item tags="v.tv"/>
+      <attr-item tags="v.iv.neg"/>
     </def-attr>
     <def-attr n="a_pron">
       <attr-item tags="prn"/>
-      <attr-item tags="Pron.Pers"/>
-      <attr-item tags="Pron.Dem"/>
-      <attr-item tags="Pron.Rel"/>
-      <attr-item tags="Pron.Recipr"/>
-      <attr-item tags="Pron.Refl"/>
-      <attr-item tags="Pron.Interr"/>
-      <attr-item tags="Pron.Qnt"/>
-      <attr-item tags="Pron.Indef"/>
+      <attr-item tags="prn.pers"/>
+      <attr-item tags="prn.dem"/>
+      <attr-item tags="prn.rel"/>
+      <attr-item tags="prn.recipr"/>
+      <attr-item tags="prn.ref"/>
+      <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.qnt"/>
+      <attr-item tags="prn.indef"/>
     </def-attr>
     <def-attr n="a_ord">
-      <attr-item tags="Ord"/>
-      <attr-item tags="A.Ord"/>
+      <attr-item tags="ord"/>
+      <attr-item tags="a.ord"/>
     </def-attr>
     <def-attr n="a_num">
       <attr-item tags="Num"/>
@@ -275,8 +275,8 @@
       <attr-item tags="Pcle"/>
     </def-attr>
     <def-attr n="a_conj">
-      <attr-item tags="CC"/>
-      <attr-item tags="CS"/>
+      <attr-item tags="cnjcoo"/>
+      <attr-item tags="cnjsub"/>
     </def-attr>
     <def-attr n="a_attrs">
       <attr-item tags="A"/>
@@ -306,9 +306,9 @@
       <attr-item tags="N.Prop"/>
       <attr-item tags="N.Prop.Plc"/>
       <attr-item tags="N.Prop.Mal"/>
-      <attr-item tags="Pron.Dem"/>
-      <attr-item tags="Pron.Interr"/>
-      <attr-item tags="Pron.Indef"/>
+      <attr-item tags="prn.Dem"/>
+      <attr-item tags="prn.Interr"/>
+      <attr-item tags="prn.Indef"/>
     </def-attr>
     <def-attr n="gen_attrs">
       <attr-item tags="n"/>
@@ -316,7 +316,7 @@
       <attr-item tags="N.Prop"/>
       <attr-item tags="N.Prop.Plc"/>
       <attr-item tags="N.Prop.Mal"/>
-      <attr-item tags="Pron.Pers"/>
+      <attr-item tags="prn.Pers"/>
     </def-attr>
     <def-attr n="a_case">
       <attr-item tags="Nom"/>
@@ -341,15 +341,15 @@
       <attr-item tags="Der2.Der_at"/>
     </def-attr>
     <def-attr n="a_pronattrs">
-      <attr-item tags="Dem"/>
-      <attr-item tags="Pers"/>
+      <attr-item tags="dem"/>
+      <attr-item tags="pers"/>
     </def-attr>
     <def-attr n="a_poss">
-      <attr-item tags="Sg1"/>
-      <attr-item tags="Sg2"/>
-      <attr-item tags="Pl1"/>
-      <attr-item tags="Pl2"/>
-      <attr-item tags="Poss3"/>
+      <attr-item tags="sg1"/>
+      <attr-item tags="sg2"/>
+      <attr-item tags="pl1"/>
+      <attr-item tags="pl2"/>
+      <attr-item tags="poss3"/>
       <!-- Hmm, is this inconsistency a problem? -->
     </def-attr>
     <def-attr n="a_der">
@@ -361,11 +361,11 @@
       <attr-item tags="Pass"/>
     </def-attr>
     <def-attr n="a_trans">
-      <attr-item tags="IV"/>
-      <attr-item tags="TV"/>
+      <attr-item tags="iv"/>
+      <attr-item tags="tv"/>
     </def-attr>
     <def-attr n="a_realis">
-      <attr-item tags="Ind"/>
+      <attr-item tags="ind"/>
       <attr-item tags="Imprt"/>
       <attr-item tags="Cond"/>
       <attr-item tags="Pot"/>
@@ -404,14 +404,14 @@
     </def-attr>
     <def-attr n="a_person_nbr">
       <attr-item tags="sg"/>
-      <attr-item tags="Pl"/>
-      <attr-item tags="Sg1"/>
-      <attr-item tags="Sg2"/>
-      <attr-item tags="Sg3"/>
-      <attr-item tags="Pl1"/>
-      <attr-item tags="Pl2"/>
-      <attr-item tags="Pl3"/>
-      <attr-item tags="Pe4"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="sg1"/>
+      <attr-item tags="sg2"/>
+      <attr-item tags="sg3"/>
+      <attr-item tags="pl1"/>
+      <attr-item tags="pl2"/>
+      <attr-item tags="pl3"/>
+      <attr-item tags="pe4"/>
       <attr-item tags="PD"/>
     </def-attr>
     <def-attr n="a_person">
@@ -419,13 +419,13 @@
       <attr-item tags="sg"/>
       <attr-item tags="Pl"/>
 -->
-      <attr-item tags="Sg1"/>
-      <attr-item tags="Sg2"/>
-      <attr-item tags="Sg3"/>
-      <attr-item tags="Pl1"/>
-      <attr-item tags="Pl2"/>
-      <attr-item tags="Pl3"/>
-      <attr-item tags="Pe4"/>
+      <attr-item tags="sg1"/>
+      <attr-item tags="sg2"/>
+      <attr-item tags="sg3"/>
+      <attr-item tags="pl1"/>
+      <attr-item tags="pl2"/>
+      <attr-item tags="pl3"/>
+      <attr-item tags="pe4"/>
       <attr-item tags="PD"/>
     </def-attr>
     <def-attr n="a_pxprs">
@@ -1013,7 +1013,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <out>
           <chunk name="copulasg3" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="V"/></tag>
+              <tag><lit-tag v="v"/></tag>
               <tag><var n="current_syntag"/></tag>
               <tag><lit-tag v="PD"/></tag>
             </tags>
@@ -1642,7 +1642,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
             <let>
               <clip pos="1" side="tl" part="a_pron"/>
-              <lit-tag v="Pron.Pers"/>
+              <lit-tag v="prn.Pers"/>
             </let>
           </when>
         </choose>
@@ -1797,7 +1797,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </let>
             <let>
               <clip pos="1" side="tl" part="a_pron"/>
-              <lit-tag v="Pron.Pers"/>
+              <lit-tag v="prn.Pers"/>
             </let>
           </when>
         </choose>
@@ -2262,7 +2262,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="V"/></tag>
+              <tag><lit-tag v="v"/></tag>
               <tag><var n="current_syntag"/></tag>
               <tag><clip pos="1" side="tl" part="a_person"/></tag>
             </tags>
@@ -2351,7 +2351,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <out>
           <chunk name="verb" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="V"/></tag>
+              <tag><lit-tag v="v"/></tag>
               <tag><var n="current_syntag"/></tag>
               <tag><clip pos="1" side="tl" part="a_person"/></tag>
             </tags>
@@ -2931,7 +2931,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <lit-tag v="Pron.Refl.Gen"/>
+              <lit-tag v="prn.ref.Gen"/>
               <var n="default_px"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
@@ -3241,7 +3241,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
               <lit-tag v="prn"/>
-              <lit-tag v="Refl"/>
+              <lit-tag v="ref"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_person"/>
               <clip pos="2" side="tl" part="a_case"/>
@@ -3365,7 +3365,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <lit-tag v="prn"/>
-              <lit-tag v="Refl"/>
+              <lit-tag v="ref"/>
 			  <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_person"/>
               <clip pos="1" side="tl" part="a_case"/>
@@ -3558,7 +3558,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
              <clip pos="2" side="tl" part="lemh"/>
               <lit-tag v="prn"/>
-              <lit-tag v="Refl"/>
+              <lit-tag v="ref"/>
 			  <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_person"/>
 			  <lit-tag v="gen"/>
@@ -4094,7 +4094,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
               <lit-tag v="prn"/>
-              <lit-tag v="Refl"/>
+              <lit-tag v="ref"/>
               <!-- <clip pos="1" side="tl" part="gen"/> -->
               <clip pos="1" side="tl" part="nbr"/>
               <var n="comitative_num"/>
