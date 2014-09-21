@@ -14,7 +14,7 @@ TARGETS_COMMON = \
 	$(PREFIX2).autogen.hfst \
 	$(PREFIX2).automorf.hfst \
 	$(PREFIX2).rlx.bin \
-	$(PREFIX2).lrx.bin \
+	$(PREFIX2).autolex.bin \
 	$(PREFIX2).lex.bin \
 	$(PREFIX1).autobil.bin \
 	$(PREFIX2).autobil.bin \
@@ -112,7 +112,7 @@ $(PREFIX2).rlx.bin: $(BASENAME).$(PREFIX2).rlx
 $(PREFIX2).lex.bin: $(BASENAME).$(PREFIX2).lex
 	cg-comp $(BASENAME).$(PREFIX2).lex $@
 
-$(PREFIX2).lrx.bin: $(BASENAME).$(PREFIX2).lrx
+$(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 	lrx-comp $(BASENAME).$(PREFIX2).lrx $@
 
 

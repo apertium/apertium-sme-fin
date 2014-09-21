@@ -238,7 +238,7 @@
       <attr-item tags="V.IV.Neg"/>
     </def-attr>
     <def-attr n="a_pron">
-      <attr-item tags="Pron"/>
+      <attr-item tags="prn"/>
       <attr-item tags="Pron.Pers"/>
       <attr-item tags="Pron.Dem"/>
       <attr-item tags="Pron.Rel"/>
@@ -268,7 +268,7 @@
       <attr-item tags="Adp"/>
     </def-attr>
     <def-attr n="nbr">
-      <attr-item tags="Sg"/>
+      <attr-item tags="sg"/>
       <attr-item tags="Pl"/>
     </def-attr>
     <def-attr n="a_pcle">
@@ -283,7 +283,7 @@
       <attr-item tags="A.Attr"/>
       <attr-item tags="A.Agr"/>
       <attr-item tags="A.Pos"/>
-      <attr-item tags="Pron"/>
+      <attr-item tags="prn"/>
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="A"/>
@@ -292,14 +292,14 @@
       <attr-item tags="A.Pos"/>
     </def-attr>
     <def-attr n="a_nom">
-      <attr-item tags="N"/>
+      <attr-item tags="n"/>
       <attr-item tags="N.Actor"/>
       <attr-item tags="N.Prop"/>
       <attr-item tags="N.Prop.Plc"/>
       <attr-item tags="N.Prop.Mal"/>
     </def-attr>
     <def-attr n="a_attr">
-      <attr-item tags="N"/>
+      <attr-item tags="n"/>
       <attr-item tags="A"/>
       <attr-item tags="A.Ord"/>
       <attr-item tags="N.Actor"/>
@@ -311,7 +311,7 @@
       <attr-item tags="Pron.Indef"/>
     </def-attr>
     <def-attr n="gen_attrs">
-      <attr-item tags="N"/>
+      <attr-item tags="n"/>
       <attr-item tags="N.Actor"/>
       <attr-item tags="N.Prop"/>
       <attr-item tags="N.Prop.Plc"/>
@@ -320,9 +320,9 @@
     </def-attr>
     <def-attr n="a_case">
       <attr-item tags="Nom"/>
-      <attr-item tags="Gen"/>
+      <attr-item tags="gen"/>
       <attr-item tags="Acc"/>
-      <attr-item tags="Par"/>
+      <attr-item tags="par"/>
       <attr-item tags="Abl"/>
       <attr-item tags="Ade"/>
       <attr-item tags="All"/>
@@ -333,7 +333,7 @@
       <attr-item tags="Tra"/>
       <attr-item tags="Abe"/>
       <attr-item tags="Com"/>
-      <attr-item tags="Ins"/>
+      <attr-item tags="ins"/>
       <attr-item tags="Loc"/>
     </def-attr>
     <def-attr n="a_deriv"> <!-- possible derivations -->
@@ -403,7 +403,7 @@
       <attr-item tags="Prt"/>
     </def-attr>
     <def-attr n="a_person_nbr">
-      <attr-item tags="Sg"/>
+      <attr-item tags="sg"/>
       <attr-item tags="Pl"/>
       <attr-item tags="Sg1"/>
       <attr-item tags="Sg2"/>
@@ -416,7 +416,7 @@
     </def-attr>
     <def-attr n="a_person">
       <!--
-      <attr-item tags="Sg"/>
+      <attr-item tags="sg"/>
       <attr-item tags="Pl"/>
 -->
       <attr-item tags="Sg1"/>
@@ -541,7 +541,7 @@
           </test>
           <let>
             <clip pos="1" side="tl" part="a_case"/>
-            <lit-tag v="Gen"/>
+            <lit-tag v="gen"/>
           </let>
           <let>
             <var n="cur_noun_postp"/>
@@ -667,7 +667,7 @@
               </or>
               <equal>
                 <clip pos="1" side="tl" part="a_case"/>
-                <lit-tag v="Gen"/>
+                <lit-tag v="gen"/>
               </equal>
             </and>
           </test>
@@ -717,7 +717,7 @@
           </test>
           <let>
             <var n="comitative_num"/>
-            <lit-tag v="Sg"/>
+            <lit-tag v="sg"/>
           </let>
         </when>
         <otherwise>
@@ -786,10 +786,10 @@
 <and>
 <or>
 <begins-with>
-<clip pos="1" side="sl" part="a_nom"/><lit-tag v="N"/>
+<clip pos="1" side="sl" part="a_nom"/><lit-tag v="n"/>
 </begins-with>
 <begins-with>
-<clip pos="1" side="sl" part="a_pron"/><lit-tag v="Pron"/>
+<clip pos="1" side="sl" part="a_pron"/><lit-tag v="prn"/>
 </begins-with>
 </or>-->
             <or>
@@ -878,10 +878,10 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <!--		<and>
 <or>
 <begins-with>
-<clip pos="1" side="sl" part="a_nom"/><lit-tag v="N"/>
+<clip pos="1" side="sl" part="a_nom"/><lit-tag v="n"/>
 </begins-with>
 <begins-with>
-<clip pos="1" side="sl" part="a_pron"/><lit-tag v="Pron"/>
+<clip pos="1" side="sl" part="a_pron"/><lit-tag v="prn"/>
 </begins-with>
 </or>-->
             <equal>
@@ -940,7 +940,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               </equal>
               <equal>
                 <clip pos="1" side="sl" part="a_case"/>
-                <lit-tag v="Par"/>
+                <lit-tag v="par"/>
               </equal>
             </and>
           </test>
@@ -954,17 +954,17 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <or>
               <equal>
                 <clip pos="1" side="sl" part="a_case"/>
-                <lit-tag v="Ins"/>
+                <lit-tag v="ins"/>
               </equal>
               <equal>
                 <clip pos="1" side="sl" part="a_case"/>
-                <lit-tag v="Par"/>
+                <lit-tag v="par"/>
               </equal>
             </or>
           </test>
           <let>
             <clip pos="1" side="tl" part="a_case"/>
-            <lit-tag v="Gen"/>
+            <lit-tag v="gen"/>
           </let>
         </when>
       </choose>
@@ -988,7 +988,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               </equal>
               <equal>
                 <clip pos="1" side="sl" part="nbr"/>
-                <lit-tag v="Sg"/>
+                <lit-tag v="sg"/>
               </equal>
             </or>
           </test>
@@ -1063,7 +1063,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <and>
                 <equal>
                   <clip pos="2" side="tl" part="nbr"/>
-                  <lit-tag v="Sg"/>
+                  <lit-tag v="sg"/>
                 </equal>
                 <or>
                   <equal>
@@ -1079,7 +1079,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </test>
             <let>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>
@@ -1156,11 +1156,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </tags>
             <lu>
               <lit v="buot"/>
-              <lit-tag v="Pron"/>
+              <lit-tag v="prn"/>
               <lit-tag v="Indef"/>
               <!--
 			  <var n="buot_buohkat"/>
-              <lit-tag v="Pron"/>
+              <lit-tag v="prn"/>
               <lit-tag v="Indef"/>
 			  <var n="comitative_num"/>
               <clip pos="2" side="tl" part="nbr"/> 
@@ -1228,7 +1228,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="1" side="tl" part="nbr"/>
-                <lit-tag v="Sg"/>
+                <lit-tag v="sg"/>
               </equal>
             </test>
             <let>
@@ -1251,7 +1251,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </tags>
             <lu>
               <var n="buot_buohkat"/>
-              <lit-tag v="Pron"/>
+              <lit-tag v="prn"/>
               <lit-tag v="Indef"/>
               <var n="comitative_num"/>
               <clip pos="1" side="tl" part="nbr"/>
@@ -1381,13 +1381,13 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
                 </or>
                 <equal>
                   <clip pos="1" side="tl" part="nbr"/>
-                  <lit-tag v="Sg"/>
+                  <lit-tag v="sg"/>
                 </equal>
               </and>
             </test>
             <let>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>
@@ -1628,7 +1628,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <and>
                 <equal>
                   <clip pos="1" side="sl" part="nbr"/>
-                  <lit-tag v="Sg"/>
+                  <lit-tag v="sg"/>
                 </equal>
                 <contains-substring>
                   <clip pos="1" side="sl" part="a_pron"/>
@@ -1737,11 +1737,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
 -->
             <let>
               <clip pos="1" side="tl" part="nbr"/>
-              <lit-tag v="Sg"/>
+              <lit-tag v="sg"/>
             </let>
             <let>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>
@@ -1783,7 +1783,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <and>
                 <equal>
                   <clip pos="1" side="sl" part="nbr"/>
-                  <lit-tag v="Sg"/>
+                  <lit-tag v="sg"/>
                 </equal>
                 <equal>
                   <clip pos="1" side="sl" part="a_pronattrs"/>
@@ -2111,7 +2111,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           <!-- this should be treated as any other noun -->
           <chunk name="nom" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="N"/></tag>
+              <tag><lit-tag v="n"/></tag>
               <tag><clip pos="1" side="sl" part="syntag"/></tag>
             </tags>
             <lu>
@@ -2413,9 +2413,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <b/>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
-              <lit-tag v="N"/>
-              <lit-tag v="Sg"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="n"/>
+              <lit-tag v="sg"/>
+              <lit-tag v="gen"/>
               <clip pos="2" side="tl" part="lemq"/>
             </lu>
             <b/>
@@ -2444,9 +2444,9 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <lit-tag v="N"/>
-              <lit-tag v="Sg"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="n"/>
+              <lit-tag v="sg"/>
+              <lit-tag v="gen"/>
               <clip pos="1" side="tl" part="lemq"/>
             </lu>
             <b/>
@@ -2534,7 +2534,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </test>
             <let>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>
@@ -2558,7 +2558,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="2" side="tl" part="a_case"/>
-                <lit-tag v="Gen"/>
+                <lit-tag v="gen"/>
               </equal>
             </test>
             <let>
@@ -2654,7 +2654,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </test>
             <let>
               <clip pos="2" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>
@@ -2675,7 +2675,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </test>
             <let>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>
@@ -2756,7 +2756,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <and>
                 <equal>
                   <clip pos="2" side="tl" part="nbr"/>
-                  <lit-tag v="Sg"/>
+                  <lit-tag v="sg"/>
                 </equal>
                 <or>
                   <equal>
@@ -2772,7 +2772,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </test>
             <let>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>
@@ -3050,7 +3050,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="3" side="sl" part="a_case"/>
-                <lit-tag v="Ins"/>
+                <lit-tag v="ins"/>
               </equal>
             </test>
             <let>
@@ -3067,7 +3067,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </test>
             <let>
               <clip pos="3" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>
@@ -3083,7 +3083,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <clip pos="1" side="tl" part="lemh"/>
               <clip pos="1" side="tl" part="a_pron"/>
               <clip pos="1" side="tl" part="a_person"/>
-			  <lit-tag v="Gen"/>
+			  <lit-tag v="gen"/>
             </lu>
             <b pos="1"/>
             <lu>
@@ -3209,7 +3209,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="3" side="sl" part="a_case"/>
-                <lit-tag v="Ins"/>
+                <lit-tag v="ins"/>
               </equal>
             </test>
             <let>
@@ -3226,7 +3226,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </test>
             <let>
               <clip pos="3" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>
@@ -3240,7 +3240,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </tags>
             <lu>
               <clip pos="2" side="tl" part="lemh"/>
-              <lit-tag v="Pron"/>
+              <lit-tag v="prn"/>
               <lit-tag v="Refl"/>
               <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_person"/>
@@ -3312,7 +3312,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="2" side="sl" part="a_case"/>
-                <lit-tag v="Ins"/>
+                <lit-tag v="ins"/>
               </equal>
             </test>
             <let>
@@ -3329,7 +3329,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </test>
             <let>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>
@@ -3364,7 +3364,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <lit-tag v="Pron"/>
+              <lit-tag v="prn"/>
               <lit-tag v="Refl"/>
 			  <clip pos="1" side="tl" part="nbr"/>
               <clip pos="1" side="tl" part="a_person"/>
@@ -3557,11 +3557,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <b pos="1"/>
             <lu>
              <clip pos="2" side="tl" part="lemh"/>
-              <lit-tag v="Pron"/>
+              <lit-tag v="prn"/>
               <lit-tag v="Refl"/>
 			  <clip pos="2" side="tl" part="nbr"/>
               <clip pos="2" side="tl" part="a_person"/>
-			  <lit-tag v="Gen"/>
+			  <lit-tag v="gen"/>
               <var n="default_px"/>
               <clip pos="2" side="tl" part="lemq"/>
              </lu>
@@ -4086,14 +4086,14 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
         <out>
           <chunk name="adj_oma" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="Pron"/></tag>
+              <tag><lit-tag v="prn"/></tag>
               <tag><clip pos="1" side="sl" part="syntag"/></tag>
               <tag><clip pos="1" side="sl" part="nbr"/></tag>
               <tag><clip pos="1" side="sl" part="a_case"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="lemh"/>
-              <lit-tag v="Pron"/>
+              <lit-tag v="prn"/>
               <lit-tag v="Refl"/>
               <!-- <clip pos="1" side="tl" part="gen"/> -->
               <clip pos="1" side="tl" part="nbr"/>
@@ -4254,7 +4254,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </test>
             <let>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>
@@ -4363,7 +4363,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </test>
             <let>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Gen"/>
+              <lit-tag v="gen"/>
             </let>
           </when>
         </choose>

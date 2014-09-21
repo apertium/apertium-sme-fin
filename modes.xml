@@ -8,11 +8,9 @@
       <program name="cg-proc -w">
         <file name="fin-sme.rlx.bin"/>
       </program>
-<!--
-      <program name="cg-proc -w">
+<!--  <program name="cg-proc -w">
         <file name="fin-sme.lex.bin"/>
-      </program>
--->
+      </program>-->
       <program name="apertium-tagger -g $2">
         <file name="fin-sme.prob"/>
       </program>
@@ -20,11 +18,9 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
-<!--
-      <program name="apertium-lrx-proc">
-        <file name="fin-sme.lrx.bin"/>
+      <program name="lrx-proc -m">
+        <file name="fin-sme.autolex.bin"/>
       </program>
--->
       <program name="apertium-transfer -b">
         <file name="apertium-sme-fin.fin-sme.t1x"/>
         <file name="fin-sme.t1x.bin"/>
@@ -43,6 +39,46 @@
     </pipeline>
   </mode>
 
+  <mode name="fin-sme-debug" install="no">
+    <pipeline>
+      <program name="hfst-proc -w">
+        <file name="fin-sme.automorf.hfst"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="fin-sme.rlx.bin"/>
+      </program>
+<!--  <program name="cg-proc -w">
+        <file name="fin-sme.lex.bin"/>
+      </program>-->
+      <program name="apertium-tagger -g $2">
+        <file name="fin-sme.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="fin-sme.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="fin-sme.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-sme-fin.fin-sme.t1x"/>
+        <file name="fin-sme.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-sme-fin.fin-sme.t2x"/>
+        <file name="fin-sme.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-sme-fin.fin-sme.t3x"/>
+        <file name="fin-sme.t3x.bin"/>
+      </program>
+      <program name="hfst-proc -d">
+        <file name="fin-sme.autogen.hfst"/>
+      </program>
+    </pipeline>
+  </mode>
+
+ 
   <mode name="fin-sme-morph">
     <pipeline>
       <program name="hfst-proc -w">
@@ -83,8 +119,8 @@
         <file name="fin-sme.autobil.bin"/>
       </program>
 <!--
-      <program name="apertium-lrx-proc -t">
-        <file name="fin-sme.lrx.bin"/>
+      <program name="lrx-proc -m -t">
+        <file name="fin-sme.autolex.bin"/>
       </program>
 -->
     </pipeline>
@@ -132,8 +168,8 @@
         <file name="fin-sme.autobil.bin"/>
       </program>
 <!--
-      <program name="apertium-lrx-proc">
-        <file name="fin-sme.lrx.bin"/>
+      <program name="lrx-proc -m">
+        <file name="fin-sme.autolex.bin"/>
       </program>
 -->
       <program name="apertium-transfer -b">
@@ -164,8 +200,8 @@
         <file name="fin-sme.autobil.bin"/>
       </program>
 <!--
-      <program name="apertium-lrx-proc">
-        <file name="fin-sme.lrx.bin"/>
+      <program name="lrx-proc -m">
+        <file name="fin-sme.autolex.bin"/>
       </program>
 -->
       <program name="apertium-transfer -b">
@@ -200,8 +236,8 @@
         <file name="fin-sme.autobil.bin"/>
       </program>
 <!--
-      <program name="apertium-lrx-proc">
-        <file name="fin-sme.lrx.bin"/>
+      <program name="lrx-proc -m">
+        <file name="fin-sme.autolex.bin"/>
       </program>
 -->
       <program name="apertium-transfer -b">
