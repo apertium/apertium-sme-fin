@@ -39,6 +39,7 @@ dev/bidix/calc-levenshtein.py -text
 dev/chapter002_notes -text
 dev/chapter003_notes -text
 dev/countries.txt -text
+dev/examples_from_fin_syntax.txt -text
 dev/generation-summary.bible.txt -text
 dev/generation-tag-fails-summary.txt -text
 dev/generation-test.sh -text
@@ -132,7 +133,6 @@ dev/sme_algu.tar.bz2 -text
 dev/sme_fin_postp_prep -text
 dev/update-lexc.sh -text
 dev/update-rm-deriv-cmp -text
-/examples_from_fin_syntax.txt -text
 /fin-sme.prob -text
 /modes.xml -text
 /pending-tests.sh -text
