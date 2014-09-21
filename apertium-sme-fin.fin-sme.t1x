@@ -269,7 +269,7 @@
     </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
-      <attr-item tags="Pl"/>
+      <attr-item tags="pl"/>
     </def-attr>
     <def-attr n="a_pcle">
       <attr-item tags="Pcle"/>
@@ -325,16 +325,16 @@
       <attr-item tags="par"/>
       <attr-item tags="Abl"/>
       <attr-item tags="Ade"/>
-      <attr-item tags="All"/>
+      <attr-item tags="all"/>
       <attr-item tags="Ela"/>
-      <attr-item tags="Ill"/>
+      <attr-item tags="ill"/>
       <attr-item tags="Ine"/>
-      <attr-item tags="Ess"/>
+      <attr-item tags="ess"/>
       <attr-item tags="Tra"/>
       <attr-item tags="Abe"/>
       <attr-item tags="Com"/>
       <attr-item tags="ins"/>
-      <attr-item tags="Loc"/>
+      <attr-item tags="loc"/>
     </def-attr>
     <def-attr n="a_deriv"> <!-- possible derivations -->
       <attr-item tags="Der_sti"/>
@@ -387,16 +387,16 @@
     </def-attr>
     <def-attr n="a_foc">
       <!-- Fin -->
-      <attr-item tags="Foc_han"/>
-      <attr-item tags="Foc_kin"/>
-      <attr-item tags="Foc_kaan"/>
-      <attr-item tags="Foc_pa"/>
-      <attr-item tags="Foc_s"/>
-      <attr-item tags="Foc_ka"/>
+      <attr-item tags="foc_han"/>
+      <attr-item tags="foc_kin"/>
+      <attr-item tags="foc_kaan"/>
+      <attr-item tags="foc_pa"/>
+      <attr-item tags="foc_s"/>
+      <attr-item tags="foc_ka"/>
       <!-- Sme -->
-      <attr-item tags="Foc_ge"/>
-      <attr-item tags="Foc_naj"/>
-      <attr-item tags="Foc_ba"/>
+      <attr-item tags="foc_ge"/>
+      <attr-item tags="foc_naj"/>
+      <attr-item tags="foc_ba"/>
     </def-attr>
     <def-attr n="a_tense">
       <attr-item tags="Prs"/>
@@ -590,7 +590,7 @@
           <test>
             <equal>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Ess"/>
+              <lit-tag v="ess"/>
             </equal>
           </test>
           <call-macro n="strip_nbr">
@@ -615,11 +615,11 @@
             <and>
               <equal>
                 <clip pos="1" side="tl" part="a_case"/>
-                <lit-tag v="Nom"/>
+                <lit-tag v="nom"/>
               </equal>
               <equal>
                 <clip pos="1" side="tl" part="nbr"/>
-                <lit-tag v="Pl"/>
+                <lit-tag v="pl"/>
               </equal>
               <not>
                 <and>
@@ -673,7 +673,7 @@
           </test>
           <let>
             <clip pos="1" side="tl" part="a_case"/>
-            <lit-tag v="Nom"/>
+            <lit-tag v="nom"/>
           </let>
         </when>
       </choose>
@@ -695,13 +695,13 @@
               </or>
               <equal>
                 <clip pos="1" side="tl" part="a_case"/>
-                <lit-tag v="Nom"/>
+                <lit-tag v="nom"/>
               </equal>
             </and>
           </test>
           <let>
             <clip pos="1" side="tl" part="a_case"/>
-            <lit-tag v="Acc"/>
+            <lit-tag v="acc"/>
           </let>
         </when>
       </choose>
@@ -712,7 +712,7 @@
           <test>
             <equal>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Com"/>
+              <lit-tag v="com"/>
             </equal>
           </test>
           <let>
@@ -734,19 +734,19 @@
           <test>
             <equal>
               <clip pos="1" side="sl" part="a_foc"/>
-              <lit-tag v="Foc_pa"/>
+              <lit-tag v="foc_pa"/>
             </equal>
           </test>
           <let>
             <clip pos="1" side="tl" part="a_foc"/>
-            <lit-tag v="Foc_ba"/>
+            <lit-tag v="foc_ba"/>
           </let>
         </when>
         <when>
           <test>
             <equal>
               <clip pos="1" side="sl" part="a_foc"/>
-              <lit-tag v="Foc_s"/>
+              <lit-tag v="foc_s"/>
             </equal>
           </test>
           <let>
@@ -759,21 +759,21 @@
             <or>
               <equal>
                 <clip pos="1" side="sl" part="a_foc"/>
-                <lit-tag v="Foc_kin"/>
+                <lit-tag v="foc_kin"/>
               </equal>
               <equal>
                 <clip pos="1" side="sl" part="a_foc"/>
-                <lit-tag v="Foc_kaan"/>
+                <lit-tag v="foc_kaan"/>
               </equal>
               <equal>
                 <clip pos="1" side="sl" part="a_foc"/>
-                <lit-tag v="Foc_ka"/>
+                <lit-tag v="foc_ka"/>
               </equal>
             </or>
           </test>
           <let>
             <clip pos="1" side="tl" part="a_foc"/>
-            <lit-tag v="Foc_ge"/>
+            <lit-tag v="foc_ge"/>
           </let>
         </when>
       </choose>
@@ -796,7 +796,7 @@
               <!--
               <equal>
                 <clip pos="1" side="sl" part="a_case"/>
-                <lit-tag v="All"/>
+                <lit-tag v="all"/>
               </equal>
 -->
               <equal>
@@ -820,7 +820,7 @@
           </test>
           <let>
             <clip pos="1" side="tl" part="a_case"/>
-            <lit-tag v="Loc"/>
+            <lit-tag v="loc"/>
           </let>
         </when>
       </choose>
@@ -836,7 +836,7 @@
           </test>
           <let>
             <clip pos="1" side="tl" part="a_case"/>
-            <lit-tag v="Loc"/>
+            <lit-tag v="loc"/>
           </let>
         </when>
       </choose>
@@ -847,12 +847,12 @@
           <test>
             <equal>
               <clip pos="1" side="sl" part="a_case"/>
-              <lit-tag v="All"/>
+              <lit-tag v="all"/>
             </equal>
           </test>
           <let>
             <clip pos="1" side="tl" part="a_case"/>
-            <lit-tag v="Ill"/>
+            <lit-tag v="ill"/>
           </let>
         </when>
       </choose>
@@ -892,7 +892,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
           </test>
           <let>
             <clip pos="1" side="tl" part="a_case"/>
-            <lit-tag v="Ill"/>
+            <lit-tag v="ill"/>
           </let>
         </when>
       </choose>
@@ -1068,11 +1068,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
                 <or>
                   <equal>
                     <clip pos="2" side="tl" part="a_case"/>
-                    <lit-tag v="Ill"/>
+                    <lit-tag v="ill"/>
                   </equal>
                   <equal>
                     <clip pos="2" side="tl" part="a_case"/>
-                    <lit-tag v="Loc"/>
+                    <lit-tag v="loc"/>
                   </equal>
                 </or>
               </and>
@@ -1089,7 +1089,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="2" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
+                <lit-tag v="ess"/>
               </equal>
             </test>
             <call-macro n="strip_nbr2">
@@ -1372,11 +1372,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
                 <or>
                   <equal>
                     <clip pos="1" side="tl" part="a_case"/>
-                    <lit-tag v="Ill"/>
+                    <lit-tag v="ill"/>
                   </equal>
                   <equal>
                     <clip pos="1" side="tl" part="a_case"/>
-                    <lit-tag v="Loc"/>
+                    <lit-tag v="loc"/>
                   </equal>
                 </or>
                 <equal>
@@ -1654,7 +1654,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="1" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
+                <lit-tag v="ess"/>
               </equal>
             </test>
             <call-macro n="strip_nbr">
@@ -1717,11 +1717,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <or>
                 <equal>
                   <clip pos="1" side="tl" part="a_case"/>
-                  <lit-tag v="Ill"/>
+                  <lit-tag v="ill"/>
                 </equal>
                 <equal>
                   <clip pos="1" side="tl" part="a_case"/>
-                  <lit-tag v="Loc"/>
+                  <lit-tag v="loc"/>
                 </equal>
                 <equal>
                   <clip pos="1" side="tl" part="a_case"/>
@@ -1991,7 +1991,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             </test>
             <let>
               <clip pos="1" side="tl" part="a_case"/>
-              <lit-tag v="Ess"/>
+              <lit-tag v="ess"/>
             </let>
           </when>
         </choose>
@@ -2001,7 +2001,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="1" side="sl" part="a_case"/>
-                <lit-tag v="Ill"/>
+                <lit-tag v="ill"/>
               </equal>
             </test>
             <let>
@@ -2020,7 +2020,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="1" side="sl" part="a_case"/>
-                <lit-tag v="Ill"/>
+                <lit-tag v="ill"/>
               </equal>
             </test>
             <let>
@@ -2524,11 +2524,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <or>
                 <equal>
                   <clip pos="2" side="tl" part="a_case"/>
-                  <lit-tag v="Ill"/>
+                  <lit-tag v="ill"/>
                 </equal>
                 <equal>
                   <clip pos="2" side="tl" part="a_case"/>
-                  <lit-tag v="Loc"/>
+                  <lit-tag v="loc"/>
                 </equal>
               </or>
             </test>
@@ -2544,7 +2544,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="2" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
+                <lit-tag v="ess"/>
               </equal>
             </test>
             <call-macro n="strip_nbr2">
@@ -2665,11 +2665,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <or>
                 <equal>
                   <clip pos="2" side="tl" part="a_case"/>
-                  <lit-tag v="Ill"/>
+                  <lit-tag v="ill"/>
                 </equal>
                 <equal>
                   <clip pos="2" side="tl" part="a_case"/>
-                  <lit-tag v="Loc"/>
+                  <lit-tag v="loc"/>
                 </equal>
               </or>
             </test>
@@ -2685,7 +2685,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="2" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
+                <lit-tag v="ess"/>
               </equal>
             </test>
             <call-macro n="strip_nbr2">
@@ -2761,11 +2761,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
                 <or>
                   <equal>
                     <clip pos="2" side="tl" part="a_case"/>
-                    <lit-tag v="Ill"/>
+                    <lit-tag v="ill"/>
                   </equal>
                   <equal>
                     <clip pos="2" side="tl" part="a_case"/>
-                    <lit-tag v="Loc"/>
+                    <lit-tag v="loc"/>
                   </equal>
                 </or>
               </and>
@@ -2782,7 +2782,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="2" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
+                <lit-tag v="ess"/>
               </equal>
             </test>
             <call-macro n="strip_nbr2">
@@ -4215,7 +4215,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="1" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
+                <lit-tag v="ess"/>
               </equal>
             </test>
             <call-macro n="strip_nbr">
@@ -4229,7 +4229,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="2" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
+                <lit-tag v="ess"/>
               </equal>
             </test>
             <call-macro n="strip_nbr">
@@ -4244,11 +4244,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <or>
                 <equal>
                   <clip pos="2" side="tl" part="a_case"/>
-                  <lit-tag v="Loc"/>
+                  <lit-tag v="loc"/>
                 </equal>
                 <equal>
                   <clip pos="2" side="tl" part="a_case"/>
-                  <lit-tag v="Ill"/>
+                  <lit-tag v="ill"/>
                 </equal>
               </or>
             </test>
@@ -4324,7 +4324,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="1" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
+                <lit-tag v="ess"/>
               </equal>
             </test>
             <call-macro n="strip_nbr">
@@ -4338,7 +4338,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="2" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
+                <lit-tag v="ess"/>
               </equal>
             </test>
             <call-macro n="strip_nbr">
@@ -4353,11 +4353,11 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
               <or>
                 <equal>
                   <clip pos="2" side="tl" part="a_case"/>
-                  <lit-tag v="Loc"/>
+                  <lit-tag v="loc"/>
                 </equal>
                 <equal>
                   <clip pos="2" side="tl" part="a_case"/>
-                  <lit-tag v="Ill"/>
+                  <lit-tag v="ill"/>
                 </equal>
               </or>
             </test>
@@ -4416,7 +4416,7 @@ So, Tra > Ess if predicative. But for this we need syntactic tags.
             <test>
               <equal>
                 <clip pos="1" side="tl" part="a_case"/>
-                <lit-tag v="Ess"/>
+                <lit-tag v="ess"/>
               </equal>
             </test>
             <call-macro n="strip_nbr">

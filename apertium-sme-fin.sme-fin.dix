@@ -25,7 +25,7 @@
     <sdef n="Card"     c="Cardinal"/>
     <sdef n="Real"     c="Real number"/>
     <sdef n="Ord"      c="Ordinal"/>
-    <sdef n="Sg"       c="Singular"/>
+    <sdef n="sg"       c="Singular"/>
     <sdef n="pl"       c="Plural"/>
     <sdef n="sg1"      c="First-person singular"/>
     <sdef n="sg2"      c="Second-person singular"/>
@@ -74,8 +74,8 @@
   <pardefs>
     <pardef n="juohke_kukin__Pron">
       <e r="LR"><p><l></l><r><s n="ND"/></r></p></e>
-      <e r="RL"><p><l></l><r><s n="Sg"/><s n="Nom"/></r></p></e>
-      <e r="RL"><p><l></l><r><s n="Sg"/><s n="Gen"/></r></p></e>
+      <e r="RL"><p><l></l><r><s n="sg"/><s n="Nom"/></r></p></e>
+      <e r="RL"><p><l></l><r><s n="sg"/><s n="Gen"/></r></p></e>
       <e r="RL"><p><l></l><r><s n="pl"/><s n="Nom"/></r></p></e>
       <e r="RL"><p><l></l><r><s n="pl"/><s n="Gen"/></r></p></e>
     </pardef>
@@ -643,9 +643,9 @@
 		
 		<!-- Pronouns -->
 
-		<e><p><l>mun<s n="prn"/><s n="pers"/><s n="sg1"/></l><r>minä<s n="prn"/><s n="pers"/></r></p></e>
-		<e><p><l>don<s n="prn"/><s n="pers"/><s n="sg2"/></l><r>sinä<s n="prn"/><s n="pers"/></r></p></e>
-		<e><p><l>son<s n="prn"/><s n="pers"/><s n="sg3"/></l><r>hän<s n="prn"/><s n="pers"/></r></p></e>
+		<e><p><l>mun<s n="prn"/><s n="pers"/><s n="sg1"/></l><r>minä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
+		<e><p><l>don<s n="prn"/><s n="pers"/><s n="sg2"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
+		<e><p><l>son<s n="prn"/><s n="pers"/><s n="sg3"/></l><r>hän<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
 
 		<!-- This is how omorfi and giellatekno analyze plurals it-->
 		<e><p><l>mun<s n="prn"/><s n="pers"/><s n="pl1"/></l><r>minä<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e> 
@@ -665,7 +665,7 @@
 		<e><p><l>goabbá<s n="prn"/><s n="itg"/></l><r>kumpi<s n="prn"/><s n="itg"/></r></p></e>
 		
 		<e><p><l>juoga<s n="prn"/><s n="Indef"/></l><r>jokin<s n="prn"/></r></p></e>
-		<e><p><l>buot<s n="prn"/><s n="Indef"/><s n="Sg"/></l><r>kaikki<s n="prn"/><s n="Indef"/><s n="Sg"/></r></p></e>
+		<e><p><l>buot<s n="prn"/><s n="Indef"/><s n="sg"/></l><r>kaikki<s n="prn"/><s n="Indef"/><s n="sg"/></r></p></e>
 		<e><p><l>buohkat<s n="prn"/><s n="Indef"/><s n="pl"/></l><r>kaikki<s n="prn"/><s n="Indef"/><s n="pl"/></r></p></e>
 		<!--<e><p><l>buohkat<s n="prn"/><s n="Indef"/></l><r>kaikki<s n="prn"/></r></p></e>-->
 		<e><p><l>mihkkege<s n="prn"/><s n="Indef"/></l><r>mikään<s n="prn"/><s n="Qnt"/></r></p></e>
@@ -705,7 +705,7 @@
 	<e><p><l>okta<s n="num"/></l><r>yksi<s n="prn"/></r></p></e>
 	
 	<!-- Pron : N -->
-	<e r="RL"><p><l>goappašat<s n="prn"/><s n="Indef"/><s n="pl"/></l><r>molempi<s n="n"/><s n="Sg"/></r></p></e>
+	<e r="RL"><p><l>goappašat<s n="prn"/><s n="Indef"/><s n="pl"/></l><r>molempi<s n="n"/><s n="sg"/></r></p></e>
 	<e><p><l>goappašat<s n="prn"/><s n="Indef"/><s n="pl"/></l><r>molempi<s n="n"/><s n="pl"/></r></p></e>
 	
 	 <!-- echo "joku" | ofin
@@ -1146,7 +1146,7 @@
     <e><p><l>bearjadat<s n="n"/></l><r>perjantai<s n="n"/></r></p></e>
     <e><p><l>beaska<s n="n"/></l><r>peski<s n="n"/></r></p></e>
     <e><p><l>beassi<s n="n"/></l><r>pesä<s n="n"/></r></p></e>
-    <e r="RL"><p><l>beassážat<s n="n"/><s n="pl"/></l><r>pääsiäinen<s n="n"/><s n="Sg"/></r></p></e>
+    <e r="RL"><p><l>beassážat<s n="n"/><s n="pl"/></l><r>pääsiäinen<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>beassážat<s n="n"/><s n="pl"/></l><r>pääsiäinen<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>beassášbeaivi<s n="n"/></l><r>pääsiäispäivä<s n="n"/></r></p></e>
     <e><p><l>beassášluopmu<s n="n"/></l><r>pääsiäisloma<s n="n"/></r></p></e>
