@@ -7565,6 +7565,7 @@
     <!-- Punctuation -->
     <e><re>[0-9]+([.:, ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[.\?;:]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[.\?;:]+</re><p><l><s n="punct"/></l><r><s n="punct"/></r></p></e>
     <e><p><l>excl<s n="CLB"/></l><r>!<s n="punct"/><s n="CLB"/></r></p></e>
     <e><p><l>,<s n="CLB"/></l><r>,<s n="punct"/><s n="CLB"/></r></p></e>
     <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/><s n="CLB"/></r></p></e>

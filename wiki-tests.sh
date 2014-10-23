@@ -3,7 +3,7 @@
 TESTTYPE="$1_tests"
 SRCLANG="$2"
 TRGLANG="$3"
-mode="$SRCLANG-$TRGLANG"
+mode="$SRCLANG-$TRGLANG-debug"
 HTML="dev/$TESTTYPE.html"
 
 if [ "$#" -lt 3 ]; then echo "Usage: wiki-tests.sh {Regression,Pending} SRCLANG TRGLANG [update]"; exit 1; fi
@@ -60,6 +60,7 @@ if [ "$TRGLANG" == "nob-old" ]; then
     cat $TSTLIST | $SED 's/\.$//g' | $SED 's/\t/ /g'  | $SED 's/$/ /g' | $SED ':a;N;$!ba;s/\n//g' | $SED 's/\\@¶/\n/g' | $SED 's/^ *//g'  | grep -v '^$' | $SED 's/ \([,?.]\) /\1 /g' > $TSTLIST.n; mv $TSTLIST.n $TSTLIST;
 fi
 
+mode=`echo $mode | sed 's/-debug//g'`;
 
 # Output the MT vs ref translations:
 TOTAL=0
