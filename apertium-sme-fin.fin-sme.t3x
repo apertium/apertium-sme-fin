@@ -20,17 +20,17 @@
       <attr-item tags="N.Prop"/>
     </def-attr>
     <def-attr n="nbr">
-      <attr-item tags="Sg"/>
-      <attr-item tags="Pl"/>
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
       <attr-item tags="NN"/>
     </def-attr>
     <def-attr n="a_person">
-      <attr-item tags="Sg1"/>
-      <attr-item tags="Sg2"/>
-      <attr-item tags="Sg3"/>
-      <attr-item tags="Pl1"/>
-      <attr-item tags="Pl2"/>
-      <attr-item tags="Pl3"/>
+      <attr-item tags="sg1"/>
+      <attr-item tags="sg2"/>
+      <attr-item tags="sg3"/>
+      <attr-item tags="pl1"/>
+      <attr-item tags="pl2"/>
+      <attr-item tags="pl3"/>
       <attr-item tags="Pe4"/>
       <attr-item tags="PD"/>
     </def-attr>
@@ -72,7 +72,7 @@
             </test>
             <let>
               <clip pos="1" part="a_person"/>
-              <lit-tag v="Sg3"/>
+              <lit-tag v="sg3"/>
             </let>
           </when>
         </choose>
@@ -103,7 +103,7 @@
             </test>
             <let>
               <clip pos="1" part="a_person"/>
-              <lit-tag v="Sg3"/>
+              <lit-tag v="sg3"/>
             </let>
           </when>
         </choose>
