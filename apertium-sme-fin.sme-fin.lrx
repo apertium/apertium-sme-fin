@@ -1,0 +1,3 @@
+<rules>
+  <rule><match lemma="biila"><select lemma="auto"/></match></rule>
+</rules>

@@ -1,3 +1,7 @@
+###############################################################################
+## Makefile for sme-fin
+###############################################################################
+
 VERSION=0.1.0
 LANG1=sme
 LANG2=fin
@@ -6,119 +10,140 @@ PREFIX2=$(LANG2)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
 
-##
-##	BUILD TARGETS
-##
-
 TARGETS_COMMON = \
+	$(PREFIX1).autobil.bin \
+	$(PREFIX1).autogen.hfst \
+	$(PREFIX1).autolex.bin \
+	$(PREFIX1).automorf.hfst \
+	$(PREFIX1).rlx.bin \
+	$(PREFIX1).t1x.bin  \
+	$(PREFIX1).t1x.bin \
+	$(PREFIX1).t2x.bin \
+	$(PREFIX1).t3x.bin \
+	$(PREFIX2).autobil.bin \
 	$(PREFIX2).autogen.hfst \
+	$(PREFIX2).autolex.bin \
 	$(PREFIX2).automorf.hfst \
 	$(PREFIX2).rlx.bin \
-	$(PREFIX2).autolex.bin \
-	$(PREFIX2).lex.bin \
-	$(PREFIX1).autobil.bin \
-	$(PREFIX2).autobil.bin \
+	$(PREFIX2).t1x.bin \
 	$(PREFIX2).t1x.bin \
 	$(PREFIX2).t2x.bin \
-	$(PREFIX2).t3x.bin \
-	$(PREFIX1).automorf.hfst \
-	$(PREFIX2).mode
+	$(PREFIX2).t3x.bin
 
-# This include defines goals for install-modes, .deps/.d and .mode files:
+
+# This include desmees goals for install-modes, .deps/.d and .mode files:
 @ap_include@
-
-
-#
-#
-#
-
-$(PREFIX2).automorf.hfst: $(AP_LIB2)/$(LANG2).automorf.hfst
-	cp $(AP_LIB2)/$(LANG2).automorf.hfst $@
-
-$(PREFIX1).autogen.hfst: $(AP_LIB2)/$(LANG2).autogen.hfst
-	cp $(AP_LIB2)/$(LANG2).autogen.hfst $@
-
-#
-# This is a generator 'apertium-sme-smj.smj.hfst'
-#
 
 .deps/$(PREFIX1).autobil.prefixes: $(PREFIX1).autobil.bin .deps/.d
 	lt-print $< | sed 's/ /@_SPACE_@/g' > .deps/$(PREFIX1).autobil.att
 	hfst-txt2fst -e ε <  .deps/$(PREFIX1).autobil.att > .deps/$(PREFIX1).autobil.hfst
 	hfst-project -p upper .deps/$(PREFIX1).autobil.hfst > .deps/$(PREFIX1).autobil.upper
 	echo ' [ ? - %+ ]* ' | hfst-regexp2fst > .deps/any-nonplus.hfst
-	hfst-concatenate -1 .deps/$(PREFIX1).autobil.upper -2 .deps/any-nonplus.hfst -o .deps/$(PREFIX1).autobil.nonplussed # bidix [^+]*
+	hfst-concatenate -1 .deps/$(PREFIX1).autobil.upper -2 .deps/any-nonplus.hfst -o .deps/$(PREFIX1).autobil.nonplussed 
 	echo ' %+ ' | hfst-regexp2fst > .deps/single-plus.hfst
-	hfst-concatenate -1 .deps/single-plus.hfst -2 .deps/$(PREFIX1).autobil.nonplussed -o .deps/$(PREFIX1).autobil.postplus # + bidix [^+]*
-	hfst-repeat -f0 -t1 -i .deps/$(PREFIX1).autobil.postplus -o .deps/$(PREFIX1).autobil.postplus.0,1 # (+ bidix [^+]*){0,1} gives at most one +
+	hfst-concatenate -1 .deps/single-plus.hfst -2 .deps/$(PREFIX1).autobil.nonplussed -o .deps/$(PREFIX1).autobil.postplus
+	hfst-repeat -f0 -t1 -i .deps/$(PREFIX1).autobil.postplus -o .deps/$(PREFIX1).autobil.postplus.0,1 
 	hfst-concatenate -1 .deps/$(PREFIX1).autobil.nonplussed -2 .deps/$(PREFIX1).autobil.postplus.0,1 -o $@
 
-#.deps/$(LANG1).automorf.hfst: $(AP_SRC1)/$(BASENAME).$(PREFIX1).LR.att.gz .deps/.d
-.deps/$(LANG1).automorf.hfst: $(AP_SRC1)/apertium-sme-nob.sme-nob.LR.att.gz .deps/.d
-	$(ZCAT) $< | hfst-txt2fst > $@
+.deps/$(PREFIX2).autobil.prefixes: $(PREFIX2).autobil.bin .deps/.d
+	lt-print $< | sed 's/ /@_SPACE_@/g' > .deps/$(PREFIX2).autobil.att
+	hfst-txt2fst -e ε <  .deps/$(PREFIX2).autobil.att > .deps/$(PREFIX2).autobil.hfst
+	hfst-project -p upper .deps/$(PREFIX2).autobil.hfst > .deps/$(PREFIX2).autobil.upper
+	echo ' [ ? - %+ ]* ' | hfst-regexp2fst > .deps/any-nonplus.hfst
+	hfst-concatenate -1 .deps/$(PREFIX2).autobil.upper -2 .deps/any-nonplus.hfst -o .deps/$(PREFIX2).autobil.nonplussed 
+	echo ' %+ ' | hfst-regexp2fst > .deps/single-plus.hfst
+	hfst-concatenate -1 .deps/single-plus.hfst -2 .deps/$(PREFIX2).autobil.nonplussed -o .deps/$(PREFIX2).autobil.postplus 
+	hfst-repeat -f0 -t1 -i .deps/$(PREFIX2).autobil.postplus -o .deps/$(PREFIX2).autobil.postplus.0,1
+	hfst-concatenate -1 .deps/$(PREFIX2).autobil.nonplussed -2 .deps/$(PREFIX2).autobil.postplus.0,1 -o $@
 
-.deps/$(LANG1).autogen.hfst: $(AP_SRC1)/apertium-sme-nob.sme-nob.LR.att.gz .deps/.d
-	$(ZCAT) $< | hfst-txt2fst | hfst-invert -o $@
+###############################################################################
+## Finnish→Estonian monolingual transducers
+###############################################################################
 
-.deps/$(PREFIX1).automorf-unrestricted.hfst: .deps/$(LANG1).automorf.hfst .deps/$(PREFIX1).autobil.prefixes
-	hfst-compose-intersect -1 $< -2 .deps/$(PREFIX1).autobil.prefixes -o $@
+# sme->fin mor
+# apertium-sme-fin.sme-fin.LR.att.gz
+$(PREFIX1).automorf.hfst: $(AP_SRC1)/$(BASENAME).$(PREFIX1).LR.att.gz .deps/$(PREFIX1).autobil.prefixes .deps/.d 
+	$(ZCAT) $(AP_SRC1)/$(BASENAME).$(PREFIX1).LR.att.gz | hfst-txt2fst -o .deps/$(PREFIX1).automorf.untrimmed.hfst
+	hfst-compose-intersect -1 .deps/$(PREFIX1).automorf.untrimmed.hfst -2 .deps/$(PREFIX1).autobil.prefixes -o .deps/$(PREFIX1).automorf.hfst
+	hfst-fst2fst -O .deps/$(PREFIX1).automorf.hfst -o $@
 
-$(PREFIX1).automorf-unrestricted.hfst: .deps/$(PREFIX1).automorf-unrestricted.hfst
-	hfst-fst2fst -O -i $< -o $@
+# fin->sme mor
+# apertium-sme-fin.fin-sme.LR.att.gz
+$(PREFIX2).automorf.hfst: $(AP_SRC2)/$(BASENAME).$(PREFIX2).LR.att.gz .deps/$(PREFIX2).autobil.prefixes .deps/.d
+	$(ZCAT) $(AP_SRC2)/$(BASENAME).$(PREFIX2).LR.att.gz | hfst-txt2fst -o .deps/$(PREFIX2).automorf.untrimmed.hfst
+	hfst-compose-intersect -1 .deps/$(PREFIX2).automorf.untrimmed.hfst -2 .deps/$(PREFIX2).autobil.prefixes -o .deps/$(PREFIX2).automorf.hfst 
+	hfst-fst2fst -O .deps/$(PREFIX2).automorf.hfst -o $@
 
-# rm-deriv-cmp.twol is checked in to SVN since derivation-tags.txt is
-# not installed by giella-sme; this goal only run if --with-lang1 set
-rm-deriv-cmp.twol: $(wildcard $(AP_SRC1)/filters/derivation-tags.txt*) dev/update-rm-deriv-cmp
-	test "$<" = "$^" || dev/update-rm-deriv-cmp $< $@
-# The wildcard+test means we ignore the goal if we don't find
-# derivation-tags.txt
+# sme->fin gen
+# apertium-fin.fin.RL.att.gz
+$(PREFIX1).autogen.hfst: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).RL.att.gz .deps/.d
+	$(ZCAT) $< | hfst-txt2fst -o .deps/$(PREFIX1).automorf.hfst
+	hfst-fst2fst -O .deps/$(PREFIX1).automorf.hfst -o $@
+#	$(ZCAT) $<  > .deps/$(PREFIX1).autogen.RL.att
+#	lt-comp lr .deps/$(PREFIX1).autogen.RL.att $@
 
-.deps/rm-deriv-cmp.hfst: rm-deriv-cmp.twol .deps/.d
-	hfst-twolc -i $< -o $@
-
-.deps/$(PREFIX1).automorf.hfst: .deps/$(PREFIX1).automorf-unrestricted.hfst .deps/rm-deriv-cmp.hfst
-	hfst-compose-intersect -1 $< -2 .deps/rm-deriv-cmp.hfst -o $@
-
-$(PREFIX1).automorf.hfst: .deps/$(PREFIX1).automorf.hfst
-	hfst-fst2fst -O -i $< -o $@
-
-
-$(PREFIX2).autogen.hfst: .deps/$(LANG1).autogen.hfst
-	hfst-fst2fst -O -i $< -o $@
+# fin->sme gen
+# apertium-sme.sme.RL.att.gz
+$(PREFIX2).autogen.hfst: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).RL.att.gz .deps/.d
+	$(ZCAT) $< | hfst-txt2fst -o .deps/$(PREFIX2).automorf.hfst
+	hfst-fst2fst -O .deps/$(PREFIX2).automorf.hfst -o $@
 
 
-## 	BILINGUAL DICTIONARIES
+###############################################################################
+## Prob files for tagger
+###############################################################################
+
+#$(PREFIX1).prob: $(AP_SRC1)/$(LANG1).prob
+#	cp $< $@
+
+###############################################################################
+## Bilingual dictionaries
+###############################################################################
 
 $(PREFIX1).autobil.bin: $(BASENAME).$(PREFIX1).dix
-	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-	lt-comp lr $(BASENAME).$(PREFIX1).dix $@
-
+	apertium-validate-dictionary $<
+	lt-comp lr $< $@
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
-	apertium-validate-dictionary $(BASENAME).$(PREFIX1).dix
-	lt-comp rl $(BASENAME).$(PREFIX1).dix $@
+	apertium-validate-dictionary $< 
+	lt-comp rl $< $@
 
-##
-##	PRE-TAGGING: CONSTRAINT GRAMMAR(S)
-##
+###############################################################################
+## Disambiguation rules 
+###############################################################################
 
-$(PREFIX2).rlx.bin: $(AP_SRC2)/apertium-$(LANG2).$(LANG2).rlx
-	cg-comp $< $@
+$(PREFIX1).rlx.bin: $(AP_SRC1)/$(LANG1).mor.rlx.bin
+	cp $< $@
 
-##
-##	LEXICAL SELECTION: CONSTRAINT GRAMMAR(S)
-##
+$(PREFIX2).rlx.bin: $(AP_SRC2)/$(LANG2).mor.rlx.bin
+	cp $< $@
 
-$(PREFIX2).lex.bin: $(BASENAME).$(PREFIX2).lex
-	cg-comp $(BASENAME).$(PREFIX2).lex $@
+
+###############################################################################
+## Lexical selection rules
+###############################################################################
+
+$(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+	lrx-comp $< $@
 
 $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
-	lrx-comp $(BASENAME).$(PREFIX2).lrx $@
+	lrx-comp $< $@
 
+###############################################################################
+## Structural transfer rules
+###############################################################################
 
-##
-##	TRANSFER RULES
-##
+$(PREFIX1).t1x.bin: $(BASENAME).$(PREFIX1).t1x
+	apertium-validate-transfer $(BASENAME).$(PREFIX1).t1x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX1).t1x $@
+
+$(PREFIX1).t2x.bin: $(BASENAME).$(PREFIX1).t2x
+	apertium-validate-interchunk $(BASENAME).$(PREFIX1).t2x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX1).t2x $@
+
+$(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
+	apertium-validate-postchunk $(BASENAME).$(PREFIX1).t3x
+	apertium-preprocess-transfer $(BASENAME).$(PREFIX1).t3x $@
 
 $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $(BASENAME).$(PREFIX2).t1x
@@ -133,53 +158,60 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 	apertium-preprocess-transfer $(BASENAME).$(PREFIX2).t3x $@
 
 
+###############################################################################
+## Postgeneration dictionaries
+###############################################################################
 
-##
-##	MODE FILE(S)
-##
+#$(PREFIX1).autopgen.bin: $(BASENAME).post-$(LANG1).dix
+#	apertium-validate-dictionary $<
+#	lt-comp lr $< $@
+#
+#$(PREFIX2).autopgen.bin: $(BASENAME).post-$(LANG2).dix
+#	apertium-validate-dictionary $< 
+#	lt-comp lr $< $@
 
-$(PREFIX2).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
+###############################################################################
+## Distribution
+###############################################################################
 
-# So that debug modes get built even if we don't "make install":
-noinst_DATA=modes/$(PREFIX2).mode
+# Files which are distributed, but not built:
+EXTRA_DIST=$(PREFIX1).prob \
+	   $(PREFIX2).prob \
+	   $(BASENAME).$(PREFIX1).t1x \
+	   $(BASENAME).$(PREFIX1).t2x \
+	   $(BASENAME).$(PREFIX1).t3x \
+	   $(BASENAME).$(PREFIX2).t1x \
+	   $(BASENAME).$(PREFIX2).t2x \
+	   $(BASENAME).$(PREFIX2).t3x \
+	   modes.xml
 
-## 
-##	FILES WHICH AREN'T BUILT BUT ARE DISTRIBUTED
-## 
 
-EXTRA_DIST=\
-	$(PREFIX2).prob \
-	$(BASENAME).$(PREFIX2).rlx \
-	$(BASENAME).$(PREFIX2).lrx \
-	$(BASENAME).$(PREFIX2).dix \
-	$(BASENAME).$(PREFIX2).t1x \
-	$(BASENAME).$(PREFIX2).t2x \
-	$(BASENAME).$(PREFIX2).t3x \
-	modes.xml 
-
+###############################################################################
+## Installation
+###############################################################################
 
 apertium_sme_findir=$(prefix)/share/apertium/$(BASENAME)/
-apertium_sme_modesdir=$(prefix)/share/apertium/modes/
 
-apertium_sme_fin_DATA=$(TARGETS_COMMON)
-
-
-install-data-local:
-	mv modes modes.bak
-	apertium-gen-modes modes.xml $(BASENAME)
-	rm -rf modes
-	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_sme_modesdir) || mkdir $(DESTDIR)$(apertium_sme_modesdir)
-	$(INSTALL_DATA) $(PREFIX2).mode $(DESTDIR)$(apertium_sme_modesdir)
-	rm $(PREFIX2).mode
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t1x $(DESTDIR)$(apertium_sme_findir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t2x $(DESTDIR)$(apertium_sme_findir)
-	$(INSTALL_DATA) $(BASENAME).$(PREFIX2).t3x $(DESTDIR)$(apertium_sme_findir)
+# Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
+apertium_sme_fin_DATA=$(TARGETS_COMMON) \
+	$(BASENAME).$(PREFIX1).t1x \
+	$(BASENAME).$(PREFIX1).t2x \
+	$(BASENAME).$(PREFIX1).t3x \
+	$(BASENAME).$(PREFIX2).t1x \
+	$(BASENAME).$(PREFIX2).t2x \
+	$(BASENAME).$(PREFIX2).t3x
 
 
+# All modes are created by the same goal, listing several will just give problems with make -j2
+noinst_DATA=modes/$(PREFIX1).mode
+
+install-data-local: install-modes
 
 
-CLEANFILES= -rf $(TARGETS_COMMON) .deps modes
+###############################################################################
+## Cleanup
+###############################################################################
+
+CLEANFILES = $(TARGETS_COMMON)
+clean-local: 
+	-rm -rf .deps modes
