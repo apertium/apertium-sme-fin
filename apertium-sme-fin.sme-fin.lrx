@@ -2,22 +2,22 @@
   <rule><match lemma="biila"><select lemma="auto"/></match></rule>
 
 <rule> 
-  <match lemma="pitää" tags="v.*">
-    <select lemma="doallat" tags="v.*"/>
+  <match lemma="pitää" tags="vblex.*">
+    <select lemma="doallat" tags="vblex.*"/>
   </match>
  </rule>
 
 <rule>
-  <match lemma="pitää" tags="v.*">
-    <select lemma="liikot" tags="v.*"/>
+  <match lemma="pitää" tags="vblex.*">
+    <select lemma="liikot" tags="vblex.*"/>
   </match>
   <match tags="*.ela"/>
 </rule>
 
 <rule>
   <match tags="*.gen"/>
-  <match lemma="pitää" tags="v.*">
-    <select lemma="berret" tags="v.*"/>
+  <match lemma="pitää" tags="vblex.*">
+    <select lemma="berret" tags="vblex.*"/>
   </match>
 </rule>
  
