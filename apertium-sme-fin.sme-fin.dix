@@ -649,10 +649,14 @@
         <e><p><l>mun<s n="prn"/><s n="pers"/><s n="sg1"/></l><r>minä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
         <e><p><l>don<s n="prn"/><s n="pers"/><s n="sg2"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
         <e><p><l>son<s n="prn"/><s n="pers"/><s n="sg3"/></l><r>hän<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
-
+<!--
         <e><p><l>mun<s n="prn"/><s n="pers"/><s n="pl1"/></l><r>minä<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e> 
         <e><p><l>don<s n="prn"/><s n="pers"/><s n="pl2"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
         <e><p><l>son<s n="prn"/><s n="pers"/><s n="pl3"/></l><r>hän<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+-->
+        <e><p><l>mun<s n="prn"/><s n="pers"/><s n="pl1"/></l><r>me<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e> 
+        <e><p><l>don<s n="prn"/><s n="pers"/><s n="pl2"/></l><r>te<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+        <e><p><l>son<s n="prn"/><s n="pers"/><s n="pl3"/></l><r>he<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
 
         <e><p><l>dat<s n="prn"/><s n="dem"/></l><r>se<s n="prn"/><s n="dem"/></r></p></e>
         <e><p><l>dát<s n="prn"/><s n="dem"/></l><r>tämä<s n="prn"/><s n="dem"/></r></p></e>
@@ -5273,6 +5277,7 @@
     <e><p><l>sáhppat<s n="adj"/></l><r>violetti<s n="adj"/></r></p><par n="A_A"/></e> 
     <e><p><l>sámegielat<s n="adj"/></l><r>saamenkielinen<s n="adj"/></r></p><par n="A_A"/></e> 
     <e><p><l>sápmelaš<s n="adj"/></l><r>saamelainen<s n="adj"/></r></p><par n="A_A"/></e> 
+    <e><p><l>suopmálaš<s n="adj"/></l><r>suomalainen<s n="adj"/></r></p><par n="A_A"/></e> 
     <e><p><l>sávri<s n="adj"/></l><r>kestävä<s n="adj"/></r></p><par n="A_A"/></e> 
     <e><p><l>uhcci<s n="adj"/></l><r>pieni<s n="adj"/></r></p><par n="A_A"/></e> 
     <e><p><l>unni<s n="adj"/></l><r>pieni<s n="adj"/></r></p><par n="A_A"/></e> 
@@ -6856,13 +6861,14 @@
     <e><p><l>vanahit<s n="vblex"/><s n="tv"/></l><r>pitkittää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ahkiduššat<s n="vblex"/><s n="iv"/></l><r>pitkästyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e r="LR"><p><l>galgat<s n="vblex"/><s n="iv"/></l><r>pitää<s n="vblex"/></r></p><par n="V_V"/></e><!-- skulle, should -->
-    <e srl="1"><p><l>berret<s n="vblex"/><s n="iv"/></l><r>pitää<s n="vblex"/></r></p><par n="V_V"/></e><!-- burde, ought to -->
-    <e srl="2"><p><l>liikot<s n="vblex"/><s n="iv"/></l><r>pitää<s n="vblex"/></r></p><par n="V_V"/></e><!-- like (ela to ill)  -->
-    <e srl="3"><p><l>coakcut<s n="vblex"/><s n="iv"/></l><r>pitää<s n="vblex"/></r></p><par n="V_V"/></e><!-- get grip, foothold -->
+<!--    <e><p><l>galgat<s n="vblex"/><s n="iv"/></l><r>pitää<s n="vblex"/></r></p><par n="V_V"/></e>-->
+    <e><p><l>berret<s n="vblex"/><s n="iv"/></l><r>pitää<s n="vblex"/></r></p><par n="V_V"/></e><!-- burde, ought to -->
+    <e><p><l>liikot<s n="vblex"/><s n="iv"/></l><r>pitää<s n="vblex"/></r></p><par n="V_V"/></e><!-- like (ela to ill)  -->
+    <e><p><l>coakcut<s n="vblex"/><s n="iv"/></l><r>pitää<s n="vblex"/></r></p><par n="V_V"/></e><!-- get grip, foothold -->
     <e><p><l>doallat<s n="vblex"/><s n="tv"/></l><r>pitää<s n="vblex"/></r></p><par n="V_V"/></e><!-- hold (acc) -->
-    <e><p><l>galgat<s n="vblex"/><s n="iv"/></l><r>pitää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>spiehkastit<s n="vblex"/><s n="iv"/></l><r>poiketa<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>spiehkkasit<s n="vblex"/><s n="iv"/></l><r>poiketa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e r="LR"><p><l>spiehkastit<s n="vblex"/><s n="iv"/></l><r>poukahtaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e r="LR"><p><l>spiehkkasit<s n="vblex"/><s n="iv"/></l><r>poiketa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čivgat<s n="vblex"/><s n="iv"/></l><r>poikia<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čoaggit<s n="vblex"/><s n="tv"/></l><r>poimia<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>duolbmat<s n="vblex"/><s n="tv"/></l><r>polkea<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -6877,7 +6883,6 @@
     <e><p><l>boret<s n="vblex"/><s n="tv"/></l><r>porata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>bovret<s n="vblex"/><s n="tv"/></l><r>porata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čiekčat<s n="vblex"/><s n="tv"/></l><r>potkia<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>spiehkastit<s n="vblex"/><s n="iv"/></l><r>poukahtaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>spihkodit<s n="vblex"/><s n="iv"/></l><r>poukkoilla<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>spovet<s n="vblex"/><s n="tv"/></l><r>povata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>bosodit<s n="vblex"/><s n="tv"/></l><r>puhallella<s n="vblex"/></r></p><par n="V_V"/></e>

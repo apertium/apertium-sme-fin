@@ -1,3 +1,25 @@
 <rules>
   <rule><match lemma="biila"><select lemma="auto"/></match></rule>
+
+<rule> 
+  <match lemma="pitää" tags="v.*">
+    <select lemma="doallat" tags="v.*"/>
+  </match>
+ </rule>
+
+<rule>
+  <match lemma="pitää" tags="v.*">
+    <select lemma="liikot" tags="v.*"/>
+  </match>
+  <match tags="*.ela"/>
+</rule>
+
+<rule>
+  <match tags="*.gen"/>
+  <match lemma="pitää" tags="v.*">
+    <select lemma="berret" tags="v.*"/>
+  </match>
+</rule>
+ 
+
 </rules>
