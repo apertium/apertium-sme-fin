@@ -62,15 +62,15 @@ TARGETS_COMMON = \
 
 # sme->fin mor
 # apertium-sme-fin.sme-fin.LR.att.gz
-$(PREFIX1).automorf.hfst: $(AP_SRC1)/$(BASENAME).$(PREFIX1).LR.att.gz .deps/$(PREFIX1).autobil.prefixes .deps/.d 
-	$(ZCAT) $(AP_SRC1)/$(BASENAME).$(PREFIX1).LR.att.gz | hfst-txt2fst -o .deps/$(PREFIX1).automorf.untrimmed.hfst
+$(PREFIX1).automorf.hfst: $(AP_SRC1)/apertium-und.$(LANG1)-und.LR.att.gz .deps/$(PREFIX1).autobil.prefixes .deps/.d 
+	$(ZCAT) $< | hfst-txt2fst -o .deps/$(PREFIX1).automorf.untrimmed.hfst
 	hfst-compose-intersect -1 .deps/$(PREFIX1).automorf.untrimmed.hfst -2 .deps/$(PREFIX1).autobil.prefixes -o .deps/$(PREFIX1).automorf.hfst
 	hfst-fst2fst -O .deps/$(PREFIX1).automorf.hfst -o $@
 
 # fin->sme mor
 # apertium-sme-fin.fin-sme.LR.att.gz
 $(PREFIX2).automorf.hfst: $(AP_SRC2)/$(BASENAME).$(PREFIX2).LR.att.gz .deps/$(PREFIX2).autobil.prefixes .deps/.d
-	$(ZCAT) $(AP_SRC2)/$(BASENAME).$(PREFIX2).LR.att.gz | hfst-txt2fst -o .deps/$(PREFIX2).automorf.untrimmed.hfst
+	$(ZCAT) $< | hfst-txt2fst -o .deps/$(PREFIX2).automorf.untrimmed.hfst
 	hfst-compose-intersect -1 .deps/$(PREFIX2).automorf.untrimmed.hfst -2 .deps/$(PREFIX2).autobil.prefixes -o .deps/$(PREFIX2).automorf.hfst 
 	hfst-fst2fst -O .deps/$(PREFIX2).automorf.hfst -o $@
 
