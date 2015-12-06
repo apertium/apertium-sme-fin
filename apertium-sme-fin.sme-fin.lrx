@@ -29,4 +29,10 @@
 </rule>
 <!-- Odne beaivi báitá. = Tänään aurinko paistaa --> 
 
+<rule>
+  <match lemma="báitit" tags="vblex.*">
+    <select lemma="paistaa" tags="vblex.*"/>
+  </match>
+</rule>
+
 </rules>
