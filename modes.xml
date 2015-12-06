@@ -47,6 +47,9 @@
       <program name="lt-proc -b">
         <file name="sme-fin.autobil.bin"/>
       </program>
+     <program name="lrx-proc -t -m">
+        <file name="sme-fin.autolex.bin"/>
+	</program>
       <program name="apertium-transfer -b">
         <file name="apertium-sme-fin.sme-fin.t1x"/>
         <file name="sme-fin.t1x.bin"/>
@@ -225,6 +228,12 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
+     <program name="lrx-proc -t -m">
+        <file name="fin-sme.autolex.bin"/>
+	</program>
+     <program name="lrx-proc -t -m">
+        <file name="fin-sme.autolex.bin"/>
+	</program>
       <program name="apertium-transfer -b">
         <file name="apertium-sme-fin.fin-sme.t1x"/>
         <file name="fin-sme.t1x.bin"/>
@@ -255,7 +264,10 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+     <program name="lrx-proc -t -m">
+        <file name="fin-sme.autolex.bin"/>
+	</program>
+     <program name="apertium-transfer -b">
         <file name="apertium-sme-fin.fin-sme.t1x"/>
         <file name="fin-sme.t1x.bin"/>
       </program>
@@ -318,6 +330,9 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
+     <program name="lrx-proc -t -m">
+        <file name="fin-sme.autolex.bin"/>
+	</program>
     </pipeline>
   </mode>
 
