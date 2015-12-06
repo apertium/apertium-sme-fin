@@ -21,5 +21,12 @@
   </match>
 </rule>
  
+<rule>
+  <match lemma="beaivi" tags="n.*">
+    <select lemma="aurinko" tags="n.*"/>
+  </match>
+  <match lemma="báitit" tags="vblex.*"/>
+</rule>
+<!-- Odne beaivi báitá. = Tänään aurinko paistaa --> 
 
 </rules>
