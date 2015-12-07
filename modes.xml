@@ -92,6 +92,9 @@
       <program name="vislcg3 --trace --grammar">
         <file name="sme-fin.mor.rlx.bin"/>
       </program>
+      <program name="vislcg3 --trace --grammar">
+        <file name="sme-fin.syn.rlx.bin"/>
+      </program>
     </pipeline>
   </mode>
 

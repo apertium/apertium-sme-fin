@@ -94,6 +94,9 @@
       <attr-item tags="com"/>
       <attr-item tags="ela"/>
       <attr-item tags="ine"/>
+      <attr-item tags="ill"/>
+      <attr-item tags="all"/>
+      <attr-item tags="ade"/>
       <attr-item tags="dat"/>
       <attr-item tags="gen"/>
       <attr-item tags="loc"/>
@@ -398,6 +401,11 @@
         <when>
           <test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="acc"/></equal></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
+        </when>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="loc"/></equal>
+                     <equal><clip pos="1" side="sl" part="a_ext"/><lit-tag v="←hab→"/></equal></and></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ade"/></let>
         </when>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="loc"/></equal></test>
