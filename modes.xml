@@ -245,16 +245,13 @@
       <program name="hfst-proc -e -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -1 -w -n">
         <file name="fin-sme.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
-     <program name="lrx-proc -m">
-        <file name="fin-sme.autolex.bin"/>
-	</program>
      <program name="lrx-proc -m">
         <file name="fin-sme.autolex.bin"/>
 	</program>
@@ -281,7 +278,7 @@
       <program name="hfst-proc -e -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -1 -w -n">
         <file name="fin-sme.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -335,7 +332,7 @@
       <program name="hfst-proc -e -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -1 -w -n">
         <file name="fin-sme.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -347,7 +344,7 @@
       <program name="hfst-proc -e -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -1 -w -n">
         <file name="fin-sme.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -365,7 +362,7 @@
       <program name="hfst-proc -e -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -1 -w -n">
         <file name="fin-sme.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -383,7 +380,7 @@
       <program name="hfst-proc -e -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -1 -w -n">
         <file name="fin-sme.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -405,7 +402,7 @@
       <program name="hfst-proc -e -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -1 -w -n">
         <file name="fin-sme.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
@@ -431,7 +428,7 @@
       <program name="hfst-proc -e -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc">
+      <program name="cg-proc -1 -w -n">
         <file name="fin-sme.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
