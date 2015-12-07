@@ -204,7 +204,7 @@ MAP (G3) (g3);
 MAP (Gen) (gen);
 MAP (Ger) (ger);
 MAP (Ill) (ill);
-MAP (Imprt) (imprt);
+MAP (Imprt) (imp);
 MAP (ImprtII) (imprtii);
 MAP (Ine) (ine);
 MAP (Inf) (inf);

@@ -78,6 +78,8 @@
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+      <attr-item tags="np"/>
+      <attr-item tags="prn"/>
     </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="ND"/>
@@ -402,8 +404,17 @@
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ine"/></let>
         </when>
         <when>
-          <test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal></test>
+          <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal>
+                     <or><equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n"/></equal>
+                         <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="prn"/></equal>
+                         <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal></or></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><concat><lit-tag v="gen"/><lit v="$ ^kanssa"/><lit-tag v="post"/></concat></let>
+        </when>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal>
+                     <not><or><equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n"/></equal>
+                              <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal></or></not></and></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
         </when>
       </choose>
 
