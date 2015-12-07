@@ -113,7 +113,7 @@ Derivations =
 ;
 
 HandledDerivations =
-%<der%_at%>
+!%<der%_at%>
 %<der%_halla%>
 %<der%_l%>
 %<der%_alla%>
@@ -125,7 +125,7 @@ HandledDerivations =
 %<der%_ahtti%>
 %<der%_h%>
 %<der%_d%>
-%<der%_laš%>
+!%<der%_laš%>
 %<der%_st%>
 %<der%_nomag%>
 %<der%_nomact%>

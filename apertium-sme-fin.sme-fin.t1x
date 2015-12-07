@@ -8,6 +8,9 @@
     <def-cat n="ii">
       <cat-item lemma="ii" tags="vblex.*"/>
     </def-cat>
+    <def-cat n="inf">
+      <cat-item tags="vblex.*.inf.*"/>
+    </def-cat>
     <def-cat n="pron">
       <cat-item tags="prn.*"/>
     </def-cat>
@@ -30,8 +33,15 @@
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
+    <def-attr n="a_voice">
+      <attr-item tags="actv"/>
+    </def-attr>
     <def-attr n="a_mood">
       <attr-item tags="indic"/>
+    </def-attr>
+    <def-attr n="a_nonfin">
+      <attr-item tags="inf"/>
+      <attr-item tags="der_minen.sg.ela"/>
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -44,6 +54,7 @@
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
+      <attr-item tags="com"/>
       <attr-item tags="ela"/>
       <attr-item tags="ine"/>
       <attr-item tags="dat"/>
@@ -322,6 +333,10 @@
           <test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="loc"/></equal></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ine"/></let>
         </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><concat><lit-tag v="gen"/><lit v="$ ^kanssa"/><lit-tag v="post"/></concat></let>
+        </when>
       </choose>
 
       <choose>
@@ -330,6 +345,17 @@
           <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
         </when>
       </choose>
+
+    </def-macro>
+    <def-macro n="default-conversion-nonfin1" npar="1">
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="inf"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="der_minen.sg.ela"/></let>
+          <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
+        </when>
+      </choose>
+
 
     </def-macro>
   </section-def-macros>
@@ -416,6 +442,28 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: INF">
+      <pattern>
+        <pattern-item n="inf"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion-nonfin1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: FIN">
       <pattern>
