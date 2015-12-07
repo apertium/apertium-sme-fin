@@ -27,6 +27,9 @@
       <cat-item lemma="leat" tags="vblex.*.indic.pres.*"/>
       <cat-item lemma="leat" tags="vblex.*.indic.pret.*"/>
     </def-cat>
+    <def-cat n="conneg-pret">
+      <cat-item tags="vblex.*.indic.pret.conneg.*"/>
+    </def-cat>
     <def-cat n="cond">
       <cat-item tags="vblex.*.cond.*"/>
     </def-cat>
@@ -728,6 +731,32 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: II CONNEG-PRET">
+      <pattern>
+        <pattern-item n="ii"/>
+        <pattern-item n="conneg-pret"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="2"/></call-macro>
+        <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_mood"/><lit v=""/></let>
+        <out>
+          <chunk name="ii-conneg" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.NEG"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/><clip pos="1" side="tl" part="a_nbr"/>
             </lu>
           </chunk>
         </out>
