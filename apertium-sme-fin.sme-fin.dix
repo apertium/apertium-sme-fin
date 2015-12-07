@@ -37,6 +37,7 @@
     <sdef n="Real"     c="Real number"/>
     <sdef n="ord"      c="Ordinal"/>
     <sdef n="sg"       c="Singular"/>
+    <sdef n="du"       c=""/>
     <sdef n="pl"       c="Plural"/>
     <sdef n="p1"      c="First-person "/>
     <sdef n="p2"      c="Second-person "/>
@@ -657,6 +658,10 @@
         <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>minä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
         <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
         <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>hän<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
+
+        <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>me<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+        <e><p><l>don<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>te<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+        <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>he<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
 <!--
         <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>minä<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e> 
         <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
