@@ -35,4 +35,8 @@
   </match>
 </rule>
 
+<rule>
+  <match lemma="oabbá" tags="n.*"><select lemma="sisko" tags="n.*"/></match>
+</rule>
+
 </rules>

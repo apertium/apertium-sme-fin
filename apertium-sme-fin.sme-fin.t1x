@@ -12,6 +12,11 @@
       <cat-item tags="vblex.*.inf.*"/>
       <cat-item tags="vblex.*.actio.*"/>
     </def-cat>
+    <def-cat n="attr">
+      <cat-item tags="prn.*.attr.*"/>
+      <cat-item tags="adj.*.attr.*"/>
+      <cat-item tags="adj.attr.*"/>
+    </def-cat>
     <def-cat n="pron">
       <cat-item tags="prn.*"/>
     </def-cat>
@@ -48,15 +53,24 @@
       <attr-item tags="der_minen.sg.ela"/>
       <attr-item tags="der_minen.sg.gen"/>
     </def-attr>
+    <def-attr n="a_deriv">
+      <attr-item tags="der_dimin.n"/>
+    </def-attr>
+    <def-attr n="a_attr">
+      <attr-item tags="attr"/>
+      <attr-item tags="ND.CD"/>
+    </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
     <def-attr n="a_nbr">
+      <attr-item tags="ND"/>
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="du"/>
     </def-attr>
     <def-attr n="a_cas">
+      <attr-item tags="CD"/>
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
       <attr-item tags="com"/>
@@ -325,9 +339,42 @@
       <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
     </def-macro>
 
+    <def-macro n="remove-semtags2" npar="2">
+      <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
+      <let><clip pos="2" side="tl" part="a_sem"/><lit v=""/></let>
+    </def-macro>
+
+    <def-macro n="remove-semtags3" npar="3">
+      <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
+      <let><clip pos="2" side="tl" part="a_sem"/><lit v=""/></let>
+      <let><clip pos="3" side="tl" part="a_sem"/><lit v=""/></let>
+    </def-macro>
+
+    <def-macro n="concord-nominal2" npar="2">
+      <let><clip pos="2" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
+      <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
+    </def-macro>
+
+    <def-macro n="concord-nominal3" npar="3">
+      <let><clip pos="2" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
+      <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
+      <let><clip pos="3" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
+      <let><clip pos="3" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
+    </def-macro>
+
+    <def-macro n="handle-nominal-derivation1" npar="1">
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_dimin.n"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_deriv"/><lit v=""/></let>
+        </when>
+      </choose>
+    </def-macro>
+
     <def-macro n="default-conversion1" npar="1">
       <let><clip pos="1" side="tl" part="a_ext"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_fun"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_attr"/><lit-tag v="ND.CD"/></let>
 
       <choose>
         <when>
@@ -352,6 +399,18 @@
       </choose>
 
     </def-macro>
+
+    <def-macro n="default-conversion2" npar="2">
+      <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+      <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
+    </def-macro>
+
+    <def-macro n="default-conversion3" npar="3">
+      <call-macro n="default-conversion1"><with-param pos="3"/></call-macro>
+      <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
+      <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+    </def-macro>
+
     <def-macro n="default-conversion-nonfin1" npar="1">
       <choose>
         <when>
@@ -369,8 +428,6 @@
           <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
         </when>
       </choose>
-
-
     </def-macro>
   </section-def-macros>
   <section-rules>
@@ -436,6 +493,7 @@
       </action>
     </rule>
 
+    <!-- SECTION: Sintagmes nominals -->
 
     <rule comment="REGLA: NOM">
       <pattern>
@@ -444,6 +502,7 @@
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="n" case="caseFirstWord">
             <tags>
@@ -451,6 +510,65 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ATTR NOM">
+      <pattern>
+        <pattern-item n="attr"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="2"/></call-macro>
+        <call-macro n="concord-nominal2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="a-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ATTR ATTR NOM">
+      <pattern>
+        <pattern-item n="attr"/>
+        <pattern-item n="attr"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags3"><with-param pos="3"/><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion3"><with-param pos="3"/><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="3"/></call-macro>
+        <call-macro n="concord-nominal3"><with-param pos="3"/><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="a-a-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
