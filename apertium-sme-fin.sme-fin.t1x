@@ -52,8 +52,14 @@
     <def-attr n="a_qst">
       <attr-item tags="qst"/>
     </def-attr>
+    <def-attr n="a_mood_temps">
+      <attr-item tags="cond"/>
+      <attr-item tags="cond.pres"/>
+      <attr-item tags="cond.pret"/>
+    </def-attr>
     <def-attr n="a_mood">
       <attr-item tags="indic"/>
+      <attr-item tags="cond"/>
     </def-attr>
     <def-attr n="a_nonfin">
       <attr-item tags="inf"/>
