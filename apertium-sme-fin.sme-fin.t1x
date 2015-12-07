@@ -27,6 +27,9 @@
       <cat-item lemma="leat" tags="vblex.*.indic.pres.*"/>
       <cat-item lemma="leat" tags="vblex.*.indic.pret.*"/>
     </def-cat>
+    <def-cat n="cond">
+      <cat-item tags="vblex.*.cond.*"/>
+    </def-cat>
     <def-cat n="fin">
       <cat-item tags="vblex.*.indic.pres.*"/>
       <cat-item tags="vblex.*.indic.pret.*"/>
@@ -56,6 +59,10 @@
       <attr-item tags="cond"/>
       <attr-item tags="cond.pres"/>
       <attr-item tags="cond.pret"/>
+    </def-attr>
+    <def-attr n="a_tense">
+      <attr-item tags="pres"/>
+      <attr-item tags="pret"/>
     </def-attr>
     <def-attr n="a_mood">
       <attr-item tags="indic"/>
@@ -658,6 +665,27 @@
             <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="whole"/><lit-tag v="sg.nom"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: COND">
+      <pattern>
+        <pattern-item n="cond"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_tense"/><lit v=""/></let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
