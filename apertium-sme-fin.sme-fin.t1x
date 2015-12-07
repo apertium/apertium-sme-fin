@@ -49,6 +49,9 @@
     <def-attr n="a_voice">
       <attr-item tags="actv"/>
     </def-attr>
+    <def-attr n="a_qst">
+      <attr-item tags="qst"/>
+    </def-attr>
     <def-attr n="a_mood">
       <attr-item tags="indic"/>
     </def-attr>
@@ -402,6 +405,13 @@
         <when>
           <test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="du"/></equal></test>
           <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></let>
+        </when>
+      </choose>
+
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_qst"/><lit-tag v="qst"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_qst"/><concat><lit v="+ko"/><lit-tag v="qst"/></concat></let>
         </when>
       </choose>
 
