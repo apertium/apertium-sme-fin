@@ -1,7 +1,14 @@
 <rules>
   <rule><match lemma="biila"><select lemma="auto"/></match></rule>
 
-<rule> 
+ <rule> 
+  <match lemma="ii" tags="vblex.*"/>
+  <match lemma="ge" tags="pcle.*">
+    <select lemma="kaan" tags="adv.*"/>
+  </match>
+ </rule>
+
+ <rule> 
   <match lemma="pitää" tags="vblex.*">
     <select lemma="doallat" tags="vblex.*"/>
   </match>

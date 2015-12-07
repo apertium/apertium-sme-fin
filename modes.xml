@@ -17,7 +17,7 @@
       <program name="lt-proc -b">
         <file name="sme-fin.autobil.bin"/>
       </program>
-     <program name="lrx-proc -t -m">
+     <program name="lrx-proc -m">
         <file name="sme-fin.autolex.bin"/>
 	</program>
       <program name="apertium-transfer -b">
@@ -53,7 +53,7 @@
       <program name="lt-proc -b">
         <file name="sme-fin.autobil.bin"/>
       </program>
-     <program name="lrx-proc -t -m">
+     <program name="lrx-proc -m">
         <file name="sme-fin.autolex.bin"/>
 	</program>
       <program name="apertium-transfer -b">
@@ -144,7 +144,7 @@
       <program name="lt-proc -b">
         <file name="sme-fin.autobil.bin"/>
       </program>
-      <program name="lrx-proc -t -m">
+      <program name="lrx-proc -m">
         <file name="sme-fin.autolex.bin"/>
       </program>
     </pipeline>
@@ -252,10 +252,10 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
-     <program name="lrx-proc -t -m">
+     <program name="lrx-proc -m">
         <file name="fin-sme.autolex.bin"/>
 	</program>
-     <program name="lrx-proc -t -m">
+     <program name="lrx-proc -m">
         <file name="fin-sme.autolex.bin"/>
 	</program>
       <program name="apertium-transfer -b">
@@ -288,7 +288,7 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
-     <program name="lrx-proc -t -m">
+     <program name="lrx-proc -m">
         <file name="fin-sme.autolex.bin"/>
 	</program>
      <program name="apertium-transfer -b">
@@ -354,7 +354,7 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
-     <program name="lrx-proc -t -m">
+     <program name="lrx-proc -m">
         <file name="fin-sme.autolex.bin"/>
 	</program>
     </pipeline>
@@ -372,7 +372,7 @@
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -t -m">
         <file name="fin-sme.autolex.bin"/>
       </program>
     </pipeline>

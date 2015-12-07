@@ -111,6 +111,7 @@
 
         <e><p><l>nai<s n="pcle"/></l><r>kin<s n="adv"/></r></p></e> <!-- ;D -->
         <e><p><l>ge<s n="pcle"/></l><r>kin<s n="adv"/></r></p></e> <!-- ;D -->
+        <e><p><l>ge<s n="pcle"/></l><r>kaan<s n="adv"/></r></p></e> <!-- ;D -->
 
     <e><p><l>earret<b/>eará<s n="adv"/></l><r>muun<b/>muassa<s n="adv"/></r></p></e>
     <e><p><l>ovdalis<s n="adv"/></l><r>aiemmin<s n="adv"/></r></p></e>
@@ -160,7 +161,6 @@
     <!-- 
         TODO: see following TODO.
     
-    <e><p><l>eará<s n="Pron+Indef+Attr"/></l><r>eri<s n="part"/></r></p></e>
     <e><p><l>juoidá<s n="Pron+Indef+Sg+Acc"/></l><r>jotain<s n="part "/></r></p></e>
     <e><p><l>eará<s n="Pron+Indef+Attr"/></l><r>muu<s n="adj"/></r></p></e>
      -->
@@ -707,17 +707,16 @@
         <e><p><l>nubbi<s n="prn"/><s n="ind"/></l><r>toinen<s n="prn"/><s n="ind"/></r></p></e>
 
         <e><p><l>giige<s n="prn"/><s n="ind"/></l><r>kukaan<s n="prn"/><s n="qnt"/></r></p></e>
-        <e><p><l>juohke<s n="prn"/></l><r>joka<s n="prn"/></r></p></e>
+        <e><p><l>juohke<s n="prn"/><s n="ind"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
         <e><p><l>makkárge<s n="prn"/><s n="ind"/></l><r>minkäänlainen<s n="adj"/><s n="itg"/></r></p></e>
         <e><p><l>goappašagat<s n="prn"/><s n="ind"/></l><r>molemmat<s n="prn"/><s n="qnt"/></r></p></e>
-        <e><p><l>eará<s n="prn"/></l><r>muu<s n="prn"/></r></p></e>
+        <e><p><l>eará<s n="prn"/><s n="ind"/></l><r>muu<s n="prn"/></r></p></e>
 
 
         
         
         <!-- Pron Indef:part -->
         <e><p><l>juoidá<s n="prn"/><s n="ind"/></l><r>jotain<s n="part"/></r></p></e>
-        <e><p><l>eará<s n="prn"/><s n="ind"/></l><r>eri<s n="part"/></r></p></e>
         
         <!-- diekkár - semmoinen, sellainen? -->
         
@@ -3807,7 +3806,7 @@
     <e><p><l>haŋŋá<s n="n"/></l><r>alli<s n="n"/></r></p></e>
     <e><p><l>háhtta<s n="n"/></l><r>hattu<s n="n"/></r></p></e>
     <e><p><l>hálka<s n="n"/></l><r>ruokki<s n="n"/></r></p></e>
-    <e><p><l>hálla<s n="n"/></l><r>puhe<s n="n"/></r></p></e>
+    <e><p><l>hálla<s n="n"/><s n="g3"/></l><r>puhe<s n="n"/></r></p></e>
     <e><p><l>hállu<s n="n"/></l><r>halu<s n="n"/></r></p></e>
     <e><p><l>hálvvát<s n="n"/></l><r>pahus<s n="n"/></r></p></e>
     <e><p><l>hálli<s n="n"/></l><r>puhuja<s n="n"/></r></p></e>

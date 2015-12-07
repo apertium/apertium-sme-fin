@@ -20,6 +20,13 @@
     <def-cat n="pron">
       <cat-item tags="prn.*"/>
     </def-cat>
+    <def-cat n="prfprc">
+      <cat-item tags="vblex.*.prfprc.*"/>
+    </def-cat>
+    <def-cat n="leat-fin">
+      <cat-item lemma="leat" tags="vblex.*.indic.pres.*"/>
+      <cat-item lemma="leat" tags="vblex.*.indic.pret.*"/>
+    </def-cat>
     <def-cat n="fin">
       <cat-item tags="vblex.*.indic.pres.*"/>
       <cat-item tags="vblex.*.indic.pret.*"/>
@@ -596,6 +603,31 @@
       </action>
     </rule>
 
+
+    <rule comment="REGLA: LEAT-FIN PRFPRC">
+      <pattern>
+        <pattern-item n="leat-fin"/>
+        <pattern-item n="prfprc"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <call-macro n="default-conversion2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="v-prc" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/><lit-tag v="sg.nom"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
     <rule comment="REGLA: FIN">
       <pattern>
