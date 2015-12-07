@@ -744,19 +744,19 @@
     <!-- end pronouns -->
     <!-- Numerals -->
     
-    <e><p><l>okta<s n="num"/></l><r>yksi<s n="num"/><s n="card"/></r></p></e>
-    <e><p><l>guokte<s n="num"/></l><r>kaksi<s n="num"/><s n="card"/></r></p></e>
-    <e><p><l>golbma<s n="num"/></l><r>kolme<s n="num"/><s n="card"/></r></p></e>
-    <e><p><l>njeallje<s n="num"/></l><r>neljä<s n="num"/><s n="card"/></r></p></e>
-    <e><p><l>vihtta<s n="num"/></l><r>viisi<s n="num"/><s n="card"/></r></p></e>
-    <e><p><l>guhtta<s n="num"/></l><r>kuusi<s n="num"/><s n="card"/></r></p></e>
-    <e><p><l>čieža<s n="num"/></l><r>seitsemän<s n="num"/><s n="card"/></r></p></e>
-    <e><p><l>gávcci<s n="num"/></l><r>kahdeksan<s n="num"/><s n="card"/></r></p></e>
-    <e><p><l>ovcci<s n="num"/></l><r>yhdeksän<s n="num"/><s n="card"/></r></p></e>
-    <e><p><l>logi<s n="num"/></l><r>kymmenen<s n="num"/><s n="card"/></r></p></e>
-    <e><p><l>duháhat<s n="num"/></l><r>tuhat<s n="num"/><s n="card"/></r></p></e>
+    <e><p><l>okta<s n="num"/></l><r>yksi<s n="num"/></r></p></e>
+    <e><p><l>guokte<s n="num"/></l><r>kaksi<s n="num"/></r></p></e>
+    <e><p><l>golbma<s n="num"/></l><r>kolme<s n="num"/></r></p></e>
+    <e><p><l>njeallje<s n="num"/></l><r>neljä<s n="num"/></r></p></e>
+    <e><p><l>vihtta<s n="num"/></l><r>viisi<s n="num"/></r></p></e>
+    <e><p><l>guhtta<s n="num"/></l><r>kuusi<s n="num"/></r></p></e>
+    <e><p><l>čieža<s n="num"/></l><r>seitsemän<s n="num"/></r></p></e>
+    <e><p><l>gávcci<s n="num"/></l><r>kahdeksan<s n="num"/></r></p></e>
+    <e><p><l>ovcci<s n="num"/></l><r>yhdeksän<s n="num"/></r></p></e>
+    <e><p><l>logi<s n="num"/></l><r>kymmenen<s n="num"/></r></p></e>
+    <e><p><l>duháhat<s n="num"/></l><r>tuhat<s n="num"/></r></p></e>
        
-    <e><p><l>čuođi<s n="num"/></l><r>sata<s n="num"/><s n="card"/></r></p></e>
+    <e><p><l>čuođi<s n="num"/></l><r>sata<s n="num"/></r></p></e>
     
 <!--
     <e><p><l>@<s n="num"/></l><r>kahdes<s n="num"/><s n="ord"/></r></p></e>
@@ -776,7 +776,7 @@
     <e><p><l>ovccát<s n="adj"/><s n="ord"/></l><r>yhdeksäs<s n="num"/><s n="ord"/></r></p></e>
     <e><p><l>logát<s n="adj"/><s n="ord"/></l><r>kymmenes<s n="num"/><s n="ord"/></r></p></e>
     
-    <e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/><s n="card"/></r></p></e>
+    <e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/><s n="Real"/></r></p></e>
     <!-- end numerals -->
 
