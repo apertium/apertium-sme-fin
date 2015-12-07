@@ -138,7 +138,11 @@ dev/sme_fin_postp_prep -text
 dev/update-lexc.sh -text
 dev/update-rm-deriv-cmp -text
 /fin-sme.prob -text
+/gt2apertium.cg3r -text
 /modes.xml -text
 /pending-tests.sh -text
 /regression-tests.sh -text
+/rm-deriv-cmp.twol -text
+texts/tarina.fin.txt -text
+texts/tarina.sme.txt -text
 /wiki-tests.sh -text

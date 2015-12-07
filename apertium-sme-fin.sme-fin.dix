@@ -7,12 +7,14 @@
     <sdef n="num"      c="Numeral"/>
     <sdef n="punct"    c="Punctuation"/>
     <sdef n="CLB"      c="Clause boundary"/>
+    <sdef n="cm"      c="Comma"/>
     <sdef n="clb"      c="Clause boundary"/>
     <sdef n="adj"        c="Adjective"/>
     <sdef n="qst"        c="Question word"/>
     <sdef n="vblex"        c="Verb"/>
     <sdef n="actv"      c="Active voice"/>
     <sdef n="prn"     c="Pronoun"/>
+    <sdef n="pcle"     c=""/>
     <sdef n="post"       c="Post-position"/>
     <sdef n="pr"       c="Preposition"/>
     <sdef n="Adp"      c="Adposition"/>
@@ -27,6 +29,8 @@
     <sdef n="f"      c="Feminine"/>
     <sdef n="cog"      c="Surname"/>
     <sdef n="guio"      c="Hyphen"/>
+    <sdef n="lpar"      c=""/>
+    <sdef n="rpar"      c=""/>
     <sdef n="sent"     c="End-of-sentence marker"/>
 
     <sdef n="card"     c="Cardinal"/>
@@ -34,15 +38,9 @@
     <sdef n="ord"      c="Ordinal"/>
     <sdef n="sg"       c="Singular"/>
     <sdef n="pl"       c="Plural"/>
-    <sdef n="sg1"      c="First-person singular"/>
-    <sdef n="sg2"      c="Second-person singular"/>
-    <sdef n="sg3"      c="Third-person singular"/>
-    <sdef n="pl1"      c="First-person plural"/>
-    <sdef n="pl2"      c="Second-person plural"/>
-    <sdef n="pl3"      c="Third-person plural"/>
-    <sdef n="du1"      c="First-person dual"/>
-    <sdef n="du2"      c="Second-person dual"/>
-    <sdef n="du3"      c="Third-person dual"/>
+    <sdef n="p1"      c="First-person "/>
+    <sdef n="p2"      c="Second-person "/>
+    <sdef n="p3"      c="Third-person "/>
 
     <sdef n="g3"       c="Grade 3"/>
     <sdef n="pers"     c="Personal"/>
@@ -90,7 +88,7 @@
     <pardef n="V_V">
       <e><p><l></l><r><s n="actv"/></r></p></e>
       <e><p><l><s n="actor"/></l><r><s n="der_ja"/></r></p></e>
-      <e><p><l></l><r></r></p></e>
+<!--      <e><p><l></l><r></r></p></e>-->
     </pardef>
     <pardef n="A_A_Agr">
     <e><p><l><s n="Agr"/></l><r><s n="pos"/></r></p></e>
@@ -110,6 +108,8 @@
     
     <e c="FMT:CHECK"><p><l>seammá<s n="adv"/></l><r>yhtä<s n="adv"/></r></p></e>
     <e c="FMT:CHECK"><p><l>duođaid<s n="adv"/></l><r>välillä<s n="adv"/></r></p></e>
+
+        <e><p><l>nai<s n="pcle"/></l><r>kin<s n="adv"/></r></p></e> <!-- ;D -->
 
     <e><p><l>earret<b/>eará<s n="adv"/></l><r>muun<b/>muassa<s n="adv"/></r></p></e>
     <e><p><l>ovdalis<s n="adv"/></l><r>aiemmin<s n="adv"/></r></p></e>
@@ -170,6 +170,10 @@
     <!-- <e><p><l>ala<s n="post"/></l><r>päälle<s n="post"/></r></p></e> --> <!-- we are westerners -->
 
     <e><p><l>dihte<s n="post"/></l><r>ansiosta<s n="post"/></r></p></e>
+
+        <e><p><l>duohken<s n="post"/></l><r>luona<s n="post"/></r></p></e>
+        <e><p><l>duohken<s n="post"/></l><r>luota<s n="post"/></r></p></e>
+        <e><p><l>duohken<s n="post"/></l><r>takana<s n="post"/></r></p></e>
 
     <e><p><l>birra<s n="post"/></l><r>ympärillä<s n="post"/></r></p></e>
     <e><p><l>siste<s n="post"/></l><r>seassa<s n="post"/></r></p></e>
@@ -405,6 +409,10 @@
     <!--<e><p><l>gasku<s n="post"/></l><r>keskelle<s n="pr"/></r></p></e>-->
     <!--<e><p><l>lahka<s n="post"/></l><r>lähelle<s n="pr"/></r></p></e>-->
 
+        <e><p><l>olgobealde<s n="post"/></l><r>edessä<s n="post"/></r></p></e>
+        <e><p><l>olgobealde<s n="post"/></l><r>ulkopuolelle<s n="post"/></r></p></e>
+        <e><p><l>olgobealde<s n="post"/></l><r>ulkopuolelta<s n="post"/></r></p></e>
+
     
     <!-- Po:Pr -->
     <e><p><l>buohta<s n="post"/></l><r>vastapäätä<s n="pr"/></r></p></e>
@@ -498,7 +506,7 @@
     <e><p><l>garrasit<s n="adv"/></l><r>kovasti<s n="adv"/></r></p></e>
     <e><p><l>goas<s n="adv"/></l><r>milloinka<s n="adv"/></r></p></e>
     <e><p><l>gopmut<s n="adv"/></l><r>kumoon<s n="adv"/></r></p></e>
-    <e><p><l>gos<s n="adv"/></l><r>kussa<s n="adv"/></r></p></e>
+    <e><p><l>gos<s n="adv"/></l><r>missä<s n="adv"/><s n="itg"/></r></p></e>
     <e><p><l>govdadit<s n="adv"/></l><r>leveälti<s n="adv"/></r></p></e>
     <e><p><l>guhkit<s n="adv"/></l><r>pitkälti<s n="adv"/></r></p></e>
     <e><p><l>guhkkin<s n="adv"/></l><r>pitkällä<s n="adv"/></r></p></e>
@@ -628,7 +636,7 @@
         <e><p><l>go<s n="cnjsub"/></l><r>kun<s n="cnjsub"/></r></p></e>
         <e><p><l>jus<s n="cnjsub"/></l><r>jos<s n="cnjsub"/></r></p></e>
         <e><p><l>jus<b/>juo<s n="cnjsub"/></l><r>joskin<s n="cnjsub"/></r></p></e>
-        <e><p><l>muhte<s n="cnjsub"/></l><r>mutta<s n="cnjsub"/></r></p></e>
+        <e><p><l>muhte<s n="cnjsub"/></l><r>mutta<s n="cnjcoo"/></r></p></e>
         <e><p><l>nugo<s n="cnjsub"/></l><r>kuten<s n="cnjsub"/></r></p></e>
         <e><p><l>vai<s n="cnjsub"/></l><r>vai<s n="cnjcoo"/></r></p></e>
         <e><p><l>vai<s n="cnjsub"/></l><r>tai<s n="cnjcoo"/></r></p></e>
@@ -646,17 +654,17 @@
         
         <!-- SECTION: Pronouns -->
 
-        <e><p><l>mun<s n="prn"/><s n="pers"/><s n="sg1"/></l><r>minä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
-        <e><p><l>don<s n="prn"/><s n="pers"/><s n="sg2"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
-        <e><p><l>son<s n="prn"/><s n="pers"/><s n="sg3"/></l><r>hän<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
+        <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>minä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
+        <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
+        <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>hän<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
 <!--
-        <e><p><l>mun<s n="prn"/><s n="pers"/><s n="pl1"/></l><r>minä<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e> 
-        <e><p><l>don<s n="prn"/><s n="pers"/><s n="pl2"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
-        <e><p><l>son<s n="prn"/><s n="pers"/><s n="pl3"/></l><r>hän<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+        <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>minä<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e> 
+        <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+        <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>hän<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
 -->
-        <e><p><l>mun<s n="prn"/><s n="pers"/><s n="pl1"/></l><r>me<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e> 
-        <e><p><l>don<s n="prn"/><s n="pers"/><s n="pl2"/></l><r>te<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
-        <e><p><l>son<s n="prn"/><s n="pers"/><s n="pl3"/></l><r>he<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+        <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>me<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e> 
+        <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>te<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+        <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>he<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
 
         <e><p><l>dat<s n="prn"/><s n="dem"/></l><r>se<s n="prn"/><s n="dem"/></r></p></e>
         <e><p><l>dát<s n="prn"/><s n="dem"/></l><r>tämä<s n="prn"/><s n="dem"/></r></p></e>
@@ -781,6 +789,8 @@
     <e slr="2"><p><l>rábát<s n="n"/></l><r>tahdas<s n="n"/></r></p></e>
     
     <!-- <e><p><l>eden<s n="n"/></l><r>eeden<s n="n"/></r></p></e> --> <!-- 'an Eden' / 'a paradise' -->
+        <e><p><l>stoagus<s n="n"/></l><r>leikki<s n="n"/></r></p></e>
+
 
     <e><p><l>advearba<s n="n"/></l><r>adverbi<s n="n"/></r></p></e>
     <e><p><l>ahki<s n="n"/></l><r>ikä<s n="n"/></r></p></e>
@@ -1279,7 +1289,7 @@
     <e><p><l>bussa<s n="n"/></l><r>linja-auto<s n="n"/></r></p></e>
     <e><p><l>busse<s n="n"/></l><r>bussi<s n="n"/></r></p></e>
     <e><p><l>bussevuoddji<s n="n"/></l><r>linja-autonkuljettaja<s n="n"/></r></p></e>
-    <e><p><l>bussá<s n="n"/></l><r>kissa<s n="n"/></r></p></e>
+    <e><p><l>bussá<s n="n"/><s n="g3"/></l><r>kissa<s n="n"/></r></p></e>
     <e><p><l>bustávva<s n="n"/></l><r>kirjain<s n="n"/></r></p></e>
     <e><p><l>buvri<s n="n"/></l><r>aitta<s n="n"/></r></p></e>
     <e><p><l>buvru<s n="n"/></l><r>puuro<s n="n"/></r></p></e>
@@ -1759,6 +1769,7 @@
     <e><p><l>gánda<s n="n"/></l><r>poika<s n="n"/></r></p></e>
     <e><p><l>gárastat<s n="n"/></l><r>naru<s n="n"/></r></p></e>
     <e><p><l>gárdi<s n="n"/></l><r>aitaus<s n="n"/></r></p></e>
+    <e><p><l>gárdin<s n="n"/></l><r>puutarha<s n="n"/></r></p></e>
     <e><p><l>gárgu<s n="n"/></l><r>rantakivikko<s n="n"/></r></p></e>
     <e><p><l>gárta<s n="n"/></l><r>kartta<s n="n"/></r></p></e>
     <e><p><l>gáskkašahkesrássi<s n="n"/></l><r>ohdake<s n="n"/></r></p></e>
@@ -4714,6 +4725,8 @@
     <e><p><l>Estlánda<s n="np"/></l><r>Viro<s n="np"/></r></p></e>
     <e><p><l>Estteeana<s n="np"/><s n="top"/></l><r>Viro<s n="np"/></r></p></e>
     <e><p><l>Eurohpá<s n="np"/><s n="top"/></l><r>Eurooppa<s n="np"/></r></p></e>
+    <e><p><l>Duommá<s n="np"/><s n="ant"/><s n="m"/></l><r>Tomas<s n="np"/></r></p></e>
+    <e><p><l>Máret<s n="np"/><s n="ant"/><s n="f"/></l><r>Mari<s n="np"/></r></p></e>
     <e><p><l>Evá<s n="np"/><s n="ant"/><s n="f"/></l><r>Eeva<s n="np"/></r></p></e>
     <e><p><l>Mari<s n="np"/><s n="ant"/><s n="f"/></l><r>Mari<s n="np"/></r></p></e>
     <e><p><l>Fráŋkriika<s n="np"/></l><r>Ranska<s n="np"/></r></p></e>
@@ -5601,6 +5614,7 @@
     <e><p><l>dasa<b/>lassin<s n="adv"/></l><r>lisäksi<s n="adv"/></r></p></e>
     <e><p><l>hui<s n="adv"/></l><r>erittäin<s n="adv"/></r></p></e>
     <e><p><l>hui<s n="adv"/></l><r>kovin<s n="adv"/></r></p></e>
+    <e><p><l>hui<s n="adv"/></l><r>tosi<s n="adv"/></r></p></e>
     <e><p><l>hui<s n="adv"/></l><r>sangen<s n="adv"/></r></p></e>
     <e><p><l>dábálaččat<s n="adv"/></l><r>yleensä<s n="adv"/></r></p></e>
     <e><p><l>maŋemustá<s n="adv"/></l><r>viimeksi<s n="adv"/></r></p></e>
@@ -5759,12 +5773,11 @@
 <!--    <e><p><l>diehko<s n="adv"/></l><r>sinne<s n="adv"/></r></p></e>-->
     
     <!-- Pron:Adv -->
-    <!-- <e><p><l>dasa<s n="prn"/><s n="pers"/><s n="sg3"/><s n="ill"/></l><r>siihen<s n="adv"/></r></p></e>  -->
+    <!-- <e><p><l>dasa<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/><s n="ill"/></l><r>siihen<s n="adv"/></r></p></e>  -->
 
     <!-- Po:part, Pr:part -->
     <e><p><l>juohke<b/>bealde<s n="post"/></l><r>kaikkialla<s n="adv"/></r></p></e>
     <!-- CC:part, CS:part -->
-    <e><p><l>muhto<s n="cnjcoo"/></l><r>mutta<s n="part"/></r></p></e>
     <e><p><l>maiddái<s n="adv"/></l><r>myöskin<s n="part"/></r></p></e>
     <e><p><l>dego<s n="cnjsub"/></l><r>ikään<b/>kuin<s n="part"/></r></p></e>
     <e><p><l>dušše<j/>fal<s n="adv"/></l><r>ainoastaan<s n="adv"/></r></p></e>
@@ -5776,6 +5789,7 @@
 
     <!-- verbs -->
 
+    <e><p><l>leat<s n="vblex"/><s n="iv"/></l><r>olla<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>bidjat<b/>sadjái<s n="vblex"/><s n="tv"/></l><r>asentaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ii<s n="vblex"/><s n="iv"/><s n="neg"/></l><r>ei<s n="vblex"/><s n="neg"/></r></p><par n="V_V"/></e>
     <e><p><l>šlahttit<s n="vblex"/><s n="iv"/></l><r>!-- sataa räntää --<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -6743,7 +6757,6 @@
     <e><p><l>vuovssadit<s n="vblex"/><s n="iv"/></l><r>oksentaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>vuovssihit<s n="vblex"/><s n="tv"/></l><r>oksettaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>navdit<s n="vblex"/><s n="tv"/></l><r>olettaa<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>leat<s n="vblex"/><s n="iv"/></l><r>olla<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>oamážastit<s n="vblex"/><s n="tv"/></l><r>omia<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>eaiggáduššat<s n="vblex"/><s n="tv"/></l><r>omistaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>goarrut<s n="vblex"/><s n="tv"/></l><r>ommella<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -7571,19 +7584,18 @@
     
     <!-- Punctuation -->
     <e><re>[0-9]+([.:, ][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
-    <e><re>[.\?;:]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
-    <e><re>[.\?;:]+</re><p><l><s n="punct"/></l><r><s n="punct"/></r></p></e>
-    <e><re>[.\?;:]+</re><p><l><s n="clb"/></l><r><s n="punct"/><s n="CLB"/></r></p></e>
-    <e><p><l>excl<s n="CLB"/></l><r>!<s n="punct"/><s n="CLB"/></r></p></e>
-    <e><p><l>,<s n="CLB"/></l><r>,<s n="punct"/><s n="CLB"/></r></p></e>
-    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/><s n="CLB"/></r></p></e>
-    <e><p><l>--<s n="punct"/></l><r>--<s n="punct"/><s n="CLB"/></r></p></e>
-    <e><p><l>+<s n="punct"/></l><r>+<s n="punct"/><s n="CLB"/></r></p></e>
-    <e><p><l>=<s n="punct"/></l><r>=<s n="punct"/><s n="CLB"/></r></p></e>
-    <e><p><l>'<s n="punct"/></l><r>'<s n="punct"/><s n="CLB"/></r></p></e>
-    <e><p><l>"<s n="punct"/></l><r>"<s n="punct"/><s n="CLB"/></r></p></e>
-    <e><p><l>(<s n="punct"/></l><r>(<s n="punct"/><s n="CLB"/></r></p></e>
-    <e><p><l>)<s n="punct"/></l><r>)<s n="punct"/><s n="CLB"/></r></p></e>
+    <e><re>[.\?!;:]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
+    <e><re>[.\?!;:]+</re><p><l><s n="punct"/></l><r><s n="punct"/></r></p></e>
+    <e><re>[.\?!;:]+</re><p><l><s n="clb"/></l><r><s n="punct"/></r></p></e>
+    <e><p><l>,<s n="cm"/></l><r>,<s n="cm"/></r></p></e>
+    <e><p><l>-<s n="guio"/></l><r>-<s n="guio"/></r></p></e>
+    <e><p><l>--<s n="guio"/></l><r>--<s n="guio"/></r></p></e>
+    <e><p><l>+<s n="punct"/></l><r>+<s n="punct"/></r></p></e>
+    <e><p><l>=<s n="punct"/></l><r>=<s n="punct"/></r></p></e>
+    <e><p><l>'<s n="punct"/></l><r>'<s n="punct"/></r></p></e>
+    <e><p><l>"<s n="punct"/></l><r>"<s n="punct"/></r></p></e>
+    <e><p><l>(<s n="lpar"/></l><r>(<s n="lpar"/></r></p></e>
+    <e><p><l>)<s n="rpar"/></l><r>)<s n="rpar"/></r></p></e>
 
   </section>
 </dictionary>
