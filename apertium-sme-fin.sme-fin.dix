@@ -128,7 +128,7 @@
     <e><p><l>goitge<s n="adv"/></l><r>kuitenkin<s n="part"/></r></p></e>
     <e><p><l>juo<s n="adv"/></l><r>jo<s n="part"/></r></p></e>
     <e><p><l>mahká<s n="adv"/></l><r>muka<s n="part"/></r></p></e>
-    <e><p><l>maid<s n="adv"/></l><r>myös<s n="part"/></r></p></e>
+    <e><p><l>maid<s n="adv"/></l><r>myös<s n="adv"/></r></p></e>
     <e><p><l>nappo<s n="adv"/></l><r>siis<s n="part"/></r></p></e>
     <e><p><l>oppa<s n="adv"/></l><r>edes<s n="part"/></r></p></e>
     <e><p><l>áibbas<s n="adv"/></l><r>aivan<s n="part"/></r></p></e>
@@ -5793,7 +5793,6 @@
     <e><p><l>dušše<j/>fal<s n="adv"/></l><r>ainoastaan<s n="adv"/></r></p></e>
     
     <!-- Are these relative markers? should they be tagged as such? -->
-    <e><p><l>maid<s n="adv"/></l><r>mitä<s n="adv"/></r></p></e>
     <e><p><l>dás<s n="adv"/></l><r>tässä<s n="adv"/></r></p></e>
     <!-- end adverbs -->
 
