@@ -10,6 +10,7 @@
     </def-cat>
     <def-cat n="inf">
       <cat-item tags="vblex.*.inf.*"/>
+      <cat-item tags="vblex.*.actio.*"/>
     </def-cat>
     <def-cat n="pron">
       <cat-item tags="prn.*"/>
@@ -41,7 +42,11 @@
     </def-attr>
     <def-attr n="a_nonfin">
       <attr-item tags="inf"/>
+      <attr-item tags="infma.sg.ine"/>
+      <attr-item tags="actio.ine"/>
+      <attr-item tags="actio.ess"/>
       <attr-item tags="der_minen.sg.ela"/>
+      <attr-item tags="der_minen.sg.gen"/>
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -350,8 +355,17 @@
     <def-macro n="default-conversion-nonfin1" npar="1">
       <choose>
         <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.ess"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infma.sg.ine"/></let>
+        </when>
+        <when>
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="inf"/></equal></test>
           <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="der_minen.sg.ela"/></let>
+          <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.ine"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="der_minen.sg.gen"/></let>
           <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
         </when>
       </choose>
