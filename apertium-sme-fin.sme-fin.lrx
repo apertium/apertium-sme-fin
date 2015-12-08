@@ -1,13 +1,16 @@
 <rules>
 
-  <rule weight="1.0"> 
+  <rule>
     <match lemma="ii" tags="vblex.*"/>
     <match lemma="ge" tags="pcle.*"><select lemma="kaan" tags="adv.*"/></match>
   </rule>
 
+ 
+
   <rule weight="1.0">
     <match lemma="liikot" tags="vblex.*"><select lemma="tykätä" tags="vblex.*"/></match>
   </rule>
+
 
   <rule weight="1.0"> <!-- Odne beaivi báitá. = Tänään aurinko paistaa --> 
     <match lemma="beaivi" tags="n.*"><select lemma="aurinko" tags="n.*"/></match>
