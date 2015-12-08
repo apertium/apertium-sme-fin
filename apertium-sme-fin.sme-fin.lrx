@@ -1,49 +1,35 @@
 <rules>
-  <rule><match lemma="biila"><select lemma="auto"/></match></rule>
 
- <rule> 
-  <match lemma="ii" tags="vblex.*"/>
-  <match lemma="ge" tags="pcle.*">
-    <select lemma="kaan" tags="adv.*"/>
-  </match>
- </rule>
+  <rule weight="1.0"> 
+    <match lemma="pitää" tags="vblex.*"><select lemma="doallat" tags="vblex.*"/></match>
+  </rule>
 
- <rule> 
-  <match lemma="pitää" tags="vblex.*">
-    <select lemma="doallat" tags="vblex.*"/>
-  </match>
- </rule>
+  <rule weight="1.0"> 
+    <match lemma="ii" tags="vblex.*"/>
+    <match lemma="ge" tags="pcle.*"><select lemma="kaan" tags="adv.*"/></match>
+  </rule>
 
-<rule>
-  <match lemma="pitää" tags="vblex.*">
-    <select lemma="liikot" tags="vblex.*"/>
-  </match>
-  <match tags="*.ela"/>
-</rule>
+  <rule weight="1.0">
+    <match lemma="pitää" tags="vblex.*"><select lemma="liikot" tags="vblex.*"/></match>
+    <match tags="*.ela"/>
+  </rule>
 
-<rule>
-  <match tags="*.gen"/>
-  <match lemma="pitää" tags="vblex.*">
-    <select lemma="berret" tags="vblex.*"/>
-  </match>
-</rule>
+  <rule weight="1.0">
+    <match tags="*.gen"/>
+    <match lemma="pitää" tags="vblex.*"><select lemma="berret" tags="vblex.*"/></match>
+  </rule>
  
-<rule>
-  <match lemma="beaivi" tags="n.*">
-    <select lemma="aurinko" tags="n.*"/>
-  </match>
-  <match lemma="báitit" tags="vblex.*"/>
-</rule>
-<!-- Odne beaivi báitá. = Tänään aurinko paistaa --> 
+  <rule weight="1.0"> <!-- Odne beaivi báitá. = Tänään aurinko paistaa --> 
+    <match lemma="beaivi" tags="n.*"><select lemma="aurinko" tags="n.*"/></match>
+    <match lemma="báitit" tags="vblex.*"/>
+  </rule>
 
-<rule>
-  <match lemma="báitit" tags="vblex.*">
-    <select lemma="paistaa" tags="vblex.*"/>
-  </match>
-</rule>
+  <rule weight="1.0">
+    <match lemma="báitit" tags="vblex.*"><select lemma="paistaa" tags="vblex.*"/></match>
+  </rule>
 
-<rule>
-  <match lemma="oabbá" tags="n.*"><select lemma="sisko" tags="n.*"/></match>
-</rule>
+  <rule weight="1.0">
+    <match lemma="oabbá" tags="n.*"><select lemma="sisko" tags="n.*"/></match>
+  </rule>
 
 </rules>
