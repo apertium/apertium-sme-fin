@@ -17,6 +17,7 @@
     </def-cat>
     <def-cat n="attr">
       <cat-item lemma="ieš" tags="prn.ref.*"/>
+      <cat-item tags="prn.*.@→N"/>
       <cat-item tags="prn.*.attr.*"/>
       <cat-item tags="num.*.*.attr.*"/>
       <cat-item tags="adj.*.attr.*"/>
@@ -179,7 +180,7 @@
       <attr-item tags="←hab→"/>
     </def-attr>
 
-    <def-attr n="a_fun">
+    <def-attr n="a_syn">
       <attr-item tags="@→A"/>
       <attr-item tags="@A←"/>
       <attr-item tags="@←ADVL"/>
@@ -469,7 +470,7 @@
 
     <def-macro n="default-conversion1" npar="1">
       <let><clip pos="1" side="tl" part="a_ext"/><lit v=""/></let>
-      <let><clip pos="1" side="tl" part="a_fun"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_syn"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_attr"/><lit-tag v="ND.CD"/></let>
 
       <choose>
@@ -491,8 +492,15 @@
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal>
                      <or><equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="n"/></equal>
                          <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="prn"/></equal>
-                         <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal></or></and></test>
+                         <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal>
+                     </or>
+                     <not><equal><clip pos="1" side="sl" part="a_syn"/><lit-tag v="@→N"/></equal></not></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><concat><lit-tag v="gen"/><lit v="$ ^kanssa"/><lit-tag v="post"/></concat></let>
+        </when>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal>
+                     <equal><clip pos="1" side="tl" part="a_syn"/><lit-tag v="@→N"/></equal></and></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
         </when>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal>
