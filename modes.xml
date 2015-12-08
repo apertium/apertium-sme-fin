@@ -294,7 +294,7 @@
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -1 -w -n">
-        <file name="fin-sme.rlx.bin"/>
+        <file name="fin-sme.mor.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -327,7 +327,7 @@
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -1 -w -n">
-        <file name="fin-sme.rlx.bin"/>
+        <file name="fin-sme.mor.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -369,7 +369,7 @@
       </program>
       <program name="cg-conv -a"/>
       <program name="vislcg3 --trace --grammar">
-        <file name="fin-sme.rlx.bin"/>
+        <file name="fin-sme.mor.rlx.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -381,7 +381,7 @@
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -1 -w -n">
-        <file name="fin-sme.rlx.bin"/>
+        <file name="fin-sme.mor.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
@@ -393,7 +393,7 @@
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -1 -w -n">
-        <file name="fin-sme.rlx.bin"/>
+        <file name="fin-sme.mor.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -411,7 +411,7 @@
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -1 -w -n">
-        <file name="fin-sme.rlx.bin"/>
+        <file name="fin-sme.mor.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -429,7 +429,7 @@
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -1 -w -n">
-        <file name="fin-sme.rlx.bin"/>
+        <file name="fin-sme.mor.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -451,7 +451,7 @@
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -1 -w -n">
-        <file name="fin-sme.rlx.bin"/>
+        <file name="fin-sme.mor.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -477,7 +477,7 @@
         <file name="fin-sme.automorf.hfst"/>
       </program>
       <program name="cg-proc -1 -w -n">
-        <file name="fin-sme.rlx.bin"/>
+        <file name="fin-sme.mor.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
