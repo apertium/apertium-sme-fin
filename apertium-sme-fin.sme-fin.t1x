@@ -189,11 +189,26 @@
       <attr-item tags="ess"/>
       <attr-item tags="sg.ess"/>
     </def-attr>
+
+    <def-attr n="a_px">
+      <attr-item tags="px1sg"/>
+      <attr-item tags="px2sg"/>
+      <attr-item tags="px3sg"/>
+      <attr-item tags="px1du"/>
+      <attr-item tags="px2du"/>
+      <attr-item tags="px3du"/>
+      <attr-item tags="px1pl"/>
+      <attr-item tags="px2pl"/>
+      <attr-item tags="px3pl"/>
+    </def-attr>
+
+
     <def-attr n="a_cas">
       <attr-item tags="CD"/>
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
       <attr-item tags="com"/>
+      <attr-item tags="ess"/>
       <attr-item tags="ela"/>
       <attr-item tags="ine"/>
       <attr-item tags="ill"/>
@@ -548,6 +563,21 @@
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ess"/></let>
         </when>
 
+      </choose>
+
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_px"/><lit-tag v="px1du"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_px"/><lit-tag v="px1pl"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_px"/><lit-tag v="px2du"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_px"/><lit-tag v="px2pl"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_px"/><lit-tag v="px3du"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_px"/><lit-tag v="px3pl"/></let>
+        </when>
       </choose>
 
       <choose>
