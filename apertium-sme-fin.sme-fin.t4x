@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<transfer>
+  <section-def-cats>
+    
+    <def-cat n="default">
+      <cat-item  tags="*"/>
+    </def-cat>
+    <def-cat n="clit">
+      <cat-item lemma="kaan" tags="adv"/>
+      <cat-item lemma="kin" tags="adv"/>
+      <cat-item lemma="ko" tags="qst"/>
+    </def-cat>
+   
+  </section-def-cats>
+  
+  <section-def-attrs>
+    <def-attr n="a_cas">
+      <attr-item tags="nom"/>
+      <attr-item tags="CD"/>
+    </def-attr>
+     <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="ND"/>
+    </def-attr>
+       
+    <def-attr n="a_pos">
+      <attr-item tags="adv"/>
+      <attr-item tags="pcle"/>
+      <attr-item tags="part"/>
+    </def-attr>
+    
+  </section-def-attrs>
+ 
+  <section-def-vars>
+    <def-var n="number"/>
+  </section-def-vars>  
+
+  <section-def-macros>
+    <def-macro n="fixup1" npar="1">
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="CD"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="ND"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
+        </when>
+      </choose>
+    </def-macro>
+  </section-def-macros>
+
+  <section-rules>
+    
+    <rule comment=""> 
+      <pattern>
+        <pattern-item n="default"/>
+        <pattern-item n="clit"/>
+      </pattern>
+      <action>
+        <call-macro n="fixup1"><with-param pos="1"/></call-macro>
+        <call-macro n="fixup1"><with-param pos="2"/></call-macro>
+        <out>
+          <mlu>
+            <lu><clip pos="1" side="tl" part="whole"/></lu>
+            <lu><clip pos="2" side="tl" part="whole"/></lu>
+          </mlu>
+        </out>
+      </action>
+    </rule>
+    
+  </section-rules>
+</transfer>
