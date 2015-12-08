@@ -5,6 +5,9 @@
     <def-cat n="default">
       <cat-item tags="*"/>
     </def-cat>
+    <def-cat n="cnp">
+      <cat-item tags="cnjcoo.@CNP"/>
+    </def-cat>
     <def-cat n="ii">
       <cat-item lemma="ii" tags="vblex.*"/>
     </def-cat>
@@ -95,7 +98,9 @@
     </def-attr>
     <def-attr n="a_nonfin">
       <attr-item tags="inf"/>
+      <attr-item tags="vgen"/>
       <attr-item tags="infma.sg.ine"/>
+      <attr-item tags="infma.sg.ins"/>
       <attr-item tags="actio.ine"/>
       <attr-item tags="actio.ess"/>
       <attr-item tags="der_minen.sg.ela"/>
@@ -545,6 +550,10 @@
         <when>
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.ess"/></equal></test>
           <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infma.sg.ine"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="vgen"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infma.sg.ins"/></let>
         </when>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="inf"/></equal></test>
