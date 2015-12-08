@@ -1781,7 +1781,9 @@
     <e><p><l>gárgu<s n="n"/></l><r>rantakivikko<s n="n"/></r></p></e>
     <e><p><l>gárta<s n="n"/></l><r>kartta<s n="n"/></r></p></e>
     <e><p><l>gáskkašahkesrássi<s n="n"/></l><r>ohdake<s n="n"/></r></p></e>
-    <e><p><l>gássa<s n="n"/></l><r>laatikko<s n="n"/></r></p></e>
+    <e><p><l>gássa<s n="n"/><s n="g3"/></l><r>laatikko<s n="n"/></r></p></e>
+    <e><p><l>skáhppu<s n="n"/></l><r>laatikko<s n="n"/></r></p></e>
+    <e><p><l>kássa<s n="n"/><s n="g3"/></l><r>laatikko<s n="n"/></r></p></e>
     <e><p><l>gássi<s n="n"/></l><r>termimaito<s n="n"/></r></p></e>
     <e><p><l>gásta<s n="n"/></l><r>kaste<s n="n"/></r></p></e>
     <e><p><l>gásta<s n="n"/></l><r>kasti<s n="n"/></r></p></e>
@@ -1975,7 +1977,6 @@
     <e><p><l>kántorhoavda<s n="n"/></l><r>osastopäällikkö<s n="n"/></r></p></e>
     <e><p><l>kántorveahkki<s n="n"/></l><r>toimistoapulainen<s n="n"/></r></p></e>
     <e><p><l>kárta<s n="n"/></l><r>kartta<s n="n"/></r></p></e>
-    <e><p><l>kássa<s n="n"/></l><r>laatikko<s n="n"/></r></p></e>
     <e><p><l>ladni<s n="n"/></l><r>kasarmi<s n="n"/></r></p></e>
     <e><p><l>lahttomáksu<s n="n"/></l><r>jäsenmaksu<s n="n"/></r></p></e>
     <e><p><l>lasta<s n="n"/></l><r>lehti<s n="n"/></r></p></e>
@@ -2576,7 +2577,6 @@
     <e><p><l>skáhpi<s n="n"/></l><r>pihlaja<s n="n"/></r></p></e>
     <e><p><l>skáhppa<s n="n"/></l><r>kaappi<s n="n"/></r></p></e>
     <e><p><l>skáhppe<s n="n"/></l><r>kaappi<s n="n"/></r></p></e>
-    <e><p><l>skáhppu<s n="n"/></l><r>laatikko<s n="n"/></r></p></e>
     <e><p><l>skálžu<s n="n"/></l><r>simpukka<s n="n"/></r></p></e>
     <e><p><l>skárrit<s n="n"/></l><r>sakset<s n="n"/></r></p></e>
     <e><p><l>smarvi<s n="n"/></l><r>kihara<s n="n"/></r></p></e>
@@ -3467,7 +3467,6 @@
     <e><p><l>čuovggahisvuohta<s n="n"/></l><r>sokeus<s n="n"/></r></p></e>
     <e><p><l>čurvestat<s n="n"/></l><r>huudahdus<s n="n"/></r></p></e>
     <e><p><l>čuvla<s n="n"/></l><r>hame<s n="n"/></r></p></e>
-    <e><p><l>dahkki<s n="n"/></l><r>tekijä<s n="n"/></r></p></e>
     <e><p><l>dahpahat<s n="n"/></l><r>ummetus<s n="n"/></r></p></e>
     <e><p><l>dahppagas<s n="n"/></l><r>sulkeuma<s n="n"/></r></p></e>
     <e><p><l>dajaldat<s n="n"/></l><r>sanonta<s n="n"/></r></p></e>
@@ -4732,6 +4731,7 @@
     <e><p><l>Evá<s n="np"/><s n="ant"/><s n="f"/></l><r>Eeva<s n="np"/></r></p></e>
     <e><p><l>Mari<s n="np"/><s n="ant"/><s n="f"/></l><r>Mari<s n="np"/></r></p></e>
     <e><p><l>Fráŋkriika<s n="np"/></l><r>Ranska<s n="np"/></r></p></e>
+    <e><p><l>Divvun<s n="np"/></l><r>Divvun<s n="np"/></r></p></e>
     <e><p><l>Fášku<s n="np"/><s n="top"/></l><r>Vaskojoki<s n="np"/></r></p></e>
     <e><p><l>Gabná<s n="np"/><s n="top"/></l><r>Rautasvuoma<s n="np"/></r></p></e>
     <e><p><l>Galbmagáldu<s n="np"/><s n="top"/></l><r>Kalmakaltio<s n="np"/></r></p></e>

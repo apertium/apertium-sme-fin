@@ -63,6 +63,14 @@
       <cat-item tags="n.*.cmp_sgnom.cmp.*"/>
       <cat-item tags="n.*.cmp_sggen.cmp"/>
       <cat-item tags="n.*.cmp_sggen.cmp.*"/>
+      <cat-item tags="n.cmp_sgnom.cmp_hyph.cmp"/>
+      <cat-item tags="n.cmp_sgnom.cmp_hyph.cmp.*"/>
+      <cat-item tags="n.cmp_sggen.cmp_hyph.cmp"/>
+      <cat-item tags="n.cmp_sggen.cmp_hyph.cmp.*"/>
+      <cat-item tags="n.*.cmp_sgnom.cmp_hyph.cmp"/>
+      <cat-item tags="n.*.cmp_sgnom.cmp_hyph.cmp.*"/>
+      <cat-item tags="n.*.cmp_sggen.cmp_hyph.cmp"/>
+      <cat-item tags="n.*.cmp_sggen.cmp_hyph.cmp.*"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -138,6 +146,8 @@
       <attr-item tags="du"/>
     </def-attr>
     <def-attr n="a_cmp">
+      <attr-item tags="cmp_sgnom.cmp_hyph.cmp"/>
+      <attr-item tags="cmp_sggen.cmp_hyph.cmp"/>
       <attr-item tags="cmp_sgnom.cmp"/>
       <attr-item tags="cmp_sggen.cmp"/>
       <attr-item tags="sg.nom.cmp"/>
@@ -517,11 +527,13 @@
 
       <choose>
         <when>
-          <test><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sggen.cmp"/></equal></test>
+          <test><or><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sggen.cmp"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sggen.cmp_hyph.cmp"/></equal></or></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="sg.gen.cmp"/></let>
         </when>
         <when>
-          <test><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sgnom.cmp"/></equal></test>
+          <test><or><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sgnom.cmp"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sgnom.cmp_hyph.cmp"/></equal></or></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="sg.nom.cmp"/></let>
         </when>
       </choose>
@@ -659,7 +671,6 @@
       </action>
     </rule>
 
-
     <rule comment="REGLA: NOM-CMP NOM">
       <pattern>
         <pattern-item n="nom-cmp"/>
@@ -670,7 +681,7 @@
         <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <out>
-          <chunk name="n" case="caseFirstWord">
+          <chunk name="n-n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
             </tags>
@@ -944,10 +955,11 @@
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion-nonfin1"><with-param pos="1"/></call-macro>
         <out>
-          <chunk name="sent" case="caseFirstWord">
+          <chunk name="x" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="SENT"/></tag>
+              <tag><lit-tag v="SX"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
