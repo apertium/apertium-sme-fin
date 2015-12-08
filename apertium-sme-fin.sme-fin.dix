@@ -1730,7 +1730,7 @@
     <e><p><l>guorbmebiila<s n="n"/></l><r>kuorma-auto<s n="n"/></r></p></e>
     <e><p><l>guossa<s n="n"/></l><r>kuusi<s n="n"/></r></p></e>
     <e><p><l>guosselatnja<s n="n"/></l><r>vierashuone<s n="n"/></r></p></e>
-    <e><p><l>guossi<s n="n"/></l><r>vieras<s n="n"/></r></p></e>
+    <e><p><l>guossi<s n="n"/><s n="g3"/></l><r>vieras<s n="n"/></r></p></e>
     <e><p><l>guovlu<s n="n"/></l><r>alue<s n="n"/></r></p></e>
     <e><p><l>guovssahasat<s n="n"/></l><r>revontuli<s n="n"/></r></p></e>
     <e><p><l>guovssat<s n="n"/></l><r>nieriä<s n="n"/></r></p></e>
@@ -1766,8 +1766,8 @@
     <e><p><l>gálbi<s n="n"/></l><r>vasikka<s n="n"/></r></p></e>
     <e><p><l>gálggan<s n="n"/></l><r>kampa<s n="n"/></r></p></e>
     <e><p><l>gállot<s n="n"/></l><r>kallokas<s n="n"/></r></p></e>
-    <e><p><l>gállu<s n="n"/></l><r>otsa<s n="n"/></r></p></e>
-    <e><p><l>gállu<s n="n"/></l><r>viileys<s n="n"/></r></p></e>
+    <e><p><l>gállu<s n="n"/><s n="g3"/></l><r>otsa<s n="n"/></r></p></e>
+    <e><p><l>gállu<s n="n"/><s n="g3"/></l><r>viileys<s n="n"/></r></p></e>
     <e><p><l>gálvu<s n="n"/></l><r>tavara<s n="n"/></r></p></e>
     <e><p><l>gáma<s n="n"/></l><r>nahkakenkä<s n="n"/></r></p></e>
     <e><p><l>gámagoarrun<s n="n"/></l><r>kengänkudonta<s n="n"/></r></p></e>
@@ -3677,7 +3677,6 @@
     <e><p><l>gállis<s n="n"/></l><r>ukko<s n="n"/></r></p></e>
     <e><p><l>gállis<s n="n"/></l><r>äijä<s n="n"/></r></p></e>
     <e><p><l>gállis<s n="n"/></l><r>miekkonen<s n="n"/></r></p></e>
-    <e><p><l>gállu<s n="n"/></l><r>otsa<s n="n"/></r></p></e>
     <e><p><l>gánda<s n="n"/></l><r>poika<s n="n"/></r></p></e>
     <e><p><l>gánis<s n="n"/></l><r>ristiluu<s n="n"/></r></p></e>
     <e><p><l>gáranas<s n="n"/></l><r>korppi<s n="n"/></r></p></e>
