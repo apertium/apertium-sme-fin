@@ -13,12 +13,20 @@
       <cat-item tags="vblex.*.actio.*"/>
     </def-cat>
     <def-cat n="attr">
+      <cat-item lemma="ieš" tags="prn.ref.*"/>
       <cat-item tags="prn.*.attr.*"/>
+      <cat-item tags="num.*.*.attr.*"/>
       <cat-item tags="adj.*.attr.*"/>
       <cat-item tags="adj.attr.*"/>
     </def-cat>
+    <def-cat n="goahti">
+      <cat-item tags="vblex.*.der_goahti.*"/>
+    </def-cat>
     <def-cat n="pron">
       <cat-item tags="prn.*"/>
+    </def-cat>
+    <def-cat n="prsprc">
+      <cat-item tags="vblex.*.prsprc.*"/>
     </def-cat>
     <def-cat n="prfprc">
       <cat-item tags="vblex.*.prfprc.*"/>
@@ -42,6 +50,16 @@
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
+    </def-cat>
+    <def-cat n="nom-cmp">
+      <cat-item tags="n.cmp_sgnom.cmp"/>
+      <cat-item tags="n.cmp_sgnom.cmp.*"/>
+      <cat-item tags="n.cmp_sggen.cmp"/>
+      <cat-item tags="n.cmp_sggen.cmp.*"/>
+      <cat-item tags="n.*.cmp_sgnom.cmp"/>
+      <cat-item tags="n.*.cmp_sgnom.cmp.*"/>
+      <cat-item tags="n.*.cmp_sggen.cmp"/>
+      <cat-item tags="n.*.cmp_sggen.cmp.*"/>
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -71,6 +89,10 @@
       <attr-item tags="indic"/>
       <attr-item tags="cond"/>
     </def-attr>
+    <def-attr n="a_prc">
+      <attr-item tags="prfprc"/>
+      <attr-item tags="prsprc"/>
+    </def-attr>
     <def-attr n="a_nonfin">
       <attr-item tags="inf"/>
       <attr-item tags="infma.sg.ine"/>
@@ -81,10 +103,19 @@
     </def-attr>
     <def-attr n="a_deriv">
       <attr-item tags="der_dimin.n"/>
+      <attr-item tags="der_goahti.vblex"/>
     </def-attr>
     <def-attr n="a_attr">
       <attr-item tags="attr"/>
+      <attr-item tags="sg.loc.attr"/>
+      <attr-item tags="sg.ill.attr"/>
       <attr-item tags="ND.CD"/>
+    </def-attr>
+    <def-attr n="a_pos">
+      <attr-item tags="n"/>
+      <attr-item tags="adj"/>
+      <attr-item tags="num"/>
+      <attr-item tags="prn"/>
     </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
@@ -96,6 +127,16 @@
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="du"/>
+    </def-attr>
+    <def-attr n="a_cmp">
+      <attr-item tags="cmp_sgnom.cmp"/>
+      <attr-item tags="cmp_sggen.cmp"/>
+      <attr-item tags="sg.nom.cmp"/>
+      <attr-item tags="sg.gen.cmp"/>
+    </def-attr>
+    <def-attr n="a_ess">
+      <attr-item tags="ess"/>
+      <attr-item tags="sg.ess"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="CD"/>
@@ -393,6 +434,11 @@
       <let><clip pos="3" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
     </def-macro>
 
+    <def-macro n="handle-nominal-derivation2" npar="2"> 
+      <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
+      <call-macro n="handle-nominal-derivation1"><with-param pos="2"/></call-macro>
+    </def-macro>
+
     <def-macro n="handle-nominal-derivation1" npar="1">
       <choose>
         <when>
@@ -447,6 +493,37 @@
         <when>
           <test><equal><clip pos="1" side="tl" part="a_qst"/><lit-tag v="qst"/></equal></test>
           <let><clip pos="1" side="tl" part="a_qst"/><concat><lit v="+ko"/><lit-tag v="qst"/></concat></let>
+        </when>
+      </choose>
+
+      <choose>
+        <when>
+          <test><or><equal><clip pos="1" side="tl" part="a_prc"/><lit-tag v="prfprc"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_prc"/><lit-tag v="prsprc"/></equal></or></test>
+          <let><clip pos="1" side="tl" part="whole"/>
+               <concat><clip pos="1" side="tl" part="whole"/><lit-tag v="sg.nom"/></concat></let>
+        </when>
+      </choose>
+
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sggen.cmp"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="sg.gen.cmp"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sgnom.cmp"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="sg.nom.cmp"/></let>
+        </when>
+      </choose>
+
+      <choose>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_ess"/><lit-tag v="ess"/></equal>
+                     <or><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="n"/></equal>
+                         <equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="num"/></equal>
+                         <equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="prn"/></equal>
+                         <equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="adj"/></equal></or></and></test>
+          <let><clip pos="1" side="tl" part="a_ess"/><lit-tag v="sg.ess"/></let>
         </when>
       </choose>
 
@@ -568,6 +645,30 @@
       </action>
     </rule>
 
+
+    <rule comment="REGLA: NOM-CMP NOM">
+      <pattern>
+        <pattern-item n="nom-cmp"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <mlu>
+              <lu><clip pos="1" side="tl" part="whole"/></lu>
+              <lu><clip pos="2" side="tl" part="whole"/></lu>
+            </mlu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: ATTR NOM">
       <pattern>
         <pattern-item n="attr"/>
@@ -594,6 +695,36 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: ATTR NOM-CMP NOM">
+      <pattern>
+        <pattern-item n="attr"/>
+        <pattern-item n="nom-cmp"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags2"><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion3"><with-param pos="3"/><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="3"/></call-macro>
+        <call-macro n="concord-nominal2"><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="a-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <mlu>
+              <lu><clip pos="2" side="tl" part="whole"/></lu>
+              <lu><clip pos="3" side="tl" part="whole"/></lu>
+            </mlu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: ATTR ATTR NOM">
       <pattern>
@@ -627,6 +758,34 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: GOAHTI">
+      <pattern>
+        <pattern-item n="goahti"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion-nonfin1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_deriv"/><lit v=""/></let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <lit v="alkaa"/>
+              <clip pos="1" side="tl" part="tags"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>
+              <lit-tag v="vblex.actv.infa.sg.lat"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: INF">
       <pattern>
         <pattern-item n="inf"/>
@@ -648,7 +807,6 @@
       </action>
     </rule>
 
-
     <rule comment="REGLA: LEAT-FIN PRFPRC">
       <pattern>
         <pattern-item n="leat-fin"/>
@@ -667,7 +825,7 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="whole"/><lit-tag v="sg.nom"/>
+              <clip pos="2" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>

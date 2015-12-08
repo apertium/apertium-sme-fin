@@ -39,6 +39,7 @@ Alphabet
 %<der%_nammasaš%>
 %<der%_nuolus%>
 %<der%_náittot%>
+%<der%_saš%>
 %<der%_seagat%>
 %<der%_st%>
 %<der%_stuvva%>
@@ -98,6 +99,7 @@ Derivations =
 %<der%_nammasaš%>
 %<der%_nuolus%>
 %<der%_náittot%>
+%<der%_saš%>
 %<der%_seagat%>
 %<der%_st%>
 %<der%_stuvva%>
@@ -114,21 +116,21 @@ Derivations =
 
 HandledDerivations =
 !%<der%_at%>
-%<der%_halla%>
+!%<der%_halla%>
 !%<der%_l%>
-%<der%_alla%>
-%<der%_passl%>
-%<der%_passs%>
+!%<der%_alla%>
+!%<der%_passl%>
+!%<der%_passs%>
 %<der%_goahti%>
 %<der%_dimin%>
-%<der%_vuohta%>
-%<der%_ahtti%>
-%<der%_h%>
-%<der%_d%>
+!%<der%_vuohta%>
+!%<der%_ahtti%>
+!%<der%_h%>
+!%<der%_d%>
 !%<der%_laš%>
-%<der%_st%>
-%<der%_nomag%>
-%<der%_nomact%>
+!%<der%_st%>
+!%<der%_nomag%>
+!%<der%_nomact%>
 ;
 
 ;				! end of Sets
