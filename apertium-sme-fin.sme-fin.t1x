@@ -17,7 +17,8 @@
     </def-cat>
     <def-cat n="attr">
       <cat-item lemma="ieš" tags="prn.ref.*"/>
-      <cat-item tags="prn.*.@→N"/>
+      <cat-item tags="prn.dem.*.@→N"/>
+      <cat-item tags="prn.ind.*.@→N"/>
       <cat-item tags="prn.*.attr.*"/>
       <cat-item tags="num.*.*.attr.*"/>
       <cat-item tags="adj.*.attr.*"/>
@@ -72,6 +73,24 @@
       <cat-item tags="n.*.cmp_sgnom.cmp_hyph.cmp.*"/>
       <cat-item tags="n.*.cmp_sggen.cmp_hyph.cmp"/>
       <cat-item tags="n.*.cmp_sggen.cmp_hyph.cmp.*"/>
+      <cat-item tags="n.cmp_plnom.cmp"/>
+      <cat-item tags="n.cmp_plnom.cmp.*"/>
+      <cat-item tags="n.cmp_plgen.cmp"/>
+      <cat-item tags="n.cmp_plgen.cmp.*"/>
+      <cat-item tags="n.*.cmp_plnom.cmp"/>
+      <cat-item tags="n.*.cmp_plnom.cmp.*"/>
+      <cat-item tags="n.*.cmp_plgen.cmp"/>
+      <cat-item tags="n.*.cmp_plgen.cmp.*"/>
+      <cat-item tags="n.cmp_plnom.cmp_hyph.cmp"/>
+      <cat-item tags="n.cmp_plnom.cmp_hyph.cmp.*"/>
+      <cat-item tags="n.cmp_plgen.cmp_hyph.cmp"/>
+      <cat-item tags="n.cmp_plgen.cmp_hyph.cmp.*"/>
+      <cat-item tags="n.*.cmp_plnom.cmp_hyph.cmp"/>
+      <cat-item tags="n.*.cmp_plnom.cmp_hyph.cmp.*"/>
+      <cat-item tags="n.*.cmp_plgen.cmp_hyph.cmp"/>
+      <cat-item tags="n.*.cmp_plgen.cmp_hyph.cmp.*"/>
+
+
     </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
@@ -82,6 +101,9 @@
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
+    <def-attr n="a_known">
+      <attr-item tags="known"/>
+    </def-attr>
     <def-attr n="a_voice">
       <attr-item tags="actv"/>
     </def-attr>
@@ -147,12 +169,21 @@
       <attr-item tags="du"/>
     </def-attr>
     <def-attr n="a_cmp">
+
       <attr-item tags="cmp_sgnom.cmp_hyph.cmp"/>
       <attr-item tags="cmp_sggen.cmp_hyph.cmp"/>
       <attr-item tags="cmp_sgnom.cmp"/>
       <attr-item tags="cmp_sggen.cmp"/>
       <attr-item tags="sg.nom.cmp"/>
       <attr-item tags="sg.gen.cmp"/>
+
+      <attr-item tags="cmp_plnom.cmp_hyph.cmp"/>
+      <attr-item tags="cmp_plgen.cmp_hyph.cmp"/>
+      <attr-item tags="cmp_plnom.cmp"/>
+      <attr-item tags="cmp_plgen.cmp"/>
+      <attr-item tags="pl.nom.cmp"/>
+      <attr-item tags="pl.gen.cmp"/>
+
     </def-attr>
     <def-attr n="a_ess">
       <attr-item tags="ess"/>
@@ -225,7 +256,6 @@
       <attr-item tags="@→N"/>
       <attr-item tags="@N"/>
       <attr-item tags="@N←"/>
-      <attr-item tags="@→Num;"/>
       <attr-item tags="@→Num"/>
       <attr-item tags="@Num←"/>
       <attr-item tags="@←OBJ"/>
@@ -469,6 +499,7 @@
     </def-macro>
 
     <def-macro n="default-conversion1" npar="1">
+      <let><clip pos="1" side="tl" part="a_known"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_ext"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_syn"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_attr"/><lit-tag v="ND.CD"/></let>
@@ -499,7 +530,8 @@
         </when>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal>
-                     <equal><clip pos="1" side="tl" part="a_syn"/><lit-tag v="@→N"/></equal></and></test>
+                     <equal><clip pos="1" side="tl" part="a_syn"/><lit-tag v="@→N"/></equal>
+                     <not><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="prn.pers"/></equal></not></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
         </when>
         <when>
@@ -508,6 +540,14 @@
                               <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal></or></not></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
         </when>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></equal>
+                     <or><equal><clip pos="1" side="sl" part="a_syn"/><lit-tag v="@ADVL→"/></equal>
+                         <equal><clip pos="1" side="sl" part="a_syn"/><lit-tag v="@APP-ADVL←"/></equal>
+                         <equal><clip pos="1" side="sl" part="a_syn"/><lit-tag v="@←ADVL"/></equal></or></and></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ess"/></let>
+        </when>
+
       </choose>
 
       <choose>
@@ -543,6 +583,16 @@
           <test><or><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sgnom.cmp"/></equal>
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sgnom.cmp_hyph.cmp"/></equal></or></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="sg.nom.cmp"/></let>
+        </when>
+        <when>
+          <test><or><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_plgen.cmp"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_plgen.cmp_hyph.cmp"/></equal></or></test>
+          <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="pl.gen.cmp"/></let>
+        </when>
+        <when>
+          <test><or><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_plnom.cmp"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_plnom.cmp_hyph.cmp"/></equal></or></test>
+          <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="pl.nom.cmp"/></let>
         </when>
       </choose>
 

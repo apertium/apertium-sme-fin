@@ -1126,7 +1126,7 @@
     <e><p><l>bargi<s n="n"/><s n="nomag"/></l><r>työntekijä<s n="n"/></r></p></e>
     <e><p><l>bargobierggas<s n="n"/></l><r>työkalu<s n="n"/></r></p></e>
     <e><p><l>bargobihttá<s n="n"/></l><r>työtehtävä<s n="n"/></r></p></e>
-    <e><p><l>bargobivttas<s n="n"/></l><r>työvaatteet<s n="n"/></r></p></e>
+    <e><p><l>bargobivttas<s n="n"/></l><r>työvaate<s n="n"/></r></p></e>
     <e><p><l>bargojoavku<s n="n"/></l><r>työryhmä<s n="n"/></r></p></e>
     <e><p><l>bargoplána<s n="n"/></l><r>työsuunnitelma<s n="n"/></r></p></e>
     <e><p><l>bargosadji<s n="n"/></l><r>työpaikka<s n="n"/></r></p></e>
@@ -1683,7 +1683,7 @@
     <e><p><l>goiku<s n="n"/></l><r>jano<s n="n"/></r></p></e>
     <e><p><l>golggotmánnu<s n="n"/></l><r>lokaluu<s n="n"/></r></p></e>
     <e><p><l>golgodávda<s n="n"/></l><r>kulkutauti<s n="n"/></r></p></e>
-    <e><p><l>golli<s n="n"/></l><r>kulta<s n="n"/></r></p></e>
+    <e><p><l>golli<s n="n"/><s n="g3"/></l><r>kulta<s n="n"/></r></p></e>
     <e><p><l>golmmeš<s n="n"/></l><r>kolmonen<s n="n"/></r></p></e>
     <e><p><l>gonagas<s n="n"/></l><r>kuningas<s n="n"/></r></p></e>
     <e><p><l>gonagasbárdni<s n="n"/></l><r>prinssi<s n="n"/></r></p></e>
@@ -2046,7 +2046,7 @@
     <e><p><l>luopmu<s n="n"/></l><r>loma<s n="n"/></r></p></e>
     <e><p><l>luoppal<s n="n"/></l><r>lompolo<s n="n"/></r></p></e>
     <e><p><l>luossa<s n="n"/></l><r>lohi<s n="n"/></r></p></e>
-    <e><p><l>luossabivdu<s n="n"/></l><r>lohikalastus<s n="n"/></r></p></e>
+    <!--<e><p><l>luossabivdu<s n="n"/></l><r>lohikalastus<s n="n"/></r></p></e>-->
     <e><p><l>luossaláibi<s n="n"/></l><r>lohivoileipä<s n="n"/></r></p></e>
     <e><p><l>ládju<s n="n"/></l><r>elonkorjuu<s n="n"/></r></p></e>
     <e><p><l>ládju<s n="n"/></l><r>heinätyö<s n="n"/></r></p></e>
@@ -2201,7 +2201,7 @@
     <e><p><l>mánnágeahčči<s n="n"/></l><r>lastenvahti<s n="n"/></r></p></e>
     <e><p><l>mánoheahpi<s n="n"/></l><r>kuutamo<s n="n"/></r></p></e>
     <e><p><l>mánáid-TV<s n="n"/></l><r>lasten-TV<s n="n"/></r></p></e>
-    <e><p><l>mánáidboddu<s n="n"/></l><r>lastentunti<s n="n"/></r></p></e>
+    <!--<e><p><l>mánáidboddu<s n="n"/></l><r>lastentunti<s n="n"/></r></p></e>-->
     <e><p><l>mánáidgirji<s n="n"/></l><r>lastenkirja<s n="n"/></r></p></e>
     <e><p><l>mánáidgárdi<s n="n"/></l><r>lastentarha<s n="n"/></r></p></e>
     <e><p><l>mánáidmánná<s n="n"/></l><r>lapsenlapsi<s n="n"/></r></p></e>
@@ -2893,7 +2893,7 @@
     <e><p><l>árbevierru<s n="n"/></l><r>perinne<s n="n"/></r></p></e>
     <e><p><l>árbmu<s n="n"/></l><r>armo<s n="n"/></r></p></e>
     <e><p><l>árga<s n="n"/></l><r>arkipäivä<s n="n"/></r></p></e>
-    <e><p><l>árgabivttas<s n="n"/></l><r>arkivaatteet<s n="n"/></r></p></e>
+    <e><p><l>árgabivttas<s n="n"/></l><r>arkivaate<s n="n"/></r></p></e>
     <e><p><l>árka<s n="n"/></l><r>arkki<s n="n"/></r></p></e>
     <e><p><l>árpu<s n="n"/></l><r>lanka<s n="n"/></r></p></e>
     <e><p><l>árran<s n="n"/></l><r>tulisija<s n="n"/></r></p></e>
@@ -5367,7 +5367,7 @@
     <!-- <e><p><l>ealli<s n="vblex"/><s n="iv"/></l><r>elävä<s n="adj"/></r></p></e> -->
     <e><p><l>ollis<s n="adj"/></l><r>koko<s n="adj"/></r></p><par n="A_A"/></e>
     <e><p><l>máŋga<s n="num"/></l><r>usea<s n="prn"/></r></p></e>
-    <e><p><l>máŋga<s n="num"/></l><r>moni<s n="prn"/></r></p></e>
+    <e><p><l>máŋga<s n="num"/></l><r>moni<s n="prn"/><s n="qnt"/></r></p></e>
 
     <!-- álgu adjectives -->
     <e><p><l>abstrákta<s n="adj"/></l><r>abstrakti<s n="adj"/></r></p></e>
@@ -5687,7 +5687,7 @@
     <e><p><l>ihttin<s n="adv"/></l><r>huomenna<s n="adv"/></r></p></e>
     <e><p><l>ikte<s n="adv"/></l><r>eilen<s n="adv"/></r></p></e>
     <e><p><l>jaska<s n="adv"/></l><r>hiljaa<s n="adv"/></r></p></e>
-    <e><p><l>juoba<s n="adv"/></l><r>jopa<s n="adv"/></r></p></e>
+    <e><p><l>juoba<s n="adv"/></l><r>jopa<s n="part"/></r></p></e>
     <e><p><l>miehtá<s n="adv"/></l><r>kaikkialta<s n="adv"/></r></p></e>
     <e><p><l>kánske<s n="adv"/></l><r>ehkä<s n="adv"/></r></p></e>
      <e><p><l>manne<s n="adv"/></l><r>miksi<s n="adv"/></r></p></e>
