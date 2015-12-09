@@ -61,10 +61,13 @@
     </def-cat>
     <def-cat n="nom-cmp">
       <cat-item tags="n.cmp_sgnom.cmp"/>
+      <cat-item tags="n.cmp_sgnom.cmp_splitr"/>
+      <cat-item tags="n.cmp_sgnom.cmp_splitr.*"/>
       <cat-item tags="n.cmp_sgnom.cmp.*"/>
       <cat-item tags="n.cmp_sggen.cmp"/>
       <cat-item tags="n.cmp_sggen.cmp.*"/>
       <cat-item tags="n.*.cmp_sgnom.cmp"/>
+      <cat-item tags="n.*.cmp_sgnom.cmp_splitr.*"/>
       <cat-item tags="n.*.cmp_sgnom.cmp.*"/>
       <cat-item tags="n.*.cmp_sggen.cmp"/>
       <cat-item tags="n.*.cmp_sggen.cmp.*"/>
@@ -135,8 +138,10 @@
     <def-attr n="a_nonfin">
       <attr-item tags="inf"/>
       <attr-item tags="vgen"/>
+      <attr-item tags="vabess"/>
       <attr-item tags="infma.sg.ine"/>
       <attr-item tags="infma.sg.ins"/>
+      <attr-item tags="infma.sg.abe"/>
       <attr-item tags="actio.ine"/>
       <attr-item tags="actio.ess"/>
       <attr-item tags="der_minen.sg.ela"/>
@@ -174,11 +179,16 @@
       <attr-item tags="du"/>
     </def-attr>
     <def-attr n="a_cmp">
+      <attr-item tags="cmp"/>
+      <attr-item tags="cmp.guio"/>
 
       <attr-item tags="cmp_sgnom.cmp_hyph.cmp"/>
       <attr-item tags="cmp_sggen.cmp_hyph.cmp"/>
       <attr-item tags="cmp_sgnom.cmp"/>
       <attr-item tags="cmp_sggen.cmp"/>
+      <attr-item tags="cmp_sgnom.cmp_splitr"/>
+      <attr-item tags="cmp_sggen.cmp_splitr"/>
+
       <attr-item tags="sg.nom.cmp"/>
       <attr-item tags="sg.gen.cmp"/>
 
@@ -188,6 +198,8 @@
       <attr-item tags="cmp_plgen.cmp"/>
       <attr-item tags="pl.nom.cmp"/>
       <attr-item tags="pl.gen.cmp"/>
+      <attr-item tags="pl.nom.cmp_splitr"/>
+      <attr-item tags="pl.gen.cmp_splitr"/>
 
     </def-attr>
     <def-attr n="a_ess">
@@ -640,6 +652,16 @@
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_plnom.cmp_hyph.cmp"/></equal></or></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="pl.nom.cmp"/></let>
         </when>
+        <when>
+          <test><or><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sgnom.cmp_splitr"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sggen.cmp_splitr"/></equal></or></test>
+          <let><clip pos="1" side="tl" part="a_cmp"/><concat><lit-tag v="sg.nom"/><lit v="$^-"/><lit-tag v="guio"/></concat></let>
+        </when>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="num"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp.guio"/></equal></and></test>
+          <let><clip pos="1" side="tl" part="a_cmp"/><concat><lit-tag v="sg.nom"/><lit v="$^-"/><lit-tag v="guio"/></concat></let>
+        </when>
       </choose>
 
       <choose>
@@ -652,6 +674,16 @@
           <let><clip pos="1" side="tl" part="a_ess"/><lit-tag v="sg.ess"/></let>
         </when>
       </choose>
+
+      <choose>
+        <when>
+          <test>
+                     <or><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="adj"/></equal>
+                         <equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="prn"/></equal></or></test>
+          <let><clip pos="1" side="tl" part="a_cmp"/><lit v=""/></let>
+        </when>
+      </choose>
+
 
     </def-macro>
 
@@ -671,6 +703,10 @@
         <when>
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.ess"/></equal></test>
           <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infma.sg.ine"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="vabess"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infma.sg.abe"/></let>
         </when>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="vgen"/></equal></test>
@@ -753,6 +789,28 @@
     </rule>
 
     <!-- SECTION: Sintagmes nominals -->
+
+    <rule comment="REGLA: NOM-CMP">
+      <pattern>
+        <pattern-item n="nom-cmp"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: NOM">
       <pattern>
