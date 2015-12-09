@@ -15,10 +15,17 @@
   </section-def-cats>
   
   <section-def-attrs>
+    <def-attr n="a_kill"> <!-- De burde fiksest i bidix. -->
+      <attr-item tags="g3"/>
+      <attr-item tags="g7"/>
+      <attr-item tags="nomag"/>
+    </def-attr>
+
     <def-attr n="a_cas">
       <attr-item tags="nom"/>
       <attr-item tags="CD"/>
     </def-attr>
+
      <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -51,6 +58,7 @@
           <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
         </when>
       </choose>
+      <let><clip pos="1" side="tl" part="a_kill"/><lit v=""/></let>
     </def-macro>
   </section-def-macros>
 

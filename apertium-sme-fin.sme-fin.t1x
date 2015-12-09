@@ -360,6 +360,7 @@
       <attr-item tags="sem_drink"/>
       <attr-item tags="sem_dummytag"/>
       <attr-item tags="sem_edu"/>
+      <attr-item tags="sem_edu_event"/>
       <attr-item tags="sem_edu_mat"/>
       <attr-item tags="sem_edu_org"/>
       <attr-item tags="sem_event"/>
@@ -525,6 +526,14 @@
       <let><clip pos="1" side="tl" part="a_ext"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_syn"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_attr"/><lit-tag v="ND.CD"/></let>
+
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="lem"/><lit v="koko"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+        </when>
+      </choose>
 
       <choose>
         <when>
