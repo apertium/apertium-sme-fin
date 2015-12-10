@@ -22,6 +22,8 @@
       <cat-item tags="prn.*.attr.*"/>
       <cat-item tags="num.*.*.attr.*"/>
       <cat-item tags="adj.*.attr.*"/>
+      <cat-item tags="adj.*.cmp"/>
+      <cat-item tags="adj.*.cmp.*"/>
       <cat-item tags="adj.attr.*"/>
     </def-cat>
     <def-cat n="goahti">
@@ -111,6 +113,9 @@
     <def-attr n="a_known">
       <attr-item tags="known"/>
     </def-attr>
+    <def-attr n="a_conneg">
+      <attr-item tags="conneg"/>
+    </def-attr>
     <def-attr n="a_voice">
       <attr-item tags="actv"/>
     </def-attr>
@@ -143,6 +148,7 @@
       <attr-item tags="infma.sg.ins"/>
       <attr-item tags="infma.sg.abe"/>
       <attr-item tags="actio.ine"/>
+      <attr-item tags="actio.gen"/>
       <attr-item tags="actio.ess"/>
       <attr-item tags="der_minen.sg.ela"/>
       <attr-item tags="der_minen.sg.gen"/>
@@ -163,6 +169,7 @@
     <def-attr n="a_pos">
       <attr-item tags="n"/>
       <attr-item tags="adj"/>
+      <attr-item tags="adv"/>
       <attr-item tags="num"/>
       <attr-item tags="prn"/>
       <attr-item tags="prn.pers"/>
@@ -398,6 +405,7 @@
       <attr-item tags="sem_group_hum"/>
       <attr-item tags="sem_group_hum_plc"/>
       <attr-item tags="sem_hum"/>
+      <attr-item tags="sem_hum_plc"/>
       <attr-item tags="sem_hum.coll"/>
       <attr-item tags="sem_hum_lang"/>
       <attr-item tags="sem_hum_lang_plc"/>
@@ -508,6 +516,20 @@
     </def-macro>
 
     <def-macro n="concord-nominal2" npar="2">
+      <choose>
+        <when>
+          <test><and><not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="koko"/></equal></not>
+                     <equal><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></equal></and></test>
+          <let><clip pos="2" side="tl" part="tags"/><concat><clip pos="2" side="tl" part="tags"/><lit-tag v="ND"/></concat></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test><and><not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="koko"/></equal></not>
+                     <equal><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></equal></and></test>
+          <let><clip pos="2" side="tl" part="tags"/><concat><clip pos="2" side="tl" part="tags"/><lit-tag v="CD"/></concat></let>
+        </when>
+      </choose>
       <let><clip pos="2" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
       <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
     </def-macro>
@@ -541,9 +563,8 @@
 
       <choose>
         <when>
-          <test><equal><clip pos="1" side="tl" part="lem"/><lit v="koko"/></equal></test>
-          <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-          <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+          <test><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="koko"/></equal></test>
+          <let><clip pos="1" side="tl" part="tags"/><lit-tag v="prn.qnt"/></let>
         </when>
       </choose>
 
@@ -658,6 +679,11 @@
           <let><clip pos="1" side="tl" part="a_cmp"/><concat><lit-tag v="sg.nom"/><lit v="$^-"/><lit-tag v="guio"/></concat></let>
         </when>
         <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="adv"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp"/></equal></and></test>
+          <let><clip pos="1" side="tl" part="a_cmp"/><lit v=""/></let>
+        </when>
+        <when>
           <test><and><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="num"/></equal>
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp.guio"/></equal></and></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><concat><lit-tag v="sg.nom"/><lit v="$^-"/><lit-tag v="guio"/></concat></let>
@@ -716,6 +742,11 @@
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="inf"/></equal></test>
           <!--<let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="der_minen.sg.ela"/></let>-->
           <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infa.sg.lat"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.gen"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="der_minen.sg.tra"/></let>
+          <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
         </when>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.ine"/></equal></test>
@@ -984,6 +1015,8 @@
       </action>
     </rule>
 
+    <!-- SECTION: Verb groups -->
+
     <rule comment="REGLA: GOAHTI">
       <pattern>
         <pattern-item n="goahti"/>
@@ -1100,6 +1133,26 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: CONNEG-PRET">
+      <pattern>
+        <pattern-item n="conneg-pret"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="ii-conneg" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.NEG"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/><lit-tag v="ND"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <rule comment="REGLA: FIN">
       <pattern>
         <pattern-item n="fin"/>
@@ -1141,6 +1194,7 @@
         </out>
       </action>
     </rule>
+
 
     <rule comment="REGLA: II CONNEG-PRET">
       <pattern>
