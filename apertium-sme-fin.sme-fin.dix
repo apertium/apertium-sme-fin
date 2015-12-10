@@ -103,7 +103,7 @@
     <e><p><l>nai<s n="pcle"/></l><r>kin<s n="adv"/></r></p></e> <!-- ;D -->
     <e><p><l>ge<s n="pcle"/></l><r>kin<s n="adv"/></r></p></e> <!-- ;D -->
     <e><p><l>ge<s n="pcle"/></l><r>kaan<s n="adv"/></r></p></e> <!-- ;D -->
-    <e><p><l>go<s n="pcle"/><s n="qst"/></l><r><s n="qst"/></r></p></e> <!-- ;D -->
+    <e><p><l>go<s n="pcle"/><s n="qst"/></l><r>ko<s n="qst"/></r></p></e> <!-- ;D -->
 
     <!--<e><p><l>earret<b/>eará<s n="adv"/></l><r>muun<b/>muassa<s n="adv"/></r></p></e>-->
     <e><p><l>ovdalis<s n="adv"/></l><r>aiemmin<s n="adv"/></r></p></e>
@@ -747,7 +747,7 @@
     <e><p><l>máhtolašvuohta<s n="n"/></l><r>kelpoisuus<s n="n"/></r></p></e>
     <e><p><l>sirdin<s n="n"/></l><r>siirto<s n="n"/></r></p></e>
     <e><p><l>Anár<s n="n"/></l><r>Inari<s n="n"/></r></p></e>
-    <e><p><l>boazoeaiggát<s n="n"/></l><r>poronomistaja<s n="n"/></r></p></e>
+    <!--<e><p><l>boazoeaiggát<s n="n"/></l><r>poronomistaja<s n="n"/></r></p></e>-->
     <!--<e><p><l>sámediggepresideanta<s n="n"/></l><r>saamelaispresidentti<s n="n"/></r></p></e>-->
     <e><p><l>perspektiiva<s n="n"/></l><r>näkökulma<s n="n"/></r></p></e>
     <e><p><l>doallu<s n="n"/></l><r>toimintayksikkö<s n="n"/></r></p></e>
@@ -883,7 +883,7 @@
     <e><p><l>Ovddádusbellodat<s n="n"/></l><r>Edistyspuolue<s n="n"/></r></p></e>
     <!--<e><p><l>deaivvadeapmi<s n="n"/></l><r>tapaaminen<s n="n"/></r></p></e>-->
     <e><p><l>vealaheapmi<s n="n"/></l><r>sorto<s n="n"/></r></p></e>
-    <e><p><l>boazoealáhus<s n="n"/></l><r>poroelinkeino<s n="n"/></r></p></e>
+    <!--<e><p><l>boazoealáhus<s n="n"/></l><r>poroelinkeino<s n="n"/></r></p></e>-->
     <e><p><l>giellalávdegoddi<s n="n"/></l><r>kielilautakunta<s n="n"/></r></p></e>
     <e><p><l>mátkeealáhus<s n="n"/></l><r>matkailuelinkeino<s n="n"/></r></p></e>
     <e><p><l>gieđahallan<s n="n"/></l><r>käsittely<s n="n"/></r></p></e>
@@ -1270,7 +1270,7 @@
     <e><p><l>referánsajoavku<s n="n"/></l><r>referenssiryhmä<s n="n"/></r></p></e>
     <e><p><l>stivrejupmi<s n="n"/></l><r>johtomuoto<s n="n"/></r></p></e>
     <e><p><l>rabasvuohta<s n="n"/></l><r>avoimuus<s n="n"/></r></p></e>
-    <e><p><l>bálvalusfálaldat<s n="n"/></l><r>palvelutarjonta<s n="n"/></r></p></e>
+    <!--<e><p><l>bálvalusfálaldat<s n="n"/></l><r>palvelutarjonta<s n="n"/></r></p></e>-->
     <e><p><l>vuoruhansuorgi<s n="n"/></l><r>satsausalue<s n="n"/></r></p></e>
     <e><p><l>riddodepartemeanta<s n="n"/></l><r>rannikkoministeriö<s n="n"/></r></p></e>
     <e><p><l>dimenšuvdna<s n="n"/></l><r>ulottuvuus<s n="n"/></r></p></e>
@@ -3676,7 +3676,7 @@
     <e><p><l>sáibu<s n="n"/></l><r>saippua<s n="n"/></r></p></e>
     <e><p><l>sáidi<s n="n"/></l><r>seiti<s n="n"/></r></p></e>
     <e><p><l>sáiti<s n="n"/></l><r>keihäs<s n="n"/></r></p></e>
-    <e><p><l>sáivačáhceguolli<s n="n"/></l><r>sisävesikala<s n="n"/></r></p></e>
+    <!--<e><p><l>sáivačáhceguolli<s n="n"/></l><r>sisävesikala<s n="n"/></r></p></e>-->
     <e><p><l>sákta<s n="n"/></l><r>mehu<s n="n"/></r></p></e>
     <e><p><l>sálaš<s n="n"/></l><r>kalansaalis<s n="n"/></r></p></e>
     <e><p><l>sálbma<s n="n"/></l><r>psalmi<s n="n"/></r></p></e>

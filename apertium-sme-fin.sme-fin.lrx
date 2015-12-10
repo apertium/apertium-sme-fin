@@ -6,6 +6,9 @@
   </rule>
 
  
+  <rule weight="1.0">
+    <match lemma="suohkan" tags="n.*"><select lemma="kunta" tags="n.*"/></match>
+  </rule>
 
   <rule weight="1.0">
     <match lemma="liikot" tags="vblex.*"><select lemma="tykätä" tags="vblex.*"/></match>

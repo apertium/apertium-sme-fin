@@ -5,6 +5,9 @@
     <def-cat n="default">
       <cat-item tags="*"/>
     </def-cat>
+    <def-cat n="qst">
+      <cat-item tags="pcle.qst.*"/>
+    </def-cat>
     <def-cat n="cnp">
       <cat-item tags="cnjcoo.@CNP"/>
     </def-cat>
@@ -1228,6 +1231,27 @@
             <b pos="1"/>
             <lu>
               <clip pos="2" side="tl" part="whole"/><clip pos="1" side="tl" part="a_nbr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: KO">
+      <pattern>
+        <pattern-item n="qst"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_syn"/><lit v=""/></let>
+        <out>
+          <chunk name="qst" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="QST"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
