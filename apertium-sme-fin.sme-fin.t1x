@@ -142,9 +142,11 @@
     </def-attr>
     <def-attr n="a_nonfin">
       <attr-item tags="inf"/>
+      <attr-item tags="ger"/>
       <attr-item tags="vgen"/>
       <attr-item tags="vabess"/>
       <attr-item tags="infma.sg.ine"/>
+      <attr-item tags="infe.sg.ine"/>
       <attr-item tags="infma.sg.ins"/>
       <attr-item tags="infma.sg.abe"/>
       <attr-item tags="actio.ine"/>
@@ -737,6 +739,10 @@
         <when>
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="vgen"/></equal></test>
           <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infma.sg.ins"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infe.sg.ine"/></let>
         </when>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="inf"/></equal></test>
