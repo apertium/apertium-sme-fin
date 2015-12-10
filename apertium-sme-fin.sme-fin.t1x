@@ -339,6 +339,7 @@
 
     <def-attr n="a_sem">
       <attr-item tags="sem_act"/>
+      <attr-item tags="sem_act_route"/>
       <attr-item tags="sem_act_plc"/>
       <attr-item tags="sem_amount"/>
       <attr-item tags="sem_amount_semcon"/>
