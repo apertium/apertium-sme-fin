@@ -692,7 +692,7 @@
     <e><p><l>muddu<s n="n"/></l><r>vaihe<s n="n"/></r></p></e>
     <e><p><l>fylkkasuohkan<s n="n"/></l><r>lääni<s n="n"/></r></p></e>
     <e><p><l>doaibmaplána<s n="n"/></l><r>toimintasuunnitelma<s n="n"/></r></p></e>
-    <e><p><l>vuoigatvuođalávdegoddi<s n="n"/></l><r>oikeuslautakunta<s n="n"/></r></p></e>
+    <!--<e><p><l>vuoigatvuođalávdegoddi<s n="n"/></l><r>oikeuslautakunta<s n="n"/></r></p></e>-->
     <e><p><l>rievdadus<s n="n"/></l><r>muutos<s n="n"/></r></p></e>
     <e><p><l>geavaheaddji<s n="n"/></l><r>käyttäjä<s n="n"/></r></p></e>
     <e><p><l>strategiija<s n="n"/></l><r>strategia<s n="n"/></r></p></e>
@@ -732,7 +732,7 @@
     <!--<e><p><l>boazodoalloláhka<s n="n"/></l><r>poronhoitolaki<s n="n"/></r></p></e>-->
     <e><p><l>buvttadeapmi<s n="n"/></l><r>tuotanto<s n="n"/></r></p></e>
     <e><p><l>guolástus<s n="n"/></l><r>kalastus<s n="n"/></r></p></e>
-    <e><p><l>boazodoallohálddahus<s n="n"/></l><r>poronhoitohallinto<s n="n"/></r></p></e>
+    <!--<e><p><l>boazodoallohálddahus<s n="n"/></l><r>poronhoitohallinto<s n="n"/></r></p></e>-->
     <e><p><l>válgabiire<s n="n"/></l><r>vaalipiiri<s n="n"/></r></p></e>
     <e><p><l>doaba<s n="n"/></l><r>käsite<s n="n"/></r></p></e>
     <e><p><l>lullisápmi<s n="n"/></l><r>eteläsaamelainen<s n="n"/></r></p></e>
@@ -783,8 +783,8 @@
     <e><p><l>Guovddášbellodat<s n="n"/></l><r>Keskustapuolue<s n="n"/></r></p></e>
     <!--<e><p><l>giellanjuolggadus<s n="n"/></l><r>kielisääntö<s n="n"/></r></p></e>-->
     <e><p><l>rievdadeapmi<s n="n"/></l><r>muutos<s n="n"/></r></p></e>
-    <e><p><l>boazodoallošiehtadus<s n="n"/></l><r>poronhoitosopimus<s n="n"/></r></p></e>
-    <e><p><l>boazodoallostivra<s n="n"/></l><r>poronhoitojohtokunta<s n="n"/></r></p></e>
+    <!--<e><p><l>boazodoallošiehtadus<s n="n"/></l><r>poronhoitosopimus<s n="n"/></r></p></e>-->
+    <!--<e><p><l>boazodoallostivra<s n="n"/></l><r>poronhoitojohtokunta<s n="n"/></r></p></e>-->
     <e><p><l>ođasmahttin<s n="n"/></l><r>uudistus<s n="n"/></r></p></e>
     <e><p><l>čázádat<s n="n"/></l><r>vesistö<s n="n"/></r></p></e>
     <e><p><l>mielddus<s n="n"/></l><r>liite<s n="n"/></r></p></e>
@@ -1113,7 +1113,7 @@
     <e><p><l>stuibmi<s n="n"/></l><r>melu<s n="n"/></r></p></e>
     <e><p><l>ođđajahki<s n="n"/></l><r>uusivuosi<s n="n"/></r></p></e>
     <!--<e><p><l>guohtumat<s n="n"/></l><r>laidunresurssit<s n="n"/></r></p></e>-->
-    <e><p><l>boazodoalloskuvla<s n="n"/></l><r>poronhoitokoulu<s n="n"/></r></p></e>
+    <!--<e><p><l>boazodoalloskuvla<s n="n"/></l><r>poronhoitokoulu<s n="n"/></r></p></e>-->
     <e><p><l>bagadallan<s n="n"/></l><r>ohjaus<s n="n"/></r></p></e>
     <e><p><l>barggolašvuohta<s n="n"/></l><r>työllisyys<s n="n"/></r></p></e>
     <e><p><l>gaskkamuddu<s n="n"/></l><r>puoliväli<s n="n"/></r></p></e>
@@ -1453,15 +1453,14 @@
     <e><p><l>poastaboksa<s n="n"/></l><r>postilaatikko<s n="n"/></r></p></e>
     <e><p><l>oasseprográmma<s n="n"/></l><r>osaohjelma<s n="n"/></r></p></e>
     <e><p><l>váldohástalus<s n="n"/></l><r>päähaaste<s n="n"/></r></p></e>
-    <e><p><l>unnitálbmot<s n="n"/></l><r>vähemmistökansa<s n="n"/></r></p></e>
-    <e><p><l>Bissojohka<s n="n"/></l><r>Pyssyjoki<s n="n"/></r></p></e>
+    <!--<e><p><l>unnitálbmot<s n="n"/></l><r>vähemmistökansa<s n="n"/></r></p></e>-->
     <e><p><l>juogus<s n="n"/></l><r>jaos<s n="n"/></r></p></e>
     <e><p><l>oaggungilvu<s n="n"/></l><r>kalastuskilpailu<s n="n"/></r></p></e>
     <!--<e><p><l>doavttergráda<s n="n"/></l><r>tohtorintutkinto<s n="n"/></r></p></e>-->
     <!--<e><p><l>vilbealle<s n="n"/></l><r>poikaserkku<s n="n"/></r></p></e>-->
     <e><p><l>ohca<s n="n"/></l><r>povi<s n="n"/></r></p></e>
     <e><p><l>vahkuloahppa<s n="n"/></l><r>viikonloppu<s n="n"/></r></p></e>
-    <e><p><l>boraspirelávdegoddi<s n="n"/></l><r>petoeläinlautakunta<s n="n"/></r></p></e>
+    <!--<e><p><l>boraspirelávdegoddi<s n="n"/></l><r>petoeläinlautakunta<s n="n"/></r></p></e>-->
     <e><p><l>vuosteágga<s n="n"/></l><r>vasta-argumentti<s n="n"/></r></p></e>
     <e><p><l>gaskamuddu<s n="n"/></l><r>puoliväli<s n="n"/></r></p></e>
     <e><p><l>eahpeluohttámuš<s n="n"/></l><r>epäluottamus<s n="n"/></r></p></e>
@@ -1616,7 +1615,7 @@
     <e><p><l>skuvlaseahkka<s n="n"/></l><r>koulureppu<s n="n"/></r></p></e>
     <e><p><l>roggi<s n="n"/></l><r>kuoppa<s n="n"/></r></p></e>
     <e><p><l>gurutbellodat<s n="n"/></l><r>vasemmistopuolue<s n="n"/></r></p></e>
-    <e><p><l>boazoisit<s n="n"/></l><r>poronomistaja<s n="n"/></r></p></e>
+    <!--<e><p><l>boazoisit<s n="n"/></l><r>poronomistaja<s n="n"/></r></p></e>-->
     <e><p><l>hálddahanguovlu<s n="n"/></l><r>hallintoalue<s n="n"/></r></p></e>
     <e><p><l>huksenlohpi<s n="n"/></l><r>rakennuslupa<s n="n"/></r></p></e>
     <e><p><l>báktedáidda<s n="n"/></l><r>kivitaide<s n="n"/></r></p></e>
@@ -2437,7 +2436,7 @@
     <e><p><l>duopmár<s n="n"/></l><r>tuomari<s n="n"/></r></p></e>
     <e><p><l>duorastat<s n="n"/></l><r>torstai<s n="n"/></r></p></e>
     <e><p><l>duottar<s n="n"/></l><r>tunturi<s n="n"/></r></p></e>
-    <e><p><l>duottarstohpu<s n="n"/></l><r>tunturimökki<s n="n"/></r></p></e>
+    <!--<e><p><l>duottarstohpu<s n="n"/></l><r>tunturimökki<s n="n"/></r></p></e>-->
     <e><p><l>duođaštus<s n="n"/></l><r>todistus<s n="n"/></r></p></e>
     <e><p><l>dutkan<s n="n"/></l><r>tutkinto<s n="n"/></r></p></e>
     <e><p><l>dutki<s n="n"/><s n="nomag"/></l><r>tutkija<s n="n"/></r></p></e>
