@@ -635,7 +635,7 @@
     <e><p><l>bušeahtta<s n="n"/></l><r>budjetti<s n="n"/></r></p></e>
     <e><p><l>boahtteáigi<s n="n"/></l><r>tulevaisuus<s n="n"/></r></p></e>
     <e><p><l>oaidnu<s n="n"/></l><r>mielipide<s n="n"/></r></p></e>
-    <e><p><l>Sámediggeráđđi<s n="n"/></l><r>Saamelaisneuvosto<s n="n"/></r></p></e>
+    <!--<e><p><l>Sámediggeráđđi<s n="n"/></l><r>Saamelaisneuvosto<s n="n"/></r></p></e>-->
     <e><p><l>hálddašeapmi<s n="n"/></l><r>hallinto<s n="n"/></r></p></e>
     <e><p><l>mihttomearri<s n="n"/></l><r>tavoite<s n="n"/></r></p></e>
     <e><p><l>oahpponeavvu<s n="n"/></l><r>opetusmateriaali<s n="n"/></r></p></e>
@@ -715,7 +715,6 @@
     <e><p><l>áviisa<s n="n"/></l><r>lehti<s n="n"/></r></p></e>
     <e><p><l>diehtojuohkin<s n="n"/></l><r>tiedotus<s n="n"/></r></p></e>
     <e><p><l>šiehtadallan<s n="n"/></l><r>neuvottelu<s n="n"/></r></p></e>
-    <e><p><l>stuorradiggi<s n="n"/></l><r>suurkäräjät<s n="n"/></r></p></e>
     <e><p><l>jahkedieđáhus<s n="n"/></l><r>vuosikertomus<s n="n"/></r></p></e>
     <!--<e><p><l>sámediggeválga<s n="n"/></l><r>saamelaiskäräjien<b/>vaalit<s n="n"/></r></p></e>-->
     <e><p><l>giellaráđđi<s n="n"/></l><r>kielineuvosto<s n="n"/></r></p></e>
@@ -780,7 +779,7 @@
     <e><p><l>lágideaddji<s n="n"/></l><r>järjestäjä<s n="n"/></r></p></e>
     <e><p><l>kulturráđđi<s n="n"/></l><r>kulttuurineuvosto<s n="n"/></r></p></e>
     <e><p><l>Guovddášbellodat<s n="n"/></l><r>Keskustapuolue<s n="n"/></r></p></e>
-    <e><p><l>giellanjuolggadus<s n="n"/></l><r>kielisääntö<s n="n"/></r></p></e>
+    <!--<e><p><l>giellanjuolggadus<s n="n"/></l><r>kielisääntö<s n="n"/></r></p></e>-->
     <e><p><l>rievdadeapmi<s n="n"/></l><r>muutos<s n="n"/></r></p></e>
     <e><p><l>boazodoallošiehtadus<s n="n"/></l><r>poronhoitosopimus<s n="n"/></r></p></e>
     <e><p><l>boazodoallostivra<s n="n"/></l><r>poronhoitojohtokunta<s n="n"/></r></p></e>
@@ -923,7 +922,7 @@
     <!--<e><p><l>dárru<s n="n"/></l><r>norjan<b/>kieli<s n="n"/></r></p></e>-->
     <e><p><l>bargoaddi<s n="n"/></l><r>työnantaja<s n="n"/></r></p></e>
     <e><p><l>oassálasti<s n="n"/></l><r>osallistuja<s n="n"/></r></p></e>
-    <e><p><l>ráđđelahttu<s n="n"/></l><r>neuvostonjäsen<s n="n"/></r></p></e>
+    <!--<e><p><l>ráđđelahttu<s n="n"/></l><r>neuvostonjäsen<s n="n"/></r></p></e>-->
     <e><p><l>giláš<s n="n"/></l><r>kylä<s n="n"/></r></p></e>
     <e><p><l>kulturárbi<s n="n"/></l><r>kulttuuriperinne<s n="n"/></r></p></e>
     <e><p><l>ođastus<s n="n"/></l><r>uudistus<s n="n"/></r></p></e>
@@ -1682,7 +1681,7 @@
     <e><p><l>girkobáiki<s n="n"/></l><r>kirkkopaikka<s n="n"/></r></p></e>
     <e><p><l>gierdavašvuohta<s n="n"/></l><r>kärsivällisyys<s n="n"/></r></p></e>
     <e><p><l>elefánta<s n="n"/></l><r>elefantti<s n="n"/></r></p></e>
-    <e><p><l>sámegiel<s n="n"/></l><r>saamenkielinen<s n="n"/></r></p></e>
+    <!--<e><p><l>sámegiel<s n="n"/></l><r>saamenkielinen<s n="n"/></r></p></e>-->
     <e><p><l>jorri<s n="n"/></l><r>pyörre<s n="n"/></r></p></e>
     <e><p><l>fárru<s n="n"/></l><r>seurue<s n="n"/></r></p></e>
     <e><p><l>oappáš<s n="n"/></l><r>pikkusisko<s n="n"/></r></p></e>
@@ -2670,7 +2669,7 @@
     <e><p><l>goahtemuorra<s n="n"/></l><r>ruode<s n="n"/></r></p></e>
     <e><p><l>goahti<s n="n"/></l><r>kota<s n="n"/></r></p></e>
     <e><p><l>goalki<s n="n"/></l><r>tyvi<s n="n"/></r></p></e>
-    <e><p><l>goalki<s n="n"/></l><r>tyyni<s n="n"/></r></p></e>
+    <!--<e><p><l>goalki<s n="n"/></l><r>tyyni<s n="n"/></r></p></e>-->
     <e><p><l>goallossátni<s n="n"/></l><r>yhdyssana<s n="n"/></r></p></e>
     <e><p><l>goallu<s n="n"/></l><r>lamppu<s n="n"/></r></p></e>
     <e><p><l>goargu<s n="n"/></l><r>sukunimi<s n="n"/></r></p></e>
@@ -3294,7 +3293,7 @@
     <e><p><l>nuorvvu<s n="n"/></l><r>nuha<s n="n"/></r></p></e>
     <e><p><l>nurki<s n="n"/></l><r>kulma<s n="n"/></r></p></e>
     <e><p><l>nuvttot<s n="n"/></l><r>nutukas<s n="n"/></r></p></e>
-    <e><p><l>náhkkebivttas<s n="n"/></l><r>nahkavaatteet<s n="n"/></r></p></e>
+    <!--<e><p><l>náhkkebivttas<s n="n"/></l><r>nahkavaatteet<s n="n"/></r></p></e>-->
     <e><p><l>náhkki<s n="n"/></l><r>nahas<s n="n"/></r></p></e>
     <e><p><l>náhkki<s n="n"/></l><r>nahka<s n="n"/></r></p></e>
     <e><p><l>náittosbárra<s n="n"/></l><r>hääpari<s n="n"/></r></p></e>
@@ -3631,7 +3630,8 @@
     <e><p><l>studeanta<s n="n"/></l><r>opiskelija<s n="n"/></r></p></e>
     <e><p><l>stuibmideaddji<s n="n"/><s n="nomag"/></l><r>kapinoitsija<s n="n"/></r></p></e>
     <e><p><l>stuollu<s n="n"/></l><r>tuoli<s n="n"/></r></p></e>
-    <e><p><l>stuoradiggi<s n="n"/></l><r>suurkäräjät<s n="n"/></r></p></e>
+    <e><p><l>stuorradiggi<s n="n"/><s n="sg"/></l><r>suurkäräjät<s n="n"/><s n="pl"/></r></p></e>
+    <e><p><l>stuoradiggi<s n="n"/><s n="sg"/></l><r>suurkäräjät<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>stággu<s n="n"/></l><r>onki<s n="n"/></r></p></e>
     <e><p><l>stáhta<s n="n"/></l><r>valtio<s n="n"/></r></p></e>
     <e><p><l>stáhtaminister<s n="n"/></l><r>pääministeri<s n="n"/></r></p></e>
@@ -3685,7 +3685,7 @@
     <e><p><l>sáltemárfi<s n="n"/></l><r>meetvursti<s n="n"/></r></p></e>
     <e><p><l>sálti<s n="n"/></l><r>soula<s n="n"/></r></p></e>
     <e><p><l>sálti<s n="n"/></l><r>suola<s n="n"/></r></p></e>
-    <e><p><l>sámediggeráđđi<s n="n"/></l><r>saamelaisneuvosto<s n="n"/></r></p></e>
+    <!--<e><p><l>sámediggeráđđi<s n="n"/></l><r>saamelaisneuvosto<s n="n"/></r></p></e>-->
     <e><p><l>sámediggi<s n="n"/><s n="sg"/></l><r>saamelaiskäräjät<s n="n"/><s n="pl"/></r></p></e>
     <!--<e><p><l>sámegielgursa<s n="n"/></l><r>saamen<b/>kielen<b/>kurssi<s n="n"/></r></p></e>-->
     <!--<e><p><l>sámegielkursa<s n="n"/></l><r>saamen<b/>kielen<b/>kurssi<s n="n"/></r></p></e>-->
@@ -8785,8 +8785,8 @@
     <!-- SECTION: Punctuation -->
 
     <e><re>[0-9]+</re><p><l><s n="num"/></l><r><s n="num"/><s n="card"/></r></p></e>
-    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/><s n="real"/></r></p></e>
-    <e><re>[0-9]+([.,][0-9]+)+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+    <!--<e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/><s n="real"/></r></p></e>-->
+    <!--<e><re>[0-9]+([.,][0-9]+)+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>-->
     <e><re>[.\?!;:]+</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
     <e><re>[.\?!;:]+</re><p><l><s n="punct"/></l><r><s n="punct"/></r></p></e>
     <e><re>[.\?!;:]+</re><p><l><s n="clb"/></l><r><s n="punct"/></r></p></e>
