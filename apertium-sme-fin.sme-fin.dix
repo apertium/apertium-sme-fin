@@ -145,7 +145,7 @@
     
     <e><p><l>muhto<s n="cnjcoo"/></l><r>vaan<s n="part"/></r></p></e>
 
-    <e><p><l>maŋŋágo<s n="cnjsub"/></l><r>jälkeen<s n="part"/></r></p></e> <!-- FIX -->
+    <e><p><l>maŋŋágo<s n="cnjsub"/></l><r>jälkeen<s n="adv"/></r></p></e> <!-- FIX -->
 
     <!-- SECTION: Adpositions -->
 
@@ -223,7 +223,7 @@
     <e><p><l>birra<s n="post"/></l><r>ympäri<s n="post"/></r></p></e>
     <e><p><l>botnis<s n="post"/></l><r>pohjalla<s n="post"/></r></p></e>
     <e><p><l>buohta<s n="post"/></l><r>vastapäätä<s n="post"/></r></p></e>
-    <e><p><l>báldal<s n="post"/></l><r>vieritse<s n="post"/></r></p></e>
+    <e><p><l>báldal<s n="post"/></l><r>vieritse<s n="adv"/></r></p></e>
     <e><p><l>báldda<s n="post"/></l><r>sivuitse<s n="post"/></r></p></e>
     <e><p><l>bálddas<s n="post"/></l><r>vieressä<s n="post"/></r></p></e>
     <e><p><l>bálddas<s n="post"/></l><r>vierestä<s n="post"/></r></p></e>
@@ -233,7 +233,7 @@
     <!-- <e><p><l>duohkai<s n="post"/></l><r>taakse<s n="post"/></r></p></e> --> <!-- ? -->
     <e srl="1"><p><l>duohkin<s n="post"/></l><r>takana<s n="post"/></r></p></e>
     <e><p><l>dáfus<s n="post"/></l><r>kannalta<s n="post"/></r></p></e>
-    <e><p><l>eret<s n="post"/></l><r>irti<s n="post"/></r></p></e>
+    <e><p><l>eret<s n="post"/></l><r>irti<s n="pr"/></r></p></e>
     <e><p><l>gaskan<s n="post"/></l><r>kesken<s n="post"/></r></p></e>
     <e><p><l>gaskka<s n="post"/></l><r>välillä<s n="post"/></r></p></e>
     <e><p><l>gaskka<s n="post"/></l><r>välistä<s n="post"/></r></p></e>
@@ -315,7 +315,7 @@
     <e><p><l>luhtte<s n="post"/></l><r>luona<s n="post"/></r></p></e>
     <e><p><l>luhtte<s n="post"/></l><r>luota<s n="post"/></r></p></e>
     <e><p><l>luhtte<s n="post"/></l><r>lähelle<s n="post"/></r></p></e>
-    <e><p><l>lusa<s n="post"/></l><r>tykö<s n="post"/></r></p></e>
+    <e><p><l>lusa<s n="post"/></l><r>tykö<s n="adv"/></r></p></e>
     <e><p><l>mielde<s n="post"/></l><r>mukana<s n="post"/></r></p></e>    
     <e><p><l>sisa<s n="post"/></l><r>sisään<s n="post"/></r></p></e>
     <e><p><l>siskkil<s n="post"/></l><r>sisältä<s n="post"/></r></p></e>
@@ -339,9 +339,9 @@
     <!--<e><p><l>buohta<s n="post"/></l><r>vastapäätä<s n="pr"/></r></p></e>-->
     <e><p><l>haga<s n="post"/></l><r>ilman<s n="post"/></r></p></e>
     <!--<e><p><l>nala<s n="post"/></l><r>yli<s n="pr"/></r></p></e>-->
-    <e><p><l>vuolde<s n="post"/></l><r>alla<s n="pr"/></r></p></e>
+    <e><p><l>vuolde<s n="post"/></l><r>alla<s n="post"/></r></p></e>
     
-    <e><p><l>vuostái<s n="pr"/></l><r>vastoin<s n="pr"/></r></p></e>
+    <e><p><l>vuostái<s n="pr"/></l><r>vastoin<s n="post"/></r></p></e>
     <e><p><l>badjel<s n="pr"/></l><r>ylitse<s n="post"/></r></p></e>
     <e><p><l>gasku<s n="pr"/></l><r>keskeltä<s n="post"/></r></p></e>
     <e><p><l>lahka<s n="pr"/></l><r>lähellä<s n="post"/></r></p></e>
@@ -349,10 +349,10 @@
     <e><p><l>gasku<s n="pr"/></l><r>keskellä<s n="post"/></r></p></e>
     <e><p><l>ovdal<s n="pr"/></l><r>ennen<s n="post"/></r></p></e> <!-- Also a postposition in Fin... -->
 
-    <e><p><l>gasku<s n="pr"/></l><r>keskelle<s n="pr"/></r></p></e>
-    <e><p><l>lahka<s n="pr"/></l><r>lähelle<s n="pr"/></r></p></e>
+    <e><p><l>gasku<s n="pr"/></l><r>keskelle<s n="post"/></r></p></e>
+    <e><p><l>lahka<s n="pr"/></l><r>lähelle<s n="post"/></r></p></e>
     <e><p><l>badjel<s n="pr"/></l><r>ylitse<s n="post"/></r></p></e>
-    <e><p><l>vuolil<s n="pr"/></l><r>alle<s n="pr"/></r></p></e>
+    <e><p><l>vuolil<s n="pr"/></l><r>alle<s n="post"/></r></p></e>
     
     <!-- SECTION: Adverbs -->
 
@@ -495,27 +495,21 @@
         <!--<e><p><l>ovdal<b/>go<s n="cnjsub"/></l><r>ennen<b/>kuin<s n="cnjsub"/></r></p></e>-->
     <e r="RL"><p><l>ovdal<b/>go<s n="cnjsub"/></l><r>ennenkuin<s n="cnjsub"/></r></p></e>
     <e><p><l>dasságo<s n="cnjsub"/></l><r>kunnes<s n="cnjsub"/></r></p></e>
-    <e><p><l>nugo<s n="cnjsub"/></l><r>niinkuin<s n="cnjsub"/></r></p></e>
+    <e><p><l>nugo<s n="cnjsub"/></l><r>niinkuin<s n="part"/></r></p></e>
     <e><p><l>go<s n="cnjsub"/></l><r>kuin<s n="cnjcoo"/></r></p></e>
 
-
-        <!-- juos - CS, fal - Adv -->
     <e><p><l>juos<b/>fal<s n="cnjsub"/></l><r>mikäli<s n="cnjsub"/></r></p></e>
         
-        <!-- SECTION: Pronouns -->
+    <!-- SECTION: Pronouns -->
 
     <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>minä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
     <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
     <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>hän<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
 
-    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>me<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
-    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>te<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/></l><r>me<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="du"/></l><r>te<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
     <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>he<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
-<!--
-    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>minä<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e> 
-    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>hän<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
--->
+
     <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>me<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e> 
     <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>te<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
     <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>he<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
@@ -595,7 +589,7 @@
     <e><p><l>čuođi<s n="num"/></l><r>sata<s n="num"/></r></p></e>
     
     <e r="RL"><p><l>vuosttaš<s n="adj"/><s n="ord"/></l><r>yhdes<s n="num"/><s n="ord"/></r></p></e>
-    <e><p><l>vuosttaš<s n="adj"/><s n="ord"/></l><r>ensimmäinen<s n="num"/></r></p></e>
+    <e><p><l>vuosttaš<s n="adj"/><s n="ord"/></l><r>ensimmäinen<s n="num"/></r></p><par n="ihmi/nen"/></e>
     <e r="RL"><p><l>nubbi<s n="adj"/><s n="ord"/></l><r>kahdes<s n="num"/></r></p></e>
     <e><p><l>nubbi<s n="adj"/><s n="ord"/></l><r>toinen<s n="num"/></r></p></e>
     <e><p><l>goalmmát<s n="adj"/><s n="ord"/></l><r>kolmas<s n="num"/></r></p></e>
@@ -619,12 +613,10 @@
     <e><p><l>ovddasvástádus<s n="n"/></l><r>vastuu<s n="n"/></r></p></e>
     <e><p><l>lávdegoddi<s n="n"/></l><r>lautakunta<s n="n"/></r></p></e>
     <e><p><l>eaktu<s n="n"/></l><r>ehto<s n="n"/></r></p></e>
-    <e><p><l>Deatnu<s n="n"/></l><r>Teno<s n="n"/></r></p></e>
     <e><p><l>doaibmabidju<s n="n"/></l><r>toimenpide<s n="n"/></r></p></e>
     <e><p><l>plána<s n="n"/></l><r>suunnitelma<s n="n"/></r></p></e>
     <e><p><l>geavaheapmi<s n="n"/></l><r>käyttö<s n="n"/></r></p></e>
     <e><p><l>departemeanta<s n="n"/></l><r>ministeriö<s n="n"/></r></p></e>
-    <e><p><l>Suopma<s n="n"/></l><r>Suomi<s n="n"/></r></p></e>
     <e><p><l>mearkkašupmi<s n="n"/></l><r>merkitys<s n="n"/></r></p></e>
     <e><p><l>árvalus<s n="n"/></l><r>arvio<s n="n"/></r></p></e>
     <e><p><l>bušeahtta<s n="n"/></l><r>budjetti<s n="n"/></r></p></e>
@@ -635,7 +627,6 @@
     <e><p><l>mihttomearri<s n="n"/></l><r>tavoite<s n="n"/></r></p></e>
     <e><p><l>oahpponeavvu<s n="n"/></l><r>opetusmateriaali<s n="n"/></r></p></e>
     <e><p><l>bealle<s n="n"/></l><r>puoli<s n="n"/></r></p></e>
-    <e><p><l>Ruoŧŧa<s n="n"/></l><r>Ruotsi<s n="n"/></r></p></e>
     <e><p><l>ohcan<s n="n"/></l><r>hakemus<s n="n"/></r></p></e>
     <e><p><l>biras<s n="n"/></l><r>ympäristö<s n="n"/></r></p></e>
     <e><p><l>organisašuvdna<s n="n"/></l><r>järjestö<s n="n"/></r></p></e>
@@ -679,7 +670,7 @@
     <e><p><l>proseassa<s n="n"/></l><r>prosessi<s n="n"/></r></p></e>
     <e><p><l>jienasteapmi<s n="n"/></l><r>äänestys<s n="n"/></r></p></e>
     <e><p><l>listu<s n="n"/></l><r>luettelo<s n="n"/></r></p></e>
-    <e><p><l>Ipmil<s n="n"/></l><r>Jumala<s n="n"/></r></p></e>
+    <!--<e><p><l>Ipmil<s n="n"/></l><r>Jumala<s n="n"/></r></p></e>-->
     <e><p><l>eanetlohku<s n="n"/></l><r>enemmistö<s n="n"/></r></p></e>
     <e><p><l>áddejupmi<s n="n"/></l><r>ymmärrys<s n="n"/></r></p></e>
     <e><p><l>muddu<s n="n"/></l><r>vaihe<s n="n"/></r></p></e>
@@ -738,7 +729,6 @@
     <e><p><l>boraspire<s n="n"/></l><r>peto<s n="n"/></r></p></e>
     <e><p><l>máhtolašvuohta<s n="n"/></l><r>kelpoisuus<s n="n"/></r></p></e>
     <e><p><l>sirdin<s n="n"/></l><r>siirto<s n="n"/></r></p></e>
-    <e><p><l>Anár<s n="n"/></l><r>Inari<s n="n"/></r></p></e>
     <!--<e><p><l>boazoeaiggát<s n="n"/></l><r>poronomistaja<s n="n"/></r></p></e>-->
     <!--<e><p><l>sámediggepresideanta<s n="n"/></l><r>saamelaispresidentti<s n="n"/></r></p></e>-->
     <e><p><l>perspektiiva<s n="n"/></l><r>näkökulma<s n="n"/></r></p></e>
@@ -807,7 +797,7 @@
     <e><p><l>jienasteaddji<s n="n"/></l><r>äänestäjä<s n="n"/></r></p></e>
     <!--<e><p><l>čoahkkinjođihangoddi<s n="n"/></l><r>kokousjohtokunta<s n="n"/></r></p></e>-->
     <e><p><l>areála<s n="n"/></l><r>pinta-ala<s n="n"/></r></p></e>
-    <e><p><l>ILO-konvenšuvdna<s n="n"/></l><r>ILO-sopimus<s n="n"/></r></p></e>
+    <!--<e><p><l>ILO-konvenšuvdna<s n="n"/></l><r>ILO-sopimus<s n="n"/></r></p></e>-->
     <e><p><l>stáda<s n="n"/></l><r>valtio<s n="n"/></r></p></e>
     <!--<e><p><l>oahpahusláhka<s n="n"/></l><r>opetuslaki<s n="n"/></r></p></e>-->
     <e><p><l>guovttos<s n="n"/></l><r>kaksikko<s n="n"/></r></p></e>
@@ -863,7 +853,7 @@
     <e><p><l>vuordámuš<s n="n"/></l><r>odotus<s n="n"/></r></p></e>
     <e><p><l>kapihtal<s n="n"/></l><r>kappale<s n="n"/></r></p></e>
     <e><p><l>forum<s n="n"/></l><r>foorumi<s n="n"/></r></p></e>
-    <e><p><l>fágasuorgi<s n="n"/></l><r>ammatti-alue<s n="n"/></r></p></e>
+    <!--<e><p><l>fágasuorgi<s n="n"/></l><r>ammatti-alue<s n="n"/></r></p></e>-->
     <e><p><l>regiovdna<s n="n"/></l><r>alue<s n="n"/></r></p></e>
     <e><p><l>dálon<s n="n"/></l><r>talollinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>boazodoalloguovlu<s n="n"/></l><r>paliskunta<s n="n"/></r></p></e>
@@ -940,7 +930,6 @@
     <!--<e><p><l>eanavuovdinkantuvra<s n="n"/></l><r>maanmyyntitoimisto<s n="n"/></r></p></e>-->
     <!--<e><p><l>oahppofálaldat<s n="n"/></l><r>opetustarjonta<s n="n"/></r></p></e>-->
     <e><p><l>ovttamielalašvuohta<s n="n"/></l><r>yksimielisyys<s n="n"/></r></p></e>
-    <e><p><l>Gáregasnjárga<s n="n"/></l><r>Karigasniemi<s n="n"/></r></p></e>
     <e><p><l>siseana<s n="n"/></l><r>sisämaa<s n="n"/></r></p></e>
     <e><p><l>vuorká<s n="n"/></l><r>arkisto<s n="n"/></r></p></e>
     <e><p><l>áitta<s n="n"/></l><r>uhka<s n="n"/></r></p></e>
@@ -964,7 +953,6 @@
     <!--<e><p><l>finnmárkulaš<s n="n"/></l><r>finnmarkkulainen<s n="n"/></r></p></e>-->
     <!--<e><p><l>finnmárkulaš<s n="n"/></l><r>finnmarkilainen<s n="n"/></r></p></e>-->
     <e><p><l>boasttuvuohta<s n="n"/></l><r>vääryys<s n="n"/></r></p></e>
-    <e><p><l>Ođđasat<s n="n"/></l><r>Uutiset<s n="n"/></r></p></e>
     <e><p><l>signála<s n="n"/></l><r>signaali<s n="n"/></r></p></e>
     <e><p><l>dovdomearka<s n="n"/></l><r>tuntomerkki<s n="n"/></r></p></e>
     <e><p><l>riddoguovlu<s n="n"/></l><r>rannikkoseutu<s n="n"/></r></p></e>
@@ -989,7 +977,6 @@
     <!--<e><p><l>sámekultuvra<s n="n"/></l><r>saamelaiskulttuuri<s n="n"/></r></p></e>-->
     <e><p><l>ámtamánni<s n="n"/></l><r>maaherra<s n="n"/></r></p></e>
     <e><p><l>miellaguoddu<s n="n"/></l><r>mielipide<s n="n"/></r></p></e>
-    <e><p><l>Olgešbellodat<s n="n"/></l><r>Kokoomus<s n="n"/></r></p></e>
     <!--<e><p><l>oarjelsápmi<s n="n"/></l><r>länsisaamelainen<s n="n"/></r></p></e>-->
     <e><p><l>indiána<s n="n"/></l><r>intiaani<s n="n"/></r></p></e>
     <!--<e><p><l>giellastivra<s n="n"/></l><r>kielijohtokunta<s n="n"/></r></p></e>-->
@@ -1018,7 +1005,7 @@
     <e><p><l>mašiidna<s n="n"/></l><r>kone<s n="n"/></r></p></e>
     <e><p><l>oadjebasvuohta<s n="n"/></l><r>turvallisuus<s n="n"/></r></p></e>
     <!--<e><p><l>eanahálddašeapmi<s n="n"/></l><r>maanhallinta<s n="n"/></r></p></e>-->
-    <e><p><l>finála<s n="n"/></l><r>lopullinen<s n="n"/></r></p></e>
+    <!--<e><p><l>finála<s n="n"/></l><r>lopullinen<s n="n"/></r></p></e>-->
     <e><p><l>finála<s n="n"/></l><r>finaali<s n="n"/></r></p></e>
     <!--<e><p><l>álgoálbmotvuoigatvuohta<s n="n"/></l><r>alkuperäiskansaoikeus<s n="n"/></r></p></e>-->
     <e><p><l>čoahkkáigeassu<s n="n"/></l><r>yhteenveto<s n="n"/></r></p></e>
@@ -1028,7 +1015,7 @@
     <e><p><l>hálddašanortnet<s n="n"/></l><r>hallintojärjestelmä<s n="n"/></r></p></e>
     <e><p><l>ealgabivdu<s n="n"/></l><r>hirvenpyynti<s n="n"/></r></p></e>
     <!--<e><p><l>servodatsuorgi<s n="n"/></l><r>yhteiskuntasektori<s n="n"/></r></p></e>-->
-    <e><p><l>mannan<s n="n"/></l><r>viime<s n="n"/></r></p></e>
+    <!--<e><p><l>mannan<s n="n"/></l><r>viime<s n="n"/></r></p></e>-->
     <!--<e><p><l>minerálaláhka<s n="n"/></l><r>mineraalilaki<s n="n"/></r></p></e>-->
     <e><p><l>bissu<s n="n"/></l><r>pyssy<s n="n"/></r></p></e>
     <e><p><l>girkoráđđi<s n="n"/></l><r>kirkkoneuvosto<s n="n"/></r></p></e>
@@ -1092,7 +1079,6 @@
     <e><p><l>militeara<s n="n"/></l><r>sotilas<s n="n"/></r></p></e>
     <!--<e><p><l>láhkamearrádus<s n="n"/></l><r>lakipäätös<s n="n"/></r></p></e>-->
     <e><p><l>beassan<s n="n"/></l><r>pääsy<s n="n"/></r></p></e>
-    <e><p><l>Giron<s n="n"/></l><r>Kiiruna<s n="n"/></r></p></e>
     <e><p><l>mearridanváldi<s n="n"/></l><r>päätösvalta<s n="n"/></r></p></e>
     <e><p><l>pasieanta<s n="n"/></l><r>potilas<s n="n"/></r></p></e>
     <e><p><l>homofiila<s n="n"/></l><r>homofiili<s n="n"/></r></p></e>
@@ -1115,7 +1101,6 @@
     <!--<e><p><l>kulturlávdegoddi<s n="n"/></l><r>kulttuurilautakunta<s n="n"/></r></p></e>-->
     <e><p><l>oahppa<s n="n"/></l><r>tieto<s n="n"/></r></p></e>
     <e><p><l>jorgaleaddji<s n="n"/></l><r>kääntäjä<s n="n"/></r></p></e>
-    <e><p><l>ovttas<s n="n"/></l><r>yhdessä<s n="n"/></r></p></e>
     <e><p><l>oapmi<s n="n"/></l><r>omistus<s n="n"/></r></p></e>
     <!--<e><p><l>oahpponeavvoráhkadeapmi<s n="n"/></l><r>opetusmateriaalin<b/>tekeminen<s n="n"/></r></p></e>-->
     <e><p><l>čearddalašvuohta<s n="n"/></l><r>etnisyys<s n="n"/></r></p></e>
@@ -1165,7 +1150,6 @@
     <!--<e><p><l>sápmelašvuohta<s n="n"/></l><r>saamelaisuus<s n="n"/></r></p></e>-->
     <e><p><l>dušši<s n="n"/></l><r>turhuus<s n="n"/></r></p></e>
     <e><p><l>buhtadas<s n="n"/></l><r>korvaus<s n="n"/></r></p></e>
-    <e><p><l>Ruonáeana<s n="n"/></l><r>Grönlanti<s n="n"/></r></p></e>
     <!--<e><p><l>vuođđodoarjja<s n="n"/></l><r>perustuki<s n="n"/></r></p></e>-->
     <e><p><l>suopmelaš<s n="n"/></l><r>suomalainen<s n="n"/></r></p></e>
     <e><p><l>nuoskkideapmi<s n="n"/></l><r>saaste<s n="n"/></r></p></e>
@@ -1202,7 +1186,7 @@
     <e><p><l>romána<s n="n"/></l><r>romaani<s n="n"/></r></p></e>
     <e><p><l>mállásat<s n="n"/></l><r>päivällinen<s n="n"/></r></p></e>
     <!--<e><p><l>máhttodepartemeanta<s n="n"/></l><r>tietoministeriö<s n="n"/></r></p></e>-->
-    <e><p><l>heittot<s n="n"/></l><r>heikko<s n="n"/></r></p></e>
+    <!--<e><p><l>heittot<s n="n"/></l><r>heikko<s n="n"/></r></p></e>-->
     <!--<e><p><l>eamiálbmotvuoigatvuohta<s n="n"/></l><r>alkuperäiskansaoikeus<s n="n"/></r></p></e>-->
     <e><p><l>narkotihkka<s n="n"/></l><r>huume<s n="n"/></r></p></e>
     <e><p><l>čállinvuohki<s n="n"/></l><r>kirjoitustapa<s n="n"/></r></p></e>
@@ -1287,7 +1271,7 @@
     <!--<e><p><l>sámeášši<s n="n"/></l><r>saamelaisasia<s n="n"/></r></p></e>-->
     <!--<e><p><l>servodatovdáneapmi<s n="n"/></l><r>yhteiskuntakehitys<s n="n"/></r></p></e>-->
     <e><p><l>fearán<s n="n"/></l><r>tapahtuma<s n="n"/></r></p></e>
-    <e><p><l>buresboahtin<s n="n"/></l><r>tervetuloa<s n="n"/></r></p></e>
+    <!--<e><p><l>buresboahtin<s n="n"/></l><r>tervetuloa<s n="n"/></r></p></e>-->
     <e><p><l>vuodjinlohpi<s n="n"/></l><r>ajolupa<s n="n"/></r></p></e>
     <e><p><l>plakáhta<s n="n"/></l><r>juliste<s n="n"/></r></p></e>
     <!--<e><p><l>girkoeallin<s n="n"/></l><r>kirkkoelämä<s n="n"/></r></p></e>-->
@@ -1310,7 +1294,7 @@
     <e><p><l>dávvirvuorká<s n="n"/></l><r>museo<s n="n"/></r></p></e>
     <e><p><l>iskkus<s n="n"/></l><r>koe<s n="n"/></r></p></e>
     <e><p><l>jahkečuohti<s n="n"/></l><r>vuosisata<s n="n"/></r></p></e>
-    <e><p><l>rihpat<s n="n"/></l><r>riistää<s n="n"/></r></p></e>
+    <!--<e><p><l>rihpat<s n="n"/></l><r>riistää<s n="n"/></r></p></e>-->
     <e><p><l>lagamuš<s n="n"/></l><r>lähin<s n="n"/></r></p></e>
     <e><p><l>kulturministtar<s n="n"/></l><r>kulttuuriministeri<s n="n"/></r></p></e>
     <e><p><l>čađđa<s n="n"/></l><r>hiili<s n="n"/></r></p></e>
@@ -1357,7 +1341,6 @@
     <e><p><l>bárti<s n="n"/></l><r>onnettomuus<s n="n"/></r></p></e>
     <e><p><l>juvddálaš<s n="n"/></l><r>juutalainen<s n="n"/></r></p></e>
     <e><p><l>el-rávdnji<s n="n"/></l><r>sähkö<s n="n"/></r></p></e>
-    <e><p><l>Duiska<s n="n"/></l><r>Saksa<s n="n"/></r></p></e>
     <e><p><l>válgagižžu<s n="n"/></l><r>vaalitaistelu<s n="n"/></r></p></e>
     <e><p><l>kunddar<s n="n"/></l><r>asiakas<s n="n"/></r></p></e>
     <e><p><l>nissonjoavku<s n="n"/></l><r>naisseura<s n="n"/></r></p></e>
@@ -1395,7 +1378,6 @@
     <!--<e><p><l>váldošiehtadus<s n="n"/></l><r>pääsopimus<s n="n"/></r></p></e>-->
     <e><p><l>váddu<s n="n"/></l><r>vahinko<s n="n"/></r></p></e>
     <e><p><l>viehkat<s n="n"/></l><r>vaaka<s n="n"/></r></p></e>
-    <e><p><l>viehkat<s n="n"/></l><r>juosta<s n="n"/></r></p></e>
     <!--<e><p><l>olgobáiki<s n="n"/></l><r>ulkopaikka<s n="n"/></r></p></e>-->
     <e><p><l>čáliheapmi<s n="n"/></l><r>ilmoittautuminen<s n="n"/></r></p></e>
     <e><p><l>nuoraidorganisašuvdna<s n="n"/></l><r>nuorisojärjestö<s n="n"/></r></p></e>
@@ -1414,7 +1396,7 @@
     <e><p><l>čuojaheaddji<s n="n"/></l><r>muusikko<s n="n"/></r></p></e>
     <e><p><l>presideantaevttohas<s n="n"/></l><r>presidenttiehdokas<s n="n"/></r></p></e>
     <e><p><l>láhkateaksta<s n="n"/></l><r>lakiteksti<s n="n"/></r></p></e>
-    <e><p><l>riemut<s n="n"/></l><r>juhlat<s n="n"/></r></p></e>
+    <!--<e><p><l>riemut<s n="n"/></l><r>juhlat<s n="n"/></r></p></e>-->
     <e><p><l>láhttenvuohki<s n="n"/></l><r>käytäntö<s n="n"/></r></p></e>
     <e><p><l>bargobiras<s n="n"/></l><r>työympäristö<s n="n"/></r></p></e>
     <e><p><l>logo<s n="n"/></l><r>logo<s n="n"/></r></p></e>
@@ -1474,7 +1456,7 @@
     <e><p><l>hádja<s n="n"/></l><r>haju<s n="n"/></r></p></e>
     <!--<e><p><l>dásseárvodepartemeanta<s n="n"/></l><r>tasa-arvoministeriö<s n="n"/></r></p></e>-->
     <!--<e><p><l>luovus<s n="n"/></l><r>irtonainen<s n="n"/></r></p></e>-->
-    <e><p><l>doaibmi<s n="n"/></l><r>aktiivinen<s n="n"/></r></p></e>
+    <!--<e><p><l>doaibmi<s n="n"/></l><r>aktiivinen<s n="n"/></r></p></e>-->
     <e><p><l>vázzin<s n="n"/></l><r>kävely<s n="n"/></r></p></e>
     <e><p><l>informašuvdna<s n="n"/></l><r>tiedotus<s n="n"/></r></p></e>
     <e><p><l>ealáhat<s n="n"/></l><r>eläke<s n="n"/></r></p></e>
@@ -1505,7 +1487,7 @@
     <e><p><l>sirkus<s n="n"/></l><r>sirkus<s n="n"/></r></p></e>
     <e><p><l>pubba<s n="n"/></l><r>pubi<s n="n"/></r></p></e>
     <!--<e><p><l>museaođastus<s n="n"/></l><r>museouudistus<s n="n"/></r></p></e>-->
-    <e><p><l>jalla<s n="n"/></l><r>hullu<s n="n"/></r></p></e>
+    <!--<e><p><l>jalla<s n="n"/></l><r>hullu<s n="n"/></r></p></e>-->
     <e><p><l>čálgu<s n="n"/></l><r>viihtyvyys<s n="n"/></r></p></e>
     <e><p><l>miellačájáhus<s n="n"/></l><r>mielenosoitus<s n="n"/></r></p></e>
     <!--<e><p><l>luossagonagas<s n="n"/></l><r>lohikuningas<s n="n"/></r></p></e>-->
@@ -1561,7 +1543,7 @@
     <e><p><l>buvssat<s n="n"/></l><r>housut<s n="n"/></r></p></e>
     <e><p><l>bargodepartemeanta<s n="n"/></l><r>työministeriö<s n="n"/></r></p></e>
     <e><p><l>oaiveskálžu<s n="n"/></l><r>pääkallo<s n="n"/></r></p></e>
-    <e><p><l>váili<s n="n"/></l><r>vaille<s n="n"/></r></p></e>
+    <!--<e><p><l>váili<s n="n"/></l><r>vaille<s n="n"/></r></p></e>-->
     <e><p><l>restoráŋŋa<s n="n"/></l><r>ravintola<s n="n"/></r></p></e>
     <e><p><l>jeđđehus<s n="n"/></l><r>lohdutus<s n="n"/></r></p></e>
     <!--<e><p><l>stuorat<s n="n"/></l><r>kookas<b/>ihminen<b/>tai<b/>eläin<s n="n"/></r></p></e>-->
@@ -1655,13 +1637,12 @@
     <e><p><l>finánsaministtar<s n="n"/></l><r>talousministeri<s n="n"/></r></p></e>
     <e><p><l>redaktevra<s n="n"/></l><r>päätoimittaja<s n="n"/></r></p></e>
     <e><p><l>veardi<s n="n"/></l><r>piipunvarsi<s n="n"/></r></p></e>
-    <e><p><l>Austrália<s n="n"/></l><r>Australia<s n="n"/></r></p></e>
     <e><p><l>sárggis<s n="n"/></l><r>raita<s n="n"/></r></p></e>
     <e><p><l>sáivačáhci<s n="n"/></l><r>sisävesi<s n="n"/></r></p></e>
     <!--<e><p><l>luoddaearru<s n="n"/></l><r>tieristeys<s n="n"/></r></p></e>-->
     <!--<e><p><l>ideála<s n="n"/></l><r>ideaalinen<s n="n"/></r></p></e>-->
     <e><p><l>vihaheapmi<s n="n"/></l><r>vihkiminen<s n="n"/></r></p></e>
-    <e><p><l>alfabehta<s n="n"/></l><r>aakkoset<s n="n"/></r></p></e>
+    <e><p><l>alfabehta<s n="n"/><s n="sg"/></l><r>aakkonen<s n="n"/><s n="pl"/></r></p></e>
     <e><p><l>vuolledássi<s n="n"/></l><r>ala-aste<s n="n"/></r></p></e>
     <e><p><l>čiekŋalas<s n="n"/></l><r>syvänne<s n="n"/></r></p></e>
     <e><p><l>áddjut<s n="n"/></l><r>lapsenlapsi<s n="n"/></r></p></e>
@@ -1699,12 +1680,12 @@
     <!--<e><p><l>váimmus<s n="n"/></l><r>puuydin<s n="n"/></r></p></e>-->
     <!--<e><p><l>nállevealaheapmi<s n="n"/></l><r>rasistinen<s n="n"/></r></p></e>-->
     <e><p><l>dárbbaš<s n="n"/></l><r>tarve<s n="n"/></r></p></e>
-    <e><p><l>logis<s n="n"/></l><r>kymmenen<s n="n"/></r></p></e>
+    <!--<e><p><l>logis<s n="n"/></l><r>kymmenen<s n="n"/></r></p></e>-->
     <e><p><l>guite<s n="n"/></l><r>kuitti<s n="n"/></r></p></e>
     <e><p><l>skávžá<s n="n"/></l><r>viiksi<s n="n"/></r></p></e>
     <e><p><l>revolušuvdna<s n="n"/></l><r>vallankumous<s n="n"/></r></p></e>
-    <e><p><l>manimuš<s n="n"/></l><r>munuaiset<s n="n"/></r></p></e>
-    <e><p><l>kristtalaš<s n="n"/></l><r>kristillinen<s n="n"/></r></p></e>
+    <e><p><l>manimuš<s n="n"/><s n="sg"/></l><r>munuainen<s n="n"/><s n="pl"/></r></p></e>
+    <!--<e><p><l>kristtalaš<s n="n"/></l><r>kristillinen<s n="n"/></r></p></e>-->
     <e><p><l>gohcci<s n="n"/></l><r>valvoja<s n="n"/></r></p></e>
     <e><p><l>ealgabeana<s n="n"/></l><r>hirvikoira<s n="n"/></r></p></e>
     <e><p><l>riehpu<s n="n"/></l><r>raukka<s n="n"/></r></p></e>
@@ -1720,7 +1701,6 @@
     <!--<e><p><l>sivjjot<s n="n"/></l><r>vastakkaista<b/>sukupuolta<b/>oleva<b/>sukulainen<b/>avioliiton<b/>kautta<s n="n"/></r></p></e>-->
     <e><p><l>soaitin<s n="n"/></l><r>sattuma<s n="n"/></r></p></e>
     <e><p><l>lihppu<s n="n"/></l><r>lippu<s n="n"/></r></p></e>
-    <e><p><l>goikkis<s n="n"/></l><r>kuiva<s n="n"/></r></p></e>
     <e><p><l>tuollár<s n="n"/></l><r>tullimies<s n="n"/></r></p></e>
     <e><p><l>smáhkka<s n="n"/></l><r>maku<s n="n"/></r></p></e>
     <e><p><l>ovttasorru<s n="n"/></l><r>avopuoliso<s n="n"/></r></p></e>
@@ -1753,7 +1733,7 @@
     <e><p><l>ráđđejeaddji<s n="n"/></l><r>hallitsija<s n="n"/></r></p></e>
     <e><p><l>banána<s n="n"/></l><r>banaani<s n="n"/></r></p></e>
     <e><p><l>rotnu<s n="n"/></l><r>runo<s n="n"/></r></p></e>
-    <e><p><l>oarbbis<s n="n"/></l><r>orpo<s n="n"/></r></p></e>
+    <!--<e><p><l>oarbbis<s n="n"/></l><r>orpo<s n="n"/></r></p></e>-->
     <e><p><l>dávggasvuohta<s n="n"/></l><r>joustavuus<s n="n"/></r></p></e>
     <e><p><l>skávli<s n="n"/></l><r>kalalokki<s n="n"/></r></p></e>
     <e><p><l>ráhpa<s n="n"/></l><r>rasvakerros<s n="n"/></r></p></e>
@@ -1764,7 +1744,7 @@
     <!--<e><p><l>juhkki<s n="n"/></l><r>juovainen<s n="n"/></r></p></e>-->
     <e><p><l>gaskaáigi<s n="n"/></l><r>keskiaika<s n="n"/></r></p></e>
     <e><p><l>friddjabeaivi<s n="n"/></l><r>vapaapäivä<s n="n"/></r></p></e>
-    <e><p><l>binná<s n="n"/></l><r>vähän<s n="n"/></r></p></e>
+    <!--<e><p><l>binná<s n="n"/></l><r>vähän<s n="n"/></r></p></e>-->
     <!--<e><p><l>adni<s n="n"/></l><r>käytteliäs<s n="n"/></r></p></e>-->
     <e><p><l>vuoládus<s n="n"/></l><r>alennus<s n="n"/></r></p></e>
     <e><p><l>giittos<s n="n"/></l><r>kiitos<s n="n"/></r></p></e>
@@ -1779,7 +1759,7 @@
     <e><p><l>suonjar<s n="n"/></l><r>säde<s n="n"/></r></p></e>
     <e><p><l>ráhppa<s n="n"/></l><r>rappu<s n="n"/></r></p></e>
     <e><p><l>giehka<s n="n"/></l><r>käki<s n="n"/></r></p></e>
-    <e><p><l>bivval<s n="n"/></l><r>leuto<s n="n"/></r></p></e>
+    <!--<e><p><l>bivval<s n="n"/></l><r>leuto<s n="n"/></r></p></e>-->
     <e><p><l>badjosat<s n="n"/></l><r>ylänkö<s n="n"/></r></p></e>
     <e><p><l>juoksa<s n="n"/></l><r>jousi<s n="n"/></r></p></e>
     <e><p><l>huikkas<s n="n"/></l><r>huuto<s n="n"/></r></p></e>
@@ -1816,7 +1796,7 @@
     <!--<e><p><l>alitrássi<s n="n"/></l><r>metsäkurjenpolvi<s n="n"/></r></p></e>-->
     <!--<e><p><l>alásgožot<s n="n"/></l><r>tunturikeulankärki<s n="n"/></r></p></e>-->
     <e><p><l>alásrássi<s n="n"/></l><r>suokukka<s n="n"/></r></p></e>
-    <e><p><l>aláš háissuodini<s n="n"/></l><r>tunturimaarianheinä<s n="n"/></r></p></e>
+    <!--<e><p><l>aláš háissuodini<s n="n"/></l><r>tunturimaarianheinä<s n="n"/></r></p></e>-->
     <!--<e><p><l>alášbađverássi<s n="n"/></l><r>tunturipoimulehti<s n="n"/></r></p></e>-->
     <e><p><l>bahávuohta<s n="n"/></l><r>pahuus<s n="n"/></r></p></e>
     <e><p><l>bargu<s n="n"/></l><r>tehtävä<s n="n"/></r></p></e>
@@ -2144,7 +2124,7 @@
     <e><p><l>bassangárri<s n="n"/></l><r>lavuaari<s n="n"/></r></p></e>
     <e><p><l>bassanálddis<s n="n"/></l><r>lavuaari<s n="n"/></r></p></e>
     <e><p><l>bassi<s n="n"/><s n="g3"/></l><r>pyhä<s n="n"/></r></p></e>
-    <e><p><l>bassi<s n="n"/><s n="g3"/></l><r>siivoja<s n="n"/></r></p></e>
+    <e><p><l>bassi<s n="n"/><s n="g3"/></l><r>siivo<s n="n"/></r></p></e>
     <e><p><l>bassinmuorra<s n="n"/></l><r>makkaratikku<s n="n"/></r></p></e>
     <e><p><l>baste<s n="n"/></l><r>lusikka<s n="n"/></r></p></e>
     <e><p><l>bavssa<s n="n"/></l><r>huuli<s n="n"/></r></p></e>
@@ -2351,7 +2331,7 @@
     <e><p><l>cuoppu<s n="n"/></l><r>sammakko<s n="n"/></r></p></e>
     <e><p><l>cuoŋománnu<s n="n"/></l><r>huhtikuu<s n="n"/></r></p></e>
     <e><p><l>cuoŋu<s n="n"/></l><r>hanki<s n="n"/></r></p></e>
-    <e><p><l>dahkki<s n="n"/><s n="g3"/></l><r>tekijä<s n="n"/></r></p></e>
+    <e><p><l>dahkki<s n="n"/><s n="nomag"/></l><r>tekijä<s n="n"/></r></p></e>
     <e><p><l>dahku<s n="n"/></l><r>teko<s n="n"/></r></p></e>
     <e><p><l>dajahus<s n="n"/></l><r>sanonta<s n="n"/></r></p></e>
     <e><p><l>dajaldat<s n="n"/></l><r>sanonta<s n="n"/></r></p></e>
@@ -2456,7 +2436,7 @@
     <e><p><l>dálvi<s n="n"/></l><r>talvi<s n="n"/></r></p></e>
     <e><p><l>dámmá<s n="n"/><s n="g3"/></l><r>tamma<s n="n"/></r></p></e>
     <e><p><l>dápmot<s n="n"/></l><r>tammukka<s n="n"/></r></p></e>
-    <e><p><l>dáppe-olmmoš<s n="n"/></l><r>paikallinen<s n="n"/></r></p></e>
+    <!--<e><p><l>dáppe-olmmoš<s n="n"/></l><r>paikallinen<s n="n"/></r></p></e>-->
     <e><p><l>dárbu<s n="n"/></l><r>tarve<s n="n"/></r></p></e>
     <e><p><l>dárogiella<s n="n"/></l><r>norja<s n="n"/></r></p></e>
     <e><p><l>dárra<s n="n"/></l><r>levä<s n="n"/></r></p></e>
@@ -3206,7 +3186,7 @@
     <!--<e><p><l>mánnábiigá<s n="n"/></l><r>lastenvahti<s n="n"/></r></p></e>-->
     <!--<e><p><l>mánnágeahčči<s n="n"/></l><r>lastenvahti<s n="n"/></r></p></e>-->
     <e><p><l>mánoheahpi<s n="n"/></l><r>kuutamo<s n="n"/></r></p></e>
-    <e><p><l>mánáid-TV<s n="n"/></l><r>lasten-TV<s n="n"/></r></p></e>
+    <!--<e><p><l>mánáid-TV<s n="n"/></l><r>lasten-TV<s n="n"/></r></p></e>-->
     <!--<e><p><l>mánáidboddu<s n="n"/></l><r>lastentunti<s n="n"/></r></p></e>-->
     <e><p><l>mánáidgirji<s n="n"/></l><r>lastenkirja<s n="n"/></r></p></e>
     <e><p><l>mánáidgárdi<s n="n"/></l><r>lastentarha<s n="n"/></r></p></e>
@@ -3326,7 +3306,7 @@
     <e><p><l>oassi<s n="n"/></l><r>osuus<s n="n"/></r></p></e>
     <e><p><l>oađđenlatnja<s n="n"/></l><r>makuuhuone<s n="n"/></r></p></e>
     <e><p><l>oađđinseahkka<s n="n"/></l><r>makuupussi<s n="n"/></r></p></e>
-    <e><p><l>obbadálki<s n="n"/></l><r>pilvistä<s n="n"/></r></p></e>
+    <!--<e><p><l>obbadálki<s n="n"/></l><r>pilvistä<s n="n"/></r></p></e>-->
     <e><p><l>ohcanáigi<s n="n"/></l><r>hakuaika<s n="n"/></r></p></e>
     <e><p><l>ohcci<s n="n"/><s n="nomag"/></l><r>hakija<s n="n"/></r></p></e>
     <e><p><l>oahcci<s n="n"/><s n="nomag"/></l><r>hakija<s n="n"/></r></p></e>
@@ -3761,7 +3741,7 @@
     <e><p><l>vealgi<s n="n"/></l><r>velka<s n="n"/></r></p></e>
     <e><p><l>veardádus<s n="n"/></l><r>vertaus<s n="n"/></r></p></e>
     <e><p><l>vearju<s n="n"/></l><r>ase<s n="n"/></r></p></e>
-    <e><p><l>vearrodahkki<s n="n"/><s n="g3"/></l><r>rikollinen<s n="n"/></r></p></e>
+    <e><p><l>vearrodahkki<s n="n"/><s n="nomag"/></l><r>rikollinen<s n="n"/></r></p></e>
     <e><p><l>vearromáksi<s n="n"/></l><r>veronmaksaja<s n="n"/></r></p></e>
     <e><p><l>vearru<s n="n"/></l><r>vero<s n="n"/></r></p></e>
     <e><p><l>vejolašvuohta<s n="n"/></l><r>mahdollisuus<s n="n"/></r></p></e>
@@ -3861,8 +3841,6 @@
     <e><p><l>vázzingeaidnu<s n="n"/></l><r>kävelytie<s n="n"/></r></p></e>
     <e><p><l>vázzinravda<s n="n"/></l><r>jalkakäytävä<s n="n"/></r></p></e>
     <!--<e><p><l>váđđu<s n="n"/></l><r>juksa<s n="n"/></r></p></e>-->
-    <e><p><l>Álaheadju<s n="n"/></l><r>Alattio<s n="n"/></r></p></e>
-    <e><p><l>Áltá<s n="n"/></l><r>Alattio<s n="n"/></r></p></e>
     <e><p><l>áddjá<s n="n"/></l><r>isoisä<s n="n"/></r></p></e>
     <e><p><l>áhkku<s n="n"/></l><r>akka<s n="n"/></r></p></e>
     <e><p><l>áhkku<s n="n"/></l><r>isoäiti<s n="n"/></r></p></e>
@@ -4045,7 +4023,7 @@
     <e><p><l>dolla<s n="n"/></l><r>palo<s n="n"/></r></p></e>
     <e><p><l>dollameaštár<s n="n"/></l><r>palomestari<s n="n"/></r></p></e>
     <e><p><l>maŋisboahtti<s n="n"/><s n="nomag"/></l><r>jälkeläinen<s n="n"/></r></p></e>
-    <e><p><l>meahcceealli<s n="n"/></l><r>metsä<j/>eläin<s n="n"/></r></p></e>
+    <!--<e><p><l>meahcceealli<s n="n"/></l><r>metsä<b/>eläin<s n="n"/></r></p></e>-->
     
     <e><p><l>republihkka<s n="n"/></l><r>tasavalta<s n="n"/></r></p></e>
     <e><p><l>guovddáš<s n="n"/></l><r>keskusta<s n="n"/></r></p></e>
@@ -5367,10 +5345,10 @@
 
     <!-- SECTION: Proper nouns -->
 
-    <e><p><l>Roavvenjárga<s n="np"/></l><r>Rovaniemi<s n="np"/></r></p></e>
-    <e><p><l>Ruonáeana<s n="np"/></l><r>Grönlanti<s n="np"/></r></p></e>
-    <e><p><l>Ruošša<s n="np"/></l><r>Venäjä<s n="np"/></r></p></e>
-    <e><p><l>Ruoŧŧa<s n="np"/></l><r>Ruotsi<s n="np"/></r></p></e>
+    <e><p><l>Roavvenjárga<s n="np"/><s n="top"/></l><r>Rovaniemi<s n="np"/></r></p></e>
+    <e><p><l>Ruonáeana<s n="np"/><s n="top"/></l><r>Grönlanti<s n="np"/></r></p></e>
+    <e><p><l>Ruošša<s n="np"/><s n="top"/></l><r>Venäjä<s n="np"/></r></p></e>
+    <e><p><l>Ruoŧŧa<s n="np"/><s n="top"/></l><r>Ruotsi<s n="np"/></r></p></e>
     <e><p><l>Gárasavvon<s n="np"/><s n="top"/></l><r>Kaaresuvanto<s n="np"/></r></p></e>
     <e><p><l>Gáregasnjárga<s n="np"/><s n="top"/></l><r>Karigasniemi<s n="np"/></r></p></e>
     <e><p><l>Haanpää<s n="np"/><s n="cog"/></l><r>Haanpää<s n="np"/></r></p></e>    
@@ -5502,7 +5480,7 @@
     <e><p><l>Gulddan<s n="np"/><s n="top"/></l><r>Kultima<s n="np"/></r></p></e>
     <e><p><l>Guohppenjavvi<s n="np"/><s n="top"/></l><r>Kuoppaniva<s n="np"/></r></p></e>
     <e><p><l>Guoldná<s n="np"/><s n="top"/></l><r>Kuolna<s n="np"/></r></p></e>
-    <e><p><l>Guoládat<s n="np"/><s n="top"/></l><r>Kuola<s n="np"/></r></p></e>
+    <!--<e><p><l>Guoládat<s n="np"/><s n="top"/></l><r>Kuola<s n="np"/></r></p></e>-->
     <e><p><l>Guossán<s n="np"/><s n="top"/></l><r>Kuusamo<s n="np"/></r></p></e>
     <e><p><l>Gáddeluokta<s n="np"/><s n="top"/></l><r>Kantalahti<s n="np"/></r></p></e>
     <e><p><l>Gáiddus-Nuorti<s n="np"/><s n="top"/></l><r>Kaukoitä<s n="np"/></r></p></e>
@@ -5514,7 +5492,6 @@
     <e><p><l>Gámasjohka<s n="np"/><s n="top"/></l><r>Kaamasjoki<s n="np"/></r></p></e>
     <e><p><l>Gámasmohkki<s n="np"/><s n="top"/></l><r>Kaamasmukka<s n="np"/></r></p></e>
     <e><p><l>Gápmas<s n="np"/><s n="top"/></l><r>Kaamanen<s n="np"/></r></p></e>
-    <e><p><l>Gáregasnjárga, (Utsjoki)<s n="np"/><s n="top"/></l><r>Karigasniemi<s n="np"/></r></p></e>
     <e><p><l>Gárjil<s n="np"/><s n="top"/></l><r>Karjala<s n="np"/></r></p></e>
     <e><p><l>Gávva<s n="np"/><s n="top"/></l><r>Kaava<s n="np"/></r></p></e>
     <e><p><l>Heahttá<s n="np"/><s n="top"/></l><r>Enontekiö<s n="np"/></r></p></e>
@@ -5617,6 +5594,8 @@
     <e><p><l>Ovnnesjohka<s n="np"/><s n="top"/></l><r>Ounasjoki<s n="np"/></r></p></e>
     <e><p><l>Ovnnesjávri<s n="np"/><s n="top"/></l><r>Ounasjärvi<s n="np"/></r></p></e>
     <e><p><l>Ovttastuvvan<b/>stáhtat<s n="np"/></l><r>Yhdysvalta<s n="np"/></r></p></e>
+    <e><p><l>Ođđasat<s n="np"/></l><r>Uutinen<s n="np"/></r></p></e>
+    <e><p><l>Olgešbellodat<s n="np"/></l><r>Kokoomus<s n="np"/></r></p></e>
     <!--<e><p><l>Ođđa<b/>Zealánda<s n="np"/><s n="top"/></l><r>Uusi<b/>Seelanti<s n="np"/></r></p></e>-->
     <e><p><l>Polen<s n="np"/></l><r>Puola<s n="np"/></r></p></e>
     <e><p><l>Polska<s n="np"/><s n="top"/></l><r>Puola<s n="np"/></r></p></e>
@@ -5630,7 +5609,7 @@
     <e><p><l>Roavesavu (Utsjoki)<s n="np"/><s n="top"/></l><r>Rovisuvanto<s n="np"/></r></p></e>
     <e><p><l>Roavvenjárga<s n="np"/><s n="top"/></l><r>Rovaniemi<s n="np"/></r></p></e>
     <e><p><l>Románia<s n="np"/><s n="top"/></l><r>Romania<s n="np"/></r></p></e>
-    <e><p><l>Ruksesmearra<s n="np"/><s n="top"/></l><r>Punainenmeri<s n="np"/></r></p></e>
+    <!--<e><p><l>Ruksesmearra<s n="np"/><s n="top"/></l><r>Punainenmeri<s n="np"/></r></p></e>-->
     <!--<e><p><l>Ruonáeana<s n="np"/><s n="top"/></l><r>Gröönlanti<s n="np"/></r></p></e>-->
     <e><p><l>Ruoŧŧa<s n="np"/><s n="top"/></l><r>Ruotsi<s n="np"/></r></p></e>
     <e><p><l>Ruošša<s n="np"/><s n="top"/></l><r>Venäjä<s n="np"/></r></p></e>
@@ -5844,7 +5823,6 @@
     <!--<e><p><l>Ánne<s n="np"/><s n="ant"/><s n="f"/></l><r>Ánne<s n="np"/></r></p></e>-->
     <e><p><l>Annika<s n="np"/><s n="ant"/><s n="f"/></l><r>Annika<s n="np"/></r></p></e>
     <!--<e><p><l>Anny<s n="np"/><s n="ant"/><s n="f"/></l><r>Anny<s n="np"/></r></p></e>-->
-    <e><p><l>Anti<s n="np"/><s n="cog"/></l><r>Anti<s n="np"/></r></p></e>
     <e><p><l>Antonsen<s n="np"/><s n="cog"/></l><r>Antonsen<s n="np"/></r></p></e>
     <!--<e><p><l>Aram<s n="np"/><s n="ant"/><s n="m"/></l><r>Aram<s n="np"/></r></p></e>-->
     <!--<e><p><l>Aram<s n="np"/><s n="top"/></l><r>Aram<s n="np"/></r></p></e>-->
@@ -5874,7 +5852,7 @@
     <!--<e><p><l>Biti<s n="np"/><s n="cog"/></l><r>Biti<s n="np"/></r></p></e>-->
     <!--<e><p><l>Bjørn<s n="np"/><s n="ant"/><s n="m"/></l><r>Bjørn<s n="np"/></r></p></e>-->
     <!--<e><p><l>Boas<s n="np"/><s n="ant"/><s n="m"/></l><r>Boas<s n="np"/></r></p></e>-->
-    <e><p><l>Boine<s n="np"/><s n="cog"/></l><r>Boine<s n="np"/></r></p></e>
+    <!--<e><p><l>Boine<s n="np"/><s n="cog"/></l><r>Boine<s n="np"/></r></p></e>-->
     <e><p><l>Bolivia<s n="np"/><s n="top"/></l><r>Bolivia<s n="np"/></r></p></e>
     <!--<e><p><l>Bossogohppi<s n="np"/><s n="top"/></l><r>Bossogohppi<s n="np"/></r></p></e>-->
     <!--<e><p><l>Breie<s n="np"/><s n="cog"/></l><r>Breie<s n="np"/></r></p></e>-->
@@ -5950,8 +5928,8 @@
     <!--<e><p><l>Gjerdalen<s n="np"/><s n="top"/></l><r>Gjerdalen<s n="np"/></r></p></e>-->
     <!--<e><p><l>Goahteluoppal<s n="np"/><s n="top"/></l><r>Goahteluoppal<s n="np"/></r></p></e>-->
     <e><p><l>Gomorra<s n="np"/><s n="top"/></l><r>Gomorra<s n="np"/></r></p></e>
-    <e><p><l>Gosen<s n="np"/><s n="cog"/></l><r>Gosen<s n="np"/></r></p></e>
-    <e><p><l>Grape<s n="np"/><s n="cog"/></l><r>Grape<s n="np"/></r></p></e>
+    <!--<e><p><l>Gosen<s n="np"/><s n="cog"/></l><r>Gosen<s n="np"/></r></p></e>-->
+    <!--<e><p><l>Grape<s n="np"/><s n="cog"/></l><r>Grape<s n="np"/></r></p></e>-->
     <e><p><l>Greenpeace<s n="np"/><s n="org"/></l><r>Greenpeace<s n="np"/></r></p></e>
     <e><p><l>Guatemala<s n="np"/><s n="top"/></l><r>Guatemala<s n="np"/></r></p></e>
     <!--<e><p><l>Guovdageaidnu<s n="np"/><s n="top"/></l><r>Guovdageaidnu<s n="np"/></r></p></e>-->
@@ -5963,7 +5941,7 @@
     <e><p><l>Hansen<s n="np"/><s n="cog"/></l><r>Hansen<s n="np"/></r></p></e>
     <e><p><l>Hans<s n="np"/><s n="ant"/><s n="m"/></l><r>Hans<s n="np"/></r></p></e>
     <!--<e><p><l>Hápmir<s n="np"/><s n="top"/></l><r>Hápmir<s n="np"/></r></p></e>-->
-    <e><p><l>Haran<s n="np"/><s n="top"/></l><r>Haran<s n="np"/></r></p></e>
+    <!--<e><p><l>Haran<s n="np"/><s n="top"/></l><r>Haran<s n="np"/></r></p></e>-->
     <!--<e><p><l>Harboe<s n="np"/><s n="cog"/></l><r>Harboe<s n="np"/></r></p></e>-->
     <e><p><l>Harry<s n="np"/><s n="ant"/><s n="m"/></l><r>Harry<s n="np"/></r></p></e>
     <!--<e><p><l>Haviika<s n="np"/><s n="top"/></l><r>Haviika<s n="np"/></r></p></e>-->
@@ -6049,11 +6027,11 @@
     <!--<e><p><l>Laban<s n="np"/><s n="cog"/></l><r>Laban<s n="np"/></r></p></e>-->
     <!--<e><p><l>Lágesvuotna<s n="np"/><s n="top"/></l><r>Lágesvuotna<s n="np"/></r></p></e>-->
     <!--<e><p><l>Láilá<s n="np"/><s n="ant"/><s n="f"/></l><r>Láilá<s n="np"/></r></p></e>-->
-    <e><p><l>Lango<s n="np"/><s n="cog"/></l><r>Lango<s n="np"/></r></p></e>
+    <!--<e><p><l>Lango<s n="np"/><s n="cog"/></l><r>Lango<s n="np"/></r></p></e>-->
     <!--<e><p><l>Lárin<s n="np"/><s n="ant"/><s n="m"/></l><r>Lárin<s n="np"/></r></p></e>-->
     <e><p><l>Larsen<s n="np"/><s n="cog"/></l><r>Larsen<s n="np"/></r></p></e>
     <e><p><l>Lars<s n="np"/><s n="ant"/><s n="m"/></l><r>Lars<s n="np"/></r></p></e>
-    <e><p><l>Lassen<s n="np"/><s n="cog"/></l><r>Lassen<s n="np"/></r></p></e>
+    <!--<e><p><l>Lassen<s n="np"/><s n="cog"/></l><r>Lassen<s n="np"/></r></p></e>-->
     <!--<e><p><l>Lásse<s n="np"/><s n="ant"/><s n="m"/></l><r>Lásse<s n="np"/></r></p></e>-->
     <!--<e><p><l>Lauritsen<s n="np"/><s n="cog"/></l><r>Lauritsen<s n="np"/></r></p></e>-->
     <!--<e><p><l>Leavdnja<s n="np"/><s n="top"/></l><r>Leavdnja<s n="np"/></r></p></e>-->
@@ -6098,7 +6076,7 @@
     <!--<e><p><l>Mollešjohka<s n="np"/><s n="top"/></l><r>Mollešjohka<s n="np"/></r></p></e>-->
     <e><p><l>Morales<s n="np"/><s n="top"/></l><r>Morales<s n="np"/></r></p></e>
     <!--<e><p><l>Mortensen<s n="np"/><s n="cog"/></l><r>Mortensen<s n="np"/></r></p></e>-->
-    <e><p><l>Naama<s n="np"/><s n="top"/></l><r>Naama<s n="np"/></r></p></e>
+    <!--<e><p><l>Naama<s n="np"/><s n="top"/></l><r>Naama<s n="np"/></r></p></e>-->
     <!--<e><p><l>Nahor<s n="np"/><s n="top"/></l><r>Nahor<s n="np"/></r></p></e>-->
     <!--<e><p><l>Nakšon<s n="np"/><s n="ant"/><s n="m"/></l><r>Nakšon<s n="np"/></r></p></e>-->
     <e><p><l>Namsos<s n="np"/><s n="top"/></l><r>Namsos<s n="np"/></r></p></e>
@@ -6181,7 +6159,6 @@
     <!--<e><p><l>Ruonáeana<s n="np"/><s n="top"/></l><r>Ruonáeana<s n="np"/></r></p></e>-->
     <!--<e><p><l>Ruoššanjárga<s n="np"/><s n="top"/></l><r>Ruoššanjárga<s n="np"/></r></p></e>-->
     <!--<e><p><l>Ruošša<s n="np"/><s n="top"/></l><r>Ruošša<s n="np"/></r></p></e>-->
-    <!--<e><p><l>Ruoŧŧa<s n="np"/><s n="top"/></l><r>Ruoŧŧa<s n="np"/></r></p></e>-->
     <e><p><l>Rut<s n="np"/><s n="ant"/><s n="f"/></l><r>Rut<s n="np"/></r></p></e>
     <e><p><l>Saari<s n="np"/><s n="cog"/></l><r>Saari<s n="np"/></r></p></e>
     <e><p><l>Saba<s n="np"/><s n="top"/></l><r>Saba<s n="np"/></r></p></e>
@@ -6540,15 +6517,15 @@
     <e><p><l>čuovgat<s n="adj"/></l><r>valoisa<s n="adj"/></r></p></e> 
     <e><p><l>čáhppat<s n="adj"/></l><r>musta<s n="adj"/></r></p></e> 
     <e><p><l>čálalaš<s n="adj"/></l><r>kirjallinen<s n="adj"/></r></p></e> 
+    <e><p><l>positiivvalaš<s n="adj"/></l><r>positiivinen<s n="adj"/></r></p></e> 
     <e><p><l>čáppat<s n="adj"/></l><r>kaunis<s n="adj"/></r></p></e> 
     <e><p><l>amerihkálaš<s n="adj"/></l><r>amerikkalainen<s n="adj"/></r></p></e>
     <e><p><l>dábálaš<s n="adj"/></l><r>yleinen<s n="adj"/></r></p></e>
     <e><p><l>nationála<s n="adj"/></l><r>kansallinen<s n="adj"/></r></p></e>
     <e><p><l>oskkolaš<s n="adj"/></l><r>uskonnollinen<s n="adj"/></r></p></e>
     <e><p><l>oahpis<s n="adj"/></l><r>tietty<s n="adj"/></r></p></e>
-    <e><p><l>jiehtanas<s n="adj"/></l><r>jättiläinen<s n="adj"/></r></p></e>
+    <!--<e><p><l>jiehtanas<s n="adj"/></l><r>jättiläinen<s n="adj"/></r></p></e>-->
     
-    <e><p><l>ipmilmeahttun<s n="adj"/></l><r>jumala<s n="adj"/></r></p></e>
     <e><p><l>vuolibuš<s n="adj"/></l><r>alamainen<s n="adj"/></r></p></e>
     <e><p><l>davvi<s n="adj"/></l><r>pohjoinen<s n="adj"/></r></p></e>
     <e><p><l>spiehkastat<s n="adj"/></l><r>poikkeuksellinen<s n="adj"/></r></p></e>
@@ -6809,13 +6786,14 @@
     <e><p><l>allin<s n="adv"/></l><r>ylhäältä<s n="adv"/></r></p></e>
     <!--<e><p><l>badjin<s n="adv"/></l><r>ylhäältäpäin<s n="adv"/></r></p></e>-->
     <e><p><l>bures<s n="adv"/></l><r>hyvin<s n="adv"/></r></p></e>
-    <e r="RL"><p><l>bures<s n="adv"/></l><r>hyvästi<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>bures<s n="adv"/></l><r>hyvästi<s n="adv"/></r></p></e>
     <e><p><l>dakkaviđe<s n="adv"/></l><r>heti<s n="adv"/></r></p></e>
     <e><p><l>dakko<b/>bokte<s n="adv"/></l><r>siten<s n="adv"/></r></p></e>
     <e srl="1"><p><l>nu<s n="adv"/></l><r>siten<s n="adv"/></r></p></e>
     <!--<e><p><l>dakko<s n="adv"/></l><r>sitä<b/>kautta<s n="adv"/></r></p></e>-->
     <e><p><l>dalle<s n="adv"/></l><r>silloin<s n="adv"/></r></p></e>
     <e><p><l>de<s n="adv"/></l><r>sitten<s n="adv"/></r></p></e>
+    <e><p><l>dasto<s n="adv"/></l><r>sitten<s n="adv"/></r></p></e>
     <e><p><l>deike<s n="adv"/></l><r>tänne<s n="adv"/></r></p></e>
     <e><p><l>die<s n="adv"/></l><r>tuossa<s n="adv"/></r></p></e>
     <!--<e><p><l>diekko<s n="adv"/></l><r>siitä<s n="adv"/></r></p></e>-->
@@ -6823,7 +6801,7 @@
     <e><p><l>dieppil<s n="adv"/></l><r>sieltä<s n="adv"/></r></p></e>
     <e><p><l>dievva<s n="adv"/></l><r>täynnä<s n="adv"/></r></p></e>
     <e><p><l>dievva<s n="adv"/></l><r>täyteen<s n="adv"/></r></p></e>
-    <e><p><l>dieđusge<s n="adv"/></l><r>tietenkin<s n="adv"/></r></p></e>
+    <e><p><l>dieđusge<s n="adv"/></l><r>tietenkin<s n="part"/></r></p></e>
     <e><p><l>dieđusge<s n="adv"/></l><r>tietysti<s n="adv"/></r></p></e>
     <e><p><l>do<s n="adv"/></l><r>tuollapäin<s n="adv"/></r></p></e>
     <e><p><l>doarvái<s n="adv"/></l><r>kyllin<s n="adv"/></r></p></e>
@@ -6840,7 +6818,7 @@
     <e><p><l>duoppil<s n="adv"/></l><r>tuoltapäin<s n="adv"/></r></p></e>
     <e><p><l>duođaid<s n="adv"/></l><r>todella<s n="adv"/></r></p></e>
     <e><p><l>duođaid<s n="adv"/></l><r>tosiaan<s n="adv"/></r></p></e>
-    <e><p><l>dušše<s n="adv"/></l><r>vain<s n="adv"/></r></p></e>
+    <e><p><l>dušše<s n="adv"/></l><r>vain<s n="part"/></r></p></e>
     <e><p><l>dán<s n="adv"/></l><r>tässä<s n="adv"/></r></p></e>
     <!--<e><p><l>dákko<s n="adv"/></l><r>tätä<b/>kautta<s n="adv"/></r></p></e>-->
     <e><p><l>dál<s n="adv"/></l><r>nyt<s n="part"/></r></p></e>
@@ -6920,7 +6898,7 @@
     <e><p><l>veaháš<s n="adv"/></l><r>vähän<s n="adv"/></r></p></e>
     <e><p><l>vehá<s n="adv"/></l><r>hiukan<s n="adv"/></r></p></e>
     <e><p><l>veháš<s n="adv"/></l><r>hieman<s n="adv"/></r></p></e>
-    <e><p><l>viehka<s n="adv"/></l><r>aika<s n="adv"/></r></p></e>
+    <e><p><l>viehka<s n="adv"/></l><r>aika<s n="part"/></r></p></e>
     <e><p><l>virggálaččat<s n="adv"/></l><r>virallisesti<s n="adv"/></r></p></e>
     <e><p><l>vulosguovlluid<s n="adv"/></l><r>alaspäin<s n="adv"/></r></p></e>
     <e><p><l>vulos<s n="adv"/></l><r>alas<s n="adv"/></r></p></e>
@@ -8270,7 +8248,7 @@
     <e><p><l>dadjat<s n="vblex"/><s n="tv"/></l><r>sanoa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>arvit<s n="vblex"/><s n="iv"/></l><r>sataa<s n="vblex"/></r></p><par n="V_V"/></e>
     <!--<e><p><l>muohttit<s n="vblex"/><s n="iv"/></l><r>sataa<b/>lunta<s n="vblex"/></r></p><par n="V_V"/></e>-->
-    <e><p><l>čuorpmastit<s n="vblex"/><s n="iv"/></l><r>sataa rakeita<s n="vblex"/></r></p><par n="V_V"/></e>
+    <!--<e><p><l>čuorpmastit<s n="vblex"/><s n="iv"/></l><r>sataa rakeita<s n="vblex"/></r></p><par n="V_V"/></e>-->
     <e><p><l>sávdnjet<s n="vblex"/><s n="tv"/></l><r>saumata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>sávdnut<s n="vblex"/><s n="iv"/></l><r>saunoa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>sávdnádaddat<s n="vblex"/><s n="iv"/></l><r>saunoa<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -8307,7 +8285,7 @@
     <e><p><l>buressivdnidit<s n="vblex"/><s n="tv"/></l><r>siunata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>buressivdnidit<s n="vblex"/><s n="tv"/></l><r>siunata<s n="vblex"/></r></p><par n="V_V"/></e> <!-- bures#sivdnidit -->
     <e><p><l>sivdnidit<s n="vblex"/><s n="tv"/></l><r>siunata<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>čuojahit<s n="vblex"/><s n="tv"/></l><r>soita<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>čuojahit<s n="vblex"/><s n="tv"/></l><r>soittaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>speallat<s n="vblex"/><s n="tv"/></l><r>soittaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čuojahit<s n="vblex"/><s n="tv"/></l><r>soittaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čuovggahuvvat<s n="vblex"/><s n="iv"/></l><r>sokeutua<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -8754,6 +8732,7 @@
     <e><p><l>stemmet<s n="vblex"/><s n="tv"/></l><r>äänestää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>jietnadit<s n="vblex"/><s n="tv"/></l><r>ääntää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>baikat<s n="vblex"/><s n="tv"/></l><r>paskoa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>vealgut<s n="vblex"/><s n="tv"/></l><r>velkoa<s n="vblex"/></r></p><par n="V_V"/></e>
     
     <!-- SECTION: Interjections -->
 

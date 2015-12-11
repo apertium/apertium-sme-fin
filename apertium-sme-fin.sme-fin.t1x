@@ -41,6 +41,12 @@
     <def-cat n="prsprc">
       <cat-item tags="vblex.*.prsprc.*"/>
     </def-cat>
+    <def-cat n="pass-prc">
+      <cat-item tags="vblex.*.der_passs.vblex.iv.prfprc.*"/>
+      <cat-item tags="vblex.*.der_passl.vblex.iv.prfprc.*"/>
+      <cat-item tags="vblex.*.der_passs.vblex.iv.prsprc.*"/>
+      <cat-item tags="vblex.*.der_passl.vblex.iv.prsprc.*"/>
+    </def-cat>
     <def-cat n="prfprc">
       <cat-item tags="vblex.*.prfprc.*"/>
     </def-cat>
@@ -60,6 +66,12 @@
     <def-cat n="fin">
       <cat-item tags="vblex.*.indic.pres.*"/>
       <cat-item tags="vblex.*.indic.pret.*"/>
+    </def-cat>
+    <def-cat n="pass-fin">
+      <cat-item tags="vblex.*.der_passs.vblex.iv.indic.pres.*"/>
+      <cat-item tags="vblex.*.der_passs.vblex.iv.indic.pret.*"/>
+      <cat-item tags="vblex.*.der_passl.vblex.iv.indic.pres.*"/>
+      <cat-item tags="vblex.*.der_passl.vblex.iv.indic.pret.*"/>
     </def-cat>
     <def-cat n="adv">
       <cat-item tags="adv.*"/>
@@ -170,8 +182,13 @@
       <attr-item tags="der_minen.sg.gen"/>
       <attr-item tags="der_minen.sg.tra"/>
     </def-attr>
+    <def-attr n="a_pass">
+      <attr-item tags="der_passs.vblex.iv"/>
+    </def-attr>
     <def-attr n="a_deriv">
+      <attr-item tags="der_dimin"/>
       <attr-item tags="der_dimin.n"/>
+      <attr-item tags="der_dimin.adj"/>
       <attr-item tags="der_goahti.vblex"/>
     </def-attr>
     <def-attr n="a_attr">
@@ -191,6 +208,7 @@
       <attr-item tags="adj"/>
       <attr-item tags="adv"/>
       <attr-item tags="num"/>
+      <attr-item tags="np"/>
       <attr-item tags="prn"/>
       <attr-item tags="prn.pers"/>
     </def-attr>
@@ -581,7 +599,7 @@
       <choose>
         <when>
           <test><and><not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="koko"/></equal></not>
-                     <equal><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></equal></and></test>
+                     <equal><clip pos="2" side="tl" part="a_cas"/><lit v=""/></equal></and></test>
           <let><clip pos="2" side="tl" part="tags"/><concat><clip pos="2" side="tl" part="tags"/><lit-tag v="CD"/></concat></let>
         </when>
       </choose>
@@ -608,6 +626,22 @@
           <let><clip pos="1" side="tl" part="tags"/><lit-tag v="vblex.neg.actv.p3.sg"/></let>
         </when>
       </choose>
+    </def-macro>
+
+    <def-macro n="convert-passive1" npar="1">
+      <choose> 
+        <when> <!-- <vblex><pasv><indic><pres><pe4> -->
+          <test><or><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pres"/></equal>
+                    <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pret"/></equal></or></test>
+          <let><clip pos="1" side="tl" part="tags"/><concat><lit-tag v="vblex.pasv.indic"/>
+                                                    <clip pos="1" side="tl" part="a_tense"/><lit-tag v="pe4"/></concat></let>
+        </when>
+        <when> <!-- <vblex><pss><prfprc><sg><nom> -->
+          <test><equal><clip pos="1" side="sl" part="a_prc"/><lit-tag v="prfprc"/></equal></test>
+          <let><clip pos="1" side="tl" part="tags"/><lit-tag v="vblex.pasv.prfprc.sg.nom"/></let>
+        </when>
+      </choose>
+
     </def-macro>
 
     <def-macro n="pers-to-px1" npar="1">
@@ -655,6 +689,14 @@
       <choose>
         <when>
           <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_dimin.n"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_deriv"/><lit v=""/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_dimin.adj"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_deriv"/><lit v=""/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_dimin"/></equal></test>
           <let><clip pos="1" side="tl" part="a_deriv"/><lit v=""/></let>
         </when>
       </choose>
@@ -800,6 +842,7 @@
           <test><and><equal><clip pos="1" side="tl" part="a_ess"/><lit-tag v="ess"/></equal>
                      <or><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="n"/></equal>
                          <equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="num"/></equal>
+                         <equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="np"/></equal>
                          <equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="prn"/></equal>
                          <equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="adj"/></equal></or></and></test>
           <let><clip pos="1" side="tl" part="a_ess"/><lit-tag v="sg.ess"/></let>
@@ -815,6 +858,13 @@
         </when>
       </choose>
 
+      <!-- Last resort: Translate passive as active :( -->
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_pass"/><lit-tag v="der_passs.vblex.iv"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_pass"/><lit v=""/></let>
+        </when>
+      </choose>
 
     </def-macro>
 
@@ -1305,6 +1355,49 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/><lit-tag v="ND"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: PASS-PRC">
+      <pattern>
+        <pattern-item n="pass-prc"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="convert-passive1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.PASS"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: PASS-FIN">
+      <pattern>
+        <pattern-item n="pass-fin"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="convert-passive1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.PASS"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
