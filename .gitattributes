@@ -144,9 +144,14 @@ dev/update-rm-deriv-cmp -text
 /fin-sme.prob -text
 /gt2apertium.cg3r -text
 /modes.xml -text
-/pending-tests.sh -text
-/regression-tests.sh -text
 /rm-deriv-cmp.twol -text
+t/README.org -text
+t/config.sh -text
+t/config.sh.in -text
+t/pending-tests -text
+t/regression-tests -text
+t/update-latest -text
+t/wiki-tests -text
 texts/gold.sme.txt -text
 texts/tarina.fin.txt -text
 texts/tarina.sme.txt -text
