@@ -32,6 +32,9 @@
       <cat-item tags="adj.*.cmp.*"/>
       <cat-item tags="adj.attr.*"/>
     </def-cat>
+    <def-cat n="goahti-prfprc">
+      <cat-item tags="vblex.*.der_goahti.vblex.prfprc.*"/>
+    </def-cat>
     <def-cat n="goahti">
       <cat-item tags="vblex.*.der_goahti.*"/>
     </def-cat>
@@ -250,6 +253,7 @@
     <def-attr n="a_ess">
       <attr-item tags="pl.ess"/>
       <attr-item tags="sg.ess"/>
+      <attr-item tags="ND.ess"/>
       <attr-item tags="ess"/>
     </def-attr>
 
@@ -608,10 +612,8 @@
     </def-macro>
 
     <def-macro n="concord-nominal3" npar="3">
-      <let><clip pos="2" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
-      <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
-      <let><clip pos="3" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
-      <let><clip pos="3" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
+      <call-macro n="concord-nominal2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+      <call-macro n="concord-nominal2"><with-param pos="1"/><with-param pos="3"/></call-macro>
     </def-macro>
 
     <def-macro n="handle-nominal-derivation2" npar="2"> 
@@ -957,6 +959,7 @@
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="a" case="caseFirstWord">
             <tags>
@@ -1066,7 +1069,8 @@
       <action>
         <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-        <call-macro n="handle-nominal-derivation1"><with-param pos="2"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation2"><with-param pos="2"/></call-macro>
         <call-macro n="concord-nominal2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <out>
           <chunk name="a-n" case="caseFirstWord">
@@ -1152,7 +1156,6 @@
       </action>
     </rule>
 
-
     <rule comment="REGLA: ATTR ATTR NOM">
       <pattern>
         <pattern-item n="attr"/>
@@ -1223,6 +1226,49 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: ATTR CNP ATTR NOM-CMP NOM">
+      <pattern>
+        <pattern-item n="attr"/>
+        <pattern-item n="cnp"/>
+        <pattern-item n="attr"/>
+        <pattern-item n="nom-cmp"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="4"/></call-macro>
+        <call-macro n="remove-semtags1"><with-param pos="4"/></call-macro>
+        <call-macro n="remove-semtags3"><with-param pos="5"/><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="4"/></call-macro>
+        <call-macro n="default-conversion3"><with-param pos="5"/><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="5"/></call-macro>
+        <call-macro n="concord-nominal3"><with-param pos="5"/><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="a-c-a-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b pos="2"/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
+            </lu>
+            <b pos="3"/>
+            <mlu>
+              <lu><clip pos="4" side="tl" part="whole"/></lu>
+              <lu><clip pos="5" side="tl" part="whole"/></lu>
+            </mlu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
     <!-- SECTION: Verb groups -->
 
     <rule comment="REGLA: GOAHTI">
@@ -1240,13 +1286,12 @@
               <tag><lit-tag v="SV"/></tag>
             </tags>
             <lu>
-              <lit v="alkaa"/>
+              <get-case-from pos="1"><lit v="alkaa"/></get-case-from>
               <clip pos="1" side="tl" part="tags"/>
             </lu>
             <b/>
             <lu>
-              <clip pos="1" side="tl" part="lem"/>
-              <lit-tag v="vblex.actv.infa.sg.lat"/>
+              <clip pos="1" side="tl" part="lem"/><lit-tag v="vblex.actv.infa.sg.lat"/>
             </lu>
           </chunk>
         </out>
@@ -1268,6 +1313,40 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: LEAT-FIN GOAHTI-PRFPRC">
+      <pattern>
+        <pattern-item n="leat-fin"/>
+        <pattern-item n="goahti-prfprc"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="2"/></call-macro>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
+        <call-macro n="default-conversion-nonfin1"><with-param pos="2"/></call-macro>
+        <let><clip pos="2" side="tl" part="a_deriv"/><lit v=""/></let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <get-case-from pos="2"><lit v="alkaa"/></get-case-from>
+              <clip pos="2" side="tl" part="tags"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="lem"/><lit-tag v="vblex.actv.infa.sg.lat"/>
             </lu>
           </chunk>
         </out>
@@ -1298,6 +1377,8 @@
         </out>
       </action>
     </rule>
+
+
 
     <rule comment="REGLA: POT">
       <pattern>

@@ -6,6 +6,10 @@
     <def-cat n="default">
       <cat-item  tags="*"/>
     </def-cat>
+    <def-cat n="unknown">
+      <cat-item tags=""/>
+    </def-cat>
+
     <def-cat n="clit">
       <cat-item lemma="kaan" tags="adv"/>
       <cat-item lemma="kin" tags="adv"/>
@@ -104,6 +108,32 @@
      
     <rule comment=""> 
       <pattern>
+        <pattern-item n="unknown"/>
+        <pattern-item n="clit"/>
+      </pattern>
+      <action>
+        <choose>
+          <when>
+            <test><or><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="kin"/></equal>
+                      <equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="kaan"/></equal></or></test>
+            <let><clip pos="2" side="tl" part="whole"/>
+                 <concat><get-case-from pos="2"><lit v="myös"/></get-case-from><lit-tag v="adv"/></concat></let>
+          </when>
+        </choose>
+        <out>
+          <lu>
+            <clip pos="1" side="tl" part="whole"/>
+          </lu>
+          <b pos="1"/>
+          <lu>
+            <clip pos="2" side="tl" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment=""> 
+      <pattern>
         <pattern-item n="default"/>
         <pattern-item n="clit"/>
       </pattern>
@@ -118,6 +148,6 @@
         </out>
       </action>
     </rule>
-    
+     
   </section-rules>
 </transfer>

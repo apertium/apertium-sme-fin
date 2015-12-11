@@ -519,10 +519,13 @@
     <e><p><l>dát<s n="prn"/><s n="dem"/><s n="sg"/></l><r>tämä<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
     <e><p><l>dát<s n="prn"/><s n="dem"/><s n="pl"/></l><r>nämä<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
 
-    <e><p><l>duot<s n="prn"/><s n="dem"/></l><r>tuo<s n="prn"/><s n="dem"/></r></p></e>
-    <e><p><l>duot<s n="prn"/><s n="dem"/></l><r>toi<s n="prn"/><s n="dem"/></r></p></e>
+    <e><p><l>duot<s n="prn"/><s n="dem"/><s n="sg"/></l><r>tuo<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
+    <e><p><l>duot<s n="prn"/><s n="dem"/><s n="sg"/></l><r>toi<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
+    <e><p><l>duot<s n="prn"/><s n="dem"/><s n="pl"/></l><r>nuo<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
+    <e><p><l>duot<s n="prn"/><s n="dem"/><s n="pl"/></l><r>noi<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
+
     <e><p><l>gii<s n="prn"/><s n="rel"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
-    <e slr="1"><p><l>guhte<s n="prn"/><s n="rel"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
+    <e><p><l>guhte<s n="prn"/><s n="rel"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
 
     <e><p><l>mii<s n="prn"/><s n="rel"/></l><r>mikä<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>mii<s n="prn"/><s n="itg"/></l><r>mikä<s n="prn"/><s n="itg"/></r></p></e>
