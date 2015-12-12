@@ -111,6 +111,7 @@
     <!--<e><p><l>earret<b/>eará<s n="adv"/></l><r>muun<b/>muassa<s n="adv"/></r></p></e>-->
     <e><p><l>ovdalis<s n="adv"/></l><r>aiemmin<s n="adv"/></r></p></e>
     <e><p><l>ain<s n="adv"/></l><r>yhä<s n="part"/></r></p></e>
+    <e><p><l>gusto<s n="adv"/></l><r>näköjään<s n="part"/></r></p></e>
     <e><p><l>belle<s n="adv"/></l><r>puoli<s n="part"/></r></p></e>
     <e><p><l>beare<s n="adv"/></l><r>tahansa<s n="part"/></r></p></e>
     <e><p><l>dieđusge<s n="adv"/></l><r>tietenkään<s n="part"/></r></p></e>
@@ -476,6 +477,7 @@
     <e r="RL"><p><l>vai<s n="cnjcoo"/></l><r>että<s n="cnjcoo"/></r></p></e>
 
     <e><p><l>vai<s n="cnjsub"/></l><r>jotta<s n="cnjsub"/></r></p></e>
+    <e><p><l>jos<s n="cnjsub"/></l><r>jos<s n="cnjsub"/></r></p></e>
     <e><p><l>ahte<s n="cnjsub"/></l><r>että<s n="cnjsub"/></r></p></e>
     <e><p><l>dasgo<s n="cnjsub"/></l><r>sillä<s n="cnjsub"/></r></p></e>
         
@@ -520,9 +522,9 @@
     <e><p><l>dát<s n="prn"/><s n="dem"/><s n="pl"/></l><r>nämä<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
 
     <e><p><l>duot<s n="prn"/><s n="dem"/><s n="sg"/></l><r>tuo<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
-    <e><p><l>duot<s n="prn"/><s n="dem"/><s n="sg"/></l><r>toi<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>duot<s n="prn"/><s n="dem"/><s n="sg"/></l><r>toi<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
     <e><p><l>duot<s n="prn"/><s n="dem"/><s n="pl"/></l><r>nuo<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
-    <e><p><l>duot<s n="prn"/><s n="dem"/><s n="pl"/></l><r>noi<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
+    <e r="RL"><p><l>duot<s n="prn"/><s n="dem"/><s n="pl"/></l><r>noi<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
 
     <e><p><l>gii<s n="prn"/><s n="rel"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>guhte<s n="prn"/><s n="rel"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
