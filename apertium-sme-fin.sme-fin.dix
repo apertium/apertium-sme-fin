@@ -534,8 +534,10 @@
     <e><p><l>gii<s n="prn"/><s n="itg"/></l><r>kuka<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>goabbá<s n="prn"/><s n="itg"/></l><r>kumpi<s n="prn"/><s n="itg"/></r></p></e>
         
+    <e><p><l>muhtun<s n="prn"/><s n="ind"/></l><r>joku<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>juoga<s n="prn"/><s n="ind"/></l><r>jokin<s n="prn"/><s n="ind"/></r></p></e>
-    <e><p><l>buot<s n="prn"/><s n="ind"/><s n="sg"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>buot<s n="prn"/><s n="ind"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="sg"/></r></p></e>
+    <e r="RL"><p><l>buot<s n="prn"/><s n="ind"/></l><r>kaikki<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>buohkat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e>
         <!--<e><p><l>buohkat<s n="prn"/><s n="ind"/></l><r>kaikki<s n="prn"/></r></p></e>-->
     <e><p><l>mihkkege<s n="prn"/><s n="ind"/></l><r>mikään<s n="prn"/><s n="qnt"/></r></p></e>
