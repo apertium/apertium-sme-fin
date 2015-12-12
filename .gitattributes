@@ -141,6 +141,7 @@ dev/top_10000_missing_nouns.csv -text
 dev/top_10000_missing_nouns_translated.csv -text
 dev/update-lexc.sh -text
 dev/update-rm-deriv-cmp -text
+dev/verbs_with_mwe_fin.dix -text
 /fin-sme.prob -text
 /gt2apertium.cg3r -text
 /modes.xml -text
