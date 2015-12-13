@@ -309,6 +309,7 @@
       <attr-item tags="CD"/>
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
+      <attr-item tags="par"/>
       <attr-item tags="com"/>
       <attr-item tags="ess"/>
       <attr-item tags="ela"/>
@@ -326,6 +327,12 @@
     <def-attr n="a_ext">
       <attr-item tags="←ext→"/>
       <attr-item tags="←hab→"/>
+    </def-attr>
+
+    <def-attr n="a_syn_obj">
+      <attr-item tags="@←OBJ"/>
+      <attr-item tags="@OBJ"/>
+      <attr-item tags="@OBJ→"/>
     </def-attr>
 
     <def-attr n="a_syn">
@@ -721,6 +728,13 @@
       <choose>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="acc"/></equal>
+                     <not><equal><clip pos="1" side="sl" part="a_syn_obj"/><lit v=""/></equal></not>
+                     <not><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="prn.pers"/></equal></not></and></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="par"/></let>
+        </when>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="acc"/></equal>
+                     <not><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></not>
                      <not><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="prn.pers"/></equal></not></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
         </when>
