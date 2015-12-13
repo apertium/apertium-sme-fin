@@ -734,7 +734,6 @@
         </when>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="acc"/></equal>
-                     <not><equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></not>
                      <not><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="prn.pers"/></equal></not></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
         </when>
