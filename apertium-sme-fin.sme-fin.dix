@@ -118,6 +118,7 @@
     <e><p><l>dál<s n="adv"/></l><r>nyt<s n="adv"/></r></p></e>
     <e><p><l>fas<s n="adv"/></l><r>taas<s n="part"/></r></p></e>
     <e><p><l>gal<s n="adv"/></l><r>kai<s n="part"/></r></p></e>
+    <e><p><l>eanaš<s n="adv"/></l><r>enimmäkseen<s n="adv"/></r></p></e>
     <e><p><l>galego<s n="adv"/></l><r>tokko<s n="part"/></r></p></e>
     <e><p><l>geardde<s n="adv"/></l><r>kerta<s n="part"/></r></p></e>
     <e><p><l>goitge<s n="adv"/></l><r>kuitenkaan<s n="part"/></r></p></e>
@@ -151,6 +152,7 @@
     <!-- SECTION: Adpositions -->
 
     <e><p><l>ala<s n="post"/></l><r>päälle<s n="post"/></r></p></e>
+    <e><p><l>maŋŋel<s n="post"/></l><r>jälkeen<s n="post"/></r></p></e>
 
     <e><p><l>dihte<s n="post"/></l><r>ansiosta<s n="post"/></r></p></e>
 
@@ -358,6 +360,7 @@
     <!-- SECTION: Adverbs -->
 
     <e><p><l>baicca<s n="adv"/></l><r>paitsi<s n="adv"/></r></p></e>
+    <e><p><l>maŋŋel<s n="adv"/></l><r>jälkeen<s n="adv"/></r></p></e>
     <e><p><l>duojásii<s n="adv"/></l><r>alati<s n="adv"/></r></p></e>
     <e><p><l>hearkkit<s n="adv"/></l><r>herkästi<s n="adv"/></r></p></e>
     <e><p><l>garrasit<s n="adv"/></l><r>ankarasti<s n="adv"/></r></p></e>
@@ -560,6 +563,7 @@
     <e><p><l>giige<s n="prn"/><s n="ind"/></l><r>kukaan<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>juohke<s n="prn"/><s n="ind"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>makkárge<s n="prn"/><s n="ind"/></l><r>minkäänlainen<s n="adj"/><s n="itg"/></r></p></e>
+    <e><p><l>makkár<s n="prn"/><s n="ind"/></l><r>minkäänlainen<s n="adj"/><s n="itg"/></r></p></e>
     <e><p><l>goappašagat<s n="prn"/><s n="ind"/></l><r>molemmat<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>eará<s n="prn"/><s n="ind"/></l><r>muu<s n="prn"/></r></p></e>
         
@@ -567,11 +571,11 @@
 
     <e><p><l>guhtege<s n="prn"/><s n="ind"/></l><r>kukin<s n="prn"/><s n="qnt"/></r></p></e>
 
-    <e r="LR"><p><l>buot<s n="prn"/><s n="qnt"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="ND"/></r></p></e> 
-    <e r="LR"><p><l>buot<s n="prn"/><s n="qnt"/><s n="sg"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="sg"/></r></p></e> 
-    <e r="LR"><p><l>buot<s n="prn"/><s n="qnt"/><s n="du"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e> 
-    <e r="LR"><p><l>buot<s n="prn"/><s n="qnt"/><s n="pl"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e> 
-    <e r="RL"><p><l>buot<s n="prn"/><s n="qnt"/></l><r>kaikki<s n="prn"/><s n="qnt"/></r></p></e> 
+    <e r="LR"><p><l>buot<s n="prn"/><s n="ind"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="ND"/></r></p></e> 
+    <e r="LR"><p><l>buot<s n="prn"/><s n="ind"/><s n="sg"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="sg"/></r></p></e> 
+    <e r="LR"><p><l>buot<s n="prn"/><s n="ind"/><s n="du"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e> 
+    <e r="LR"><p><l>buot<s n="prn"/><s n="ind"/><s n="pl"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e> 
+    <e r="RL"><p><l>buot<s n="prn"/><s n="ind"/></l><r>kaikki<s n="prn"/><s n="qnt"/></r></p></e> 
  
     <e r="LR"><p><l>ieš<s n="prn"/><s n="ref"/></l><r>oma<s n="adj"/><s n="ND"/></r></p></e> 
     <e r="LR"><p><l>ieš<s n="prn"/><s n="ref"/><s n="sg"/></l><r>oma<s n="adj"/><s n="sg"/></r></p></e> 
