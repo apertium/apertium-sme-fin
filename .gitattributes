@@ -24,6 +24,7 @@ dev/MISSING -text
 dev/algu_xml_to_csv.py -text
 dev/apertium-sme-fin.txt -text
 dev/archive/apertium-sme-fin.fin-sme.t1x -text
+dev/bidix-sanity.sh -text
 dev/bidix/A.lex -text
 dev/bidix/A.lex.orig -text
 dev/bidix/Adv.lex -text
