@@ -145,6 +145,7 @@
     <e><p><l>hás<s n="part"/></l><r>jospa<s n="part"/></r></p></e>
     <e><p><l>na<s n="part"/></l><r>no<s n="part"/></r></p></e>
     
+    <e><p><l>sihke<s n="adv"/></l><r>sekä<s n="cnjcoo"/></r></p></e>
     <e><p><l>muhto<s n="cnjcoo"/></l><r>vaan<s n="part"/></r></p></e>
 
     <e><p><l>maŋŋágo<s n="cnjsub"/></l><r>jälkeen<s n="adv"/></r></p></e> <!-- FIX -->
@@ -359,6 +360,7 @@
     
     <!-- SECTION: Adverbs -->
 
+    <e><p><l>eanet<s n="adv"/></l><r>enemmän<s n="adv"/></r></p></e>
     <e><p><l>baicca<s n="adv"/></l><r>paitsi<s n="adv"/></r></p></e>
     <e><p><l>maŋŋel<s n="adv"/></l><r>jälkeen<s n="adv"/></r></p></e>
     <e><p><l>duojásii<s n="adv"/></l><r>alati<s n="adv"/></r></p></e>

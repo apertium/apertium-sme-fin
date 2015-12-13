@@ -196,6 +196,7 @@
     </def-attr>
     <def-attr n="a_attr">
       <attr-item tags="attr"/>
+      <attr-item tags="ND.attr"/>
       <attr-item tags="sg.loc.attr"/>
       <attr-item tags="sg.ill.attr"/>
       <attr-item tags="ND.CD"/>
