@@ -198,11 +198,15 @@
       <attr-item tags="attr"/>
       <attr-item tags="ND.attr"/>
       <attr-item tags="sg.loc.attr"/>
+      <attr-item tags="pl.com.attr"/>
       <attr-item tags="sg.ill.attr"/>
       <attr-item tags="ND.CD"/>
     </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
+    </def-attr>
+    <def-attr n="a_dem">
+      <attr-item tags="dem"/>
     </def-attr>
     <def-attr n="a_prn">
       <attr-item tags="pers"/>
@@ -615,8 +619,14 @@
           <let><clip pos="2" side="tl" part="tags"/><concat><clip pos="2" side="tl" part="tags"/><lit-tag v="CD"/></concat></let>
         </when>
       </choose>
-      <let><clip pos="2" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
-      <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
+      <choose>
+        <when>
+          <test><and><not><equal><clip pos="2" side="tl" part="a_cas"/><lit-tag v="gen"/></equal></not>
+                     <not><equal><clip pos="2" side="tl" part="a_dem"/><lit v=""/></equal></not></and></test>
+          <let><clip pos="2" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
+          <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
+        </when>
+      </choose>
     </def-macro>
 
     <def-macro n="concord-nominal3" npar="3">
@@ -716,7 +726,34 @@
       <let><clip pos="1" side="tl" part="a_known"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_ext"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_syn"/><lit v=""/></let>
-      <let><clip pos="1" side="tl" part="a_attr"/><lit-tag v="ND.CD"/></let>
+<!--      <let><clip pos="1" side="tl" part="a_attr"/><lit-tag v="ND.CD"/></let>-->
+
+      <choose>
+        <when>
+          <test><not><equal><clip pos="1" side="tl" part="a_attr"/><lit v=""/></equal></not></test>
+          <let><clip pos="1" side="tl" part="a_attr"/><lit v=""/></let>
+          <choose>
+            <when>
+              <test><equal><clip pos="1" side="sl" part="a_nbr"/><lit v=""/></equal></test>
+              <let><clip pos="1" side="tl" part="tags"/><concat><clip pos="1" side="tl" part="tags"/><lit-tag v="ND"/></concat></let>
+            </when>
+            <otherwise>
+              <let><clip pos="1" side="tl" part="tags"/><concat><clip pos="1" side="tl" part="tags"/> 
+                                                                <clip pos="1" side="sl" part="a_nbr"/></concat></let>
+            </otherwise>
+          </choose>
+          <choose>
+            <when>
+              <test><equal><clip pos="1" side="sl" part="a_cas"/><lit v=""/></equal></test>
+            <let><clip pos="1" side="tl" part="tags"/><concat><clip pos="1" side="tl" part="tags"/><lit-tag v="CD"/></concat></let>
+            </when>
+            <otherwise>
+              <let><clip pos="1" side="tl" part="tags"/><concat><clip pos="1" side="tl" part="tags"/> 
+                                                                <clip pos="1" side="sl" part="a_cas"/></concat></let>
+            </otherwise>
+          </choose>
+        </when>
+      </choose>
 
       <choose>
         <when>

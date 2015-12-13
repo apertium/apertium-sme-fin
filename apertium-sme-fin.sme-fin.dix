@@ -5375,7 +5375,7 @@
     <!--<e><p><l>Amerihká<b/>ovttastuvvan<b/>stáhtat<s n="np"/></l><r>Amerikan<b/>yhdysvallat<s n="np"/></r></p></e>-->
     <e><p><l>Amerihká<s n="np"/><s n="top"/></l><r>Amerika<s n="np"/></r></p></e>
     <e><p><l>Anárjohka<s n="np"/><s n="top"/></l><r>Inarijoki<s n="np"/></r></p></e>
-    <!--<e><p><l>Romsa<s n="np"/><s n="top"/></l><r>Tromsa<s n="np"/></r></p></e>-->
+    <e><p><l>Romsa<s n="np"/><s n="top"/></l><r>Tromsa<s n="np"/></r></p></e>
     <e><p><l>Anárjávri<s n="np"/><s n="top"/></l><r>Inarijärvi<s n="np"/></r></p></e>
     <e><p><l>Atlánta<s n="np"/><s n="top"/></l><r>Atlantti<s n="np"/></r></p></e>
     <e><p><l>Austrália<s n="np"/><s n="top"/></l><r>Australia<s n="np"/></r></p></e>
@@ -5887,10 +5887,10 @@
     <e><p><l>David<s n="np"/><s n="ant"/><s n="m"/></l><r>David<s n="np"/></r></p></e>
     <!--<e><p><l>Dávvet<s n="np"/><s n="ant"/><s n="m"/></l><r>Dávvet<s n="np"/></r></p></e>-->
     <!--<e><p><l>Davvi-Amerihkká<s n="np"/><s n="top"/></l><r>Davvi-Amerihkká<s n="np"/></r></p></e>-->
-    <!--<e><p><l>Davvi-Norga<s n="np"/><s n="top"/></l><r>Davvi-Norga<s n="np"/></r></p></e>-->
+    <e><p><l>Davvi-Norga<s n="np"/><s n="top"/></l><r>Pohjois-Norja<s n="np"/></r></p></e>
     <!--<e><p><l>Davvi-Rátnu<s n="np"/><s n="top"/></l><r>Davvi-Rátnu<s n="np"/></r></p></e>-->
     <!--<e><p><l>Davviriikkat<s n="np"/><s n="top"/></l><r>Davviriikkat<s n="np"/></r></p></e>-->
-    <!--<e><p><l>Davvi-Romsa<s n="np"/><s n="top"/></l><r>Davvi-Romsa<s n="np"/></r></p></e>-->
+    <e><p><l>Davvi-Romsa<s n="np"/><s n="top"/></l><r>Pohjois-Tromsa<s n="np"/></r></p></e>
     <!--<e><p><l>Davvi-Trøndelag<s n="np"/><s n="top"/></l><r>Davvi-Trøndelag<s n="np"/></r></p></e>-->
     <!--<e><p><l>Deanodat<s n="np"/><s n="top"/></l><r>Deanodat<s n="np"/></r></p></e>-->
     <!--<e><p><l>Deanuvuotna<s n="np"/><s n="top"/></l><r>Deanuvuotna<s n="np"/></r></p></e>-->
