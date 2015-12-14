@@ -98,14 +98,14 @@
   </pardefs>
   <section id="main" type="standard">
     
-    <e c="FMT:CHECK"><p><l>go<s n="qst"/></l><r>ko<s n="qst"/></r></p></e>
+    <e c="FMT:CHECK"><p><l>go<s n="qst"/></l><r></r></p></e>
     
     <e c="FMT:CHECK"><p><l>seammá<s n="adv"/></l><r>yhtä<s n="adv"/></r></p></e>
     <e c="FMT:CHECK"><p><l>duođaid<s n="adv"/></l><r>välillä<s n="adv"/></r></p></e>
 
-    <e><p><l>nai<s n="pcle"/></l><r>kin<s n="adv"/></r></p></e> <!-- ;D -->
-    <e><p><l>ge<s n="pcle"/></l><r>kin<s n="adv"/></r></p></e> <!-- ;D -->
-    <e><p><l>ge<s n="pcle"/></l><r>kaan<s n="adv"/></r></p></e> <!-- ;D -->
+    <e><p><l>nai<s n="pcle"/></l><r>myös<s n="adv"/></r></p></e> <!-- ;D -->
+    <e><p><l>ge<s n="pcle"/></l><r></r></p></e> <!-- ;D -->
+    <e><p><l>ge<s n="pcle"/></l><r>myös<s n="adv"/></r></p></e> <!-- ;D -->
     <e><p><l>go<s n="pcle"/><s n="qst"/></l><r>ko<s n="qst"/></r></p></e> <!-- ;D -->
 
     <!--<e><p><l>earret<b/>eará<s n="adv"/></l><r>muun<b/>muassa<s n="adv"/></r></p></e>-->
@@ -5375,7 +5375,7 @@
     <!--<e><p><l>Amerihká<b/>ovttastuvvan<b/>stáhtat<s n="np"/></l><r>Amerikan<b/>yhdysvallat<s n="np"/></r></p></e>-->
     <e><p><l>Amerihká<s n="np"/><s n="top"/></l><r>Amerika<s n="np"/></r></p></e>
     <e><p><l>Anárjohka<s n="np"/><s n="top"/></l><r>Inarijoki<s n="np"/></r></p></e>
-    <e><p><l>Romsa<s n="np"/><s n="top"/></l><r>Tromsa<s n="np"/></r></p></e>
+    <e><p><l>Romsa<s n="np"/><s n="top"/></l><r>Tromssa<s n="np"/></r></p></e>
     <e><p><l>Anárjávri<s n="np"/><s n="top"/></l><r>Inarijärvi<s n="np"/></r></p></e>
     <e><p><l>Atlánta<s n="np"/><s n="top"/></l><r>Atlantti<s n="np"/></r></p></e>
     <e><p><l>Austrália<s n="np"/><s n="top"/></l><r>Australia<s n="np"/></r></p></e>
@@ -8055,7 +8055,7 @@
     <e><p><l>časkit<s n="vblex"/><s n="tv"/></l><r>lyödä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>lahkanit<s n="vblex"/><s n="iv"/></l><r>lähestyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>sáddedit<s n="vblex"/><s n="tv"/></l><r>lähetellä<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>girdilit<s n="vblex"/><s n="iv"/></l><r>lähteä<b/>lentoon<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>girdilit<s n="vblex"/><s n="iv"/></l><r>lähteä<s n="vblex"/></r></p><par n="V_V"/></e><!--lentoon-->
     <e><p><l>mannat<s n="vblex"/><s n="iv"/></l><r>lähteä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>vuolgit<s n="vblex"/><s n="iv"/></l><r>lähteä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>doarškit<s n="vblex"/><s n="iv"/></l><r>läimähdellä<s n="vblex"/></r></p><par n="V_V"/></e>
