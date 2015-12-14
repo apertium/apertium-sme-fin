@@ -136,6 +136,7 @@ dev/postpos-candidates -text
 dev/scripts/apertium.py -text
 dev/scripts/coverage.py -text
 dev/scripts/debug.py -text
+dev/sme-fin-examples.txt -text
 dev/sme_algu.tar.bz2 -text
 dev/sme_fin_postp_prep -text
 dev/top_10000_missing_nouns.csv -text
