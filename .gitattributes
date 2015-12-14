@@ -158,4 +158,6 @@ t/wiki-tests -text
 texts/gold.sme.txt -text
 texts/tarina.fin.txt -text
 texts/tarina.sme.txt -text
+texts/vaalit2012.fin.txt -text
+texts/vaalit2012.sme.txt -text
 /wiki-tests.sh -text
