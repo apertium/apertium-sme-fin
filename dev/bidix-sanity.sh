@@ -1,5 +1,8 @@
 #!/bin/bash
 
+alias gecho=echo
+alias gsed=sed
+
 pair=`pwd | grep -o 'apertium-[a-z][a-z][a-z]-[a-z][a-z][a-z]'`;
 dir=`gecho $pair | grep -o  -- '-[a-z][a-z][a-z]-[a-z][a-z][a-z]' | gsed 's/^-//g'`; 
 dix=$pair.$dir.dix

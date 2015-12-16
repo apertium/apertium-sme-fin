@@ -187,6 +187,7 @@
     </def-attr>
     <def-attr n="a_pass">
       <attr-item tags="der_passs.vblex.iv"/>
+      <attr-item tags="der_passl.vblex.iv"/>
     </def-attr>
     <def-attr n="a_deriv">
       <attr-item tags="der_dimin"/>
@@ -233,6 +234,7 @@
     </def-attr>
     <def-attr n="a_cmp">
       <attr-item tags="cmp"/>
+      <attr-item tags="n.cmp"/>
       <attr-item tags="cmp.guio"/>
 
       <attr-item tags="cmp_sgnom.cmp_hyph.cmp"/>
@@ -621,8 +623,9 @@
       </choose>
       <choose>
         <when>
-          <test><and><not><equal><clip pos="2" side="tl" part="a_cas"/><lit-tag v="gen"/></equal></not>
-                     <not><equal><clip pos="2" side="tl" part="a_dem"/><lit v=""/></equal></not></and></test>
+          <test><or><and><not><equal><clip pos="2" side="tl" part="a_cas"/><lit-tag v="gen"/></equal></not>
+                     <not><equal><clip pos="2" side="tl" part="a_dem"/><lit v=""/></equal></not></and>
+                     <not><equal><clip pos="2" side="tl" part="a_attr"/><lit v=""/></equal></not> </or></test>
           <let><clip pos="2" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
           <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
         </when>
@@ -892,6 +895,13 @@
 
       <choose>
         <when>
+          <test><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="n.cmp"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="n.sg.nom.cmp"/></let>
+        </when>
+      </choose>
+
+      <choose>
+        <when>
           <test><and><equal><clip pos="1" side="tl" part="a_ess"/><lit-tag v="ess"/></equal>
                      <or><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="n"/></equal>
                          <equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="num"/></equal>
@@ -915,6 +925,10 @@
       <choose>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_pass"/><lit-tag v="der_passs.vblex.iv"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_pass"/><lit v=""/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_pass"/><lit-tag v="der_passl.vblex.iv"/></equal></test>
           <let><clip pos="1" side="tl" part="a_pass"/><lit v=""/></let>
         </when>
       </choose>

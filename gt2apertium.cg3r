@@ -67,7 +67,7 @@ MAP (<ext>) (←ext→);
 MAP (<vdic>) (←vdic→);
 
 LIST was_clb = cm sent;
-MAP (CLB) was_clb;
+#MAP (CLB) was_clb;
 
 LIST was_punct = quot punct ("-" guio);
 MAP (PUNCT) was_punct;

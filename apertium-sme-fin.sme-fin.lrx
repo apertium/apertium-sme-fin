@@ -7,13 +7,20 @@
 
  
   <rule weight="1.0">
+    <match lemma="ieš" tags="prn.*"><select lemma="oma" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="1.5">
+    <match lemma="ieš" tags="prn.ref.*.*.@SUBJ→"><select lemma="itse" tags="prn.ref.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
     <match lemma="suohkan" tags="n.*"><select lemma="kunta" tags="n.*"/></match>
   </rule>
 
   <rule weight="1.0">
     <match lemma="liikot" tags="vblex.*"><select lemma="tykätä" tags="vblex.*"/></match>
   </rule>
-
 
   <rule weight="1.0"> <!-- Odne beaivi báitá. = Tänään aurinko paistaa --> 
     <match lemma="beaivi" tags="n.*"><select lemma="aurinko" tags="n.*"/></match>
