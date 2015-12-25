@@ -1799,33 +1799,6 @@
     </rule>
 
 
-    <rule comment="REGLA: wordfoc">	 <!-- nieidage / nieida ge   - tyttökin -->									   
-      <pattern>															   
-        <pattern-item n="word"/>										   
-        <pattern-item n="foc"/>		  									   
-      </pattern>														   
-      <action>															   
-          <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
-         <call-macro n="pcle-foc2"><with-param pos="1"/><with-param pos="2"/></call-macro>  
-         <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
-         <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
-       <out>															   
-          <chunk name="wordfoc" case="caseFirstWord">					   
-            <tags>														   
-              <tag><lit-tag v="WN"/></tag>								   
-            </tags>														   
-            <mlu>														   
-            <lu>														   
-              <clip pos="1" side="tl" part="whole"/>					   
-            </lu>														   
-             </mlu>														   
-        </chunk>														   
-        </out>															   
-      </action>															   
-    </rule>																   
-
-
-
 
 
     <rule comment="REGLA: CONNEGII">
