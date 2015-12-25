@@ -650,6 +650,7 @@
       <attr-item tags="sem_veh"/>
       <attr-item tags="sem_wpn"/>
       <attr-item tags="sem_wthr"/>
+      <attr-item tags="sem_year"/>
     </def-attr>
 
 
