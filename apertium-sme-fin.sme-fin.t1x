@@ -76,12 +76,35 @@
       <cat-item tags="vblex.*.der_passl.vblex.iv.indic.pres.*"/>
       <cat-item tags="vblex.*.der_passl.vblex.iv.indic.pret.*"/>
     </def-cat>
+    <def-cat n="word">
+      <cat-item tags="n.*"/>
+      <cat-item tags="adj.*"/>
+      <cat-item tags="vblex.*"/>
+       <cat-item tags="prn.*"/>
+       <cat-item tags="adv.*"/>
+   </def-cat>
     <def-cat n="adv">
       <cat-item tags="adv.*"/>
     </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
+    <def-cat n="num-nomacc">                           
+      <cat-item tags="num.sg.nom.*"/>                  
+      <cat-item tags="num.sg.acc.*"/>                  
+    </def-cat>                                         
+    <def-cat n="num-nom">                           
+      <cat-item tags="num.sg.nom.*"/>                  
+    </def-cat>                                         
+    <def-cat n="num-acc">                           
+      <cat-item tags="num.sg.acc.*"/>                  
+    </def-cat>                                         
+    <def-cat n="n-sg-accgen">                             
+      <cat-item tags="n.*.sg.gen.*"/>                     
+      <cat-item tags="n.*.*.sg.gen.*"/>                   
+      <cat-item tags="n.*.sg.acc.*"/>                     
+      <cat-item tags="n.*.*.sg.acc.*"/>                   
+   </def-cat>  
     <def-cat n="nom-cmp">
       <cat-item tags="n.cmp"/>
       <cat-item tags="n.cmp.*"/>
@@ -120,9 +143,22 @@
       <cat-item tags="n.*.cmp_plnom.cmp_hyph.cmp.*"/>
       <cat-item tags="n.*.cmp_plgen.cmp_hyph.cmp"/>
       <cat-item tags="n.*.cmp_plgen.cmp_hyph.cmp.*"/>
-
-
     </def-cat>
+
+   <def-cat n="foc">
+      <cat-item lemma="ba" tags="pcle.*"/>
+      <cat-item lemma="ban" tags="pcle.*"/>
+      <cat-item lemma="bat" tags="pcle.*"/>
+      <cat-item lemma="ge" tags="pcle.*"/>
+      <cat-item lemma="ges" tags="pcle.*"/>
+      <cat-item lemma="gis" tags="pcle.*"/>
+      <cat-item lemma="han" tags="pcle.*"/>
+      <cat-item lemma="nai" tags="pcle.*"/>
+      <cat-item lemma="son" tags="pcle.*"/>
+      <cat-item lemma="go" tags="pcle.*"/>
+    </def-cat>
+
+
     <def-cat n="nom">
       <cat-item tags="n.*"/>
       <cat-item tags="np.*"/>
@@ -132,7 +168,15 @@
       <cat-item tags="sent.*"/>
     </def-cat>
   </section-def-cats>
+
+
+
+
+
   <section-def-attrs>
+    <def-attr n="a_ntype">
+      <attr-item tags="nomag"/>
+    </def-attr>
     <def-attr n="a_known">
       <attr-item tags="known"/>
     </def-attr>
@@ -310,6 +354,16 @@
       <attr-item tags="px3pl"/>
     </def-attr>
 
+    <def-attr n="sg_acc">
+      <attr-item tags="sg.acc"/>
+    </def-attr>
+
+    <def-attr n="sg_num_cas">
+      <attr-item tags="sg.nom"/>
+      <attr-item tags="sg.acc"/>
+    </def-attr>
+
+
 
     <def-attr n="a_cas">
       <attr-item tags="CD"/>
@@ -330,18 +384,18 @@
       <attr-item tags="abl"/>
     </def-attr>
 
-    <def-attr n="a_ext">
+    <def-attr n="x_func">
       <attr-item tags="←ext→"/>
       <attr-item tags="←hab→"/>
     </def-attr>
 
-    <def-attr n="a_syn_obj">
+    <def-attr n="a_func_obj">
       <attr-item tags="@←OBJ"/>
       <attr-item tags="@OBJ"/>
       <attr-item tags="@OBJ→"/>
     </def-attr>
 
-    <def-attr n="a_syn">
+    <def-attr n="a_func">
       <attr-item tags="@→A"/>
       <attr-item tags="@A←"/>
       <attr-item tags="@←ADVL"/>
@@ -417,6 +471,21 @@
       <attr-item tags="@X"/>
     </def-attr>
 
+    <def-attr n="a_foc">
+      <attr-item tags="foc_sun"/>
+       <attr-item tags="foc_ba"/>
+       <attr-item tags="foc_bat"/>
+       <attr-item tags="foc_han"/>
+       <attr-item tags="foc_naj"/>
+       <attr-item tags="foc_ges"/>
+       <attr-item tags="foc_gis"/>
+       <attr-item tags="foc_gin"/>
+       <attr-item tags="foc_ban"/>
+       <attr-item tags="foc_be"/>
+       <attr-item tags="foc_hal"/>
+       <attr-item tags="foc_uv"/>
+       <attr-item tags="foc_ge"/>
+  </def-attr>
 
     <def-attr n="a_sem">
       <attr-item tags="sem_act"/>
@@ -664,7 +733,6 @@
           <let><clip pos="1" side="tl" part="tags"/><lit-tag v="vblex.pasv.prfprc.sg.nom"/></let>
         </when>
       </choose>
-
     </def-macro>
 
     <def-macro n="pers-to-px1" npar="1">
@@ -727,8 +795,8 @@
 
     <def-macro n="default-conversion1" npar="1">
       <let><clip pos="1" side="tl" part="a_known"/><lit v=""/></let>
-      <let><clip pos="1" side="tl" part="a_ext"/><lit v=""/></let>
-      <let><clip pos="1" side="tl" part="a_syn"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
 <!--      <let><clip pos="1" side="tl" part="a_attr"/><lit-tag v="ND.CD"/></let>-->
 
       <choose>
@@ -768,7 +836,7 @@
       <choose>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="acc"/></equal>
-                     <not><equal><clip pos="1" side="sl" part="a_syn_obj"/><lit v=""/></equal></not>
+                     <not><equal><clip pos="1" side="sl" part="a_func_obj"/><lit v=""/></equal></not>
                      <not><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="prn.pers"/></equal></not></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="par"/></let>
         </when>
@@ -779,7 +847,7 @@
         </when>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="loc"/></equal>
-                     <equal><clip pos="1" side="sl" part="a_ext"/><lit-tag v="←hab→"/></equal></and></test>
+                     <equal><clip pos="1" side="sl" part="x_func"/><lit-tag v="←hab→"/></equal></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ade"/></let>
         </when>
         <when>
@@ -792,12 +860,12 @@
                          <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="prn"/></equal>
                          <equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal>
                      </or>
-                     <not><equal><clip pos="1" side="sl" part="a_syn"/><lit-tag v="@→N"/></equal></not></and></test>
+                     <not><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@→N"/></equal></not></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><concat><lit-tag v="gen"/><lit v="$ ^kanssa"/><lit-tag v="post"/></concat></let>
         </when>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal>
-                     <equal><clip pos="1" side="tl" part="a_syn"/><lit-tag v="@→N"/></equal>
+                     <equal><clip pos="1" side="tl" part="a_func"/><lit-tag v="@→N"/></equal>
                      <not><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="prn.pers"/></equal></not></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
         </when>
@@ -809,9 +877,9 @@
         </when>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></equal>
-                     <or><equal><clip pos="1" side="sl" part="a_syn"/><lit-tag v="@ADVL→"/></equal>
-                         <equal><clip pos="1" side="sl" part="a_syn"/><lit-tag v="@APP-ADVL←"/></equal>
-                         <equal><clip pos="1" side="sl" part="a_syn"/><lit-tag v="@←ADVL"/></equal></or></and></test>
+                     <or><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@ADVL→"/></equal>
+                         <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@APP-ADVL←"/></equal>
+                         <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@←ADVL"/></equal></or></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ess"/></let>
         </when>
 
@@ -974,7 +1042,7 @@
         </when>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.ine"/></equal></test>
-          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="der_minen.sg.gen"/></let>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="der_minen.sg.ela"/></let><!--was: gen -->
           <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
         </when>
         <when>
@@ -993,6 +1061,56 @@
         </when>
       </choose>
     </def-macro>
+    <def-macro n="pcle-foc2" npar="2">
+		<choose>   
+        <when>
+          <test>
+               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_gis"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="tags"/><concat>
+          <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_kin"/></concat>
+          </let> 
+        </when>
+        <when>
+          <test>
+               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_han"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="tags"/><concat>
+          <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_han"/></concat>
+          </let> 
+        </when>
+        <when>
+          <test>
+               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="tags"/><concat>
+          <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_pa"/></concat>
+          </let> 
+        </when>
+        <when>
+          <test>
+               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="tags"/><concat>
+          <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_kin"/></concat>
+          </let> 
+        </when>
+		</choose>    
+    </def-macro>  
+    
+    <def-macro n="num-nom1" npar="1">
+		<choose>   
+        <when>
+          <test>
+               <equal><clip pos="1" side="tl" part="sg_num_cas"/><lit-tag v="sg.acc"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let> 
+        </when>
+
+		</choose>    
+    </def-macro>  
+ 
+
   </section-def-macros>
   <section-rules>
 
@@ -1333,7 +1451,45 @@
         </out>
       </action>
     </rule>
+    
+    
+    <!-- SECTION: Numerals and quantifiers -->
 
+  
+  
+    <rule comment="REGLA: num-nomacc n-sg to n-par"> <!-- Mun oainnán guokte nieidda. Minä näen kaksi tyttöä. -->                                            
+      <pattern>                                        
+        <pattern-item n="num-nomacc"/>                 
+        <pattern-item n="n-sg-accgen"/>                   
+      </pattern>     
+      <action>
+        <call-macro n="num-nom1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let> 
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let> 
+        <let><clip pos="2" side="tl" part="a_cas"/><lit-tag v="par"/></let>
+        <let><clip pos="2" side="tl" part="x_func"/><lit v=""/></let> 
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let> 
+        <let><clip pos="2" side="tl" part="a_sem"/><lit v=""/></let> 
+		<out>
+          <chunk name="num-noun">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>    
+              <clip pos="1" side="tl" part="tags"/>   
+	        </lu>
+	        <b/>
+	        <lu>
+              <clip pos="2" side="tl" part="whole"/>   
+		    </lu>
+          </chunk>
+        </out>
+      </action>                                  
+    </rule> 
+    
+    
+    
     <!-- SECTION: Verb groups -->
 
     <rule comment="REGLA: GOAHTI">
@@ -1628,7 +1784,7 @@
       </pattern>
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
-        <let><clip pos="1" side="tl" part="a_syn"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
         <out>
           <chunk name="qst" case="caseFirstWord">
             <tags>
@@ -1641,6 +1797,36 @@
         </out>
       </action>
     </rule>
+
+
+    <rule comment="REGLA: wordfoc">	 <!-- nieidage / nieida ge   - tyttökin -->									   
+      <pattern>															   
+        <pattern-item n="word"/>										   
+        <pattern-item n="foc"/>		  									   
+      </pattern>														   
+      <action>															   
+          <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+         <call-macro n="pcle-foc2"><with-param pos="1"/><with-param pos="2"/></call-macro>  
+         <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+         <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let>
+       <out>															   
+          <chunk name="wordfoc" case="caseFirstWord">					   
+            <tags>														   
+              <tag><lit-tag v="WN"/></tag>								   
+            </tags>														   
+            <mlu>														   
+            <lu>														   
+              <clip pos="1" side="tl" part="whole"/>					   
+            </lu>														   
+             </mlu>														   
+        </chunk>														   
+        </out>															   
+      </action>															   
+    </rule>																   
+
+
+
+
 
     <rule comment="REGLA: CONNEGII">
       <pattern>
