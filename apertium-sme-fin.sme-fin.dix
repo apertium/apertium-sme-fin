@@ -3561,7 +3561,6 @@
     <!--<e><p><l>sálti<s n="n"/></l><r>soula<s n="n"/></r></p></e>-->
     <e><p><l>sálti<s n="n"/></l><r>suola<s n="n"/></r></p></e>
     <!--<e><p><l>sámediggeráđđi<s n="n"/></l><r>saamelaisneuvosto<s n="n"/></r></p></e>-->
-    <!--<e><p><l>Sámediggi<s n="n"/></l><r>Saamelaiskäräjät<s n="n"/></r></p></e>-->
     <e><p><l>sámediggi<s n="n"/><s n="sg"/></l><r>saamelaiskäräjät<s n="n"/><s n="pl"/></r></p></e>
     <!--<e><p><l>sámegielgursa<s n="n"/></l><r>saamen<b/>kielen<b/>kurssi<s n="n"/></r></p></e>-->
     <!--<e><p><l>sámegielkursa<s n="n"/></l><r>saamen<b/>kielen<b/>kurssi<s n="n"/></r></p></e>-->
@@ -5753,6 +5752,7 @@
 
     <!-- SECTION: Proper nouns -->
 
+    <e><p><l>Sámediggi<s n="np"/><s n="top"/></l><r>Saamelaiskäräjät<s n="np"/></r></p></e>
     <e><p><l>Roavvenjárga<s n="np"/><s n="top"/></l><r>Rovaniemi<s n="np"/></r></p></e>
     <e><p><l>Ruonáeana<s n="np"/><s n="top"/></l><r>Grönlanti<s n="np"/></r></p></e>
     <e><p><l>Ruošša<s n="np"/><s n="top"/></l><r>Venäjä<s n="np"/></r></p></e>
@@ -6340,7 +6340,7 @@
     <!--<e><p><l>Grape<s n="np"/><s n="cog"/></l><r>Grape<s n="np"/></r></p></e>-->
     <e><p><l>Greenpeace<s n="np"/><s n="org"/></l><r>Greenpeace<s n="np"/></r></p></e>
     <e><p><l>Guatemala<s n="np"/><s n="top"/></l><r>Guatemala<s n="np"/></r></p></e>
-    <!--<e><p><l>Guovdageaidnu<s n="np"/><s n="top"/></l><r>Guovdageaidnu<s n="np"/></r></p></e>-->
+    <e><p><l>Guovdageaidnu<s n="np"/><s n="top"/></l><r>Kuovdâkiäinu<s n="np"/></r></p></e>
     <e><p><l>Guttorm<s n="np"/><s n="cog"/></l><r>Guttorm<s n="np"/></r></p></e>
     <!--<e><p><l>Hætta<s n="np"/><s n="cog"/></l><r>Hætta<s n="np"/></r></p></e>-->
     <!--<e><p><l>Hálkavárri<s n="np"/><s n="top"/></l><r>Hálkavárri<s n="np"/></r></p></e>-->
