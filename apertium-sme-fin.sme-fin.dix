@@ -617,6 +617,7 @@
     <e><p><l>lasáhus<s n="n"/></l><r>lisäys<s n="n"/></r></p></e>
     <e><p><l>gulaskuddan<s n="n"/></l><r>kuulustelu<s n="n"/></r></p></e>
     <e><p><l>báikegoddi<s n="n"/></l><r>kylä<s n="n"/></r></p></e>
+    <e><p><l>eanagoddi<s n="n"/></l><r>maakunta<s n="n"/></r></p></e>
     <e><p><l>dásseárvu<s n="n"/></l><r>tasa-arvo<s n="n"/></r></p></e>
     <e><p><l>čiekčan<s n="n"/></l><r>jalkapallo-ottelu<s n="n"/></r></p></e>
     <e><p><l>dearvvasvuohta<s n="n"/></l><r>terveys<s n="n"/></r></p></e>
@@ -2442,6 +2443,7 @@
     <e><p><l>fylka<s n="n"/></l><r>lääni<s n="n"/></r></p></e>
     <e><p><l>fylkasuohkan<s n="n"/></l><r>lääni<s n="n"/></r></p></e>
     <e><p><l>fylkkagielda<s n="n"/></l><r>lääni<s n="n"/></r></p></e>
+    <e><p><l>ruoktugielda<s n="n"/></l><r>kotikunta<s n="n"/></r></p></e>
     <!--<e><p><l>fylkkaviessu<s n="n"/></l><r>läänintalo<s n="n"/></r></p></e>-->
     <e><p><l>fáddá<s n="n"/></l><r>aihe<s n="n"/></r></p></e>
     <e><p><l>fága<s n="n"/></l><r>oppiaine<s n="n"/></r></p></e>
@@ -7571,6 +7573,8 @@
     <e slr="1"><p><l>fargga<s n="adv"/></l><r>pian<s n="adv"/></r></p></e>
     <e srl="1"><p><l>nu<s n="adv"/></l><r>siten<s n="adv"/></r></p></e>
     <e><p><l>agi<b/>beaivvisge<s n="adv"/></l><r>ikinä<s n="adv"/></r></p></e>
+    <e><p><l>ovdamearkka<b/>dihte<s n="adv"/></l><r>esimerkiksi<s n="adv"/></r></p></e>
+    <e><p><l>maŋimustá<s n="adv"/></l><r>viimeistään<s n="adv"/></r></p></e>
     <e><p><l>ain<s n="adv"/></l><r>edelleen<s n="adv"/></r></p></e>
     <e><p><l>ain<s n="adv"/></l><r>yhä<s n="part"/></r></p></e>
     <e><p><l>ainjuo<s n="adv"/></l><r>ainakin<s n="adv"/></r></p></e>
@@ -7870,6 +7874,8 @@
 
     <!-- verbs -->
 
+    <e><p><l>juohkásit<s n="vblex"/><s n="iv"/></l><r>jakautua<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>jienastit<s n="vblex"/><s n="tv"/></l><r>äänestää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čilget<s n="vblex"/><s n="tv"/></l><r>selittää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>váikkuhit<s n="vblex"/><s n="iv"/></l><r>vaikuttaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>árvvoštallat<s n="vblex"/><s n="tv"/></l><r>arvioida<s n="vblex"/></r></p><par n="V_V"/></e>
