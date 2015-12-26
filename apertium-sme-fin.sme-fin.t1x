@@ -1244,7 +1244,6 @@
         </out>
       </action>
     </rule>
-
     <rule comment="REGLA: ATTR NOM">
       <pattern>
         <pattern-item n="attr"/>
@@ -1253,7 +1252,8 @@
       <action>
         <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-        <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
+<!--        <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>-->
+	<!-- debug : This line blocked translation, e.g. of vaalit2012.sme.txt-->
         <call-macro n="handle-nominal-derivation2"><with-param pos="2"/></call-macro>
         <call-macro n="concord-nominal2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <out>
