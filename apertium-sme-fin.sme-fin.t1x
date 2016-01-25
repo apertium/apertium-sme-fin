@@ -25,6 +25,7 @@
       <cat-item lemma="ieš" tags="prn.ref.*"/>
       <cat-item tags="prn.dem.*.@→N"/>
       <cat-item tags="prn.ind.*.@→N"/>
+      <cat-item tags="num.*.*.@→N"/>
       <cat-item tags="prn.*.attr.*"/>
       <cat-item tags="num.*.*.attr.*"/>
       <cat-item tags="adj.*.attr.*"/>
@@ -393,6 +394,9 @@
       <attr-item tags="@←OBJ"/>
       <attr-item tags="@OBJ"/>
       <attr-item tags="@OBJ→"/>
+      <attr-item tags="@-F←OBJ"/>
+      <attr-item tags="@-FOBJ"/>
+      <attr-item tags="@-FOBJ→"/>
     </def-attr>
 
     <def-attr n="a_func">

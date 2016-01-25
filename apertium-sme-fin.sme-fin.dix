@@ -8133,7 +8133,8 @@
     <e><p><l>gođđat<s n="vblex"/><s n="iv"/></l><r>kutoa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gođđit<s n="vblex"/><s n="tv"/></l><r>kutoa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gohčodit<s n="vblex"/><s n="tv"/></l><r>kutsua<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>gullat<s n="vblex"/><s n="tv"/></l><r>kuulla<s n="vblex"/></r></p><par n="V_V"/></e>
+    <!--<e><p><l>gullat<s n="vblex"/><s n="tv"/></l><r>kuulla<s n="vblex"/></r></p><par n="V_V"/></e>-->
+    <e><p><l>gullat<s n="vblex"/><s n="tv"/></l><r>kuulua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>beljohallat<s n="vblex"/><s n="tv"/></l><r>kuulostella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>beljostallat<s n="vblex"/><s n="tv"/></l><r>kuulostella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gullot<s n="vblex"/><s n="iv"/></l><r>kuulua<s n="vblex"/></r></p><par n="V_V"/></e>

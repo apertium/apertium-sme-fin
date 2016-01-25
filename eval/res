@@ -1,0 +1,410 @@
++G = grammatical+intelligible
++I = intelligible
++Z = unintelligible
++L = wrong lexeme
++D = wrong disambiguation
++M = wrong morphology (fixable)
++U = wrong morphology (nonfixable)
++B = missing word causes unintelligibility
+
+1	Dieđáhus Jagi 2012 Gielddaválggain
+1	Tiedote Vuoden 2012 Kunnallisvaaleista
+1+I	Tiedote Vuotena+D 2012 Kunnanvaaleissa+M
+
+2	Suopma juohkása gielddaide, main lea vuođđolága mielde iešráđđen.  
+2	Suomi jakautuu kuntiin, joilla on perustuslain mukaan itsehallinto. 
+2+Z	Suomi jakautuu kuntiin, missä on perustuslain kanssa *iešráđđen+B.  
+
+3	Gielddaid bargun lea lágidit ássiide máŋggaid bálvalusaid. 
+3	Kuntien tehtävänä on järjestää asukkaille monia palveluja. 
+3+I	Kuntien teoksena+L on järjestää asukkahisin+M monien+M palveluita.
+
+4	Gielddat vástidit ovdamearkka dihte mánáid beaivedivššu, vuođđooahpahusa, ahkeolbmuid bálvalusaid ja dearvvasvuohtafuolahusa lágideamis. 
+4	Kunnat vastaavat esimerkiksi lasten päivähoidon, perusopetuksen, ikäihmisten palveluiden ja terveydenhuollon järjestämisestä.
+4+I	Kunnat vastaavat esimerkiksi lapsien päivähoitoa+M, perusopetusta+M, ikäihmisiä+M palveluita+M ja *dearvvasvuohtafuolahusa järjestämisestä. 
+
+5	Gieldda bajimuš mearrideaddji orgána lea gielddaid ássiid válljen váldostivra. 
+5	Kunnan ylin päättävä elin on asukkaiden valitsema valtuusto. 
+5+G	Kunnan ylin päättävä elin on kuntien asukkahien valitsema valtuusto. 
+
+6	Váldostivrra lahtut dahjege áirasat válljejuvvojit gielddaválggain njealji jahkái háválassii. 
+6	Valtuuston jäsenet eli valtuutetut valitaan kunnallisvaaleilla neljäksi vuodeksi kerrallaan.
+6+I	Valtuuston jäsenet eli edustajat valitaan kunnanvaaleissa neljään+M vuoteen+M kerrallaan. 
+
+7	Čuovvovaš gielddaválggat leat sotnabeaivve 28.10.2012. 
+7	Seuraavat kunnallisvaalit ovat sunnuntaina 28.10.2012.
+7+I	Seuraavat kunnanvaalit ovat sunnuntain+M 28.10.2012. 
+
+8	Gielddaválggain sáhttet jienastit ja álgit evttohassan Suoma riikkavuložiid lassin eará riikkaid riikkavuložat, juos sii devdet dihto eavttuid. 
+8	Kunnallisvaaleissa voivat äänestää ja asettua ehdolle Suomen kansalaiset sekä tietyillä ehdoilla kunnassa asuvat muiden maiden kansalaiset.
+8+Z	Kunnanvaaleissa voivat äänestää ja alkaa ehdokkaana Suomen *riikkavuložiid lisänä muita valtakuntia *riikkavuložat, jos he täyttävät tietää ehtoja. 
+
+9	Ålándda eanagottis eai leat gielddaválggat jagis 2012. 
+9	Ahvenanmaan maakunnan alueella ei ole kunnallisvaaleja vuonna 2012.
+9+I	Ahvenanmaan maakunnassa eivät ovat+D kunnanvaalit+M vuodessa+M 2012. 
+
+10	Jietnavuoigatvuohta – gii oažžu jienastit 
+10	Äänioikeus – kuka saa äänestää
+10+Z	Äänioikeus – joka+D saa äänestää 
+
+11	Oažžut jienastit gielddaválggain, juos leat Suoma dahje muhtun Eurohpa uniovnna eará lahttoriikka,  Islándda dahje Norgga riikkavuloš ja deavddát čuovvovaš eavttuid: 
+11	Saat äänestää kunnallisvaaleissa, jos olet Suomen tai jonkin muun Euroopan unioniin kuuluvan maan, Islannin tai Norjan kansalainen ja täytät seuraavat edellytykset:
+11+I	Saamme+M äänestää kunnanvaaleissa, jos olet Suomea tahi joku+M Eurooppa+M *uniovnna muun jäsenvaltakunnan+L,  Islannin tahi Norjaa *riikkavuloš ja täytät seuraavia+M ehtoja+L+M:
+
+12	- deavddát maŋimustá válgabeaivve (28.10.2012) 18 jagi. 
+12	- täytät viimeistään vaalipäivänä (28.10.2012) 18 vuotta.
+12+I	- täytät viimeistään vaalipäivän+M (28.10.2012) 18 vuotta.
+
+13	- dus lea ruoktogielda Suomas maŋimustá 7.9.2012. 
+13	- sinulla on kotikunta Suomessa viimeistään 7.9.2012.
+13+Z	- sinulla on *ruoktogielda+B Suomessa viimeistään 7.9.2012. 
+
+14	Juos leat muhtun eará riikka riikkavuloš, oaččut jienastit gielddaválggain, juos
+14	Jos olet jonkin muun maan kansalainen, saat äänestää kunnallisvaaleissa, jos
+14+Z	Jos olet jonakuna+M muuna+M valtakuntana+M *riikkavuloš+B, saat äänestää kunnanvaaleissa, jos 
+
+15	- deavddát maŋimustá válgabeaivve (28.10.2012) 18 jagi. 
+15	- täytät viimeistään vaalipäivänä (28.10.2012) 18 vuotta
+15+I	- täytät viimeistään vaalipäivän+D (28:aa.10.2012) 18 vuotta. 
+
+16	- dus leamašan ruoktogielda Suomas boatkkaheamet uhcimustá guovtti jagi áigge ovdal 7.9.2012.
+16	- sinulla on ollut kotikunta Suomessa yhtäjaksoisesti vähintään kahden vuoden ajan ennen 7.9.2012
+16+Z	- sinulla ollut *ruoktogielda+B Suomessa *boatkkaheamet+B *uhcimustá+B kahden vuoden ajan ennen 7.9.2012.
+
+17	Ruoktogielda mearrašuvvá ruoktogieldalága vuođul. 
+17	Kotikunta määräytyy kotikuntalain perusteella.
+17+Z	*Ruoktogielda+B *mearrašuvvá+B *ruoktogieldalága+B nojalla. 
+
+18	Dábálaččat ruoktogielda lea dat gielda, gos ásat. 
+18	Yleensä kotikunta on se kunta, jossa asut.
+18+G	Yleensä *ruoktogielda on se kunta, missä asut. 
+
+19	Jagi 2012 gielddaválggain ruoktogielda mearrašuvvá dan mielde, mii gielddaid lea merkejuvvon jienasteaddji ruoktogieldan veahkadatdiehtovuogádahkii 7.9.2012 d. 24. 
+19	Vuoden 2012 kunnallisvaaleissa kotikunta määräytyy sen mukaan, mikä kunta on merkitty äänestäjän kotikunnaksi väestötietojärjestelmään 7.9.2012 klo 24.
+19+Z	Vuotena 2012 kunnanvaaleissa *ruoktogielda *mearrašuvvá+B sen kanssa, mikä kuntia on merkinnyt äänestäjänä *ruoktogieldan *veahkadatdiehtovuogádahkii+B 7:n.9.2012 *d. 24. 
+
+20	Dárbbu mielde sáhtát dárkkistit ruoktogieldadieđu magistráhtas. 
+20	Tarvittaessa voit tarkistaa kotikuntatiedon maistraatista.
+20+I	Tarpeen kanssa voit tarkistaa *ruoktogieldadieđu maistraatissa. 
+
+21	Gielddaválggain oažžu jienastit dušše iežas ruoktogieldda evttohasa. 
+21	Kunnallisvaaleissa saa äänestää vain oman kotikunnan ehdokasta.
+21+I	Kunnanvaaleissa saa äänestää vain omansa *ruoktogieldda ehdokkaan. 
+
+22	Almmuhus jietnavuoigatvuođas boahtá ruoktot 
+22	Ilmoitus äänioikeudesta tulee kotiin.
+22+I	Ilmoitus äänioikeudessa+M tulee kotiin 
+
+23	Veahkadatregistarguovddáš ja magistráhta dollet jienastanvuoigatvuohtaregistara, mas leat buohkaid jietnavuoigadahtton olbmuid dieđut. 
+23	Väestörekisterikeskus ja maistraatit pitävät äänioikeusrekisteriä, jossa ovat kaikkien äänioikeutettujen tiedot. 
+23+Z	*Veahkadatregistarguovddáš+B ja maistraattia pitävät *jienastanvuoigatvuohtaregistara+B, missä ovat kaikkien *jietnavuoigadahtton+B ihmisien tiedot. 
+
+24	Jienastanvuoigatvuohtaregistarii ii dárbbaš sierra almmuhit. 
+24	Äänioikeusrekisteriin ei tarvitse erikseen ilmoittautua.
+24+Z	*Jienastanvuoigatvuohtaregistarii+B ei tarvitse erilleen ilmoittaa. 
+
+25	Magistráhta sádde maŋimustá 4.10.2012 almmuhusa jienastanvuoigatvuođas, nuppiid sániiguin almmuhangoartta juohke jietnavuoigadahtton olbmui, guđe čujuhus lea dieđus. 
+25	Maistraatti lähettää viimeistään 4.10.2012 ilmoituksen äänioikeudesta eli ilmoituskortin jokaiselle äänioikeutetulle, jonka osoite on tiedossa. 
+25+Z	Maistraatti *sádde viimeistään 4.10.2012 ilmoitusta äänestysoikeudessa, toisien sanojen kanssa *almmuhangoartta+B joka *jietnavuoigadahtton+B ihmiseen, jossa osoittaminen on tiettävä. 
+
+26	Almmuhangoarttas leat rávvagat jienasteamis. 
+26	Ilmoituskortissa on ohjeita äänestämisestä.
+26+Z	*Almmuhangoarttas+B ovat neuvot äänestyksessä. 
+
+27	Válgagelbbolašvuohta – gii oažžu leat evttohassan.
+27	Vaalikelpoisuus – kuka saa olla ehdokas.
+27+Z	Vaalikelpoisuus – joka+D saa olla ehdokkaana. 
+
+28	Dus lea válgagelbbolašvuohta dahjege sáhtát álgit evttohassan ruoktogielddat gielddaválggain, juos deavddát čuovvovaš eavttuid: 
+28	Olet vaalikelpoinen eli voit asettua ehdokkaaksi kotikuntasi kunnallisvaaleissa, jos täytät seuraavat edellytykset:
+28+I	Sinulla on vaalikelpoisuus eli voit alkaa ehdokkaana+M *ruoktogielddat kunnanvaalin kanssa, jos täytät seuraavia ehtoja+L: 
+
+29	- gielda, mas áiggut álgit evttohassan, lea du ruoktogielda. 
+29	- kunta, jossa aiot asettua ehdokkaaksi, on kotikuntasi.
+29+I	- kunta, missä aiot alkaa+L ehdokkaana, on sinun *ruoktogielda. 
+
+30	- dus lea jienastanvuoigatvuohta muhtun gielddas. 
+30	- sinulla on äänioikeus jossakin kunnassa
+30+I	- sinulla on äänestysoikeus joku+M kunnassa. 
+
+31	- it leat vádjitválddálaš dahjege hovdenvuloš. 
+31	- et ole vajaavaltainen eli holhouksen alainen.
+31+Z	- et ole *vádjitválddálaš eli *hovdenvuloš. 
+
+32	Muhtun stáhta virgeolbmot ja gieldda jođiheaddji virgeolbmot ja bargit eai goittotge leat válgagelbbolaččat. 
+32	Eräät valtion virkamiehet ja kunnan johtavat virkamiehet ja työntekijät eivät kuitenkaan ole vaalikelpoisia.
+32+Z	Jonkun valtion virkailijat ja kunnan johtajan virkailijat ja työntekijät eivät *goittotge+B ole *válgagelbbolaččat+B. 
+
+33	Evttohasaid ásaheapmi gielddaválggain 
+33	Ehdokkaiden asettaminen kunnallisvaaleihin
+33+Z	Ehdokkaiden *ásaheapmi kunnanvaaleissa 
+
+34	Gielddaválggain sáhttet evttohasaid ásahit 
+34	Kunnallisvaaleissa voivat asettaa ehdokkaita
+34+G	Kunnanvaaleissa voivat ehdokkaita asettaa.
+
+
+35	- registrerejuvvon bellodagat. 
+35	- rekisteröidyt puolueet
+35+Z	- *registrerejuvvon puolueet. 
+
+36	- jietnavuoigadahtton olbmot, geat leat vuođđudan válljensearvvi. 
+36	- äänioikeutetut, jotka ovat perustaneet valitsijayhdistyksen.
+36+Z	- *jietnavuoigadahtton ihmiset, jotka ovat perustanut valintaseuraa. 
+
+37	Válljensearvvi vuođđudeapmái dárbbašuvvojit unnimustá logi jienastanvuoigadahtton gieldda ássi, muhtun smávva gielddain dušše golbma dahje vihtta ássi. 
+37	Valitsijayhdistyksen perustamiseen tarvitaan vähintään kymmenen äänioikeutettua kunnan asukasta, eräissä pienissä kunnissa vain kolme tai viisi asukasta.
+37+Z	Valintaseurana *vuođđudeapmái+B tarvitaan *unnimustá+B kymmenen *jienastanvuoigadahtton+B kunnan asukkaan, joissakuissa pikkuisissa kunnissa vain kolmea tahi viisi asukasta. 
+
+38	Guovtti dahje máŋgga bellodagas lea vuoigatvuohta ráhkadit válgalihtu. 
+38	Kahdella tai useammalla puolueella on oikeus muodostaa vaaliliitto. 
+38+I	Kahden+M tahi monessa puolueessa on oikeus rakentaa vaaliliiton. 
+
+39	Guovtti dahje máŋgga válljensearvvis lea vuoigatvuohta ráhkadit oktasašlisttá. 
+39	Kahdella tai useammalla valitsijayhdistyksellä on oikeus muodostaa yhteislista.
+39+I	Kahden+M tahi monessa valintaseurassa on oikeus rakentaa yleisen luettelon. 
+
+40	Bellodagas, válgalihtus dahje oktasašlisttás ožžot leat gielddas evttohasat eanemustá válljejuvvon váldostivrra áirasiid beannotgeardásaš mearri. 
+40	Puolueella, vaaliliitolla tai yhteislistalla saa olla kunnassa ehdokkaita enintään puolitoista kertaa se määrä kuin valtuutettuja valitaan. 
+40+Z	Puolueessa, vaaliliitossa tahi yleisessä luettelossa saavat olla kunnassa ehdokkaat *eanemustá+B valittu valtuuston edustajien *beannotgeardásaš+B määrä. 
+
+41	Váldostivrii válljejuvvon áirasiid mearri, 17–85 lea gitta gieldda ássiidlogus. 
+41	Valtuustoihin valitaan kunnan asukasluvusta riippuen 17–85 valtuutettua.
+41+I	Valtuustoon valittu edustajien määrä, 17–85 on kiinni kunnan asukkaidenluvussa+M. 
+
+42	Guđege evttohasas lea iežas nummir. 
+42	Kullakin ehdokkaalla on oma numero. 
+42+I	Kussakin ehdokkaassa on omansa numero. 
+
+43	Evttohasain ráhkaduvvo báhpárii deaddiluvvon ovttastahtton evttohaslistá, masa evttohasat merkejuvvojit evttohasnummiriid mieldásaš ortnegis nummira 2 rájes. 
+43	Ehdokkaista laaditaan paperille painettu ehdokaslistojen yhdistelmä, johon ehdokkaat merkitään numerojärjestyksessä alkaen numerosta 2. 
+43+Z	Ehdokkaissa rakennetaan paperiin *deaddiluvvon yhdistetty ehdokkaanluettelo, mihin ehdokkaat merkitään ehdokasnumeroiden *mieldásaš järjestyksessä numeron 2:n asti. 
+
+44	Evttohasat leat ovttastahtton evttohaslisttás juhkkojuvvon joavkkuide bellodagaid ja oktasašlisttáid mielde. 
+44	Ehdokkaat on yhdistelmässä ryhmitelty puolueittain ja yhteislistoittain. 
+44+Z	Ehdokkaat ovat yhdistänyt ehdokasluettelossa jaettu joukkoihin puoluehitten ja yleisten luetteloiden kanssa. 
+
+45	Guđege evttohasas ovttastahtton evttohaslisttás leat čuovvovaš dieđut: namma, evttohasnummir ja ámmát. 
+45	Kustakin ehdokkaasta yhdistelmässä on seuraavat tiedot: nimi, ehdokasnumero ja ammatti. 
+45+I	Kussakin ehdokkaalla yhdistetty+M ehdokasluettelossa ovat seuraavat tiedot: nimi, ehdokkaannumero ja ammatti. 
+
+46	Dasa lassin ovttastahtton evttohaslisttás oidno 
+46	Lisäksi ehdokaslistojen yhdistelmästä käy ilmi
+46+I	Lisäksi yhdistetty+M ehdokasluettelossa nähdään 
+
+47	- mat bellodagat leat ráhkadan válgalihtu.
+47	- mitkä puolueet ovat muodostaneet vaaliliiton
+47+I	- mitkä puolueet ovat rakentanut+M vaaliliittoa.
+
+48	- mat válljensearvvit leat ráhkadan oktasašlisttá. 
+48	- mitkä valitsijayhdistykset ovat muodostaneet yhteislistan
+48+I	- mitkä valintaseurat ovat rakentanut+M yleistä luetteloa. 
+
+49	- mat bellodagat eai gula válgalihttui 3.
+49	- mitkä puolueet eivät kuulu vaaliliittoon
+49+G	- mitkä puolueet eivät kuulu vaaliliittoon 3.
+
+50	- guđe evttohasat leat oktasašlisttá olggobeale evttohasat. 
+50	- mitkä ehdokkaat ovat yhteislistan ulkopuolella olevia ehdokkaita.
+50+I	- jossa ehdokkaat ovat yleisen luettelon ulkopuolen ehdokkaat. 
+
+51	Ovttastahtton evttohaslistá ráhkaduvvo 27.9.2012. 
+51	Ehdokaslistojen yhdistelmä laaditaan 27.9.2012.
+51	#Yhdistää ehdokkaanluettelo rakennetaan 27.9.2012. 
+
+52	Jienastanáiggit 
+52	Äänestysajat
+52+G	Äänestysajat 
+
+53	Sáhtát jienastit juo válgabeaivve sotnabeaivve 28.10.2012 dahje ovdal válgabeaivvi ovdajienasteamis. 
+53	Voit äänestää joko vaalipäivänä sunnuntaina 28.10.2012 tai ennen vaalipäivää ennakkoäänestyksessä. 
+53	Voit äänestävät jo vaalipäivän sunnuntain 28:aa.10.2012 tahi ennen vaalipäivän *ovdajienasteamis. 
+
+54	Sáhtát jienastit dušše oktii. 
+54	Voit äänestää vain kerran. 
+54	Voit äänestää vain yhteen. 
+
+55	Guktii jienasteamis ásahuvvo ráŋggáštus rihkuslágas. 
+55	Kahdesti äänestämisestä on säädetty rangaistus rikoslaissa.
+55	*Guktii äänestyksessä asetetaan rangaistus rikoslaessa/rikoslaissa. 
+
+56	Ovdajienasteapmi: 
+56	Ennakkoäänestys:
+56	*Ovdajienasteapmi: 
+
+57	Ovdajienasteapmi álgá gaskavahku 17.10.2012. 
+57	Ennakkoäänestys alkaa keskiviikkona 17.10.2012.
+57	*Ovdajienasteapmi alkaa keskiviikon 17.10.2012. 
+
+58	Ovdajienasteapmi nohká olgoriikkain lávvardaga 20.10.2012 ja Suomas maŋŋebárgga 23.10.2012. 
+58	Ennakkoäänestys päättyy ulkomailla lauantaina 20.10.2012 ja Suomessa tiistaina 23.10.2012. 
+58	*Ovdajienasteapmi loppuu ulkomaissa lauantain 20.10.2012 ja Suomessa tiistain 23.10.2012. 
+
+59	Muhtun ovdajienastanbáikkiin jienastanáigi lea oanehut. 
+59	Eräissä ennakkoäänestyspaikoissa äänestysaika on lyhyempi.
+59	Joku *ovdajienastanbáikkiin äänestysaika on lyhyempi. 
+
+60	Sáhtát jienastit ovddalgihtii gos beare ovdajienastanbáikkis Suomas dahje olgoriikkas. 
+60	Voit äänestää ennakkoon missä tahansa ennakkoäänestyspaikassa kotimaassa tai ulkomailla. 
+60	Voit äänestää edeltäpäin missä tahansa *ovdajienastanbáikkis Suomessa tahi ulkomaassa. 
+
+61	Ovdajienastanbáikkit leat
+61	Ennakkoäänestyspaikkoja ovat
+61	*Ovdajienastanbáikkit olemme
+
+62	- ruovttueatnamis gielddaid mearridan ovdajienastanbáikkit, dávjá ovdamearkka dihte gielddaid virgedoaimmahagat dadje boasttat.
+62	- kotimaassa kuntien määräämät ennakkoäänestyspaikat, usein esimerkiksi kuntien virastot tai postit
+62	- kodinmaassa kuntia päätän *ovdajienastanbáikkit, usein esimerkiksi kuntien viratoimistot/virkatoimistot sanoivat postit.
+
+63	- Suoma máŋggat ovttastagat olgoriikkain.
+63	- useat Suomen edustustot ulkomailla
+63	- Suomen monet *ovttastagat ulkomaissa.
+
+64	- lágádusat, nugo buohcceviesut, sosiálafuolahusa doaibmanossodagat ja ráŋggáštanlágádusat. 
+64	- laitokset, kuten sairaalat, sosiaalihuollon toimintayksiköt ja rangaistuslaitokset. 
+64	- kustantamot, kuten sairaalat, *sosiálafuolahusa *doaibmanossodagat ja *ráŋggáštanlágádusat. 
+
+65	Lágádusain ožžot jienastit dušše doppe divššus leahkit dahje dohko váldojuvvon olbmot.
+65	Laitoksissa voivat äänestää vain niissä hoidettavana olevat tai niihin otetut henkilöt.
+65	Kustantamoissa saavat äänestää vain siellä hoidossa olla tahi sinne otettu ihmiset.
+
+66	- suopmelaš dámppat, mat leat olgoriikkain ovdajienastanáigge. 
+66	- suomalaiset laivat, jotka ovat ulkomailla ennakkoäänestysaikana. 
+66	- suomalaiset höyrylaivat, mitkä ovat ulkomaissa *ovdajienastanáigge. 
+
+67	Dámppas oažžu jienastit dušše dámppa bargoveahka, mátkkošteaddjit eai sáhte jienastit dámppas. 
+67	Laivassa saa äänestää vain laivan henkilökunta, matkustajat eivät voi äänestää laivassa.
+67	Höyrylaivassa saa äänestää vain höyrylaivan työvoima, matkustajat eivät voi äänestää höyrylaivassa. 
+
+68	Jienasteapmi válgabeaivve: 
+68	Äänestys vaalipäivänä:
+68+I	Äänestys vaalipäivän+M: 
+
+69	Válgabeaivve jienasteapmi lea sotnabeaivve 28.10.2012 d. 9–20. 
+69	Vaalipäivän äänestys on sunnuntaina 28.10.2012 kello 9–20.
+69	Vaalipäivänä äänestys on sunnuntain 28.10.2012 *d. #920. 
+
+70	Sáhtát jienastit válgabeaivve dušše dan gielddas ja dan jienastanbáikkis, mii lea merkejuvvon dutnje sáddejuvvon almmuhangortii. 
+70	Voit äänestää vaalipäivänä vain siinä kunnassa ja sillä äänestyspaikalla, joka on merkitty sinulle lähetettyyn ilmoituskorttiin.
+70	Voit äänestää vaalipäivänä vain siin kunnassa ja siin äänestyspaikassa, mikä on merkinnyt sinuun *sáddejuvvon *almmuhangortii. 
+
+71	Ruoktojienasteapmi: 
+71	Kotiäänestys:
+71+Z	*Ruoktojienasteapmi: 
+
+72	Juos du návccat lihkadit dahje doaibmat lea dan meare rádjašuvvan, ahte it almmá govttohis váttisvuođaid haga beasa jienastanbáikái, oaččut jienastit ruovttus ovdajienastanáigge. 
+72	Jos kykysi liikkua tai toimia on rajoittunut siinä määrin, että et pääse ilman kohtuuttomia vaikeuksia äänestyspaikalle, voit äänestää kotona ennakkoäänestysaikana. 
+72	Jos sinun kyvyt liikkuvat tahi toimimme on sen määrän rajakohinana, että et *almmá *govttohis vaikeuksien ilman pääse äänestyspaikkaan, saat äänestää kotona *ovdajienastanáigge. 
+
+73	Ruoktojienasteapmái galgá almmuhit maŋimustá maŋŋebárgga 16.10.2012 ovdal diibmu 16. 
+73	Kotiäänestykseen pitää ilmoittautua viimeistään tiistaina 16.10.2012 ennen kello 16.
+73	*Ruoktojienasteapmái pitää ilmoittaa #viimeistään tiistain 16.10.2012 ennen kello 16. 
+
+74	Almmuhit galgá ruoktogieldda guovddášválgalávdegoddái. 
+74	Ilmoittautuminen tehdään kotikunnan keskusvaalilautakunnalle. 
+74	Ilmoittaa pitää *ruoktogieldda keskustanvaalilautakuntaan. 
+
+75	Seamma dállodoalus orru oapmahašdikšu oažžu dihto eavttuiguin jienastit oktanaga. 
+75	Samassa taloudessa asuva omaishoitaja voi tietyin edellytyksin äänestää samalla kertaa.
+75	Samassa talotoimintayksikössä asuu *oapmahašdikšu saava tietää ehtojen kanssa äänestää *oktanaga. 
+
+76	Dán láhkai jienastat 
+76	Näin äänestät
+76	Tähän tapaan äänestämme 
+
+77	Jienasteapmi dáhpáhuvvá jienastanbáikkis. 
+77	Äänestys tapahtuu äänestyspaikalla. 
+77+I	Äänestys tapahtuu äänestyspaikassa+M. 
+
+78	Sáhtát jienastit dušše ovtta evttohasa, guhte lea merkejuvvon iežat gieldda ovttastuvvon evttohaslistái. 
+78	Voit äänestää vain yhtä ehdokasta, joka on merkitty oman kuntasi ehdokaslistojen yhdistelmään.
+78	Voit äänestää vain yksi ehdokasta, joka on merkinnyt omasi kuntana yhtynyt ehdokkaanluetteloon. 
+
+79	1) Duođaš identitehtat válgabargái, nuppiid sániiguin čájet pássa, persovdnagoartta, vuodjingoartta dahje vástideaddji eará áššebáhpára. 
+79	1) Todista henkilöllisyytesi vaalivirkailijalle eli näytä passi, henkilökortti, ajokortti tai muu vastaava asiakirja. 
+79	1) Vahvistako identiteetit vaalityöntekijään, toisien/toisten sanojen kanssa näytä passin, henkilökortin, ajokortin tahi vastaava muun asiapaperin. 
+
+80	Válgabargi addá dutnje jienastanlihpo. 
+80	Vaalivirkailija antaa sinulle äänestyslipun.
+80	Vaalityöntekijä antaa sinuun äänestyslippuna. 
+
+81	2) Mana jienastangohppii. 
+81	2) Mene äänestyskoppiin. 
+81	2) Menemän äänestyslahtiin. 
+
+82	Jienastangohpes oažžu leat hávil dušše okta olmmoš. 
+82	Äänestyskopissa saa olla kerrallaan vain yksi henkilö.
+82	*Jienastangohpes saa olla kerralla vain yksi ihminen. 
+
+83	3) Čále jienastanlihppui dan evttohasa nummira, gean jienastat. 
+83	3) Merkitse äänestyslippuun sen ehdokkaan numero, jota äänestät.
+83	3) Avatko äänestyslippuun sen ehdokkaan numeroa, jota äänestämme. 
+
+84	Oaččut jienastit dušše ovtta evttohasa. 
+84	Saat äänestää vain yhtä ehdokasta. 
+84	Saat äänestää vain yhden ehdokkaan. 
+
+85	Ale čále jienastanlihppui maidege eará, go evttohasat nummira. 
+85	Älä tee äänestyslippuun mitään muita merkintöjä. 
+85	Älä avatko äänestyslippuun mitään muu, kun ehdokkaat numeroa. 
+
+86	Máhco jienastanlihpo guovdu nu, ahte nummir báhcá máhcahaga siskkobeallái iige oidno olggobeallai. 
+86	Taita äänestyslippu siten, että merkitsemäsi numero jää taitoksen sisäpuolelle eikä näy ulospäin.
+86	Taittele äänestyslipun kohtaan niin, että numero jää palaamatta *siskkobeallái ei #kin nähdä ulkopuoleen. 
+
+87	4) Doalvvo máhccojuvvon jienastanlihpo válgabargái. 
+87	4) Vie lippu kiinni taitettuna vaalivirkailijalle. 
+87	4) Tuoko palattu äänestyslipun vaalityöntekijään. 
+
+88	Válgabargi steampalastá jienastanlihpo. 
+88	Vaalivirkailija leimaa lipun.
+88	Vaalityöntekijä leimaa äänestyslippuna. 
+
+89	5a) Juos jienastat jienastanbeaivve, nahket steampilastojuvvon jienastanlihpo válgaurdnii. 
+89	5a) Jos äänestät äänestyspäivänä, pudota leimattu lippu vaaliuurnaan.
+89	5:n) Jos äänestät äänestyspäivän, laita *steampilastojuvvon äänestyslippuna *válgaurdnii. 
+
+90	5b) Juos jienastat ovdajienasteamis, válgabargi addá dutnje válgakonfeluhta, masa nahkehat steampilastojuvvon jienastanlihpo ja giddet konfeluhta. 
+90	5b) Jos äänestät ennakkoäänestyksessä, vaalivirkailija antaa vaalikuoren, johon suljet leimatun lipun.
+90	*5b) Jos äänestämme *ovdajienasteamis, vaalityöntekijää antaa sinuun *válgakonfeluhta, mihin laitamme *steampilastojuvvon äänestyslippuna ja suljemme *konfeluhta. 
+
+91	Juos du návccat čállit evttohasa nummira jienastanlihppui lea čielgasit futnon, oaččut geavahit jienasteamis válgaveahkkin iežat válljen veahki dahje válgabargi. 
+91	Jos kykysi merkitä ehdokkaan numero äänestyslippuun on oleellisesti heikentynyt, saat käyttää äänestyksessä apuna valitsemaasi avustajaa tai vaalitoimitsijaa.
+91	Jos sinun kyvyt avaamme ehdokkaan numeroa äänestyslippuun on selkeämpi *futnon, saat käyttää äänestyksessä vaaliapuna omasi valinnut avun tahi vaalityöntekijä. 
+
+92	Válgaveahkki ii oaččo leat válggain evttohassan. 
+92	Avustaja ei saa olla vaaleissa ehdokkaana oleva henkilö. 
+92	Vaaliapu ei saa olla vaaleissa ehdokkaana. 
+
+93	Válgaveahkis lea geatnegasvuohta seailluhit válgasuollemasvuođa dahjege doallat suollegasvuođa jienasteami oktavuođas ožžon dieđuin. 
+93	Avustaja on velvollinen säilyttämään vaalisalaisuuden eli pitämään salassa äänestyksen yhteydessä saamansa tiedot.
+93	Vaaliavussa on velvollisuus säilyttää vaalisalaisuuden eli pidämme *suollegasvuođa äänestystä yhteydessä saanut tiedon kanssa. 
+
+94	Lassidieđut 
+94	Lisätietoja
+94	Lisätiedot 
+
+95	- Lassidieđuid válggain addá gieldda guovddášválgalávdegoddi. 
+95	- Lisätietoja vaaleista antaa kunnan keskusvaalilautakunta. 
+95	- Lisätietoja vaaleissa antaa kunnan keskustanvaalilautakunta. 
+
+96	Persovnnalaš jienastanvuoigatvuhtii guoski gažaldagaide vástida magistráhta. 
+96	Henkilökohtaista äänioikeutta koskeviin kysymyksiin vastaa maistraatti. 
+96	Henkilökohtaiseen äänestysoikeuteen koskeva kysymyksiin vastaa maistraatti. 
+
+97	Guktot čujuhusat ja telefonnummirat leat almmuhangoarttas. 
+97	Molempien osoitteet ja puhelinnumerot ovat ilmoituskortissa.
+97	Kaksikot osoittamiset ja puhelimennumerot ovat *almmuhangoarttas. 
+
+98	- Ovdajienastanbáikkiid čujuhusat ja rabasáiggit, evttohasregisttar ja maid eará dieđut válggaid birra leat vuoigatvuohtaministeriija válgasiidduin čujuhusas www.vaalit.fi 
+98	- Ennakkoäänestyspaikkojen osoitteet ja aukioloajat, ehdokasrekisteri sekä muuta tietoa vaaleista on oikeusministeriön vaalisivuilla osoitteessa www.vaalit.fi
+98	- *Ovdajienastanbáikkiid osoittamiset ja avoimet ajat, ehdokkaanrekisteri ja myös muut tiedot vaalien ympäri ovat *vuoigatvuohtaministeriija vaalisivustoissa osoitteessa *www.*vaalit.*fi 
+
+99	- Dieđut gielddaválggaid evttohasain leat vuoigatvuođaministeriija válgasiidduin golggotmánu álggu rájes ja dieđut ovdajienastanbáikkiin borgemánu beallemuttu rájes. 
+99	- Tiedot kunnallisvaalien ehdokkaista ovat oikeusministeriön vaalisivuilla lokakuun alkuun mennessä ja tiedot ennakkoäänestyspaikoista elokuun puolivälissä.
+99	- Tiedot kieltovaalien ehdokkahilla/ehdokkailla ovat *vuoigatvuođaministeriija vaalisivustoissa lokakuun alun asti ja tiedot *ovdajienastanbáikkiin elokuun puolenvälin/puolivälin asti. 
+
+100	Vuoigatvuođaministeriija
+100	Oikeusministeriö.
+100+Z	*Vuoigatvuođaministeriija
+
