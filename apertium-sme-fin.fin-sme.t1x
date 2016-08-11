@@ -5,13 +5,44 @@
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
+    <def-cat n="neg">
+      <cat-item lemma="ei" tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="vblex">
+      <cat-item tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="adj">
+      <cat-item tags="adj.*"/>
+    </def-cat>
+    <def-cat n="adv">
+      <cat-item tags="adv.*"/>
+    </def-cat>
+    <def-cat n="prop">
+      <cat-item tags="np.*"/>
+    </def-cat>
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+    
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+    </def-attr>
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
+      <attr-item tags="PD"/>
+    </def-attr>
+    <def-attr n="a_nbr">
+      <attr-item tags="sg"/>
+      <attr-item tags="pl"/>
+      <attr-item tags="du"/>
+      <attr-item tags="ND"/>
     </def-attr>
     <def-attr n="a_cas">
       <attr-item tags="CD"/>
@@ -32,6 +63,22 @@
       <attr-item tags="abl"/>
     </def-attr>
 
+    <def-attr n="a_foc">
+      <attr-item tags="foc_sun"/>
+       <attr-item tags="foc_pa"/>
+       <attr-item tags="foc_ba"/>
+       <attr-item tags="foc_bat"/>
+       <attr-item tags="foc_han"/>
+       <attr-item tags="foc_naj"/>
+       <attr-item tags="foc_ges"/>
+       <attr-item tags="foc_gis"/>
+       <attr-item tags="foc_gin"/>
+       <attr-item tags="foc_ban"/>
+       <attr-item tags="foc_be"/>
+       <attr-item tags="foc_hal"/>
+       <attr-item tags="foc_uv"/>
+       <attr-item tags="foc_ge"/>
+  </def-attr>
 
     <def-attr n="a_sem">
       <attr-item tags="sem_act"/>
@@ -111,6 +158,7 @@
       <attr-item tags="sem_group_hum"/>
       <attr-item tags="sem_group_hum_plc"/>
       <attr-item tags="sem_hum"/>
+      <attr-item tags="sem_human"/>
       <attr-item tags="sem_hum_plc"/>
       <attr-item tags="sem_hum.coll"/>
       <attr-item tags="sem_hum_lang"/>
@@ -225,12 +273,26 @@
     <def-macro n="default-conversion1" npar="1">
       <choose>
         <when>
+          <test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="par"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
+        </when>
+        <when>
           <test><or><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ine"/></equal>
                     <equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ade"/></equal>
 	                <equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="abl"/></equal>
 		            <equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ela"/></equal>
                 </or></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="loc"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="all"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ill"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_pa"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></let>
         </when>
       </choose>
 
@@ -261,6 +323,111 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: PROP">
+      <pattern>
+        <pattern-item n="prop"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: ADJ">
+      <pattern>
+        <pattern-item n="adj"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: ADV">
+      <pattern>
+        <pattern-item n="adv"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    <rule comment="REGLA: NUM">
+      <pattern>
+        <pattern-item n="num"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="comment: Negation default is indicative">
+      <pattern>
+        <pattern-item n="neg"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/><lit-tag v="indic"/>
+              <clip pos="1" side="sl" part="a_pers"/>
+              <clip pos="1" side="sl" part="a_nbr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+   
     <rule comment="REGLA: SENT">
       <pattern>
         <pattern-item n="sent"/>
