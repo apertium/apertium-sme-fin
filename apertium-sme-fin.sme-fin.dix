@@ -25,6 +25,9 @@
 
 
     <sdef n="vblex"        c="Verb"/>
+    <sdef n="inf"        c="Infinitive"/>
+    <sdef n="infa"        c="A infinitive"/>
+    <sdef n="lat"        c="lative form of Finnish infinitive"/>
     <sdef n="actv"      c="Active voice"/>
     <sdef n="prn"     c="Pronoun"/>
     <sdef n="pcle"     c="Particle, probably adverb"/>
@@ -95,8 +98,13 @@
   </sdefs>
   <pardefs>
 
+    <pardef n="V_V_nonfin">
+      <e><p><l><s n="inf"/></l><r><s n="infa"/><s n="sg"/><s n="lat"/></r></p></e>
+    </pardef>
+
     <pardef n="V_V">
       <e><p><l></l><r><s n="actv"/></r></p></e>
+      <e><p><l></l><r><s n="actv"/></r></p><par n="V_V_nonfin"/></e>
     </pardef>
 
     <pardef n="ihmi/nen">
@@ -382,7 +390,7 @@
     <e><p><l>go<s n="cnjsub"/></l><r>kun<s n="cnjsub"/></r></p></e>
     <e><p><l>jus<s n="cnjsub"/></l><r>jos<s n="cnjsub"/></r></p></e>
     <e><p><l>jus<b/>juo<s n="cnjsub"/></l><r>joskin<s n="cnjsub"/></r></p></e>
-    <e><p><l>muhte<s n="cnjsub"/></l><r>mutta<s n="cnjcoo"/></r></p></e>
+    <e><p><l>muhte<s n="cnjcoo"/></l><r>mutta<s n="cnjcoo"/></r></p></e>
     <e><p><l>nugo<s n="cnjsub"/></l><r>kuten<s n="adv"/></r></p></e>
     <e><p><l>vai<s n="cnjsub"/></l><r>vai<s n="cnjcoo"/></r></p></e>
     <e><p><l>vai<s n="cnjsub"/></l><r>tai<s n="cnjcoo"/></r></p></e>
@@ -3710,7 +3718,6 @@
     <e><p><l>buoskár<s n="n"/></l><r>puoskari<s n="n"/></r></p></e>
     <e><p><l>buovnnjat<s n="n"/></l><r>myyrä<s n="n"/></r></p></e>
     <e><p><l>busegáhttu<s n="n"/></l><r>kissa<s n="n"/></r></p></e>
-    <e><p><l>bussá<s n="n"/></l><r>kissa<s n="n"/></r></p></e>
     <e><p><l>buvda<s n="n"/></l><r>kauppa<s n="n"/></r></p></e>
     <e><p><l>buvvedat<s n="n"/></l><r>tylli<s n="n"/></r></p></e>
     <e><p><l>burrodat<s n="n"/></l><r>hyvyys<s n="n"/></r></p></e>
@@ -5199,7 +5206,7 @@
 
     <!-- SECTION: Proper nouns -->
 
-    <e><p><l>Jaakko<s n="np"/><s n="ant"/></l><r>Jaakko<s n="np"/></r></p></e>
+    <e><p><l>Jaakko<s n="np"/><s n="ant"/><s n="m"/></l><r>Jaakko<s n="np"/></r></p></e>
     <e><p><l>Twitter<s n="np"/><s n="org"/></l><r>Twitter<s n="np"/></r></p></e>
     <e><p><l>Sámediggi<s n="np"/><s n="org"/></l><r>Saamelaiskäräjät<s n="np"/></r></p></e>
     <e><p><l>Roavvenjárga<s n="np"/><s n="top"/></l><r>Rovaniemi<s n="np"/></r></p></e>
@@ -6924,6 +6931,7 @@
     <e><p><l>ainjuo<s n="adv"/></l><r>ainakin<s n="adv"/></r></p></e>
     <e><p><l>aivve<s n="adv"/></l><r>juuri<s n="adv"/></r></p></e>
     <e><p><l>aktii<s n="adv"/></l><r>yksin<s n="adv"/></r></p></e> <!-- TODO: check, aktii, akta, oktii, etc? -->
+    <e><p><l>hihtásit<s n="adv"/></l><r>hitaasti<s n="adv"/></r></p></e>
     <e><p><l>albma<s n="adv"/></l><r>ilmi<s n="adv"/></r></p></e>
     <e><p><l>albmosii<s n="adv"/></l><r>julki<s n="adv"/></r></p></e>
     <e><p><l>allagit<s n="adv"/></l><r>korkeasti<s n="adv"/></r></p></e>
@@ -7019,7 +7027,7 @@
     <e><p><l>goitge<s n="adv"/></l><r>kuitenkin<s n="part"/></r></p></e>
     <e><p><l>golbmii<s n="adv"/></l><r>kolmesti<s n="adv"/></r></p></e>
     <e><p><l>gopmut<s n="adv"/></l><r>kumoon<s n="adv"/></r></p></e>
-    <e><p><l>gos<s n="adv"/></l><r>missä<s n="adv"/><s n="itg"/></r></p></e>
+    <e><p><l>gos<s n="adv"/></l><r>missä<s n="adv"/></r></p></e>
     <e><p><l>gosa<s n="adv"/></l><r>jonne<s n="adv"/></r></p></e>
     <e><p><l>gosa<s n="adv"/></l><r>minne<s n="adv"/></r></p></e>
     <e><p><l>govdadit<s n="adv"/></l><r>leveälti<s n="adv"/></r></p></e>
@@ -8141,7 +8149,7 @@
     <e><p><l>gođđat<s n="vblex"/><s n="iv"/></l><r>kutoa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gođđit<s n="vblex"/><s n="tv"/></l><r>kutoa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gohčodit<s n="vblex"/><s n="tv"/></l><r>kutsua<s n="vblex"/></r></p><par n="V_V"/></e>
-    <!--<e><p><l>gullat<s n="vblex"/><s n="tv"/></l><r>kuulla<s n="vblex"/></r></p><par n="V_V"/></e>-->
+    <e r="RL"><p><l>gullat<s n="vblex"/><s n="tv"/></l><r>kuulla<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gullat<s n="vblex"/><s n="tv"/></l><r>kuulua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>beljohallat<s n="vblex"/><s n="tv"/></l><r>kuulostella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>beljostallat<s n="vblex"/><s n="tv"/></l><r>kuulostella<s n="vblex"/></r></p><par n="V_V"/></e>
