@@ -48,6 +48,7 @@
     <sdef n="sent"     c="End-of-sentence marker"/>
 
     <sdef n="card"     c="Cardinal"/>
+    <sdef n="arab"     c="Arabic numeral"/>
     <sdef n="real"     c="real number"/>
     <sdef n="ord"      c="Ordinal"/>
     <sdef n="sg"       c="Singular"/>
@@ -397,17 +398,17 @@
         
     <!-- SECTION: Pronouns -->
 
-    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>minä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
-    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>hän<s n="prn"/><s n="pers"/><s n="sg"/></r></p></e>
+    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>minä<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
+    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>hän<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
 
-    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/></l><r>me<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
-    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="du"/></l><r>te<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>he<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/></l><r>me<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="du"/></l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
 
-    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>me<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e> 
-    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>te<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>he<s n="prn"/><s n="pers"/><s n="pl"/></r></p></e>
+    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>me<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e> 
+    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
 
     <e><p><l>dat<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
     <e><p><l>dat<s n="prn"/><s n="dem"/><s n="pl"/></l><r>ne<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
@@ -511,6 +512,7 @@
     
     <!-- SECTION: Nouns -->
 
+    <e><p><l>miellačájeheapmi<s n="n"/></l><r>mielenosoitus<s n="n"/></r></p></e>
     <e><p><l>mearrádus<s n="n"/></l><r>määräys<s n="n"/></r></p></e>
     <e><p><l>váldostivra<s n="n"/></l><r>valtuusto<s n="n"/></r></p></e>
     <e><p><l>magistráhta<s n="n"/></l><r>maistraatti<s n="n"/></r></p></e>
@@ -5197,8 +5199,9 @@
 
     <!-- SECTION: Proper nouns -->
 
-    <e><p><l>Twitter<s n="np"/><s n="top"/></l><r>Twitter<s n="np"/></r></p></e>
-    <e><p><l>Sámediggi<s n="np"/><s n="top"/></l><r>Saamelaiskäräjät<s n="np"/></r></p></e>
+    <e><p><l>Jaakko<s n="np"/><s n="ant"/></l><r>Jaakko<s n="np"/></r></p></e>
+    <e><p><l>Twitter<s n="np"/><s n="org"/></l><r>Twitter<s n="np"/></r></p></e>
+    <e><p><l>Sámediggi<s n="np"/><s n="org"/></l><r>Saamelaiskäräjät<s n="np"/></r></p></e>
     <e><p><l>Roavvenjárga<s n="np"/><s n="top"/></l><r>Rovaniemi<s n="np"/></r></p></e>
     <e><p><l>Ruonáeana<s n="np"/><s n="top"/></l><r>Grönlanti<s n="np"/></r></p></e>
     <e><p><l>Ruošša<s n="np"/><s n="top"/></l><r>Venäjä<s n="np"/></r></p></e>
@@ -5553,11 +5556,11 @@
     <!--<e><p><l>Ákšovuotna<s n="np"/><s n="top"/></l><r>Ákšovuotna<s n="np"/></r></p></e>-->
     <!--<e><p><l>Álaheadju<s n="np"/><s n="top"/></l><r>Álaheadju<s n="np"/></r></p></e>-->
     <!--<e><p><l>Álbmotmusea<s n="np"/><s n="org"/></l><r>Álbmotmusea<s n="np"/></r></p></e>-->
-    <!--<e><p><l>Áltá<s n="np"/><s n="top"/></l><r>Áltá<s n="np"/></r></p></e>-->
+    <e><p><l>Áltá<s n="np"/><s n="top"/></l><r>Alattio<s n="np"/></r></p></e>
     <!--<e><p><l>Álttávuotna<s n="np"/><s n="top"/></l><r>Álttávuotna<s n="np"/></r></p></e>-->
     <!--<e><p><l>Amminadab<s n="np"/><s n="ant"/><s n="m"/></l><r>Amminadab<s n="np"/></r></p></e>-->
-    <!--<e><p><l>Anárjávri<s n="np"/><s n="top"/></l><r>Anárjávri<s n="np"/></r></p></e>-->
-    <!--<e><p><l>Anárjohka<s n="np"/><s n="top"/></l><r>Anárjohka<s n="np"/></r></p></e>-->
+    <e><p><l>Anárjávri<s n="np"/><s n="top"/></l><r>Inarijärvi<s n="np"/></r></p></e>
+    <e><p><l>Anárjohka<s n="np"/><s n="top"/></l><r>Inarijoki<s n="np"/></r></p></e>
     <!--<e><p><l>Ánddar<s n="np"/><s n="ant"/><s n="m"/></l><r>Ánddar<s n="np"/></r></p></e>-->
     <!--<e><p><l>Andenæs<s n="np"/><s n="cog"/></l><r>Andenæs<s n="np"/></r></p></e>-->
     <!--<e><p><l>Ánde<s n="np"/><s n="ant"/><s n="m"/></l><r>Ánde<s n="np"/></r></p></e>-->
@@ -6911,6 +6914,8 @@
     <e srl="1"><p><l>nu<s n="adv"/></l><r>siten<s n="adv"/></r></p></e>
     <e><p><l>agi<b/>beaivvisge<s n="adv"/></l><r>ikinä<s n="adv"/></r></p></e>
     <e><p><l>ovdamearkka<b/>dihte<s n="adv"/></l><r>esimerkiksi<s n="adv"/></r></p></e>
+    <e><p><l>olgešbealde<s n="adv"/></l><r>oikealle<s n="adv"/></r></p></e>
+    <e><p><l>gurutbealde<s n="adv"/></l><r>vasemmalle<s n="adv"/></r></p></e>
     <e><p><l>maŋimustá<s n="adv"/></l><r>viimeistään<s n="adv"/></r></p></e>
     <e><p><l>háválassii<s n="adv"/></l><r>kerrallaan<s n="adv"/></r></p></e>
     <e><p><l>iđđes<s n="adv"/></l><r>aamulla<s n="adv"/></r></p></e>
@@ -7081,6 +7086,7 @@
     <e><p><l>millosit<s n="adv"/></l><r>mielellään<s n="adv"/></r></p></e>
     <e><p><l>minddar<s n="adv"/></l><r>muutoin<s n="adv"/></r></p></e>
     <e><p><l>mo<s n="adv"/></l><r>miten<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>movt<s n="adv"/></l><r>miten<s n="adv"/></r></p></e>
     <e><p><l>mot<s n="adv"/></l><r>kuinka<s n="adv"/></r></p></e>
     <e><p><l>muhtumassii<s n="adv"/></l><r>osaksi<s n="adv"/></r></p></e>
     <e><p><l>muhtumin<s n="adv"/></l><r>joskus<s n="adv"/></r></p></e>
@@ -7211,8 +7217,10 @@
     <e><p><l>dás<s n="adv"/></l><r>tässä<s n="adv"/></r></p></e>
     <!-- end adverbs -->
 
-    <!-- verbs -->
+    <!-- Verbs -->
 
+    <e><p><l>beahtahallat<s n="vblex"/><s n="iv"/></l><r>pettyä<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>lávet<s n="vblex"/><s n="iv"/></l><r>ruukata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>juohkásit<s n="vblex"/><s n="iv"/></l><r>jakautua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>jienastit<s n="vblex"/><s n="tv"/></l><r>äänestää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čilget<s n="vblex"/><s n="tv"/></l><r>selittää<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -9345,7 +9353,7 @@
     <e><p><l>haŋkit<s n="vblex"/><s n="iv"/></l><r>änkyttää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>duskkástuvvat<s n="vblex"/><s n="iv"/></l><r>ärtyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>roŋget<s n="vblex"/><s n="iv"/></l><r>ärähtää<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>stemmet<s n="vblex"/><s n="tv"/></l><r>äänestää<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e r="LR"><p><l>stemmet<s n="vblex"/><s n="tv"/></l><r>äänestää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>jietnadit<s n="vblex"/><s n="tv"/></l><r>ääntää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>baikat<s n="vblex"/><s n="tv"/></l><r>paskoa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>vealgut<s n="vblex"/><s n="tv"/></l><r>velkoa<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -9392,7 +9400,7 @@
     
     <!-- SECTION: Punctuation -->
 
-    <e><re>[1-9]+([0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/><s n="card"/></r></p></e>
+    <e><re>[1-9]+([0-9]+)?</re><p><l><s n="num"/><s n="arab"/></l><r><s n="num"/><s n="card"/></r></p></e>
     <e><re>0</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
     <!--<e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="num"/></l><r><s n="num"/><s n="real"/></r></p></e>-->
     <!--<e><re>[0-9]+([.,][0-9]+)+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>-->
