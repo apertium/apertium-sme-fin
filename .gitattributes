@@ -19,6 +19,7 @@
 /apertium-sme-fin.sme-fin.t3x -text
 /apertium-sme-fin.sme-fin.t4x -text
 /autogen.sh -text
+/check_mt-otpt.py -text
 /configure.ac -text
 dev/algu_xml_to_csv.py -text
 dev/apertium-sme-fin.txt -text
@@ -154,4 +155,5 @@ texts/tarina.fin.txt -text
 texts/tarina.sme.txt -text
 texts/vaalit2012.fin.txt -text
 texts/vaalit2012.sme.txt -text
+/wercheck_mt-otpt.py -text
 /wiki-tests.sh -text
