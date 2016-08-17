@@ -188,11 +188,12 @@ except KeyError:
     sys.exit(1)
 apertium_home=os.environ["APERTIUM_HOME"]
 
-atm_dir = apertium_home + '/apertium' + '-' + s_lang + '-' + t_lang
+#atm_dir = apertium_home + '/apertium' + '-' + s_lang + '-' + t_lang # apertium-sme-fin translate: sme-fin
+atm_dir = apertium_home + '/apertium' + '-' + t_lang + '-' + s_lang  # apertium-sme-fin translate: fin-sme
 #print("APT home is " + atm_dir)
 #cmd = '| apertium -d ' + atm_dir + ' ' + s_lang + '-' + t_lang
 # Change previous line to the following line if you want to see the hashform tags
-cmd = "| apertium -d " + atm_dir + " " + s_lang + '-' + t_lang + '-dgen'
+cmd = "| apertium -d " + atm_dir + " " + s_lang + '-' + t_lang + '-debug'
 
 def main():
     # parameters to be adjusted as needed
