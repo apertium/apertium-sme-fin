@@ -141,6 +141,7 @@ eval/src -text
 eval/tst -text
 /fin-sme.prob -text
 /gt2apertium.cg3r -text
+/metalrx-to-lrx.xslt -text svneol=unset#application/xml
 /modes.xml -text
 /rm-deriv-cmp.twol -text
 t/README.org -text

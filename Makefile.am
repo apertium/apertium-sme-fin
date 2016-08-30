@@ -150,6 +150,11 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ## Lexical selection rules
 ###############################################################################
 
+%.lrx: metalrx-to-lrx.xslt %.metalrx
+	xsltproc $^ > $@.tmp
+	@xmllint --format $@.tmp > $@
+	@rm $@.tmp
+
 $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
 	lrx-comp $< $@
 
