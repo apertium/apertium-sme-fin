@@ -8,7 +8,7 @@
 /QUESTIONS -text
 /README -text
 /apertium-sme-fin.fin-sme.lex -text
-/apertium-sme-fin.fin-sme.lrx -text
+/apertium-sme-fin.fin-sme.metalrx -text
 /apertium-sme-fin.fin-sme.t1x -text
 /apertium-sme-fin.fin-sme.t2x -text
 /apertium-sme-fin.fin-sme.t3x -text
