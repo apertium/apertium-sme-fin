@@ -80,6 +80,11 @@
        <attr-item tags="foc_ge"/>
   </def-attr>
 
+      <def-attr n="a_conneg">
+      <attr-item tags="conneg"/>
+      <attr-item tags="connegii"/>
+    </def-attr>
+
     <def-attr n="a_sem">
       <attr-item tags="sem_act"/>
       <attr-item tags="sem_act_route"/>
@@ -153,7 +158,7 @@
       <attr-item tags="sem_food_plant"/>
       <attr-item tags="sem_furn"/>
       <attr-item tags="sem_game_obj-play"/>
-      <attr-item tags="sem_geom"/>
+      <attr-item tags="sem_geo"/>
       <attr-item tags="sem_group"/>
       <attr-item tags="sem_group_hum"/>
       <attr-item tags="sem_group_hum_plc"/>
@@ -292,6 +297,17 @@
       <choose>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_pa"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test>
+	    <and>
+	      <equal><clip pos="1" side="sl" part="a_foc"/><lit-tag v="foc_pa"/></equal>
+	      <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_pa"/></equal>
+	    </and>
+	  </test>
           <let><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></let>
         </when>
       </choose>
