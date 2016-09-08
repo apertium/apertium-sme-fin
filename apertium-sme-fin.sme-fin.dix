@@ -12,6 +12,7 @@
     <sdef n="adj"        c="Adjective"/>
     <sdef n="qst"        c="Question word"/>
 
+    <sdef n="foc_neg-ge"   c="foc/neg-ge"/>
     <sdef n="foc_ge"       c="clitic ge"/>
     <sdef n="foc_ges"      c="clitic ges"/>
     <sdef n="foc_gis"      c="clitic gis"/>
@@ -378,7 +379,7 @@
     <e><p><l>go<s n="cnjsub"/></l><r>kun<s n="cnjsub"/></r></p></e>
     <e><p><l>jus<s n="cnjsub"/></l><r>jos<s n="cnjsub"/></r></p></e>
     <e><p><l>jus<b/>juo<s n="cnjsub"/></l><r>joskin<s n="cnjsub"/></r></p></e>
-    <e><p><l>muhte<s n="cnjcoo"/></l><r>mutta<s n="cnjcoo"/></r></p></e>
+    <e r="LR"><p><l>muhte<s n="cnjcoo"/></l><r>mutta<s n="cnjcoo"/></r></p></e>
     <e><p><l>nugo<s n="cnjsub"/></l><r>kuten<s n="adv"/></r></p></e>
     <e><p><l>vai<s n="cnjsub"/></l><r>vai<s n="cnjcoo"/></r></p></e>
     <e><p><l>vai<s n="cnjsub"/></l><r>tai<s n="cnjcoo"/></r></p></e>
@@ -428,8 +429,9 @@
     <e><p><l>juoga<s n="prn"/><s n="ind"/></l><r>jokin<s n="prn"/><s n="ind"/></r></p></e>
     <e><p><l>buohkat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e>
       <!--<e><p><l>buohkat<s n="prn"/><s n="ind"/></l><r>kaikki<s n="prn"/></r></p></e>-->
-    <e><p><l>mihkkege<s n="prn"/><s n="ind"/></l><r>mikään<s n="prn"/><s n="qnt"/></r></p></e>
-
+<!--    <e><p><l>mihkkege<s n="prn"/><s n="ind"/></l><r>mikään<s n="prn"/><s n="qnt"/></r></p></e> -->
+    <e><p><l>mihkke<s n="prn"/><s n="ind"/><s n="sg"/><s n="nom"/><s n="foc_neg-ge"/></l><r>mikään<s n="prn"/><s n="qnt"/></r></p></e>
+    
 
     <e><p><l>muhtin<s n="prn"/><s n="ind"/></l><r>muutama<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>goappašat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>molemmat<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e>
@@ -440,10 +442,10 @@
         
     <e><p><l>muhtin<s n="prn"/><s n="ind"/></l><r>eräs<s n="prn"/><s n="ind"/></r></p></e>
 
-    <e><p><l>guhtege<s n="prn"/><s n="ind"/></l><r>kukaan<s n="prn"/><s n="qnt"/></r></p></e>
+    <e><p><l>guhtege<s n="prn"/><s n="ind"/></l><r>kukaan<s n="prn"/></r></p></e>
     <e><p><l>nubbi<s n="prn"/><s n="ind"/></l><r>toinen<s n="num"/></r></p></e>
 
-    <e><p><l>giige<s n="prn"/><s n="ind"/></l><r>kukaan<s n="prn"/><s n="qnt"/></r></p></e>
+    <e><p><l>giige<s n="prn"/><s n="ind"/></l><r>kukaan<s n="prn"/></r></p></e>
     <e><p><l>juohke<s n="prn"/><s n="ind"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>goappašagat<s n="prn"/><s n="ind"/></l><r>molemmat<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>eará<s n="prn"/><s n="ind"/></l><r>muu<s n="prn"/></r></p></e>
@@ -7234,6 +7236,7 @@
     <e><p><l>sihkkarit<s n="adv"/></l><r>varmasti<s n="adv"/></r></p></e>
     <e><p><l>vulosoivviid<s n="adv"/></l><r>ylösalaisin<s n="adv"/></r></p></e>
     <e><p><l>jahkásaččat<s n="adv"/></l><r>vuosittain<s n="adv"/></r></p></e>
+    <e><p><l>naba<s n="adv"/></l><r>entä<s n="adv"/></r></p></e>
 
 
     <e><p><l>gurutbealde<s n="adv"/></l><r>vasemmalle<s n="adv"/></r></p></e>
