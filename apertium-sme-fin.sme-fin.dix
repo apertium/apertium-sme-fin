@@ -126,13 +126,13 @@
     
     <!-- ASECTION: Particles -->
 
-    <e><p><l>ba<s n="pcle"/></l><r>ba<s n="foc_pa"/></r></p></e>
-    <e><p><l>bat<s n="pcle"/></l><r>ba<s n="foc_pa"/></r></p></e>
+    <e><p><l>ba<s n="pcle"/></l><r>pa<s n="foc_pa"/></r></p></e>
+    <e><p><l>bat<s n="pcle"/></l><r>pa<s n="foc_pa"/></r></p></e>
     <e><p><l>ge<s n="pcle"/></l><r>kin<s n="foc_kin"/></r></p></e>
     <e><p><l>ge<s n="pcle"/></l><r>kaan<s n="foc_kaan"/></r></p></e>
     <e><p><l>gen<s n="pcle"/></l><r>kin<s n="foc_kin"/></r></p></e>
-    <e><p><l>ges<s n="pcle"/></l><r>gis<s n="foc_kin"/></r></p></e>
-    <e><p><l>gis<s n="pcle"/></l><r>gis<s n="foc_kin"/></r></p></e>
+    <e><p><l>ges<s n="pcle"/></l><r>kin<s n="foc_kin"/></r></p></e>
+    <e><p><l>gis<s n="pcle"/></l><r>kin<s n="foc_kin"/></r></p></e>
 
     <e><p><l>han<s n="pcle"/></l><r>han<s n="foc_han"/></r></p></e>
     <e><p><l>nai<s n="pcle"/></l><r>kin<s n="foc_kin"/></r></p></e>
@@ -1981,7 +1981,6 @@
     <e><p><l>geađgeluomi<s n="n"/></l><r>mesimarja<s n="n"/></r></p></e>
     <e><p><l>geađgi<s n="n"/></l><r>kivi<s n="n"/></r></p></e>
     <e><p><l>geaŧŧu<s n="n"/></l><r>kehto<s n="n"/></r></p></e>
-    <e><p><l>geažus<s n="n"/></l><r>pääte<s n="n"/></r></p></e>
     <e><p><l>gefodat<s n="n"/></l><r>köyhyys<s n="n"/></r></p></e>
     <e><p><l>gelbbolašvuohta<s n="n"/></l><r>kelpoisuus<s n="n"/></r></p></e>
     <e><p><l>geres<s n="n"/></l><r>ahkio<s n="n"/></r></p></e>
@@ -6339,13 +6338,12 @@
     <e><p><l>digitála<s n="adj"/></l><r>digitaalinen<s n="adj"/></r></p></e>
     <e><p><l>dihtomielalaš<s n="adj"/></l><r>tietoinen<s n="adj"/></r></p></e>
     <e><p><l>dihttes<s n="adj"/></l><r>tietäväinen<s n="adj"/></r></p></e>
-    <e><p><l>dilli<s n="adj"/></l><r>tila<s n="adj"/></r></p></e>
     <e><p><l>dimis<s n="adj"/></l><r>pehmeä<s n="adj"/></r></p></e>
     <e><p><l>divas<s n="adj"/></l><r>saita<s n="adj"/></r></p></e>
     <e><p><l>divrras<s n="adj"/></l><r>kallis<s n="adj"/></r></p></e> 
     <e><p><l>diđolaš<s n="adj"/></l><r>tietäväinen<s n="adj"/></r></p></e>
     <e><p><l>doaibma-<s n="adj"/></l><r>toiminnallinen<s n="adj"/></r></p></e>
-    <e><p><l>doaimmaheaddji<s n="adj"/></l><r>toimittaja<s n="adj"/></r></p></e>
+    <e><p><l>doaimmaheaddji<s n="adj"/></l><r>toimittava<s n="adj"/></r></p></e>
     <e><p><l>doaimmaheapme<s n="adj"/></l><r>toimeton<s n="adj"/></r></p></e>
     <e><p><l>doaimmalaš<s n="adj"/></l><r>toimelias<s n="adj"/></r></p></e>
     <e><p><l>doaivvuheapme<s n="adj"/></l><r>toivoton<s n="adj"/></r></p></e>
@@ -6505,13 +6503,11 @@
     <e><p><l>gierdil<s n="adj"/></l><r>kärsivällinen<s n="adj"/></r></p></e>
     <e><p><l>gievra<s n="adj"/></l><r>vahva<s n="adj"/></r></p></e>
     <e><p><l>gievra<s n="adj"/></l><r>voimakas<s n="adj"/></r></p></e> 
-    <e><p><l>girji<s n="adj"/></l><r>kirja<s n="adj"/></r></p></e>
     <e><p><l>girjjat<s n="adj"/></l><r>kirjava<s n="adj"/></r></p></e>
     <e><p><l>girkolaš<s n="adj"/></l><r>kirkollinen<s n="adj"/></r></p></e>
     <e><p><l>gitta<s n="adj"/></l><r>suljettu<s n="adj"/></r></p></e>
     <e><p><l>givas<s n="adj"/></l><r>päättäväinen<s n="adj"/></r></p></e>
     <e><p><l>givrras<s n="adj"/></l><r>köyry<s n="adj"/></r></p></e>
-    <e><p><l>glássa<s n="adj"/></l><r>ikkuna<s n="adj"/></r></p></e>
     <e><p><l>goaidi<s n="adj"/></l><r>lohenpunainen<s n="adj"/></r></p></e>
     <e><p><l>goalmmát<s n="adj"/><s n="ord"/></l><r>kolmas<s n="num"/></r></p></e>
     <e><p><l>goalššas<s n="adj"/></l><r>kolea<s n="adj"/></r></p></e>
@@ -6595,7 +6591,6 @@
     <e><p><l>hálbi<s n="adj"/></l><r>halpa<s n="adj"/></r></p></e>
     <e><p><l>hálbi<s n="adj"/></l><r>halpa<s n="adj"/></r></p></e> 
     <e><p><l>hálddahuslaš<s n="adj"/></l><r>hallinnollinen<s n="adj"/></r></p></e>
-    <e><p><l>háliidit<s n="adj"/></l><r>haluta<s n="adj"/></r></p></e>
     <e><p><l>hállái<s n="adj"/></l><r>puhelias<s n="adj"/></r></p></e>
     <e><p><l>hápmásaš<s n="adj"/></l><r>näköinen<s n="adj"/></r></p></e>
     <e><p><l>hárbmalas<s n="adj"/></l><r>äreä<s n="adj"/></r></p></e>
@@ -6607,7 +6602,6 @@
     <e><p><l>iešheanalaš<s n="adj"/></l><r>itsenäinen<s n="adj"/></r></p></e>
     <e><p><l>ihcaveaiddat<s n="adj"/></l><r>itsepintainen<s n="adj"/></r></p></e>
     <e><p><l>ihcaválddat<s n="adj"/></l><r>itsepintainen<s n="adj"/></r></p></e>
-    <e><p><l>ihkkon<s n="adj"/></l><r>ikkuna<s n="adj"/></r></p></e>
     <e><p><l>ilolaš<s n="adj"/></l><r>iloinen<s n="adj"/></r></p></e>
     <e><p><l>imaš<s n="adj"/></l><r>ihmeellinen<s n="adj"/></r></p></e> 
     <e><p><l>imaš<s n="adj"/></l><r>kummallinen<s n="adj"/></r></p></e> 
@@ -6644,7 +6638,6 @@
     <e><p><l>jorbat<s n="adj"/></l><r>pyöreä<s n="adj"/></r></p></e>
     <e><p><l>jorbbas<s n="adj"/></l><r>pyöreä<s n="adj"/></r></p></e> 
     <e><p><l>jorggu-<s n="adj"/></l><r>käänteinen<s n="adj"/></r></p></e>
-    <e><p><l>journalista<s n="adj"/></l><r>toimittaja<s n="adj"/></r></p></e>
     <e><p><l>jođán<s n="adj"/></l><r>nopea<s n="adj"/></r></p></e>
     <e><p><l>jođán<s n="adj"/></l><r>nopea<s n="adj"/></r></p></e> 
     <e><p><l>jođán<s n="adj"/></l><r>nopsa<s n="adj"/></r></p></e> 
@@ -6684,7 +6677,6 @@
     <e><p><l>lagamuš<s n="adj"/></l><r>lähimmäinen<s n="adj"/></r></p></e>
     <e><p><l>laiggus<s n="adj"/></l><r>lohko<s n="adj"/></r></p></e>
     <e><p><l>lastái<s n="adj"/></l><r>lehtevä<s n="adj"/></r></p></e>
-    <e><p><l>latiinnagiella<s n="adj"/></l><r>latina<s n="adj"/></r></p></e>
     <e><p><l>latiinnalaš<s n="adj"/></l><r>latinalainen<s n="adj"/></r></p></e>
     <e><p><l>lestadiánalaš<s n="adj"/></l><r>lestadiolainen<s n="adj"/></r></p></e>
     <e><p><l>liekkas<s n="adj"/></l><r>lämmin<s n="adj"/></r></p></e> 
@@ -6716,9 +6708,6 @@
     <e><p><l>láiki<s n="adj"/></l><r>laiska<s n="adj"/></r></p></e> 
     <e><p><l>láittas<s n="adj"/></l><r>tylsä<s n="adj"/></r></p></e>
     <e><p><l>láivi<s n="adj"/></l><r>heikko<s n="adj"/></r></p></e> 
-    <e><p><l>láse<s n="adj"/></l><r>ikkuna<s n="adj"/></r></p></e>
-    <e><p><l>láseráigi<s n="adj"/></l><r>ikkuna<s n="adj"/></r></p></e>
-    <e><p><l>lássa<s n="adj"/></l><r>ikkuna<s n="adj"/></r></p></e>
     <e><p><l>lávttas<s n="adj"/></l><r>kostea<s n="adj"/></r></p></e>
     <e><p><l>láđis<s n="adj"/></l><r>lempeä<s n="adj"/></r></p></e>
     <e><p><l>lášmat<s n="adj"/></l><r>vikkelä<s n="adj"/></r></p></e>
@@ -6910,14 +6899,12 @@
     <e><p><l>ráfeheapme<s n="adj"/></l><r>rauhaton<s n="adj"/></r></p></e>
     <e><p><l>ráfálaš<s n="adj"/></l><r>rauhallinen<s n="adj"/></r></p></e>
     <e><p><l>ráhkis<s n="adj"/></l><r>rakas<s n="adj"/></r></p></e>
-    <e><p><l>ráigi<s n="adj"/></l><r>läpi<s n="adj"/></r></p></e>
     <e><p><l>ráinnas<s n="adj"/></l><r>puhdas<s n="adj"/></r></p></e>
     <e><p><l>ránis<s n="adj"/></l><r>harmaa<s n="adj"/></r></p></e> 
     <e><p><l>ránska<s n="adj"/></l><r>ranskalainen<s n="adj"/></r></p></e> 
     <e><p><l>ráttas<s n="adj"/></l><r>jääkylmä<s n="adj"/></r></p></e>
     <e><p><l>rávis<s n="adj"/></l><r>aikuinen<s n="adj"/></r></p></e>
-    <e><p><l>sadji<s n="adj"/></l><r>tila<s n="adj"/></r></p></e>
-    <e><p><l>sadjásaš<s n="adj"/></l><r>sijainen<s n="adj"/></r></p></e> 
+    <e><p><l>sadjásaš<s n="n"/></l><r>sijainen<s n="n"/></r></p></e> 
     <e><p><l>sahpit<s n="adj"/></l><r>jähmeä<s n="adj"/></r></p></e>
     <e><p><l>sajiheapme<s n="adj"/></l><r>ahdas<s n="adj"/></r></p></e>
     <e><p><l>seaggi<s n="adj"/></l><r>kapea<s n="adj"/></r></p></e> 
@@ -6939,7 +6926,6 @@
     <e><p><l>sieđus<s n="adj"/></l><r>käheä<s n="adj"/></r></p></e>
     <e><p><l>sihkar<s n="adj"/></l><r>varma<s n="adj"/></r></p></e>
     <e><p><l>sihkkar<s n="adj"/></l><r>varma<s n="adj"/></r></p></e>
-    <e><p><l>sihtat<s n="adj"/></l><r>haluta<s n="adj"/></r></p></e>
     <e><p><l>siivui<s n="adj"/></l><r>kiltti<s n="adj"/></r></p></e> 
     <e><p><l>siskkáldas<s n="adj"/></l><r>sisäinen<s n="adj"/></r></p></e>
     <e><p><l>siskálas<s n="adj"/></l><r>sisäkkäinen<s n="adj"/></r></p></e>
@@ -7006,7 +6992,6 @@
     <e><p><l>suohkanlaš<s n="adj"/></l><r>kunnallinen<s n="adj"/></r></p></e>
     <e><p><l>suohtas<s n="adj"/></l><r>hauska<s n="adj"/></r></p></e> 
     <e><p><l>suohtas<s n="adj"/></l><r>mukava<s n="adj"/></r></p></e> 
-    <e><p><l>suollemas<s n="adj"/></l><r>sala<s n="adj"/></r></p></e>
     <e><p><l>suollemas<s n="adj"/></l><r>salainen<s n="adj"/></r></p></e>
     <e><p><l>suopmelaš<s n="adj"/></l><r>suomalainen<s n="adj"/></r></p></e>
     <e><p><l>suopmálaš<s n="adj"/></l><r>suomalainen<s n="adj"/></r></p></e> 
@@ -7032,7 +7017,6 @@
     <e><p><l>sávri<s n="adj"/></l><r>kestävä<s n="adj"/></r></p></e> 
     <e><p><l>teahtis<s n="adj"/></l><r>tiivis<s n="adj"/></r></p></e>
     <e><p><l>teknihkalaš<s n="adj"/></l><r>tekninen<s n="adj"/></r></p></e>
-    <e><p><l>terminála<s n="adj"/></l><r>pääte<s n="adj"/></r></p></e>
     <e><p><l>tropihkalaš<s n="adj"/></l><r>trooppinen<s n="adj"/></r></p></e>
     <e><p><l>turkalaš<s n="adj"/></l><r>turkkilainen<s n="adj"/></r></p></e>
     <e><p><l>udju<s n="adj"/></l><r>ujo<s n="adj"/></r></p></e>
@@ -7122,7 +7106,6 @@
     <e><p><l>váŋká<s n="adj"/></l><r>vankka<s n="adj"/></r></p></e>
     <e><p><l>áddehahtti<s n="adj"/></l><r>ymmärrettävä<s n="adj"/></r></p></e>
     <e><p><l>áddemeahttun<s n="adj"/></l><r>ymmärtämätön<s n="adj"/></r></p></e>
-    <e><p><l>áhkalakkis<s n="adj"/></l><r>hai<s n="adj"/></r></p></e>
     <e><p><l>áhppar<s n="adj"/></l><r>silkka<s n="adj"/></r></p></e>
     <e><p><l>áhčeheapmi<s n="adj"/></l><r>isätön<s n="adj"/></r></p></e>
     <e><p><l>áigadas<s n="adj"/></l><r>ammoinen<s n="adj"/></r></p></e>
@@ -7187,7 +7170,6 @@
     <e><p><l>čomas<s n="adj"/></l><r>kupera<s n="adj"/></r></p></e>
     <e><p><l>čorgat<s n="adj"/></l><r>siisti<s n="adj"/></r></p></e>
     <e><p><l>čujolaš<s n="adj"/></l><r>soinnillinen<s n="adj"/></r></p></e>
-    <e><p><l>čuokkis<s n="adj"/></l><r>piste<s n="adj"/></r></p></e>
     <e><p><l>čuorbi<s n="adj"/></l><r>kömpelö<s n="adj"/></r></p></e> 
     <e><p><l>čuovgat<s n="adj"/></l><r>vaalea<s n="adj"/></r></p></e>
     <e><p><l>čuovgat<s n="adj"/></l><r>valoisa<s n="adj"/></r></p></e> 
@@ -8399,7 +8381,7 @@
     <e><p><l>gáržudit<s n="vblex"/><s n="tv"/></l><r>rajoittaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gáržudit<s n="vblex"/><s n="tv"/></l><r>supistaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gáržžidit<s n="vblex"/><s n="tv"/></l><r>rajoittaa<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>gáskit<s n="vblex"/><s n="tv"/></l><r>purea<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>gáskit<s n="vblex"/><s n="tv"/></l><r>purra<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gáskkašit<s n="vblex"/><s n="tv"/></l><r>pureskella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gáskkašit<s n="vblex"/><s n="tv"/></l><r>raadella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gáskkestit<s n="vblex"/><s n="tv"/></l><r>puraista<s n="vblex"/></r></p><par n="V_V"/></e>
