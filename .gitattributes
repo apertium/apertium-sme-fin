@@ -47,6 +47,7 @@ dev/chapter002_notes -text
 dev/chapter003_notes -text
 dev/examples_from_fin_syntax.txt -text
 dev/generation-test.sh -text
+dev/hash-report-fin-sme.sh -text
 dev/oddasat/TODO -text
 dev/oddasat/__init__.py -text
 dev/oddasat/apertium/__init__.py -text
