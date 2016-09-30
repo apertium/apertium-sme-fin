@@ -186,7 +186,7 @@
       <attr-item tags="connegii"/>
     </def-attr>
     <def-attr n="a_voice">
-      <attr-item tags="actv"/>
+      <attr-item tags="actv "/>
     </def-attr>
     <def-attr n="a_qst">
       <attr-item tags="qst"/>
@@ -423,6 +423,8 @@
       <attr-item tags="@-F←ADVL"/>
       <attr-item tags="@-FADVL"/>
       <attr-item tags="@-FADVL→"/>
+      <attr-item tags="@-F←ADVL-ine"/>
+      <attr-item tags="@-F←ADVL-ela"/>
       <attr-item tags="@-FAUXV"/>
       <attr-item tags="@\+FAUXV"/>
       <attr-item tags="@+FAUXV"/>
@@ -1457,7 +1459,36 @@
       </action>
     </rule>
     
-    
+    <!-- SECTION: Adverbials -->
+
+  
+  <!--  <rule comment="REGLA: n-gen to n-ess for time"> 
+        Not done. Válggat leat sotnabeaivve 2. 12. Vaalit ovat sunnuntaina 2. 12. -->
+ <!--    <pattern>                                        
+        <pattern-item n="leat-fin"/>                 
+        <pattern-item n="n"/>                   
+        <pattern-item n="num"/>                   
+      </pattern>     
+      <action>
+        <let><clip pos="2" side="tl" part="x_func"/><lit v=""/></let> 
+        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let> 
+        <let><clip pos="2" side="tl" part="a_sem"/><lit v=""/></let> 
+	<out>
+          <chunk name="time">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu><clip pos="1" side="tl" part="whole"/></lu>
+	        <b/>
+            <lu><clip pos="2" side="tl" part=""/></lu>
+	        <b/>
+            <lu><clip pos="3" side="tl" part="whole"/></lu>
+          </chunk>
+        </out>
+      </action>                                  
+    </rule> 
+    -->
+
     <!-- SECTION: Numerals and quantifiers -->
 
   
@@ -1806,7 +1837,8 @@
 
 
 
-    <rule comment="REGLA: CONNEGII">
+        <!-- ConNegII is almost always a disambiguation/trimming fail, so just turn it into Inf -->
+<!--    <rule comment="REGLA: CONNEGII">
       <pattern>
         <pattern-item n="connegii"/>
       </pattern>
@@ -1814,7 +1846,6 @@
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion-nonfin1"><with-param pos="1"/></call-macro>
-        <!-- ConNegII is almost always a disambiguation/trimming fail, so just turn it into Inf -->
         <let><clip pos="1" side="tl" part="a_conneg"/><lit-tag v="infa.sg.lat"/></let>
         <out>
           <chunk name="conneg" case="caseFirstWord">
@@ -1828,7 +1859,7 @@
         </out>
       </action>
     </rule>
-
+-->
 
     <rule comment="REGLA: DEFAULT">
       <pattern>
@@ -1869,5 +1900,24 @@
       </action>
     </rule>
 
+<!--
+    <rule comment="REGLA: SENT">
+      <pattern>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="sent" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SENT"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+-->    
   </section-rules>
 </transfer>
