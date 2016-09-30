@@ -153,6 +153,7 @@ t/pending-tests -text
 t/regression-tests -text
 t/update-latest -text
 t/wiki-tests -text
+texts/fi.samediggi.sme -text
 texts/gold.sme.txt -text
 texts/tarina.fin.txt -text
 texts/tarina.sme.txt -text
