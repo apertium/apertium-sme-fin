@@ -395,17 +395,30 @@
         
     <!-- SECTION: Pronouns -->
 
-    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>minä<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
-    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>hän<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
 
-    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/></l><r>me<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="du"/></l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>minä<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
+    <e r="LR"><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>hän<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
 
-    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>me<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
-    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
-    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/></l><r>me<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="du"/></l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    <e r="LR"><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>me<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+    <e r="LR"><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    <e r="RL"><p><l>mun<s n="prn"/><s n="pers"/></l><r>minä<s n="prn"/><s n="pers"/></r></p></e>
+    <e r="RL"><p><l>don<s n="prn"/><s n="pers"/></l><r>sinä<s n="prn"/><s n="pers"/></r></p></e>
+    <e r="RL"><p><l>son<s n="prn"/><s n="pers"/></l><r>hän<s n="prn"/><s n="pers"/></r></p></e>
+
+    <e r="RL"><p><l>mun<s n="prn"/><s n="pers"/></l><r>me<s n="prn"/><s n="pers"/></r></p></e>
+    <e r="RL"><p><l>don<s n="prn"/><s n="pers"/></l><r>te<s n="prn"/><s n="pers"/></r></p></e>
+    <e r="RL"><p><l>son<s n="prn"/><s n="pers"/></l><r>he<s n="prn"/><s n="pers"/></r></p></e>
+
+    <e r="RL"><p><l>mun<s n="prn"/><s n="pers"/></l><r>me<s n="prn"/><s n="pers"/></r></p></e>
+    <e r="RL"><p><l>don<s n="prn"/><s n="pers"/></l><r>te<s n="prn"/><s n="pers"/></r></p></e>
+    <e r="RL"><p><l>son<s n="prn"/><s n="pers"/></l><r>he<s n="prn"/><s n="pers"/></r></p></e>
 
     <e><p><l>dat<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
     <e><p><l>dat<s n="prn"/><s n="dem"/><s n="pl"/></l><r>ne<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
