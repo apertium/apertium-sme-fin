@@ -11,6 +11,10 @@
     <def-cat n="vblex">
       <cat-item tags="vblex.*"/>
     </def-cat>
+    <def-cat n="cnjcoo">
+      <cat-item tags="cnjcoo"/>
+      <cat-item tags="cnjcoo.*"/>
+    </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
@@ -643,6 +647,28 @@
       </action>
     </rule>
 
+   
+    <rule comment="REGLA: CNJCOO">
+      <pattern>
+        <pattern-item n="cnjcoo"/>
+      </pattern>
+      <action>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="cc" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="CC"/></tag>
+              <tag><clip pos="1" side="sl" part="a_func"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+ 
    
     <rule comment="REGLA: SENT">
       <pattern>
