@@ -5,6 +5,7 @@
     <def-cat n="SUBJ">
       <cat-item tags="*.@SUBJ→.*"/>
       <cat-item tags="*.@←SUBJ.*"/>
+      <cat-item tags="*.@SUBJ.*"/>
     </def-cat>
     <def-cat n="SN">
       <cat-item tags="SN"/>
@@ -20,19 +21,18 @@
 		<cat-item tags="PCP"/>
 	</def-cat>
 	<def-cat n="NEG">
-		<cat-item tags="V.NEG"/>
+		<cat-item tags="SV.NEG"/>
 	</def-cat>
 	<def-cat n="MAINV">
-		<cat-item tags="V.@+FMAINV.*"/>
+		<cat-item tags="SV.@+FMAINV.*"/>
 	</def-cat>
 	<def-cat n="AUX">
-		<cat-item tags="V.@+FAUXV"/>
-		<cat-item tags="V.@+FAUXV.*"/>
+		<cat-item tags="SV.@+FAUXV"/>
+		<cat-item tags="SV.@+FAUXV.*"/>
 	</def-cat>
   </section-def-cats>
-
   <section-def-attrs>
-    <def-attr n="phrase">
+   <def-attr n="a_func">
      <attr-item tags="@X"/>
      <attr-item tags="@HNOUN"/>
      <attr-item tags="@CNP"/>
@@ -63,7 +63,7 @@
      <attr-item tags="@-FOBJ→"/>
      <attr-item tags="@-F←OBJ"/>
     </def-attr>
-    <def-attr n="nbr">
+    <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
@@ -81,18 +81,10 @@
      <attr-item tags="ine"/>
      <attr-item tags="ela"/>
   </def-attr>
-    <def-attr n="a_person">
-      <!--
-      <attr-item tags="sg"/>
-      <attr-item tags="pl"/>
--->
-      <attr-item tags="sg1"/>
-      <attr-item tags="sg2"/>
-      <attr-item tags="sg3"/>
-      <attr-item tags="pl1"/>
-      <attr-item tags="pl2"/>
-      <attr-item tags="pl3"/>
-      <attr-item tags="pe4"/>
+    <def-attr n="a_pers">
+      <attr-item tags="p1"/>
+      <attr-item tags="p2"/>
+      <attr-item tags="p3"/>
       <attr-item tags="PD"/>      
     </def-attr>
   </section-def-attrs>
@@ -107,243 +99,7 @@
   <section-rules>
 
 
-	<rule comment="Same as previous, instead of or condition in when, for noun subjects">
-		<pattern>
-			<pattern-item n="SUBJ"/>
-			<pattern-item n="MAINV"/>
-		</pattern>
-		<action>
-		    <choose>
-		      <when>
-		        <test>
-                  <and>
-		            <equal>
-		              <clip pos="2" part="a_person"/>
-		              <lit-tag v="PD"/>
-		            </equal>
-                    <not>
-    		          <equal>
-    		            <clip pos="1" part="a_person"/>
-    		            <lit v=""/>
-    		          </equal>
-                    </not>
-                  </and>
-		        </test>
-		        <let>
-		          <clip pos="2" part="a_person"/>
-		          <clip pos="1" part="a_person"/>
-		        </let>
-		      </when>
-		      <when>
-		        <test>
-                  <and>
-		            <equal>
-		              <clip pos="2" part="a_person"/>
-		              <lit-tag v="PD"/>
-		            </equal>
-    		          <equal>
-    		            <clip pos="1" part="a_person"/>
-    		            <lit v=""/>
-    		          </equal>
-                  </and>
-		        </test>
-		        <choose>
-			      <when>
-			        <test>
-			            <equal>
-			              <clip pos="1" part="nbr"/>
-			              <lit-tag v="sg"/>
-			            </equal>
-			        </test>
-			        <let>
-			          <clip pos="2" part="a_person"/>
-			          <lit-tag v="sg3"/>
-			        </let>
-			      </when>
-			      <when>
-			        <test>
-			            <equal>
-			              <clip pos="1" part="nbr"/>
-			              <lit-tag v="pl"/>
-			            </equal>
-			        </test>
-			        <let>
-			          <clip pos="2" part="a_person"/>
-			          <lit-tag v="pl3"/>
-			        </let>
-			      </when>
-		        </choose>
-		      </when>
-		    </choose>
-			<out>
-				<chunk>
-					<clip pos="1" part="lemh"/>
-					<clip pos="1" part="tags"/>
-					<clip pos="1" part="chcontent"/>
-					<clip pos="1" part="lemq"/>
-				</chunk>
-				<b pos="1"/>
-				<chunk>
-					<clip pos="2" part="lemh"/>
-					<clip pos="2" part="tags"/>
-					<clip pos="2" part="chcontent"/>
-					<clip pos="2" part="lemq"/>
-				</chunk>
-			</out>
-		</action>
-	</rule>
 
-
-
-	<rule comment="Same as previous, instead of or condition in when, for noun subjects">
-		<pattern>
-			<pattern-item n="SUBJ"/>
-			<pattern-item n="AUX"/>
-		</pattern>
-		<action>
-		    <choose>
-		      <when>
-		        <test><and>
-		            <equal><clip pos="2" part="a_person"/><lit-tag v="PD"/></equal>
-                            <not><equal><clip pos="1" part="a_person"/><lit v=""/></equal></not></and>
-		        </test>
-		        <let><clip pos="2" part="a_person"/><clip pos="1" part="a_person"/></let>
-		      </when>
-		      <when>
-		        <test>
-                  <and>
-		            <equal>
-		              <clip pos="2" part="a_person"/>
-		              <lit-tag v="PD"/>
-		            </equal>
-    		          <equal>
-    		            <clip pos="1" part="a_person"/>
-    		            <lit v=""/>
-    		          </equal>
-                  </and>
-		        </test>
-		        <choose>
-			      <when>
-			        <test>
-			            <equal>
-			              <clip pos="1" part="nbr"/>
-			              <lit-tag v="sg"/>
-			            </equal>
-			        </test>
-			        <let>
-			          <clip pos="2" part="a_person"/>
-			          <lit-tag v="sg3"/>
-			        </let>
-			      </when>
-			      <when>
-			        <test>
-			            <equal>
-			              <clip pos="1" part="nbr"/>
-			              <lit-tag v="pl"/>
-			            </equal>
-			        </test>
-			        <let>
-			          <clip pos="2" part="a_person"/>
-			          <lit-tag v="pl3"/>
-			        </let>
-			      </when>
-		        </choose>
-		      </when>
-		    </choose>
-			<out>
-				<chunk>
-					<clip pos="1" part="lemh"/>
-					<clip pos="1" part="tags"/>
-					<clip pos="1" part="chcontent"/>
-					<clip pos="1" part="lemq"/>
-				</chunk>
-				<b pos="1"/>
-				<chunk>
-					<clip pos="2" part="lemh"/>
-					<clip pos="2" part="tags"/>
-					<clip pos="2" part="chcontent"/>
-					<clip pos="2" part="lemq"/>
-				</chunk>
-			</out>
-		</action>
-	</rule>
-
-	<rule>
-		<pattern>
-			<pattern-item n="NUMP"/>
-		</pattern>
-		<action>
-			<out>
-				<chunk>
-		            <lit v="***"/>
-					<clip pos="1" part="lemh"/>
-					<clip pos="1" part="tags"/>
-					<clip pos="1" part="chcontent"/>
-					<clip pos="1" part="lemq"/>
-				</chunk>
-			</out>
-		</action>
-	</rule>
-	<rule>
-		<!-- Mutta tällaisia tietosanakirjoja ei suomeksi ole. -->
-		<!-- Muhte dákkár diehtosátnegirjjit eai leat suomagillii. -->
-		<pattern>
-			<pattern-item n="NEG"/>
-			<pattern-item n="SN"/>
-			<pattern-item n="AUX"/>
-		</pattern>
-		<action>
-			<out>
-				<chunk>
-					<clip pos="1" part="lemh" />
-					<clip pos="1" part="tags"/>
-					<clip pos="1" part="chcontent"/>
-					<clip pos="1" part="lemq"/>
-				</chunk>
-				<b />
-				<chunk>	
-					<clip pos="3" part="lemh" />
-					<clip pos="3" part="tags"/>
-					<clip pos="3" part="chcontent"/>
-					<clip pos="3" part="lemq"/>
-				</chunk>
-				<b />
-				<chunk>	
-					<clip pos="2" part="lemh" />
-					<clip pos="2" part="tags"/>
-					<clip pos="2" part="chcontent"/>
-					<clip pos="2" part="lemq"/>
-				</chunk>
-			</out>
-		</action>
-	</rule>
-		
-	<rule>
-		<!-- Hän katsoi kaikkea, mitä hän tehnyt oli. -->
-		<!-- Son geahčai buot, maid son lei dahkan. -->
-		<pattern>
-			<pattern-item n="PCP"/>
-			<pattern-item n="AUX"/>
-		</pattern>
-		<action>
-			<out>
-				<chunk>
-					<clip pos="2" part="lemh" />
-					<clip pos="2" part="tags"/>
-					<clip pos="2" part="chcontent"/>
-					<clip pos="2" part="lemq"/>
-				</chunk>
-				<b />
-				<chunk>	
-					<clip pos="1" part="lemh" />
-					<clip pos="1" part="tags"/>
-					<clip pos="1" part="chcontent"/>
-					<clip pos="1" part="lemq"/>
-				</chunk>
-			</out>
-		</action>
-	</rule>
-	
 	<rule>
       <pattern>
         <pattern-item n="SN"/>
@@ -359,5 +115,31 @@
         </out>
       </action>
     </rule>
+
+	<rule>
+      <pattern>
+        <pattern-item n="AUX"/>
+        <pattern-item n="SUBJ"/>
+      </pattern>
+      <action>	
+        <let><clip pos="1" part="a_nbr"/><clip pos="2" part="a_nbr"/></let>
+        <out>
+          <chunk>
+		<clip pos="1" part="lemh"/>
+		<clip pos="1" part="tags" />
+		<clip pos="1" part="chcontent" />
+		<clip pos="1" part="lemq"/>
+          </chunk>
+          <b pos="1"/>
+          <chunk>
+		<clip pos="2" part="lemh"/>
+		<clip pos="2" part="tags" />
+		<clip pos="2" part="chcontent" />
+		<clip pos="2" part="lemq"/>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
      </section-rules>
 </interchunk>

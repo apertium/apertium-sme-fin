@@ -361,17 +361,24 @@
       <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
       <choose>
         <when>
+          <test>
+                     <or>
+                     <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@←SUBJ"/></equal>
+                     <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@SUBJ→"/></equal></or></test>
+          <let><clip pos="1" side="sl" part="a_func"/><lit-tag v="@SUBJ"/></let>
+        </when>
+      </choose>
+
+      <choose>
+        <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="par"/></equal>
-                     <not><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@←SUBJ"/></equal></not>
-                     <not><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@SUBJ→"/></equal></not></and>
+                     <not><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@SUBJ"/></equal></not></and>
           </test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
         </when>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="par"/></equal>
-                     <or>
-                     <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@←SUBJ"/></equal>
-                     <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@SUBJ→"/></equal></or></and></test>
+                     <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@SUBJ"/></equal></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let>
         </when>
         <when>
@@ -423,6 +430,8 @@
           <chunk name="n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="1" side="sl" part="a_func"/></tag>
+              <tag><clip pos="1" side="tl" part="a_nbr"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -540,10 +549,15 @@
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="3"/></let>
+        <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="4"/></let>
         <out>
           <chunk name="v" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
+              <tag><clip pos="1" side="sl" part="a_func"/></tag>
+              <tag><clip pos="1" side="sl" part="a_pers"/></tag>
+              <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
