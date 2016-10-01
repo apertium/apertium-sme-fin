@@ -107,10 +107,7 @@
       <action>	
         <out>
           <chunk>
-			<clip pos="1" part="lemh"/>
-			<clip pos="1" part="tags" />
-			<clip pos="1" part="chcontent" />
-			<clip pos="1" part="lemq"/>
+		<clip pos="1" part="whole"/>
           </chunk>
         </out>
       </action>
@@ -125,17 +122,11 @@
         <let><clip pos="1" part="a_nbr"/><clip pos="2" part="a_nbr"/></let>
         <out>
           <chunk>
-		<clip pos="1" part="lemh"/>
-		<clip pos="1" part="tags" />
-		<clip pos="1" part="chcontent" />
-		<clip pos="1" part="lemq"/>
+		<clip pos="1" part="whole"/>
           </chunk>
           <b pos="1"/>
           <chunk>
-		<clip pos="2" part="lemh"/>
-		<clip pos="2" part="tags" />
-		<clip pos="2" part="chcontent" />
-		<clip pos="2" part="lemq"/>
+		<clip pos="2" part="whole"/>
           </chunk>
         </out>
       </action>
