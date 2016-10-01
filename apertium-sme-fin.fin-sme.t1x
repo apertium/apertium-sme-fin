@@ -65,7 +65,14 @@
       <attr-item tags="ins"/>
       <attr-item tags="abl"/>
     </def-attr>
-
+    <def-attr n="a_attr">
+      <attr-item tags="attr"/>
+      <attr-item tags="ND.attr"/>
+      <attr-item tags="sg.loc.attr"/>
+      <attr-item tags="pl.com.attr"/>
+      <attr-item tags="sg.ill.attr"/>
+      <attr-item tags="ND.CD"/>
+    </def-attr>
     <def-attr n="a_foc">
       <attr-item tags="foc_sun"/>
        <attr-item tags="foc_pa"/>
@@ -402,6 +409,12 @@
       </choose>
       <choose>
         <when>
+          <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="ess"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
           <test>
 	    <and>
 	      <equal><clip pos="1" side="sl" part="a_foc"/><lit-tag v="foc_pa"/></equal>
@@ -436,6 +449,44 @@
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ADJ + NOM">
+      <pattern>
+        <pattern-item n="adj"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <choose><when>
+          <test><and>     
+            <equal><clip pos="1" side="sl" part="a_cas"/><clip pos="2" side="sl" part="a_cas"/></equal>
+            <equal><clip pos="1" side="sl" part="a_nbr"/><clip pos="2" side="sl" part="a_nbr"/></equal>
+          </and></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="whole"/><lit-tag v="attr"/></concat></let>
+        </when></choose>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="remove-semtags1"><with-param pos="2"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+              <tag><clip pos="2" side="sl" part="a_func"/></tag>
+              <tag><clip pos="2" side="tl" part="a_nbr"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+	    <b/>
+	    <lu>
+              <clip pos="2" side="tl" part="whole"/>
+	    </lu>
           </chunk>
         </out>
       </action>
