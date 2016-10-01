@@ -461,7 +461,7 @@
       </pattern>
       <action>
         <choose><when>
-          <test><and>     
+          <test><and>
             <equal><clip pos="1" side="sl" part="a_cas"/><clip pos="2" side="sl" part="a_cas"/></equal>
             <equal><clip pos="1" side="sl" part="a_nbr"/><clip pos="2" side="sl" part="a_nbr"/></equal>
           </and></test>
