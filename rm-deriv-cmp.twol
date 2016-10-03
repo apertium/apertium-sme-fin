@@ -3,6 +3,15 @@ Alphabet
 %<cmp%>
 %<rcmpnd%>
 
+%<der%_car%>
+%<der%_caus%>
+%<der%_dimin%>
+%<der%_inchl%>
+%<der%_keahtta%>
+%<der%_lasj%>
+%<der%_sasj%>
+%<der%_vuota%>
+
 %<der%_a%>
 %<der%_adv%>
 %<der%_aadv%>
@@ -114,6 +123,14 @@ Derivations =
 %<der%_viđá%>
 %<der%_vuohta%>
 %<der%_ár%>
+%<der%_car%>
+%<der%_caus%>
+%<der%_dimin%>
+%<der%_inchl%>
+%<der%_keahtta%>
+%<der%_lasj%>
+%<der%_sasj%>
+%<der%_vuota%>
 ;
 
 HandledDerivations =

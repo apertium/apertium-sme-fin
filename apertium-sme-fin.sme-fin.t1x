@@ -514,6 +514,16 @@
 
     <def-attr n="a_sem">
       <attr-item tags="sem_act"/>
+      <attr-item tags="sem_body_group_hum_time"/>
+      <attr-item tags="sem_build_obj"/>
+      <attr-item tags="sem_dir"/>
+      <attr-item tags="sem_domain_prod-audio"/>
+      <attr-item tags="sem_event_plc-elevate"/>
+      <attr-item tags="sem_geom_obj"/>
+      <attr-item tags="sem_measr_sign"/>
+      <attr-item tags="sem_org_prod-cogn"/>
+      
+      <attr-item tags="sem_act"/>
       <attr-item tags="sem_act_route"/>
       <attr-item tags="sem_act_plc"/>
       <attr-item tags="sem_amount"/>
