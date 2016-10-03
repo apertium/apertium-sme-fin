@@ -187,7 +187,7 @@
       <attr-item tags="connegii"/>
     </def-attr>
     <def-attr n="a_voice">
-      <attr-item tags="actv "/>
+      <attr-item tags="actv"/>
     </def-attr>
     <def-attr n="a_qst">
       <attr-item tags="qst"/>
@@ -1899,8 +1899,8 @@
 
 
 
-        <!-- ConNegII is almost always a disambiguation/trimming fail, so just turn it into Inf -->
-<!--    <rule comment="REGLA: CONNEGII">
+    <!-- ConNegII is almost always a disambiguation/trimming fail, so just turn it into Inf -->
+    <rule comment="REGLA: CONNEGII">
       <pattern>
         <pattern-item n="connegii"/>
       </pattern>
@@ -1921,7 +1921,7 @@
         </out>
       </action>
     </rule>
--->
+
 
     <rule comment="REGLA: DEFAULT">
       <pattern>

@@ -481,7 +481,10 @@
 
     
     <e><p><l>máŋga<s n="num"/></l><r>usea<s n="prn"/></r></p></e>
-    <e><p><l>máŋga<s n="num"/></l><r>moni<s n="prn"/><s n="qnt"/></r></p></e>
+
+    <!--<e><p><l>máŋga<s n="num"/></l><r>moni<s n="prn"/><s n="qnt"/></r></p></e>-->
+    <e><p><l>máŋga<s n="num"/><s n="pl"/><s n="nom"/></l><r>moni<s n="prn"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>máŋga<s n="num"/><s n="pl"/></l><r>moni<s n="prn"/><s n="pl"/></r></p></e>
 
     <!-- SECTION: Numerals -->
     
@@ -6240,7 +6243,7 @@
     <e><p><l>bahča<s n="adj"/></l><r>kitkerä<s n="adj"/></r></p></e> 
     <e><p><l>bajimuš<s n="adj"/><s n="sup"/></l><r>ylin<s n="adj"/></r></p></e>
     <e><p><l>bajit<s n="adj"/></l><r>ylimmäinen<s n="adj"/></r></p></e>
-    <e><p><l>bajit<s n="adj"/></l><r>ylä-<s n="adj"/></r></p></e>
+    <!--<e><p><l>bajit<s n="adj"/></l><r>ylä-<s n="adj"/></r></p></e>-->
     <e><p><l>bajit<s n="adj"/><s n="comp"/></l><r>ylempi<s n="adj"/></r></p></e>
     <e><p><l>ballevaš<s n="adj"/></l><r>pelkääväinen<s n="adj"/></r></p></e>
     <e><p><l>baluheapme<s n="adj"/></l><r>peloton<s n="adj"/></r></p></e>
