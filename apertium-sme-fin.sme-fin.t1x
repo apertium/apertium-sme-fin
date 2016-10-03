@@ -33,6 +33,7 @@
       <cat-item tags="adj.*.cmp"/>
       <cat-item tags="adj.*.cmp.*"/>
       <cat-item tags="adj.attr.*"/>
+      <cat-item tags="adj.cmp_attr.*"/>
     </def-cat>
     <def-cat n="goahti-prfprc">
       <cat-item tags="vblex.*.der_goahti.vblex.prfprc.*"/>
@@ -243,6 +244,7 @@
     </def-attr>
     <def-attr n="a_attr">
       <attr-item tags="attr"/>
+      <attr-item tags="cmp_attr"/>
       <attr-item tags="ND.attr"/>
       <attr-item tags="sg.loc.attr"/>
       <attr-item tags="pl.com.attr"/>
@@ -289,6 +291,8 @@
       <attr-item tags="cmp_sggen.cmp"/>
       <attr-item tags="cmp_sgnom.cmp_splitr"/>
       <attr-item tags="cmp_sggen.cmp_splitr"/>
+
+      <attr-item tags="cmp_attr"/>
 
       <attr-item tags="sg.nom.cmp"/>
       <attr-item tags="sg.gen.cmp"/>
@@ -1319,7 +1323,6 @@
         <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
-	<!-- debug : This line blocked translation, e.g. of vaalit2012.sme.txt-->
         <call-macro n="handle-nominal-derivation2"><with-param pos="2"/></call-macro>
         <call-macro n="concord-nominal2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <out>
