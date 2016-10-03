@@ -402,11 +402,12 @@
     <def-attr n="a_func">
       <attr-item tags="@→A"/>
       <attr-item tags="@A←"/>
-      <attr-item tags="@←ADVL"/>
+      <attr-item tags="@←ADVL-ine"/>
       <attr-item tags="@→ADVL"/>
       <attr-item tags="@ADVL"/>
       <attr-item tags="@ADVL←"/>
       <attr-item tags="@ADVL→"/>
+      <attr-item tags="@ADVL-ine→"/>
       <attr-item tags="@ADVL→CS"/>
       <attr-item tags="@ADVL←OBJ"/>
       <attr-item tags="@ADVL→SUBJ"/>
