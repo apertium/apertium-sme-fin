@@ -274,12 +274,17 @@
       <attr-item tags="np"/>
       <attr-item tags="prn"/>
     </def-attr>
+    <def-attr n="a_grau">
+      <attr-item tags="sup"/>
+    </def-attr>
+
     <def-attr n="a_nbr">
       <attr-item tags="ND"/>
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="du"/>
     </def-attr>
+
     <def-attr n="a_cmp">
       <attr-item tags="cmp"/>
       <attr-item tags="n.cmp"/>
@@ -1191,6 +1196,7 @@
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_grau"/><lit v=""/></let>
         <out>
           <chunk name="adv" case="caseFirstWord">
             <tags>
