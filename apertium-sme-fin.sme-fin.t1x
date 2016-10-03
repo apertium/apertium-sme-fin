@@ -102,6 +102,10 @@
     <def-cat n="num-acc">                           
       <cat-item tags="num.sg.acc.*"/>                  
     </def-cat>                                         
+    <def-cat n="num-card-cmp">                           
+      <cat-item tags="num.arab.cmp_splitr"/>                  
+      <cat-item tags="num.arab.cmp_splitr.*"/>                  
+    </def-cat>                                         
     <def-cat n="n-sg-accgen">                             
       <cat-item tags="n.*.sg.gen.*"/>                     
       <cat-item tags="n.*.*.sg.gen.*"/>                   
@@ -1593,7 +1597,29 @@
         </out>
       </action>                                  
     </rule> 
-    
+
+    <rule comment="REGLA: num-card-cmp">
+      <pattern>
+        <pattern-item n="num-card-cmp"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="z" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SNum"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/><lit-tag v="num.card.sg.nom"/>
+            </lu>
+            <lu>
+              <lit v="-"/><lit-tag v="guio"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
     
     
     <!-- SECTION: Verb groups -->
@@ -1971,24 +1997,5 @@
       </action>
     </rule>
 
-<!--
-    <rule comment="REGLA: SENT">
-      <pattern>
-        <pattern-item n="sent"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="sent" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SENT"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
--->    
   </section-rules>
 </transfer>
