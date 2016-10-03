@@ -484,6 +484,7 @@
     <def-attr n="a_foc">
       <attr-item tags="foc_sun"/>
        <attr-item tags="foc_ba"/>
+       <attr-item tags="foc_neg-ge"/>
        <attr-item tags="foc_bat"/>
        <attr-item tags="foc_han"/>
        <attr-item tags="foc_naj"/>
@@ -1080,6 +1081,48 @@
         </when>
       </choose>
     </def-macro>
+
+    <def-macro n="pcle-foc1" npar="1">
+		<choose>   
+        <when>
+          <test>
+               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_gis"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="tags"/><concat>
+          <clip pos="1" side="tl" part="tags"/><lit v="+kin"/><lit-tag v="adv"/></concat>
+          </let> 
+        </when>
+        <when>
+          <test>
+               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_han"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="tags"/><concat>
+          <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_han"/></concat>
+          </let> 
+        </when>
+        <when>
+          <test>
+               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="tags"/><concat>
+          <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_pa"/></concat>
+          </let> 
+        </when>
+        <when>
+          <test>
+               <or><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_neg-ge"/></equal>
+               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
+          </test>
+          <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="tags"/><concat>
+          <clip pos="1" side="tl" part="tags"/><lit v="+kaan"/><lit-tag v="adv"/></concat>
+          </let> 
+        </when>
+		</choose>    
+     </def-macro>
+ 
+
     <def-macro n="pcle-foc2" npar="2">
 		<choose>   
         <when>
@@ -1108,7 +1151,8 @@
         </when>
         <when>
           <test>
-               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal>
+               <or><equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_neg-ge"/></equal>
+               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
           </test>
           <let><clip pos="1" side="tl" part="tags"/><concat>
           <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_kin"/></concat>
@@ -1162,6 +1206,7 @@
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="a" case="caseFirstWord">
             <tags>
@@ -1369,6 +1414,7 @@
         <call-macro n="default-conversion3"><with-param pos="3"/><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation1"><with-param pos="3"/></call-macro>
         <call-macro n="concord-nominal3"><with-param pos="3"/><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="a-a-n" case="caseFirstWord">
             <tags>
@@ -1783,6 +1829,7 @@
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <call-macro n="neg-verb-nonfin1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <let><clip pos="1" side="tl" part="a_mood"/><lit v=""/></let>
         <out>
           <chunk name="ii" case="caseFirstWord">
