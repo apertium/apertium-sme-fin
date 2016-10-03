@@ -447,7 +447,6 @@
     
 
     <e><p><l>muhtin<s n="prn"/><s n="ind"/></l><r>muutama<s n="prn"/><s n="qnt"/></r></p></e>
-    <e><p><l>goappašat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>molemmat<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e>
     <e><p><l>soamis<s n="prn"/><s n="ind"/></l><r>joku<s n="prn"/></r></p></e>   
         
     <e><p><l>seammá<s n="prn"/><s n="ind"/></l><r>sama<s n="prn"/></r></p></e>
@@ -460,9 +459,13 @@
 
     <e><p><l>giige<s n="prn"/><s n="ind"/></l><r>kukaan<s n="prn"/></r></p></e>
     <e><p><l>juohke<s n="prn"/><s n="ind"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
-    <e><p><l>goappašagat<s n="prn"/><s n="ind"/></l><r>molemmat<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>eará<s n="prn"/><s n="ind"/></l><r>muu<s n="prn"/></r></p></e>
         
+<!--
+    <e><p><l>goappašagat<s n="prn"/><s n="ind"/></l><r>molemmat<s n="prn"/><s n="qnt"/></r></p></e>
+    <e><p><l>goappašat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>molemmat<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e>
+-->
+    <e><p><l>goappašagat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>molemmat<s n="prn"/></r></p></e>
 
     <e><p><l>guhtege<s n="prn"/><s n="ind"/></l><r>kukin<s n="prn"/><s n="qnt"/></r></p></e>
 
