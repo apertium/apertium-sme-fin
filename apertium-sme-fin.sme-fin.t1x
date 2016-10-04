@@ -184,6 +184,9 @@
     <def-attr n="a_ntype">
       <attr-item tags="nomag"/>
     </def-attr>
+    <def-attr n="a_dialect">
+      <attr-item tags="south"/>
+    </def-attr>
     <def-attr n="a_known">
       <attr-item tags="known"/>
     </def-attr>
@@ -438,6 +441,7 @@
       <attr-item tags="@CNP"/>
       <attr-item tags="@COMP-CS←"/>
       <attr-item tags="@CVP"/>
+      <attr-item tags="@-F←SUBJ"/>
       <attr-item tags="@-F←ADVL"/>
       <attr-item tags="@-FADVL"/>
       <attr-item tags="@-FADVL→"/>
@@ -847,6 +851,7 @@
       <let><clip pos="1" side="tl" part="a_known"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_dialect"/><lit v=""/></let>
 <!--      <let><clip pos="1" side="tl" part="a_attr"/><lit-tag v="ND.CD"/></let>-->
 
       <choose>
@@ -1381,8 +1386,7 @@
       <action>
         <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-        <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
-        <call-macro n="handle-nominal-derivation2"><with-param pos="2"/></call-macro>
+        <call-macro n="handle-nominal-derivation2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="concord-nominal2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <out>
           <chunk name="a-n" case="caseFirstWord">

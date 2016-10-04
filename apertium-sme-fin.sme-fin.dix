@@ -95,6 +95,7 @@
 
     <sdef n="der_s"        c=""/>
     <sdef n="cmp"        c=""/>
+    <sdef n="cmp_sgnom"  c=""/>
 
   </sdefs>
   <pardefs>
@@ -110,6 +111,7 @@
 
     <pardef n="ihmi/nen">
     <e><p><l><s n="cmp"/></l><r><s n="der_s"/><s n="cmp"/></r></p></e>
+    <e r="LR"><p><l><s n="cmp_sgnom"/><s n="cmp"/></l><r><s n="der_s"/><s n="cmp"/></r></p></e>
     <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
     <e><p><l><s n="du"/></l><r><s n="pl"/></r></p></e>
     <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
@@ -5270,7 +5272,8 @@
     <e><p><l>čálastat<s n="n"/></l><r>viilto<s n="n"/></r></p></e>
     <e><p><l>čálgu<s n="n"/></l><r>viihtyvyys<s n="n"/></r></p></e>
     <e><p><l>čáliheapmi<s n="n"/></l><r>ilmoittautuminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
-    <e><p><l>čálli<s n="n"/><s n="g3"/></l><r>kirjailija<s n="n"/></r></p></e>
+    <e><p><l>čálli<s n="n"/><s n="nomag"/></l><r>kirjailija<s n="n"/></r></p></e>
+    <e><p><l>čálli<s n="n"/><s n="nomag"/></l><r>sihteeri<s n="n"/></r></p></e>
     <e><p><l>čállin<s n="n"/></l><r>kirjoittaminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>čállingirji<s n="n"/></l><r>kirjoitusvihko<s n="n"/></r></p></e>
     <e><p><l>čállingoddi<s n="n"/></l><r>sihteeristö<s n="n"/></r></p></e>
