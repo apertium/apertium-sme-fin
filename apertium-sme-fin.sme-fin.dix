@@ -453,7 +453,8 @@
     <e><p><l>soamis<s n="prn"/><s n="ind"/></l><r>joku<s n="prn"/></r></p></e>   
         
     <e><p><l>seammá<s n="prn"/><s n="ind"/></l><r>sama<s n="prn"/></r></p></e>
-    <e><p><l>juohkehaš<s n="prn"/><s n="ind"/></l><r>jokainen<s n="prn"/><s n="qnt"/></r></p></e>
+    <!--<e><p><l>juohkehaš<s n="prn"/><s n="ind"/></l><r>jokainen<s n="prn"/><s n="qnt"/></r></p></e>-->
+    <e><p><l>juohkehaš<s n="prn"/><s n="ind"/></l><r>jokainen<s n="prn"/></r></p></e>
         
     <e><p><l>muhtin<s n="prn"/><s n="ind"/></l><r>eräs<s n="prn"/><s n="ind"/></r></p></e>
 
@@ -3682,8 +3683,7 @@
     <e><p><l>ovdanbuktin<s n="n"/></l><r>esitys<s n="n"/></r></p></e>
     <e><p><l>ovdaolmmoš<s n="n"/></l><r>esimies<s n="n"/></r></p></e>
     <e><p><l>ovdasaš<s n="n"/></l><r>etiäinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
-    <e><p><l>ovddasteaddji<s n="n"/></l><r>edustaja<s n="n"/></r></p></e>
-    <e r="LR"><p><l>ovddasteaddji<s n="n"/><s n="nomag"/></l><r>edustaja<s n="n"/></r></p></e>
+    <e><p><l>ovddasteaddji<s n="n"/><s n="nomag"/></l><r>edustaja<s n="n"/></r></p></e>
     <e><p><l>ovddastus<s n="n"/></l><r>edustus<s n="n"/></r></p></e>
     <e><p><l>ovddasvástádus<s n="n"/></l><r>vastuu<s n="n"/></r></p></e>
     <e><p><l>ovddasvástádussuorgi<s n="n"/></l><r>vastuualue<s n="n"/></r></p></e>
@@ -3768,7 +3768,7 @@
     <e><p><l>prográmma<s n="n"/><s n="g3"/></l><r>ohjelma<s n="n"/></r></p></e>
     <e><p><l>projeakta<s n="n"/></l><r>projekti<s n="n"/></r></p></e>
     <e><p><l>proseanta<s n="n"/></l><r>prosentti<s n="n"/></r></p></e>
-    <e><p><l>proseassa<s n="n"/></l><r>prosessi<s n="n"/></r></p></e>
+    <e><p><l>proseassa<s n="n"/><s n="g3"/></l><r>prosessi<s n="n"/></r></p></e>
     <e><p><l>prosedyra<s n="n"/></l><r>menetelmä<s n="n"/></r></p></e>
     <e><p><l>prosessor<s n="n"/></l><r>suoritin<s n="n"/></r></p></e>
     <e><p><l>prostitušuvdna<s n="n"/></l><r>prostituutio<s n="n"/></r></p></e>
@@ -7111,7 +7111,6 @@
     <e><p><l>vuoras<s n="adj"/></l><r>vanhin<s n="adj"/></r></p></e> 
     <e><p><l>vuorru<s n="adj"/></l><r>vuoro<s n="adj"/></r></p></e>
     <e><p><l>vuosttaš<s n="adj"/></l><r>ensisijainen<s n="adj"/></r></p></e>
-    <e><p><l>vuosttaš<s n="adj"/><s n="ord"/></l><r>ensimmäinen<s n="num"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>vuđolaš<s n="adj"/></l><r>perusteellinen<s n="adj"/></r></p></e>
     <e><p><l>váibbas<s n="adj"/></l><r>väsynyt<s n="adj"/></r></p></e> 
     <e><p><l>váibmil<s n="adj"/></l><r>ahne<s n="adj"/></r></p></e> 
@@ -10009,13 +10008,13 @@
 <e><p><l>oktasašbargu<s n="n"/></l><r>yhteistyö<s n="n"/></r></p></e>
 <e><p><l>sápmelašvuohta<s n="n"/></l><r>saamelaisuus<s n="n"/></r></p></e>
 <e><p><l>lassidiehtu<s n="n"/></l><r>lisätieto<s n="n"/></r></p></e>
-<e><p><l>vuosttas<s n="adj"/><s n="ord"/></l><r>ensimmäinen<s n="adj"/><s n="ord"/></r></p></e>
+    <e><p><l>vuosttaš<s n="adj"/><s n="ord"/></l><r>ensimmäinen<s n="num"/></r></p><par n="ihmi/nen"/></e>
+<e><p><l>vuosttas<s n="adj"/><s n="ord"/></l><r>ensimmäinen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>sámediggeláhka<s n="n"/></l><r>saamelaiskäräjälaki<s n="n"/></r></p></e>
 <e><p><l>válgabadji<s n="n"/></l><r>vaalipaja<s n="n"/></r></p></e>
 <e><p><l>loahpaheapmi<s n="n"/></l><r>lopettaminen<s n="n"/></r></p></e>
 <e><p><l>davviriika<s n="n"/></l><r>pohjoismaa<s n="n"/></r></p></e>
 <e><p><l>bajásgeassin<s n="n"/></l><r>kasvattaminen<s n="n"/></r></p></e>
-<e><p><l>ovddasteaddji<s n="adj"/></l><r>edustaja<s n="adj"/></r></p></e>
 <e><p><l>nuortalaš<s n="n"/></l><r>koltansaamelainen<s n="n"/></r></p></e>
 <e><p><l>juoiggus<s n="n"/></l><r>joiku<s n="n"/></r></p></e>
 <e><p><l>sámemusihkka<s n="n"/></l><r>saamelaismusiikki<s n="n"/></r></p></e>

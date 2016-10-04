@@ -1137,14 +1137,14 @@
             <clip pos="1" side="tl" part="tags"/><lit v="+kin"/><lit-tag v="adv"/></concat>
           </let> 
         </when>
-        <when>
+<!--        <when>
           <test>
                <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_han"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="tags"/><concat>
             <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_han"/></concat>
           </let> 
-        </when>
+        </when>-->
         <when>
           <test>
                <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></equal>
@@ -1239,6 +1239,7 @@
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <let><clip pos="1" side="tl" part="a_grau"/><lit v=""/></let>
         <out>
           <chunk name="adv" case="caseFirstWord">
@@ -1283,6 +1284,7 @@
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="prn" case="caseFirstWord">
             <tags>
@@ -1328,6 +1330,7 @@
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="n" case="caseFirstWord">
             <tags>
@@ -1341,7 +1344,7 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: NOM-CMP NOM">
+    <rule comment="REGLA: NOM-CMP NOM-CMP NOM">
       <pattern>
         <pattern-item n="nom-cmp"/>
         <pattern-item n="nom-cmp"/>
@@ -1351,6 +1354,7 @@
         <call-macro n="remove-semtags3"><with-param pos="3"/><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion3"><with-param pos="3"/><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation3"><with-param pos="3"/><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="3"/></call-macro>
         <out>
           <chunk name="n-n-n" case="caseFirstWord">
             <tags>
@@ -1376,6 +1380,7 @@
         <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
         <out>
           <chunk name="n-n" case="caseFirstWord">
             <tags>
@@ -1400,6 +1405,8 @@
         <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="concord-nominal2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="a-n" case="caseFirstWord">
             <tags>
@@ -1429,6 +1436,8 @@
         <call-macro n="default-conversion3"><with-param pos="3"/><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation3"><with-param pos="3"/><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="concord-nominal2"><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="3"/></call-macro>
         <out>
           <chunk name="a-n-n" case="caseFirstWord">
             <tags>
@@ -1760,6 +1769,7 @@
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion-nonfin1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="v" case="caseFirstWord">
             <tags>
@@ -1842,6 +1852,7 @@
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <let><clip pos="1" side="tl" part="a_tense"/><lit v=""/></let>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="v" case="caseFirstWord">
             <tags>
@@ -1863,6 +1874,7 @@
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <let><clip pos="1" side="tl" part="a_tense"/><lit v=""/></let>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="v" case="caseFirstWord">
             <tags>
@@ -1883,6 +1895,7 @@
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="ii-conneg" case="caseFirstWord">
             <tags>
@@ -1946,6 +1959,7 @@
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="v" case="caseFirstWord">
             <tags>
@@ -2067,6 +2081,7 @@
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion-nonfin1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="x" case="caseFirstWord">
             <tags>
