@@ -2,12 +2,21 @@
 <!-- -*- nxml -*- -->
 <postchunk>
   <section-def-cats>
+    <def-cat n="default">
+      <cat-item name="*"/>
+    </def-cat>
     <def-cat n="sent">
       <cat-item name="punt"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
-    <def-attr n="nbr">
+    <def-attr n="a_CD">
+      <attr-item tags="CD"/>
+    </def-attr>
+    <def-attr n="a_ND">
+      <attr-item tags="ND"/>
+    </def-attr>
+    <def-attr n="a_nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
       <attr-item tags="sp"/>
@@ -18,6 +27,20 @@
     <def-var n="paraula"/>
   </section-def-vars>
   <section-rules>
+    <rule comment="CHUNK:">
+      <pattern>
+        <pattern-item n="default"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" part="a_ND"/><lit-tag v="sg"/></let>
+        <let><clip pos="1" part="a_CD"/><lit-tag v="nom"/></let>
+        <out>
+          <lu>
+            <clip pos="1" part="whole"/>
+          </lu>
+        </out>
+      </action>
+    </rule>
     <rule comment="CHUNK:">
       <pattern>
         <pattern-item n="sent"/>

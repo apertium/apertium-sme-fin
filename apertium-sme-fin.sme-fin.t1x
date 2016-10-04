@@ -509,6 +509,7 @@
       <attr-item tags="foc_sun"/>
        <attr-item tags="foc_ba"/>
        <attr-item tags="foc_neg-ge"/>
+       <attr-item tags="foc_pos-ge"/>
        <attr-item tags="foc_bat"/>
        <attr-item tags="foc_han"/>
        <attr-item tags="foc_naj"/>
@@ -1126,14 +1127,14 @@
     </def-macro>
 
     <def-macro n="pcle-foc1" npar="1">
-		<choose>   
+      <choose>   
         <when>
           <test>
                <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_gis"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="tags"/><concat>
-          <clip pos="1" side="tl" part="tags"/><lit v="+kin"/><lit-tag v="adv"/></concat>
+            <clip pos="1" side="tl" part="tags"/><lit v="+kin"/><lit-tag v="adv"/></concat>
           </let> 
         </when>
         <when>
@@ -1141,7 +1142,7 @@
                <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_han"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="tags"/><concat>
-          <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_han"/></concat>
+            <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_han"/></concat>
           </let> 
         </when>
         <when>
@@ -1149,7 +1150,7 @@
                <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="tags"/><concat>
-          <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_pa"/></concat>
+            <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_pa"/></concat>
           </let> 
         </when>
         <when>
@@ -1159,10 +1160,21 @@
           </test>
           <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="tags"/><concat>
-          <clip pos="1" side="tl" part="tags"/><lit v="+kaan"/><lit-tag v="adv"/></concat>
+            <clip pos="1" side="tl" part="tags"/><lit v="+kaan"/><lit-tag v="adv"/></concat>
           </let> 
         </when>
-		</choose>    
+        <when>
+          <test>
+               <or><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_pos-ge"/></equal>
+               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
+          </test>
+          <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="tags"/><concat>
+            <clip pos="1" side="tl" part="tags"/><lit v="+kin"/><lit-tag v="adv"/></concat>
+          </let> 
+        </when>
+
+       </choose>    
      </def-macro>
  
 
