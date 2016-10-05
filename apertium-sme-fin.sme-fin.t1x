@@ -153,6 +153,8 @@
       <cat-item tags="n.*.cmp_plnom.cmp.*"/>
       <cat-item tags="n.*.cmp_plgen.cmp"/>
       <cat-item tags="n.*.cmp_plgen.cmp.*"/>
+      <cat-item tags="n.*.cmp_plgen.cmp_splitr"/>
+      <cat-item tags="n.*.cmp_plgen.cmp_splitr.*"/>
       <cat-item tags="n.cmp_plnom.cmp_hyph.cmp"/>
       <cat-item tags="n.cmp_plnom.cmp_hyph.cmp.*"/>
       <cat-item tags="n.cmp_plgen.cmp_hyph.cmp"/>
@@ -266,6 +268,7 @@
       <attr-item tags="ND.attr"/>
       <attr-item tags="sg.loc.attr"/>
       <attr-item tags="pl.com.attr"/>
+      <attr-item tags="pl.loc.attr"/>
       <attr-item tags="sg.ill.attr"/>
       <attr-item tags="ND.CD"/>
     </def-attr>
@@ -303,6 +306,10 @@
       <attr-item tags="du"/>
     </def-attr>
 
+    <def-attr n="a_cmp_only">
+      <attr-item tags="cmp"/>
+    </def-attr>
+
     <def-attr n="a_cmp">
       <attr-item tags="cmp"/>
       <attr-item tags="n.cmp"/>
@@ -321,7 +328,6 @@
 
       <attr-item tags="cmp_plnom.cmp_splitr"/>
       <attr-item tags="cmp_plgen.cmp_splitr"/>
-
 
       <attr-item tags="cmp_attr"/>
 
@@ -726,6 +732,28 @@
     <def-var n="current_verb"/>
   </section-def-vars>
   <section-def-macros>
+ 
+    <def-macro n="lexical-cleanup1" npar="1">
+		<choose>   
+        <when>
+          <test>
+             <and><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="tämä"/></equal>
+               <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></and>
+          </test>
+          <let><clip pos="1" side="tl" part="lem"/><lit v="ne"/></let> 
+        </when>
+        <when>
+          <test>
+             <and><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="ne"/></equal>
+               <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal></and>
+          </test>
+          <let><clip pos="1" side="tl" part="lem"/><lit v="tämä"/></let> 
+        </when>
+
+
+		</choose>    
+    </def-macro>  
+
     <def-macro n="remove-semtags1" npar="1">
       <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
     </def-macro>
@@ -767,6 +795,9 @@
           <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
         </when>
       </choose>
+
+      <call-macro n="lexical-cleanup1"><with-param pos="1"/></call-macro>
+      <call-macro n="lexical-cleanup1"><with-param pos="2"/></call-macro>
     </def-macro>
 
     <def-macro n="concord-nominal3" npar="3">
@@ -1051,6 +1082,12 @@
           <let><clip pos="1" side="tl" part="a_cmp"/><concat><lit-tag v="sg.nom"/><lit v="$^-"/><lit-tag v="guio"/></concat></let>
         </when>
         <when>
+          <test><or><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_plnom.cmp_splitr"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_attr.cmp_splitr"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_plgen.cmp_splitr"/></equal></or></test>
+          <let><clip pos="1" side="tl" part="a_cmp"/><concat><lit-tag v="pl.gen"/><lit v="$^-"/><lit-tag v="guio"/></concat></let>
+        </when>
+        <when>
           <test><and><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="adv"/></equal>
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp"/></equal></and></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><lit v=""/></let>
@@ -1102,6 +1139,7 @@
           <let><clip pos="1" side="tl" part="a_pass"/><lit v=""/></let>
         </when>
       </choose>
+
 
     </def-macro>
 
@@ -1265,7 +1303,7 @@
 
 		</choose>    
     </def-macro>  
- 
+   
 
   </section-def-macros>
   <section-rules>
@@ -1291,7 +1329,6 @@
         </out>
       </action>
     </rule>
-
 
     <rule comment="REGLA: ADJ-CMP">
       <pattern>
@@ -1370,6 +1407,7 @@
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_cmp_only"/><lit v=""/></let>
         <out>
           <chunk name="n" case="caseFirstWord">
             <tags>
@@ -1377,6 +1415,9 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <lu>
+              <lit v="-"/><lit-tag v="guio"/>
             </lu>
           </chunk>
         </out>
@@ -1393,7 +1434,7 @@
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
         <out>
-          <chunk name="n" case="caseFirstWord">
+          <chunk name="n-" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
             </tags>
@@ -1514,6 +1555,60 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: NUM-CARD-CMP">
+      <pattern>
+        <pattern-item n="num-card-cmp"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="z" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SNum"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/><lit-tag v="num.card.sg.nom"/>
+            </lu>
+            <lu>
+              <lit v="-"/><lit-tag v="guio"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: NUM-CARD-CMP NOM">
+      <pattern>
+        <pattern-item n="num-card-cmp"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="concord-nominal2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="z-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/><lit-tag v="num.card.sg.nom"/>
+            </lu>
+            <lu>
+              <lit v="-"/><lit-tag v="guio"/>
+            </lu>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
     <rule comment="REGLA: ATTR NOM">
@@ -1828,27 +1923,6 @@
         </out>
       </action>                                  
     </rule> 
-
-    <rule comment="REGLA: num-card-cmp">
-      <pattern>
-        <pattern-item n="num-card-cmp"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="z" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SNum"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/><lit-tag v="num.card.sg.nom"/>
-            </lu>
-            <lu>
-              <lit v="-"/><lit-tag v="guio"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
 
 
     

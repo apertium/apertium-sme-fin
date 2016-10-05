@@ -656,7 +656,7 @@
     <e><p><l>addi<s n="n"/><s n="nomag"/></l><r>antaja<s n="n"/></r></p></e>
     <e><p><l>adjektiiva<s n="n"/></l><r>adjektiivi<s n="n"/></r></p></e>
     <e><p><l>administrašuvdna<s n="n"/></l><r>hallinto<s n="n"/></r></p></e>
-    <e><p><l>adreassa<s n="n"/></l><r>osoite<s n="n"/></r></p></e>
+    <e><p><l>adreassa<s n="n"/><s n="g3"/></l><r>osoite<s n="n"/></r></p></e>
     <e><p><l>adveanta<s n="n"/></l><r>adventti<s n="n"/></r></p></e>
     <e><p><l>advearba<s n="n"/></l><r>adverbi<s n="n"/></r></p></e>
     <e><p><l>advokáhta<s n="n"/></l><r>asianajaja<s n="n"/></r></p></e>
@@ -921,7 +921,7 @@
     <e><p><l>beassan<s n="n"/></l><r>pääsy<s n="n"/></r></p></e>
     <e><p><l>beassansátni<s n="n"/></l><r>salasana<s n="n"/></r></p></e>
     <e><p><l>beassanláhki<s n="n"/></l><r>pääsy<s n="n"/></r></p></e>
-    <e><p><l>beassi<s n="n"/></l><r>pesä<s n="n"/></r></p></e>
+    <e><p><l>beassi<s n="n"/><s n="g3"/></l><r>pesä<s n="n"/></r></p></e>
     <e><p><l>beassášbeaivi<s n="n"/></l><r>pääsiäispäivä<s n="n"/></r></p></e>
     <e><p><l>beassášluopmu<s n="n"/></l><r>pääsiäisloma<s n="n"/></r></p></e>
     <e><p><l>beassážat<s n="n"/><s n="pl"/></l><r>pääsiäinen<s n="n"/><s n="pl"/></r></p></e>
@@ -3169,7 +3169,7 @@
     <e><p><l>mearridanváldi<s n="n"/></l><r>päätösvalta<s n="n"/></r></p></e>
     <e><p><l>mearrádus<s n="n"/></l><r>määräys<s n="n"/></r></p></e>
     <e><p><l>mearrádusevttohus<s n="n"/></l><r>päätösehdotus<s n="n"/></r></p></e>
-    <e><p><l>meassu<s n="n"/></l><r>messu<s n="n"/></r></p></e>
+    <e><p><l>meassu<s n="n"/><s n="g3"/></l><r>messu<s n="n"/></r></p></e>
     <e><p><l>meattáhus<s n="n"/></l><r>virhe<s n="n"/></r></p></e>
     <e><p><l>meaštár<s n="n"/></l><r>mestari<s n="n"/></r></p></e>
     <e><p><l>media<s n="n"/></l><r>media<s n="n"/></r></p></e>
@@ -3824,7 +3824,7 @@
     <e><p><l>rektor<s n="n"/></l><r>rehtori<s n="n"/></r></p></e>
     <e><p><l>replihkka<s n="n"/></l><r>repliikki<s n="n"/></r></p></e>
     <e><p><l>republihkka<s n="n"/></l><r>tasavalta<s n="n"/></r></p></e>
-    <e><p><l>restoráŋŋa<s n="n"/></l><r>ravintola<s n="n"/></r></p></e>
+    <e><p><l>restoráŋŋa<s n="n"/><s n="g3"/></l><r>ravintola<s n="n"/></r></p></e>
     <e><p><l>resursa<s n="n"/></l><r>resurssi<s n="n"/></r></p></e>
     <e><p><l>revolušuvdna<s n="n"/></l><r>vallankumous<s n="n"/></r></p></e>
     <e><p><l>reŋko<s n="n"/></l><r>palli<s n="n"/></r></p></e>
@@ -3917,7 +3917,7 @@
     <e><p><l>rohtu<s n="n"/></l><r>lehto<s n="n"/></r></p></e>
     <e><p><l>roibbon<s n="n"/></l><r>mutrusuu<s n="n"/></r></p></e>
     <e><p><l>rokkahat<s n="n"/></l><r>kaivanto<s n="n"/></r></p></e>
-    <e><p><l>rolla<s n="n"/></l><r>rooli<s n="n"/></r></p></e>
+    <e><p><l>rolla<s n="n"/><s n="g3"/></l><r>rooli<s n="n"/></r></p></e>
     <e><p><l>roman<s n="n"/></l><r>rumilus<s n="n"/></r></p></e>
     <e><p><l>romantihkka<s n="n"/></l><r>romantiikka<s n="n"/></r></p></e>
     <e><p><l>romat<s n="n"/></l><r>rumilus<s n="n"/></r></p></e>
@@ -10112,7 +10112,7 @@
 <e><p><l>liŋka<s n="n"/></l><r>linkki<s n="n"/></r></p></e>
 <e><p><l>diđolašvuohta<s n="n"/></l><r>tietoisuus<s n="n"/></r></p></e>
 <e><p><l>buresboahtin<s n="n"/></l><r>tervetulo<s n="n"/></r></p></e>
-<e><p><l>ealli<s n="n"/></l><r>eläin<s n="n"/></r></p></e>
+<e><p><l>ealli<s n="n"/><s n="nomag"/></l><r>eläin<s n="n"/></r></p></e>
 <e><p><l>seahtu<s n="n"/></l><r>säätiö<s n="n"/></r></p></e>
 <e><p><l>sámegákti<s n="n"/></l><r>saamelaispuku<s n="n"/></r></p></e>
 <e><p><l>ruoŧa<s n="adj"/></l><r>ruotsalainen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
@@ -10148,7 +10148,7 @@
 <e><p><l>goddi<s n="n"/></l><r>villiporo<s n="n"/></r></p></e>
 <e><p><l>doalli<s n="n"/></l><r>tenivä<s n="n"/></r></p></e>
 <e><p><l>doalli<s n="n"/></l><r>pitävä<s n="n"/></r></p></e>
-<e><p><l>ođas<s n="n"/></l><r>uusi<s n="n"/></r></p></e>
+<!--<e><p><l>ođas<s n="n"/></l><r>uusi<s n="n"/></r></p></e>-->
 <e><p><l>ođas<s n="n"/></l><r>uutinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>ságat<s n="n"/></l><r>uutiset<s n="n"/></r></p></e>
 <e><p><l>ságat<s n="n"/></l><r>uutinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
@@ -10162,11 +10162,11 @@
 <e><p><l>badjeolmmoš<s n="n"/></l><r>porosaamelainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>giella<s n="adj"/></l><r>kieli<s n="adj"/></r></p></e>
 <e><p><l>giella<s n="adj"/></l><r>ansa<s n="adj"/></r></p></e>
-<e><p><l>várra<s n="n"/></l><r>varmaan<s n="n"/></r></p></e>
+<!--<e><p><l>várra<s n="n"/></l><r>varmaan<s n="n"/></r></p></e>-->
 <e><p><l>riikkarádjá<s n="n"/></l><r>valtionraja<s n="n"/></r></p></e>
 <e><p><l>riikkarádjá<s n="n"/></l><r>riikinraja<s n="n"/></r></p></e>
-<e><p><l>busse<s n="n"/></l><r>pussi<s n="n"/></r></p></e>
-<e><p><l>busse<s n="n"/></l><r>bussi<s n="n"/></r></p></e>
+<e><p><l>busse<s n="n"/><s n="g3"/></l><r>pussi<s n="n"/></r></p></e>
+<e><p><l>busse<s n="n"/><s n="g3"/></l><r>bussi<s n="n"/></r></p></e>
 <e><p><l>heittot<s n="n"/></l><r>heikko<s n="n"/></r></p></e>
 <e><p><l>heittot<s n="n"/></l><r>huono<s n="n"/></r></p></e>
 <e><p><l>nissonolmmoš<s n="n"/></l><r>nainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
