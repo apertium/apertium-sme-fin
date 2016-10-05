@@ -270,6 +270,7 @@
       <attr-item tags="pl.com.attr"/>
       <attr-item tags="pl.loc.attr"/>
       <attr-item tags="sg.ill.attr"/>
+      <attr-item tags="pl.ill.attr"/>
       <attr-item tags="ND.CD"/>
     </def-attr>
     <def-attr n="a_adj">
@@ -739,21 +740,28 @@
              <and><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="se"/></equal>
                <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></and>
           </test>
-          <let><clip pos="1" side="tl" part="lem"/><lit v="ne"/></let> 
+          <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="ne"/></get-case-from></let> 
         </when>
         <when>
           <test>
              <and><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="tämä"/></equal>
                <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></and>
           </test>
-          <let><clip pos="1" side="tl" part="lem"/><lit v="ne"/></let> 
+          <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="ne"/></get-case-from></let> 
+        </when>
+        <when>
+          <test>
+             <and><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="nämä"/></equal>
+               <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal></and>
+          </test>
+          <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="tämä"/></get-case-from></let> 
         </when>
         <when>
           <test>
              <and><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="ne"/></equal>
                <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal></and>
           </test>
-          <let><clip pos="1" side="tl" part="lem"/><lit v="tämä"/></let> 
+          <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="tämä"/></get-case-from></let> 
         </when>
 
 
@@ -775,7 +783,7 @@
       <let><clip pos="3" side="tl" part="a_sem"/><lit v=""/></let>
     </def-macro>
 
-    <def-macro n="concord-nominal2" npar="2">
+    <def-macro n="concord-nominal2" npar="2"> <!-- 1: head, 2: modifier -->
       <choose>
         <when>
           <test><and><not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="koko"/></equal></not>
@@ -792,11 +800,13 @@
       </choose>
       <choose>
         <when>
-          <test><or>
-                     <equal><clip pos="2" side="sl" part="a_func"/><lit-tag v="@→N"/></equal>
+          <test><or> <!-- Either [@→N and not "moni" ], +Attr or [ not +Gen, +Dem ] -->
+                     <and><equal><clip pos="2" side="sl" part="a_func"/><lit-tag v="@→N"/></equal>
+                          <not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="moni"/></equal></not></and>
                      <and><not><equal><clip pos="2" side="tl" part="a_cas"/><lit-tag v="gen"/></equal></not>
-                     <not><equal><clip pos="2" side="tl" part="a_dem"/><lit v=""/></equal></not></and>
-                     <not><equal><clip pos="2" side="tl" part="a_attr"/><lit v=""/></equal></not> </or></test>
+                          <not><equal><clip pos="2" side="tl" part="a_dem"/><lit v=""/></equal></not></and>
+                     <not><equal><clip pos="2" side="tl" part="a_attr"/><lit v=""/></equal></not> </or>
+          </test>
           <let><clip pos="2" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
           <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
         </when>
@@ -1229,7 +1239,8 @@
         </when>-->
         <when>
           <test>
-               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></equal>
+               <or><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_be"/></equal>
+               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></equal></or>
           </test>
           <let><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_pa"/></let>
         </when>
@@ -1253,6 +1264,17 @@
             <clip pos="1" side="tl" part="tags"/><lit v="+kin"/><lit-tag v="adv"/></concat>
           </let> 
         </when>
+        <when>
+          <test>
+               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_naj"/></equal>
+          </test>
+          <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="whole"/><concat>
+            <lit v="kai"/><lit-tag v="part"/><lit v="$ ^"/>
+            <clip pos="1" side="tl" part="whole"/></concat>
+          </let> 
+        </when>
+
 
        </choose>    
      </def-macro>
@@ -1541,7 +1563,7 @@
         <call-macro n="pcle-foc1"><with-param pos="3"/></call-macro>
         <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
         <out>
-          <chunk name="a-n" case="caseFirstWord">
+          <chunk name="n-a-n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
             </tags>

@@ -470,7 +470,8 @@
     <e><p><l>goappašagat<s n="prn"/><s n="ind"/></l><r>molemmat<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>goappašat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>molemmat<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e>
 -->
-    <e><p><l>goappašagat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>molemmat<s n="prn"/></r></p></e>
+    <e><p><l>goappašagat<s n="prn"/><s n="ind"/><s n="pl"/><s n="nom"/></l><r>molemmat<s n="prn"/><s n="nom"/></r></p></e>
+    <e><p><l>goappašagat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>molemmat<s n="prn"/><s n="pl"/></r></p></e>
 
     <e><p><l>guhtege<s n="prn"/><s n="ind"/></l><r>kukin<s n="prn"/><s n="qnt"/></r></p></e>
 
@@ -4110,7 +4111,7 @@
     <e><p><l>savu<s n="n"/></l><r>suvanto<s n="n"/></r></p></e>
     <e><p><l>savvon<s n="n"/></l><r>suvanto<s n="n"/></r></p></e>
     <e><p><l>saŋáš<s n="n"/></l><r>syyhy<s n="n"/></r></p></e>
-    <e><p><l>seaguhus<s n="n"/></l><r>seostaa</r></p></e>
+    <!--<e><p><l>seaguhus<s n="n"/></l><r>seostaa</r></p></e>-->
     <e><p><l>seahki<s n="n"/></l><r>sekavuustila<s n="n"/></r></p></e>
     <e><p><l>seahkka<s n="n"/></l><r>reppu<s n="n"/></r></p></e>
     <e><p><l>seaibi<s n="n"/></l><r>häntä<s n="n"/></r></p></e>
@@ -10167,7 +10168,7 @@
 <e><p><l>busse<s n="n"/><s n="g3"/></l><r>pussi<s n="n"/></r></p></e>
 <e><p><l>busse<s n="n"/><s n="g3"/></l><r>bussi<s n="n"/></r></p></e>
 <e><p><l>heittot<s n="n"/></l><r>heikko<s n="n"/></r></p></e>
-<e><p><l>heittot<s n="n"/></l><r>huono<s n="n"/></r></p></e>
+<!--<e><p><l>heittot<s n="n"/></l><r>huono<s n="n"/></r></p></e>-->
 <e><p><l>nissonolmmoš<s n="n"/></l><r>nainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>nissonolmmoš<s n="n"/></l><r>naisihminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>sisti<s n="n"/></l><r>sisällä<s n="n"/></r></p></e>
