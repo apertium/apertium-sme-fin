@@ -195,7 +195,7 @@ Rules
 : /<= _ Adj :* N ;
 
 "Don't allow noun-participle compounds"
-: /<= _ N :* Prc ;
+: /<= _ [ Adj | N ] :* Prc ;
 
 "Don't allow imperative Sg1"
 : /<= _ %<imp%> %<p1%> %<sg%> ; 

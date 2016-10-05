@@ -102,6 +102,9 @@
     <def-cat n="num-acc">                           
       <cat-item tags="num.sg.acc.*"/>                  
     </def-cat>                                         
+    <def-cat n="num-card">                           
+      <cat-item tags="num.arab.*.@HNOUN"/>                  
+    </def-cat>                                         
     <def-cat n="num-card-cmp">                           
       <cat-item tags="num.arab.cmp_splitr"/>                  
       <cat-item tags="num.arab.cmp_splitr.*"/>                  
@@ -284,6 +287,7 @@
     </def-attr>
     <def-attr n="a_pos">
       <attr-item tags="n"/>
+      <attr-item tags="n.acr"/>
       <attr-item tags="adj"/>
       <attr-item tags="adv"/>
       <attr-item tags="num"/>
@@ -312,10 +316,13 @@
     </def-attr>
 
     <def-attr n="a_cmp">
+      <attr-item tags="cmp_attr.cmp_splitr"/>
       <attr-item tags="n.cmp"/>
       <attr-item tags="cmp.guio"/>
       <attr-item tags="cmp.hyph"/>
       <attr-item tags="cmp_sh.cmp"/>
+      <attr-item tags="cmp_sh.cmp_hyph.cmp"/>
+
 
       <attr-item tags="cmp_sgnom.cmp_hyph.cmp"/>
       <attr-item tags="cmp_sggen.cmp_hyph.cmp"/>
@@ -324,7 +331,6 @@
       <attr-item tags="cmp_sggen.cmp"/>
       <attr-item tags="cmp_sgnom.cmp_splitr"/>
       <attr-item tags="cmp_sggen.cmp_splitr"/>
-      <attr-item tags="cmp_attr.cmp_splitr"/>
 
       <attr-item tags="cmp_plnom.cmp_splitr"/>
       <attr-item tags="cmp_plgen.cmp_splitr"/>
@@ -1072,6 +1078,7 @@
         <when>
           <test><or><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sggen.cmp"/></equal>
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sggen.cmp_hyph.cmp"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sh.cmp_hyph.cmp"/></equal>
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sh.cmp"/></equal></or></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="sg.gen.cmp"/></let>
         </when>
@@ -1109,7 +1116,8 @@
           <let><clip pos="1" side="tl" part="a_cmp"/><lit v=""/></let>
         </when>
         <when>
-          <test><and><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="num"/></equal>
+          <test><and><or><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="num"/></equal>
+                         <equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="n.acr"/></equal></or>
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp.guio"/></equal></and></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><concat><lit-tag v="sg.nom"/><lit v="$^-"/><lit-tag v="guio"/></concat></let>
         </when>
@@ -1283,7 +1291,7 @@
  
 
     <def-macro n="pcle-foc2" npar="2">
-		<choose>   
+      <choose>   
         <when>
           <test>
                <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_gis"/></equal>
@@ -1313,10 +1321,11 @@
         <when>
           <test>
                <or><equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_neg-ge"/></equal>
-               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
+               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal>
+               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_kin"/></equal></or>
           </test>
           <let><clip pos="1" side="tl" part="tags"/><concat>
-          <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_kin"/></concat>
+          <clip pos="1" side="tl" part="tags"/><lit v="+kin"/><lit-tag v="adv"/></concat>
           </let> 
         </when>
 		</choose>    
@@ -1891,37 +1900,30 @@
     
     <!-- SECTION: Adverbials -->
 
-  
-  <!--  <rule comment="REGLA: n-gen to n-ess for time"> 
-        Not done. Válggat leat sotnabeaivve 2. 12. Vaalit ovat sunnuntaina 2. 12. -->
- <!--    <pattern>                                        
-        <pattern-item n="leat-fin"/>                 
-        <pattern-item n="n"/>                   
-        <pattern-item n="num"/>                   
-      </pattern>     
-      <action>
-        <let><clip pos="2" side="tl" part="x_func"/><lit v=""/></let> 
-        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let> 
-        <let><clip pos="2" side="tl" part="a_sem"/><lit v=""/></let> 
-	<out>
-          <chunk name="time">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-            <lu><clip pos="1" side="tl" part="whole"/></lu>
-	        <b/>
-            <lu><clip pos="2" side="tl" part=""/></lu>
-	        <b/>
-            <lu><clip pos="3" side="tl" part="whole"/></lu>
-          </chunk>
-        </out>
-      </action>                                  
-    </rule> 
-    -->
-
     <!-- SECTION: Numerals and quantifiers -->
 
-  
+ 
+    <rule comment="REGLA: NUM-CARD">
+      <pattern>
+        <pattern-item n="num-card"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion-nonfin1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="z" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SNum"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
   
     <rule comment="REGLA: num-nomacc n-sg to n-par"> <!-- Mun oainnán guokte nieidda. Minä näen kaksi tyttöä. -->                                            
       <pattern>                                        
@@ -2235,6 +2237,11 @@
         <call-macro n="remove-semtags1"><with-param pos="2"/></call-macro>
         <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="neg-verb-nonfin1"><with-param pos="1"/></call-macro>
+        <let><clip pos="2" side="tl" part="tags"/><concat>
+                     <clip pos="2" side="tl" part="tags"/>
+                     <clip pos="1" side="tl" part="a_nbr"/></concat></let>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
         <let><clip pos="1" side="tl" part="a_mood"/><lit v=""/></let>
         <out>
           <chunk name="ii-conneg" case="caseFirstWord">
@@ -2246,12 +2253,37 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="whole"/><clip pos="1" side="tl" part="a_nbr"/>
+              <clip pos="2" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: II FOC">
+      <pattern>
+        <pattern-item n="ii"/>
+        <pattern-item n="foc"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="neg-verb-nonfin1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_mood"/><lit v=""/></let>
+        <out>
+          <chunk name="ii" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.NEG"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
     <rule comment="REGLA: KO">
