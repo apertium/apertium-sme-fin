@@ -116,6 +116,10 @@
       <cat-item tags="adj.*.cmp_attr.cmp_splitr"/>
       <cat-item tags="adj.*.cmp_attr.cmp_splitr.*"/>
    </def-cat>  
+    <def-cat n="prop-cmp">
+      <cat-item tags="np.*.cmp_sgnom.cmp"/>
+      <cat-item tags="np.*.cmp_sgnom.cmp.*"/>
+   </def-cat>  
     <def-cat n="nom-cmp">
       <cat-item tags="n.cmp"/>
       <cat-item tags="n.*.cmp"/>
@@ -1230,7 +1234,9 @@
         </when>
         <when>
           <test>
-               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></equal>
+               <or>
+               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_be"/></equal>
+               <equal><clip pos="2" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></equal></or>
           </test>
           <let><clip pos="1" side="tl" part="tags"/><concat>
           <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_pa"/></concat>
@@ -1355,6 +1361,28 @@
     </rule>
 
     <!-- SECTION: Sintagmes nominals -->
+
+    <rule comment="REGLA: PROP-CMP">
+      <pattern>
+        <pattern-item n="prop-cmp"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: NOM-CMP">
       <pattern>
@@ -1918,6 +1946,8 @@
       <action>
         <call-macro n="remove-semtags2"><with-param pos="1"/><with-param pos="2"/></call-macro>
         <call-macro n="default-conversion2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
         <out>
           <chunk name="v-prc" case="caseFirstWord">
             <tags>
