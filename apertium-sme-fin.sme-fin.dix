@@ -10111,7 +10111,6 @@
 <e><p><l>oahpahusministeriija<s n="n"/></l><r>opetusministeriö<s n="n"/></r></p></e>
 <e><p><l>liŋka<s n="n"/></l><r>linkki<s n="n"/></r></p></e>
 <e><p><l>diđolašvuohta<s n="n"/></l><r>tietoisuus<s n="n"/></r></p></e>
-<e><p><l>buresboahtin<s n="n"/></l><r>tervetulo<s n="n"/></r></p></e>
 <e><p><l>ealli<s n="n"/><s n="nomag"/></l><r>eläin<s n="n"/></r></p></e>
 <e><p><l>seahtu<s n="n"/></l><r>säätiö<s n="n"/></r></p></e>
 <e><p><l>sámegákti<s n="n"/></l><r>saamelaispuku<s n="n"/></r></p></e>
@@ -10318,6 +10317,8 @@
 <e><p><l>boazodoallobearaš<s n="n"/></l><r>posio<s n="n"/></r></p></e>
 <e><p><l>biebmobázahusat<s n="n"/></l><r>koiranen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>áigeearru<s n="n"/></l><r>voimaton<s n="n"/></r></p></e>
+
+<e><p><l>buresboahtin<s n="n"/><s n="sg"/><s n="nom"/></l><r>tervetuloa<s n="part"/></r></p></e>
 
 
 </section>

@@ -559,7 +559,6 @@
       <attr-item tags="sem_measr_sign"/>
       <attr-item tags="sem_org_prod-cogn"/>
       
-      <attr-item tags="sem_act"/>
       <attr-item tags="sem_act_route"/>
       <attr-item tags="sem_act_plc"/>
       <attr-item tags="sem_amount"/>
@@ -735,6 +734,13 @@
  
     <def-macro n="lexical-cleanup1" npar="1">
 		<choose>   
+        <when>
+          <test>
+             <and><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="se"/></equal>
+               <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></and>
+          </test>
+          <let><clip pos="1" side="tl" part="lem"/><lit v="ne"/></let> 
+        </when>
         <when>
           <test>
              <and><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="tämä"/></equal>
