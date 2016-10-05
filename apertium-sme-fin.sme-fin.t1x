@@ -118,7 +118,9 @@
    </def-cat>  
     <def-cat n="nom-cmp">
       <cat-item tags="n.cmp"/>
+      <cat-item tags="n.*.cmp"/>
       <cat-item tags="n.cmp.*"/>
+      <cat-item tags="n.*.cmp.*"/>
       <cat-item tags="n.cmp_sgnom.cmp"/>
       <cat-item tags="n.cmp_sgnom.cmp_splitr"/>
       <cat-item tags="n.cmp_sgnom.cmp_splitr.*"/>
@@ -1181,9 +1183,7 @@
           <test>
                <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></equal>
           </test>
-          <let><clip pos="1" side="tl" part="tags"/><concat>
-            <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_pa"/></concat>
-          </let> 
+          <let><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_pa"/></let>
         </when>
         <when>
           <test>

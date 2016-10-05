@@ -2,6 +2,8 @@ Alphabet
 
 %<adj%>
 %<n%>
+%<prsprc%> 
+%<prtprc%> 
 %<cmp%>
 %<rcmpnd%>
 
@@ -80,6 +82,11 @@ Adj =
 
 N = 
 %<n%> 
+;
+
+Prc = 
+%<prsprc%> 
+%<prtprc%> 
 ;
 
 Derivations =
@@ -186,6 +193,9 @@ Rules
 
 "Don't allow adjective-noun compounds"
 : /<= _ Adj :* N ;
+
+"Don't allow noun-participle compounds"
+: /<= _ N :* Prc ;
 
 "Don't allow imperative Sg1"
 : /<= _ %<imp%> %<p1%> %<sg%> ; 
