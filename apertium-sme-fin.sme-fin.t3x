@@ -6,6 +6,7 @@
       <cat-item name="n"/>
       <cat-item name="a"/>
       <cat-item name="prn"/>
+      <cat-item name="conneg"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item name="punt"/>
