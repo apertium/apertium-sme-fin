@@ -229,6 +229,18 @@
     <match lemma="biebmu" tags="n.*"><select lemma="ravinto" tags="n.*"/></match>
   </rule>
 
+  <rule weight="0.9">
+    <match lemma="gáhttu" tags="n.*"><select lemma="katto" tags="n.*"/></match>
+    <match lemma="organisašuvdna" tags="n.*"/>
+  </rule>
+  <rule weight="0.9">
+    <match lemma="gáhttu" tags="n.*"><select lemma="katto" tags="n.*"/></match>
+  </rule>
+  <rule weight="1.0">
+    <match lemma="gáhttu" tags="n.*"><select lemma="kissa" tags="n.*"/></match>
+  </rule>
+
+
   <rule weight="1.0">
     <match lemma="báhkka" tags="n.*"><select lemma="paketti" tags="n.*"/></match>
   </rule>
