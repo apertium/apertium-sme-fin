@@ -5672,6 +5672,16 @@
     <!--<e><p><l>Čorgaš<s n="np"/><s n="top"/></l><r>Čorgaš<s n="np"/></r></p></e>-->
     <!--<e><p><l>Čáhcesuolu<s n="np"/><s n="top"/></l><r>Čáhcesuolu<s n="np"/></r></p></e>-->
     <!--<e><p><l>Šuoššjávri<s n="np"/><s n="top"/></l><r>Šuoššjávri<s n="np"/></r></p></e>-->
+
+    <e><p><l>Larsson<s n="np"/><s n="cog"/></l><r>Larsson<s n="np"/></r></p></e>
+    <e><p><l>Erlandsson<s n="np"/><s n="cog"/></l><r>Erlandsson<s n="np"/></r></p></e>
+    <e><p><l>Gustafsson<s n="np"/><s n="cog"/></l><r>Gustafsson<s n="np"/></r></p></e>
+    <e><p><l>Henriksson<s n="np"/><s n="cog"/></l><r>Henriksson<s n="np"/></r></p></e>
+    <e><p><l>Jakobsson<s n="np"/><s n="cog"/></l><r>Jakobsson<s n="np"/></r></p></e>
+    <e><p><l>Jonsson<s n="np"/><s n="cog"/></l><r>Jonsson<s n="np"/></r></p></e>
+    <e><p><l>Mattsson<s n="np"/><s n="cog"/></l><r>Mattsson<s n="np"/></r></p></e>
+    
+
     <e><p><l>Abba<s n="np"/><s n="ant"/><s n="f"/></l><r>Abba<s n="np"/></r></p></e>
     <e><p><l>Abel<s n="np"/><s n="ant"/><s n="m"/></l><r>Aabel<s n="np"/></r></p></e>
     <e><p><l>Abraham<s n="np"/><s n="ant"/><s n="m"/></l><r>Aabraham<s n="np"/></r></p></e>
