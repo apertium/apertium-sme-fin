@@ -1,5 +1,7 @@
 Alphabet
 
+%<adj%>
+%<n%>
 %<cmp%>
 %<rcmpnd%>
 
@@ -70,6 +72,14 @@ Sets
 Cmp =
 %<cmp%>
 %<rcmpnd%>
+;
+
+Adj = 
+%<adj%>
+;
+
+N = 
+%<n%> 
 ;
 
 Derivations =
@@ -173,6 +183,12 @@ Rules
 
 "Don't allow more than two left-compounds"
 : /<= _ Cmp :* Cmp :* Cmp ;
+
+"Don't allow adjective-noun compounds"
+: /<= _ Adj :* N ;
+
+"Don't allow imperative Sg1"
+: /<= _ %<imp%> %<p1%> %<sg%> ; 
 
 "Don't allow derivations of derivations"
 : /<= _ Derivations :* Derivations ;

@@ -3,7 +3,9 @@
 <postchunk>
   <section-def-cats>
     <def-cat n="default">
-      <cat-item name="*"/>
+      <cat-item name="n"/>
+      <cat-item name="a"/>
+      <cat-item name="prn"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item name="punt"/>
