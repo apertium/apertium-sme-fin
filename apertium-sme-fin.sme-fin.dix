@@ -91,6 +91,7 @@
     <sdef n="Agr"        c="Agreeing adjective"/>
     <sdef n="ND"        c="Number to be determined"/>
     <sdef n="nom"        c=""/>
+    <sdef n="acc"        c=""/>
     <sdef n="all"        c=""/>
     <sdef n="gen"        c=""/>
 
@@ -451,7 +452,9 @@
       <!--<e><p><l>buohkat<s n="prn"/><s n="ind"/></l><r>kaikki<s n="prn"/></r></p></e>-->
 <!--    <e><p><l>mihkkege<s n="prn"/><s n="ind"/></l><r>mikään<s n="prn"/><s n="qnt"/></r></p></e> -->
     <e><p><l>mihkke<s n="prn"/><s n="ind"/><s n="sg"/><s n="nom"/><s n="foc_neg-ge"/></l><r>mikään<s n="prn"/><s n="qnt"/><s n="sg"/><s n="nom"/></r></p></e>
+    <e><p><l>mihkke<s n="prn"/><s n="ind"/><s n="sg"/><s n="acc"/><s n="foc_neg-ge"/></l><r>mikään<s n="prn"/><s n="qnt"/><s n="sg"/><s n="gen"/></r></p></e>
     
+    <e><p><l>gii<s n="prn"/><s n="ind"/></l><r>muu<s n="prn"/></r></p></e>
 
     <e><p><l>muhtin<s n="prn"/><s n="ind"/></l><r>muutama<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>soamis<s n="prn"/><s n="ind"/></l><r>joku<s n="prn"/></r></p></e>   
@@ -10913,6 +10916,10 @@
 <e><p><l>Xia<s n="np"/><s n="cog"/></l><r>Xia<s n="np"/></r></p></e>
 <e><p><l>Xia<s n="np"/><s n="top"/></l><r>Xia<s n="np"/></r></p></e>
 <e><p><l>Young<s n="np"/><s n="cog"/></l><r>Young<s n="np"/></r></p></e>
+
+<e><p><l>Tiina<s n="np"/><s n="ant"/><s n="f"/></l><r>Tiina<s n="np"/></r></p></e>
+<e><p><l>Klemetti<s n="np"/><s n="ant"/><s n="m"/></l><r>Klemetti<s n="np"/></r></p></e>
+<e><p><l>Heikki<s n="np"/><s n="ant"/><s n="m"/></l><r>Heikki<s n="np"/></r></p></e>
 
 
 <e><p><l>sámevuohta<s n="n"/></l><r>saamelaisuus<s n="n"/></r></p></e>

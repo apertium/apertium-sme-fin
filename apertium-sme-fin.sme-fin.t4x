@@ -13,6 +13,7 @@
     <def-cat n="clit">
       <cat-item lemma="kaan" tags="adv"/>
       <cat-item lemma="kin" tags="adv"/>
+      <cat-item lemma="kin" tags="foc_kin"/>
       <cat-item lemma="ko" tags="qst"/>
     </def-cat>
    
@@ -39,6 +40,7 @@
     <def-attr n="a_pos">
       <attr-item tags="adv"/>
       <attr-item tags="pcle"/>
+      <attr-item tags="foc_kin"/>
       <attr-item tags="part"/>
     </def-attr>
 
@@ -76,6 +78,12 @@
 
   <section-def-macros>
     <def-macro n="fixup1" npar="1">
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="foc_kin"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_pos"/><lit-tag v="adv"/></let>
+        </when>
+      </choose>
       <choose>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="CD"/></equal></test>
