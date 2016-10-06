@@ -10223,8 +10223,8 @@
 <e><p><l>dušši<s n="adj"/></l><r>tyhjänpäiväisyys<s n="adj"/></r></p></e>
 <e><p><l>čora<s n="n"/></l><r>porotokka<s n="n"/></r></p></e>
 <e><p><l>čora<s n="n"/></l><r>parttio<s n="n"/></r></p></e>
-<e><p><l>ráđđeaddi<s n="adj"/></l><r>neuvonantaja<s n="adj"/></r></p></e>
-<e><p><l>ráđđeaddi<s n="adj"/></l><r>neuvoja<s n="adj"/></r></p></e>
+<!--<e><p><l>ráđđeaddi<s n="adj"/></l><r>neuvonantaja<s n="adj"/></r></p></e>-->
+<!--<e><p><l>ráđđeaddi<s n="adj"/></l><r>neuvoja<s n="adj"/></r></p></e>-->
 <e><p><l>čuoika<s n="n"/></l><r>sääski<s n="n"/></r></p></e>
 <e><p><l>čuoika<s n="n"/></l><r>hyttynen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <!--<e><p><l>vuovdi<s n="adj"/></l><r>metsä<s n="adj"/></r></p></e>-->
@@ -10248,8 +10248,8 @@
 <e><p><l>guoddi<s n="n"/><s n="nomag"/></l><r>kantaja<s n="n"/></r></p></e>
 <e><p><l>eanet<s n="adj"/><s n="sup"/></l><r>enemmän<s n="adj"/></r></p></e>
 <e><p><l>eanet<s n="adj"/><s n="sup"/></l><r>usea<s n="adj"/><s n="sup"/></r></p></e>
-<e><p><l>čuovgat<s n="vblex"/><s n="tv"/></l><r>valoisaa<s n="vblex"/></r></p><par n="V_V"/></e>
-<e><p><l>čuovgat<s n="vblex"/><s n="tv"/></l><r>vaalea<s n="vblex"/></r></p><par n="V_V"/></e>
+<!--<e><p><l>čuovgat<s n="vblex"/><s n="tv"/></l><r>valoisaa<s n="vblex"/></r></p><par n="V_V"/></e>-->
+<!--<e><p><l>čuovgat<s n="vblex"/><s n="tv"/></l><r>vaalea<s n="vblex"/></r></p><par n="V_V"/></e>-->
 <e><p><l>bassi<s n="adj"/></l><r>pyhä<s n="adj"/></r></p></e>
 <e><p><l>bassi<s n="adj"/></l><r>siivoja<s n="adj"/></r></p></e>
 <e><p><l>vearrái<s n="adj"/></l><r>hankala<s n="adj"/></r></p></e>
@@ -10263,7 +10263,7 @@
 <e><p><l>muohtti<s n="n"/></l><r>lumisää<s n="n"/></r></p></e>
 <e><p><l>mánáš<s n="n"/></l><r>lapsonen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>loaidu<s n="n"/></l><r>loito<s n="n"/></r></p></e>
-<e><p><l>lávlu<s n="adj"/></l><r>laulajatar<s n="adj"/></r></p></e>
+<!--<e><p><l>lávlu<s n="adj"/></l><r>laulajatar<s n="adj"/></r></p></e>-->
 <e><p><l>láđđegákti<s n="n"/></l><r>verkapuku<s n="n"/></r></p></e>
 <e><p><l>láđđegákti<s n="n"/></l><r>verkalapintakki<s n="n"/></r></p></e>
 <e><p><l>hiŋggal<s n="n"/></l><r>pilttu<s n="n"/></r></p></e>
@@ -10285,7 +10285,7 @@
 <e><p><l>lávet<s n="vblex"/><s n="tv"/></l><r>ruukata<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>dihttot<s n="vblex"/><s n="iv"/></l><r>näyttäytyä<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>dihttot<s n="vblex"/><s n="iv"/></l><r>ilmetä<s n="vblex"/></r></p><par n="V_V"/></e>
-<e><p><l>vuoddji<s n="adj"/></l><r>ajaja<s n="adj"/></r></p></e>
+<!--<e><p><l>vuoddji<s n="adj"/></l><r>ajaja<s n="adj"/></r></p></e>-->
 <e><p><l>vearrái<s n="adj"/><s n="sup"/></l><r>hankala<s n="adj"/></r></p></e>
 <e><p><l>vearrái<s n="adj"/><s n="sup"/></l><r>paha<s n="adj"/></r></p></e>
 <e><p><l>vahkkosaš<s n="adj"/></l><r>viikoittainen<s n="adj"/></r></p><par n="ihmi/nen"/></e>

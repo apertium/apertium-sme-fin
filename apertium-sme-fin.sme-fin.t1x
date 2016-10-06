@@ -129,20 +129,26 @@
       <cat-item tags="np.top.cmp.*"/>
       <cat-item tags="np.top.cmp"/>
    </def-cat>  
+
+    <def-cat n="nom-cmp-splitr">
+      <cat-item tags="n.cmp_sgnom.cmp_splitr"/>
+      <cat-item tags="n.cmp_sgnom.cmp_splitr.*"/>
+      <cat-item tags="n.*.cmp_sgnom.cmp_splitr.*"/>
+      <cat-item tags="n.*.cmp_plgen.cmp_splitr"/>
+      <cat-item tags="n.*.cmp_plgen.cmp_splitr.*"/>
+   </def-cat>  
+
     <def-cat n="nom-cmp">
       <cat-item tags="n.cmp"/>
       <cat-item tags="n.*.cmp"/>
       <cat-item tags="n.cmp.*"/>
       <cat-item tags="n.*.cmp.*"/>
       <cat-item tags="n.cmp_sgnom.cmp"/>
-      <cat-item tags="n.cmp_sgnom.cmp_splitr"/>
-      <cat-item tags="n.cmp_sgnom.cmp_splitr.*"/>
       <cat-item tags="n.cmp_sgnom.cmp.*"/>
       <cat-item tags="n.cmp_sggen.cmp"/>
       <cat-item tags="n.cmp_sggen.cmp.*"/>
       <cat-item tags="n.*.cmp_sgnom.cmp"/>
       <cat-item tags="n.*.cmp_sh.cmp"/>
-      <cat-item tags="n.*.cmp_sgnom.cmp_splitr.*"/>
       <cat-item tags="n.*.cmp_sgnom.cmp.*"/>
       <cat-item tags="n.*.cmp_sggen.cmp"/>
       <cat-item tags="n.*.cmp_sggen.cmp.*"/>
@@ -162,8 +168,6 @@
       <cat-item tags="n.*.cmp_plnom.cmp.*"/>
       <cat-item tags="n.*.cmp_plgen.cmp"/>
       <cat-item tags="n.*.cmp_plgen.cmp.*"/>
-      <cat-item tags="n.*.cmp_plgen.cmp_splitr"/>
-      <cat-item tags="n.*.cmp_plgen.cmp_splitr.*"/>
       <cat-item tags="n.cmp_plnom.cmp_hyph.cmp"/>
       <cat-item tags="n.cmp_plnom.cmp_hyph.cmp.*"/>
       <cat-item tags="n.cmp_plgen.cmp_hyph.cmp"/>
@@ -1465,6 +1469,28 @@
             </lu>
             <lu>
               <lit v="-"/><lit-tag v="guio"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: NOM-CMP-SPLITR">
+      <pattern>
+        <pattern-item n="nom-cmp-splitr"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n-" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>

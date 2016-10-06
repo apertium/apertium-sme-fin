@@ -8,6 +8,8 @@ Alphabet
 %<cmp%>
 %<rcmpnd%>
 
+%<foc%_son%>
+
 %<der%_car%>
 %<der%_caus%>
 %<der%_dimin%>
@@ -89,6 +91,10 @@ Prc =
 %<prsprc%> 
 %<prtprc%> 
 %<prfprc%> 
+;
+
+UnhandledFoc = 
+%<foc%_son%>
 ;
 
 Derivations =
@@ -195,6 +201,9 @@ Rules
 
 "Don't allow adjective-noun compounds"
 : /<= _ Adj :* N ;
+
+"Don't allow +Foc/son"
+: /<= _ :* UnhandledFoc ;
 
 "Don't allow noun-participle compounds"
 : /<= _ [ Adj | N ] :* Prc ;
