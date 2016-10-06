@@ -92,6 +92,7 @@
     <sdef n="Agr"        c="Agreeing adjective"/>
     <sdef n="ND"        c="Number to be determined"/>
     <sdef n="nom"        c=""/>
+    <sdef n="all"        c=""/>
     <sdef n="gen"        c=""/>
 
     <sdef n="der_s"        c=""/>
@@ -7483,7 +7484,7 @@
     <e><p><l>ovddabealde<s n="adv"/></l><r>edeltä<s n="adv"/></r></p></e>
     <e><p><l>ovddabealde<s n="adv"/></l><r>edestä<s n="adv"/></r></p></e>
     <e><p><l>ovddabeale<s n="adv"/></l><r>edellä<s n="adv"/></r></p></e>
-    <e><p><l>ovddabeallai<s n="adv"/></l><r>edelle<s n="adv"/></r></p></e>
+    <e><p><l>ovddabeallai<s n="adv"/></l><r>edelle<s n="adv"/><s n="all"/></r></p></e>
     <e><p><l>ovddalgihtii<s n="adv"/></l><r>edeltäpäin<s n="adv"/></r></p></e>
     <e><p><l>ovddežis<s n="adv"/></l><r>ennestään<s n="adv"/></r></p></e>
     <e><p><l>ovddos<s n="adv"/></l><r>eteenpäin<s n="adv"/></r></p></e>
