@@ -208,8 +208,8 @@ Rules
 "Don't allow noun-participle compounds"
 : /<= _ [ Adj | N ] :* Prc ;
 
-"Don't allow imperative Sg1"
-: /<= _ %<imp%> %<p1%> %<sg%> ; 
+"Don't allow imperative in 1st person"
+: /<= _ %<imp%> %<p1%>  ; 
 
 "Don't allow derivations of derivations"
 : /<= _ Derivations :* Derivations ;

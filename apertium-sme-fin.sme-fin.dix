@@ -163,7 +163,7 @@
     
     <e><p><l>muhto<s n="cnjcoo"/></l><r>vaan<s n="part"/></r></p></e>
 
-    <e r="LR"><p><l>maŋŋágo<s n="cnjsub"/></l><r>jälkeen<b/>kuin<s n="adv"/></r></p></e> <!-- FIX -->
+    <!--<e r="LR"><p><l>maŋŋágo<s n="cnjsub"/></l><r>jälkeen<b/>kuin<s n="adv"/></r></p></e>--> <!-- FIX -->
 
     <!-- SECTION: Adpositions -->
 
@@ -2092,8 +2092,8 @@
     <e><p><l>gilvvohallan<s n="n"/></l><r>kilpailu<s n="n"/></r></p></e>
     <e><p><l>giláš<s n="n"/></l><r>kylä<s n="n"/></r></p></e>
     <e><p><l>ginttal<s n="n"/></l><r>kynttilä<s n="n"/></r></p></e>
-    <e><p><l>girdi<s n="n"/><s n="g3"/></l><r>lentokone<s n="n"/></r></p></e>
-    <e><p><l>girdi<s n="n"/><s n="g3"/></l><r>lentäjä<s n="n"/></r></p></e>
+    <e><p><l>girdi<s n="n"/><s n="nomag"/></l><r>lentokone<s n="n"/></r></p></e>
+    <e><p><l>girdi<s n="n"/><s n="nomag"/></l><r>lentäjä<s n="n"/></r></p></e>
     <e><p><l>girdišillju<s n="n"/></l><r>lentokenttä<s n="n"/></r></p></e>
     <e><p><l>girdno<s n="n"/></l><r>kirnu<s n="n"/></r></p></e>
     <e><p><l>girjegávpi<s n="n"/></l><r>kirjakauppa<s n="n"/></r></p></e>
@@ -5801,7 +5801,7 @@
     <e><p><l>Evo<s n="np"/><s n="ant"/><s n="m"/></l><r>Evo<s n="np"/></r></p></e>
     <e><p><l>Evo<s n="np"/><s n="org"/></l><r>Evo<s n="np"/></r></p></e>
     <e><p><l>Evá<s n="np"/><s n="ant"/><s n="f"/></l><r>Eeva<s n="np"/></r></p></e>
-    <e><p><l>Fanasgieddi<s n="np"/><s n="top"/></l><r>Venekentä´tä<s n="np"/></r></p></e>
+<!--    <e><p><l>Fanasgieddi<s n="np"/><s n="top"/></l><r>Venekentä´tä<s n="np"/></r></p></e>-->
     <e><p><l>Finnmárku<s n="np"/><s n="top"/></l><r>Finnmark<s n="np"/></r></p></e>
     <e><p><l>Finnmárku<s n="np"/><s n="top"/></l><r>Ruija<s n="np"/></r></p></e>
     <e><p><l>Flash<s n="np"/><s n="ant"/><s n="m"/></l><r>Flash<s n="np"/></r></p></e>
@@ -5813,7 +5813,7 @@
     <e><p><l>Gamiljohka<s n="np"/><s n="top"/></l><r>Kamiljoki<s n="np"/></r></p></e>
     <e><p><l>Ganešjávri<s n="np"/><s n="top"/></l><r>Kenesjärvi<s n="np"/></r></p></e>
     <e><p><l>Garitjávri<s n="np"/><s n="top"/></l><r>Kirakkajärvi<s n="np"/></r></p></e>
-    <e><p><l>Gaska-Norga<s n="np"/><s n="top"/></l><r>Keski-Norja<s n="np"/></r></p></e>
+<!--    <e><p><l>Gaska-Norga<s n="np"/><s n="top"/></l><r>Keski-Norja<s n="np"/></r></p></e>-->
     <e><p><l>Gaskamearra<s n="np"/><s n="top"/></l><r>Välimeri<s n="np"/></r></p></e>
     <e><p><l>Gaup<s n="np"/><s n="cog"/></l><r>Gaup<s n="np"/></r></p></e>
     <e><p><l>Geahkkil<s n="np"/><s n="top"/></l><r>Käkkälöjoki<s n="np"/></r></p></e>
@@ -5906,7 +5906,6 @@
     <e><p><l>Jesaja<s n="np"/><s n="ant"/><s n="m"/></l><r>Jesaja<s n="np"/></r></p></e>
     <e><p><l>Jiekŋamearra<s n="np"/><s n="top"/></l><r>Jäämeri<s n="np"/></r></p></e>
     <e><p><l>Jiekŋaáhpi<s n="np"/><s n="top"/></l><r>Jäämeri<s n="np"/></r></p></e>
-    <e><p><l>Joganjálbmi<s n="np"/><s n="top"/></l><r>Joensuu<s n="np"/></r></p></e>
     <e><p><l>Johan<s n="np"/><s n="ant"/><s n="m"/></l><r>Johan<s n="np"/></r></p></e>
     <e><p><l>John<s n="np"/><s n="ant"/><s n="m"/></l><r>John<s n="np"/></r></p></e>
     <e><p><l>Josef<s n="np"/><s n="ant"/><s n="m"/></l><r>Josef<s n="np"/></r></p></e>
@@ -10172,7 +10171,7 @@
 <e><p><l>doalli<s n="n"/></l><r>pitävä<s n="n"/></r></p></e>
 <!--<e><p><l>ođas<s n="n"/></l><r>uusi<s n="n"/></r></p></e>-->
 <e><p><l>ođas<s n="n"/></l><r>uutinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
-<e><p><l>ságat<s n="n"/></l><r>uutiset<s n="n"/></r></p></e>
+<e><p><l>ságat<s n="n"/><s n="sg"/></l><r>uutiset<s n="n"/><s n="pl"/></r></p></e>
 <e><p><l>ságat<s n="n"/></l><r>uutinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>solju<s n="n"/></l><r>risku<s n="n"/></r></p></e>
 <e><p><l>solju<s n="n"/></l><r>rintakoru<s n="n"/></r></p></e>
@@ -10273,8 +10272,6 @@
 <e><p><l>láđđegákti<s n="n"/></l><r>verkalapintakki<s n="n"/></r></p></e>
 <e><p><l>hiŋggal<s n="n"/></l><r>pilttu<s n="n"/></r></p></e>
 <e><p><l>hiŋggal<s n="n"/></l><r>parsi<s n="n"/></r></p></e>
-<e><p><l>girdi<s n="n"/></l><r>lentokone<s n="n"/></r></p></e>
-<e><p><l>girdi<s n="n"/></l><r>lentäjä<s n="n"/></r></p></e>
 <!--<e><p><l>gievra<s n="n"/></l><r>vahva<s n="n"/></r></p></e>-->
 <e><p><l>gievra<s n="adj"/></l><r>vahva<s n="adj"/></r></p></e>
 <!--<e><p><l>gievra<s n="n"/></l><r>voimakas<s n="n"/></r></p></e>-->
@@ -10394,7 +10391,7 @@
 <e><p><l>fidnen<s n="n"/></l><r>pääsy<s n="n"/></r></p></e>
 <e><p><l>čuoigangilvu<s n="n"/></l><r>hiihtokilpailu<s n="n"/></r></p></e>
 <e><p><l>ceavzil<s n="adj"/></l><r>kestävä<s n="adj"/></r></p></e>
-<e><p><l>bearráigeahčči<s n="n"/></l><r>tarkistaja<s n="n"/></r></p></e>
+<e><p><l>bearráigeahčči<s n="n"/><s n="nomag"/></l><r>tarkistaja<s n="n"/></r></p></e>
 <e><p><l>bálkkašanlávdegoddi<s n="n"/></l><r>palkintolautakunta<s n="n"/></r></p></e>
 <e><p><l>searvedoaibma<s n="n"/></l><r>seuratoiminta<s n="n"/></r></p></e>
 <e><p><l>ovttastupmi<s n="n"/></l><r>yhdistyminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
@@ -10448,7 +10445,7 @@
 <e><p><l>háhkan<s n="n"/></l><r>investointi<s n="n"/></r></p></e>
 <e><p><l>geavahanvuohki<s n="n"/></l><r>käyttötapa<s n="n"/></r></p></e>
 <e><p><l>gáiddusoahpahus<s n="n"/></l><r>etäopetus<s n="n"/></r></p></e>
-<e><p><l>fuođđu<s n="n"/></l><r>riista<s n="n"/></r></p></e>
+<e><p><l>fuođđu<s n="n"/><s n="g3"/></l><r>riista<s n="n"/></r></p></e>
 <e><p><l>fitnodatolmmoš<s n="n"/></l><r>yrittäjä<s n="n"/></r></p></e>
 <e><p><l>fitnodatdoalli<s n="n"/><s n="nomag"/></l><r>yritystoiminta<s n="n"/></r></p></e>
 <e><p><l>ekumenalaš<s n="adj"/></l><r>ekumeeninen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
@@ -11199,6 +11196,8 @@
 <e><p><l>Yleisradio<s n="np"/></l><r>Yleisradio<s n="np"/></r></p></e>
 <e><p><l>York<s n="np"/><s n="top"/></l><r>York<s n="np"/></r></p></e>
 <e><p><l>Yritys<s n="np"/></l><r>Yritys<s n="np"/></r></p></e>
+
+<!--    <e><p><l>Joganjálbmi<s n="np"/><s n="top"/></l><r>Joensuu<s n="np"/></r></p></e>-->
 
 <e><p><l>sámevuohta<s n="n"/></l><r>saamelaisuus<s n="n"/></r></p></e>
 <e><p><l>ee<s n="adv"/><s n="abbr"/></l><r>esim.<s n="part"/></r></p></e>

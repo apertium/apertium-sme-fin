@@ -17,6 +17,10 @@
       <cat-item lemma="kin" tags="foc_kin"/>
       <cat-item lemma="ko" tags="qst"/>
     </def-cat>
+
+    <def-cat n="clit-tag">
+      <cat-item lemma="han" tags="foc_han"/>
+    </def-cat>
    
   </section-def-cats>
   
@@ -38,10 +42,17 @@
       <attr-item tags="ND"/>
     </def-attr>
        
+    <def-attr n="a_foc">
+      <attr-item tags="foc_kin"/>
+      <attr-item tags="foc_han"/>
+    </def-attr>
+
+       
     <def-attr n="a_pos">
       <attr-item tags="adv"/>
       <attr-item tags="pcle"/>
       <attr-item tags="foc_kin"/>
+      <attr-item tags="foc_han"/>
       <attr-item tags="part"/>
     </def-attr>
 
@@ -120,6 +131,7 @@
       <attr-item tags="sem_clth-jewl_org"/>
       <attr-item tags="sem_clth-part"/>
       <attr-item tags="sem_ctain"/>
+      <attr-item tags="sem_ctain_plc"/>
       <attr-item tags="sem_ctain-abstr"/>
       <attr-item tags="sem_ctain-clth"/>
       <attr-item tags="sem_ctain-clth_veh"/>
@@ -151,6 +163,7 @@
       <attr-item tags="sem_food-med"/>
       <attr-item tags="sem_food_plant"/>
       <attr-item tags="sem_furn"/>
+      <attr-item tags="sem_game"/>
       <attr-item tags="sem_game_obj-play"/>
       <attr-item tags="sem_geom"/>
       <attr-item tags="sem_group"/>
@@ -345,6 +358,19 @@
         </out>
       </action>
     </rule>
-     
+
+    <rule comment=""> 
+      <pattern>
+        <pattern-item n="default"/>
+        <pattern-item n="clit-tag"/>
+      </pattern>
+      <action>
+        <call-macro n="fixup1"><with-param pos="1"/></call-macro>
+        <out>
+          <lu><clip pos="1" side="tl" part="whole"/><clip pos="2" side="tl" part="a_foc"/></lu>
+        </out>
+      </action>
+    </rule>
+      
   </section-rules>
 </transfer>

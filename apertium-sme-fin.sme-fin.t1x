@@ -621,6 +621,7 @@
       <attr-item tags="sem_clth-jewl_org"/>
       <attr-item tags="sem_clth-part"/>
       <attr-item tags="sem_ctain"/>
+      <attr-item tags="sem_ctain_plc"/>
       <attr-item tags="sem_ctain-abstr"/>
       <attr-item tags="sem_ctain-clth"/>
       <attr-item tags="sem_ctain-clth_veh"/>
@@ -652,6 +653,7 @@
       <attr-item tags="sem_food-med"/>
       <attr-item tags="sem_food_plant"/>
       <attr-item tags="sem_furn"/>
+      <attr-item tags="sem_game"/>
       <attr-item tags="sem_game_obj-play"/>
       <attr-item tags="sem_geom"/>
       <attr-item tags="sem_group"/>
