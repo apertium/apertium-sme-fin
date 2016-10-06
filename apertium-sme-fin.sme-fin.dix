@@ -8,6 +8,7 @@
     <sdef n="punct"    c="Punctuation"/>
     <sdef n="CLB"      c="Clause boundary"/>
     <sdef n="cm"      c="Comma"/>
+    <sdef n="abbr"      c=""/>
     <sdef n="clb"      c="Clause boundary"/>
     <sdef n="adj"        c="Adjective"/>
     <sdef n="qst"        c="Question word"/>
@@ -10923,6 +10924,7 @@
 
 
 <e><p><l>sámevuohta<s n="n"/></l><r>saamelaisuus<s n="n"/></r></p></e>
+<e><p><l>ee<s n="adv"/><s n="abbr"/></l><r>esim.<s n="part"/></r></p></e>
 
 
 <e><p><l>buresboahtin<s n="n"/><s n="sg"/><s n="nom"/></l><r>tervetuloa<s n="part"/></r></p></e>

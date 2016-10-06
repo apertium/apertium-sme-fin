@@ -279,7 +279,7 @@
         <file name="apertium-sme-fin.sme-fin.t3x"/>
         <file name="sme-fin.t3x.bin"/>
       </program>
-      <program name="apertium-transfer -n">
+      <program name="apertium-transfer -n -t">
         <file name="apertium-sme-fin.sme-fin.t4x"/>
         <file name="sme-fin.t4x.bin"/>
       </program>
