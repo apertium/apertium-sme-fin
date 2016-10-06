@@ -1693,6 +1693,38 @@
         </out>
       </action>
     </rule>
+ 
+    <!-- MOVE THIS RULE TO MACROS -->
+    <rule comment="REGLA: num-nomacc n-sg to n-par"> <!-- Mun oainnán guokte nieidda. Minä näen kaksi tyttöä. -->    
+      <pattern>                                        
+        <pattern-item n="num-nomacc"/>                 
+        <pattern-item n="n-sg-accgen"/>                   
+      </pattern>     
+      <action>
+        <call-macro n="num-nom1"><with-param pos="1"/></call-macro>
+        <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+          <let><clip pos="2" side="tl" part="a_cas"/><lit-tag v="par"/></let> 
+	<out>
+          <chunk name="z-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="lem"/>    
+              <clip pos="1" side="tl" part="tags"/>   
+	        </lu>
+	        <b pos="1"/>
+	        <lu>
+              <clip pos="2" side="tl" part="whole"/>   
+		    </lu>
+          </chunk>
+        </out>
+      </action>                                  
+    </rule> 
 
 
 
@@ -1970,39 +2002,7 @@
         </out>
       </action>
     </rule>
-  
-    <rule comment="REGLA: num-nomacc n-sg to n-par"> <!-- Mun oainnán guokte nieidda. Minä näen kaksi tyttöä. -->                                            
-      <pattern>                                        
-        <pattern-item n="num-nomacc"/>                 
-        <pattern-item n="n-sg-accgen"/>                   
-      </pattern>     
-      <action>
-        <call-macro n="num-nom1"><with-param pos="1"/></call-macro>
-        <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let> 
-        <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let> 
-        <let><clip pos="2" side="tl" part="a_cas"/><lit-tag v="par"/></let>
-        <let><clip pos="2" side="tl" part="x_func"/><lit v=""/></let> 
-        <let><clip pos="2" side="tl" part="a_func"/><lit v=""/></let> 
-        <let><clip pos="2" side="tl" part="a_sem"/><lit v=""/></let> 
-		<out>
-          <chunk name="num-noun">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="lem"/>    
-              <clip pos="1" side="tl" part="tags"/>   
-	        </lu>
-	        <b/>
-	        <lu>
-              <clip pos="2" side="tl" part="whole"/>   
-		    </lu>
-          </chunk>
-        </out>
-      </action>                                  
-    </rule> 
-
-
+ 
     
     
     <!-- SECTION: Verb groups -->
