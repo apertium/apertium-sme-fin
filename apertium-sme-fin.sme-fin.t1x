@@ -197,6 +197,10 @@
 
 
   <section-def-attrs>
+    <def-attr n="a_numtype">
+      <attr-item tags="arab"/>
+      <attr-item tags="card"/>
+    </def-attr>
     <def-attr n="a_ntype">
       <attr-item tags="nomag"/>
     </def-attr>
@@ -535,7 +539,6 @@
 <attr-item tags="foc_be"/>
 <attr-item tags="foc_kin"/>
 <attr-item tags="foc_pa"/>
-<attr-item tags="foc_pos-ge"/>
 <attr-item tags="foc_son"/>
 
       <attr-item tags="foc_sun"/>
@@ -806,12 +809,14 @@
       </choose>
       <choose>
         <when>
-          <test><or> <!-- Either [@→N and not "moni" ], +Attr or [ not +Gen, +Dem ] -->
+          <test><and><or> <!-- Either [@→N and not "moni" ], +Attr or [ not +Gen, +Dem ] -->
                      <and><equal><clip pos="2" side="sl" part="a_func"/><lit-tag v="@→N"/></equal>
                           <not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="moni"/></equal></not></and>
                      <and><not><equal><clip pos="2" side="tl" part="a_cas"/><lit-tag v="gen"/></equal></not>
+
                           <not><equal><clip pos="2" side="tl" part="a_dem"/><lit v=""/></equal></not></and>
                      <not><equal><clip pos="2" side="tl" part="a_attr"/><lit v=""/></equal></not> </or>
+                          <not><equal><clip pos="2" side="tl" part="a_numtype"/><lit-tag v="card"/></equal></not></and>
           </test>
           <let><clip pos="2" side="tl" part="a_cas"/><clip pos="1" side="tl" part="a_cas"/></let>
           <let><clip pos="2" side="tl" part="a_nbr"/><clip pos="1" side="tl" part="a_nbr"/></let>
@@ -1239,14 +1244,6 @@
             <clip pos="1" side="tl" part="tags"/><lit v="+kin"/><lit-tag v="adv"/></concat>
           </let> 
         </when>
-<!--        <when>
-          <test>
-               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_han"/></equal>
-          </test>
-          <let><clip pos="1" side="tl" part="tags"/><concat>
-            <clip pos="1" side="tl" part="tags"/><lit-tag v="foc_han"/></concat>
-          </let> 
-        </when>-->
         <when>
           <test>
                <or><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_be"/></equal>
@@ -1257,7 +1254,7 @@
         <when>
           <test>
                <or><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_neg-ge"/></equal>
-               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
+                   <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
           </test>
           <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="tags"/><concat>
@@ -1267,7 +1264,7 @@
         <when>
           <test>
                <or><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_pos-ge"/></equal>
-               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
+                   <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
           </test>
           <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="tags"/><concat>
