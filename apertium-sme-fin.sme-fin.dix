@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <?xml version="1.0" encoding="UTF-8"?>
 <dictionary>
   <alphabet/>
@@ -156,6 +157,8 @@
     <e><p><l>na<s n="part"/></l><r>no<s n="part"/></r></p></e>
     
     <e><p><l>sihke<s n="adv"/></l><r>sekä<s n="cnjcoo"/></r></p></e>
+    <e><p><l>dehe<s n="adv"/></l><r>tai<s n="cnjcoo"/></r></p></e>
+    
     <e><p><l>muhto<s n="cnjcoo"/></l><r>vaan<s n="part"/></r></p></e>
 
     <e r="LR"><p><l>maŋŋágo<s n="cnjsub"/></l><r>jälkeen<b/>kuin<s n="adv"/></r></p></e> <!-- FIX -->
@@ -6211,6 +6214,9 @@
     <e><p><l>absoluhtalaš<s n="adj"/></l><r>absoluuttinen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>abstrákta<s n="adj"/></l><r>abstrakti<s n="adj"/></r></p></e>
     <e><p><l>addes<s n="adj"/></l><r>antelias<s n="adj"/></r></p></e>
+    <e><p><l>dálá<s n="adj"/></l><r>nykyinen<s n="adj"/></r></p></e>
+    <e><p><l>ovttaskas<s n="adj"/></l><r>yksittäinen<s n="adj"/></r></p></e>
+    
     <e><p><l>addi<s n="adj"/></l><r>antelias<s n="adj"/></r></p></e>
     <e><p><l>addálas<s n="adj"/></l><r>antelias<s n="adj"/></r></p></e>
     <e><p><l>afrihkkálaš<s n="adj"/></l><r>afrikkalainen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
@@ -7258,6 +7264,13 @@
     <e><p><l>vulosoivviid<s n="adv"/></l><r>ylösalaisin<s n="adv"/></r></p></e>
     <e><p><l>jahkásaččat<s n="adv"/></l><r>vuosittain<s n="adv"/></r></p></e>
     <e><p><l>naba<s n="adv"/></l><r>entä<s n="adv"/></r></p></e>
+    <e><p><l>dađistaga<s n="adv"/></l><r>vähitellen<s n="adv"/></r></p></e>
+    <e><p><l>almmá<s n="adv"/></l><r>ilman<s n="adv"/></r></p></e>
+    <e><p><l>vuosttažettiin<s n="adv"/></l><r>ensiksi<s n="adv"/></r></p></e>
+    <e><p><l>sakka<s n="adv"/></l><r>kovasti<s n="adv"/></r></p></e>
+    <e><p><l>eanas<s n="adv"/></l><r>yleensä<s n="adv"/></r></p></e>
+    <e><p><l>vuos<s n="adv"/></l><r>ensin<s n="adv"/></r></p></e>
+    <e><p><l>veahá<s n="adv"/></l><r>váhán<s n="adv"/></r></p></e>
 
 
     <e><p><l>gurutbealde<s n="adv"/></l><r>vasemmalle<s n="adv"/></r></p></e>
@@ -10087,6 +10100,8 @@
 <e><p><l>ortodoksalaš<s n="adj"/></l><r>ortodoksinen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>kulturministeriija<s n="n"/></l><r>kulttuuriministeriö<s n="n"/></r></p></e>
 <e><p><l>dihtii<s n="post"/></l><r>takia<s n="post"/></r></p></e>
+<e><p><l>gaskal<s n="post"/></l><r>keskellä<s n="post"/></r></p></e>
+
 <e><p><l>ávžžuhit<s n="vblex"/><s n="tv"/></l><r>kehottaa<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>preanttus<s n="n"/></l><r>julkaisu<s n="n"/></r></p></e>
 <e><p><l>vuoigatvuođaministeriija<s n="n"/></l><r>oikeusministeriö<s n="n"/></r></p></e>
@@ -10097,6 +10112,7 @@
 <e><p><l>reaisu<s n="n"/></l><r>matka<s n="n"/></r></p></e>
 <e><p><l>nammagilvu<s n="n"/></l><r>nimikyltti<s n="n"/></r></p></e>
 <e><p><l>erenomážit<s n="adv"/></l><r>erityisesti<s n="adv"/></r></p></e>
+<e><p><l>erenoamážit<s n="adv"/></l><r>erityisesti<s n="adv"/></r></p></e>
 <e><p><l>áigut<s n="vblex"/><s n="iv"/></l><r>aikoa<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>kulturárbi<s n="n"/></l><r>kultturiperinne<s n="n"/></r></p></e>
 <e><p><l>hálddahushoavda<s n="n"/></l><r>hallintopäällikkö<s n="n"/></r></p></e>
