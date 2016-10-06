@@ -1011,6 +1011,11 @@
         </when>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="loc"/></equal>
+                     <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@N←"/></equal></and></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ela"/></let>
+        </when>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="loc"/></equal>
                      <equal><clip pos="1" side="sl" part="x_func"/><lit-tag v="←hab→"/></equal></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ade"/></let>
         </when>
@@ -1674,7 +1679,8 @@
       </pattern>
       <action>
         <choose>
-          <when><test><equal><clip pos="1" side="tl" part="lem"/><lit v="0"/></equal></test>
+          <when><test><or><equal><clip pos="1" side="tl" part="lem"/><lit v="0"/></equal>
+                          <equal><clip pos="1" side="tl" part="a_numtype"/><lit v=""/></equal></or></test>
                 <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="lem"/><lit-tag v="num.sg.nom"/></concat></let>
           </when>
           <otherwise>
@@ -1711,7 +1717,8 @@
         <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
         <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <choose>
-          <when><test><equal><clip pos="1" side="tl" part="lem"/><lit v="0"/></equal></test>
+          <when><test><or><equal><clip pos="1" side="tl" part="lem"/><lit v="0"/></equal>
+                          <equal><clip pos="1" side="tl" part="a_numtype"/><lit v=""/></equal></or></test>
                 <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="lem"/><lit-tag v="num.sg.nom"/></concat></let>
           </when>
           <otherwise>
