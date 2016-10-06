@@ -764,7 +764,7 @@
              <and><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="tämä"/></equal>
                <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal></and>
           </test>
-          <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="ne"/></get-case-from></let> 
+          <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="nämä"/></get-case-from></let> 
         </when>
         <when>
           <test>
@@ -778,7 +778,7 @@
              <and><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="ne"/></equal>
                <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></equal></and>
           </test>
-          <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="tämä"/></get-case-from></let> 
+          <let><clip pos="1" side="tl" part="lem"/><get-case-from pos="1"><lit v="se"/></get-case-from></let> 
         </when>
 
 

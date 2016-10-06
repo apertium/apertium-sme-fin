@@ -428,9 +428,9 @@
 
     <!--<e><p><l>dat<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>-->
     <e><p><l>dat<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="sg"/></r></p></e>
-    <e><p><l>dat<s n="prn"/><s n="dem"/><s n="pl"/></l><r>ne<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
-    <e><p><l>dát<s n="prn"/><s n="dem"/><s n="sg"/></l><r>tämä<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
-    <e><p><l>dát<s n="prn"/><s n="dem"/><s n="pl"/></l><r>nämä<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
+    <e><p><l>dat<s n="prn"/><s n="dem"/><s n="pl"/></l><r>ne<s n="prn"/><s n="pl"/></r></p></e>
+    <e><p><l>dát<s n="prn"/><s n="dem"/><s n="sg"/></l><r>tämä<s n="prn"/><s n="sg"/></r></p></e>
+    <e><p><l>dát<s n="prn"/><s n="dem"/><s n="pl"/></l><r>nämä<s n="prn"/><s n="pl"/></r></p></e>
 
     <e><p><l>duot<s n="prn"/><s n="dem"/><s n="sg"/></l><r>tuo<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>duot<s n="prn"/><s n="dem"/><s n="sg"/></l><r>toi<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
@@ -10174,8 +10174,6 @@
 <e><p><l>solju<s n="n"/></l><r>rintakoru<s n="n"/></r></p></e>
 <e><p><l>davvi<s n="n"/></l><r>pohjoinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>davvi<s n="n"/></l><r>länsi<s n="n"/></r></p></e>
-<e><p><l>čeahppi<s n="n"/></l><r>taitava<s n="n"/></r></p></e>
-<e><p><l>čeahppi<s n="n"/></l><r>etevä<s n="n"/></r></p></e>
 <e><p><l>badjeolmmoš<s n="n"/></l><r>poronhoitaja<s n="n"/></r></p></e>
 <e><p><l>badjeolmmoš<s n="n"/></l><r>porosaamelainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>giella<s n="adj"/></l><r>kieli<s n="adj"/></r></p></e>
@@ -10230,8 +10228,8 @@
 <e><p><l>ráđđeaddi<s n="adj"/></l><r>neuvoja<s n="adj"/></r></p></e>
 <e><p><l>čuoika<s n="n"/></l><r>sääski<s n="n"/></r></p></e>
 <e><p><l>čuoika<s n="n"/></l><r>hyttynen<s n="n"/></r></p><par n="ihmi/nen"/></e>
-<e><p><l>vuovdi<s n="adj"/></l><r>metsä<s n="adj"/></r></p></e>
-<e><p><l>vuovdi<s n="adj"/></l><r>myyjä<s n="adj"/></r></p></e>
+<!--<e><p><l>vuovdi<s n="adj"/></l><r>metsä<s n="adj"/></r></p></e>-->
+<!--<e><p><l>vuovdi<s n="adj"/></l><r>myyjä<s n="adj"/></r></p></e>-->
 <e><p><l>vuojahat<s n="n"/></l><r>uittopaikka<s n="n"/></r></p></e>
 <e><p><l>sadjásaš<s n="adj"/></l><r>sijainen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
 <!--<e><p><l>sadjásaš<s n="adj"/></l><r>sijais-<s n="adj"/></r></p></e>-->
@@ -10243,8 +10241,6 @@
 <e><p><l>lassi<s n="adj"/></l><r>lisäys<s n="adj"/></r></p></e>
 <e><p><l>lassi<s n="adj"/></l><r>lisä<s n="adj"/></r></p></e>
 <e><p><l>gánddaš<s n="n"/></l><r>poikanen<s n="n"/></r></p><par n="ihmi/nen"/></e>
-<e><p><l>vuovdi<s n="adj"/></l><r>metsä<s n="adj"/></r></p></e>
-<e><p><l>vuovdi<s n="adj"/></l><r>myyjä<s n="adj"/></r></p></e>
 <e><p><l>suohkat<s n="adj"/></l><r>sakea<s n="adj"/></r></p></e>
 <e><p><l>suohkat<s n="adj"/></l><r>tiheä<s n="adj"/></r></p></e>
 <e><p><l>osolaš<s n="n"/></l><r>osallinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
@@ -10268,7 +10264,6 @@
 <e><p><l>muohtti<s n="n"/></l><r>lumisää<s n="n"/></r></p></e>
 <e><p><l>mánáš<s n="n"/></l><r>lapsonen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>loaidu<s n="n"/></l><r>loito<s n="n"/></r></p></e>
-<e><p><l>lávlu<s n="adj"/></l><r>laulaja<s n="adj"/></r></p></e>
 <e><p><l>lávlu<s n="adj"/></l><r>laulajatar<s n="adj"/></r></p></e>
 <e><p><l>láđđegákti<s n="n"/></l><r>verkapuku<s n="n"/></r></p></e>
 <e><p><l>láđđegákti<s n="n"/></l><r>verkalapintakki<s n="n"/></r></p></e>

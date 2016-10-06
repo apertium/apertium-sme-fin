@@ -259,5 +259,8 @@
     <match lemma="báhkka" tags="n.*"><select lemma="helle" tags="n.*"/></match>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="čora" tags="n.*"><select lemma="porotokka" tags="n.*"/></match>
+  </rule>
 </rules>
 </metalrx>
