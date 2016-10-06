@@ -1025,7 +1025,15 @@
         </when>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal>
-                     <equal><clip pos="1" side="tl" part="a_func"/><lit-tag v="@→N"/></equal>
+                  <or>   <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@→Num"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@→N"/></equal></or>
+                     <not><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="prn.pers"/></equal></not></and></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
+        </when>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal>
+                     <or><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@→Num"/></equal>
+                       <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@→N"/></equal></or>
                      <not><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="prn.pers"/></equal></not></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
         </when>
@@ -1260,6 +1268,7 @@
         <when>
           <test>
                <or><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_be"/></equal>
+               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_bat"/></equal>
                <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ba"/></equal></or>
           </test>
           <let><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_pa"/></let>
