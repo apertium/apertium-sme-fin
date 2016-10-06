@@ -6545,7 +6545,6 @@
     <e><p><l>gielddus<s n="adj"/></l><r>kielletty<s n="adj"/></r></p></e>
     <e><p><l>gierdavaš<s n="adj"/></l><r>kärsivällinen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>gierdil<s n="adj"/></l><r>kärsivällinen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
-    <e><p><l>gievra<s n="adj"/></l><r>vahva<s n="adj"/></r></p></e>
     <e><p><l>gievra<s n="adj"/></l><r>voimakas<s n="adj"/></r></p></e> 
     <e><p><l>girjjat<s n="adj"/></l><r>kirjava<s n="adj"/></r></p></e>
     <e><p><l>girkolaš<s n="adj"/></l><r>kirkollinen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
@@ -10272,6 +10271,7 @@
 <e><p><l>girdi<s n="n"/></l><r>lentokone<s n="n"/></r></p></e>
 <e><p><l>girdi<s n="n"/></l><r>lentäjä<s n="n"/></r></p></e>
 <e><p><l>gievra<s n="n"/></l><r>vahva<s n="n"/></r></p></e>
+<!--<e><p><l>gievra<s n="adj"/></l><r>vahva<s n="adj"/></r></p></e>-->
 <e><p><l>gievra<s n="n"/></l><r>voimakas<s n="n"/></r></p></e>
 <e><p><l>gávttehas<s n="n"/></l><r>lapinpukuinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>gávnnit<s n="n"/></l><r>vuodevaatteet<s n="n"/></r></p></e>
