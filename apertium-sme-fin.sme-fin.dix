@@ -10237,8 +10237,8 @@
 <e><p><l>nanus<s n="n"/></l><r>kestävä<s n="n"/></r></p></e>
 <e><p><l>manni<s n="n"/></l><r>menijä<s n="n"/></r></p></e>
 <e><p><l>manni<s n="n"/></l><r>menevä<s n="n"/></r></p></e>
-<e><p><l>lassi<s n="adj"/></l><r>lisäys<s n="adj"/></r></p></e>
-<e><p><l>lassi<s n="adj"/></l><r>lisä<s n="adj"/></r></p></e>
+<!--<e><p><l>lassi<s n="adj"/></l><r>lisäys<s n="adj"/></r></p></e>-->
+<!--<e><p><l>lassi<s n="adj"/></l><r>lisä<s n="adj"/></r></p></e>-->
 <e><p><l>gánddaš<s n="n"/></l><r>poikanen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>suohkat<s n="adj"/></l><r>sakea<s n="adj"/></r></p></e>
 <e><p><l>suohkat<s n="adj"/></l><r>tiheä<s n="adj"/></r></p></e>
@@ -10270,9 +10270,9 @@
 <e><p><l>hiŋggal<s n="n"/></l><r>parsi<s n="n"/></r></p></e>
 <e><p><l>girdi<s n="n"/></l><r>lentokone<s n="n"/></r></p></e>
 <e><p><l>girdi<s n="n"/></l><r>lentäjä<s n="n"/></r></p></e>
-<e><p><l>gievra<s n="n"/></l><r>vahva<s n="n"/></r></p></e>
-<!--<e><p><l>gievra<s n="adj"/></l><r>vahva<s n="adj"/></r></p></e>-->
-<e><p><l>gievra<s n="n"/></l><r>voimakas<s n="n"/></r></p></e>
+<!--<e><p><l>gievra<s n="n"/></l><r>vahva<s n="n"/></r></p></e>-->
+<e><p><l>gievra<s n="adj"/></l><r>vahva<s n="adj"/></r></p></e>
+<!--<e><p><l>gievra<s n="n"/></l><r>voimakas<s n="n"/></r></p></e>-->
 <e><p><l>gávttehas<s n="n"/></l><r>lapinpukuinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>gávnnit<s n="n"/></l><r>vuodevaatteet<s n="n"/></r></p></e>
 <e><p><l>gávnnit<s n="n"/></l><r>sänkyvaatteet<s n="n"/></r></p></e>
@@ -10319,7 +10319,6 @@
 <e><p><l>giellavealgu<s n="n"/></l><r>satakieli<s n="n"/></r></p></e>
 <e><p><l>geavŋŋis<s n="n"/></l><r>köngäs<s n="n"/></r></p></e>
 <e><p><l>finála<s n="adj"/></l><r>lopullinen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
-<e><p><l>finála<s n="adj"/></l><r>finaali<s n="adj"/></r></p></e>
 <e><p><l>duodječájáhus<s n="n"/></l><r>taidenäyttely<s n="n"/></r></p></e>
 <e><p><l>duodječájáhus<s n="n"/></l><r>käsityönäyttely<s n="n"/></r></p></e>
 <e><p><l>dihtorspeallu<s n="n"/></l><r>tietokonepeli<s n="n"/></r></p></e>

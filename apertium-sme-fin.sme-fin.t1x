@@ -1618,7 +1618,6 @@
       </action>
     </rule>
 
-
     <rule comment="REGLA: NOM-CMP ATTR NOM">
       <pattern>
         <pattern-item n="nom-cmp"/>
@@ -1755,22 +1754,22 @@
       </action>                                  
     </rule> 
 
-
-
-    <rule comment="REGLA: ATTR NOM">
+    <rule comment="REGLA: ATTR TOP-CMP NOM">
       <pattern>
         <pattern-item n="attr"/>
+        <pattern-item n="top-cmp"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
-        <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-        <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-        <call-macro n="handle-nominal-derivation2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-        <call-macro n="concord-nominal2"><with-param pos="2"/><with-param pos="1"/></call-macro>
-        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="remove-semtags2"><with-param pos="3"/><with-param pos="2"/></call-macro>
+        <call-macro n="default-conversion3"><with-param pos="3"/><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation3"><with-param pos="3"/><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="concord-nominal2"><with-param pos="3"/><with-param pos="1"/></call-macro>
         <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="3"/></call-macro>
         <out>
-          <chunk name="a-n" case="caseFirstWord">
+          <chunk name="a-n-n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
             </tags>
@@ -1778,13 +1777,14 @@
               <clip pos="1" side="tl" part="whole"/>
             </lu>
             <b pos="1"/>
-            <lu>
-              <clip pos="2" side="tl" part="whole"/>
-            </lu>
+            <lu><clip pos="2" side="tl" part="lem"/><lit-tag v="np.sg.nom"/></lu>
+            <lu><clip pos="3" side="tl" part="whole"/></lu>
           </chunk>
         </out>
       </action>
     </rule>
+
+
 
     <rule comment="REGLA: ATTR NOM-CMP NOM">
       <pattern>
@@ -1817,6 +1817,36 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: ATTR NOM">
+      <pattern>
+        <pattern-item n="attr"/>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="concord-nominal2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="a-n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: ATTR NOM-CMP NOM-CMP NOM">
       <pattern>
