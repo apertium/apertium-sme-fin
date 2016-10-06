@@ -1630,13 +1630,21 @@
         <pattern-item n="num-card-cmp"/>
       </pattern>
       <action>
+        <choose>
+          <when><test><equal><clip pos="1" side="tl" part="lem"/><lit v="0"/></equal></test>
+                <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="lem"/><lit-tag v="num.sg.nom"/></concat></let>
+          </when>
+          <otherwise>
+                <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="lem"/><lit-tag v="num.card.sg.nom"/></concat></let>
+          </otherwise>
+        </choose>
         <out>
           <chunk name="z" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SNum"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lem"/><lit-tag v="num.card.sg.nom"/>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
             <lu>
               <lit v="-"/><lit-tag v="guio"/>
@@ -1659,13 +1667,21 @@
         <call-macro n="concord-nominal2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
         <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <choose>
+          <when><test><equal><clip pos="1" side="tl" part="lem"/><lit v="0"/></equal></test>
+                <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="lem"/><lit-tag v="num.sg.nom"/></concat></let>
+          </when>
+          <otherwise>
+                <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="lem"/><lit-tag v="num.card.sg.nom"/></concat></let>
+          </otherwise>
+        </choose>
         <out>
           <chunk name="z-n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="lem"/><lit-tag v="num.card.sg.nom"/>
+              <clip pos="1" side="tl" part="whole"/>
             </lu>
             <lu>
               <lit v="-"/><lit-tag v="guio"/>
