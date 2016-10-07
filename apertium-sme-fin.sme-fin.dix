@@ -12056,7 +12056,7 @@
 <e><p><l>báljo<s n="adv"/></l><r>paljon<s n="adv"/></r></p></e>
 <e><p><l>ceahkkálagaid<s n="adv"/></l><r>asteittain<s n="adv"/></r></p></e>
 <e><p><l>dakka<s n="adv"/></l><r>juuri<s n="adv"/></r></p></e>
-<e><p><l>dakko<s n="adv"/></l><r>siinä<s n="adv"/></r></p></e>
+<e><p><l>dakko<s n="adv"/></l><r>siinä<s n="part"/></r></p></e>
 <e><p><l>dalle<s n="adv"/></l><r>sitten<s n="adv"/></r></p></e>
 <e><p><l>dalán<s n="adv"/></l><r>heti<s n="adv"/></r></p></e>
 <e><p><l>dalánaga<s n="adv"/></l><r>heti<s n="adv"/></r></p></e>
@@ -12069,7 +12069,7 @@
 <e><p><l>die<s n="adv"/></l><r>tuolla<s n="adv"/></r></p></e>
 <e><p><l>diehke<s n="adv"/></l><r>tänne<s n="adv"/></r></p></e>
 <e><p><l>diehttelas<s n="adv"/></l><r>tietysti<s n="adv"/></r></p></e>
-<e><p><l>diekko<s n="adv"/></l><r>siinä<s n="adv"/></r></p></e>
+<e><p><l>diekko<s n="adv"/></l><r>siinä<s n="part"/></r></p></e>
 <e><p><l>dieđus<s n="adv"/></l><r>tietysti<s n="adv"/></r></p></e>
 <e><p><l>doaisttážii<s n="adv"/></l><r>toistaiseksi<s n="adv"/></r></p></e>
 <e><p><l>doarrás<s n="adv"/></l><r>poikittain<s n="adv"/></r></p></e>
@@ -12101,7 +12101,7 @@
 <e><p><l>eanemus<s n="adv"/></l><r>enimmäkseen<s n="adv"/></r></p></e>
 <e><p><l>eanemusat<s n="adv"/></l><r>eniten<s n="adv"/></r></p></e>
 <e><p><l>eanemustá<s n="adv"/></l><r>eniten<s n="adv"/></r></p></e>
-<e><p><l>eanet<s n="adv"/></l><r>useampi<s n="prn"/></r></p></e>
+<!--<e><p><l>eanet<s n="adv"/></l><r>useampi<s n="prn"/></r></p></e>-->
 <e><p><l>eanáš<s n="adv"/></l><r>enimmäkseen<s n="adv"/></r></p></e>
 <e><p><l>earenoamážit<s n="adv"/></l><r>erityisesti<s n="adv"/></r></p></e>
 <e><p><l>easkka<s n="adv"/></l><r>vasta<s n="adv"/></r></p></e>
