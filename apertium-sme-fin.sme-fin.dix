@@ -1891,7 +1891,6 @@
     <e><p><l>fylkkagielda<s n="n"/></l><r>lääni<s n="n"/></r></p></e>
     <e><p><l>fylkkamánni<s n="n"/></l><r>maaherra<s n="n"/></r></p></e>
     <e><p><l>fylkkasuohkan<s n="n"/></l><r>lääni<s n="n"/></r></p></e>
-    <e><p><l>fádda<s n="n"/></l><r>raaka<s n="n"/></r></p></e>
     <e><p><l>fáddá<s n="n"/></l><r>aihe<s n="n"/></r></p></e>
     <e><p><l>fága<s n="n"/></l><r>oppiaine<s n="n"/></r></p></e>
     <e><p><l>fágaolmmoš<s n="n"/></l><r>ammattilainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
@@ -1999,7 +1998,6 @@
     <e><p><l>gearret<s n="n"/></l><r>käräjä<s n="n"/></r></p></e>
     <e><p><l>gearru<s n="n"/></l><r>käärö<s n="n"/></r></p></e>
     <e><p><l>geasku<s n="n"/></l><r>käsky<s n="n"/></r></p></e>
-    <e><p><l>geasseguohtun<s n="n"/></l><r>kesälaidun<s n="n"/></r></p></e>
     <e><p><l>geasseluopmu<s n="n"/></l><r>kesäloma<s n="n"/></r></p></e>
     <e><p><l>geassemánnu<s n="n"/></l><r>kesäkuu<s n="n"/></r></p></e>
     <e><p><l>geassi<s n="n"/></l><r>kesä<s n="n"/></r></p></e>
@@ -2261,7 +2259,6 @@
     <e><p><l>guohkki<s n="n"/></l><r>kuokka<s n="n"/></r></p></e>
     <e><p><l>guohpa<s n="n"/></l><r>home<s n="n"/></r></p></e>
     <e><p><l>guohttelus<s n="n"/></l><r>kiila<s n="n"/></r></p></e>
-    <e><p><l>guohtun<s n="n"/></l><r>laidun<s n="n"/></r></p></e>
     <e><p><l>guohtunguovlu<s n="n"/></l><r>laidunalue<s n="n"/></r></p></e>
     <e><p><l>guohár<s n="n"/></l><r>kuohari<s n="n"/></r></p></e>
     <e><p><l>guoibmi<s n="n"/></l><r>puoliso<s n="n"/></r></p></e>
@@ -10335,7 +10332,6 @@
 <e><p><l>buolašbiegga<s n="n"/></l><r>kylmyys<s n="n"/></r></p></e>
 <e><p><l>boazodoallobearaš<s n="n"/></l><r>posio<s n="n"/></r></p></e>
 <e><p><l>biebmobázahusat<s n="n"/></l><r>koiranen<s n="n"/></r></p><par n="ihmi/nen"/></e>
-<e><p><l>áigeearru<s n="n"/></l><r>voimaton<s n="n"/></r></p></e>
 
 <e><p><l>fuopmášupmi<s n="n"/></l><r>huomio<s n="n"/></r></p></e>
 <e><p><l>eaktudit<s n="vblex"/><s n="tv"/></l><r>edellyttää<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -13374,6 +13370,10 @@
 <e><p><l>giellaruhta<s n="n"/></l><r>kieliraha<s n="n"/></r></p></e>
 
 <!--<e><p><l>badjelii<s n="adv"/></l><r>yli<s n="adv"/></r></p></e>--> <!--badjelasas-->
+<!--    <e><p><l>guohtun<s n="n"/></l><r>laidun<s n="n"/></r></p></e>-->
+<!--    <e><p><l>geasseguohtun<s n="n"/></l><r>kesälaidun<s n="n"/></r></p></e>-->
+<!--    <e><p><l>fádda<s n="n"/></l><r>raaka<s n="n"/></r></p></e>-->
+<!--<e><p><l>áigeearru<s n="n"/></l><r>voimaton<s n="n"/></r></p></e>-->
 
 <!-- Pronouns that are in sme-fin dictionary and not here - to consider for addition
  <e><p><l>diet<s n="prn"/></l><r>se<s n="prn"/></r></p></e>
