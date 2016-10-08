@@ -362,6 +362,26 @@
     <rule comment=""> 
       <pattern>
         <pattern-item n="default"/>
+        <pattern-item n="clit"/>
+        <pattern-item n="clit-tag"/>
+      </pattern>
+      <action>
+        <call-macro n="fixup1"><with-param pos="1"/></call-macro>
+        <call-macro n="fixup1"><with-param pos="2"/></call-macro>
+        <call-macro n="fixup1"><with-param pos="3"/></call-macro>
+        <out>
+          <mlu>
+            <lu><clip pos="1" side="tl" part="whole"/></lu>
+            <lu><clip pos="2" side="tl" part="whole"/><clip pos="3" side="tl" part="a_foc"/></lu>
+          </mlu>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment=""> 
+      <pattern>
+        <pattern-item n="default"/>
         <pattern-item n="clit-tag"/>
       </pattern>
       <action>

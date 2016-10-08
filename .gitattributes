@@ -22,6 +22,7 @@
 /check_mt-otpt.py -text
 /configure.ac -text
 dev/algu_xml_to_csv.py -text
+dev/apertium-sme-fin.fin.weights -text
 dev/apertium-sme-fin.txt -text
 dev/archive/apertium-sme-fin.fin-sme.t1x -text
 dev/bidix-sanity.sh -text
@@ -137,6 +138,7 @@ dev/top_10000_missing_nouns.csv -text
 dev/top_10000_missing_nouns_translated.csv -text
 dev/update-rm-deriv-cmp -text
 dev/verbs_with_mwe_fin.dix -text
+dev/weight-forms.py -text
 eval/ref -text
 eval/res -text
 eval/src -text
