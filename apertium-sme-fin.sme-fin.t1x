@@ -1299,6 +1299,7 @@
         <when>
           <test>
                <or><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_pos-ge"/></equal>
+                   <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ges"/></equal>
                    <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
           </test>
           <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
@@ -1888,6 +1889,8 @@
         <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation3"><with-param pos="4"/><with-param pos="3"/><with-param pos="2"/></call-macro>
         <call-macro n="concord-nominal2"><with-param pos="4"/><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="4"/></call-macro>
         <out>
           <chunk name="a-n-n-n" case="caseFirstWord">
             <tags>
@@ -1923,6 +1926,9 @@
         <call-macro n="default-conversion3"><with-param pos="4"/><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation1"><with-param pos="4"/></call-macro>
         <call-macro n="concord-nominal3"><with-param pos="4"/><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="4"/></call-macro>
         <out>
           <chunk name="a-a-n-n" case="caseFirstWord">
             <tags>
@@ -1957,6 +1963,8 @@
         <call-macro n="handle-nominal-derivation1"><with-param pos="3"/></call-macro>
         <call-macro n="concord-nominal3"><with-param pos="3"/><with-param pos="1"/><with-param pos="2"/></call-macro>
         <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="3"/></call-macro>
         <out>
           <chunk name="a-a-n" case="caseFirstWord">
             <tags>

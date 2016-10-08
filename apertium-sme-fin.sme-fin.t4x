@@ -4,7 +4,7 @@
   <section-def-cats>
     
     <def-cat n="default">
-      <cat-item lemma="*" tags="*"/>
+      <cat-item tags="*"/>
     </def-cat>
 
     <def-cat n="unknown">
