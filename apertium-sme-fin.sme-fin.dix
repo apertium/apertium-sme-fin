@@ -470,6 +470,7 @@
     <e><p><l>giige<s n="prn"/><s n="ind"/></l><r>kukaan<s n="prn"/></r></p></e>
     <e><p><l>juohke<s n="prn"/><s n="ind"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>eará<s n="prn"/><s n="ind"/></l><r>muu<s n="prn"/></r></p></e>
+ <e><p><l>eará<s n="prn"/><s n="ind"/></l><r>eri<s n="prn"/></r></p></e>
         
 <!--
     <e><p><l>goappašagat<s n="prn"/><s n="ind"/></l><r>molemmat<s n="prn"/><s n="qnt"/></r></p></e>
@@ -6418,7 +6419,6 @@
     <e><p><l>ealjoheapme<s n="adj"/></l><r>toimeton<s n="adj"/></r></p></e>
     <e><p><l>eallilan<s n="adj"/></l><r>iäkäs<s n="adj"/></r></p></e>
     <e><p><l>eanemus<s n="adj"/></l><r>enin<s n="adj"/></r></p></e>
-    <e><p><l>eará<s n="adj"/></l><r>eri<s n="adj"/></r></p></e>
     <e><p><l>earálágan<s n="adj"/></l><r>erilainen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>earálágán<s n="adj"/></l><r>erilainen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>easkká<s n="adj"/></l><r>äskeinen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
@@ -10089,7 +10089,7 @@
 <!--<e><p><l>heittot<s n="n"/></l><r>huono<s n="n"/></r></p></e>-->
 <e><p><l>nissonolmmoš<s n="n"/></l><r>nainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>nissonolmmoš<s n="n"/></l><r>naisihminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
-<e><p><l>sisti<s n="n"/></l><r>sisällä<s n="n"/></r></p></e>
+<!--<e><p><l>sisti<s n="n"/></l><r>sisällä<s n="n"/></r></p></e>-->
 <e><p><l>sisti<s n="n"/></l><r>sisna<s n="n"/></r></p></e>
 <e><p><l>riikkarádji<s n="n"/></l><r>valtionraja<s n="n"/></r></p></e>
 <e><p><l>riikkarádji<s n="n"/></l><r>riikinraja<s n="n"/></r></p></e>
@@ -12656,7 +12656,6 @@
 <!-- Pronouns that are in sme-fin dictionary and not here - to consider for addition
  <e><p><l>diet<s n="prn"/></l><r>se<s n="prn"/></r></p></e>
  <e><p><l>dot<s n="prn"/></l><r>tuo<s n="prn"/></r></p></e>
- <e><p><l>eará<s n="prn"/></l><r>eri<s n="prn"/></r></p></e>
  <e><p><l>goabbat<s n="prn"/></l><r>kumpikin<s n="prn"/></r></p></e>
  <e><p><l>guktot<s n="prn"/></l><r>molemmat<s n="prn"/></r></p></e>
  <e><p><l>juohke<s n="prn"/></l><r>jokainen<s n="prn"/></r></p></e>
