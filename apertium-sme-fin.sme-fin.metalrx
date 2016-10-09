@@ -260,6 +260,9 @@
   </rule>
 
   <rule weight="1.0">
+    <match lemma="eará" tags="prn.*"><select lemma="muu" tags="prn.*"/></match>
+  </rule>
+  <rule weight="1.0">
     <match lemma="čora" tags="n.*"><select lemma="porotokka" tags="n.*"/></match>
   </rule>
 </rules>

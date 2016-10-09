@@ -359,6 +359,7 @@
     <e><p><l>čađa<s n="post"/></l><r>lävitse<s n="post"/></r></p></e>
     <e><p><l>čađa<s n="post"/></l><r>välityksellä<s n="post"/></r></p></e>
 
+    <e><p><l>ládje<s n="post"/></l><r>tapaan<s n="post"/></r></p></e>
     
       <!-- SECTION: Conjunctions -->
     <e><p><l>ja<s n="cnjcoo"/></l><r>ja<s n="cnjcoo"/></r></p></e>
@@ -512,6 +513,7 @@
     <e><p><l>duháhat<s n="num"/></l><r>tuhat<s n="num"/></r></p></e>
        
     <e><p><l>čuođi<s n="num"/></l><r>sata<s n="num"/></r></p></e>
+    <e><p><l>moadde<s n="num"/></l><r>pari<s n="num"/></r></p></e>
     
     
     <!-- SECTION: Nouns -->
@@ -7168,6 +7170,7 @@
     <!--<e><p><l>ovddeš<b/>láhkai<s n="adv"/></l><r>entiselleen<s n="adv"/></r></p></e>-->
     <e slr="1"><p><l>fargga<s n="adv"/></l><r>pian<s n="adv"/></r></p></e>
     <e srl="1"><p><l>nu<s n="adv"/></l><r>siten<s n="adv"/></r></p></e>
+    <e><p><l>ládje<s n="adv"/></l><r>tapaan<s n="adv"/></r></p></e>
     <e><p><l>agi<b/>beaivvisge<s n="adv"/></l><r>ikinä<s n="adv"/></r></p></e>
     <e><p><l>ovdamearkka<b/>dihte<s n="adv"/></l><r>esimerkiksi<s n="adv"/></r></p></e>
     <e><p><l>olgešbealde<s n="adv"/></l><r>oikealle<s n="adv"/></r></p></e>
@@ -11043,6 +11046,7 @@
 <e><p><l>Unto<s n="np"/><s n="ant"/><s n="m"/></l><r>Unto<s n="np"/></r></p></e>
 <e><p><l>Urho<s n="np"/><s n="ant"/><s n="m"/></l><r>Urho<s n="np"/></r></p></e>
 <e><p><l>Urpo<s n="np"/><s n="ant"/><s n="m"/></l><r>Urpo<s n="np"/></r></p></e>
+<e><p><l>Ville<s n="np"/><s n="ant"/><s n="m"/></l><r>Ville<s n="np"/></r></p></e>
 <e><p><l>Valentina<s n="np"/><s n="ant"/><s n="f"/></l><r>Valentina<s n="np"/></r></p></e>
 <e><p><l>Veijo<s n="np"/><s n="ant"/><s n="m"/></l><r>Veijo<s n="np"/></r></p></e>
 <e><p><l>Veikko<s n="np"/><s n="ant"/><s n="m"/></l><r>Veikko<s n="np"/></r></p></e>
@@ -12948,6 +12952,8 @@
 <e><p><l>geassut<s n="vblex"/><s n="iv"/></l><r>vetää<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>viegadit<s n="vblex"/><s n="iv"/></l><r>juoksennella<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>njuikkodit<s n="vblex"/><s n="iv"/></l><r>hypellä<s n="vblex"/></r></p><par n="V_V"/></e>
+
+<e><p><l>guossástallat<s n="vblex"/><s n="tv"/></l><r>vierailla<s n="vblex"/></r></p><par n="V_V"/></e>
 
 <e><p><l>A<s n="n"/><s n="abbr"/></l><r>A.<s n="np"/></r></p><par n="E.__E."/></e>
 <e><p><l>B<s n="n"/><s n="abbr"/></l><r>B.<s n="np"/></r></p><par n="E.__E."/></e>
