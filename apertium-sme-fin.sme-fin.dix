@@ -480,6 +480,7 @@
     <e><p><l>goappašagat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>molemmat<s n="prn"/><s n="pl"/></r></p></e>
 
     <e><p><l>guhtege<s n="prn"/><s n="ind"/></l><r>kukin<s n="prn"/><s n="qnt"/></r></p></e>
+    <e><p><l>okta<s n="prn"/><s n="ind"/></l><r>yksi<s n="prn"/></r></p></e>
 
     <e r="LR"><p><l>buot<s n="prn"/><s n="ind"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="ND"/></r></p></e> 
     <e r="LR"><p><l>buot<s n="prn"/><s n="ind"/><s n="sg"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="sg"/></r></p></e> 
@@ -7443,6 +7444,7 @@
     <e><p><l>veaháš<s n="adv"/></l><r>vähän<s n="adv"/></r></p></e>
     <e><p><l>vearrut<s n="adv"/></l><r>väärin<s n="adv"/></r></p></e>
     <e><p><l>vehá<s n="adv"/></l><r>hiukan<s n="adv"/></r></p></e>
+    <e><p><l>eanasin<s n="adv"/></l><r>pääasiassa<s n="adv"/></r></p></e>
     <e><p><l>veháš<s n="adv"/></l><r>hieman<s n="adv"/></r></p></e>
     <e><p><l>vel<s n="adv"/></l><r>vielä<s n="part"/></r></p></e>  <!-- should be Adv -->
     <e><p><l>viehka<s n="adv"/></l><r>aika<s n="part"/></r></p></e>
