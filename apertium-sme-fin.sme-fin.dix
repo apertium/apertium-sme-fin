@@ -11064,13 +11064,6 @@
 
 <e><p><l>sámevuohta<s n="n"/></l><r>saamelaisuus<s n="n"/></r></p></e>
 
-<e><p><l>ee<s n="adv"/><s n="abbr"/></l><r>mm.<s n="part"/></r></p></e>
-<!--<e><p><l>jr<s n="n"/><s n="abbr"/></l><r>jr.<s n="part"/></r></p></e>-->
-<e><p><l>omd<s n="adv"/><s n="abbr"/></l><r>esim.<s n="part"/></r></p></e>
-<e><p><l>m<s n="n"/><s n="abbr"/></l><r>m<s n="n"/></r></p></e>
-<e><p><l>km<s n="n"/><s n="abbr"/></l><r>km<s n="acr"/><s n="sg"/><s n="nom"/></r></p></e>
-
-
 <e><p><l>buresboahtin<s n="n"/><s n="sg"/><s n="nom"/></l><r>tervetuloa<s n="part"/></r></p></e>
 
 
@@ -12954,6 +12947,7 @@
 <e><p><l>njuikkodit<s n="vblex"/><s n="iv"/></l><r>hypellä<s n="vblex"/></r></p><par n="V_V"/></e>
 
 <e><p><l>guossástallat<s n="vblex"/><s n="tv"/></l><r>vierailla<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>golihit<s n="vblex"/><s n="iv"/></l><r>kulua<s n="vblex"/></r></p><par n="V_V"/></e>
 
 <e><p><l>A<s n="n"/><s n="abbr"/></l><r>A.<s n="np"/></r></p><par n="E.__E."/></e>
 <e><p><l>B<s n="n"/><s n="abbr"/></l><r>B.<s n="np"/></r></p><par n="E.__E."/></e>
@@ -12984,6 +12978,14 @@
 <e><p><l>Ö<s n="n"/><s n="abbr"/></l><r>Ö.<s n="np"/></r></p><par n="E.__E."/></e>
 <e><p><l>Ä<s n="n"/><s n="abbr"/></l><r>Ä.<s n="np"/></r></p><par n="E.__E."/></e>
 
+<e><p><l>ee<s n="adv"/><s n="abbr"/></l><r>mm.<s n="part"/></r></p></e>
+<!--<e><p><l>jr<s n="n"/><s n="abbr"/></l><r>jr.<s n="part"/></r></p></e>-->
+<e><p><l>omd<s n="adv"/><s n="abbr"/></l><r>esim.<s n="part"/></r></p></e>
+<e><p><l>m<s n="n"/><s n="abbr"/></l><r>m<s n="n"/></r></p></e>
+<e><p><l>km<s n="n"/><s n="abbr"/></l><r>km<s n="acr"/><s n="sg"/><s n="nom"/></r></p></e>
+<e><p><l>ml.<s n="n"/><s n="abbr"/></l><r>ml.<s n="part"/></r></p></e>
+<e><p><l>§<s n="n"/><s n="abbr"/></l><r>§<s n="acr"/></r></p></e>
+<e><p><l>blogga<s n="n"/></l><r>blogi<s n="n"/></r></p></e>
 
 
 </section>
