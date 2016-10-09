@@ -815,6 +815,7 @@
       <choose>
         <when>
           <test><and><not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="koko"/></equal></not>
+                     <not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="eri"/></equal></not>
                      <equal><clip pos="2" side="tl" part="a_nbr"/><lit v=""/></equal></and></test>
           <let><clip pos="2" side="tl" part="tags"/><concat><clip pos="2" side="tl" part="tags"/><lit-tag v="ND"/></concat></let>
         </when>
@@ -822,6 +823,7 @@
       <choose>
         <when>
           <test><and><not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="koko"/></equal></not>
+                     <not><equal caseless="yes"><clip pos="2" side="tl" part="lem"/><lit v="eri"/></equal></not>
                      <equal><clip pos="2" side="tl" part="a_cas"/><lit v=""/></equal></and></test>
           <let><clip pos="2" side="tl" part="tags"/><concat><clip pos="2" side="tl" part="tags"/><lit-tag v="CD"/></concat></let>
         </when>
@@ -986,6 +988,10 @@
         <when>
           <test><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="koko"/></equal></test>
           <!--<let><clip pos="1" side="tl" part="tags"/><lit-tag v="prn.qnt"/></let>-->
+          <let><clip pos="1" side="tl" part="tags"/><lit-tag v="part"/></let>
+        </when>
+        <when>
+          <test><equal caseless="yes"><clip pos="1" side="tl" part="lem"/><lit v="eri"/></equal></test>
           <let><clip pos="1" side="tl" part="tags"/><lit-tag v="part"/></let>
         </when>
       </choose>
