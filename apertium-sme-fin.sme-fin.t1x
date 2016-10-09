@@ -36,6 +36,7 @@
       <cat-item tags="adj.*.cmp"/>
       <cat-item tags="adj.*.cmp.*"/>
       <cat-item tags="adj.attr.*"/>
+      <cat-item tags="vblex.*.prsprc.@→N"/>
       <cat-item tags="adj.cmp_attr.*"/>
     </def-cat>
     <def-cat n="goahti-prfprc">
