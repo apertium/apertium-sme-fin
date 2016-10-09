@@ -9,6 +9,8 @@ dix=$pair.$dir.dix
 lang2=`gecho $dir | cut -f2 -d'-'`
 gtdir=`gecho $GIELLA_CORE | gsed 's/\(giella-core\|gtcore\|core\)//g'`;
 analysator=$gtdir"/langs/"$lang2"/tools/mt/apertium/analyser-mt-apertium-desc.und.hfstol"
+count=0
+total=0
 
 echo $pair" "$dir" "$dix" "$lang2" "$gtdir" "$analysator
 
@@ -17,6 +19,7 @@ lt-expand ../$dix | gsed 's/\(<[^>]\+>\)\(<[^>]\+>\)\+/\1/g' | gsed 's/:[><]:/:/
 cat /tmp/$dir.exp | cut -f2- -d':' | cut -f1 -d'<' | hfst-proc -w $analysator > /tmp/$dir.a
 
 wc -l /tmp/$dir.exp /tmp/$dir.a
+total=`cat /tmp/$dir.exp | wc -l`;
 
 for line in `paste /tmp/$dir.exp /tmp/$dir.a  | gsed 's/\t/:/g' | gsed 's/ /¬/g'`; do
 	lang1s=`gecho $line | cut -f1 -d':'`;
@@ -27,10 +30,11 @@ for line in `paste /tmp/$dir.exp /tmp/$dir.a  | gsed 's/\t/:/g' | gsed 's/ /¬/g
 #	gecho $num" "$lang2m" "$lang2s;
 	if [[ $num -eq 0 ]]; then
 		gecho -e "%\t"$line;
+		count=`expr $count + 1`;
 	else
 #		gecho -e "+\t"$line;
 		continue
 	fi
 done
 	
-
+echo $count"/"$total
