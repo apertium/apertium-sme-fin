@@ -122,9 +122,8 @@
     <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
     </pardef>
 
-    <pardef n="A_A_Agr">
-    <e><p><l><s n="Agr"/></l><r><s n="pos"/></r></p></e>
-    <e><p><l><s n="Agr"/></l><r></r></p></e>
+    <pardef n="E.__E.">
+    <e><p><l><s n="sg"/><s n="nom"/></l><r><s n="sg"/><s n="nom"/></r></p></e>
     </pardef>
   </pardefs>
   <section id="main" type="standard">
@@ -12949,6 +12948,36 @@
 <e><p><l>geassut<s n="vblex"/><s n="iv"/></l><r>vetää<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>viegadit<s n="vblex"/><s n="iv"/></l><r>juoksennella<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>njuikkodit<s n="vblex"/><s n="iv"/></l><r>hypellä<s n="vblex"/></r></p><par n="V_V"/></e>
+
+<e><p><l>A<s n="n"/><s n="abbr"/></l><r>A.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>B<s n="n"/><s n="abbr"/></l><r>B.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>C<s n="n"/><s n="abbr"/></l><r>C.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>D<s n="n"/><s n="abbr"/></l><r>D.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>E<s n="n"/><s n="abbr"/></l><r>E.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>F<s n="n"/><s n="abbr"/></l><r>F.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>G<s n="n"/><s n="abbr"/></l><r>G.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>H<s n="n"/><s n="abbr"/></l><r>H.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>I<s n="n"/><s n="abbr"/></l><r>I.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>J<s n="n"/><s n="abbr"/></l><r>J.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>K<s n="n"/><s n="abbr"/></l><r>K.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>L<s n="n"/><s n="abbr"/></l><r>L.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>M<s n="n"/><s n="abbr"/></l><r>M.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>N<s n="n"/><s n="abbr"/></l><r>N.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>O<s n="n"/><s n="abbr"/></l><r>O.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>P<s n="n"/><s n="abbr"/></l><r>P.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>Q<s n="n"/><s n="abbr"/></l><r>Q.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>R<s n="n"/><s n="abbr"/></l><r>R.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>S<s n="n"/><s n="abbr"/></l><r>S.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>T<s n="n"/><s n="abbr"/></l><r>T.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>U<s n="n"/><s n="abbr"/></l><r>U.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>V<s n="n"/><s n="abbr"/></l><r>V.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>W<s n="n"/><s n="abbr"/></l><r>W.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>X<s n="n"/><s n="abbr"/></l><r>X.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>Y<s n="n"/><s n="abbr"/></l><r>Y.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>Z<s n="n"/><s n="abbr"/></l><r>Z.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>Ö<s n="n"/><s n="abbr"/></l><r>Ö.<s n="np"/></r></p><par n="E.__E."/></e>
+<e><p><l>Ä<s n="n"/><s n="abbr"/></l><r>Ä.<s n="np"/></r></p><par n="E.__E."/></e>
+
 
 
 </section>
