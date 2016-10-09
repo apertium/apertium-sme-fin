@@ -1027,6 +1027,15 @@
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ela"/></let>
         </when>
         <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></equal>
+                     <or><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@←SUBJ"/></equal>
+                         <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@SUBJ→"/></equal>
+                         <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@SUBJ"/></equal></or>
+                     <equal><clip pos="1" side="sl" part="x_func"/><lit-tag v="←ext→"/></equal></and></test>
+          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="par"/></let>
+        </when>
+
+        <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="loc"/></equal>
                      <equal><clip pos="1" side="sl" part="x_func"/><lit-tag v="←hab→"/></equal></and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ade"/></let>
