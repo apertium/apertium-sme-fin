@@ -592,7 +592,6 @@
     <!--<e><p><l>nanus<s n="n"/></l><r>luja<s n="n"/></r></p></e>-->
     <!--<e><p><l>njoammudávda<s n="n"/></l><r>tarttuva<b/>tauti<s n="n"/></r></p></e>-->
     <!--<e><p><l>norgalaš<s n="n"/></l><r>Norjan<b/>kansalainen<s n="n"/></r></p><par n="ihmi/nen"/></e>-->
-    <!--<e><p><l>náhkkebivttas<s n="n"/></l><r>nahkavaatteet<s n="n"/></r></p></e>-->
     <!--<e><p><l>oahpahusossodat<s n="n"/></l><r>opetusosasto<s n="n"/></r></p></e>-->
     <!--<e><p><l>oahpponeavvoráhkadeapmi<s n="n"/></l><r>opetusmateriaalin<b/>tekeminen<s n="n"/></r></p><par n="ihmi/nen"/></e>-->
     <!--<e><p><l>oainnus<s n="n"/></l><r>näkyvä<s n="n"/></r></p></e>-->
@@ -10291,7 +10290,7 @@
 <e><p><l>vearrái<s n="adj"/><s n="sup"/></l><r>hankala<s n="adj"/></r></p></e>
 <e><p><l>vearrái<s n="adj"/><s n="sup"/></l><r>paha<s n="adj"/></r></p></e>
 <e><p><l>vahkkosaš<s n="adj"/></l><r>viikoittainen<s n="adj"/></r></p><par n="ihmi/nen"/></e>
-<e><p><l>suddi<s n="n"/></l><r>sula<s n="n"/></r></p></e>
+<!--<e><p><l>suddi<s n="n"/></l><r>sula<s n="n"/></r></p></e>-->
 <e><p><l>suddi<s n="n"/></l><r>päälakiaukile<s n="n"/></r></p></e>
 <e><p><l>šibitdoallu<s n="n"/></l><r>eläinpito<s n="n"/></r></p></e>
 <e><p><l>šibitdoallu<s n="n"/></l><r>eläinhoito<s n="n"/></r></p></e>
@@ -10307,7 +10306,7 @@
 <e><p><l>neavri<s n="n"/></l><r>piru<s n="n"/></r></p></e>
 <e><p><l>neavri<s n="n"/></l><r>huono<s n="n"/></r></p></e>
 <e><p><l>náhkkebivttas<s n="n"/><s n="sg"/></l><r>nahkavaatteet<s n="n"/><s n="pl"/></r></p></e>
-<e><p><l>náhkkebivttas<s n="n"/></l><r>nahkavaate<s n="n"/></r></p></e>
+<e><p><l>náhkkebivttas<s n="n"/><s n="pl"/></l><r>nahkavaatteet<s n="n"/><s n="pl"/></r></p></e>
 <e><p><l>mánáidboddu<s n="n"/></l><r>lastentunti<s n="n"/></r></p></e>
 <e><p><l>mánáidboddu<s n="n"/></l><r>lastentuokio<s n="n"/></r></p></e>
 <!--<e><p><l>lohkki<s n="adj"/></l><r>lukija<s n="adj"/></r></p></e>-->

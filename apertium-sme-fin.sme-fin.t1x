@@ -11,6 +11,9 @@
     <def-cat n="qst">
       <cat-item tags="pcle.qst.*"/>
     </def-cat>
+    <def-cat n="supn">
+      <cat-item tags="vblex.*.supn.*"/>
+    </def-cat>
     <def-cat n="cnp">
       <cat-item tags="cnjcoo.@CNP"/>
     </def-cat>
@@ -418,6 +421,7 @@
       <attr-item tags="px1pl"/>
       <attr-item tags="px2pl"/>
       <attr-item tags="px3pl"/>
+      <attr-item tags="XD"/>
     </def-attr>
 
     <def-attr n="sg_acc">
@@ -1256,7 +1260,7 @@
         </when>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="supn"/></equal></test>
-          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infa.sg.tra"/></let>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infa.sg.tra.2"/></let>
           <call-macro n="pers-to-px1"><with-param pos="1"/></call-macro>
         </when>
         <when>
@@ -2339,6 +2343,30 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: SUPN">
+      <pattern>
+        <pattern-item n="supn"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion-nonfin1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_mood"/><lit v=""/></let>
+        <out>
+          <chunk name="supn" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.XD"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
 
     <rule comment="REGLA: II">

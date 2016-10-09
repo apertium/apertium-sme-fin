@@ -7,12 +7,16 @@
       <cat-item name="a"/>
       <cat-item name="prn"/>
       <cat-item name="conneg"/>
+      <cat-item name="supn"/>
     </def-cat>
     <def-cat n="sent">
       <cat-item name="punt"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
+    <def-attr n="a_XD">
+      <attr-item tags="XD"/>
+    </def-attr>
     <def-attr n="a_CD">
       <attr-item tags="CD"/>
     </def-attr>
@@ -62,6 +66,7 @@
       <action>
         <let><clip pos="1" part="a_ND"/><lit-tag v="sg"/></let>
         <let><clip pos="1" part="a_CD"/><lit-tag v="nom"/></let>
+        <let><clip pos="1" part="a_XD"/><lit-tag v="px3sg"/></let>
         <let><clip pos="1" part="a_cmp"/><lit v=""/></let> <!-- For sneaky compoundy tags.-->
         <out>
           <lu>
