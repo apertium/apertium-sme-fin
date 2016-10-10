@@ -353,8 +353,6 @@
       <attr-item tags="cmp_plnom.cmp_splitr"/>
       <attr-item tags="cmp_plgen.cmp_splitr"/>
 
-
-
       <attr-item tags="sg.nom.cmp"/>
       <attr-item tags="sg.gen.cmp"/>
 
@@ -362,6 +360,7 @@
       <attr-item tags="cmp_plgen.cmp_hyph.cmp"/>
       <attr-item tags="cmp_plnom.cmp"/>
       <attr-item tags="cmp_plgen.cmp"/>
+      <attr-item tags="cmpn_pln.cmp.guio"/>
       <attr-item tags="pl.nom.cmp"/>
       <attr-item tags="pl.gen.cmp"/>
       <attr-item tags="pl.nom.cmp_splitr"/>
@@ -628,6 +627,7 @@
       <attr-item tags="sem_ctain"/>
       <attr-item tags="sem_ctain_plc"/>
       <attr-item tags="sem_ctain-abstr"/>
+      <attr-item tags="sem_ctain-clth_plant"/>
       <attr-item tags="sem_ctain-clth"/>
       <attr-item tags="sem_ctain-clth_veh"/>
       <attr-item tags="sem_ctain_furn"/>
@@ -1166,6 +1166,7 @@
         <when>
           <test><or><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_plnom.cmp_splitr"/></equal>
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_attr.cmp_splitr"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmpn_pln.cmp.guio"/></equal>
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_plgen.cmp_splitr"/></equal></or></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><concat><lit-tag v="pl.gen"/><lit v="$^-"/><lit-tag v="guio"/></concat></let>
         </when>
