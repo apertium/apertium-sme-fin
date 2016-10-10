@@ -11085,7 +11085,8 @@
 <e><p><l>York<s n="np"/><s n="top"/></l><r>York<s n="np"/></r></p></e>
 <e><p><l>Yritys<s n="np"/></l><r>Yritys<s n="np"/></r></p></e>
 
-<!--    <e><p><l>Joganjálbmi<s n="np"/><s n="top"/></l><r>Joensuu<s n="np"/></r></p></e>-->
+<e><p><l>Joganjálbmi<s n="np"/><s n="top"/></l><r>Joensuu<s n="np"/></r></p></e>
+<e><p><l>Murmánska<s n="np"/><s n="top"/></l><r>Murmansk<s n="np"/></r></p></e>
 
 <e><p><l>sámevuohta<s n="n"/></l><r>saamelaisuus<s n="n"/></r></p></e>
 
@@ -13012,6 +13013,7 @@
 <e><p><l>ml.<s n="n"/><s n="abbr"/></l><r>ml.<s n="part"/></r></p></e>
 <e><p><l>§<s n="n"/><s n="abbr"/></l><r>§<s n="acr"/></r></p></e>
 <e><p><l>blogga<s n="n"/></l><r>blogi<s n="n"/></r></p></e>
+<e><p><l>ILO<s n="n"/><s n="acr"/><s n="sg"/></l><r>ILO<s n="np"/><s n="sg"/></r></p></e>
 
 
 </section>
