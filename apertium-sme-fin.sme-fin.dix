@@ -813,6 +813,7 @@
     <e><p><l>balddonas<s n="n"/></l><r>kummitus<s n="n"/></r></p></e>
     <e><p><l>baldu<s n="n"/></l><r>jäälautta<s n="n"/></r></p></e>
     <e><p><l>baleš<s n="n"/></l><r>pelkuruus<s n="n"/></r></p></e>
+    <e><p><l>bálkávuogádat<s n="n"/></l><r>palkkausjärjestelmä<s n="n"/></r></p></e>
     <e><p><l>ballu<s n="n"/></l><r>pelko<s n="n"/></r></p></e>
     <e><p><l>balláda<s n="n"/></l><r>balladi<s n="n"/></r></p></e>
     <e><p><l>balsambohppel<s n="n"/></l><r>palsamipoppeli<s n="n"/></r></p></e>
@@ -2576,6 +2577,7 @@
     <e><p><l>iehčanasvuohta<s n="n"/></l><r>itsenäisyys<s n="n"/></r></p></e>
     <e><p><l>iešdovdu<s n="n"/></l><r>itsetunto<s n="n"/></r></p></e>
     <e><p><l>iešmearridanvuoigatvuohta<s n="n"/></l><r>itsemääräämisoikeus<s n="n"/></r></p></e>
+    <e><p><l>iešmearrideapmi<s n="n"/></l><r>itsemäärääminen<s n="n"/></r></p></e>
     <e><p><l>iešstivrejupmi<s n="n"/></l><r>autonomia<s n="n"/></r></p></e>
     <e><p><l>iešvuohta<s n="n"/></l><r>ominaisuus<s n="n"/></r></p></e>
     <e><p><l>iežaskapitála<s n="n"/></l><r>pääoma<s n="n"/></r></p></e>
@@ -2660,7 +2662,8 @@
     <e><p><l>joavkobargu<s n="n"/></l><r>ryhmätyö<s n="n"/></r></p></e>
     <e><p><l>joavku<s n="n"/></l><r>joukko<s n="n"/></r></p></e>
     <e><p><l>joavku<s n="n"/></l><r>ryhmä<s n="n"/></r></p></e>
-    <e><p><l>jogaš<s n="n"/></l><r>puro<s n="n"/></r></p></e>
+    <e><p><l>jođiheapmi<s n="n"/></l><r>puro<s n="n"/></r></p></e>
+    <e><p><l>jogaš<s n="n"/></l><r>johtaminen<s n="n"/></r></p></e>
     <e><p><l>joggeskuovva<s n="n"/></l><r>lenkkikenkä<s n="n"/></r></p></e>
     <e><p><l>johka<s n="n"/></l><r>joki<s n="n"/></r></p></e>
     <e><p><l>johkagáddi<s n="n"/></l><r>joenranta<s n="n"/></r></p></e>
@@ -2827,6 +2830,8 @@
     <e><p><l>krisensurbmi<s n="n"/></l><r>riisiryyni<s n="n"/></r></p></e>
     <e><p><l>kristtalašvuohta<s n="n"/></l><r>kristinusko<s n="n"/></r></p></e>
     <e><p><l>kristálla<s n="n"/></l><r>kristalli<s n="n"/></r></p></e>
+    <e><p><l>kriteara<s n="n"/></l><r>kriteeri<s n="n"/></r></p></e>
+    <e><p><l>kritera<s n="n"/></l><r>kriteeri<s n="n"/></r></p></e>
     <e><p><l>krohppa<s n="n"/></l><r>ruho<s n="n"/></r></p></e>
     <e><p><l>krubbá<s n="n"/></l><r>seimi<s n="n"/></r></p></e>
     <e><p><l>kruvdna<s n="n"/></l><r>kruunu<s n="n"/></r></p></e>
@@ -4529,6 +4534,7 @@
     <e><p><l>sárdnideaddji<s n="n"/><s n="nomag"/></l><r>saarnaaja<s n="n"/></r></p></e>
     <e><p><l>sárggis<s n="n"/></l><r>raita<s n="n"/></r></p></e>
     <e><p><l>sárggus<s n="n"/></l><r>piirre<s n="n"/></r></p></e>
+    <e><p><l>sárgun<s n="n"/></l><r>piirustus<s n="n"/></r></p></e>
     <e><p><l>sárri<s n="n"/></l><r>rönsy<s n="n"/></r></p></e>
     <e><p><l>sártnodeapmi<s n="n"/></l><r>keskustelu<s n="n"/></r></p></e>
     <e><p><l>sátku<s n="n"/></l><r>venevalkama<s n="n"/></r></p></e>
@@ -10093,8 +10099,8 @@
 <!--<e><p><l>heittot<s n="n"/></l><r>huono<s n="n"/></r></p></e>-->
 <e><p><l>nissonolmmoš<s n="n"/></l><r>nainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>nissonolmmoš<s n="n"/></l><r>naisihminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
-<!--<e><p><l>sisti<s n="n"/></l><r>sisällä<s n="n"/></r></p></e>-->
-<e><p><l>sisti<s n="n"/></l><r>sisna<s n="n"/></r></p></e>
+<e><p><l>sisti<s n="n"/></l><r>sisällä<s n="n"/></r></p></e>
+<!--<e><p><l>sisti<s n="n"/></l><r>sisna<s n="n"/></r></p></e>-->
 <e><p><l>riikkarádji<s n="n"/></l><r>valtionraja<s n="n"/></r></p></e>
 <e><p><l>riikkarádji<s n="n"/></l><r>riikinraja<s n="n"/></r></p></e>
 <e><p><l>váimmus<s n="n"/></l><r>atomiydin<s n="n"/></r></p></e>
@@ -10158,7 +10164,7 @@
 <!--<e><p><l>lávlu<s n="adj"/></l><r>laulajatar<s n="adj"/></r></p></e>-->
 <e><p><l>láđđegákti<s n="n"/></l><r>verkapuku<s n="n"/></r></p></e>
 <e><p><l>láđđegákti<s n="n"/></l><r>verkalapintakki<s n="n"/></r></p></e>
-<!--<e><p><l>hiŋggal<s n="n"/></l><r>pilttu<s n="n"/></r></p></e>-->
+<e><p><l>hiŋggal<s n="n"/></l><r>pilttuu<s n="n"/></r></p></e>
 <e><p><l>hiŋggal<s n="n"/></l><r>parsi<s n="n"/></r></p></e>
 <e><p><l>gievra<s n="adj"/></l><r>vahva<s n="adj"/></r></p></e>
 <!--<e><p><l>gievra<s n="n"/></l><r>voimakas<s n="n"/></r></p></e>-->
