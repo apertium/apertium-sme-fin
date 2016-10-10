@@ -10,6 +10,7 @@
     <sdef n="cm"      c="Comma"/>
     <sdef n="px3"      c=""/>
     <sdef n="abbr"      c=""/>
+    <sdef n="attr"      c=""/>
     <sdef n="clb"      c="Clause boundary"/>
     <sdef n="adj"        c="Adjective"/>
     <sdef n="qst"        c="Question word"/>
@@ -427,10 +428,15 @@
 
 
     <!--<e><p><l>dat<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>-->
+    <e><p><l>diet<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="sg"/></r></p></e>
+    <e><p><l>diet<s n="prn"/><s n="dem"/><s n="pl"/></l><r>ne<s n="prn"/><s n="pl"/></r></p></e>
     <e><p><l>dat<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="sg"/></r></p></e>
     <e><p><l>dat<s n="prn"/><s n="dem"/><s n="pl"/></l><r>ne<s n="prn"/><s n="pl"/></r></p></e>
     <e><p><l>dát<s n="prn"/><s n="dem"/><s n="sg"/></l><r>tämä<s n="prn"/><s n="sg"/></r></p></e>
     <e><p><l>dát<s n="prn"/><s n="dem"/><s n="pl"/></l><r>nämä<s n="prn"/><s n="pl"/></r></p></e>
+    <e><p><l>dot<s n="prn"/><s n="dem"/><s n="sg"/></l><r>tuo<s n="prn"/><s n="sg"/></r></p></e>
+    <e><p><l>dot<s n="prn"/><s n="dem"/><s n="pl"/></l><r>nuo<s n="prn"/><s n="pl"/></r></p></e>
+
 
     <e><p><l>duot<s n="prn"/><s n="dem"/><s n="sg"/></l><r>tuo<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
     <e r="RL"><p><l>duot<s n="prn"/><s n="dem"/><s n="sg"/></l><r>toi<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
@@ -478,6 +484,11 @@
 -->
     <e><p><l>goappašagat<s n="prn"/><s n="ind"/><s n="pl"/><s n="nom"/></l><r>molemmat<s n="prn"/><s n="nom"/></r></p></e>
     <e><p><l>goappašagat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>molemmat<s n="prn"/><s n="pl"/></r></p></e>
+    <e><p><l>goappašat<s n="prn"/><s n="ind"/><s n="pl"/><s n="nom"/></l><r>molemmat<s n="prn"/><s n="nom"/></r></p></e>
+    <e><p><l>goappašat<s n="prn"/><s n="ind"/><s n="pl"/></l><r>molemmat<s n="prn"/><s n="pl"/></r></p></e>
+    <e><p><l>guktot<s n="prn"/><s n="ind"/><s n="pl"/><s n="nom"/></l><r>molemmat<s n="prn"/><s n="nom"/></r></p></e>
+    <e><p><l>guktot<s n="prn"/><s n="ind"/><s n="pl"/></l><r>molemmat<s n="prn"/><s n="pl"/></r></p></e>
+    <e><p><l>goappaš<s n="prn"/><s n="ind"/><s n="attr"/></l><r>molemmat<s n="prn"/><s n="nom"/></r></p></e>
 
     <e><p><l>guhtege<s n="prn"/><s n="ind"/></l><r>kukin<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>okta<s n="prn"/><s n="ind"/></l><r>yksi<s n="prn"/></r></p></e>
@@ -487,6 +498,10 @@
     <e r="LR"><p><l>buot<s n="prn"/><s n="ind"/><s n="du"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e> 
     <e r="LR"><p><l>buot<s n="prn"/><s n="ind"/><s n="pl"/></l><r>kaikki<s n="prn"/><s n="qnt"/><s n="pl"/></r></p></e> 
     <e r="RL"><p><l>buot<s n="prn"/><s n="ind"/></l><r>kaikki<s n="prn"/><s n="qnt"/></r></p></e> 
+
+    <e><p><l>goabbat<s n="prn"/><s n="ind"/></l><r>kumpikin<s n="prn"/><s n="sg"/></r></p></e>
+    <e><p><l>soames<s n="prn"/><s n="dem"/></l><r>muutama<s n="prn"/></r></p></e>
+    <e><p><l>juohke<s n="prn"/><s n="ind"/><s n="attr"/></l><r>jokainen<s n="prn"/><s n="sg"/><s n="nom"/></r></p></e>
  
     <e><p><l>ieš<s n="prn"/><s n="ref"/><s n="sg"/></l><r>itse<s n="prn"/><s n="ref"/><s n="sg"/></r></p></e> 
     <e><p><l>ieš<s n="prn"/><s n="ref"/><s n="du"/></l><r>itse<s n="prn"/><s n="ref"/><s n="pl"/></r></p></e> 
@@ -498,6 +513,8 @@
     <!--<e><p><l>máŋga<s n="num"/></l><r>moni<s n="prn"/><s n="qnt"/></r></p></e>-->
     <e><p><l>máŋga<s n="num"/><s n="pl"/><s n="nom"/></l><r>moni<s n="prn"/><s n="sg"/><s n="nom"/></r></p></e>
     <e><p><l>máŋga<s n="num"/><s n="pl"/></l><r>moni<s n="prn"/><s n="pl"/></r></p></e>
+
+    <e><p><l>diekkár<s n="prn"/><s n="dem"/></l><r>tällainen<s n="adj"/></r></p></e>
 
     <!-- SECTION: Numerals -->
     
@@ -10099,7 +10116,7 @@
 <!--<e><p><l>heittot<s n="n"/></l><r>huono<s n="n"/></r></p></e>-->
 <e><p><l>nissonolmmoš<s n="n"/></l><r>nainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>nissonolmmoš<s n="n"/></l><r>naisihminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
-<e><p><l>sisti<s n="n"/></l><r>sisällä<s n="n"/></r></p></e>
+<!--<e><p><l>sisti<s n="n"/></l><r>sisällä<s n="n"/></r></p></e>-->
 <!--<e><p><l>sisti<s n="n"/></l><r>sisna<s n="n"/></r></p></e>-->
 <e><p><l>riikkarádji<s n="n"/></l><r>valtionraja<s n="n"/></r></p></e>
 <e><p><l>riikkarádji<s n="n"/></l><r>riikinraja<s n="n"/></r></p></e>
