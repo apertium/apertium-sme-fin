@@ -98,5 +98,14 @@
     <match lemma=","/>
     <match lemma="että"/>
   </rule>
+
+
+  <!-- Verbs -->
+
+  <rule weight="1.1"><!-- siten default -->
+    <match lemma="voida" tags="vblex.*"><select lemma="sáhttit" tags="vblex.*"/></match>
+  </rule>
+
+
 </rules>
 </metalrx>
