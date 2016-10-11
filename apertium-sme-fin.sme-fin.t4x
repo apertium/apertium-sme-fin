@@ -56,6 +56,10 @@
       <attr-item tags="part"/>
     </def-attr>
 
+    <def-attr n="a_der">
+      <attr-item tags="der_s"/>
+    </def-attr>
+
     <def-attr n="a_sgnom">
       <attr-item tags="sg.nom"/>
     </def-attr>
@@ -267,6 +271,14 @@
 
   <section-def-macros>
     <def-macro n="fixup1" npar="1">
+      <choose>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_der"/><lit-tag v="der_s"/></equal>
+                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit v=""/></equal></and></test>
+          <let><clip pos="1" side="tl" part="a_der"/><lit v=""/></let>
+        </when>
+      </choose>
+
       <choose>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="foc_kin"/></equal></test>
