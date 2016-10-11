@@ -881,15 +881,27 @@
     <def-macro n="convert-passive1" npar="1">
       <choose> 
         <when> <!-- <vblex><pasv><indic><pres><pe4> -->
-          <test><or><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pres"/></equal>
-                    <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pret"/></equal></or></test>
+          <test><and><or><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pres"/></equal>
+                    <equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pret"/></equal></or>
+                    <equal><clip pos="1" side="sl" part="a_conneg"/><lit v=""/></equal></and></test>
           <let><clip pos="1" side="tl" part="tags"/><concat><lit-tag v="vblex.pasv.indic"/>
                                                     <clip pos="1" side="tl" part="a_tense"/><lit-tag v="pe4"/></concat></let>
+        </when>
+        <when> <!--  "sanoa" vblex pasv indic pres pe4 conneg -->
+          <test><and><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pres"/></equal>
+                    <equal><clip pos="1" side="sl" part="a_conneg"/><lit-tag v="conneg"/></equal></and></test>
+          <let><clip pos="1" side="tl" part="tags"/><lit-tag v="vblex.pasv.indic.pres.pe4.conneg"/></let>
+        </when>
+        <when> <!--  "sanoa" vblex pasv indic pret conneg -->
+          <test><and><equal><clip pos="1" side="sl" part="a_tense"/><lit-tag v="pret"/></equal>
+                    <equal><clip pos="1" side="sl" part="a_conneg"/><lit-tag v="conneg"/></equal></and></test>
+          <let><clip pos="1" side="tl" part="tags"/><lit-tag v="vblex.pasv.indic.pret.conneg"/></let>
         </when>
         <when> <!-- <vblex><pss><prfprc><sg><nom> -->
           <test><equal><clip pos="1" side="sl" part="a_prc"/><lit-tag v="prfprc"/></equal></test>
           <let><clip pos="1" side="tl" part="tags"/><lit-tag v="vblex.pasv.prfprc.sg.nom"/></let>
         </when>
+
       </choose>
     </def-macro>
 
@@ -1296,7 +1308,7 @@
       <choose>   
         <when>
           <test>
-               <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_gis"/></equal>
+               <equal><clip pos="1" side="sl" part="a_foc"/><lit-tag v="foc_gis"/></equal>
           </test>
           <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="tags"/><concat>
@@ -1313,8 +1325,8 @@
         </when>
         <when>
           <test>
-               <or><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_neg-ge"/></equal>
-                   <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
+               <or><equal><clip pos="1" side="sl" part="a_foc"/><lit-tag v="foc_neg-ge"/></equal>
+                   <equal><clip pos="1" side="sl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
           </test>
           <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="tags"/><concat>
@@ -1323,9 +1335,9 @@
         </when>
         <when>
           <test>
-               <or><equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_pos-ge"/></equal>
-                   <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ges"/></equal>
-                   <equal><clip pos="1" side="tl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
+               <or><equal><clip pos="1" side="sl" part="a_foc"/><lit-tag v="foc_pos-ge"/></equal>
+                   <equal><clip pos="1" side="sl" part="a_foc"/><lit-tag v="foc_ges"/></equal>
+                   <equal><clip pos="1" side="sl" part="a_foc"/><lit-tag v="foc_ge"/></equal></or>
           </test>
           <let><clip pos="1" side="tl" part="a_foc"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="tags"/><concat>
@@ -2421,10 +2433,10 @@
         <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="neg-verb-nonfin1"><with-param pos="1"/></call-macro>
-        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
-        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
         <let><clip pos="1" side="tl" part="a_mood"/><lit v=""/></let>
         <call-macro n="convert-passive1"><with-param pos="2"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
         <out>
           <chunk name="ii-conneg" case="caseFirstWord">
             <tags>
@@ -2435,7 +2447,7 @@
             </lu>
             <b pos="1"/>
             <lu>
-              <clip pos="2" side="tl" part="whole"/><lit-tag v="conneg"/>
+              <clip pos="2" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>

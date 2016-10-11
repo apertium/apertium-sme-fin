@@ -13018,6 +13018,7 @@
 <e><p><l>Ä<s n="n"/><s n="abbr"/></l><r>Ä.<s n="np"/></r></p><par n="E.__E."/></e>
 
 <e><p><l>Olgoáššiidministeriija<s n="np"/><s n="sg"/></l><r>Ulkoasianministeriö<s n="np"/><s n="sg"/></r></p></e>
+<e><p><l>Yle<s n="np"/><s n="sg"/></l><r>Yle<s n="np"/><s n="sg"/></r></p></e>
 
 <e><p><l>ee<s n="adv"/><s n="abbr"/></l><r>mm.<s n="part"/></r></p></e>
 <!--<e><p><l>jr<s n="n"/><s n="abbr"/></l><r>jr.<s n="part"/></r></p></e>-->
@@ -13034,6 +13035,9 @@
 
 <e><p><l>dálá<s n="adj"/></l><r>nykyinen<s n="adj"/></r></p><par n="attr_ND|CD"/></e>
 <e><p><l>immateriála<s n="adj"/></l><r>aineeton<s n="adj"/></r></p></e>
+<e><p><l>journalisma<s n="n"/></l><r>journalismi<s n="n"/></r></p></e>
+<e><p><l>parlamentarisma<s n="n"/></l><r>parlamentarismi<s n="n"/></r></p></e>
+<e><p><l>realisma<s n="n"/></l><r>realismi<s n="n"/></r></p></e>
 
 </section>
 </dictionary>
