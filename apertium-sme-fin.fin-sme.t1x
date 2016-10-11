@@ -4,9 +4,17 @@
   <section-def-cats>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+      <cat-item tags="prn.*"/>
     </def-cat>
     <def-cat n="neg">
       <cat-item lemma="ei" tags="vblex.*"/>
+    </def-cat>
+    <def-cat n="verb-fin">
+      <cat-item tags="vblex.*.cond.*"/>
+      <cat-item tags="vblex.*.pot.*"/>
+      <cat-item tags="vblex.actv.indic.*"/>
+      <cat-item tags="vblex.pasv.indic.*"/>
+      <cat-item tags="vblex.*.imp.*"/>
     </def-cat>
     <def-cat n="vblex">
       <cat-item tags="vblex.*"/>
@@ -647,6 +655,32 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: verb-fin">
+      <pattern>
+        <pattern-item n="verb-fin"/>
+      </pattern>
+     <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <choose>
+          <when><test><equal><clip pos="1" side="sl" part="a_mood"/> 
+                              <lit-tag v="cond"/>
+                      </equal></test>                   <!-- fin conditional is only present -->
+                <let><clip pos="1" side="tl" part="a_mood"/><lit-tag v="cond.pres"/></let>
+          </when>
+        </choose>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
    
     <rule comment="REGLA: CNJCOO">
       <pattern>

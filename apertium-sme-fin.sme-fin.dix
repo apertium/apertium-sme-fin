@@ -559,10 +559,8 @@
     <!--<e><p><l>buresboahtin<s n="n"/></l><r>tervetuloa<s n="n"/></r></p></e>-->
     <!--<e><p><l>davviguovlu<s n="n"/></l><r>pohjoinen<b/>alue<s n="n"/></r></p></e>-->
     <!--<e><p><l>deatnu<s n="n"/></l><r>iso<b/>joki<s n="n"/></r></p></e>-->
-    <!--<e><p><l>dii<s n="n"/></l><r>te<s n="n"/></r></p></e>-->
     <!--<e><p><l>doaibmi<s n="n"/></l><r>aktiivinen<s n="n"/></r></p><par n="ihmi/nen"/></e>-->
     <!--<e><p><l>doavttirskuvla<s n="n"/></l><r>lääketieteellinen<b/>tiedekunta<s n="n"/></r></p></e>-->
-    <!--<e><p><l>duo<s n="n"/></l><r>tuolla<s n="n"/></r></p></e>-->
     <!--<e><p><l>dáláš<s n="n"/></l><r>nykyaikainen<s n="n"/></r></p><par n="ihmi/nen"/></e>-->
     <!--<e><p><l>dáppe-olmmoš<s n="n"/></l><r>paikallinen<s n="n"/></r></p><par n="ihmi/nen"/></e>-->
     <!--<e><p><l>dárru<s n="n"/></l><r>norjan<b/>kieli<s n="n"/></r></p></e>-->
@@ -2337,6 +2335,7 @@
     <e><p><l>gurká<s n="n"/></l><r>kurkku<s n="n"/></r></p></e>
     <e><p><l>gurra<s n="n"/></l><r>kuilu<s n="n"/></r></p></e>
     <e><p><l>gursa<s n="n"/></l><r>kurssi<s n="n"/></r></p></e>
+    <e><p><l>guovddášbellodat<s n="n"/></l><r>keskustapuolue<s n="n"/></r></p></e>
     <e><p><l>gurutbellodat<s n="n"/></l><r>vasemmistopuolue<s n="n"/></r></p></e>
     <e><p><l>guskkádávda<s n="n"/></l><r>tyrä<s n="n"/></r></p></e>
     <e><p><l>gussa<s n="n"/></l><r>lehmä<s n="n"/></r></p></e>
@@ -5888,6 +5887,7 @@
     <e><p><l>Idar<s n="np"/><s n="ant"/><s n="m"/></l><r>Idar<s n="np"/></r></p></e>
     <e><p><l>Iijávri<s n="np"/><s n="top"/></l><r>Iijärvi<s n="np"/></r></p></e>
     <e><p><l>Iitu<s n="np"/><s n="top"/></l><r>Iitto<s n="np"/></r></p></e>
+    <e><p><l>ILO-konvenšuvdna<s n="np"/><s n="top"/></l><r>ILO-sopimus<s n="acr"/></r></p></e>
     <e><p><l>Ingalill<s n="np"/><s n="ant"/><s n="f"/></l><r>Ingalill<s n="np"/></r></p></e>
     <e><p><l>Inger<s n="np"/><s n="ant"/><s n="f"/></l><r>Inger<s n="np"/></r></p></e>
     <e><p><l>Ingvald<s n="np"/><s n="ant"/><s n="m"/></l><r>Ingvald<s n="np"/></r></p></e>
@@ -6090,6 +6090,7 @@
     <e><p><l>Spánia<s n="np"/></l><r>Espanja<s n="np"/></r></p></e>
     <e><p><l>Stig<s n="np"/><s n="ant"/><s n="m"/></l><r>Stig<s n="np"/></r></p></e>
     <e><p><l>Stuorgoahtin<s n="np"/><s n="top"/></l><r>Tuorkottajajärvi<s n="np"/></r></p></e>
+    <e><p><l>Stuorradiggi<s n="np"/><s n="top"/></l><r>Suurkäräjät<s n="np"/></r></p></e>
     <e><p><l>Stuorra<b/>Anárjávri<s n="np"/><s n="top"/></l><r>Inarijärvi<s n="np"/></r></p></e>
     <e><p><l>Stuorra<b/>Británnia<s n="np"/><s n="top"/></l><r>Iso-Britannia<s n="np"/></r></p></e>
     <e><p><l>Suohpajávri<s n="np"/><s n="top"/></l><r>Suoppajärvi<s n="np"/></r></p></e>
@@ -6103,6 +6104,7 @@
     <e><p><l>Sáksi<s n="np"/><s n="top"/></l><r>Saksi<s n="np"/></r></p></e>
     <e><p><l>Sállevárri<s n="np"/><s n="top"/></l><r>Sallivaara<s n="np"/></r></p></e>
     <e><p><l>Sámediggi<s n="np"/><s n="org"/></l><r>Saamelaiskäräjät<s n="np"/></r></p></e>
+    <e><p><l>Sámediggeráđđi<s n="np"/><s n="org"/></l><r>Saamelaisneuvosto<s n="np"/></r></p></e>
     <e><p><l>Sápmi<s n="np"/><s n="top"/></l><r>Lappi<s n="np"/></r></p></e>
     <e><p><l>Sárevuopmi<s n="np"/><s n="top"/></l><r>Saarivuoma<s n="np"/></r></p></e>
     <e><p><l>Tampere<s n="np"/></l><r>Tampere<s n="np"/></r></p></e>
