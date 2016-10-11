@@ -12983,6 +12983,10 @@
 <e><p><l>guossástallat<s n="vblex"/><s n="tv"/></l><r>vierailla<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>golihit<s n="vblex"/><s n="iv"/></l><r>kulua<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>lotkkodahttit<s n="vblex"/><s n="tv"/></l><r>rentouttaa<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>cielahit<s n="vblex"/><s n="tv"/></l><r>haukkua<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>jorgalahttit<s n="vblex"/><s n="tv"/></l><r>käännättää<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>vealahit<s n="vblex"/><s n="tv"/></l><r>syrjiä<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>guottihit<s n="vblex"/><s n="tv"/></l><r>tukea<s n="vblex"/></r></p><par n="V_V"/></e>
 
 <e><p><l>A<s n="n"/><s n="abbr"/></l><r>A.<s n="np"/></r></p><par n="E.__E."/></e>
 <e><p><l>B<s n="n"/><s n="abbr"/></l><r>B.<s n="np"/></r></p><par n="E.__E."/></e>
@@ -13013,6 +13017,8 @@
 <e><p><l>Ö<s n="n"/><s n="abbr"/></l><r>Ö.<s n="np"/></r></p><par n="E.__E."/></e>
 <e><p><l>Ä<s n="n"/><s n="abbr"/></l><r>Ä.<s n="np"/></r></p><par n="E.__E."/></e>
 
+<e><p><l>Olgoáššiidministeriija<s n="np"/><s n="sg"/></l><r>Ulkoasianministeriö<s n="np"/><s n="sg"/></r></p></e>
+
 <e><p><l>ee<s n="adv"/><s n="abbr"/></l><r>mm.<s n="part"/></r></p></e>
 <!--<e><p><l>jr<s n="n"/><s n="abbr"/></l><r>jr.<s n="part"/></r></p></e>-->
 <e><p><l>omd<s n="adv"/><s n="abbr"/></l><r>esim.<s n="part"/></r></p></e>
@@ -13021,11 +13027,13 @@
 <e><p><l>ml.<s n="n"/><s n="abbr"/></l><r>ml.<s n="part"/></r></p></e>
 <e><p><l>§<s n="n"/><s n="abbr"/></l><r>§<s n="acr"/></r></p></e>
 <e><p><l>blogga<s n="n"/></l><r>blogi<s n="n"/></r></p></e>
+<e><p><l>bajilčálus<s n="n"/></l><r>blogi<s n="n"/></r></p></e>
 <e><p><l>ILO<s n="n"/><s n="acr"/><s n="sg"/></l><r>ILO<s n="np"/><s n="sg"/></r></p></e>
 <e><p><l>EU<s n="n"/><s n="acr"/><s n="sg"/></l><r>EU<s n="n"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>dr<s n="n"/><s n="acr"/><s n="sg"/></l><r>tohtori<s n="n"/><s n="sg"/></r></p></e>
 
 <e><p><l>dálá<s n="adj"/></l><r>nykyinen<s n="adj"/></r></p><par n="attr_ND|CD"/></e>
+<e><p><l>immateriála<s n="adj"/></l><r>aineeton<s n="adj"/></r></p></e>
 
 </section>
 </dictionary>
