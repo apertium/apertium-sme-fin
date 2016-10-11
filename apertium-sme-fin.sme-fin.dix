@@ -12980,14 +12980,6 @@
 <e><p><l>viegadit<s n="vblex"/><s n="iv"/></l><r>juoksennella<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>njuikkodit<s n="vblex"/><s n="iv"/></l><r>hypellä<s n="vblex"/></r></p><par n="V_V"/></e>
 
-<e><p><l>guossástallat<s n="vblex"/><s n="tv"/></l><r>vierailla<s n="vblex"/></r></p><par n="V_V"/></e>
-<e><p><l>golihit<s n="vblex"/><s n="iv"/></l><r>kulua<s n="vblex"/></r></p><par n="V_V"/></e>
-<e><p><l>lotkkodahttit<s n="vblex"/><s n="tv"/></l><r>rentouttaa<s n="vblex"/></r></p><par n="V_V"/></e>
-<e><p><l>cielahit<s n="vblex"/><s n="tv"/></l><r>haukkua<s n="vblex"/></r></p><par n="V_V"/></e>
-<e><p><l>jorgalahttit<s n="vblex"/><s n="tv"/></l><r>käännättää<s n="vblex"/></r></p><par n="V_V"/></e>
-<e><p><l>vealahit<s n="vblex"/><s n="tv"/></l><r>syrjiä<s n="vblex"/></r></p><par n="V_V"/></e>
-<e><p><l>guottihit<s n="vblex"/><s n="tv"/></l><r>tukea<s n="vblex"/></r></p><par n="V_V"/></e>
-
 <e><p><l>A<s n="n"/><s n="abbr"/></l><r>A.<s n="np"/></r></p><par n="E.__E."/></e>
 <e><p><l>B<s n="n"/><s n="abbr"/></l><r>B.<s n="np"/></r></p><par n="E.__E."/></e>
 <e><p><l>C<s n="n"/><s n="abbr"/></l><r>C.<s n="np"/></r></p><par n="E.__E."/></e>
@@ -13032,12 +13024,36 @@
 <e><p><l>ILO<s n="n"/><s n="acr"/><s n="sg"/></l><r>ILO<s n="np"/><s n="sg"/></r></p></e>
 <e><p><l>EU<s n="n"/><s n="acr"/><s n="sg"/></l><r>EU<s n="n"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>dr<s n="n"/><s n="acr"/><s n="sg"/></l><r>tohtori<s n="n"/><s n="sg"/></r></p></e>
+<e><p><l>Nuuksio<s n="np"/><s n="top"/></l><r>Nuuksio<s n="np"/></r></p></e>
+<e><p><l>Haltia<s n="np"/><s n="top"/></l><r>Haltia<s n="np"/></r></p></e>
+
+<e><p><l>guossástallat<s n="vblex"/><s n="tv"/></l><r>vierailla<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>golihit<s n="vblex"/><s n="iv"/></l><r>kulua<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>deaivvadit<s n="vblex"/><s n="iv"/></l><r>tavata<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>lotkkodahttit<s n="vblex"/><s n="tv"/></l><r>rentouttaa<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>cielahit<s n="vblex"/><s n="tv"/></l><r>haukkua<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>jorgalahttit<s n="vblex"/><s n="tv"/></l><r>käännättää<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>vealahit<s n="vblex"/><s n="tv"/></l><r>syrjiä<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>guottihit<s n="vblex"/><s n="tv"/></l><r>tukea<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>ilmmuhit<s n="vblex"/><s n="tv"/></l><r>ilmoittaa<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>geatnegahttit<s n="vblex"/><s n="tv"/></l><r>velvoittaa<s n="vblex"/></r></p><par n="V_V"/></e>
+
+
+<e><p><l>maŋŋelaš<s n="n"/></l><r>myöhemmin<s n="n"/></r></p></e>
 
 <e><p><l>dálá<s n="adj"/></l><r>nykyinen<s n="adj"/></r></p><par n="attr_ND|CD"/></e>
 <e><p><l>immateriála<s n="adj"/></l><r>aineeton<s n="adj"/></r></p></e>
+
 <e><p><l>journalisma<s n="n"/></l><r>journalismi<s n="n"/></r></p></e>
 <e><p><l>parlamentarisma<s n="n"/></l><r>parlamentarismi<s n="n"/></r></p></e>
 <e><p><l>realisma<s n="n"/></l><r>realismi<s n="n"/></r></p></e>
+<e><p><l>kompensašuvdna<s n="n"/></l><r>kompensaatio<s n="n"/></r></p></e>
+<e><p><l>cealkin<s n="n"/></l><r>lausunto<s n="n"/></r></p></e>
+<e><p><l>guhkesáigi<s n="n"/></l><r>aikaväli<s n="n"/></r></p></e>
+<e><p><l>rahpanávvudeapmi<s n="n"/><s n="sg"/></l><r>avajaisjuhlallisuudet<s n="n"/><s n="pl"/></r></p></e>
+<e><p><l>rahpanávvudeapmi<s n="n"/><s n="pl"/></l><r>avajaisjuhlallisuudet<s n="n"/><s n="pl"/></r></p></e>
+<e><p><l>oassálastin<s n="n"/></l><r>osallistuminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
+<e><p><l>bargamuš<s n="n"/></l><r>tehtävä<s n="n"/></r></p></e>
 
 </section>
 </dictionary>
