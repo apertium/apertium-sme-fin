@@ -77,6 +77,10 @@
       <cat-item tags="vblex.*.indic.pres.*"/>
       <cat-item tags="vblex.*.indic.pret.*"/>
     </def-cat>
+    <def-cat n="pass-pres-conneg">
+      <cat-item tags="vblex.*.der_passs.vblex.iv.indic.pres.conneg.*"/>
+      <cat-item tags="vblex.*.der_passl.vblex.iv.indic.pres.conneg.*"/>
+    </def-cat>
     <def-cat n="pass-fin">
       <cat-item tags="vblex.*.der_passs.vblex.iv.indic.pres.*"/>
       <cat-item tags="vblex.*.der_passs.vblex.iv.indic.pret.*"/>
@@ -2407,6 +2411,36 @@
       </action>
     </rule>
 
+
+    <rule comment="REGLA: II PASS-PRES-CONNEG">
+      <pattern>
+        <pattern-item n="ii"/>
+        <pattern-item n="pass-pres-conneg"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="1"/></call-macro>
+        <call-macro n="neg-verb-nonfin1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_mood"/><lit v=""/></let>
+        <call-macro n="convert-passive1"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="ii-conneg" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV.NEG"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/><lit-tag v="conneg"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
 
 
