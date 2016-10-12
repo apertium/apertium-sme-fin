@@ -1,6 +1,8 @@
 Alphabet
 
 %<adj%>
+%<comp%>
+%<sup%>
 %<n%>
 %<prsprc%> 
 %<prtprc%> 
@@ -208,6 +210,9 @@ Rules
 
 "Don't allow compounds where first part is noun and second is der_nomact"
 : /<= _ N :* %<der%_nomact%> ;
+
+"Don't allow comp or sup + der_sti"
+: /<= _ [ %<comp%> | %<sup%> ] :* %<der%_sti%> ; 
 
 "Don't allow noun-participle compounds"
 : /<= _ [ Adj | N ] :* Prc ;

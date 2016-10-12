@@ -94,6 +94,7 @@
     <sdef n="ND"        c="Number to be determined"/>
     <sdef n="CD"        c="case to be determined"/>
     <sdef n="nom"        c=""/>
+    <sdef n="ess"        c=""/>
     <sdef n="acc"        c=""/>
     <sdef n="all"        c=""/>
     <sdef n="gen"        c=""/>
@@ -121,6 +122,9 @@
     <e><p><l><s n="cmp"/></l><r><s n="cmp"/></r></p></e>
     <e><p><l><s n="der_aadv"/><s n="adv"/></l><r><s n="der_sti"/></r></p></e>
     <e r="LR"><p><l><s n="attr"/></l><r><s n="ND"/><s n="CD"/></r></p></e>
+    <e><p><l><s n="comp"/></l><r><s n="comp"/></r></p></e>
+    <e><p><l><s n="sup"/></l><r><s n="sup"/></r></p></e>
+    <e><p><l><s n="ess"/></l><r><s n="ess"/></r></p></e>
     <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
     <e><p><l><s n="du"/></l><r><s n="pl"/></r></p></e>
     <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
@@ -128,6 +132,9 @@
 
     <pardef n="uusi__adj">
     <e><p><l><s n="cmp"/></l><r><s n="cmp"/></r></p></e>
+    <e><p><l><s n="comp"/></l><r><s n="comp"/></r></p></e>
+    <e><p><l><s n="sup"/></l><r><s n="sup"/></r></p></e>
+    <e><p><l><s n="ess"/></l><r><s n="ess"/></r></p></e>
     <e r="LR"><p><l><s n="attr"/></l><r><s n="ND"/><s n="CD"/></r></p></e>
     <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
     <e><p><l><s n="du"/></l><r><s n="pl"/></r></p></e>
@@ -136,6 +143,9 @@
 
     <pardef n="yksimieli/nen__adj">
     <e><p><l><s n="cmp"/></l><r><s n="der_s"/><s n="cmp"/></r></p></e>
+    <e><p><l><s n="comp"/></l><r><s n="comp"/></r></p></e>
+    <e><p><l><s n="sup"/></l><r><s n="sup"/></r></p></e>
+    <e><p><l><s n="ess"/></l><r><s n="ess"/></r></p></e>
     <e r="LR"><p><l><s n="cmp_sgnom"/><s n="cmp"/></l><r><s n="der_s"/><s n="cmp"/></r></p></e>
     <e r="LR"><p><l><s n="cmp_attr"/><s n="cmp"/></l><r><s n="der_s"/><s n="cmp"/></r></p></e>
     <e r="LR"><p><l><s n="attr"/></l><r><s n="ND"/><s n="CD"/></r></p></e>
@@ -149,6 +159,9 @@
     <e r="LR"><p><l><s n="cmp_sgnom"/><s n="cmp"/></l><r><s n="der_s"/><s n="cmp"/></r></p></e>
     <e r="LR"><p><l><s n="cmp_attr"/><s n="cmp"/></l><r><s n="der_s"/><s n="cmp"/></r></p></e>
     <e r="LR"><p><l><s n="attr"/></l><r><s n="ND"/><s n="CD"/></r></p></e>
+    <e><p><l><s n="comp"/></l><r><s n="comp"/></r></p></e>
+    <e><p><l><s n="sup"/></l><r><s n="sup"/></r></p></e>
+    <e><p><l><s n="ess"/></l><r><s n="ess"/></r></p></e>
     <e><p><l><s n="der_aadv"/><s n="adv"/></l><r><s n="der_sti"/></r></p></e>
     <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
     <e><p><l><s n="du"/></l><r><s n="pl"/></r></p></e>
@@ -166,6 +179,7 @@
     <pardef n="E.__E.">
     <e><p><l><s n="sg"/><s n="nom"/></l><r><s n="sg"/><s n="nom"/></r></p></e>
     </pardef>
+
     <pardef n="attr_ND|CD">
     <e r="LR"><p><l><s n="attr"/></l><r><s n="ND"/><s n="CD"/></r></p></e>
     <e r="RL"><p><l><s n="attr"/></l><r></r></p></e>
@@ -505,6 +519,7 @@
     <e><p><l>mihkke<s n="prn"/><s n="ind"/><s n="sg"/><s n="acc"/><s n="foc_neg-ge"/></l><r>mikään<s n="prn"/><s n="qnt"/><s n="sg"/><s n="gen"/></r></p></e>
     
     <e><p><l>gii<s n="prn"/><s n="ind"/></l><r>muu<s n="prn"/></r></p></e>
+    <e><p><l>eatnat<s n="prn"/><s n="ind"/></l><r>usea<s n="prn"/></r></p></e>
 
     <e><p><l>muhtin<s n="prn"/><s n="ind"/></l><r>muutama<s n="prn"/><s n="qnt"/></r></p></e>
     <e><p><l>soamis<s n="prn"/><s n="ind"/></l><r>joku<s n="prn"/></r></p></e>   
@@ -7192,6 +7207,7 @@
     <e><p><l>čiekŋaliimanni<s n="adj"/></l><r>syvällinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>čielggas<s n="adj"/></l><r>selkeä<s n="adj"/></r></p><par n="uusi__adj"/></e> 
     <e><p><l>čielggas<s n="adj"/></l><r>selvä<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>čielggas<s n="adj"/></l><r>ilmeinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>čieŋal<s n="adj"/></l><r>syvä<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>čihččet<s n="adj"/><s n="ord"/></l><r>seitsemäs<s n="num"/></r></p></e>
     <e><p><l>čilssas<s n="adj"/></l><r>törröttävä<s n="adj"/></r></p><par n="uusi__adj"/></e>
@@ -13053,6 +13069,9 @@
 
 <e><p><l>Olgoáššiidministeriija<s n="np"/><s n="sg"/></l><r>Ulkoasianministeriö<s n="np"/><s n="sg"/></r></p></e>
 <e><p><l>Yle<s n="np"/><s n="sg"/></l><r>Yle<s n="np"/><s n="sg"/></r></p></e>
+<e><p><l>Tukes<s n="np"/><s n="sg"/></l><r>Tukes<s n="np"/><s n="sg"/></r></p></e>
+<e><p><l>Kärnä<s n="np"/><s n="top"/><s n="sg"/></l><r>Kärnä<s n="np"/><s n="sg"/></r></p></e>
+<e><p><l>Njellim<s n="np"/><s n="top"/><s n="sg"/></l><r>Nellim<s n="np"/><s n="sg"/></r></p></e>
 
 <e><p><l>ee<s n="adv"/><s n="abbr"/></l><r>mm.<s n="part"/></r></p></e>
 <!--<e><p><l>jr<s n="n"/><s n="abbr"/></l><r>jr.<s n="part"/></r></p></e>-->
@@ -13064,6 +13083,7 @@
 <e><p><l>blogga<s n="n"/></l><r>blogi<s n="n"/></r></p></e>
 <e><p><l>bajilčálus<s n="n"/></l><r>blogi<s n="n"/></r></p></e>
 <e><p><l>ILO<s n="n"/><s n="acr"/><s n="sg"/></l><r>ILO<s n="np"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>Ilo<s n="np"/><s n="sg"/></l><r>ILO<s n="np"/><s n="sg"/></r></p></e>
 <e><p><l>EU<s n="n"/><s n="acr"/><s n="sg"/></l><r>EU<s n="n"/><s n="sg"/></r></p></e>
 <!--<e><p><l>tv<s n="n"/><s n="acr"/><s n="sg"/></l><r>tv<s n="n"/><s n="sg"/></r></p></e>-->
 <e r="LR"><p><l>dr<s n="n"/><s n="acr"/><s n="sg"/></l><r>tohtori<s n="n"/><s n="sg"/></r></p></e>
@@ -13082,23 +13102,52 @@
 <e><p><l>ilmmuhit<s n="vblex"/><s n="tv"/></l><r>ilmoittaa<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>geatnegahttit<s n="vblex"/><s n="tv"/></l><r>velvoittaa<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>gárgehit<s n="vblex"/><s n="tv"/></l><r>kehittää<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>ollahuvvat<s n="vblex"/><s n="iv"/></l><r>toteutua<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>linnjet<s n="vblex"/><s n="tv"/></l><r>linjata<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>háhppehit<s n="vblex"/><s n="iv"/></l><r>ehtiä<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>girjet<s n="vblex"/><s n="iv"/></l><r>koskea<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>fuolastuhttit<s n="vblex"/><s n="tv"/></l><r>huolettaa<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>earáhuvvat<s n="vblex"/><s n="iv"/></l><r>muuttua<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>heajudit<s n="vblex"/><s n="tv"/></l><r>heikentää<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>ođasnuhttit<s n="vblex"/><s n="tv"/></l><r>uudistaa<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>gárvánit<s n="vblex"/><s n="iv"/></l><r>valmistua<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>vuojulduvvat<s n="vblex"/><s n="iv"/></l><r>perehtyä<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>sirdásit<s n="vblex"/><s n="iv"/></l><r>siirtyä<s n="vblex"/></r></p><par n="V_V"/></e>
 
 
+
+<e><p><l>goassige<s n="adv"/></l><r>koskaan<s n="adv"/></r></p></e>
+<e><p><l>aŋkke<s n="adv"/></l><r>ainakin<s n="adv"/></r></p></e>
 <e><p><l>maŋŋelaš<s n="adv"/></l><r>myöhemmin<s n="adv"/></r></p></e>
+<e><p><l>easka<s n="adv"/></l><r>vasta<s n="adv"/></r></p></e>
+<e><p><l>liikká<s n="adv"/></l><r>yhtä<s n="adv"/></r></p></e>
+<e><p><l>čielgasit<s n="adv"/></l><r>ilmeisesti<s n="adv"/></r></p></e>
+<e><p><l>bahábut<s n="adv"/><s n="comp"/></l><r>valitettavasti<s n="adv"/></r></p></e>
 
 <e><p><l>dálá<s n="adj"/></l><r>nykyinen<s n="adj"/></r></p><par n="attr_ND|CD"/></e>
 <e><p><l>immateriála<s n="adj"/></l><r>aineeton<s n="adj"/></r></p><par n="uusi__adj"/></e>
+<e><p><l>nohkavaš<s n="adj"/></l><r>kuluva<s n="adj"/></r></p><par n="uusi__adj"/></e>
+<e><p><l>čuvgehuslaš<s n="adj"/></l><r>sivistyksellinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+<e><p><l>aitosaš<s n="adj"/></l><r>varsinainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+<e><p><l>biehtadahkes<s n="adj"/></l><r>kielteinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+<e><p><l>diimmá<s n="adj"/></l><r>edellinen<s n="adj"/></r></p><par n="attr_ND|CD"/></e>
+<e><p><l>geažos<s n="adj"/></l><r>jatkuva<s n="adj"/></r></p><par n="attr_ND|CD"/></e>
 
 <e><p><l>journalisma<s n="n"/></l><r>journalismi<s n="n"/></r></p></e>
+<e><p><l>dearvvahus<s n="n"/></l><r>tervehdys<s n="n"/></r></p></e>
+<e><p><l>beahttašupmi<s n="n"/></l><r>pettymys<s n="n"/></r></p></e>
 <e><p><l>parlamentarisma<s n="n"/></l><r>parlamentarismi<s n="n"/></r></p></e>
 <e><p><l>realisma<s n="n"/></l><r>realismi<s n="n"/></r></p></e>
 <e><p><l>kompensašuvdna<s n="n"/></l><r>kompensaatio<s n="n"/></r></p></e>
+<e><p><l>eallinfilosofiija<s n="n"/></l><r>elämänfilosofia<s n="n"/></r></p></e>
 <e><p><l>cealkin<s n="n"/></l><r>lausunto<s n="n"/></r></p></e>
 <e><p><l>guhkesáigi<s n="n"/></l><r>aikaväli<s n="n"/></r></p></e>
 <e><p><l>rahpanávvudeapmi<s n="n"/><s n="sg"/></l><r>avajaisjuhlallisuudet<s n="n"/><s n="pl"/></r></p></e>
 <e><p><l>rahpanávvudeapmi<s n="n"/><s n="pl"/></l><r>avajaisjuhlallisuudet<s n="n"/><s n="pl"/></r></p></e>
 <e><p><l>oassálastin<s n="n"/></l><r>osallistuminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>bargamuš<s n="n"/></l><r>tehtävä<s n="n"/></r></p></e>
+<e><p><l>bálges<s n="n"/></l><r>paliskunta<s n="n"/></r></p></e>
+<e><p><l>geavat<s n="n"/></l><r>käytäntö<s n="n"/></r></p></e>
 <e><p><l>kompromissa<s n="n"/><s n="g3"/></l><r>kompromissi<s n="n"/></r></p></e>
 
 </section>
