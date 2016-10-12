@@ -67,6 +67,9 @@
     <def-attr n="a_cmp_feil">
       <attr-item tags="cmp_hyph.sg"/>
     </def-attr>
+    <def-attr n="a_cmp_only">
+      <attr-item tags="cmp"/>
+    </def-attr>
 
     <def-attr n="a_cmp">
       <attr-item tags="cmp"/>
@@ -303,6 +306,7 @@
         </when>
       </choose>
       <let><clip pos="1" side="tl" part="a_cmp_feil"/><lit-tag v="sg"/></let>
+      <let><clip pos="1" side="tl" part="a_cmp_only"/><lit v=""/></let> <!-- Ok while we don't treat compounds -->
       <let><clip pos="1" side="tl" part="a_kill"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let> <!-- Should be fixed upstream -->
     </def-macro>
