@@ -285,6 +285,8 @@
     <def-attr n="a_deriv">
       <attr-item tags="der_dimin"/>
       <attr-item tags="der_minen"/>
+      <attr-item tags="der_sti"/>
+      <attr-item tags="der_aadv.adv"/>
       <attr-item tags="der_dimin.n"/>
       <attr-item tags="der_nomact.n"/>
       <attr-item tags="der_dimin.adj"/>
@@ -956,6 +958,10 @@
           <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_nomact.n"/></equal></test>
           <let><clip pos="1" side="tl" part="a_deriv"/><lit-tag v="der_minen"/></let>
           <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_aadv.adv"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_deriv"/><lit-tag v="der_sti"/></let>
         </when>
         <when>
           <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_dimin.n"/></equal></test>
