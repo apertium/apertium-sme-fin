@@ -202,6 +202,7 @@
 
     <def-cat n="nom">
       <cat-item tags="n.*"/>
+      <cat-item tags="vblex.*.der_nomact.n.*"/>
       <cat-item tags="np.*"/>
     </def-cat>
     <def-cat n="sent">
@@ -283,7 +284,9 @@
     </def-attr>
     <def-attr n="a_deriv">
       <attr-item tags="der_dimin"/>
+      <attr-item tags="der_minen"/>
       <attr-item tags="der_dimin.n"/>
+      <attr-item tags="der_nomact.n"/>
       <attr-item tags="der_dimin.adj"/>
       <attr-item tags="der_goahti.vblex"/>
     </def-attr>
@@ -949,6 +952,11 @@
 
     <def-macro n="handle-nominal-derivation1" npar="1">
       <choose>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_nomact.n"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_deriv"/><lit-tag v="der_minen"/></let>
+          <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
+        </when>
         <when>
           <test><equal><clip pos="1" side="sl" part="a_deriv"/><lit-tag v="der_dimin.n"/></equal></test>
           <let><clip pos="1" side="tl" part="a_deriv"/><lit v=""/></let>
@@ -2580,6 +2588,7 @@
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion-nonfin1"><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
         <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="x" case="caseFirstWord">

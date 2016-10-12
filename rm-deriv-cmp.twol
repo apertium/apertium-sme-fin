@@ -174,7 +174,7 @@ HandledDerivations =
 !%<der%_laš%>
 !%<der%_st%>
 !%<der%_nomag%>
-!%<der%_nomact%>
+%<der%_nomact%>
 ;
 
 ;				! end of Sets
@@ -204,6 +204,9 @@ Rules
 
 "Don't allow +Foc/son"
 : /<= _ :* UnhandledFoc ;
+
+"Don't allow compounds where first part is noun and second is der_nomact"
+: /<= _ N :* %<der%_nomact%> ;
 
 "Don't allow noun-participle compounds"
 : /<= _ [ Adj | N ] :* Prc ;
