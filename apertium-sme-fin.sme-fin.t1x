@@ -303,6 +303,9 @@
       <attr-item tags="pl.ill.attr"/>
       <attr-item tags="ND.CD"/>
     </def-attr>
+    <def-attr n="a_der_s">
+      <attr-item tags="der_s"/>
+    </def-attr>
     <def-attr n="a_adj">
       <attr-item tags="adj"/>
     </def-attr>
@@ -1716,6 +1719,7 @@
         <call-macro n="concord-nominal2"><with-param pos="3"/><with-param pos="2"/></call-macro>
         <call-macro n="pcle-foc1"><with-param pos="3"/></call-macro>
         <call-macro n="pcle-foc1"><with-param pos="2"/></call-macro>
+        <let><clip pos="2" side="tl" part="a_der_s"/><lit v=""/></let>
         <out>
           <chunk name="n-a-n" case="caseFirstWord">
             <tags>
@@ -2061,6 +2065,9 @@
         <call-macro n="default-conversion3"><with-param pos="4"/><with-param pos="3"/><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation1"><with-param pos="4"/></call-macro>
         <call-macro n="concord-nominal3"><with-param pos="4"/><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="3"/></call-macro>
+        <call-macro n="pcle-foc1"><with-param pos="4"/></call-macro>
         <out>
           <chunk name="a-c-a-n" case="caseFirstWord">
             <tags>
