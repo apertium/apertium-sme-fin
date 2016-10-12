@@ -118,6 +118,7 @@
     <pardef n="ihmi/nen">
     <e><p><l><s n="cmp"/></l><r><s n="der_s"/><s n="cmp"/></r></p></e>
     <e r="LR"><p><l><s n="cmp_sgnom"/><s n="cmp"/></l><r><s n="der_s"/><s n="cmp"/></r></p></e>
+    <e r="LR"><p><l><s n="cmp_attr"/><s n="cmp"/></l><r><s n="der_s"/><s n="cmp"/></r></p></e>
     <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
     <e><p><l><s n="du"/></l><r><s n="pl"/></r></p></e>
     <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
@@ -13039,6 +13040,7 @@
 <e><p><l>guottihit<s n="vblex"/><s n="tv"/></l><r>tukea<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>ilmmuhit<s n="vblex"/><s n="tv"/></l><r>ilmoittaa<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>geatnegahttit<s n="vblex"/><s n="tv"/></l><r>velvoittaa<s n="vblex"/></r></p><par n="V_V"/></e>
+<e><p><l>gárgehit<s n="vblex"/><s n="tv"/></l><r>kehittää<s n="vblex"/></r></p><par n="V_V"/></e>
 
 
 <e><p><l>maŋŋelaš<s n="adv"/></l><r>myöhemmin<s n="adv"/></r></p></e>
@@ -13056,6 +13058,7 @@
 <e><p><l>rahpanávvudeapmi<s n="n"/><s n="pl"/></l><r>avajaisjuhlallisuudet<s n="n"/><s n="pl"/></r></p></e>
 <e><p><l>oassálastin<s n="n"/></l><r>osallistuminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>bargamuš<s n="n"/></l><r>tehtävä<s n="n"/></r></p></e>
+<e><p><l>kompromissa<s n="n"/><s n="g3"/></l><r>kompromissi<s n="n"/></r></p></e>
 
 </section>
 </dictionary>
