@@ -120,6 +120,7 @@
     <pardef n="iso__adj">
     <e><p><l><s n="cmp"/></l><r><s n="cmp"/></r></p></e>
     <e><p><l><s n="der_aadv"/><s n="adv"/></l><r><s n="der_sti"/></r></p></e>
+    <e r="LR"><p><l><s n="attr"/></l><r><s n="ND"/><s n="CD"/></r></p></e>
     <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
     <e><p><l><s n="du"/></l><r><s n="pl"/></r></p></e>
     <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
@@ -127,6 +128,7 @@
 
     <pardef n="uusi__adj">
     <e><p><l><s n="cmp"/></l><r><s n="cmp"/></r></p></e>
+    <e r="LR"><p><l><s n="attr"/></l><r><s n="ND"/><s n="CD"/></r></p></e>
     <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
     <e><p><l><s n="du"/></l><r><s n="pl"/></r></p></e>
     <e><p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>

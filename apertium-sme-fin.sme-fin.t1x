@@ -2093,25 +2093,27 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: ATTR CNP ATTR NOM-CMP NOM">
+    <rule comment="REGLA: ATTR CNP ATTR NOM-CMP NOM-CMP NOM">
       <pattern>
         <pattern-item n="attr"/>
         <pattern-item n="cnp"/>
         <pattern-item n="attr"/>
+        <pattern-item n="nom-cmp"/>
         <pattern-item n="nom-cmp"/>
         <pattern-item n="nom"/>
       </pattern>
       <action>
         <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="4"/></call-macro>
-        <call-macro n="remove-semtags1"><with-param pos="4"/></call-macro>
-        <call-macro n="remove-semtags3"><with-param pos="5"/><with-param pos="3"/><with-param pos="1"/></call-macro>
-        <call-macro n="default-conversion1"><with-param pos="4"/></call-macro>
-        <call-macro n="default-conversion3"><with-param pos="5"/><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <call-macro n="remove-semtags2"><with-param pos="5"/><with-param pos="4"/></call-macro>
+        <call-macro n="remove-semtags3"><with-param pos="6"/><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion2"><with-param pos="5"/><with-param pos="4"/></call-macro>
+        <call-macro n="default-conversion3"><with-param pos="6"/><with-param pos="3"/><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation1"><with-param pos="5"/></call-macro>
-        <call-macro n="concord-nominal3"><with-param pos="5"/><with-param pos="3"/><with-param pos="1"/></call-macro>
+        <call-macro n="handle-nominal-derivation1"><with-param pos="6"/></call-macro>
+        <call-macro n="concord-nominal3"><with-param pos="6"/><with-param pos="3"/><with-param pos="1"/></call-macro>
         <out>
-          <chunk name="a-c-a-n" case="caseFirstWord">
+          <chunk name="a-c-a-n-n-n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
             </tags>
@@ -2130,6 +2132,7 @@
             <mlu>
               <lu><clip pos="4" side="tl" part="whole"/></lu>
               <lu><clip pos="5" side="tl" part="whole"/></lu>
+              <lu><clip pos="6" side="tl" part="whole"/></lu>
             </mlu>
           </chunk>
         </out>
