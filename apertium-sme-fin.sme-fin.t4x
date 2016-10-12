@@ -64,8 +64,13 @@
       <attr-item tags="sg.nom"/>
     </def-attr>
 
+    <def-attr n="a_cmp_feil">
+      <attr-item tags="cmp_hyph.sg"/>
+    </def-attr>
+
     <def-attr n="a_cmp">
       <attr-item tags="cmp"/>
+      <attr-item tags="cmp_hyph"/>
       <attr-item tags="cmp.guio"/>
       <attr-item tags="cmp_sgnom.cmp_hyph.cmp"/>
       <attr-item tags="cmp_sggen.cmp_hyph.cmp"/>
@@ -297,6 +302,7 @@
           <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="sg"/></let>
         </when>
       </choose>
+      <let><clip pos="1" side="tl" part="a_cmp_feil"/><lit-tag v="sg"/></let>
       <let><clip pos="1" side="tl" part="a_kill"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let> <!-- Should be fixed upstream -->
     </def-macro>

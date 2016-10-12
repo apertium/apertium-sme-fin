@@ -344,6 +344,7 @@
       <attr-item tags="cmp.hyph"/>
       <attr-item tags="cmp_sh.cmp"/>
       <attr-item tags="cmp_sh.cmp_hyph.cmp"/>
+      <attr-item tags="cmp_attr.cmp_hyph.cmp"/>
 
 
       <attr-item tags="cmp_sgnom.cmp_hyph.cmp"/>
@@ -1176,6 +1177,7 @@
           <test><or><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sgnom.cmp_splitr"/></equal>
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_attr.cmp_splitr"/></equal>
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_splitr"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_attr.cmp_hyph.cmp"/></equal>
                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp_sggen.cmp_splitr"/></equal></or></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><concat><lit-tag v="sg.nom"/><lit v="$^-"/><lit-tag v="guio"/></concat></let>
         </when>
@@ -1194,19 +1196,26 @@
         <when>
           <test><and><or><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="num"/></equal>
                          <equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="n.acr"/></equal></or>
-                    <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp.guio"/></equal></and></test>
+                     <equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="cmp.guio"/></equal></and></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><concat><lit-tag v="sg.nom"/><lit v="$^-"/><lit-tag v="guio"/></concat></let>
         </when>
       </choose>
 
-
+      <!-- COMPOUNDING CLEANUP  -->
 
       <choose>
+        <when>
+          <test><and><equal><clip pos="1" side="tl" part="a_pos"/><lit-tag v="num"/></equal>
+                     <not><equal><clip pos="1" side="tl" part="a_cmp"/><lit v=""/></equal></not></and></test>
+          <let><clip pos="1" side="tl" part="a_cmp"/><lit v=""/></let>
+        </when>
         <when>
           <test><equal><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="n.cmp"/></equal></test>
           <let><clip pos="1" side="tl" part="a_cmp"/><lit-tag v="n.sg.nom.cmp"/></let>
         </when>
       </choose>
+
+      <!--  ESSIVE -->
 
       <choose>
         <when>
@@ -1219,6 +1228,8 @@
           <let><clip pos="1" side="tl" part="a_ess"/><lit-tag v="sg.ess"/></let>
         </when>
       </choose>
+
+      <!--  COMPOUNDING CLEANUP II -->
 
       <choose>
         <when>
