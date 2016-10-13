@@ -212,7 +212,7 @@ Rules
 : /<= _ N :* %<der%_nomact%> ;
 
 "Don't allow comp or sup + der_sti"
-: /<= _ [ %<comp%> | %<sup%> ] :* %<der%_sti%> ; 
+: /<= _ [ %<comp%> | %<sup%> ] :* %<der%_aadv%> ; 
 
 "Don't allow noun-participle compounds"
 : /<= _ [ Adj | N ] :* Prc ;
