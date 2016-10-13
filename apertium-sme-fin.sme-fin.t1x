@@ -1112,6 +1112,9 @@
         </when>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></equal>
+                     <or><equal><clip pos="1" side="sl" part="a_sem"/><lit-tag v="sem_time"/></equal>
+                         <equal><clip pos="1" side="sl" part="a_sem"/><lit-tag v="sem_time_wthr"/></equal>
+                         <equal><clip pos="1" side="sl" part="a_sem"/><lit-tag v="sem_plc_time"/></equal></or>
                      <or><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@ADVL→"/></equal>
                          <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@APP-ADVL←"/></equal>
                          <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@←ADVL"/></equal></or></and></test>
