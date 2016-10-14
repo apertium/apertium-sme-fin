@@ -265,5 +265,26 @@
   <rule weight="1.0">
     <match lemma="čora" tags="n.*"><select lemma="porotokka" tags="n.*"/></match>
   </rule>
+
+  <rule weight="1.0">
+    <match lemma="vai" tags="cnjsub.*">
+      <select lemma="jotta" tags="cnjsub.*"/>
+    </match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma=","/>
+    <match lemma="vai" tags="cnjsub.*">
+      <select lemma="jotta" tags="cnjsub.*"/>
+    </match>
+  </rule>
+
+  <rule weight="1.5">
+    <match/>
+    <match lemma="vai" tags="cnjsub.*">
+      <select lemma="tai" tags="cnjcoo.*"/>
+    </match>
+  </rule>
+
 </rules>
 </metalrx>
