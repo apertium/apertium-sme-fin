@@ -4,6 +4,7 @@
   <section-def-cats>
     <def-cat n="default">
       <cat-item name="n"/>
+      <cat-item name="x"/>
       <cat-item name="a"/>
       <cat-item name="prn"/>
       <cat-item name="conneg"/>
@@ -89,7 +90,7 @@
     <def-var n="paraula"/>
   </section-def-vars>
   <section-rules>
-<!--    <rule comment="CHUNK:">
+    <rule comment="CHUNK:">
       <pattern>
         <pattern-item n="default"/>
       </pattern>
@@ -104,7 +105,8 @@
           </lu>
         </out>
       </action>
-    </rule> -->
+    </rule> 
+
     <rule comment="CHUNK:">
       <pattern>
         <pattern-item n="cmp"/>

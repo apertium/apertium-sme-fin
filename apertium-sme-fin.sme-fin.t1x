@@ -772,7 +772,7 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="current_verb"/>
-    <def-var n="cn_prn"/>
+    <def-var n="cn_sn"/>
   </section-def-vars>
   <section-def-macros>
  
@@ -987,6 +987,7 @@
       <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_dialect"/><lit v=""/></let>
+      <let><var n="cn_sn"/><lit v=""/></let>
 <!--      <let><clip pos="1" side="tl" part="a_attr"/><lit-tag v="ND.CD"/></let>-->
 
       <!-- ==== AGREEMENT ==== -->
@@ -1090,6 +1091,7 @@
                      <not><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@→Num"/></equal></not>
                 </and></test>
           <let><clip pos="1" side="tl" part="a_cas"/><concat><lit-tag v="gen"/><lit v="$ ^kanssa"/><lit-tag v="post"/></concat></let>
+          <let><var n="cn_sn"/><lit v="n_kanssa"/></let>
         </when>
         <when>
           <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="com"/></equal>
@@ -1274,7 +1276,12 @@
         </when>
       </choose>
 
-
+      <choose>
+        <when>
+          <test><equal><var n="cn_sn"/><lit v=""/></equal></test>
+          <let><var n="cn_sn"/><lit v="x"/></let>
+        </when>
+      </choose>
     </def-macro>
 
     <def-macro n="default-conversion2" npar="2">
@@ -1528,7 +1535,7 @@
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
         <out>
-          <chunk name="prn" case="caseFirstWord">
+          <chunk namefrom="cn_sn" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
             </tags>

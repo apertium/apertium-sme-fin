@@ -47,6 +47,16 @@
       <attr-item tags="foc_han"/>
     </def-attr>
 
+    <def-attr n="a_XD">
+      <attr-item tags="XD"/>
+    </def-attr>
+    <def-attr n="a_CD">
+      <attr-item tags="CD"/>
+    </def-attr>
+    <def-attr n="a_ND">
+      <attr-item tags="ND"/>
+    </def-attr>
+
        
     <def-attr n="a_pos">
       <attr-item tags="adv"/>
