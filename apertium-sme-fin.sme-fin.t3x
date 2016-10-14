@@ -89,7 +89,7 @@
     <def-var n="paraula"/>
   </section-def-vars>
   <section-rules>
-    <rule comment="CHUNK:">
+<!--    <rule comment="CHUNK:">
       <pattern>
         <pattern-item n="default"/>
       </pattern>
@@ -97,14 +97,14 @@
         <let><clip pos="1" part="a_ND"/><lit-tag v="sg"/></let>
         <let><clip pos="1" part="a_CD"/><lit-tag v="nom"/></let>
         <let><clip pos="1" part="a_XD"/><lit-tag v="px3sg"/></let>
-        <let><clip pos="1" part="a_cmp"/><lit v=""/></let> <!-- For sneaky compoundy tags.-->
+        <let><clip pos="1" part="a_cmp"/><lit v=""/></let> 
         <out>
           <lu>
             <clip pos="1" part="whole"/>
           </lu>
         </out>
       </action>
-    </rule>
+    </rule> -->
     <rule comment="CHUNK:">
       <pattern>
         <pattern-item n="cmp"/>

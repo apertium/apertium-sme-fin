@@ -772,6 +772,7 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="current_verb"/>
+    <def-var n="cn_prn"/>
   </section-def-vars>
   <section-def-macros>
  
