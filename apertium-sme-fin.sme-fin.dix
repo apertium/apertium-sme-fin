@@ -599,8 +599,6 @@
 
     
     <!-- <e><p><l><s n="n"/></l><r>merenkulku<s n="n"/></r></p></e> -->
-    <!-- <e><p><l>johka<s n="n"/></l><r>virta<s n="n"/></r></p></e> -->
-    <!-- <e><p><l>nealgut<s n="n"/></l><r>nälkä<s n="n"/></r></p></e> -->
     <!-- <e><p><l>nuortamearra<s n="n"/></l><r>itämeri<s n="n"/></r></p></e> -->
     <!-- <e><p><l>olmmái<s n="n"/></l><r>ystävä<s n="n"/></r></p></e> -->
     <!--<e><p><l>Deatnogáddi<s n="n"/></l><r>Tenonranta<s n="n"/></r></p></e>-->
@@ -731,6 +729,7 @@
 
     
     <e><p><l>ablatiiva<s n="n"/></l><r>ablatiivi<s n="n"/></r></p></e>
+    <e><p><l>reportár<s n="n"/></l><r>toimittaja<s n="n"/></r></p></e>
     <e><p><l>abohtta<s n="n"/></l><r>apotti<s n="n"/></r></p></e>
     <e><p><l>abskissa<s n="n"/></l><r>abskissa<s n="n"/></r></p></e>
     <e><p><l>addi<s n="n"/></l><r>antaja<s n="n"/></r></p></e>
@@ -5021,7 +5020,6 @@
     <e><p><l>váruhus<s n="n"/></l><r>varoitus<s n="n"/></r></p></e>
     <e><p><l>vásihus<s n="n"/></l><r>kokemus<s n="n"/></r></p></e>
     <e><p><l>vástádus<s n="n"/></l><r>vastaus<s n="n"/></r></p></e>
-    <e><p><l>vástádus<s n="n"/></l><r>vastine<s n="n"/></r></p></e>
     <e><p><l>vásáhus<s n="n"/></l><r>elämys<s n="n"/></r></p></e>
     <e><p><l>váttisvuohta<s n="n"/></l><r>ongelma<s n="n"/></r></p></e>
     <e><p><l>váttisvuohta<s n="n"/></l><r>vaikeus<s n="n"/></r></p></e>
@@ -6162,7 +6160,8 @@
     <e><p><l>Sállevárri<s n="np"/><s n="top"/></l><r>Sallivaara<s n="np"/></r></p></e>
     <e><p><l>Sámediggi<s n="np"/><s n="org"/></l><r>Saamelaiskäräjät<s n="np"/></r></p></e>
     <e><p><l>Sámediggeráđđi<s n="np"/><s n="org"/></l><r>Saamelaisneuvosto<s n="np"/></r></p></e>
-    <e><p><l>Sápmi<s n="np"/><s n="top"/></l><r>Lappi<s n="np"/></r></p></e>
+    <!--<e><p><l>Sápmi<s n="np"/><s n="top"/></l><r>Lappi<s n="np"/></r></p></e>-->
+    <e><p><l>Sápmi<s n="np"/><s n="top"/><s n="sg"/></l><r>saamelainen<s n="n"/><s n="sg"/></r></p></e>
     <e><p><l>Sárevuopmi<s n="np"/><s n="top"/></l><r>Saarivuoma<s n="np"/></r></p></e>
     <e><p><l>Tampere<s n="np"/></l><r>Tampere<s n="np"/></r></p></e>
     <e><p><l>Terje<s n="np"/><s n="ant"/><s n="m"/></l><r>Terje<s n="np"/></r></p></e>
@@ -8167,6 +8166,7 @@
     <e><p><l>einnostit<s n="vblex"/><s n="tv"/></l><r>ennustaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>erohallat<s n="vblex"/><s n="tv"/></l><r>erotella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>evalueret<s n="vblex"/><s n="tv"/></l><r>arvioida<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>evttohit<s n="vblex"/><s n="tv"/></l><r>esittää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>evttohit<s n="vblex"/><s n="tv"/></l><r>ehdottaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>fakkastit<s n="vblex"/><s n="tv"/></l><r>koukata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>fakŋalahttit<s n="vblex"/><s n="tv"/></l><r>kurkottaa<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -8299,7 +8299,6 @@
     <e><p><l>giellut<s n="vblex"/><s n="iv"/></l><r>hyytyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gierdat<s n="vblex"/><s n="tv"/></l><r>kestää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gievrrastallat<s n="vblex"/><s n="iv"/></l><r>voimailla<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>gieđahallat<s n="vblex"/><s n="tv"/></l><r>kohdella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gieđahallat<s n="vblex"/><s n="tv"/></l><r>käsitellä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gihládit<s n="vblex"/><s n="tv"/></l><r>kihlata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gihppet<s n="vblex"/><s n="tv"/></l><r>niputtaa<s n="vblex"/></r></p><par n="V_V"/></e>
