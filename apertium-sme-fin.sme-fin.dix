@@ -6196,7 +6196,8 @@
     <e><p><l>Viesttarbađaeana<s n="np"/><s n="top"/></l><r>Länsipohja<s n="np"/></r></p></e>
     <e><p><l>Viibosduottar<s n="np"/><s n="top"/></l><r>Viipustunturit<s n="np"/></r></p></e>
     <e><p><l>Vilges-Ruošša<s n="np"/></l><r>Valko-Venäjä<s n="np"/></r></p></e>
-    <e><p><l>Virtanen<s n="np"/><s n="cog"/></l><r>Virtanen<s n="np"/></r></p></e>    
+    <e><p><l>Viinanen<s n="np"/><s n="cog"/></l><r>Viinanen<s n="np"/></r></p></e>
+    <e><p><l>Virtanen<s n="np"/><s n="cog"/></l><r>Virtanen<s n="np"/></r></p></e>        
     <e><p><l>Visti<s n="np"/><s n="cog"/></l><r>Visti<s n="np"/></r></p></e>
     <e><p><l>Viššat<s n="np"/><s n="top"/></l><r>Saarikoski<s n="np"/></r></p></e>
     <e><p><l>Vuohčču<s n="np"/><s n="top"/></l><r>Vuotso<s n="np"/></r></p></e>
@@ -7590,10 +7591,13 @@
     <!--<e><p><l>ruŋkit<s n="vblex"/><s n="iv"/></l><r>ronkkua<s n="vblex"/></r></p><par n="V_V"/></e>-->
     <e r="LR"><p><l>spiehkastit<s n="vblex"/><s n="iv"/></l><r>poukahtaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e r="LR"><p><l>spiehkkasit<s n="vblex"/><s n="iv"/></l><r>poiketa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e r="LR"><p><l>olggosaddit<s n="vblex"/><s n="iv"/></l><r>julkaistaa<s n="vblex"/></r></p><par n="V_V"/></e>
+
     <e r="LR"><p><l>stemmet<s n="vblex"/><s n="tv"/></l><r>äänestää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e r="RL"><p><l>gullat<s n="vblex"/><s n="tv"/></l><r>kuulla<s n="vblex"/></r></p><par n="V_V"/></e>
     <e srl="1"><p><l>fallehit<s n="vblex"/><s n="iv"/></l><r>käydä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addit<s n="vblex"/><s n="tv"/></l><r>antaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    
     <e><p><l>addit<s n="vblex"/><s n="tv"/></l><r>pyyhältää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addit<s n="vblex"/><s n="tv"/></l><r>sallia<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addáladdat<s n="vblex"/><s n="tv"/></l><r>anniskella<s n="vblex"/></r></p><par n="V_V"/></e>
