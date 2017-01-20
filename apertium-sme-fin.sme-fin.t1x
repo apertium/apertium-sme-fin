@@ -1480,6 +1480,7 @@
       </action>
     </rule>
 
+
     <rule comment="REGLA: ADJ-CMP">
       <pattern>
         <pattern-item n="adj-cmp"/>
@@ -1546,6 +1547,8 @@
         </out>
       </action>
     </rule>
+    
+    
 
     <!-- SECTION: Sintagmes nominals -->
 
@@ -1667,6 +1670,7 @@
       </action>
     </rule>
 
+
     <rule comment="REGLA: TOP-CMP NOM">
       <pattern>
         <pattern-item n="top-cmp"/>
@@ -1692,7 +1696,6 @@
     </rule>
 
 
-
     <rule comment="REGLA: NOM-CMP NOM">
       <pattern>
         <pattern-item n="nom-cmp"/>
@@ -1716,6 +1719,7 @@
         </out>
       </action>
     </rule>
+
 
     <rule comment="REGLA: NOM-CMP ATTR NOM">
       <pattern>
@@ -1752,6 +1756,7 @@
         </out>
       </action>
     </rule>
+
 
     <rule comment="REGLA: NUM-CARD-CMP">
       <pattern>
@@ -1856,6 +1861,7 @@
       </action>                                  
     </rule> 
 
+
     <rule comment="REGLA: ATTR TOP-CMP NOM">
       <pattern>
         <pattern-item n="attr"/>
@@ -1950,7 +1956,8 @@
     </rule>
 
 
-    <rule comment="REGLA: ATTR NOM-CMP NOM-CMP NOM">
+
+    <rule comment="REGLA: ATTR NOM-CMP NOM-CMP NOM"> <!-- This rule takes 1.6 s to compile -->
       <pattern>
         <pattern-item n="attr"/>
         <pattern-item n="nom-cmp"/>
@@ -2063,6 +2070,7 @@
       </action>
     </rule>
 
+
     <rule comment="REGLA: ATTR CNP ATTR NOM">
       <pattern>
         <pattern-item n="attr"/>
@@ -2104,7 +2112,9 @@
       </action>
     </rule>
 
-    <rule comment="REGLA: ATTR CNP ATTR NOM-CMP NOM-CMP NOM">
+<!-- this rule takes 25 seconds to compile -->
+<!--
+   <rule comment="REGLA: ATTR CNP ATTR NOM-CMP NOM-CMP NOM">
       <pattern>
         <pattern-item n="attr"/>
         <pattern-item n="cnp"/>
@@ -2149,8 +2159,10 @@
         </out>
       </action>
     </rule>
+    -->
     
-    <!-- SECTION: Adverbials -->
+ 
+   <!-- SECTION: Adverbials -->
 
     <!-- SECTION: Numerals and quantifiers -->
 
@@ -2177,8 +2189,8 @@
       </action>
     </rule>
  
-    
-    
+   
+       
     <!-- SECTION: Verb groups -->
 
     <rule comment="REGLA: GOAHTI">
@@ -2207,6 +2219,7 @@
         </out>
       </action>
     </rule>
+
 
     <rule comment="REGLA: INF">
       <pattern>
@@ -2263,6 +2276,7 @@
         </out>
       </action>
     </rule>
+
 
     <rule comment="REGLA: LEAT-FIN PRFPRC">
       <pattern>
@@ -2469,7 +2483,7 @@
       </action>
     </rule>
 
-
+ 
     <rule comment="REGLA: II PASS-PRES-CONNEG">
       <pattern>
         <pattern-item n="ii"/>
@@ -2583,6 +2597,7 @@
 
 
 
+
     <!-- ConNegII is almost always a disambiguation/trimming fail, so just turn it into Inf -->
     <rule comment="REGLA: CONNEGII">
       <pattern>
@@ -2630,6 +2645,7 @@
       </action>
     </rule>
 
+
     <rule comment="REGLA: SENT">
       <pattern>
         <pattern-item n="sent"/>
@@ -2648,5 +2664,6 @@
       </action>
     </rule>
 
+  
   </section-rules>
 </transfer>
