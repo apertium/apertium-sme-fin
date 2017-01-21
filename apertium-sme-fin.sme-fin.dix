@@ -726,6 +726,7 @@
     <e><p><l>abessiiva<s n="n"/></l><r>abessiivi<s n="n"/></r></p></e>
     <e><p><l>emuleren<s n="n"/></l><r>emulointi<s n="n"/></r></p></e>
     <e><p><l>juoigi<s n="n"/><s n="nomag"/></l><r>joikkaaja<s n="n"/></r></p></e>
+    <e><p><l>deklarašuvdna<s n="n"/><s n="nomag"/></l><r>julistus<s n="n"/></r></p></e>
 
     
     <e><p><l>ablatiiva<s n="n"/></l><r>ablatiivi<s n="n"/></r></p></e>
@@ -7262,6 +7263,7 @@
     <e><p><l>agi<b/>beaivvisge<s n="adv"/></l><r>ikinä<s n="adv"/></r></p></e>
     <e><p><l>ovdamearkka<b/>dihte<s n="adv"/></l><r>esimerkiksi<s n="adv"/></r></p></e>
     <e><p><l>olgešbealde<s n="adv"/></l><r>oikealle<s n="adv"/></r></p></e>
+    <e><p><l>dassážii<s n="adv"/></l><r>siihen<b/>asti<s n="adv"/></r></p></e>
     <e><p><l>vissásit<s n="adv"/></l><r>varmasti<s n="adv"/></r></p></e>
     <e><p><l>sihkkarit<s n="adv"/></l><r>varmasti<s n="adv"/></r></p></e>
     <e><p><l>vulosoivviid<s n="adv"/></l><r>ylösalaisin<s n="adv"/></r></p></e>
@@ -7597,8 +7599,7 @@
     <e r="RL"><p><l>gullat<s n="vblex"/><s n="tv"/></l><r>kuulla<s n="vblex"/></r></p><par n="V_V"/></e>
     <e srl="1"><p><l>fallehit<s n="vblex"/><s n="iv"/></l><r>käydä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addit<s n="vblex"/><s n="tv"/></l><r>antaa<s n="vblex"/></r></p><par n="V_V"/></e>
-    
-    <e><p><l>addit<s n="vblex"/><s n="tv"/></l><r>pyyhältää<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>julggaštit<s n="vblex"/><s n="tv"/></l><r>julkaistaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addit<s n="vblex"/><s n="tv"/></l><r>sallia<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addáladdat<s n="vblex"/><s n="tv"/></l><r>anniskella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addáladdat<s n="vblex"/><s n="tv"/></l><r>jaella<s n="vblex"/></r></p><par n="V_V"/></e>
