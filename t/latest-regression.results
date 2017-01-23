@@ -1,0 +1,87 @@
+Revision: 75757
+AP_SRC1 (doesn't seem to be a repo)
+AP_SRC2 (doesn't seem to be a repo)
+Running Regression-tests with mode "fin-sme" with updated tests ...
+
+fin-sme	  Autoon.
+WORKS	  Biilii.
+
+
+fin-sme	  Autossa.
+	- Biillas.
+	+ Auttos.
+
+
+fin-sme	  Autosta.
+	- Biillas.
+	+ Auttos.
+
+
+fin-sme	  Autolla.
+	- Biillas.
+	+ Auttos.
+
+
+fin-sme	  Autona.
+WORKS	  Biilan.
+
+
+fin-sme	  Auton.
+	- Biilla.
+	+ Autto.
+
+
+fin-sme	  Minun täytyy ostaa auto.
+	- Mun ferten oastit biilla.
+	+ Mu galgá oastit biila.
+
+
+fin-sme	  Minun on ostettava auto.
+	- Mun ferten oastit biilla.
+	+ Mu lea *ostettava biila.
+
+
+fin-sme	  Auto nähdään.
+	- Biila oidnojuvvo.
+	+ Biila *nähdään.
+
+
+fin-sme	  Minä rakastan sinua.
+	- Mun ráhkestan du.
+	+ Mun ráhkistan du.
+
+
+fin-sme	  Minä en nähnyt koiraa.
+	- Mun in oaidnán beatnaga.
+	+ Mun #ii áican beatnaga.
+
+
+2 / 11, 18.18%
+Revision: 75757
+AP_SRC1 (doesn't seem to be a repo)
+AP_SRC2 (doesn't seem to be a repo)
+Running Regression-tests with mode "sme-fin" with updated tests ...
+
+sme-fin	  Duommá ja Máret leaba gárdimis.
+	- Tomas ja Mari ovat puutarhassa.
+	+ Tomakse ja Mari ovat puutarhassa.
+
+
+sme-fin	  Mun lean politiijastašuvnnas.
+WORKS	  Minä olen poliisiasemassa.
+
+
+sme-fin	  Mus lea biila.
+	- Minulla on auto.
+	+ Minulla on autoa.
+
+
+sme-fin	  Boahtá go son?
+WORKS	  Tuleeko hän?
+
+
+sme-fin	  Boahtágo son?
+WORKS	  Tuleeko hän?
+
+
+3 / 5, 60%

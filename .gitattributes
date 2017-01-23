@@ -152,6 +152,8 @@ eval/tst -text
 t/README.org -text
 t/config.sh -text
 t/config.sh.in -text
+t/latest-pending.results -text
+t/latest-regression.results -text
 t/pending-tests -text
 t/regression-tests -text
 t/update-latest -text

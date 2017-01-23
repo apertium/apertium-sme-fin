@@ -1,0 +1,593 @@
+Revision: 75757
+AP_SRC1 (doesn't seem to be a repo)
+AP_SRC2 (doesn't seem to be a repo)
+Running Pending-tests with mode "fin-sme" with updated tests ...
+
+fin-sme	  Poliisiasema.
+	- Politiijastašuvnna.
+	+ #Politiijastašuvnna.
+
+
+fin-sme	  Autosta.
+	- Biillas eret.
+	+ Auttos.
+
+
+fin-sme	  Me ostetaan auto.
+	- Mii oastit biilla.
+	+ Mii *ostetaan biila.
+
+
+fin-sme	  Hänet nähdään.
+	- Son oidnojuvvo.
+	+ Su *nähdään.
+
+
+fin-sme	  Näin hänet omin silmin.
+	- Oidnen su iežan čalmmiiguin.
+	+ Áicen su #ieš #čalbmi.
+
+
+fin-sme	  Minun ei tarvitse ostaa autoa.
+	- Mun in darbbaša oastit biilla.
+	+ Mu #ii dárbbat oastit biilla.
+
+
+fin-sme	  Minä näin kaksi koiraa.
+	- Mun oidnen guokte beatnaga.
+	+ Mun nu guokte @NUM.
+
+
+fin-sme	  Hiihtäminen on hauskaa.
+	- Čuoigen(?) lea hávski.
+	+ *Hiihtäminen lea hávski.
+
+
+fin-sme	  Minulla on leipää.
+WORKS	  Mus lea láibi.
+
+
+fin-sme	  Minulla ei ole autoa.
+	- Mus ii leat biila.
+	+ Mus #ii leat biila.
+
+
+fin-sme	  Asukkaita on paljon.
+	- Ássit lea ollu.
+	+ Ássit lea arvat.
+
+
+fin-sme	  Ja Jumala loi ihmisen omaksi kuvaksensa.
+	- Ja Ipmil sivdnidii olbmo iežas govvan.
+	+ #Ja #Ipmil luovai olbmo #ieš #govva.
+
+
+fin-sme	  Minä käänsin sen saamenkieleksi.
+	- Mun jorgalin dan sámegillii.
+	+ Mun dulkojin dan #sámi #giella.
+
+
+fin-sme	  Tulin lääkäriksi.
+	- Šadden doavttirin.
+	+ Ihten #doavttir.
+
+
+fin-sme	  Merkkeinä.
+WORKS	  Mearkan.
+
+
+fin-sme	  Tässä talossa.
+	- Dán dálus.
+	+ Dás dálus.
+
+
+fin-sme	  Mitä koiraa.
+WORKS	  Man beatnaga.
+
+
+fin-sme	  Mikä koira.
+	- Mii beatnagiid.
+	+ Mii beana.
+
+
+fin-sme	  Kaksi koiraa.
+	- Guokte beatnaga.
+	+ Guokte @NUM.
+
+
+fin-sme	  Kahdella koiralla.
+	- Guovtti beatnagas.
+	+ Guovttis @NUM.
+
+
+fin-sme	  He ovat saamelaisia.
+	- Sii leat sápmelaččat.
+	+ Sii #leat #sápmi.
+
+
+fin-sme	  Ruotsissa mansikat ovat erilaisia.
+	- Ruoŧas eananmuorjjit leat earálágánat.
+	+ Ruoŧas #eananmuorji leat #earálágan.
+
+
+fin-sme	  Tämä kirja.
+WORKS	  Dát girji.
+
+
+fin-sme	  Tämän kirjan.
+WORKS	  Dán girjji.
+
+
+fin-sme	  Tämän kirjan.
+WORKS	  Dán girjji.
+
+
+fin-sme	  Tähän kirjaan.
+	- Dán girjái.
+	+ Dása girjái.
+
+
+fin-sme	  Tässä kirjassa.
+	- Dán girjjis.
+	+ Dás girjjis.
+
+
+fin-sme	  Tänä kirjana.
+WORKS	  Dánin girjin.
+
+
+fin-sme	  Nämät kirjat.
+	- Dát girjjit.
+	+ *Nämät girjjit.
+
+
+fin-sme	  Näiden kirjojen.
+WORKS	  Dáid girjjiid.
+
+
+fin-sme	  Näiden kirjojen.
+WORKS	  Dáid girjjiid.
+
+
+fin-sme	  Näihin kirjoihin.
+WORKS	  Dáidda girjjiide.
+
+
+fin-sme	  Näissä kirjoissa.
+WORKS	  Dáin girjjiin.
+
+
+fin-sme	  Näinä kirjoina.
+WORKS	  Dánin girjin.
+
+
+fin-sme	  Sinisine silmineen.
+	- Álit čalmmiineaset.
+	+ *Sinisine #čalbmi.
+
+
+fin-sme	  Vihreine silmineen.
+	- Ruoná čalmmiineaset.
+	+ *Vihreine #čalbmi.
+
+
+fin-sme	  Kaikilla ihmisillä on samat oikeudet.
+	- Buohkain olbmuin leat seammát rievttit.
+	+ Buohkain #olmmoš lea seammát rievttit.
+
+
+fin-sme	  Hyvä ajatus.
+	- Buorre jurdda.
+	+ #Buorre ájáhus.
+
+
+fin-sme	  Hyvän ajatuksen.
+	- Buori jurdaga.
+	+ #Buorre ájáhusa.
+
+
+fin-sme	  Hyvään ajatukseen.
+	- Buori jurdagii.
+	+ #Buorre ájáhussii.
+
+
+fin-sme	  Hyvissä ajatuksissa.
+	- Buriin jurdagiin.
+	+ #Buorre ájáhusain.
+
+
+fin-sme	  Hyvänä ajatuksena.
+	- Buorrin jurddan.
+	+ #Buorre ájáhussan.
+
+
+fin-sme	  Hyviin ajatuksiin.
+	- Buriide jurdagiidda.
+	+ #Buorre ájáhusaide.
+
+
+fin-sme	  Hyvällä tahdolla.
+	- Buriin dáhtuin.
+	+ #Buorre dáhtus.
+
+
+fin-sme	  Toinen tyttö.
+	- Nubbi nieida.
+	+ Nubbi @NUM.
+
+
+fin-sme	  Toisen tytön.
+	- Nuppi nieidda.
+	+ Nuppi @NUM.
+
+
+fin-sme	  Toiseen tyttöön.
+	- Nuppi niidii.
+	+ Nubbái @NUM.
+
+
+fin-sme	  Toisessa tytössä.
+	- Nuppi nieiddas.
+	+ Nuppis @NUM.
+
+
+fin-sme	  Toisena tyttönä.
+	- Nubbin nieidan.
+	+ Nubbin @NUM.
+
+
+fin-sme	  Toiset tytöt.
+	- Nuppit nieiddat.
+	+ Nuppit @NUM.
+
+
+fin-sme	  Toisten tyttöjen.
+	- Nuppiid nieiddaid.
+	+ Nuppiid @NUM.
+
+
+fin-sme	  Toisiin tyttöihin.
+	- Nuppiide nieiddaide.
+	+ Nuppiide @NUM.
+
+
+fin-sme	  Toisilla tytöillä.
+	- Nuppiin nieiddain.
+	+ Nuppiin @NUM.
+
+
+fin-sme	  Toisina tyttöinä.
+	- Nubbin nieidan.
+	+ Nubbin @NUM.
+
+
+fin-sme	  200 vuoden historia.
+	- 200 jagi historjá.
+	+ #200 @NUM historjá.
+
+
+fin-sme	  Siellä on kolme ihmistä.
+	- Dieppe lea golbma olbmo.
+	+ Dieppe lea golbma olmmoš.
+
+
+fin-sme	  Siellä on kolme ihmistä.
+	- Dieppe lea golbma olbmo.
+	+ Dieppe lea golbma olmmoš.
+
+
+fin-sme	  Olette kolmas jonossa.
+	- &#160;???
+	+ Lehpet #goalmmát @NUM.
+
+
+fin-sme	  Olette kolmannessa jonossa.
+	- &#160;???
+	+ Lehpet #goalmmát gurgadasas.
+
+
+fin-sme	  Kolmas ihminen voitti.
+	- &#160;???
+	+ #Goalmmát olmmoš vuittii.
+
+
+fin-sme	  Kolmannella ihmisellä oli koira.
+	- &#160;???
+	+ #Goalmmát olbmos lei beana.
+
+
+fin-sme	  Tärkeä asia.
+	- Deaŧalaš ášši.
+	+ Dárkilis ásii.
+
+
+fin-sme	  Tärkeät uutiset.
+	- Dehálaš ođđasat.
+	+ Dárkilis #ođas.
+
+
+fin-sme	  Uutiset ovat tärkeitä.
+	- Ođđasat leat dehálaččat.
+	+ Ođđasat leat #dárkil.
+
+
+fin-sme	  Lumi on valkoinen.
+	- Muohta lea vielgat.
+	+ Muohta lea gappas.
+
+
+fin-sme	  Valkoinen lumi.
+	- Vilges muohta.
+	+ Gabba muohta.
+
+
+fin-sme	  Asun valkeassa talossa.
+	- Mun orun vilges viesus.
+	+ Orron vilges dálus.
+
+
+fin-sme	  Näissä vanhoissa taloissa.
+	- Dáin boares dáluin.
+	+ Dáin dološ dáluin.
+
+
+fin-sme	  Näissä hyvissä taloissa.
+	- Dáin buriin dáluin.
+	+ Dáin #buorre dáluin.
+
+
+fin-sme	  Kysyä.
+WORKS	  Jearrat.
+
+
+fin-sme	  Katsoa.
+WORKS	  Geahččat.
+
+
+fin-sme	  Herätessään Pekka oli sairas.
+	- Lihkadettiin Pekka lei váiban.
+	+ #Gullát Pekka lei buozas.
+
+
+fin-sme	  Lapsi tuli itkien kotiin.
+	- Mánná bođii čieru ruoktot.
+	+ Mánná iđii #čierrut ruoktut.
+
+
+fin-sme	  Minä menen katsomaan.
+	- Mun manan geahččat.
+	+ Mun manan #geahččat.
+
+
+fin-sme	  Minä tulen katsomasta.
+	- Mun manan geahččamis.
+	+ Mun iđán #geahččat.
+
+
+fin-sme	  Minä olen katsomassa.
+	- Mun lean geahččamin.
+	+ Mun lean #geahččat.
+
+
+fin-sme	  Minä menen juomisen jälkeen.
+	- Mun manan juhkame maŋŋil.
+	+ Mun manan juhkama @ADVL>.
+
+
+fin-sme	  Kysy.
+WORKS	  Jeara.
+
+
+fin-sme	  Kysykää.
+	- Jearrit.
+	+ Jerret.
+
+
+fin-sme	  Kysyköön.
+WORKS	  Jerros.
+
+
+fin-sme	  Kysykööt.
+WORKS	  Jerroset.
+
+
+fin-sme	  Kysykäämme.
+WORKS	  Jerrot.
+
+
+fin-sme	  Kysykäämme.
+	- Jearrut.
+	+ Jerrot.
+
+
+fin-sme	  Älä kysy.
+	- Ale jeara.
+	+ Ale #jearrat.
+
+
+fin-sme	  Älä kysy minulta.
+	- Ale jeara mus.
+	+ Ale #jearrat mus.
+
+
+fin-sme	  Kysynen.
+	- Jearažan.
+	+ #Jearrat.
+
+
+fin-sme	  Kysynemme.
+	- Jearažit.
+	+ #Jearrat.
+
+
+fin-sme	  Lienen auttanut.
+	- Veahkehežžen.
+	+ #Leat #veahkehit.
+
+
+fin-sme	  Auttaisin.
+	- Veahkehivččen.
+	+ #Veahkehit.
+
+
+fin-sme	  Auttaisimme.
+	- Veahkehivččiimet.
+	+ #Veahkehit.
+
+
+fin-sme	  Etkö auttaisi minua?
+	- Itgo veahkehivčče mu?
+	+ #Ii go #veahkehit mu?
+
+
+fin-sme	  Minä maksaisin, jos sinä haluaisit.
+	- Mun mávssášin, jus don siđašit.
+	+ Mun #máksit#, @X> don #sihtat.
+
+
+fin-sme	  Tämä on kertomus miten taivas ja maa luotiin.
+	- Dát lea muitalus mo albmi ja eanan sivdniduvvui.
+	+ Dát lea muitalus #movt albmi #ja #eana luđđii.
+
+
+fin-sme	  Kun Jeesus oli kastettu, nousi hän kohta vedestä.
+	- Go Jesus lei gásttašuvvon, čuožžilii son čuokkis čázis.
+	+ @CVP> *Jeesus lei *kastettu#, geavai son čuokkis čázis.
+
+
+fin-sme	  Ruoassa ja karamelleissä oleva alkoholi on hyvä.
+	- Biepmus ja karameallas leahkki alkohola lea buorre.
+	+ Máhtas #ja *karamelleissä #leat alkohola lea buorre.
+
+
+fin-sme	  Kaupungissa oleva alkoholi on hyvä.
+	- Gávpogis leahkki alkohola lea buorre.
+	+ Gávpogis #leat alkohola lea buorre.
+
+
+fin-sme	  Tromssassa oleva alkoholi on hyvä.
+	- Romssas leahkki alkohola lea buorre.
+	+ Romssas #leat alkohola lea buorre.
+
+
+fin-sme	  Voimassa oleva sopimus on hyvä.
+	- Soahpamuš, mii lea gustovaš, lea buorre.
+	+ Fámus #leat soahpamuš lea buorre.
+
+
+fin-sme	  Haussa oleva paikka on hyvä.
+	- Báiki, mii lea háhkamis, lea buorre.
+	+ *Haussa #leat báiki lea buorre.
+
+
+fin-sme	  Raskaana oleva nainen käveli luvatta Suomeen Vaalimaalta.
+	- Nisson, gii lei ahpeheapmi, váccii lobi haga Supmii Vaalimaas.
+	+ Lossadin #leat nisson váccii #lohpi Suomii Válga #eana.
+
+
+fin-sme	  Minun täytyy mennä.
+	- Mun ferten mannat.
+	+ Mu galgá mannat.
+
+
+fin-sme	  Minun on mentävä.
+	- Mun ferten mannat.
+	+ Mu lea *mentävä.
+
+
+fin-sme	  Hänen täytyy mennä.
+	- Son ferte mannat.
+	+ Su galgá mannat.
+
+
+fin-sme	  Hänen on mentävä.
+	- Son ferte mannat.
+	+ Su lea *mentävä.
+
+
+fin-sme	  Etkö juo kahvia?
+	- Itgo juga gáfe?
+	+ #Ii go juga gáfe?
+
+
+fin-sme	  Onko totta?
+	- Leago duohta?
+	+ Lea go duohta?
+
+
+fin-sme	  Ettei hän ole löytänyt sen.
+	- Ahte son ii leat gávdnan dan.
+	+ @X> #ii son leage #gávdnat dan.
+
+
+fin-sme	  Mikset viettää talvilomaa Finnmarkissa?
+	- Manne it vásit dálveluomu Finnmárkkus?
+	+ *Mikset vásiha #dálviluopmu Finnmárkkus?
+
+
+fin-sme	  Ettei matti ole kuullut.
+	- Ahte máhtte ii leat gullan.
+	+ @X> #ii *matti leage #gullat.
+
+
+fin-sme	  Ettei minun äidin ystävä ole tullut.
+	- Ahte mu eatni ustit ii leat boahtán.
+	+ @X> #ii mu eatni ustit leage #ihtit.
+
+
+fin-sme	  Kylän keskellä.
+	- Gili gaskas.
+	+ Gili @ADVL>.
+
+
+fin-sme	  Keskellä kylää.
+	- Gili gaskas.
+	+ @Keskellä @.
+
+
+fin-sme	  Minun kanssani.
+	- Mu mielde.
+	+ Mu *kanssani.
+
+
+fin-sme	  En kysynyt kritisoinnin vuoksi, kuten voit lukea minun viime kirjoituksesta.
+	- In jearran kritiserema dihtii, nugo sáhtat lohkat mu ovddit čállosis.
+	+ #Ii jearran *kritisoinnin @ADVL>#, nugo vuojat lohkat mu *viime čállagis.
+
+
+fin-sme	  Minä kyllä luulen ...
+	- Mun gal jáhkán ...
+	+ Mun gale gáttán ...
+
+
+fin-sme	  Alussa loi Jumala taivaan ja maan.
+	- Álggus sivdnidii Ipmil almmi ja eatnama.
+	+ Álggus luovai #Ipmil almmi #ja #eana.
+
+
+fin-sme	  Minä pidän kirjan.
+WORKS	  Mun doalan girjji.
+
+
+fin-sme	  Minun pitää mennä.
+	- Mun berren mannat.
+	+ Mu doallá mannat.
+
+
+fin-sme	  Minä pidän sinusta.
+	- Mun liikon dutnje.
+	+ Mun doalan dus.
+
+
+fin-sme	  Sukset pitävät.
+	- Sabehat cokcot.
+	+ Sabehat dollet.
+
+
+19 / 120, 15.83%
+Revision: 75757
+AP_SRC1 (doesn't seem to be a repo)
+AP_SRC2 (doesn't seem to be a repo)
+Running Pending-tests with mode "sme-fin" with updated tests ...
+
+0 / 0, Error 10002%
