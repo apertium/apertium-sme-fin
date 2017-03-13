@@ -21,6 +21,9 @@
     <def-cat n="adv">
       <cat-item tags="adv.*"/>
     </def-cat>
+    <def-cat n="part">
+      <cat-item tags="part.*"/>
+    </def-cat>
     <def-cat n="pron">
       <cat-item tags="prn.*"/>
     </def-cat>
@@ -33,7 +36,11 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
-    
+
+    <def-cat n="any">
+      <cat-item tags="*"/>
+     </def-cat>
+      
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
@@ -350,7 +357,9 @@
   <section-def-vars>
     <def-var n="number"/>
     <def-var n="current_verb"/>
+    <def-var n="caseFirstWord"/>
   </section-def-vars>
+
   <section-def-macros>
     <def-macro n="remove-semtags1" npar="1">
       <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
@@ -431,6 +440,14 @@
 
     </def-macro>
 
+    <def-macro n="semtag-deletion" npar="1">
+      <let><clip pos="1" side="tl" part="a_known"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_dialect"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_clb"/><lit v=""/></let>
+     </def-macro>
+    
   </section-def-macros>
   
   <section-rules>
@@ -577,6 +594,26 @@
       </action>
     </rule>
     
+    <rule comment="REGLA: PART">
+      <pattern>
+        <pattern-item n="part"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
     <rule comment="REGLA: NUM">
       <pattern>
         <pattern-item n="num"/>
@@ -688,5 +725,22 @@
       </action>
     </rule>
 
+    <rule comment="upper-lower case for any word">
+      <pattern>
+	<pattern-item n="any"/>
+	</pattern>
+	<action>
+	  <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+	  <out>
+	    <chunk name="any" case="caseFirstWord">
+	      <tags> <tag> <lit-tag v="any"/> </tag></tags>
+	      <lu>
+		<clip pos="1" side="tl" part="whole"/>
+		</lu>
+		</chunk>
+		</out>
+		</action>
+    </rule>
+    
   </section-rules>
 </transfer>

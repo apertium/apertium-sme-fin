@@ -97,6 +97,9 @@
     <def-cat n="adv">
       <cat-item tags="adv.*"/>
     </def-cat>
+    <def-cat n="part">
+      <cat-item tags="part.*"/>
+    </def-cat>
     <def-cat n="adj">
       <cat-item tags="adj.*"/>
     </def-cat>
@@ -2659,6 +2662,22 @@
             <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="upper-lower case for any word">
+      <pattern>
+        <pattern-item n="default"/>
+      </pattern>
+      <action>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="any" case="caseFirstWord"> 
+            <tags> <tag> <lit-tag v="default"/> </tag> </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu> 
           </chunk>
         </out>
       </action>
