@@ -6701,7 +6701,7 @@
     <e><p><l>sirbmálaš<s n="adj"/></l><r>sirmalainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>palestinalaš<s n="adj"/></l><r>palestinalainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>romsalaš<s n="adj"/></l><r>tromssalainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>hámmárfeastalaš<s n="adj"/></l><r>hammerfestalainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>hámmárfeastalaš<s n="adj"/></l><r>hammerfestilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>leavdnjalaš<s n="adj"/></l><r>lemmijokelainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>kárášjohkalaš<s n="adj"/></l><r>kaarasjokelainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>porsáŋgulaš<s n="adj"/></l><r>porsankilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
@@ -6710,7 +6710,7 @@
     <e><p><l>sierralaš<s n="adj"/></l><r>erilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>lutherána<s n="adj"/></l><r>lutherilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>mázelaš<s n="adj"/></l><r>masilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>islándalaš<s n="adj"/></l><r>islanttilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>islándalaš<s n="adj"/></l><r>islantilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>seammaládje<s n="adj"/></l><r>samanlainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>áltálaš<s n="adj"/></l><r>alattiolainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>deatnulaš<s n="adj"/></l><r>tenolainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
@@ -6743,7 +6743,7 @@
     <e><p><l>beasseheapme<s n="adj"/></l><r>vähätuohinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>hegges<s n="adj"/></l><r>sitkeähenkinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>heggeš<s n="adj"/></l><r>sitkeähenkinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>eahpeformálalaš<s n="adj"/></l><r>epäformaalinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>eahpeformálalaš<s n="adj"/></l><r>epämuodollinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>federála<s n="adj"/></l><r>federaalinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>golmmagielat<s n="adj"/></l><r>kolmekielinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>kultturhistorjjálaš<s n="adj"/></l><r>kultuurihistoriallinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
@@ -7830,13 +7830,13 @@
     <!--<e><p><l>ruŋkit<s n="vblex"/><s n="iv"/></l><r>ronkkua<s n="vblex"/></r></p><par n="V_V"/></e>-->
     <e r="LR"><p><l>spiehkastit<s n="vblex"/><s n="iv"/></l><r>poukahtaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e r="LR"><p><l>spiehkkasit<s n="vblex"/><s n="iv"/></l><r>poiketa<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e r="LR"><p><l>olggosaddit<s n="vblex"/><s n="iv"/></l><r>julkaistaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e r="LR"><p><l>olggosaddit<s n="vblex"/><s n="iv"/></l><r>julkaista<s n="vblex"/></r></p><par n="V_V"/></e>
 
     <e r="LR"><p><l>stemmet<s n="vblex"/><s n="tv"/></l><r>äänestää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e r="RL"><p><l>gullat<s n="vblex"/><s n="tv"/></l><r>kuulla<s n="vblex"/></r></p><par n="V_V"/></e>
     <e srl="1"><p><l>fallehit<s n="vblex"/><s n="iv"/></l><r>käydä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addit<s n="vblex"/><s n="tv"/></l><r>antaa<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>julggaštit<s n="vblex"/><s n="tv"/></l><r>julkaistaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>julggaštit<s n="vblex"/><s n="tv"/></l><r>julkaista<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addit<s n="vblex"/><s n="tv"/></l><r>sallia<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addáladdat<s n="vblex"/><s n="tv"/></l><r>anniskella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addáladdat<s n="vblex"/><s n="tv"/></l><r>jaella<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -20038,7 +20038,7 @@
 <e><p><l>liehppá<s n="n"/></l><r>rintaläppä<s n="n"/></r></p></e>
 <e><p><l>lihttebassanmášiidna<s n="n"/></l><r>tiskikone<s n="n"/></r></p></e>
 <e><p><l>lihttebassanmášiidna<s n="n"/></l><r>astiapesukone<s n="n"/></r></p></e>
-<e><p><l>limonáda<s n="n"/></l><r>limonaadi<s n="n"/></r></p></e>
+<e><p><l>limonáda<s n="n"/></l><r>limonaati<s n="n"/></r></p></e>
 <e><p><l>loahppášbeaivi<s n="n"/></l><r>loppiaispäivä<s n="n"/></r></p></e>
 <e><p><l>loavdda<s n="n"/></l><r>laavukangas<s n="n"/></r></p></e>
 <e><p><l>loađđa<s n="n"/></l><r>poraamislauta<s n="n"/></r></p></e>
@@ -20241,10 +20241,10 @@
 <e><p><l>lotnolasealáhus<s n="n"/></l><r>elinkeinoyhdistelmä<s n="n"/></r></p></e>
 <e><p><l>stivrejupmi<s n="n"/></l><r>johtomuoto<s n="n"/></r></p></e>
 <e><p><l>giđđalodden<s n="n"/></l><r>sorsametsästys<s n="n"/></r></p></e>
-<e><p><l>klinihkka<s n="n"/></l><r>kliniikka<s n="n"/></r></p></e>
+<e><p><l>klinihkka<s n="n"/></l><r>klinikka<s n="n"/></r></p></e>
 <e><p><l>debáhtta<s n="n"/></l><r>keskustelu<s n="n"/></r></p></e>
 <e><p><l>soabadanproseassa<s n="n"/></l><r>sovintoprosessi<s n="n"/></r></p></e>
-<e><p><l>retorihkka<s n="n"/></l><r>retoriikki<s n="n"/></r></p></e>
+<e><p><l>retorihkka<s n="n"/></l><r>retoriikka<s n="n"/></r></p></e>
 <e><p><l>sámediggepresideantta<s n="n"/></l><r>saamelaiskäräjien<b/>presidentti<s n="n"/></r></p></e>
 
 
