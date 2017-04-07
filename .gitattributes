@@ -132,6 +132,7 @@ dev/oddasat/translations/tests.py -text
 dev/oddasat/translations/urls.py -text
 dev/oddasat/translations/views.py -text
 dev/oddasat/urls.py -text
+dev/sanityoutput.txt -text
 dev/sme-fin-examples.txt -text
 dev/sme_algu.tar.bz2 -text
 dev/sorting_sanityoutput.sh -text
