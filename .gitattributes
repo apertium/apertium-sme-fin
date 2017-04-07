@@ -135,6 +135,7 @@ dev/oddasat/urls.py -text
 dev/sanityoutput.txt -text
 dev/sme-fin-examples.txt -text
 dev/sme_algu.tar.bz2 -text
+dev/sortedsanityoutput_withoutprop.txt -text
 dev/sorting_sanityoutput.sh -text
 dev/top_10000_missing_nouns.csv -text
 dev/top_10000_missing_nouns_translated.csv -text

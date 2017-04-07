@@ -1,0 +1,813 @@
+   18922 /tmp/sme-fin.a	   18922 /tmp/sme-fin.a
+%	skoret<n>:juottokauha<n>: juottokauha/juotto<n><sg><nom><cmp>+kauha<n><sg><nom>/juotto<n><sg><nom><cmp><cmp>+kauha<n><sg><nom>/juotto<n><sg><nom><cmp><hyph><cmp>+kauha<n><sg><nom>
+
+%	vuodjeleaddji<n>:tokanajaja<n>: tokanajaja/toka<n><sg><gen><cmp>+ajaja<n><sg><nom>/toka<n><sg><gen><cmp><cmp>+ajaja<n><sg><nom>/toka<n><sg><gen><cmp><hyph><cmp>+ajaja<n><sg><nom>/tokka<n><sg><gen><cmp>+ajaja<n><sg><nom>/tokka<n><sg><gen><cmp><cmp>+ajaja<n><sg><nom>/tokka<n><sg><gen><cmp><hyph><cmp>+ajaja<n><sg><nom>
+
+%	goppalákču<n>:suursukeltaja<n>: suursukeltaja/suur-<n><cmp>+sukeltaja<n><sg><nom>/suur-<n><cmp><cmp>+sukeltaja<n><sg><nom>/suur-<n><cmp><hyph><cmp>+sukeltaja<n><sg><nom>/suur<n><pref><cmp>+sukeltaja<n><sg><nom>
+
+%	varáhat<n>:urakantalja<n>: urakantalja/urakka<n><sg><gen><cmp>+talja<n><sg><nom>/urakka<n><sg><gen><cmp><cmp>+talja<n><sg><nom>/urakka<n><sg><gen><cmp><hyph><cmp>+talja<n><sg><nom>/ura<n><sg><nom><cmp>+ka<n><sg><gen><cmp>+talja<n><sg><nom>/ura<n><sg><nom><cmp>+ka<n><sg><gen><cmp><cmp>+talja<n><sg><nom>/ura<n><sg><nom><cmp>+ka<n><sg><gen><cmp><hyph><cmp>+talja<n><sg><nom>/ura<n><sg><nom><cmp><cmp>+ka<n><sg><gen><cmp>+talja<n><sg><nom>/ura<n><sg><nom><cmp><cmp>+ka<n><sg><gen><cmp><cmp>+talja<n><sg><nom>/ura<n><sg><nom><cmp><cmp>+ka<n><sg><gen><cmp><hyph><cmp>+talja<n><sg><nom>/ura<n><sg><nom><cmp><hyph><cmp>+ka<n><sg><gen><cmp>+talja<n><sg><nom>/ura<n><sg><nom><cmp><hyph><cmp>+ka<n><sg><gen><cmp><cmp>+talja<n><sg><nom>/ura<n><sg><nom><cmp><hyph><cmp>+ka<n><sg><gen><cmp><hyph><cmp>+talja<n><sg><nom>
+
+%	čuopmajas<n>:pohjanvariksenmarja<n>: pohjanvariksenmarja/pohja<n><sg><gen><cmp>+variksenmarja<n><sg><nom>/pohja<n><sg><gen><cmp>+varis<n><sg><gen><cmp>+marja<n><sg><nom>/pohja<n><sg><gen><cmp>+varis<n><sg><gen><cmp><cmp>+marja<n><sg><nom>/pohja<n><sg><gen><cmp>+varis<n><sg><gen><cmp><hyph><cmp>+marja<n><sg><nom>/pohja<n><sg><gen><cmp><cmp>+variksenmarja<n><sg><nom>/pohja<n><sg><gen><cmp><cmp>+varis<n><sg><gen><cmp>+marja<n><sg><nom>/pohja<n><sg><gen><cmp><cmp>+varis<n><sg><gen><cmp><cmp>+marja<n><sg><nom>/pohja<n><sg><gen><cmp><cmp>+varis<n><sg><gen><cmp><hyph><cmp>+marja<n><sg><nom>/pohja<n><sg><gen><cmp><hyph><cmp>+variksenmarja<n><sg><nom>/pohja<n><sg><gen><cmp><hyph><cmp>+varis<n><sg><gen><cmp>+marja<n><sg><nom>/pohja<n><sg><gen><cmp><hyph><cmp>+varis<n><sg><gen><cmp><cmp>+marja<n><sg><nom>/pohja<n><sg><gen><cmp><hyph><cmp>+varis<n><sg><gen><cmp><hyph><cmp>+marja<n><sg><nom>
+
+%	gazzaš<n>:sorkkanahka<n>: sorkkanahka/sorkka<n><sg><nom><cmp>+nahka<n><sg><nom>/sorkka<n><sg><nom><cmp><cmp>+nahka<n><sg><nom>/sorkka<n><sg><nom><cmp><hyph><cmp>+nahka<n><sg><nom>
+
+%	gacceš<n>:sorkkanahka<n>: sorkkanahka/sorkka<n><sg><nom><cmp>+nahka<n><sg><nom>/sorkka<n><sg><nom><cmp><cmp>+nahka<n><sg><nom>/sorkka<n><sg><nom><cmp><hyph><cmp>+nahka<n><sg><nom>
+
+%	čuossi<n>:sarvenvälinahka<n>: sarvenvälinahka/sarvi<n><sg><gen><cmp>+väli<n><sg><nom><cmp>+nahka<n><sg><nom>/sarvi<n><sg><gen><cmp>+väli<n><sg><nom><cmp><cmp>+nahka<n><sg><nom>/sarvi<n><sg><gen><cmp>+väli<n><sg><nom><cmp><hyph><cmp>+nahka<n><sg><nom>/sarvi<n><sg><gen><cmp><cmp>+väli<n><sg><nom><cmp>+nahka<n><sg><nom>/sarvi<n><sg><gen><cmp><cmp>+väli<n><sg><nom><cmp><cmp>+nahka<n><sg><nom>/sarvi<n><sg><gen><cmp><cmp>+väli<n><sg><nom><cmp><hyph><cmp>+nahka<n><sg><nom>/sarvi<n><sg><gen><cmp><hyph><cmp>+väli<n><sg><nom><cmp>+nahka<n><sg><nom>/sarvi<n><sg><gen><cmp><hyph><cmp>+väli<n><sg><nom><cmp><cmp>+nahka<n><sg><nom>/sarvi<n><sg><gen><cmp><hyph><cmp>+väli<n><sg><nom><cmp><hyph><cmp>+nahka<n><sg><nom>
+
+%	čuopma<n>:kalannahka<n>: kalannahka/kala<n><sg><gen><cmp>+nahka<n><sg><nom>/kala<n><sg><gen><cmp><cmp>+nahka<n><sg><nom>/kala<n><sg><gen><cmp><hyph><cmp>+nahka<n><sg><nom>
+
+%	miessadat<n>:vasannahka<n>: vasannahka/vasa<n><sg><gen><cmp>+nahka<n><sg><nom>/vasa<n><sg><gen><cmp><cmp>+nahka<n><sg><nom>/vasa<n><sg><gen><cmp><hyph><cmp>+nahka<n><sg><nom>
+
+%	áldodat<n>:vaatimennahka<n>: vaatimennahka/vaadin<n><sg><gen><cmp>+nahka<n><sg><nom>/vaadin<n><sg><gen><cmp><cmp>+nahka<n><sg><nom>/vaadin<n><sg><gen><cmp><hyph><cmp>+nahka<n><sg><nom>
+
+%	viercadat<n>:pässinnahka<n>: pässinnahka/pässi<n><sg><gen><cmp>+nahka<n><sg><nom>/pässi<n><sg><gen><cmp><cmp>+nahka<n><sg><nom>/pässi<n><sg><gen><cmp><hyph><cmp>+nahka<n><sg><nom>
+
+%	skoalpa<n>:norjalaistalonpoika<n>: norjalaistalonpoika/norjalainen<n><der_s><cmp>+talonpoika<n><sg><nom>/norjalainen<n><der_s><cmp>+talo<n><sg><gen><cmp>+poika<n><sg><nom>/norjalainen<n><der_s><cmp>+talo<n><sg><gen><cmp><cmp>+poika<n><sg><nom>/norjalainen<n><der_s><cmp>+talo<n><sg><gen><cmp><hyph><cmp>+poika<n><sg><nom>/norjalainen<n><der_s><cmp><cmp>+talonpoika<n><sg><nom>/norjalainen<n><der_s><cmp><cmp>+talo<n><sg><gen><cmp>+poika<n><sg><nom>/norjalainen<n><der_s><cmp><cmp>+talo<n><sg><gen><cmp><cmp>+poika<n><sg><nom>/norjalainen<n><der_s><cmp><cmp>+talo<n><sg><gen><cmp><hyph><cmp>+poika<n><sg><nom>/norjalainen<n><der_s><cmp><hyph><cmp>+talonpoika<n><sg><nom>/norjalainen<n><der_s><cmp><hyph><cmp>+talo<n><sg><gen><cmp>+poika<n><sg><nom>/norjalainen<n><der_s><cmp><hyph><cmp>+talo<n><sg><gen><cmp><cmp>+poika<n><sg><nom>/norjalainen<n><der_s><cmp><hyph><cmp>+talo<n><sg><gen><cmp><hyph><cmp>+poika<n><sg><nom>
+
+%	badjegánda<n>:poropoika<n>: poropoika/poro<n><sg><nom><cmp>+poika<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+poika<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+poika<n><sg><nom>
+
+%	olgobáiki<n>:ulkopaikka<n>: ulkopaikka/ulko-<n><cmp>+paikka<n><sg><nom>/ulko-<n><cmp><cmp>+paikka<n><sg><nom>/ulko-<n><cmp><hyph><cmp>+paikka<n><sg><nom>/ulko<n><pref><cmp>+paikka<n><sg><nom>
+
+%	boimmohat<n>:nokkimispaikka<n>: nokkimispaikka/nokkia<vblex><der_minen><der_s><cmp>+paikka<n><sg><nom>/nokkia<vblex><der_minen><der_s><cmp><cmp>+paikka<n><sg><nom>/nokkia<vblex><der_minen><der_s><cmp><hyph><cmp>+paikka<n><sg><nom>
+
+%	njuikkohat<n>:hyppimispaikka<n>: hyppimispaikka/hyppiminen<n><der_s><cmp>+paikka<n><sg><nom>/hyppiminen<n><der_s><cmp><cmp>+paikka<n><sg><nom>/hyppiminen<n><der_s><cmp><hyph><cmp>+paikka<n><sg><nom>/hyppiä<vblex><der_minen><der_s><cmp>+paikka<n><sg><nom>/hyppiä<vblex><der_minen><der_s><cmp><cmp>+paikka<n><sg><nom>/hyppiä<vblex><der_minen><der_s><cmp><hyph><cmp>+paikka<n><sg><nom>
+
+%	vuolahat<n>:höyläyspaikka<n>: höyläyspaikka/höyläys<n><sg><nom><cmp>+paikka<n><sg><nom>/höyläys<n><sg><nom><cmp><cmp>+paikka<n><sg><nom>/höyläys<n><sg><nom><cmp><hyph><cmp>+paikka<n><sg><nom>
+
+%	vuolahat<n>:vuolupaikka<n>: vuolupaikka/vuolu<n><sg><nom><cmp>+paikka<n><sg><nom>/vuolu<n><sg><nom><cmp><cmp>+paikka<n><sg><nom>/vuolu<n><sg><nom><cmp><hyph><cmp>+paikka<n><sg><nom>
+
+%	rántet<n>:halonhakkuupaikka<n>: halonhakkuupaikka/halko<n><sg><gen><cmp>+hakkuu<n><sg><nom><cmp>+paikka<n><sg><nom>/halko<n><sg><gen><cmp>+hakkuu<n><sg><nom><cmp><cmp>+paikka<n><sg><nom>/halko<n><sg><gen><cmp>+hakkuu<n><sg><nom><cmp><hyph><cmp>+paikka<n><sg><nom>/halko<n><sg><gen><cmp><cmp>+hakkuu<n><sg><nom><cmp>+paikka<n><sg><nom>/halko<n><sg><gen><cmp><cmp>+hakkuu<n><sg><nom><cmp><cmp>+paikka<n><sg><nom>/halko<n><sg><gen><cmp><cmp>+hakkuu<n><sg><nom><cmp><hyph><cmp>+paikka<n><sg><nom>/halko<n><sg><gen><cmp><hyph><cmp>+hakkuu<n><sg><nom><cmp>+paikka<n><sg><nom>/halko<n><sg><gen><cmp><hyph><cmp>+hakkuu<n><sg><nom><cmp><cmp>+paikka<n><sg><nom>/halko<n><sg><gen><cmp><hyph><cmp>+hakkuu<n><sg><nom><cmp><hyph><cmp>+paikka<n><sg><nom>/halonhakkuu<n><sg><nom><cmp>+paikka<n><sg><nom>/halonhakkuu<n><sg><nom><cmp><cmp>+paikka<n><sg><nom>/halonhakkuu<n><sg><nom><cmp><hyph><cmp>+paikka<n><sg><nom>/halo<n><sg><gen><cmp>+hakkuu<n><sg><nom><cmp>+paikka<n><sg><nom>/halo<n><sg><gen><cmp>+hakkuu<n><sg><nom><cmp><cmp>+paikka<n><sg><nom>/halo<n><sg><gen><cmp>+hakkuu<n><sg><nom><cmp><hyph><cmp>+paikka<n><sg><nom>/halo<n><sg><gen><cmp><cmp>+hakkuu<n><sg><nom><cmp>+paikka<n><sg><nom>/halo<n><sg><gen><cmp><cmp>+hakkuu<n><sg><nom><cmp><cmp>+paikka<n><sg><nom>/halo<n><sg><gen><cmp><cmp>+hakkuu<n><sg><nom><cmp><hyph><cmp>+paikka<n><sg><nom>/halo<n><sg><gen><cmp><hyph><cmp>+hakkuu<n><sg><nom><cmp>+paikka<n><sg><nom>/halo<n><sg><gen><cmp><hyph><cmp>+hakkuu<n><sg><nom><cmp><cmp>+paikka<n><sg><nom>/halo<n><sg><gen><cmp><hyph><cmp>+hakkuu<n><sg><nom><cmp><hyph><cmp>+paikka<n><sg><nom>
+
+%	čeagŋi<n>:matalajalka<n>: matalajalka/*matalajalka
+
+%	leavvedolgi<n>:onnensulka<n>: onnensulka/onni<n><sg><gen><cmp>+sulka<n><sg><nom>/onni<n><sg><gen><cmp><cmp>+sulka<n><sg><nom>/onni<n><sg><gen><cmp><hyph><cmp>+sulka<n><sg><nom>
+
+%	gassaborgi<n>:purka<n>: purka/*purka
+
+%	čeahborgi<n>:puolipurka<n>: puolipurka/*puolipurka
+
+%	gubbi<n>:kyssäniska<n>: kyssäniska/kyssä<n><sg><nom><cmp>+niska<n><sg><nom>/kyssä<n><sg><nom><cmp><cmp>+niska<n><sg><nom>/kyssä<n><sg><nom><cmp><hyph><cmp>+niska<n><sg><nom>
+
+%	sirdda<n>:siirtymämatka<n>: siirtymämatka/siirtymä<n><sg><nom><cmp>+matka<n><sg><nom>/siirtymä<n><sg><nom><cmp><cmp>+matka<n><sg><nom>/siirtymä<n><sg><nom><cmp><hyph><cmp>+matka<n><sg><nom>
+
+%	sivla<n>:pikkutuulenkala<n>: pikkutuulenkala/pikku-<n><cmp>+tuulenkala<n><sg><nom>/pikku-<n><cmp>+tuuli<n><sg><gen><cmp>+kala<n><sg><nom>/pikku-<n><cmp>+tuuli<n><sg><gen><cmp><cmp>+kala<n><sg><nom>/pikku-<n><cmp>+tuuli<n><sg><gen><cmp><hyph><cmp>+kala<n><sg><nom>/pikku-<n><cmp><cmp>+tuulenkala<n><sg><nom>/pikku-<n><cmp><cmp>+tuuli<n><sg><gen><cmp>+kala<n><sg><nom>/pikku-<n><cmp><cmp>+tuuli<n><sg><gen><cmp><cmp>+kala<n><sg><nom>/pikku-<n><cmp><cmp>+tuuli<n><sg><gen><cmp><hyph><cmp>+kala<n><sg><nom>/pikku-<n><cmp><hyph><cmp>+tuulenkala<n><sg><nom>/pikku-<n><cmp><hyph><cmp>+tuuli<n><sg><gen><cmp>+kala<n><sg><nom>/pikku-<n><cmp><hyph><cmp>+tuuli<n><sg><gen><cmp><cmp>+kala<n><sg><nom>/pikku-<n><cmp><hyph><cmp>+tuuli<n><sg><gen><cmp><hyph><cmp>+kala<n><sg><nom>/pikku<n><pref><cmp>+tuulenkala<n><sg><nom>/pikku<n><pref><cmp>+tuuli<n><sg><gen><cmp>+kala<n><sg><nom>/pikku<n><pref><cmp>+tuuli<n><sg><gen><cmp><cmp>+kala<n><sg><nom>/pikku<n><pref><cmp>+tuuli<n><sg><gen><cmp><hyph><cmp>+kala<n><sg><nom>
+
+%	jurssahas<n>:jyrsepala<n>: jyrsepala/*jyrsepala
+
+%	coahki<n>:matala<n>: matala/matala<adj><sg><nom>
+
+%	njuvvat<n>:hietakampela<n>: hietakampela/hieta<n><sg><nom><cmp>+kampela<n><sg><nom>/hieta<n><sg><nom><cmp><cmp>+kampela<n><sg><nom>/hieta<n><sg><nom><cmp><hyph><cmp>+kampela<n><sg><nom>
+
+%	veahkil<adj>:avulla<adj>: avulla/apu<n><sg><ade>/avulla<post>/avu<n><sg><ade>
+
+%	lábástat<n>:purjeneula<n>: purjeneula/purje<n><sg><nom><cmp>+neula<n><sg><nom>/purje<n><sg><nom><cmp><cmp>+neula<n><sg><nom>/purje<n><sg><nom><cmp><hyph><cmp>+neula<n><sg><nom>
+
+%	liehpa<n>:sula<n>: sula/sulaa<vblex><actv><imp><p2><sg>/sulaa<vblex><actv><imp><pres><conneg><p2><sg>/sulaa<vblex><actv><indic><pres><conneg>/sula<adj><sg><nom>
+
+%	uštta<n>:uistinsiima<n>: uistinsiima/uistin<n><sg><nom><cmp>+siima<n><sg><nom>/uistin<n><sg><nom><cmp><cmp>+siima<n><sg><nom>/uistin<n><sg><nom><cmp><hyph><cmp>+siima<n><sg><nom>
+
+%	lávžá<n>:hevospaarma<n>: hevospaarma/hevonen<n><der_s><cmp>+paarma<n><sg><nom>/hevonen<n><der_s><cmp><cmp>+paarma<n><sg><nom>/hevonen<n><der_s><cmp><hyph><cmp>+paarma<n><sg><nom>
+
+%	njunnádas<n>:keulakuorma<n>: keulakuorma/keula<n><sg><nom><cmp>+kuorma<n><sg><nom>/keula<n><sg><nom><cmp><cmp>+kuorma<n><sg><nom>/keula<n><sg><nom><cmp><hyph><cmp>+kuorma<n><sg><nom>
+
+%	jearransátni<n>:kysymyssana<n>: kysymyssana/kysymys<n><sg><nom><cmp>+sana<n><sg><nom>/kysymys<n><sg><nom><cmp><cmp>+sana<n><sg><nom>/kysymys<n><sg><nom><cmp><hyph><cmp>+sana<n><sg><nom>
+
+%	šoalkaliidni<n>:silkkiliina<n>: silkkiliina/silkki<n><sg><nom><cmp>+liina<n><sg><nom>/silkki<n><sg><nom><cmp><cmp>+liina<n><sg><nom>/silkki<n><sg><nom><cmp><hyph><cmp>+liina<n><sg><nom>
+
+%	šoalkaliidni<n>:ristiliina<n>: ristiliina/risti<n><sg><nom><cmp>+liina<n><sg><nom>/risti<n><sg><nom><cmp><cmp>+liina<n><sg><nom>/risti<n><sg><nom><cmp><hyph><cmp>+liina<n><sg><nom>
+
+%	váffelmávka<n>:vohvelitaikina<n>: vohvelitaikina/vohveli<n>i<sg><nom><cmp>+taikina<n><sg><nom>/vohveli<n>i<sg><nom><cmp>+tai<n><sg><nom><cmp>+kina<n><sg><nom>/vohveli<n>i<sg><nom><cmp>+tai<n><sg><nom><cmp><cmp>+kina<n><sg><nom>/vohveli<n>i<sg><nom><cmp>+tai<n><sg><nom><cmp><hyph><cmp>+kina<n><sg><nom>/vohveli<n>i<sg><nom><cmp><cmp>+taikina<n><sg><nom>/vohveli<n>i<sg><nom><cmp><cmp>+tai<n><sg><nom><cmp>+kina<n><sg><nom>/vohveli<n>i<sg><nom><cmp><cmp>+tai<n><sg><nom><cmp><cmp>+kina<n><sg><nom>/vohveli<n>i<sg><nom><cmp><cmp>+tai<n><sg><nom><cmp><hyph><cmp>+kina<n><sg><nom>/vohveli<n>i<sg><nom><cmp><hyph><cmp>+taikina<n><sg><nom>/vohveli<n>i<sg><nom><cmp><hyph><cmp>+tai<n><sg><nom><cmp>+kina<n><sg><nom>/vohveli<n>i<sg><nom><cmp><hyph><cmp>+tai<n><sg><nom><cmp><cmp>+kina<n><sg><nom>/vohveli<n>i<sg><nom><cmp><hyph><cmp>+tai<n><sg><nom><cmp><hyph><cmp>+kina<n><sg><nom>/vohveli<n><sg><nom><cmp>+taikina<n><sg><nom>/vohveli<n><sg><nom><cmp>+tai<n><sg><nom><cmp>+kina<n><sg><nom>/vohveli<n><sg><nom><cmp>+tai<n><sg><nom><cmp><cmp>+kina<n><sg><nom>/vohveli<n><sg><nom><cmp>+tai<n><sg><nom><cmp><hyph><cmp>+kina<n><sg><nom>/vohveli<n><sg><nom><cmp><cmp>+taikina<n><sg><nom>/vohveli<n><sg><nom><cmp><cmp>+tai<n><sg><nom><cmp>+kina<n><sg><nom>/vohveli<n><sg><nom><cmp><cmp>+tai<n><sg><nom><cmp><cmp>+kina<n><sg><nom>/vohveli<n><sg><nom><cmp><cmp>+tai<n><sg><nom><cmp><hyph><cmp>+kina<n><sg><nom>/vohveli<n><sg><nom><cmp><hyph><cmp>+taikina<n><sg><nom>/vohveli<n><sg><nom><cmp><hyph><cmp>+tai<n><sg><nom><cmp>+kina<n><sg><nom>/vohveli<n><sg><nom><cmp><hyph><cmp>+tai<n><sg><nom><cmp><cmp>+kina<n><sg><nom>/vohveli<n><sg><nom><cmp><hyph><cmp>+tai<n><sg><nom><cmp><hyph><cmp>+kina<n><sg><nom>
+
+%	beassášmárkan<n>:pääsiäismarkkina<n>: pääsiäismarkkina/pääsiäinen<n><der_s><cmp>+markkina<n><sg><nom>/pääsiäinen<n><der_s><cmp><cmp>+markkina<n><sg><nom>/pääsiäinen<n><der_s><cmp><hyph><cmp>+markkina<n><sg><nom>
+
+%	ramas<n>:luomenreuna<n>: luomenreuna/luomi<n><sg><gen><cmp>+reuna<n><sg><nom>/luomi<n><sg><gen><cmp><cmp>+reuna<n><sg><nom>/luomi<n><sg><gen><cmp><hyph><cmp>+reuna<n><sg><nom>
+
+%	laiggasbuđet<n>:lohkoperuna<n>: lohkoperuna/lohko<n><sg><nom><cmp>+peruna<n><sg><nom>/lohko<n><sg><nom><cmp>+peru<n><sg><ess>/lohko<n><sg><nom><cmp><cmp>+peruna<n><sg><nom>/lohko<n><sg><nom><cmp><cmp>+peru<n><sg><ess>/lohko<n><sg><nom><cmp><hyph><cmp>+peruna<n><sg><nom>/lohko<n><sg><nom><cmp><hyph><cmp>+peru<n><sg><ess>
+
+%	bivdinvuohki<n>:pyyntitapa<n>: pyyntitapa/pyynti<n><sg><nom><cmp>+tapa<n><sg><nom>/pyynti<n><sg><nom><cmp><cmp>+tapa<n><sg><nom>/pyynti<n><sg><nom><cmp><hyph><cmp>+tapa<n><sg><nom>
+
+%	keailu<n>:vuononhaara<n>: vuononhaara/vuono<n><sg><gen><cmp>+haara<n><sg><nom>/vuono<n><sg><gen><cmp><cmp>+haara<n><sg><nom>/vuono<n><sg><gen><cmp><hyph><cmp>+haara<n><sg><nom>
+
+%	guhtamáhka<n>:kalansuolimakkara<n>: kalansuolimakkara/kala<n><sg><gen><cmp>+suoli<n><sg><nom><cmp>+makkara<n><sg><nom>/kala<n><sg><gen><cmp>+suoli<n><sg><nom><cmp><cmp>+makkara<n><sg><nom>/kala<n><sg><gen><cmp>+suoli<n><sg><nom><cmp><hyph><cmp>+makkara<n><sg><nom>/kala<n><sg><gen><cmp><cmp>+suoli<n><sg><nom><cmp>+makkara<n><sg><nom>/kala<n><sg><gen><cmp><cmp>+suoli<n><sg><nom><cmp><cmp>+makkara<n><sg><nom>/kala<n><sg><gen><cmp><cmp>+suoli<n><sg><nom><cmp><hyph><cmp>+makkara<n><sg><nom>/kala<n><sg><gen><cmp><hyph><cmp>+suoli<n><sg><nom><cmp>+makkara<n><sg><nom>/kala<n><sg><gen><cmp><hyph><cmp>+suoli<n><sg><nom><cmp><cmp>+makkara<n><sg><nom>/kala<n><sg><gen><cmp><hyph><cmp>+suoli<n><sg><nom><cmp><hyph><cmp>+makkara<n><sg><nom>
+
+%	miekta<n>:mätässara<n>: mätässara/mätäs<n><sg><nom><cmp>+sara<n><sg><nom>/mätäs<n><sg><nom><cmp><cmp>+sara<n><sg><nom>/mätäs<n><sg><nom><cmp><hyph><cmp>+sara<n><sg><nom>
+
+%	hilcu<n>:tytönhattara<n>: tytönhattara/tyttö<n><sg><gen><cmp>+hattara<n><sg><nom>/tyttö<n><sg><gen><cmp><cmp>+hattara<n><sg><nom>/tyttö<n><sg><gen><cmp><hyph><cmp>+hattara<n><sg><nom>
+
+%	gissor<n>:kisura<n>: kisura/*kisura
+
+%	suohkulanmiessi<n>:syysvasa<n>: syysvasa/syys-<n><cmp>+vasa<n><sg><nom>/syys-<n><cmp><cmp>+vasa<n><sg><nom>/syys-<n><cmp><hyph><cmp>+vasa<n><sg><nom>/syys<n><pref><cmp>+vasa<n><sg><nom>
+
+%	váđđu<n>:juksa<n>: juksa/*juksa
+
+%	šokčá<n>:jäniksenansa<n>: jäniksenansa/jänis<n><sg><gen><cmp>+ansa<n><sg><nom>/jänis<n><sg><gen><cmp><cmp>+ansa<n><sg><nom>/jänis<n><sg><gen><cmp><hyph><cmp>+ansa<n><sg><nom>
+
+%	galbmagáhkkor<n>:vilukissa<n>: vilukissa/vilu<n><sg><nom><cmp>+kissa<n><sg><nom>/vilu<n><sg><nom><cmp><cmp>+kissa<n><sg><nom>/vilu<n><sg><nom><cmp><hyph><cmp>+kissa<n><sg><nom>
+
+%	dorka<n>:turkkipaita<n>: turkkipaita/turkki<n><sg><nom><cmp>+paita<n><sg><nom>/turkki<n><sg><nom><cmp>+pai<n><pl><par>/turkki<n><sg><nom><cmp>+pai<n><sg><par>/turkki<n><sg><nom><cmp><cmp>+paita<n><sg><nom>/turkki<n><sg><nom><cmp><cmp>+pai<n><pl><par>/turkki<n><sg><nom><cmp><cmp>+pai<n><sg><par>/turkki<n><sg><nom><cmp><hyph><cmp>+paita<n><sg><nom>/turkki<n><sg><nom><cmp><hyph><cmp>+pai<n><pl><par>/turkki<n><sg><nom><cmp><hyph><cmp>+pai<n><sg><par>
+
+%	beassášruohtta<n>:pääsiäisilta<n>: pääsiäisilta/pääsiäinen<n><der_s><cmp>+ilta<n><sg><nom>/pääsiäinen<n><der_s><cmp><cmp>+ilta<n><sg><nom>/pääsiäinen<n><der_s><cmp><hyph><cmp>+ilta<n><sg><nom>
+
+%	beassášlávvardat<n>:pääsiäisilta<n>: pääsiäisilta/pääsiäinen<n><der_s><cmp>+ilta<n><sg><nom>/pääsiäinen<n><der_s><cmp><cmp>+ilta<n><sg><nom>/pääsiäinen<n><der_s><cmp><hyph><cmp>+ilta<n><sg><nom>
+
+%	beassášlávvordat<n>:pääsiäisilta<n>: pääsiäisilta/pääsiäinen<n><der_s><cmp>+ilta<n><sg><nom>/pääsiäinen<n><der_s><cmp><cmp>+ilta<n><sg><nom>/pääsiäinen<n><der_s><cmp><hyph><cmp>+ilta<n><sg><nom>
+
+%	boazoguohtunlávdegoddi<n>:porolaidunlautakunta<n>: porolaidunlautakunta/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp>+lautakunta<n><sg><nom>/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp>+lauta<n><sg><nom><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp>+lauta<n><sg><nom><cmp><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp>+lauta<n><sg><nom><cmp><hyph><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp><cmp>+lautakunta<n><sg><nom>/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp><cmp>+lauta<n><sg><nom><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp><cmp>+lauta<n><sg><nom><cmp><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp><cmp>+lauta<n><sg><nom><cmp><hyph><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lautakunta<n><sg><nom>/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lauta<n><sg><nom><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lauta<n><sg><nom><cmp><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lauta<n><sg><nom><cmp><hyph><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp>+lautakunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp>+lauta<n><sg><nom><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp>+lauta<n><sg><nom><cmp><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp>+lauta<n><sg><nom><cmp><hyph><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp><cmp>+lautakunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp><cmp>+lauta<n><sg><nom><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp><cmp>+lauta<n><sg><nom><cmp><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp><cmp>+lauta<n><sg><nom><cmp><hyph><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lautakunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lauta<n><sg><nom><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lauta<n><sg><nom><cmp><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lauta<n><sg><nom><cmp><hyph><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp>+lautakunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp>+lauta<n><sg><nom><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp>+lauta<n><sg><nom><cmp><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp>+lauta<n><sg><nom><cmp><hyph><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp><cmp>+lautakunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp><cmp>+lauta<n><sg><nom><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp><cmp>+lauta<n><sg><nom><cmp><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp><cmp>+lauta<n><sg><nom><cmp><hyph><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lautakunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lauta<n><sg><nom><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lauta<n><sg><nom><cmp><cmp>+kunta<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom><cmp><hyph><cmp>+lauta<n><sg><nom><cmp><hyph><cmp>+kunta<n><sg><nom>
+
+%	njávggas<n>:nauˈunta<n>: nauˈunta/*nauˈunta
+
+%	dásageardi<n>:tasakerta<n>: tasakerta/tasa<n><sg><nom><cmp>+kerta<n><sg><nom>/tasa<n><sg><nom><cmp><cmp>+kerta<n><sg><nom>/tasa<n><sg><nom><cmp><hyph><cmp>+kerta<n><sg><nom>
+
+%	huikkanas<n>:huutokerta<n>: huutokerta/huuto<n><sg><nom><cmp>+kerta<n><sg><nom>/huuto<n><sg><nom><cmp><cmp>+kerta<n><sg><nom>/huuto<n><sg><nom><cmp><hyph><cmp>+kerta<n><sg><nom>
+
+%	njiškun<n>:nauhapirta<n>: nauhapirta/nauha<n><sg><nom><cmp>+pirta<n><sg><nom>/nauha<n><sg><nom><cmp><cmp>+pirta<n><sg><nom>/nauha<n><sg><nom><cmp><hyph><cmp>+pirta<n><sg><nom>
+
+%	gávstá<n>:kausta<n>: kausta/ka<n><sg><nom><cmp>+uksi<n><sg><par>/ka<n><sg><nom><cmp><cmp>+uksi<n><sg><par>/ka<n><sg><nom><cmp><hyph><cmp>+uksi<n><sg><par>
+
+%	gálbmi<n>:metsähauta<n>: metsähauta/metsä<n><sg><nom><cmp>+hauta<n><sg><nom>/metsä<n><sg><nom><cmp><cmp>+hauta<n><sg><nom>/metsä<n><sg><nom><cmp><hyph><cmp>+hauta<n><sg><nom>
+
+%	loađđa<n>:poraamislauta<n>: poraamislauta/poraaminen<n><der_s><cmp>+lauta<n><sg><nom>/poraaminen<n><der_s><cmp><cmp>+lauta<n><sg><nom>/poraaminen<n><der_s><cmp><hyph><cmp>+lauta<n><sg><nom>/porata<vblex><der_minen><der_s><cmp>+lauta<n><sg><nom>/porata<vblex><der_minen><der_s><cmp><cmp>+lauta<n><sg><nom>/porata<vblex><der_minen><der_s><cmp><hyph><cmp>+lauta<n><sg><nom>
+
+%	háskár<adj>:haaskaava<adj>: haaskaava/haaskata<vblex><actv><prsprc><sg><nom>
+
+%	dumpái<adj>:sammaltava<adj>: sammaltava/sammaltaa<vblex><actv><prsprc><sg><nom>
+
+%	doksái<adj>:sammaltava<adj>: sammaltava/sammaltaa<vblex><actv><prsprc><sg><nom>
+
+%	skiŋgil<adj>:kilkattava<adj>: kilkattava/kilkattaa<vblex><actv><prsprc><sg><nom>
+
+%	bajádus<n>:nostettava<n>: nostettava/nostaa<vblex><pasv><prsprc><sg><nom>/nostettava<adj><sg><nom>
+
+%	jeđđehahtti<adj>:lohdutettava<adj>: lohdutettava/lohduttaa<vblex><pasv><prsprc><sg><nom>
+
+%	šeabmái<adj>:kailottava<adj>: kailottava/kailottaa<vblex><actv><prsprc><sg><nom>
+
+%	venzolas<adj>:vollottava<adj>: vollottava/vollottaa<vblex><actv><prsprc><sg><nom>
+
+%	snuggamuš<n>:kaluttava<n>: kaluttava/kaluta<vblex><pasv><prsprc><sg><nom>
+
+%	báhcálas<adj>:vitkutteleva<adj>: vitkutteleva/vitkutella<vblex><actv><prsprc><sg><nom>
+
+%	áitálas<adj>:uhkaileva<adj>: uhkaileva/uhkailla<vblex><actv><prsprc><sg><nom>
+
+%	duđđalas<adj>:kuhnaileva<adj>: kuhnaileva/kuhnailla<vblex><actv><prsprc><sg><nom>
+
+%	bivastuhkes<adj>:hikoileva<adj>: hikoileva/hikoilla<vblex><actv><prsprc><sg><nom>
+
+%	nuvvalas<adj>:nuriseva<adj>: nuriseva/nurista<vblex><actv><prsprc><sg><nom>
+
+%	čiekčalas<adj>:potkiva<adj>: potkiva/potkia<vblex><actv><prsprc><sg><nom>
+
+%	lággu<n>:pyöreäpyrstömolva<n>: pyöreäpyrstömolva/*pyöreäpyrstömolva
+
+%	ruohttalas<adj>:laukkova<adj>: laukkova/laukkoa<vblex><actv><prsprc><sg><nom>
+
+%	siehppa<n>:häpykarva<n>: häpykarva/häpy<n><sg><nom><cmp>+karva<n><sg><nom>/häpy<n><sg><nom><cmp>+ka<n><sg><nom><cmp>+rva<n><sg><nom>/häpy<n><sg><nom><cmp>+ka<n><sg><nom><cmp><cmp>+rva<n><sg><nom>/häpy<n><sg><nom><cmp>+ka<n><sg><nom><cmp><hyph><cmp>+rva<n><sg><nom>/häpy<n><sg><nom><cmp><cmp>+karva<n><sg><nom>/häpy<n><sg><nom><cmp><cmp>+ka<n><sg><nom><cmp>+rva<n><sg><nom>/häpy<n><sg><nom><cmp><cmp>+ka<n><sg><nom><cmp><cmp>+rva<n><sg><nom>/häpy<n><sg><nom><cmp><cmp>+ka<n><sg><nom><cmp><hyph><cmp>+rva<n><sg><nom>/häpy<n><sg><nom><cmp><hyph><cmp>+karva<n><sg><nom>/häpy<n><sg><nom><cmp><hyph><cmp>+ka<n><sg><nom><cmp>+rva<n><sg><nom>/häpy<n><sg><nom><cmp><hyph><cmp>+ka<n><sg><nom><cmp><cmp>+rva<n><sg><nom>/häpy<n><sg><nom><cmp><hyph><cmp>+ka<n><sg><nom><cmp><hyph><cmp>+rva<n><sg><nom>
+
+%	náhppa<n>:poikkikorva<n>: poikkikorva/*poikkikorva
+
+%	beaški<adj>:paukkuva<adj>: paukkuva/paukkua<vblex><actv><prsprc><sg><nom>
+
+%	bállálas<adj>:ammuva<adj>: ammuva/ammua<vblex><actv><prsprc><sg><nom>
+
+%	duggolas<adj>:takkuuntuva<adj>: takkuuntuva/takkuuntua<vblex><actv><prsprc><sg><nom>/takku<n><sg><nom><cmp>+untuva<n><sg><nom>/takku<n><sg><nom><cmp><cmp>+untuva<n><sg><nom>
+
+%	dumsui<adj>:vanuttuva<adj>: vanuttuva/vanuttua<vblex><actv><prsprc><sg><nom>
+
+%	geazaldat<n>:puohde<n>: puohde/*puohde
+
+%	feaddi<n>:juurisäie<n>: juurisäie/juuri<n><sg><nom><cmp>+säie<n><sg><nom>/juuri<n><sg><nom><cmp><cmp>+säie<n><sg><nom>/juuri<n><sg><nom><cmp><hyph><cmp>+säie<n><sg><nom>
+
+%	jieŋkʼgávli<n>:jääkieleke<n>: jääkieleke/jää<n><sg><nom><cmp>+kieleke<n><sg><nom>/jää<n><sg><nom><cmp><cmp>+kieleke<n><sg><nom>/jää<n><sg><nom><cmp><hyph><cmp>+kieleke<n><sg><nom>
+
+%	krámbuvda<n>:kauppaliike<n>: kauppaliike/kauppa<n><sg><nom><cmp>+liike<n><sg><nom>/kauppa<n><sg><nom><cmp><cmp>+liike<n><sg><nom>/kauppa<n><sg><nom><cmp><hyph><cmp>+liike<n><sg><nom>
+
+%	váili<n>:vaille<n>: vaille/vaille<adv>/vaille<part>/vaille<post>/vai<n><pl><all>/vai<n><sg><all>
+
+%	oarjelsámegiella<n>:länsisaame<n>: länsisaame/länsi<n><pref><cmp>+saame<n><sg><nom>/länsi<n><sg><nom><cmp>+saame<n><sg><nom>/länsi<n><sg><nom><cmp><cmp>+saame<n><sg><nom>/länsi<n><sg><nom><cmp><hyph><cmp>+saame<n><sg><nom>
+
+%	sakkis<n>:leikkivene<n>: leikkivene/leikki-<n><cmp>+vene<n><sg><nom>/leikki-<n><cmp><cmp>+vene<n><sg><nom>/leikki-<n><cmp><hyph><cmp>+vene<n><sg><nom>/leikki<n><pref><cmp>+vene<n><sg><nom>/leikki<n><sg><nom><cmp>+vene<n><sg><nom>/leikki<n><sg><nom><cmp><cmp>+vene<n><sg><nom>/leikki<n><sg><nom><cmp><hyph><cmp>+vene<n><sg><nom>
+
+%	báinna<n>:värjäysaine<n>: värjäysaine/värjäys<n><sg><nom><cmp>+aine<n><sg><nom>/värjäys<n><sg><nom><cmp><cmp>+aine<n><sg><nom>/värjäys<n><sg><nom><cmp><hyph><cmp>+aine<n><sg><nom>
+
+%	náhkálaš<n>:nahkaesine<n>: nahkaesine/nahka<n><sg><nom><cmp>+esine<n><sg><nom>/nahka<n><sg><nom><cmp><cmp>+esine<n><sg><nom>/nahka<n><sg><nom><cmp><hyph><cmp>+esine<n><sg><nom>
+
+%	veaiggas<n>:kuolemanenne<n>: kuolemanenne/kuolema<n><sg><gen><cmp>+enne<n><sg><nom>/kuolema<n><sg><gen><cmp><cmp>+enne<n><sg><nom>/kuolema<n><sg><gen><cmp><hyph><cmp>+enne<n><sg><nom>/kuolla<vblex><agprc><sg><gen><cmp>+enne<n><sg><nom>
+
+%	lihttebassanmášiidna<n>:astiapesukone<n>: astiapesukone/astia<n><sg><nom><cmp>+pesukone<n><sg><nom>/astia<n><sg><nom><cmp>+pesu<n><sg><nom><cmp>+kone<n><sg><nom>/astia<n><sg><nom><cmp>+pesu<n><sg><nom><cmp><cmp>+kone<n><sg><nom>/astia<n><sg><nom><cmp>+pesu<n><sg><nom><cmp><hyph><cmp>+kone<n><sg><nom>/astia<n><sg><nom><cmp><cmp>+pesukone<n><sg><nom>/astia<n><sg><nom><cmp><cmp>+pesu<n><sg><nom><cmp>+kone<n><sg><nom>/astia<n><sg><nom><cmp><cmp>+pesu<n><sg><nom><cmp><cmp>+kone<n><sg><nom>/astia<n><sg><nom><cmp><cmp>+pesu<n><sg><nom><cmp><hyph><cmp>+kone<n><sg><nom>/astia<n><sg><nom><cmp><hyph><cmp>+pesukone<n><sg><nom>/astia<n><sg><nom><cmp><hyph><cmp>+pesu<n><sg><nom><cmp>+kone<n><sg><nom>/astia<n><sg><nom><cmp><hyph><cmp>+pesu<n><sg><nom><cmp><cmp>+kone<n><sg><nom>/astia<n><sg><nom><cmp><hyph><cmp>+pesu<n><sg><nom><cmp><hyph><cmp>+kone<n><sg><nom>
+
+%	boradanlatnja<n>:ruokahuone<n>: ruokahuone/ruoka<n><sg><nom><cmp>+huone<n><sg><nom>/ruoka<n><sg><nom><cmp><cmp>+huone<n><sg><nom>/ruoka<n><sg><nom><cmp><hyph><cmp>+huone<n><sg><nom>
+
+%	náhkkelaš<n>:nahkavaate<n>: nahkavaate/nahka<n><sg><nom><cmp>+vaate<n><sg><nom>/nahka<n><sg><nom><cmp><cmp>+vaate<n><sg><nom>/nahka<n><sg><nom><cmp><hyph><cmp>+vaate<n><sg><nom>
+
+%	rántet<n>:rante<n>: rante/*rante
+
+%	bálggahat<n>:palkima-alue<n>: palkima/*palkima
+ -alue/<<punct><cmp>+alue<n><sg><nom>/<cmp>+<acr><cmp>+alue<n><sg><nom>/<cmp>+<punct><cmp>+alue<n><sg><nom>/><punct><cmp>+alue<n><sg><nom>/_<acr><cmp>+alue<n><sg><nom>/«<punct><qnt>ote<cmp>+alue<n><sg><nom>/»<punct><qnt>ote<cmp>+alue<n><sg><nom>
+
+%	báhčinguovlu<n>:ampuma-alue<n>: ampuma/ampua<vblex><agprc><sg><nom>
+ -alue/<<punct><cmp>+alue<n><sg><nom>/<cmp>+<acr><cmp>+alue<n><sg><nom>/<cmp>+<punct><cmp>+alue<n><sg><nom>/><punct><cmp>+alue<n><sg><nom>/_<acr><cmp>+alue<n><sg><nom>/«<punct><qnt>ote<cmp>+alue<n><sg><nom>/»<punct><qnt>ote<cmp>+alue<n><sg><nom>
+
+%	vuoruhansuorgi<n>:satsausalue<n>: satsausalue/satsaus<n><sg><nom><cmp>+alue<n><sg><nom>/satsaus<n><sg><nom><cmp><cmp>+alue<n><sg><nom>/satsaus<n><sg><nom><cmp><hyph><cmp>+alue<n><sg><nom>
+
+%	muttar<n>:kateturve<n>: kateturve/kate<n>e<sg><nom><cmp>+turve<n><sg><nom>/kate<n>e<sg><nom><cmp><cmp>+turve<n><sg><nom>/kate<n>e<sg><nom><cmp><hyph><cmp>+turve<n><sg><nom>/kate<n><sg><nom><cmp>+turve<n><sg><nom>/kate<n><sg><nom><cmp><cmp>+turve<n><sg><nom>/kate<n><sg><nom><cmp><hyph><cmp>+turve<n><sg><nom>
+
+%	álbmotkatastrofa<n>:kansankatastrofi<n>: kansankatastrofi/kansa<n><sg><gen><cmp>+katastrofi<n><sg><nom>/kansa<n><sg><gen><cmp><cmp>+katastrofi<n><sg><nom>/kansa<n><sg><gen><cmp><hyph><cmp>+katastrofi<n><sg><nom>/ka<n><sg><gen><cmp>+san<n><sg><nom><cmp>+katastrofi<n><sg><nom>/ka<n><sg><gen><cmp>+san<n><sg><nom><cmp><cmp>+katastrofi<n><sg><nom>/ka<n><sg><gen><cmp>+san<n><sg><nom><cmp><hyph><cmp>+katastrofi<n><sg><nom>/ka<n><sg><gen><cmp><cmp>+san<n><sg><nom><cmp>+katastrofi<n><sg><nom>/ka<n><sg><gen><cmp><cmp>+san<n><sg><nom><cmp><cmp>+katastrofi<n><sg><nom>/ka<n><sg><gen><cmp><cmp>+san<n><sg><nom><cmp><hyph><cmp>+katastrofi<n><sg><nom>/ka<n><sg><gen><cmp><hyph><cmp>+san<n><sg><nom><cmp>+katastrofi<n><sg><nom>/ka<n><sg><gen><cmp><hyph><cmp>+san<n><sg><nom><cmp><cmp>+katastrofi<n><sg><nom>/ka<n><sg><gen><cmp><hyph><cmp>+san<n><sg><nom><cmp><hyph><cmp>+katastrofi<n><sg><nom>
+
+%	smáiti<adj>:harmaakaihi<adj>: harmaakaihi/harmaakaihi<n><sg><nom>/harmaat<n><sg><nom><cmp>+kaihi<n><sg><nom>/harmaat<n><sg><nom><cmp><cmp>+kaihi<n><sg><nom>/harmaat<n><sg><nom><cmp><hyph><cmp>+kaihi<n><sg><nom>/harmaa<n><sg><nom><cmp>+kaihi<n><sg><nom>/harmaa<n><sg><nom><cmp><cmp>+kaihi<n><sg><nom>/harmaa<n><sg><nom><cmp><hyph><cmp>+kaihi<n><sg><nom>
+
+%	muzet<n>:mustikki<n>: mustikki/*mustikki
+
+%	guođohanbarta<n>:paimenmökki<n>: paimenmökki/paimen<n><sg><nom><cmp>+mökki<n><sg><nom>/paimen<n><sg><nom><cmp><cmp>+mökki<n><sg><nom>/paimen<n><sg><nom><cmp><hyph><cmp>+mökki<n><sg><nom>
+
+%	dávllat<n>:täpläkylki<n>: täpläkylki/täplä<n><sg><nom><cmp>+kylki<n><sg><nom>/täplä<n><sg><nom><cmp><cmp>+kylki<n><sg><nom>/täplä<n><sg><nom><cmp><hyph><cmp>+kylki<n><sg><nom>
+
+%	ruohkahat<n>:raapaisujälki<n>: raapaisujälki/raapaisu<n><sg><nom><cmp>+jälki<n><sg><nom>/raapaisu<n><sg><nom><cmp><cmp>+jälki<n><sg><nom>/raapaisu<n><sg><nom><cmp><hyph><cmp>+jälki<n><sg><nom>
+
+%	veadjočuoibmi<n>:koivukanki<n>: koivukanki/koivu<n><sg><nom><cmp>+kanki<n><sg><nom>/koivu<n><sg><nom><cmp><cmp>+kanki<n><sg><nom>/koivu<n><sg><nom><cmp><hyph><cmp>+kanki<n><sg><nom>
+
+%	gavvaras<n>:kippurakärki<n>: kippurakärki/*kippurakärki
+
+%	beassášmátki<n>:pääsiäisretki<n>: pääsiäisretki/pääsiäinen<n><der_s><cmp>+retki<n><sg><nom>/pääsiäinen<n><der_s><cmp><cmp>+retki<n><sg><nom>/pääsiäinen<n><der_s><cmp><hyph><cmp>+retki<n><sg><nom>
+
+%	soairu<n>:luunaskali<n>: luunaskali/luu<n><sg><nom><cmp>+naskali<n><sg><nom>/luu<n><sg><nom><cmp><cmp>+naskali<n><sg><nom>/luu<n><sg><nom><cmp><hyph><cmp>+naskali<n><sg><nom>
+
+%	vuonjal<n>:vuongeli<n>: vuongeli/*vuongeli
+
+%	lásegárbma<n>:ikkunapieli<n>: ikkunapieli/ikkuna<n><sg><nom><cmp>+pieli<n><sg><nom>/ikkuna<n><sg><nom><cmp><cmp>+pieli<n><sg><nom>/ikkuna<n><sg><nom><cmp><hyph><cmp>+pieli<n><sg><nom>
+
+%	skoabádat<n>:rahinakeli<n>: rahinakeli/rahina<n>a<sg><nom><cmp>+keli<n><sg><nom>/rahina<n>a<sg><nom><cmp><cmp>+keli<n><sg><nom>/rahina<n>a<sg><nom><cmp><hyph><cmp>+keli<n><sg><nom>/rahina<n><sg><nom><cmp>+keli<n><sg><nom>/rahina<n><sg><nom><cmp><cmp>+keli<n><sg><nom>/rahina<n><sg><nom><cmp><hyph><cmp>+keli<n><sg><nom>
+
+%	vazadat<n>:vitikeli<n>: vitikeli/viti<n><sg><nom><cmp>+keli<n><sg><nom>/viti<n><sg><nom><cmp><cmp>+keli<n><sg><nom>/viti<n><sg><nom><cmp><hyph><cmp>+keli<n><sg><nom>
+
+%	asibealli<n>:kesipuoli<n>: kesipuoli/*kesipuoli
+
+%	seakkalággá<n>:lynkkysuoli<n>: lynkkysuoli/*lynkkysuoli
+
+%	skealbma<n>:veikkuli<n>: veikkuli/*veikkuli
+
+%	borjadat<n>:purjetuuli<n>: purjetuuli/purje<n><sg><nom><cmp>+tuuli<n><sg><nom>/purje<n><sg><nom><cmp><cmp>+tuuli<n><sg><nom>/purje<n><sg><nom><cmp><hyph><cmp>+tuuli<n><sg><nom>
+
+%	borjat<n>:purjetuuli<n>: purjetuuli/purje<n><sg><nom><cmp>+tuuli<n><sg><nom>/purje<n><sg><nom><cmp><cmp>+tuuli<n><sg><nom>/purje<n><sg><nom><cmp><hyph><cmp>+tuuli<n><sg><nom>
+
+%	bárdebeaivi<n>:pärttyli<n>: pärttyli/*pärttyli
+
+%	gámme<n>:turvekammi<n>: turvekammi/turve<n><sg><nom><cmp>+kammi<n><sg><nom>/turve<n><sg><nom><cmp><cmp>+kammi<n><sg><nom>/turve<n><sg><nom><cmp><hyph><cmp>+kammi<n><sg><nom>
+
+%	duopma<n>:pohjantuomi<n>: pohjantuomi/pohja<n><sg><gen><cmp>+tuomi<n><sg><nom>/pohja<n><sg><gen><cmp><cmp>+tuomi<n><sg><nom>/pohja<n><sg><gen><cmp><hyph><cmp>+tuomi<n><sg><nom>
+
+%	vietnansuotna<n>:venymäsuoni<n>: venymäsuoni/venymä<n><sg><nom><cmp>+suoni<n><sg><nom>/venymä<n><sg><nom><cmp>+suo<n><pl><nom><px1sg>/venymä<n><sg><nom><cmp>+suo<n><sg><gen><px1sg>/venymä<n><sg><nom><cmp>+suo<n><sg><nom><px1sg>/venymä<n><sg><nom><cmp><cmp>+suoni<n><sg><nom>/venymä<n><sg><nom><cmp><cmp>+suo<n><pl><nom><px1sg>/venymä<n><sg><nom><cmp><cmp>+suo<n><sg><gen><px1sg>/venymä<n><sg><nom><cmp><cmp>+suo<n><sg><nom><px1sg>/venymä<n><sg><nom><cmp><hyph><cmp>+suoni<n><sg><nom>/venymä<n><sg><nom><cmp><hyph><cmp>+suo<n><pl><nom><px1sg>/venymä<n><sg><nom><cmp><hyph><cmp>+suo<n><sg><gen><px1sg>/venymä<n><sg><nom><cmp><hyph><cmp>+suo<n><sg><nom><px1sg>
+
+%	máttarvánhen<n>:esivanhempi<n>: esivanhempi/esi-<n><cmp>+vanhempi<n><sg><nom>/esi-<n><cmp><cmp>+vanhempi<n><sg><nom>/esi-<n><cmp><hyph><cmp>+vanhempi<n><sg><nom>/esi<n><pref><cmp>+vanhempi<n><sg><nom>
+
+%	suorat<n>:haarakeppi<n>: haarakeppi/haara-<n><cmp>+keppi<n><sg><nom>/haara-<n><cmp><cmp>+keppi<n><sg><nom>/haara-<n><cmp><hyph><cmp>+keppi<n><sg><nom>/haara<n><pref><cmp>+keppi<n><sg><nom>/haara<n><sg><nom><cmp>+keppi<n><sg><nom>/haara<n><sg><nom><cmp><cmp>+keppi<n><sg><nom>/haara<n><sg><nom><cmp><hyph><cmp>+keppi<n><sg><nom>
+
+%	suorit<n>:haarakeppi<n>: haarakeppi/haara-<n><cmp>+keppi<n><sg><nom>/haara-<n><cmp><cmp>+keppi<n><sg><nom>/haara-<n><cmp><hyph><cmp>+keppi<n><sg><nom>/haara<n><pref><cmp>+keppi<n><sg><nom>/haara<n><sg><nom><cmp>+keppi<n><sg><nom>/haara<n><sg><nom><cmp><cmp>+keppi<n><sg><nom>/haara<n><sg><nom><cmp><hyph><cmp>+keppi<n><sg><nom>
+
+%	čuolddasmuorra<n>:venytyskeppi<n>: venytyskeppi/venytys<n><sg><nom><cmp>+keppi<n><sg><nom>/venytys<n><sg><nom><cmp><cmp>+keppi<n><sg><nom>/venytys<n><sg><nom><cmp><hyph><cmp>+keppi<n><sg><nom>
+
+%	máilmmicup<n>:maailmancupi<n>: maailmancupi/*maailmancupi
+
+%	bulži<n>:jääkuori<n>: jääkuori/jää<n><sg><nom><cmp>+kuori<n><sg><nom>/jää<n><sg><nom><cmp><cmp>+kuori<n><sg><nom>/jää<n><sg><nom><cmp><hyph><cmp>+kuori<n><sg><nom>
+
+%	boŋkor<n>:pöykkyri<n>: pöykkyri/*pöykkyri
+
+%	riehkan<n>:työkkyri<n>: työkkyri/*työkkyri
+
+%	skeaŋkár<n>:kenkkäri<n>: kenkkäri/*kenkkäri
+
+%	ovda<adj>:esi<adj>: esi/esi<n><pref>
+
+%	stálpejahki<n>:petovuosi<n>: petovuosi/peto<n><sg><nom><cmp>+vuosi<n><sg><nom>/peto<n><sg><nom><cmp>+vuo<n><pl><nom><px2sg>/peto<n><sg><nom><cmp>+vuo<n><sg><gen><px2sg>/peto<n><sg><nom><cmp>+vuo<n><sg><nom><px2sg>/peto<n><sg><nom><cmp><cmp>+vuosi<n><sg><nom>/peto<n><sg><nom><cmp><cmp>+vuo<n><pl><nom><px2sg>/peto<n><sg><nom><cmp><cmp>+vuo<n><sg><gen><px2sg>/peto<n><sg><nom><cmp><cmp>+vuo<n><sg><nom><px2sg>/peto<n><sg><nom><cmp><hyph><cmp>+vuosi<n><sg><nom>/peto<n><sg><nom><cmp><hyph><cmp>+vuo<n><pl><nom><px2sg>/peto<n><sg><nom><cmp><hyph><cmp>+vuo<n><sg><gen><px2sg>/peto<n><sg><nom><cmp><hyph><cmp>+vuo<n><sg><nom><px2sg>
+
+%	muoŧŧal<n>:sisarenlapsi<n>: sisarenlapsi/sisar<n><sg><gen><cmp>+lapsi<n><sg><nom>/sisar<n><sg><gen><cmp><cmp>+lapsi<n><sg><nom>/sisar<n><sg><gen><cmp><hyph><cmp>+lapsi<n><sg><nom>
+
+%	beđoohtte<n>:tasakertahirsi<n>: tasakertahirsi/tasa<n><sg><nom><cmp>+kerta<n><sg><nom><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp>+kerta<n><sg><nom><cmp><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp>+kerta<n><sg><nom><cmp><hyph><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><cmp>+kerta<n><sg><nom><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><cmp>+kerta<n><sg><nom><cmp><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><cmp>+kerta<n><sg><nom><cmp><hyph><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><hyph><cmp>+kerta<n><sg><nom><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><hyph><cmp>+kerta<n><sg><nom><cmp><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><hyph><cmp>+kerta<n><sg><nom><cmp><hyph><cmp>+hirsi<n><sg><nom>
+
+%	uvrrus<n>:tasakertahirsi<n>: tasakertahirsi/tasa<n><sg><nom><cmp>+kerta<n><sg><nom><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp>+kerta<n><sg><nom><cmp><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp>+kerta<n><sg><nom><cmp><hyph><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><cmp>+kerta<n><sg><nom><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><cmp>+kerta<n><sg><nom><cmp><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><cmp>+kerta<n><sg><nom><cmp><hyph><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><hyph><cmp>+kerta<n><sg><nom><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><hyph><cmp>+kerta<n><sg><nom><cmp><cmp>+hirsi<n><sg><nom>/tasa<n><sg><nom><cmp><hyph><cmp>+kerta<n><sg><nom><cmp><hyph><cmp>+hirsi<n><sg><nom>
+
+%	soabadanproseassa<n>:sovintoprosessi<n>: sovintoprosessi/sovinto<n><sg><nom><cmp>+prosessi<n><sg><nom>/sovinto<n><sg><nom><cmp><cmp>+prosessi<n><sg><nom>/sovinto<n><sg><nom><cmp><hyph><cmp>+prosessi<n><sg><nom>
+
+%	skohtercrossa<n>:kelkkacrossi<n>: kelkkacrossi/*kelkkacrossi
+
+%	málestangursa<n>:ruoanlaittokurssi<n>: ruoanlaittokurssi/ruoanlaitto<n><sg><nom><cmp>+kurssi<n><sg><nom>/ruoanlaitto<n><sg><nom><cmp><cmp>+kurssi<n><sg><nom>/ruoanlaitto<n><sg><nom><cmp><hyph><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp>+laitto<n><sg><nom><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp>+laitto<n><sg><nom><cmp><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp>+laitto<n><sg><nom><cmp><hyph><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><cmp>+laitto<n><sg><nom><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><cmp>+laitto<n><sg><nom><cmp><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><cmp>+laitto<n><sg><nom><cmp><hyph><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><hyph><cmp>+laitto<n><sg><nom><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><hyph><cmp>+laitto<n><sg><nom><cmp><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><hyph><cmp>+laitto<n><sg><nom><cmp><hyph><cmp>+kurssi<n><sg><nom>
+
+%	málestangursa<n>:ruuanlaittokurssi<n>: ruuanlaittokurssi/ruoka<n><sg><gen><cmp>+laitto<n><sg><nom><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp>+laitto<n><sg><nom><cmp><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp>+laitto<n><sg><nom><cmp><hyph><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><cmp>+laitto<n><sg><nom><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><cmp>+laitto<n><sg><nom><cmp><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><cmp>+laitto<n><sg><nom><cmp><hyph><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><hyph><cmp>+laitto<n><sg><nom><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><hyph><cmp>+laitto<n><sg><nom><cmp><cmp>+kurssi<n><sg><nom>/ruoka<n><sg><gen><cmp><hyph><cmp>+laitto<n><sg><nom><cmp><hyph><cmp>+kurssi<n><sg><nom>/ruuanlaitto<n><sg><nom><cmp>+kurssi<n><sg><nom>/ruuanlaitto<n><sg><nom><cmp><cmp>+kurssi<n><sg><nom>/ruuanlaitto<n><sg><nom><cmp><hyph><cmp>+kurssi<n><sg><nom>
+
+%	reašmi<n>:juuriköysi<n>: juuriköysi/juuri<n><sg><nom><cmp>+köysi<n><sg><nom>/juuri<n><sg><nom><cmp><cmp>+köysi<n><sg><nom>/juuri<n><sg><nom><cmp><hyph><cmp>+köysi<n><sg><nom>
+
+%	rivgovuolpu<n>:keräpääpoimulehti<n>: keräpääpoimulehti/kerä<n><sg><nom><cmp>+pää-<n><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää-<n><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää-<n><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää-<n><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää-<n><cmp><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää-<n><cmp><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää-<n><cmp><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää-<n><cmp><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää-<n><cmp><hyph><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää-<n><cmp><hyph><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää-<n><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää-<n><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp><hyph><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp><hyph><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää-<n><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp><hyph><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp><hyph><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää-<n><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimulehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimu<n><sg><nom><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><cmp>+lehti<n><sg><nom>/kerä<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom><cmp><hyph><cmp>+poimu<n><sg><nom><cmp><hyph><cmp>+lehti<n><sg><nom>
+
+%	ovdaprošeakta<n>:esiprojekti<n>: esiprojekti/esi-<n><cmp>+projekti<n><sg><nom>/esi-<n><cmp><cmp>+projekti<n><sg><nom>/esi-<n><cmp><hyph><cmp>+projekti<n><sg><nom>/esi<n><pref><cmp>+projekti<n><sg><nom>
+
+%	jáhkehahtti<adj>:luultavasti<adj>: luultavasti/luultavasti<adv>/luultavasti<adv><der_sti>/luultavasti<part>
+
+%	dassážii<adv>:siihen¬asti<adv>: siihen/se<prn><dem><sg><ill>/se<prn><sg><ill>/siihen<adv>/siihen<adv><dem>/siihen<part>
+ ¬/¬<punct>
+ asti/asti<part>/asti<post>
+
+%	vuosttamuš<adj>:ensisijaisesti<adj>: ensisijaisesti/ensisijainen<adj><der_sti>/ensisijaisesti<adv>/ensisijaisesti<adv><der_sti>/ensisijaisesti<part>
+
+%	ovttajienalaš<adj>:yksimielisesti<adj>: yksimielisesti/yksimielisesti<adv>/yksimielisesti<adv><der_sti>/yksimielisesti<part>
+
+%	sámediggepresideanta<n>:saamelaispresidentti<n>: saamelaispresidentti/saamelainen<n><der_s><cmp>+presidentti<n><sg><nom>/saamelainen<n><der_s><cmp><cmp>+presidentti<n><sg><nom>/saamelainen<n><der_s><cmp><hyph><cmp>+presidentti<n><sg><nom>
+
+%	sámediggepresideantta<n>:saamelaiskäräjien¬presidentti<n>: saamelaiskäräjien/saamelainen<n><der_s><cmp>+käräjät<n><pl><gen>/saamelainen<n><der_s><cmp>+käräjä<n><pl><gen>/saamelainen<n><der_s><cmp><cmp>+käräjät<n><pl><gen>/saamelainen<n><der_s><cmp><cmp>+käräjä<n><pl><gen>/saamelainen<n><der_s><cmp><hyph><cmp>+käräjät<n><pl><gen>/saamelainen<n><der_s><cmp><hyph><cmp>+käräjä<n><pl><gen>/saamelaiskäräjät<n><pl><gen>
+ ¬/¬<punct>
+ presidentti/presidentti<n><sg><nom>
+
+%	vuosteágga<n>:vasta-argumentti<n>: vasta-argumentti/vasta-<n><cmp>+argumentti<n><sg><nom>/vasta-<n><cmp><hyph><cmp>+argumentti<n><sg><nom>/vasta<n><pref><cmp>+argumentti<n><sg><nom>/vasta<n><sg><nom><cmp>+argumentti<n><sg><nom>/vasta<n><sg><nom><cmp><hyph><cmp>+argumentti<n><sg><nom>
+
+%	vinta<n>:kaivonvintti<n>: kaivonvintti/kaivo<n><sg><gen><cmp>+vintti<n><sg><nom>/kaivo<n><sg><gen><cmp><cmp>+vintti<n><sg><nom>/kaivo<n><sg><gen><cmp><hyph><cmp>+vintti<n><sg><nom>
+
+%	kássahas<n>:kunnanelätti<n>: kunnanelätti/kunta<n><sg><gen><cmp>+elätti<n><sg><nom>/kunta<n><sg><gen><cmp><cmp>+elätti<n><sg><nom>/kunta<n><sg><gen><cmp><hyph><cmp>+elätti<n><sg><nom>
+
+%	čitnun<n>:ummetustauti<n>: ummetustauti/ummetus<n><sg><nom><cmp>+tauti<n><sg><nom>/ummetus<n><sg><nom><cmp><cmp>+tauti<n><sg><nom>/ummetus<n><sg><nom><cmp><hyph><cmp>+tauti<n><sg><nom>
+
+%	ástageađgi<n>:talkkikivi<n>: talkkikivi/talkki<n><sg><nom><cmp>+kivi<n><sg><nom>/talkki<n><sg><nom><cmp><cmp>+kivi<n><sg><nom>/talkki<n><sg><nom><cmp><hyph><cmp>+kivi<n><sg><nom>
+
+%	golve<n>:tinauskolvi<n>: tinauskolvi/tinaus<n><sg><nom><cmp>+kolvi<n><sg><nom>/tinaus<n><sg><nom><cmp><cmp>+kolvi<n><sg><nom>/tinaus<n><sg><nom><cmp><hyph><cmp>+kolvi<n><sg><nom>
+
+%	námmʼoaivi<n>:naamasarvi<n>: naamasarvi/naama<n><sg><nom><cmp>+sarvi<n><sg><nom>/naama<n><sg><nom><cmp><cmp>+sarvi<n><sg><nom>/naama<n><sg><nom><cmp><hyph><cmp>+sarvi<n><sg><nom>
+
+%	spahči<n>:tutinasarvi<n>: tutinasarvi/tutina<n><sg><nom><cmp>+sarvi<n><sg><nom>/tutina<n><sg><nom><cmp><cmp>+sarvi<n><sg><nom>/tutina<n><sg><nom><cmp><hyph><cmp>+sarvi<n><sg><nom>
+
+%	njabbi<n>:kenosarvi<n>: kenosarvi/keno<n><sg><nom><cmp>+sarvi<n><sg><nom>/keno<n><sg><nom><cmp><cmp>+sarvi<n><sg><nom>/keno<n><sg><nom><cmp><hyph><cmp>+sarvi<n><sg><nom>
+
+%	njággu<n>:kenosarvi<n>: kenosarvi/keno<n><sg><nom><cmp>+sarvi<n><sg><nom>/keno<n><sg><nom><cmp><cmp>+sarvi<n><sg><nom>/keno<n><sg><nom><cmp><hyph><cmp>+sarvi<n><sg><nom>
+
+%	reahpenjávri<n>:saivojärvi<n>: saivojärvi/*saivojärvi
+
+%	bákŋi<n>:sarventyvi<n>: sarventyvi/sarvi<n><sg><gen><cmp>+tyvi<n><sg><nom>/sarvi<n><sg><gen><cmp><cmp>+tyvi<n><sg><nom>/sarvi<n><sg><gen><cmp><hyph><cmp>+tyvi<n><sg><nom>
+
+   37844 total	   37844 total
+%	ge<pcle>:kaan<foc_kaan>: kaan/*kaan
+
+%	han<pcle>:han<foc_han>: han/*han
+
+%	son<pcle>:han<foc_han>: han/*han
+
+%	ipmilhis<adj>:jumalattoman<adj>: jumalattoman/jumalaton<adj><sg><gen>
+
+%	reaidnár<n>:poropaimen<n>: poropaimen/poro<n><sg><nom><cmp>+paimen<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+paimen<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+paimen<n><sg><nom>
+
+%	rosttot<n>:könkämävuomalainen<n>: könkämävuomalainen/*könkämävuomalainen
+
+%	leavdnjalaš<adj>:lemmijokelainen<adj>: lemmijokelainen/kaarasjokelainen<adj><sg><nom>
+
+%	kárášjohkalaš<adj>:kaarasjokelainen<adj>: kaarasjokelainen/porsankilainen<adj><sg><nom>
+
+%	kárášjohkalaš<n>:kaarasjokelainen<n>: kaarasjokelainen/porsankilainen<adj><sg><nom>
+
+%	oarjelsápmi<n>:länsisaamelainen<n>: länsisaamelainen/länsi<n><pref><cmp>+saamelainen<n><sg><nom>/länsi<n><sg><nom><cmp>+saamelainen<n><sg><nom>/länsi<n><sg><nom><cmp><cmp>+saamelainen<n><sg><nom>/länsi<n><sg><nom><cmp><hyph><cmp>+saamelainen<n><sg><nom>
+
+%	julevsápmelaš<n>:luulajansaamelainen<n>: luulajansaamelainen/luulaja<adj><sg><gen><cmp>+saamelainen<n><sg><nom>
+
+%	buolbmágaš<n>:pulmankilainen<n>: pulmankilainen/*pulmankilainen
+
+%	várjjagaš<n>:varankilainen<n>: varankilainen/*varankilainen
+
+%	porsáŋgulaš<adj>:porsankilainen<adj>: porsankilainen/finnmarkilainen<adj><sg><nom>
+
+%	finnmárkulaš<adj>:finnmarkilainen<adj>: finnmarkilainen/lutherilainen<adj><sg><nom>
+
+%	finnmárkulaš<n>:finnmarkilainen<n>: finnmarkilainen/lutherilainen<adj><sg><nom>
+
+%	lutherána<adj>:lutherilainen<adj>: lutherilainen/masilainen<adj><sg><nom>
+
+%	barju<n>:tunturilainen<n>: tunturilainen/*tunturilainen
+
+%	mázelaš<adj>:masilainen<adj>: masilainen/hammerfestilainen<adj><sg><nom>
+
+%	hámmárfeastalaš<adj>:hammerfestilainen<adj>: hammerfestilainen/lemmijokelainen<adj><sg><nom>
+
+%	deatnulaš<n>:tenolainen<n>: tenolainen/tenolainen<adj><sg><nom>
+
+%	finnmárkulaš<n>:finnmarkkulainen<n>: finnmarkkulainen/finnmarkkulainen<adj><sg><nom>
+
+%	hámmelheanni<n>:merisaamelaisnainen<n>: merisaamelaisnainen/merisaamelainen<n><der_s><cmp>+nainen<n><sg><nom>/merisaamelainen<n><der_s><cmp><cmp>+nainen<n><sg><nom>/merisaamelainen<n><der_s><cmp><hyph><cmp>+nainen<n><sg><nom>/meri<n><sg><nom><cmp>+saamelainen<n><der_s><cmp>+nainen<n><sg><nom>/meri<n><sg><nom><cmp>+saamelainen<n><der_s><cmp><cmp>+nainen<n><sg><nom>/meri<n><sg><nom><cmp>+saamelainen<n><der_s><cmp><hyph><cmp>+nainen<n><sg><nom>/meri<n><sg><nom><cmp>+saamelaisnainen<n><sg><nom>/meri<n><sg><nom><cmp><cmp>+saamelainen<n><der_s><cmp>+nainen<n><sg><nom>/meri<n><sg><nom><cmp><cmp>+saamelainen<n><der_s><cmp><cmp>+nainen<n><sg><nom>/meri<n><sg><nom><cmp><cmp>+saamelainen<n><der_s><cmp><hyph><cmp>+nainen<n><sg><nom>/meri<n><sg><nom><cmp><cmp>+saamelaisnainen<n><sg><nom>/meri<n><sg><nom><cmp><hyph><cmp>+saamelainen<n><der_s><cmp>+nainen<n><sg><nom>/meri<n><sg><nom><cmp><hyph><cmp>+saamelainen<n><der_s><cmp><cmp>+nainen<n><sg><nom>/meri<n><sg><nom><cmp><hyph><cmp>+saamelainen<n><der_s><cmp><hyph><cmp>+nainen<n><sg><nom>/meri<n><sg><nom><cmp><hyph><cmp>+saamelaisnainen<n><sg><nom>
+
+%	gaskamearálaš<adj>:keskivertainen<adj>: keskivertainen/keski-<n><cmp>+vertainen<n><sg><nom>/keski-<n><cmp><cmp>+vertainen<n><sg><nom>/keski-<n><cmp><hyph><cmp>+vertainen<n><sg><nom>/keski<n><pref><cmp>+vertainen<n><sg><nom>
+
+%	juoigalas<adj>:joikaavainen<adj>: joikaavainen/joiata<vblex><actv><prsprc><der_inen><sg><nom>
+
+%	máššil<adj>:malttavainen<adj>: malttavainen/malttaa<vblex><actv><prsprc><der_inen><sg><nom>
+
+%	gollolas<adj>:palelevainen<adj>: palelevainen/palella<vblex><actv><prsprc><der_inen><sg><nom>
+
+%	suoládahkes<adj>:varastelevainen<adj>: varastelevainen/varastella<vblex><actv><prsprc><der_inen><sg><nom>
+
+%	viehkalas<adj>:juoksevainen<adj>: juoksevainen/juosta<vblex><actv><prsprc><der_inen><sg><nom>
+
+%	láitálas<adj>:moittivainen<adj>: moittivainen/moittia<vblex><actv><prsprc><der_inen><sg><nom>
+
+%	uvjjaheapme<adj>:vähäuntuvainen<adj>: vähäuntuvainen/vollottavainen<adj><sg><nom>
+
+%	sahki<n>:rantahyönteinen<n>: rantahyönteinen/ranta<n><sg><nom><cmp>+hyönteinen<n><sg><nom>/ranta<n><sg><nom><cmp><cmp>+hyönteinen<n><sg><nom>/ranta<n><sg><nom><cmp><hyph><cmp>+hyönteinen<n><sg><nom>
+
+%	erenoamášpedagogalaš<adj>:erikoispedagoginen<adj>: erikoispedagoginen/vähäuntuvainen<adj><sg><nom>
+
+%	psykologalaš<adj>:psykolooginen<adj>: psykolooginen/*psykolooginen
+
+%	beasseheapme<adj>:vähätuohinen<adj>: vähätuohinen/psykologinen<adj><sg><nom>
+
+%	federála<adj>:federaalinen<adj>: federaalinen/epäformaalinen<adj><sg><nom>
+
+%	golmmagielat<adj>:kolmekielinen<adj>: kolmekielinen/federaalinen<adj><sg><nom>
+
+%	kultturhistorjjálaš<adj>:kultuurihistoriallinen<adj>: kultuurihistoriallinen/kolmekielinen<adj><sg><nom>
+
+%	ođđamállet<adj>:uusimallinen<adj>: uusimallinen/kultuurihistoriallinen<adj><sg><nom>
+
+%	meteorologalaš<adj>:säätieteellinen<adj>: säätieteellinen/uusimallinen<adj><sg><nom>
+
+%	iešdáhtolaš<adj>:itsetahtoinen<adj>: itsetahtoinen/säätieteellinen<adj><sg><nom>
+
+%	allaárvosaš<adj>:aliarvoinen<adj>: aliarvoinen/aliarvoida<vblex><actv><pot><p1><sg>
+
+%	sudnjui<adj>:rimpinen<adj>: rimpinen/itsetahtoinen<adj><sg><nom>
+
+%	nuoraidpsykiátralaš<adj>:nuorisopsykiatrinen<adj>: nuorisopsykiatrinen/rimpinen<adj><sg><nom>
+
+%	sámepolitihkalaš<adj>:saamepoliittinen<adj>: saamepoliittinen/nuorisopsykiatrinen<adj><sg><nom>
+
+%	nuoraidpolitihkalaš<adj>:nuorisopoliittinen<adj>: nuorisopoliittinen/saamepoliittinen<adj><sg><nom>
+
+%	kuonna<adj>:virtsanhajuinen<adj>: virtsanhajuinen/nuorisopoliittinen<adj><sg><nom>
+
+%	venzolas<adj>:vollottavinen<adj>: vollottavinen/*vollottavinen
+
+%	lujávrilaš<adj>:luujärveläinen<adj>: luujärveläinen/luu<n><sg><nom><cmp>+järveläinen<n><sg><nom>/luu<n><sg><nom><cmp><cmp>+järveläinen<n><sg><nom>/luu<n><sg><nom><cmp><hyph><cmp>+järveläinen<n><sg><nom>
+
+%	konfirmánta<n>:rippiläinen<n>: rippiläinen/*rippiläinen
+
+%	buskolas<adj>:piereskeleväinen<adj>: piereskeleväinen/piereskellä<vblex><actv><prsprc><der_inen><sg><nom>
+
+%	revgolas<adj>:röyhtäileväinen<adj>: röyhtäileväinen/röyhtäillä<vblex><actv><prsprc><der_inen><sg><nom>
+
+%	viggalas<adj>:pyrkiväinen<adj>: pyrkiväinen/pyrkiä<vblex><actv><prsprc><der_inen><sg><nom>
+
+%	russolas<adj>:pärskiväinen<adj>: pärskiväinen/pärskiä<vblex><actv><prsprc><der_inen><sg><nom>
+
+%	hiŋkálas<adj>:nyyhkyttäväinen<adj>: nyyhkyttäväinen/nyyhkyttää<vblex><actv><prsprc><der_inen><sg><nom>
+
+%	ivguheasta<n>:yykeänhevonen<n>: yykeänhevonen/*yykeänhevonen
+
+%	beavddáš<n>:pöytänen<n>: pöytänen/*pöytänen
+
+%	váža<n>:porovaadin<n>: porovaadin/poro<n><sg><nom><cmp>+vaadin<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+vaadin<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+vaadin<n><sg><nom>
+
+%	risváhnen<n>:kummivanhin<n>: kummivanhin/*kummivanhin
+
+%	ge<pcle>:kin<foc_kin>: kin/*kin
+
+%	nai<pcle>:kin<foc_kin>: kin/*kin
+
+%	gen<pcle>:kin<foc_kin>: kin/*kin
+
+%	ges<pcle>:kin<foc_kin>: kin/*kin
+
+%	gis<pcle>:kin<foc_kin>: kin/*kin
+
+%	bárrahaš<adj>:paraskin<adj>: paraskin/hyvä<adj><sup><sg><nom><foc_kin>/paras<adj><sg><nom><foc_kin>/par<n><sg><nom><cmp>+aski<n><sg><gen>/par<n><sg><nom><cmp><cmp>+aski<n><sg><gen>/par<n><sg><nom><cmp><hyph><cmp>+aski<n><sg><gen>
+
+%	durbbon<n>:tarvoin<n>: tarvoin/tarpoa<vblex><actv><indic><pret><p1><sg>
+
+%	veasttamus<adj>:läntisin<adj>: läntisin/läntinen<adj><pl><ins>/läntinen<adj><sup><sg><nom>
+
+%	lulimus<adj>:eteläisin<adj>: eteläisin/eteläinen<adj><pl><ins>/eteläinen<adj><sup><sg><nom>/etelä<n><sg><nom><cmp>+isi<n><sg><gen>/etelä<n><sg><nom><cmp>+isä<n><pl><ins>/etelä<n><sg><nom><cmp><cmp>+isi<n><sg><gen>/etelä<n><sg><nom><cmp><cmp>+isä<n><pl><ins>/etelä<n><sg><nom><cmp><hyph><cmp>+isi<n><sg><gen>/etelä<n><sg><nom><cmp><hyph><cmp>+isä<n><pl><ins>
+
+%	lulimus<adj>:itäisin<adj>: itäisin/itäinen<adj><pl><ins>/itäinen<adj><sup><sg><nom>/itää<vblex><actv><cond><p1><sg>/itä<n><pref><cmp>+isi<n><sg><gen>/itä<n><pref><cmp>+isä<n><pl><ins>/itä<n><sg><nom><cmp>+isi<n><sg><gen>/itä<n><sg><nom><cmp>+isä<n><pl><ins>/itä<n><sg><nom><cmp><cmp>+isi<n><sg><gen>/itä<n><sg><nom><cmp><cmp>+isä<n><pl><ins>/itä<n><sg><nom><cmp><hyph><cmp>+isi<n><sg><gen>/itä<n><sg><nom><cmp><hyph><cmp>+isä<n><pl><ins>
+
+%	skilkkanas<n>:kilkutin<n>: kilkutin/kilkuttaa<vblex><actv><indic><pret><p1><sg>
+
+%	njoaiddumus<adj>:loivin<adj>: loivin/loiva<adj><pl><ins>/loiva<adj><sup><sg><nom>
+
+%	endena<adj>:kunnon<adj>: kunnon/kunnon<part>/kunto<n><sg><gen>
+
+%	guoleheapme<adj>:kalaton<adj>: kalaton/tämänpäiväinen<adj><sg><nom>
+
+%	veaittalas<adj>:paimentamaton<adj>: paimentamaton/paimentaa<vblex><negprc><sg><nom>
+
+%	vuordemeahttun<adj>:odotuksematon<adj>: odotuksematon/kalaton<adj><sg><nom>
+
+%	uvjjaheapme<adj>:untuvaton<adj>: untuvaton/odotuksematon<adj><sg><nom>
+
+%	dálveguohtun<n>:talvilaidun<n>: talvilaidun/talvi<n><sg><nom><cmp>+laidun<n><sg><nom>/talvi<n><sg><nom><cmp><cmp>+laidun<n><sg><nom>/talvi<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom>
+
+%	dálveguohtumat<n>:talvilaidun<n>: talvilaidun/talvi<n><sg><nom><cmp>+laidun<n><sg><nom>/talvi<n><sg><nom><cmp><cmp>+laidun<n><sg><nom>/talvi<n><sg><nom><cmp><hyph><cmp>+laidun<n><sg><nom>
+
+%	veaika<n>:lampunsydän<n>: lampunsydän/lamppu<n><sg><gen><cmp>+sydän<n><sg><nom>/lamppu<n><sg><gen><cmp><cmp>+sydän<n><sg><nom>/lamppu<n><sg><gen><cmp><hyph><cmp>+sydän<n><sg><nom>
+
+%	binná<n>:vähän<n>: vähän/vähän<adv>/vähän<part>/vähä<adj><sg><gen>
+
+%	otnáš<adj>:tämänpäivän<adj>: tämänpäivän/*tämänpäivän
+
+%	ruvdorássi<n>:liekovarpio<n>: liekovarpio/lieko<n><sg><nom><cmp>+varpio<n><sg><nom>/lieko<n><sg><nom><cmp><cmp>+varpio<n><sg><nom>/lieko<n><sg><nom><cmp><hyph><cmp>+varpio<n><sg><nom>
+
+%	čora<n>:parttio<n>: parttio/*parttio
+
+%	heargevuodju<n>:poroajo<n>: poroajo/poro<n><sg><nom><cmp>+ajo<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+ajo<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+ajo<n><sg><nom>
+
+%	go<pcle>:ko<qst>: ko/ko<part>
+
+%	náđet<n>:jurakko<n>: jurakko/*jurakko
+
+%	bulet<n>:puolikko<n>: puolikko/puoli<n><sg><nom><cmp>+kko<n><sg><nom>/puoli<n><sg><nom><cmp><cmp>+kko<n><sg><nom>/puoli<n><sg><nom><cmp><hyph><cmp>+kko<n><sg><nom>/puoli<num><sg><nom><cmp>+kko<n><sg><nom>
+
+%	gáđffáš<n>:isolumikko<n>: isolumikko/iso-<n><cmp>+lumikko<n><sg><nom>/iso-<n><cmp>+lumi<n><sg><nom><cmp>+kko<n><sg><nom>/iso-<n><cmp>+lumi<n><sg><nom><cmp><cmp>+kko<n><sg><nom>/iso-<n><cmp>+lumi<n><sg><nom><cmp><hyph><cmp>+kko<n><sg><nom>/iso-<n><cmp><cmp>+lumikko<n><sg><nom>/iso-<n><cmp><cmp>+lumi<n><sg><nom><cmp>+kko<n><sg><nom>/iso-<n><cmp><cmp>+lumi<n><sg><nom><cmp><cmp>+kko<n><sg><nom>/iso-<n><cmp><cmp>+lumi<n><sg><nom><cmp><hyph><cmp>+kko<n><sg><nom>/iso-<n><cmp><hyph><cmp>+lumikko<n><sg><nom>/iso-<n><cmp><hyph><cmp>+lumi<n><sg><nom><cmp>+kko<n><sg><nom>/iso-<n><cmp><hyph><cmp>+lumi<n><sg><nom><cmp><cmp>+kko<n><sg><nom>/iso-<n><cmp><hyph><cmp>+lumi<n><sg><nom><cmp><hyph><cmp>+kko<n><sg><nom>/iso<n><pref><cmp>+lumikko<n><sg><nom>/iso<n><pref><cmp>+lumi<n><sg><nom><cmp>+kko<n><sg><nom>/iso<n><pref><cmp>+lumi<n><sg><nom><cmp><cmp>+kko<n><sg><nom>/iso<n><pref><cmp>+lumi<n><sg><nom><cmp><hyph><cmp>+kko<n><sg><nom>/iso<n><sg><nom><cmp>+lumikko<n><sg><nom>/iso<n><sg><nom><cmp>+lumi<n><sg><nom><cmp>+kko<n><sg><nom>/iso<n><sg><nom><cmp>+lumi<n><sg><nom><cmp><cmp>+kko<n><sg><nom>/iso<n><sg><nom><cmp>+lumi<n><sg><nom><cmp><hyph><cmp>+kko<n><sg><nom>/iso<n><sg><nom><cmp><cmp>+lumikko<n><sg><nom>/iso<n><sg><nom><cmp><cmp>+lumi<n><sg><nom><cmp>+kko<n><sg><nom>/iso<n><sg><nom><cmp><cmp>+lumi<n><sg><nom><cmp><cmp>+kko<n><sg><nom>/iso<n><sg><nom><cmp><cmp>+lumi<n><sg><nom><cmp><hyph><cmp>+kko<n><sg><nom>/iso<n><sg><nom><cmp><hyph><cmp>+lumikko<n><sg><nom>/iso<n><sg><nom><cmp><hyph><cmp>+lumi<n><sg><nom><cmp>+kko<n><sg><nom>/iso<n><sg><nom><cmp><hyph><cmp>+lumi<n><sg><nom><cmp><cmp>+kko<n><sg><nom>/iso<n><sg><nom><cmp><hyph><cmp>+lumi<n><sg><nom><cmp><hyph><cmp>+kko<n><sg><nom>
+
+%	ruvdu<n>:rahnikko<n>: rahnikko/*rahnikko
+
+%	bejot<n>:valkko<n>: valkko/*valkko
+
+%	gieddegeašgálgu<n>:tietäjäeukko<n>: tietäjäeukko/tietäjä<n><sg><nom><cmp>+eukko<n><sg><nom>/tietäjä<n><sg><nom><cmp><cmp>+eukko<n><sg><nom>/tietäjä<n><sg><nom><cmp><hyph><cmp>+eukko<n><sg><nom>
+
+%	gieddegeašáhkku<n>:tietäjäeukko<n>: tietäjäeukko/tietäjä<n><sg><nom><cmp>+eukko<n><sg><nom>/tietäjä<n><sg><nom><cmp><cmp>+eukko<n><sg><nom>/tietäjä<n><sg><nom><cmp><hyph><cmp>+eukko<n><sg><nom>
+
+%	dilot<n>:sytykehalko<n>: sytykehalko/sytyke<n><sg><nom><cmp>+halko<n><sg><nom>/sytyke<n><sg><nom><cmp><cmp>+halko<n><sg><nom>/sytyke<n><sg><nom><cmp><hyph><cmp>+halko<n><sg><nom>
+
+%	heila<adj>:koko<adj>: koko/koko<n><sg><nom>/koko<part>
+
+%	risttalašvuohta<n>:ristinusko<n>: ristinusko/risti<n><sg><gen><cmp>+usko<n><sg><nom>/risti<n><sg><gen><cmp><cmp>+usko<n><sg><nom>/risti<n><sg><gen><cmp><hyph><cmp>+usko<n><sg><nom>
+
+%	sándil<n>:santalo<n>: santalo/san<n><sg><nom><cmp>+talo<n><sg><nom>/san<n><sg><nom><cmp><cmp>+talo<n><sg><nom>/san<n><sg><nom><cmp><hyph><cmp>+talo<n><sg><nom>
+
+%	skuibi<n>:tuohisuppilo<n>: tuohisuppilo/tuohi<n><sg><nom><cmp>+suppilo<n><sg><nom>/tuohi<n><sg><nom><cmp><cmp>+suppilo<n><sg><nom>/tuohi<n><sg><nom><cmp><hyph><cmp>+suppilo<n><sg><nom>
+
+%	rudni<n>:jääkolo<n>: jääkolo/jää<n><sg><nom><cmp>+kolo<n><sg><nom>/jää<n><sg><nom><cmp><cmp>+kolo<n><sg><nom>/jää<n><sg><nom><cmp><hyph><cmp>+kolo<n><sg><nom>
+
+%	luoppal<n>:lompolo<n>: lompolo/*lompolo
+
+%	ránan<n>:harmo<n>: harmo/*harmo
+
+%	oarbbis<n>:orpo<n>: orpo/orpo<adj><sg><nom>
+
+%	lágut<n>:heinäkupo<n>: heinäkupo/heinä<n><sg><nom><cmp>+kupo<n><sg><nom>/heinä<n><sg><nom><cmp><cmp>+kupo<n><sg><nom>/heinä<n><sg><nom><cmp><hyph><cmp>+kupo<n><sg><nom>
+
+%	veattat<n>:liekaporo<n>: liekaporo/lieka<n><sg><nom><cmp>+poro<n><sg><nom>/lieka<n><sg><nom><cmp><cmp>+poro<n><sg><nom>/lieka<n><sg><nom><cmp><hyph><cmp>+poro<n><sg><nom>
+
+%	loaidu<n>:loito<n>: loito/*loito
+
+%	časkinbárru<n>:iskuaalto<n>: iskuaalto/isku<n><sg><nom><cmp>+aalto<n><sg><nom>/isku<n><sg><nom><cmp><cmp>+aalto<n><sg><nom>/isku<n><sg><nom><cmp><hyph><cmp>+aalto<n><sg><nom>
+
+%	stivrejupmi<n>:johtomuoto<n>: johtomuoto/johto<n><sg><nom><cmp>+muoto<n><sg><nom>/johto<n><sg><nom><cmp><cmp>+muoto<n><sg><nom>/johto<n><sg><nom><cmp><hyph><cmp>+muoto<n><sg><nom>
+
+%	márdu<n>:marto<n>: marto/marto<adj><sg><nom>
+
+%	brugga<n>:laiturivarasto<n>: laiturivarasto/laituri<n>i<sg><nom><cmp>+varasto<n><sg><nom>/laituri<n>i<sg><nom><cmp><cmp>+varasto<n><sg><nom>/laituri<n>i<sg><nom><cmp><hyph><cmp>+varasto<n><sg><nom>/laituri<n><sg><nom><cmp>+varasto<n><sg><nom>/laituri<n><sg><nom><cmp><cmp>+varasto<n><sg><nom>/laituri<n><sg><nom><cmp><hyph><cmp>+varasto<n><sg><nom>
+
+%	sámediggeráđđi<n>:saamelaisneuvosto<n>: saamelaisneuvosto/saamelainen<n><der_s><cmp>+neuvosto<n><sg><nom>/saamelainen<n><der_s><cmp><cmp>+neuvosto<n><sg><nom>/saamelainen<n><der_s><cmp><hyph><cmp>+neuvosto<n><sg><nom>
+
+%	ruškesvuostá<n>:kutojuusto<n>: kutojuusto/*kutojuusto
+
+%	beassášruohtta<n>:pääsiäisaatto<n>: pääsiäisaatto/pääsiäinen<n><der_s><cmp>+aatto<n><sg><nom>/pääsiäinen<n><der_s><cmp><cmp>+aatto<n><sg><nom>/pääsiäinen<n><der_s><cmp><hyph><cmp>+aatto<n><sg><nom>
+
+%	beassášlávvardat<n>:pääsiäisaatto<n>: pääsiäisaatto/pääsiäinen<n><der_s><cmp>+aatto<n><sg><nom>/pääsiäinen<n><der_s><cmp><cmp>+aatto<n><sg><nom>/pääsiäinen<n><der_s><cmp><hyph><cmp>+aatto<n><sg><nom>
+
+%	beassášlávvordat<n>:pääsiäisaatto<n>: pääsiäisaatto/pääsiäinen<n><der_s><cmp>+aatto<n><sg><nom>/pääsiäinen<n><der_s><cmp><cmp>+aatto<n><sg><nom>/pääsiäinen<n><der_s><cmp><hyph><cmp>+aatto<n><sg><nom>
+
+%	gumppus<n>:veripaltto<n>: veripaltto/*veripaltto
+
+%	ovttasráđđi<n>:yhteisneuvo<n>: yhteisneuvo/yhteis-<n><cmp>+neuvo<n><sg><nom>/yhteis-<n><cmp><cmp>+neuvo<n><sg><nom>/yhteis-<n><cmp><hyph><cmp>+neuvo<n><sg><nom>/yhteis<n><pref><cmp>+neuvo<n><sg><nom>
+
+   18922 /tmp/sme-fin.exp	   18922 /tmp/sme-fin.exp
+%	suvvol<n>:auder<n>: auder/*auder
+
+%	loavdda<n>:laavukangas<n>: laavukangas/laavu<n><sg><nom><cmp>+kangas<n><sg><nom>/laavu<n><sg><nom><cmp><cmp>+kangas<n><sg><nom>/laavu<n><sg><nom><cmp><hyph><cmp>+kangas<n><sg><nom>
+
+%	riŋga<n>:uuninrengas<n>: uuninrengas/uuni<n><sg><gen><cmp>+rengas<n><sg><nom>/uuni<n><sg><gen><cmp><cmp>+rengas<n><sg><nom>/uuni<n><sg><gen><cmp><hyph><cmp>+rengas<n><sg><nom>
+
+%	njalddán<n>:porovaras<n>: porovaras/poro<n><sg><nom><cmp>+varas<n><sg><nom>/poro<n><sg><nom><cmp><cmp>+varas<n><sg><nom>/poro<n><sg><nom><cmp><hyph><cmp>+varas<n><sg><nom>
+
+%	láhkkehaš<n>:laes<n>: laes/*laes
+
+%	dánamánni<n>:kunnianmies<n>: kunnianmies/kunnia<n><sg><gen><cmp>+mies<n><sg><nom>/kunnia<n><sg><gen><cmp><cmp>+mies<n><sg><nom>/kunnia<n><sg><gen><cmp><hyph><cmp>+mies<n><sg><nom>
+
+%	ráiddolaš<adj>:raitomies<adj>: raitomies/raito<n><sg><nom><cmp>+mies<n><sg><nom>/raito<n><sg><nom><cmp><cmp>+mies<n><sg><nom>/raito<n><sg><nom><cmp><hyph><cmp>+mies<n><sg><nom>
+
+%	ráiddohas<n>:raitomies<n>: raitomies/raito<n><sg><nom><cmp>+mies<n><sg><nom>/raito<n><sg><nom><cmp><cmp>+mies<n><sg><nom>/raito<n><sg><nom><cmp><hyph><cmp>+mies<n><sg><nom>
+
+%	astronávta<n>:avaruusmies<n>: avaruusmies/avaruus<n><sg><nom><cmp>+mies<n><sg><nom>/avaruus<n><sg><nom><cmp><cmp>+mies<n><sg><nom>/avaruus<n><sg><nom><cmp><hyph><cmp>+mies<n><sg><nom>
+
+%	ferkkon<n>:risukirves<n>: risukirves/risu<n><sg><nom><cmp>+kirves<n><sg><nom>/risu<n><sg><nom><cmp><cmp>+kirves<n><sg><nom>/risu<n><sg><nom><cmp><hyph><cmp>+kirves<n><sg><nom>
+
+%	gazzabiza<n>:kynsiajos<n>: kynsiajos/kynsi<n><sg><nom><cmp>+ajos<n><sg><nom>/kynsi<n><sg><nom><cmp><cmp>+ajos<n><sg><nom>/kynsi<n><sg><nom><cmp><hyph><cmp>+ajos<n><sg><nom>
+
+%	jukta<n>:jodiliuos<n>: jodiliuos/jodi<n><sg><nom><cmp>+liuos<n><sg><nom>/jodi<n><sg><nom><cmp><cmp>+liuos<n><sg><nom>/jodi<n><sg><nom><cmp><hyph><cmp>+liuos<n><sg><nom>
+
+%	skilkkanas<n>:kilkahdus<n>: kilkahdus/*kilkahdus
+
+%	duhranas<n>:porahdus<n>: porahdus/*porahdus
+
+%	filttar<n>:kiväärinsuojus<n>: kiväärinsuojus/kivääri<n><sg><gen><cmp>+suojus<n><sg><nom>/kivääri<n><sg><gen><cmp><cmp>+suojus<n><sg><nom>/kivääri<n><sg><gen><cmp><hyph><cmp>+suojus<n><sg><nom>
+
+%	gealboguovddáš<n>:kompetenssikeskus<n>: kompetenssikeskus/kompetenssi<n><sg><nom><cmp>+keskus<n><sg><nom>/kompetenssi<n><sg><nom><cmp><cmp>+keskus<n><sg><nom>/kompetenssi<n><sg><nom><cmp><hyph><cmp>+keskus<n><sg><nom>
+
+%	bajásráhkadus<n>:ylösrakennus<n>: ylösrakennus/*ylösrakennus
+
+%	suoskkahat<n>:purus<n>: purus/*purus
+
+%	šlivggas<n>:helmanheilutus<n>: helmanheilutus/helma<n><sg><gen><cmp>+heilutus<n><sg><nom>/helma<n><sg><gen><cmp><cmp>+heilutus<n><sg><nom>/helma<n><sg><gen><cmp><hyph><cmp>+heilutus<n><sg><nom>
+
+%	guolehisvuohta<n>:kalattomuus<n>: kalattomuus/*kalattomuus
+
+%	áimmuhisvuohta<n>:ilmattomuus<n>: ilmattomuus/*ilmattomuus
+
+%	spihtálvuohta<n>:spitaalisuus<n>: spitaalisuus/*spitaalisuus
+
+%	buođga<n>:nivus<n>: nivus/*nivus
+
+%	snielut<n>:röyhkimys<n>: röyhkimys/*röyhkimys
+
+%	fertenvuohta<n>:täytymys<n>: täytymys/*täytymys
+
+%	fuolkevuođanamahus<n>:sukunimitys<n>: sukunimitys/suku<n><sg><nom><cmp>+nimitys<n><sg><nom>/suku<n><sg><nom><cmp><cmp>+nimitys<n><sg><nom>/suku<n><sg><nom><cmp><hyph><cmp>+nimitys<n><sg><nom>
+
+%	šikkas<n>:hätistys<n>: hätistys/*hätistys
+
+%	giđđalodden<n>:sorsametsästys<n>: sorsametsästys/sorsa<n><sg><nom><cmp>+metsästys<n><sg><nom>/sorsa<n><sg><nom><cmp><cmp>+metsästys<n><sg><nom>/sorsa<n><sg><nom><cmp><hyph><cmp>+metsästys<n><sg><nom>
+
+%	bivdinmuddu<n>:pyyntietäisyys<n>: pyyntietäisyys/pyynti<n><sg><nom><cmp>+etä-<n><cmp>+isyys<n><sg><nom>/pyynti<n><sg><nom><cmp>+etä-<n><cmp><cmp>+isyys<n><sg><nom>/pyynti<n><sg><nom><cmp>+etä-<n><cmp><hyph><cmp>+isyys<n><sg><nom>/pyynti<n><sg><nom><cmp>+etäisyys<n><sg><nom>/pyynti<n><sg><nom><cmp><cmp>+etä-<n><cmp>+isyys<n><sg><nom>/pyynti<n><sg><nom><cmp><cmp>+etä-<n><cmp><cmp>+isyys<n><sg><nom>/pyynti<n><sg><nom><cmp><cmp>+etä-<n><cmp><hyph><cmp>+isyys<n><sg><nom>/pyynti<n><sg><nom><cmp><cmp>+etäisyys<n><sg><nom>/pyynti<n><sg><nom><cmp><hyph><cmp>+etä-<n><cmp>+isyys<n><sg><nom>/pyynti<n><sg><nom><cmp><hyph><cmp>+etä-<n><cmp><cmp>+isyys<n><sg><nom>/pyynti<n><sg><nom><cmp><hyph><cmp>+etä-<n><cmp><hyph><cmp>+isyys<n><sg><nom>/pyynti<n><sg><nom><cmp><hyph><cmp>+etäisyys<n><sg><nom>/pyy<n><sg><gen><cmp>+tie<n><sg><nom><cmp>+täi<n><sg><nom><cmp>+syys<n>/pyy<n><sg><gen><cmp>+tie<n><sg><nom><cmp>+täi<n><sg><nom><cmp><cmp>+syys<n>/pyy<n><sg><gen><cmp>+tie<n><sg><nom><cmp>+täi<n><sg><nom><cmp><hyph><cmp>+syys<n>/pyy<n><sg><gen><cmp>+tie<n><sg><nom><cmp><cmp>+täi<n><sg><nom><cmp>+syys<n>/pyy<n><sg><gen><cmp>+tie<n><sg><nom><cmp><cmp>+täi<n><sg><nom><cmp><cmp>+syys<n>/pyy<n><sg><gen><cmp>+tie<n><sg><nom><cmp><cmp>+täi<n><sg><nom><cmp><hyph><cmp>+syys<n>/pyy<n><sg><gen><cmp>+tie<n><sg><nom><cmp><hyph><cmp>+täi<n><sg><nom><cmp>+syys<n>/pyy<n><sg><gen><cmp>+tie<n><sg><nom><cmp><hyph><cmp>+täi<n><sg><nom><cmp><cmp>+syys<n>/pyy<n><sg><gen><cmp>+tie<n><sg><nom><cmp><hyph><cmp>+täi<n><sg><nom><cmp><hyph><cmp>+syys<n>/pyy<n><sg><gen><cmp><cmp>+tie<n><sg><nom><cmp>+täi<n><sg><nom><cmp>+syys<n>/pyy<n><sg><gen><cmp><cmp>+tie<n><sg><nom><cmp>+täi<n><sg><nom><cmp><cmp>+syys<n>/pyy<n><sg><gen><cmp><cmp>+tie<n><sg><nom><cmp>+täi<n><sg><nom><cmp><hyph><cmp>+syys<n>/pyy<n><sg><gen><cmp><cmp>+tie<n><sg><nom><cmp><cmp>+täi<n><sg><nom><cmp>+syys<n>/pyy<n><sg><gen><cmp><cmp>+tie<n><sg><nom><cmp><cmp>+täi<n><sg><nom><cmp><cmp>+syys<n>/pyy<n><sg><gen><cmp><cmp>+tie<n><sg><nom><cmp><cmp>+täi<n><sg><nom><cmp><hyph><cmp>+syys<n>/pyy<n><sg><gen><cmp><cmp>+tie<n><sg><nom><cmp><hyph><cmp>+täi<n><sg><nom><cmp>+syys<n>/pyy<n><sg><gen><cmp><cmp>+tie<n><sg><nom><cmp><hyph><cmp>+täi<n><sg><nom><cmp><cmp>+syys<n>/pyy<n><sg><gen><cmp><cmp>+tie<n><sg><nom><cmp><hyph><cmp>+täi<n><sg><nom><cmp><hyph><cmp>+syys<n>/pyy<n><sg><gen><cmp><hyph><cmp>+tie<n><sg><nom><cmp>+täi<n><sg><nom><cmp>+syys<n>/pyy<n><sg><gen><cmp><hyph><cmp>+tie<n><sg><nom><cmp>+täi<n><sg><nom><cmp><cmp>+syys<n>/pyy<n><sg><gen><cmp><hyph><cmp>+tie<n><sg><nom><cmp>+täi<n><sg><nom><cmp><hyph><cmp>+syys<n>/pyy<n><sg><gen><cmp><hyph><cmp>+tie<n><sg><nom><cmp><cmp>+täi<n><sg><nom><cmp>+syys<n>/pyy<n><sg><gen><cmp><hyph><cmp>+tie<n><sg><nom><cmp><cmp>+täi<n><sg><nom><cmp><cmp>+syys<n>/pyy<n><sg><gen><cmp><hyph><cmp>+tie<n><sg><nom><cmp><cmp>+täi<n><sg><nom><cmp><hyph><cmp>+syys<n>/pyy<n><sg><gen><cmp><hyph><cmp>+tie<n><sg><nom><cmp><hyph><cmp>+täi<n><sg><nom><cmp>+syys<n>/pyy<n><sg><gen><cmp><hyph><cmp>+tie<n><sg><nom><cmp><hyph><cmp>+täi<n><sg><nom><cmp><cmp>+syys<n>/pyy<n><sg><gen><cmp><hyph><cmp>+tie<n><sg><nom><cmp><hyph><cmp>+täi<n><sg><nom><cmp><hyph><cmp>+syys<n>
+
+%	silát<n>:silavaljaat<n>: silavaljaat/silat<n><sg><nom><cmp>+valjas<n><pl><nom>/silat<n><sg><nom><cmp><cmp>+valjas<n><pl><nom>/silat<n><sg><nom><cmp><hyph><cmp>+valjas<n><pl><nom>/sila<n><sg><nom><cmp>+valjas<n><pl><nom>/sila<n><sg><nom><cmp><cmp>+valjas<n><pl><nom>/sila<n><sg><nom><cmp><hyph><cmp>+valjas<n><pl><nom>
+
+%	riemut<n>:juhlat<n>: juhlat/juhla<n><pl><nom>
+
+%	njivdnja<n>:täinmunat<n>: täinmunat/täi<n><sg><gen><cmp>+muna<n><pl><nom>/täi<n><sg><gen><cmp><cmp>+muna<n><pl><nom>/täi<n><sg><gen><cmp><hyph><cmp>+muna<n><pl><nom>
+
+%	čivrrus<n>:täinmunat<n>: täinmunat/täi<n><sg><gen><cmp>+muna<n><pl><nom>/täi<n><sg><gen><cmp><cmp>+muna<n><pl><nom>/täi<n><sg><gen><cmp><hyph><cmp>+muna<n><pl><nom>
+
+%	ráhkkásaččat<n>:rakastavaiset<n>: rakastavaiset/rakastaa<vblex><actv><prsprc><der_inen><pl><nom>/rakastavainen<adj><pl><nom>
+
+%	gassaváhkká<n>:reisilihakset<n>: reisilihakset/reisilihas<n><pl><nom>/reisi<n><sg><nom><cmp>+lihas<n><pl><nom>/reisi<n><sg><nom><cmp><cmp>+lihas<n><pl><nom>/reisi<n><sg><nom><cmp><hyph><cmp>+lihas<n><pl><nom>/re<n><sg><nom><cmp>+isi<n><sg><nom><cmp>+lihas<n><pl><nom>/re<n><sg><nom><cmp>+isi<n><sg><nom><cmp><cmp>+lihas<n><pl><nom>/re<n><sg><nom><cmp>+isi<n><sg><nom><cmp><hyph><cmp>+lihas<n><pl><nom>/re<n><sg><nom><cmp><cmp>+isi<n><sg><nom><cmp>+lihas<n><pl><nom>/re<n><sg><nom><cmp><cmp>+isi<n><sg><nom><cmp><cmp>+lihas<n><pl><nom>/re<n><sg><nom><cmp><cmp>+isi<n><sg><nom><cmp><hyph><cmp>+lihas<n><pl><nom>/re<n><sg><nom><cmp><hyph><cmp>+isi<n><sg><nom><cmp>+lihas<n><pl><nom>/re<n><sg><nom><cmp><hyph><cmp>+isi<n><sg><nom><cmp><cmp>+lihas<n><pl><nom>/re<n><sg><nom><cmp><hyph><cmp>+isi<n><sg><nom><cmp><hyph><cmp>+lihas<n><pl><nom>
+
+%	čoarvvus<n>:sarvet<n>: sarvet/sarvi<n><pl><nom>
+
+%	stuorradiggeválga<n>:suurkäräjävaalit<n>: suurkäräjävaalit/suur-<n><cmp>+käräjät<n><sg><nom><cmp>+vaali<n><pl><nom>/suur-<n><cmp>+käräjät<n><sg><nom><cmp><cmp>+vaali<n><pl><nom>/suur-<n><cmp>+käräjät<n><sg><nom><cmp><hyph><cmp>+vaali<n><pl><nom>/suur-<n><cmp>+käräjä<n><sg><nom><cmp>+vaali<n><pl><nom>/suur-<n><cmp>+käräjä<n><sg><nom><cmp><cmp>+vaali<n><pl><nom>/suur-<n><cmp>+käräjä<n><sg><nom><cmp><hyph><cmp>+vaali<n><pl><nom>/suur-<n><cmp><cmp>+käräjät<n><sg><nom><cmp>+vaali<n><pl><nom>/suur-<n><cmp><cmp>+käräjät<n><sg><nom><cmp><cmp>+vaali<n><pl><nom>/suur-<n><cmp><cmp>+käräjät<n><sg><nom><cmp><hyph><cmp>+vaali<n><pl><nom>/suur-<n><cmp><cmp>+käräjä<n><sg><nom><cmp>+vaali<n><pl><nom>/suur-<n><cmp><cmp>+käräjä<n><sg><nom><cmp><cmp>+vaali<n><pl><nom>/suur-<n><cmp><cmp>+käräjä<n><sg><nom><cmp><hyph><cmp>+vaali<n><pl><nom>/suur-<n><cmp><hyph><cmp>+käräjät<n><sg><nom><cmp>+vaali<n><pl><nom>/suur-<n><cmp><hyph><cmp>+käräjät<n><sg><nom><cmp><cmp>+vaali<n><pl><nom>/suur-<n><cmp><hyph><cmp>+käräjät<n><sg><nom><cmp><hyph><cmp>+vaali<n><pl><nom>/suur-<n><cmp><hyph><cmp>+käräjä<n><sg><nom><cmp>+vaali<n><pl><nom>/suur-<n><cmp><hyph><cmp>+käräjä<n><sg><nom><cmp><cmp>+vaali<n><pl><nom>/suur-<n><cmp><hyph><cmp>+käräjä<n><sg><nom><cmp><hyph><cmp>+vaali<n><pl><nom>/suurkäräjät<n><sg><nom><cmp>+vaali<n><pl><nom>/suurkäräjät<n><sg><nom><cmp><cmp>+vaali<n><pl><nom>/suurkäräjät<n><sg><nom><cmp><hyph><cmp>+vaali<n><pl><nom>/suur<n><pref><cmp>+käräjät<n><sg><nom><cmp>+vaali<n><pl><nom>/suur<n><pref><cmp>+käräjät<n><sg><nom><cmp><cmp>+vaali<n><pl><nom>/suur<n><pref><cmp>+käräjät<n><sg><nom><cmp><hyph><cmp>+vaali<n><pl><nom>/suur<n><pref><cmp>+käräjä<n><sg><nom><cmp>+vaali<n><pl><nom>/suur<n><pref><cmp>+käräjä<n><sg><nom><cmp><cmp>+vaali<n><pl><nom>/suur<n><pref><cmp>+käräjä<n><sg><nom><cmp><hyph><cmp>+vaali<n><pl><nom>
+
+%	guohtumat<n>:laidunresurssit<n>: laidunresurssit/laidun<n><sg><nom><cmp>+resurssit<n><pl><nom>/laidun<n><sg><nom><cmp>+resurssi<n><pl><nom>/laidun<n><sg><nom><cmp><cmp>+resurssit<n><pl><nom>/laidun<n><sg><nom><cmp><cmp>+resurssi<n><pl><nom>/laidun<n><sg><nom><cmp><hyph><cmp>+resurssit<n><pl><nom>/laidun<n><sg><nom><cmp><hyph><cmp>+resurssi<n><pl><nom>
+
+%	fárvealla<n>:hyvästit<n>: hyvästit/hyvästi<n><pl><nom>
+
+%	veasta<n>:liivit<n>: liivit/liivi<n><pl><nom>
+
+%	siktajáffut<n>:sihtijauhot<n>: sihtijauhot/sihti<n><sg><nom><cmp>+jauho<n><pl><nom>/sihti<n><sg><nom><cmp><cmp>+jauho<n><pl><nom>/sihti<n><sg><nom><cmp><hyph><cmp>+jauho<n><pl><nom>
+
+%	nisojáffut<n>:vehnäjauhot<n>: vehnäjauhot/vehnäjauho<n><pl><nom>/vehnä<n><sg><nom><cmp>+jauho<n><pl><nom>/vehnä<n><sg><nom><cmp><cmp>+jauho<n><pl><nom>/vehnä<n><sg><nom><cmp><hyph><cmp>+jauho<n><pl><nom>
+
+%	tinestus<n>:ansiot<n>: ansiot/ansio<n><pl><nom>
+
+%	čuožžunčuovggat<n>:seisontavalot<n>: seisontavalot/seisontavalo<n><pl><nom>/seisonta<n><sg><nom><cmp>+valo<n><pl><nom>/seisonta<n><sg><nom><cmp><cmp>+valo<n><pl><nom>/seisonta<n><sg><nom><cmp><hyph><cmp>+valo<n><pl><nom>/sei<n><sg><nom><cmp>+sonta<n><sg><nom><cmp>+valo<n><pl><nom>/sei<n><sg><nom><cmp>+sonta<n><sg><nom><cmp><cmp>+valo<n><pl><nom>/sei<n><sg><nom><cmp>+sonta<n><sg><nom><cmp><hyph><cmp>+valo<n><pl><nom>/sei<n><sg><nom><cmp><cmp>+sonta<n><sg><nom><cmp>+valo<n><pl><nom>/sei<n><sg><nom><cmp><cmp>+sonta<n><sg><nom><cmp><cmp>+valo<n><pl><nom>/sei<n><sg><nom><cmp><cmp>+sonta<n><sg><nom><cmp><hyph><cmp>+valo<n><pl><nom>/sei<n><sg><nom><cmp><hyph><cmp>+sonta<n><sg><nom><cmp>+valo<n><pl><nom>/sei<n><sg><nom><cmp><hyph><cmp>+sonta<n><sg><nom><cmp><cmp>+valo<n><pl><nom>/sei<n><sg><nom><cmp><hyph><cmp>+sonta<n><sg><nom><cmp><hyph><cmp>+valo<n><pl><nom>
+
+%	vávdno<n>:vaunut<n>: vaunut/vaunu<n><pl><nom>
+
+%	molddas<adj>:murentunut<adj>: murentunut/murentua<vblex><actv><indic><pret><conneg><sg>/murentua<vblex><actv><prfprc><sg><nom>
+
+%	čuvkui<adj>:juoksettunut<adj>: juoksettunut/juoksettua<vblex><actv><indic><pret><conneg><sg>/juoksettua<vblex><actv><prfprc><sg><nom>
+
+%	šlinzzas<adj>:pehmennyt<adj>: pehmennyt/pehmentyä<vblex><actv><indic><pres><p2><sg>/pehmetä<vblex><actv><indic><pret><conneg><sg>/pehmetä<vblex><actv><prfprc><sg><nom>
+
+%	skieryt<n>:kärryt<n>: kärryt/kärry<n><pl><nom>
+
+%	marsipánagáhkku<n>:marsipaanikakku<n>: marsipaanikakku/marsipaani<n>i<sg><nom><cmp>+kakku<n><sg><nom>/marsipaani<n>i<sg><nom><cmp><cmp>+kakku<n><sg><nom>/marsipaani<n>i<sg><nom><cmp><hyph><cmp>+kakku<n><sg><nom>/marsipaani<n><sg><nom><cmp>+kakku<n><sg><nom>/marsipaani<n><sg><nom><cmp><cmp>+kakku<n><sg><nom>/marsipaani<n><sg><nom><cmp><hyph><cmp>+kakku<n><sg><nom>
+
+%	vilbealle<n>:poikaserkku<n>: poikaserkku/poika<n><sg><nom><cmp>+serkku<n><sg><nom>/poika<n><sg><nom><cmp><cmp>+serkku<n><sg><nom>/poika<n><sg><nom><cmp><hyph><cmp>+serkku<n><sg><nom>
+
+%	oarpmealle<n>:tyttöserkku<n>: tyttöserkku/tyttö<n><sg><nom><cmp>+serkku<n><sg><nom>/tyttö<n><sg><nom><cmp><cmp>+serkku<n><sg><nom>/tyttö<n><sg><nom><cmp><hyph><cmp>+serkku<n><sg><nom>
+
+%	morrái<adj>:aamunvirkku<adj>: aamunvirkku/aamunvirkku<n><sg><nom>
+
+%	morris<adj>:aamuvirkku<adj>: aamuvirkku/aamuvirkku<n><sg><nom>
+
+%	snuohkki<n>:värttinäkoukku<n>: värttinäkoukku/värttinä<n><sg><nom><cmp>+koukku<n><sg><nom>/värttinä<n><sg><nom><cmp><cmp>+koukku<n><sg><nom>/värttinä<n><sg><nom><cmp><hyph><cmp>+koukku<n><sg><nom>
+
+%	rádjagidden<n>:rajasulku<n>: rajasulku/raja<n><sg><nom><cmp>+sulku<n><sg><nom>/raja<n><sg><nom><cmp><cmp>+sulku<n><sg><nom>/raja<n><sg><nom><cmp><hyph><cmp>+sulku<n><sg><nom>
+
+%	skáhttu<n>:valkorausku<n>: valkorausku/valko-<n><cmp>+rausku<n><sg><nom>/valko-<n><cmp><cmp>+rausku<n><sg><nom>/valko-<n><cmp><hyph><cmp>+rausku<n><sg><nom>/valko<n><pref><cmp>+rausku<n><sg><nom>
+
+%	jienastuslohku<n>:äänestysluku<n>: äänestysluku/äänestys<n><sg><nom><cmp>+luku<n><sg><nom>/äänestys<n><sg><nom><cmp><cmp>+luku<n><sg><nom>/äänestys<n><sg><nom><cmp><hyph><cmp>+luku<n><sg><nom>
+
+%	oaggungilvu<n>:kalastuskilpailu<n>: kalastuskilpailu/kalastus<n><sg><nom><cmp>+kilpailu<n><sg><nom>/kalastus<n><sg><nom><cmp><cmp>+kilpailu<n><sg><nom>/kalastus<n><sg><nom><cmp><hyph><cmp>+kilpailu<n><sg><nom>/ka<n><sg><nom><cmp>+lastunen<n><der_s><cmp>+kilpailu<n><sg><nom>/ka<n><sg><nom><cmp>+lastunen<n><der_s><cmp><cmp>+kilpailu<n><sg><nom>/ka<n><sg><nom><cmp>+lastunen<n><der_s><cmp><hyph><cmp>+kilpailu<n><sg><nom>/ka<n><sg><nom><cmp><cmp>+lastunen<n><der_s><cmp>+kilpailu<n><sg><nom>/ka<n><sg><nom><cmp><cmp>+lastunen<n><der_s><cmp><cmp>+kilpailu<n><sg><nom>/ka<n><sg><nom><cmp><cmp>+lastunen<n><der_s><cmp><hyph><cmp>+kilpailu<n><sg><nom>/ka<n><sg><nom><cmp><hyph><cmp>+lastunen<n><der_s><cmp>+kilpailu<n><sg><nom>/ka<n><sg><nom><cmp><hyph><cmp>+lastunen<n><der_s><cmp><cmp>+kilpailu<n><sg><nom>/ka<n><sg><nom><cmp><hyph><cmp>+lastunen<n><der_s><cmp><hyph><cmp>+kilpailu<n><sg><nom>
+
+%	skoarras<adj>:karvakulu<adj>: karvakulu/karva<n><sg><nom><cmp>+kulu<n><sg><nom>/karva<n><sg><nom><cmp><cmp>+kulu<n><sg><nom>/karva<n><sg><nom><cmp><hyph><cmp>+kulu<n><sg><nom>/ka<n><sg><nom><cmp>+rva<n><sg><nom><cmp>+kulu<n><sg><nom>/ka<n><sg><nom><cmp>+rva<n><sg><nom><cmp><cmp>+kulu<n><sg><nom>/ka<n><sg><nom><cmp>+rva<n><sg><nom><cmp><hyph><cmp>+kulu<n><sg><nom>/ka<n><sg><nom><cmp><cmp>+rva<n><sg><nom><cmp>+kulu<n><sg><nom>/ka<n><sg><nom><cmp><cmp>+rva<n><sg><nom><cmp><cmp>+kulu<n><sg><nom>/ka<n><sg><nom><cmp><cmp>+rva<n><sg><nom><cmp><hyph><cmp>+kulu<n><sg><nom>/ka<n><sg><nom><cmp><hyph><cmp>+rva<n><sg><nom><cmp>+kulu<n><sg><nom>/ka<n><sg><nom><cmp><hyph><cmp>+rva<n><sg><nom><cmp><cmp>+kulu<n><sg><nom>/ka<n><sg><nom><cmp><hyph><cmp>+rva<n><sg><nom><cmp><hyph><cmp>+kulu<n><sg><nom>
+
+%	sárahat<n>:suonisäiekimppu<n>: suonisäiekimppu/suoni<n><sg><nom><cmp>+säiekimppu<n><sg><nom>/suoni<n><sg><nom><cmp>+säie<n><sg><nom><cmp>+kimppu<n><sg><nom>/suoni<n><sg><nom><cmp>+säie<n><sg><nom><cmp><cmp>+kimppu<n><sg><nom>/suoni<n><sg><nom><cmp>+säie<n><sg><nom><cmp><hyph><cmp>+kimppu<n><sg><nom>/suoni<n><sg><nom><cmp><cmp>+säiekimppu<n><sg><nom>/suoni<n><sg><nom><cmp><cmp>+säie<n><sg><nom><cmp>+kimppu<n><sg><nom>/suoni<n><sg><nom><cmp><cmp>+säie<n><sg><nom><cmp><cmp>+kimppu<n><sg><nom>/suoni<n><sg><nom><cmp><cmp>+säie<n><sg><nom><cmp><hyph><cmp>+kimppu<n><sg><nom>/suoni<n><sg><nom><cmp><hyph><cmp>+säiekimppu<n><sg><nom>/suoni<n><sg><nom><cmp><hyph><cmp>+säie<n><sg><nom><cmp>+kimppu<n><sg><nom>/suoni<n><sg><nom><cmp><hyph><cmp>+säie<n><sg><nom><cmp><cmp>+kimppu<n><sg><nom>/suoni<n><sg><nom><cmp><hyph><cmp>+säie<n><sg><nom><cmp><hyph><cmp>+kimppu<n><sg><nom>
+
+%	áhkábiddu<n>:isosimppu<n>: isosimppu/iso-<n><cmp>+simppu<n><sg><nom>/iso-<n><cmp><cmp>+simppu<n><sg><nom>/iso-<n><cmp><hyph><cmp>+simppu<n><sg><nom>/iso<n><pref><cmp>+simppu<n><sg><nom>/iso<n><sg><nom><cmp>+simppu<n><sg><nom>/iso<n><sg><nom><cmp><cmp>+simppu<n><sg><nom>/iso<n><sg><nom><cmp><hyph><cmp>+simppu<n><sg><nom>
+
+%	nammaláhpat<n>:nimiloppu<n>: nimiloppu/nimi<n><sg><nom><cmp>+loppu<n><sg><nom>/nimi<n><sg><nom><cmp><cmp>+loppu<n><sg><nom>/nimi<n><sg><nom><cmp><hyph><cmp>+loppu<n><sg><nom>
+
+%	guosttaheavdni<n>:lumikirppu<n>: lumikirppu/lumi<n><sg><nom><cmp>+kirppu<n><sg><nom>/lumi<n><sg><nom><cmp><cmp>+kirppu<n><sg><nom>/lumi<n><sg><nom><cmp><hyph><cmp>+kirppu<n><sg><nom>
+
+%	hirri<n>:haaru<n>: haaru/*haaru
+
+%	gurppastat<n>:niputusnaru<n>: niputusnaru/niputus<n><sg><nom><cmp>+naru<n><sg><nom>/niputus<n><sg><nom><cmp><cmp>+naru<n><sg><nom>/niputus<n><sg><nom><cmp><hyph><cmp>+naru<n><sg><nom>
+
+%	nuovvebáddi<n>:hamppunaru<n>: hamppunaru/hamppu<n><sg><nom><cmp>+naru<n><sg><nom>/hamppu<n><sg><nom><cmp><cmp>+naru<n><sg><nom>/hamppu<n><sg><nom><cmp><hyph><cmp>+naru<n><sg><nom>
+
+%	fiervá<n>:fieru<n>: fieru/*fieru
+
+%	sátnja<n>:verkkoresu<n>: verkkoresu/verkko<n><sg><nom><cmp>+resu<n><sg><nom>/verkko<n><sg><nom><cmp><cmp>+resu<n><sg><nom>/verkko<n><sg><nom><cmp><hyph><cmp>+resu<n><sg><nom>
+
+%	buldu<n>:kirveskalsu<n>: kirveskalsu/*kirveskalsu
+
+%	fearahas<n>:veistolastu<n>: veistolastu/veisto<n><sg><nom><cmp>+lastu<n><sg><nom>/veisto<n><sg><nom><cmp><cmp>+lastu<n><sg><nom>/veisto<n><sg><nom><cmp><hyph><cmp>+lastu<n><sg><nom>
+
+%	hillaruovssut<n>:tulikettu<n>: tulikettu/tuli<n><sg><nom><cmp>+kettu<n><sg><nom>/tuli<n><sg><nom><cmp><cmp>+kettu<n><sg><nom>/tuli<n><sg><nom><cmp><hyph><cmp>+kettu<n><sg><nom>
+
+%	luvas<adj>:liotettu<adj>: liotettu/liottaa<vblex><pasv><indic><pret><conneg>/liottaa<vblex><pasv><prfprc><sg><nom>
+
+%	valas<n>:merirautu<n>: merirautu/meri<n><sg><nom><cmp>+rautu<n><sg><nom>/meri<n><sg><nom><cmp><cmp>+rautu<n><sg><nom>/meri<n><sg><nom><cmp><hyph><cmp>+rautu<n><sg><nom>
+
+%	curbmi<n>:suppusuu<n>: suppusuu/suppu<n><sg><nom><cmp>+suu<n><sg><nom>/suppu<n><sg><nom><cmp><cmp>+suu<n><sg><nom>/suppu<n><sg><nom><cmp><hyph><cmp>+suu<n><sg><nom>
+
+%	smuhčči<n>:suppusuu<n>: suppusuu/suppu<n><sg><nom><cmp>+suu<n><sg><nom>/suppu<n><sg><nom><cmp><cmp>+suu<n><sg><nom>/suppu<n><sg><nom><cmp><hyph><cmp>+suu<n><sg><nom>
+
+%	šikkas<n>:ärähtely<n>: ärähtely/*ärähtely
+
+%	njoavdnja<n>:pikkunieriä<n>: pikkunieriä/pikku-<n><cmp>+nieriä<n><sg><nom>/pikku-<n><cmp><cmp>+nieriä<n><sg><nom>/pikku-<n><cmp><hyph><cmp>+nieriä<n><sg><nom>/pikku<n><pref><cmp>+nieriä<n><sg><nom>
+
+%	skiddu<n>:pikkunieriä<n>: pikkunieriä/pikku-<n><cmp>+nieriä<n><sg><nom>/pikku-<n><cmp><cmp>+nieriä<n><sg><nom>/pikku-<n><cmp><hyph><cmp>+nieriä<n><sg><nom>/pikku<n><pref><cmp>+nieriä<n><sg><nom>
+
+%	snelkkon<n>:näykkijä<n>: näykkijä/*näykkijä
+
+%	hámsson<n>:näykkijä<n>: näykkijä/*näykkijä
+
+%	njurggon<n>:viheltelijä<n>: viheltelijä/*viheltelijä
+
+%	čeavllit<n>:ylpeilijä<n>: ylpeilijä/*ylpeilijä
+
+%	luoilá<n>:märisijä<n>: märisijä/*märisijä
+
+%	skeaikkan<n>:räkättäjä<n>: räkättäjä/*räkättäjä
+
+%	goaŋku<n>:keitinselkä<n>: keitinselkä/keitin<n><sg><nom><cmp>+selkä<n><sg><nom>/keitin<n><sg><nom><cmp><cmp>+selkä<n><sg><nom>/keitin<n><sg><nom><cmp><hyph><cmp>+selkä<n><sg><nom>
+
+%	moivvas<adj>:epäselkä<adj>: epäselkä/epä-<n><cmp>+selkä<n><sg><nom>/epä-<n><cmp><cmp>+selkä<n><sg><nom>/epä-<n><cmp><hyph><cmp>+selkä<n><sg><nom>/epä<n><pref><cmp>+selkä<n><sg><nom>
+
+%	riehtet<n>:vuotakenkä<n>: vuotakenkä/vuota<n><sg><nom><cmp>+kenkä<n><sg><nom>/vuota<n><sg><nom><cmp><cmp>+kenkä<n><sg><nom>/vuota<n><sg><nom><cmp><hyph><cmp>+kenkä<n><sg><nom>
+
+%	njuorjjot<n>:hyljekenkä<n>: hyljekenkä/hylje<n><sg><nom><cmp>+kenkä<n><sg><nom>/hylje<n><sg><nom><cmp><cmp>+kenkä<n><sg><nom>/hylje<n><sg><nom><cmp><hyph><cmp>+kenkä<n><sg><nom>
+
+%	gieđalatheargi<n>:käsihärkä<n>: käsihärkä/käsi<n><sg><nom><cmp>+härkä<n><sg><nom>/käsi<n><sg><nom><cmp><cmp>+härkä<n><sg><nom>/käsi<n><sg><nom><cmp><hyph><cmp>+härkä<n><sg><nom>
+
+%	jassa<n>:lumiläiskä<n>: lumiläiskä/lumi<n><sg><nom><cmp>+läiskä<n><sg><nom>/lumi<n><sg><nom><cmp><cmp>+läiskä<n><sg><nom>/lumi<n><sg><nom><cmp><hyph><cmp>+läiskä<n><sg><nom>
+
+%	nalttas<adj>:pätkä<adj>: pätkä/pätkä<n><sg><nom>
+
+%	referánsajoavku<n>:referenssiryhmä<n>: referenssiryhmä/referenssi<n><sg><nom><cmp>+ryhmä<n><sg><nom>/referenssi<n><sg><nom><cmp><cmp>+ryhmä<n><sg><nom>/referenssi<n><sg><nom><cmp><hyph><cmp>+ryhmä<n><sg><nom>
+
+%	lotnolasealáhus<n>:elinkeinoyhdistelmä<n>: elinkeinoyhdistelmä/elinkeino<n><sg><nom><cmp>+yhdistelmä<n><sg><nom>/elinkeino<n><sg><nom><cmp><cmp>+yhdistelmä<n><sg><nom>/elinkeino<n><sg><nom><cmp><hyph><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp>+keino-<n><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp>+keino-<n><cmp><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp>+keino-<n><cmp><hyph><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp>+keino<n><sg><nom><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp>+keino<n><sg><nom><cmp><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp>+keino<n><sg><nom><cmp><hyph><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><cmp>+keino-<n><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><cmp>+keino-<n><cmp><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><cmp>+keino-<n><cmp><hyph><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><cmp>+keino<n><sg><nom><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><cmp>+keino<n><sg><nom><cmp><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><cmp>+keino<n><sg><nom><cmp><hyph><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><hyph><cmp>+keino-<n><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><hyph><cmp>+keino-<n><cmp><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><hyph><cmp>+keino-<n><cmp><hyph><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><hyph><cmp>+keino<n><sg><nom><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><hyph><cmp>+keino<n><sg><nom><cmp><cmp>+yhdistelmä<n><sg><nom>/elin<n><sg><nom><cmp><hyph><cmp>+keino<n><sg><nom><cmp><hyph><cmp>+yhdistelmä<n><sg><nom>
+
+%	njeahcet<n>:saraheinä<n>: saraheinä/sara<n><sg><nom><cmp>+heinä<n><sg><nom>/sara<n><sg><nom><cmp><cmp>+heinä<n><sg><nom>/sara<n><sg><nom><cmp><hyph><cmp>+heinä<n><sg><nom>/sarka<n><sg><nom><cmp>+heinä<n><sg><nom>/sarka<n><sg><nom><cmp><cmp>+heinä<n><sg><nom>/sarka<n><sg><nom><cmp><hyph><cmp>+heinä<n><sg><nom>
+
+%	njejohat<n>:lakoheinä<n>: lakoheinä/*lakoheinä
+
+%	siilosuoidni<n>:siiloheinä<n>: siiloheinä/siilo<n><sg><nom><cmp>+heinä<n><sg><nom>/siilo<n><sg><nom><cmp><cmp>+heinä<n><sg><nom>/siilo<n><sg><nom><cmp><hyph><cmp>+heinä<n><sg><nom>
+
+%	dulpu<n>:tylppä<n>: tylppä/tylppä<adj><sg><nom>
+
+%	dábiheapme<adj>:änkyrä<adj>: änkyrä/änkyrä<n><sg><nom>
+
+%	báddebahá<adj>:änkyrä<adj>: änkyrä/änkyrä<n><sg><nom>
+
+%	gulca<n>:puukonnysä<n>: puukonnysä/puukko<n><sg><gen><cmp>+nysä<n><sg><nom>/puukko<n><sg><gen><cmp><cmp>+nysä<n><sg><nom>/puukko<n><sg><gen><cmp><hyph><cmp>+nysä<n><sg><nom>
+
+%	gohči<n>:puukonnysä<n>: puukonnysä/puukko<n><sg><gen><cmp>+nysä<n><sg><nom>/puukko<n><sg><gen><cmp><cmp>+nysä<n><sg><nom>/puukko<n><sg><gen><cmp><hyph><cmp>+nysä<n><sg><nom>
+
+%	hearccas<adj>:lähentelevä<adj>: lähentelevä/lähennellä<vblex><actv><prsprc><sg><nom>
+
+%	doaladahkes<adj>:pidättelevä<adj>: pidättelevä/pidätellä<vblex><actv><prsprc><sg><nom>
+
+%	reavgálas<adj>:röyhtäilevä<adj>: röyhtäilevä/röyhtäillä<vblex><actv><prsprc><sg><nom>
+
+%	dirbbot<adj>:hätäilevä<adj>: hätäilevä/hätäillä<vblex><actv><prsprc><sg><nom>
+
+%	nollas<adj>:kykkivä<adj>: kykkivä/kykkiä<vblex><actv><prsprc><sg><nom>
+
+%	russolas<adj>:pärskivä<adj>: pärskivä/pärskiä<vblex><actv><prsprc><sg><nom>
+
+%	loahppášbeaivi<n>:loppiaispäivä<n>: loppiaispäivä/loppiainen<n><der_s><cmp>+päivä<n><sg><nom>/loppiainen<n><der_s><cmp><cmp>+päivä<n><sg><nom>/loppiainen<n><der_s><cmp><hyph><cmp>+päivä<n><sg><nom>
+
+%	diggojahkes<adj>:käräjöivä<adj>: käräjöivä/käräjöidä<vblex><actv><prsprc><sg><nom>
+
+%	nisogordni<n>:vehnäjyvä<n>: vehnäjyvä/vehnä<n><sg><nom><cmp>+jyvä<n><sg><nom>/vehnä<n><sg><nom><cmp><cmp>+jyvä<n><sg><nom>/vehnä<n><sg><nom><cmp><hyph><cmp>+jyvä<n><sg><nom>
+
+%	dilddas<adj>:hyllyvä<adj>: hyllyvä/hyllyä<vblex><actv><prsprc><sg><nom>
+
+%	njeaccas<adj>:irvistävä<adj>: irvistävä/irvistää<vblex><actv><prsprc><sg><nom>
+
+%	bažihahtti<adj>:lypsettävä<adj>: lypsettävä/lypsää<vblex><pasv><prsprc><sg><nom>
+
+%	nalas<adj>:lököttävä<adj>: lököttävä/lököttää<vblex><actv><prsprc><sg><nom>
+
+%	duđđalas<adj>:hössöttävä<adj>: hössöttävä/hössöttää<vblex><actv><prsprc><sg><nom>
+
+%	roavru<n>:komojää<n>: komojää/*komojää
+
+%	ruobboaivi<n>:rupipää<n>: rupipää/rupi<n><sg><nom><cmp>+pää<n><sg><nom>/rupi<n><sg><nom><cmp><cmp>+pää<n><sg><nom>/rupi<n><sg><nom><cmp><hyph><cmp>+pää<n><sg><nom>
+
+%	šleaivi<n>:kömpelö<n>: kömpelö/kömpelö<adj><sg><nom>
+
