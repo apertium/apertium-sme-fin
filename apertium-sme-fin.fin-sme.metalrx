@@ -56,6 +56,10 @@
     <match lemma="pitää" tags="vblex.*"><select lemma="berret" tags="vblex.*"/></match>
   </rule>
   <rule weight="0.6">
+    <match lemma="pitää" tags="vblex.*"><select lemma="berret" tags="vblex.*"/></match>
+    <match tags="vblex.inf.*"/>
+  </rule>
+  <rule weight="0.6">
     <or>
       <match tags="*.gen"/>
       <match tags="*.gen.*"/>
