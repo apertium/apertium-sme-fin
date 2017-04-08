@@ -250,6 +250,8 @@
     <e srl="1"><p><l>čađa<s n="post"/></l><r>kautta<s n="post"/></r></p></e>
     <e srl="2"><p><l>geahčen<s n="post"/></l><r>luota<s n="post"/></r></p></e>
     <e><p><l>ala<s n="post"/></l><r>päälle<s n="post"/></r></p></e>
+    <e><p><l>mađe<s n="post"/></l><r>verran<s n="post"/></r></p></e>
+ 
     <e><p><l>alde<s n="post"/></l><r>päällä<s n="post"/></r></p></e>
     <e><p><l>badjel<s n="post"/></l><r>yli<s n="post"/></r></p></e>
     <e><p><l>badjel<s n="pr"/></l><r>ylitse<s n="post"/></r></p></e>
@@ -6213,6 +6215,8 @@
     <e><p><l>Will<s n="np"/><s n="ant"/><s n="m"/></l><r>Will<s n="np"/></r></p></e>
     <e><p><l>William<s n="np"/><s n="ant"/><s n="m"/></l><r>William<s n="np"/></r></p></e>
     <e><p><l>Áddjá<s n="np"/><s n="top"/></l><r>Ukko<s n="np"/></r></p></e>
+    <e><p><l>Ávvir<s n="np"/><s n="org"/></l><r>Ávvir<s n="np"/></r></p></e>
+
     <e><p><l>Áddjá<s n="np"/><s n="top"/></l><r>Ukonsaari<s n="np"/></r></p></e>
     <e><p><l>Áhguoika<s n="np"/><s n="top"/></l><r>Akukoski<s n="np"/></r></p></e>
     <e><p><l>Áhkkil<s n="np"/><s n="top"/></l><r>Akkala<s n="np"/></r></p></e>
@@ -7497,6 +7501,18 @@
     <e slr="1"><p><l>fargga<s n="adv"/></l><r>pian<s n="adv"/></r></p></e>
     <e srl="1"><p><l>nu<s n="adv"/></l><r>siten<s n="adv"/></r></p></e>
     <e><p><l>ládje<s n="adv"/></l><r>tapaan<s n="adv"/></r></p></e>
+    <e><p><l>earret<b/>eará<s n="adv"/></l><r>muun<b/>muassa<s n="adv"/></r></p></e>
+
+    <e><p><l>baicce<s n="adv"/></l><r>sen<b/>sijan<s n="adv"/></r></p></e>
+    <e><p><l>diibmá<s n="adv"/></l><r>viime<b/>vuonna<s n="adv"/></r></p></e>
+    <e><p><l>oalát<s n="adv"/></l><r>täydellisesti<s n="adv"/></r></p></e>
+    <e><p><l>oalát<s n="adv"/></l><r>täysin<s n="adv"/></r></p></e>
+    <e><p><l>ovtta<b/>oaivilis<s n="adv"/></l><r>samaa<b/>mieltä<s n="adv"/></r></p></e>
+    <e><p><l>badjelaš<s n="adv"/></l><r>yli<s n="adv"/></r></p></e>
+    <e><p><l>dassái<s n="post"/></l><r>sitten<s n="post"/></r></p></e>
+    <e><p><l>dassái<s n="adv"/></l><r>asti<s n="adv"/></r></p></e>
+    <e><p><l>velá<s n="adv"/></l><r>vielä<s n="adv"/></r></p></e>
+    
     <e><p><l>agi<b/>beaivvisge<s n="adv"/></l><r>ikinä<s n="adv"/></r></p></e>
     <e><p><l>ovdamearkka<b/>dihte<s n="adv"/></l><r>esimerkiksi<s n="adv"/></r></p></e>
     <e><p><l>olgešbealde<s n="adv"/></l><r>oikealle<s n="adv"/></r></p></e>
@@ -7831,6 +7847,7 @@
     <e r="LR"><p><l>spiehkastit<s n="vblex"/><s n="iv"/></l><r>poukahtaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e r="LR"><p><l>spiehkkasit<s n="vblex"/><s n="iv"/></l><r>poiketa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e r="LR"><p><l>olggosaddit<s n="vblex"/><s n="iv"/></l><r>julkaista<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>juolludit<s n="vblex"/><s n="tv"/></l><r>myöntää<s n="vblex"/></r></p><par n="V_V"/></e>
 
     <e r="LR"><p><l>stemmet<s n="vblex"/><s n="tv"/></l><r>äänestää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e r="RL"><p><l>gullat<s n="vblex"/><s n="tv"/></l><r>kuulla<s n="vblex"/></r></p><par n="V_V"/></e>
