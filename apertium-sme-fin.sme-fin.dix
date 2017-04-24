@@ -1391,7 +1391,7 @@
     <e><p><l>caggaseapmi<s n="n"/></l><r>esto<s n="n"/></r></p></e>
     <e><p><l>cahkkehus<s n="n"/></l><r>sytytys<s n="n"/></r></p></e>
     <e><p><l>ceagga<s n="n"/></l><r>itsepäisyys<s n="n"/></r></p></e>
-    <e><p><l>ceahkki<s n="n"/></l><r>askel<s n="n"/></r></p></e>
+    <e><p><l>ceahkki<s n="n"/></l><r>aste<s n="n"/></r></p></e>
     <e><p><l>ceahkkálas<s n="n"/></l><r>asteikko<s n="n"/></r></p></e>
     <e><p><l>cealkka<s n="n"/></l><r>lause<s n="n"/></r></p></e>
     <e><p><l>cealkámuš<s n="n"/></l><r>lausunto<s n="n"/></r></p></e>
@@ -1528,7 +1528,8 @@
     <e><p><l>dilli<s n="n"/></l><r>tila<s n="n"/></r></p></e>
     <e><p><l>dilli<s n="n"/></l><r>olotila<s n="n"/></r></p></e>
     <e><p><l>dilli<s n="n"/></l><r>tilanne<s n="n"/></r></p></e>
-    <e><p><l>dilálašvuohta<s n="n"/></l><r>tilaus<s n="n"/></r></p></e>
+    <e><p><l>dilálašvuohta<s n="n"/></l><r>tilaisuus<s n="n"/></r></p></e>
+    <e><p><l>gulahallan<s n="n"/></l><r>keskustelu<s n="n"/></r></p></e>
     <e><p><l>dimbbar<s n="n"/></l><r>tukki<s n="n"/></r></p></e>
     <e><p><l>dimenšuvdna<s n="n"/></l><r>ulottuvuus<s n="n"/></r></p></e>
     <e><p><l>diminutiiva<s n="n"/></l><r>deminutiivi<s n="n"/></r></p></e>
@@ -2733,7 +2734,7 @@
     <e><p><l>joavkobargu<s n="n"/></l><r>ryhmätyö<s n="n"/></r></p></e>
     <e><p><l>joavku<s n="n"/></l><r>joukko<s n="n"/></r></p></e>
     <e><p><l>joavku<s n="n"/></l><r>ryhmä<s n="n"/></r></p></e>
-    <e><p><l>jođiheapmi<s n="n"/></l><r>puro<s n="n"/></r></p></e>
+    <e><p><l>jođiheapmi<s n="n"/></l><r>johtajuus<s n="n"/></r></p></e>
     <e><p><l>jogaš<s n="n"/></l><r>johtaminen<s n="n"/></r></p></e>
     <e><p><l>joggeskuovva<s n="n"/></l><r>lenkkikenkä<s n="n"/></r></p></e>
     <e><p><l>johka<s n="n"/></l><r>joki<s n="n"/></r></p></e>
@@ -13199,6 +13200,8 @@
     <e><p><l>dieđalaš<s n="adj"/></l><r>tieteellinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>dieđus<s n="adj"/></l><r>tiettävä<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>digitála<s n="adj"/></l><r>digitaalinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>horisontálalaš<s n="adj"/></l><r>horisontaalinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>vertikálalaš<s n="adj"/></l><r>vertikaalinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>dihtomielalaš<s n="adj"/></l><r>tietoinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>dihttes<s n="adj"/></l><r>tietäväinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>dimis<s n="adj"/></l><r>pehmeä<s n="adj"/></r></p><par n="uusi__adj"/></e>
@@ -13706,6 +13709,7 @@
     <e><p><l>miellagiddevaš<s n="adj"/></l><r>mielenkiintoinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e> 
     <e><p><l>miellasaš<s n="adj"/></l><r>mieluinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>mihtilmas<s n="adj"/></l><r>tyypillinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>grammáhtalaš<s n="adj"/></l><r>kieliopillinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>mirkkolaš<s n="adj"/></l><r>myrkyllinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>mohkkái<s n="adj"/></l><r>monimutkainen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>mohkkát<s n="adj"/></l><r>monimutkainen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
@@ -13765,6 +13769,7 @@
     <e><p><l>mávssolaš<s n="adj"/></l><r>arvokas<s n="adj"/></r></p><par n="uusi__adj"/></e> 
     <e><p><l>máđoheapme<s n="adj"/></l><r>mahdoton<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>máŋggabealat<s n="adj"/></l><r>monipuolinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>máŋggabealálaš<s n="adj"/></l><r>monipuolinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>máŋggakultuvrralaš<s n="adj"/></l><r>monikulttuurinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>mášoheapme<s n="adj"/></l><r>levoton<s n="adj"/></r></p><par n="uusi__adj"/></e> 
     <e><p><l>máŧolaš<s n="adj"/></l><r>mahdollinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
@@ -16246,7 +16251,6 @@
     <e><p><l>ráhkadit<s n="vblex"/><s n="tv"/></l><r>tehdä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ráhkistit<s n="vblex"/><s n="tv"/></l><r>rakastaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ráhkistuvvat<s n="vblex"/><s n="iv"/></l><r>rakastua<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>ráhkkanit<s n="vblex"/><s n="iv"/></l><r>valmentaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ráidnet<s n="vblex"/><s n="tv"/></l><r>puhdistaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ráigánit<s n="vblex"/><s n="iv"/></l><r>reikiintyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ráikkistit<s n="vblex"/><s n="iv"/></l><r>mekastaa<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -16781,6 +16785,7 @@
     <e><p><l>časkit<s n="vblex"/><s n="tv"/></l><r>lyödä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čatnat<s n="vblex"/><s n="tv"/></l><r>kytkeä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čatnat<s n="vblex"/><s n="tv"/></l><r>sitoa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>čatnasit<s n="vblex"/><s n="iv"/></l><r>sitoutua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čatnašuvvat<s n="vblex"/><s n="iv"/></l><r>liittyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čatnašuvvat<s n="vblex"/><s n="iv"/></l><r>sitoutua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čavget<s n="vblex"/><s n="tv"/></l><r>kiristää<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -17388,6 +17393,7 @@
 <e><p><l>ovttastupmi<s n="n"/></l><r>yhdistyminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>meassut<s n="n"/><s n="g3"/></l><r>messu<s n="n"/></r></p></e>
 <e><p><l>meannudanvuohki<s n="n"/></l><r>menetelmä<s n="n"/></r></p></e>
+<e><p><l>oahpahanvuohki<s n="n"/></l><r>opetusmenetelmä<s n="n"/></r></p></e>
 <e><p><l>mánotbadji<s n="n"/></l><r>kuukausi<s n="n"/></r></p></e>
 <e><p><l>mánáidprográmma<s n="n"/></l><r>lastenohjelma<s n="n"/></r></p></e>
 <e><p><l>jienastanvuoigatvuohta<s n="n"/></l><r>äänestys<s n="n"/></r></p></e>
@@ -19791,7 +19797,14 @@
 <e><p><l>ovdasátni<s n="n"/></l><r>esipuhe<s n="n"/></r></p></e>
 <e><p><l>ruovttugielda<s n="n"/></l><r>kotikunta<s n="n"/></r></p></e>
 <e><p><l>árvvusatnin<s n="n"/></l><r>kunnioitus<s n="n"/></r></p></e>
+<e><p><l>grammatihkka<s n="n"/></l><r>kielioppi<s n="n"/></r></p></e>
+<e><p><l>progrešuvdna<s n="n"/></l><r>edistys<s n="n"/></r></p></e>
+<e><p><l>veahádat<s n="n"/></l><r>vähemmistö<s n="n"/></r></p></e>
+<e><p><l>ráđđádallangoddi<s n="n"/></l><r>neuvottelukunta<s n="n"/></r></p></e>
+<e><p><l>čálašeapmi<s n="n"/></l><r>kirjoittelu<s n="n"/></r></p></e>
+<e><p><l>váldodeaddu<s n="n"/></l><r>pääpaino<s n="n"/></r></p></e>
 <e><p><l>álgovuolggalaš<s n="adj"/></l><r>alkuperäinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+<e><p><l>miehtemielalaš<s n="adj"/></l><r>myötämielinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>sámediggepresideantta<s n="n"/></l><r>saamelaiskäräjien<b/>presidentti<s n="n"/></r></p></e>
 
 <e><p><l>kompromissa<s n="n"/><s n="g3"/></l><r>kompromissi<s n="n"/></r></p></e>
