@@ -1078,6 +1078,7 @@
     <e><p><l>bihttá<s n="n"/></l><r>osa<s n="n"/></r></p></e>
     <e><p><l>bihttá<s n="n"/></l><r>pala<s n="n"/></r></p></e>
     <e><p><l>bihtánsámegiella<s n="n"/></l><r>piitimensaame<s n="n"/></r></p></e>
+    <e><p><l>bihtánsápmi<s n="n"/></l><r>piitimensaamelainen<s n="n"/></r></p></e>
     <e><p><l>biibal<s n="n"/></l><r>raamattu<s n="n"/></r></p></e>
     <e><p><l>biibbal<s n="n"/></l><r>raamattu<s n="n"/></r></p></e>
     <e><p><l>biigá<s n="n"/></l><r>piika<s n="n"/></r></p></e>
@@ -2120,6 +2121,7 @@
     <e><p><l>giellagursa<s n="n"/></l><r>kielikurssi<s n="n"/></r></p></e>
     <e><p><l>giellakursa<s n="n"/></l><r>kielikurssi<s n="n"/></r></p></e>
     <e><p><l>gierdavašvuohta<s n="n"/></l><r>kärsivällisyys<s n="n"/></r></p></e>
+    <e><p><l>gierdevašvuohta<s n="n"/></l><r>kärsivällisyys<s n="n"/></r></p></e>
     <e><p><l>gierdu<s n="n"/></l><r>ympyrä<s n="n"/></r></p></e>
     <e><p><l>gietkka<s n="n"/></l><r>komissio<s n="n"/></r></p></e>
     <e><p><l>gieva<s n="n"/></l><r>suonsilmäke<s n="n"/></r></p></e>
@@ -4591,8 +4593,8 @@
     <e><p><l>sálti<s n="n"/></l><r>suola<s n="n"/></r></p></e>
     <e><p><l>sámeduodji<s n="n"/></l><r>käsityö<s n="n"/></r></p></e>
     <e><p><l>sámegiella<s n="n"/></l><r>saame<s n="n"/></r></p></e>
-    <e><p><l>sámegiella<s n="n"/></l><r>saamekieli<s n="n"/></r></p></e>
-    <e><p><l>sámi<s n="n"/></l><r>saame<s n="n"/></r></p></e>
+    <e><p><l>sámegiella<s n="n"/></l><r>saamelaiskieli<s n="n"/></r></p></e>
+    <e><p><l>sámi<s n="n"/></l><r>saamelainen<s n="n"/></r></p></e>
     <e><p><l>sámil<s n="n"/></l><r>sammal<s n="n"/></r></p></e>
     <e><p><l>sánddat<s n="n"/></l><r>oikeasilmäkampela<s n="n"/></r></p></e>
     <e><p><l>sápmi<s n="n"/></l><r>saame<s n="n"/></r></p></e>
@@ -4606,6 +4608,7 @@
     <e><p><l>sárgun<s n="n"/></l><r>piirustus<s n="n"/></r></p></e>
     <e><p><l>sárri<s n="n"/></l><r>rönsy<s n="n"/></r></p></e>
     <e><p><l>sártnodeapmi<s n="n"/></l><r>keskustelu<s n="n"/></r></p></e>
+    <e><p><l>gulahallangiella<s n="n"/></l><r>keskustelukieli<s n="n"/></r></p></e>
     <e><p><l>sátku<s n="n"/></l><r>venevalkama<s n="n"/></r></p></e>
     <e><p><l>sátnegirji<s n="n"/></l><r>sanakirja<s n="n"/></r></p></e>
     <e><p><l>sátnejođiheaddji<s n="n"/><s n="nomag"/></l><r>puheenjohtaja<s n="n"/></r></p></e>
@@ -15637,6 +15640,8 @@
     <e><p><l>johttát<s n="vblex"/><s n="iv"/></l><r>lähteä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>johtui_boahtit<s n="vblex"/><s n="iv"/></l><r>käynnistyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>joksat<s n="vblex"/><s n="tv"/></l><r>saavuttaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>juksat<s n="vblex"/><s n="tv"/></l><r>saavuttaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>jurdilit<s n="vblex"/><s n="tv"/></l><r>ajatella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>jollardit<s n="vblex"/><s n="iv"/></l><r>lyllertää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>joppaldahttit<s n="vblex"/><s n="tv"/></l><r>mutustaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>joppaldit<s n="vblex"/><s n="tv"/></l><r>mutustaa<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -16108,6 +16113,7 @@
     <e><p><l>ovdánit<s n="vblex"/><s n="iv"/></l><r>kehittyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ovttastahttit<s n="vblex"/><s n="tv"/></l><r>yhdistää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ovttastit<s n="vblex"/><s n="tv"/></l><r>yhdistää<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>ovttastallat<s n="vblex"/><s n="iv"/></l><r>seurustella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ovttastuvvat<s n="vblex"/><s n="iv"/></l><r>yhdistyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ovttastuvvat<s n="vblex"/><s n="iv"/></l><r>yhtyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ozadit<s n="vblex"/><s n="tv"/></l><r>etsiskellä<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -16116,6 +16122,7 @@
     <e><p><l>ođastit<s n="vblex"/><s n="tv"/></l><r>uudistaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>plokket<s n="vblex"/><s n="tv"/></l><r>aurata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>plánet<s n="vblex"/><s n="tv"/></l><r>suunnitella<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>láidet<s n="vblex"/><s n="tv"/></l><r>johdattaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>prentet<s n="vblex"/><s n="tv"/></l><r>painaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>pumpet<s n="vblex"/><s n="tv"/></l><r>pumpata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>páhkket<s n="vblex"/><s n="tv"/></l><r>pakata<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -16667,6 +16674,7 @@
     <e><p><l>válbmanit<s n="vblex"/><s n="iv"/></l><r>valmistua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>válbmet<s n="vblex"/><s n="tv"/></l><r>valmistaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>válddahit<s n="vblex"/><s n="tv"/></l><r>kuvata<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>vuhtiiváldit<s n="vblex"/><s n="tv"/></l><r>huomioonottaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>válddihit<s n="vblex"/><s n="tv"/></l><r>otattaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>váldit<s n="vblex"/><s n="tv"/></l><r>kaapata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>váldit<s n="vblex"/><s n="tv"/></l><r>ottaa<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -17041,9 +17049,11 @@
 <e><p><l>fuolaheaddji<s n="n"/><s n="nomag"/></l><r>huoltaja<s n="n"/></r></p></e>
 <e><p><l>oahpahusguovddáš<s n="n"/></l><r>opetuskeskus<s n="n"/></r></p></e>
 <e><p><l>plánejeaddji<s n="n"/><s n="nomag"/></l><r>suunnittelija<s n="n"/></r></p></e>
+<e><p><l>giellageavaheaddji<s n="n"/><s n="nomag"/></l><r>kielenkäyttäjä<s n="n"/></r></p></e>
 <e><p><l>govus<s n="n"/></l><r>piirros<s n="n"/></r></p></e>
 <e><p><l>sámiguovlu<s n="n"/></l><r>saamenalue<s n="n"/></r></p></e>
 <e><p><l>giellaláhka<s n="n"/></l><r>kielilaki<s n="n"/></r></p></e>
+<e><p><l>giellamáhttu<s n="n"/></l><r>kielitaito<s n="n"/></r></p></e>
 <e><p><l>sámeoahpahus<s n="n"/></l><r>saamenopetus<s n="n"/></r></p></e>
 <e><p><l>skuvlen<s n="n"/></l><r>kouluttaminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>bargoorgána<s n="n"/></l><r>työelin<s n="n"/></r></p></e>
@@ -17086,7 +17096,7 @@
 <e><p><l>sámemánná<s n="n"/></l><r>saamelaislapsi<s n="n"/></r></p></e>
 <e><p><l>gáhtten<s n="n"/></l><r>suojelu<s n="n"/></r></p></e>
 <e><p><l>doaibmaprográmma<s n="n"/><s n="g3"/></l><r>toimintaohjelma<s n="n"/></r></p></e>
-<e><p><l>davvisámegielat<s n="adj"/></l><r>pohjoissaamekielinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+<e><p><l>davvisámegielat<s n="adj"/></l><r>pohjoissaamenkielinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>sosiálasuorgi<s n="n"/></l><r>sosiaaliala<s n="n"/></r></p></e>
 <e><p><l>parlamentarihkkár<s n="n"/></l><r>parlamentaarikko<s n="n"/></r></p></e>
 <e><p><l>nuortalašgielat<s n="adj"/></l><r>koltansaamenkielinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
@@ -19772,8 +19782,16 @@
 <e><p><l>giđđalodden<s n="n"/></l><r>sorsametsästys<s n="n"/></r></p></e>
 <e><p><l>klinihkka<s n="n"/></l><r>klinikka<s n="n"/></r></p></e>
 <e><p><l>debáhtta<s n="n"/></l><r>keskustelu<s n="n"/></r></p></e>
+<e><p><l>ovttastallan<s n="n"/></l><r>seurustelu<s n="n"/></r></p></e>
 <e><p><l>soabadanproseassa<s n="n"/></l><r>sovintoprosessi<s n="n"/></r></p></e>
 <e><p><l>retorihkka<s n="n"/></l><r>retoriikka<s n="n"/></r></p></e>
+<e><p><l>uniovdna<s n="n"/></l><r>unioni<s n="n"/></r></p></e>
+<e><p><l>vuođđoprinsihppa<s n="n"/></l><r>perusperiaate<s n="n"/></r></p></e>
+<e><p><l>guhkilmasvuohta<s n="n"/></l><r>pitkäkestoisuus<s n="n"/></r></p></e>
+<e><p><l>ovdasátni<s n="n"/></l><r>esipuhe<s n="n"/></r></p></e>
+<e><p><l>ruovttugielda<s n="n"/></l><r>kotikunta<s n="n"/></r></p></e>
+<e><p><l>árvvusatnin<s n="n"/></l><r>kunnioitus<s n="n"/></r></p></e>
+<e><p><l>álgovuolggalaš<s n="adj"/></l><r>alkuperäinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>sámediggepresideantta<s n="n"/></l><r>saamelaiskäräjien<b/>presidentti<s n="n"/></r></p></e>
 
 <e><p><l>kompromissa<s n="n"/><s n="g3"/></l><r>kompromissi<s n="n"/></r></p></e>
