@@ -17004,6 +17004,8 @@
     
     <!-- SECTION: Punctuation -->
 
+    <e r="LR"><p><l>❡<s n="clb"/></l><r></r></p></e>
+    <e r="LR"><p><l>❡<s n="sent"/></l><r></r></p></e>
     <e><re>[1-9]+([0-9]+)?</re><p><l><s n="num"/><s n="arab"/></l><r><s n="num"/><s n="card"/></r></p></e>
     <e><re>[0-9]([1-9])+([0-9]+)*</re><p><l><s n="num"/><s n="arab"/></l><r><s n="num"/><s n="card"/></r></p></e>
     <e><re>0</re><p><l><s n="num"/><s n="arab"/></l><r><s n="num"/></r></p></e>
