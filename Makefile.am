@@ -256,7 +256,7 @@ test-install: all
 	@diff tmp-$@/ref tmp-$@/mt
 	@rm -rf tmp-$@
 
-test: all
+test: all test-install
 	echo "ja" | apertium -d . sme-fin | tee .test-mt
 	@echo "ja" > .test-ref
 	@diff .test-ref .test-mt
