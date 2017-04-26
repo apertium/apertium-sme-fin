@@ -92,12 +92,39 @@
   </rule>
 
   <rule weight="1.0">
-    <match lemma="sápmi" tags="n.*"><select lemma="saamelainen" tags="n.*"/></match>
-  </rule>
-  <rule weight="0.5">
-    <match lemma="sápmi" tags="n.*"><select lemma="saame" tags="n.*"/></match>
-  </rule>
+     <match lemma="sápmi" tags="n.*"><select lemma="saamelainen" tags="n.*"/></match>
+   </rule>
+   <rule weight="0.5">
+     <match lemma="sápmi" tags="n.*"><select lemma="saame" tags="n.*"/></match>
+   </rule>
+
+   <rule weight="1.0">
+      <match lemma="bargu" tags="n.*"><select lemma="työ" tags="n.*"/></match>
+    </rule>
+    <rule weight="0.5">
+      <match lemma="bargu" tags="n.*"><select lemma="teos" tags="n.*"/></match>
+    </rule>
+    <rule weight="0.5">
+      <match lemma="bargu" tags="n.*"><select lemma="tehtävä" tags="n.*"/></match>
+    </rule>
   
+    <rule weight="1.0">
+       <match lemma="guovlu" tags="n.*"><select lemma="alue" tags="n.*"/></match>
+     </rule>
+     <rule weight="0.5">
+       <match lemma="guovlu" tags="n.*"><select lemma="suunta" tags="n.*"/></match>
+     </rule>
+     <rule weight="0.5">
+       <match lemma="guovlu" tags="n.*"><select lemma="seutu" tags="n.*"/></match>
+     </rule>
+     <rule weight="0.5">
+       <match lemma="guovlu" tags="n.*"><select lemma="kampus" tags="n.*"/></match>
+     </rule>
+     <rule weight="0.6">
+	   	<match lemma="universitehta" tags="n.*"/>
+       <match lemma="guovlu" tags="n.*"><select lemma="kampus" tags="n.*"/></match>
+     </rule>
+	  
   <rule weight="1.0">
      <match lemma="goddi" tags="n.*"><select lemma="villiporo" tags="n.*"/></match>
    </rule>
@@ -132,6 +159,13 @@
   </rule>
   <rule weight="0.5">
     <match lemma="seammá" tags="adv.*"><select lemma="yhtä" tags="adv.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="jođán" tags="adj.*"><select lemma="nopea" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.5">
+    <match lemma="jođán" tags="adj.*"><select lemma="nopsa" tags="adj.*"/></match>
   </rule>
 
   <rule weight="1.0"><!-- rules to be written -->
