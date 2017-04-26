@@ -91,6 +91,24 @@
     <match lemma="girji" tags="n.*"><select lemma="kirjonta" tags="n.*"/></match>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="sápmi" tags="n.*"><select lemma="saamelainen" tags="n.*"/></match>
+  </rule>
+  <rule weight="0.5">
+    <match lemma="sápmi" tags="n.*"><select lemma="saame" tags="n.*"/></match>
+  </rule>
+  
+  <rule weight="1.0">
+     <match lemma="goddi" tags="n.*"><select lemma="villiporo" tags="n.*"/></match>
+   </rule>
+   <rule weight="0.5">
+     <match lemma="goddi" tags="n.*"><select lemma="kunta" tags="n.*"/></match>
+   </rule>
+   <rule weight="0.6">
+     <match  tags="*.cmp"/>
+     <match lemma="goddi" tags="n.*"><select lemma="kunta" tags="n.*"/></match>
+   </rule>
+ 
   <rule weight="1.0"><!-- rules to be written -->
     <match lemma="eadni" tags="n.*"><select lemma="äiti" tags="n.*"/></match>
   </rule>
