@@ -2225,7 +2225,7 @@
     <e><p><l>gobmi<s n="n"/></l><r>aave<s n="n"/></r></p></e>
     <e><p><l>gobmi<s n="n"/></l><r>kummitus<s n="n"/></r></p></e>
     <e><p><l>goddesáhpán<s n="n"/></l><r>sopuli<s n="n"/></r></p></e>
-    <e><p><l>goddi<s n="n"/><s n="nomag"/></l><r>peura<s n="n"/></r></p></e>
+    <e><p><l>goddi<s n="n"/><s n="nomag"/></l><r>tappaja<s n="n"/></r></p></e>
     <e><p><l>goddin<s n="n"/></l><r>tappaminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>gohcci<s n="n"/></l><r>valvoja<s n="n"/></r></p></e>
     <e><p><l>gohcci<s n="n"/><s n="nomag"/></l><r>valvoja<s n="n"/></r></p></e>
@@ -16681,7 +16681,6 @@
     <e><p><l>válddahit<s n="vblex"/><s n="tv"/></l><r>kuvata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>vuhtiiváldit<s n="vblex"/><s n="tv"/></l><r>huomioonottaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>válddihit<s n="vblex"/><s n="tv"/></l><r>otattaa<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>váldit<s n="vblex"/><s n="tv"/></l><r>kaapata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>váldit<s n="vblex"/><s n="tv"/></l><r>ottaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>váldáladdat<s n="vblex"/><s n="tv"/></l><r>nappailla<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>váldáladdat<s n="vblex"/><s n="tv"/></l><r>napsia<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -17198,7 +17197,7 @@
 <e><p><l>bargoortnet<s n="n"/></l><r>työjärjestys<s n="n"/></r></p></e>
 <e><p><l>álbmogiidgaskasaš<s n="adj"/></l><r>kansankeskeinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 
-<e><p><l>goddi<s n="n"/></l><r>peura<s n="n"/></r></p></e>
+<e><p><l>goddi<s n="n"/></l><r>kunta<s n="n"/></r></p></e>
 <e><p><l>goddi<s n="n"/></l><r>villiporo<s n="n"/></r></p></e>
 <!--<e><p><l>doalli<s n="n"/></l><r>tenivä<s n="n"/></r></p></e>-->
 <!--<e><p><l>doalli<s n="n"/></l><r>pitävä<s n="n"/></r></p></e>-->
