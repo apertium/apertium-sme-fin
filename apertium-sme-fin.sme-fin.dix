@@ -842,6 +842,7 @@
     <e><p><l>badjelbáza<s n="n"/></l><r>ylijäämä<s n="n"/></r></p></e>
     <e><p><l>badjeolmmoš<s n="n"/></l><r>porosaamelainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>badjesápmelaš<s n="n"/></l><r>porosaamelainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
+    <e><p><l>badjesápmi<s n="n"/></l><r>porosaamelainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>badjosat<s n="n"/></l><r>ylänkö<s n="n"/></r></p></e>
     <e><p><l>badni<s n="n"/></l><r>kehrääjä<s n="n"/></r></p></e>
     <e><p><l>bagadallan<s n="n"/></l><r>ohjaus<s n="n"/></r></p></e>
@@ -13353,6 +13354,7 @@
     <e><p><l>gerges<s n="adj"/></l><r>joutuisa<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>gerolmas<s n="adj"/></l><r>kuuluisa<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>giddat<s n="adj"/></l><r>kiinteä<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>guoktilaš<s n="adj"/></l><r>kiero<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>gielalaš<s n="adj"/></l><r>kielellinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>gielddus<s n="adj"/></l><r>kielletty<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>gierdavaš<s n="adj"/></l><r>kärsivällinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
@@ -14677,6 +14679,7 @@
     <e><p><l>bajidit<s n="vblex"/><s n="tv"/></l><r>nostaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>bajásdoallat<s n="vblex"/><s n="tv"/></l><r>ylläpitää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>bajásgeassit<s n="vblex"/><s n="tv"/></l><r>kasvattaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>bajásšaddat<s n="vblex"/><s n="iv"/></l><r>varttua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>baladit<s n="vblex"/><s n="iv"/></l><r>pelkäillä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>baldalit<s n="vblex"/><s n="tv"/></l><r>pelotella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>balddihit<s n="vblex"/><s n="tv"/></l><r>pelästyttää<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -15951,6 +15954,7 @@
     <e><p><l>nammadit<s n="vblex"/><s n="tv"/></l><r>nimittää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>namuhit<s n="vblex"/><s n="tv"/></l><r>nimetä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>nannet<s n="vblex"/><s n="tv"/></l><r>vahvistaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>nannet<s n="vblex"/><s n="tv"/></l><r>lujittaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>nanosmahttit<s n="vblex"/><s n="tv"/></l><r>vahvistaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>navddašit<s n="vblex"/><s n="tv"/></l><r>nimitellä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>navdit<s n="vblex"/><s n="tv"/></l><r>olettaa<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -16186,6 +16190,7 @@
     <e><p><l>riitát<s n="vblex"/><s n="iv"/></l><r>riittää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>rivvet<s n="vblex"/><s n="tv"/></l><r>kaapata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>riŋget<s n="vblex"/><s n="tv"/></l><r>soittaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>surfet<s n="vblex"/><s n="iv"/></l><r>surffata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>riššudit<s n="vblex"/><s n="iv"/></l><r>hätiköidä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>roahkasmit<s n="vblex"/><s n="iv"/></l><r>rohkaistua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>roahkasmuvvat<s n="vblex"/><s n="iv"/></l><r>rohkaistua<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -17209,7 +17214,6 @@
 <e><p><l>badjeolmmoš<s n="n"/></l><r>poronhoitaja<s n="n"/></r></p></e>
 <!--<e><p><l>várra<s n="n"/></l><r>varmaan<s n="n"/></r></p></e>-->
 <e><p><l>riikkarádjá<s n="n"/></l><r>valtionraja<s n="n"/></r></p></e>
-<e><p><l>riikkarádjá<s n="n"/></l><r>riikinraja<s n="n"/></r></p></e>
 <e><p><l>busse<s n="n"/><s n="g3"/></l><r>pussi<s n="n"/></r></p></e>
 <e><p><l>busse<s n="n"/><s n="g3"/></l><r>bussi<s n="n"/></r></p></e>
 <e><p><l>heittot<s n="n"/></l><r>heikko<s n="n"/></r></p></e>
@@ -17219,7 +17223,6 @@
 <!--<e><p><l>sisti<s n="n"/></l><r>sisällä<s n="n"/></r></p></e>-->
 <!--<e><p><l>sisti<s n="n"/></l><r>sisna<s n="n"/></r></p></e>-->
 <e><p><l>riikkarádji<s n="n"/></l><r>valtionraja<s n="n"/></r></p></e>
-<e><p><l>riikkarádji<s n="n"/></l><r>riikinraja<s n="n"/></r></p></e>
 <e><p><l>váimmus<s n="n"/></l><r>atomiydin<s n="n"/></r></p></e>
 <e><p><l>váimmus<s n="n"/></l><r>puuydin<s n="n"/></r></p></e>
 <e><p><l>goddin<s n="n"/></l><r>saaminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
@@ -19807,6 +19810,11 @@
 <e><p><l>ráđđádallangoddi<s n="n"/></l><r>neuvottelukunta<s n="n"/></r></p></e>
 <e><p><l>čálašeapmi<s n="n"/></l><r>kirjoittelu<s n="n"/></r></p></e>
 <e><p><l>váldodeaddu<s n="n"/></l><r>pääpaino<s n="n"/></r></p></e>
+<e><p><l>gonagasbárra<s n="n"/></l><r>kuningaspari<s n="n"/></r></p></e>
+<e><p><l>ruvdnaprinsa<s n="n"/></l><r>kruununprinssi<s n="n"/></r></p></e>
+<e><p><l>ruvdnaprinseassa<s n="n"/></l><r>kruununprinsessa<s n="n"/></r></p></e>
+<e><p><l>láidehus<s n="n"/></l><r>johdanto<s n="n"/></r></p></e>
+<e><p><l>koloniseren<s n="n"/></l><r>kolonisaatio<s n="n"/></r></p></e>
 <e><p><l>álgovuolggalaš<s n="adj"/></l><r>alkuperäinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>miehtemielalaš<s n="adj"/></l><r>myötämielinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>sámediggepresideantta<s n="n"/></l><r>saamelaiskäräjien<b/>presidentti<s n="n"/></r></p></e>
