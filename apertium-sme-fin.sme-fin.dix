@@ -1788,10 +1788,8 @@
     <e><p><l>ealet<s n="n"/></l><r>elukka<s n="n"/></r></p></e>
     <e><p><l>ealga<s n="n"/></l><r>hirvi<s n="n"/></r></p></e>
     <e><p><l>ealgabeana<s n="n"/></l><r>hirvikoira<s n="n"/></r></p></e>
-    <e><p><l>ealgabivdi<s n="n"/></l><r>hirvenpyynti<s n="n"/></r></p></e>
-    <e><p><l>ealgabivdi<s n="n"/><s n="nomag"/></l><r>hirvenpyynti<s n="n"/></r></p></e>
+    <e><p><l>ealgabivdi<s n="n"/><s n="nomag"/></l><r>hirvenpyytäjä<s n="n"/></r></p></e>
     <e><p><l>ealgabivdu<s n="n"/></l><r>hirvenpyynti<s n="n"/></r></p></e>
-    <e><p><l>ealgabivdu<s n="n"/><s n="nomag"/></l><r>hirvenpyynti<s n="n"/></r></p></e>
     <e><p><l>ealli<s n="n"/><s n="nomag"/></l><r>eläin<s n="n"/></r></p></e>
     <e><p><l>ealli<s n="n"/><s n="nomag"/></l><r>elämä<s n="n"/></r></p></e>
     <e><p><l>eallin<s n="n"/></l><r>elo<s n="n"/></r></p></e>
@@ -15296,6 +15294,9 @@
     <e><p><l>geahččalit<s n="vblex"/><s n="tv"/></l><r>pyrkiä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>geahččalit<s n="vblex"/><s n="tv"/></l><r>yrittää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>geahččat<s n="vblex"/><s n="tv"/></l><r>katsoa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>fáŋget<s n="vblex"/><s n="tv"/></l><r>vangita<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>normaliseret<s n="vblex"/><s n="tv"/></l><r>normalisoida<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>jaskkodahttit<s n="vblex"/><s n="tv"/></l><r>vaientaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gealdit<s n="vblex"/><s n="tv"/></l><r>virittää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>geallat<s n="vblex"/><s n="tv"/></l><r>kiillottaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>geardduhit<s n="vblex"/><s n="tv"/></l><r>kerrata<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -15674,6 +15675,9 @@
     <e><p><l>juogadit<s n="vblex"/><s n="tv"/></l><r>jakaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>juohkašuvvat<s n="vblex"/><s n="iv"/></l><r>jakaantua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>juohkit<s n="vblex"/><s n="tv"/></l><r>jakaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>doahttalit<s n="vblex"/><s n="tv"/></l><r>noudattaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>njeaidit<s n="vblex"/><s n="tv"/></l><r>kaataa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>jugistit<s n="vblex"/><s n="tv"/></l><r>ryypätä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>juohkásit<s n="vblex"/><s n="iv"/></l><r>jakautua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>juoigat<s n="vblex"/><s n="iv"/></l><r>joikata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>juoigat<s n="vblex"/><s n="tv"/></l><r>joikata<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -16625,6 +16629,7 @@
     <e><p><l>vuoitit<s n="vblex"/><s n="tv"/></l><r>voittaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>vuoiŋŋastit<s n="vblex"/><s n="iv"/></l><r>levätä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>vuoiŋŋidit<s n="vblex"/><s n="tv"/></l><r>moittia<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>moaitit<s n="vblex"/><s n="tv"/></l><r>moittia<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>vuoiŋŋihit<s n="vblex"/><s n="iv"/></l><r>hengähtää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>vuojahit<s n="vblex"/><s n="tv"/></l><r>uittaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>vuojašit<s n="vblex"/><s n="iv"/></l><r>ajella<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -16730,6 +16735,8 @@
     <e><p><l>álggahit<s n="vblex"/><s n="tv"/></l><r>alustaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>álgit<s n="vblex"/><s n="iv"/></l><r>alkaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>álkidahttit<s n="vblex"/><s n="tv"/></l><r>helpottaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>álkidit<s n="vblex"/><s n="tv"/></l><r>helpottaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>háhpohallat<s n="vblex"/><s n="tv"/></l><r>havitella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>álkidahttit<s n="vblex"/><s n="tv"/></l><r>yksinkertaistaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>állanaddat<s n="vblex"/><s n="iv"/></l><r>kallistella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>állanit<s n="vblex"/><s n="iv"/></l><r>kallistua<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -18155,6 +18162,7 @@
 <e><p><l>maŋŋá<s n="adv"/></l><r>myöhemmin<s n="adv"/></r></p></e>
 <e><p><l>mealgat<s n="adv"/></l><r>melko<s n="part"/></r></p></e>
 <e><p><l>measta<s n="adv"/></l><r>melkein<s n="adv"/></r></p></e>
+<e><p><l>goasii<s n="adv"/></l><r>melkein<s n="adv"/></r></p></e>
 <e><p><l>meattá<s n="adv"/></l><r>ohi<s n="adv"/></r></p></e>
 <e><p><l>menddo<s n="adv"/></l><r>kaukana<s n="adv"/></r></p></e>
 <e><p><l>miehtut<s n="adv"/></l><r>pitkittäin<s n="adv"/></r></p></e>
@@ -19815,9 +19823,21 @@
 <e><p><l>ruvdnaprinseassa<s n="n"/></l><r>kruununprinsessa<s n="n"/></r></p></e>
 <e><p><l>láidehus<s n="n"/></l><r>johdanto<s n="n"/></r></p></e>
 <e><p><l>koloniseren<s n="n"/></l><r>kolonisaatio<s n="n"/></r></p></e>
+<e><p><l>kollega<s n="n"/></l><r>kollega<s n="n"/></r></p></e>
+<e><p><l>feminista<s n="n"/></l><r>feministi<s n="n"/></r></p></e>
+<e><p><l>foarbma<s n="n"/></l><r>kunto<s n="n"/></r></p></e>
+<e><p><l>promilla<s n="n"/></l><r>promille<s n="n"/></r></p></e>
+<e><p><l>gilo<s n="n"/></l><r>kilo<s n="n"/></r></p></e>
+<e><p><l>symptoma<s n="n"/></l><r>oire<s n="n"/></r></p></e>
+<e><p><l>unnideapmi<s n="n"/></l><r>vähennys<s n="n"/></r></p></e>
+<e><p><l>oaidninčiega<s n="n"/></l><r>näkökulma<s n="n"/></r></p></e>
 <e><p><l>álgovuolggalaš<s n="adj"/></l><r>alkuperäinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>miehtemielalaš<s n="adj"/></l><r>myötämielinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+<e><p><l>ovttabealat<s n="adj"/></l><r>yksipuolinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+<e><p><l>patriarkála<s n="adj"/></l><r>patriarkaalinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+<e><p><l>autonomalaš<s n="adj"/></l><r>autonominen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>sámediggepresideantta<s n="n"/></l><r>saamelaiskäräjien<b/>presidentti<s n="n"/></r></p></e>
+<e><p><l>vuoittáhallat<s n="vblex"/><s n="iv"/></l><r>hävitä<s n="vblex"/></r></p><par n="V_V"/></e>
 
 <e><p><l>kompromissa<s n="n"/><s n="g3"/></l><r>kompromissi<s n="n"/></r></p></e>
 
