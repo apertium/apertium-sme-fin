@@ -728,18 +728,21 @@
     <rule comment="upper-lower case for any word">
       <pattern>
 	<pattern-item n="any"/>
-	</pattern>
-	<action>
-	  <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+      </pattern>
+      <action>
+	<call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <choose><when>
+          <test><not><equal><clip pos="1" side="tl" part="lem"/><lit v=""/></equal></not></test>
 	  <out>
 	    <chunk name="any" case="caseFirstWord">
 	      <tags> <tag> <lit-tag v="any"/> </tag></tags>
 	      <lu>
-		<clip pos="1" side="tl" part="whole"/>
-		</lu>
-		</chunk>
-		</out>
-		</action>
+	        <clip pos="1" side="tl" part="whole"/>
+	      </lu>
+	    </chunk>
+	  </out>
+        </when></choose>
+      </action>
     </rule>
     
   </section-rules>

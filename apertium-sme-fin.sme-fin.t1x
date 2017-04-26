@@ -2708,16 +2708,19 @@
         <call-macro n="default-conversion-nonfin1"><with-param pos="1"/></call-macro>
         <call-macro n="handle-nominal-derivation1"><with-param pos="1"/></call-macro>
         <call-macro n="pcle-foc1"><with-param pos="1"/></call-macro>
-        <out>
-          <chunk name="x" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SX"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
+        <choose><when>
+          <test><not><equal><clip pos="1" side="tl" part="lem"/><lit v=""/></equal></not></test>
+          <out>
+            <chunk name="x" case="caseFirstWord">
+              <tags>
+                <tag><lit-tag v="SX"/></tag>
+              </tags>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+            </chunk>
+          </out>
+        </when></choose>
       </action>
     </rule>
 
