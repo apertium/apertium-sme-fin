@@ -87,6 +87,7 @@
 
     <sdef n="der_ja"    c="Derivation / ja"/>
     <sdef n="der_dimin"    c=""/>
+	<sdef n="sem_hum_lang"    c=""/>
     
     <sdef n="ill"        c="Illative"/>
     
@@ -13402,6 +13403,7 @@
     <e><p><l>gáfat<s n="adj"/></l><r>kauhea<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>gánas<s n="adj"/></l><r>viluinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>gánnáhahtti<s n="adj"/></l><r>kannattava<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>oruhahtti<s n="adj"/></l><r>asuttava<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>gárvvis<s n="adj"/></l><r>valmis<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>gárži<s n="adj"/></l><r>ahdas<s n="adj"/></r></p><par n="uusi__adj"/></e> 
     <e><p><l>gáttimus<s n="adj"/></l><r>rannimmainen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
@@ -14273,7 +14275,7 @@
     <e><p><l>ládje<s n="adv"/></l><r>tapaan<s n="adv"/></r></p></e>
     <e><p><l>earret<b/>eará<s n="adv"/></l><r>muun<b/>muassa<s n="adv"/></r></p></e>
 
-    <e><p><l>baicce<s n="adv"/></l><r>sen<b/>sijan<s n="adv"/></r></p></e>
+    <e><p><l>baicce<s n="adv"/></l><r>sen<b/>sijaan<s n="adv"/></r></p></e>
     <e><p><l>diibmá<s n="adv"/></l><r>viime<b/>vuonna<s n="adv"/></r></p></e>
     <e><p><l>oalát<s n="adv"/></l><r>täydellisesti<s n="adv"/></r></p></e>
     <e><p><l>oalát<s n="adv"/></l><r>täysin<s n="adv"/></r></p></e>
@@ -15197,6 +15199,7 @@
     <e><p><l>evttohit<s n="vblex"/><s n="tv"/></l><r>ehdottaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>fakkastit<s n="vblex"/><s n="tv"/></l><r>koukata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>fakŋalahttit<s n="vblex"/><s n="tv"/></l><r>kurkottaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>čuožžilahttit<s n="vblex"/><s n="tv"/></l><r>nostattaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>fallehit<s n="vblex"/><s n="iv"/></l><r>hyökätä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>falástallat<s n="vblex"/><s n="iv"/></l><r>urheilla<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>faláštallat<s n="vblex"/><s n="iv"/></l><r>urheilla<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -15285,6 +15288,10 @@
     <e><p><l>geahpedit<s n="vblex"/><s n="tv"/></l><r>keventää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>geahpidit<s n="vblex"/><s n="tv"/></l><r>keventää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>geahppánit<s n="vblex"/><s n="iv"/></l><r>keventyä<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>mieskat<s n="vblex"/><s n="iv"/></l><r>lahota<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>čoahkkinastit<s n="vblex"/><s n="iv"/></l><r>kokoustaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>birgehallat<s n="vblex"/><s n="iv"/></l><r>pärjätä<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>čáhkket<s n="vblex"/><s n="tv"/></l><r>väistyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>geahčadit<s n="vblex"/><s n="tv"/></l><r>katsella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>geahčastit<s n="vblex"/><s n="tv"/></l><r>katsella<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>geahččaladdat<s n="vblex"/><s n="tv"/></l><r>koetella<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -18036,6 +18043,7 @@
 <e><p><l>dieđus<s n="adv"/></l><r>tietysti<s n="adv"/></r></p></e>
 <e><p><l>doaisttážii<s n="adv"/></l><r>toistaiseksi<s n="adv"/></r></p></e>
 <e><p><l>doarrás<s n="adv"/></l><r>poikittain<s n="adv"/></r></p></e>
+<e><p><l>vitnjut<s n="adv"/></l><r>vinossa<s n="adv"/></r></p></e>
 <e><p><l>doarvái<s n="adv"/></l><r>tarpeeksi<s n="adv"/></r></p></e>
 <e><p><l>dobbelii<s n="adv"/></l><r>sinnemmäs<s n="adv"/></r></p></e>
 <!--<e><p><l>dohkálaččat<s n="adv"/></l><r>kelvollinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>-->
@@ -18170,6 +18178,7 @@
 <e><p><l>mielde<s n="adv"/></l><r>mukaan<s n="adv"/></r></p></e>
 <e><p><l>mihá<s n="adv"/></l><r>melko<s n="part"/></r></p></e>
 <e><p><l>mista<s n="adv"/></l><r>vahingossa<s n="adv"/></r></p></e>
+<e><p><l>botnjut<s n="adv"/></l><r>kierossa<s n="adv"/></r></p></e>
 <e><p><l>mo<s n="adv"/></l><r>kuinka<s n="adv"/></r></p></e>
 <e><p><l>moktige<s n="adv"/></l><r>mitenkään<s n="adv"/></r></p></e>
 <e><p><l>movt<s n="adv"/></l><r>miten<s n="adv"/></r></p></e>
@@ -18946,9 +18955,9 @@
 <e><p><l>sáhka<s n="n"/></l><r>kerrottava<s n="n"/></r></p></e>
 <e><p><l>sáhppi<s n="n"/></l><r>marjamehu<s n="n"/></r></p></e>
 <e><p><l>sáidi<s n="n"/></l><r>sei<s n="n"/></r></p></e>
-    <e><p><l>sámediggi<s n="n"/><s n="sg"/></l><r>saamelaiskäräjät<s n="n"/><s n="pl"/></r></p></e>
+<e><p><l>sámediggi<s n="n"/><s n="sg"/></l><r>saamelaiskäräjät<s n="n"/><s n="pl"/></r></p></e>
 <e><p><l>sámpá<s n="n"/></l><r>sammas<s n="n"/></r></p></e>
-<e><p><l>sápmi<s n="n"/></l><r>saamelainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
+<e><p><l>sápmi<s n="n"/><s n="sem_hum_lang"/></l><r>saamelainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
 <e><p><l>sárdi<s n="n"/></l><r>kylkiluu<s n="n"/></r></p></e>
 <e><p><l>tiibmaplána<s n="n"/></l><r>lukujärjestys<s n="n"/></r></p></e>
 <e><p><l>tiida<s n="n"/></l><r>taika<s n="n"/></r></p></e>
@@ -19831,6 +19840,11 @@
 <e><p><l>symptoma<s n="n"/></l><r>oire<s n="n"/></r></p></e>
 <e><p><l>unnideapmi<s n="n"/></l><r>vähennys<s n="n"/></r></p></e>
 <e><p><l>oaidninčiega<s n="n"/></l><r>näkökulma<s n="n"/></r></p></e>
+<e><p><l>reliefa<s n="n"/></l><r>reliefi<s n="n"/></r></p></e>
+<e><p><l>muitosátni<s n="n"/></l><r>muistokirjoitus<s n="n"/></r></p></e>
+<e><p><l>eaiggátvuohta<s n="n"/></l><r>omistajuus<s n="n"/></r></p></e>
+<e><p><l>unohisvuohta<s n="n"/></l><r>hankaluus<s n="n"/></r></p></e>
+<e><p><l>ruvdnaprinsabárra<s n="n"/></l><r>kruununprinssipari<s n="n"/></r></p></e>
 <e><p><l>álgovuolggalaš<s n="adj"/></l><r>alkuperäinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>miehtemielalaš<s n="adj"/></l><r>myötämielinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>ovttabealat<s n="adj"/></l><r>yksipuolinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
