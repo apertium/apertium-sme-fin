@@ -136,6 +136,44 @@
      <match lemma="goddi" tags="n.*"><select lemma="kunta" tags="n.*"/></match>
    </rule>
  
+   <rule weight="1.0">
+     <match lemma="čájehit" tags="vblex.*"><select lemma="näyttää" tags="vblex.*"/></match>
+   </rule>
+   <rule weight="0.5">
+     <match lemma="čájehit" tags="vblex.*"><select lemma="ilmentää" tags="vblex.*"/></match>
+   </rule>
+   
+   <rule weight="1.0">
+     <match lemma="lohkat" tags="vblex.*"><select lemma="lukea" tags="vblex.*"/></match>
+   </rule>
+   <rule weight="0.5">
+     <match lemma="lohkat" tags="vblex.*"><select lemma="laskea" tags="vblex.*"/></match>
+   </rule>
+   <rule weight="0.5">
+     <match lemma="lohkat" tags="vblex.*"><select lemma="sanoa" tags="vblex.*"/></match>
+   </rule>
+   
+   <rule weight="1.0">
+     <match lemma="čállit" tags="vblex.*"><select lemma="kirjoittaa" tags="vblex.*"/></match>
+   </rule>
+   <rule weight="0.5">
+     <match lemma="čállit" tags="vblex.*"><select lemma="avata" tags="vblex.*"/></match>
+   </rule>
+   
+   <rule weight="1.0">
+     <match lemma="gákti" tags="n.*"><select lemma="lapinpuku" tags="n.*"/></match>
+   </rule>
+   <rule weight="0.6">
+     <match lemma="gákti" tags="n.*"><select lemma="viitta" tags="n.*"/></match>
+   </rule>
+   
+   <rule weight="1.0">
+     <match lemma="čujuhus" tags="n.*"><select lemma="osoite" tags="n.*"/></match>
+   </rule>
+   <rule weight="0.6">
+     <match lemma="čujuhus" tags="n.*"><select lemma="viite" tags="n.*"/></match>
+   </rule>
+   
   <rule weight="1.0"><!-- rules to be written -->
     <match lemma="eadni" tags="n.*"><select lemma="äiti" tags="n.*"/></match>
   </rule>
@@ -166,6 +204,13 @@
   </rule>
   <rule weight="0.5">
     <match lemma="jođán" tags="adj.*"><select lemma="nopsa" tags="adj.*"/></match>
+  </rule>
+
+  <rule weight="1.0">
+    <match lemma="fiinnis" tags="adj.*"><select lemma="hieno" tags="adj.*"/></match>
+  </rule>
+  <rule weight="0.5">
+    <match lemma="fiinnis" tags="adj.*"><select lemma="ohut" tags="adj.*"/></match>
   </rule>
 
   <rule weight="1.0"><!-- rules to be written -->
