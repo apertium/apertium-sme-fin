@@ -13298,7 +13298,7 @@
     <e><p><l>erenoamáš<s n="adj"/></l><r>erityinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>eurohpalaš<s n="adj"/></l><r>eurooppalainen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>evttolaš<s n="adj"/></l><r>ehdollinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
-    <e><p><l>evttolaš<s n="adj"/></l><r>tahallinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <!--><e><p><l>evttolaš<s n="adj"/></l><r>tahallinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>-->
     <e><p><l>falli<s n="adj"/></l><r>nopea<s n="adj"/></r></p><par n="uusi__adj"/></e> 
     <e><p><l>farisealaš<s n="adj"/></l><r>farisealainen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>faskár<s n="adj"/></l><r>varasteleva<s n="adj"/></r></p><par n="uusi__adj"/></e>
@@ -13478,14 +13478,14 @@
     <e><p><l>sirbmálaš<s n="adj"/></l><r>sirmalainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>palestinalaš<s n="adj"/></l><r>palestinalainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>romsalaš<s n="adj"/></l><r>tromssalainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>hámmárfeastalaš<s n="adj"/></l><r>hammerfestilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>hámmárfeastalaš<s n="adj"/></l><r>hammerfestiläinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>leavdnjalaš<s n="adj"/></l><r>lemmijokelainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>kárášjohkalaš<s n="adj"/></l><r>kaarasjokelainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>porsáŋgulaš<s n="adj"/></l><r>porsankilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>finnmárkulaš<s n="adj"/></l><r>finnmarkilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>anárlaš<s n="adj"/></l><r>inarilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>sierralaš<s n="adj"/></l><r>erilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>lutherána<s n="adj"/></l><r>lutherilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>lutherána<s n="adj"/></l><r>luterilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>mázelaš<s n="adj"/></l><r>masilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>islándalaš<s n="adj"/></l><r>islantilainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>seammaládje<s n="adj"/></l><r>samanlainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
@@ -13504,7 +13504,7 @@
     <e><p><l>rinzzas<s n="adj"/></l><r>pallovatsainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>speaččas<s n="adj"/></l><r>latuskarintainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>máhken<s n="adj"/></l><r>vertainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>gaskamearálaš<s n="adj"/></l><r>keskivertainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>gaskamearálaš<s n="adj"/></l><r>keskimääräinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>juoigalas<s n="adj"/></l><r>joikaavainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>máššil<s n="adj"/></l><r>malttavainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>gollolas<s n="adj"/></l><r>palelevainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
@@ -13516,7 +13516,7 @@
     <e><p><l>obmui<s n="adj"/></l><r>silmäkkeinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>erenoamášpedagogalaš<s n="adj"/></l><r>erikoispedagoginen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>ekologalaš<s n="adj"/></l><r>ekolooginen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>psykologalaš<s n="adj"/></l><r>psykolooginen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>psykologalaš<s n="adj"/></l><r>psykologinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>beasseheapme<s n="adj"/></l><r>vähätuohinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>hegges<s n="adj"/></l><r>sitkeähenkinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>heggeš<s n="adj"/></l><r>sitkeähenkinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
@@ -13525,7 +13525,7 @@
     <e><p><l>golmmagielat<s n="adj"/></l><r>kolmekielinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>kultturhistorjjálaš<s n="adj"/></l><r>kultuurihistoriallinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>dagolaš<s n="adj"/></l><r>velallinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>ođđamállet<s n="adj"/></l><r>uusimallinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>ođđamállet<s n="adj"/></l><r>uudenmallinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>sorpmálaš<s n="adj"/></l><r>hengenvaarallinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>hohpolaš<s n="adj"/></l><r>kiireellinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>meteorologalaš<s n="adj"/></l><r>säätieteellinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
@@ -13539,21 +13539,21 @@
     <e><p><l>sorpmálaš<s n="adj"/></l><r>murhanhimoinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>oaktái<s n="adj"/></l><r>kuuroinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>leahkkái<s n="adj"/></l><r>laaksoinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>iešdáhtolaš<s n="adj"/></l><r>itsetahtoinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>iešdáhtolaš<s n="adj"/></l><r>tahallinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>mielkkas<s n="adj"/></l><r>runsasmaitoinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>caggasan<s n="adj"/></l><r>estoinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>vearrasaš<s n="adj"/></l><r>-arvoinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>veartasaš<s n="adj"/></l><r>-arvoinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>allaárvosaš<s n="adj"/></l><r>aliarvoinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>allaárvosaš<s n="adj"/></l><r>korkea-arvoinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>sudnjui<s n="adj"/></l><r>rimpinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>nuoraidpsykiátralaš<s n="adj"/></l><r>nuorisopsykiatrinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>asálaš<s n="adj"/></l><r>paksuketinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>sámepolitihkalaš<s n="adj"/></l><r>saamepoliittinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>sámepolitihkalaš<s n="adj"/></l><r>saamelaispoliittinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>nuoraidpolitihkalaš<s n="adj"/></l><r>nuorisopoliittinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>kuonna<s n="adj"/></l><r>virtsanhajuinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>mánnosaš<s n="adj"/></l><r>-kuinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>ruvdnosaš<s n="adj"/></l><r>kruunuinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>venzolas<s n="adj"/></l><r>vollottavinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>venzolas<s n="adj"/></l><r>vollottavainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>jávrreheapme<s n="adj"/></l><r>vähäjärvinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>čurttas<s n="adj"/></l><r>isopyllyinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>borgái<s n="adj"/></l><r>pyryinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
@@ -13657,7 +13657,7 @@
     <e><p><l>veaittalas<s n="adj"/></l><r>paimentamaton<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>jođuheapme<s n="adj"/></l><r>luistamaton<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>čálekeahtes<s n="adj"/></l><r>kirjoittamaton<s n="adj"/></r></p><par n="uusi__adj"/></e>
-    <e><p><l>vuordemeahttun<s n="adj"/></l><r>odotuksematon<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>vuordemeahttun<s n="adj"/></l><r>odotukseton<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>oaraheapme<s n="adj"/></l><r>nuoraton<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>mieseheapme<s n="adj"/></l><r>vasaton<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>gielaheapme<s n="adj"/></l><r>ansaton<s n="adj"/></r></p><par n="uusi__adj"/></e>
@@ -14196,10 +14196,11 @@
     <e><p><l>šiervvas<s n="adj"/></l><r>hento<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>šloaŋggas<s n="adj"/></l><r>laiskanpulskea<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>smáiti<s n="adj"/></l><r>harmaakaihi<s n="adj"/></r></p><par n="uusi__adj"/></e>
-    <e><p><l>jáhkehahtti<s n="adj"/></l><r>luultavasti<s n="adj"/></r></p><par n="uusi__adj"/></e>
-    <e><p><l>vuosttamuš<s n="adj"/></l><r>ensisijaisesti<s n="adj"/></r></p><par n="uusi__adj"/></e>
-    <e><p><l>ovttajienalaš<s n="adj"/></l><r>yksimielisesti<s n="adj"/></r></p><par n="uusi__adj"/></e>
-    <e><p><l>ipmilhis<s n="adj"/></l><r>jumalattoman<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>jáhkehahtti<s n="adj"/></l><r>luultava<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>jáhkehahtti<s n="adj"/></l><r>uskottava<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>vuosttamuš<s n="adj"/></l><r>ensisijainen<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>ovttajienalaš<s n="adj"/></l><r>yksimielinen<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>ipmilhis<s n="adj"/></l><r>jumalaton<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>bárrahaš<s n="adj"/></l><r>paraskin<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>veasttamus<s n="adj"/></l><r>läntisin<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>lulimus<s n="adj"/></l><r>eteläisin<s n="adj"/></r></p><par n="uusi__adj"/></e>
@@ -14213,7 +14214,6 @@
     <e><p><l>duoldalas<s n="adj"/></l><r>puhelias<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>veahkálaš<s n="adj"/></l><r>avulias<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>dadnái<s n="adj"/></l><r>tinakas<s n="adj"/></r></p><par n="uusi__adj"/></e>
-    <e><p><l>ráiddolaš<s n="adj"/></l><r>raitomies<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>borrái<s n="adj"/></l><r>särmikäs<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>molddas<s n="adj"/></l><r>murentunut<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>čuvkui<s n="adj"/></l><r>juoksettunut<s n="adj"/></r></p><par n="uusi__adj"/></e>
@@ -14230,7 +14230,7 @@
     <e><p><l>čuvdda<s n="adj"/></l><r>löyhkä<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>čirrolas<s n="adj"/></l><r>itkunherkkä<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>eavas<s n="adj"/></l><r>itkunherkkä<s n="adj"/></r></p><par n="uusi__adj"/></e>
-    <e><p><l>moivvas<s n="adj"/></l><r>epäselkä<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>moivvas<s n="adj"/></l><r>epäselvä<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>njirvvas<s n="adj"/></l><r>likomärkä<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>nalttas<s n="adj"/></l><r>pätkä<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>gárkka<s n="adj"/></l><r>kitkerä<s n="adj"/></r></p><par n="uusi__adj"/></e>
@@ -17988,6 +17988,7 @@
 <e><p><l>musikálalaš<s n="adj"/></l><r>musikaalinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
 <e><p><l>inhabiila<s n="adj"/></l><r>jäävi<s n="adj"/></r></p><par n="uusi__adj"/></e>
 <e><p><l>agálaččat<s n="adv"/></l><r>ikuisesti<s n="adv"/></r></p></e>
+<e><p><l>ovdasajis<s n="adv"/></l><r>ensisijaisesti<s n="adv"/></r></p></e>
 <e><p><l>agás<s n="adv"/></l><r>iäksi<s n="adv"/></r></p></e>
 <e><p><l>ahkásii<s n="adv"/></l><r>iäksi<s n="adv"/></r></p></e>
 <e><p><l>aiddo<s n="adv"/></l><r>juuri<s n="part"/></r></p></e>
@@ -18283,6 +18284,7 @@
 <e><p><l>veastal<s n="adv"/></l><r>lännempää<s n="adv"/></r></p></e>
 <e><p><l>veastalii<s n="adv"/></l><r>lännemmäs<s n="adv"/></r></p></e>
 <e><p><l>veháš<s n="adv"/></l><r>vähän<s n="adv"/></r></p></e>
+<e><p><l>binná<s n="adv"/></l><r>vähän<s n="adv"/></r></p></e>
 <e><p><l>vejolaččat<s n="adv"/></l><r>mahdollisesti<s n="adv"/></r></p></e>
 <e><p><l>veret<s n="adv"/></l><r>väärin<s n="adv"/></r></p></e>
 <e><p><l>vihttii<s n="adv"/></l><r>viidesti<s n="adv"/></r></p></e>
@@ -19470,7 +19472,7 @@
 <e><p><l>astronávta<s n="n"/></l><r>avaruusmies<s n="n"/></r></p></e>
 <e><p><l>automáhtta<s n="n"/></l><r>automaatti<s n="n"/></r></p></e>
 <e><p><l>badjegánda<s n="n"/></l><r>poropoika<s n="n"/></r></p></e>
-<e><p><l>bajádus<s n="n"/></l><r>nostettava<s n="n"/></r></p></e>
+<e><p><l>bajádus<s n="n"/></l><r>korotus<s n="n"/></r></p></e>
 <e><p><l>bajásráhkadus<s n="n"/></l><r>ylösrakennus<s n="n"/></r></p></e>
 <e><p><l>barju<s n="n"/></l><r>tunturilainen<s n="n"/></r></p></e>
 <e><p><l>beassášlávvardat<s n="n"/></l><r>pääsiäisilta<s n="n"/></r></p></e>
@@ -19484,7 +19486,6 @@
 <e><p><l>beavddáš<s n="n"/></l><r>pöytänen<s n="n"/></r></p></e>
 <e><p><l>bejot<s n="n"/></l><r>valkko<s n="n"/></r></p></e>
 <e><p><l>beđoohtte<s n="n"/></l><r>tasakertahirsi<s n="n"/></r></p></e>
-<e><p><l>binná<s n="n"/></l><r>vähän<s n="n"/></r></p></e>
 <e><p><l>bivdinmuddu<s n="n"/></l><r>pyyntietäisyys<s n="n"/></r></p></e>
 <e><p><l>bivdinvuohki<s n="n"/></l><r>pyyntitapa<s n="n"/></r></p></e>
 <e><p><l>boazoguohtunlávdegoddi<s n="n"/></l><r>porolaidunlautakunta<s n="n"/></r></p></e>
@@ -19500,7 +19501,7 @@
 <e><p><l>bulži<s n="n"/></l><r>jääkuori<s n="n"/></r></p></e>
 <e><p><l>buolbmágaš<s n="n"/></l><r>pulmankilainen<s n="n"/></r></p></e>
 <e><p><l>buorggár<s n="n"/></l><r>upporikas<s n="n"/></r></p></e>
-<e><p><l>buođga<s n="n"/></l><r>nivus<s n="n"/></r></p></e>
+<e><p><l>buođga<s n="n"/></l><r>nivunen<s n="n"/></r></p></e>
 <e><p><l>báhčinguovlu<s n="n"/></l><r>ampuma-alue<s n="n"/></r></p></e>
 <e><p><l>báinna<s n="n"/></l><r>värjäysaine<s n="n"/></r></p></e>
 <e><p><l>bákŋi<s n="n"/></l><r>sarventyvi<s n="n"/></r></p></e>
@@ -19531,7 +19532,7 @@
 <e><p><l>fearahas<s n="n"/></l><r>veistolastu<s n="n"/></r></p></e>
 <e><p><l>ferkkon<s n="n"/></l><r>risukirves<s n="n"/></r></p></e>
 <e><p><l>fertenvuohta<s n="n"/></l><r>täytymys<s n="n"/></r></p></e>
-<e><p><l>fiervá<s n="n"/></l><r>fieru<s n="n"/></r></p></e>
+<e><p><l>fiervá<s n="n"/></l><r>hierua<s n="n"/></r></p></e>
 <e><p><l>filttar<s n="n"/></l><r>kiväärinsuojus<s n="n"/></r></p></e>
 <e><p><l>finnmárkulaš<s n="n"/></l><r>finnmarkkulainen<s n="n"/></r></p></e>
 <e><p><l>finnmárkulaš<s n="n"/></l><r>finnmarkilainen<s n="n"/></r></p></e>
@@ -19676,7 +19677,7 @@
 <e><p><l>rihppa<s n="n"/></l><r>rippi<s n="n"/></r></p></e>
 <e><p><l>risku<s n="n"/></l><r>risku<s n="n"/></r></p></e>
 <e><p><l>risttalašvuohta<s n="n"/></l><r>ristinusko<s n="n"/></r></p></e>
-<e><p><l>risváhnen<s n="n"/></l><r>kummivanhin<s n="n"/></r></p></e>
+<e><p><l>risváhnen<s n="n"/></l><r>kummivanhempi<s n="n"/></r></p></e>
 <e><p><l>rivgovuolpu<s n="n"/></l><r>keräpääpoimulehti<s n="n"/></r></p></e>
 <e><p><l>riŋga<s n="n"/></l><r>uuninrengas<s n="n"/></r></p></e>
 <e><p><l>roatnet<s n="n"/></l><r>kapasiika<s n="n"/></r></p></e>
@@ -19690,6 +19691,7 @@
 <e><p><l>ruškesvuostá<s n="n"/></l><r>kutojuusto<s n="n"/></r></p></e>
 <e><p><l>rádjagidden<s n="n"/></l><r>rajasulku<s n="n"/></r></p></e>
 <e><p><l>ráiddohas<s n="n"/></l><r>raitomies<s n="n"/></r></p></e>
+<e><p><l>ráiddolaš<s n="n"/></l><r>raitomies<s n="n"/></r></p></e>
 <e><p><l>ránan<s n="n"/></l><r>harmo<s n="n"/></r></p></e>
 <e><p><l>rántet<s n="n"/></l><r>halonhakkuupaikka<s n="n"/></r></p></e>
 <e><p><l>rántet<s n="n"/></l><r>rante<s n="n"/></r></p></e>
@@ -19709,7 +19711,7 @@
 <e><p><l>skilkkanas<s n="n"/></l><r>kilkahdus<s n="n"/></r></p></e>
 <e><p><l>skoabádat<s n="n"/></l><r>rahinakeli<s n="n"/></r></p></e>
 <e><p><l>skoalpa<s n="n"/></l><r>norjalaistalonpoika<s n="n"/></r></p></e>
-<e><p><l>skohtercrossa<s n="n"/></l><r>kelkkacrossi<s n="n"/></r></p></e>
+<e><p><l>skohtercrossa<s n="n"/></l><r>kelkkakrossi<s n="n"/></r></p></e>
 <e><p><l>skoret<s n="n"/></l><r>juottokauha<s n="n"/></r></p></e>
 <e><p><l>skuibi<s n="n"/></l><r>tuohisuppilo<s n="n"/></r></p></e>
 <e><p><l>skáhttu<s n="n"/></l><r>valkorausku<s n="n"/></r></p></e>
@@ -19762,7 +19764,7 @@
 <e><p><l>vuosteágga<s n="n"/></l><r>vasta-argumentti<s n="n"/></r></p></e>
 <e><p><l>vuođđudanáššegirji<s n="n"/></l><r>perustamisasiakirja<s n="n"/></r></p></e>
 <e><p><l>váffelmávka<s n="n"/></l><r>vohvelitaikina<s n="n"/></r></p></e>
-<e><p><l>váili<s n="n"/></l><r>vaille<s n="n"/></r></p></e>
+<e><p><l>váili<s n="n"/></l><r>vajaus<s n="n"/></r></p></e>
 <e><p><l>várjjagaš<s n="n"/></l><r>varankilainen<s n="n"/></r></p></e>
 <e><p><l>várta<s n="n"/></l><r>vartti<s n="n"/></r></p></e>
 <e><p><l>várta<s n="n"/></l><r>neljännestunti<s n="n"/></r></p></e>
