@@ -5771,7 +5771,7 @@
     <e><p><l>Ovddádusbellodat<s n="np"/></l><r>Edistyspuolue<s n="np"/></r></p></e>
     <e><p><l>Ovnnesjohka<s n="np"/></l><r>Ounasjoki<s n="np"/></r></p></e>
     <e><p><l>Ovnnesjávri<s n="np"/></l><r>Ounasjärvi<s n="np"/></r></p></e>
-    <e><p><l>Ovttastuvvan<b/>stáhtat<s n="np"/></l><r>Yhdysvalta<s n="np"/></r></p></e>
+    <e><p><l>Ovttastuvvan<b/>stáhtat<s n="np"/></l><r>Yhdysvallat<s n="np"/></r></p></e>
     <e><p><l>Ovttastuvvan<s n="np"/></l><r>Yhdysvalta<s n="np"/></r></p></e>
     <e><p><l>Ođđasat<s n="np"/></l><r>Uutinen<s n="np"/></r></p></e>
     <e><p><l>Paltto<s n="np"/></l><r>Paltto<s n="np"/></r></p></e>
@@ -13580,7 +13580,7 @@
     <e><p><l>issoras<s n="adj"/></l><r>kauhea<s n="adj"/></r></p><par n="uusi__adj"/></e> 
     <e><p><l>ittis<s n="adj"/></l><r>pulska<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>ivnneheapme<s n="adj"/></l><r>kalvakka<s n="adj"/></r></p><par n="uusi__adj"/></e>
-    <e><p><l>jahkásaš<s n="adj"/></l><r>yksivuotinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>jahkásaš<s n="adj"/></l><r>vuotinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>jalahas<s n="adj"/></l><r>pilvetön<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>jalla<s n="adj"/></l><r>tyhmä<s n="adj"/></r></p><par n="uusi__adj"/></e> 
     <e><p><l>jalla<s n="adj"/></l><r>typerä<s n="adj"/></r></p><par n="uusi__adj"/></e> 
@@ -14198,8 +14198,8 @@
     <e><p><l>smáiti<s n="adj"/></l><r>harmaakaihi<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>jáhkehahtti<s n="adj"/></l><r>luultava<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>jáhkehahtti<s n="adj"/></l><r>uskottava<s n="adj"/></r></p><par n="uusi__adj"/></e>
-    <e><p><l>vuosttamuš<s n="adj"/></l><r>ensisijainen<s n="adj"/></r></p><par n="uusi__adj"/></e>
-    <e><p><l>ovttajienalaš<s n="adj"/></l><r>yksimielinen<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>vuosttamuš<s n="adj"/></l><r>ensisijainen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>ovttajienalaš<s n="adj"/></l><r>yksimielinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>ipmilhis<s n="adj"/></l><r>jumalaton<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>bárrahaš<s n="adj"/></l><r>paraskin<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>veasttamus<s n="adj"/></l><r>läntisin<s n="adj"/></r></p><par n="uusi__adj"/></e>
@@ -15385,6 +15385,7 @@
     <e><p><l>gokčat<s n="vblex"/><s n="tv"/></l><r>kattaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gokčat<s n="vblex"/><s n="tv"/></l><r>peittää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gokčat<s n="vblex"/><s n="tv"/></l><r>sulkea<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>spahčat<s n="vblex"/><s n="tv"/></l><r>tutista<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>golahit<s n="vblex"/><s n="tv"/></l><r>kuluttaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>goldnat<s n="vblex"/><s n="iv"/></l><r>kuihtua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>golgat<s n="vblex"/><s n="iv"/></l><r>kiertää<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -15392,6 +15393,7 @@
     <e><p><l>golgat<s n="vblex"/><s n="iv"/></l><r>vuotaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>golket<s n="vblex"/><s n="iv"/></l><r>tyyntyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gollat<s n="vblex"/><s n="iv"/></l><r>kulua<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>vássit<s n="vblex"/><s n="iv"/></l><r>kulua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gollet<s n="vblex"/><s n="tv"/></l><r>kullata<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gomuhit<s n="vblex"/><s n="tv"/></l><r>kumota<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gopmat<s n="vblex"/><s n="iv"/></l><r>kumista<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -16721,6 +16723,8 @@
     <e><p><l>vázzit<s n="vblex"/><s n="iv"/></l><r>kävellä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>áddet<s n="vblex"/><s n="tv"/></l><r>ymmärtää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ádelastit<s n="vblex"/><s n="tv"/></l><r>aateloida<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>guoimmuhit<s n="vblex"/><s n="tv"/></l><r>viihdyttää<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>gievrudahttit<s n="vblex"/><s n="tv"/></l><r>vahvistaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ádjánit<s n="vblex"/><s n="iv"/></l><r>viihtyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>ádjánit<s n="vblex"/><s n="iv"/></l><r>viipyä<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>áhcagahttit<s n="vblex"/><s n="tv"/></l><r>hehkuttaa<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -17847,7 +17851,7 @@
 <e><p><l>váigat<s n="adj"/></l><r>tylsä<s n="adj"/></r></p><par n="uusi__adj"/></e>
 <e><p><l>bargguheapme<s n="adj"/></l><r>työtön<s n="adj"/></r></p><par n="uusi__adj"/></e>
 <e><p><l>hirpmus<s n="adj"/></l><r>hirveä<s n="adj"/></r></p><par n="uusi__adj"/></e>
-<e><p><l>meareheapme<s n="adj"/></l><r>ylimalkainen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+<e><p><l>meareheapme<s n="adj"/></l><r>yletön<s n="adj"/></r></p><par n="uusi__adj"/></e>
 <e><p><l>diplomáhtalaš<s n="adj"/></l><r>diplomaattinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
 <e><p><l>rukses-ruoná<s n="adj"/></l><r>punavihreä<s n="adj"/></r></p><par n="uusi__adj"/></e>
 <e><p><l>etihkalaš<s n="adj"/></l><r>eettinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
@@ -19846,13 +19850,28 @@
 <e><p><l>muitosátni<s n="n"/></l><r>muistokirjoitus<s n="n"/></r></p></e>
 <e><p><l>eaiggátvuohta<s n="n"/></l><r>omistajuus<s n="n"/></r></p></e>
 <e><p><l>unohisvuohta<s n="n"/></l><r>hankaluus<s n="n"/></r></p></e>
+<e><p><l>sukseassa<s n="n"/></l><r>menestys<s n="n"/></r></p></e>
 <e><p><l>ruvdnaprinsabárra<s n="n"/></l><r>kruununprinssipari<s n="n"/></r></p></e>
+<e><p><l>jiellat<s n="n"/></l><r>suosikki<s n="n"/></r></p></e>
+<e><p><l>beassášfestivála<s n="n"/></l><r>pääsiäisfestivaali<s n="n"/></r></p></e>
+<e><p><l>nammadeapmi<s n="n"/></l><r>nimeäminen<s n="n"/></r></p></e>
+<e><p><l>beassášguossi<s n="n"/></l><r>pääsiäisvieras<s n="n"/></r></p></e>
+<e><p><l>maila<s n="n"/></l><r>sähköposti<s n="n"/></r></p></e>
+<e><p><l>seaguhus<s n="n"/></l><r>sekoittuminen<s n="n"/></r></p></e>
+<e><p><l>vássin<s n="n"/></l><r>kuluminen<s n="n"/></r></p></e>
+<e><p><l>spahčan<s n="n"/></l><r>tutina<s n="n"/></r></p></e>
 <e><p><l>álgovuolggalaš<s n="adj"/></l><r>alkuperäinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>miehtemielalaš<s n="adj"/></l><r>myötämielinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+<e><p><l>orientála<s n="adj"/></l><r>itämainen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+<e><p><l>gieskadaš<s n="adj"/></l><r>äskettäinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>ovttabealat<s n="adj"/></l><r>yksipuolinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>patriarkála<s n="adj"/></l><r>patriarkaalinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>autonomalaš<s n="adj"/></l><r>autonominen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+<e><p><l>láidesteaddji<s n="n"/><s n="nomag"/></l><r>johtaja<s n="n"/></r></p></e>
+<e><p><l>dánssodeaddji<s n="n"/><s n="nomag"/></l><r>tanssija<s n="n"/></r></p></e>
+<e><p><l>berošteaddji<s n="n"/><s n="nomag"/></l><r>kiinnostunut<s n="n"/></r></p></e>
 <e><p><l>sámediggepresideantta<s n="n"/></l><r>saamelaiskäräjien<b/>presidentti<s n="n"/></r></p></e>
+<e><p><l>moattes<s n="n"/></l><r>pari<b/>ihmistä<s n="n"/></r></p></e>
 <e><p><l>vuoittáhallat<s n="vblex"/><s n="iv"/></l><r>hävitä<s n="vblex"/></r></p><par n="V_V"/></e>
 
 <e><p><l>kompromissa<s n="n"/><s n="g3"/></l><r>kompromissi<s n="n"/></r></p></e>
