@@ -1717,6 +1717,7 @@
     <e><p><l>dákta<s n="n"/></l><r>tahti<s n="n"/></r></p></e>
     <e><p><l>dákti<s n="n"/></l><r>luu<s n="n"/></r></p></e>
     <e><p><l>dákti<s n="n"/></l><r>määräys<s n="n"/></r></p></e>
+    <e><p><l>sisáibmu<s n="n"/></l><r>sisäilma<s n="n"/></r></p></e>
     <e><p><l>dálki<s n="n"/></l><r>ilma<s n="n"/></r></p></e>
     <e><p><l>dálki<s n="n"/></l><r>sää<s n="n"/></r></p></e>
     <e><p><l>dálkkas<s n="n"/></l><r>lääke<s n="n"/></r></p></e>
@@ -14285,6 +14286,8 @@
     <e><p><l>dassái<s n="adv"/></l><r>asti<s n="adv"/></r></p></e>
     <e><p><l>velá<s n="adv"/></l><r>vielä<s n="adv"/></r></p></e>
     
+    <e><p><l>dálvit<s n="adv"/></l><r>talvisin<s n="adv"/></r></p></e>
+    <e><p><l>dálvet<s n="adv"/></l><r>talvisin<s n="adv"/></r></p></e>
     <e><p><l>agi<b/>beaivvisge<s n="adv"/></l><r>ikinä<s n="adv"/></r></p></e>
     <e><p><l>ovdamearkka<b/>dihte<s n="adv"/></l><r>esimerkiksi<s n="adv"/></r></p></e>
     <e><p><l>olgešbealde<s n="adv"/></l><r>oikealle<s n="adv"/></r></p></e>
