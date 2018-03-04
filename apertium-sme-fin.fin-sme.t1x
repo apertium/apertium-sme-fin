@@ -27,6 +27,29 @@
     <def-cat n="pron">
       <cat-item tags="prn.*"/>
     </def-cat>
+    <def-cat n="prsprc">
+      <cat-item tags="vblex.*.prsprc.*"/>
+    </def-cat>
+    <def-cat n="prfprc">
+      <cat-item tags="vblex.*.prfprc.*"/>
+    </def-cat>
+    <def-cat n="olla-fin">
+      <cat-item lemma="olla" tags="vblex.*.indic.pres.*"/>
+      <cat-item lemma="olla" tags="vblex.*.indic.pret.*"/>
+    </def-cat>
+    <def-cat n="conneg-pret">
+      <cat-item tags="vblex.*.indic.pret.conneg.*"/>
+    </def-cat>
+    <def-cat n="pot">
+      <cat-item tags="vblex.*.pot.*"/>
+    </def-cat>
+    <def-cat n="cond">
+      <cat-item tags="vblex.*.cond.*"/>
+    </def-cat>
+    <def-cat n="fin">
+      <cat-item tags="vblex.*.indic.pres.*"/>
+      <cat-item tags="vblex.*.indic.pret.*"/>
+    </def-cat>    
     <def-cat n="prop">
       <cat-item tags="np.*"/>
     </def-cat>
@@ -440,12 +463,33 @@
 
     </def-macro>
 
+    <def-macro n="default-conversion2" npar="2">
+      <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+      <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
+    </def-macro>
+
+    <def-macro n="default-conversion3" npar="3">
+      <call-macro n="default-conversion1"><with-param pos="3"/></call-macro>
+      <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
+      <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+    </def-macro>
+
+    
+    
     <def-macro n="semtag-deletion" npar="1">
       <let><clip pos="1" side="tl" part="a_known"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_dialect"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_clb"/><lit v=""/></let>
+     </def-macro>
+    
+    <def-macro n="nbr-deletion" npar="1">
+      <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+     </def-macro>
+    
+    <def-macro n="case-deletion" npar="1">
+      <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
      </def-macro>
     
   </section-def-macros>
@@ -634,6 +678,34 @@
       </action>
     </rule>
 
+    <rule comment="REGLA: OLLA-FIN PRFPRC">
+      <pattern>
+        <pattern-item n="olla-fin"/>
+        <pattern-item n="prfprc"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <call-macro n="default-conversion2"><with-param pos="1"/><with-param pos="2"/></call-macro>
+        <call-macro n="case-deletion"><with-param pos="2"/></call-macro>
+        <call-macro n="nbr-deletion"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="v-prc" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
+    
     <rule comment="REGLA: VERB">
       <pattern>
         <pattern-item n="vblex"/>
@@ -641,15 +713,15 @@
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
-        <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="3"/></let>
-        <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="4"/></let>
+<!--        <let><clip pos="1" side="tl" part="a_pers"/><lit-tag v="3"/></let>-->
+<!--        <let><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="4"/></let>-->
         <out>
           <chunk name="v" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SV"/></tag>
-              <tag><clip pos="1" side="sl" part="a_func"/></tag>
+<!--              <tag><clip pos="1" side="sl" part="a_func"/></tag>
               <tag><clip pos="1" side="sl" part="a_pers"/></tag>
-              <tag><clip pos="1" side="sl" part="a_nbr"/></tag>
+              <tag><clip pos="1" side="sl" part="a_nbr"/></tag> -->
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
@@ -659,6 +731,11 @@
       </action>
     </rule>
 
+
+
+
+
+    
 
     <rule comment="comment: Negation default is indicative">
       <pattern>
