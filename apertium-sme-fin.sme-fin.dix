@@ -254,7 +254,8 @@
  
     <e><p><l>alde<s n="post"/></l><r>päällä<s n="post"/></r></p></e>
     <e><p><l>badjel<s n="post"/></l><r>yli<s n="post"/></r></p></e>
-    <e><p><l>badjel<s n="pr"/></l><r>ylitse<s n="post"/></r></p></e>
+    <e><p><l>badjel<s n="pr"/></l><r>yli<s n="pr"/></r></p></e>
+    <e><p><l>badjel<s n="pr"/></l><r>ylitse<s n="post"/></r></p></e> <!-- TODO pr (fst)-->
     <e><p><l>badjelii<s n="post"/></l><r>ylle<s n="post"/></r></p></e>
     <e><p><l>badjelis<s n="post"/></l><r>yllä<s n="post"/></r></p></e>
     <e><p><l>badjelis<s n="post"/></l><r>yltä<s n="post"/></r></p></e>
@@ -501,10 +502,11 @@
     <e><p><l>duot<s n="prn"/><s n="dem"/><s n="pl"/></l><r>nuo<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
     <e r="RL"><p><l>duot<s n="prn"/><s n="dem"/><s n="pl"/></l><r>noi<s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
 
-    <e><p><l>gii<s n="prn"/><s n="rel"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
+    <e r="LR"><p><l>gii<s n="prn"/><s n="rel"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e> <!-- TODO: gii/guhte -->
     <e><p><l>guhte<s n="prn"/><s n="rel"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
 
     <e><p><l>mii<s n="prn"/><s n="rel"/></l><r>mikä<s n="prn"/><s n="rel"/></r></p></e>
+    <e r="LR"><p><l>mii<s n="prn"/><s n="rel"/></l><r>joka<s n="prn"/><s n="rel"/></r></p></e>
     <e><p><l>mii<s n="prn"/><s n="itg"/></l><r>mikä<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>gii<s n="prn"/><s n="itg"/></l><r>kuka<s n="prn"/><s n="itg"/></r></p></e>
     <e><p><l>goabbá<s n="prn"/><s n="itg"/></l><r>kumpi<s n="prn"/><s n="itg"/></r></p></e>
@@ -723,6 +725,68 @@
     <e><p><l>deklarašuvdna<s n="n"/><s n="nomag"/></l><r>julistus<s n="n"/></r></p></e>
 
     
+    <e><p><l>direktiiva<s n="n"/></l><r>direktiivi<s n="n"/></r></p></e>
+    <e><p><l>syntáksa<s n="n"/></l><r>syntaksi<s n="n"/></r></p></e>
+    <e><p><l>partihkal<s n="n"/></l><r>partikkeli<s n="n"/></r></p></e>
+    <e><p><l>oamasteapmi<s n="n"/></l><r>omistus<s n="n"/></r></p></e>
+    <e><p><l>substantiiva<s n="n"/></l><r>substantiivi<s n="n"/></r></p></e>
+    <e><p><l>ovdasáhka<s n="n"/></l><r>esitelmä<s n="n"/></r></p></e>
+    <e><p><l>morfema<s n="n"/></l><r>morfeemi<s n="n"/></r></p></e>
+    <e><p><l>semantihkka<s n="n"/></l><r>semantiikki<s n="n"/></r></p></e>
+    <e><p><l>narratiiva<s n="n"/></l><r>narratiivi<s n="n"/></r></p></e>
+    <e><p><l>morfologa<s n="n"/></l><r>morfologi<s n="n"/></r></p></e>
+    <e><p><l>kognišuvdna<s n="n"/></l><r>kognitio<s n="n"/></r></p></e>
+    <e><p><l>infinitiiva<s n="n"/></l><r>infinitiivi<s n="n"/></r></p></e>
+    <e><p><l>grammatikalisašuvdna<s n="n"/></l><r>kieliopillistuminen<s n="n"/></r></p></e>
+    <e><p><l>postposišuvdna<s n="n"/></l><r>postpositio<s n="n"/></r></p></e>
+    <e><p><l>verbála<s n="n"/></l><r>verbaali<s n="n"/></r></p></e>
+    <e><p><l>symposia<s n="n"/></l><r>symposium<s n="n"/></r></p></e>
+    <e><p><l>suorggádus<s n="n"/></l><r>johtaminen<s n="n"/></r></p></e>
+    <e><p><l>pronomen<s n="n"/></l><r>pronomini<s n="n"/></r></p></e>
+    <e><p><l>predikatiiva<s n="n"/></l><r>predikatiivi<s n="n"/></r></p></e>
+    <e><p><l>oamastangeažus<s n="n"/></l><r>omistusliite<s n="n"/></r></p></e>
+    <e><p><l>nákkosgirji<s n="n"/></l><r>väitöskirja<s n="n"/></r></p></e>
+    <e><p><l>máŋggaidlohku<s n="n"/></l><r>monikko<s n="n"/></r></p></e>
+    <e><p><l>ovttaidlohku<s n="n"/></l><r>yksikkö<s n="n"/></r></p></e>
+    <e><p><l>morfologiija<s n="n"/></l><r>morfologia<s n="n"/></r></p></e>
+    <e><p><l>lingvistihkka<s n="n"/></l><r>kielitiede<s n="n"/></r></p></e>
+    <e><p><l>lingvista<s n="n"/></l><r>kielitietelijä<s n="n"/></r></p></e>
+    <e><p><l>kásus<s n="n"/></l><r>sija<s n="n"/></r></p></e>
+    <e><p><l>kásushápmi<s n="n"/></l><r>sijamuoto<s n="n"/></r></p></e>
+    <e><p><l>kategoriija<s n="n"/></l><r>kategoria<s n="n"/></r></p></e>
+    <e><p><l>jearranskovvi<s n="n"/></l><r>kyselylomake<s n="n"/></r></p></e>
+    <e><p><l>informánta<s n="n"/></l><r>informantti<s n="n"/></r></p></e>
+    <e><p><l>giellaoahppa<s n="n"/></l><r>kielioppi<s n="n"/></r></p></e>
+    <e><p><l>fenomena<s n="n"/></l><r>ilmiö<s n="n"/></r></p></e>
+    <e><p><l>divasmahttinskuvlejupmi<s n="n"/></l><r>täydennyskoulutus<s n="n"/></r></p></e>
+    <e><p><l>cealkka<s n="n"/></l><r>lause<s n="n"/></r></p></e>
+    <e><p><l>adposišuvdna<s n="n"/></l><r>adpositio<s n="n"/></r></p></e>
+    <e><p><l>translatiiva<s n="n"/></l><r>translatiivi<s n="n"/></r></p></e>
+    <e><p><l>teoriija<s n="n"/></l><r>teoria<s n="n"/></r></p></e>
+    <e><p><l>ráhkadus<s n="n"/></l><r>rakenne<s n="n"/></r></p></e>
+    <e><p><l>produktivitehta<s n="n"/></l><r>produktiviteetti<s n="n"/></r></p></e><!-- TERM -->
+    <e><p><l>preposišuvdna<s n="n"/></l><r>prepositio<s n="n"/></r></p></e>
+    <e><p><l>láhtengiella<s n="n"/></l><r>latiini<s n="n"/></r></p></e>
+    <e><p><l>komitatiiva<s n="n"/></l><r>komitatiivi<s n="n"/></r></p></e>
+    <e><p><l>grammatihkka<s n="n"/></l><r>kielioppi<s n="n"/></r></p></e>
+    <e><p><l>giellakontákta<s n="n"/></l><r>kielikontakti<s n="n"/></r></p></e>
+    <e><p><l>fonologa<s n="n"/></l><r>fonologi<s n="n"/></r></p></e>
+    <e><p><l>cealkkaráhkadus<s n="n"/></l><r>lauserakenne<s n="n"/></r></p></e>
+    <e><p><l>narratiiva<s n="n"/></l><r>narratiivi<s n="n"/></r></p></e>
+    <e><p><l>automatiiva<s n="n"/></l><r>automatiivi<s n="n"/></r></p></e>
+    <e><p><l>refleksiiva<s n="n"/></l><r>refleksiivi<s n="n"/></r></p></e>
+    <e><p><l>produktiiva<s n="n"/></l><r>produktiivi<s n="n"/></r></p></e>
+    <e><p><l>passiiva<s n="n"/></l><r>passiivi<s n="n"/></r></p></e>
+    <e><p><l>nominatiiva<s n="n"/></l><r>nominatiivi<s n="n"/></r></p></e>
+    <e><p><l>lokatiiva<s n="n"/></l><r>lokatiivi<s n="n"/></r></p></e>
+    <e><p><l>kognitiiva<s n="n"/></l><r>kognitiivi<s n="n"/></r></p></e>
+    <e><p><l>imperatiiva<s n="n"/></l><r>imperatiivi<s n="n"/></r></p></e>
+    <e><p><l>illatiiva<s n="n"/></l><r>illatiivi<s n="n"/></r></p></e>
+    <e><p><l>genetiiva<s n="n"/></l><r>genetiivi<s n="n"/></r></p></e>
+    <e><p><l>essiiva<s n="n"/></l><r>essiivi<s n="n"/></r></p></e>
+    <e><p><l>deskriptiiva<s n="n"/></l><r>deskriptiivi<s n="n"/></r></p></e>
+    <e><p><l>demonstratiiva<s n="n"/></l><r>demonstratiivi<s n="n"/></r></p></e>
+
     <e><p><l>ablatiiva<s n="n"/></l><r>ablatiivi<s n="n"/></r></p></e>
     <e><p><l>reportár<s n="n"/></l><r>toimittaja<s n="n"/></r></p></e>
     <e><p><l>abohtta<s n="n"/></l><r>apotti<s n="n"/></r></p></e>
@@ -1867,6 +1931,7 @@
     <e><p><l>erohus<s n="n"/></l><r>erotus<s n="n"/></r></p></e>
     <e><p><l>erttet<s n="n"/></l><r>kylki<s n="n"/></r></p></e>
     <e><p><l>erttetdákti<s n="n"/></l><r>kylkiluu<s n="n"/></r></p></e>
+    <e><p><l>esseija<s n="n"/></l><r>essee<s n="n"/></r></p></e>
     <e><p><l>etihkka<s n="n"/></l><r>etiikka<s n="n"/></r></p></e>
     <e><p><l>ettet<s n="n"/></l><r>etikka<s n="n"/></r></p></e>
     <e><p><l>euro<s n="n"/></l><r>euro<s n="n"/></r></p></e>
@@ -3551,6 +3616,7 @@
     <e><p><l>norbma<s n="n"/></l><r>normi<s n="n"/></r></p></e>
     <e><p><l>norgalaš<s n="n"/></l><r>norjalainen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>notáhta<s n="n"/></l><r>muistio<s n="n"/></r></p></e>
+    <e><p><l>notáhta<s n="n"/></l><r>muistiinpano<s n="n"/></r></p></e>
     <e><p><l>novrrán<s n="n"/></l><r>koillinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>nođđu<s n="n"/></l><r>kerä<s n="n"/></r></p></e>
     <e><p><l>nulla<s n="n"/></l><r>nolla<s n="n"/></r></p></e>
@@ -14286,6 +14352,7 @@
     <e><p><l>dassái<s n="adv"/></l><r>asti<s n="adv"/></r></p></e>
     <e><p><l>velá<s n="adv"/></l><r>vielä<s n="adv"/></r></p></e>
     
+    <e><p><l>davás<s n="adv"/></l><r>pohjoinen<s n="n"/><s n="sg"/><s n="ill"/></r></p></e>
     <e><p><l>dálvit<s n="adv"/></l><r>talvisin<s n="adv"/></r></p></e>
     <e><p><l>dálvet<s n="adv"/></l><r>talvisin<s n="adv"/></r></p></e>
     <e><p><l>agi<b/>beaivvisge<s n="adv"/></l><r>ikinä<s n="adv"/></r></p></e>
