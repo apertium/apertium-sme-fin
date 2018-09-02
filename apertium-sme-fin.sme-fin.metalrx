@@ -135,6 +135,66 @@
      <match  tags="*.cmp"/>
      <match lemma="goddi" tags="n.*"><select lemma="kunta" tags="n.*"/></match>
    </rule>
+
+   <!-- notáhta -->
+  <rule weight="1.0">
+    <match lemma="notáhta" tags="n.*">
+      <select lemma="muistio" tags="n.*"/>
+    </match>
+   </rule>
+   <rule weight="0.5">
+     <match lemma="notáhta" tags="n.*">
+       <select lemma="muistiinpano" tags="n.*"/>
+     </match>
+   </rule>
+   <rule weight="0.6">
+     <match lemma="notáhta" tags="n.*.pl.*">
+       <select lemma="muistiinpano" tags="n.pl.*"/>
+     </match>
+   </rule>
+ 
+   <!-- mii rel: n, mii = n, joka / x, mii = x, mikä -->
+  <rule weight="1.0">
+    <match lemma="mii" tags="prn.rel.*">
+      <select lemma="mikä" tags="prn.rel.*"/>
+    </match>
+   </rule>
+   <rule weight="0.5">
+    <match lemma="mii" tags="prn.rel.*">
+       <select lemma="joka" tags="prn.rel.*"/>
+     </match>
+   </rule>
+   <rule weight="0.6">
+     <match tags="n.*"/>
+     <match lemma=","/>
+    <match lemma="mii" tags="prn.rel.*">
+       <select lemma="joka" tags="prn.rel.*"/>
+     </match>
+   </rule>
+ 
+   <!-- badjel = yli -->
+  <rule weight="1.0">
+    <match lemma="badjel" tags="pr.*">
+      <select lemma="yli" tags="pr.*"/>
+    </match>
+   </rule>
+   <rule weight="0.5">
+    <match lemma="badjel" tags="pr.*">
+       <select lemma="ylitse" tags="post.*"/> <!-- TODO pr?-->
+     </match>
+   </rule>
+   <rule weight="0.6">
+    <match lemma="badjel" tags="pr.*">
+       <select lemma="ylitse" tags="post.*"/>
+     </match>
+     <match tags="prn.*"/>
+   </rule>
+   <rule weight="0.6">
+    <match lemma="badjel" tags="pr.*">
+       <select lemma="yli" tags="pr.*"/>
+     </match>
+     <match tags="num.*"/>
+   </rule>
  
    <rule weight="1.0">
      <match lemma="čájehit" tags="vblex.*"><select lemma="näyttää" tags="vblex.*"/></match>
