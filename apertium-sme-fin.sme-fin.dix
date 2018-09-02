@@ -199,6 +199,7 @@
     <e><p><l>ges<s n="pcle"/></l><r>kin<s n="foc_kin"/></r></p></e>
     <e><p><l>gis<s n="pcle"/></l><r>kin<s n="foc_kin"/></r></p></e>
 
+    <e><p><l>fal<s n="pcle"/></l><r>kai<s n="pcle"/></r></p></e><!-- TODO nu fal vs. son lea fal boahtán -->
     <e><p><l>han<s n="pcle"/></l><r>han<s n="foc_han"/></r></p></e>
     <e><p><l>nai<s n="pcle"/></l><r>kin<s n="foc_kin"/></r></p></e>
     <e><p><l>son<s n="pcle"/></l><r>han<s n="foc_han"/></r></p></e>
@@ -725,6 +726,10 @@
     <e><p><l>deklarašuvdna<s n="n"/><s n="nomag"/></l><r>julistus<s n="n"/></r></p></e>
 
     
+    <e><p><l>veahkkevearba<s n="n"/></l><r>apuverbi<s n="n"/></r></p></e>
+    <e><p><l>modus<s n="n"/></l><r>modus<s n="n"/></r></p></e>
+    <e><p><l>fáktora<s n="n"/></l><r>kerroin<s n="n"/></r></p></e>
+    <e><p><l>buvttadus<s n="n"/></l><r>tulos<s n="n"/></r></p></e>
     <e><p><l>direktiiva<s n="n"/></l><r>direktiivi<s n="n"/></r></p></e>
     <e><p><l>syntáksa<s n="n"/></l><r>syntaksi<s n="n"/></r></p></e>
     <e><p><l>partihkal<s n="n"/></l><r>partikkeli<s n="n"/></r></p></e>
@@ -743,12 +748,15 @@
     <e><p><l>symposia<s n="n"/></l><r>symposium<s n="n"/></r></p></e>
     <e><p><l>suorggádus<s n="n"/></l><r>johtaminen<s n="n"/></r></p></e>
     <e><p><l>pronomen<s n="n"/></l><r>pronomini<s n="n"/></r></p></e>
+    <e><p><l>refleksiivapronomen<s n="n"/></l><r>refleksiivipronomini<s n="n"/></r></p></e>
     <e><p><l>predikatiiva<s n="n"/></l><r>predikatiivi<s n="n"/></r></p></e>
     <e><p><l>oamastangeažus<s n="n"/></l><r>omistusliite<s n="n"/></r></p></e>
     <e><p><l>nákkosgirji<s n="n"/></l><r>väitöskirja<s n="n"/></r></p></e>
     <e><p><l>máŋggaidlohku<s n="n"/></l><r>monikko<s n="n"/></r></p></e>
     <e><p><l>ovttaidlohku<s n="n"/></l><r>yksikkö<s n="n"/></r></p></e>
     <e><p><l>morfologiija<s n="n"/></l><r>morfologia<s n="n"/></r></p></e>
+    <e><p><l>fonologiija<s n="n"/></l><r>fonologia<s n="n"/></r></p></e>
+    <e><p><l>morfofonologiija<s n="n"/></l><r>morfofonologia<s n="n"/></r></p></e>
     <e><p><l>lingvistihkka<s n="n"/></l><r>kielitiede<s n="n"/></r></p></e>
     <e><p><l>lingvista<s n="n"/></l><r>kielitietelijä<s n="n"/></r></p></e>
     <e><p><l>kásus<s n="n"/></l><r>sija<s n="n"/></r></p></e>
@@ -761,11 +769,15 @@
     <e><p><l>divasmahttinskuvlejupmi<s n="n"/></l><r>täydennyskoulutus<s n="n"/></r></p></e>
     <e><p><l>cealkka<s n="n"/></l><r>lause<s n="n"/></r></p></e>
     <e><p><l>adposišuvdna<s n="n"/></l><r>adpositio<s n="n"/></r></p></e>
+    <e><p><l>konstrukšuvdna<s n="n"/></l><r>rakenne<s n="n"/></r></p></e>
+    <e><p><l>motivašuvdna<s n="n"/></l><r>motivaatio<s n="n"/></r></p></e><!-- TERM? -->
+    <e><p><l>annotašuvdna<s n="n"/></l><r>annotaatio<s n="n"/></r></p></e>
     <e><p><l>translatiiva<s n="n"/></l><r>translatiivi<s n="n"/></r></p></e>
     <e><p><l>teoriija<s n="n"/></l><r>teoria<s n="n"/></r></p></e>
     <e><p><l>ráhkadus<s n="n"/></l><r>rakenne<s n="n"/></r></p></e>
     <e><p><l>produktivitehta<s n="n"/></l><r>produktiviteetti<s n="n"/></r></p></e><!-- TERM -->
     <e><p><l>preposišuvdna<s n="n"/></l><r>prepositio<s n="n"/></r></p></e>
+    <e><p><l>meängiella<s n="n"/></l><r>meänkieli<s n="n"/></r></p></e>
     <e><p><l>láhtengiella<s n="n"/></l><r>latiini<s n="n"/></r></p></e>
     <e><p><l>komitatiiva<s n="n"/></l><r>komitatiivi<s n="n"/></r></p></e>
     <e><p><l>grammatihkka<s n="n"/></l><r>kielioppi<s n="n"/></r></p></e>
@@ -2019,6 +2031,7 @@
     <e><p><l>fuorrá<s n="n"/></l><r>huora<s n="n"/></r></p></e>
     <e><p><l>fuorrá<s n="n"/></l><r>portto<s n="n"/></r></p></e>
     <e><p><l>fuorrávuohta<s n="n"/></l><r>huoruus<s n="n"/></r></p></e>
+    <e><p><l>fuolkevuohta<s n="n"/></l><r>sukulaisuus<s n="n"/></r></p></e>
     <e><p><l>fuođar<s n="n"/></l><r>rehu<s n="n"/></r></p></e>
     <e><p><l>fylka<s n="n"/></l><r>lääni<s n="n"/></r></p></e>
     <e><p><l>fylkasuohkan<s n="n"/></l><r>lääni<s n="n"/></r></p></e>
@@ -13113,6 +13126,26 @@
     <e><p><l>addes<s n="adj"/></l><r>antelias<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>dálá<s n="adj"/></l><r>nykyinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>ovttaskas<s n="adj"/></l><r>yksittäinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>lingvisttalaš<s n="adj"/></l><r>kielitieteellinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>produktiiva<s n="adj"/></l><r>produktiivinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>deskriptiiva<s n="adj"/></l><r>deskriptiivinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>grammatihkalaš<s n="adj"/></l><r>kieliopillinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>idiomahtalaš<s n="adj"/></l><r>idiomaattinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>semantihkalaš<s n="adj"/></l><r>semanttinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>manuálalaš<s n="adj"/></l><r>manuaalinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>indefinihtta<s n="adj"/></l><r>indefiniittinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>definihtta<s n="adj"/></l><r>definiittinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>finihtta<s n="adj"/></l><r>finiittinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>infinihtta<s n="adj"/></l><r>infiniittinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>modearna<s n="adj"/></l><r>moderni<s n="adj"/></r></p><par n="uusi__adj"/></e>
+    <e><p><l>morfologalaš<s n="adj"/></l><r>morfologinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>morfofonologalaš<s n="adj"/></l><r>morfofonologinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>fonologalaš<s n="adj"/></l><r>fonologinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>leksikála<s n="adj"/></l><r>leksikaalinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>funktionála<s n="adj"/></l><r>funktionaallinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>modála<s n="adj"/></l><r>modaallinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>autenttalaš<s n="adj"/></l><r>autenttinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>syntávssalaš<s n="adj"/></l><r>syntaktinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     
     <e><p><l>addi<s n="adj"/></l><r>antelias<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>addálas<s n="adj"/></l><r>antelias<s n="adj"/></r></p><par n="uusi__adj"/></e>
@@ -13924,7 +13957,7 @@
     <e><p><l>ovttalágan<s n="adj"/></l><r>samanlainen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>ođas<s n="adj"/></l><r>uusi<s n="adj"/></r></p><par n="uusi__adj"/></e> 
     <e><p><l>ođđaivnnálaš<s n="adj"/></l><r>kirkkaanvärinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-    <e><p><l>ođđaáigásaš<s n="adj"/></l><r>moderni<s n="adj"/></r></p><par n="uusi__adj"/></e> 
+    <e r="RL"><p><l>ođđaáigásaš<s n="adj"/></l><r>moderni<s n="adj"/></r></p><par n="uusi__adj"/></e> 
     <e><p><l>ođđaáigásaš<s n="adj"/></l><r>uudenaikainen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e> 
     <e><p><l>parlamentáralaš<s n="adj"/></l><r>parlamentaarinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>passiiva<s n="adj"/></l><r>passiivinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
@@ -14687,10 +14720,18 @@
     <e r="LR"><p><l>spiehkkasit<s n="vblex"/><s n="iv"/></l><r>poiketa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e r="LR"><p><l>olggosaddit<s n="vblex"/><s n="iv"/></l><r>julkaista<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>juolludit<s n="vblex"/><s n="tv"/></l><r>myöntää<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>almmustahttit<s n="vblex"/><s n="tv"/></l><r>julkaistaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e r="LR"><p><l>olggosbuktit<s n="vblex"/><s n="tv"/></l><r>julkaistaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>almmustit<s n="vblex"/><s n="tv"/></l><r>julistaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>báddet<s n="vblex"/><s n="tv"/></l><r>nauhoittaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>earuhit<s n="vblex"/><s n="tv"/></l><r>erottaa<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e><p><l>speadjalastit<s n="vblex"/><s n="tv"/></l><r>heijastaa<s n="vblex"/></r></p><par n="V_V"/></e>
 
     <e r="LR"><p><l>stemmet<s n="vblex"/><s n="tv"/></l><r>äänestää<s n="vblex"/></r></p><par n="V_V"/></e>
     <e r="RL"><p><l>gullat<s n="vblex"/><s n="tv"/></l><r>kuulla<s n="vblex"/></r></p><par n="V_V"/></e>
     <e srl="1"><p><l>fallehit<s n="vblex"/><s n="iv"/></l><r>käydä<s n="vblex"/></r></p><par n="V_V"/></e>
+
+    <e><p><l>modifiseret<s n="vblex"/><s n="tv"/></l><r>modifioida<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addit<s n="vblex"/><s n="tv"/></l><r>antaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>julggaštit<s n="vblex"/><s n="tv"/></l><r>julkaista<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>addit<s n="vblex"/><s n="tv"/></l><r>sallia<s n="vblex"/></r></p><par n="V_V"/></e>
@@ -17232,6 +17273,7 @@
 <e><p><l>kulturministeriija<s n="n"/></l><r>kulttuuriministeriö<s n="n"/></r></p></e>
 <e><p><l>dihtii<s n="post"/></l><r>takia<s n="post"/></r></p></e>
 <e><p><l>gaskal<s n="post"/></l><r>keskellä<s n="post"/></r></p></e>
+<e><p><l>gaskkal<s n="pr"/></l><r>keskellä<s n="post"/></r></p></e><!-- TODO maid post? (fst)-->
 
 <e><p><l>ávžžuhit<s n="vblex"/><s n="tv"/></l><r>kehottaa<s n="vblex"/></r></p><par n="V_V"/></e>
 <e><p><l>preanttus<s n="n"/></l><r>julkaisu<s n="n"/></r></p></e>
@@ -17939,6 +17981,7 @@
 <e><p><l>siskkildas<s n="adj"/></l><r>sisäinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
 <e><p><l>njealječiegat<s n="adj"/></l><r>neliskanttinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
 <e><p><l>alternatiiva<s n="adj"/></l><r>vaihtoehtoinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+<e><p><l>narratiiva<s n="adj"/></l><r>narratiivinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
 <e><p><l>diekkáraš<s n="adj"/></l><r>tuollainen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
 <e><p><l>teologalaš<s n="adj"/></l><r>teologinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
 <e><p><l>ruonáeatnanlaš<s n="adj"/></l><r>grönlantilainen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
