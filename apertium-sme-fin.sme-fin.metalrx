@@ -212,12 +212,16 @@
    <rule weight="0.5">
      <match lemma="lohkat" tags="vblex.*"><select lemma="sanoa" tags="vblex.*"/></match>
    </rule>
-   
+
+   <!-- čállit (TODO: rules for avata and viiltää -->
    <rule weight="1.0">
      <match lemma="čállit" tags="vblex.*"><select lemma="kirjoittaa" tags="vblex.*"/></match>
    </rule>
    <rule weight="0.5">
      <match lemma="čállit" tags="vblex.*"><select lemma="avata" tags="vblex.*"/></match>
+   </rule>
+   <rule weight="0.4">
+     <match lemma="čállit" tags="vblex.*"><select lemma="viiltää" tags="vblex.*"/></match>
    </rule>
    
    <rule weight="1.0">
