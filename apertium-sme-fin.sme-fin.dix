@@ -726,6 +726,14 @@
     <e><p><l>deklarašuvdna<s n="n"/><s n="nomag"/></l><r>julistus<s n="n"/></r></p></e>
 
     
+    <e><p><l>borgguheddji<s n="n"/></l><r>tupakoitsija<s n="n"/></r></p></e>
+    <e><p><l>ovdaráksáboras<s n="n"/></l><r>eturauhassyöpä<s n="n"/></r></p></e>
+    <e><p><l>terapevta<s n="n"/></l><r>terapeutti<s n="n"/></r></p></e>
+    <e><p><l>geografiija<s n="n"/></l><r>maantieto<s n="n"/></r></p></e>
+    <e><p><l>iešsoardin<s n="n"/></l><r>itsemurha<s n="n"/></r></p></e>
+    <e><p><l>jámolašvuohta<s n="n"/></l><r>kuolleisuus<s n="n"/></r></p></e>
+    <e><p><l>diabetes<s n="n"/></l><r>diabetes<s n="n"/></r></p></e>
+    <e><p><l>gávdnoštupmi<s n="n"/></l><r>löydös<s n="n"/></r></p></e>
     <e><p><l>veahkkevearba<s n="n"/></l><r>apuverbi<s n="n"/></r></p></e>
     <e><p><l>modus<s n="n"/></l><r>modus<s n="n"/></r></p></e>
     <e><p><l>fáktora<s n="n"/></l><r>kerroin<s n="n"/></r></p></e>
@@ -13041,6 +13049,7 @@
 <e><p><l>Yleisradio<s n="np"/></l><r>Yleisradio<s n="np"/></r></p></e>
 <e><p><l>Yliantila<s n="np"/></l><r>Yliantila<s n="np"/></r></p></e>
 <e><p><l>Yliniemi<s n="np"/></l><r>Yliniemi<s n="np"/></r></p></e>
+<e><p><l>Ylikoski<s n="np"/></l><r>Ylikoski<s n="np"/></r></p></e>
 <e><p><l>Ylläs<s n="np"/></l><r>Ylläs<s n="np"/></r></p></e>
 <e><p><l>Ylva<s n="np"/></l><r>Ylva<s n="np"/></r></p></e>
 <e><p><l>Yndestad<s n="np"/></l><r>Yndestad<s n="np"/></r></p></e>
@@ -13146,6 +13155,9 @@
     <e><p><l>modála<s n="adj"/></l><r>modaallinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>autenttalaš<s n="adj"/></l><r>autenttinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>syntávssalaš<s n="adj"/></l><r>syntaktinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>relatiivalaš<s n="adj"/></l><r>suhteellinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>kvalitehtalaš<s n="adj"/></l><r>laadullinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
+    <e><p><l>radioaktiivvalaš<s n="adj"/></l><r>radioaktiivinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     
     <e><p><l>addi<s n="adj"/></l><r>antelias<s n="adj"/></r></p><par n="uusi__adj"/></e>
     <e><p><l>addálas<s n="adj"/></l><r>antelias<s n="adj"/></r></p><par n="uusi__adj"/></e>
