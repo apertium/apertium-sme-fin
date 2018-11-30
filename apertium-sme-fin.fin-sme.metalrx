@@ -43,7 +43,7 @@
     <match lemma="tulla" tags="vblex.*"><select lemma="ihtit" tags="vblex.*"/></match>
   </rule>
 
-  <rule weight="1.0"><!-- tulla ihtit context -->
+  <rule weight="0.6"><!-- tulla ihtit context -->
     <match tags="*.ela"/>
     <match lemma="tulla" tags="vblex.*"><select lemma="ihtit" tags="vblex.*"/></match>
     <match tags="*.nom"/>
