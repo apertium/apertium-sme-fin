@@ -2381,7 +2381,6 @@
     <e><p><l>fástu<s n="n"/></l><r>paasto<s n="n"/></r></p></e>
     <e><p><l>fátmi<s n="n"/></l><r>syli<s n="n"/></r></p></e>
     <e><p><l>fáttar<s n="n"/></l><r>kummi<s n="n"/></r></p></e>
-    <e><p><l>fáttar<s n="n"/></l><r>kuoma<s n="n"/></r></p></e>
     <e><p><l>fávre<s n="n"/></l><r>hyväkäs<s n="n"/></r></p></e>
     <e><p><l>fávru<s n="n"/></l><r>kalleus<s n="n"/></r></p></e>
     <e><p><l>fáŋga<s n="n"/></l><r>vanki<s n="n"/></r></p></e>
@@ -14228,6 +14227,7 @@
     <e><p><l>-gaskasaš<s n="adj"/></l><r>välinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
     <e><p><l>-hámat<s n="adj"/></l><r>muotoinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>-typasaš<s n="adj"/></l><r>tyyppinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
+    <e><p><l>giellaoahpalaš<s n="adj"/></l><r>kieliopillinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>absoluhta<s n="adj"/></l><r>absoluuttinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>absoluhtalaš<s n="adj"/></l><r>absoluuttinen<s n="adj"/></r></p><par n="kansalli/nen__adj"/></e>
     <e><p><l>abstrákta<s n="adj"/></l><r>abstrakti<s n="adj"/></r></p><par n="uusi__adj"/></e>
