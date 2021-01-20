@@ -74,7 +74,8 @@
     <sdef n="itg"   c="Interrogative"/>
     <sdef n="recip"     c="recipocal"/>
     <sdef n="ref"        c="Reflexive"/>
-    <sdef n="comp"        c=""/>
+    <sdef n="comp"        c="Comparative (fin)"/>
+    <sdef n="der_comp"        c="Comparative (sme)"/>
     <sdef n="sup"        c=""/>
 
     <sdef n="ind"     c="Indefinite"/>
@@ -122,7 +123,7 @@
     <e><p><l><s n="cmp"/></l><r><s n="cmp"/></r></p></e>
     <e><p><l><s n="der_aadv"/><s n="adv"/></l><r><s n="der_sti"/></r></p></e>
     <e r="LR"><p><l><s n="attr"/></l><r><s n="ND"/><s n="CD"/></r></p></e>
-    <e><p><l><s n="comp"/></l><r><s n="comp"/></r></p></e>
+    <e><p><l><s n="der_comp"/></l><r><s n="comp"/></r></p></e>
     <e><p><l><s n="sup"/></l><r><s n="sup"/></r></p></e>
     <e><p><l><s n="ess"/></l><r><s n="ess"/></r></p></e>
     <e><p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
@@ -468,6 +469,19 @@
         
     <!-- SECTION: Pronouns -->
 
+    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>minä<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
+    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>hän<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
+
+    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="du"/></l><r>me<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="du"/></l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="du"/></l><r>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+
+    <e><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></l><r>me<s n="prn"/><s n="pers"/><s n="p1"/><s n="pl"/></r></p></e>
+    <e><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></l><r>te<s n="prn"/><s n="pers"/><s n="p2"/><s n="pl"/></r></p></e>
+    <e><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></l><r>he<s n="prn"/><s n="pers"/><s n="p3"/><s n="pl"/></r></p></e>
+    
+<!--    
     <e r="LR"><p><l>mun<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></l><r>minä<s n="prn"/><s n="pers"/><s n="p1"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>don<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></l><r>sinä<s n="prn"/><s n="pers"/><s n="p2"/><s n="sg"/></r></p></e>
     <e r="LR"><p><l>son<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></l><r>hän<s n="prn"/><s n="pers"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -487,7 +501,7 @@
     <e r="RL"><p><l>mun<s n="prn"/><s n="pers"/></l><r>me<s n="prn"/><s n="pers"/></r></p></e>
     <e r="RL"><p><l>don<s n="prn"/><s n="pers"/></l><r>te<s n="prn"/><s n="pers"/></r></p></e>
     <e r="RL"><p><l>son<s n="prn"/><s n="pers"/></l><r>he<s n="prn"/><s n="pers"/></r></p></e>
-
+-->
     <!--<e><p><l>dat<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>-->
     <e><p><l>diet<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="sg"/></r></p></e>
     <e><p><l>diet<s n="prn"/><s n="dem"/><s n="pl"/></l><r>ne<s n="prn"/><s n="pl"/></r></p></e>
