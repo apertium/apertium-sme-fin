@@ -426,7 +426,7 @@
     
       <!-- SECTION: Conjunctions -->
     <e><p><l>ja<s n="cnjcoo"/></l><r>ja<s n="cnjcoo"/></r></p></e>
-    <e r="RL"><p><l>ja<s n="cnjcoo"/></l><r>ja<s n="cnjcoo"/><s n="clb"/></r></p></e> <!-- non-syntactic clb tag added by CG, TODO -->
+<!--    <e r="RL"><p><l>ja<s n="cnjcoo"/></l><r>ja<s n="cnjcoo"/><s n="clb"/></r></p></e> non-syntactic clb tag added by CG, TODO -->
     <e><p><l>ja<s n="cnjcoo"/></l><r>ynnä<s n="cnjcoo"/></r></p></e>
     <e><p><l>vai<s n="cnjcoo"/></l><r>vai<s n="cnjcoo"/></r></p></e>
     <e><p><l>vai<s n="cnjcoo"/></l><r>vaiko<s n="cnjcoo"/></r></p></e>
