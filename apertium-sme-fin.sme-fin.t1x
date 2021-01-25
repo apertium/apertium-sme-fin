@@ -607,8 +607,6 @@
   </def-attr>
 
     <def-attr n="a_sem">
-      <attr-item tags="ant"/>
-      <attr-item tags="cog"/>
       <attr-item tags="sem_act"/>
       <attr-item tags="sem_act_clth"/>
       <attr-item tags="sem_act_domain"/>
