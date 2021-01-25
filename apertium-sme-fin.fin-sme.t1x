@@ -209,8 +209,6 @@
 
     
     <def-attr n="a_sem">
-      <attr-item tags="ant"/>
-      <attr-item tags="cog"/>
       <attr-item tags="sem_act"/>
       <attr-item tags="sem_act_fruit"/>
       <attr-item tags="sem_act_group"/>
@@ -338,7 +336,6 @@
       <attr-item tags="sem_feat-psych"/>
       <attr-item tags="sem_feat-psych_hum"/>
       <attr-item tags="sem_feat_plant"/>
-      <attr-item tags="sem_fem"/>
       <attr-item tags="sem_food"/>
       <attr-item tags="sem_food-med"/>
       <attr-item tags="sem_food_perc-phys"/>
@@ -376,7 +373,6 @@
       <attr-item tags="sem_ideol"/>
       <attr-item tags="sem_lang"/>
       <attr-item tags="sem_lang_tool"/>
-      <attr-item tags="sem_mal"/>
       <attr-item tags="sem_mat"/>
       <attr-item tags="sem_mat_plant"/>
       <attr-item tags="sem_mat_txt"/>
