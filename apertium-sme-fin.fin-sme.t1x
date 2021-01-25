@@ -123,6 +123,12 @@
        <attr-item tags="foc_uv"/>
        <attr-item tags="foc_ge"/>
   </def-attr>
+    <def-attr n="prop_type">
+      <attr-item tags="top"/>
+      <attr-item tags="cog"/>
+      <attr-item tags="ant"/>
+      <attr-item tags="org"/>
+    </def-attr>
 
       <def-attr n="a_conneg">
       <attr-item tags="conneg"/>

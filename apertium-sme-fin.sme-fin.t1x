@@ -336,7 +336,12 @@
     <def-attr n="a_grau">
       <attr-item tags="sup"/>
     </def-attr>
-
+    <def-attr n="prop_type">
+      <attr-item tags="top"/>
+      <attr-item tags="cog"/>
+      <attr-item tags="ant"/>
+      <attr-item tags="org"/>
+    </def-attr>
     <def-attr n="a_nbr">
       <attr-item tags="ND"/>
       <attr-item tags="sg"/>
