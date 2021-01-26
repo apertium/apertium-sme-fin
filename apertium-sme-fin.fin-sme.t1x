@@ -59,15 +59,21 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
-
     <def-cat n="any">
       <cat-item tags="*"/>
-     </def-cat>
-      
+     </def-cat>      
   </section-def-cats>
+
   <section-def-attrs>
+    <def-attr n="a_numtype">
+      <attr-item tags="arab"/>
+      <attr-item tags="card"/>
+    </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
+    </def-attr>
+    <def-attr n="a_voice">
+      <attr-item tags="actv"/>
     </def-attr>
     <def-attr n="a_pers">
       <attr-item tags="p1"/>
@@ -122,7 +128,7 @@
        <attr-item tags="foc_hal"/>
        <attr-item tags="foc_uv"/>
        <attr-item tags="foc_ge"/>
-  </def-attr>
+    </def-attr>
     <def-attr n="prop_type">
       <attr-item tags="top"/>
       <attr-item tags="cog"/>
@@ -130,9 +136,29 @@
       <attr-item tags="org"/>
     </def-attr>
 
-      <def-attr n="a_conneg">
+    <def-attr n="a_conneg">
       <attr-item tags="conneg"/>
-      <attr-item tags="connegii"/>
+    </def-attr>
+    <def-attr n="a_qst">
+      <attr-item tags="qst"/>
+    </def-attr>
+    <def-attr n="a_mood_temps">
+      <attr-item tags="cond"/>
+      <attr-item tags="cond.pres"/>
+      <attr-item tags="cond.pret"/>
+    </def-attr>
+    <def-attr n="a_tense">
+      <attr-item tags="pres"/>
+      <attr-item tags="pret"/>
+    </def-attr>
+    <def-attr n="a_mood">
+      <attr-item tags="indic"/>
+      <attr-item tags="cond"/>
+      <attr-item tags="pot"/>
+    </def-attr>
+    <def-attr n="a_prc">
+      <attr-item tags="prfprc"/>
+      <attr-item tags="prsprc"/>
     </def-attr>
 
     <def-attr n="a_func">
@@ -481,6 +507,8 @@
     <def-var n="number"/>
     <def-var n="current_verb"/>
     <def-var n="caseFirstWord"/>
+    <def-var n="case"/>
+    <def-var n="tense"/>
   </section-def-vars>
 
   <section-def-macros>
@@ -805,7 +833,31 @@
       </action>
     </rule>
     
+    <rule comment="comment: Negation default is indicative">
+      <pattern>
+        <pattern-item n="neg"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/><lit-tag v="indic"/>
+              <clip pos="1" side="sl" part="a_pers"/>
+              <clip pos="1" side="sl" part="a_nbr"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
     
+
     <rule comment="REGLA: VERB">
       <pattern>
         <pattern-item n="vblex"/>
@@ -835,31 +887,6 @@
 
 
 
-    
-
-    <rule comment="comment: Negation default is indicative">
-      <pattern>
-        <pattern-item n="neg"/>
-      </pattern>
-      <action>
-        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
-        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
-        <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
-        <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
-        <out>
-          <chunk name="n" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SN"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/><lit-tag v="indic"/>
-              <clip pos="1" side="sl" part="a_pers"/>
-              <clip pos="1" side="sl" part="a_nbr"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
 
    
     <rule comment="REGLA: CNJCOO">
