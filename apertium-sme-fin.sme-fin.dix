@@ -458,7 +458,7 @@
     <e><p><l>vai<s n="cnjsub"/></l><r>vai<s n="cnjcoo"/></r></p></e>
     <e><p><l>vai<s n="cnjsub"/></l><r>tai<s n="cnjcoo"/></r></p></e>
     <e><p><l>vaikko<s n="cnjsub"/></l><r>vaikka<s n="cnjsub"/></r></p></e>
-    <e><p><l>vaikke<s n="cnjsub"/></l><r>vaikka<s n="cnjsub"/></r></p></e>
+    <e r="LR"><p><l>vaikke<s n="cnjsub"/></l><r>vaikka<s n="cnjsub"/></r></p></e>
       <!--<e><p><l>ovdal<b/>go<s n="cnjsub"/></l><r>ennen<b/>kuin<s n="cnjsub"/></r></p></e>-->
     <e r="RL"><p><l>ovdal<b/>go<s n="cnjsub"/></l><r>ennenkuin<s n="cnjsub"/></r></p></e>
     <e><p><l>dasságo<s n="cnjsub"/></l><r>kunnes<s n="cnjsub"/></r></p></e>
