@@ -50,6 +50,9 @@
       <cat-item tags="vblex.*.indic.pres.*"/>
       <cat-item tags="vblex.*.indic.pret.*"/>
     </def-cat>    
+    <def-cat n="infma">
+      <cat-item tags="vblex.*.infma.*"/>
+    </def-cat>
     <def-cat n="prop">
       <cat-item tags="np.*"/>
     </def-cat>
@@ -160,7 +163,27 @@
       <attr-item tags="prfprc"/>
       <attr-item tags="prsprc"/>
     </def-attr>
-
+    <def-attr n="a_nonfin">
+      <attr-item tags="inf"/>
+      <attr-item tags="ger"/>
+      <attr-item tags="vgen"/>
+      <attr-item tags="vabess"/>
+      <attr-item tags="supn"/>
+      <attr-item tags="actio.nom"/>
+      <attr-item tags="agprc.sg.nom"/>
+      <attr-item tags="vabess.adj.attr"/>
+      <attr-item tags="infma.sg.ine"/>
+      <attr-item tags="infe.sg.ine"/>
+      <attr-item tags="infma.sg.ins"/>
+      <attr-item tags="infa.sg.tra"/>
+      <attr-item tags="infma.sg.abe"/>
+      <attr-item tags="actio.ine"/>
+      <attr-item tags="actio.gen"/>
+      <attr-item tags="actio.ess"/>
+      <attr-item tags="der_minen.sg.ela"/>
+      <attr-item tags="der_minen.sg.gen"/>
+      <attr-item tags="der_minen.sg.tra"/>
+    </def-attr>
     <def-attr n="a_func">
       <attr-item tags="@→A"/>
       <attr-item tags="@A←"/>
@@ -512,6 +535,10 @@
   </section-def-vars>
 
   <section-def-macros>
+    <def-macro n="remove-syntags1" npar="1">
+      <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+    </def-macro>
+
     <def-macro n="remove-semtags1" npar="1">
       <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
     </def-macro>
@@ -596,14 +623,71 @@
       <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
     </def-macro>
 
+
     <def-macro n="default-conversion3" npar="3">
       <call-macro n="default-conversion1"><with-param pos="3"/></call-macro>
       <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
       <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
     </def-macro>
 
+    <!-- dump starts here -->
+    <def-macro n="default-conversion-nonfin1" npar="1">
+      <choose>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infma.sg.abe"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="vabess"/></let>
+          <let><clip pos="1" side="tl" part="a_attr"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="a_adj"/><lit v=""/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infma.sg.ine"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.ess"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infe.sg.ine"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="ger"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infa.sg.lat"/></equal></test>
+          <!--<let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="der_minen.sg.ela"/></let>-->
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="inf"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="der_minen.sg.tra"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.gen"/></let>
+          <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="der_minen.sg.ela"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.ine"/></let><!--was: gen -->
+          <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infma.sg.ine"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.ess"/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="infa.sg.tra.2"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="supn"/></let>
+<!--          <call-macro n="pers-to-px1"><with-param pos="1"/></call-macro> todo look at this-->
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="agprc.sg.nom"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.nom"/></let>
+          <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
+        </when>
+      </choose>
+    </def-macro>
+    
+
+
     
     
+    <!-- dump stops here -->
+
+
+
+
     <def-macro n="semtag-deletion" npar="1">
       <let><clip pos="1" side="tl" part="a_known"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="x_func"/><lit v=""/></let>
@@ -623,6 +707,36 @@
   </section-def-macros>
   
   <section-rules>
+
+
+
+    <rule comment="REGLA: INFMA">
+      <pattern>
+        <pattern-item n="infma"/>
+      </pattern>
+      <action>
+        <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="remove-syntags1"><with-param pos="1"/></call-macro>
+	<choose>
+	  <when>
+	    <test><equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="infma.sg.ine"/></equal></test>
+	    <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.ess"/></let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+	    
+	  </when>
+	</choose>
+      </action>
+    </rule>
+
 
 
     <rule comment="REGLA: NOM">
@@ -832,7 +946,44 @@
         </out>
       </action>
     </rule>
+
     
+
+    <rule comment="REGLA: OLLA-FIN CONNEG PRET">
+      <pattern>
+        <pattern-item n="neg"/>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+<!--     <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>-->
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_pers"/><lit v=""/></let>
+        <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+        <call-macro n="default-conversion2"><with-param pos="2"/><with-param pos="2"/></call-macro>
+        <call-macro n="nbr-deletion"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="v-prc" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/><lit-tag v="indic"/>
+              <clip pos="1" side="sl" part="a_pers"/>
+              <clip pos="1" side="sl" part="a_nbr"/>
+<!--              <clip pos="1" side="tl" part="whole"/>-->
+            </lu>
+            <b pos="1"/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    
+
     <rule comment="comment: Negation default is indicative">
       <pattern>
         <pattern-item n="neg"/>
@@ -856,8 +1007,10 @@
         </out>
       </action>
     </rule>
-    
 
+
+
+    
     <rule comment="REGLA: VERB">
       <pattern>
         <pattern-item n="vblex"/>
@@ -882,9 +1035,6 @@
         </out>
       </action>
     </rule>
-
-
-
 
 
 
