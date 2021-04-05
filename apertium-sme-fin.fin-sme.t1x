@@ -75,6 +75,9 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
+    <def-attr n="a_cardinal">
+      <attr-item tags="card"/>
+    </def-attr>
     <def-attr n="a_voice">
       <attr-item tags="actv"/>
     </def-attr>
@@ -231,6 +234,7 @@
       <attr-item tags="@→N"/>
       <attr-item tags="@N"/>
       <attr-item tags="@N←"/>
+      <attr-item tags="@NUM"/>
       <attr-item tags="@→Num"/>
       <attr-item tags="@Num←"/>
       <attr-item tags="@←OBJ"/>
@@ -539,6 +543,10 @@
       <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
     </def-macro>
 
+    <def-macro n="remove-cardinal1" npar="1">
+      <let><clip pos="1" side="tl" part="a_cardinal"/><lit v=""/></let>
+    </def-macro>
+
     <def-macro n="remove-semtags1" npar="1">
       <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
     </def-macro>
@@ -745,6 +753,7 @@
       </pattern>
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="remove-syntags1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="n" case="caseFirstWord">
@@ -906,6 +915,7 @@
       </pattern>
       <action>
         <call-macro n="remove-semtags1"><with-param pos="1"/></call-macro>
+        <call-macro n="remove-cardinal1"><with-param pos="1"/></call-macro>
         <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="n" case="caseFirstWord">
