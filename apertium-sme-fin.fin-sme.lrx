@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rules>
+
+  <!-- tulla -->  
   <rule weight="1.0">
     <!-- tulla default boahtit -->
     <match lemma="tulla" tags="vblex.*">
@@ -20,6 +22,8 @@
     </match>
     <match tags="*.nom"/>
   </rule>
+
+  <!-- pitää -->  
   <rule weight="0.5">
     <!-- liikot  -->
     <match lemma="pitää" tags="vblex.*">
@@ -59,6 +63,8 @@
       <select lemma="berret" tags="vblex.*"/>
     </match>
   </rule>
+
+  <!-- vaihde -->
   <rule weight="1.0">
     <!-- vaihde default -->
     <match lemma="vaihde" tags="n.*">
@@ -83,6 +89,8 @@
       <select lemma="jorggáldat" tags="n.*"/>
     </match>
   </rule>
+
+  <!-- siten -->
   <rule weight="1.0">
     <!-- siten default -->
     <match lemma="siten" tags="adv">
