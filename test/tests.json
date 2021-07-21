@@ -1,0 +1,18 @@
+{
+    "fin-sme": {
+        "input": "fin-sme-input.txt",
+        "mode": "fin-sme"
+    },
+    "fin-sme-pending": {
+        "input": "fin-sme-pending-input.txt",
+        "mode": "fin-sme"
+    },
+    "fin-sme-regression": {
+        "input": "fin-sme-regression-input.txt",
+        "mode": "fin-sme"
+    },
+    "sme-fin-regression": {
+        "input": "sme-fin-regression-input.txt",
+        "mode": "sme-fin"
+    }
+}
