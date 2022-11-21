@@ -5,9 +5,30 @@
     <def-cat n="default">
       <cat-item tags="*"/>
     </def-cat>
+    <def-cat n="np_cmp">
+      <cat-item tags="np.*.*.*.*.cmp"/>
+      <cat-item tags="np.*.*.*.cmp"/>
+      <cat-item tags="np.*.*.cmp"/>
+      <cat-item tags="np.*.*.*.*.cmp.guio"/>
+      <cat-item tags="np.*.*.*.cmp.guio"/>
+      <cat-item tags="np.*.*.cmp.guio"/>
+      <cat-item tags="n.*.*.*.acr.cmp_hyph.cmp"/>
+      <cat-item tags="n.*.*.acr.cmp_hyph.cmp"/>
+      <cat-item tags="n.*.acr.cmp_hyph.cmp"/>
+    </def-cat>
     <def-cat n="n_cmp">
-      <cat-item tags="*.cmp"/>
-      <cat-item tags="*.cmp.guio"/>
+      <cat-item tags="n.*.*.*.cmp"/>
+      <cat-item tags="n.*.*.*.*.cmp"/>
+      <cat-item tags="n.*.*.*.*.*.cmp"/>
+      <cat-item tags="n.*.*.*.cmp.guio"/>
+      <cat-item tags="n.*.*.*.*.cmp.guio"/>
+      <cat-item tags="n.*.*.*.*.*.cmp.guio"/>
+      <cat-item lemma="dárogiel" tags="adj.*.attr.*"/>
+      <cat-item lemma="sámegiel" tags="adj.*.attr.*"/>
+      <cat-item lemma="davvisámegiel" tags="adj.*.attr.*"/>
+      <cat-item lemma="julevsámegiel" tags="adj.*.attr.*"/>
+      <cat-item lemma="lullisámegiel" tags="adj.*.attr.*"/>
+      <cat-item lemma="suomagiel" tags="adj.*.attr.*"/>
     </def-cat>
     <def-cat n="noun"> 
       <cat-item tags="n.sg.*"/>
@@ -586,6 +607,100 @@
 
 
     <def-macro n="default-conversion1" npar="1">
+	<choose><when><test>
+      <not><equal><clip pos="1" side="tl" part="a_func"/><lit v=""/></equal></not></test>
+      <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>		
+	</when>
+	</choose>
+	<choose><when><test>
+      <not><equal><clip pos="1" side="tl" part="a_sem"/><lit v=""/></equal></not></test>
+      <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>		
+	</when>
+	</choose>
+	<choose><when><test>
+      <not><equal><clip pos="1" side="tl" part="a_ela_ine"/><lit v=""/></equal></not></test>
+      <let><clip pos="1" side="tl" part="a_ela_ine"/><lit-tag v="loc"/></let>		
+	</when>
+	</choose>
+	<choose><when><test>
+      <not><equal><clip pos="1" side="tl" part="a_spec_sma_tags1"/><lit v=""/></equal></not></test>
+      <let><clip pos="1" side="tl" part="a_spec_sma_tags1"/><lit v=""/></let>		
+	</when>
+	</choose>
+	<choose><when><test>
+      <not><equal><clip pos="1" side="tl" part="a_spec_sma_tags2"/><lit v=""/></equal></not></test>
+      <let><clip pos="1" side="tl" part="a_spec_sma_tags2"/><lit v=""/></let>		
+	</when>
+	</choose>
+	<choose><when><test>
+      <not><equal><clip pos="1" side="tl" part="a_trans"/><lit v=""/></equal></not></test>
+      <let><clip pos="1" side="tl" part="a_trans"/><lit v=""/></let>		
+	</when>
+	</choose>
+	<choose><when><test>
+      <not><equal><clip pos="1" side="tl" part="a_trans"/><lit v=""/></equal></not></test>
+      <let><clip pos="1" side="tl" part="a_trans"/><lit v=""/></let>		
+	</when>
+	</choose>
+      <choose>
+	      <when><test><and>
+	  <equal><clip pos="1" side="sl" part="a_attr"/><lit-tag v="attr"/></equal>
+	  <equal><clip pos="1" side="tl" part="a_type"/><lit-tag v="ord"/></equal>
+	  <not><equal><clip pos="1" side="tl" part="lemma"/><lit v="nubbi"/></equal></not>
+	  </and></test>
+      <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
+      </when></choose>
+       <choose> 	      <when><test>
+	  <equal><clip pos="1" side="tl" part="lemma"/><lit v="eambbo"/></equal>
+	  </test>
+      <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="nom"/></let>
+      </when></choose> 
+      <choose><when><test>
+	  <equal><clip pos="1" side="tl" part="a_deriv"/><lit-tag v="der_vuota"/></equal></test>
+      <let><clip pos="1" side="tl" part="a_attr"/><lit v=""/></let>
+      </when>
+      </choose> 
+      <choose><when><test>
+	  <equal><clip pos="1" side="tl" part="a_deriv"/><lit-tag v="der_ldh"/></equal></test>
+      <let><clip pos="1" side="tl" part="a_deriv"/><lit-tag v="der_passl"/></let>
+      <let><clip pos="1" side="tl" part="a_postags"/><lit-tag v="vblex.iv.prfprc"/></let>
+      </when>
+      </choose> 
+      <choose>
+	      <when><test><and>
+	  <equal><clip pos="1" side="tl" part="a_PoS"/><lit-tag v="adj"/></equal>
+	  <equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="gen"/></equal>
+	  </and></test>
+      <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="attr"/></let>
+      </when>
+      </choose> 
+      <choose>
+	      <when><test><and>
+	  <equal><clip pos="1" side="tl" part="a_PoS"/><lit-tag v="prn"/></equal>
+	  <equal><clip pos="1" side="tl" part="a_nbr"/><lit-tag v="pl"/></equal>
+	  <equal><clip pos="1" side="tl" part="a_attr"/><lit-tag v="attr"/></equal>
+	  </and></test>
+      <let><clip pos="1" side="tl" part="a_attr"/><lit v=""/></let>
+      </when>
+      </choose> 
+      <choose>
+      <when><test><and>
+	  <equal><clip pos="1" side="tl" part="a_num"/><lit-tag v="arab"/></equal>
+	  <or>
+	  <equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="gen"/></equal>
+	  <equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="acc"/></equal>
+	  </or>
+	  </and></test>
+      <let><clip pos="1" side="tl" part="a_attr"/><lit v=""/></let>
+      </when>
+      </choose> 
+
+    </def-macro>
+
+ <!--   
+    <def-macro n="default-conversion1" npar="1">
       <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
       <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
       <choose>
@@ -648,7 +763,9 @@
       </choose>
 
     </def-macro>
+ -->
 
+ 
     <def-macro n="default-conversion2" npar="2">
       <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
       <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
