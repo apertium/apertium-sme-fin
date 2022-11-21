@@ -2,6 +2,28 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="default">
+      <cat-item tags="*"/>
+    </def-cat>
+    <def-cat n="n_cmp">
+      <cat-item tags="*.cmp"/>
+      <cat-item tags="*.cmp.guio"/>
+    </def-cat>
+    <def-cat n="noun"> 
+      <cat-item tags="n.sg.*"/>
+      <cat-item tags="n.*.sg.*"/>
+      <cat-item tags="n.*.*.sg.*"/>
+      <cat-item tags="*.n.sg.*"/>
+      <cat-item tags="*.n.*.sg.*"/>
+      <cat-item tags="n.pl.*"/>
+      <cat-item tags="n.*.pl.*"/>
+      <cat-item tags="n.*.*.pl.*"/>
+      <cat-item tags="*.n.pl.*"/>
+      <cat-item tags="*.n.*.pl.*"/>
+      <cat-item tags="np.*"/>
+      <cat-item tags="n.abbr.*"/>
+      <cat-item tags="*.cmp_sgnom.cmp_splitr.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -565,6 +587,7 @@
 
     <def-macro n="default-conversion1" npar="1">
       <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_sem"/><lit v=""/></let>
       <choose>
         <when>
           <test>
@@ -716,6 +739,97 @@
   
   <section-rules>
 
+    <rule comment="C[S] n_cmp noun" c="example">
+      <pattern>
+        <pattern-item n="n_cmp"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
+        <out>
+          <chunk name="noun" case="caseFirstword">
+            <tags>
+              <tag><lit-tag v="NP"/></tag>
+            </tags>
+            <mlu>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+            </mlu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="C[S] n_cmp n_cmp noun" c="example">
+      <pattern>
+        <pattern-item n="n_cmp"/>
+        <pattern-item n="n_cmp"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="3"/></call-macro>
+        <out>
+          <chunk name="noun" case="caseFirstword">
+            <tags>
+              <tag><lit-tag v="NP"/></tag>
+            </tags>
+            <mlu>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/>
+              </lu>
+            </mlu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="C[S] n_cmp n_cmp n_cmp noun" c="bieggamillofápmorusttet">
+      <pattern>
+        <pattern-item n="n_cmp"/>
+        <pattern-item n="n_cmp"/>
+        <pattern-item n="n_cmp"/>
+        <pattern-item n="noun"/>
+      </pattern>
+      <action>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="2"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="3"/></call-macro>
+        <call-macro n="default-conversion1"><with-param pos="4"/></call-macro>
+        <out>
+          <chunk name="noun" case="caseFirstword">
+            <tags>
+              <tag><lit-tag v="NP"/></tag>
+            </tags>
+            <mlu>
+              <lu>
+                <clip pos="1" side="tl" part="whole"/>
+              </lu>
+              <lu>
+                <clip pos="2" side="tl" part="whole"/>
+              </lu>
+              <lu>
+                <clip pos="3" side="tl" part="whole"/>
+              </lu>
+              <lu>
+                <clip pos="4" side="tl" part="whole"/>
+              </lu>
+            </mlu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    
 
 
     <rule comment="REGLA: INFMA">
