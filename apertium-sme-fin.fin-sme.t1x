@@ -136,7 +136,7 @@
       <attr-item tags="du"/>
       <attr-item tags="ND"/>
     </def-attr>
-    <def-attr n="a_cas">
+    <def-attr n="a_case">
       <attr-item tags="CD"/>
       <attr-item tags="nom"/>
       <attr-item tags="acc"/>
@@ -153,6 +153,10 @@
       <attr-item tags="loc"/>
       <attr-item tags="ins"/>
       <attr-item tags="abl"/>
+    </def-attr>
+    <def-attr n="a_ela_ine">
+      <attr-item tags="ela"/>
+      <attr-item tags="ine"/>
     </def-attr>
     <def-attr n="a_attr">
       <attr-item tags="attr"/>
@@ -582,6 +586,15 @@
   </section-def-vars>
 
   <section-def-macros>
+
+
+
+
+
+
+
+
+    
     <def-macro n="remove-syntags1" npar="1">
       <let><clip pos="1" side="tl" part="a_func"/><lit v=""/></let>
     </def-macro>
@@ -715,27 +728,27 @@
 
       <choose>
         <when>
-          <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="par"/></equal>
+          <test><and><equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="par"/></equal>
                      <not><equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@SUBJ"/></equal></not></and>
           </test>
-          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="gen"/></let>
+          <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="gen"/></let>
         </when>
         <when>
-          <test><and><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="par"/></equal>
+          <test><and><equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="par"/></equal>
                      <equal><clip pos="1" side="sl" part="a_func"/><lit-tag v="@SUBJ"/></equal></and></test>
-          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="nom"/></let>
+          <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="nom"/></let>
         </when>
         <when>
-          <test><or><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ine"/></equal>
-                    <equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ade"/></equal>
-	            <equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="abl"/></equal>
-		    <equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ela"/></equal>
+          <test><or><equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="ine"/></equal>
+                    <equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="ade"/></equal>
+	            <equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="abl"/></equal>
+		    <equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="ela"/></equal>
                 </or></test>
-          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="loc"/></let>
+          <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="loc"/></let>
         </when>
         <when>
-          <test><equal><clip pos="1" side="tl" part="a_cas"/><lit-tag v="all"/></equal></test>
-          <let><clip pos="1" side="tl" part="a_cas"/><lit-tag v="ill"/></let>
+          <test><equal><clip pos="1" side="tl" part="a_case"/><lit-tag v="all"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_case"/><lit-tag v="ill"/></let>
         </when>
       </choose>
       <choose>
@@ -746,7 +759,7 @@
       </choose>
       <choose>
         <when>
-          <test><equal><clip pos="1" side="sl" part="a_cas"/><lit-tag v="ess"/></equal></test>
+          <test><equal><clip pos="1" side="sl" part="a_case"/><lit-tag v="ess"/></equal></test>
           <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
         </when>
       </choose>
@@ -849,7 +862,7 @@
      </def-macro>
     
     <def-macro n="case-deletion" npar="1">
-      <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+      <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
      </def-macro>
     
   </section-def-macros>
@@ -1009,10 +1022,10 @@
       <action>
         <choose><when>
           <test><and>
-            <equal><clip pos="1" side="sl" part="a_cas"/><clip pos="2" side="sl" part="a_cas"/></equal>
+            <equal><clip pos="1" side="sl" part="a_case"/><clip pos="2" side="sl" part="a_case"/></equal>
             <equal><clip pos="1" side="sl" part="a_nbr"/><clip pos="2" side="sl" part="a_nbr"/></equal>
           </and></test>
-          <let><clip pos="1" side="tl" part="a_cas"/><lit v=""/></let>
+          <let><clip pos="1" side="tl" part="a_case"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="a_nbr"/><lit v=""/></let>
           <let><clip pos="1" side="tl" part="whole"/><concat><clip pos="1" side="tl" part="whole"/><lit-tag v="attr"/></concat></let>
         </when></choose>
@@ -1300,6 +1313,28 @@
       </action>
     </rule>
 
+    
+<!-- General cleanup rules -->
+    
+    <rule comment="REGLA: DEFAULT">
+      <pattern>
+        <pattern-item n="default"/>
+      </pattern>
+      <action>
+        <call-macro n="default-conversion1"><with-param pos="1"/></call-macro>
+<!--      <call-macro n="general-macro-1Param"><with-param pos="1"/></call-macro>-->
+        <out>
+          <chunk name="any" case="caseFirstword">
+            <tags>
+              <tag><lit-tag v="default"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
  
    
     <rule comment="REGLA: SENT">
