@@ -23,13 +23,21 @@
         <file name="apertium-sme-fin.sme-fin.t1x"/>
         <file name="sme-fin.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk" debug-suff="interchunk1">
         <file name="apertium-sme-fin.sme-fin.t2x"/>
         <file name="sme-fin.t2x.bin"/>
       </program>
-      <program name="apertium-postchunk">
+      <program name="apertium-interchunk" debug-suff="interchunk2">
         <file name="apertium-sme-fin.sme-fin.t3x"/>
         <file name="sme-fin.t3x.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunk3">
+        <file name="apertium-sme-fin.sme-fin.t4x"/>
+        <file name="sme-fin.t4x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-sme-fin.sme-fin.t5x"/>
+        <file name="sme-fin.t5x.bin"/>
       </program>
       <program name="apertium-transfer -n" debug-suff="postchunk2">
         <file name="apertium-sme-fin.sme-fin.t4x"/>
@@ -60,13 +68,21 @@
         <file name="apertium-sme-fin.fin-sme.t1x"/>
         <file name="fin-sme.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk" debug-suff="interchunk1">
         <file name="apertium-sme-fin.fin-sme.t2x"/>
         <file name="fin-sme.t2x.bin"/>
       </program>
-      <program name="apertium-postchunk">
+      <program name="apertium-interchunk" debug-suff="interchunk2">
         <file name="apertium-sme-fin.fin-sme.t3x"/>
         <file name="fin-sme.t3x.bin"/>
+      </program>
+      <program name="apertium-interchunk" debug-suff="interchunk3">
+        <file name="apertium-sme-fin.fin-sme.t4x"/>
+        <file name="fin-sme.t4x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-sme-fin.fin-sme.t5x"/>
+        <file name="fin-sme.t5x.bin"/>
       </program>
       <program name="hfst-proc -N 1 $1">
         <file name="fin-sme.autogen.hfst"/>
