@@ -17,6 +17,8 @@
       <cat-item tags="n.*.acr.cmp_hyph.cmp"/>
     </def-cat>
     <def-cat n="n_cmp">
+      <cat-item tags="n.*.cmp"/>
+      <cat-item tags="n.*.*.cmp"/>
       <cat-item tags="n.*.*.*.cmp"/>
       <cat-item tags="n.*.*.*.*.cmp"/>
       <cat-item tags="n.*.*.*.*.*.cmp"/>
@@ -230,6 +232,8 @@
       <attr-item tags="actio.ine"/>
       <attr-item tags="actio.gen"/>
       <attr-item tags="actio.ess"/>
+      <attr-item tags="der_nomact"/>
+      <attr-item tags="der_minen"/>
       <attr-item tags="der_minen.sg.ela"/>
       <attr-item tags="der_minen.sg.gen"/>
       <attr-item tags="der_minen.sg.tra"/>
@@ -835,6 +839,11 @@
         <when>
           <test><equal><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="agprc.sg.nom"/></equal></test>
           <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="actio.nom"/></let>
+          <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
+        </when>
+        <when>
+          <test><equal><clip pos="1" side="sl" part="a_nonfin"/><lit-tag v="der_minen"/></equal></test>
+          <let><clip pos="1" side="tl" part="a_nonfin"/><lit-tag v="der_nomact"/></let>
           <let><clip pos="1" side="tl" part="a_voice"/><lit v=""/></let>
         </when>
       </choose>
