@@ -85,6 +85,7 @@
     <sdef n="iv"       c="Intransitive"/>
 
     <sdef n="ij"    c="Interjection"/>
+    <sdef n="der_minen"    c="diggaaminen, action in Finnish"/>
 
     <sdef n="der_ja"    c="Derivation / ja"/>
     <sdef n="der_dimin"    c=""/>
@@ -21616,7 +21617,7 @@
     <e><p><l>čiekŋudit<s n="vblex"/><s n="tv"/></l><r>paneutua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>fáškalit<s n="vblex"/><s n="tv"/></l><r>sivaltaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>gozihit<s n="vblex"/><s n="tv"/></l><r>vahtia<s n="vblex"/></r></p><par n="V_V"/></e>
-    <e><p><l>hoallat<s n="vblex"/><s n="tv"/></l><r>puhua<s n="vblex"/></r></p><par n="V_V"/></e>
+    <e r="LR"><p><l>hoallat<s n="vblex"/><s n="tv"/></l><r>puhua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>leiret<s n="vblex"/><s n="tv"/></l><r>vuotaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>russut<s n="vblex"/><s n="tv"/></l><r>purkautua<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>čáhccet<s n="vblex"/><s n="tv"/></l><r>kastella<s n="vblex"/></r></p><par n="V_V"/></e>
