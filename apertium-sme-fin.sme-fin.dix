@@ -789,9 +789,9 @@
     <e><p><l>refleaksa<s n="n"/></l><r>refleksi<s n="n"/></r></p></e>
     <e><p><l>oažžun<s n="n"/></l><r>saanti<s n="n"/></r></p></e>
     <e><p><l>mudden<s n="n"/></l><r>säätely<s n="n"/></r></p></e>
-    <e><p><l>buohccẹedikšun<s n="n"/></l><r>sairaanhoito<s n="n"/></r></p></e>
+    <e><p><l>buohccedikšu<s n="n"/></l><r>sairaanhoito<s n="n"/></r></p></e>
     <e><p><l>diđolašvuohta<s n="n"/></l><r>tajunta<s n="n"/></r></p></e>
-    <e><p><l>dássi<s n="n"/></l><r>tasa<s n="n"/></r></p></e>
+    <e><p><l>dássi<s n="n"/></l><r>taso<s n="n"/></r></p></e>
     <e><p><l>teknologiija<s n="n"/></l><r>teknologi<s n="n"/></r></p></e>
     <e><p><l>buđohat<s n="n"/></l><r>tukos<s n="n"/></r></p></e>
     <e><p><l>molsašupmi<s n="n"/></l><r>vaihdunta<s n="n"/></r></p></e>
@@ -1985,8 +1985,8 @@
     <e><p><l>dikšu<s n="n"/></l><r>hoito<s n="n"/></r></p></e>
     <e><p><l>dikšu<s n="n"/><s n="nomag"/></l><r>hoitaja<s n="n"/></r></p></e>
     <e><p><l>dikšu<s n="n"/><s n="nomag"/></l><r>hoito<s n="n"/></r></p></e>
-    <e><p><l>dikšun<s n="n"/></l><r>hoito<s n="n"/></r></p></e>
-    <e><p><l>dikšun<s n="n"/></l><r>huolto<s n="n"/></r></p></e>
+    <e><p><l>dikšun<s n="n"/></l><r>hoitaminen<s n="n"/></r></p></e>
+    <e r="RL"><p><l>dikšun<s n="n"/></l><r>huolto<s n="n"/></r></p></e>
     <e><p><l>dildu<s n="n"/></l><r>hyytelö<s n="n"/></r></p></e>
     <e><p><l>dilemma<s n="n"/></l><r>dilemma<s n="n"/></r></p></e>
     <e><p><l>dilihisvuohta<s n="n"/></l><r>levottomuus<s n="n"/></r></p></e>
@@ -6514,7 +6514,7 @@
     <e><p><l>suodjalus<s n="n"/></l><r>suojelu<s n="n"/></r></p></e>
     <e><p><l>suodjalusministtar<s n="n"/></l><r>puolustusministeri<s n="n"/></r></p></e>
     <e><p><l>suohkadas<s n="n"/></l><r>tiheikkö<s n="n"/></r></p></e>
-    <e><p><l>suohkan<s n="n"/></l><r>kunta<s n="n"/></r></p></e>
+    <e r="LR"><p><l>suohkan<s n="n"/></l><r>kunta<s n="n"/></r></p></e>
     <e><p><l>suohkan<s n="n"/></l><r>naara<s n="n"/></r></p></e>
     <e><p><l>suohkanstivra<s n="n"/></l><r>kunnanvaltuusto<s n="n"/></r></p></e>
     <e><p><l>suohkat<s n="n"/></l><r>puuro<s n="n"/></r></p></e>
@@ -19477,6 +19477,7 @@
     <e><p><l>searvvuš<s n="n"/></l><r>yhteiskunta<s n="n"/></r></p></e>
     <e><p><l>dáiddadáhpáhus<s n="n"/></l><r>taidetapahtuma<s n="n"/></r></p></e>
     <e><p><l>ásaheapmi<s n="n"/></l><r>perustaminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
+    <e><p><l>fievrredeapmi<s n="n"/></l><r>harjoittaminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>ovddideapmi<s n="n"/></l><r>edistäminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>logahallan<s n="n"/></l><r>rekisteröinti<s n="n"/></r></p></e>
     <e><p><l>sále<s n="n"/></l><r>sali<s n="n"/></r></p></e>
@@ -19633,8 +19634,6 @@
     <e><p><l>doaimmahit<s n="vblex"/><s n="tv"/></l><r>toimittaa<s n="vblex"/></r></p><par n="V_V"/></e>
     <e><p><l>bargoortnet<s n="n"/></l><r>työjärjestys<s n="n"/></r></p></e>
     <e><p><l>álbmogiidgaskasaš<s n="adj"/></l><r>kansankeskeinen<s n="adj"/></r></p><par n="yksimieli/nen__adj"/></e>
-
-    <e><p><l>goddi<s n="n"/></l><r>kunta<s n="n"/></r></p></e>
     <e><p><l>goddi<s n="n"/></l><r>villiporo<s n="n"/></r></p></e>
     <!--<e><p><l>doalli<s n="n"/></l><r>tenivä<s n="n"/></r></p></e>-->
     <!--<e><p><l>doalli<s n="n"/></l><r>pitävä<s n="n"/></r></p></e>-->
