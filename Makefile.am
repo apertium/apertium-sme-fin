@@ -167,7 +167,7 @@ $(PREFIX1).t2x.bin: $(BASENAME).$(PREFIX1).t2x
 	apertium-preprocess-transfer $< $@
 
 $(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
-	apertium-validate-postchunk $<
+	apertium-validate-interchunk $<
 	apertium-preprocess-transfer $< $@
 
 $(PREFIX1).t4x.bin: $(BASENAME).$(PREFIX1).t4x
