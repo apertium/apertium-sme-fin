@@ -733,6 +733,9 @@
     <!-- Nouns -->
 
 
+    <e r="LR"><p><l>infekšuvdna<s n="n"/></l><r>infektio<s n="n"/></r></p></e>
+    <e r="LR"><p><l>siepman<s n="n"/></l><r>siemen<s n="n"/></r></p></e>
+    <e r="LR"><p><l>vuohkku<s n="n"/></l><r>kohtaus<s n="n"/></r></p></e>
     <e r="LR"><p><l>adreassa<s n="n"/></l><r>osoite<s n="n"/></r></p></e>
     <e r="LR"><p><l>biblioteahka<s n="n"/></l><r>kirjasto<s n="n"/></r></p></e>
     <e r="LR"><p><l>coagan<s n="n"/></l><r>matalikko<s n="n"/></r></p></e>
@@ -768,7 +771,9 @@
     <e><p><l>ávnnasmolsašuvvan<s n="n"/></l><r>aineenvaihdunta<s n="n"/></r></p></e>
     <e><p><l>addin<s n="n"/></l><r>anto<s n="n"/></r></p></e>
     <e><p><l>bátneprotesa<s n="n"/></l><r>hammasproteesi<s n="n"/></r></p></e>
-    <e><p><l>vuoigŋan<s n="n"/></l><r>	hengitys<s n="n"/></r></p></e>
+    <e><p><l>muitin<s n="n"/></l><r>muistelu<s n="n"/></r></p></e>
+    <e><p><l>voluma<s n="n"/></l><r>volyymi<s n="n"/></r></p></e>
+    <e><p><l>vuoigŋan<s n="n"/></l><r>hengitys<s n="n"/></r></p></e>
     <e><p><l>vuoiŋandávjodat<s n="n"/></l><r>hengitystiheys<s n="n"/></r></p></e>
     <e><p><l>nearvafierbmi<s n="n"/></l><r>hermosto<s n="n"/></r></p></e>
     <e><p><l>buhtisindoallan<s n="n"/></l><r>hygienia<s n="n"/></r></p></e>
@@ -792,6 +797,8 @@
     <e><p><l>oažžun<s n="n"/></l><r>saanti<s n="n"/></r></p></e>
     <e><p><l>mudden<s n="n"/></l><r>säätely<s n="n"/></r></p></e>
     <e><p><l>buohccedikšu<s n="n"/></l><r>sairaanhoito<s n="n"/></r></p></e>
+    <e><p><l>buđaldeapmi<s n="n"/></l><r>aktiviteetti<s n="n"/></r></p></e>
+    <e r="LR"><p><l>aktivitehta<s n="n"/></l><r>aktiviteetti<s n="n"/></r></p></e>
     <e><p><l>diđolašvuohta<s n="n"/></l><r>tajunta<s n="n"/></r></p></e>
     <e><p><l>dássi<s n="n"/></l><r>taso<s n="n"/></r></p></e>
     <e><p><l>teknologiija<s n="n"/></l><r>teknologi<s n="n"/></r></p></e>
@@ -1349,6 +1356,7 @@
     <e><p><l>bindda<s n="n"/></l><r>heittiö<s n="n"/></r></p></e>
     <e><p><l>binná<s n="n"/></l><r>pala<s n="n"/></r></p></e>
     <e><p><l>binná<s n="n"/></l><r>vähän<s n="n"/></r></p></e>
+    <e><p><l>binnánašávnnas<s n="n"/></l><r>hivenaine<s n="n"/></r></p></e>
     <e><p><l>biografiija<s n="n"/></l><r>biografia<s n="n"/></r></p></e>
     <e><p><l>biologa<s n="n"/></l><r>biologi<s n="n"/></r></p></e>
     <e><p><l>biologiija<s n="n"/></l><r>biologia<s n="n"/></r></p></e>
@@ -1493,6 +1501,7 @@
     <e><p><l>boradanboddu<s n="n"/></l><r>ruokatauko<s n="n"/></r></p></e>
     <e><p><l>boradanbáiki<s n="n"/></l><r>syömäpaikka<s n="n"/></r></p></e>
     <e><p><l>boradanlatnja<s n="n"/></l><r>ruokahuone<s n="n"/></r></p></e>
+    <e><p><l>vuoiŋŋahatbohcci<s n="n"/></l><r>hengitystie<s n="n"/></r></p></e>
     <e><p><l>boragas<s n="n"/></l><r>hirviö<s n="n"/></r></p></e>
     <e><p><l>boraheapmi<s n="n"/></l><r>syöttö<s n="n"/></r></p></e>
     <e><p><l>boras<s n="n"/></l><r>syöpä<s n="n"/></r></p></e>
@@ -2130,6 +2139,7 @@
     <e><p><l>dovdomearka<s n="n"/></l><r>tuntomerkki<s n="n"/></r></p></e>
     <e><p><l>dovdu<s n="n"/></l><r>kokemus<s n="n"/></r></p></e>
     <e><p><l>dovdu<s n="n"/></l><r>tunne<s n="n"/></r></p></e>
+    <e r="RL"><p><l>dovdu<s n="n"/></l><r>tunto<s n="n"/></r></p></e>
     <e><p><l>dovkodat<s n="n"/></l><r>tyhmyys<s n="n"/></r></p></e>
     <e><p><l>dovtta<s n="n"/></l><r>kuikka<s n="n"/></r></p></e>
     <e><p><l>doŋgeribuvssat<s n="n"/></l><r>farkut<s n="n"/></r></p></e>
@@ -2280,6 +2290,8 @@
     <e><p><l>dáksevuoddji<s n="n"/></l><r>taksikuski<s n="n"/></r></p></e>
     <e><p><l>dákta<s n="n"/></l><r>tahti<s n="n"/></r></p></e>
     <e><p><l>dákti<s n="n"/></l><r>luu<s n="n"/></r></p></e>
+    <e><p><l>dákteriggi<s n="n"/></l><r>luuranko<s n="n"/></r></p></e>
+    <e r="RL"><p><l>dákteriggi<s n="n"/></l><r>luusto<s n="n"/></r></p></e>
     <e><p><l>dákti<s n="n"/></l><r>määräys<s n="n"/></r></p></e>
     <e><p><l>dálki<s n="n"/></l><r>ilma<s n="n"/></r></p></e>
     <e><p><l>dálki<s n="n"/></l><r>sää<s n="n"/></r></p></e>
@@ -2871,6 +2883,7 @@
     <e><p><l>geavaheapmi<s n="n"/></l><r>käyttö<s n="n"/></r></p></e>
     <e><p><l>geavahus<s n="n"/></l><r>käyttö<s n="n"/></r></p></e>
     <e><p><l>geavat<s n="n"/></l><r>käytäntö<s n="n"/></r></p></e>
+    <e><p><l>bargovásihus<s n="n"/></l><r>käytäntö<s n="n"/></r></p></e>
     <e><p><l>geavla<s n="n"/></l><r>pikkutakki<s n="n"/></r></p></e>
     <e><p><l>geazaldat<s n="n"/></l><r>puohde<s n="n"/></r></p></e>
     <e><p><l>geađaš<s n="n"/></l><r>ohimo<s n="n"/></r></p></e>
@@ -3608,6 +3621,7 @@
     <e><p><l>honnet<s n="n"/></l><r>hunaja<s n="n"/></r></p></e>
     <e><p><l>horbmá<s n="n"/></l><r>maitohorsma<s n="n"/></r></p></e>
     <e><p><l>horisonta<s n="n"/></l><r>horisontti<s n="n"/></r></p></e>
+    <e><p><l>hormona<s n="n"/></l><r>hormoni<s n="n"/></r></p></e>
     <e><p><l>hotealla<s n="n"/><s n="g3"/></l><r>hotelli<s n="n"/></r></p></e>
     <e><p><l>hovdejeaddji<s n="n"/><s n="nomag"/></l><r>holhooja<s n="n"/></r></p></e>
     <e><p><l>hubmi<s n="n"/></l><r>puhuja<s n="n"/></r></p></e>
@@ -4189,6 +4203,7 @@
     <e><p><l>lagamus<s n="n"/></l><r>lähin<s n="n"/></r></p></e>
     <e><p><l>lagamuš<s n="n"/></l><r>lähin<s n="n"/></r></p></e>
     <e><p><l>lagas<s n="n"/></l><r>läheinen<s n="n"/></r></p></e>
+    <e><p><l>lagasdivššár<s n="n"/></l><r>lähihoitaja<s n="n"/></r></p></e>
     <e><p><l>lagas<s n="n"/></l><r>läheinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>lagasvuohta<s n="n"/></l><r>läheisyys<s n="n"/></r></p></e>
     <e><p><l>lagaš<s n="n"/></l><r>läheinen<s n="n"/></r></p><par n="ihmi/nen"/></e>
@@ -4353,6 +4368,7 @@
     <e><p><l>lohpi<s n="n"/></l><r>lupa<s n="n"/></r></p></e>
     <e><p><l>lohpádus<s n="n"/></l><r>lupaus<s n="n"/></r></p></e>
     <e><p><l>lokatiiva<s n="n"/></l><r>lokatiivi<s n="n"/></r></p></e>
+    <e><p><l>lokaliseren<s n="n"/></l><r>paikallistaminen<s n="n"/></r></p></e>
     <e><p><l>lokomotiiva<s n="n"/></l><r>veturi<s n="n"/></r></p></e>
     <e><p><l>loksa<s n="n"/></l><r>luotsi<s n="n"/></r></p></e>
     <e><p><l>lokta<s n="n"/></l><r>vintti<s n="n"/></r></p></e>
@@ -6043,7 +6059,9 @@
     <e><p><l>seahki<s n="n"/></l><r>sekavuustila<s n="n"/></r></p></e>
     <e><p><l>seahkka<s n="n"/></l><r>reppu<s n="n"/></r></p></e>
     <e><p><l>seaibi<s n="n"/></l><r>häntä<s n="n"/></r></p></e>
+    <e><p><l>erekšuvdna<s n="n"/></l><r>erektio<s n="n"/></r></p></e>
     <e><p><l>seaidni<s n="n"/></l><r>seinä<s n="n"/></r></p></e>
+    <e r="RL"><p><l>seaidni<s n="n"/></l><r>seinämä<s n="n"/></r></p></e>
     <e><p><l>seaila<s n="n"/></l><r>sinetti<s n="n"/></r></p></e>
     <e><p><l>seakkalággá<s n="n"/></l><r>lynkkysuoli<s n="n"/></r></p></e>
     <e><p><l>seakkáš<s n="n"/></l><r>vyötärö<s n="n"/></r></p></e>
@@ -6149,6 +6167,7 @@
     <e><p><l>sisafárrejeaddji<s n="n"/></l><r>maahanmuuttaja<s n="n"/></r></p></e>
     <e><p><l>sisbuksa<s n="n"/></l><r>pikkuhousut<s n="n"/></r></p></e>
     <e><p><l>sisbáidi<s n="n"/></l><r>aluspaita<s n="n"/></r></p></e>
+    <e r="RL"><p><l>sisdoallu<s n="n"/></l><r>pitoisuus<s n="n"/></r></p></e>
     <e><p><l>sisdoallu<s n="n"/></l><r>sisältö<s n="n"/></r></p></e>
     <e><p><l>siseana<s n="n"/></l><r>sisämaa<s n="n"/></r></p></e>
     <e><p><l>siseanan<s n="n"/></l><r>sisämaa<s n="n"/></r></p></e>
@@ -6740,6 +6759,8 @@
     <e><p><l>teret<s n="n"/></l><r>keuhkotauti<s n="n"/></r></p></e>
     <e><p><l>terminologiija<s n="n"/></l><r>terminologia<s n="n"/></r></p></e>
     <e><p><l>terminála<s n="n"/></l><r>pääte<s n="n"/></r></p></e>
+    <e><p><l>gužžagolgan<s n="n"/></l><r>virtsankarkailu<s n="n"/></r></p></e>
+    <e><p><l>termostáhta<s n="n"/></l><r>termostaatti<s n="n"/></r></p></e>
     <e><p><l>testameanta<s n="n"/></l><r>testamentti<s n="n"/></r></p></e>
     <e><p><l>tevnnet<s n="n"/></l><r>piirustus<s n="n"/></r></p></e>
     <e><p><l>teáhter<s n="n"/></l><r>teatteri<s n="n"/></r></p></e>
@@ -7030,6 +7051,7 @@
     <e><p><l>vuohki<s n="n"/></l><r>tyyli<s n="n"/></r></p></e>
     <e><p><l>vuohppa<s n="n"/></l><r>appi<s n="n"/></r></p></e>
     <e><p><l>vuohččecuozza<s n="n"/></l><r>limakalvo<s n="n"/></r></p></e>
+    <e><p><l>vuohčun<s n="n"/></l><r>eritys<s n="n"/></r></p></e>
     <e><p><l>vuoibmi<s n="n"/></l><r>voima<s n="n"/></r></p></e>
     <e><p><l>vuoiddadus<s n="n"/></l><r>voitelu<s n="n"/></r></p></e>
     <e><p><l>vuoiddas<s n="n"/></l><r>voide<s n="n"/></r></p></e>
@@ -7052,6 +7074,7 @@
     <e><p><l>vuoiŋŋamaččat<s n="n"/></l><r>aivo<s n="n"/></r></p></e>
     <e><p><l>vuoiŋŋamašvardin<s n="n"/></l><r>aivoverenvuoto<s n="n"/></r></p></e>
     <e><p><l>vuoiŋŋanas<s n="n"/></l><r>henkäys<s n="n"/></r></p></e>
+    <e><p><l>vuoiŋŋasteapmi<s n="n"/></l><r>lepo<s n="n"/></r></p></e>
     <e><p><l>vuoiŋŋašvardin<s n="n"/></l><r>aivoverenvuoto<s n="n"/></r></p></e>
     <e><p><l>vuojadanálddis<s n="n"/></l><r>uima-allas<s n="n"/></r></p></e>
     <e><p><l>vuojáhat<s n="n"/></l><r>rata<s n="n"/></r></p></e>
@@ -7587,6 +7610,7 @@
     <e><p><l>čuokkis<s n="n"/></l><r>kohta<s n="n"/></r></p></e>
     <e><p><l>čuokkis<s n="n"/></l><r>piste<s n="n"/></r></p></e>
     <e><p><l>čuokkis<s n="n"/></l><r>seikka<s n="n"/></r></p></e>
+    <e><p><l>čuokkisčoahkku<s n="n"/></l><r>liuos<s n="n"/></r></p></e>
     <e><p><l>čuolahat<s n="n"/></l><r>hakkuupaikka<s n="n"/></r></p></e>
     <e><p><l>čuolbma<s n="n"/></l><r>solmu<s n="n"/></r></p></e>
     <e><p><l>čuolda<s n="n"/></l><r>pylväs<s n="n"/></r></p></e>
@@ -19503,6 +19527,7 @@
     <e><p><l>giellaláhka<s n="n"/></l><r>kielilaki<s n="n"/></r></p></e>
     <e><p><l>giellamáhttu<s n="n"/></l><r>kielitaito<s n="n"/></r></p></e>
     <e><p><l>sámeoahpahus<s n="n"/></l><r>saamenopetus<s n="n"/></r></p></e>
+    <e><p><l>doaibmaheapmi<s n="n"/></l><r>harjoittaminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>skuvlen<s n="n"/></l><r>kouluttaminen<s n="n"/></r></p><par n="ihmi/nen"/></e>
     <e><p><l>bargoorgána<s n="n"/></l><r>työelin<s n="n"/></r></p></e>
     <e><p><l>meahcceráđđehus<s n="n"/></l><r>metsähallinto<s n="n"/></r></p></e>
