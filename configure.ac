@@ -15,6 +15,7 @@ AC_PROG_AWK
 
 PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
 PKG_CHECK_MODULES(LTTOOLBOX,   lttoolbox >= required_lttoolbox_version, [], [PKG_CHECK_MODULES(LTTOOLBOX,   lttoolbox-3.2 >= required_lttoolbox_version)])
+PKG_CHECK_MODULES(APERTIUM_RECURSIVE, apertium-recursive >= 1.1.0)
 
 AC_PATH_PROG(CGCOMP, cg-comp, no)
 if test x$ac_cv_path_CGCOMP = x

@@ -33,7 +33,9 @@ TARGETS_COMMON =			\
 	$(PREFIX2).t2x.bin		\
 	$(PREFIX2).t3x.bin		\
 	$(PREFIX2).t4x.bin		\
-	$(PREFIX2).t5x.bin
+	$(PREFIX2).t5x.bin		\
+	$(PREFIX1).rtx.bin		\
+	$(PREFIX2).rtx.bin
 
 
 # This include defines goals for install-modes, .deps/.d, autobil.prefixes and .mode files:
