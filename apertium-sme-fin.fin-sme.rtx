@@ -21,6 +21,8 @@ cnjcoo: _ ;
 n: _.number.case;
 np: _.number.case;
 adj: _.comp.number.case;
+adj: _.number.case;
+adv: _ ;
 det: _.det_type.number.case;
 vblex: _.mood.tense.person.number ;
 !vblex: _.inf.tense; ! ser.vblex.pres
@@ -57,7 +59,7 @@ inf > inf : infa inf, infe inf, infma inf ;
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-
+!adv -> adv { 1 } ;
 NP -> %n { 1 } ;
 NP -> %np { 1 } ;
 NP -> %NP cnjcoo NP { 1 _ 2 _ 3 } ;
