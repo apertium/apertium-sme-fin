@@ -17,6 +17,7 @@
       <cat-item tags="n.*.acr.cmp_hyph.cmp"/>
     </def-cat>
     <def-cat n="n_cmp">
+      <cat-item tags="n.cmp"/>
       <cat-item tags="n.*.cmp"/>
       <cat-item tags="n.*.*.cmp"/>
       <cat-item tags="n.*.*.*.cmp"/>
