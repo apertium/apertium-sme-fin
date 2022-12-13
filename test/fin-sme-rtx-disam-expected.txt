@@ -1,2 +1,8 @@
-[Mv7yhCnTN_6i#0] ^Jaakko<np><ant><m><sg><nom>$ ^ja<cnjcoo><@CNP>$ ^Maria<np><sg><nom>$
-[/Mv7yhCnTN_6i]
+[4NACtypwmfu0#0] ^Sää<n><sg><nom>$ ^olla<vblex><actv><indic><pres><p3><sg><@+FAUXV>$ ^tänään<adv><@ADVL>$ ^hyvä<adj><sg><nom><@←SPRED>$^,<cm>$ ^olla<vblex><actv><indic><pres><p3><sg><@+FAUXV>$ ^erittäin<adv><@ADVL>$ ^lämmin<adj><sg><par><@←SPRED>$^.<sent>$
+[/4NACtypwmfu0]
+[GGI29ZqDAKMb#0] ^Mutta<cnjcoo>$ ^eilen<adv><@ADVL>$ ^olla<vblex><actv><indic><pret><p3><sg><@+FMAINV>$ ^erittäin<adv><@ADVL>$ ^kylmä<adj><sg><par><@←SPRED>$^!<sent>$
+[/GGI29ZqDAKMb]
+[Qvb-DItfh4dz#0] ^Jaakko<np><ant><m><sg><nom>$ ^ja<cnjcoo><@CNP>$ ^Maria<np><sg><nom>$ ^olla<vblex><actv><indic><pres><p3><pl><@+FMAINV>$ ^puutarha<n><sg><ine>$^.<sent>$
+[/Qvb-DItfh4dz]
+[ZJIJi5onPY7t#0] ^Silloin<adv><@ADVL>$ ^he<prn><pers><p3><pl><nom><@SUBJ→>$ ^ei<vblex><neg><actv><p3><pl><@+FAUXV>$ ^voida<vblex><actv><indic><pret><conneg><pl><@+FMAINV>$ ^leikkiä<vblex><actv><infa><sg><lat>$ ^ulkona<adv><@ADVL>$^.<sent>$
+[/ZJIJi5onPY7t]
