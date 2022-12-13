@@ -1,0 +1,67 @@
+!!!!!!!!!!!!!!!
+!! ATTRIBUTE CATEGORIES
+!!!!!!!!!!!!!!!
+
+number = sg pl sp;
+tense = pres pret ;
+diathesis = actv pass ;
+mood = indic imp cond ;
+person = p1 p2 p3 ;
+case = nom acc gen par dat ine ela ill ade abl all abe com lat ins ess ;
+comp = pst comp sup ;
+inf = inf infa infe infma ;
+prntype = pers ;
+cnjcoo = cnjcoo ;
+
+!!!!!!!!!!!!!!!
+!! OUTPUT PATTERNS
+!!!!!!!!!!!!!!!
+
+cnjcoo: _ ;
+n: _.number.case;
+np: _.number.case;
+adj: _.comp.number.case;
+det: _.det_type.number.case;
+vblex: _.mood.tense.person.number ;
+!vblex: _.inf.tense; ! ser.vblex.pres
+!vaux: _.inf.tense;
+!vbmod: _.inf.tense;
+num: _.number;
+prn: _.prntype.person.number.case;
+post: _;
+
+PP: _ ;
+NP: _;
+VP: _;
+
+V: _;
+N: _;
+A: _;
+DET: _;
+NUM: _;
+NEG: _;
+PRN: _;
+
+!!!!!!!!!!!!!!!
+!! TAG-REWRITE RULES
+!!!!!!!!!!!!!!!
+case > case : ine loc, ela loc, ade loc, abl loc, all ill, ins com, par gen, tra ess ;
+inf > inf : infa inf, infe inf, infma inf ;
+
+!!!!!!!!!!!!!!!
+!! MACROS
+!!!!!!!!!!!!!!!
+
+
+!!!!!!!!!!!!!!!
+!! REDUCTION RULES
+!!!!!!!!!!!!!!!
+
+
+NP -> %n { 1 } ;
+NP -> %np { 1 } ;
+NP -> %NP cnjcoo NP { 1 _ 2 _ 3 } ;
+VP -> %vblex { 1 }
+    | %vblex NP { 1 _ 2 } ;
+
+
