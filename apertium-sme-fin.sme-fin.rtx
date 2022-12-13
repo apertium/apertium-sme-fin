@@ -1,0 +1,5 @@
+number = sg pl ;
+person = p1 p2 p3 ;
+case = nom acc gen par ine loc ;
+NP: _.number.case ;
+
