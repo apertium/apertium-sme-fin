@@ -1,4 +1,8 @@
 {
+    "fin-sme-rtx": {
+        "input": "fin-sme-input.rtx",
+        "mode": "fin-sme_rtx"
+    },
     "fin-sme": {
         "input": "fin-sme-input.txt",
         "mode": "fin-sme"

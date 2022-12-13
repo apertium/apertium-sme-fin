@@ -1,54 +1,8 @@
-[-huPZrRHZoOi#0] ^dat<prn><dem><pl><nom>$ ^dállu<n><sg><nom>$
-[/-huPZrRHZoOi]
-[2lis39mpv__z#0] ^dat<prn><dem><sg><ill>$ ^dállu<n><sg><ill>$
-[/2lis39mpv__z]
-[3CHqB7dXkU38#0] ^*Internal$ ^*Goal$^,<cm>$ ^*External$ ^*Goal$
-[/3CHqB7dXkU38]
-[55Gt294rVcDd#0] ^dat<prn><dem><sg><nom>$ ^dállu<n><sg><nom>$
-[/55Gt294rVcDd]
-[58Z6UvH-JQMR#0] ^dat<prn><dem><pl><loc>$ ^dállu<n><pl><loc>$
-[/58Z6UvH-JQMR]
-[9rtVvgGxsmrR#0] ^dat<prn><dem><pl><ill>$ ^dállu<n><pl><ill>$
-[/9rtVvgGxsmrR]
-[F7ASSsghxswN#0] ^dat<prn><dem><pl><loc>$ ^dállu<n><pl><loc>$
-[/F7ASSsghxswN]
-[GNV4BusseAIL#0] ^niitit<vblex><tv><imp><p2><sg>$ ^dállu<n><pl><gen>$
-[/GNV4BusseAIL]
-[JaHlY9KVBbvb#0] ^dat<prn><dem><pl><gen>$ ^dállu<n><pl><gen>$
-[/JaHlY9KVBbvb]
-[KVq9c2SjZ_dq#0] ^danin<adv>$ ^dállu<n><sg><tra>$
-[/KVq9c2SjZ_dq]
-[NU0t27KCO3Mm#0] ^dat<prn><dem><ess>$ ^dállu<n><ess>$
-[/NU0t27KCO3Mm]
-[QlzSn7OKqcK1#0] ^dat<prn><dem><pl><ill>$ ^dállu<n><pl><ill>$
-[/QlzSn7OKqcK1]
-[Tbqe68WJnZEu#0] ^dat<prn><dem><sg><loc>$ ^dállu<n><sg><loc>$
-[/Tbqe68WJnZEu]
-[U-CCQt5On3NF#0] ^dasgo<cnjsub>$ ^dállu<n><sg><loc>$
-[/U-CCQt5On3NF]
-[V3LshyeYTpyP#0] ^dat<prn><dem><sg><ill>$ ^dállu<n><sg><ill>$
-[/V3LshyeYTpyP]
-[XmIWzbCZSeeI#0] ^dat<prn><dem><ess>$ ^dállu<n><ess>$
-[/XmIWzbCZSeeI]
-[_5yRtAmS_jl_#0] ^dat<prn><dem><pl><loc>$ ^dállu<n><pl><loc>$
-[/_5yRtAmS_jl_]
-[_JDrq11s-077#0] ^dat<prn><dem><sg><loc>$ ^dállu<n><sg><loc>$
-[/_JDrq11s-077]
-[_enQ7_A4FhxA#0] ^nissut<vblex><tv><imp><p2><sg>$ ^dállu<n><pl><loc>$
-[/_enQ7_A4FhxA]
-[bjql6QsBXFWj#0] ^dat<prn><dem><sg><gen>$ ^dállu<n><sg><gen>$
-[/bjql6QsBXFWj]
-[g94tev_TJ3AE#0] ^dat<prn><dem><sg><gen>$ ^dállu<n><sg><gen>$
-[/g94tev_TJ3AE]
-[jegFA9ATskRZ#0] ^dat<prn><dem><sg><loc>$ ^dállu<n><sg><loc>$
-[/jegFA9ATskRZ]
-[oCXr-ZD7yr0P#0] ^*Partitive$^,<cm>$ ^*Accusative$^,<cm>$ ^*Genitive$
-[/oCXr-ZD7yr0P]
-[o_QSVWN28cnK#0] ^Olmmoš<n><pl><nom>$ ^leat<vblex><iv><indic><pres><p3><pl>$ ^sierralaš<adj><du><gen>$^.<sent>$
-[/o_QSVWN28cnK]
-[s9mF7pBtO7wf#0] ^Plastihkka<n><sg><nom><cmp><cmp>$ ^busse<n><g3><pl><nom>$ ^leat<vblex><iv><indic><pres><p3><pl>$ ^váralaš<adj><du><gen>$^.<sent>$
-[/s9mF7pBtO7wf]
-[vgVKgMEWiR98#0] ^*Internal$ ^*Source$^,<cm>$ ^*Internal$ ^*Location$^,<cm>$ ^*External$ ^*Source$^,<cm>$ ^*External$ ^*Location$
-[/vgVKgMEWiR98]
-[xmsLGVz5spI9#0] ^dat<prn><dem><pl><tra>$ ^dállu<n><pl><tra>$
-[/xmsLGVz5spI9]
+[EY3p0meI3sSL#0] ^Gánda<n><sg><nom>$ ^leat<vblex><iv><indic><pres><p3><sg>$ ^gárdin<n><sg><loc>$
+[/EY3p0meI3sSL]
+[Qq9FlAsfDt1D#0] ^Jaakko<np><ant><m><sg><nom>$ ^ja<cnjcoo>$ ^Mari<np><ant><f><sg><nom>$ ^leat<vblex><iv><indic><pres><p3><pl>$ ^gárdin<n><sg><loc>$
+[/Qq9FlAsfDt1D]
+[VA039ZYb4ILb#0] ^Gánda<n><sg><nom>$ ^boahtit<vblex><iv><indic><pres><p3><sg>$ ^gárdin<n><sg><loc>$
+[/VA039ZYb4ILb]
+[oFG2TD_1fW0K#0] ^Gánda<n><sg><nom>$ ^mannat<vblex><iv><indic><pres><p3><sg>$ ^gárdin<n><sg><ill>$
+[/oFG2TD_1fW0K]
