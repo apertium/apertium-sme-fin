@@ -58,6 +58,7 @@ AdvP: _ ;
 NumP: _ ;
 INFV: _ ;
 IMVPa: _ ;
+IMVPb: _ ;
 IMVP: _ ;
 VPPRED: _ ;
 
@@ -87,20 +88,16 @@ NP -> %prn { 1 } ;
 NP -> %np { 1 } ;
 NP -> %NP cnjcoo NP { 1 _ 2 _ 3 } ;
 INFV -> vblex.*.infa { 1(vblex_inf) } ;
-IMVPa ->             INFV { 1 }
-      |         AdvP INFV { 1 _ 2 }     
-      |      NP      INFV { 1 _ 2 }     
-      |      NP AdvP INFV { 1 _ 2 _ 3 }     
-      | AdvP NP AdvP INFV { 1 _ 2 _ 3 _ 4 }     
-      | AdvP             INFV { 1 _ 2 }
-      | AdvP         AdvP INFV { 1 _ 2 _ 3 }     
-      | AdvP      NP      INFV { 1 _ 2 _ 3 }     
-      | AdvP      NP AdvP INFV { 1 _ 2 _ 3 _ 4}     
-      | AdvP AdvP NP AdvP INFV { 1 _ 2 _ 3 _ 4 _ 5 }     
-      ;
-IMVP -> IMVPa 
-      | IMVPa NP
-      | IMVPa NP AdvlP 
+IMVPa -> INFV { 1 }
+       | AdvP IMVPa { 1 _ 2 }
+       ;
+IMVPb -> IMVPa { 1 }
+       | NP IMVPa { 1 _ 2 }
+       | AdvP IMVPb { 1 _ 2 }
+       ;
+IMVP -> IMVPb { 1 }
+      | IMVPb NP { 1 _ 2 }
+      | IMVPb NP AdvlP { 1 _ 2 _ 3 }
       ;
 VP -> %vblex { 1 }
     | %vblex IMVP { 1 _ 2 }
