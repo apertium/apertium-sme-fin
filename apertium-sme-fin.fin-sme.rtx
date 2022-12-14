@@ -11,7 +11,7 @@ case = nom acc gen par dat ine ela ill ade abl all abe com lat ins ess ;
 comp = pst comp sup ;
 inf = inf infa infe infma ;
 prntype = pers ;
-cnjcoo = cnjcoo ;
+transitivity = iv tv ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -23,26 +23,43 @@ np: _.number.case;
 adj: _.comp.number.case;
 adj: _.number.case;
 adv: _ ;
+conneg: _.mood.tense.<conneg> ;
 det: _.det_type.number.case;
 vblex: _.mood.tense.person.number ;
-!vblex: _.inf.tense; ! ser.vblex.pres
+vblex_conneg: _.mood.<conneg> ;
+vblex_inf: <vblex>.<inf> ; ! ser.vblex.pres
 !vaux: _.inf.tense;
 !vbmod: _.inf.tense;
-num: _.number;
+! input: ei<vblex>
+neg: <vblex>.<iv>.<neg>.<indic>.person.number ;
+num: _.number.case;
 prn: _.prntype.person.number.case;
 post: _;
-
-PP: _ ;
-NP: _;
-VP: _;
+pcle: _ ;
 
 V: _;
 N: _;
 A: _;
-DET: _;
-NUM: _;
-NEG: _;
-PRN: _;
+
+AP: _ ;
+PP: _ ;
+NP: _ ;
+VP: _ ;
+
+DET: _ ;
+NUM: _ ;
+NEG: _ ;
+PRN: _ ;
+AdvP: _ ;
+VPP: _ ;
+NegP: _ ;
+S: _ ;
+AdvP: _ ;
+NumP: _ ;
+INFV: _ ;
+IMVPa: _ ;
+IMVP: _ ;
+VPPRED: _ ;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -59,11 +76,53 @@ inf > inf : infa inf, infe inf, infma inf ;
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-!adv -> adv { 1 } ;
+AP -> %adj { 1 }
+    | adv %adj { 1 _ 2 }
+    ;
+AdvP -> %adv { 1 }
+      | %adv cnjcoo adv { 1 _ 2 _ 3 };
 NP -> %n { 1 } ;
+NP -> AP %n { 1 _ 2 };
+NP -> %prn { 1 } ;
 NP -> %np { 1 } ;
 NP -> %NP cnjcoo NP { 1 _ 2 _ 3 } ;
+INFV -> vblex.*.infa { 1(vblex_inf) } ;
+IMVPa ->             INFV { 1 }
+      |         AdvP INFV { 1 _ 2 }     
+      |      NP      INFV { 1 _ 2 }     
+      |      NP AdvP INFV { 1 _ 2 _ 3 }     
+      | AdvP NP AdvP INFV { 1 _ 2 _ 3 _ 4 }     
+      | AdvP             INFV { 1 _ 2 }
+      | AdvP         AdvP INFV { 1 _ 2 _ 3 }     
+      | AdvP      NP      INFV { 1 _ 2 _ 3 }     
+      | AdvP      NP AdvP INFV { 1 _ 2 _ 3 _ 4}     
+      | AdvP AdvP NP AdvP INFV { 1 _ 2 _ 3 _ 4 _ 5 }     
+      ;
+IMVP -> IMVPa 
+      | IMVPa NP
+      | IMVPa NP AdvlP 
+      ;
 VP -> %vblex { 1 }
-    | %vblex NP { 1 _ 2 } ;
+    | %vblex IMVP { 1 _ 2 }
+    | %vblex NP { 1 _ 2 }
+    | %vblex %AdvP NP { 1 _ 2 _ 3 }
+!   | %vblex NP { 1 _ 2 }
+    | %vblex adj { 1 _ 2 }
+    | %vblex AdvP adj { 1 _ 2 _ 3 }
+    ;
+VPP -> adv VP { 1 _ 2 } ;
+!pcle -> %pcle { 1 } ;
+S -> NP VP { 1 _ 2 }
+   | AdvP NP VP { 1 _ 2 _ 3  }
+   ;
+VPPRED -> VP IMVP { 1 _ 2 }
+        | VP NP   { 1 _ 2 }
+        ;
 
+NegP -> ei@vblex vblex.*.conneg { 1(neg)[mood=2.mood, person=1.person, number=1.number] _ 2(conneg) } ;
 
+!    <e><p><l>ii<s n="vblex"/><s n="iv"/><s n="neg"/></l><r>ei<s n="vblex"/><s n="neg"/></r></p><par n="V_V"/></e>
+!    <e><p><l>ii<s n="vblex"/><s n="iv"/></l><r>ei<s n="vblex"/></r></p><par n="V_V"/></e>
+
+NumP -> num { 1 }
+      | num NP { 1 _ 2 } ;
