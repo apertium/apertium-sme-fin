@@ -115,8 +115,8 @@ VPPRED -> VP IMVP { 1 _ 2 }
         | VP NP   { 1 _ 2 }
         ;
 
-negv -> ei@vblex { 1 } ;
-connegv -> %vblex.*.conneg {  1(conneg) } ;
+negv -> 10: %ei@vblex { 1(neg)[person=1.person, number=1.number] } ;
+connegv -> 10: %vblex.*.conneg {  1(conneg) } ;
 
 ConnegPa -> connegv { 1 }
        | AdvP ConnegPa { 1 _ 2 }
@@ -130,7 +130,9 @@ ConnegP -> ConnegPa { 1 }
       | ConnegPb NP AdvP { 1 _ 2 _ 3 }
       ;
 
-NegP -> negv ConnegP { 1(neg)[mood=2.mood, person=1.person, number=1.number] _ 2 } ;
+NegP -> negv ConnegP { 1[mood=2.mood, person=1.person, number=1.number] _ 2 } ;
+
+!Frå sme
 
 !NegP -> ei@vblex vblex.*.conneg { 1(neg)[mood=2.mood, person=1.person, number=1.number] _ 2(conneg) } ;
 
@@ -139,3 +141,8 @@ NegP -> negv ConnegP { 1(neg)[mood=2.mood, person=1.person, number=1.number] _ 2
 
 NumP -> num { 1 }
       | num NP { 1 _ 2 } ;
+
+
+
+!( endre output, dvs ein av dei tinga vi har definert i output rules )
+![ endre verdi brukt av output pattern ]
