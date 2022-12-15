@@ -87,7 +87,10 @@ NP -> AP %n { 1 _ 2 };
 NP -> %prn { 1 } ;
 NP -> %np { 1 } ;
 NP -> %NP cnjcoo NP { 1 _ 2 _ 3 } ;
-INFV -> vblex.*.infa { 1(vblex_inf) } ;
+INFV -> vblex.*.infa { 1(vblex_inf) }
+      | vblex.*.infe { 1(vblex_inf) }
+      | vblex.*.infma { 1(vblex_inf) }
+      ;
 IMVPa -> INFV { 1 }
        | AdvP IMVPa { 1 _ 2 }
        ;
@@ -101,10 +104,13 @@ IMVP -> IMVPb { 1 }
       ;
 VP -> %vblex { 1 }
     | %vblex IMVP { 1 _ 2 }
-    | %vblex NP { 1 _ 2 }
-    | %vblex %AdvP NP { 1 _ 2 _ 3 }
-    | %vblex adj { 1 _ 2 }
-    | %vblex AdvP adj { 1 _ 2 _ 3 }
+    | %vblex       NP     { 1 _ 2 }
+    | %vblex %AdvP NP     { 1 _ 2 _ 3 }
+    | %vblex adj          { 1 _ 2[case=
+      	     (if ((1.lem/sl equalcl "olla") and (2.case/sl = par)) nom
+	      else 2.case>case)] }
+    | %vblex     AdvP     { 1 _ 2 } 
+    | %vblex     AdvP adj { 1 _ 2 _ 3 }
     ;
 VPP -> adv VP { 1 _ 2 } ;
 !pcle -> %pcle { 1 } ;
