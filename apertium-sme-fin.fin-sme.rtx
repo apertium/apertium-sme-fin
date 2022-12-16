@@ -61,6 +61,9 @@ vblex: _.mood.tense.person.number ;
 vblex_conneg: _.mood.<conneg> ;
 vblex_inf: <vblex>.<inf> ; ! ser.vblex.pres
 
+!he eivät voineet leikkiä
+!#sáhttit<vblex><indic><pret><pl>
+!^sáhttán/sáhttit<vblex><iv><indic><pret><conneg>
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
