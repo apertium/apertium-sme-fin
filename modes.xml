@@ -57,6 +57,9 @@
       <program name="cg-proc -1 -w -n">
         <file name="fin-sme.mor.rlx.bin"/>
       </program>
+      <program name="cg-proc -1 -n -w" debug-suff="syntax">
+        <file name="fin-sme.syn.rlx.bin"/>
+      </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
@@ -125,6 +128,9 @@
       <program name="cg-proc -1 -w -n">
         <file name="fin-sme.mor.rlx.bin"/>
       </program>
+      <program name="cg-proc -1 -n -w" debug-suff="syntax">
+        <file name="fin-sme.syn.rlx.bin"/>
+      </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
@@ -172,6 +178,9 @@
       </program>
       <program name="cg-proc -1 -w -n">
         <file name="fin-sme.mor.rlx.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -w" debug-suff="syntax">
+        <file name="fin-sme.syn.rlx.bin"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
