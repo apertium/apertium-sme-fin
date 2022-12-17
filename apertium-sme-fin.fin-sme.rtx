@@ -8,10 +8,13 @@ diathesis = actv pass ;
 mood = indic imp cond ;
 person = p1 p2 p3 ;
 case = nom acc gen par dat ine ela ill ade abl all abe com lat ins ess ;
+a_attr = attr ;
 comp = pst comp sup ;
-inf = inf infa infe infma ;
+inf = inf infa infe infma der_minen ;
 prntype = pers ;
 transitivity = iv tv ;
+
+w_kanssa = kanssa ;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -44,6 +47,7 @@ VPP: _ ;
 VPPRED: _ ;
 adj: _.comp.number.case ;
 adj: _.number.case ;
+adj_attr: _.attr ;
 adv: _ ;
 cnjcoo: _ ;
 connegv: _ ; 
@@ -69,7 +73,7 @@ vblex_inf: <vblex>.<inf> ; ! ser.vblex.pres
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 case > case : ine loc, ela loc, ade loc, abl loc, all ill, ins com, par gen, tra ess ;
-inf > inf : infa inf, infe inf, infma inf ;
+inf > inf : infa inf, infe inf, infma inf, der_minen inf ;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -84,7 +88,10 @@ AP -> %adj { 1 }
     | adv %adj { 1 _ 2 }
     ;
 AdvP -> %adv { 1 }
-      | %adv cnjcoo adv { 1 _ 2 _ 3 };
+      | %adv cnjcoo adv { 1 _ 2 _ 3 }
+      | PP { 1 }
+      ;
+      
 NP -> %n { 1 } ;
 NP -> AP %n { 1 _ 2 };
 NP -> %prn { 1 } ;
@@ -93,6 +100,7 @@ NP -> %NP cnjcoo NP { 1 _ 2 _ 3 } ;
 INFV -> vblex.*.infa { 1(vblex_inf) }
       | vblex.*.infe { 1(vblex_inf) }
       | vblex.*.infma { 1(vblex_inf) }
+      | vblex.*.der_minen { 1(vblex_inf) }
       ;
 IMVPa -> INFV { 1 }
        | AdvP IMVPa { 1 _ 2 }
@@ -103,12 +111,13 @@ IMVPb -> IMVPa { 1 }
        ;
 IMVP -> IMVPb { 1 }
       | IMVPb NP { 1 _ 2 }
+      | IMVPb AdvP { 1 _ 2 }
       | IMVPb NP AdvP { 1 _ 2 _ 3 }
       ;
 VP -> %vblex { 1 }
     | %vblex IMVP { 1 _ 2 }
-    | %vblex       NP     { 1 _ 2 }
-    | %vblex %AdvP NP     { 1 _ 2 _ 3 }
+    | %vblex      NP     { 1 _ 2 }
+    | %vblex AdvP NP     { 1 _ 2 _ 3 }
     | %vblex adj          { 1 _ 2[case=
       	     (if ((1.lem/sl equalcl "olla") and (2.case/sl = par)) nom
 	      else 2.case>case)] }
@@ -135,19 +144,20 @@ ConnegPb -> ConnegPa { 1 }
        | AdvP ConnegPb { 1 _ 2 }
        ;
 ConnegP -> ConnegPa { 1 }
+      | ConnegPb IMVP { 1 _ 2 }
       | ConnegPb NP { 1 _ 2 }
       | ConnegPb NP AdvP { 1 _ 2 _ 3 }
       ;
 
 NegP -> negv ConnegP { 1[mood=2.mood, person=1.person, number=1.number] _ 2 } ;
 
-!Frå sme
-
-!NegP -> ei@vblex vblex.*.conneg { 1(neg)[mood=2.mood, person=1.person, number=1.number] _ 2(conneg) } ;
-
-!    <e><p><l>ii<s n="vblex"/><s n="iv"/><s n="neg"/></l><r>ei<s n="vblex"/><s n="neg"/></r></p><par n="V_V"/></e>
-!    <e><p><l>ii<s n="vblex"/><s n="iv"/></l><r>ei<s n="vblex"/></r></p><par n="V_V"/></e>
-
+PP -> "pp"        NP post { 1 _ 2 }
+    | "ppcom" 20:         n kanssa@post { 1[case=com] }
+    | "ppcom" 20:     adj n kanssa@post { 1[case="", number="", a_attr=attr] _ 2[case=com] }
+    | "ppcom" 20: num     n kanssa@post { 1 _ 2[case=com] }
+    | "ppcom" 20: num adj n kanssa@post { 1 _ 2 _ 3[case=com] }
+    ;
+    
 NumP -> num { 1 }
       | num NP { 1 _ 2 } ;
 
