@@ -128,9 +128,9 @@
       <program name="cg-proc -1 -w -n">
         <file name="fin-sme.mor.rlx.bin"/>
       </program>
-      <program name="cg-proc -1 -n -w" debug-suff="syntax">
+<!--      <program name="cg-proc -1 -n -w" debug-suff="syntax">
         <file name="fin-sme.syn.rlx.bin"/>
-      </program>
+      </program>-->
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
         <file name="fin-sme.autobil.bin"/>
@@ -149,7 +149,7 @@
 
   <mode name="sme-fin_rtx-tree" install="no">
     <pipeline>
-      <program name="hfst-proc -e -w">
+      <program name="hfst-proc 1 -e -w">
         <file name="sme-fin.automorf.hfst"/>
       </program>
       <program name="cg-proc" debug-suff="disam">
