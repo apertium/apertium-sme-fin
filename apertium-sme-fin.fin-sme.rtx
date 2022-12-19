@@ -8,10 +8,12 @@ diathesis = actv pass ;
 mood = indic imp cond ;
 person = p1 p2 p3 ;
 case = nom acc gen par dat ine ela ill ade abl all abe com lat ins ess ;
-a_attr = attr ;
+compcase = cmp_sgnom cmp_sggen cmp_plgen ;
+cmp = cmp ;
+attr = attr ;
 comp = pst comp sup ;
 inf = inf infa infe infma der_minen ;
-prntype = pers ;
+prntype = pers dem ;
 transitivity = iv tv ;
 
 w_kanssa = kanssa ;
@@ -54,13 +56,15 @@ connegv: _ ;
 conneg: _.mood.tense.<conneg> ;
 det: _.det_type.number.case ;
 n: _.number.case ;
+ncomp: _.compcase.cmp ;
 neg: <vblex>.<iv>.<neg>.<indic>.person.number ;
 negv: _ ;
 np: _.number.case ;
 num: _.number.case ;
 pcle: _ ;
 post: _ ;
-prn: _.prntype.person.number.case ;
+prn: _.<pers>.person.number.case ;
+prn: _.<dem>.number.case ;
 vblex: _.mood.tense.person.number ;
 vblex_conneg: _.mood.<conneg> ;
 vblex_inf: <vblex>.<inf> ; ! ser.vblex.pres
@@ -91,12 +95,25 @@ AdvP -> %adv { 1 }
       | %adv cnjcoo adv { 1 _ 2 _ 3 }
       | PP { 1 }
       ;
-      
-NP -> %n { 1 } ;
-NP -> AP %n { 1 _ 2 };
+
+! Compounding (does not work)
+N -> n { %1 }
+   | ncomp %n { 1(ncomp) 2 }
+   ;
+!NP -> "nn" n.*.cmp n% { 1  %2 }
+
+NP ->              %n { 1 }
+    | "dn" prn.dem %n { 1[case = (if (1.case = nom) nom
+                            else gen)]
+			    _ %2 }
+    ;
+NP -> "an" adj %n { 1(adj_attr)[attr=attr] _ %2 };
 NP -> %prn { 1 } ;
 NP -> %np { 1 } ;
 NP -> %NP cnjcoo NP { 1 _ 2 _ 3 } ;
+
+
+
 INFV -> vblex.*.infa { 1(vblex_inf) }
       | vblex.*.infe { 1(vblex_inf) }
       | vblex.*.infma { 1(vblex_inf) }
@@ -114,6 +131,7 @@ IMVP -> IMVPb { 1 }
       | IMVPb AdvP { 1 _ 2 }
       | IMVPb NP AdvP { 1 _ 2 _ 3 }
       ;
+
 VP -> %vblex { 1 }
     | %vblex IMVP { 1 _ 2 }
     | %vblex      NP     { 1 _ 2 }
@@ -124,8 +142,11 @@ VP -> %vblex { 1 }
     | %vblex     AdvP     { 1 _ 2 } 
     | %vblex     AdvP adj { 1 _ 2 _ 3 }
     ;
+
 VPP -> adv VP { 1 _ 2 } ;
+
 !pcle -> %pcle { 1 } ;
+
 S -> NP VP { 1 _ 2 }
    | AdvP NP VP { 1 _ 2 _ 3  }
    ;
@@ -151,7 +172,8 @@ ConnegP -> ConnegPa { 1 }
 
 NegP -> negv ConnegP { 1[mood=2.mood, person=1.person, number=1.number] _ 2 } ;
 
-PP -> "pp"        NP post { 1 _ 2 }
+PP -> "pp"        NP        post { 1 _ 2 }
+!    | "pp"        prn 
     | "ppcom" 20:         n kanssa@post { 1[case=com] }
     | "ppcom" 20:     adj n kanssa@post { 1[case="", number="", a_attr=attr] _ 2[case=com] }
     | "ppcom" 20: num     n kanssa@post { 1 _ 2[case=com] }
