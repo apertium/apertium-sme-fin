@@ -116,9 +116,9 @@
     </pardef>
 
     <pardef n="V_V">
-    <e><p><l></l><r><s n="der_minen"/></r></p></e>
     <e><p><l></l><r><s n="actv"/></r></p></e>
     <e><p><l></l><r><s n="actv"/></r></p><par n="V_V_nonfin"/></e>
+    <e><p><l></l><r><s n="der_minen"/></r></p></e>
     </pardef>
 
     <pardef n="iso__adj">
@@ -509,6 +509,7 @@
     <e><p><l>diet<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="sg"/></r></p></e>
     <e><p><l>diet<s n="prn"/><s n="dem"/><s n="pl"/></l><r>ne<s n="prn"/><s n="pl"/></r></p></e>
     <e><p><l>dat<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="sg"/></r></p></e>
+    <e><p><l>dat<s n="prn"/><s n="dem"/><s n="sg"/></l><r>se<s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
     <e><p><l>dat<s n="prn"/><s n="dem"/><s n="pl"/></l><r>ne<s n="prn"/><s n="pl"/></r></p></e>
     <e><p><l>dát<s n="prn"/><s n="dem"/><s n="sg"/></l><r>tämä<s n="prn"/><s n="sg"/></r></p></e>
     <e><p><l>dát<s n="prn"/><s n="dem"/><s n="pl"/></l><r>nämä<s n="prn"/><s n="pl"/></r></p></e>
