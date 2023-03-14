@@ -54,7 +54,7 @@
       <program name="hfst-proc -e -w">
         <file name="fin-sme.automorf.hfst"/>
       </program>
-      <program name="cg-proc -1 -w -n">
+      <program name="cg-proc">
         <file name="fin-sme.mor.rlx.bin"/>
       </program>
       <program name="cg-proc -1 -n -w" debug-suff="syntax">
@@ -194,7 +194,7 @@
       </program>
     </pipeline>
   </mode>
-  
+
 </modes>
 
 
