@@ -2,18 +2,24 @@
 !! ATTRIBUTE CATEGORIES
 !!!!!!!!!!!!!!!
 
-number = sg pl sp;
+number = sg du pl sp;
 tense = pres pret ;
 diathesis = actv pass ;
 mood = indic imp cond ;
 person = p1 p2 p3 ;
 case = nom acc gen par dat ine ela ill ade abl all abe com lat ins ess ;
 compcase = cmp_sgnom cmp_sggen cmp_plgen ;
-cmp = cmp ;
+cmp = cmp_sggen cmp_sgnom cmp_attr cmp_plgen cmp_sh cmp_hyph cmp_oblhyph cmp_cit ;
+onlycmp = cmp ;
+cmpsplitr = cmp_splitr ;
 attr = attr ;
 comp = pst comp sup ;
 inf = inf infa infe infma der_minen ;
-prntype = pers dem ;
+!prntype = pers dem ; ! Trond
+poss = ("" "") px1sg px1du px1pl px2sg px2du px2pl px3sg px3du px3pl ;
+prn_type_other = rel dem ind itg ;
+prn_type = pers ref res [prn_type_other] ;
+qst = qst ;	
 transitivity = iv tv ;
 
 w_kanssa = kanssa ;
@@ -25,7 +31,7 @@ w_kanssa = kanssa ;
 A: _;
 AP: _ ;
 AdvP: _ ;
-AdvP: _ ;
+C: _;
 ConnegP: _ ;
 ConnegPa: _ ;
 ConnegPb: _ ;
@@ -40,6 +46,7 @@ NP: _ ;
 NUM: _ ;
 NegP: _ ;
 NumP: _ ;
+PCLE: _;
 PP: _ ;
 PRN: _ ;
 S: _ ;
@@ -52,22 +59,30 @@ adj: _.number.case ;
 adj_attr: _.attr ;
 adv: _ ;
 cnjcoo: _ ;
+cnjsub: _ ;
 connegv: _ ; 
 conneg: _.mood.tense.<conneg> ;
 det: _.det_type.number.case ;
-n: _.number.case ;
+n: _.number.case.poss.cmp.onlycmp ; ! oli: _.number.case
 ncomp: _.compcase.cmp ;
 neg: <vblex>.<iv>.<neg>.<indic>.person.number ;
 negv: _ ;
 np: _.number.case ;
 num: _.number.case ;
-pcle: _ ;
+pcle: _.qst ; ! oli: _ ;
 post: _ ;
-prn: _.<pers>.person.number.case ;
-prn: _.<dem>.number.case ;
+pr: _;
+prn_pers: _.<pers>.person.number.case ;
+prn_dem: _.<dem>.number.case ;
+prn_other: _.prn_type.number.case;
+prn: (if (1.prn_type = dem) 1(prn_dem)
+         elif (1.prn_type = pers) 1(prn_pers)
+         else 1(prn_other)) ;
 vblex: _.mood.tense.person.number ;
 vblex_conneg: _.mood.<conneg> ;
 vblex_inf: <vblex>.<inf> ; ! ser.vblex.pres
+
+
 
 !he eivät voineet leikkiä
 !#sáhttit<vblex><indic><pret><pl>
@@ -88,66 +103,88 @@ inf > inf : infa inf, infe inf, infma inf, der_minen inf ;
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
-AP -> %adj { 1 }
+AP ->     %adj { 1 }
     | adv %adj { 1 _ 2 }
     ;
-AdvP -> %adv { 1 }
-      | %adv cnjcoo adv { 1 _ 2 _ 3 }
-      | PP { 1 }
-      ;
 
-! Compounding (does not work)
-N -> n { %1 }
-   | ncomp %n { 1(ncomp) 2 }
+
+N ->    1: %n { %1[semtag=""] }
+   | 2: %n.*.cmp  N { %1[semtag=""] + 2[semtag=""] } 
    ;
-!NP -> "nn" n.*.cmp n% { 1  %2 }
 
-NP ->              %n { 1 }
-    | "dn" prn.dem %n { 1[case = (if (1.case = nom) nom
-                            else gen)]
-			    _ %2 }
+NP ->  %N { %1 } ;
+
+NP -> %num n {1 _ 2} 
+ | %num n [$number=(if (1.lem = "1") sg else pl)] { 1 _ 2[number=1.number] } ; 
+
+NP -> prn.ref %n { 1 _ 2}  !ietjam viellja
+    | prn.dem %n { 1 _ 2}  !dav vielja
     ;
-NP -> "an" adj %n { 1(adj_attr)[attr=attr] _ %2 };
-NP -> %prn { 1 } ;
-NP -> %np { 1 } ;
-NP -> %NP cnjcoo NP { 1 _ 2 _ 3 } ;
+
+NP ->  "adj NP" adj.attr  %NP { 1 _ %2[poss=$poss] }
+    | "buorre NP" buorre@adj  %NP { 1 _ %2[poss=$poss] }
+    | "adj adj NP" adj.attr adj.attr %NP { 1 _ 2 _ %3[poss=$poss] } 
+    | "prn.gen NP" prn.*.gen  %NP { 1 _ %2[poss=$poss] }
+    | "np" %np { 1 } 
+    | "prn" %prn { 1 } 
+    ;
+
+NP -> NP cnjcoo %NP { 1 _ 2 _ %3[case=$case] } ;
+
+
+!NP ->              %n { 1 }
+!    | "dn" prn.dem.* %n { 1[case = (if (1.case = nom) nom
+!                            else gen)]
+!			    _ %2 }
+!    ;
+!NP -> "an" adj %n { 1(adj_attr)[attr=attr] _ %2 };
+!NP -> %prn { 1 } ;
+!NP -> %np { 1 } ;
+!NP -> %NP cnjcoo NP { 1 _ 2 _ 3 } ;
+! tai
+C -> %cnjcoo {1} 
+   | %cnjsub {1}
+   ;
+
+PCLE -> %pcle {1} ;
 
 
 
-INFV -> vblex.*.infa { 1(vblex_inf) }
-      | vblex.*.infe { 1(vblex_inf) }
-      | vblex.*.infma { 1(vblex_inf) }
+
+INFV -> vblex.*.infa      { 1(vblex_inf) }
+      | vblex.*.infe      { 1(vblex_inf) }
+      | vblex.*.infma     { 1(vblex_inf) }
       | vblex.*.der_minen { 1(vblex_inf) }
       ;
-IMVPa -> INFV { 1 }
+IMVPa ->      INFV  { 1 }
        | AdvP IMVPa { 1 _ 2 }
        ;
-IMVPb -> IMVPa { 1 }
-       | NP IMVPa { 1 _ 2 }
+IMVPb -> IMVPa      { 1 }
+       | NP   IMVPa { 1 _ 2 }
        | AdvP IMVPb { 1 _ 2 }
        ;
-IMVP -> IMVPb { 1 }
-      | IMVPb NP { 1 _ 2 }
-      | IMVPb AdvP { 1 _ 2 }
+IMVP -> IMVPb         { 1 }
+      | IMVPb NP      { 1 _ 2 }
+      | IMVPb    AdvP { 1 _ 2 }
       | IMVPb NP AdvP { 1 _ 2 _ 3 }
       ;
 
-VP -> %vblex { 1 }
-    | %vblex IMVP { 1 _ 2 }
-    | %vblex      NP     { 1 _ 2 }
-    | %vblex AdvP NP     { 1 _ 2 _ 3 }
-    | %vblex adj          { 1 _ 2[case=
+VP -> %vblex               { 1 }
+    | %vblex IMVP          { 1 _ 2 }
+    | %vblex      NP       { 1 _ 2 }
+    | %vblex AdvP NP       { 1 _ 2 _ 3 }
+    | %vblex      AdvP     { 1 _ 2 } 
+    | %vblex      AdvP adj { 1 _ 2 _ 3 }
+    | %vblex adj         { 1 _ 2[case=
       	     (if ((1.lem/sl equalcl "olla") and (2.case/sl = par)) nom
-	      else 2.case>case)] }
-    | %vblex     AdvP     { 1 _ 2 } 
-    | %vblex     AdvP adj { 1 _ 2 _ 3 }
+	          else 2.case>case)] }
     ;
 
 VPP -> adv VP { 1 _ 2 } ;
 
 !pcle -> %pcle { 1 } ;
 
-S -> NP VP { 1 _ 2 }
+S ->      NP VP { 1 _ 2 }
    | AdvP NP VP { 1 _ 2 _ 3  }
    ;
 VPPRED -> VP IMVP { 1 _ 2 }
@@ -157,16 +194,16 @@ VPPRED -> VP IMVP { 1 _ 2 }
 negv -> 10: %ei@vblex { 1(neg)[person=1.person, number=1.number] } ;
 connegv -> 10: %vblex.*.conneg {  1(conneg) } ;
 
-ConnegPa -> connegv { 1 }
-       | AdvP ConnegPa { 1 _ 2 }
-       ;
-ConnegPb -> ConnegPa { 1 }
-       | NP ConnegPa { 1 _ 2 }
-       | AdvP ConnegPb { 1 _ 2 }
-       ;
-ConnegP -> ConnegPa { 1 }
-      | ConnegPb IMVP { 1 _ 2 }
-      | ConnegPb NP { 1 _ 2 }
+ConnegPa ->   connegv    { 1 }
+       | AdvP ConnegPa   { 1 _ 2 }
+       ;			     
+ConnegPb ->   ConnegPa   { 1 }
+       | NP   ConnegPa   { 1 _ 2 }
+       | AdvP ConnegPb   { 1 _ 2 }
+       ;			     
+ConnegP ->    ConnegPa   { 1 }
+      | ConnegPb IMVP    { 1 _ 2 }
+      | ConnegPb NP      { 1 _ 2 }
       | ConnegPb NP AdvP { 1 _ 2 _ 3 }
       ;
 
@@ -179,8 +216,13 @@ PP -> "pp"        NP        post { 1 _ 2 }
     | "ppcom" 20: num     n kanssa@post { 1 _ 2[case=com] }
     | "ppcom" 20: num adj n kanssa@post { 1 _ 2 _ 3[case=com] }
     ;
+
+AdvP -> %adv            { 1 }
+      | %adv cnjcoo adv { 1 _ 2 _ 3 }
+      | PP              { 1 }
+      ;
     
-NumP -> num { 1 }
+NumP -> num    { 1 }
       | num NP { 1 _ 2 } ;
 
 
