@@ -2,6 +2,8 @@
 !! ATTRIBUTE CATEGORIES
 !!!!!!!!!!!!!!!
 
+function = "@+FAUXV" "@+FAUXV" "@+FMAINV" "@-F←ADVL" "@-F←ADVL-ine" "@-F←ADVL-ela" "@-F←OBJ" "@-F←OPRED" "@-F←SUBJ" "@-FADVL→" "@-FAUXV" "@-FMAINV" "@-FOBJ→" "@-FSUBJ→" "@←ADVL" "@←ADVL-ela" "@←ADVL-ine" "@←OBJ" "@←OPRED" "@←PPRED" "@←SPRED" "@←SUBJ" "@→A" "@→ADVL" "@→CC" "@→N" "@→Num" "@→P" "@→Pron" "@A←" "@ADVL" "@ADVL←" "@ADVL→" "@ADVL-ela→" "@ADVL-ine→" "@ADVLcs-ela→" "@ADVLcs-ine→" "@ADVLqst-ela→" "@ADVLqst-ine→" "@ADVLhab→" "@←ADVLhab" "@←SUBJext" "@ADVL→CS" "@APP-ADVL←" "@APP-N←" "@APP-Pron←" "@CNP" "@COMP-CS←" "@CVP" "@HNOUN" "@INTERJ" "@N←" "@Num←" "@OBJ→" "@OPRED→" "@P←" "@PCLE" "@Pron←" "@SPRED←OBJ" "@SPRED→" "@SUBJ→" "@VOC" "@X"  ;
+
 number = sg du pl sp;
 tense = pres pret ;
 diathesis = actv pass ;
@@ -121,12 +123,12 @@ NP -> prn.ref %n { 1 _ 2}  !ietjam viellja
     | prn.dem %n { 1 _ 2}  !dav vielja
     ;
 
-NP ->  "adj NP" adj.attr  %NP { 1 _ %2[poss=$poss] }
-    | "buorre NP" buorre@adj  %NP { 1 _ %2[poss=$poss] }
-    | "adj adj NP" adj.attr adj.attr %NP { 1 _ 2 _ %3[poss=$poss] } 
-    | "prn.gen NP" prn.*.gen  %NP { 1 _ %2[poss=$poss] }
-    | "np" %np { 1 } 
-    | "prn" %prn { 1 } 
+NP ->  "adj n"    1: adj.*."@→N"  %n { 1(adj_attr) _ %2[poss=$poss] }
+    | "hyvä n"    2: hyvä@adj  %n    { 1 _ %2[poss=$poss] }
+    | "adj adj n" 1: adj adj %n      { 1 _ 2 _ %3[poss=$poss] } 
+    | "prn.gen n" 1: prn.*.gen  %n   { 1 _ %2[poss=$poss] }
+    | "np"        1: %np             { %1 } 
+    | "prn"       1: %prn            { %1 } 
     ;
 
 NP -> NP cnjcoo %NP { 1 _ 2 _ %3[case=$case] } ;
@@ -212,7 +214,7 @@ NegP -> negv ConnegP { 1[mood=2.mood, person=1.person, number=1.number] _ 2 } ;
 PP -> "pp"        NP        post { 1 _ 2 }
 !    | "pp"        prn 
     | "ppcom" 20:         n kanssa@post { 1[case=com] }
-    | "ppcom" 20:     adj n kanssa@post { 1[case="", number="", a_attr=attr] _ 2[case=com] }
+    | "ppcom" 20:     adj n kanssa@post { 1[case="",number="", a_attr=attr] _ 2[case=com] }
     | "ppcom" 20: num     n kanssa@post { 1 _ 2[case=com] }
     | "ppcom" 20: num adj n kanssa@post { 1 _ 2 _ 3[case=com] }
     ;
